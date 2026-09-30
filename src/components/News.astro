@@ -1,0 +1,7 @@
+---
+import data from '../data/dashboard.json';
+import { select } from '../lib/model.mjs';
+const { filter = 'All', limit = Infinity } = Astro.props;
+const items = select(data.news, 'source', filter).slice(0, limit);
+---
+<div class="news-list">{items.map((item, index) => <a class="news-item" href={item.url} target="_blank" rel="noopener noreferrer"><span class="story-number">{String(index+1).padStart(2,'0')}</span><div><div class="meta"><span>{item.source}</span><span>{item.category}</span></div><h3>{item.title}</h3><p>{item.description}</p><small>{item.label} · opens in a new tab</small></div><span class="arrow" aria-hidden="true"><svg class="arrow-icon" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 18 18 6M6 6h12v12" /></svg></span></a>)}</div>

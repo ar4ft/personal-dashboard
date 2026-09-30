@@ -1,0 +1,54 @@
+---
+import data from '../data/dashboard.json';
+---
+<section class="calendar-widget" data-events={JSON.stringify(data.events)}>
+<div class="calendar-controls"><h3 id="calendar-month" aria-live="polite">Calendar</h3><div><button type="button" id="previous-month" aria-label="Previous month">←</button><button type="button" id="current-month">Today</button><button type="button" id="next-month" aria-label="Next month">→</button></div></div>
+<div class="calendar-week" aria-hidden="true">{['M','T','W','T','F','S','S'].map(day=><span>{day}</span>)}</div><div class="calendar-grid" id="calendar-days"></div>
+<p class="hint">Dots mark events. Select a date to see its agenda.</p>
+<h3 class="agenda-heading" id="agenda-heading">Upcoming events</h3><div id="agenda" aria-live="polite"></div>
+<noscript><p>Enable JavaScript to browse the calendar.</p>{data.events.map(event => <p>{event.date} · {event.time} · {event.title}</p>)}</noscript>
+</section>
+<script>
+const widget = document.querySelector<HTMLElement>('.calendar-widget');
+if (widget) {
+  const events: { date: string; time: string; title: string; calendar: string; description: string }[] = JSON.parse(widget.dataset.events || '[]');
+  const today = new Date();
+  let month = new Date(today.getFullYear(), today.getMonth(), 1);
+  let selected = '';
+  const dateKey = (date: Date) => `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+  const agenda = document.querySelector('#agenda')!;
+  function renderAgenda() {
+    document.querySelector('#agenda-heading')!.textContent = selected ? new Date(`${selected}T12:00:00`).toLocaleDateString(undefined, {month:'long',day:'numeric'}) : 'Upcoming events';
+    agenda.replaceChildren();
+    const matches = events.filter(event => selected ? event.date === selected : event.date >= dateKey(today)).sort((a,b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
+    if (!matches.length) { const p = document.createElement('p'); p.className = 'hint'; p.textContent = selected ? 'A little room to breathe. No events for this day.' : 'No upcoming events. Add some in dashboard.json.'; agenda.append(p); }
+    matches.forEach(event => {
+      const row = document.createElement('article'); row.className = 'event';
+      const meta = document.createElement('small'); meta.textContent = `${event.date} · ${event.time} · ${event.calendar}`;
+      const title = document.createElement('h4'); title.textContent = event.title;
+      const text = document.createElement('p'); text.textContent = event.description;
+      row.append(meta,title,text); agenda.append(row);
+    });
+  }
+  function render() {
+    document.querySelector('#calendar-month')!.textContent = month.toLocaleDateString(undefined,{month:'long',year:'numeric'});
+    const grid = document.querySelector('#calendar-days')!; grid.replaceChildren();
+    const offset = (month.getDay()+6)%7;
+    for(let i=0;i<offset;i++) { const blank = document.createElement('span'); grid.append(blank); }
+    const count = new Date(month.getFullYear(), month.getMonth()+1, 0).getDate();
+    for(let day=1;day<=count;day++) {
+      const date = new Date(month.getFullYear(),month.getMonth(),day); const key=dateKey(date);
+      const button=document.createElement('button'); button.type='button'; button.textContent=String(day);
+      button.classList.toggle('today',key===dateKey(today)); button.classList.toggle('has-event',events.some(event=>event.date===key));
+      button.setAttribute('aria-label',date.toLocaleDateString(undefined,{dateStyle:'full'})+(events.some(event=>event.date===key)?', has events':'')); button.setAttribute('aria-pressed',String(key===selected));
+      if(key===dateKey(today)) button.setAttribute('aria-current','date');
+      button.addEventListener('click',()=>{selected=selected===key?'':key;render();}); grid.append(button);
+    }
+    renderAgenda();
+  }
+  document.querySelector('#previous-month')!.addEventListener('click',()=>{month.setMonth(month.getMonth()-1);selected='';render();});
+  document.querySelector('#next-month')!.addEventListener('click',()=>{month.setMonth(month.getMonth()+1);selected='';render();});
+  document.querySelector('#current-month')!.addEventListener('click',()=>{month=new Date(today.getFullYear(),today.getMonth(),1);selected=dateKey(today);render();});
+  render();
+}
+</script>

@@ -1,0 +1,20 @@
+---
+import data from '../data/dashboard.json';
+import { select } from '../lib/model.mjs';
+const { filter = 'All' } = Astro.props;
+---
+<div class="todo-list">{select(data.todos,'group',filter).map(item => <label class="todo-row"><input type="checkbox" data-task-id={item.id} checked={item.done} /><span>{item.title}</span><small>{item.group}</small></label>)}</div>
+<p class="hint" id="task-storage-note">Checkmarks are saved in this browser. Task text is edited in the repository.</p>
+<script>
+const storageKey = 'personal-dashboard:tasks:v1';
+let saved: Record<string, boolean> = {};
+try { const parsed = JSON.parse(localStorage.getItem(storageKey) || '{}'); if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) saved = parsed; } catch { /* Use repository defaults when storage is unavailable. */ }
+document.querySelectorAll<HTMLInputElement>('[data-task-id]').forEach(input => {
+  const id = input.dataset.taskId!;
+  if (typeof saved[id] === 'boolean') input.checked = saved[id];
+  input.addEventListener('change', () => {
+    saved[id] = input.checked;
+    try { localStorage.setItem(storageKey, JSON.stringify(saved)); } catch { const note = document.querySelector('#task-storage-note'); if (note) note.textContent = 'Browser storage is unavailable. Checkmarks will reset when you reload.'; }
+  });
+});
+</script>

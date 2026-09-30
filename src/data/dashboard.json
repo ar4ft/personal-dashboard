@@ -1,0 +1,119 @@
+{
+  "name": "My workspace",
+  "news": [
+    {
+      "id": "hn",
+      "source": "Hacker News",
+      "category": "Technology",
+      "title": "A window into what builders are talking about",
+      "description": "Open the Hacker News front page. Replace this starter link with a story you want to keep.",
+      "url": "https://news.ycombinator.com/",
+      "label": "Source link"
+    },
+    {
+      "id": "x",
+      "source": "Twitter / X",
+      "category": "People",
+      "title": "Follow the people who spark your next idea",
+      "description": "A place for saved posts, interesting threads, and voices you want to revisit.",
+      "url": "https://x.com/",
+      "label": "Source link"
+    },
+    {
+      "id": "astro",
+      "source": "Reading",
+      "category": "Web development",
+      "title": "Build a faster, lighter corner of the web",
+      "description": "Read the Astro documentation and collect ideas for your own dashboard.",
+      "url": "https://docs.astro.build/",
+      "label": "Reading list"
+    },
+    {
+      "id": "github",
+      "source": "Reading",
+      "category": "Open source",
+      "title": "Find your next open-source rabbit hole",
+      "description": "Explore trending repositories and save the projects worth a closer look.",
+      "url": "https://github.com/trending",
+      "label": "Reading list"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "digest",
+      "title": "A quieter daily digest",
+      "stage": "Explore",
+      "category": "Automation",
+      "description": "Collect a handful of useful links from favorite sources into one daily reading list.",
+      "nextStep": "Choose three sources and sketch the digest."
+    },
+    {
+      "id": "garden",
+      "title": "A small digital garden",
+      "stage": "Build",
+      "category": "Writing",
+      "description": "Turn notes and experiments into a growing collection of public pages.",
+      "nextStep": "Publish the first note with Astro."
+    },
+    {
+      "id": "week",
+      "title": "The weekly reset",
+      "stage": "Later",
+      "category": "Personal tools",
+      "description": "A simple ritual to review what shipped, what mattered, and what comes next.",
+      "nextStep": "Write five prompts for a Sunday review."
+    }
+  ],
+  "todos": [
+    {
+      "id": "choose-sources",
+      "title": "Choose your favorite news sources",
+      "group": "Today",
+      "done": false
+    },
+    {
+      "id": "first-idea",
+      "title": "Add your first real project idea",
+      "group": "Today",
+      "done": false
+    },
+    {
+      "id": "calendar",
+      "title": "Replace the sample calendar events",
+      "group": "Upcoming",
+      "done": false
+    },
+    {
+      "id": "setup",
+      "title": "Make this workspace your own",
+      "group": "Someday",
+      "done": false
+    }
+  ],
+  "events": [
+    {
+      "id": "review",
+      "title": "Weekly reset",
+      "date": "2026-10-02",
+      "time": "16:00",
+      "calendar": "Personal",
+      "description": "Sample event \u00b7 review the week and choose your next focus."
+    },
+    {
+      "id": "build",
+      "title": "Make something small",
+      "date": "2026-10-05",
+      "time": "10:00",
+      "calendar": "Projects",
+      "description": "Sample event \u00b7 a little protected time for your next idea."
+    },
+    {
+      "id": "reading",
+      "title": "Reading hour",
+      "date": "2026-10-08",
+      "time": "18:00",
+      "calendar": "Personal",
+      "description": "Sample event \u00b7 catch up on your saved links."
+    }
+  ]
+}

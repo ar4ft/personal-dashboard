@@ -1,0 +1,6 @@
+---
+import data from '../data/dashboard.json';
+import { select } from '../lib/model.mjs';
+const { filter = 'All', limit = Infinity } = Astro.props;
+---
+<div class="idea-grid">{select(data.ideas,'stage',filter).slice(0,limit).map(item => <article class="idea-card"><div class="card-top"><span class:list={['badge',item.stage.toLowerCase()]}>{item.stage}</span><span class="muted">{item.category}</span></div><h3>{item.title}</h3><p>{item.description}</p><div class="next-step"><small>NEXT SMALL STEP</small><p>{item.nextStep}</p></div></article>)}</div>
