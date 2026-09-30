@@ -37,9 +37,9 @@ Private repository Pages publishing requires an eligible GitHub plan. Repository
 
 ## Use your workspace
 
-Each main section has **Feed**, **Timeline**, and **Kanban** views. Planning also has a calendar. Views share the same items, favorites, notes, and board positions.
+Each main section has **Feed**, **Timeline**, and **Kanban** views. Feeds and timelines use social post cards with author/source attribution, cover images, summaries, text excerpts, source links, and read-more controls. Planning also has a calendar. Views share the same items, favorites, notes, and board positions.
 
-- Drag a board card into another column or onto a card to reorder it. The column menu on each card also works with touch and keyboard.
+- Drag a card or its grab handle with a mouse, or drag the handle on touch screens, to move it between columns and reorder it. Grab handles also support arrow keys. The column menu on each card also works with touch and keyboard.
 - Use **Edit columns** to add, rename, reorder, or remove columns. Removing a column retains its cards in the first remaining column. Planning's Done column is retained for task completion.
 - Open any item for details, full text or notes, source link, favorite, edit, and delete. Previous/Next and arrow keys browse the current filtered list. Details have shareable `?item=ID` links for repository/feed items. Browser-only items need a backup on the receiving device.
 - Use **Add item** and **Edit** to change titles, topics, summaries, content, source links, board status, idea next steps, and task/event dates. Planning's Done lane marks tasks complete; moving out marks them incomplete.
@@ -83,3 +83,7 @@ npm run test:browser
 ```
 
 Set `DASHBOARD_BROWSER_EXECUTABLE=/path/to/chromium` to use an installed Chromium. Set `DASHBOARD_TEST_URL` for a different preview URL. The test starts with a fresh browser profile, uses sample imports, and only changes browser-local state. Screenshots are written to `test-output/`.
+
+## Agent content publishing
+
+The published [llms.txt](https://ar4ft.github.io/personal-dashboard-/llms.txt) (also available as `llm.txt`) explains the feed contract, stable IDs, images, validation, persistence, and authorized publishing. [AGENTS.md](AGENTS.md) covers repository work. [agent-policy.json](public/agent-policy.json) describes the authorization rules; it is documentation, not a write endpoint. Only owner-authorized agents/producers with GitHub write access can publish.

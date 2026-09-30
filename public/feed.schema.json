@@ -2,7 +2,10 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Personal dashboard feed",
   "type": "object",
-  "required": ["version", "items"],
+  "required": [
+    "version",
+    "items"
+  ],
   "properties": {
     "version": {
       "const": 1
@@ -12,21 +15,38 @@
       "maxItems": 10000,
       "items": {
         "type": "object",
-        "required": ["id", "section", "title"],
+        "required": [
+          "id",
+          "section",
+          "title"
+        ],
         "properties": {
           "id": {
             "type": "string",
             "minLength": 1,
             "maxLength": 200,
             "not": {
-              "enum": ["__proto__", "constructor", "prototype"]
+              "enum": [
+                "__proto__",
+                "constructor",
+                "prototype"
+              ]
             }
           },
           "section": {
-            "enum": ["news", "ideas", "planning"]
+            "enum": [
+              "news",
+              "ideas",
+              "planning"
+            ]
           },
           "type": {
-            "enum": ["news", "idea", "task", "event"]
+            "enum": [
+              "news",
+              "idea",
+              "task",
+              "event"
+            ]
           },
           "title": {
             "type": "string",
@@ -81,6 +101,16 @@
           },
           "group": {
             "type": "string"
+          },
+          "author": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string",
+            "pattern": "^(?:https://.*|(?:[a-zA-Z0-9_-]+/)+[a-zA-Z0-9_.-]+|)$"
+          },
+          "imageAlt": {
+            "type": "string"
           }
         },
         "allOf": [
@@ -91,12 +121,16 @@
                   "const": "news"
                 }
               },
-              "required": ["section"]
+              "required": [
+                "section"
+              ]
             },
             "then": {
               "properties": {
                 "type": {
-                  "enum": ["news"]
+                  "enum": [
+                    "news"
+                  ]
                 }
               }
             }
@@ -108,12 +142,16 @@
                   "const": "ideas"
                 }
               },
-              "required": ["section"]
+              "required": [
+                "section"
+              ]
             },
             "then": {
               "properties": {
                 "type": {
-                  "enum": ["idea"]
+                  "enum": [
+                    "idea"
+                  ]
                 }
               }
             }
@@ -125,12 +163,17 @@
                   "const": "planning"
                 }
               },
-              "required": ["section"]
+              "required": [
+                "section"
+              ]
             },
             "then": {
               "properties": {
                 "type": {
-                  "enum": ["task", "event"]
+                  "enum": [
+                    "task",
+                    "event"
+                  ]
                 }
               }
             }
@@ -142,10 +185,14 @@
                   "const": "event"
                 }
               },
-              "required": ["type"]
+              "required": [
+                "type"
+              ]
             },
             "then": {
-              "required": ["date"]
+              "required": [
+                "date"
+              ]
             }
           }
         ]

@@ -1,3 +1,4 @@
+import { installBoardDrag } from "../lib/board-drag";
 import {
   STORE_KEY,
   emptyState,
@@ -10,6 +11,7 @@ import {
   moveItem,
   mergeFeed,
   safeUrl,
+  safeImageUrl,
 } from "../lib/workspace.mjs";
 import type { Item, State, Section } from "../lib/workspace.mjs";
 const host = document.querySelector<HTMLElement>("#interactive-workspace");
@@ -81,7 +83,6 @@ function initialize(host: HTMLElement) {
   let currentDetail = "",
     editingId = "",
     detailOrder: string[] = [],
-    dragged = "",
     busy = false;
   let calendarMonth = new Date(
       new Date().getFullYear(),
@@ -145,6 +146,14 @@ function initialize(host: HTMLElement) {
     );
     if (currentDetail === item.id) renderDetail();
   }
+  const boardDrag = installBoardDrag(
+    content,
+    (id, column, before) => {
+      const item = find(id);
+      if (item) setColumn(item, column, before);
+    },
+    announce,
+  );
   function columnSelect(item: Item) {
     const n = el("select");
     n.setAttribute("aria-label", `Move ${item.title} to column`);
@@ -171,8 +180,35 @@ function initialize(host: HTMLElement) {
       day: "numeric",
     });
   }
+  function coverImage(item: Item) {
+    const figure = el("figure", "post-media");
+    const url = safeImageUrl(item.image || "", base);
+    const fallback = () => {
+      figure.classList.add("media-fallback");
+      figure.replaceChildren(
+        el("span", "media-kicker", item.source || item.topics[0] || section),
+        el("span", "media-title", item.title),
+        el(
+          "span",
+          "media-caption",
+          url ? "Image unavailable" : "No image supplied",
+        ),
+      );
+    };
+    if (url) {
+      const image = el("img");
+      image.src = url;
+      image.alt = item.imageAlt || item.title;
+      image.loading = "lazy";
+      image.decoding = "async";
+      image.referrerPolicy = "no-referrer";
+      image.addEventListener("error", fallback, { once: true });
+      figure.append(image);
+    } else fallback();
+    return figure;
+  }
   function card(item: Item, board = false) {
-    const n = el("article", "item-card");
+    const n = el("article", "item-card" + (board ? "" : " social-post"));
     n.dataset.id = item.id;
     const meta = el("div", "item-meta");
     meta.append(
@@ -189,20 +225,78 @@ function initialize(host: HTMLElement) {
       ),
       el("span", "", `${dateLabel(item)}${item.time ? " · " + item.time : ""}`),
     );
+    if (board) n.append(meta);
+    else {
+      const identity = el("div", "post-identity");
+      const name =
+        item.author ||
+        item.source ||
+        (section === "ideas" ? "My ideas" : "My workspace");
+      const avatar = el(
+        "span",
+        "post-avatar",
+        name.replace(/^@/, "").slice(0, 2).toUpperCase(),
+      );
+      avatar.setAttribute("aria-hidden", "true");
+      const byline = el("div", "post-byline");
+      byline.append(
+        el("strong", "", name),
+        el(
+          "span",
+          "",
+          `${item.source && item.source !== name ? item.source + " · " : ""}${dateLabel(item)}${item.time ? " · " + item.time : ""}`,
+        ),
+      );
+      identity.append(avatar, byline);
+      n.append(identity);
+    }
     n.append(
-      meta,
       btn(
         item.title,
         () => openDetail(item.id),
         "item-title" + (item.done ? " card-done" : ""),
       ),
+    );
+    n.append(
       el(
         "p",
         "item-summary",
         item.description || item.nextStep || "Open to add notes and details.",
       ),
-      chips(item),
     );
+    if (!board) {
+      n.append(coverImage(item));
+      const caption = el("div", "post-caption");
+      if (item.content) {
+        const excerpt =
+          item.content.length > 280
+            ? item.content.slice(0, 280).trimEnd() + "…"
+            : item.content;
+        caption.append(el("p", "post-excerpt", excerpt));
+      }
+      caption.append(
+        btn(
+          "Read more",
+          () => openDetail(item.id),
+          "read-more",
+          `Read more about ${item.title}`,
+        ),
+      );
+      const source = safeUrl(item.url);
+      if (source) {
+        const link = el(
+          "a",
+          "post-source",
+          `Visit ${new URL(source).hostname.replace(/^www\./, "")}`,
+        );
+        link.href = source;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        caption.append(link);
+      }
+      n.append(caption);
+    }
+    n.append(chips(item));
     const controls = el("div", "card-controls");
     const favorite = btn(
       item.favorite ? "★" : "☆",
@@ -218,24 +312,16 @@ function initialize(host: HTMLElement) {
     );
     n.append(controls);
     if (board) {
-      n.draggable = true;
-      n.addEventListener("dragstart", (event) => {
-        if ((event.target as HTMLElement).closest("button,select,input")) {
-          event.preventDefault();
-          return;
-        }
-        dragged = item.id;
-        n.classList.add("dragging");
-        event.dataTransfer?.setData("text/plain", item.id);
-        if (event.dataTransfer) event.dataTransfer.effectAllowed = "move";
-      });
-      n.addEventListener("dragend", () => {
-        dragged = "";
-        n.classList.remove("dragging");
-        host
-          .querySelectorAll(".drag-over")
-          .forEach((e) => e.classList.remove("drag-over"));
-      });
+      n.draggable = false;
+      const handle = btn(
+        "⠿",
+        () => announce("Drag this handle, or use arrow keys to move the card."),
+        "drag-handle",
+        `Drag ${item.title}`,
+      );
+      handle.title =
+        "Drag to move · arrow keys to move between columns or reorder";
+      meta.append(handle);
     }
     return n;
   }
@@ -268,31 +354,6 @@ function initialize(host: HTMLElement) {
           el("p", "empty-column", "Drop a card here, or use its column menu."),
         );
       entries.forEach((i) => lane.append(card(i, true)));
-      lane.addEventListener("dragover", (event) => {
-        if (!dragged) return;
-        event.preventDefault();
-        lane.classList.add("drag-over");
-        if (event.dataTransfer) event.dataTransfer.dropEffect = "move";
-      });
-      lane.addEventListener("dragleave", (event) => {
-        if (!lane.contains(event.relatedTarget as Node))
-          lane.classList.remove("drag-over");
-      });
-      lane.addEventListener("drop", (event) => {
-        event.preventDefault();
-        const id = dragged;
-        dragged = "";
-        const item = find(id);
-        if (!item) return;
-        const targetCard = (event.target as HTMLElement).closest<HTMLElement>(
-          ".item-card",
-        );
-        setColumn(
-          item,
-          c.id,
-          targetCard?.dataset.id !== id ? targetCard?.dataset.id : undefined,
-        );
-      });
       board.append(lane);
     });
     target.append(board);
@@ -470,6 +531,7 @@ function initialize(host: HTMLElement) {
     content.append(panel);
   }
   function render() {
+    if (boardDrag.isDragging()) return;
     const list = sortItems(
       filtered(),
       state,
@@ -589,6 +651,8 @@ function initialize(host: HTMLElement) {
     const title = el("h2", "detail-heading", item.title);
     title.id = "detail-title";
     body.append(title, chips(item));
+    if (item.author) body.append(el("p", "detail-source", `By ${item.author}`));
+    body.append(coverImage(item));
     if (item.description)
       body.append(el("p", "detail-summary", item.description));
     if (item.content) body.append(el("div", "detail-text", item.content));
@@ -735,6 +799,9 @@ function initialize(host: HTMLElement) {
       "description",
       "content",
       "source",
+      "author",
+      "image",
+      "imageAlt",
       "url",
       "date",
       "time",
@@ -769,6 +836,9 @@ function initialize(host: HTMLElement) {
       "description",
       "content",
       "source",
+      "author",
+      "image",
+      "imageAlt",
       "url",
       "status",
       "date",
@@ -791,6 +861,9 @@ function initialize(host: HTMLElement) {
           "content",
           "topics",
           "source",
+          "author",
+          "image",
+          "imageAlt",
           "url",
           "status",
           "date",

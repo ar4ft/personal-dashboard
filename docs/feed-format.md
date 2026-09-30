@@ -15,6 +15,9 @@ Your automation should write `public/feed.json` and commit it to `main`, or serv
       "content": "The full article text, if your source provides it.\n\nNew paragraphs are preserved. Otherwise use this field for notes.",
       "topics": ["Technology", "AI"],
       "source": "Hacker News",
+      "author": "Example author",
+      "image": "media/story.jpg",
+      "imageAlt": "Description of the story’s cover image",
       "url": "https://news.ycombinator.com/item?id=123456",
       "createdAt": "2026-09-30T10:30:00Z",
       "updatedAt": "2026-09-30T11:00:00Z",
@@ -57,6 +60,9 @@ Required root fields: `version: 1` and `items` array. Each item requires a globa
 | `description` | Short summary shown on the card |
 | `content` | Full plain text or notes, shown in the detail view. HTML is displayed as text. |
 | `topics` | Array of topic strings, each at most 80 characters. Defaults to `General`. |
+| `author` | Author or account name shown above the post |
+| `image` | Optional HTTPS image URL or dashboard-relative path such as `media/story.jpg` (stored at `public/media/story.jpg`). Missing/broken images use an honest cover fallback. |
+| `imageAlt` | Useful image description for screen readers |
 | `source` | Source name. Use `Hacker News`, `Twitter / X`, or `Reading` to match the starter source subsections; other sources appear under All. |
 | `url` | Optional HTTP(S) link to the original. No credential or script URLs. |
 | `createdAt` | ISO publication/creation timestamp. Feed sorts newest first. Omit only when unknown (defaults to epoch, placing the item last). |
@@ -73,3 +79,5 @@ Automation only updates source content; the browser holds a separate layer for p
 Repository feeds are validated by `npm test` and in GitHub Actions. Browser imports and remote feeds are validated before mutation. Invalid feeds leave the existing workspace intact and display an error in Feeds & backup. Local IDs created by the app begin with `<section>:local:`; do not use that prefix in automated feeds.
 
 The current site is public. Only publish content you intend to expose in your repository/feed. The app fetches public JSON with credentials omitted; it does not connect directly to Twitter/X or private calendars. Your producer handles those sources and their credentials outside the published dashboard.
+
+For agent publishing instructions and authorization rules, read [llms.txt](../public/llms.txt) and [AGENTS.md](../AGENTS.md). Public access does not grant write permission.

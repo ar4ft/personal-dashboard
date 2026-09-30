@@ -41,7 +41,7 @@ fs.mkdirSync("test-output", { recursive: true });
     await page.locator('[data-column="following"] .item-card').count(),
     1,
   );
-  // Native drag and drop, including reordering by dropping on another card.
+  // Pointer drag and drop, including reordering by dropping above another card.
   await card("news:news:x").dragTo(
     page.locator('[data-column="read"] .empty-column'),
   );
@@ -49,7 +49,9 @@ fs.mkdirSync("test-output", { recursive: true });
     await page.locator('[data-column="read"] .item-card').count(),
     1,
   );
-  await card("news:news:github").dragTo(card("news:news:astro"));
+  await card("news:news:github").dragTo(card("news:news:astro"), {
+    targetPosition: { x: 70, y: 10 },
+  });
   assert.equal(
     await page
       .locator('[data-column="inbox"] .item-card')
@@ -57,6 +59,26 @@ fs.mkdirSync("test-output", { recursive: true });
       .getAttribute("data-id"),
     "news:news:github",
   );
+  const titleBox = await card("news:news:hn")
+    .locator(".item-title")
+    .boundingBox();
+  const inboxBox = await page
+    .locator('[data-column="inbox"] .column-heading')
+    .boundingBox();
+  await page.mouse.move(titleBox.x + 25, titleBox.y + 12);
+  await page.mouse.down();
+  await page.mouse.move(inboxBox.x + 70, titleBox.y + 15, { steps: 20 });
+  await page.mouse.up();
+  assert.equal(
+    await card("news:news:hn").locator("select").inputValue(),
+    "inbox",
+  );
+  assert.equal(
+    await page.locator("#detail-dialog").evaluate((n) => n.open),
+    false,
+    "Dragging a title must not open details",
+  );
+  await card("news:news:hn").locator("select").selectOption("following");
   await page.reload();
   await page.waitForFunction(() =>
     document.querySelector("#feed-status").textContent.includes("refreshed"),
@@ -98,6 +120,15 @@ fs.mkdirSync("test-output", { recursive: true });
   assert.ok((await page.locator(".group-heading").count()) > 1);
   await page.locator("#group-filter").selectOption("none");
   await page.locator("[data-view=timeline]").click();
+  const cover = page.locator(".timeline-list img").first();
+  await cover.waitFor();
+  await cover.scrollIntoViewIfNeeded();
+  await page.waitForFunction(() => {
+    const img = document.querySelector(".timeline-list img");
+    return img && img.complete && img.naturalWidth > 0;
+  });
+  assert.ok((await page.locator(".post-identity").count()) > 0);
+
   assert.ok((await page.locator(".timeline-group").count()) > 0);
   await page.locator("[data-view=feed]").click();
   await page.locator("#swipe-toggle").click();
@@ -120,19 +151,20 @@ fs.mkdirSync("test-output", { recursive: true });
         description: "First summary",
         content: "Automation article text",
         topics: ["AI"],
+        image: "media/technology.svg",
+        imageAlt: "An illustrated technology cover",
+        author: "@researcher",
         source: "Hacker News",
         createdAt: "2026-09-30T12:00:00Z",
       },
     ],
   };
   const upload = async (obj) =>
-    page
-      .locator("#feed-import")
-      .setInputFiles({
-        name: "feed.json",
-        mimeType: "application/json",
-        buffer: Buffer.from(JSON.stringify(obj)),
-      });
+    page.locator("#feed-import").setInputFiles({
+      name: "feed.json",
+      mimeType: "application/json",
+      buffer: Buffer.from(JSON.stringify(obj)),
+    });
   await page.locator("#data-settings").click();
   await upload(feed);
   await page.waitForFunction(() =>
@@ -237,13 +269,11 @@ fs.mkdirSync("test-output", { recursive: true });
   // Restore an exported backup; newly created calendar item should disappear.
   await page.locator("#data-settings").click();
   page.once("dialog", (d) => d.accept());
-  await page
-    .locator("#backup-import")
-    .setInputFiles({
-      name: "backup.json",
-      mimeType: "application/json",
-      buffer: Buffer.from(JSON.stringify(backup)),
-    });
+  await page.locator("#backup-import").setInputFiles({
+    name: "backup.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(backup)),
+  });
   await page.waitForFunction(() =>
     document
       .querySelector("#settings-status")
@@ -297,7 +327,7 @@ fs.mkdirSync("test-output", { recursive: true });
   assert.deepEqual(errors, []);
   await browser.close();
   console.log(
-    "Browser checks passed: all sections, native drag/drop and order, saved boards, custom columns, editing, full-text details, favorites, search/topics, timeline/swipe, feed merge preserving personal edits, backup restore, editable calendar, deep links, mobile overflow, no JS errors.",
+    "Browser checks passed: all sections, pointer drag/drop and order, saved boards, custom columns, editing, full-text details, favorites, search/topics, timeline/swipe, feed merge preserving personal edits, backup restore, editable calendar, deep links, mobile overflow, no JS errors.",
   );
 })().catch((e) => {
   console.error(e);

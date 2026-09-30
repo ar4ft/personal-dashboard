@@ -9,6 +9,9 @@ export type Item = {
   content: string;
   topics: string[];
   source: string;
+  author?: string;
+  image?: string;
+  imageAlt?: string;
   url: string;
   status: string;
   createdAt: string;
@@ -38,6 +41,7 @@ export const DEFAULT_COLUMNS: Record<Section, Column[]>;
 export function emptyState(): State;
 export function seedItems(data: unknown): Item[];
 export function safeUrl(url: string): string;
+export function safeImageUrl(value: string, base?: string): string;
 export function validateItem(value: unknown): Item;
 export function validateFeed(payload: unknown): Item[];
 export function mergeFeed(state: State, items: Item[]): State;

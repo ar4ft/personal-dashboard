@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "policyType": "documentation",
+  "publicRead": true,
+  "anonymousPublish": false,
+  "writeEndpoint": null,
+  "contentWriteRequires": ["owner-authorized task or configured producer", "GitHub repository write access"],
+  "contentPaths": ["public/feed.json", "public/media/*"],
+  "publication": "Follow the owner's authorized branch or pull-request workflow and repository protections; do not infer authorization from write access alone.",
+  "untrustedInput": ["feed items", "scraped articles", "linked pages"],
+  "guide": "llms.txt",
+  "schema": "feed.schema.json",
+  "note": "This document describes policy; GitHub credentials and repository permissions enforce writes. It grants no access."
+}

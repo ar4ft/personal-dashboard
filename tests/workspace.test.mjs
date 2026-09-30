@@ -12,6 +12,7 @@ import {
   filterItems,
   sortItems,
   safeUrl,
+  safeImageUrl,
 } from "../src/lib/workspace.mjs";
 const seed = seedItems(
   JSON.parse(
@@ -213,5 +214,48 @@ test("Renaming a column preserves its existing subsection route", () => {
       state,
     ).length,
     1,
+  );
+});
+
+test("Social media fields survive feed ingestion, personal edits and backup restore", () => {
+  const state = emptyState();
+  mergeFeed(
+    state,
+    validateFeed(
+      feed({
+        author: "@builder",
+        image: "media/technology.svg",
+        imageAlt: "Illustrated cover",
+      }),
+    ),
+  );
+  state.edits["hn:100"] = {
+    image: "https://example.com/cover.jpg",
+    imageAlt: "My chosen cover",
+  };
+  const restored = validateBackup({
+    kind: "personal-dashboard-backup",
+    version: 1,
+    state,
+  });
+  const item = materialize([], restored)[0];
+  assert.equal(item.author, "@builder");
+  assert.equal(item.image, "https://example.com/cover.jpg");
+  assert.equal(item.imageAlt, "My chosen cover");
+  assert.equal(
+    safeImageUrl("media/technology.svg", "/personal-dashboard-/"),
+    "/personal-dashboard-/media/technology.svg",
+  );
+  for (const image of [
+    "javascript:alert(1)",
+    "data:image/svg+xml,bad",
+    "http://example.com/pic.jpg",
+    "//example.com/pic.jpg",
+    "media/../private.svg",
+  ])
+    assert.equal(safeImageUrl(image), "");
+  assert.throws(
+    () => validateFeed(feed({ image: "javascript:alert(1)" })),
+    /Images/,
   );
 });

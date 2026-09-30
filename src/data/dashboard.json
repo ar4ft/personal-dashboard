@@ -8,7 +8,10 @@
       "title": "A window into what builders are talking about",
       "description": "Open the Hacker News front page. Replace this starter link with a story you want to keep.",
       "url": "https://news.ycombinator.com/",
-      "label": "Source link"
+      "label": "Source link",
+      "image": "media/technology.svg",
+      "imageAlt": "Sample cover illustration for Technology",
+      "author": "Hacker News"
     },
     {
       "id": "x",
@@ -17,7 +20,10 @@
       "title": "Follow the people who spark your next idea",
       "description": "A place for saved posts, interesting threads, and voices you want to revisit.",
       "url": "https://x.com/",
-      "label": "Source link"
+      "label": "Source link",
+      "image": "media/people.svg",
+      "imageAlt": "Sample cover illustration for People",
+      "author": "Twitter / X"
     },
     {
       "id": "astro",
@@ -26,7 +32,10 @@
       "title": "Build a faster, lighter corner of the web",
       "description": "Read the Astro documentation and collect ideas for your own dashboard.",
       "url": "https://docs.astro.build/",
-      "label": "Reading list"
+      "label": "Reading list",
+      "image": "media/web.svg",
+      "imageAlt": "Sample cover illustration for Web development",
+      "author": "Reading"
     },
     {
       "id": "github",
@@ -35,7 +44,10 @@
       "title": "Find your next open-source rabbit hole",
       "description": "Explore trending repositories and save the projects worth a closer look.",
       "url": "https://github.com/trending",
-      "label": "Reading list"
+      "label": "Reading list",
+      "image": "media/opensource.svg",
+      "imageAlt": "Sample cover illustration for Open source",
+      "author": "Reading"
     }
   ],
   "ideas": [
@@ -45,7 +57,10 @@
       "stage": "Explore",
       "category": "Automation",
       "description": "Collect a handful of useful links from favorite sources into one daily reading list.",
-      "nextStep": "Choose three sources and sketch the digest."
+      "nextStep": "Choose three sources and sketch the digest.",
+      "image": "media/ideas.svg",
+      "imageAlt": "Illustration of a new idea taking shape",
+      "author": "My workspace"
     },
     {
       "id": "garden",
@@ -53,7 +68,10 @@
       "stage": "Build",
       "category": "Writing",
       "description": "Turn notes and experiments into a growing collection of public pages.",
-      "nextStep": "Publish the first note with Astro."
+      "nextStep": "Publish the first note with Astro.",
+      "image": "media/ideas.svg",
+      "imageAlt": "Illustration of a new idea taking shape",
+      "author": "My workspace"
     },
     {
       "id": "week",
@@ -61,7 +79,10 @@
       "stage": "Later",
       "category": "Personal tools",
       "description": "A simple ritual to review what shipped, what mattered, and what comes next.",
-      "nextStep": "Write five prompts for a Sunday review."
+      "nextStep": "Write five prompts for a Sunday review.",
+      "image": "media/ideas.svg",
+      "imageAlt": "Illustration of a new idea taking shape",
+      "author": "My workspace"
     }
   ],
   "todos": [
@@ -69,25 +90,37 @@
       "id": "choose-sources",
       "title": "Choose your favorite news sources",
       "group": "Today",
-      "done": false
+      "done": false,
+      "image": "media/planning.svg",
+      "imageAlt": "Illustration of making time for a plan",
+      "author": "My workspace"
     },
     {
       "id": "first-idea",
       "title": "Add your first real project idea",
       "group": "Today",
-      "done": false
+      "done": false,
+      "image": "media/planning.svg",
+      "imageAlt": "Illustration of making time for a plan",
+      "author": "My workspace"
     },
     {
       "id": "calendar",
       "title": "Replace the sample calendar events",
       "group": "Upcoming",
-      "done": false
+      "done": false,
+      "image": "media/planning.svg",
+      "imageAlt": "Illustration of making time for a plan",
+      "author": "My workspace"
     },
     {
       "id": "setup",
       "title": "Make this workspace your own",
       "group": "Someday",
-      "done": false
+      "done": false,
+      "image": "media/planning.svg",
+      "imageAlt": "Illustration of making time for a plan",
+      "author": "My workspace"
     }
   ],
   "events": [
@@ -97,7 +130,10 @@
       "date": "2026-10-02",
       "time": "16:00",
       "calendar": "Personal",
-      "description": "Sample event \u00b7 review the week and choose your next focus."
+      "description": "Sample event \u00b7 review the week and choose your next focus.",
+      "image": "media/planning.svg",
+      "imageAlt": "Illustration of making time for a plan",
+      "author": "My workspace"
     },
     {
       "id": "build",
@@ -105,7 +141,10 @@
       "date": "2026-10-05",
       "time": "10:00",
       "calendar": "Projects",
-      "description": "Sample event \u00b7 a little protected time for your next idea."
+      "description": "Sample event \u00b7 a little protected time for your next idea.",
+      "image": "media/planning.svg",
+      "imageAlt": "Illustration of making time for a plan",
+      "author": "My workspace"
     },
     {
       "id": "reading",
@@ -113,7 +152,10 @@
       "date": "2026-10-08",
       "time": "18:00",
       "calendar": "Personal",
-      "description": "Sample event \u00b7 catch up on your saved links."
+      "description": "Sample event \u00b7 catch up on your saved links.",
+      "image": "media/planning.svg",
+      "imageAlt": "Illustration of making time for a plan",
+      "author": "My workspace"
     }
   ]
 }

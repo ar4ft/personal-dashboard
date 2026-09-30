@@ -45,6 +45,9 @@ export function seedItems(data) {
       item.category || item.calendar || item.group || "General",
     ],
     source: item.source || "",
+    author: item.author || "",
+    image: item.image || "",
+    imageAlt: item.imageAlt || "",
     url: item.url || "",
     createdAt: item.createdAt || stamp,
     updatedAt: item.updatedAt || item.createdAt || stamp,
@@ -83,6 +86,17 @@ export function safeUrl(url) {
     return "";
   }
 }
+export function safeImageUrl(value, base = "/") {
+  if (typeof value !== "string" || !value) return "";
+  if (/^https:\/\//i.test(value)) return safeUrl(value);
+  // A relative path refers to a public file inside this dashboard, never another host.
+  if (
+    !/^(?:[a-zA-Z0-9_-]+\/)+[a-zA-Z0-9_.-]+$/.test(value) ||
+    value.split("/").includes("..")
+  )
+    return "";
+  return base.replace(/\/$/, "") + "/" + value;
+}
 function validDate(value) {
   return (
     /^\d{4}-\d{2}-\d{2}$/.test(value) &&
@@ -117,6 +131,10 @@ export function validateItem(value) {
     ].includes(type)
   )
     throw new Error("Item type does not match its section.");
+  if (value.image && !safeImageUrl(value.image))
+    throw new Error(
+      "Images must use HTTPS or a dashboard-relative path such as media/story.jpg.",
+    );
   if (value.url && !safeUrl(value.url))
     throw new Error("Source links must use http or https.");
   if (value.date && !validDate(value.date))
@@ -148,6 +166,9 @@ export function validateItem(value) {
     "description",
     "content",
     "source",
+    "author",
+    "image",
+    "imageAlt",
     "nextStep",
     "group",
     "status",
@@ -165,6 +186,9 @@ export function validateItem(value) {
     content: value.content || "",
     topics: [...new Set(value.topics || ["General"])],
     source: value.source || "",
+    author: value.author || "",
+    image: value.image || "",
+    imageAlt: value.imageAlt || "",
     url: value.url ? safeUrl(value.url) : "",
     status:
       value.status ||
@@ -258,6 +282,7 @@ export function filterItems(
         item.description,
         item.content,
         item.source,
+        item.author || "",
         item.nextStep,
         ...item.topics,
       ]
@@ -379,6 +404,9 @@ export function validateBackup(payload) {
       "description",
       "content",
       "source",
+      "author",
+      "image",
+      "imageAlt",
       "url",
       "status",
       "date",
@@ -395,6 +423,8 @@ export function validateBackup(payload) {
     }
     if (allowed.title !== undefined && !allowed.title.trim())
       throw new Error("Edited titles cannot be empty.");
+    if (allowed.image && !safeImageUrl(allowed.image))
+      throw new Error("Invalid edited image URL.");
     if (allowed.url && !safeUrl(allowed.url))
       throw new Error("Invalid edited URL.");
     if (allowed.date && !validDate(allowed.date))

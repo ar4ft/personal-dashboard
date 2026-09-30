@@ -615,3 +615,245 @@ dialog::backdrop {
     scroll-behavior: auto;
   }
 }
+/* Social cards share media and attribution across the feed, timeline and details. */
+.social-post .post-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #e2ead6;
+  color: #48633b;
+  font-size: 12px;
+  font-weight: 700;
+}
+.post-byline {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+.post-byline strong {
+  font-size: 13px;
+  color: #36503d;
+}
+.post-byline > span {
+  font-size: 10px;
+  color: #829175;
+}
+.social-post .item-summary {
+  display: block !important;
+  overflow: visible !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  margin: 12px 0 18px !important;
+}
+.post-media {
+  margin: 20px 0 0;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #edf1e7;
+  position: relative;
+}
+.post-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.media-fallback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(20px, 5vw, 55px);
+  background:
+    radial-gradient(circle at 90% 0, #e8ecca 0, transparent 55%),
+    linear-gradient(130deg, #244c3d, #78926d);
+  color: #edf2df;
+}
+.media-kicker {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.media-title {
+  font-family: Manrope, sans-serif;
+  font-size: clamp(18px, 2.2vw, 29px);
+  max-width: 480px;
+  line-height: 1.4;
+  margin: 14px 0;
+}
+.media-caption {
+  font-size: 10px;
+  opacity: 0.75;
+}
+.post-caption {
+  padding: 16px 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.post-excerpt {
+  flex-basis: 100%;
+  white-space: pre-wrap;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #708065;
+  margin-bottom: 4px;
+  overflow-wrap: anywhere;
+}
+#interactive-workspace .read-more {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: #49643a;
+  font-weight: 700;
+}
+.post-source {
+  font-size: 11px;
+  color: #879476;
+  margin-left: auto;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.timeline-list {
+  border: 0;
+  padding-left: 0;
+  max-width: 780px;
+}
+.timeline-group:before {
+  display: none;
+}
+.timeline-heading {
+  font-size: 11px !important;
+  text-align: center;
+  color: #899579 !important;
+  letter-spacing: 0.5px;
+  margin: 26px 0 18px;
+}
+.timeline-group .item-card {
+  padding: 25px;
+  margin-top: 18px;
+}
+#detail-body .post-media {
+  margin: 20px 0 24px;
+}
+.social-post .item-title {
+  font-size: 21px !important;
+  line-height: 1.45 !important;
+}
+.social-post .card-controls {
+  padding-top: 16px;
+  margin-top: 18px;
+}
+/* Dedicated handles enable touch dragging while the rest of the board still scrolls. */
+#interactive-workspace .drag-handle {
+  touch-action: none;
+  cursor: grab;
+  border: 0;
+  background: #f0f4e9;
+  padding: 4px 9px;
+  font-size: 20px;
+  margin-left: auto;
+  flex-shrink: 0;
+  user-select: none;
+  min-width: 38px;
+  min-height: 38px;
+}
+.kanban-column .item-card {
+  user-select: none;
+}
+.kanban-column .item-card .item-title {
+  cursor: grab;
+}
+.board-is-dragging,
+.board-is-dragging * {
+  cursor: grabbing !important;
+  user-select: none !important;
+}
+.drag-ghost {
+  position: fixed;
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 0.96;
+  transform: rotate(2deg);
+  box-shadow: 0 15px 40px #1f352647;
+  border: 1px solid #87a06c;
+  max-height: 440px;
+  overflow: hidden;
+}
+.drag-ghost .item-title {
+  border: 0;
+  background: none;
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #2f4937;
+  font-weight: 700;
+  padding: 0;
+  width: 100%;
+}
+.drag-ghost .drag-handle {
+  display: none;
+}
+.drag-ghost .card-controls {
+  display: none;
+}
+.drop-before {
+  box-shadow: 0 -4px 0 #799c54;
+}
+.drop-after {
+  box-shadow: 0 4px 0 #799c54;
+}
+.kanban-column.drag-over {
+  background: #e2ecd6;
+}
+.kanban-column .item-meta {
+  flex-wrap: wrap;
+}
+.kanban-column .item-meta > span:first-child {
+  max-width: 125px;
+}
+@media (max-width: 720px) {
+  .social-post .item-title {
+    font-size: 19px !important;
+  }
+  .social-post .item-summary {
+    font-size: 13px !important;
+  }
+  .timeline-group .item-card {
+    padding: 19px;
+  }
+  .post-identity {
+    margin-bottom: 16px;
+  }
+  .post-media {
+    margin-top: 16px;
+    border-radius: 8px;
+  }
+  .post-excerpt {
+    font-size: 12px;
+  }
+  .post-source {
+    font-size: 10px;
+  }
+  #interactive-workspace .drag-handle {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .timeline-list {
+    padding-left: 0;
+  }
+}
+.kanban-board {
+  align-items: stretch;
+}
