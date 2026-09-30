@@ -1,9 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import News from '../../components/News.astro';
-import Ideas from '../../components/Ideas.astro';
-import Todos from '../../components/Todos.astro';
-import Calendar from '../../components/Calendar.astro';
+import Workspace from '../../components/Workspace.astro';
 import { sections, slug, route } from '../../lib/model.mjs';
 export function getStaticPaths() {
   return Object.entries(sections).flatMap(([section,config]) => config.filters.map(filter => ({params:{section, filter:filter === 'All' ? undefined : slug(filter)},props:{section,filter,config}})));
@@ -13,7 +10,5 @@ const href = (label: string) => route(import.meta.env.BASE_URL, `${section}/${la
 ---
 <Layout title={config.title} active={section}><div class="page-heading"><div><p class="eyebrow">{config.eyebrow}</p><h1>{config.title}</h1><p class="intro">{config.description}</p></div></div>
 <nav class="tabs" aria-label={`${config.title} subsections`}>{config.filters.map((label: string) => <a href={href(label)} aria-current={filter===label?'page':undefined} class:list={{active:filter===label}}>{label}</a>)}</nav>
-{section==='news' && <section class="panel"><div class="section-heading"><h2>{filter==='All'?'Your reading list':filter}</h2><span class="muted">Curated starter links</span></div><News filter={filter} /></section>}
-{section==='ideas' && <Ideas filter={filter} />}
-{section==='planning' && <div class:list={['planning-grid',{'calendar-only':filter==='Calendar'}]}>{filter!=='Calendar' && <section class="panel"><div class="section-heading"><h2>{filter==='All'?'Your next steps':filter}</h2><span class="badge explore">One at a time</span></div><Todos filter={filter} /></section>}{(filter==='All'||filter==='Calendar') && <section class="panel"><Calendar /></section>}</div>}
+<Workspace section={section as 'news' | 'ideas' | 'planning'} filter={filter} />
 </Layout>
