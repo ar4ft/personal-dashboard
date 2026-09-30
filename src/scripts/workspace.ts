@@ -1,3 +1,4 @@
+import { installNewsSwipe } from "./news-swipe";
 import { installBoardDrag } from "../lib/board-drag";
 import {
   STORE_KEY,
@@ -358,6 +359,16 @@ function initialize(host: HTMLElement) {
     });
     target.append(board);
   }
+  installNewsSwipe(host, {
+    items: () => sortItems(filtered(), state, section, "newest"),
+    find,
+    favorite: toggleFavorite,
+    move: setColumn,
+    details: openDetail,
+    cover: coverImage,
+    columns: () => state.columns[section],
+    base,
+  });
   function renderFeed(list: Item[], target: HTMLElement) {
     const feed = el("div", "feed-list" + (swipe ? " swipe-feed" : ""));
     if (swipe) {
@@ -906,6 +917,10 @@ function initialize(host: HTMLElement) {
       render();
     }),
   );
+  $("#mobile-filters-toggle").addEventListener("click", () => {
+    const open = $(".filter-bar").classList.toggle("filters-open");
+    $("#mobile-filters-toggle").setAttribute("aria-expanded", String(open));
+  });
   $("#workspace-search").addEventListener("input", () => {
     query = $<HTMLInputElement>("#workspace-search").value;
     limit = 30;

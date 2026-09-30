@@ -87,3 +87,9 @@ Set `DASHBOARD_BROWSER_EXECUTABLE=/path/to/chromium` to use an installed Chromiu
 ## Agent content publishing
 
 The published [llms.txt](https://ar4ft.github.io/personal-dashboard-/llms.txt) (also available as `llm.txt`) explains the feed contract, stable IDs, images, validation, persistence, and authorized publishing. [AGENTS.md](AGENTS.md) covers repository work. [agent-policy.json](public/agent-policy.json) describes the authorization rules; it is documentation, not a write endpoint. Only owner-authorized agents/producers with GitHub write access can publish.
+
+## Phone experience
+
+On phones and tablets, the dashboard has a compact sticky header, bottom navigation (Home, News, Ideas, Plan), larger touch targets, collapsible filters, and full-width social feed cards. **News → Swipe news** opens a full-screen vertical reader. Swipe up/down or use the arrows to browse; save favorites, track directly on Kanban, choose a column, read the story, or share its link. Closing details returns to the current story. The reader uses your current source/topic/search/favorite filters and loads cards in batches. Landscape, safe-area insets, keyboard controls, and reduced-motion preferences are supported.
+
+The phone browser regression suite exercises real touch scrolling, bottom navigation, swipe tracking and favorites, read-and-return, narrow and landscape layouts. Edits remain browser-local and use the same backups as the desktop app.

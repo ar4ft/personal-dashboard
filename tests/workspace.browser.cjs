@@ -313,6 +313,7 @@ fs.mkdirSync("test-output", { recursive: true });
   await page.screenshot({ path: "test-output/kanban.png", fullPage: true });
   await page.setViewportSize({ width: 390, height: 844 });
   await page.locator("[data-view=feed]").click();
+  await page.locator("#mobile-filters-toggle").click();
   await page.locator("#swipe-toggle").click();
   assert.ok(
     await page.evaluate(

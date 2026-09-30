@@ -857,3 +857,417 @@ dialog::backdrop {
 .kanban-board {
   align-items: stretch;
 }
+/* A full-height vertical news reader, with the browser handling touch scroll and snapping. */
+#interactive-workspace #news-swipe-dialog {
+  padding: 0;
+  inset: 0;
+  margin: auto;
+  width: min(560px, 100%);
+  height: 100dvh;
+  max-width: 100%;
+  max-height: 100dvh;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: #17261e;
+  color: white;
+  box-shadow: 0 0 100px #0008;
+}
+#news-swipe-dialog::backdrop {
+  background: #101c15cc;
+  backdrop-filter: blur(10px);
+}
+.news-swipe-open {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+#news-swipe-scroller {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  touch-action: pan-y;
+}
+#news-swipe-scroller::-webkit-scrollbar {
+  display: none;
+}
+.news-reel {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  isolation: isolate;
+  overflow: hidden;
+  background: #203b2b;
+}
+.news-reel .reel-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  aspect-ratio: auto;
+  z-index: -2;
+}
+.news-reel .reel-media img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.news-reel .media-fallback {
+  justify-content: flex-start;
+  padding-top: 150px;
+  background:
+    radial-gradient(ellipse at 80% 10%, #9cac70 0, transparent 60%),
+    linear-gradient(155deg, #204b3b, #142e26);
+}
+.news-reel .media-title {
+  font-size: 30px;
+}
+.news-reel .media-caption {
+  margin-top: 15px;
+}
+.reel-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    #0b1619a8 0%,
+    #0b151808 30%,
+    #0b141c80 47%,
+    #0d1721f5 92%
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+.reels-topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: calc(13px + env(safe-area-inset-top, 0px)) 15px 13px;
+  background: linear-gradient(#11281caa, transparent);
+  color: #fff;
+}
+.reels-topbar > div:first-of-type {
+  text-align: center;
+}
+.reels-topbar h2 {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+.reels-topbar span {
+  font-size: 10px;
+  opacity: 0.8;
+}
+.reels-navigation {
+  display: flex;
+  gap: 5px;
+}
+#interactive-workspace #news-swipe-dialog button {
+  background: #ffffff15;
+  color: white;
+  border: 1px solid #ffffff30;
+  min-height: 44px;
+  min-width: 44px;
+  backdrop-filter: blur(12px);
+  font-size: 17px;
+  padding: 9px;
+  border-radius: 50%;
+}
+#interactive-workspace #news-swipe-dialog button:hover {
+  background: #ffffff30;
+}
+#interactive-workspace #news-swipe-dialog button:disabled {
+  opacity: 0.3;
+}
+.reel-body {
+  position: absolute;
+  left: 23px;
+  right: 80px;
+  bottom: calc(42px + env(safe-area-inset-bottom, 0px));
+  text-shadow: 0 1px 12px #0006;
+}
+.reel-author {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.reel-avatar {
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #ffffff4a;
+  background: #ffffff18;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 700;
+  backdrop-filter: blur(12px);
+}
+.reel-date {
+  font-size: 10px;
+  color: #d8e3d3;
+  margin-bottom: 15px;
+}
+.reel-title {
+  font-size: clamp(23px, 5.7vw, 32px);
+  line-height: 1.23;
+  font-weight: 800;
+  letter-spacing: -0.75px;
+  margin-bottom: 13px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #fff;
+}
+.reel-description {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #e6ece2;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.reel-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 13px 0 17px;
+  font-size: 10px;
+  color: #e0eccb;
+  max-height: 34px;
+  overflow: hidden;
+}
+#interactive-workspace #news-swipe-dialog .reel-read {
+  border-radius: 22px;
+  border: 0;
+  background: #f2f5e8;
+  color: #20382a;
+  min-height: 44px;
+  min-width: 100px;
+  padding: 11px 17px;
+  font-size: 12px;
+  font-weight: 700;
+  text-shadow: none;
+  box-shadow: 0 2px 10px #0001;
+}
+.reel-source {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 10px;
+  margin-left: 12px;
+  color: #e5e9df;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.reel-actions {
+  position: absolute;
+  right: 14px;
+  bottom: calc(108px + env(safe-area-inset-bottom, 0px));
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+}
+.reel-action {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+}
+.reel-action > span {
+  font-size: 9px;
+  font-weight: 600;
+  color: #eef3e9;
+  text-shadow: 0 1px 6px #0009;
+}
+#interactive-workspace #news-swipe-dialog .reel-actions button {
+  font-size: 25px;
+  width: 48px;
+  height: 48px;
+  background: #15261c45;
+  border: 1px solid #ffffff24;
+  backdrop-filter: blur(14px);
+}
+#interactive-workspace #news-swipe-dialog .reel-favorite[aria-pressed="true"] {
+  color: #f9d479;
+  background: #785f2433;
+}
+#interactive-workspace #news-swipe-dialog .reel-column {
+  display: block;
+  width: 170px;
+  min-height: 40px;
+  font-size: 11px;
+  background: #ffffff18;
+  border: 1px solid #ffffff3a;
+  border-radius: 9px;
+  color: white;
+  backdrop-filter: blur(12px);
+  padding: 9px 12px;
+  margin-top: 10px;
+  box-shadow: none;
+}
+.reel-column option {
+  background: #213f2b;
+  color: #fff;
+}
+#news-swipe-status {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  text-align: center;
+  font-size: 10px;
+  color: #e9efdf;
+  min-height: 16px;
+  pointer-events: none;
+  overflow-wrap: anywhere;
+}
+.reels-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 40px;
+  height: 100%;
+  text-align: center;
+}
+.reels-empty h2 {
+  font-size: 25px;
+}
+.reels-empty p {
+  font-size: 13px;
+  color: #bccdb1;
+}
+@media (max-width: 720px) {
+  #interactive-workspace #news-swipe-dialog {
+    width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+  }
+  .reel-body {
+    left: 20px;
+    right: 78px;
+  }
+  .reel-title {
+    font-size: 26px;
+  }
+  .reels-topbar {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .reel-source {
+    display: flex;
+    margin-left: 0;
+    min-height: 34px;
+    width: max-content;
+  }
+}
+@media (max-height: 650px) {
+  .reel-body {
+    bottom: 25px;
+  }
+  .reel-title {
+    font-size: 22px;
+    -webkit-line-clamp: 3;
+  }
+  .reel-description {
+    -webkit-line-clamp: 2;
+    font-size: 12px;
+  }
+  .reel-topics {
+    margin: 7px 0 9px;
+  }
+  .reel-date {
+    margin-bottom: 8px;
+  }
+  .reel-author {
+    margin-bottom: 3px;
+  }
+  .reel-actions {
+    bottom: 80px;
+    gap: 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #news-swipe-scroller {
+    scroll-behavior: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  #interactive-workspace #news-swipe-dialog {
+    width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+  }
+}
+@media (max-height: 500px) {
+  .reel-author,
+  .reel-date,
+  .reel-topics {
+    display: none;
+  }
+  .reel-title {
+    font-size: 20px;
+    -webkit-line-clamp: 2;
+  }
+  .reel-description {
+    -webkit-line-clamp: 2;
+  }
+  .reel-body {
+    bottom: 25px;
+  }
+  .reel-actions {
+    bottom: 62px;
+    gap: 12px;
+  }
+}
+
+.news-reel .reel-media .reel-cover {
+  object-fit: contain;
+  object-position: center 21%;
+  position: relative;
+}
+.news-reel .reel-media .reel-backdrop {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  filter: blur(24px);
+  transform: scale(1.12);
+  opacity: 0.48;
+}
+.reel-media {
+  background: #1c3227;
+}
+.reel-share svg {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 900px) {
+  #interactive-workspace #news-swipe-dialog .reel-column {
+    font-size: 16px;
+    min-height: 44px;
+  }
+}

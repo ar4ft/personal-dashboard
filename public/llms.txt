@@ -45,3 +45,7 @@ Ideas may include nextStep. Tasks may include group (Today|Upcoming|Someday), da
 The application fetches feed.json on load and every five minutes while visible. Users may also connect a public HTTPS JSON feed with CORS. Stable IDs let incoming updates refresh source content while preserving browser-local favorites, notes, and board moves.
 
 Browser edits live in localStorage (personal-dashboard:workspace:v1), not in GitHub. A public-site agent cannot read another person's browser state or edit their board. Export/restore transfers that state with the user's involvement. Older cached feed items remain tracked if omitted from a later batch. This is not shared authenticated storage.
+
+## Phone reading
+
+On phones the site uses bottom navigation and compact social feed cards. News includes a full-screen vertical Swipe news reader with save, share, and board tracking. It consumes the same feed fields; no separate mobile feed or video payload is required. Browser-local tracking rules remain unchanged.
