@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const http = require('node:http');
 const path = require('node:path');
 (async () => {
-  const browser = await chromium.launch({executablePath:process.env.DASHBOARD_BROWSER_EXECUTABLE, args:['--no-sandbox'], ...(process.env.DASHBOARD_TEST_PROXY ? {proxy:{server:process.env.DASHBOARD_TEST_PROXY}} : {})});
+  const browser = await chromium.launch({executablePath:process.env.DASHBOARD_BROWSER_EXECUTABLE, args:['--no-sandbox'], ...(process.env.DASHBOARD_TEST_PROXY ? {proxy:{server:process.env.DASHBOARD_TEST_PROXY, bypass:'localhost,127.0.0.1'}} : {})});
   const root = process.env.DASHBOARD_TEST_URL || 'http://localhost:4322/personal-dashboard-/';
   const context = await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   const page = await context.newPage();
@@ -65,7 +65,7 @@ const path = require('node:path');
     } catch {res.writeHead(404).end();}
   });
   await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
-  const updateRoot=`http://localhost:${server.address().port}${base}`;
+  const updateRoot=`http://127.0.0.1:${server.address().port}${base}`;
   const updateContext=await browser.newContext();
   const updatePage=await updateContext.newPage();
   await updatePage.goto(updateRoot);
