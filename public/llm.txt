@@ -49,3 +49,7 @@ Browser edits live in localStorage (personal-dashboard:workspace:v1), not in Git
 ## Phone reading
 
 On phones the site uses bottom navigation and compact social feed cards. News includes a full-screen vertical Swipe news reader with save, share, and board tracking. It consumes the same feed fields; no separate mobile feed or video payload is required. Browser-local tracking rules remain unchanged.
+
+## Installed app and offline delivery
+
+The dashboard is a PWA. `npm run build` generates `manifest.webmanifest` and `sw.js` for the configured GitHub Pages base path. The service worker caches the complete static build and the latest successful repository feed; an Update prompt activates new builds without clearing browser-local workspace data. Content producers still publish through authorized repository changes to feed.json/media, never through the service worker. Offline devices receive new content when they reconnect. Preserve the PWA build step and base-aware paths when changing deployment code.

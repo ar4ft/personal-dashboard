@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "astro dev",
     "check": "astro check",
-    "build": "astro build",
+    "build": "astro build && node scripts/build-pwa.mjs",
     "preview": "astro preview",
     "test": "node --test tests/*.test.mjs",
-    "test:browser": "node tests/workspace.browser.cjs && node tests/board-input.browser.cjs && node tests/phone.browser.cjs"
+    "test:browser": "node tests/workspace.browser.cjs && node tests/board-input.browser.cjs && node tests/phone.browser.cjs && node tests/pwa.browser.cjs"
   },
   "dependencies": {
     "astro": "^6.0.0"

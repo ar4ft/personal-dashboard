@@ -93,3 +93,13 @@ The published [llms.txt](https://ar4ft.github.io/personal-dashboard-/llms.txt) (
 On phones and tablets, the dashboard has a compact sticky header, bottom navigation (Home, News, Ideas, Plan), larger touch targets, collapsible filters, and full-width social feed cards. **News → Swipe news** opens a full-screen vertical reader. Swipe up/down or use the arrows to browse; save favorites, track directly on Kanban, choose a column, read the story, or share its link. Closing details returns to the current story. The reader uses your current source/topic/search/favorite filters and loads cards in batches. Landscape, safe-area insets, keyboard controls, and reduced-motion preferences are supported.
 
 The phone browser regression suite exercises real touch scrolling, bottom navigation, swipe tracking and favorites, read-and-return, narrow and landscape layouts. Edits remain browser-local and use the same backups as the desktop app.
+
+## Install on your phone (PWA)
+
+Open the dashboard and tap **App** to check that offline access is ready. On Android, use **Install app** when offered, or the browser's install menu. On iPhone/iPad, open it in Safari, choose **Share → Add to Home Screen**, and enable **Open as Web App** if shown. Launch the new Dashboard icon for a standalone experience.
+
+After the first successful online visit, all dashboard sections, bundled images, and app assets work offline. You can read cached content, edit boards and notes, and save favorites. New feeds, external article links, and remote images require a connection. The repository feed keeps its last successfully fetched response for offline reading; browser-local feed imports remain in your workspace backup.
+
+A new deployment offers an **Update** button after its offline files finish downloading. Updating reloads open dashboard tabs and preserves local workspace data. Installation does not add cross-device sync; export a backup before clearing browser/site storage. Phone browsers may keep the installed app's storage separate from an existing browser tab, so import a workspace backup if needed.
+
+`npm run build` generates a base-aware manifest and versioned service worker with a complete offline asset list. The PWA browser test checks installation metadata, icon sizes, offline navigation/images/edits, and update activation without losing local data. Changes to PWA caching live in `scripts/build-pwa.mjs`; no service-worker cache contains private credentials.
