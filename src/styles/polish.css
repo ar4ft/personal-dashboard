@@ -765,3 +765,6 @@ main {
 .brand {
   min-height: 44px;
 }
+#interactive-workspace #news-swipe-dialog .reel-column {
+  min-height: 44px;
+}
