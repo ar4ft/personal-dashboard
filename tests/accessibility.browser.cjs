@@ -146,6 +146,22 @@ const assert = require("node:assert/strict");
       .evaluate((node) => getComputedStyle(node).scrollBehavior),
     "auto",
   );
+  await page.getByRole("button", { name: "Swipe news", exact: true }).click();
+  const readerTargets = await page
+    .locator(
+      "#news-swipe-dialog button:visible, .news-reel:not([inert]) a, .news-reel:not([inert]) select",
+    )
+    .evaluateAll((nodes) =>
+      nodes
+        .map((node) => ({
+          label: node.getAttribute("aria-label") || node.textContent,
+          width: node.getBoundingClientRect().width,
+          height: node.getBoundingClientRect().height,
+        }))
+        .filter((node) => node.width < 43.5 || node.height < 43.5),
+    );
+  assert.deepEqual(readerTargets, []);
+  await page.getByRole("button", { name: "Close swipe news" }).click();
   // An imported feed exercises the existing batching and keyboard continuation.
   const feed = {
     version: 1,
@@ -169,13 +185,11 @@ const assert = require("node:assert/strict");
   await page
     .getByRole("button", { name: "Feeds & backup", exact: true })
     .click();
-  await page
-    .locator("#feed-import")
-    .setInputFiles({
-      name: "feed.json",
-      mimeType: "application/json",
-      buffer: Buffer.from(JSON.stringify(feed)),
-    });
+  await page.locator("#feed-import").setInputFiles({
+    name: "feed.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(feed)),
+  });
   await page.getByRole("button", { name: "Close feeds and backup" }).click();
   await page.locator("#workspace-search").fill("Accessible story");
   assert.equal(await page.locator(".item-card").count(), 30);

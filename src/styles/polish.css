@@ -752,3 +752,16 @@ main {
     padding: 10px 8px;
   }
 }
+#interactive-workspace #news-swipe-dialog .reel-source {
+  min-height: 44px;
+  min-width: 44px;
+  font-size: 0.75rem;
+}
+.idea-card h3 a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+}
+.brand {
+  min-height: 44px;
+}
