@@ -1,13 +1,17 @@
 ---
+import '../styles/tokens.css';
 import '../styles/global.css';
+import '../styles/workspace.css';
 import '../styles/mobile.css';
 import '../styles/pwa.css';
+import '../styles/polish.css';
+import Icon from '../components/Icon.astro';
 import data from '../data/dashboard.json';
 import { route } from '../lib/model.mjs';
 interface Props { title: string; active?: string }
 const { title, active = 'overview' } = Astro.props;
 const href = (path = '') => route(import.meta.env.BASE_URL, path);
-const links = [{key:'overview',label:'Overview',icon:'◫',url:''},{key:'news',label:'News & reading',icon:'◉',url:'news/'},{key:'ideas',label:'Project ideas',icon:'◇',url:'ideas/'},{key:'planning',label:'Todos & calendar',icon:'▦',url:'planning/'}];
+const links = [{key:'overview',label:'Overview',icon:'home',url:''},{key:'news',label:'News & reading',icon:'news',url:'news/'},{key:'ideas',label:'Project ideas',icon:'ideas',url:'ideas/'},{key:'planning',label:'Todos & calendar',icon:'planning',url:'planning/'}];
 ---
 <!doctype html>
 <html lang="en">
@@ -15,13 +19,13 @@ const links = [{key:'overview',label:'Overview',icon:'◫',url:''},{key:'news',l
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <aside class="sidebar">
-<a class="brand" href={href()}><span class="brand-mark">◫</span><span>{data.name}<small>A little space for everything.</small></span></a>
+<a class="brand" href={href()}><span class="brand-mark" aria-hidden="true"><Icon name="dashboard" /></span><span>{data.name}<small>A little space for everything.</small></span></a>
 <div class="nav-label">YOUR DASHBOARD</div>
-<nav aria-label="Main navigation">{links.map(link => <a href={href(link.url)} class:list={{selected:active === link.key}} aria-current={active === link.key ? 'page' : undefined}><span aria-hidden="true">{link.icon}</span>{link.label}</a>)}</nav>
-<div class="sidebar-note"><span class="sprout" aria-hidden="true">✳</span><h3>Small steps, good days.</h3><p>A place to collect, plan, and make a little progress.</p></div>
+<nav aria-label="Main navigation">{links.map(link => <a href={href(link.url)} class:list={{selected:active === link.key}} aria-current={active === link.key ? 'page' : undefined}><Icon name={link.icon} />{link.label}</a>)}</nav>
+<div class="sidebar-note"><Icon name="ideas" size={32} /><h3>Small steps, good days.</h3><p>A place to collect, plan, and make a little progress.</p></div>
 <div class="sidebar-footer"><span class="status-dot"></span> Personal workspace</div>
 </aside>
-<div class="workspace"><header class="topbar"><span class="mobile-topbar-title">{title}</span><span class="desktop-breadcrumb">Personal dashboard <span class="muted">/ {title}</span></span><div class="app-actions"><span id="app-offline" hidden role="status">Offline</span><button id="app-open" type="button">App</button><span class="avatar" aria-label="Personal workspace">ME</span></div></header><main id="main"><slot /></main><footer>Made for a little more focus.<span>Your workspace · saved in this browser</span></footer></div>
+<div class="workspace"><header class="topbar"><span class="mobile-topbar-title">{title}</span><span class="desktop-breadcrumb">Personal dashboard <span class="muted">/ {title}</span></span><div class="app-actions"><span id="app-offline" hidden role="status">Offline</span><button id="app-open" type="button"><Icon name="install" size={18} /><span>App</span></button><span class="avatar" aria-label="Personal workspace">ME</span></div></header><main id="main" tabindex="-1"><slot /></main><footer>Made for a little more focus.<span>Your workspace · saved in this browser</span></footer></div>
 <nav class="mobile-bottom-nav" aria-label="Phone navigation"><a href={href('')} aria-current={active==='overview'?'page':undefined}><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10 12 3l9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z" /></svg><span>Home</span></a><a href={href('news/')} aria-current={active==='news'?'page':undefined}><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h16v18H4ZM8 7h8M8 11h8M8 15h4M8 18h8" /></svg><span>News</span></a><a href={href('ideas/')} aria-current={active==='ideas'?'page':undefined}><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M8 14a7 7 0 1 1 8 0c-1 1-1 2-1 3H9c0-1 0-2-1-3Z" /></svg><span>Ideas</span></a><a href={href('planning/')} aria-current={active==='planning'?'page':undefined}><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v16H4ZM4 10h16M8 2v6M16 2v6M8 14h2M14 14h2M8 18h2" /></svg><span>Plan</span></a></nav>
 <div id="app-update" hidden role="status"><span>A new version is ready.</span><button id="app-reload" type="button">Update</button></div>
 <dialog id="app-dialog" data-base={href()} aria-labelledby="app-title"><div class="app-dialog-content"><h2 id="app-title">Your dashboard app</h2><p id="app-status" role="status">Preparing offline access…</p><p id="app-help">On iPhone or iPad, open this page in Safari, tap Share, then Add to Home Screen and Open as Web App. On Android, choose Install app or Add to Home screen from your browser menu.</p><p>Boards, favorites and notes save on this device. Use Feeds &amp; backup to move them to another device.</p><div class="app-dialog-actions"><button id="app-install" type="button" hidden>Install app</button><button id="app-close" type="button">Done</button></div></div></dialog>

@@ -1,0 +1,13 @@
+---
+interface Props {name: string; size?: number}
+const {name, size = 22} = Astro.props;
+const paths: Record<string, string[]> = {
+  home: ['M3 10 12 3l9 7v10H15v-7H9v7H3Z'],
+  dashboard: ['M4 4h6v16H4Z','M14 4h6v6h-6Z','M14 14h6v6h-6Z'],
+  news: ['M4 3h16v18H4Z','M8 7h8M8 11h8M8 15h4M8 18h8'],
+  ideas: ['M9 18h6M10 21h4','M8 14a7 7 0 1 1 8 0c-1 1-1 2-1 3H9c0-1 0-2-1-3Z'],
+  planning: ['M4 5h16v16H4Z','M4 10h16M8 2v6M16 2v6M8 14h2M14 14h2M8 18h2'],
+  install: ['M12 3v12m-5-5 5 5 5-5','M4 16v5h16v-5'],
+};
+---
+<svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">{(paths[name] || paths.dashboard).map(d => <path d={d} />)}</svg>

@@ -6,3 +6,5 @@ dist/
 !.env.example
 test-output/
 playwright-report/
+# The skill installer also copies a duplicate nested skills directory.
+.agents/skills/swiftui-pro/skills/

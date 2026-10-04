@@ -1,7 +1,6 @@
 ---
 import data from '../data/dashboard.json';
 import { seedItems } from '../lib/workspace.mjs';
-import '../styles/workspace.css';
 interface Props { section: 'news' | 'ideas' | 'planning'; filter?: string }
 const { section, filter='All' } = Astro.props;
 ---

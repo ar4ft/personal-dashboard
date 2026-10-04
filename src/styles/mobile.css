@@ -5,7 +5,7 @@
 }
 @media (max-width: 900px) {
   :root {
-    background: #f4f6f0;
+    background: var(--canvas);
   }
   .sidebar {
     display: none !important;
@@ -29,8 +29,8 @@
   }
   .mobile-topbar-title {
     display: block;
-    font-family: Manrope, sans-serif;
-    font-size: 17px;
+    font-family: var(--font-display);
+    font-size: 1.0625rem;
     font-weight: 800;
     letter-spacing: -0.4px;
   }
@@ -46,15 +46,15 @@
     margin-bottom: 22px;
   }
   .page-heading h1 {
-    font-size: 29px;
+    font-size: 1.8125rem;
     letter-spacing: -0.9px;
   }
   .page-heading .eyebrow {
-    font-size: 8px;
+    font-size: 0.5rem;
     margin-bottom: 10px;
   }
   .page-heading .intro {
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-top: 10px;
   }
   .tabs {
@@ -74,7 +74,7 @@
     display: flex;
     align-items: center;
     padding: 8px 14px;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .mobile-bottom-nav {
     display: flex;
@@ -101,8 +101,8 @@
     min-width: 70px;
     min-height: 52px;
     border-radius: 12px;
-    color: #8c9980;
-    font-size: 10px;
+    color: var(--text-secondary);
+    font-size: 0.625rem;
     font-weight: 600;
   }
   .mobile-bottom-nav a[aria-current="page"] {
@@ -126,13 +126,13 @@
     width: 100%;
     justify-content: space-between;
     padding: 4px;
-    background: #e8eddf;
+    background: var(--surface-muted);
   }
   #interactive-workspace .view-switch button {
     flex: 1;
     min-height: 42px;
     padding: 8px 10px;
-    font-size: 11px;
+    font-size: 0.6875rem;
     white-space: nowrap;
   }
   #interactive-workspace .toolbar-actions {
@@ -143,7 +143,7 @@
   }
   #interactive-workspace .toolbar-actions button {
     min-height: 44px;
-    font-size: 11px;
+    font-size: 0.6875rem;
     border-radius: 9px;
     padding: 8px 6px;
   }
@@ -155,21 +155,21 @@
   #interactive-workspace .filter-bar input,
   #interactive-workspace .filter-bar select {
     min-height: 44px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   #interactive-workspace .filter-bar button {
     min-height: 44px;
     height: auto;
     border-radius: 8px;
     padding: 10px 13px;
-    font-size: 11px;
+    font-size: 0.6875rem;
   }
   #interactive-workspace .filter-bar .search-field > span {
-    font-size: 11px;
+    font-size: 0.6875rem;
   }
   #interactive-workspace .workspace-meta {
     margin: 15px 0;
-    font-size: 10px;
+    font-size: 0.625rem;
   }
   #interactive-workspace .feed-list:not(.swipe-feed) {
     gap: 0;
@@ -183,7 +183,7 @@
     border-bottom: 1px solid #e1e7da;
     border-radius: 0;
     padding: 20px 17px;
-    background: #fff;
+    background: var(--surface);
   }
   #interactive-workspace .social-post .post-identity {
     margin-bottom: 14px;
@@ -193,11 +193,11 @@
     height: 38px;
   }
   #interactive-workspace .social-post .item-title {
-    font-size: 19px !important;
+    font-size: 1.1875rem !important;
     letter-spacing: -0.25px;
   }
   #interactive-workspace .social-post .item-summary {
-    font-size: 14px !important;
+    font-size: 0.875rem !important;
     line-height: 1.7 !important;
     margin-top: 10px !important;
   }
@@ -209,19 +209,19 @@
     min-width: 44px;
     min-height: 44px;
     padding: 8px 12px;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   #interactive-workspace .social-post .card-controls select {
     min-height: 44px;
     max-width: 150px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   #interactive-workspace .read-more {
     min-height: 42px;
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
   #interactive-workspace .post-source {
-    font-size: 11px;
+    font-size: 0.6875rem;
     min-height: 40px;
     display: flex;
     align-items: center;
@@ -259,7 +259,7 @@
     input:not([type="file"]),
   #interactive-workspace dialog:not(#news-swipe-dialog) select,
   #interactive-workspace dialog:not(#news-swipe-dialog) textarea {
-    font-size: 16px;
+    font-size: 1rem;
     min-height: 44px;
   }
   #interactive-workspace dialog:not(#news-swipe-dialog) button {
@@ -268,7 +268,7 @@
   .dialog-top {
     position: sticky;
     top: -24px;
-    background: #fcfdf9;
+    background: var(--surface);
     padding: 8px 0;
     z-index: 2;
   }
@@ -289,14 +289,14 @@
 }
 @media (max-width: 360px) {
   #interactive-workspace .view-switch button {
-    font-size: 10px;
+    font-size: 0.625rem;
     padding: 8px 7px;
   }
   .mobile-bottom-nav a {
     min-width: 60px;
   }
   #interactive-workspace .toolbar-actions button {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 }
 

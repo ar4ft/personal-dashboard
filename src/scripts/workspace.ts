@@ -1,3 +1,4 @@
+import { retainFocus } from "../lib/focus";
 import { installNewsSwipe } from "./news-swipe";
 import { installBoardDrag } from "../lib/board-drag";
 import {
@@ -38,6 +39,7 @@ function initialize(host: HTMLElement) {
   const btn = (text: string, action: () => void, cls = "", label?: string) => {
     const n = el("button", cls, text);
     n.type = "button";
+    if (cls) n.dataset.focusKey = cls.split(" ")[0];
     if (label) n.setAttribute("aria-label", label);
     n.addEventListener("click", action);
     return n;
@@ -158,6 +160,7 @@ function initialize(host: HTMLElement) {
   function columnSelect(item: Item) {
     const n = el("select");
     n.setAttribute("aria-label", `Move ${item.title} to column`);
+    n.dataset.focusKey = "column";
     state.columns[section].forEach((c) => {
       const o = el("option", "", c.title);
       o.value = c.id;
@@ -369,17 +372,27 @@ function initialize(host: HTMLElement) {
     columns: () => state.columns[section],
     base,
   });
+  const scrollBehavior = (): ScrollBehavior =>
+    matchMedia("(prefers-reduced-motion: reduce)").matches
+      ? "instant"
+      : "smooth";
   function renderFeed(list: Item[], target: HTMLElement) {
     const feed = el("div", "feed-list" + (swipe ? " swipe-feed" : ""));
     if (swipe) {
       const controls = el("div", "feed-controls");
       controls.append(
         btn("← Previous", () =>
-          feed.scrollBy({ left: -feed.clientWidth * 0.9, behavior: "smooth" }),
+          feed.scrollBy({
+            left: -feed.clientWidth * 0.9,
+            behavior: scrollBehavior(),
+          }),
         ),
         el("span", "", "Swipe or scroll sideways to browse"),
         btn("Next →", () =>
-          feed.scrollBy({ left: feed.clientWidth * 0.9, behavior: "smooth" }),
+          feed.scrollBy({
+            left: feed.clientWidth * 0.9,
+            behavior: scrollBehavior(),
+          }),
         ),
       );
       target.append(controls);
@@ -392,7 +405,7 @@ function initialize(host: HTMLElement) {
           feed.scrollBy({
             left:
               feed.clientWidth * 0.9 * (event.key === "ArrowRight" ? 1 : -1),
-            behavior: "smooth",
+            behavior: scrollBehavior(),
           });
         }
       });
@@ -543,6 +556,7 @@ function initialize(host: HTMLElement) {
   }
   function render() {
     if (boardDrag.isDragging()) return;
+    const restoreFocus = retainFocus(content);
     const list = sortItems(
       filtered(),
       state,
@@ -588,20 +602,51 @@ function initialize(host: HTMLElement) {
     content.replaceChildren();
     if (view === "calendar") {
       renderCalendar(list);
+      restoreFocus();
       return;
     }
     if (!list.length) {
       const empty = el("div", "empty-workspace");
+      const hasFilters = Boolean(query || topic || favorites);
+      const icon = el("span", "empty-icon", hasFilters ? "⌕" : "+");
+      icon.setAttribute("aria-hidden", "true");
       empty.append(
-        el("h3", "", "A little space for something new."),
+        icon,
+        el(
+          "h3",
+          "",
+          hasFilters ? "No matching items" : "Your next item starts here",
+        ),
         el(
           "p",
           "",
-          "No items match your filters. Try a different search, or add an item.",
+          query
+            ? `Nothing matches “${query}” in this section. Try another search or clear your filters.`
+            : hasFilters
+              ? "Try a different topic or clear your filters to see more items."
+              : "Add a story, capture an idea, or plan something you want to do.",
         ),
       );
+      const actions = el("div", "empty-actions");
+      if (hasFilters)
+        actions.append(
+          btn("Clear filters", () => {
+            query = "";
+            topic = "";
+            favorites = false;
+            limit = 30;
+            $<HTMLInputElement>("#workspace-search").value = "";
+            render();
+            $("#workspace-search").focus({ preventScroll: true });
+          }),
+        );
+      actions.append(btn("Add item", () => openEditor(), "primary-button"));
+      empty.append(actions);
       content.append(empty);
-      if (view !== "board") return;
+      if (view !== "board") {
+        restoreFocus();
+        return;
+      }
     }
     const visible = view === "board" ? list : list.slice(0, limit);
     const display = (entries: Item[], target: HTMLElement) => {
@@ -622,12 +667,21 @@ function initialize(host: HTMLElement) {
         btn(
           `Load more (${list.length - limit} remaining)`,
           () => {
+            const firstNew = list[limit];
+            const added = Math.min(30, list.length - limit);
             limit += 30;
             render();
+            content
+              .querySelector<HTMLElement>(
+                `[data-id="${CSS.escape(firstNew.id)}"] .item-title`,
+              )
+              ?.focus({ preventScroll: true });
+            announce(`${added} more items loaded.`);
           },
           "load-more",
         ),
       );
+    restoreFocus();
   }
   function openDetail(id: string) {
     currentDetail = id;
@@ -651,6 +705,8 @@ function initialize(host: HTMLElement) {
       return;
     }
     const body = $("#detail-body");
+    const restoreFocus = retainFocus(body);
+    body.dataset.id = item.id;
     body.replaceChildren();
     body.append(
       el(
@@ -733,6 +789,7 @@ function initialize(host: HTMLElement) {
     $<HTMLButtonElement>("#detail-previous").disabled = index <= 0;
     $<HTMLButtonElement>("#detail-next").disabled =
       index >= detailOrder.length - 1;
+    restoreFocus();
   }
   function advanceDetail(delta: number) {
     const index = detailOrder.indexOf(currentDetail) + delta;

@@ -68,7 +68,7 @@ See [the feed format](docs/feed-format.md) for all fields and a three-section ex
 
 GitHub Pages runs static files and browser JavaScript; it cannot run a private backend. Hacker News can be fetched through its public API; RSS sources can be collected during a scheduled GitHub Actions build. Twitter / X requires a supported authenticated API or curated links. Use Actions secrets for build-time credentials and publish only intended public output. For private calendar data, use an authenticated service rather than committing event details to this site.
 
-There are no API credentials or remote feed dependencies in this starter. Fonts use Google Fonts with system fallbacks. Layout and colors live in `src/styles/global.css`.
+There are no API credentials or remote feed dependencies in this starter. Fonts use the device’s system font and work offline. Shared design tokens live in `src/styles/tokens.css`; layout and refinements live in `src/styles/global.css` and `src/styles/polish.css`.
 
 ## Browser interaction checks
 
@@ -103,3 +103,10 @@ After the first successful online visit, all dashboard sections, bundled images,
 A new deployment offers an **Update** button after its offline files finish downloading. Updating reloads open dashboard tabs and preserves local workspace data. Installation does not add cross-device sync; export a backup before clearing browser/site storage. Phone browsers may keep the installed app's storage separate from an existing browser tab, so import a workspace backup if needed.
 
 `npm run build` generates a base-aware manifest and versioned service worker with a complete offline asset list. The PWA browser test checks installation metadata, icon sizes, offline navigation/images/edits, and update activation without losing local data. Changes to PWA caching live in `scripts/build-pwa.mjs`; no service-worker cache contains private credentials.
+
+
+## Design and accessibility
+
+The dashboard uses shared design tokens, system fonts, stronger text contrast, scalable text, and consistent icons. Phone controls have 44px touch targets, including narrow calendars. Keyboard focus survives favorite/column changes, and empty searches offer a Clear filters action. Reduce Motion, More Contrast, and forced-colors preferences are supported. Large feeds remain batched while search covers all items.
+
+The requested `swiftui-pro` agent skill is installed in `.agents/skills/swiftui-pro` with its source pinned in `skills-lock.json`. Its relevant design and accessibility principles have been adapted to this Astro PWA. See [design notes and validation](docs/design.md).
