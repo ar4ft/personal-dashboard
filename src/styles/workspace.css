@@ -550,7 +550,7 @@ dialog::backdrop {
   }
   .toolbar-actions button {
     flex: 1;
-    font-size: 0.625rem !important;
+    font-size: 0.875rem;
   }
   .filter-bar {
     padding: 13px;

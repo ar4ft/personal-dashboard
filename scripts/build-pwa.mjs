@@ -8,7 +8,7 @@ const manifest = {
   id: base, name: 'Personal Dashboard', short_name: 'Dashboard',
   description: 'Your news, ideas, boards, tasks and calendar.',
   start_url: base, scope: base, display: 'standalone',
-  background_color: '#f4f6f0', theme_color: '#234d3c',
+  background_color: '#126773', theme_color: '#126773',
   icons: [192, 512].map(size => ({src: `${base}icons/app-${size}.png`, sizes: `${size}x${size}`, type: 'image/png', purpose: 'any maskable'})),
   shortcuts: ['news', 'ideas', 'planning'].map((section, i) => ({name: ['News', 'Project ideas', 'Todos & calendar'][i], url: `${base}${section}/`}))
 };

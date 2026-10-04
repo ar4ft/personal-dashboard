@@ -1,21 +1,24 @@
-/* Shared visual language. rem sizes follow the reader's browser text preferences. */
+/* The clipping-board palette: teal ground, pale paper, dark ink. */
 :root {
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-display: var(--font-body);
-  --canvas: #f5f7f6;
-  --surface: #ffffff;
-  --surface-muted: #edf2ef;
-  --text: #203b30;
-  --text-secondary: #53655b;
-  --accent: #234d3c;
-  --accent-soft: #e5f0e9;
-  --border: #d8e2dc;
-  --focus: #17664d;
+  --font-display: "Bricolage Grotesque", var(--font-body);
+  --canvas: #126773;
+  --canvas-ink: #ffffff;
+  --canvas-secondary: #d1ebea;
+  --surface: #fbfcf5;
+  --surface-muted: #e6eee4;
+  --text: #153e45;
+  --text-secondary: #496168;
+  --accent: #105969;
+  --accent-soft: #dceceb;
+  --on-accent: #ffffff;
+  --border: #c6d6d1;
+  --focus: #0c6682;
   --radius-control: 10px;
-  --radius-card: 18px;
-  --radius-panel: 22px;
-  --shadow-card: 0 4px 18px #203b3006;
-  --shadow-panel: 0 14px 42px #203b300c;
+  --radius-card: 16px;
+  --radius-panel: 24px;
+  --shadow-card: 0 4px 0 #083e4a28;
+  --shadow-panel: 0 16px 48px #00171c35;
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -24,4 +27,20 @@
   --space-6: 32px;
   --muted: var(--text-secondary);
   color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --canvas: #102c32;
+  --canvas-ink: #f1f8ef;
+  --canvas-secondary: #bdcece;
+  --surface: #203f45;
+  --surface-muted: #294a50;
+  --text: #f1f8ef;
+  --text-secondary: #c3d3d1;
+  --accent: #b8e4df;
+  --accent-soft: #335c62;
+  --on-accent: #133d45;
+  --border: #507278;
+  --focus: #ace7e2;
+  --shadow-card: 0 4px 0 #071d2455;
+  color-scheme: dark;
 }

@@ -1,3 +1,4 @@
+import { showClipFeedback } from "../lib/clip-feedback";
 import { retainFocus } from "../lib/focus";
 import { installNewsSwipe } from "./news-swipe";
 import { installBoardDrag } from "../lib/board-drag";
@@ -26,6 +27,37 @@ function initialize(host: HTMLElement) {
   const $ = <T extends HTMLElement = HTMLElement>(selector: string) =>
     host.querySelector<T>(selector)!;
   const content = $("#workspace-content");
+  // Keep administrative actions reachable without occupying a row above phone stories.
+  const phoneLayout = matchMedia("(max-width: 900px)");
+  const actions = $(".toolbar-actions");
+  const manage = $<HTMLDetailsElement>(".toolbar-manage");
+  const toolbar = $(".workspace-toolbar");
+  function arrangeActions() {
+    (phoneLayout.matches ? $(".workspace-meta") : toolbar).append(actions);
+    manage.open = !phoneLayout.matches;
+  }
+  phoneLayout.addEventListener("change", arrangeActions);
+  arrangeActions();
+  manage.querySelectorAll("button").forEach((button) =>
+    button.addEventListener("click", () => {
+      if (phoneLayout.matches) manage.open = false;
+    }),
+  );
+  const tabs = document.querySelector<HTMLElement>(".tabs");
+  const activeTab = tabs?.querySelector<HTMLElement>("[aria-current=page]");
+  if (tabs && activeTab) {
+    function revealActiveTab() {
+      tabs!.scrollLeft = Math.max(
+        0,
+        activeTab!.offsetLeft -
+          tabs!.offsetLeft -
+          (tabs!.clientWidth - activeTab!.offsetWidth) / 2,
+      );
+    }
+    requestAnimationFrame(revealActiveTab);
+    phoneLayout.addEventListener("change", revealActiveTab);
+  }
+
   const el = <K extends keyof HTMLElementTagNameMap>(
     tag: K,
     cls = "",
@@ -148,6 +180,10 @@ function initialize(host: HTMLElement) {
       `Moved to ${state.columns[section].find((c) => c.id === column)?.title}.`,
     );
     if (currentDetail === item.id) renderDetail();
+    if (section === "news")
+      showClipFeedback(
+        `Clipped to ${state.columns[section].find((c) => c.id === column)?.title || "your board"}.`,
+      );
   }
   const boardDrag = installBoardDrag(
     content,
@@ -821,7 +857,9 @@ function initialize(host: HTMLElement) {
   const form = $<HTMLFormElement>("#item-form");
   const field = (name: string) =>
     form.elements.namedItem(name) as
-      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
+      | HTMLInputElement
+      | HTMLTextAreaElement
+      | HTMLSelectElement;
   function editorFields() {
     const type = field("type").value;
     $("#event-fields").hidden = type !== "task" && type !== "event";

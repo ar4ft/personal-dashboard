@@ -68,7 +68,7 @@ See [the feed format](docs/feed-format.md) for all fields and a three-section ex
 
 GitHub Pages runs static files and browser JavaScript; it cannot run a private backend. Hacker News can be fetched through its public API; RSS sources can be collected during a scheduled GitHub Actions build. Twitter / X requires a supported authenticated API or curated links. Use Actions secrets for build-time credentials and publish only intended public output. For private calendar data, use an authenticated service rather than committing event details to this site.
 
-There are no API credentials or remote feed dependencies in this starter. Fonts use the device’s system font and work offline. Shared design tokens live in `src/styles/tokens.css`; layout and refinements live in `src/styles/global.css` and `src/styles/polish.css`.
+There are no API credentials or remote feed dependencies in this starter. Body text uses the device’s system font; headings use bundled OFL Bricolage Grotesque. Both work offline without a font service. Shared design tokens live in `src/styles/tokens.css`; the clipping-board theme lives in `src/styles/clipping.css`. Choose System, Light or Dark under **App → Appearance**.
 
 ## Browser interaction checks
 
@@ -107,6 +107,8 @@ A new deployment offers an **Update** button after its offline files finish down
 
 ## Design and accessibility
 
-The dashboard uses shared design tokens, system fonts, stronger text contrast, scalable text, and consistent icons. Phone controls have 44px touch targets, including narrow calendars. Keyboard focus survives favorite/column changes, and empty searches offer a Clear filters action. Reduce Motion, More Contrast, and forced-colors preferences are supported. Large feeds remain batched while search covers all items.
+The dashboard uses a teal clipping-board design, shared light/dark tokens, bundled display typography, scalable text, and consistent icons. Phone administrative actions are under **Manage** beside **Add item**; desktop actions remain directly available. Phone controls have 44px touch targets, including narrow calendars. Keyboard focus survives favorite/column changes, and empty searches offer a Clear filters action. Reduce Motion, More Contrast, and forced-colors preferences are supported. Large feeds remain batched while search covers all items.
 
 The requested `swiftui-pro` agent skill is installed in `.agents/skills/swiftui-pro` with its source pinned in `skills-lock.json`. Its relevant design and accessibility principles have been adapted to this Astro PWA. See [design notes and validation](docs/design.md).
+
+Design exploration, before/after renders, scan results and critique rounds are recorded in [design/app-designer](design/app-designer/DIRECTION.md), following [fortvna/app-designer](https://github.com/fortvna/app-designer). See [docs/design.md](docs/design.md) for verification and reproduction.

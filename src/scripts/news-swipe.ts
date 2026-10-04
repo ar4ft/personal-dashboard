@@ -95,14 +95,8 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
       const body = el("div", "reel-body");
       const author = el("div", "reel-author");
       const name = item.author || item.source || "News";
-      author.append(
-        el(
-          "span",
-          "reel-avatar",
-          name.replace(/^@/, "").slice(0, 2).toUpperCase(),
-        ),
-        el("strong", "", name),
-      );
+      author.append(el("strong", "", name));
+      reel.append(el("span", "reel-source-clipping", item.source || "News"));
       const stamp = el(
         "p",
         "reel-date",

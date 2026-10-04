@@ -1,0 +1,526 @@
+[
+  {
+    "name": "home-402-light",
+    "fails": [],
+    "warns": [
+      "9 distinct text sizes. A type scale has 5 to 7 steps: 40, 22, 19, 17, 16, 15, 14, 13, 12",
+      "6 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 18,
+        "Bricolage Grotesque": 10
+      },
+      "sizes": [
+        40,
+        22,
+        19,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700",
+        "800"
+      ],
+      "leftEdges": 6,
+      "accentHues": [
+        192
+      ],
+      "cards": 2
+    }
+  },
+  {
+    "name": "news/-402-light",
+    "fails": [],
+    "warns": [
+      "9 distinct text sizes. A type scale has 5 to 7 steps: 28, 20, 17, 16, 15, 14, 13, 12, 11",
+      "8 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 26,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        28,
+        20,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 8,
+      "accentHues": [
+        192
+      ],
+      "cards": 3
+    }
+  },
+  {
+    "name": "ideas/-402-light",
+    "fails": [],
+    "warns": [
+      "8 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 24,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        28,
+        20,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 8,
+      "accentHues": [
+        192
+      ],
+      "cards": 3
+    }
+  },
+  {
+    "name": "planning/calendar/-402-light",
+    "fails": [],
+    "warns": [
+      "9 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 63,
+        "Bricolage Grotesque": 3
+      },
+      "sizes": [
+        28,
+        22,
+        17,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 9,
+      "accentHues": [
+        192
+      ],
+      "cards": 3
+    }
+  },
+  {
+    "name": "home-402-dark",
+    "fails": [],
+    "warns": [
+      "9 distinct text sizes. A type scale has 5 to 7 steps: 40, 22, 19, 17, 16, 15, 14, 13, 12",
+      "6 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 18,
+        "Bricolage Grotesque": 10
+      },
+      "sizes": [
+        40,
+        22,
+        19,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700",
+        "800"
+      ],
+      "leftEdges": 6,
+      "accentHues": [
+        168
+      ],
+      "cards": 2
+    }
+  },
+  {
+    "name": "news/-402-dark",
+    "fails": [],
+    "warns": [
+      "9 distinct text sizes. A type scale has 5 to 7 steps: 28, 20, 17, 16, 15, 14, 13, 12, 11",
+      "8 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 26,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        28,
+        20,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 8,
+      "accentHues": [],
+      "cards": 3
+    }
+  },
+  {
+    "name": "ideas/-402-dark",
+    "fails": [],
+    "warns": [
+      "8 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 24,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        28,
+        20,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 8,
+      "accentHues": [],
+      "cards": 3
+    }
+  },
+  {
+    "name": "planning/calendar/-402-dark",
+    "fails": [],
+    "warns": [
+      "9 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 63,
+        "Bricolage Grotesque": 3
+      },
+      "sizes": [
+        28,
+        22,
+        17,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 9,
+      "accentHues": [],
+      "cards": 3
+    }
+  },
+  {
+    "name": "home-375-light",
+    "fails": [],
+    "warns": [
+      "9 distinct text sizes. A type scale has 5 to 7 steps: 40, 22, 19, 17, 16, 15, 14, 13, 12",
+      "7 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 14,
+        "Bricolage Grotesque": 8
+      },
+      "sizes": [
+        40,
+        22,
+        19,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700",
+        "800"
+      ],
+      "leftEdges": 7,
+      "accentHues": [
+        192
+      ],
+      "cards": 2
+    }
+  },
+  {
+    "name": "news/-375-light",
+    "fails": [],
+    "warns": [
+      "8 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 21,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        28,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 8,
+      "accentHues": [
+        192
+      ],
+      "cards": 3
+    }
+  },
+  {
+    "name": "ideas/-375-light",
+    "fails": [],
+    "warns": [
+      "8 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 20,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        28,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 8,
+      "accentHues": [
+        192
+      ],
+      "cards": 3
+    }
+  },
+  {
+    "name": "planning/calendar/-375-light",
+    "fails": [],
+    "warns": [
+      "Largest text is 22px. No element owns the screen. (Mark data-dense if this is deliberate.)",
+      "9 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 60,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        22,
+        17,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 9,
+      "accentHues": [
+        192
+      ],
+      "cards": 2
+    }
+  },
+  {
+    "name": "home-375-dark",
+    "fails": [],
+    "warns": [
+      "9 distinct text sizes. A type scale has 5 to 7 steps: 40, 22, 19, 17, 16, 15, 14, 13, 12",
+      "7 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 14,
+        "Bricolage Grotesque": 8
+      },
+      "sizes": [
+        40,
+        22,
+        19,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700",
+        "800"
+      ],
+      "leftEdges": 7,
+      "accentHues": [
+        168
+      ],
+      "cards": 2
+    }
+  },
+  {
+    "name": "news/-375-dark",
+    "fails": [],
+    "warns": [
+      "8 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 21,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        28,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 8,
+      "accentHues": [],
+      "cards": 3
+    }
+  },
+  {
+    "name": "ideas/-375-dark",
+    "fails": [],
+    "warns": [
+      "8 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 20,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        28,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 8,
+      "accentHues": [],
+      "cards": 3
+    }
+  },
+  {
+    "name": "planning/calendar/-375-dark",
+    "fails": [],
+    "warns": [
+      "Largest text is 22px. No element owns the screen. (Mark data-dense if this is deliberate.)",
+      "9 distinct left edges in the left third. Align to fewer verticals."
+    ],
+    "facts": {
+      "fonts": {
+        "-apple-system": 60,
+        "Bricolage Grotesque": 1
+      },
+      "sizes": [
+        22,
+        17,
+        15,
+        14,
+        13,
+        12
+      ],
+      "weights": [
+        "400",
+        "600",
+        "700"
+      ],
+      "leftEdges": 9,
+      "accentHues": [],
+      "cards": 2
+    }
+  }
+]
