@@ -1,11 +1,21 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { validateFeed } from "../src/lib/workspace.mjs";
+import {
+  validateFeed,
+  seedItems,
+  assertUniqueNewsSources,
+} from "../src/lib/workspace.mjs";
 test("The committed automation feed is valid before it is published", () => {
   const file = readFileSync(new URL("../public/feed.json", import.meta.url));
   assert.ok(file.length <= 10 * 1024 * 1024, "Feed must be at most 10 MB");
   const items = validateFeed(JSON.parse(file));
+  const seed = seedItems(
+    JSON.parse(
+      readFileSync(new URL("../src/data/dashboard.json", import.meta.url)),
+    ),
+  );
+  assertUniqueNewsSources([...seed, ...items]);
   for (const item of items) {
     if (item.image && !item.image.startsWith("https://"))
       assert.ok(

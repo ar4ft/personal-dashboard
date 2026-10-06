@@ -15,8 +15,12 @@ const fs = require("node:fs");
     "http://localhost:4322/personal-dashboard/";
   const page = await browser.newPage({
       viewport: { width: 1440, height: 1000 },
+      serviceWorkers: "block",
     }),
     errors = [];
+  await page.route(root + "feed.json", (route) =>
+    route.fulfill({ json: { version: 1, items: [] } }),
+  );
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto(root + "news/");
   await page.waitForFunction(() =>
@@ -122,7 +126,11 @@ const fs = require("node:fs");
     viewport: { width: 390, height: 844 },
     hasTouch: true,
     isMobile: true,
+    serviceWorkers: "block",
   });
+  await mobile.route(root + "feed.json", (route) =>
+    route.fulfill({ json: { version: 1, items: [] } }),
+  );
   const touch = await mobile.newPage();
   touch.on("pageerror", (e) => errors.push(e.message));
   await touch.goto(root + "news/");

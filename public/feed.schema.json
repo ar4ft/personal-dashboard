@@ -55,7 +55,8 @@
           },
           "url": {
             "type": "string",
-            "pattern": "^(https?://|$)"
+            "pattern": "^(https?://|$)",
+            "description": "Original source link. For news, one item per normalized source URL; ignore fragments, trailing slash and common tracking parameters for comparison while preserving meaningful query values."
           },
           "topics": {
             "type": "array",
@@ -196,7 +197,8 @@
             }
           }
         ]
-      }
+      },
+      "description": "IDs must be unique across all sections. News source URLs must be unique after URL comparison normalization; cross-item URL uniqueness is enforced by the application validator and cannot be expressed by standard JSON Schema."
     }
   }
 }

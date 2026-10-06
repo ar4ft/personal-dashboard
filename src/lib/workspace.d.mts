@@ -41,10 +41,16 @@ export const DEFAULT_COLUMNS: Record<Section, Column[]>;
 export function emptyState(): State;
 export function seedItems(data: unknown): Item[];
 export function safeUrl(url: string): string;
+export function newsSourceKey(url: string): string;
+export function duplicateNewsSource(
+  item: Pick<Item, "id" | "section" | "url">,
+  items: Item[],
+): Item | undefined;
+export function assertUniqueNewsSources(items: Item[]): void;
 export function safeImageUrl(value: string, base?: string): string;
 export function validateItem(value: unknown): Item;
 export function validateFeed(payload: unknown): Item[];
-export function mergeFeed(state: State, items: Item[]): State;
+export function mergeFeed(state: State, items: Item[], seed?: Item[]): State;
 export function materialize(seed: Item[], state: State): Item[];
 export function filterItems(
   items: Item[],

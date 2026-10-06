@@ -8,6 +8,8 @@ import {
   validateBackup,
   validateFeed,
   validateItem,
+  duplicateNewsSource,
+  newsSourceKey,
   materialize,
   filterItems,
   sortItems,
@@ -956,6 +958,14 @@ function initialize(host: HTMLElement) {
     raw.done = raw.type === "task" && raw.status === "done";
     try {
       const item = validateItem(raw);
+      const duplicate = duplicateNewsSource(item, items());
+      if (
+        duplicate &&
+        (!previous || newsSourceKey(previous.url) !== newsSourceKey(item.url))
+      )
+        throw new Error(
+          `This source link is already saved as "${duplicate.title}" in News & reading. Edit that item instead.`,
+        );
       if (previous && !state.custom.some((i) => i.id === item.id)) {
         const patch: Partial<Item> = {
           ...state.edits[item.id],
@@ -1201,7 +1211,7 @@ function initialize(host: HTMLElement) {
         const feed = validateFeed(parsed);
         if (feed.some((i) => state.custom.some((c) => c.id === i.id)))
           throw new Error("Feed IDs cannot overwrite locally created items.");
-        mergeFeed(state, feed);
+        mergeFeed(state, feed, seed);
       }
       save(
         backup
@@ -1211,7 +1221,7 @@ function initialize(host: HTMLElement) {
       render();
       $("#settings-status").textContent = backup
         ? "Workspace restored."
-        : "Feed imported. New items are available in their sections.";
+        : "Feed imported. Existing news links keep their saved items; new items are available in their sections.";
     } catch (error) {
       $("#settings-status").textContent =
         `Import failed: ${(error as Error).message}`;
@@ -1249,7 +1259,7 @@ function initialize(host: HTMLElement) {
         const incoming = validateFeed(JSON.parse(text));
         if (incoming.some((i) => state.custom.some((c) => c.id === i.id)))
           throw new Error("Feed IDs cannot overwrite locally created items.");
-        mergeFeed(state, incoming);
+        mergeFeed(state, incoming, seed);
         loaded += incoming.length;
       } catch (error) {
         messages.push(

@@ -40,6 +40,10 @@ News column IDs: inbox, following, read, archived. Ideas: explore, build, later,
 
 Ideas may include nextStep. Tasks may include group (Today|Upcoming|Someday), date (due date), and done. Events use date and optional HH:MM time. Times are displayed as provided, without timezone conversion. Publication timestamps use ISO 8601, preferably UTC. Feed/timeline order uses createdAt or the scheduled date.
 
+## Unique news source links
+
+News source URLs must be unique across all news sources and board columns, including Reading. Comparison ignores fragments, one trailing slash, query ordering, UTM parameters and fbclid/gclid/dclid/msclkid tracking parameters. Hosts/default ports are normalized; path case, scheme and meaningful query values (such as article IDs) remain distinct. Original source URLs are retained for opening/sharing. Items without a URL are allowed. Duplicate URLs inside a feed are rejected before mutation; a URL already present in starter/browser content is skipped during ingestion, retaining the existing ID, favorites, notes and board position. Same-ID updates remain supported unless their effective URL would collide with another item. Deleted cached items also reserve their links so a changed producer ID cannot resurrect them. Existing backups with older duplicates remain readable and are not destructively cleaned up.
+
 ## Persistence and ingestion
 
 The application fetches feed.json on load and every five minutes while visible. Users may also connect a public HTTPS JSON feed with CORS. Stable IDs let incoming updates refresh source content while preserving browser-local favorites, notes, and board moves.

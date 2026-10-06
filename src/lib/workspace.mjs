@@ -86,6 +86,46 @@ export function safeUrl(url) {
     return "";
   }
 }
+/** Comparison only: keep the original URL for opening/sharing the source. */
+export function newsSourceKey(url) {
+  const safe = safeUrl(url);
+  if (!safe) return "";
+  const parsed = new URL(safe);
+  parsed.hash = "";
+  if (parsed.pathname.endsWith("/"))
+    parsed.pathname = parsed.pathname.slice(0, -1);
+  for (const name of [...parsed.searchParams.keys()])
+    if (
+      /^utm_/i.test(name) ||
+      ["fbclid", "gclid", "dclid", "msclkid"].includes(name.toLowerCase())
+    )
+      parsed.searchParams.delete(name);
+  parsed.searchParams.sort();
+  return parsed.href;
+}
+export function duplicateNewsSource(item, items) {
+  const key = item.section === "news" ? newsSourceKey(item.url) : "";
+  if (!key) return undefined;
+  return items.find(
+    (other) =>
+      other.section === "news" &&
+      other.id !== item.id &&
+      newsSourceKey(other.url) === key,
+  );
+}
+export function assertUniqueNewsSources(items) {
+  const urls = new Map();
+  // Same-ID entries are updates, including feed overlays of starter items.
+  for (const item of new Map(items.map((item) => [item.id, item])).values()) {
+    const key = item.section === "news" ? newsSourceKey(item.url) : "";
+    if (!key) continue;
+    if (urls.has(key))
+      throw new Error(
+        `Duplicate news source URL: "${item.title}" and "${urls.get(key).title}". Keep one news item per source link.`,
+      );
+    urls.set(key, item);
+  }
+}
 export function safeImageUrl(value, base = "/") {
   if (typeof value !== "string" || !value) return "";
   if (/^https:\/\//i.test(value)) return safeUrl(value);
@@ -204,7 +244,7 @@ export function validateItem(value) {
     group: value.group || "",
   };
 }
-export function validateFeed(payload) {
+function validateCollection(payload) {
   if (!payload || payload.version !== 1 || !Array.isArray(payload.items))
     throw new Error("Use a JSON object with version: 1 and an items array.");
   if (payload.items.length > 10000)
@@ -214,9 +254,41 @@ export function validateFeed(payload) {
     throw new Error("Feed item IDs must be unique across all sections.");
   return items;
 }
-export function mergeFeed(state, items) {
+export function validateFeed(payload) {
+  const items = validateCollection(payload);
+  assertUniqueNewsSources(items);
+  return items;
+}
+export function mergeFeed(state, items, seed = []) {
   const cache = new Map(state.cachedItems.map((item) => [item.id, item]));
-  items.forEach((item) => cache.set(item.id, item));
+  const existing = new Map(
+    [...seed, ...state.cachedItems, ...state.custom].map((item) => [
+      item.id,
+      item,
+    ]),
+  );
+  const urls = new Map();
+  const keyOf = (item) => {
+    const effective = { ...item, ...state.edits[item.id] };
+    return effective.section === "news" ? newsSourceKey(effective.url) : "";
+  };
+  function reserve(key, id) {
+    if (!key) return;
+    if (!urls.has(key)) urls.set(key, new Set());
+    urls.get(key).add(id);
+  }
+  for (const item of existing.values()) reserve(keyOf(item), item.id);
+  for (const item of items) {
+    const key = keyOf(item);
+    // Preserve the existing stable ID and its tracking, including deleted items.
+    if (key && [...(urls.get(key) || [])].some((id) => id !== item.id))
+      continue;
+    const previous = existing.get(item.id);
+    if (previous) urls.get(keyOf(previous))?.delete(item.id);
+    existing.set(item.id, item);
+    reserve(key, item.id);
+    cache.set(item.id, item);
+  }
   state.cachedItems = [...cache.values()];
   return state;
 }
@@ -382,8 +454,11 @@ export function validateBackup(payload) {
       throw new Error(`Invalid backup ${key}.`);
     state[key] = [...new Set(source[key])];
   }
-  state.custom = validateFeed({ version: 1, items: source.custom });
-  state.cachedItems = validateFeed({ version: 1, items: source.cachedItems });
+  state.custom = validateCollection({ version: 1, items: source.custom });
+  state.cachedItems = validateCollection({
+    version: 1,
+    items: source.cachedItems,
+  });
   if (
     !source.edits ||
     typeof source.edits !== "object" ||

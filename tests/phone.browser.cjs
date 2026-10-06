@@ -17,7 +17,11 @@ const fs = require("node:fs");
     viewport: { width: 390, height: 844 },
     hasTouch: true,
     isMobile: true,
+    serviceWorkers: "block",
   });
+  await context.route(root + "feed.json", (route) =>
+    route.fulfill({ json: { version: 1, items: [] } }),
+  );
   const page = await context.newPage(),
     errors = [];
   page.on("pageerror", (e) => errors.push(e.message));

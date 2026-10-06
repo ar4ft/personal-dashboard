@@ -10,6 +10,7 @@ fs.mkdirSync("test-output", { recursive: true });
   });
   const context = await browser.newContext({
     viewport: { width: 1440, height: 1000 },
+    serviceWorkers: "block",
   });
   const page = await context.newPage();
   const errors = [];
@@ -17,6 +18,10 @@ fs.mkdirSync("test-output", { recursive: true });
   const root =
     process.env.DASHBOARD_TEST_URL ||
     "http://localhost:4322/personal-dashboard/";
+  // Interaction expectations use a fixed repository feed; production feed validation is separate.
+  await context.route(root + "feed.json", (route) =>
+    route.fulfill({ json: { version: 1, items: [] } }),
+  );
   const card = (id) => page.locator(`.item-card[data-id="${id}"]`);
   const close = (dialog) => page.locator(`[data-close="${dialog}"]`).click();
   await page.goto(root + "news/");
@@ -103,6 +108,46 @@ fs.mkdirSync("test-output", { recursive: true });
     .fill("The complete text to search and read.");
   await page.locator("#item-form [name=url]").fill("https://example.com/story");
   await page.locator("#item-form [type=submit]").click();
+  // New news links are unique across sources, and failed saves retain the workspace.
+  const savedBeforeDuplicate = await page.evaluate(() =>
+    localStorage.getItem("personal-dashboard:workspace:v1"),
+  );
+  await page.locator("#new-item").click();
+  await page.locator("#item-form [name=title]").fill("Repeated research story");
+  await page.locator("#item-form [name=source]").fill("Reading");
+  await page
+    .locator("#item-form [name=url]")
+    .fill("https://EXAMPLE.com/story/?utm_source=reading#comments");
+  await page.locator("#item-form [type=submit]").click();
+  assert.match(
+    await page.locator("#form-error").innerText(),
+    /already saved as "A new research story"/,
+  );
+  assert.equal(
+    await page.locator("#edit-dialog").evaluate((n) => n.open),
+    true,
+  );
+  assert.equal(
+    await page.evaluate(() =>
+      localStorage.getItem("personal-dashboard:workspace:v1"),
+    ),
+    savedBeforeDuplicate,
+  );
+  await page.getByRole("button", { name: "Close editor" }).click();
+  // Existing items can keep their own URL, but cannot take another story's URL.
+  await page
+    .getByRole("button", { name: "Edit A new research story", exact: true })
+    .click();
+  await page.locator("#item-form [type=submit]").click();
+  await card("news:news:hn")
+    .getByRole("button", { name: /^Edit / })
+    .click();
+  await page
+    .locator("#item-form [name=url]")
+    .fill("https://example.com/story#another-fragment");
+  await page.locator("#item-form [type=submit]").click();
+  assert.match(await page.locator("#form-error").innerText(), /already saved/);
+  await page.getByRole("button", { name: "Close editor" }).click();
   await page.locator("#workspace-search").fill("complete text");
   assert.equal(await page.locator(".item-card").count(), 1);
   await page.locator(".item-title").click();
@@ -218,6 +263,62 @@ fs.mkdirSync("test-output", { recursive: true });
   const download = await downloadPromise;
   const backup = JSON.parse(fs.readFileSync(await download.path(), "utf8"));
   assert.ok(backup.state.favorites.includes("auto:hn:101"));
+  // Feed duplicates cannot bypass the editor guard; valid news remains ingestible.
+  await upload({
+    version: 1,
+    items: [
+      {
+        id: "duplicate:research",
+        section: "news",
+        title: "Feed copy",
+        url: "https://example.com/story/?gclid=123",
+      },
+    ],
+  });
+  await page.waitForFunction(() =>
+    document
+      .querySelector("#settings-status")
+      .textContent.includes("Feed imported"),
+  );
+  assert.equal(
+    await page.locator('.item-card[data-id="duplicate:research"]').count(),
+    0,
+  );
+  const cachedBeforeInvalid = await page.evaluate(
+    () =>
+      JSON.parse(localStorage.getItem("personal-dashboard:workspace:v1"))
+        .cachedItems,
+  );
+  await upload({
+    version: 1,
+    items: [
+      {
+        id: "dup:1",
+        section: "news",
+        title: "First",
+        url: "https://example.com/repeated",
+      },
+      {
+        id: "dup:2",
+        section: "news",
+        title: "Second",
+        url: "https://example.com/repeated/#comments",
+      },
+    ],
+  });
+  await page.waitForFunction(() =>
+    document
+      .querySelector("#settings-status")
+      .textContent.includes("Duplicate news source URL"),
+  );
+  assert.deepEqual(
+    await page.evaluate(
+      () =>
+        JSON.parse(localStorage.getItem("personal-dashboard:workspace:v1"))
+          .cachedItems,
+    ),
+    cachedBeforeInvalid,
+  );
   await close("settings-dialog");
   // Every other section has independently editable boards, feeds, timelines, and details.
   for (const section of ["ideas", "planning"]) {
