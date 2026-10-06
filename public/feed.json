@@ -5301,6 +5301,23 @@
       "status": "inbox"
     },
     {
+      "id": "x:2045662273776013331",
+      "section": "news",
+      "type": "news",
+      "title": "Eric sets up a LiteLLM proxy with a PII guardrail",
+      "description": "Eric sets up a LiteLLM proxy with a PII guardrail.",
+      "content": "Bookmarked on X.",
+      "author": "Eric (@Ex0byt)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Ex0byt/status/2045662273776013331",
+      "createdAt": "2026-04-19T00:34:27Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2045310991991447569",
       "section": "news",
       "type": "news",
@@ -5384,6 +5401,190 @@
       "source": "Twitter / X",
       "url": "https://x.com/encoredotdev/status/2041872488175386784",
       "createdAt": "2026-04-08T13:35:11Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2041591737563394442",
+      "section": "news",
+      "type": "news",
+      "title": "Dr Heidy Khlaaf discusses safety-critical systems and formal verification",
+      "description": "Dr Heidy Khlaaf discusses safety-critical systems and formal verification.",
+      "content": "Bookmarked on X.",
+      "author": "Dr Heidy Khlaaf (@HeidyKhlaaf)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/HeidyKhlaaf/status/2041591737563394442",
+      "createdAt": "2026-04-07T18:59:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2041578392852517128",
+      "section": "news",
+      "type": "news",
+      "title": "Anthropic announces Project Glasswing and Claude Mythos",
+      "description": "Anthropic announces Project Glasswing and Claude Mythos.",
+      "content": "Bookmarked on X.",
+      "author": "Anthropic (@AnthropicAI)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/AnthropicAI/status/2041578392852517128",
+      "createdAt": "2026-04-07T18:06:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2041441945290162178",
+      "section": "news",
+      "type": "news",
+      "title": "Theo - t3.gg argues that bash is a bad shell for AI agents",
+      "description": "Theo - t3.gg argues that bash is a bad shell for AI agents.",
+      "content": "Bookmarked on X.",
+      "author": "Theo - t3.gg (@theo)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/theo/status/2041441945290162178",
+      "createdAt": "2026-04-07T09:04:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2033181380432339045",
+      "section": "news",
+      "type": "news",
+      "title": "Tw93 shares a handbook on Claude Code's architecture",
+      "description": "Tw93 shares a handbook on Claude Code's architecture.",
+      "content": "Bookmarked on X.",
+      "author": "Tw93 (@HiTw93)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/HiTw93/status/2033181380432339045",
+      "createdAt": "2026-03-15T13:59:50Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2024140800469221819",
+      "section": "news",
+      "type": "news",
+      "title": "Chris Raroque uses Midjourney to make app mascots",
+      "description": "Chris Raroque uses Midjourney to make app mascots.",
+      "content": "Bookmarked on X.",
+      "author": "Chris Raroque (@raroque)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/raroque/status/2024140800469221819",
+      "createdAt": "2026-02-18T15:15:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2010013060333769098",
+      "section": "news",
+      "type": "news",
+      "title": "Viktor Seraleev shares a formula for app design and onboarding",
+      "description": "Viktor Seraleev shares a formula for app design and onboarding.",
+      "content": "Bookmarked on X.",
+      "author": "Viktor Seraleev (@seraleev)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/seraleev/status/2010013060333769098",
+      "createdAt": "2026-01-10T15:37:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:1932696550896975919",
+      "section": "news",
+      "type": "news",
+      "title": "merve announces early access to a book on vision language models (VLMs)",
+      "description": "merve announces early access to a book on vision language models (VLMs).",
+      "content": "Bookmarked on X.",
+      "author": "merve (@mervenoyann)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/mervenoyann/status/1932696550896975919",
+      "createdAt": "2025-06-11T07:09:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:1899154802463944763",
+      "section": "news",
+      "type": "news",
+      "title": "Ian Nuttall shares a PRD (product requirements document) prompt to start AI-assisted projects",
+      "description": "Ian Nuttall shares a PRD (product requirements document) prompt to start AI-assisted projects.",
+      "content": "Bookmarked on X.",
+      "author": "Ian Nuttall (@iannuttall)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/iannuttall/status/1899154802463944763",
+      "createdAt": "2025-03-10T17:46:04Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:1894399506277376369",
+      "section": "news",
+      "type": "news",
+      "title": "sunil pai shares the Cloudflare agents repo and docs",
+      "description": "sunil pai shares the Cloudflare agents repo and docs.",
+      "content": "Bookmarked on X.",
+      "author": "sunil pai (@threepointone)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/threepointone/status/1894399506277376369",
+      "createdAt": "2025-02-25T14:50:13Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:1795974697546395831",
+      "section": "news",
+      "type": "news",
+      "title": "Thread arguing about whether LLMs are conscious",
+      "description": "Post from kache: Thread arguing about whether LLMs are conscious.",
+      "content": "Bookmarked on X.",
+      "author": "kache (@yacineMTB)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/yacineMTB/status/1795974697546395831",
+      "createdAt": "2024-05-30T00:25:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:1747257917919932905",
+      "section": "news",
+      "type": "news",
+      "title": "Emil Kowalski introduces animations.dev, a web animation course",
+      "description": "Emil Kowalski introduces animations.dev, a web animation course.",
+      "content": "Bookmarked on X.",
+      "author": "Emil Kowalski (@emilkowalski)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/emilkowalski/status/1747257917919932905",
+      "createdAt": "2024-01-16T14:02:04Z",
       "status": "inbox"
     },
     {
