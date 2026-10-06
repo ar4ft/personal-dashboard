@@ -9285,6 +9285,251 @@
       "url": "https://flatt.tech/research/posts/subql-common-npm-supply-chain-attack/",
       "createdAt": "2026-10-06T12:46:19Z",
       "updatedAt": "2026-10-06T12:46:19Z"
+    },
+    {
+      "id": "hn:49983055",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
+      "description": "Burn 0.22 drops backend type parameters from the Rust deep learning framework's user API and selects execution through the device instead, which the team says makes rebuilds up to 15x faster. The release also adds adaptive memory management, smarter autotuning, graph replay, LoRA/QLoRA fine-tuning, ONNX export and expanded remote compute.",
+      "content": "Release notes from the Tracel (Burn) team: https://tracel.ai/blog/release-0.22.0/\n\nHN discussion: https://news.ycombinator.com/item?id=49983055",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Tracel (Burn team)",
+      "url": "https://tracel.ai/blog/release-0.22.0/",
+      "createdAt": "2026-10-06T19:41:57Z",
+      "updatedAt": "2026-10-06T19:41:57Z"
+    },
+    {
+      "id": "hn:49966238",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf",
+      "description": "A hobby project LoRA-fine-tuned Qwen2.5-Coder-1.5B and Qwen3-0.6B on about 400k synthetic English-to-Bash examples to build CPU-friendly command-generation models. The released 4-bit 1.5B model passed 212 of 300 updated ALFA benchmark tasks, and the dataset and models are on Hugging Face.",
+      "content": "Write-up: https://dirac.run/posts/easycommand\n\nHN discussion: https://news.ycombinator.com/item?id=49966238",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "GodelNumbering",
+      "url": "https://dirac.run/posts/easycommand",
+      "createdAt": "2026-10-05T15:35:29Z",
+      "updatedAt": "2026-10-05T15:35:29Z"
+    },
+    {
+      "id": "hn:49981455",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ask a model if code is malicious and it reaches for its morals",
+      "description": "Manifold Security probed mixture-of-experts models (OLMoE and DeepSeek-V2-Lite variants) and found that asking whether code is malicious routes through the same experts used for morality questions, more than vulnerability or legal questions do. Forcing the router to reuse another question's expert choices shifted the models' answers.",
+      "content": "Article: https://www.manifold.security/blog/do-models-consider-morality-malware\n\nFound via Hacker News (HN id 49981455): https://news.ycombinator.com/item?id=49981455",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "codyznash (Manifold Security)",
+      "url": "https://www.manifold.security/blog/do-models-consider-morality-malware",
+      "createdAt": "2026-10-06T17:20:26Z",
+      "updatedAt": "2026-10-06T17:20:26Z"
+    },
+    {
+      "id": "hn:49978333",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What Is Codemode",
+      "description": "Armin Ronacher explains Codemode, now used for MCP support in Pi 1.0: agents issue tool calls from JavaScript so they can compose them, run them concurrently and process large results without routing everything through the LLM's context. He also lists what MCP servers need to improve for it, such as structured output and consistent results.",
+      "content": "Essay: https://lucumr.pocoo.org/2026/10/6/codemode/\n\nFound via Hacker News (HN id 49978333): https://news.ycombinator.com/item?id=49978333",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Armin Ronacher",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "createdAt": "2026-10-06T13:41:03Z",
+      "updatedAt": "2026-10-06T13:41:03Z"
+    },
+    {
+      "id": "hn:49968637",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Async Rust: Where does the scheduler live?",
+      "description": "A tour of common async Rust complaints, framed as a bingo card, that asks where the scheduler should live. The author argues for Zig's approach of passing the I/O/runtime interface as an explicit parameter, which avoids function coloring and keeps libraries executor-agnostic.",
+      "content": "Essay: https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/\n\nFound via Hacker News (HN id 49968637): https://news.ycombinator.com/item?id=49968637",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Mond_",
+      "url": "https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/",
+      "createdAt": "2026-10-05T18:32:09Z",
+      "updatedAt": "2026-10-05T18:32:09Z"
+    },
+    {
+      "id": "hn:49973878",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Resurrecting iChat audio and video conferencing",
+      "description": "Chris Jones got iChat AV audio and video calls between Leopard-era Macs working over the internet again by debugging its SNATMAP/NAT-discovery flow. The fix is a single /etc/hosts entry that points configuration.apple.com at a replacement server.",
+      "content": "Blog post: https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/\n\nFound via Hacker News (HN id 49973878): https://news.ycombinator.com/item?id=49973878",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Chris Jones",
+      "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+      "createdAt": "2026-10-06T03:39:01Z",
+      "updatedAt": "2026-10-06T03:39:01Z"
+    },
+    {
+      "id": "hn:49970043",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: CoIsland – A local Mac app that monitors your dev tools and alerts you",
+      "description": "CoIsland is a local Mac app that lives in the notch and watches builds, deploys, pull requests, incidents and tickets across 35+ connectors, surfacing only what needs attention. One click hands an item to Claude Code, Codex or Cortex Code to investigate.",
+      "content": "App site: https://coisland.app/\n\nHN discussion: https://news.ycombinator.com/item?id=49970043",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "LeDonT",
+      "url": "https://coisland.app/",
+      "createdAt": "2026-10-05T20:14:52Z",
+      "updatedAt": "2026-10-05T20:14:52Z"
+    },
+    {
+      "id": "x:2107570814036111783",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Building and shipping an iPhone app from Linux, no Mac required",
+      "description": "Joshua Warren says he built an iPhone app on Omarchy Linux, submitted it to the App Store, installed it on his iPhone over USB and stopped it at a breakpoint in the debugger without using a Mac. The tooling is open source.",
+      "content": "Open-source toolkit: https://github.com/joshuaswarren/omarchy-apple-dev",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Joshua Warren (@JoshuaSWarren)",
+      "url": "https://x.com/JoshuaSWarren/status/2107570814036111783",
+      "createdAt": "2026-10-06T20:36:53Z",
+      "updatedAt": "2026-10-06T20:36:53Z"
+    },
+    {
+      "id": "x:2107596713791767021",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI releases new mathematical results from an internal frontier model",
+      "description": "OpenAI is releasing a broad range of new mathematical results produced by an internal frontier model. It says it consulted the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study and drew on its advice and public recommendations for how to release them.",
+      "content": "Results repository: https://github.com/openai/math",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "OpenAI (@OpenAI)",
+      "url": "https://x.com/OpenAI/status/2107596713791767021",
+      "createdAt": "2026-10-06T22:19:48Z",
+      "updatedAt": "2026-10-06T22:19:48Z"
+    },
+    {
+      "id": "reading:osc7501-program-status",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Terminal Protocol for Program Status (OSC 7501)",
+      "description": "Mitchell Hashimoto proposes OSC 7501, a generic terminal escape sequence that lets any program report whether it is idle, working, done, blocked (on permission, a question or auth) or in error, and why. It targets long-running jobs and agentic inboxes that currently guess status from screen-scraping heuristics or tool-specific APIs.",
+      "content": "Article: https://mitchellh.com/writing/program-status-osc7501\n\nThe sequence body is colon-separated key=value pairs with a required state (idle, working, done, blocked, error), optional app and base64 msg keys, progress for working, and hierarchical ids for multiple concurrent tasks. Hashimoto has implemented it in libghostty and Rex, plus proof-of-concept integrations in Terraform, Claude Code, Codex and Homebrew.\n\nVia @almonk on X (https://x.com/almonk/status/2107582768066515172), who says Rex implemented it today: https://superlogical.com/rex/docs/build/program-status",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/program-status-osc7501",
+      "createdAt": "2026-10-06T21:24:23Z",
+      "updatedAt": "2026-10-06T21:24:23Z"
+    },
+    {
+      "id": "x:2107524039379972562",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI to fund Nicholas Nethercote's work on a faster Rust compiler",
+      "description": "Charlie Marsh says OpenAI will fund Nicholas Nethercote's work on speeding up the Rust compiler, alongside others, as part of a Rust Project Goal to make rustc faster.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Charlie Marsh (@charliermarsh)",
+      "url": "https://x.com/charliermarsh/status/2107524039379972562",
+      "createdAt": "2026-10-06T17:31:01Z",
+      "updatedAt": "2026-10-06T17:31:01Z"
+    },
+    {
+      "id": "x:2107593733369983089",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI performance: stop passing views inputs they don't need",
+      "description": "Matthaus Woolard, testing the next SwiftFairy release, notes how often SwiftUI views receive inputs they don't need, which the framework still has to check for changes. In the thread he warns that filtering or mapping arrays creates new collections that SwiftUI must diff element by element before deciding whether to re-evaluate a child view's body.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Matthaus Woolard (@hishnash)",
+      "url": "https://x.com/hishnash/status/2107593733369983089",
+      "createdAt": "2026-10-06T22:07:57Z",
+      "updatedAt": "2026-10-06T22:07:57Z"
+    },
+    {
+      "id": "x:2107574317320212534",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Presenting SwiftUI sheets on iPhone Duo",
+      "description": "Nil Coalescing shares a guide to reviewing SwiftUI's automatic sheet adaptations on iPhone Duo and configuring sheet placement and toolbar arrangement to suit the presented content.",
+      "content": "Article: https://nilcoalescing.com/blog/PresentingSwiftUISheetsOnIPhoneDuo/",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Nil Coalescing (@NilCoalescing)",
+      "url": "https://x.com/NilCoalescing/status/2107574317320212534",
+      "createdAt": "2026-10-06T20:50:48Z",
+      "updatedAt": "2026-10-06T20:50:48Z"
+    },
+    {
+      "id": "x:2107538645901246618",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Aspire 13.6 dashboard moves to Native AOT",
+      "description": "The Aspire 13.6 dashboard now uses Native AOT, giving 66% faster median page-visible startup and removing the need for a separately installed .NET runtime for the native dashboard executable. James Newton-King (@JamesNK) explains how the team did it.",
+      "content": "Write-up: https://devblogs.microsoft.com/aspire/aspire-dashboard-native-aot/",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Aspire (@aspiredotdev)",
+      "url": "https://x.com/aspiredotdev/status/2107538645901246618",
+      "createdAt": "2026-10-06T18:29:04Z",
+      "updatedAt": "2026-10-06T18:29:04Z"
     }
   ]
 }
