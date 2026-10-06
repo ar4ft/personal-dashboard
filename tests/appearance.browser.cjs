@@ -15,7 +15,7 @@ const assert = require("node:assert/strict");
   });
   const root =
     process.env.DASHBOARD_TEST_URL ||
-    "http://localhost:4322/personal-dashboard-/";
+    "http://localhost:4322/personal-dashboard/";
   const context = await browser.newContext({
     viewport: { width: 375, height: 667 },
     colorScheme: "dark",

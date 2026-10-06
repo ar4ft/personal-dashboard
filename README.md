@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Open the URL shown by Astro, including `/personal-dashboard-/` (normally `http://localhost:4321/personal-dashboard-/`).
+Open the URL shown by Astro, including `/personal-dashboard/` (normally `http://localhost:4321/personal-dashboard/`).
 
 ```sh
 npm run check
@@ -22,16 +22,16 @@ npm run preview
 
 ## Publish on GitHub Pages
 
-Create an **empty public** GitHub repository named `personal-dashboard-` under your account. From this directory:
+Create an **empty public** GitHub repository named `personal-dashboard` under your account. From this directory:
 
 ```sh
-git remote add origin https://github.com/YOUR_USERNAME/personal-dashboard-.git
+git remote add origin https://github.com/YOUR_USERNAME/personal-dashboard.git
 git push -u origin main
 ```
 
 In **Settings → Pages → Build and deployment**, select **GitHub Actions**. If the first run happened before Pages was enabled, rerun **Deploy dashboard to GitHub Pages** in Actions. The workflow also validates pull requests without deploying them.
 
-The workflow automatically derives the owner and repository base path from `GITHUB_REPOSITORY`. The intended URL is `https://YOUR_USERNAME.github.io/personal-dashboard-/`. For local development with a different owner/repo, set `GITHUB_REPOSITORY` for the command, e.g. `GITHUB_REPOSITORY=YOUR_USERNAME/personal-dashboard- npm run dev`.
+The workflow automatically derives the owner and repository base path from `GITHUB_REPOSITORY`. The intended URL is `https://YOUR_USERNAME.github.io/personal-dashboard/`. For local development with a different owner/repo, set `GITHUB_REPOSITORY` for the command, e.g. `GITHUB_REPOSITORY=YOUR_USERNAME/personal-dashboard npm run dev`.
 
 Private repository Pages publishing requires an eligible GitHub plan. Repository privacy does **not** generally make the published website private; treat committed dashboard content as public. Do not put private calendar information or tokens in the content file. This project has no authentication layer.
 
@@ -86,7 +86,7 @@ Set `DASHBOARD_BROWSER_EXECUTABLE=/path/to/chromium` to use an installed Chromiu
 
 ## Agent content publishing
 
-The published [llms.txt](https://ar4ft.github.io/personal-dashboard-/llms.txt) (also available as `llm.txt`) explains the feed contract, stable IDs, images, validation, persistence, and authorized publishing. [AGENTS.md](AGENTS.md) covers repository work. [agent-policy.json](public/agent-policy.json) describes the authorization rules; it is documentation, not a write endpoint. Only owner-authorized agents/producers with GitHub write access can publish.
+The published [llms.txt](https://ar4ft.github.io/personal-dashboard/llms.txt) (also available as `llm.txt`) explains the feed contract, stable IDs, images, validation, persistence, and authorized publishing. [AGENTS.md](AGENTS.md) covers repository work. [agent-policy.json](public/agent-policy.json) describes the authorization rules; it is documentation, not a write endpoint. Only owner-authorized agents/producers with GitHub write access can publish.
 
 ## Phone experience
 
@@ -101,6 +101,8 @@ Open the dashboard and tap **App** to check that offline access is ready. On And
 After the first successful online visit, all dashboard sections, bundled images, and app assets work offline. You can read cached content, edit boards and notes, and save favorites. New feeds, external article links, and remote images require a connection. The repository feed keeps its last successfully fetched response for offline reading; browser-local feed imports remain in your workspace backup.
 
 A new deployment offers an **Update** button after its offline files finish downloading. Updating reloads open dashboard tabs and preserves local workspace data. Installation does not add cross-device sync; export a backup before clearing browser/site storage. Phone browsers may keep the installed app's storage separate from an existing browser tab, so import a workspace backup if needed.
+
+After a repository rename, open the new Pages URL. Existing installed apps may still launch the old URL; export a workspace backup before removing the old installation, then install from the new URL and restore if needed. Browser storage keys stay unchanged, so the same browser profile retains its workspace.
 
 `npm run build` generates a base-aware manifest and versioned service worker with a complete offline asset list. The PWA browser test checks installation metadata, icon sizes, offline navigation/images/edits, and update activation without losing local data. Changes to PWA caching live in `scripts/build-pwa.mjs`; no service-worker cache contains private credentials.
 

@@ -12,7 +12,7 @@ const path = require("node:path");
   });
   const root =
     process.env.DASHBOARD_TEST_URL ||
-    "http://localhost:4322/personal-dashboard-/";
+    "http://localhost:4322/personal-dashboard/";
   const context = await browser.newContext({
     viewport: { width: 402, height: 874 },
     deviceScaleFactor: 3,

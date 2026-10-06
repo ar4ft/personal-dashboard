@@ -34,7 +34,7 @@ const path = require("node:path");
   });
   const root =
     process.env.DASHBOARD_TEST_URL ||
-    "http://localhost:4322/personal-dashboard-/";
+    "http://localhost:4322/personal-dashboard/";
   const reports = [];
   for (const width of [402, 375]) {
     for (const theme of ["light", "dark"]) {

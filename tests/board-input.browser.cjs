@@ -12,7 +12,7 @@ const fs = require("node:fs");
   });
   const root =
     process.env.DASHBOARD_TEST_URL ||
-    "http://localhost:4322/personal-dashboard-/";
+    "http://localhost:4322/personal-dashboard/";
   const page = await browser.newPage({
       viewport: { width: 1440, height: 1000 },
     }),

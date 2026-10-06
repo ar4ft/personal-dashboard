@@ -4,13 +4,13 @@
 
 ## Entry points
 
-- Site: https://ar4ft.github.io/personal-dashboard-/
-- Repository: https://github.com/ar4ft/personal-dashboard-
-- Published feed: https://ar4ft.github.io/personal-dashboard-/feed.json
-- JSON Schema: https://ar4ft.github.io/personal-dashboard-/feed.schema.json
-- Agent policy (descriptive, not an authentication endpoint): https://ar4ft.github.io/personal-dashboard-/agent-policy.json
-- Content guide: https://github.com/ar4ft/personal-dashboard-/blob/main/docs/feed-format.md
-- Repository instructions: https://github.com/ar4ft/personal-dashboard-/blob/main/AGENTS.md
+- Site: https://ar4ft.github.io/personal-dashboard/
+- Repository: https://github.com/ar4ft/personal-dashboard
+- Published feed: https://ar4ft.github.io/personal-dashboard/feed.json
+- JSON Schema: https://ar4ft.github.io/personal-dashboard/feed.schema.json
+- Agent policy (descriptive, not an authentication endpoint): https://ar4ft.github.io/personal-dashboard/agent-policy.json
+- Content guide: https://github.com/ar4ft/personal-dashboard/blob/main/docs/feed-format.md
+- Repository instructions: https://github.com/ar4ft/personal-dashboard/blob/main/AGENTS.md
 
 ## Authorization
 

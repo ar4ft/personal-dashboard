@@ -16,7 +16,7 @@ fs.mkdirSync("test-output", { recursive: true });
   page.on("pageerror", (e) => errors.push(e.message));
   const root =
     process.env.DASHBOARD_TEST_URL ||
-    "http://localhost:4322/personal-dashboard-/";
+    "http://localhost:4322/personal-dashboard/";
   const card = (id) => page.locator(`.item-card[data-id="${id}"]`);
   const close = (dialog) => page.locator(`[data-close="${dialog}"]`).click();
   await page.goto(root + "news/");

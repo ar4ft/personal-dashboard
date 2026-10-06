@@ -243,8 +243,8 @@ test("Social media fields survive feed ingestion, personal edits and backup rest
   assert.equal(item.image, "https://example.com/cover.jpg");
   assert.equal(item.imageAlt, "My chosen cover");
   assert.equal(
-    safeImageUrl("media/technology.svg", "/personal-dashboard-/"),
-    "/personal-dashboard-/media/technology.svg",
+    safeImageUrl("media/technology.svg", "/personal-dashboard/"),
+    "/personal-dashboard/media/technology.svg",
   );
   for (const image of [
     "javascript:alert(1)",

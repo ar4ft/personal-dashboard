@@ -5,7 +5,7 @@ const http = require('node:http');
 const path = require('node:path');
 (async () => {
   const browser = await chromium.launch({executablePath:process.env.DASHBOARD_BROWSER_EXECUTABLE, args:['--no-sandbox'], ...(process.env.DASHBOARD_TEST_PROXY ? {proxy:{server:process.env.DASHBOARD_TEST_PROXY, bypass:'localhost,127.0.0.1'}} : {})});
-  const root = process.env.DASHBOARD_TEST_URL || 'http://localhost:4322/personal-dashboard-/';
+  const root = process.env.DASHBOARD_TEST_URL || 'http://localhost:4322/personal-dashboard/';
   const context = await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   const page = await context.newPage();
   const errors = []; page.on('pageerror', e => errors.push(e.message));
