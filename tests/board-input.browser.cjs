@@ -1,3 +1,4 @@
+const { showView } = require("./browser-views.cjs");
 const { chromium } = require("@playwright/test");
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
@@ -26,7 +27,7 @@ const fs = require("node:fs");
   await page.waitForFunction(() =>
     document.querySelector("#feed-status").textContent.includes("refreshed"),
   );
-  await page.locator("[data-view=timeline]").click();
+  await showView(page, "timeline");
   await page.locator(".timeline-list img").first().scrollIntoViewIfNeeded();
   await page.waitForFunction(
     () => document.querySelector(".timeline-list img")?.naturalWidth > 0,
@@ -63,7 +64,7 @@ const fs = require("node:fs");
     path: "test-output/social-timeline.png",
     fullPage: true,
   });
-  await page.locator("[data-view=board]").click();
+  await showView(page, "board");
   const item = page.locator('[data-id="news:news:hn"]'),
     title = item.locator(".item-title");
   await title.click();
@@ -93,6 +94,7 @@ const fs = require("node:fs");
     "Dragging must not open the detail dialog",
   );
   await page.reload();
+  await showView(page, "board");
   await page
     .locator('[data-column=following] [data-id="news:news:hn"]')
     .waitFor();
@@ -137,7 +139,7 @@ const fs = require("node:fs");
   await touch.waitForFunction(() =>
     document.querySelector("#feed-status").textContent.includes("refreshed"),
   );
-  await touch.locator("[data-view=board]").click();
+  await showView(touch, "board");
   await touch.locator(".kanban-board").scrollIntoViewIfNeeded();
   await touch
     .locator('[data-id="news:news:astro"] .drag-handle')
@@ -181,10 +183,11 @@ const fs = require("node:fs");
     "Touch handle drags across columns with edge scrolling",
   );
   await touch.reload();
+  await showView(touch, "board");
   await touch
     .locator('[data-column=following] [data-id="news:news:astro"]')
     .waitFor();
-  await touch.locator("[data-view=timeline]").click();
+  await showView(touch, "timeline");
   await touch.locator(".timeline-list img").first().scrollIntoViewIfNeeded();
   await touch.waitForFunction(
     () => document.querySelector(".timeline-list img")?.naturalWidth > 0,

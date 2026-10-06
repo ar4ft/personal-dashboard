@@ -26,13 +26,15 @@ const assert = require("node:assert/strict");
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto(root + "news/");
   assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
-  await page.getByRole("button", { name: "App", exact: true }).click();
+  await page.locator("#reader-controls-open").click();
+  await page.locator("#reader-app").click();
   await page.locator("[data-theme-mode=light]").click();
   assert.equal(await page.locator("html").getAttribute("data-theme"), "light");
   await page.locator("#app-close").click();
   await page.goto(root + "ideas/");
   assert.equal(await page.locator("html").getAttribute("data-theme"), "light");
-  await page.getByRole("button", { name: "App", exact: true }).click();
+  await page.locator("#reader-controls-open").click();
+  await page.locator("#reader-app").click();
   await page.locator("[data-theme-mode=auto]").click();
   assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
   await page.locator("#app-close").click();
@@ -42,6 +44,7 @@ const assert = require("node:assert/strict");
   );
   assert.equal(await page.locator("html").getAttribute("data-theme"), "light");
   // Administrative controls remain available through the phone disclosure.
+  await page.locator("#reader-controls-open").click();
   await page.locator(".toolbar-manage summary").click();
   await page.locator("#manage-board").click();
   assert.equal(
@@ -49,6 +52,7 @@ const assert = require("node:assert/strict");
     true,
   );
   await page.getByRole("button", { name: "Close columns editor" }).click();
+  await page.locator("#reader-controls-open").click();
   await page.locator(".toolbar-manage summary").click();
   await page.locator("#data-settings").click();
   assert.equal(
@@ -66,7 +70,7 @@ const assert = require("node:assert/strict");
     true,
   );
   await page.goto(root + "news/");
-  await page.locator("#news-swipe-launch").click();
+  await page.locator("#news-swipe-dialog").waitFor();
   await page.locator(".news-reel").first().locator(".reel-track").click();
   assert.match(
     await page.locator(".bookmark-feedback").innerText(),

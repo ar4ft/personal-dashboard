@@ -9,12 +9,12 @@ type Options = {
   cover: (item: Item) => HTMLElement;
   columns: () => Column[];
   base: string;
+  section: string;
 };
 /** Native vertical scroll snapping supports touch gestures without blocking scrolling. */
 export function installNewsSwipe(host: HTMLElement, options: Options) {
-  const launch = host.querySelector<HTMLButtonElement>("#news-swipe-launch");
-  const dialog = host.querySelector<HTMLDialogElement>("#news-swipe-dialog");
-  if (!launch || !dialog) return;
+  const dialog = host.querySelector<HTMLElement>("#news-swipe-dialog");
+  if (!dialog) return;
   const scroller = dialog.querySelector<HTMLElement>("#news-swipe-scroller")!;
   const counter = dialog.querySelector<HTMLElement>("#news-swipe-position")!;
   const message = dialog.querySelector<HTMLElement>("#news-swipe-status")!;
@@ -25,7 +25,8 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
   let stories: Item[] = [],
     index = 0,
     rendered = 0,
-    resize: ResizeObserver | undefined,
+    fingerprint = "",
+    interacted = false,
     frame = 0;
   const el = <K extends keyof HTMLElementTagNameMap>(
     tag: K,
@@ -94,9 +95,19 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
       reel.append(cover, el("div", "reel-shade"));
       const body = el("div", "reel-body");
       const author = el("div", "reel-author");
-      const name = item.author || item.source || "News";
+      const name =
+        item.author ||
+        item.source ||
+        (options.section === "ideas" ? "Project idea" : "News");
       author.append(el("strong", "", name));
-      reel.append(el("span", "reel-source-clipping", item.source || "News"));
+      reel.append(
+        el(
+          "span",
+          "reel-source-clipping",
+          item.source ||
+            (options.section === "ideas" ? "Project idea" : "News"),
+        ),
+      );
       const stamp = el(
         "p",
         "reel-date",
@@ -107,6 +118,7 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
         topics.append(el("span", "", `#${topic.replace(/\s+/g, "")}`)),
       );
       body.append(
+        topics,
         author,
         stamp,
         el("h2", "reel-title", item.title),
@@ -117,24 +129,7 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
             item.content.slice(0, 240) ||
             "Open the story for more details.",
         ),
-        topics,
       );
-      body.append(
-        button(
-          "Read story",
-          () => options.details(item.id),
-          `Read ${item.title}`,
-          "reel-read",
-        ),
-      );
-      const source = safeUrl(item.url);
-      if (source) {
-        const link = el("a", "reel-source", "Original source");
-        link.href = source;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        body.append(link);
-      }
       const actions = el("div", "reel-actions");
       const favorite = button(
         "☆",
@@ -158,8 +153,13 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
             const current = options.find(item.id);
             if (!current) return;
             const follow =
-              options.columns().find((c) => c.id === "following") ||
-              options.columns()[0];
+              options
+                .columns()
+                .find(
+                  (c) =>
+                    c.id ===
+                    (options.section === "ideas" ? "build" : "following"),
+                ) || options.columns()[0];
             options.move(current, follow.id);
             message.textContent = `Saved to ${follow.title}.`;
             sync();
@@ -208,8 +208,48 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
           sync();
         }
       });
-      body.append(select);
-      actions.append(favoriteWrap, followWrap, shareWrap);
+      followWrap.append(select);
+      const readWrap = el("div", "reel-action");
+      readWrap.append(
+        button(
+          "≡",
+          () => options.details(item.id),
+          `Read ${item.title}`,
+          "reel-read",
+        ),
+        el("span", "", "Read"),
+      );
+      actions.append(favoriteWrap, followWrap, readWrap);
+      const source = safeUrl(item.url);
+      if (source) {
+        const sourceWrap = el("div", "reel-action");
+        const link = el("a", "reel-source", "");
+        const sourceIcon = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "svg",
+        );
+        sourceIcon.setAttribute("width", "22");
+        sourceIcon.setAttribute("height", "22");
+        sourceIcon.setAttribute("viewBox", "0 0 24 24");
+        sourceIcon.setAttribute("fill", "none");
+        sourceIcon.setAttribute("stroke", "currentColor");
+        sourceIcon.setAttribute("stroke-width", "1.7");
+        sourceIcon.setAttribute("aria-hidden", "true");
+        const sourcePath = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "path",
+        );
+        sourcePath.setAttribute("d", "M14 3h7v7M21 3 10 14M10 4H4v16h16v-6");
+        sourceIcon.append(sourcePath);
+        link.append(sourceIcon);
+        link.href = source;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.setAttribute("aria-label", `Original source for ${item.title}`);
+        sourceWrap.append(link, el("span", "", "Source"));
+        actions.append(sourceWrap);
+      }
+      actions.append(shareWrap);
       reel.append(body, actions);
       scroller.append(reel);
     }
@@ -217,7 +257,7 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
   }
   async function share(item: Item) {
     const url = new URL(
-      `${options.base}news/?item=${encodeURIComponent(item.id)}`,
+      `${options.base}${options.section}/?item=${encodeURIComponent(item.id)}`,
       location.origin,
     ).href;
     try {
@@ -246,32 +286,55 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
       behavior: reducedMotion() ? "instant" : "smooth",
     });
   }
-  launch.addEventListener("click", () => {
-    stories = options.items();
-    index = 0;
+  function refresh(active: boolean) {
+    if (!active) return;
+    const nextStories = options.items();
+    // Board moves and favorites update controls in place; keep focus and swipe position.
+    const nextFingerprint = JSON.stringify([
+      options.columns(),
+      nextStories.map(({ favorite, status, ...item }) => item),
+    ]);
+    if (nextFingerprint === fingerprint) {
+      sync();
+      return;
+    }
+    const currentId = interacted ? stories[index]?.id : undefined;
+    stories = nextStories;
+    fingerprint = nextFingerprint;
+    index = Math.max(
+      0,
+      stories.findIndex((item) => item.id === currentId),
+    );
     rendered = 0;
     scroller.replaceChildren();
-    message.textContent = "Swipe up for the next story.";
-    appendBatch();
+    message.textContent = "";
+    appendBatch(Math.max(20, index + 1));
     if (!stories.length) {
       const empty = el("div", "reels-empty");
       empty.append(
-        el("h2", "", "No matching news"),
-        el("p", "", "Close this view and adjust your search or topic filter."),
+        el("h2", "", "No matching items"),
+        el(
+          "p",
+          "",
+          "Use the menu to adjust your search, or add an item with +.",
+        ),
       );
       scroller.append(empty);
     }
-    dialog.showModal();
-    document.body.classList.add("news-swipe-open");
-    scroller.scrollTop = 0;
-    sync();
-    resize = new ResizeObserver(() => {
-      if (dialog.open) {
-        scroller.scrollTop = index * scroller.clientHeight;
-      }
+    scroller.scrollTo({
+      top: index * scroller.clientHeight,
+      behavior: "instant",
     });
-    resize.observe(scroller);
+    sync();
+  }
+  const resize = new ResizeObserver(() => {
+    if (!dialog.hidden)
+      scroller.scrollTo({
+        top: index * scroller.clientHeight,
+        behavior: "instant",
+      });
   });
+  resize.observe(scroller);
   scroller.addEventListener(
     "scroll",
     () => {
@@ -323,8 +386,28 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
     },
     { passive: true },
   );
-  previous.addEventListener("click", () => go(index - 1));
-  next.addEventListener("click", () => go(index + 1));
+  previous.addEventListener("click", () => {
+    interacted = true;
+    go(index - 1);
+  });
+  next.addEventListener("click", () => {
+    interacted = true;
+    go(index + 1);
+  });
+  scroller.addEventListener(
+    "wheel",
+    () => {
+      interacted = true;
+    },
+    { passive: true },
+  );
+  scroller.addEventListener(
+    "pointerdown",
+    () => {
+      interacted = true;
+    },
+    { passive: true },
+  );
   dialog.addEventListener("keydown", (event) => {
     if ((event.target as HTMLElement).closest("input,select,textarea")) return;
     if (
@@ -333,6 +416,7 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
       )
     ) {
       event.preventDefault();
+      interacted = true;
       go(
         event.key === "Home"
           ? 0
@@ -342,12 +426,7 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
       );
     }
   });
-  dialog.addEventListener("close", () => {
-    resize?.disconnect();
-    cancelAnimationFrame(frame);
-    document.body.classList.remove("news-swipe-open");
-  });
   host.querySelector("#detail-dialog")?.addEventListener("close", sync);
   host.querySelector("#edit-dialog")?.addEventListener("close", sync);
-  return { sync };
+  return { sync, refresh };
 }

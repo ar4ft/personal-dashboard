@@ -9,7 +9,7 @@
     "build": "astro build && node scripts/build-pwa.mjs",
     "preview": "astro preview",
     "test": "node --test tests/*.test.mjs",
-    "test:browser": "node tests/workspace.browser.cjs && node tests/board-input.browser.cjs && node tests/phone.browser.cjs && node tests/pwa.browser.cjs && node tests/accessibility.browser.cjs && node tests/appearance.browser.cjs"
+    "test:browser": "node tests/workspace.browser.cjs && node tests/board-input.browser.cjs && node tests/phone.browser.cjs && node tests/swipe-reader.browser.cjs && node tests/pwa.browser.cjs && node tests/accessibility.browser.cjs && node tests/appearance.browser.cjs"
   },
   "dependencies": {
     "astro": "^6.0.0"

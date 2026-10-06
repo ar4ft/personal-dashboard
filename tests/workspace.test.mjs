@@ -169,6 +169,7 @@ test("Backup round trip retains boards, edits, favorites, hidden IDs, custom ite
   state.custom = validateFeed(feed({ id: "local:1" }));
   state.order.news = ["hn:100"];
   state.views.news = "board";
+  state.views.ideas = "swipe";
   state.feedUrl = "https://example.com/feed.json";
   assert.deepEqual(
     validateBackup(

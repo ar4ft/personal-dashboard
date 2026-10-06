@@ -46,7 +46,7 @@ Each main section has **Feed**, **Timeline**, and **Kanban** views. Feeds and ti
 - Use **Add item** and **Edit** to change titles, topics, summaries, content, source links, board status, idea next steps, and task/event dates. Planning's Done lane marks tasks complete; moving out marks them incomplete.
 - Search includes titles, summaries, full text, topics, source, and next steps. Combine search with a topic, source/stage subsection, and Favorites.
 - **Group by Topic** groups feeds, timelines, and boards. Items with multiple topics appear in each group.
-- Feed lists paginate in batches of 30. **Swipe cards** switches to a horizontal snap feed with Previous/Next and keyboard arrow controls. Swipe on touch devices or scroll horizontally.
+- Feed lists paginate in batches of 30. **Sideways cards** switches to a horizontal snap feed with Previous/Next and keyboard arrow controls. Swipe on touch devices or scroll horizontally.
 - Calendar entries come from the same editable planning items, including tasks with due dates.
 
 Your edits save in this browser's localStorage under `personal-dashboard:workspace:v1`. Separate tabs share updates. This is a static public site: changes are personal to the current browser, do not commit to GitHub, and do not automatically sync across devices. **Feeds & backup → Export workspace** saves all local items, favorites, columns, notes, ordering, feed cache, and source settings. Restore that backup on another device; a recovery backup downloads before replacement. If storage is unavailable, keep the tab open and export before leaving.
@@ -91,7 +91,7 @@ The published [llms.txt](https://ar4ft.github.io/personal-dashboard/llms.txt) (a
 
 ## Phone experience
 
-On phones and tablets, the dashboard has a compact sticky header, bottom navigation (Home, News, Ideas, Plan), larger touch targets, collapsible filters, and full-width social feed cards. **News → Swipe news** opens a full-screen vertical reader. Swipe up/down or use the arrows to browse; save favorites, track directly on Kanban, choose a column, read the story, or share its link. Closing details returns to the current story. The reader uses your current source/topic/search/favorite filters and loads cards in batches. Landscape, safe-area insets, keyboard controls, and reduced-motion preferences are supported.
+News and Ideas open directly in a vertical swipe reader. On phones and tablets, Home, News, Ideas and Plan stay available in the bottom navigation; larger screens use the left sidebar with a centered reader. Swipe up/down or use the arrows to browse. Save, Track, Read, Source and Share sit on the right, along with a board-column selector. The top-right + adds an item; the menu opens search, topics, favorites, subsections, Feed/Timeline/Kanban views, editing, backups and App settings. Closing details returns to the current story. Image-free and failed-image stories keep a plain green-to-dark gradient without repeated text. The reader loads cards in batches and supports landscape, safe-area insets, keyboard controls and reduced-motion preferences.
 
 The phone browser regression suite exercises real touch scrolling, bottom navigation, swipe tracking and favorites, read-and-return, narrow and landscape layouts. Edits remain browser-local and use the same backups as the desktop app.
 

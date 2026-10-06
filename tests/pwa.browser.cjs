@@ -26,7 +26,7 @@ const path = require('node:path');
   await page.getByRole('button',{name:'Done',exact:true}).click();
   // Establish persisted workspace data, then navigate into sections never visited online.
   await page.goto(root+'news/');
-  const favorite = page.locator('.favorite-button').first();
+  const favorite = page.locator('.news-reel:not([inert]) .reel-favorite');
   await favorite.click();
   const saved = await page.evaluate(() => localStorage.getItem('personal-dashboard:workspace:v1'));
   assert.ok(saved);
@@ -38,14 +38,20 @@ const path = require('node:path');
     assert.equal(await page.evaluate(() => localStorage.getItem('personal-dashboard:workspace:v1')),saved);
   }
   await page.goto(root+'news/');
-  await page.locator('.favorite-button').first().click();
+  await page.locator('.news-reel:not([inert]) .reel-favorite').click();
   const edited = await page.evaluate(() => localStorage.getItem('personal-dashboard:workspace:v1'));
   assert.notEqual(edited,saved);
   await page.reload();
   assert.equal(await page.evaluate(() => localStorage.getItem('personal-dashboard:workspace:v1')),edited);
-  const images = page.locator('main img');
+  await page.goto(root+'ideas/');
+  const images = page.locator('.news-reel img.reel-cover');
+  await images.first().waitFor();
   assert.ok(await images.count());
-  for (let i=0;i<await images.count();i++) assert.equal(await images.nth(i).evaluate(img=>img.complete && img.naturalWidth>0),true);
+  for (let i=0;i<await images.count();i++) {
+    await images.nth(i).scrollIntoViewIfNeeded();
+    await images.nth(i).evaluate(img=>img.decode());
+    assert.equal(await images.nth(i).evaluate(img=>img.complete && img.naturalWidth>0),true);
+  }
   assert.deepEqual(errors,[]);
   await context.close();
   // A controlled server produces a second build to exercise the waiting/update lifecycle.

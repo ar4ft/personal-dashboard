@@ -442,7 +442,8 @@ export function validateBackup(payload) {
     if (
       ["feed", "board", "timeline", "calendar"].includes(
         source.views?.[section],
-      )
+      ) ||
+      (section !== "planning" && source.views?.[section] === "swipe")
     )
       state.views[section] = source.views[section];
   }

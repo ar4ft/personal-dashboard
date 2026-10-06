@@ -1,3 +1,4 @@
+const { showView } = require("./browser-views.cjs");
 const { chromium } = require("@playwright/test");
 const assert = require("node:assert/strict");
 (async () => {
@@ -26,6 +27,7 @@ const assert = require("node:assert/strict");
   const errors = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto(root + "news/");
+  await showView(page, "feed");
   const first = page.locator(".item-card").first();
   await first.locator(".favorite-button").focus();
   await page.keyboard.press("Enter");
@@ -146,7 +148,7 @@ const assert = require("node:assert/strict");
       .evaluate((node) => getComputedStyle(node).scrollBehavior),
     "auto",
   );
-  await page.getByRole("button", { name: "Swipe news", exact: true }).click();
+  await showView(page, "swipe");
   const readerTargets = await page
     .locator(
       "#news-swipe-dialog button:visible, .news-reel:not([inert]) a, .news-reel:not([inert]) select",
@@ -161,7 +163,7 @@ const assert = require("node:assert/strict");
         .filter((node) => node.width < 43.5 || node.height < 43.5),
     );
   assert.deepEqual(readerTargets, []);
-  await page.getByRole("button", { name: "Close swipe news" }).click();
+  await showView(page, "feed");
   // An imported feed exercises the existing batching and keyboard continuation.
   const feed = {
     version: 1,
@@ -215,6 +217,7 @@ const assert = require("node:assert/strict");
   for (const route of ["news/", "planning/calendar/", ""]) {
     await mobile.goto(root + route);
     if (route === "news/") {
+      await showView(mobile, "feed");
       const touch = await mobile
         .locator("button:visible, .tabs a")
         .evaluateAll((nodes) =>

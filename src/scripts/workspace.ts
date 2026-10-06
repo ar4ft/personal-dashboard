@@ -115,7 +115,11 @@ function initialize(host: HTMLElement) {
     swipe = false,
     limit = 30;
   let view =
-    subsection === "Calendar" ? "calendar" : state.views[section] || "feed";
+    subsection === "Calendar"
+      ? "calendar"
+      : section !== "planning"
+        ? "swipe"
+        : state.views[section] || "feed";
   if (view === "calendar" && section !== "planning") view = "feed";
   let currentDetail = "",
     editingId = "",
@@ -182,7 +186,7 @@ function initialize(host: HTMLElement) {
       `Moved to ${state.columns[section].find((c) => c.id === column)?.title}.`,
     );
     if (currentDetail === item.id) renderDetail();
-    if (section === "news")
+    if (section !== "planning")
       showClipFeedback(
         `Clipped to ${state.columns[section].find((c) => c.id === column)?.title || "your board"}.`,
       );
@@ -227,15 +231,8 @@ function initialize(host: HTMLElement) {
     const url = safeImageUrl(item.image || "", base);
     const fallback = () => {
       figure.classList.add("media-fallback");
-      figure.replaceChildren(
-        el("span", "media-kicker", item.source || item.topics[0] || section),
-        el("span", "media-title", item.title),
-        el(
-          "span",
-          "media-caption",
-          url ? "Image unavailable" : "No image supplied",
-        ),
-      );
+      figure.replaceChildren();
+      figure.setAttribute("aria-hidden", "true");
     };
     if (url) {
       const image = el("img");
@@ -400,7 +397,7 @@ function initialize(host: HTMLElement) {
     });
     target.append(board);
   }
-  installNewsSwipe(host, {
+  const reader = installNewsSwipe(host, {
     items: () => sortItems(filtered(), state, section, "newest"),
     find,
     favorite: toggleFavorite,
@@ -409,7 +406,60 @@ function initialize(host: HTMLElement) {
     cover: coverImage,
     columns: () => state.columns[section],
     base,
+    section,
   });
+  const controls = $("#workspace-controls");
+  const controlsHome = document.createComment("workspace controls");
+  controls.before(controlsHome);
+  const tabsHome = document.createComment("section tabs");
+  tabs?.before(tabsHome);
+  const controlsDialog = $<HTMLDialogElement>("#reader-controls-dialog");
+  const readerPane = $("#news-swipe-dialog");
+  function arrangeReader() {
+    const active = view === "swipe" && !!reader;
+    const leavingReader = host.dataset.view === "swipe" && !active;
+    document.body.classList.toggle("news-swipe-open", active);
+    host.dataset.view = view;
+    content.hidden = active;
+    if (readerPane) readerPane.hidden = !active;
+    if (!reader) return;
+    if (active) {
+      $("#reader-controls-body").append(controls);
+      if (tabs) $("#reader-controls-body").prepend(tabs);
+    } else {
+      controlsHome.after(controls);
+      if (tabs) tabsHome.after(tabs);
+      controlsDialog.close();
+      if (leavingReader) {
+        $(".filter-bar").classList.remove("filters-open");
+        $("#mobile-filters-toggle").setAttribute("aria-expanded", "false");
+      }
+    }
+    reader.refresh(active);
+  }
+  $("#reader-controls-open")?.addEventListener("click", () => {
+    controlsDialog.showModal();
+    $(".filter-bar").classList.add("filters-open");
+    $("#mobile-filters-toggle").setAttribute("aria-expanded", "true");
+    $("#workspace-search").focus();
+  });
+  $("#reader-add")?.addEventListener("click", () => openEditor());
+  $("#reader-app")?.addEventListener("click", () => {
+    controlsDialog.close();
+    document.querySelector<HTMLButtonElement>("#app-open")?.click();
+  });
+  controlsDialog?.addEventListener(
+    "click",
+    (event) => {
+      if (
+        (event.target as HTMLElement).closest(
+          "#new-item, #manage-board, #data-settings",
+        )
+      )
+        controlsDialog.close();
+    },
+    { capture: true },
+  );
   const scrollBehavior = (): ScrollBehavior =>
     matchMedia("(prefers-reduced-motion: reduce)").matches
       ? "instant"
@@ -611,7 +661,7 @@ function initialize(host: HTMLElement) {
     $("#swipe-toggle").hidden = view !== "feed";
     $("#swipe-toggle").setAttribute("aria-pressed", String(swipe));
     $("#group-filter").closest("label")!.hidden =
-      view === "calendar" || (view === "feed" && swipe);
+      view === "swipe" || view === "calendar" || (view === "feed" && swipe);
     $("#favorites-filter").setAttribute("aria-pressed", String(favorites));
     const select = $<HTMLSelectElement>("#topic-filter");
     select.replaceChildren();
@@ -637,6 +687,8 @@ function initialize(host: HTMLElement) {
       select.append(option);
     }
     select.value = topic;
+    arrangeReader();
+    if (view === "swipe") return;
     content.replaceChildren();
     if (view === "calendar") {
       renderCalendar(list);
@@ -859,9 +911,7 @@ function initialize(host: HTMLElement) {
   const form = $<HTMLFormElement>("#item-form");
   const field = (name: string) =>
     form.elements.namedItem(name) as
-      | HTMLInputElement
-      | HTMLTextAreaElement
-      | HTMLSelectElement;
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
   function editorFields() {
     const type = field("type").value;
     $("#event-fields").hidden = type !== "task" && type !== "event";
@@ -1015,6 +1065,7 @@ function initialize(host: HTMLElement) {
     );
   host.querySelectorAll<HTMLButtonElement>("[data-view]").forEach((n) =>
     n.addEventListener("click", () => {
+      controlsDialog?.close();
       view = n.dataset.view!;
       state.views[section] = view;
       limit = 30;

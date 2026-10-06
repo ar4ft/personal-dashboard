@@ -1,3 +1,4 @@
+const { showView } = require("./browser-views.cjs");
 const { chromium } = require("@playwright/test");
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
@@ -48,13 +49,13 @@ const fs = require("node:fs");
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   );
-  await page.locator("#news-swipe-launch").click();
+  await page.locator("#news-swipe-dialog").waitFor();
   const dialog = page.locator("#news-swipe-dialog");
-  assert.equal(await dialog.evaluate((n) => n.open), true);
+  assert.equal(await dialog.isVisible(), true);
   const rect = await dialog.boundingBox();
   assert.ok(
-    rect.height >= 830 && rect.width >= 380,
-    "Phone swipe reader fills the viewport",
+    rect.height >= 740 && rect.width >= 380,
+    "Phone swipe reader uses the viewport above section navigation",
   );
   assert.equal(
     await page.locator("#news-swipe-position").textContent(),
@@ -126,23 +127,21 @@ const fs = require("node:fs");
     await page.locator("#detail-dialog").evaluate((n) => n.open),
     true,
   );
-  assert.equal(await dialog.evaluate((n) => n.open), true);
+  assert.equal(await dialog.isVisible(), true);
   await page.locator("[data-close=detail-dialog]").click();
   assert.equal(
     await page.locator("#news-swipe-position").textContent(),
     "2 / 4",
     "Reading and returning keeps the current swipe story",
   );
-  await page.locator("[data-close=news-swipe-dialog]").click();
-  await page.waitForFunction(
-    () => !document.body.classList.contains("news-swipe-open"),
-  );
-  await page.locator("[data-view=board]").click();
+  await showView(page, "board");
   assert.ok(
     (await page.locator("[data-column=following] .item-card").count()) > 0,
     "Swipe tracking appears in Kanban",
   );
   await page.reload();
+  assert.equal(await page.locator("#news-swipe-dialog").isVisible(), true);
+  await showView(page, "board");
   await page.locator("[data-column=following] .item-card").waitFor();
   await page
     .locator(".mobile-bottom-nav a")
@@ -163,7 +162,7 @@ const fs = require("node:fs");
   // Narrow phones must retain all navigation and readable forms without overflow.
   await page.setViewportSize({ width: 320, height: 568 });
   await page.goto(root + "news/");
-  await page.locator("#news-swipe-launch").click();
+  await page.locator("#news-swipe-dialog").waitFor();
   assert.ok(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,
@@ -190,8 +189,7 @@ const fs = require("node:fs");
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   );
-  await page.locator("[data-close=news-swipe-dialog]").click();
-  await page.locator("[data-view=feed]").click();
+  await showView(page, "feed");
   await page.setViewportSize({ width: 390, height: 844 });
   await page.locator(".social-post").first().scrollIntoViewIfNeeded();
   await page.screenshot({ path: "test-output/phone-social-feed.png" });

@@ -1,3 +1,4 @@
+const { showView } = require("./browser-views.cjs");
 const { chromium } = require("@playwright/test");
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
@@ -28,6 +29,7 @@ fs.mkdirSync("test-output", { recursive: true });
   await page.waitForFunction(() =>
     document.querySelector("#feed-status").textContent.includes("refreshed"),
   );
+  await showView(page, "feed");
   assert.equal(await page.locator(".item-card").count(), 4);
   await card("news:news:hn").locator(".item-title").click();
   await page.locator("#detail-title").waitFor();
@@ -40,7 +42,7 @@ fs.mkdirSync("test-output", { recursive: true });
   await page.locator("#favorites-filter").click();
   assert.equal(await page.locator(".item-card").count(), 1);
   await page.locator("#favorites-filter").click();
-  await page.locator('[data-view="board"]').click();
+  await showView(page, "board");
   await card("news:news:hn").locator("select").selectOption("following");
   assert.equal(
     await page.locator('[data-column="following"] .item-card').count(),
@@ -85,6 +87,7 @@ fs.mkdirSync("test-output", { recursive: true });
   );
   await card("news:news:hn").locator("select").selectOption("following");
   await page.reload();
+  await showView(page, "board");
   await page.waitForFunction(() =>
     document.querySelector("#feed-status").textContent.includes("refreshed"),
   );
@@ -157,14 +160,14 @@ fs.mkdirSync("test-output", { recursive: true });
   );
   await close("detail-dialog");
   await page.locator("#workspace-search").fill("");
-  await page.locator("[data-view=feed]").click();
+  await showView(page, "feed");
   await page.locator("#topic-filter").selectOption("Research");
   assert.equal(await page.locator(".item-card").count(), 1);
   await page.locator("#topic-filter").selectOption("");
   await page.locator("#group-filter").selectOption("topics");
   assert.ok((await page.locator(".group-heading").count()) > 1);
   await page.locator("#group-filter").selectOption("none");
-  await page.locator("[data-view=timeline]").click();
+  await showView(page, "timeline");
   const cover = page.locator(".timeline-list img").first();
   await cover.waitFor();
   await cover.scrollIntoViewIfNeeded();
@@ -175,7 +178,7 @@ fs.mkdirSync("test-output", { recursive: true });
   assert.ok((await page.locator(".post-identity").count()) > 0);
 
   assert.ok((await page.locator(".timeline-group").count()) > 0);
-  await page.locator("[data-view=feed]").click();
+  await showView(page, "feed");
   await page.locator("#swipe-toggle").click();
   await page
     .getByRole("button", { name: "Next →", exact: true })
@@ -326,7 +329,7 @@ fs.mkdirSync("test-output", { recursive: true });
     await page.waitForFunction(() =>
       document.querySelector("#feed-status").textContent.includes("refreshed"),
     );
-    await page.locator("[data-view=board]").click();
+    await showView(page, "board");
     assert.equal(
       await page.locator(".kanban-column").count(),
       section === "ideas" ? 4 : 3,
@@ -342,9 +345,9 @@ fs.mkdirSync("test-output", { recursive: true });
         )
         .count()) > 0,
     );
-    await page.locator("[data-view=timeline]").click();
+    await showView(page, "timeline");
     assert.ok((await page.locator(".timeline-group").count()) > 0);
-    await page.locator("[data-view=feed]").click();
+    await showView(page, "feed");
   }
   await page.locator("#new-item").click();
   await page.locator("#item-form [name=type]").selectOption("event");
@@ -361,7 +364,7 @@ fs.mkdirSync("test-output", { recursive: true });
     );
   await page.locator("#item-form [name=time]").fill("12:30");
   await page.locator("#item-form [type=submit]").click();
-  await page.locator("[data-view=calendar]").click();
+  await showView(page, "calendar");
   await page.getByRole("button", { name: "Next month", exact: true }).click();
   assert.match(
     await page.locator(".calendar-events-list").textContent(),
@@ -401,7 +404,7 @@ fs.mkdirSync("test-output", { recursive: true });
   );
   await page.locator(".todo-list input").first().check();
   await page.goto(root + "planning/");
-  await page.locator("[data-view=board]").click();
+  await showView(page, "board");
   assert.ok((await page.locator("[data-column=done] .item-card").count()) > 0);
   await page.goto(root + "news/?item=auto%3Ahn%3A101");
   await page.locator("#detail-title").waitFor();
@@ -410,10 +413,10 @@ fs.mkdirSync("test-output", { recursive: true });
     "An updated automated story",
   );
   await close("detail-dialog");
-  await page.locator("[data-view=board]").click();
+  await showView(page, "board");
   await page.screenshot({ path: "test-output/kanban.png", fullPage: true });
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.locator("[data-view=feed]").click();
+  await showView(page, "feed");
   await page.locator("#mobile-filters-toggle").click();
   await page.locator("#swipe-toggle").click();
   assert.ok(
