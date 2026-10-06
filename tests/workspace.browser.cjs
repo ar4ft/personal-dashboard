@@ -323,12 +323,37 @@ fs.mkdirSync("test-output", { recursive: true });
     cachedBeforeInvalid,
   );
   await close("settings-dialog");
-  // Every other section has independently editable boards, feeds, timelines, and details.
+  // Ideas retains its reading views; Planning only offers Kanban and Calendar.
   for (const section of ["ideas", "planning"]) {
+    if (section === "planning") {
+      await page.evaluate(() => {
+        const key = "personal-dashboard:workspace:v1";
+        const state = JSON.parse(localStorage.getItem(key));
+        state.views.planning = "timeline";
+        localStorage.setItem(key, JSON.stringify(state));
+      });
+    }
     await page.goto(root + section + "/");
     await page.waitForFunction(() =>
       document.querySelector("#feed-status").textContent.includes("refreshed"),
     );
+    if (section === "planning") {
+      assert.equal(
+        await page.locator("#interactive-workspace").getAttribute("data-view"),
+        "board",
+        "Legacy planning Timeline preference opens Kanban",
+      );
+      assert.deepEqual(
+        await page
+          .locator("[data-view]")
+          .evaluateAll((nodes) =>
+            nodes
+              .filter((n) => n.tagName === "BUTTON")
+              .map((n) => n.dataset.view),
+          ),
+        ["board", "calendar"],
+      );
+    }
     await showView(page, "board");
     assert.equal(
       await page.locator(".kanban-column").count(),
@@ -345,9 +370,20 @@ fs.mkdirSync("test-output", { recursive: true });
         )
         .count()) > 0,
     );
-    await showView(page, "timeline");
-    assert.ok((await page.locator(".timeline-group").count()) > 0);
-    await showView(page, "feed");
+    if (section === "ideas") {
+      await showView(page, "timeline");
+      assert.ok((await page.locator(".timeline-group").count()) > 0);
+      await showView(page, "feed");
+    } else {
+      await showView(page, "calendar");
+      assert.equal(await page.locator(".workspace-calendar").isVisible(), true);
+      await page.reload();
+      assert.equal(
+        await page.locator("#interactive-workspace").getAttribute("data-view"),
+        "calendar",
+        "Planning remembers Calendar",
+      );
+    }
   }
   await page.locator("#new-item").click();
   await page.locator("#item-form [name=type]").selectOption("event");

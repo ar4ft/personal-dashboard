@@ -119,8 +119,11 @@ function initialize(host: HTMLElement) {
       ? "calendar"
       : section !== "planning"
         ? "swipe"
-        : state.views[section] || "feed";
-  if (view === "calendar" && section !== "planning") view = "feed";
+        : state.views[section] || "board";
+  // Older workspaces may remember a planning feed or timeline; keep their data
+  // and open Kanban now that planning has only board and calendar views.
+  if (section === "planning" && view !== "board" && view !== "calendar")
+    view = "board";
   let currentDetail = "",
     editingId = "",
     detailOrder: string[] = [],

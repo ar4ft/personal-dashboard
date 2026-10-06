@@ -1,6 +1,6 @@
 # Personal dashboard
 
-> A static Astro dashboard on GitHub Pages for news, ideas, tasks, and events. Items share social feeds, dated timelines, editable Kanban boards, favorites, and search. This document describes how an authorized agent or producer can supply content.
+> A static Astro dashboard on GitHub Pages for news, ideas, tasks, and events. News and ideas offer swipe readers, social feeds, timelines, and Kanban boards. Tasks and events use Kanban and Calendar only. All sections support favorites and search. This document describes how an authorized agent or producer can supply content.
 
 ## Entry points
 

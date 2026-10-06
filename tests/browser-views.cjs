@@ -7,6 +7,6 @@ async function showView(page, view) {
     )
       await menu.click();
   }
-  await page.locator(`[data-view="${view}"]`).click();
+  await page.locator(`button[data-view="${view}"]`).click();
 }
 module.exports = { showView };

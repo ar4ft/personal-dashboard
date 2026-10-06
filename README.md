@@ -37,7 +37,7 @@ Private repository Pages publishing requires an eligible GitHub plan. Repository
 
 ## Use your workspace
 
-Each main section has **Feed**, **Timeline**, and **Kanban** views. Feeds and timelines use social post cards with author/source attribution, cover images, summaries, text excerpts, source links, and read-more controls. Planning also has a calendar. Views share the same items, favorites, notes, and board positions.
+News and Ideas have **Swipe**, **Feed**, **Timeline**, and **Kanban** views. Feeds and timelines use social post cards with author/source attribution, cover images, summaries, text excerpts, source links, and read-more controls. Todos & Calendar has only **Kanban** and **Calendar** views, opening in Kanban by default and remembering your calendar choice. Older planning Feed/Timeline preferences open Kanban. Views share the same items, favorites, notes, and board positions.
 
 - Drag a card or its grab handle with a mouse, or drag the handle on touch screens, to move it between columns and reorder it. Grab handles also support arrow keys. The column menu on each card also works with touch and keyboard.
 - Use **Edit columns** to add, rename, reorder, or remove columns. Removing a column retains its cards in the first remaining column. Planning's Done column is retained for task completion.
