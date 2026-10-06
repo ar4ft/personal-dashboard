@@ -2,6 +2,223 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2107446694216343958",
+      "section": "news",
+      "type": "news",
+      "title": "Polars 2.0 released",
+      "description": "Polars 2.0 makes the streaming engine the default, promotes SQL to a first-class interface, and adds initial spill-to-disk support and a new Map data type; the team says it is now one of the fastest single-node analytical SQL engines.",
+      "content": "We just released Polars 2.0.\n\nIt removed many of our legacy decisions makes the streaming engine our default and promotes SQL to a first class citizen within Polars. \n\nIt comes with initial out-of-core (spill to disk) support, a new Map data type and a lot of performance improvements. In fact, we think Polars is now one of the fastest analytical SQL engines on a single node. See benchmarks in the post: https://pola.rs/posts/release-polars-2/",
+      "author": "polars data (@DataPolars)",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/DataPolars/status/2107446694216343958",
+      "createdAt": "2026-10-06T12:23:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107443488166129727",
+      "section": "news",
+      "type": "news",
+      "title": "Qwen3.8-Flash-Next running locally at up to 177 tokens/s",
+      "description": "Ivan Fioravanti plans to run evals on a shared local setup for Qwen3.8-Flash-Next, quoting @vr8vr8's benchmark of 177 tok/s peak single-stream and about 1,174 tok/s at 64 concurrent requests, with a GitHub cluster recipe.",
+      "content": "Gonna test this soon! With all three models to see how they work with some evals. Single Spark recipe was pretty good!\n\nQuoted @vr8vr8: Qwen3.8-Flash-Next tp=2. DS4.1-Flash looked like a miracle running at 200+ now we have similar speed for Qwen3.8 locally 177tok/s. Peak c=1 @ 177 tok/s, Average c=1 @ 93 tok/s, Peak c=64 @ 1,174 tok/s, Prefill 3,939 tok/s, TTFT 0.36s. https://github.com/myllmbox/qwen38-flash-next-cluster-recipe",
+      "author": "Ivan Fioravanti (@ivanfioravanti)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ivanfioravanti/status/2107443488166129727",
+      "createdAt": "2026-10-06T11:43:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107405295127539969",
+      "section": "news",
+      "type": "news",
+      "title": "FieldPic Checklist launches for iPhone",
+      "description": "Indie iOS app that files each photo under its checklist item as you take it and exports a ZIP with a CSV, ordered photos, and a README; checklist drafts are generated on-device with Apple's Foundation Models.",
+      "content": "Just launched FieldPic Checklist for iPhone.\n\nEach photo is filed on its checklist item the moment you take it. The export is one ZIP: a CSV, every photo named in checklist order, and a README an AI assistant can read.\n\nChecklist drafts are written on-device with Foundation Models.\n\nFree for 2 projects: https://apps.apple.com/app/id6810993936\n\nOn Product Hunt today: https://producthunt.com/products/fieldpic-checklist",
+      "author": "Daisuke Adachi (@AdachiDaisuke)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/AdachiDaisuke/status/2107405295127539969",
+      "createdAt": "2026-10-06T09:39:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107380599216337159",
+      "section": "news",
+      "type": "news",
+      "title": "App Store Connect opens product page headers and search creatives to everyone",
+      "description": "An iOS developer reports that App Store Connect's product page headers and search creatives are now available to all developers.",
+      "content": "App Store Connect just got the big update \n\nProduct page headers and search creatives are now open to everyone.",
+      "author": "Enid (@ios_dev_alb)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ios_dev_alb/status/2107380599216337159",
+      "createdAt": "2026-10-06T08:01:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107434092958777639",
+      "section": "news",
+      "type": "news",
+      "title": "The coding-agent harness is becoming the runtime",
+      "description": "Alireza Bashiri notes DeepSeek added experimental support for Claude Code Mods to its agent harness and argues agent infrastructure (MCP tools, skills, hooks, plugins) is becoming portable across models, shifting the moat to whoever owns the best harness.",
+      "content": "Claude Code plugins are starting to escape Claude Code.\n\nDeepSeek just added experimental support for Claude Code Mods to its agent harness.\n\nThis looks like a small compatibility update.\n\nI think it points to something much bigger.\n\nThe harness is becoming the runtime\n\nCoding agents used to bundle everything together:\n\nmodel + tools + skills + hooks + context + agent loop\n\nThat stack is starting to split apart.\n\nNow a harness can support different models while it keeps the same tools, skills, MCP servers, and workflows.\n\nChange the model.\n\nKeep the environment.\n\nAgent infrastructure is becoming portable\n\nWe already have common layers:\n\nMCP → tools\nSkills → instructions\nHooks → control\nMods/plugins → extensions\nHarness → runtime\n\nClaude Code helped build this ecosystem.\nOther harnesses can now start to consume it.\n\nThat matters because your agent setup no longer needs to belong to one model.\n\nA good skill should work with Claude today and another model tomorrow.\n\nA good MCP server should not care which model calls it.\n\nA good harness should let you change models without rebuilding the system around them.\n\nModels become interchangeable\n\nThe model still matters.\n\nBut the harness owns more of the system:\n\ncontext → tools → state → execution → verification\n\nThis changes the moat.\n\nThe best coding agent may not come from the company with the best model.\n\nIt may come from the company that owns the best runtime.",
+      "author": "Alireza Bashiri (@al3rez)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/al3rez/status/2107434092958777639",
+      "createdAt": "2026-10-06T11:33:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107425825221996653",
+      "section": "news",
+      "type": "news",
+      "title": "SwiftUI tip: .glassProminent toolbar buttons in iOS 26",
+      "description": "Sarun W. explains that in an iOS 26 toolbar a button styled with .buttonStyle(.glassProminent) moves out of the shared glass capsule into its own tinted circle.",
+      "content": "A prominent button never shares a glass capsule in an iOS 26 toolbar.\n\nAdd .buttonStyle(.glassProminent), and the button moves out into its own tinted circle.",
+      "author": "Sarun W. (@sarunw)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/sarunw/status/2107425825221996653",
+      "createdAt": "2026-10-06T11:00:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107230708582547499",
+      "section": "news",
+      "type": "news",
+      "title": "Squad 1.0.1 released",
+      "description": "Brady Gaster announces the 1.0.1 release of Squad, his project for human-led teams of AI agents, with a write-up on the release.",
+      "content": "This weekend, #squad went 1.0(.1, actually). Thank you, immensely, to @tamir_dresher for your partnership and technical leadership on the project and for putting up with me through this monumentally awesome release & to all our awesome contributors.\n\nhttps://www.bradygaster.com/writing/squad-1-0-1/",
+      "author": "brady gaster (@t80chip)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/t80chip/status/2107230708582547499",
+      "createdAt": "2026-10-05T22:05:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49949235",
+      "section": "news",
+      "type": "news",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "description": "Simon Willison argues that pay-per-use services and APIs need hard spending caps that cut usage off at a set limit, not just warning emails, because coding and personal agents make it easy to spin up things that quietly run up bills.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49949235 (631 points).",
+      "author": "elffjs",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "createdAt": "2026-10-04T00:20:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49975619",
+      "section": "news",
+      "type": "news",
+      "title": "Gleam doesn't compile to Erlang source anymore",
+      "description": "Gleam v1.19.0 ships a rewritten Erlang code generator that emits Erlang abstract forms instead of Erlang source, letting generated code load directly and skip the front half of the Erlang compiler, with notable compiler performance gains.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49975619 (88 points).",
+      "author": "ingve",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "createdAt": "2026-10-06T08:08:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49951218",
+      "section": "news",
+      "type": "news",
+      "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "description": "Headstart patches rustc and cargo so a crate writes early metadata as soon as its interface is type-checked, letting dependent crates start compiling before function bodies finish; the project reports up to 2x faster cargo check and build.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49951218 (153 points).",
+      "author": "knuckleheads",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/PowderworksCode/headstart",
+      "createdAt": "2026-10-04T06:26:57Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49969256",
+      "section": "news",
+      "type": "news",
+      "title": "The future of mathematics",
+      "description": "A guest post by Jeremy Avigad on Terence Tao's blog about how recent AI advances and tools like the Lean theorem prover are changing mathematicians' day-to-day work, and why he finds the community's response largely positive.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49969256 (116 points).",
+      "author": "smilelamp",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/",
+      "createdAt": "2026-10-05T19:22:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49961057",
+      "section": "news",
+      "type": "news",
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "description": "A Florida woman who said she used Claude like a diary was arrested after Claude's safety systems flagged an entry threatening the sheriff's office and a human reviewer reported it to law enforcement; she faces a felony written-threat charge.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49961057 (754 points).",
+      "author": "emptybits",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "createdAt": "2026-10-05T05:37:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49948300",
+      "section": "news",
+      "type": "news",
+      "title": "We ported the original Doom to SQL",
+      "description": "CedarDB implemented the original 1993 Doom's game logic and renderer as SQL queries running inside the database, hitting the original 35 FPS game loop with Python only handling timing, input, and display; deathmatch works too.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49948300 (315 points).",
+      "author": "Vaslo",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://cedardb.com/blog/sqldoom/",
+      "createdAt": "2026-10-03T22:14:00Z",
+      "status": "inbox"
+    },
+    {
       "id": "hn:49974235",
       "section": "news",
       "type": "news",
