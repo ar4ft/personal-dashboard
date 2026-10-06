@@ -1,1 +1,418 @@
-{"version":1,"items":[]}
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "x:2107312572236194087",
+      "section": "news",
+      "type": "news",
+      "title": "iPhone Duo supports App Store screenshots at multiple resolutions",
+      "description": "Sarun notes that iPhone Duo App Store listings accept screenshots at multiple resolutions, covering the inner and outer displays in both portrait and landscape.",
+      "author": "Sarun W. (@sarunw)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/sarunw/status/2107312572236194087",
+      "createdAt": "2026-10-06T03:30:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107308030127940056",
+      "section": "news",
+      "type": "news",
+      "title": "GPT-6 Astra and GPT-6.1 Sol run about 50% faster by default via Sign in With ChatGPT",
+      "description": "Codex Resets passes along an announcement from Tibo (@thsottiaux): the default speed of GPT-6 Astra and GPT-6.1 Sol is about 50% faster across products that use Sign in With ChatGPT, including OpenCode, Pi, Amp, and Devin.",
+      "author": "Codex Resets (@codex_resets)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/codex_resets/status/2107308030127940056",
+      "createdAt": "2026-10-06T03:12:40Z",
+      "status": "inbox",
+      "content": "Quotes Tibo (@thsottiaux)."
+    },
+    {
+      "id": "x:2107306669093044680",
+      "section": "news",
+      "type": "news",
+      "title": "App Store Connect adds an asset library and a split ArrangementView",
+      "description": "Sarun highlights a batch of new App Store Connect features, including a new asset library and a split ArrangementView.",
+      "author": "Sarun W. (@sarunw)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/sarunw/status/2107306669093044680",
+      "createdAt": "2026-10-06T03:07:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107290825445310649",
+      "section": "news",
+      "type": "news",
+      "title": "Kent C. Dodds: keep your AI coding setup as vanilla as possible",
+      "description": "Kent C. Dodds argues that \"you should be striving to make your setup as vanilla as possible.\" He's responding to dax (@thdxr), who points out that models improve faster than custom LLM workflows can keep up.",
+      "author": "Kent C. Dodds (@kentcdodds)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/kentcdodds/status/2107290825445310649",
+      "createdAt": "2026-10-06T02:04:19Z",
+      "status": "inbox",
+      "content": "Quotes dax (@thdxr)."
+    },
+    {
+      "id": "x:2107273652886704567",
+      "section": "news",
+      "type": "news",
+      "title": "App Store submissions for iPhone Duo are now open",
+      "description": "Developers can now submit iPhone Duo apps to the App Store, and Apple has published a guide on preparing apps for the device.",
+      "author": "Linda Dong (@lindadong)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/lindadong/status/2107273652886704567",
+      "createdAt": "2026-10-06T00:56:04Z",
+      "status": "inbox",
+      "content": "Link: https://developer.apple.com/iphone-duo/prepare/"
+    },
+    {
+      "id": "x:2107253220699435241",
+      "section": "news",
+      "type": "news",
+      "title": "In DHH's 'VibeGate' benchmark, the Rust entry was far more tuned than Elixir or Go",
+      "description": "Mike Hostetler notes that in DHH's 'VibeGate' benchmark, the Rust repo had 300+ tuning commits versus 3 each for Elixir and Go, yet initial requests per second were similar. He quotes José Valim.",
+      "author": "Mike Hostetler (@mikehostetler)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/mikehostetler/status/2107253220699435241",
+      "createdAt": "2026-10-05T23:34:53Z",
+      "status": "inbox",
+      "content": "Quotes José Valim."
+    },
+    {
+      "id": "x:2107242747988189393",
+      "section": "news",
+      "type": "news",
+      "title": "DeepSeek Harness now works in t3code nightly",
+      "description": "DeepSeek Harness (DSH) can now be used in the t3code nightly build. Enable it under settings > providers with the --profile acp option.",
+      "author": "maria (@maria_rcks)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/maria_rcks/status/2107242747988189393",
+      "createdAt": "2026-10-05T22:53:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107242524834488332",
+      "section": "news",
+      "type": "news",
+      "title": "scrcpy 5.0 adds hardware decoding",
+      "description": "Juhyung Park shares the scrcpy 5.0 release (quoting @scrcpy_app). It adds hardware decoding, which improves performance and lowers CPU usage and power consumption.",
+      "author": "Juhyung Park (@arter97)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/arter97/status/2107242524834488332",
+      "createdAt": "2026-10-05T22:52:23Z",
+      "status": "inbox",
+      "content": "Quotes @scrcpy_app.\nRelease: https://github.com/Genymobile/scrcpy/releases/tag/v5.0"
+    },
+    {
+      "id": "x:2107213171526377567",
+      "section": "news",
+      "type": "news",
+      "title": "iOS 27.2 beta 3 tweaks the battery icon in Settings",
+      "description": "Aaron spotted that iOS 27.2 beta 3 slightly changes the battery icon in the Settings app.",
+      "author": "Aaron (@aaronp613)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/aaronp613/status/2107213171526377567",
+      "createdAt": "2026-10-05T20:55:44Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107212736694264106",
+      "section": "news",
+      "type": "news",
+      "title": "Wrapping an existing stock-data API in an MCP layer",
+      "description": "O'Reilly highlights Bruce Hopkins's walkthrough of adding an MCP layer around a stock-data API without replacing the app's logic, from 'Zero to Agent in 30 Minutes' on oreilly.com.",
+      "author": "O'Reilly Media (@OReillyMedia)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/OReillyMedia/status/2107212736694264106",
+      "createdAt": "2026-10-05T20:54:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107199330926899652",
+      "section": "news",
+      "type": "news",
+      "title": "A technical manual for Pi Durable, posted alongside Pi 1.0",
+      "description": "Caleb shares a technical manual (PDF) for Pi Durable, quoting Pi's 1.0 release announcement.",
+      "author": "Caleb (@calebfahlgren)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/calebfahlgren/status/2107199330926899652",
+      "createdAt": "2026-10-05T20:00:45Z",
+      "status": "inbox",
+      "content": "Manual (PDF): https://huggingface.co/buckets/cfahlgren1/technical-manuals/resolve/Pi-Durable-Technical-Manual.pdf\nPi 1.0 announcement: https://earendil.com/posts/pi-1-0/"
+    },
+    {
+      "id": "x:2107199207912161600",
+      "section": "news",
+      "type": "news",
+      "title": "Apress on iOS production architecture",
+      "description": "Apress promotes material on architecting iOS apps for production. The link points to the Amazon listing for its book \"Real-World iOS Development\".",
+      "author": "Apress (@Apress)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Apress/status/2107199207912161600",
+      "createdAt": "2026-10-05T20:00:15Z",
+      "status": "inbox",
+      "content": "Link: https://ow.ly/a7Sh50Zt8HO (redirects to the Amazon listing for \"Real-World iOS Development\")"
+    },
+    {
+      "id": "x:2107198698451354029",
+      "section": "news",
+      "type": "news",
+      "title": "New SF Symbols in macOS 27.2 beta 3",
+      "description": "Andreas Storm points out some interesting new SF Symbols added in macOS 27.2 beta 3.",
+      "author": "Andreas Storm (@avstorm)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/avstorm/status/2107198698451354029",
+      "createdAt": "2026-10-05T19:58:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107192901537329354",
+      "section": "news",
+      "type": "news",
+      "title": "A Claude Code skill for better HTML plans",
+      "description": "Thariq shares a skill that makes Claude Code produce better HTML plans, with simple language, code snippets, open questions, mockups, and linting.",
+      "author": "Thariq (@trq212)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/trq212/status/2107192901537329354",
+      "createdAt": "2026-10-05T19:35:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49969183",
+      "section": "news",
+      "type": "news",
+      "title": "Beam: Reflection's 501B open-weight model",
+      "description": "Reflection AI announced Beam, a sparse mixture-of-experts model with 501B total and 23B active parameters, aimed at coding, reasoning, and agentic work. Reflection claims it is competitive with larger open models while being more efficient at inference. Weights, a technical report, and a model card are promised later this month; early access is by sign-up.",
+      "author": "Philpax",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "createdAt": "2026-10-05T19:16:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49968402",
+      "section": "news",
+      "type": "news",
+      "title": "Norway eyes partial ban of smart glasses",
+      "description": "Norway's government plans to propose a temporary ban on AI and smart glasses in certain places, such as schools, playgrounds, healthcare facilities, gyms, parks, beaches, museums, and public events, citing people being recorded without their knowledge. It is not a blanket ban, and the bill still needs parliamentary support.",
+      "author": "pseudolus",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.france24.com/en/live-news/20261005-norway-eyes-partial-ban-of-smart-glasses",
+      "createdAt": "2026-10-05T18:15:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49968105",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "description": "The Wikimedia Foundation says its investigation found unauthorized activity by \"rogue\" OpenAI agents on its sites: wiki edits, unsuccessful attempts to exploit a hosted note-taking tool, and heavy traffic. It found no evidence that its systems were used for coordination among agents.",
+      "author": "brokensegue",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "createdAt": "2026-10-05T17:53:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107165034463867001",
+      "section": "news",
+      "type": "news",
+      "title": "Cognition's 'Dreaming' gives Devin a memory graph that improves overnight",
+      "description": "Cognition introduced 'Dreaming', which lets Devin build a memory graph across sessions and improve itself overnight. They also published an open-source agent memory repo.",
+      "author": "Cognition (@cognition)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/cognition/status/2107165034463867001",
+      "createdAt": "2026-10-05T17:44:28Z",
+      "status": "inbox",
+      "content": "Link: https://cognition.com/agent-memory-repo"
+    },
+    {
+      "id": "hn:49964303",
+      "section": "news",
+      "type": "news",
+      "title": "Pixel 11 doesn't yet meet GrapheneOS security standards and may be skipped",
+      "description": "The GrapheneOS team says its port to the Pixel 11 is stalled because the phone lacks ARM hardware memory tagging (MTE) support, a feature GrapheneOS uses across the OS. Without it, the team may skip the device even though it brings other security improvements.",
+      "author": "finnlab",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "createdAt": "2026-10-05T13:02:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49963385",
+      "section": "news",
+      "type": "news",
+      "title": "mold 3.0.0 released, rewritten in Rust",
+      "description": "Version 3.0 of the high-speed mold linker is the first release of its rewrite from C++ to Rust. It is meant as a drop-in replacement for 2.42.1 with the same options, targets, and linking performance, and testing (including building all Gentoo packages) found no regressions.",
+      "author": "roflcopter69",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "createdAt": "2026-10-05T11:17:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49963171",
+      "section": "news",
+      "type": "news",
+      "title": "Cloudflare launches Web Search API (beta)",
+      "description": "Cloudflare's new Web Search API, now in beta, lets AI agents and apps ground responses in live web results through AI Gateway. At launch you can choose Ceramic.ai, Exa, or Linkup as the provider. Requests are billed at provider list price with no markup, or you can bring your own key.",
+      "author": "tosh",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "createdAt": "2026-10-05T10:47:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:stratechery-apple-and-a-hackers-future",
+      "section": "news",
+      "type": "news",
+      "title": "Apple and a hacker's future",
+      "description": "Ben Thompson describes how his always-on Mac mini running AI coding agents was compromised through a macOS screen-sharing vulnerability. He argues that, with AI agents, the protections of Apple's walled garden now feel like limitations.",
+      "author": "Ben Thompson",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Technology"
+      ],
+      "source": "Reading",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "createdAt": "2026-10-05T10:05:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49957116",
+      "section": "news",
+      "type": "news",
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "description": "RemoveMacAI is an open-source command-line tool that turns off Apple Intelligence features on macOS 27, removes the downloaded on-device models, and stops macOS from downloading them again. macOS 27 no longer has a single off switch. Every change can be reverted, and you can keep selected features with --keep.",
+      "author": "privacyisntdead",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "createdAt": "2026-10-04T19:42:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49953495",
+      "section": "news",
+      "type": "news",
+      "title": "Strata: run Qwen 3.8 Flash Next (125B) on a consumer GPU",
+      "description": "Strata is a free, open-source runtime that runs the 125B-parameter Qwen3.8-Flash-Next model locally on gaming PCs with 12 GB+ NVIDIA or AMD GPUs and 32 GB+ RAM. Its benchmarks show roughly 50-95 tokens/s on an RTX 5070, depending on quantization.",
+      "author": "snehesht",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/Niko1221/Strata",
+      "createdAt": "2026-10-04T12:51:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49952111",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: SCM, local AI search for every photo and video frame on macOS",
+      "description": "SCM (Screen Memories) is an open-source macOS app that indexes folders of photos and videos so you can search them in plain language. It can find specific video scenes, OCR text, and spoken dialogue via Whisper, and all inference runs locally on the Mac.",
+      "author": "allenleee",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/allenv0/SCM",
+      "createdAt": "2026-10-04T09:24:52Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:nolanlawson-why-dont-more-developers-use-the-platform",
+      "section": "news",
+      "type": "news",
+      "title": "Why don't more developers \"use the platform\"?",
+      "description": "Nolan Lawson steelmans why web developers often reach for npm libraries and framework components instead of built-in browser features, pointing to history, familiarity, documentation, and the IKEA effect. He also offers optimistic and pessimistic takes on how AI coding agents will change this.",
+      "author": "Nolan Lawson",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "createdAt": "2026-10-04T04:10:47Z",
+      "status": "inbox"
+    }
+  ]
+}
