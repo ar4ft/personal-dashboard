@@ -9530,6 +9530,183 @@
       "url": "https://x.com/aspiredotdev/status/2107538645901246618",
       "createdAt": "2026-10-06T18:29:04Z",
       "updatedAt": "2026-10-06T18:29:04Z"
+    },
+    {
+      "id": "hn:49980487",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "description": "Google announced EmbeddingGemma 2, an open, lightweight embedding model that works across multiple modalities.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49980487",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "createdAt": "2026-10-06T16:03:49Z",
+      "updatedAt": "2026-10-06T16:03:49Z"
+    },
+    {
+      "id": "hn:49976265",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nobel Prize in Physics 2026: Francis Halzen",
+      "description": "The 2026 Nobel Prize in Physics was awarded to Francis Halzen, according to the official Nobel Prize announcement.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49976265",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "solarist",
+      "url": "https://www.nobelprize.org/prizes/physics/2026/",
+      "createdAt": "2026-10-06T09:48:46Z",
+      "updatedAt": "2026-10-06T09:48:46Z"
+    },
+    {
+      "id": "hn:49978563",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+      "description": "The Tapo library, available for Rust and Python, has added support for TP-Link's TPAP protocol.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49978563",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "faithraven",
+      "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+      "createdAt": "2026-10-06T13:55:37Z",
+      "updatedAt": "2026-10-06T13:55:37Z"
+    },
+    {
+      "id": "hn:49983791",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenSSH 10.6",
+      "description": "OpenSSH 10.6 has been released, with release notes published on openssh.org.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49983791",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "torcete",
+      "url": "https://www.openssh.org/releasenotes.html#10.6",
+      "createdAt": "2026-10-06T20:41:39Z",
+      "updatedAt": "2026-10-06T20:41:39Z"
+    },
+    {
+      "id": "hn:49984923",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sharing AI Progress in Mathematics",
+      "description": "OpenAI published an update on its AI progress in mathematics.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49984923",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "OfficialTurkey",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "createdAt": "2026-10-06T22:17:21Z",
+      "updatedAt": "2026-10-06T22:17:21Z"
+    },
+    {
+      "id": "hn:49981905",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "description": "An essay examines Claude Code's suggested-message feature and argues the real customer of that feature may be the model itself.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49981905",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zed_labs_dev",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "createdAt": "2026-10-06T18:00:34Z",
+      "updatedAt": "2026-10-06T18:00:34Z"
+    },
+    {
+      "id": "hn:49983703",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "description": "Paramount Skydance has completed its $111 billion merger with Warner Bros. Discovery.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49983703",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Mgtyalx",
+      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+      "createdAt": "2026-10-06T20:33:47Z",
+      "updatedAt": "2026-10-06T20:33:47Z"
+    },
+    {
+      "id": "hn:49977437",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Subquadratic 3SUM and Subcubic APSP",
+      "description": "A paper presents subquadratic algorithms for 3SUM and subcubic algorithms for all-pairs shortest paths.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49977437",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mauriziocalo",
+      "url": "https://arxiv.org/abs/2610.06783",
+      "createdAt": "2026-10-06T12:31:17Z",
+      "updatedAt": "2026-10-06T12:31:17Z"
+    },
+    {
+      "id": "hn:49978171",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
+      "description": "Show HN for Parseable, an open observability datalake reported to handle 100 million time-series per minute.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49978171",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "yashdotrv",
+      "url": "https://www.parseable.com",
+      "createdAt": "2026-10-06T13:30:50Z",
+      "updatedAt": "2026-10-06T13:30:50Z"
+    },
+    {
+      "id": "hn:49979845",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Early History of Smalltalk (1993)",
+      "description": "A historical piece on the early history of Smalltalk, dating from 1993.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49979845",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "_reza",
+      "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+      "createdAt": "2026-10-06T15:19:57Z",
+      "updatedAt": "2026-10-06T15:19:57Z"
     }
   ]
 }
