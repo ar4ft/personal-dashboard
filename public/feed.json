@@ -8764,6 +8764,172 @@
       "url": "https://x.com/OfficialLoganK/status/1630992343695327232",
       "createdAt": "2023-03-01T18:04:11Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:49977177",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Release of Polars 2.0",
+      "description": "The Polars project has released version 2.0 of its fast DataFrame library.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "simicd",
+      "url": "https://pola.rs/posts/release-polars-2/",
+      "createdAt": "2026-10-06T11:59:01Z",
+      "updatedAt": "2026-10-06T11:59:01Z"
+    },
+    {
+      "id": "hn:49973598",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Common Lisp is now the best programming language",
+      "description": "An essay making the case for Common Lisp as the best programming language today.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "misterchocolat",
+      "url": "https://www.vivienhenz.com/common-lisp",
+      "createdAt": "2026-10-06T02:51:51Z",
+      "updatedAt": "2026-10-06T02:51:51Z"
+    },
+    {
+      "id": "hn:49971921",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Example.com just launched the biggest redesign in decades",
+      "description": "A look at the history of example.com and its biggest redesign in decades.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jgx0",
+      "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+      "createdAt": "2026-10-05T22:55:11Z",
+      "updatedAt": "2026-10-05T22:55:11Z"
+    },
+    {
+      "id": "hn:49971846",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "description": "Reports that ChatGPT is generating fake New Yorker cartoons signed with real cartoonists' names.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rdmuser",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "createdAt": "2026-10-05T22:46:45Z",
+      "updatedAt": "2026-10-05T22:46:45Z"
+    },
+    {
+      "id": "hn:49971719",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Friendship ended with Deno, now Node is my best friend",
+      "description": "A developer's account of switching from Deno back to Node.js.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "createdAt": "2026-10-05T22:30:02Z",
+      "updatedAt": "2026-10-05T22:30:02Z"
+    },
+    {
+      "id": "hn:49952464",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Using A.I. and machine learning to decode communication of sperm whales",
+      "description": "A project applying AI and machine learning to decode sperm whale communication.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dnetesn",
+      "url": "https://blue-continuum.com/the-man-who-listens-to-whales",
+      "createdAt": "2026-10-04T10:15:13Z",
+      "updatedAt": "2026-10-04T10:15:13Z"
+    },
+    {
+      "id": "hn:49944369",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Direct retinal projection display for smart glasses using a meta-optic mirror",
+      "description": "TDK demonstrates a direct retinal projection display for smart glasses using a meta-optic mirror.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bookofjoe",
+      "url": "https://www.tdk.com/en/news_center/press/20261002_01.html",
+      "createdAt": "2026-10-03T14:04:27Z",
+      "updatedAt": "2026-10-03T14:04:27Z"
+    },
+    {
+      "id": "hn:49953195",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DEDA – Tracking Dots Extraction, Decoding and Anonymisation Toolkit",
+      "description": "DEDA is an open-source toolkit for extracting, decoding, and anonymizing printer tracking dots.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "greyface-",
+      "url": "https://github.com/dfd-tud/deda",
+      "createdAt": "2026-10-04T12:09:10Z",
+      "updatedAt": "2026-10-04T12:09:10Z"
+    },
+    {
+      "id": "hn:49920785",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The first fully implanted cochlear implant reaches patients",
+      "description": "The first fully implanted cochlear implant has reached patients, per IEEE Spectrum.",
+      "topics": [
+        "Technology",
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "author": "rbanffy",
+      "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant",
+      "createdAt": "2026-10-01T12:31:40Z",
+      "updatedAt": "2026-10-01T12:31:40Z"
+    },
+    {
+      "id": "hn:49977597",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Software Supply Chain Attack on subql/common",
+      "description": "A reported software supply-chain attack targeting the subql/common npm package.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "WalterSobchak",
+      "url": "https://flatt.tech/research/posts/subql-common-npm-supply-chain-attack/",
+      "createdAt": "2026-10-06T12:46:19Z",
+      "updatedAt": "2026-10-06T12:46:19Z"
     }
   ]
 }
