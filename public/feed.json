@@ -2,6 +2,95 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2107546569654636883",
+      "section": "news",
+      "type": "news",
+      "title": "Anthropic expands cyber-verification access for defensive security work",
+      "description": "Anthropic says verified security professionals can get broader access to Claude Mythos 5.1, Opus 5.5 and Sonnet 5.5 for defensive security work under safeguards.",
+      "content": "We’re expanding our Cyber Verification Program to give security professionals broader access to our most capable models. Through this program, verified security professionals can access Claude Mythos 5.1, Opus 5.5, and Sonnet 5.5 with safeguards designed for defensive work.",
+      "author": "Anthropic (@AnthropicAI)",
+      "topics": [
+        "AI",
+        "Technology",
+        "Cybersecurity"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/AnthropicAI/status/2107546569654636883",
+      "createdAt": "2026-10-06T19:10:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107521244870615416",
+      "section": "news",
+      "type": "news",
+      "title": "Embedding Gemma 2 brings multimodal embeddings to the browser",
+      "description": "Google’s open 740M-parameter model handles text, code, images, video and audio; Victor M reports browser-side WebGPU inference at roughly 20–70 ms per query without a server or API key.",
+      "content": "Victor M highlights EmbeddingGemma 2 as a compact, natively multimodal embedding model that can run locally in a browser using WebGPU. Google’s quoted announcement describes support for text, code, image, video and audio tasks in a 740M-parameter model.",
+      "author": "Victor M (@victormustar)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/victormustar/status/2107521244870615416",
+      "createdAt": "2026-10-06T18:10:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:open-tpu-ai-inference-accelerator",
+      "section": "news",
+      "type": "news",
+      "title": "openTPU pairs an AI-developed accelerator with a full LLM software stack",
+      "description": "The open-source project brings together SystemVerilog RTL, an instruction set, simulator, compiler and profiler; its README reports multiple current language models running bit-exactly on a Kintex-7 FPGA card.",
+      "content": "The repository presents openTPU as an AI-developed accelerator and learning project. It documents a software simulator alongside the RTL implementation and reports running ten models on a Kintex-7 PCIe card, with benchmark and profiler details.",
+      "author": "fsbonetto",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/FeSens/openTPU",
+      "createdAt": "2026-10-06T17:10:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:benchmark-in-milliseconds",
+      "section": "news",
+      "type": "news",
+      "title": "A rule of thumb for microbenchmarks: aim for around 300 ms",
+      "description": "Matklad recommends benchmarks near 300 ms: long enough to make small improvements visible and limit fixed-overhead distortion, yet short enough to repeat quickly; the goal is practical intuition rather than precise measurement.",
+      "content": "Aleksey Kladov’s rule of thumb is to tune benchmark input until each run takes roughly 300 milliseconds. That range makes results easy to scan, reduces startup overhead, and keeps repeated runs fast enough for iteration.",
+      "author": "surprisetalk",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
+      "createdAt": "2026-10-06T14:10:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:darkplug-iphone-darkroom-timer",
+      "section": "news",
+      "type": "news",
+      "title": "Darkplug turns an iPhone into a local-network darkroom timer",
+      "description": "The iPhone and iPad app controls a supported Shelly smart plug and enlarger over the local network, with timed exposures, F-stop steps, guided test strips, split-grade printing and dodge-and-burn workflows.",
+      "content": "Darkplug is a red-on-black darkroom timer for film photographers. It connects directly to compatible Shelly plugs on the same local network; advanced printing tools are offered through a one-time Darkplug+ purchase.",
+      "author": "pentakkusu",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://peterszentkiralyi.eu/darkplug/",
+      "createdAt": "2026-10-06T14:10:00Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2107461486251590100",
       "section": "news",
       "type": "news",
