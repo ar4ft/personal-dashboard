@@ -2127,6 +2127,22 @@
       "status": "inbox"
     },
     {
+      "id": "x:2104346680904622301",
+      "section": "news",
+      "type": "news",
+      "title": "Jane Street Head of AI's 1-hour course on how they use LLMs and agents",
+      "description": "Post from bodila: Jane Street Head of AI's 1-hour course on how they use LLMs and agents.",
+      "content": "Bookmarked on X.",
+      "author": "bodila (@51bodila)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/51bodila/status/2104346680904622301",
+      "createdAt": "2026-09-27T23:05:20Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2104298979777188192",
       "section": "news",
       "type": "news",
@@ -2667,6 +2683,22 @@
       "status": "inbox"
     },
     {
+      "id": "x:2103157617715491278",
+      "section": "news",
+      "type": "news",
+      "title": "Jev founder released a 12-page PDF on using Jev with LLMs as a blueprint for a faster, cheaper, more controllable system around Claude",
+      "description": "Post from rari: Jev founder released a 12-page PDF on using Jev with LLMs as a blueprint for a faster, cheaper, more controllable system around Claude.",
+      "content": "Bookmarked on X.",
+      "author": "rari (@0xwhrrari)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/0xwhrrari/status/2103157617715491278",
+      "createdAt": "2026-09-24T16:20:25Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2103150113103458386",
       "section": "news",
       "type": "news",
@@ -2681,6 +2713,22 @@
       "source": "Twitter / X",
       "url": "https://x.com/trq212/status/2103150113103458386",
       "createdAt": "2026-09-24T15:50:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2102934800357367920",
+      "section": "news",
+      "type": "news",
+      "title": "Prompt to paste into Claude Code with Opus 5.5 and xHigh reasoning",
+      "description": "Post from AI Edge: Prompt to paste into Claude Code with Opus 5.5 and xHigh reasoning.",
+      "content": "Bookmarked on X.",
+      "author": "AI Edge (@aiedge_)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/aiedge_/status/2102934800357367920",
+      "createdAt": "2026-09-24T01:35:01Z",
       "status": "inbox"
     },
     {
@@ -2749,6 +2797,22 @@
       "source": "Twitter / X",
       "url": "https://x.com/sairahul1/status/2102821045137011006",
       "createdAt": "2026-09-23T18:03:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2102801274173587569",
+      "section": "news",
+      "type": "news",
+      "title": "donald spoke to the computer for 5 minutes and Claude worked for 12 hours using one Opus 5.5 prompt",
+      "description": "donald spoke to the computer for 5 minutes and Claude worked for 12 hours using one Opus 5.5 prompt.",
+      "content": "Bookmarked on X.",
+      "author": "donald (@donaldjewkes)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/donaldjewkes/status/2102801274173587569",
+      "createdAt": "2026-09-23T16:44:26Z",
       "status": "inbox"
     },
     {
@@ -2973,6 +3037,23 @@
       "status": "inbox"
     },
     {
+      "id": "x:2102435462065385775",
+      "section": "news",
+      "type": "news",
+      "title": "Unreal Labs introduced Unreal Agent, an open-source harness 39% cheaper than Codex+Astra on Terminal-Bench 4.0",
+      "description": "Unreal Labs introduced Unreal Agent, an open-source harness 39% cheaper than Codex+Astra on Terminal-Bench 4.0.",
+      "content": "Bookmarked on X.",
+      "author": "Unreal Labs (@unreallabsai)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/unreallabsai/status/2102435462065385775",
+      "createdAt": "2026-09-22T16:30:50Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2102425299237720493",
       "section": "news",
       "type": "news",
@@ -3074,6 +3155,22 @@
       "status": "inbox"
     },
     {
+      "id": "x:2101945481844703590",
+      "section": "news",
+      "type": "news",
+      "title": "Demo of TinyShield on macOS 27",
+      "description": "Post from Noah Tran: Demo of TinyShield on macOS 27.",
+      "content": "Bookmarked on X.",
+      "author": "Noah Tran (@_nghiatran)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/_nghiatran/status/2101945481844703590",
+      "createdAt": "2026-09-21T08:03:49Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2101862019792056426",
       "section": "news",
       "type": "news",
@@ -3087,6 +3184,40 @@
       "source": "Twitter / X",
       "url": "https://x.com/EAGalvezAuthor/status/2101862019792056426",
       "createdAt": "2026-09-21T02:32:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2101578929786228924",
+      "section": "news",
+      "type": "news",
+      "title": "酱紫表 uses an Apple Design skill that compiles WWDC design talks into a guide while building apps",
+      "description": "酱紫表 uses an Apple Design skill that compiles WWDC design talks into a guide while building apps.",
+      "content": "Bookmarked on X.",
+      "author": "酱紫表 (@pengchujin)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/pengchujin/status/2101578929786228924",
+      "createdAt": "2026-09-20T07:47:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2101006253829046539",
+      "section": "news",
+      "type": "news",
+      "title": "Eugene Cheah built SimpleJev because Jev is not open source and lacks vision",
+      "description": "Eugene Cheah built SimpleJev because Jev is not open source and lacks vision.",
+      "content": "Bookmarked on X.\nLink: https://simplejev",
+      "author": "Eugene Cheah (@picocreator)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/picocreator/status/2101006253829046539",
+      "createdAt": "2026-09-18T17:51:40Z",
       "status": "inbox"
     },
     {
@@ -3344,6 +3475,216 @@
       "status": "inbox"
     },
     {
+      "id": "x:2096383009167466738",
+      "section": "news",
+      "type": "news",
+      "title": "Discover Indie Apps got a design refresh",
+      "description": "Post from Enid: Discover Indie Apps got a design refresh.",
+      "content": "Bookmarked on X.\nLink: https://discoverindieapps.com",
+      "author": "Enid (@ios_dev_alb)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ios_dev_alb/status/2096383009167466738",
+      "createdAt": "2026-09-05T23:40:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2096268581743079681",
+      "section": "news",
+      "type": "news",
+      "title": "Inter typeface is used worldwide, including by governments and nonprofits",
+      "description": "Post from rsms: Inter typeface is used worldwide, including by governments and nonprofits; he started it ten years ago.",
+      "content": "Bookmarked on X.",
+      "author": "rsms (@rsms)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/rsms/status/2096268581743079681",
+      "createdAt": "2026-09-05T16:05:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2096108064248418403",
+      "section": "news",
+      "type": "news",
+      "title": "Lime Cleaner for Mac scans forgotten projects and removes dependencies, build artifacts, caches, and installers",
+      "description": "Post from hieuSSR: Lime Cleaner for Mac scans forgotten projects and removes dependencies, build artifacts, caches, and installers; pay what you want.",
+      "content": "Bookmarked on X.\nLink: https://app.paymug.co/buy/lime-cleaner-mac",
+      "author": "hieuSSR (@hieuSSR)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/hieuSSR/status/2096108064248418403",
+      "createdAt": "2026-09-05T05:28:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2095761539735416975",
+      "section": "news",
+      "type": "news",
+      "title": "Reply pointing to a downloadable agent skill pack on danny.md",
+      "description": "Post from dannypostma: Reply pointing to a downloadable agent skill pack on danny.md.",
+      "content": "Bookmarked on X.\nLink: https://danny.md",
+      "author": "dannypostma (@dannypostma)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/dannypostma/status/2095761539735416975",
+      "createdAt": "2026-09-04T06:31:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2094808564355191249",
+      "section": "news",
+      "type": "news",
+      "title": "Shopify ML trained a tiny 0.8B model that beats GPT 5.6-sol xhigh on a special-purpose spec",
+      "description": "Post from tobi lutke: Shopify ML trained a tiny 0.8B model that beats GPT 5.6-sol xhigh on a special-purpose spec.",
+      "content": "Bookmarked on X.",
+      "author": "tobi lutke (@tobi)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/tobi/status/2094808564355191249",
+      "createdAt": "2026-09-01T15:24:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2094576662033715545",
+      "section": "news",
+      "type": "news",
+      "title": "Ansh Nanda explains how agents transfer login cookies from a webview into the agent's computer",
+      "description": "Ansh Nanda explains how agents transfer login cookies from a webview into the agent's computer.",
+      "content": "Bookmarked on X.",
+      "author": "Ansh Nanda (@anshnanda)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/anshnanda/status/2094576662033715545",
+      "createdAt": "2026-09-01T00:02:46Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2094376160884871438",
+      "section": "news",
+      "type": "news",
+      "title": "A prompt that activates GPT Pro and produces next-level agent systems",
+      "description": "Post from Jeffrey Emanuel: A prompt that activates GPT Pro and produces next-level agent systems.",
+      "content": "Bookmarked on X.",
+      "author": "Jeffrey Emanuel (@doodlestein)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/doodlestein/status/2094376160884871438",
+      "createdAt": "2026-08-31T10:46:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2094352521573888484",
+      "section": "news",
+      "type": "news",
+      "title": "4nzn prompted Claude Code to download the Phrack magazine archive into a Kobo epub",
+      "description": "4nzn prompted Claude Code to download the Phrack magazine archive into a Kobo epub.",
+      "content": "Bookmarked on X.",
+      "author": "4nzn (@paoloanzn)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/paoloanzn/status/2094352521573888484",
+      "createdAt": "2026-08-31T09:12:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2094123560969122089",
+      "section": "news",
+      "type": "news",
+      "title": "flat_moon_society reflects on the Chinese open-source community's research across fields",
+      "description": "flat_moon_society reflects on the Chinese open-source community's research across fields.",
+      "content": "Bookmarked on X.",
+      "author": "flat_moon_society (@flatmoonsoc)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/flatmoonsoc/status/2094123560969122089",
+      "createdAt": "2026-08-30T18:02:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2092841454947406178",
+      "section": "news",
+      "type": "news",
+      "title": "Tony Xavier wants a desktop app that shows all coding agents across Claude Code, Codex, and Cursor at once",
+      "description": "Tony Xavier wants a desktop app that shows all coding agents across Claude Code, Codex, and Cursor at once.",
+      "content": "Bookmarked on X.",
+      "author": "Tony Xavier (@TonyXavier_)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/TonyXavier_/status/2092841454947406178",
+      "createdAt": "2026-08-27T05:07:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2092514641612304386",
+      "section": "news",
+      "type": "news",
+      "title": "Someone released a fully jailbroken open-source pre-built iOS 26 virtual machine",
+      "description": "Post from 科技混子Chris: Someone released a fully jailbroken open-source pre-built iOS 26 virtual machine.",
+      "content": "Bookmarked on X.\nLink: https://github.com/34306/vphone-aio",
+      "author": "科技混子Chris (@ChrisSlacker)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ChrisSlacker/status/2092514641612304386",
+      "createdAt": "2026-08-26T07:29:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2092372584180687279",
+      "section": "news",
+      "type": "news",
+      "title": "Video about memory in code tools and a critique of Claude Code's memory",
+      "description": "Post from Theo - t3.gg: Video about memory in code tools and a critique of Claude Code's memory.",
+      "content": "Bookmarked on X.",
+      "author": "Theo - t3.gg (@theo)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/theo/status/2092372584180687279",
+      "createdAt": "2026-08-25T22:04:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2090859895545573535",
+      "section": "news",
+      "type": "news",
+      "title": "Kumone 0.2.0 now supports iOS/iPadOS (sideload ipa, not TestFlight) and Intel Mac",
+      "description": "Post from Vincent Yang: Kumone 0.2.0 now supports iOS/iPadOS (sideload ipa, not TestFlight) and Intel Mac.",
+      "content": "Bookmarked on X.\nLink: https://github.com/missuo/kumone/releases/tag/0.2.0",
+      "author": "Vincent Yang (@m1ssuo)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/m1ssuo/status/2090859895545573535",
+      "createdAt": "2026-08-21T17:53:40Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2090744156985364513",
       "section": "news",
       "type": "news",
@@ -3359,6 +3700,106 @@
       "source": "Twitter / X",
       "url": "https://x.com/nikolay_dp/status/2090744156985364513",
       "createdAt": "2026-08-21T10:13:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2090079350099984781",
+      "section": "news",
+      "type": "news",
+      "title": "iOS 27 Shortcuts can read on-screen text and draft replies with Apple Intelligence Cloud Pro",
+      "description": "Post from Fran Besora: iOS 27 Shortcuts can read on-screen text and draft replies with Apple Intelligence Cloud Pro.",
+      "content": "Bookmarked on X.",
+      "author": "Fran Besora (@ifrnb)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ifrnb/status/2090079350099984781",
+      "createdAt": "2026-08-19T14:12:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2089425215793058296",
+      "section": "news",
+      "type": "news",
+      "title": "Tomas Francisco Firbeda moved all GitHub projects to a personal Gitea server on a VPS",
+      "description": "Tomas Francisco Firbeda moved all GitHub projects to a personal Gitea server on a VPS.",
+      "content": "Bookmarked on X.\nLink: https://git.tomasfirbeda.com",
+      "author": "Tomas Francisco Firbeda (@firbedatomas)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/firbedatomas/status/2089425215793058296",
+      "createdAt": "2026-08-17T18:52:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2088688906657005726",
+      "section": "news",
+      "type": "news",
+      "title": "Omarchy Quattro running inside a native macOS app via Apple Container and Rosetta, streamed into Capsule",
+      "description": "Post from athas.dev: Omarchy Quattro running inside a native macOS app via Apple Container and Rosetta, streamed into Capsule.",
+      "content": "Bookmarked on X.",
+      "author": "athas.dev (@athasdev)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/athasdev/status/2088688906657005726",
+      "createdAt": "2026-08-15T18:06:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2088173394609238072",
+      "section": "news",
+      "type": "news",
+      "title": "Z.ai released OpenVuln, a public vulnerability intelligence platform for open source",
+      "description": "Post from Adina Yakup: Z.ai released OpenVuln, a public vulnerability intelligence platform for open source.",
+      "content": "Bookmarked on X.\nLink: https://huggingface.co",
+      "author": "Adina Yakup (@AdinaYakup)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/AdinaYakup/status/2088173394609238072",
+      "createdAt": "2026-08-14T07:58:28Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2087944577802006544",
+      "section": "news",
+      "type": "news",
+      "title": "Max Katz says hi Origin, goodbye GitHub downtime",
+      "description": "Max Katz says hi Origin, goodbye GitHub downtime.",
+      "content": "Bookmarked on X.\nLink: https://cursor.com/codebase",
+      "author": "Max Katz (@maxktz)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/maxktz/status/2087944577802006544",
+      "createdAt": "2026-08-13T16:49:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2087250959747391639",
+      "section": "news",
+      "type": "news",
+      "title": "Yash Pandey (YP) argues a lasting GitHub impact comes from one good project, citing casbin-cpp",
+      "description": "Yash Pandey (YP) argues a lasting GitHub impact comes from one good project, citing casbin-cpp.",
+      "content": "Bookmarked on X.",
+      "author": "Yash Pandey (YP) (@emperoryp)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/emperoryp/status/2087250959747391639",
+      "createdAt": "2026-08-11T18:53:02Z",
       "status": "inbox"
     },
     {
@@ -3378,6 +3819,156 @@
       "status": "inbox"
     },
     {
+      "id": "x:2087103057469284518",
+      "section": "news",
+      "type": "news",
+      "title": "Have AI read a PDF book page by page and build a knowledge base",
+      "description": "Post from Ren: Have AI read a PDF book page by page and build a knowledge base; 2.3K GitHub stars.",
+      "content": "Bookmarked on X.",
+      "author": "Ren (@Ryrenz)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Ryrenz/status/2087103057469284518",
+      "createdAt": "2026-08-11T09:05:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2086590006898958752",
+      "section": "news",
+      "type": "news",
+      "title": "Fable one-shotted a Rust rewrite of the TerminalTextEffects Python library, cutting startup from 87ms to 2ms",
+      "description": "Post from DHH: Fable one-shotted a Rust rewrite of the TerminalTextEffects Python library, cutting startup from 87ms to 2ms.",
+      "content": "Bookmarked on X.",
+      "author": "DHH (@dhh)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/dhh/status/2086590006898958752",
+      "createdAt": "2026-08-09T23:06:39Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2085443815020621828",
+      "section": "news",
+      "type": "news",
+      "title": "Jesús Morán notes that GitHub keys pages expose SSH keys publicly",
+      "description": "Jesús Morán notes that GitHub keys pages expose SSH keys publicly.",
+      "content": "Bookmarked on X.\nLink: https://github.com",
+      "author": "Jesús Morán (@jamoran1356)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/jamoran1356/status/2085443815020621828",
+      "createdAt": "2026-08-06T19:12:05Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2083264941348245579",
+      "section": "news",
+      "type": "news",
+      "title": "Burke Holland wanted a SQLite editor inside the GitHub Copilot app",
+      "description": "Burke Holland wanted a SQLite editor inside the GitHub Copilot app.",
+      "content": "Bookmarked on X.",
+      "author": "Burke Holland (@burkeholland)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/burkeholland/status/2083264941348245579",
+      "createdAt": "2026-07-31T18:54:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2082148559370268711",
+      "section": "news",
+      "type": "news",
+      "title": "agentOS now lets agents execute JavaScript or Python instead of Bash",
+      "description": "Post from Nathan Flurry: agentOS now lets agents execute JavaScript or Python instead of Bash.",
+      "content": "Bookmarked on X.",
+      "author": "Nathan Flurry (@NathanFlurry)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/NathanFlurry/status/2082148559370268711",
+      "createdAt": "2026-07-28T16:57:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2081719121511883153",
+      "section": "news",
+      "type": "news",
+      "title": "Q reimplemented Codex computer-use secret macOS API as an MCP so agents can work while you use the computer",
+      "description": "Q reimplemented Codex computer-use secret macOS API as an MCP so agents can work while you use the computer.",
+      "content": "Bookmarked on X.",
+      "author": "Q (@q_yeon_gyu_kim)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/q_yeon_gyu_kim/status/2081719121511883153",
+      "createdAt": "2026-07-27T12:31:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2080535363207233575",
+      "section": "news",
+      "type": "news",
+      "title": "With CLIProxyAPI, add gpt-5.6-sol to Claude Code in T3 Code in a few clicks",
+      "description": "Post from Theo - t3.gg: With CLIProxyAPI, add gpt-5.6-sol to Claude Code in T3 Code in a few clicks.",
+      "content": "Bookmarked on X.",
+      "author": "Theo - t3.gg (@theo)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/theo/status/2080535363207233575",
+      "createdAt": "2026-07-24T06:07:39Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2080479858405326995",
+      "section": "news",
+      "type": "news",
+      "title": "Agent skill that flags unintended changes in a GitHub diff",
+      "description": "Post from Shubham Saboo: Agent skill that flags unintended changes in a GitHub diff; runs locally and is open source.",
+      "content": "Bookmarked on X.",
+      "author": "Shubham Saboo (@Saboo_Shubham_)",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Saboo_Shubham_/status/2080479858405326995",
+      "createdAt": "2026-07-24T02:27:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2080323537294766405",
+      "section": "news",
+      "type": "news",
+      "title": "David Fowler shipped a new protocol underpinning the VS Code agents app and future GitHub app",
+      "description": "David Fowler shipped a new protocol underpinning the VS Code agents app and future GitHub app.",
+      "content": "Bookmarked on X.\nLink: https://microsoft.github.io/agent-host-protocol",
+      "author": "David Fowler (@davidfowl)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/davidfowl/status/2080323537294766405",
+      "createdAt": "2026-07-23T16:05:56Z",
+      "status": "inbox"
+    },
+    {
       "id": "reading:aiml-mlp-self-attention-regression-2026-07-22",
       "section": "news",
       "type": "news",
@@ -3393,6 +3984,651 @@
       "author": "AIML.com Research",
       "url": "https://aiml.com/multilayer-perceptrons-task-specific-design-and-self-attention/",
       "createdAt": "2026-07-22T00:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2079674432038248611",
+      "section": "news",
+      "type": "news",
+      "title": "Claude Code on desktop can now open the iOS simulator in a panel next to the conversation (public beta)",
+      "description": "Post from ClaudeDevs: Claude Code on desktop can now open the iOS simulator in a panel next to the conversation (public beta).",
+      "content": "Bookmarked on X.",
+      "author": "ClaudeDevs (@ClaudeDevs)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ClaudeDevs/status/2079674432038248611",
+      "createdAt": "2026-07-21T21:06:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2079605800998146171",
+      "section": "news",
+      "type": "news",
+      "title": "jack launched BUZZ, a group chat for people and agents meant to reduce Slack and GitHub dependency",
+      "description": "jack launched BUZZ, a group chat for people and agents meant to reduce Slack and GitHub dependency.",
+      "content": "Bookmarked on X.",
+      "author": "jack (@jack)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/jack/status/2079605800998146171",
+      "createdAt": "2026-07-21T16:33:54Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2077734245943535645",
+      "section": "news",
+      "type": "news",
+      "title": "Howaboua benchmarked GPT-5.6 Luna and Terra as Pi explorer subagents on codebase tracing jobs",
+      "description": "Howaboua benchmarked GPT-5.6 Luna and Terra as Pi explorer subagents on codebase tracing jobs.",
+      "content": "Bookmarked on X.",
+      "author": "Howaboua (@Howaboua)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Howaboua/status/2077734245943535645",
+      "createdAt": "2026-07-16T12:37:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2077014547890655704",
+      "section": "news",
+      "type": "news",
+      "title": "Iñaki says the agent harness matters more than a single model across gpt-5.5, opus-4.8, glm-5.2, and 5.6-terra",
+      "description": "Iñaki says the agent harness matters more than a single model across gpt-5.5, opus-4.8, glm-5.2, and 5.6-terra.",
+      "content": "Bookmarked on X.",
+      "author": "Iñaki (@inakitajes)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/inakitajes/status/2077014547890655704",
+      "createdAt": "2026-07-14T12:57:11Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2076932819008242037",
+      "section": "news",
+      "type": "news",
+      "title": "Alvaro Videla released LeetLLM, a free 48-lesson course for building a small LLM inference engine for Apple Silicon in Swift and Metal",
+      "description": "Alvaro Videla released LeetLLM, a free 48-lesson course for building a small LLM inference engine for Apple Silicon in Swift and Metal.",
+      "content": "Bookmarked on X.\nLink: https://github.com/videlalvaro/inference-school",
+      "author": "Alvaro Videla (@old_sound)",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/old_sound/status/2076932819008242037",
+      "createdAt": "2026-07-14T07:32:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2076621638729146434",
+      "section": "news",
+      "type": "news",
+      "title": "Luna looks good on the benchmark but feels like GPT 5.5 in design, and costs more than GPT 5.6 Sol medium",
+      "description": "Post from Melvyn • Builder: Luna looks good on the benchmark but feels like GPT 5.5 in design, and costs more than GPT 5.6 Sol medium.",
+      "content": "Bookmarked on X.",
+      "author": "Melvyn • Builder (@melvynx)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/melvynx/status/2076621638729146434",
+      "createdAt": "2026-07-13T10:55:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2076286676440072231",
+      "section": "news",
+      "type": "news",
+      "title": "Kai routed Codex API access into Claude Code via CLIProxyAPI to use GPT-5.6",
+      "description": "Kai routed Codex API access into Claude Code via CLIProxyAPI to use GPT-5.6.",
+      "content": "Bookmarked on X.",
+      "author": "Kai (@hqmank)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/hqmank/status/2076286676440072231",
+      "createdAt": "2026-07-12T12:44:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2076119366647894371",
+      "section": "news",
+      "type": "news",
+      "title": "How to point Claude Code at GPT 5.6 Sol without installing the Codex app",
+      "description": "Post from Tibo: How to point Claude Code at GPT 5.6 Sol without installing the Codex app.",
+      "content": "Bookmarked on X.",
+      "author": "Tibo (@thsottiaux)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/thsottiaux/status/2076119366647894371",
+      "createdAt": "2026-07-12T01:40:04Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075830097488249060",
+      "section": "news",
+      "type": "news",
+      "title": "Tibo asks Theo to share the recipe for using GPT-5.6 Sol in Claude Code",
+      "description": "Tibo asks Theo to share the recipe for using GPT-5.6 Sol in Claude Code.",
+      "content": "Bookmarked on X.",
+      "author": "Tibo (@thsottiaux)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/thsottiaux/status/2075830097488249060",
+      "createdAt": "2026-07-11T06:30:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075797388598689934",
+      "section": "news",
+      "type": "news",
+      "title": "Deedy compared GPT 5.6 Sol Ultra vs Fable XHigh building an app to compare fastest-growing stocks",
+      "description": "Deedy compared GPT 5.6 Sol Ultra vs Fable XHigh building an app to compare fastest-growing stocks.",
+      "content": "Bookmarked on X.",
+      "author": "Deedy (@deedydas)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/deedydas/status/2075797388598689934",
+      "createdAt": "2026-07-11T04:20:38Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075739292052463646",
+      "section": "news",
+      "type": "news",
+      "title": "GPT-5.6 Sol and Luna lead Terra on intelligence vs cost per task",
+      "description": "Post from Artificial Analysis: GPT-5.6 Sol and Luna lead Terra on intelligence vs cost per task.",
+      "content": "Bookmarked on X.",
+      "author": "Artificial Analysis (@ArtificialAnlys)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ArtificialAnlys/status/2075739292052463646",
+      "createdAt": "2026-07-11T00:29:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075643450196971805",
+      "section": "news",
+      "type": "news",
+      "title": "GPT-5.6 Sol Ultra produced a proof of the Cycle Double Cover Conjecture using 64 subagents in under an hour",
+      "description": "Post from Ethan Knight: GPT-5.6 Sol Ultra produced a proof of the Cycle Double Cover Conjecture using 64 subagents in under an hour.",
+      "content": "Bookmarked on X.",
+      "author": "Ethan Knight (@__eknight__)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/__eknight__/status/2075643450196971805",
+      "createdAt": "2026-07-10T18:08:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075618148133556421",
+      "section": "news",
+      "type": "news",
+      "title": "What works best with gpt-5.6: Luna high for everyday coding, Luna xhigh for better quality",
+      "description": "Post from JUMPERZ: What works best with gpt-5.6: Luna high for everyday coding, Luna xhigh for better quality.",
+      "content": "Bookmarked on X.",
+      "author": "JUMPERZ (@jumperz)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/jumperz/status/2075618148133556421",
+      "createdAt": "2026-07-10T16:28:24Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075581430055493909",
+      "section": "news",
+      "type": "news",
+      "title": "Tibo recommends GPT-5.6 Sol Medium as the daily driver and Extra High or Ultra for hard problems",
+      "description": "Tibo recommends GPT-5.6 Sol Medium as the daily driver and Extra High or Ultra for hard problems.",
+      "content": "Bookmarked on X.",
+      "author": "Tibo (@thsottiaux)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/thsottiaux/status/2075581430055493909",
+      "createdAt": "2026-07-10T14:02:30Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075538246155874611",
+      "section": "news",
+      "type": "news",
+      "title": "CJ (Coding Garden) built an LLM from scratch and shared what was learned",
+      "description": "CJ (Coding Garden) built an LLM from scratch and shared what was learned.",
+      "content": "Bookmarked on X.",
+      "author": "CJ (Coding Garden) (@CodingGarden)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/CodingGarden/status/2075538246155874611",
+      "createdAt": "2026-07-10T11:10:54Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075481578046689517",
+      "section": "news",
+      "type": "news",
+      "title": "Patrick Bade is implementing a large plan with GPT-5.6 Sol Ultra, 5.5 hours in at the pre-implementation gate",
+      "description": "Patrick Bade is implementing a large plan with GPT-5.6 Sol Ultra, 5.5 hours in at the pre-implementation gate.",
+      "content": "Bookmarked on X.",
+      "author": "Patrick Bade (@nishffx)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/nishffx/status/2075481578046689517",
+      "createdAt": "2026-07-10T07:25:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075426406561910921",
+      "section": "news",
+      "type": "news",
+      "title": "Calvin Ng maps gpt-5.5 high users to gpt-5.6-sol high as the better cost/steps option on DeepSWE",
+      "description": "Calvin Ng maps gpt-5.5 high users to gpt-5.6-sol high as the better cost/steps option on DeepSWE.",
+      "content": "Bookmarked on X.",
+      "author": "Calvin Ng (@calvinnwq)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/calvinnwq/status/2075426406561910921",
+      "createdAt": "2026-07-10T03:46:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075397876180730169",
+      "section": "news",
+      "type": "news",
+      "title": "Kai compared GPT-5.6 Sol vs Fable 5 on a frontend Three.js globe dashboard challenge",
+      "description": "Kai compared GPT-5.6 Sol vs Fable 5 on a frontend Three.js globe dashboard challenge.",
+      "content": "Bookmarked on X.",
+      "author": "Kai (@hqmank)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/hqmank/status/2075397876180730169",
+      "createdAt": "2026-07-10T01:53:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075303983422578740",
+      "section": "news",
+      "type": "news",
+      "title": "SkillCenter, a package manager for agent skills, like an app store for AI agents",
+      "description": "Post from Turing Post: SkillCenter, a package manager for agent skills, like an app store for AI agents.",
+      "content": "Bookmarked on X.",
+      "author": "Turing Post (@TheTuringPost)",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/TheTuringPost/status/2075303983422578740",
+      "createdAt": "2026-07-09T19:40:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2075226391822454798",
+      "section": "news",
+      "type": "news",
+      "title": "The GitHub Copilot app makes sense when you learn the loop: steer agents, inspect changes, land the PR",
+      "description": "Post from Shayne Boyer: The GitHub Copilot app makes sense when you learn the loop: steer agents, inspect changes, land the PR.",
+      "content": "Bookmarked on X.",
+      "author": "Shayne Boyer (@spboyer)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/spboyer/status/2075226391822454798",
+      "createdAt": "2026-07-09T14:31:42Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2074990106155597880",
+      "section": "news",
+      "type": "news",
+      "title": "Article on SwiftUI/macOS Open With pitfalls: empty windows opening without onOpenURL",
+      "description": "Post from Itsuki: Article on SwiftUI/macOS Open With pitfalls: empty windows opening without onOpenURL.",
+      "content": "Bookmarked on X.\nLink: https://medium.com/p/swiftui-macos-supporting-open-with-is-easy-but-there-is-a-little-pitfall-63a20b5eed03",
+      "author": "Itsuki (@itsuki68391179)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/itsuki68391179/status/2074990106155597880",
+      "createdAt": "2026-07-08T22:52:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2074909357373002207",
+      "section": "news",
+      "type": "news",
+      "title": "PDF export is the bottleneck of modern .NET development despite fast ASP.NET Core",
+      "description": "Post from Kristijan Kralj: PDF export is the bottleneck of modern .NET development despite fast ASP.NET Core.",
+      "content": "Bookmarked on X.",
+      "author": "Kristijan Kralj (@kristijan_kralj)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/kristijan_kralj/status/2074909357373002207",
+      "createdAt": "2026-07-08T17:31:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2074884506532663432",
+      "section": "news",
+      "type": "news",
+      "title": "Paul Solt promotes a new iOS agent skill from Antoine (Swift expert) for agents working on iOS apps",
+      "description": "Paul Solt promotes a new iOS agent skill from Antoine (Swift expert) for agents working on iOS apps.",
+      "content": "Bookmarked on X.\nLink: https://github.com/AvdLee/Diagnostics/releases/tag/7.0.0",
+      "author": "Paul Solt (@PaulSolt)",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/PaulSolt/status/2074884506532663432",
+      "createdAt": "2026-07-08T15:53:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2074877431464124635",
+      "section": "news",
+      "type": "news",
+      "title": "Submitting an app to Tiny Tool Town is easier with the new GitHub Copilot tool",
+      "description": "Post from James Montemagno: Submitting an app to Tiny Tool Town is easier with the new GitHub Copilot tool.",
+      "content": "Bookmarked on X.\nLink: https://tinytooltown.com",
+      "author": "James Montemagno (@JamesMontemagno)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/JamesMontemagno/status/2074877431464124635",
+      "createdAt": "2026-07-08T15:25:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2074587145646362792",
+      "section": "news",
+      "type": "news",
+      "title": "Building personal agents with Claude Code, Obsidian, and Vercel Eve",
+      "description": "Post from Chorch: Building personal agents with Claude Code, Obsidian, and Vercel Eve.",
+      "content": "Bookmarked on X.",
+      "author": "Chorch (@chorch_md)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/chorch_md/status/2074587145646362792",
+      "createdAt": "2026-07-07T20:11:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2073080996476404023",
+      "section": "news",
+      "type": "news",
+      "title": "Cameron R. Wolfe, Ph.D. recommends Sebastian's build-an-LLM and reasoning-model-from-scratch series with runnable code",
+      "description": "Cameron R. Wolfe, Ph.D. recommends Sebastian's build-an-LLM and reasoning-model-from-scratch series with runnable code.",
+      "content": "Bookmarked on X.",
+      "author": "Cameron R. Wolfe, Ph.D. (@cwolferesearch)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/cwolferesearch/status/2073080996476404023",
+      "createdAt": "2026-07-03T16:26:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2073024710242382106",
+      "section": "news",
+      "type": "news",
+      "title": "How to build your first agentic loop with Claude Code from an empty folder",
+      "description": "Post from Santiago: How to build your first agentic loop with Claude Code from an empty folder.",
+      "content": "Bookmarked on X.",
+      "author": "Santiago (@svpino)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/svpino/status/2073024710242382106",
+      "createdAt": "2026-07-03T12:43:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2072976109696921952",
+      "section": "news",
+      "type": "news",
+      "title": "New book from Tianqi Chen, creator of XGBoost: Modern GPU Programming for MLSys",
+      "description": "Post from 机器之心 JIQIZHIXIN: New book from Tianqi Chen, creator of XGBoost: Modern GPU Programming for MLSys.",
+      "content": "Bookmarked on X.\nLink: https://mlc.ai/modern-gpu-programming-for-mlsys/",
+      "author": "机器之心 JIQIZHIXIN (@jiqizhixin)",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/jiqizhixin/status/2072976109696921952",
+      "createdAt": "2026-07-03T09:29:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2072961584205349159",
+      "section": "news",
+      "type": "news",
+      "title": "Two GitHub trending tools Claude Code and Codex should hire: one saves words, one saves code",
+      "description": "Post from Vox: Two GitHub trending tools Claude Code and Codex should hire: one saves words, one saves code.",
+      "content": "Bookmarked on X.",
+      "author": "Vox (@Voxyz_ai)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Voxyz_ai/status/2072961584205349159",
+      "createdAt": "2026-07-03T08:32:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2072349453361557898",
+      "section": "news",
+      "type": "news",
+      "title": "Z.ai introduced ZCode, the official GLM-5.2 development environment for macOS, Windows, and Linux",
+      "description": "Z.ai introduced ZCode, the official GLM-5.2 development environment for macOS, Windows, and Linux.",
+      "content": "Bookmarked on X.",
+      "author": "Z.ai (@Zai_org)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Zai_org/status/2072349453361557898",
+      "createdAt": "2026-07-01T15:59:46Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2072058250841801176",
+      "section": "news",
+      "type": "news",
+      "title": "Miles, an open-source framework for large-scale LLM RL post-training built on PyTorch, Ray, SGLang, and Megatron-LM",
+      "description": "Post from PyTorch: Miles, an open-source framework for large-scale LLM RL post-training built on PyTorch, Ray, SGLang, and Megatron-LM.",
+      "content": "Bookmarked on X.",
+      "author": "PyTorch (@PyTorch)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/PyTorch/status/2072058250841801176",
+      "createdAt": "2026-06-30T20:42:38Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2072001088601968905",
+      "section": "news",
+      "type": "news",
+      "title": "The /impeccable frontend design skill is now in the GitHub Copilot app by default under experimental",
+      "description": "Post from Burke Holland: The /impeccable frontend design skill is now in the GitHub Copilot app by default under experimental.",
+      "content": "Bookmarked on X.",
+      "author": "Burke Holland (@burkeholland)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/burkeholland/status/2072001088601968905",
+      "createdAt": "2026-06-30T16:55:30Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2070513425155826018",
+      "section": "news",
+      "type": "news",
+      "title": "Case study of ColorPop turning coloring into a money-printing iOS app ($1M MRR)",
+      "description": "Post from AI, Ads & Apps: Case study of ColorPop turning coloring into a money-printing iOS app ($1M MRR).",
+      "content": "Bookmarked on X.",
+      "author": "AI, Ads & Apps (@AIAdsApps)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/AIAdsApps/status/2070513425155826018",
+      "createdAt": "2026-06-26T14:24:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2070138640123261374",
+      "section": "news",
+      "type": "news",
+      "title": "Native Swift app that reads the accessibility tree and drives real apps, no Electron/CLI/Python/vision model",
+      "description": "Post from Osaurus: Native Swift app that reads the accessibility tree and drives real apps, no Electron/CLI/Python/vision model; free and MIT.",
+      "content": "Bookmarked on X.",
+      "author": "Osaurus (@OsaurusAI)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/OsaurusAI/status/2070138640123261374",
+      "createdAt": "2026-06-25T13:34:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2067682048194543996",
+      "section": "news",
+      "type": "news",
+      "title": "Codex app 26.616 changelog including Record & Replay demos into skills on macOS",
+      "description": "Post from Codex Changelog: Codex app 26.616 changelog including Record & Replay demos into skills on macOS.",
+      "content": "Bookmarked on X.\nLink: https://learn.chatgpt.com",
+      "author": "Codex Changelog (@Codex_Changelog)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Codex_Changelog/status/2067682048194543996",
+      "createdAt": "2026-06-18T18:53:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2067254244516712664",
+      "section": "news",
+      "type": "news",
+      "title": "List of iOS app experts to install skills from before building an iPhone app",
+      "description": "Post from Paul Solt: List of iOS app experts to install skills from before building an iPhone app.",
+      "content": "Bookmarked on X.",
+      "author": "Paul Solt (@PaulSolt)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/PaulSolt/status/2067254244516712664",
+      "createdAt": "2026-06-17T14:33:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2067233860287627359",
+      "section": "news",
+      "type": "news",
+      "title": "Arnav Gupta tried to expose Chrome's baked-in Gemini Nano 4B as an OpenAI-compatible local API",
+      "description": "Arnav Gupta tried to expose Chrome's baked-in Gemini Nano 4B as an OpenAI-compatible local API.",
+      "content": "Bookmarked on X.",
+      "author": "Arnav Gupta (@_ar9av)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/_ar9av/status/2067233860287627359",
+      "createdAt": "2026-06-17T13:12:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2067082761605648858",
+      "section": "news",
+      "type": "news",
+      "title": "Netflix engineer's open-source proxy that cuts AI token usage 60-95% with no code changes",
+      "description": "Post from Tony Simons: Netflix engineer's open-source proxy that cuts AI token usage 60-95% with no code changes.",
+      "content": "Bookmarked on X.",
+      "author": "Tony Simons (@tonysimons_)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/tonysimons_/status/2067082761605648858",
+      "createdAt": "2026-06-17T03:11:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2066962296119959581",
+      "section": "news",
+      "type": "news",
+      "title": "fks shipped Flue 1.0 Beta, a TypeScript framework for agents with zero LLM lock-in",
+      "description": "fks shipped Flue 1.0 Beta, a TypeScript framework for agents with zero LLM lock-in.",
+      "content": "Bookmarked on X.",
+      "author": "fks (@FredKSchott)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/FredKSchott/status/2066962296119959581",
+      "createdAt": "2026-06-16T19:13:08Z",
       "status": "inbox"
     },
     {
@@ -3432,6 +4668,691 @@
       "status": "inbox"
     },
     {
+      "id": "x:2062226047798812798",
+      "section": "news",
+      "type": "news",
+      "title": "How to build native macOS apps with OpenCode, Claude Code, or Codex plus a macos-app-skills repo",
+      "description": "Post from Zeke Sikelianos: How to build native macOS apps with OpenCode, Claude Code, or Codex plus a macos-app-skills repo.",
+      "content": "Bookmarked on X.\nLink: https://github.com/fayazara/macos-app-skills",
+      "author": "Zeke Sikelianos (@zeke)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/zeke/status/2062226047798812798",
+      "createdAt": "2026-06-03T17:32:58Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2061863850874634242",
+      "section": "news",
+      "type": "news",
+      "title": "Jun Kim shipped oMLX v0.4.0, first release with a native Swift macOS app for managing and running local models",
+      "description": "Jun Kim shipped oMLX v0.4.0, first release with a native Swift macOS app for managing and running local models.",
+      "content": "Bookmarked on X.\nLink: https://github.com/jundot/omlx/releases/tag/v0.4.0",
+      "author": "Jun Kim (@jundotkim)",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/jundotkim/status/2061863850874634242",
+      "createdAt": "2026-06-02T17:33:44Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2061671421643039138",
+      "section": "news",
+      "type": "news",
+      "title": "Collab with NVIDIA and Microsoft to train 120B+ parameter LLMs locally on a 128GB RTX Spark laptop",
+      "description": "Post from Unsloth AI: Collab with NVIDIA and Microsoft to train 120B+ parameter LLMs locally on a 128GB RTX Spark laptop.",
+      "content": "Bookmarked on X.",
+      "author": "Unsloth AI (@UnslothAI)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/UnslothAI/status/2061671421643039138",
+      "createdAt": "2026-06-02T04:49:05Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2060762616448811403",
+      "section": "news",
+      "type": "news",
+      "title": "Ryan Loechner built Stacker, a native macOS utility that turns multiple open browser windows into one app",
+      "description": "Ryan Loechner built Stacker, a native macOS utility that turns multiple open browser windows into one app; notes Codex is best at Swift.",
+      "content": "Bookmarked on X.\nLink: https://github.com/rloechner/stacker",
+      "author": "Ryan Loechner (@RyanLoechner)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/RyanLoechner/status/2060762616448811403",
+      "createdAt": "2026-05-30T16:37:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2060027630305317182",
+      "section": "news",
+      "type": "news",
+      "title": "Jaytel wants Codex plus ChatGPT as one iOS/Mac app with a personal VM tied to the subscription",
+      "description": "Jaytel wants Codex plus ChatGPT as one iOS/Mac app with a personal VM tied to the subscription.",
+      "content": "Bookmarked on X.",
+      "author": "Jaytel (@Jaytel)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Jaytel/status/2060027630305317182",
+      "createdAt": "2026-05-28T15:57:15Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2059866443018117468",
+      "section": "news",
+      "type": "news",
+      "title": "Stefan asks who is building a language that is fast like C, memory safe like Rust, compiles like Go, with first-class C++ like Swift",
+      "description": "Stefan asks who is building a language that is fast like C, memory safe like Rust, compiles like Go, with first-class C++ like Swift.",
+      "content": "Bookmarked on X.",
+      "author": "Stefan (@schteppe)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/schteppe/status/2059866443018117468",
+      "createdAt": "2026-05-28T05:16:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2059374806911353182",
+      "section": "news",
+      "type": "news",
+      "title": "Sideloads iOS apps without a jailbreak",
+      "description": "Post from Tom Dörr: Sideloads iOS apps without a jailbreak.",
+      "content": "Bookmarked on X.\nLink: https://github.com/SideloadlyiOS/Sideloadly-Download",
+      "author": "Tom Dörr (@tom_doerr)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/tom_doerr/status/2059374806911353182",
+      "createdAt": "2026-05-26T20:43:09Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2059344804295942513",
+      "section": "news",
+      "type": "news",
+      "title": "Rust frontend merged into vLLM as a drop-in alternative to the Python frontend",
+      "description": "Post from vLLM: Rust frontend merged into vLLM as a drop-in alternative to the Python frontend.",
+      "content": "Bookmarked on X.",
+      "author": "vLLM (@vllm_project)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/vllm_project/status/2059344804295942513",
+      "createdAt": "2026-05-26T18:43:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2059315730986983496",
+      "section": "news",
+      "type": "news",
+      "title": "On Rust plus /goal and Browser Use Terminal, a Rust harness and TUI for the browser",
+      "description": "Post from Gregor Zunic: On Rust plus /goal and Browser Use Terminal, a Rust harness and TUI for the browser.",
+      "content": "Bookmarked on X.",
+      "author": "Gregor Zunic (@gregpr07)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/gregpr07/status/2059315730986983496",
+      "createdAt": "2026-05-26T16:48:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2059277455144452116",
+      "section": "news",
+      "type": "news",
+      "title": "Carlos Valentin asks iOS developers where they promote their apps",
+      "description": "Carlos Valentin asks iOS developers where they promote their apps.",
+      "content": "Bookmarked on X.",
+      "author": "Carlos Valentin (@CarlosBBuild)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/CarlosBBuild/status/2059277455144452116",
+      "createdAt": "2026-05-26T14:16:19Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2059231219477254477",
+      "section": "news",
+      "type": "news",
+      "title": "Peter Steinberger recommends Crabbox for a Parallels adapter and macOS checkpoints",
+      "description": "Peter Steinberger recommends Crabbox for a Parallels adapter and macOS checkpoints.",
+      "content": "Bookmarked on X.\nLink: https://crabbox.sh",
+      "author": "Peter Steinberger (@steipete)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/steipete/status/2059231219477254477",
+      "createdAt": "2026-05-26T11:12:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2058238997894139906",
+      "section": "news",
+      "type": "news",
+      "title": "Junaid built Storage Sweep, a native macOS utility that recovered ~90GB by finding Xcode junk, Docker storage, caches, and build artifacts",
+      "description": "Junaid built Storage Sweep, a native macOS utility that recovered ~90GB by finding Xcode junk, Docker storage, caches, and build artifacts.",
+      "content": "Bookmarked on X.",
+      "author": "Junaid (@junaiddshaukat)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/junaiddshaukat/status/2058238997894139906",
+      "createdAt": "2026-05-23T17:29:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2057570113390551452",
+      "section": "news",
+      "type": "news",
+      "title": "Gemma 4 E4B uses Argent to navigate and drive an iOS simulator autonomously",
+      "description": "Post from Google Gemma: Gemma 4 E4B uses Argent to navigate and drive an iOS simulator autonomously.",
+      "content": "Bookmarked on X.",
+      "author": "Google Gemma (@googlegemma)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/googlegemma/status/2057570113390551452",
+      "createdAt": "2026-05-21T21:11:57Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2055280786786443376",
+      "section": "news",
+      "type": "news",
+      "title": "Paul Hudson released Kickstart, a Mac app that helps indie developers make more money on the App Store",
+      "description": "Paul Hudson released Kickstart, a Mac app that helps indie developers make more money on the App Store.",
+      "content": "Bookmarked on X.\nLink: https://apps.apple.com/app/kickstart",
+      "author": "Paul Hudson (@twostraws)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/twostraws/status/2055280786786443376",
+      "createdAt": "2026-05-15T13:34:59Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2054932004638982488",
+      "section": "news",
+      "type": "news",
+      "title": "Story of someone who scrapes the App Store for stale apps and buys them from developers",
+      "description": "Post from Ronin: Story of someone who scrapes the App Store for stale apps and buys them from developers.",
+      "content": "Bookmarked on X.",
+      "author": "Ronin (@DeRonin_)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/DeRonin_/status/2054932004638982488",
+      "createdAt": "2026-05-14T14:29:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2054587962516820214",
+      "section": "news",
+      "type": "news",
+      "title": "Evan Bacon open-sourced an Expo Router template for AI chatbot apps like Claude on iOS, Android, and web",
+      "description": "Evan Bacon open-sourced an Expo Router template for AI chatbot apps like Claude on iOS, Android, and web.",
+      "content": "Bookmarked on X.",
+      "author": "Evan Bacon (@Baconbrix)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Baconbrix/status/2054587962516820214",
+      "createdAt": "2026-05-13T15:41:57Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2054433315579699410",
+      "section": "news",
+      "type": "news",
+      "title": "Alex Nguyen notes a prayer app still making $50k-$60k/month despite hundreds of similar apps on the App Store",
+      "description": "Alex Nguyen notes a prayer app still making $50k-$60k/month despite hundreds of similar apps on the App Store.",
+      "content": "Bookmarked on X.",
+      "author": "Alex Nguyen (@alexcooldev)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/alexcooldev/status/2054433315579699410",
+      "createdAt": "2026-05-13T05:27:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2052907884728467699",
+      "section": "news",
+      "type": "news",
+      "title": "Chris Tate introduced zero-native: native desktop and mobile apps with web UI and Zig, including iOS and Android",
+      "description": "Chris Tate introduced zero-native: native desktop and mobile apps with web UI and Zig, including iOS and Android.",
+      "content": "Bookmarked on X.",
+      "author": "Chris Tate (@ctatedev)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ctatedev/status/2052907884728467699",
+      "createdAt": "2026-05-09T00:25:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2052759218629795911",
+      "section": "news",
+      "type": "news",
+      "title": "TrailBase is a backend that fits in one binary as an alternative to Firebase and Supabase",
+      "description": "Post from Erick: TrailBase is a backend that fits in one binary as an alternative to Firebase and Supabase.",
+      "content": "Bookmarked on X.",
+      "author": "Erick (@ErickSky)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ErickSky/status/2052759218629795911",
+      "createdAt": "2026-05-08T14:35:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2052638428404019633",
+      "section": "news",
+      "type": "news",
+      "title": "Thomas Ricouard thanks collaborators for 200% better iOS developer experience in the Codex app",
+      "description": "Thomas Ricouard thanks collaborators for 200% better iOS developer experience in the Codex app.",
+      "content": "Bookmarked on X.",
+      "author": "Thomas Ricouard (@Dimillian)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Dimillian/status/2052638428404019633",
+      "createdAt": "2026-05-08T06:35:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2052404450652725581",
+      "section": "news",
+      "type": "news",
+      "title": "New edition of the macOS Apprentice book on building native Mac apps from scratch",
+      "description": "Post from Kodeco: New edition of the macOS Apprentice book on building native Mac apps from scratch.",
+      "content": "Bookmarked on X.",
+      "author": "Kodeco (@kodecodev)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/kodecodev/status/2052404450652725581",
+      "createdAt": "2026-05-07T15:05:27Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2052336993481183686",
+      "section": "news",
+      "type": "news",
+      "title": "Breakdown of an indie dev who hit #1 on the App Store ahead of ChatGPT with zero ads",
+      "description": "Post from Hendrik Haandrikman: Breakdown of an indie dev who hit #1 on the App Store ahead of ChatGPT with zero ads.",
+      "content": "Bookmarked on X.",
+      "author": "Hendrik Haandrikman (@HHaandr)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/HHaandr/status/2052336993481183686",
+      "createdAt": "2026-05-07T10:37:24Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2052174832859852994",
+      "section": "news",
+      "type": "news",
+      "title": "Viktor Seraleev argues agentic coding caused a surge in new iOS apps from Feb 2025 through Dec 2025",
+      "description": "Viktor Seraleev argues agentic coding caused a surge in new iOS apps from Feb 2025 through Dec 2025.",
+      "content": "Bookmarked on X.",
+      "author": "Viktor Seraleev (@seraleev)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/seraleev/status/2052174832859852994",
+      "createdAt": "2026-05-06T23:53:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2052009252546338979",
+      "section": "news",
+      "type": "news",
+      "title": "Jana recommends following iOS developers including Paul Solt and Viktor Seraleev",
+      "description": "Jana recommends following iOS developers including Paul Solt and Viktor Seraleev.",
+      "content": "Bookmarked on X.",
+      "author": "Jana (@BratDotAI)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/BratDotAI/status/2052009252546338979",
+      "createdAt": "2026-05-06T12:55:04Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2051879872654364910",
+      "section": "news",
+      "type": "news",
+      "title": "Viktor Seraleev argues vibe coders can earn their first App Store dollar via ad monetization",
+      "description": "Viktor Seraleev argues vibe coders can earn their first App Store dollar via ad monetization.",
+      "content": "Bookmarked on X.",
+      "author": "Viktor Seraleev (@seraleev)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/seraleev/status/2051879872654364910",
+      "createdAt": "2026-05-06T04:20:58Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2051748976916124114",
+      "section": "news",
+      "type": "news",
+      "title": "You can inspect elements of any iOS app directly in Codex or the browser via npx serve-sim",
+      "description": "Post from Evan Bacon: You can inspect elements of any iOS app directly in Codex or the browser via npx serve-sim.",
+      "content": "Bookmarked on X.",
+      "author": "Evan Bacon (@Baconbrix)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Baconbrix/status/2051748976916124114",
+      "createdAt": "2026-05-05T19:40:50Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2051025056306790833",
+      "section": "news",
+      "type": "news",
+      "title": "Peter Steinberger released Crabbox 0.4.0, ephemeral machines for agents on macOS, Linux, and Windows",
+      "description": "Peter Steinberger released Crabbox 0.4.0, ephemeral machines for agents on macOS, Linux, and Windows.",
+      "content": "Bookmarked on X.\nLink: https://crabbox.sh",
+      "author": "Peter Steinberger (@steipete)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/steipete/status/2051025056306790833",
+      "createdAt": "2026-05-03T19:44:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2050984740056952940",
+      "section": "news",
+      "type": "news",
+      "title": "Jacob Bartlett benchmarks iOS 18 Atomic vs Actors vs Mutex, counting concurrently to 10 million",
+      "description": "Jacob Bartlett benchmarks iOS 18 Atomic vs Actors vs Mutex, counting concurrently to 10 million.",
+      "content": "Bookmarked on X.",
+      "author": "Jacob Bartlett (@jacobtechtavern)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/jacobtechtavern/status/2050984740056952940",
+      "createdAt": "2026-05-03T17:04:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2050270535783973078",
+      "section": "news",
+      "type": "news",
+      "title": "Bring the live iOS simulator into a code editor in one line with npx serve-sim",
+      "description": "Post from Evan Bacon: Bring the live iOS simulator into a code editor in one line with npx serve-sim.",
+      "content": "Bookmarked on X.",
+      "author": "Evan Bacon (@Baconbrix)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Baconbrix/status/2050270535783973078",
+      "createdAt": "2026-05-01T17:46:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2050208070488162676",
+      "section": "news",
+      "type": "news",
+      "title": "Complaint that iOS updates never add a clear-app-cache option",
+      "description": "Post from príncipe de salcity.: Complaint that iOS updates never add a clear-app-cache option.",
+      "content": "Bookmarked on X.",
+      "author": "príncipe de salcity. (@thatshotleon)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/thatshotleon/status/2050208070488162676",
+      "createdAt": "2026-05-01T13:37:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2049888043642085721",
+      "section": "news",
+      "type": "news",
+      "title": "Case study of someone with 19 iOS apps making $102k/month",
+      "description": "Post from Alex Nguyen: Case study of someone with 19 iOS apps making $102k/month.",
+      "content": "Bookmarked on X.",
+      "author": "Alex Nguyen (@alexcooldev)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/alexcooldev/status/2049888043642085721",
+      "createdAt": "2026-04-30T16:26:09Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2049087457866432587",
+      "section": "news",
+      "type": "news",
+      "title": "Omar Albeik open-sourced SwiftVLC, a modern Swift 6 wrapper for libVLC with direct C bindings and strict concurrency for iOS/macOS/tvOS/Catalyst",
+      "description": "Omar Albeik open-sourced SwiftVLC, a modern Swift 6 wrapper for libVLC with direct C bindings and strict concurrency for iOS/macOS/tvOS/Catalyst.",
+      "content": "Bookmarked on X.\nLink: https://github.com/harflabs/SwiftVLC",
+      "author": "Omar Albeik (@omaralbeik)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/omaralbeik/status/2049087457866432587",
+      "createdAt": "2026-04-28T11:24:54Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2048806306669064381",
+      "section": "news",
+      "type": "news",
+      "title": "Dominik Vít introduced Lensflare, an open-source macOS development observability stack for humans and AI agents",
+      "description": "Dominik Vít introduced Lensflare, an open-source macOS development observability stack for humans and AI agents.",
+      "content": "Bookmarked on X.",
+      "author": "Dominik Vít (@__dominikvit)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/__dominikvit/status/2048806306669064381",
+      "createdAt": "2026-04-27T16:47:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2047782953959170239",
+      "section": "news",
+      "type": "news",
+      "title": "Anything now generates designer-grade App Store screenshots",
+      "description": "Post from Anything: Anything now generates designer-grade App Store screenshots.",
+      "content": "Bookmarked on X.",
+      "author": "Anything (@anything)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/anything/status/2047782953959170239",
+      "createdAt": "2026-04-24T21:01:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2047755613481193711",
+      "section": "news",
+      "type": "news",
+      "title": "hayden edited an iOS app with Codex in a cloud iOS simulator on Revyl with Expo OTA, no Xcode",
+      "description": "hayden edited an iOS app with Codex in a cloud iOS simulator on Revyl with Expo OTA, no Xcode.",
+      "content": "Bookmarked on X.",
+      "author": "hayden (@hxyden)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/hxyden/status/2047755613481193711",
+      "createdAt": "2026-04-24T19:12:38Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2047718638942113815",
+      "section": "news",
+      "type": "news",
+      "title": "Alberto reverse-engineered Keynote to build a Swift-to-Keynote tool",
+      "description": "Alberto reverse-engineered Keynote to build a Swift-to-Keynote tool; Spanish post about people making junk apps with AI.",
+      "content": "Bookmarked on X.",
+      "author": "Alberto (@SwiftyAlbert)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/SwiftyAlbert/status/2047718638942113815",
+      "createdAt": "2026-04-24T16:45:42Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2047391837015470443",
+      "section": "news",
+      "type": "news",
+      "title": "Kickstart preorder on the Mac App Store to help indie developers earn more",
+      "description": "Post from Paul Hudson: Kickstart preorder on the Mac App Store to help indie developers earn more.",
+      "content": "Bookmarked on X.",
+      "author": "Paul Hudson (@twostraws)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/twostraws/status/2047391837015470443",
+      "createdAt": "2026-04-23T19:07:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2046173042666308025",
+      "section": "news",
+      "type": "news",
+      "title": "Spanish post about fixing an App Store ASO score of 35/100",
+      "description": "Post from TarreDev: Spanish post about fixing an App Store ASO score of 35/100.",
+      "content": "Bookmarked on X.",
+      "author": "TarreDev (@tarredev)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/tarredev/status/2046173042666308025",
+      "createdAt": "2026-04-20T10:24:04Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2045310991991447569",
+      "section": "news",
+      "type": "news",
+      "title": "Swift-native minimal Markdown editor MiaoYan V3.2.0 with two-phase rendering and Mermaid",
+      "description": "Post from Tw93: Swift-native minimal Markdown editor MiaoYan V3.2.0 with two-phase rendering and Mermaid.",
+      "content": "Bookmarked on X.\nLink: https://github.com/tw93/MiaoYan",
+      "author": "Tw93 (@HiTw93)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/HiTw93/status/2045310991991447569",
+      "createdAt": "2026-04-18T01:18:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2043995904667971981",
+      "section": "news",
+      "type": "news",
+      "title": "Justin Schroeder prefers ArrowJS over React",
+      "description": "Justin Schroeder prefers ArrowJS over React; calls it the first UI framework for the agentic era.",
+      "content": "Bookmarked on X.\nLink: https://arrow-js.co",
+      "author": "Justin Schroeder (@jpschroeder)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/jpschroeder/status/2043995904667971981",
+      "createdAt": "2026-04-14T10:12:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2043335131151188050",
+      "section": "news",
+      "type": "news",
+      "title": "Paul Solt used Codex to modernize a Mac app that was still running on Rosetta and fix the Xcode project after Apple drops Intel support",
+      "description": "Paul Solt used Codex to modernize a Mac app that was still running on Rosetta and fix the Xcode project after Apple drops Intel support.",
+      "content": "Bookmarked on X.",
+      "author": "Paul Solt (@PaulSolt)",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/PaulSolt/status/2043335131151188050",
+      "createdAt": "2026-04-12T14:27:13Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2042716870512353294",
       "section": "news",
       "type": "news",
@@ -3447,6 +5368,22 @@
       "source": "Twitter / X",
       "url": "https://x.com/PaulSolt/status/2042716870512353294",
       "createdAt": "2026-04-10T21:30:28Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2041872488175386784",
+      "section": "news",
+      "type": "news",
+      "title": "Wrote 60,000 lines of Rust to power a TypeScript framework",
+      "description": "Post from Encore: Wrote 60,000 lines of Rust to power a TypeScript framework.",
+      "content": "Bookmarked on X.",
+      "author": "Encore (@encoredotdev)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/encoredotdev/status/2041872488175386784",
+      "createdAt": "2026-04-08T13:35:11Z",
       "status": "inbox"
     },
     {
