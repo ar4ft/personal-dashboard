@@ -413,6 +413,80 @@
       "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
       "createdAt": "2026-10-04T04:10:47Z",
       "status": "inbox"
+    },
+    {
+      "id": "x:idevtim-2105761668911497282",
+      "section": "news",
+      "type": "news",
+      "title": "Feevio: offline seller calculators for iPhone, iPad, and Apple Watch",
+      "description": "The developer describes ten fully offline calculators for marketplace fees (eBay, Amazon, Etsy), margin versus markup, and net payout after costs and shipping, on iPhone, iPad, and Apple Watch.",
+      "topics": [
+        "iOS",
+        "Wearables",
+        "Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Timothy Murphy (@idevtim)",
+      "url": "https://x.com/idevtim/status/2105761668911497282",
+      "createdAt": "2026-10-01T20:47:00-05:00",
+      "status": "inbox"
+    },
+    {
+      "id": "x:deploy-studio-6806610127",
+      "section": "news",
+      "type": "news",
+      "title": "Deploy Studio — ship iOS releases from iPhone",
+      "description": "An App Store Connect client for selecting builds, preparing release notes and export-compliance details, and submitting releases from iPhone. The listing says its API key stays in the device Keychain; it supports iPhone and iPad, Apple-silicon Mac, and visionOS.",
+      "topics": [
+        "Programming",
+        "iOS",
+        "Mac Apps",
+        "Developer Tools",
+        "Technology",
+        "visionOS"
+      ],
+      "source": "Twitter / X",
+      "author": "Kelvin Tan (@KelvinTanZY)",
+      "url": "https://apps.apple.com/my/app/deploy-studio/id6806610127",
+      "createdAt": "2026-09-06T00:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:aiml-mlp-self-attention-regression-2026-07-22",
+      "section": "news",
+      "type": "news",
+      "title": "Multilayer Perceptrons: Task-Specific Design and Self-Attention",
+      "description": "A practical MLP guide to matching output layers, losses, and evaluation metrics to classification and regression tasks. It explains why attention over a single feature token does not model feature interactions, and when multi-token attention may be useful.",
+      "topics": [
+        "Machine Learning",
+        "Neural Networks",
+        "Regression",
+        "Deep Learning"
+      ],
+      "source": "Reading",
+      "author": "AIML.com Research",
+      "url": "https://aiml.com/multilayer-perceptrons-task-specific-design-and-self-attention/",
+      "createdAt": "2026-07-22T00:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:swiftandtips-wwdc26-spanish-I2Ub8mncYgk",
+      "section": "news",
+      "type": "news",
+      "title": "WWDC26 in Spanish, with English subtitles",
+      "description": "Pitt (Swift && Tips) shares a full WWDC26 experience video in Spanish with English subtitles.",
+      "topics": [
+        "Programming",
+        "iOS",
+        "Swift",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Pitt (Swift && Tips)",
+      "url": "https://youtu.be/I2Ub8mncYgk",
+      "createdAt": "2026-06-12T00:00:00Z",
+      "status": "inbox"
     }
   ]
 }
