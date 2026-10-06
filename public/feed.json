@@ -2,6 +2,55 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2107461486251590100",
+      "section": "news",
+      "type": "news",
+      "title": "Raycast fixes Root Search hotkey-deletion flicker",
+      "description": "Raycast says deleting a hotkey from Root Search now closes its action panel without the old flickering sequence; the fix is planned for this week's release.",
+      "author": "Raycast (@raycast)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/raycast/status/2107461486251590100",
+      "createdAt": "2026-10-06T13:22:27.720Z",
+      "status": "inbox",
+      "content": "Quotes Benoît Grélard (@benoitgrelard)."
+    },
+    {
+      "id": "hn:49977979",
+      "section": "news",
+      "type": "news",
+      "title": "Mistral Large 4 is a 1.05T-parameter open-weight multimodal model",
+      "description": "Mistral's new public-preview model uses a granular Mixture-of-Experts design with 49B active parameters, 1.05T total parameters, a 1.6B vision encoder and a 1M-token context window. Its documentation lists structured outputs, function calling and document Q&A.",
+      "author": "Philpax",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "createdAt": "2026-10-06T13:15:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49977832",
+      "section": "news",
+      "type": "news",
+      "title": "Two ARM64 compiler-optimization bugs exposed by curl's HTTP/3 CI",
+      "description": "curl's upstream report traces two failures to optimized builds: GCC 15/16 at -O3 triggers OpenSSL Valgrind errors on ARM64, while Rust 1.98.1 release optimization triggers quiche errors. Lower optimization levels or Clang avoid the reported reproductions.",
+      "author": "torutofu",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/curl/curl/issues/23237",
+      "createdAt": "2026-10-06T13:06:00Z",
+      "status": "inbox",
+      "content": "The report says -O2 avoids the OpenSSL issue (-O3 reproduces it); setting CARGO_PROFILE_RELEASE_OPT_LEVEL=0 avoids the quiche issue (level 1 reproduces it)."
+    },
+    {
       "id": "x:2107446694216343958",
       "section": "news",
       "type": "news",
