@@ -487,6 +487,146 @@
       "url": "https://youtu.be/I2Ub8mncYgk",
       "createdAt": "2026-06-12T00:00:00Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:49970871",
+      "section": "news",
+      "type": "news",
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "description": "A new method for pretraining Transformers without backpropagation.",
+      "author": "E-Reverance",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "url": "https://qlabs.sh/research/dust",
+      "createdAt": "2026-10-05T21:15:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49971726",
+      "section": "news",
+      "type": "news",
+      "title": "Learning Jazz Pianist Style with Cross-Attention Conditioning",
+      "description": "Learning and emulating a jazz pianist's playing style with cross-attention conditioning.",
+      "author": "ishan0102",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "url": "https://almostimplemented.github.io/jazz-pianist-style/",
+      "createdAt": "2026-10-05T22:30:52Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49974235",
+      "section": "news",
+      "type": "news",
+      "title": "Monte Carlo Tree Search Is Awesome",
+      "description": "An explainer on Monte Carlo Tree Search, the classic search algorithm behind game-AI breakthroughs.",
+      "author": "usernotfoundrn",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://thegustafson.com/blog/mcts-is-awesome",
+      "createdAt": "2026-10-06T04:36:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49952148",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Nightwatch – a Mac menu-bar app that tells you when tonight is clear",
+      "description": "A Mac menu-bar app that tells you when tonight's sky will be clear.",
+      "author": "delphidolphin",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/rsutcliffe/nightwatch",
+      "createdAt": "2026-10-04T09:31:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49965308",
+      "section": "news",
+      "type": "news",
+      "title": "Making a GTK application in Haskell, part 1",
+      "description": "Part one of a series on building a GTK application in Haskell.",
+      "author": "Vosporos",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+      "createdAt": "2026-10-05T14:23:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49944049",
+      "section": "news",
+      "type": "news",
+      "title": "Competitive Programmer's Handbook (2018) [pdf]",
+      "description": "The 2018 Competitive Programmer's Handbook, available as a free PDF.",
+      "author": "vinhnx",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://cses.fi/book/book.pdf",
+      "createdAt": "2026-10-03T13:24:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49943479",
+      "section": "news",
+      "type": "news",
+      "title": "Type Safe Generic Data Structures in C (2025)",
+      "description": "Implementing type-safe generic data structures in C.",
+      "author": "AlexeyBrin",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/",
+      "createdAt": "2026-10-03T11:57:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49965118",
+      "section": "news",
+      "type": "news",
+      "title": "Linux containers in 500 lines of code (2016)",
+      "description": "How Linux containers work, implemented in 500 lines of code.",
+      "author": "mkornaukhov",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.lizzie.io/linux-containers-in-500-loc.html",
+      "createdAt": "2026-10-05T14:09:15Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49970667",
+      "section": "news",
+      "type": "news",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "description": "AI agents discover two room-temperature magnetic semiconductor candidates.",
+      "author": "outlier99",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "createdAt": "2026-10-05T21:00:21Z",
+      "status": "inbox"
     }
   ]
 }
