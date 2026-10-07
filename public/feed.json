@@ -10047,6 +10047,84 @@
       "createdAt": "2026-10-06T20:57:25Z",
       "updatedAt": "2026-10-06T20:57:25Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:49996437",
+      "section": "news",
+      "type": "news",
+      "title": "Claude Haiku 5.5 launches as Anthropic's faster, cheaper small model",
+      "description": "Anthropic's new small model adds adjustable effort and stronger results on computer-use and agentic-coding benchmarks; the company says it is around 75% cheaper to run than Haiku 4.5 on average.",
+      "content": "Announced Oct. 7, 2026, Claude Haiku 5.5 is available on the Claude Platform and major cloud platforms. Anthropic positions it for high-volume, latency-sensitive work and subagent tasks rather than the hardest coding jobs. For prompts up to 100K tokens, Anthropic lists $0.10/M input and $0.50/M output. Vendor benchmarks and pricing details are in the announcement.\nHacker News discussion: https://news.ycombinator.com/item?id=49996437",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sfkgtbor",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "createdAt": "2026-10-07T18:01:32Z",
+      "updatedAt": "2026-10-07T18:01:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49992774",
+      "section": "news",
+      "type": "news",
+      "title": "Google Playground lets users create and share custom games with text prompts",
+      "description": "Google's experimental browser platform turns prompts into custom games users can play, share privately, or publish; select genres include multiplayer and leaderboards.",
+      "content": "Playground launched Oct. 7 for U.S. users age 18+; tiered creation access is rolling out based on Google AI subscriptions. Google says Unity Spark integration is planned, with closed beta coming soon.\nOfficial announcement: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/\nTry Playground: https://playground.google\nHacker News discussion: https://news.ycombinator.com/item?id=49992774",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "trollied",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "createdAt": "2026-10-07T13:42:03Z",
+      "updatedAt": "2026-10-07T13:42:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107542090989404655",
+      "section": "news",
+      "type": "news",
+      "title": "Is Self-Improving AI Agents on Long-Horizon Runs a Real Thing?",
+      "description": "Mitish Raina argues that rising success rates alone do not prove an agent learned; in a self-reported study, 11 of 51 runs met the author's stricter reasoning-improvement test, with important experimental caveats.",
+      "content": "The X Article reports four optimization tasks, about 9,750 attempts and 103,000 graded decisions. It distinguishes outcome improvement from reasoning improvement, and also defines search, recovery and transfer learning. The author says only 11 runs met the proposed learning criterion and explicitly notes the runs were neither independent nor part of a controlled experiment.\nCurrent quote-post: https://x.com/mitishraina/status/2107900811691114517",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Mitish Raina (@mitishraina)",
+      "url": "https://x.com/mitishraina/status/2107542090989404655",
+      "createdAt": "2026-10-06T18:42:45.387Z",
+      "updatedAt": "2026-10-06T18:42:45.387Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2107907073992450112",
+      "section": "news",
+      "type": "news",
+      "title": "Mitchell Hashimoto describes an OpenAI Dot workflow for Mac benchmarks",
+      "description": "Hashimoto says a phone conversation with his OpenAI Dot moved Rex benchmark results from his Mac Studio to MacBook Pro over Tailscale—a fresh example of an AI assistant bridging work across devices.",
+      "content": "Hashimoto reports that the benchmark files were waiting on his MacBook when he returned to his desk. This is a first-person usage anecdote, not an official product announcement.",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Mitchell Hashimoto (@mitchellh)",
+      "url": "https://x.com/mitchellh/status/2107907073992450112",
+      "createdAt": "2026-10-07T18:53:04.116Z",
+      "updatedAt": "2026-10-07T18:53:04.116Z",
+      "status": "inbox"
     }
   ]
 }
