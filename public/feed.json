@@ -9971,6 +9971,82 @@
       "type": "news",
       "status": "inbox",
       "updatedAt": "2026-10-07T12:11:21Z"
+    },
+    {
+      "id": "hn:49991580",
+      "section": "news",
+      "type": "news",
+      "title": "Write Like It’s 1866: LLMs Relearn Telegraphese",
+      "description": "An author-run benchmark reports 40–49% fewer output tokens for telegraph-style machine notes, with downstream question-answering near plaintext results. The post is promising but lacks a matched generic “be terse” control.",
+      "content": "The Telegraph Test covers about 50 passages and 1,300 questions. The author reports 40–49% fewer billed output tokens for several model families and cross-family recovery ratios of 0.99–1.10 when models read the compressed records. The author also notes that a generic terseness instruction was not tested and mandatory-reasoning models may lose the cost savings.\nArticle and reproducibility materials: https://fiveminutesforward.com/post/2026-10-04-telegraph-test/\nHacker News discussion: https://news.ycombinator.com/item?id=49991580",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Theory42",
+      "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
+      "createdAt": "2026-10-07T12:04:36Z",
+      "updatedAt": "2026-10-07T12:04:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49986862",
+      "section": "news",
+      "type": "news",
+      "title": "ESP32-C3 Adblock stores large DNS blocklists as compact hashes in flash",
+      "description": "An open-source Pi-hole-style DNS blocker uses sorted 40-bit domain hashes in flash instead of storing domain strings in RAM. Its author reports roughly 50 KB RAM use and about 10 ms lookups on a low-cost ESP32-C3.",
+      "content": "The README describes a PlatformIO project for the ESP32-C3 that can block hundreds of thousands of domains without PSRAM. The reported maximum blocklist and firmware-over-the-air setup have different flash-capacity trade-offs; the repository documents the hardware, build process and security limits.\nRepository: https://github.com/M-Abozaid/esp32-c3-adblock\nHacker News discussion: https://news.ycombinator.com/item?id=49986862",
+      "topics": [
+        "Programming",
+        "Technology",
+        "IoT"
+      ],
+      "source": "Hacker News",
+      "author": "jayhoon",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "createdAt": "2026-10-07T01:39:21Z",
+      "updatedAt": "2026-10-07T01:39:21Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49984716",
+      "section": "news",
+      "type": "news",
+      "title": "Penguin Mail: a Rust mail and calendar app for Linux with an optional AI assistant",
+      "description": "A new GPL-licensed Linux desktop client brings mail, calendars, contacts and encryption together. Its optional assistant can use a local model and asks before sending mail or changing settings.",
+      "content": "Penguin Mail is built with Rust, GTK 4 and libadwaita; it supports Gmail, Microsoft, IMAP/POP3, calendars, contacts, OpenPGP and S/MIME. The assistant is off until enabled and can run with LM Studio, Ollama or other supported providers.\nWebsite: https://penguin-mail.com/\nSource code: https://github.com/c9dev/penguin-mail\nHacker News discussion: https://news.ycombinator.com/item?id=49984716",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "kavourias",
+      "url": "https://penguin-mail.com/",
+      "createdAt": "2026-10-06T21:59:43Z",
+      "updatedAt": "2026-10-06T21:59:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49984025",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI launches a Decisions API public beta for classification and routing",
+      "description": "OpenAI’s new /v1/decisions endpoint returns typed predicate probabilities, fixed-choice answers or rubric scores for text and images. The public beta currently supports gpt-6-luna and targets fast classification, routing and prioritization.",
+      "content": "Official documentation: https://developers.openai.com/api/docs/guides/decisions\nThe endpoint returns predicate, choice or score answers rather than free-form text; OpenAI says it is about 10× faster than the Responses API. The docs identify gpt-6-luna as the only supported model during the public beta.\nHacker News discussion: https://news.ycombinator.com/item?id=49984025",
+      "topics": [
+        "AI",
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "chiefstorm",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "createdAt": "2026-10-06T20:57:25Z",
+      "updatedAt": "2026-10-06T20:57:25Z",
+      "status": "inbox"
     }
   ]
 }
