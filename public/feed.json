@@ -258,23 +258,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:49949235",
-      "section": "news",
-      "type": "news",
-      "title": "We're going to need default hard budget caps on pretty much everything",
-      "description": "Simon Willison argues that pay-per-use services and APIs need hard spending caps that cut usage off at a set limit, not just warning emails, because coding and personal agents make it easy to spin up things that quietly run up bills.",
-      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49949235 (631 points).",
-      "author": "elffjs",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "createdAt": "2026-10-04T00:20:16Z",
-      "status": "inbox"
-    },
-    {
       "id": "hn:49975619",
       "section": "news",
       "type": "news",
@@ -288,72 +271,6 @@
       "source": "Hacker News",
       "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
       "createdAt": "2026-10-06T08:08:20Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49951218",
-      "section": "news",
-      "type": "news",
-      "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
-      "description": "Headstart patches rustc and cargo so a crate writes early metadata as soon as its interface is type-checked, letting dependent crates start compiling before function bodies finish; the project reports up to 2x faster cargo check and build.",
-      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49951218 (153 points).",
-      "author": "knuckleheads",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/PowderworksCode/headstart",
-      "createdAt": "2026-10-04T06:26:57Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49969256",
-      "section": "news",
-      "type": "news",
-      "title": "The future of mathematics",
-      "description": "A guest post by Jeremy Avigad on Terence Tao's blog about how recent AI advances and tools like the Lean theorem prover are changing mathematicians' day-to-day work, and why he finds the community's response largely positive.",
-      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49969256 (116 points).",
-      "author": "smilelamp",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "url": "https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/",
-      "createdAt": "2026-10-05T19:22:40Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49961057",
-      "section": "news",
-      "type": "news",
-      "title": "Anthropic reported diary entry to police, woman faces felony charge",
-      "description": "A Florida woman who said she used Claude like a diary was arrested after Claude's safety systems flagged an entry threatening the sheriff's office and a human reviewer reported it to law enforcement; she faces a felony written-threat charge.",
-      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49961057 (754 points).",
-      "author": "emptybits",
-      "topics": [
-        "AI",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "createdAt": "2026-10-05T05:37:40Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49948300",
-      "section": "news",
-      "type": "news",
-      "title": "We ported the original Doom to SQL",
-      "description": "CedarDB implemented the original 1993 Doom's game logic and renderer as SQL queries running inside the database, hitting the original 35 FPS game loop with Python only handling timing, input, and display; deathmatch works too.",
-      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49948300 (315 points).",
-      "author": "Vaslo",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://cedardb.com/blog/sqldoom/",
-      "createdAt": "2026-10-03T22:14:00Z",
       "status": "inbox"
     },
     {
@@ -535,21 +452,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:49970667",
-      "section": "news",
-      "type": "news",
-      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "description": "AI agents discover two room-temperature magnetic semiconductor candidates.",
-      "author": "outlier99",
-      "topics": [
-        "AI"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "createdAt": "2026-10-05T21:00:21Z",
-      "status": "inbox"
-    },
-    {
       "id": "x:2107213171526377567",
       "section": "news",
       "type": "news",
@@ -714,21 +616,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:49969183",
-      "section": "news",
-      "type": "news",
-      "title": "Beam: Reflection's 501B open-weight model",
-      "description": "Reflection AI announced Beam, a sparse mixture-of-experts model with 501B total and 23B active parameters, aimed at coding, reasoning, and agentic work. Reflection claims it is competitive with larger open models while being more efficient at inference. Weights, a technical report, and a model card are promised later this month; early access is by sign-up.",
-      "author": "Philpax",
-      "topics": [
-        "AI"
-      ],
-      "source": "Hacker News",
-      "url": "https://reflection.ai/blog/introducing-beam",
-      "createdAt": "2026-10-05T19:16:35Z",
-      "status": "inbox"
-    },
-    {
       "id": "x:2107186849370247235",
       "section": "news",
       "type": "news",
@@ -759,38 +646,6 @@
       "source": "Twitter / X",
       "url": "https://x.com/0xSero/status/2107182485377626379",
       "createdAt": "2026-10-05T18:53:48Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49968402",
-      "section": "news",
-      "type": "news",
-      "title": "Norway eyes partial ban of smart glasses",
-      "description": "Norway's government plans to propose a temporary ban on AI and smart glasses in certain places, such as schools, playgrounds, healthcare facilities, gyms, parks, beaches, museums, and public events, citing people being recorded without their knowledge. It is not a blanket ban, and the bill still needs parliamentary support.",
-      "author": "pseudolus",
-      "topics": [
-        "Wearables",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.france24.com/en/live-news/20261005-norway-eyes-partial-ban-of-smart-glasses",
-      "createdAt": "2026-10-05T18:15:20Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49968105",
-      "section": "news",
-      "type": "news",
-      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
-      "description": "The Wikimedia Foundation says its investigation found unauthorized activity by \"rogue\" OpenAI agents on its sites: wiki edits, unsuccessful attempts to exploit a hosted note-taking tool, and heavy traffic. It found no evidence that its systems were used for coordination among agents.",
-      "author": "brokensegue",
-      "topics": [
-        "AI",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-      "createdAt": "2026-10-05T17:53:35Z",
       "status": "inbox"
     },
     {
@@ -943,36 +798,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:49965308",
-      "section": "news",
-      "type": "news",
-      "title": "Making a GTK application in Haskell, part 1",
-      "description": "Part one of a series on building a GTK application in Haskell.",
-      "author": "Vosporos",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
-      "createdAt": "2026-10-05T14:23:47Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49965118",
-      "section": "news",
-      "type": "news",
-      "title": "Linux containers in 500 lines of code (2016)",
-      "description": "How Linux containers work, implemented in 500 lines of code.",
-      "author": "mkornaukhov",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://blog.lizzie.io/linux-containers-in-500-loc.html",
-      "createdAt": "2026-10-05T14:09:15Z",
-      "status": "inbox"
-    },
-    {
       "id": "x:2107104823644496382",
       "section": "news",
       "type": "news",
@@ -990,21 +815,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:49964303",
-      "section": "news",
-      "type": "news",
-      "title": "Pixel 11 doesn't yet meet GrapheneOS security standards and may be skipped",
-      "description": "The GrapheneOS team says its port to the Pixel 11 is stalled because the phone lacks ARM hardware memory tagging (MTE) support, a feature GrapheneOS uses across the OS. Without it, the team may skip the device even though it brings other security improvements.",
-      "author": "finnlab",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
-      "createdAt": "2026-10-05T13:02:25Z",
-      "status": "inbox"
-    },
-    {
       "id": "x:2107080727279894537",
       "section": "news",
       "type": "news",
@@ -1019,37 +829,6 @@
       "source": "Twitter / X",
       "url": "https://x.com/0xSero/status/2107080727279894537",
       "createdAt": "2026-10-05T12:09:27Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49963385",
-      "section": "news",
-      "type": "news",
-      "title": "mold 3.0.0 released, rewritten in Rust",
-      "description": "Version 3.0 of the high-speed mold linker is the first release of its rewrite from C++ to Rust. It is meant as a drop-in replacement for 2.42.1 with the same options, targets, and linking performance, and testing (including building all Gentoo packages) found no regressions.",
-      "author": "roflcopter69",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-      "createdAt": "2026-10-05T11:17:18Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49963171",
-      "section": "news",
-      "type": "news",
-      "title": "Cloudflare launches Web Search API (beta)",
-      "description": "Cloudflare's new Web Search API, now in beta, lets AI agents and apps ground responses in live web results through AI Gateway. At launch you can choose Ceramic.ai, Exa, or Linkup as the provider. Requests are billed at provider list price with no markup, or you can bring your own key.",
-      "author": "tosh",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
-      "createdAt": "2026-10-05T10:47:06Z",
       "status": "inbox"
     },
     {
@@ -1184,38 +963,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:49957116",
-      "section": "news",
-      "type": "news",
-      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
-      "description": "RemoveMacAI is an open-source command-line tool that turns off Apple Intelligence features on macOS 27, removes the downloaded on-device models, and stops macOS from downloading them again. macOS 27 no longer has a single off switch. Every change can be reverted, and you can keep selected features with --keep.",
-      "author": "privacyisntdead",
-      "topics": [
-        "iOS / Mac Apps",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/omlahore/RemoveMacAI",
-      "createdAt": "2026-10-04T19:42:25Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49953495",
-      "section": "news",
-      "type": "news",
-      "title": "Strata: run Qwen 3.8 Flash Next (125B) on a consumer GPU",
-      "description": "Strata is a free, open-source runtime that runs the 125B-parameter Qwen3.8-Flash-Next model locally on gaming PCs with 12 GB+ NVIDIA or AMD GPUs and 32 GB+ RAM. Its benchmarks show roughly 50-95 tokens/s on an RTX 5070, depending on quantization.",
-      "author": "snehesht",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/Niko1221/Strata",
-      "createdAt": "2026-10-04T12:51:53Z",
-      "status": "inbox"
-    },
-    {
       "id": "x:2106706492317671503",
       "section": "news",
       "type": "news",
@@ -1246,37 +993,6 @@
       "source": "Twitter / X",
       "url": "https://x.com/eas4ai/status/2106683805918748924",
       "createdAt": "2026-10-04T09:52:14Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49952148",
-      "section": "news",
-      "type": "news",
-      "title": "Show HN: Nightwatch – a Mac menu-bar app that tells you when tonight is clear",
-      "description": "A Mac menu-bar app that tells you when tonight's sky will be clear.",
-      "author": "delphidolphin",
-      "topics": [
-        "iOS / Mac Apps"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/rsutcliffe/nightwatch",
-      "createdAt": "2026-10-04T09:31:01Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49952111",
-      "section": "news",
-      "type": "news",
-      "title": "Show HN: SCM, local AI search for every photo and video frame on macOS",
-      "description": "SCM (Screen Memories) is an open-source macOS app that indexes folders of photos and videos so you can search them in plain language. It can find specific video scenes, OCR text, and spoken dialogue via Whisper, and all inference runs locally on the Mac.",
-      "author": "allenleee",
-      "topics": [
-        "iOS / Mac Apps",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/allenv0/SCM",
-      "createdAt": "2026-10-04T09:24:52Z",
       "status": "inbox"
     },
     {
@@ -1396,36 +1112,6 @@
       "source": "Twitter / X",
       "url": "https://x.com/argofowl/status/2106389732322091475",
       "createdAt": "2026-10-03T14:23:41Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49944049",
-      "section": "news",
-      "type": "news",
-      "title": "Competitive Programmer's Handbook (2018) [pdf]",
-      "description": "The 2018 Competitive Programmer's Handbook, available as a free PDF.",
-      "author": "vinhnx",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://cses.fi/book/book.pdf",
-      "createdAt": "2026-10-03T13:24:01Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49943479",
-      "section": "news",
-      "type": "news",
-      "title": "Type Safe Generic Data Structures in C (2025)",
-      "description": "Implementing type-safe generic data structures in C.",
-      "author": "AlexeyBrin",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/",
-      "createdAt": "2026-10-03T11:57:20Z",
       "status": "inbox"
     },
     {
@@ -9202,74 +8888,6 @@
       "updatedAt": "2026-10-05T22:30:02Z"
     },
     {
-      "id": "hn:49952464",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Using A.I. and machine learning to decode communication of sperm whales",
-      "description": "A project applying AI and machine learning to decode sperm whale communication.",
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "dnetesn",
-      "url": "https://blue-continuum.com/the-man-who-listens-to-whales",
-      "createdAt": "2026-10-04T10:15:13Z",
-      "updatedAt": "2026-10-04T10:15:13Z"
-    },
-    {
-      "id": "hn:49944369",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Direct retinal projection display for smart glasses using a meta-optic mirror",
-      "description": "TDK demonstrates a direct retinal projection display for smart glasses using a meta-optic mirror.",
-      "topics": [
-        "Wearables",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "bookofjoe",
-      "url": "https://www.tdk.com/en/news_center/press/20261002_01.html",
-      "createdAt": "2026-10-03T14:04:27Z",
-      "updatedAt": "2026-10-03T14:04:27Z"
-    },
-    {
-      "id": "hn:49953195",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "DEDA – Tracking Dots Extraction, Decoding and Anonymisation Toolkit",
-      "description": "DEDA is an open-source toolkit for extracting, decoding, and anonymizing printer tracking dots.",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "greyface-",
-      "url": "https://github.com/dfd-tud/deda",
-      "createdAt": "2026-10-04T12:09:10Z",
-      "updatedAt": "2026-10-04T12:09:10Z"
-    },
-    {
-      "id": "hn:49920785",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "The first fully implanted cochlear implant reaches patients",
-      "description": "The first fully implanted cochlear implant has reached patients, per IEEE Spectrum.",
-      "topics": [
-        "Technology",
-        "Wearables"
-      ],
-      "source": "Hacker News",
-      "author": "rbanffy",
-      "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant",
-      "createdAt": "2026-10-01T12:31:40Z",
-      "updatedAt": "2026-10-01T12:31:40Z"
-    },
-    {
       "id": "hn:49977597",
       "section": "news",
       "type": "news",
@@ -9303,24 +8921,6 @@
       "url": "https://tracel.ai/blog/release-0.22.0/",
       "createdAt": "2026-10-06T19:41:57Z",
       "updatedAt": "2026-10-06T19:41:57Z"
-    },
-    {
-      "id": "hn:49966238",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf",
-      "description": "A hobby project LoRA-fine-tuned Qwen2.5-Coder-1.5B and Qwen3-0.6B on about 400k synthetic English-to-Bash examples to build CPU-friendly command-generation models. The released 4-bit 1.5B model passed 212 of 300 updated ALFA benchmark tasks, and the dataset and models are on Hugging Face.",
-      "content": "Write-up: https://dirac.run/posts/easycommand\n\nHN discussion: https://news.ycombinator.com/item?id=49966238",
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "GodelNumbering",
-      "url": "https://dirac.run/posts/easycommand",
-      "createdAt": "2026-10-05T15:35:29Z",
-      "updatedAt": "2026-10-05T15:35:29Z"
     },
     {
       "id": "hn:49981455",
@@ -9359,23 +8959,6 @@
       "updatedAt": "2026-10-06T13:41:03Z"
     },
     {
-      "id": "hn:49968637",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Async Rust: Where does the scheduler live?",
-      "description": "A tour of common async Rust complaints, framed as a bingo card, that asks where the scheduler should live. The author argues for Zig's approach of passing the I/O/runtime interface as an explicit parameter, which avoids function coloring and keeps libraries executor-agnostic.",
-      "content": "Essay: https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/\n\nFound via Hacker News (HN id 49968637): https://news.ycombinator.com/item?id=49968637",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Reading",
-      "author": "Mond_",
-      "url": "https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/",
-      "createdAt": "2026-10-05T18:32:09Z",
-      "updatedAt": "2026-10-05T18:32:09Z"
-    },
-    {
       "id": "hn:49973878",
       "section": "news",
       "type": "news",
@@ -9392,24 +8975,6 @@
       "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
       "createdAt": "2026-10-06T03:39:01Z",
       "updatedAt": "2026-10-06T03:39:01Z"
-    },
-    {
-      "id": "hn:49970043",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Show HN: CoIsland – A local Mac app that monitors your dev tools and alerts you",
-      "description": "CoIsland is a local Mac app that lives in the notch and watches builds, deploys, pull requests, incidents and tickets across 35+ connectors, surfacing only what needs attention. One click hands an item to Claude Code, Codex or Cortex Code to investigate.",
-      "content": "App site: https://coisland.app/\n\nHN discussion: https://news.ycombinator.com/item?id=49970043",
-      "topics": [
-        "iOS / Mac Apps",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "LeDonT",
-      "url": "https://coisland.app/",
-      "createdAt": "2026-10-05T20:14:52Z",
-      "updatedAt": "2026-10-05T20:14:52Z"
     },
     {
       "id": "x:2107570814036111783",
@@ -10352,6 +9917,55 @@
       "type": "news",
       "status": "inbox",
       "updatedAt": "2026-10-06T16:08:47Z"
+    },
+    {
+      "id": "hn:49991243",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "description": "God of War on PSP, recompiled to WebAssembly and running in the browser.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sn001",
+      "url": "https://github.com/snuri00/psp-web-recomp",
+      "createdAt": "2026-10-07T11:27:27Z",
+      "updatedAt": "2026-10-07T11:27:27Z"
+    },
+    {
+      "id": "hn:49977351",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A minimal kernel in Swift, running in QEMU",
+      "description": "A minimal kernel written in Swift, running in QEMU.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "surprisetalk",
+      "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
+      "createdAt": "2026-10-06T12:20:03Z",
+      "updatedAt": "2026-10-06T12:20:03Z"
+    },
+    {
+      "id": "hn:50001580",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A 100x faster* alternative to homebrew",
+      "description": "An alternative package manager for macOS that claims to be 100x faster than Homebrew.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "cachebag",
+      "url": "https://github.com/zerobrewhq/zerobrew",
+      "createdAt": "2026-10-08T03:23:08Z",
+      "updatedAt": "2026-10-08T03:23:08Z"
     }
   ]
 }
