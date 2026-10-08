@@ -38,59 +38,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:open-tpu-ai-inference-accelerator",
-      "section": "news",
-      "type": "news",
-      "title": "openTPU pairs an AI-developed accelerator with a full LLM software stack",
-      "description": "The open-source project brings together SystemVerilog RTL, an instruction set, simulator, compiler and profiler; its README reports multiple current language models running bit-exactly on a Kintex-7 FPGA card.",
-      "content": "The repository presents openTPU as an AI-developed accelerator and learning project. It documents a software simulator alongside the RTL implementation and reports running ten models on a Kintex-7 PCIe card, with benchmark and profiler details.",
-      "author": "fsbonetto",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/FeSens/openTPU",
-      "createdAt": "2026-10-06T17:10:00Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:benchmark-in-milliseconds",
-      "section": "news",
-      "type": "news",
-      "title": "A rule of thumb for microbenchmarks: aim for around 300 ms",
-      "description": "Matklad recommends benchmarks near 300 ms: long enough to make small improvements visible and limit fixed-overhead distortion, yet short enough to repeat quickly; the goal is practical intuition rather than precise measurement.",
-      "content": "Aleksey Kladov’s rule of thumb is to tune benchmark input until each run takes roughly 300 milliseconds. That range makes results easy to scan, reduces startup overhead, and keeps repeated runs fast enough for iteration.",
-      "author": "surprisetalk",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
-      "createdAt": "2026-10-06T14:10:00Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:darkplug-iphone-darkroom-timer",
-      "section": "news",
-      "type": "news",
-      "title": "Darkplug turns an iPhone into a local-network darkroom timer",
-      "description": "The iPhone and iPad app controls a supported Shelly smart plug and enlarger over the local network, with timed exposures, F-stop steps, guided test strips, split-grade printing and dodge-and-burn workflows.",
-      "content": "Darkplug is a red-on-black darkroom timer for film photographers. It connects directly to compatible Shelly plugs on the same local network; advanced printing tools are offered through a one-time Darkplug+ purchase.",
-      "author": "pentakkusu",
-      "topics": [
-        "iOS / Mac Apps",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://peterszentkiralyi.eu/darkplug/",
-      "createdAt": "2026-10-06T14:10:00Z",
-      "status": "inbox"
-    },
-    {
       "id": "x:2107461486251590100",
       "section": "news",
       "type": "news",
@@ -105,39 +52,6 @@
       "createdAt": "2026-10-06T13:22:27.720Z",
       "status": "inbox",
       "content": "Quotes Benoît Grélard (@benoitgrelard)."
-    },
-    {
-      "id": "hn:49977979",
-      "section": "news",
-      "type": "news",
-      "title": "Mistral Large 4 is a 1.05T-parameter open-weight multimodal model",
-      "description": "Mistral's new public-preview model uses a granular Mixture-of-Experts design with 49B active parameters, 1.05T total parameters, a 1.6B vision encoder and a 1M-token context window. Its documentation lists structured outputs, function calling and document Q&A.",
-      "author": "Philpax",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "url": "https://docs.mistral.ai/models/mistral-large-4-0",
-      "createdAt": "2026-10-06T13:15:49Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49977832",
-      "section": "news",
-      "type": "news",
-      "title": "Two ARM64 compiler-optimization bugs exposed by curl's HTTP/3 CI",
-      "description": "curl's upstream report traces two failures to optimized builds: GCC 15/16 at -O3 triggers OpenSSL Valgrind errors on ARM64, while Rust 1.98.1 release optimization triggers quiche errors. Lower optimization levels or Clang avoid the reported reproductions.",
-      "author": "torutofu",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/curl/curl/issues/23237",
-      "createdAt": "2026-10-06T13:06:00Z",
-      "status": "inbox",
-      "content": "The report says -O2 avoids the OpenSSL issue (-O3 reproduces it); setting CARGO_PROFILE_RELEASE_OPT_LEVEL=0 avoids the quiche issue (level 1 reproduces it)."
     },
     {
       "id": "x:2107446694216343958",
@@ -8741,93 +8655,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:49977177",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Release of Polars 2.0",
-      "description": "The Polars project has released version 2.0 of its fast DataFrame library.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "simicd",
-      "url": "https://pola.rs/posts/release-polars-2/",
-      "createdAt": "2026-10-06T11:59:01Z",
-      "updatedAt": "2026-10-06T11:59:01Z"
-    },
-    {
-      "id": "hn:49977597",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Software Supply Chain Attack on subql/common",
-      "description": "A reported software supply-chain attack targeting the subql/common npm package.",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "WalterSobchak",
-      "url": "https://flatt.tech/research/posts/subql-common-npm-supply-chain-attack/",
-      "createdAt": "2026-10-06T12:46:19Z",
-      "updatedAt": "2026-10-06T12:46:19Z"
-    },
-    {
-      "id": "hn:49983055",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
-      "description": "Burn 0.22 drops backend type parameters from the Rust deep learning framework's user API and selects execution through the device instead, which the team says makes rebuilds up to 15x faster. The release also adds adaptive memory management, smarter autotuning, graph replay, LoRA/QLoRA fine-tuning, ONNX export and expanded remote compute.",
-      "content": "Release notes from the Tracel (Burn) team: https://tracel.ai/blog/release-0.22.0/\n\nHN discussion: https://news.ycombinator.com/item?id=49983055",
-      "topics": [
-        "Machine Learning",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "Tracel (Burn team)",
-      "url": "https://tracel.ai/blog/release-0.22.0/",
-      "createdAt": "2026-10-06T19:41:57Z",
-      "updatedAt": "2026-10-06T19:41:57Z"
-    },
-    {
-      "id": "hn:49981455",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Ask a model if code is malicious and it reaches for its morals",
-      "description": "Manifold Security probed mixture-of-experts models (OLMoE and DeepSeek-V2-Lite variants) and found that asking whether code is malicious routes through the same experts used for morality questions, more than vulnerability or legal questions do. Forcing the router to reuse another question's expert choices shifted the models' answers.",
-      "content": "Article: https://www.manifold.security/blog/do-models-consider-morality-malware\n\nFound via Hacker News (HN id 49981455): https://news.ycombinator.com/item?id=49981455",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Reading",
-      "author": "codyznash (Manifold Security)",
-      "url": "https://www.manifold.security/blog/do-models-consider-morality-malware",
-      "createdAt": "2026-10-06T17:20:26Z",
-      "updatedAt": "2026-10-06T17:20:26Z"
-    },
-    {
-      "id": "hn:49978333",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "What Is Codemode",
-      "description": "Armin Ronacher explains Codemode, now used for MCP support in Pi 1.0: agents issue tool calls from JavaScript so they can compose them, run them concurrently and process large results without routing everything through the LLM's context. He also lists what MCP servers need to improve for it, such as structured output and consistent results.",
-      "content": "Essay: https://lucumr.pocoo.org/2026/10/6/codemode/\n\nFound via Hacker News (HN id 49978333): https://news.ycombinator.com/item?id=49978333",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Reading",
-      "author": "Armin Ronacher",
-      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
-      "createdAt": "2026-10-06T13:41:03Z",
-      "updatedAt": "2026-10-06T13:41:03Z"
-    },
-    {
       "id": "x:2107570814036111783",
       "section": "news",
       "type": "news",
@@ -8948,166 +8775,6 @@
       "updatedAt": "2026-10-06T18:29:04Z"
     },
     {
-      "id": "hn:49980487",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-      "description": "Google announced EmbeddingGemma 2, an open, lightweight embedding model that works across multiple modalities.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49980487",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Deep Learning"
-      ],
-      "source": "Hacker News",
-      "author": "ilreb",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-      "createdAt": "2026-10-06T16:03:49Z",
-      "updatedAt": "2026-10-06T16:03:49Z"
-    },
-    {
-      "id": "hn:49978563",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
-      "description": "The Tapo library, available for Rust and Python, has added support for TP-Link's TPAP protocol.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49978563",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "faithraven",
-      "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
-      "createdAt": "2026-10-06T13:55:37Z",
-      "updatedAt": "2026-10-06T13:55:37Z"
-    },
-    {
-      "id": "hn:49983791",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "OpenSSH 10.6",
-      "description": "OpenSSH 10.6 has been released, with release notes published on openssh.org.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49983791",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "torcete",
-      "url": "https://www.openssh.org/releasenotes.html#10.6",
-      "createdAt": "2026-10-06T20:41:39Z",
-      "updatedAt": "2026-10-06T20:41:39Z"
-    },
-    {
-      "id": "hn:49984923",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Sharing AI Progress in Mathematics",
-      "description": "OpenAI published an update on its AI progress in mathematics.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49984923",
-      "topics": [
-        "AI",
-        "Deep Learning"
-      ],
-      "source": "Hacker News",
-      "author": "OfficialTurkey",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "createdAt": "2026-10-06T22:17:21Z",
-      "updatedAt": "2026-10-06T22:17:21Z"
-    },
-    {
-      "id": "hn:49981905",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
-      "description": "An essay examines Claude Code's suggested-message feature and argues the real customer of that feature may be the model itself.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49981905",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "zed_labs_dev",
-      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "createdAt": "2026-10-06T18:00:34Z",
-      "updatedAt": "2026-10-06T18:00:34Z"
-    },
-    {
-      "id": "hn:49983703",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
-      "description": "Paramount Skydance has completed its $111 billion merger with Warner Bros. Discovery.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49983703",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "Mgtyalx",
-      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
-      "createdAt": "2026-10-06T20:33:47Z",
-      "updatedAt": "2026-10-06T20:33:47Z"
-    },
-    {
-      "id": "hn:49977437",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Subquadratic 3SUM and Subcubic APSP",
-      "description": "A paper presents subquadratic algorithms for 3SUM and subcubic algorithms for all-pairs shortest paths.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49977437",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "mauriziocalo",
-      "url": "https://arxiv.org/abs/2610.06783",
-      "createdAt": "2026-10-06T12:31:17Z",
-      "updatedAt": "2026-10-06T12:31:17Z"
-    },
-    {
-      "id": "hn:49978171",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
-      "description": "Show HN for Parseable, an open observability datalake reported to handle 100 million time-series per minute.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49978171",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "yashdotrv",
-      "url": "https://www.parseable.com",
-      "createdAt": "2026-10-06T13:30:50Z",
-      "updatedAt": "2026-10-06T13:30:50Z"
-    },
-    {
-      "id": "hn:49979845",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "The Early History of Smalltalk (1993)",
-      "description": "A historical piece on the early history of Smalltalk, dating from 1993.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49979845",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "_reza",
-      "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
-      "createdAt": "2026-10-06T15:19:57Z",
-      "updatedAt": "2026-10-06T15:19:57Z"
-    },
-    {
       "id": "hn:49987076",
       "title": "Strands Decider 2B: a small, open-source decision model",
       "description": "Strands Labs released Decider 2B, a small \"decision model\" that picks between fixed options or outputs a numeric score in a single fast pass instead of generating free text. It trades flexibility for low latency and guaranteed valid answers, making it useful for routing and classification in agent pipelines.",
@@ -9196,23 +8863,6 @@
       "updatedAt": "2026-10-07T03:17:49Z"
     },
     {
-      "id": "hn:49986740",
-      "title": "Show HN: TerrainSR, a fast heightmap upscaling model",
-      "description": "TerrainSR is an open model that upscales terrain height data, trained on 100 m to 10 m pairs and deliberately excluding cities and mines so outputs have no man-made artifacts. It upscales a 50x50 km patch in about 0.74 s on an RTX 4070, fast enough for games.",
-      "content": "Model: https://huggingface.co/joe-gibbs/terrainsr\nHN discussion: https://news.ycombinator.com/item?id=49986740",
-      "topics": [
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "author": "joegibbs",
-      "url": "https://huggingface.co/joe-gibbs/terrainsr",
-      "createdAt": "2026-10-07T01:24:17Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-07T01:24:17Z"
-    },
-    {
       "id": "hn:49988641",
       "title": "Show HN: musql, a JIT-compiled SQLite-compatible database",
       "description": "musql is a SQLite-compatible database that pairs a columnar storage format with a JIT compiler that turns supported query paths into native code. Its author claims up to 300x speedups over C SQLite and 1000x over Turso on supported queries.",
@@ -9228,24 +8878,6 @@
       "type": "news",
       "status": "inbox",
       "updatedAt": "2026-10-07T05:30:23Z"
-    },
-    {
-      "id": "hn:49985292",
-      "title": "UniEvo-VL: on-policy self-distillation for multimodal model self-improvement",
-      "description": "A new paper (with authors including Jure Leskovec and Yejin Choi) proposes letting a single multimodal model act as both teacher and student: the teacher sees the model's own self-critique as privileged information while the student sees only the question. It is a training recipe for self-improvement without a larger separate teacher.",
-      "content": "Paper: https://arxiv.org/abs/2609.38721\nHN discussion: https://news.ycombinator.com/item?id=49985292",
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "gmays",
-      "url": "https://arxiv.org/abs/2609.38721",
-      "createdAt": "2026-10-06T22:51:35Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-06T22:51:35Z"
     },
     {
       "id": "x:2107811268363272397",
@@ -9407,44 +9039,6 @@
       "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
       "createdAt": "2026-10-07T01:39:21Z",
       "updatedAt": "2026-10-07T01:39:21Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49984716",
-      "section": "news",
-      "type": "news",
-      "title": "Penguin Mail: a Rust mail and calendar app for Linux with an optional AI assistant",
-      "description": "A new GPL-licensed Linux desktop client brings mail, calendars, contacts and encryption together. Its optional assistant can use a local model and asks before sending mail or changing settings.",
-      "content": "Penguin Mail is built with Rust, GTK 4 and libadwaita; it supports Gmail, Microsoft, IMAP/POP3, calendars, contacts, OpenPGP and S/MIME. The assistant is off until enabled and can run with LM Studio, Ollama or other supported providers.\nWebsite: https://penguin-mail.com/\nSource code: https://github.com/c9dev/penguin-mail\nHacker News discussion: https://news.ycombinator.com/item?id=49984716",
-      "topics": [
-        "Programming",
-        "AI",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "kavourias",
-      "url": "https://penguin-mail.com/",
-      "createdAt": "2026-10-06T21:59:43Z",
-      "updatedAt": "2026-10-06T21:59:43Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49984025",
-      "section": "news",
-      "type": "news",
-      "title": "OpenAI launches a Decisions API public beta for classification and routing",
-      "description": "OpenAI’s new /v1/decisions endpoint returns typed predicate probabilities, fixed-choice answers or rubric scores for text and images. The public beta currently supports gpt-6-luna and targets fast classification, routing and prioritization.",
-      "content": "Official documentation: https://developers.openai.com/api/docs/guides/decisions\nThe endpoint returns predicate, choice or score answers rather than free-form text; OpenAI says it is about 10× faster than the Responses API. The docs identify gpt-6-luna as the only supported model during the public beta.\nHacker News discussion: https://news.ycombinator.com/item?id=49984025",
-      "topics": [
-        "AI",
-        "Programming",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "author": "chiefstorm",
-      "url": "https://developers.openai.com/api/docs/guides/decisions",
-      "createdAt": "2026-10-06T20:57:25Z",
-      "updatedAt": "2026-10-06T20:57:25Z",
       "status": "inbox"
     },
     {
@@ -9769,22 +9363,6 @@
       "updatedAt": "2026-10-07T11:27:27Z"
     },
     {
-      "id": "hn:49977351",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "A minimal kernel in Swift, running in QEMU",
-      "description": "A minimal kernel written in Swift, running in QEMU.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "surprisetalk",
-      "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
-      "createdAt": "2026-10-06T12:20:03Z",
-      "updatedAt": "2026-10-06T12:20:03Z"
-    },
-    {
       "id": "hn:50001580",
       "section": "news",
       "type": "news",
@@ -9954,59 +9532,6 @@
       "updatedAt": "2026-10-08T12:28:32Z"
     },
     {
-      "id": "hn:49970767",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Living off-grid: Hundred Rabbits",
-      "description": "A look at Hundred Rabbits, the creative duo living off-grid on a sailboat while building open-source software.",
-      "topics": [
-        "Technology",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "Muhammad523",
-      "url": "https://100r.ca/site/home.html",
-      "createdAt": "2026-10-05T21:08:33Z",
-      "updatedAt": "2026-10-05T21:08:33Z"
-    },
-    {
-      "id": "hn:49952111",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "SCM: local AI search for every photo and video frame on macOS",
-      "description": "Screen Memories is an open-source, local-first Mac app that lets you search photos and individual video moments in any folder with plain-language descriptions, running a vision model entirely on-device.",
-      "topics": [
-        "iOS / Mac Apps",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "allenleee",
-      "url": "https://github.com/allenv0/SCM",
-      "content": "Discussion: https://news.ycombinator.com/item?id=49952111 (178 points, 74 comments)",
-      "createdAt": "2026-10-04T09:24:52Z",
-      "updatedAt": "2026-10-04T09:24:52Z"
-    },
-    {
-      "id": "hn:49944369",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "TDK shows a direct retinal projection display for smart glasses",
-      "description": "TDK announced a direct retinal projection display for smart glasses built around a meta-optic mirror, aimed at making AR eyewear smaller and lighter.",
-      "topics": [
-        "Wearables",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "bookofjoe",
-      "url": "https://www.tdk.com/en/news_center/press/20261002_01.html",
-      "content": "Discussion: https://news.ycombinator.com/item?id=49944369 (135 points, 74 comments)",
-      "createdAt": "2026-10-03T14:04:27Z",
-      "updatedAt": "2026-10-03T14:04:27Z"
-    },
-    {
       "id": "hn:50003703",
       "section": "news",
       "type": "news",
@@ -10023,58 +9548,6 @@
       "content": "Discussion: https://news.ycombinator.com/item?id=50003703 (4 points, 0 comments)",
       "createdAt": "2026-10-08T09:33:22Z",
       "updatedAt": "2026-10-08T09:33:22Z"
-    },
-    {
-      "id": "hn:49949680",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Rust's derive often implies inline",
-      "description": "A short TIL showing that Rust's derived trait impls like Debug and Clone are emitted with #[inline], and why that can bloat code for deep error hierarchies.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "woodruffw",
-      "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
-      "content": "Discussion: https://news.ycombinator.com/item?id=49949680 (116 points, 30 comments)",
-      "createdAt": "2026-10-04T01:27:02Z",
-      "updatedAt": "2026-10-04T01:27:02Z"
-    },
-    {
-      "id": "hn:49982096",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "How many GPUs does it take to serve 1M, 1B or 1T tokens?",
-      "description": "Cedana built a calculator that estimates how many A100, H100 or B200 GPUs you need to serve a given token volume for models like Llama 3.3 70B and DeepSeek V4, with adjustable token mix and utilization.",
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "kmavm",
-      "url": "https://cedana.com/resources/tokens-to-gpus/",
-      "content": "Discussion: https://news.ycombinator.com/item?id=49982096 (21 points, 9 comments)",
-      "createdAt": "2026-10-06T18:17:40Z",
-      "updatedAt": "2026-10-06T18:17:40Z"
-    },
-    {
-      "id": "hn:49970810",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Sideloop: re-sign sideloaded iOS apps over Wi-Fi before they expire",
-      "description": "A self-hosted service with a web UI that keeps sideloaded IPAs signed with a free Apple ID, re-installing them over Wi-Fi before the 7-day signature expires without AltStore or SideStore on the device.",
-      "topics": [
-        "iOS / Mac Apps"
-      ],
-      "source": "Hacker News",
-      "author": "filippofinke",
-      "url": "https://github.com/filippofinke/sideloop",
-      "content": "Discussion: https://news.ycombinator.com/item?id=49970810 (7 points, 1 comments)",
-      "createdAt": "2026-10-05T21:11:04Z",
-      "updatedAt": "2026-10-05T21:11:04Z"
     },
     {
       "id": "hn:49995706",
@@ -10340,6 +9813,159 @@
       "source": "Twitter / X",
       "url": "https://x.com/eldar_hsnv/status/2108175201179480449",
       "createdAt": "2026-10-08T12:38:30.619Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50000488",
+      "section": "news",
+      "type": "news",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "description": "A blog post asks why the AI industry isn't more alarmed by DeepSeek 4.1 Flash, a new fast and cheap model from DeepSeek.",
+      "content": "The author argues DeepSeek 4.1 Flash should be treated as a significant competitive event rather than a footnote. The discussion centers on model economics, speed, and what a low-cost frontier-class model implies for incumbents.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50000488",
+      "author": "jonotime",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "createdAt": "2026-10-08T00:14:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50002650",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI withdraws three mathematical results",
+      "description": "OpenAI has withdrawn three mathematical results it previously announced.",
+      "content": "The post links to a statement from a mathematician about OpenAI retracting three math results, sparking discussion about how labs communicate research claims and verify correctness before publishing.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50002650",
+      "author": "sashank_1509",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
+      "createdAt": "2026-10-08T07:05:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50007519",
+      "section": "news",
+      "type": "news",
+      "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
+      "description": "Four-hour battery storage is now reportedly cheaper to install than gas turbines across the globe.",
+      "content": "The report argues grid-scale batteries have crossed a cost threshold that undercuts new gas peaker plants worldwide, with implications for grid planning and fossil-fuel retirements.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50007519",
+      "author": "01-_-",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
+      "createdAt": "2026-10-08T16:03:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49996149",
+      "section": "news",
+      "type": "news",
+      "title": "DuckDB Ducklake",
+      "description": "DuckDB's DuckLake, an open lakehouse format built on SQL, draws attention on HN.",
+      "content": "DuckLake layers lakehouse features like snapshots, catalogs, and schema evolution on top of open file formats, letting teams query data lakes with plain SQL through DuckDB.\n\nHacker News discussion: https://news.ycombinator.com/item?id=49996149",
+      "author": "saikatsg",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/duckdb/ducklake",
+      "createdAt": "2026-10-07T17:40:23Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50007764",
+      "section": "news",
+      "type": "news",
+      "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
+      "description": "Step 5 Preview, a 1M-context mixture-of-experts model from StepFun, has appeared on OpenRouter.",
+      "content": "The 1M-token-context MoE model is now available through OpenRouter, drawing interest from developers testing ultra-long-context workflows.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50007764",
+      "author": "AnneWodell",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://openrouter.ai/stepfun/step-5-preview",
+      "createdAt": "2026-10-08T16:20:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49994663",
+      "section": "news",
+      "type": "news",
+      "title": "The dawn of the age of the exoskeleton",
+      "description": "An overview of exoskeletons moving from lab curiosities toward practical, widely used devices.",
+      "content": "The piece surveys industrial, medical, and consumer exoskeleton designs and asks what will tip them into everyday use.\n\nHacker News discussion: https://news.ycombinator.com/item?id=49994663",
+      "author": "speckx",
+      "topics": [
+        "Technology",
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "url": "https://theconversation.com/the-dawn-of-the-age-of-the-exoskeleton-281804",
+      "createdAt": "2026-10-07T15:59:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50012199",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
+      "description": "Rembrandt is a free, open-source Adobe Lightroom alternative that runs completely locally with AI features.",
+      "content": "The Show HN post presents a fully local photo-editing app with AI-assisted tools, targeting users who want Lightroom-style workflows without a subscription or cloud uploads.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50012199",
+      "author": "thesnarkitecht",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/thesnarkitecht/rembrandt",
+      "createdAt": "2026-10-08T21:00:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50011694",
+      "section": "news",
+      "type": "news",
+      "title": "Model Collapse Isn't New, nor Is It Specific to AI",
+      "description": "An essay argues that model collapse is neither new nor specific to AI, with historical precedents for feedback loops degrading quality.",
+      "content": "The author traces analogues of self-referential degradation in other fields to argue that AI model collapse is a general statistical phenomenon, not a uniquely machine-learning pathology.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50011694",
+      "author": "hovhannesian",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://rulr.dev/blog/model-collapse-isnt-new/",
+      "createdAt": "2026-10-08T20:26:28Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50005424",
+      "section": "news",
+      "type": "news",
+      "title": "New CRAM method offers giant boost to compressed memory reads",
+      "description": "A new CRAM method is reported to offer a giant boost to compressed memory reads.",
+      "content": "The technique targets faster access to compressed in-memory data, which could improve memory efficiency for Linux systems and data-intensive workloads.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50005424",
+      "author": "danny00",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.tomshardware.com/software/linux/new-linux-tech-compresses-memory-in-ram-as-ram-for-452x-speedup-new-cram-method-offers-giant-boost-to-compressed-memory-reads",
+      "createdAt": "2026-10-08T13:11:41Z",
       "status": "inbox"
     }
   ]
