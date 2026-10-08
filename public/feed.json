@@ -9969,6 +9969,253 @@
       "url": "https://100r.ca/site/home.html",
       "createdAt": "2026-10-05T21:08:33Z",
       "updatedAt": "2026-10-05T21:08:33Z"
+    },
+    {
+      "id": "hn:49952111",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SCM: local AI search for every photo and video frame on macOS",
+      "description": "Screen Memories is an open-source, local-first Mac app that lets you search photos and individual video moments in any folder with plain-language descriptions, running a vision model entirely on-device.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "allenleee",
+      "url": "https://github.com/allenv0/SCM",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49952111 (178 points, 74 comments)",
+      "createdAt": "2026-10-04T09:24:52Z",
+      "updatedAt": "2026-10-04T09:24:52Z"
+    },
+    {
+      "id": "hn:49944369",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TDK shows a direct retinal projection display for smart glasses",
+      "description": "TDK announced a direct retinal projection display for smart glasses built around a meta-optic mirror, aimed at making AR eyewear smaller and lighter.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bookofjoe",
+      "url": "https://www.tdk.com/en/news_center/press/20261002_01.html",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49944369 (135 points, 74 comments)",
+      "createdAt": "2026-10-03T14:04:27Z",
+      "updatedAt": "2026-10-03T14:04:27Z"
+    },
+    {
+      "id": "hn:50003703",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "\"What Time Is It?\": a 64k demo for the Pebble Time 2",
+      "description": "A demoscene-style 64k demo built for the Pebble Time 2 watch, with a write-up on the Mad Tea Synth plug-in and Tea++ scripting language used to make music and visuals that compile down to fixed-point C.",
+      "topics": [
+        "Wearables",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "smig0",
+      "url": "https://teadrinker.net/blog/what-time-is-it.html",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50003703 (4 points, 0 comments)",
+      "createdAt": "2026-10-08T09:33:22Z",
+      "updatedAt": "2026-10-08T09:33:22Z"
+    },
+    {
+      "id": "hn:49949680",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rust's derive often implies inline",
+      "description": "A short TIL showing that Rust's derived trait impls like Debug and Clone are emitted with #[inline], and why that can bloat code for deep error hierarchies.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "woodruffw",
+      "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49949680 (116 points, 30 comments)",
+      "createdAt": "2026-10-04T01:27:02Z",
+      "updatedAt": "2026-10-04T01:27:02Z"
+    },
+    {
+      "id": "hn:49982096",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How many GPUs does it take to serve 1M, 1B or 1T tokens?",
+      "description": "Cedana built a calculator that estimates how many A100, H100 or B200 GPUs you need to serve a given token volume for models like Llama 3.3 70B and DeepSeek V4, with adjustable token mix and utilization.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "kmavm",
+      "url": "https://cedana.com/resources/tokens-to-gpus/",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49982096 (21 points, 9 comments)",
+      "createdAt": "2026-10-06T18:17:40Z",
+      "updatedAt": "2026-10-06T18:17:40Z"
+    },
+    {
+      "id": "hn:49970810",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sideloop: re-sign sideloaded iOS apps over Wi-Fi before they expire",
+      "description": "A self-hosted service with a web UI that keeps sideloaded IPAs signed with a free Apple ID, re-installing them over Wi-Fi before the 7-day signature expires without AltStore or SideStore on the device.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "filippofinke",
+      "url": "https://github.com/filippofinke/sideloop",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49970810 (7 points, 1 comments)",
+      "createdAt": "2026-10-05T21:11:04Z",
+      "updatedAt": "2026-10-05T21:11:04Z"
+    },
+    {
+      "id": "hn:49995706",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Shortfuse: make macOS app permissions expire automatically",
+      "description": "A Mac app that schedules permissions like microphone access to expire after 15 minutes, an hour, tonight or when the app quits, and helps spot leftover permission records from deleted apps.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "wxce",
+      "url": "https://rygorlabs.com/shortfuse",
+      "content": "Show HN discussion: https://news.ycombinator.com/item?id=49995706. Requires macOS 14+ on Intel or Apple silicon.",
+      "createdAt": "2026-10-07T17:09:42Z",
+      "updatedAt": "2026-10-07T17:09:42Z"
+    },
+    {
+      "id": "hn:50002249",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Let's Encrypt moves to 64-day certificates in February 2027",
+      "description": "Starting February 10, 2027, Let's Encrypt certificates default to 64-day lifetimes (staging switches October 14, 2026), so hard-coded renewal schedules should move to renewing at about two-thirds of the lifetime or use ACME Renewal Info.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "allddd",
+      "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50002249 (6 points, 0 comments)",
+      "createdAt": "2026-10-08T06:01:21Z",
+      "updatedAt": "2026-10-08T06:01:21Z"
+    },
+    {
+      "id": "hn:49993338",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple Intelligence models can't be removed on macOS 27, even with Siri AI off",
+      "description": "A Tell HN post complains that macOS 27 keeps about 30 GB of Apple Intelligence models on disk even when the features are disabled, with no way to remove or offload them.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "busymom0",
+      "url": "https://news.ycombinator.com/item?id=49993338",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49993338 (36 points, 27 comments)",
+      "createdAt": "2026-10-07T14:26:53Z",
+      "updatedAt": "2026-10-07T14:26:53Z"
+    },
+    {
+      "id": "x:2107985803301281882",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Open-source Liquid Glass for the web",
+      "description": "A developer released an early open-source library that brings Apple-style Liquid Glass effects to Chromium, Safari, Firefox and Electron; it runs well on desktop Chromium while Safari and mobile are still rough.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "naaiyy (@naaiyy_)",
+      "url": "https://x.com/naaiyy_/status/2107985803301281882",
+      "createdAt": "2026-10-08T00:05:54Z",
+      "updatedAt": "2026-10-08T00:05:54Z"
+    },
+    {
+      "id": "x:2108082435137388992",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cut coding-agent token usage: most tokens go to re-reading xcodebuild logs",
+      "description": "Antoine van der Lee audited 1,674 agent sessions and found replies were only 0.6% of tokens, with build logs eating the rest; his article shares 10 rules and a hook to reduce usage in Claude Code, Codex and Cursor.",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Aryaveer (@aryaveer_bajpai)",
+      "url": "https://x.com/aryaveer_bajpai/status/2108082435137388992",
+      "createdAt": "2026-10-08T06:29:53Z",
+      "content": "Linked article on avanderlee.com: \"How to reduce token usage in Claude Code, Codex, and Cursor\".",
+      "updatedAt": "2026-10-08T06:29:53Z"
+    },
+    {
+      "id": "x:2108170917918769596",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Swift toolchains get distributed compilation caching via toolchain-cas-plugin",
+      "description": "Pedro Piñera highlights a Swift Forums proposal for a new swiftlang/toolchain-cas-plugin repository to support distributed compilation caching with open-source Swift toolchains.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Pedro Piñera (@pepicrft)",
+      "url": "https://x.com/pepicrft/status/2108170917918769596",
+      "createdAt": "2026-10-08T12:21:29Z",
+      "content": "Swift Forums thread: \"Compilation caching integration with toolchain-cas-plugin\".",
+      "updatedAt": "2026-10-08T12:21:29Z"
+    },
+    {
+      "id": "x:2107903229258342903",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Video explainer: Piece-wise Rectified Continuous Normalizing Flow",
+      "description": "A short video walkthrough of piece-wise rectified continuous normalizing flows, a technique for generative modeling with flow-based models.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Wen Yu (@WenYu90355745)",
+      "url": "https://x.com/WenYu90355745/status/2107903229258342903",
+      "createdAt": "2026-10-07T18:37:47Z",
+      "content": "Video: https://youtu.be/GTWESMhuOgA",
+      "updatedAt": "2026-10-07T18:37:47Z"
+    },
+    {
+      "id": "x:2108174634655117653",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "T3 Code adds many agent harnesses through ACP",
+      "description": "Theo says T3 Code nightly now supports many coding-agent harnesses via the Agent Client Protocol, plus a new beta Muse provider.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Theo - t3.gg (@theo)",
+      "url": "https://x.com/theo/status/2108174634655117653",
+      "createdAt": "2026-10-08T12:36:15Z",
+      "updatedAt": "2026-10-08T12:36:15Z"
     }
   ]
 }
