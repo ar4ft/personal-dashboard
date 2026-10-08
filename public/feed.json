@@ -258,38 +258,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:49975619",
-      "section": "news",
-      "type": "news",
-      "title": "Gleam doesn't compile to Erlang source anymore",
-      "description": "Gleam v1.19.0 ships a rewritten Erlang code generator that emits Erlang abstract forms instead of Erlang source, letting generated code load directly and skip the front half of the Erlang compiler, with notable compiler performance gains.",
-      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49975619 (88 points).",
-      "author": "ingve",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
-      "createdAt": "2026-10-06T08:08:20Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49974235",
-      "section": "news",
-      "type": "news",
-      "title": "Monte Carlo Tree Search Is Awesome",
-      "description": "An explainer on Monte Carlo Tree Search, the classic search algorithm behind game-AI breakthroughs.",
-      "author": "usernotfoundrn",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "url": "https://thegustafson.com/blog/mcts-is-awesome",
-      "createdAt": "2026-10-06T04:36:47Z",
-      "status": "inbox"
-    },
-    {
       "id": "x:2107312572236194087",
       "section": "news",
       "type": "news",
@@ -416,40 +384,6 @@
       "createdAt": "2026-10-05T22:52:23Z",
       "status": "inbox",
       "content": "Quotes @scrcpy_app.\nRelease: https://github.com/Genymobile/scrcpy/releases/tag/v5.0"
-    },
-    {
-      "id": "hn:49971726",
-      "section": "news",
-      "type": "news",
-      "title": "Learning Jazz Pianist Style with Cross-Attention Conditioning",
-      "description": "Learning and emulating a jazz pianist's playing style with cross-attention conditioning.",
-      "author": "ishan0102",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Neural Networks"
-      ],
-      "source": "Hacker News",
-      "url": "https://almostimplemented.github.io/jazz-pianist-style/",
-      "createdAt": "2026-10-05T22:30:52Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49970871",
-      "section": "news",
-      "type": "news",
-      "title": "Dust: Pretraining Transformers Without Backpropagation",
-      "description": "A new method for pretraining Transformers without backpropagation.",
-      "author": "E-Reverance",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Neural Networks"
-      ],
-      "source": "Hacker News",
-      "url": "https://qlabs.sh/research/dust",
-      "createdAt": "2026-10-05T21:15:07Z",
-      "status": "inbox"
     },
     {
       "id": "x:2107213171526377567",
@@ -8823,71 +8757,6 @@
       "updatedAt": "2026-10-06T11:59:01Z"
     },
     {
-      "id": "hn:49973598",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Why Common Lisp is now the best programming language",
-      "description": "An essay making the case for Common Lisp as the best programming language today.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "misterchocolat",
-      "url": "https://www.vivienhenz.com/common-lisp",
-      "createdAt": "2026-10-06T02:51:51Z",
-      "updatedAt": "2026-10-06T02:51:51Z"
-    },
-    {
-      "id": "hn:49971921",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Example.com just launched the biggest redesign in decades",
-      "description": "A look at the history of example.com and its biggest redesign in decades.",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "jgx0",
-      "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
-      "createdAt": "2026-10-05T22:55:11Z",
-      "updatedAt": "2026-10-05T22:55:11Z"
-    },
-    {
-      "id": "hn:49971846",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-      "description": "Reports that ChatGPT is generating fake New Yorker cartoons signed with real cartoonists' names.",
-      "topics": [
-        "AI",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "rdmuser",
-      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-      "createdAt": "2026-10-05T22:46:45Z",
-      "updatedAt": "2026-10-05T22:46:45Z"
-    },
-    {
-      "id": "hn:49971719",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Friendship ended with Deno, now Node is my best friend",
-      "description": "A developer's account of switching from Deno back to Node.js.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "ibobev",
-      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
-      "createdAt": "2026-10-05T22:30:02Z",
-      "updatedAt": "2026-10-05T22:30:02Z"
-    },
-    {
       "id": "hn:49977597",
       "section": "news",
       "type": "news",
@@ -8957,24 +8826,6 @@
       "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
       "createdAt": "2026-10-06T13:41:03Z",
       "updatedAt": "2026-10-06T13:41:03Z"
-    },
-    {
-      "id": "hn:49973878",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Resurrecting iChat audio and video conferencing",
-      "description": "Chris Jones got iChat AV audio and video calls between Leopard-era Macs working over the internet again by debugging its SNATMAP/NAT-discovery flow. The fix is a single /etc/hosts entry that points configuration.apple.com at a replacement server.",
-      "content": "Blog post: https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/\n\nFound via Hacker News (HN id 49973878): https://news.ycombinator.com/item?id=49973878",
-      "topics": [
-        "iOS / Mac Apps",
-        "Programming"
-      ],
-      "source": "Reading",
-      "author": "Chris Jones",
-      "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
-      "createdAt": "2026-10-06T03:39:01Z",
-      "updatedAt": "2026-10-06T03:39:01Z"
     },
     {
       "id": "x:2107570814036111783",
@@ -9114,23 +8965,6 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
       "createdAt": "2026-10-06T16:03:49Z",
       "updatedAt": "2026-10-06T16:03:49Z"
-    },
-    {
-      "id": "hn:49976265",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Nobel Prize in Physics 2026: Francis Halzen",
-      "description": "The 2026 Nobel Prize in Physics was awarded to Francis Halzen, according to the official Nobel Prize announcement.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49976265",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "solarist",
-      "url": "https://www.nobelprize.org/prizes/physics/2026/",
-      "createdAt": "2026-10-06T09:48:46Z",
-      "updatedAt": "2026-10-06T09:48:46Z"
     },
     {
       "id": "hn:49978563",
@@ -9966,6 +9800,175 @@
       "url": "https://github.com/zerobrewhq/zerobrew",
       "createdAt": "2026-10-08T03:23:08Z",
       "updatedAt": "2026-10-08T03:23:08Z"
+    },
+    {
+      "id": "hn:49994443",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "description": "Bigwords.page turns any screen into a big readable sign — the URL itself is the app.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "SpeakingOfBrad",
+      "url": "https://bigwords.page/",
+      "createdAt": "2026-10-07T15:44:21Z",
+      "updatedAt": "2026-10-07T15:44:21Z"
+    },
+    {
+      "id": "hn:49993857",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Animated ASCII Art for Web Pages",
+      "description": "ascii.rest offers animated ASCII art for web pages.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "turrini",
+      "url": "https://ascii.rest/",
+      "createdAt": "2026-10-07T15:05:37Z",
+      "updatedAt": "2026-10-07T15:05:37Z"
+    },
+    {
+      "id": "hn:50000676",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "description": "An LLM-driven port of the TypeScript compiler, type checker, and language server to Rust.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jcbhmr",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "createdAt": "2026-10-08T00:46:00Z",
+      "updatedAt": "2026-10-08T00:46:00Z"
+    },
+    {
+      "id": "hn:50003107",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI Withdraws 3 Math Papers",
+      "description": "OpenAI has withdrawn three math papers, with history tracked in their math repo.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "theemathas",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "createdAt": "2026-10-08T08:08:37Z",
+      "updatedAt": "2026-10-08T08:08:37Z"
+    },
+    {
+      "id": "hn:50004790",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "description": "An author gave Claude Opus 5.5 a single prompt and six hours to produce a visualization of Italo Calvino's Invisible Cities.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "stared",
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "createdAt": "2026-10-08T12:00:20Z",
+      "updatedAt": "2026-10-08T12:00:20Z"
+    },
+    {
+      "id": "hn:50005127",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Solo Developer Rebuilds Adobe Creative Suite in Rust Using Claude",
+      "description": "A solo developer rebuilt the Adobe Creative Suite in Rust using Claude.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ianbooker",
+      "url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
+      "createdAt": "2026-10-08T12:39:26Z",
+      "updatedAt": "2026-10-08T12:39:26Z"
+    },
+    {
+      "id": "hn:50005124",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: ScreenCI – Tutorial videos as E2E tests, written by your coding agent",
+      "description": "ScreenCI turns tutorial videos into end-to-end tests, written by a coding agent.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ollipal",
+      "url": "https://screenci.com/",
+      "createdAt": "2026-10-08T12:39:16Z",
+      "updatedAt": "2026-10-08T12:39:16Z"
+    },
+    {
+      "id": "hn:50002426",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Classic PC demoscene productions running natively in the browser",
+      "description": "Classic PC demoscene productions running natively in the browser via recompilation.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "adunk",
+      "url": "https://treylorswift.github.io/demoscene-recomp/web/",
+      "createdAt": "2026-10-08T06:29:25Z",
+      "updatedAt": "2026-10-08T06:29:25Z"
+    },
+    {
+      "id": "hn:50005013",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pivot – Real-time analytics on Iceberg, faster than ClickHouse on benchmarks",
+      "description": "Pivot offers real-time analytics on Apache Iceberg, claiming benchmarks faster than ClickHouse.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ntur1337",
+      "url": "https://github.com/pivotlake/pivot",
+      "createdAt": "2026-10-08T12:28:32Z",
+      "updatedAt": "2026-10-08T12:28:32Z"
+    },
+    {
+      "id": "hn:49970767",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Living off-grid: Hundred Rabbits",
+      "description": "A look at Hundred Rabbits, the creative duo living off-grid on a sailboat while building open-source software.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Muhammad523",
+      "url": "https://100r.ca/site/home.html",
+      "createdAt": "2026-10-05T21:08:33Z",
+      "updatedAt": "2026-10-05T21:08:33Z"
     }
   ]
 }
