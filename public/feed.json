@@ -10216,6 +10216,41 @@
       "url": "https://x.com/theo/status/2108174634655117653",
       "createdAt": "2026-10-08T12:36:15Z",
       "updatedAt": "2026-10-08T12:36:15Z"
+    },
+    {
+      "id": "hn:50002008",
+      "section": "news",
+      "type": "news",
+      "title": "“Math 2.0” will need to value mathematical progress more holistically",
+      "description": "Terence Tao argues that AI-era mathematical progress should be measured beyond solving open problems, including exposition, community-building, and opening new research directions.",
+      "content": "Tao contrasts traditional breakthroughs that lead to talks, workshops, collaboration, and durable understanding with a risk that AI-generated solutions are harvested without that follow-up. He calls for a broader “Math 2.0” that rewards exposition, community-building, and new directions, and argues AI can help there too.",
+      "author": "Terence Tao",
+      "topics": [
+        "AI",
+        "Mathematics",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://mathstodon.xyz/@tao/117395269325940185",
+      "createdAt": "2026-10-08T05:14:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108175201179480449",
+      "section": "news",
+      "type": "news",
+      "title": "The Benchmark Gap: Coding Agents vs Data Science",
+      "description": "Data-science engineer Eldar Hasanov argues that coding agents’ rapid gains have not carried over to data-science and AI/ML work, and says benchmark results support the gap.",
+      "author": "Eldar Hasanov (@eldar_hsnv)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/eldar_hsnv/status/2108175201179480449",
+      "createdAt": "2026-10-08T12:38:30.619Z",
+      "status": "inbox"
     }
   ]
 }
