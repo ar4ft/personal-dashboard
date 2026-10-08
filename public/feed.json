@@ -10236,6 +10236,96 @@
       "status": "inbox"
     },
     {
+      "id": "hn:50009904",
+      "section": "news",
+      "type": "news",
+      "title": "K10s: a clickable Go terminal UI for Kubernetes",
+      "description": "An Apache-2.0 Kubernetes TUI combines searchable resources, contextual actions, logs/exec/port-forward, an offline demo, and an optional context-aware AI prompt.",
+      "content": "K10s uses the standard kubeconfig and starts watches lazily as resource kinds are opened. Its README lists 30 resource kinds, read-only mode, k9s-style plugins, and static macOS/Linux/Windows builds.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50009904",
+      "author": "pierreneter",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/p10node/k10s",
+      "createdAt": "2026-10-08T18:29:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50008427",
+      "section": "news",
+      "type": "news",
+      "title": "Whistle: on-device speech recognition in a 16.9 MB model",
+      "description": "Cactus Compute’s open, CPU-only speech-recognition model covers seven languages and ships a 17-target runtime including iOS and watchOS, aiming at phones and wearables.",
+      "content": "Whistle handles up to 30 seconds of 16 kHz mono audio and supports word timestamps and speech embeddings. The vendor reports 11.1 ms to first token on an Apple M4 Pro CPU; its benchmarks lead Whisper base on some datasets but trail on others, and compare vendor results with published baselines.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50008427",
+      "author": "Cactus Compute (Jakub Mroz & Henry Ndubuaku)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Wearables",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "createdAt": "2026-10-08T16:59:39Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108000528416514445",
+      "section": "news",
+      "type": "news",
+      "title": "VerifyGuard launches an iPhone scam and deepfake checker",
+      "description": "The new iPhone/iPad utility checks links, messages, photos, videos, and news claims, offering evidence-backed scam/AI-fake verdicts and optional deeper investigation.",
+      "content": "The App Store listing says it is free to start, with monthly tiers of $9.99, $19.99, and $29.99; it also lists Mac (M1+) and visionOS support. Its privacy disclosure says data linked to identity may include purchases, financial/contact details, user content, and usage data.\n\nApp Store listing: https://apps.apple.com/us/app/verifyguard-scam-detector/id6794175364",
+      "author": "Nick Elliott (@NJE02)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/NJE02/status/2108000528416514445",
+      "createdAt": "2026-10-08T01:04:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:anthropic-usage-policy-2026",
+      "section": "news",
+      "type": "news",
+      "title": "Anthropic updates its Usage Policy with an abuse clause and clearer high-risk rules",
+      "description": "The Oct. 8 refresh takes effect Nov. 12. It adds a narrow prohibition on sustained, needless cruelty toward Claude and clarifies rules for deceptive campaigns, weapons, surveillance, high-risk uses, and autonomous hardware.",
+      "content": "Anthropic says the abuse rule targets extreme, repeated cruelty without a discernible purpose; ordinary frustration, pushback, dark creative themes, testing, and research are excluded. The company says much of the wider update clarifies rules it already enforced, including deceptive campaigns, weapons development, nonconsensual tracking, human oversight for high-risk decisions, and supervision for physical actions.\n\nOfficial update: https://www.anthropic.com/news/2026-usage-policy-update",
+      "author": "Anthropic",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Reading",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "createdAt": "2026-10-08T00:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:bootstrap-6-alpha-2026",
+      "section": "news",
+      "type": "news",
+      "title": "Bootstrap 6 Alpha 1 modernizes CSS, Sass customization, and JavaScript",
+      "description": "Bootstrap’s first v6 alpha raises browser minimums and makes breaking changes to Sass customization, responsive class names, and JavaScript modules; v5 remains supported.",
+      "content": "The release introduces Sass @use/@forward token maps; modern CSS including container queries, light-dark(), oklch(), CSS layers, and native details/dialog; prefix-style responsive utilities; TypeScript source and types; and ESM-only JavaScript. The official browser floor is Chrome/Edge 130, Firefox 132, or Safari 18. Alpha 1 is on npm/CDN; read the migration guide before adopting.\n\nOfficial announcement: https://blog.getbootstrap.com/2026/10/08/bootstrap-6-alpha/\nMigration guide: https://getbootstrap.com/docs/6.0/guides/migration",
+      "author": "Bootstrap Team (@mdo)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "url": "https://blog.getbootstrap.com/2026/10/08/bootstrap-6-alpha/",
+      "createdAt": "2026-10-08T00:00:00Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2108175201179480449",
       "section": "news",
       "type": "news",
