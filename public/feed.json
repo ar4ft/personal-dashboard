@@ -8775,24 +8775,6 @@
       "updatedAt": "2026-10-06T18:29:04Z"
     },
     {
-      "id": "hn:49987076",
-      "title": "Strands Decider 2B: a small, open-source decision model",
-      "description": "Strands Labs released Decider 2B, a small \"decision model\" that picks between fixed options or outputs a numeric score in a single fast pass instead of generating free text. It trades flexibility for low latency and guaranteed valid answers, making it useful for routing and classification in agent pipelines.",
-      "content": "Article: https://strandsagents.com/blog/introducing-strands-decider/\nHN discussion: https://news.ycombinator.com/item?id=49987076",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "author": "gmays",
-      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
-      "createdAt": "2026-10-07T02:02:11Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-07T02:02:11Z"
-    },
-    {
       "id": "reading:python-3-15-performance-grinberg",
       "title": "How fast is Python 3.15?",
       "description": "Miguel Grinberg reruns his informal benchmark (recursive Fibonacci and bubble sort) on the Python 3.15 release candidate and compares it against every interpreter back to 3.10. The post includes charts, tables and a conclusions section on how much faster the new release is.",
@@ -8810,24 +8792,6 @@
       "updatedAt": "2026-10-05T10:13:17Z"
     },
     {
-      "id": "hn:49991227",
-      "title": "Chrome is shipping JPEG XL decoding starting in Chrome 155",
-      "description": "Google announced that Chrome 155 adds decoding support for JPEG XL images, which offer 30-50% better compression than JPEG, lossless mode, HDR and lossless JPEG transcoding. The post explains why the decoder was reimplemented in Rust for memory safety and the performance work behind it.",
-      "content": "Article: https://developer.chrome.com/blog/jpeg-xl-in-chrome\nHN discussion: https://news.ycombinator.com/item?id=49991227",
-      "topics": [
-        "Technology",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "AshleysBrain",
-      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "createdAt": "2026-10-07T11:25:02Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-07T11:25:02Z"
-    },
-    {
       "id": "reading:ersc-when-random-isnt-random-enough",
       "title": "When random is not actually random enough",
       "description": "An explainer on modulo bias: picking an item with random() % n does not give every option an equal chance. It walks through why the uniform distribution is not preserved and how to choose fairly instead.",
@@ -8843,41 +8807,6 @@
       "type": "news",
       "status": "inbox",
       "updatedAt": "2026-10-06T20:12:05Z"
-    },
-    {
-      "id": "hn:49987679",
-      "title": "OpenWAM: an open framework for composable world-action models",
-      "description": "Stanford researchers introduce OpenWAM, a framework for robot world-action models built on Wan2.2-5B with causal pretraining on over 10,000 hours of robot video and a Mixture-of-Transformers action expert. Robot-video training raised LIBERO-Long success from 68.4% to 97.8%.",
-      "content": "Project page: https://openwam.stanford.edu/\nHN discussion: https://news.ycombinator.com/item?id=49987679",
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "ilreb",
-      "url": "https://openwam.stanford.edu/",
-      "createdAt": "2026-10-07T03:17:49Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-07T03:17:49Z"
-    },
-    {
-      "id": "hn:49988641",
-      "title": "Show HN: musql, a JIT-compiled SQLite-compatible database",
-      "description": "musql is a SQLite-compatible database that pairs a columnar storage format with a JIT compiler that turns supported query paths into native code. Its author claims up to 300x speedups over C SQLite and 1000x over Turso on supported queries.",
-      "content": "Repo: https://github.com/samyfodil/musql\nHN discussion: https://news.ycombinator.com/item?id=49988641",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "dsamy",
-      "url": "https://github.com/samyfodil/musql",
-      "createdAt": "2026-10-07T05:30:23Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-07T05:30:23Z"
     },
     {
       "id": "x:2107811268363272397",
@@ -9002,44 +8931,6 @@
       "type": "news",
       "status": "inbox",
       "updatedAt": "2026-10-07T12:11:21Z"
-    },
-    {
-      "id": "hn:49991580",
-      "section": "news",
-      "type": "news",
-      "title": "Write Like It’s 1866: LLMs Relearn Telegraphese",
-      "description": "An author-run benchmark reports 40–49% fewer output tokens for telegraph-style machine notes, with downstream question-answering near plaintext results. The post is promising but lacks a matched generic “be terse” control.",
-      "content": "The Telegraph Test covers about 50 passages and 1,300 questions. The author reports 40–49% fewer billed output tokens for several model families and cross-family recovery ratios of 0.99–1.10 when models read the compressed records. The author also notes that a generic terseness instruction was not tested and mandatory-reasoning models may lose the cost savings.\nArticle and reproducibility materials: https://fiveminutesforward.com/post/2026-10-04-telegraph-test/\nHacker News discussion: https://news.ycombinator.com/item?id=49991580",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "Theory42",
-      "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
-      "createdAt": "2026-10-07T12:04:36Z",
-      "updatedAt": "2026-10-07T12:04:36Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49986862",
-      "section": "news",
-      "type": "news",
-      "title": "ESP32-C3 Adblock stores large DNS blocklists as compact hashes in flash",
-      "description": "An open-source Pi-hole-style DNS blocker uses sorted 40-bit domain hashes in flash instead of storing domain strings in RAM. Its author reports roughly 50 KB RAM use and about 10 ms lookups on a low-cost ESP32-C3.",
-      "content": "The README describes a PlatformIO project for the ESP32-C3 that can block hundreds of thousands of domains without PSRAM. The reported maximum blocklist and firmware-over-the-air setup have different flash-capacity trade-offs; the repository documents the hardware, build process and security limits.\nRepository: https://github.com/M-Abozaid/esp32-c3-adblock\nHacker News discussion: https://news.ycombinator.com/item?id=49986862",
-      "topics": [
-        "Programming",
-        "Technology",
-        "IoT"
-      ],
-      "source": "Hacker News",
-      "author": "jayhoon",
-      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
-      "createdAt": "2026-10-07T01:39:21Z",
-      "updatedAt": "2026-10-07T01:39:21Z",
-      "status": "inbox"
     },
     {
       "id": "hn:49996437",
@@ -9173,42 +9064,6 @@
       "updatedAt": "2026-10-07T17:48:38Z"
     },
     {
-      "id": "hn:49991390",
-      "title": "Show HN: Every number in a tiny GPT, from one forward pass to one RLHF step",
-      "description": "An interactive, in-browser walkthrough of a toy GPT-2-style model where every matrix fits on screen and hovering a cell shows the exact math. It covers one token of inference, one pretraining step and one PPO iteration of RLHF.",
-      "content": "Demo: https://llm.manogya.dev\nSource: https://github.com/manogyasingh/transformer-visualisation\nHN discussion: https://news.ycombinator.com/item?id=49991390",
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "xtcntr",
-      "url": "https://llm.manogya.dev",
-      "createdAt": "2026-10-07T11:44:37Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-07T11:44:37Z"
-    },
-    {
-      "id": "hn:49988516",
-      "title": "Show HN: rGPU, a PyTorch device whose tensors live on a remote GPU",
-      "description": "rGPU keeps your Python program on your laptop, including a Mac with no CUDA, while PyTorch operations and tensors run on a remote NVIDIA machine over an SSH tunnel. A separate CUDA shim targets existing Linux CUDA programs.",
-      "content": "Repo: https://github.com/ymcrcat/rgpu\nUsage is `pip install rgpu`, then create tensors with device=\"rgpu\" and launch through `rgpu-run`. The README warns that neither protocol authenticates or encrypts connections, so keep it behind SSH.\nHN discussion: https://news.ycombinator.com/item?id=49988516",
-      "topics": [
-        "Machine Learning",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "boxstream",
-      "url": "https://github.com/ymcrcat/rgpu",
-      "createdAt": "2026-10-07T05:15:44Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-07T05:15:44Z"
-    },
-    {
       "id": "hn:49999596",
       "title": "Some Apple Watch Series 12 and Ultra 4 owners report skin irritation",
       "description": "MacRumors rounds up forum and Reddit reports of burning and redness under the sensor area on the new watches. The cause is unknown; the new models sample heart rate every five seconds and have larger ECG electrodes and LEDs, and Apple advises a good fit, keeping things clean, and seeing a doctor if irritation persists.",
@@ -9241,23 +9096,6 @@
       "type": "news",
       "status": "inbox",
       "updatedAt": "2026-10-07T20:39:38Z"
-    },
-    {
-      "id": "hn:49988230",
-      "title": "Attackers hijacked three country TLDs to mint counterfeit TLS certs for Google",
-      "description": "Google says attackers took over DNS for the .gh, .sl and .as country-code domains and used it to pass domain validation and obtain unauthorized certificates for Google and other major services. Chrome now blocks the identified certificates, and Google urges domain owners to watch Certificate Transparency logs and set restrictive CAA records.",
-      "content": "Article: https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/\nHN discussion: https://news.ycombinator.com/item?id=49988230",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "colinprince",
-      "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
-      "createdAt": "2026-10-07T04:37:05Z",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "updatedAt": "2026-10-07T04:37:05Z"
     },
     {
       "id": "reading:push-ifs-up-fors-down-algebra",
@@ -9345,22 +9183,6 @@
       "type": "news",
       "status": "inbox",
       "updatedAt": "2026-10-06T16:08:47Z"
-    },
-    {
-      "id": "hn:49991243",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
-      "description": "God of War on PSP, recompiled to WebAssembly and running in the browser.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "sn001",
-      "url": "https://github.com/snuri00/psp-web-recomp",
-      "createdAt": "2026-10-07T11:27:27Z",
-      "updatedAt": "2026-10-07T11:27:27Z"
     },
     {
       "id": "hn:50001580",
@@ -9966,6 +9788,180 @@
       "source": "Hacker News",
       "url": "https://www.tomshardware.com/software/linux/new-linux-tech-compresses-memory-in-ram-as-ram-for-452x-speedup-new-cram-method-offers-giant-boost-to-compressed-memory-reads",
       "createdAt": "2026-10-08T13:11:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50002665",
+      "section": "news",
+      "type": "news",
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "description": "A poster describes using Claude Code to identify what they believe is a previously unknown planet.",
+      "content": "A poster describes using Claude Code to identify what they believe is a previously unknown planet.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50002665",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pyduan",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "createdAt": "2026-10-08T07:07:34Z",
+      "updatedAt": "2026-10-08T07:07:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50013902",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "description": "A blog essay examines OpenAI's mathematical claims around the partition principle.",
+      "content": "A blog essay examines OpenAI's mathematical claims around the partition principle.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50013902",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "md224",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "createdAt": "2026-10-08T23:29:43Z",
+      "updatedAt": "2026-10-08T23:29:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50015236",
+      "section": "news",
+      "type": "news",
+      "title": "What should we tell our students?",
+      "description": "Terence Tao writes about what students should be told in an era of increasingly capable AI.",
+      "content": "Terence Tao writes about what students should be told in an era of increasingly capable AI.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50015236",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sajid",
+      "url": "https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/",
+      "createdAt": "2026-10-09T02:27:45Z",
+      "updatedAt": "2026-10-09T02:27:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50003796",
+      "section": "news",
+      "type": "news",
+      "title": "Yes, and",
+      "description": "An essay from the htmx project on the craft and attitude of building for the web.",
+      "content": "An essay from the htmx project on the craft and attitude of building for the web.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50003796",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Michelangelo11",
+      "url": "https://htmx.org/essays/yes-and/",
+      "createdAt": "2026-10-08T09:48:18Z",
+      "updatedAt": "2026-10-08T09:48:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50013610",
+      "section": "news",
+      "type": "news",
+      "title": "Bevy 0.20",
+      "description": "The Bevy open-source game engine announces its 0.20 release.",
+      "content": "The Bevy open-source game engine announces its 0.20 release.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50013610",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Philpax",
+      "url": "https://bevy.org/news/bevy-0-20/",
+      "createdAt": "2026-10-08T22:57:50Z",
+      "updatedAt": "2026-10-08T22:57:50Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50016312",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "description": "A Show HN project: the classic game Quake ported to safe Rust, playable directly in the browser.",
+      "content": "A Show HN project: the classic game Quake ported to safe Rust, playable directly in the browser.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50016312",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://quake-srp.pages.dev/",
+      "createdAt": "2026-10-09T05:22:58Z",
+      "updatedAt": "2026-10-09T05:22:58Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50016489",
+      "section": "news",
+      "type": "news",
+      "title": "MXC - a sandboxed code execution system",
+      "description": "Microsoft's open-source MXC project provides a sandboxed system for executing code.",
+      "content": "Microsoft's open-source MXC project provides a sandboxed system for executing code.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50016489",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nreece",
+      "url": "https://github.com/microsoft/mxc",
+      "createdAt": "2026-10-09T05:51:29Z",
+      "updatedAt": "2026-10-09T05:51:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50015515",
+      "section": "news",
+      "type": "news",
+      "title": "Keyboard differences between Windows and Macs",
+      "description": "A detailed comparison of how keyboards differ between Windows and Mac machines.",
+      "content": "A detailed comparison of how keyboards differ between Windows and Mac machines.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50015515",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sohkamyung",
+      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "createdAt": "2026-10-09T03:08:05Z",
+      "updatedAt": "2026-10-09T03:08:05Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49984923",
+      "section": "news",
+      "type": "news",
+      "title": "Sharing AI progress in mathematics",
+      "description": "OpenAI shares an update on its progress applying AI to mathematics.",
+      "content": "OpenAI shares an update on its progress applying AI to mathematics.\n\nHacker News discussion: https://news.ycombinator.com/item?id=49984923",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "OfficialTurkey",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "createdAt": "2026-10-06T22:17:21Z",
+      "updatedAt": "2026-10-06T22:17:21Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49986882",
+      "section": "news",
+      "type": "news",
+      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "description": "A homeowner hired an illustrator to draw their house and turned the artwork into a Home Assistant dashboard.",
+      "content": "A homeowner hired an illustrator to draw their house and turned the artwork into a Home Assistant dashboard.\n\nHacker News discussion: https://news.ycombinator.com/item?id=49986882",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "soheilpro",
+      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+      "createdAt": "2026-10-07T01:41:03Z",
+      "updatedAt": "2026-10-07T01:41:03Z",
       "status": "inbox"
     }
   ]
