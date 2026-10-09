@@ -10406,6 +10406,62 @@
       "status": "inbox"
     },
     {
+      "id": "hn:50019911",
+      "section": "news",
+      "type": "news",
+      "title": "Deno team joins Cloudflare; standalone runtime development ends after one year",
+      "description": "The Deno team joins Cloudflare to help make Workers self-hostable by merging ideas and code from celld into workerd; Deno runtime development ends after one year, and Deploy shuts down after six months.",
+      "content": "Ryan Dahl says the Deno team will join Cloudflare and work with its Workers and Durable Objects teams to make the programming model easier to self-host. Cloudflare plans to merge ideas and code from celld into workerd. The Deno runtime remains open source and will receive monthly bug-fix and security releases for one year, after which Deno will stop developing it. Deno Deploy is scheduled to operate for six more months before shutdown; JSR will continue with its infrastructure moving to Cloudflare.\n\nDeno announcement: https://deno.com/blog/cloudflare\nCloudflare's companion post: https://blog.cloudflare.com/deno-joins-cloudflare/",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://deno.com/blog/cloudflare",
+      "createdAt": "2026-10-09T13:03:48Z",
+      "updatedAt": "2026-10-09T13:03:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108637164301119691",
+      "section": "news",
+      "type": "news",
+      "title": "Microsoft Decision-1 targets fast, calibrated scores for structured choices",
+      "description": "A new Microsoft model returns calibrated probabilities for fixed-choice tasks such as routing, classification, verification, and agent control; it is live in Microsoft Foundry, with OpenRouter support planned.",
+      "content": "Microsoft describes Decision-1 as a post-trained Qwen3.5-9B model that scores predefined answer options in a single pass rather than generating a full response. It supports yes/no, multiple choice, ratings, and rubric-based grading for applications and agent workflows. Microsoft's own evaluation reports top accuracy across 36 benchmarks (about 150,000 held-out questions) and lower latency than its compared models; these are vendor-reported results. The model is available in Microsoft Foundry and expected soon through OpenRouter.\n\nOfficial article: https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "author": "Microsoft Developer (@msdev)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/msdev/status/2108637164301119691",
+      "createdAt": "2026-10-09T19:14:11.210Z",
+      "updatedAt": "2026-10-09T19:14:11.210Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50024499",
+      "section": "news",
+      "type": "news",
+      "title": "Carrier-Explode decodes iPhone, Pixel and Galaxy carrier settings",
+      "description": "An open archive compares APN, VoLTE, Wi-Fi Calling, 5G and related carrier settings across major phone firmware, with a JSON API and daily CC0 dataset.",
+      "content": "Carrier-Explode continuously archives carrier settings and decodes common baseband configurations. Its comparisons surface APNs, VoLTE, Wi-Fi Calling, and 5G support by carrier and device, as well as changes between builds. The project also provides a JSON API and a daily CC0 dataset. The maintainers note that decoder work is ongoing and invite contributions.\n\nProject: https://carrierexplode.com/\nHacker News discussion: https://news.ycombinator.com/item?id=50024499",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "simplyalec",
+      "url": "https://carrierexplode.com/",
+      "createdAt": "2026-10-09T18:10:55Z",
+      "updatedAt": "2026-10-09T18:10:55Z",
+      "status": "inbox"
+    },
+    {
       "id": "hn:49986882",
       "section": "news",
       "type": "news",
