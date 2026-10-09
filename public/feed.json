@@ -2,6 +2,246 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2108176088585400775",
+      "section": "news",
+      "type": "news",
+      "title": "Why coding agents still lag for data science and ML workflows",
+      "description": "Eldar Hasanov explores gaps that leave AI agents behind in data science and AI/ML development compared with general software coding.",
+      "content": "If you ever felt that agents are a bit behind in data science and AI/ML development space, I'm exploring this issue in this article!",
+      "author": "Eldar Hasanov (@eldar_hsnv)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/eldar_hsnv/status/2108176088585400775",
+      "createdAt": "2026-10-08T12:42:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108293022148370835",
+      "section": "news",
+      "type": "news",
+      "title": "watchOS workout apps: append-only event log sync when the phone reconnects",
+      "description": "A watch-only workout app author describes keeping an append-only event log on the watch and replaying it to the phone on reconnect, and asks how others sync with CloudKit or HealthKit.",
+      "content": "watchOS question: my workout app runs fully on the watch… The watch keeps an append-only event log… phone replays it on reconnect. Anyone syncing watch-only sessions differently? CloudKit, HealthKit?",
+      "author": "Plusonelifts (@Plusoneliftsapp)",
+      "topics": [
+        "Wearables",
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Plusoneliftsapp/status/2108293022148370835",
+      "createdAt": "2026-10-08T20:26:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108082175770046464",
+      "section": "news",
+      "type": "news",
+      "title": "Cut agent token waste on xcodebuild logs with rules and a hook",
+      "description": "An audit of 1,674 agent sessions found replies were only 0.6% of tokens; most spend was re-reading build logs. The post shares 10 rules plus a hook for Claude Code, Codex, and Cursor.",
+      "content": "Your agent isn't burning tokens by talking. It's re-reading your xcodebuild logs… @twannl audited 1,674 agent sessions: replies = 0.6% of tokens. The fix: 10 rules + one hook for Claude Code, Codex & Cursor\n\nhttps://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor/",
+      "author": "Aryaveer (@aryaveer_bajpai)",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/aryaveer_bajpai/status/2108082175770046464",
+      "createdAt": "2026-10-08T06:28:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108410119688167871",
+      "section": "news",
+      "type": "news",
+      "title": "RocketTrace: turn Xcode Instruments traces into ranked findings for AI agents",
+      "description": "Aryaveer introduces RocketTrace, which converts .trace exports into ranked findings so coding agents spend far fewer tokens while catching more bugs.",
+      "content": "If your coding agent is chewing Instruments exports for lunch, try this. RocketTrace turns a .trace into ranked findings first. Benchmark: more bugs caught, ~6x fewer tokens\n\nhttps://www.avanderlee.com/ai-development/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
+      "author": "Aryaveer (@aryaveer_bajpai)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/aryaveer_bajpai/status/2108410119688167871",
+      "createdAt": "2026-10-09T04:11:59Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108440187894452506",
+      "section": "news",
+      "type": "news",
+      "title": "Open Minis plans to open-source iCTRL iPhone automation for AI agents",
+      "description": "Open Minis says it will open-source iCTRL, an internal tool that lets AI agents control an iPhone wirelessly or on-device for development and testing.",
+      "content": "We're excited to open-source iCTRL soon — the internal iPhone automation tool we've relied on to develop, test, and polish Open Minis. iCTRL lets any AI agent safely and efficiently control an iPhone — either wirelessly over the local network or directly on-device…",
+      "author": "Open Minis (@OpenMinis)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/OpenMinis/status/2108440187894452506",
+      "createdAt": "2026-10-09T06:11:28Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108374327980933516",
+      "section": "news",
+      "type": "news",
+      "title": "Helix Foundry: open-source company ontology on HelixDB and DuckDB",
+      "description": "Lam Sambert open-sourced Helix Foundry, an ontology builder using HelixDB on S3 and DuckDB for transforms and analysis.",
+      "content": "I just KILLED Palantir! Foundry lets you build your own company ontology. It uses @helixdb for the s3-backed ontology and @duckdb for transforming and analysing the data. It's open source so check it out\n\nhttps://github.com/HelixDB/helix-foundry",
+      "author": "Lam Sambert (@georgecurtiss)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/georgecurtiss/status/2108374327980933516",
+      "createdAt": "2026-10-09T01:49:46Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108465299611873626",
+      "section": "news",
+      "type": "news",
+      "title": "Namespace Labs joins Omacom Foundation with ARM compute patronage",
+      "description": "DHH says Namespace Labs is contributing $100k/year in compute to the Omacom Foundation, aimed at Apple Silicon ARM builds and QA.",
+      "content": "I'm delighted to welcome @namespacelabs to the Omacom Foundation as a Distinguished Corporate Patron, contributing $100,000 a year in compute that we're plowing straight into ARM builds and QA. We will push these Apple Silicon chips to the max!\n\nhttps://omarchy.org/news/2026/10/namespace-joins-as-a-distinguished-corporate-patron/",
+      "author": "DHH (@dhh)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/dhh/status/2108465299611873626",
+      "createdAt": "2026-10-09T07:51:15Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108531407786242389",
+      "section": "news",
+      "type": "news",
+      "title": "Larger animated UI elements should move slower to feel heavier",
+      "description": "Emil Kowalski notes that bigger on-screen elements and longer travel distances need slower, longer animations so motion feels physically weighted.",
+      "content": "The bigger an animated element is, the slower it should move. Notice how the hand on the right moves much slower than the cursors on the left. That's because it feels heavier. The same applies to distance. The more an element has to travel, the longer the animation should be.",
+      "author": "Emil Kowalski (@emilkowalski)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/emilkowalski/status/2108531407786242389",
+      "createdAt": "2026-10-09T12:13:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108528029915848840",
+      "section": "news",
+      "type": "news",
+      "title": "7 open-source apps worth paying for in 2026",
+      "description": "ZDNET highlights seven open-source apps that are strong enough to justify paid support or hosting in 2026.",
+      "content": "Article: https://www.zdnet.com/tech/7-open-source-apps-worth-paying-for-in-2026/\n\n7 open-source apps worth paying for in 2026",
+      "author": "ZDNET (@ZDNET)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ZDNET/status/2108528029915848840",
+      "createdAt": "2026-10-09T12:00:31Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50008642",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: AI SRE Arena, an Open Benchmark for AI SRE Agents on Kubernetes",
+      "description": "AI SRE Arena is an open benchmark that scores AI SRE agents on Kubernetes incident-style tasks. It gives a reproducible way to compare agent ops skills beyond chat demos.",
+      "content": "Show HN open benchmark for K8s AI SRE agents — https://github.com/edgedelta/project-arena",
+      "author": "by emrahsamdan",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/edgedelta/project-arena",
+      "createdAt": "2026-10-08T17:13:08Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50015074",
+      "section": "news",
+      "type": "news",
+      "title": "Reducing undefined behavior in the C language",
+      "description": "LWN covers ongoing work to shrink undefined behavior in C, including language and tooling changes that make more programs well-defined without breaking C’s low-level model.",
+      "content": "LWN article on reducing C undefined behavior — https://lwn.net/Articles/1095811/",
+      "author": "by signa11",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://lwn.net/Articles/1095811/",
+      "createdAt": "2026-10-09T02:02:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49977351",
+      "section": "news",
+      "type": "news",
+      "title": "A minimal kernel in Swift, running in QEMU",
+      "description": "A walkthrough of building a minimal OS kernel in Swift that boots under QEMU. Explores Swift beyond apps as a systems language with bare-metal constraints.",
+      "content": "Technical post: Swift kernel on QEMU — https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
+      "author": "by surprisetalk",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
+      "createdAt": "2026-10-06T12:20:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49988516",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
+      "description": "Rgpu adds a PyTorch device backend so tensors and compute live on a remote GPU over the network. Useful for training or inference when the local machine has no accelerator.",
+      "content": "Show HN open-source PyTorch remote-GPU device — https://github.com/ymcrcat/rgpu",
+      "author": "by boxstream",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/ymcrcat/rgpu",
+      "createdAt": "2026-10-07T05:15:44Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50009634",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
+      "description": "Pocketty is an iPhone SSH terminal that notifies you when a remote coding agent is blocked waiting for input. Aimed at developers who leave long agent sessions running on servers.",
+      "content": "Show HN iOS app: SSH client with agent-block push alerts — https://pocketty.app/",
+      "author": "by lukeed",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://pocketty.app/",
+      "createdAt": "2026-10-08T18:11:52Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2107546569654636883",
       "section": "news",
       "type": "news",
