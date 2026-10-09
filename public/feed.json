@@ -2,6 +2,224 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2107878924831379676",
+      "section": "news",
+      "type": "news",
+      "title": "Liquid AI Open d1: open-weight decision models",
+      "description": "Open-weight \"decision\" models that return a calibrated answer in one forward pass instead of generating tokens (d1-3B and d1-omni-600M), aimed at edge devices.",
+      "author": "@liquidai",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/liquidai/status/2107878924831379676",
+      "createdAt": "2026-10-07T17:01:12Z",
+      "status": "inbox",
+      "content": "Open-weight \"decision\" models that return a calibrated answer in one forward pass instead of generating tokens (d1-3B and d1-omni-600M), aimed at edge devices.\n\nLink: https://www.liquid.ai/blog/d1-open"
+    },
+    {
+      "id": "reading:jetbrains-mellum2-1",
+      "section": "news",
+      "type": "news",
+      "title": "Mellum2.1: JetBrains' open 12B MoE model for coding agents",
+      "description": "JetBrains' 12B mixture-of-experts coding model (2.5B active), Apache 2.0, RL-trained to explore a repo, edit and verify. Built for local coding agents.",
+      "content": "JetBrains' 12B mixture-of-experts coding model (2.5B active), Apache 2.0, RL-trained to explore a repo, edit and verify. Built for local coding agents.",
+      "author": "JetBrains",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+      "createdAt": "2026-10-09T12:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108249739414147259",
+      "section": "news",
+      "type": "news",
+      "title": "lithos-metal: Apple Silicon megakernels plus speculative decoding",
+      "description": "Open-source Apple Silicon megakernels plus speculative decoding. Claims 200+ tok/s for a 27B model on one M5 Max.",
+      "author": "@JiaZhihao",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/JiaZhihao/status/2108249739414147259",
+      "createdAt": "2026-10-08T17:34:41Z",
+      "status": "inbox",
+      "content": "Open-source Apple Silicon megakernels plus speculative decoding. Claims 200+ tok/s for a 27B model on one M5 Max.\n\nLink: https://github.com/lithos-ai/lithos-metal"
+    },
+    {
+      "id": "x:2108313456420270406",
+      "section": "news",
+      "type": "news",
+      "title": "dash: open-source personal agent for email and calendar",
+      "description": "Open-source personal agent that scans email and calendar, flags things you'd forget, and acts on them.",
+      "author": "@mlg27_",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/mlg27_/status/2108313456420270406",
+      "createdAt": "2026-10-08T21:47:53Z",
+      "status": "inbox",
+      "content": "Open-source personal agent that scans email and calendar, flags things you'd forget, and acts on them."
+    },
+    {
+      "id": "x:2108217877031715113",
+      "section": "news",
+      "type": "news",
+      "title": "OhMyGame: one-person game studio built around an AI agent",
+      "description": "One-person game studio built around an AI agent that builds the game and then plays it; bring your own model.",
+      "author": "@dihuang111",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/dihuang111/status/2108217877031715113",
+      "createdAt": "2026-10-08T15:28:05Z",
+      "status": "inbox",
+      "content": "One-person game studio built around an AI agent that builds the game and then plays it; bring your own model."
+    },
+    {
+      "id": "x:2108238639100805218",
+      "section": "news",
+      "type": "news",
+      "title": "Superfluid: local multi-agent LLM server",
+      "description": "Local multi-agent LLM server that lets interactive agents preempt batch work.",
+      "author": "@basecmpt",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/basecmpt/status/2108238639100805218",
+      "createdAt": "2026-10-08T16:50:35Z",
+      "status": "inbox",
+      "content": "Local multi-agent LLM server that lets interactive agents preempt batch work.\n\nLink: https://github.com/basecompute/superfluid"
+    },
+    {
+      "id": "x:2108388089731436546",
+      "section": "news",
+      "type": "news",
+      "title": "ESP Vocat desk bot: fully local voice agent on an ESP32 robot",
+      "description": "Fully local voice agent on an ESP32 robot (Parakeet ASR, Kokoro TTS, Hermes agent) that asks out loud before risky commands.",
+      "author": "@vineethkalluru",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/vineethkalluru/status/2108388089731436546",
+      "createdAt": "2026-10-09T02:44:27Z",
+      "status": "inbox",
+      "content": "Fully local voice agent on an ESP32 robot (Parakeet ASR, Kokoro TTS, Hermes agent) that asks out loud before risky commands.\n\nLink: https://github.com/dreamhunter02/jarvis-desk-bot"
+    },
+    {
+      "id": "x:2108493782513561728",
+      "section": "news",
+      "type": "news",
+      "title": "Pest-nest VLM agent: identifying pests from video with a local model",
+      "description": "DIY project that identifies pests from video with a local vision-language model and writes a risk PDF.",
+      "author": "@KutluhanAktar",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/KutluhanAktar/status/2108493782513561728",
+      "createdAt": "2026-10-09T09:44:26Z",
+      "status": "inbox",
+      "content": "DIY project that identifies pests from video with a local vision-language model and writes a risk PDF.\n\nLink: https://www.hackster.io/kutluhan-aktar/a-pest-nest-identification-ai-agent-from-a-failed-bee-vacuum-66edfd"
+    },
+    {
+      "id": "x:2108219601469550720",
+      "section": "news",
+      "type": "news",
+      "title": "BetterWispr: free on-device Mac dictation",
+      "description": "Free on-device Mac dictation: hold a shortcut, speak, and get cleaned-up text in any app.",
+      "author": "@code_kartik",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/code_kartik/status/2108219601469550720",
+      "createdAt": "2026-10-08T15:34:56Z",
+      "status": "inbox",
+      "content": "Free on-device Mac dictation: hold a shortcut, speak, and get cleaned-up text in any app.\n\nLink: https://betterwispr.com"
+    },
+    {
+      "id": "x:2108390106856071321",
+      "section": "news",
+      "type": "news",
+      "title": "Modly: local open-source image-to-3D mesh app",
+      "description": "Local open-source app that turns an image into a 3D mesh, no cloud.",
+      "author": "@oliviscusAI",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/oliviscusAI/status/2108390106856071321",
+      "createdAt": "2026-10-09T02:52:28Z",
+      "status": "inbox",
+      "content": "Local open-source app that turns an image into a 3D mesh, no cloud.\n\nLink: https://github.com/lightningpixel/modly"
+    },
+    {
+      "id": "ideas:local-voice-desk-bot",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Local voice desk bot",
+      "description": "Wake word, then STT, then a local tool-using LLM agent, then TTS, with a spoken confirm before shell commands.",
+      "content": "Stack: USB mic or $5-15 ESP32, Whisper/Parakeet, Kokoro/Piper, Ollama, Python FastAPI bridge.\n\nHard parts: Barge-in and blocking destructive tools.\n\nEffort: A weekend mic-only, 1-2 weeks with the robot.\n\nInspired by: ESP Vocat desk bot - https://x.com/vineethkalluru/status/2108388089731436546",
+      "nextStep": "Prototype the mic-only pipeline: Parakeet STT -> Ollama -> Kokoro TTS.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "DaVinci digest",
+      "createdAt": "2026-10-09T17:21:25Z",
+      "status": "explore"
+    },
+    {
+      "id": "ideas:push-to-talk-dictation-cleanup",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Push-to-talk dictation that removes filler words",
+      "description": "Global hotkey, local whisper.cpp, a small LLM cleanup pass, paste at cursor.",
+      "content": "Stack: Swift on Mac or a cross-platform tray app.\n\nHard parts: Fast paste into any app and macOS accessibility permissions.\n\nEffort: A few days for a Mac MVP.\n\nInspired by: BetterWispr - https://x.com/code_kartik/status/2108219601469550720",
+      "nextStep": "Build a Swift menu-bar MVP: global hotkey -> record -> whisper.cpp transcription -> paste at cursor.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "DaVinci digest",
+      "createdAt": "2026-10-09T17:21:25Z",
+      "status": "explore"
+    },
+    {
+      "id": "ideas:fast-decision-layer-for-agents",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Fast decision layer for agents",
+      "description": "Turn yes/no, routing and spam calls into typed multiple-choice questions answered by a small model instead of a full LLM, exposed as a tool behind a FastAPI sidecar.",
+      "content": "Stack: Small decision model (e.g. Open d1) behind a FastAPI sidecar, exposed as an agent tool.\n\nHard parts: Good task schemas and calibration.\n\nEffort: 1-2 weeks.\n\nInspired by: Liquid AI Open d1 - https://x.com/liquidai/status/2107878924831379676",
+      "nextStep": "Define three typed decision schemas (yes/no, routing, spam) and serve d1-3B behind a FastAPI endpoint.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "DaVinci digest",
+      "createdAt": "2026-10-09T17:21:25Z",
+      "status": "explore"
+    },
+    {
       "id": "x:2108176088585400775",
       "section": "news",
       "type": "news",
