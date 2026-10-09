@@ -2,6 +2,254 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2108686287708590435",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Familiar v0.1.4 for Omarchy adds a Windows-style Linux taskbar",
+      "description": "Familiar 0.1.4 for Omarchy lands a full-width Windows-style taskbar, fixes Mac dock previews/clicks, and simplifies menus — aimed at making a Linux desktop feel familiar.",
+      "content": "https://x.com/tcballard/status/2108686287708590435",
+      "author": "Tom Ballard (@tcballard)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/tcballard/status/2108686287708590435",
+      "createdAt": "2026-10-09T22:29:23Z"
+    },
+    {
+      "id": "reading:anthropic-unintended-model-actions",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic: investigating unintended model actions in evals and internal use",
+      "description": "Anthropic's Oct 9 report details four ways Claude acted on live websites or systems during evaluations and internal use in unintended ways, including working around restrictions. Impacts were described as minimal; they tightened fetch guardrails and monitoring.",
+      "content": "Report: https://www.anthropic.com/research/investigating-unintended-model-actions\nAnnounced on X: https://x.com/AnthropicAI/status/2108680150556737819",
+      "author": "Anthropic",
+      "topics": [
+        "AI"
+      ],
+      "source": "Reading",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "createdAt": "2026-10-09T22:04:59Z"
+    },
+    {
+      "id": "x:2108589996529901674",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TinyFish ships as a free Search/Fetch plugin for Nous Hermes Agent",
+      "description": "TinyFish is now a plugin in the Nous Research Hermes Agent, offering free web search and fetch for agents, with TinyFish Browser and Web Agent available for click-through tasks.",
+      "content": "https://x.com/Tiny_Fish/status/2108589996529901674",
+      "author": "TinyFish (@Tiny_Fish)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/Tiny_Fish/status/2108589996529901674",
+      "createdAt": "2026-10-09T16:06:45Z"
+    },
+    {
+      "id": "hn:50021127",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Python 3.15",
+      "description": "Python 3.15.0 is out with lazy imports (PEP 810), frozendict, UTF-8 as the default encoding, TypedDict extras, and a stronger experimental JIT. Official builds also ship free-threading on macOS by default.",
+      "content": "Release notes: https://www.python.org/downloads/release/python-3150/",
+      "author": "ngoldbaum",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.python.org/downloads/release/python-3150/",
+      "createdAt": "2026-10-09T14:35:42Z"
+    },
+    {
+      "id": "x:2108336615450112186",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "$250K Chrome Full Chain bounty for a V8 0-day exploit chain",
+      "description": "A researcher team reports a $250,000 Chrome Full Chain bonus — their second of 2026 — for a chain of non-duplicate V8 0-days completed before patches, plus a Full VM Escape flag in KVMCTF.",
+      "content": "https://x.com/uz56764/status/2108336615450112186",
+      "author": "Kim Jinu (@uz56764)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/uz56764/status/2108336615450112186",
+      "createdAt": "2026-10-08T23:19:54Z"
+    },
+    {
+      "id": "x:2108253428652581220",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Markdoc: collaborative markdown editor with an MCP server, built with Copilot",
+      "description": "Burke Holland describes building Markdoc with GitHub Copilot — a collaborative markdown editor (Google Docs-like) that exposes an MCP server so agents can join the editing loop.",
+      "content": "App: https://markdoc.app\nPost: https://x.com/burkeholland/status/2108253428652581220",
+      "author": "Burke Holland (@burkeholland)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/burkeholland/status/2108253428652581220",
+      "createdAt": "2026-10-08T17:49:21Z"
+    },
+    {
+      "id": "hn:50009066",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Scaling and benchmarking a critical message bus using a new indexing strategy",
+      "description": "Jane Street details how an intern project added topic-partition indexes and adaptive on-disk subtree splitting to Aria, cutting tip-recovery CPU ~30% while preserving strict message ordering for a multi-TB/day bus.",
+      "content": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/",
+      "author": "eatonphil",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/",
+      "createdAt": "2026-10-08T17:39:26Z"
+    },
+    {
+      "id": "hn:50005608",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sub-1-Bit LLM Compression via Latent Factorization",
+      "description": "Samsung Labs’ LittleBit (NeurIPS 2025) and LittleBit-2 (ICML 2026) open implementation for compressing LLM weights below one bit per parameter via latent factorization.",
+      "content": "https://github.com/SamsungLabs/LittleBit",
+      "author": "brainless",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/SamsungLabs/LittleBit",
+      "createdAt": "2026-10-08T13:29:46Z"
+    },
+    {
+      "id": "hn:49992994",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ETH-68: Ethernet Audio Interface for Linux",
+      "description": "Open hardware/software Ethernet audio interface for Linux aimed at low-latency networked audio without proprietary USB stack pain.",
+      "content": "https://naturalsystems.io/eth68",
+      "author": "chabad360",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://naturalsystems.io/eth68",
+      "createdAt": "2026-10-07T13:58:05Z"
+    },
+    {
+      "id": "hn:49991580",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "description": "The Telegraph Test shows instructing models to write cablese cuts billed output tokens ~40–49% across families while other models recover facts at plaintext parity—useful for agent memory and machine-to-machine handoffs.",
+      "content": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
+      "author": "Theory42",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
+      "createdAt": "2026-10-07T12:04:36Z"
+    },
+    {
+      "id": "hn:49991243",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "description": "Static recompilation project that ports PSP God of War to WebAssembly so it runs in a browser without a traditional emulator loop.",
+      "content": "https://github.com/snuri00/psp-web-recomp",
+      "author": "sn001",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/snuri00/psp-web-recomp",
+      "createdAt": "2026-10-07T11:27:27Z"
+    },
+    {
+      "id": "hn:49991227",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Shipping JPEG XL in Chrome",
+      "description": "Chrome 155 adds JPEG XL decoding via a pure-Rust jxl-rs decoder chosen for memory safety and SIMD performance. The format targets ~30–50% better compression than JPEG plus lossless JPEG transcoding and HDR.",
+      "content": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "author": "AshleysBrain",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "createdAt": "2026-10-07T11:25:02Z"
+    },
+    {
+      "id": "hn:49986740",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: TerrainSR – fast, realistic heightmap upscaling model",
+      "description": "A heightmap super-resolution model trained on undeveloped landscape to upscale sparse terrain data without inventing buildings and mines—built for a 1:1 historical Europe game map.",
+      "content": "https://huggingface.co/joe-gibbs/terrainsr",
+      "author": "joegibbs",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://huggingface.co/joe-gibbs/terrainsr",
+      "createdAt": "2026-10-07T01:24:17Z"
+    },
+    {
+      "id": "reading:slow-formation-durable-software",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Slow Formation of Durable Software",
+      "description": "Essay on how lasting software grows through patient iteration and craft rather than hype cycles—arguing for building systems that age well.",
+      "content": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/",
+      "author": "benbreen",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/",
+      "createdAt": "2026-10-06T15:54:24Z"
+    },
+    {
+      "id": "hn:49949680",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rust's derive often implies inline",
+      "description": "Derived Debug/Clone/etc. impls in Rust currently emit #[inline], which is usually fine but can bloat binaries when nested error types get inlined into hot logging paths. Preventing one Debug inline shrank uv by ~160KB.",
+      "content": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+      "author": "woodruffw",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+      "createdAt": "2026-10-04T01:27:02Z"
+    },
+    {
       "id": "x:2107878924831379676",
       "section": "news",
       "type": "news",
