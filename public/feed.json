@@ -2,6 +2,259 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50021410",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Can you use autoregressive diffusion to generate market data?",
+      "description": "Jane Street technical post on training autoregressive diffusion models to synthesize realistic market-data paths for research and simulation.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50021410",
+      "author": "jsomers",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "createdAt": "2026-10-09T14:56:13Z"
+    },
+    {
+      "id": "hn:50019451",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Hetzner Cloud network stack – history and technical overview",
+      "description": "Hetzner’s technical overview of the history and design of its cloud network stack.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50019451",
+      "author": "cnkk",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+      "createdAt": "2026-10-09T12:20:55Z"
+    },
+    {
+      "id": "hn:50027853",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Compiling Rust to readable C with Eurydice",
+      "description": "LWN covers Eurydice, a toolchain that compiles a subset of Rust into readable C for formal verification and safer systems work.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50027853",
+      "author": "peter_d_sherman",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://lwn.net/Articles/1055211/",
+      "createdAt": "2026-10-09T23:28:36Z"
+    },
+    {
+      "id": "hn:49978595",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I turned my iPhone and a $20 smart plug into an f-stop timer",
+      "description": "Show HN: DIY darkroom f-stop timer built from an iPhone and a cheap smart plug.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49978595",
+      "author": "pentakkusu",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://peterszentkiralyi.eu/darkplug/",
+      "createdAt": "2026-10-06T13:58:07Z"
+    },
+    {
+      "id": "hn:49988516",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rgpu – a PyTorch device whose tensors live on a remote GPU",
+      "description": "Show HN: Rgpu adds a PyTorch device whose tensors live on a remote GPU (GitHub).",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49988516",
+      "author": "boxstream",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/ymcrcat/rgpu",
+      "createdAt": "2026-10-07T05:15:44Z"
+    },
+    {
+      "id": "hn:50031653",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple/macOS silently removed from official Unix registry",
+      "description": "Discussion notes that macOS no longer appears on the Open Group’s official Unix product register, after years of certified Unix branding.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50031653",
+      "author": "john_alan",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.opengroup.org//openbrand/register/",
+      "createdAt": "2026-10-10T10:57:31Z"
+    },
+    {
+      "id": "hn:49981264",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How to head into VR without wearing a headset",
+      "description": "Kyushu University research page on experiencing VR without wearing a headset.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49981264",
+      "author": "Betelbuddy",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.kyushu-u.ac.jp/en/researches/view/414/",
+      "createdAt": "2026-10-06T17:07:12Z"
+    },
+    {
+      "id": "x:2108777962053292398",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Devin can draw GPT usage from a personal ChatGPT plan",
+      "description": "Cognition says personal ChatGPT Go/Plus/Pro plans can connect to Devin so GPT model usage draws from that quota. Community notes say a paid Devin Pro, Max, or Teams plan is still required.",
+      "content": "https://x.com/thsottiaux/status/2108777962053292398",
+      "author": "Tibo (@thsottiaux)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/thsottiaux/status/2108777962053292398",
+      "createdAt": "2026-10-10T04:33:40Z"
+    },
+    {
+      "id": "x:2108778939057664357",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Codex team: 300k context is the default for cost/quality, not a hard ceiling",
+      "description": "OpenAI Codex engineer Tibo says they set a 300k context default because it performed better in their numbers; 1M is possible but costs more usage quota.",
+      "content": "https://x.com/thsottiaux/status/2108778939057664357",
+      "author": "Tibo (@thsottiaux)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/thsottiaux/status/2108778939057664357",
+      "createdAt": "2026-10-10T04:37:32Z"
+    },
+    {
+      "id": "x:2108664392468611130",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "audio.cpp and photon: sub-35ms time-to-first-audio on open voice models",
+      "description": "Eric Bezzam reports audio.cpp and photon bringing low-latency streaming to open models — under 35 ms p50/p95 time-to-first-audio on an A100 — aimed at voice agents.",
+      "content": "Quoted via https://x.com/vikhyatk/status/2108664392468611130",
+      "author": "vik (@vikhyatk)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/vikhyatk/status/2108664392468611130",
+      "createdAt": "2026-10-09T21:02:22Z"
+    },
+    {
+      "id": "x:2108875202834628808",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI: set .axisBehavior(.verticalPreferred) so custom views can go vertical",
+      "description": "Sarun W. notes that the system assumes custom views stay horizontal unless you opt in with .axisBehavior(.verticalPreferred).",
+      "content": "https://x.com/sarunw/status/2108875202834628808",
+      "author": "Sarun W. (@sarunw)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/sarunw/status/2108875202834628808",
+      "createdAt": "2026-10-10T11:00:04Z"
+    },
+    {
+      "id": "reading:google-ai-edge-foresight",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google AI Edge Foresight: free local meeting notes on Apple Silicon Macs",
+      "description": "Google’s experimental Foresight Mac app turns shorthand into fuller meeting notes and answers live questions entirely on-device with EmbeddingGemma 2 and Gemma 4 — no cloud subscription; Apple Silicon only.",
+      "content": "Google Developers: https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/\nAnnounced on X: https://x.com/Saboo_Shubham_/status/2108799961911738549",
+      "author": "Google AI Edge",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "url": "https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/",
+      "createdAt": "2026-10-10T06:01:05Z"
+    },
+    {
+      "id": "reading:why-coding-agents-so-dumb",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why are coding agents so dumb?",
+      "description": "Michael Lynch argues coding-agent harnesses lag the underlying models: weak task management, no real sandboxing, poor plans, and over-reliance on the user to pick models and keep work moving.",
+      "content": "https://mtlynch.io/why-are-coding-agents-so-dumb/\nDiscussed on HN: https://news.ycombinator.com/item?id=50020947",
+      "author": "Michael Lynch",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "createdAt": "2026-10-09T14:21:31Z"
+    },
+    {
+      "id": "reading:qwen3-aman-primer",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Primer: Qwen3 and Qwen3-VL architecture, training, and multimodal agents",
+      "description": "Aman’s long primer walks through Qwen3’s hybrid thinking/non-thinking design, MoE efficiency, reasoning RL, distillation, and how Qwen3-VL extends that stack to multimodal reasoning and visual agents.",
+      "content": "https://qwen3.aman.ai\nAnnounced on X: https://x.com/i_amanchadha/status/2108801391108182230",
+      "author": "Aman Chadha",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "url": "https://qwen3.aman.ai",
+      "createdAt": "2026-10-10T06:06:45Z"
+    },
+    {
+      "id": "reading:avanderlee-agent-token-usage",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How to reduce token usage in Claude Code, Codex, and Cursor",
+      "description": "Antoine van der Lee audited 1,674 agent sessions and found replies were only 0.6% of tokens; most spend was re-reading context like raw xcodebuild logs. He shares global rules plus a PreToolUse hook that pipes builds through xcsift.",
+      "content": "https://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor/",
+      "author": "Antoine van der Lee",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor/",
+      "createdAt": "2026-10-08T06:28:51Z"
+    },
+    {
       "id": "x:2108686287708590435",
       "section": "news",
       "type": "news",
