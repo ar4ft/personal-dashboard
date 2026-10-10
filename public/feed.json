@@ -10099,6 +10099,100 @@
       "url": "https://github.com/rociiu/talorys",
       "createdAt": "2026-10-10T10:52:09Z",
       "updatedAt": "2026-10-10T10:52:09Z"
+    },
+    {
+      "id": "hn:50035530",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why DuckDB 2.0 is faster",
+      "description": "DuckDB 2.0 alpha pipelines asynchronous S3 reads with CPU decoding; MotherDuck’s author reports faster tests, while cautioning that the figures came from one M5 laptop and network.",
+      "content": "MotherDuck’s post explains how DuckDB 2.0 overlaps object-store downloads with CPU decoding. In the author’s single-machine test, a 2.2 GB S3 Parquet query took 18.8 seconds on DuckDB 1.5.5 and 7.7 seconds on 2.0 alpha. The author notes these measurements used one M5 laptop and a home connection, so they are workload-specific rather than a general benchmark. Async I/O is enabled by default through read_ahead_depth.\n\nHN discussion: https://news.ycombinator.com/item?id=50035530",
+      "author": "tosh",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "createdAt": "2026-10-10T18:08:49Z",
+      "updatedAt": "2026-10-10T18:08:49Z"
+    },
+    {
+      "id": "hn:50027257",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Can AI automate AI R&D yet?",
+      "description": "Epoch AI tested whether coding agents could devise a novel post-training method; neither model matched the reference innovation, and the report highlights limits in both research capability and evaluation.",
+      "content": "Epoch AI asked Claude Fable 5 and GPT-5.6 Sol to improve Qwen3-8B post-training over a strong GRPO baseline through an in-scope algorithmic innovation. Neither reproduced the reference on-policy self-distillation result. With generous scope assumptions, Sol reached 35% of the reference gains on short-answer tasks and 15% on coding at comparable wall-clock time; Fable’s apparent gains relied on selecting the best of many runs, which Epoch judged out of scope. The authors caution that this is a narrow, expensive evaluation with few runs and human-in-the-loop scope review, not a general verdict on all AI R&D.\n\nHN discussion: https://news.ycombinator.com/item?id=50027257",
+      "author": "merksittich",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://epoch.ai/publications/innovationeval",
+      "createdAt": "2026-10-09T22:14:40Z",
+      "updatedAt": "2026-10-09T22:14:40Z"
+    },
+    {
+      "id": "hn:50021410",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Can you use autoregressive diffusion to generate market data?",
+      "description": "Jane Street tests event-level diffusion on equities data: flow matching and atom smoothing improve one-step fits, but long autoregressive rollouts remain inaccurate.",
+      "content": "A Jane Street research intern modeled U.S. equity events as an autoregressive stream, using a transformer encoder, a categorical event head, and a diffusion head for continuous features. DDPM trajectories proved unstable; flow matching plus “atom smoothing” better captured sharp point masses such as zero time gaps. The one-step distributions improved, but the authors say the full rollouts still drift and are not accurate enough to be realistic; hand-engineering a category for each discontinuity may also fail to scale.\n\nHN discussion: https://news.ycombinator.com/item?id=50021410",
+      "author": "jsomers",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "createdAt": "2026-10-09T14:56:13Z",
+      "updatedAt": "2026-10-09T14:56:13Z"
+    },
+    {
+      "id": "hn:50016956",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft Execution Containers 1.0 adds policy-driven isolation for AI agents",
+      "description": "MXC puts explicit file, network, process, and UI permissions outside the agent workload, with process-container backends for Windows, macOS, and Linux.",
+      "content": "Microsoft Execution Containers (MXC) is a policy-driven layer for containing untrusted code, agent tools, or an entire agent. Developers declare the resources a workload needs, and the OS-backed boundary prevents the agent from granting itself more access. Process containers support Windows, macOS, and Linux; session and WSL containers are Windows-only, while microVM support is experimental. Microsoft notes that the backends have different security properties and should be selected for the workload.\n\nHN discussion: https://news.ycombinator.com/item?id=50016956",
+      "author": "smokel",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "createdAt": "2026-10-09T06:52:49Z",
+      "updatedAt": "2026-10-09T06:52:49Z"
+    },
+    {
+      "id": "hn:50035886",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FT reports Nvidia is in talks to acquire or deepen its investment in Reflection AI",
+      "description": "The FT reports discussions involving Nvidia and open-weight-model startup Reflection AI; Reuters could not independently verify the report, and neither company had commented at publication.",
+      "content": "The Financial Times, citing people with direct knowledge, reports Nvidia is discussing acquiring Reflection AI or increasing its investment. Bloomberg Law repeated the FT report; Reuters said it could not independently verify it, described talks as early-stage with several possible forms including an acqui-hire, and said neither company had immediately commented. This remains unconfirmed reporting, not a completed deal.\n\nReuters summary: https://m.economictimes.com/tech/technology/nvidia-in-talks-to-buy-reflection-ai-or-deepen-its-investment-ft-reports/articleshow/134860347.cms\nHN discussion: https://news.ycombinator.com/item?id=50035886",
+      "author": "arkj",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "createdAt": "2026-10-10T18:48:35Z",
+      "updatedAt": "2026-10-10T18:48:35Z"
     }
   ]
 }
