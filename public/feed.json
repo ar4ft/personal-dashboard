@@ -2,12 +2,211 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2109038598700077514",
+      "section": "news",
+      "type": "news",
+      "title": "Satya Nadella: AI models need an \u201cemergency brake\u201d",
+      "description": "TechCrunch reports Microsoft\u2019s CEO arguing frontier AI systems need hard kill-switch style controls, not just softer safety layers, as models take on more agency.",
+      "content": "Microsoft's Satya Nadella says AI models need an 'emergency brake'\n\nArticle: https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/\nPost: https://x.com/TechCrunch/status/2109038598700077514",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "TechCrunch (@TechCrunch)",
+      "url": "https://x.com/TechCrunch/status/2109038598700077514",
+      "createdAt": "2026-10-10T21:49:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109033519187927095",
+      "section": "news",
+      "type": "news",
+      "title": "AirDrop from iPhone to a Dell XPS running Omarchy",
+      "description": "Tom Ballard got Apple AirDrop working to a Dell XPS on Omarchy by building on omdrop and omdrop-plugin, bridging iPhone sharing into a Linux desktop setup.",
+      "content": "My iPhone has a new AirDrop buddy. A Dell XPS running @Omarchy. I got it working by building on the brilliant work behind omdrop and omdrop-plugin. Huge credit to @t4t5 for the initial leg work.\n\nhttps://x.com/tcballard/status/2109033519187927095",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Tom Ballard (@tcballard)",
+      "url": "https://x.com/tcballard/status/2109033519187927095",
+      "createdAt": "2026-10-10T21:29:09Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2108990474099044700",
+      "section": "news",
+      "type": "news",
+      "title": "Liquid AI d1-omni demo: multimodal decisions on bodycam/smart-glass footage",
+      "description": "Noctus demos Liquid AI\u2019s open d1-omni-600M on rescue-style bodycam and smart-glasses footage, asking situation-specific questions over real video and audio.",
+      "content": "I was curious about how omni decision models could be used in rescue workers bodycams or smart glasses, so I decided to build a quick demo. I went with @liquidai d1-omni-600M since it supports both vision and audio.\n\nhttps://x.com/noctus91/status/2108990474099044700",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "Noctus (@noctus91)",
+      "url": "https://x.com/noctus91/status/2108990474099044700",
+      "createdAt": "2026-10-10T18:38:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50028059",
+      "section": "news",
+      "type": "news",
+      "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
+      "description": "A survey of 23 widely depended-on open source projects finds nearly half are maintained by only one or two people, underscoring bus-factor risk in the commons.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dxs",
+      "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/",
+      "createdAt": "2026-10-09T23:56:55Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50028059\n\nhttps://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/"
+    },
+    {
+      "id": "reading:eurydice-rust-to-c",
+      "section": "news",
+      "type": "news",
+      "title": "Compiling Rust to readable C with Eurydice",
+      "description": "LWN covers Eurydice, a toolchain that compiles a subset of Rust to readable C so verified or high-assurance components can interoperate with C codebases.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "LWN.net",
+      "url": "https://lwn.net/Articles/1055211/",
+      "createdAt": "2026-10-09T23:28:36Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50027853\n\nhttps://lwn.net/Articles/1055211/"
+    },
+    {
+      "id": "reading:prime-agent-rust-rewrite",
+      "section": "news",
+      "type": "news",
+      "title": "Rewriting Prime Agent in Rust",
+      "description": "Prime Intellect writes up rewriting Prime Agent in Rust: performance, safety, and packaging tradeoffs for an agent runtime that needs to stay fast under tool use.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Prime Intellect",
+      "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+      "createdAt": "2026-10-09T23:06:25Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50027694\n\nhttps://www.primeintellect.ai/blog/prime-agent-rust"
+    },
+    {
+      "id": "reading:tao-lean-reliability-ai",
+      "section": "news",
+      "type": "news",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "description": "Terence Tao explains what mathematicians should know about Lean\u2019s reliability story and how AI-assisted formalization changes what \u201cproof\u201d means in practice.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Terence Tao",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "createdAt": "2026-10-09T17:42:12Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50024090\n\nhttps://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+    },
+    {
+      "id": "reading:hetzner-cloud-network-stack",
+      "section": "news",
+      "type": "news",
+      "title": "The Hetzner Cloud network stack \u2013 history and technical overview",
+      "description": "Hetzner\u2019s engineering blog traces the history and design of their cloud network stack, from early constraints to the current overlay and routing choices.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Hetzner",
+      "url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+      "createdAt": "2026-10-09T12:20:55Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50019451\n\nhttps://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/"
+    },
+    {
+      "id": "reading:ai-archives-meteorite-rhinos",
+      "section": "news",
+      "type": "news",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "description": "A practitioner points language models at centuries of archival text and surfaces forgotten meteorite records, lost rhinos, and other leads humans had buried in catalogs.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Jesse Waites",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "createdAt": "2026-10-09T11:36:20Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50019056\n\nhttps://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
+    },
+    {
+      "id": "hn:50016312",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "description": "A Show HN demo ports Quake to safe Rust and runs it in the browser, highlighting memory-safe systems work without giving up a classic realtime game loop.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://quake-srp.pages.dev/",
+      "createdAt": "2026-10-09T05:22:58Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50016312\n\nhttps://quake-srp.pages.dev/"
+    },
+    {
+      "id": "reading:karagila-openai-partition-principle",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "description": "Set theorist Asaf Karagila unpacks OpenAI\u2019s mathematics claims through the lens of the Partition Principle and what formal progress does and doesn\u2019t imply.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Asaf Karagila",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "createdAt": "2026-10-08T23:29:43Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50013902\n\nhttps://karagila.org/2026/openai-pp/"
+    },
+    {
+      "id": "hn:50003545",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Proton Drive for Linux",
+      "description": "Show HN: a Go FUSE client that mounts Proton Drive on Linux like a local folder while Proton\u2019s official Linux Drive app is still pending.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "khaosdoctor",
+      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+      "createdAt": "2026-10-08T09:10:42Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50003545\n\nhttps://oss.lsantos.dev/proton-drive-linux-fs/"
+    },
+    {
       "id": "hn:50019911",
       "section": "news",
       "type": "news",
       "status": "inbox",
       "title": "Deno is joining Cloudflare",
-      "description": "Deno’s team is joining Cloudflare to build around Workers and Durable Objects. The company says the Deno runtime will receive one more year of bug and security releases, while Deno Deploy will close in six months; JSR continues.",
+      "description": "Deno\u2019s team is joining Cloudflare to build around Workers and Durable Objects. The company says the Deno runtime will receive one more year of bug and security releases, while Deno Deploy will close in six months; JSR continues.",
       "author": "ilreb",
       "topics": [
         "Programming",
@@ -40,7 +239,7 @@
       "type": "news",
       "status": "inbox",
       "title": "Microsoft-Decision-1, our model for fast decision-making",
-      "description": "Microsoft’s post-trained Qwen3.5-9B model returns calibrated probabilities for fixed-choice tasks such as routing, classification, and grading, with access through Microsoft Foundry and OpenRouter. Benchmark and latency results are Microsoft’s own claims.",
+      "description": "Microsoft\u2019s post-trained Qwen3.5-9B model returns calibrated probabilities for fixed-choice tasks such as routing, classification, and grading, with access through Microsoft Foundry and OpenRouter. Benchmark and latency results are Microsoft\u2019s own claims.",
       "author": "lisajaloza",
       "topics": [
         "AI",
@@ -56,7 +255,7 @@
       "type": "news",
       "status": "inbox",
       "title": "Training Text-to-Image Models Without a VAE",
-      "description": "Linum’s Pyramid-JiT is a decoder-only pixel-space diffusion model that adds multi-resolution image prediction. The company reports matching its prior model’s FD-DINOv2 score with 11.3× fewer training samples and 4.3× fewer GPU-hours; code and weights are an Apache-2.0 research release.",
+      "description": "Linum\u2019s Pyramid-JiT is a decoder-only pixel-space diffusion model that adds multi-resolution image prediction. The company reports matching its prior model\u2019s FD-DINOv2 score with 11.3\u00d7 fewer training samples and 4.3\u00d7 fewer GPU-hours; code and weights are an Apache-2.0 research release.",
       "author": "schopra909",
       "topics": [
         "AI",
@@ -122,7 +321,7 @@
       "type": "news",
       "status": "inbox",
       "title": "audio.cpp and photon: sub-35ms time-to-first-audio on open voice models",
-      "description": "Eric Bezzam reports audio.cpp and photon bringing low-latency streaming to open models — under 35 ms p50/p95 time-to-first-audio on an A100 — aimed at voice agents.",
+      "description": "Eric Bezzam reports audio.cpp and photon bringing low-latency streaming to open models \u2014 under 35 ms p50/p95 time-to-first-audio on an A100 \u2014 aimed at voice agents.",
       "content": "Quoted via https://x.com/vikhyatk/status/2108664392468611130",
       "author": "vik (@vikhyatk)",
       "topics": [
@@ -155,7 +354,7 @@
       "type": "news",
       "status": "inbox",
       "title": "Google AI Edge Foresight: free local meeting notes on Apple Silicon Macs",
-      "description": "Google’s experimental Foresight Mac app turns shorthand into fuller meeting notes and answers live questions entirely on-device with EmbeddingGemma 2 and Gemma 4 — no cloud subscription; Apple Silicon only.",
+      "description": "Google\u2019s experimental Foresight Mac app turns shorthand into fuller meeting notes and answers live questions entirely on-device with EmbeddingGemma 2 and Gemma 4 \u2014 no cloud subscription; Apple Silicon only.",
       "content": "Google Developers: https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/\nAnnounced on X: https://x.com/Saboo_Shubham_/status/2108799961911738549",
       "author": "Google AI Edge",
       "topics": [
@@ -189,7 +388,7 @@
       "type": "news",
       "status": "inbox",
       "title": "Primer: Qwen3 and Qwen3-VL architecture, training, and multimodal agents",
-      "description": "Aman’s long primer walks through Qwen3’s hybrid thinking/non-thinking design, MoE efficiency, reasoning RL, distillation, and how Qwen3-VL extends that stack to multimodal reasoning and visual agents.",
+      "description": "Aman\u2019s long primer walks through Qwen3\u2019s hybrid thinking/non-thinking design, MoE efficiency, reasoning RL, distillation, and how Qwen3-VL extends that stack to multimodal reasoning and visual agents.",
       "content": "https://qwen3.aman.ai\nAnnounced on X: https://x.com/i_amanchadha/status/2108801391108182230",
       "author": "Aman Chadha",
       "topics": [
@@ -224,7 +423,7 @@
       "type": "news",
       "status": "inbox",
       "title": "Familiar v0.1.4 for Omarchy adds a Windows-style Linux taskbar",
-      "description": "Familiar 0.1.4 for Omarchy lands a full-width Windows-style taskbar, fixes Mac dock previews/clicks, and simplifies menus — aimed at making a Linux desktop feel familiar.",
+      "description": "Familiar 0.1.4 for Omarchy lands a full-width Windows-style taskbar, fixes Mac dock previews/clicks, and simplifies menus \u2014 aimed at making a Linux desktop feel familiar.",
       "content": "https://x.com/tcballard/status/2108686287708590435",
       "author": "Tom Ballard (@tcballard)",
       "topics": [
@@ -273,7 +472,7 @@
       "type": "news",
       "status": "inbox",
       "title": "$250K Chrome Full Chain bounty for a V8 0-day exploit chain",
-      "description": "A researcher team reports a $250,000 Chrome Full Chain bonus — their second of 2026 — for a chain of non-duplicate V8 0-days completed before patches, plus a Full VM Escape flag in KVMCTF.",
+      "description": "A researcher team reports a $250,000 Chrome Full Chain bonus \u2014 their second of 2026 \u2014 for a chain of non-duplicate V8 0-days completed before patches, plus a Full VM Escape flag in KVMCTF.",
       "content": "https://x.com/uz56764/status/2108336615450112186",
       "author": "Kim Jinu (@uz56764)",
       "topics": [
@@ -290,7 +489,7 @@
       "type": "news",
       "status": "inbox",
       "title": "Markdoc: collaborative markdown editor with an MCP server, built with Copilot",
-      "description": "Burke Holland describes building Markdoc with GitHub Copilot — a collaborative markdown editor (Google Docs-like) that exposes an MCP server so agents can join the editing loop.",
+      "description": "Burke Holland describes building Markdoc with GitHub Copilot \u2014 a collaborative markdown editor (Google Docs-like) that exposes an MCP server so agents can join the editing loop.",
       "content": "App: https://markdoc.app\nPost: https://x.com/burkeholland/status/2108253428652581220",
       "author": "Burke Holland (@burkeholland)",
       "topics": [
@@ -307,7 +506,7 @@
       "type": "news",
       "status": "inbox",
       "title": "The Slow Formation of Durable Software",
-      "description": "Essay on how lasting software grows through patient iteration and craft rather than hype cycles—arguing for building systems that age well.",
+      "description": "Essay on how lasting software grows through patient iteration and craft rather than hype cycles\u2014arguing for building systems that age well.",
       "content": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/",
       "author": "benbreen",
       "topics": [
@@ -558,7 +757,7 @@
       "type": "news",
       "title": "watchOS workout apps: append-only event log sync when the phone reconnects",
       "description": "A watch-only workout app author describes keeping an append-only event log on the watch and replaying it to the phone on reconnect, and asks how others sync with CloudKit or HealthKit.",
-      "content": "watchOS question: my workout app runs fully on the watch… The watch keeps an append-only event log… phone replays it on reconnect. Anyone syncing watch-only sessions differently? CloudKit, HealthKit?",
+      "content": "watchOS question: my workout app runs fully on the watch\u2026 The watch keeps an append-only event log\u2026 phone replays it on reconnect. Anyone syncing watch-only sessions differently? CloudKit, HealthKit?",
       "author": "Plusonelifts (@Plusoneliftsapp)",
       "topics": [
         "Wearables",
@@ -576,7 +775,7 @@
       "type": "news",
       "title": "Cut agent token waste on xcodebuild logs with rules and a hook",
       "description": "An audit of 1,674 agent sessions found replies were only 0.6% of tokens; most spend was re-reading build logs. The post shares 10 rules plus a hook for Claude Code, Codex, and Cursor.",
-      "content": "Your agent isn't burning tokens by talking. It's re-reading your xcodebuild logs… @twannl audited 1,674 agent sessions: replies = 0.6% of tokens. The fix: 10 rules + one hook for Claude Code, Codex & Cursor\n\nhttps://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor/",
+      "content": "Your agent isn't burning tokens by talking. It's re-reading your xcodebuild logs\u2026 @twannl audited 1,674 agent sessions: replies = 0.6% of tokens. The fix: 10 rules + one hook for Claude Code, Codex & Cursor\n\nhttps://www.avanderlee.com/ai-development/reduce-token-usage-claude-code-codex-cursor/",
       "author": "Aryaveer (@aryaveer_bajpai)",
       "topics": [
         "AI",
@@ -612,7 +811,7 @@
       "type": "news",
       "title": "Open Minis plans to open-source iCTRL iPhone automation for AI agents",
       "description": "Open Minis says it will open-source iCTRL, an internal tool that lets AI agents control an iPhone wirelessly or on-device for development and testing.",
-      "content": "We're excited to open-source iCTRL soon — the internal iPhone automation tool we've relied on to develop, test, and polish Open Minis. iCTRL lets any AI agent safely and efficiently control an iPhone — either wirelessly over the local network or directly on-device…",
+      "content": "We're excited to open-source iCTRL soon \u2014 the internal iPhone automation tool we've relied on to develop, test, and polish Open Minis. iCTRL lets any AI agent safely and efficiently control an iPhone \u2014 either wirelessly over the local network or directly on-device\u2026",
       "author": "Open Minis (@OpenMinis)",
       "topics": [
         "iOS / Mac Apps",
@@ -697,7 +896,7 @@
       "type": "news",
       "title": "Anthropic expands cyber-verification access for defensive security work",
       "description": "Anthropic says verified security professionals can get broader access to Claude Mythos 5.1, Opus 5.5 and Sonnet 5.5 for defensive security work under safeguards.",
-      "content": "We’re expanding our Cyber Verification Program to give security professionals broader access to our most capable models. Through this program, verified security professionals can access Claude Mythos 5.1, Opus 5.5, and Sonnet 5.5 with safeguards designed for defensive work.",
+      "content": "We\u2019re expanding our Cyber Verification Program to give security professionals broader access to our most capable models. Through this program, verified security professionals can access Claude Mythos 5.1, Opus 5.5, and Sonnet 5.5 with safeguards designed for defensive work.",
       "author": "Anthropic (@AnthropicAI)",
       "topics": [
         "AI",
@@ -714,8 +913,8 @@
       "section": "news",
       "type": "news",
       "title": "Embedding Gemma 2 brings multimodal embeddings to the browser",
-      "description": "Google’s open 740M-parameter model handles text, code, images, video and audio; Victor M reports browser-side WebGPU inference at roughly 20–70 ms per query without a server or API key.",
-      "content": "Victor M highlights EmbeddingGemma 2 as a compact, natively multimodal embedding model that can run locally in a browser using WebGPU. Google’s quoted announcement describes support for text, code, image, video and audio tasks in a 740M-parameter model.",
+      "description": "Google\u2019s open 740M-parameter model handles text, code, images, video and audio; Victor M reports browser-side WebGPU inference at roughly 20\u201370 ms per query without a server or API key.",
+      "content": "Victor M highlights EmbeddingGemma 2 as a compact, natively multimodal embedding model that can run locally in a browser using WebGPU. Google\u2019s quoted announcement describes support for text, code, image, video and audio tasks in a 740M-parameter model.",
       "author": "Victor M (@victormustar)",
       "topics": [
         "AI",
@@ -741,7 +940,7 @@
       "url": "https://x.com/raycast/status/2107461486251590100",
       "createdAt": "2026-10-06T13:22:27.720Z",
       "status": "inbox",
-      "content": "Quotes Benoît Grélard (@benoitgrelard)."
+      "content": "Quotes Beno\u00eet Gr\u00e9lard (@benoitgrelard)."
     },
     {
       "id": "x:2107446694216343958",
@@ -816,7 +1015,7 @@
       "type": "news",
       "title": "The coding-agent harness is becoming the runtime",
       "description": "Alireza Bashiri notes DeepSeek added experimental support for Claude Code Mods to its agent harness and argues agent infrastructure (MCP tools, skills, hooks, plugins) is becoming portable across models, shifting the moat to whoever owns the best harness.",
-      "content": "Claude Code plugins are starting to escape Claude Code.\n\nDeepSeek just added experimental support for Claude Code Mods to its agent harness.\n\nThis looks like a small compatibility update.\n\nI think it points to something much bigger.\n\nThe harness is becoming the runtime\n\nCoding agents used to bundle everything together:\n\nmodel + tools + skills + hooks + context + agent loop\n\nThat stack is starting to split apart.\n\nNow a harness can support different models while it keeps the same tools, skills, MCP servers, and workflows.\n\nChange the model.\n\nKeep the environment.\n\nAgent infrastructure is becoming portable\n\nWe already have common layers:\n\nMCP → tools\nSkills → instructions\nHooks → control\nMods/plugins → extensions\nHarness → runtime\n\nClaude Code helped build this ecosystem.\nOther harnesses can now start to consume it.\n\nThat matters because your agent setup no longer needs to belong to one model.\n\nA good skill should work with Claude today and another model tomorrow.\n\nA good MCP server should not care which model calls it.\n\nA good harness should let you change models without rebuilding the system around them.\n\nModels become interchangeable\n\nThe model still matters.\n\nBut the harness owns more of the system:\n\ncontext → tools → state → execution → verification\n\nThis changes the moat.\n\nThe best coding agent may not come from the company with the best model.\n\nIt may come from the company that owns the best runtime.",
+      "content": "Claude Code plugins are starting to escape Claude Code.\n\nDeepSeek just added experimental support for Claude Code Mods to its agent harness.\n\nThis looks like a small compatibility update.\n\nI think it points to something much bigger.\n\nThe harness is becoming the runtime\n\nCoding agents used to bundle everything together:\n\nmodel + tools + skills + hooks + context + agent loop\n\nThat stack is starting to split apart.\n\nNow a harness can support different models while it keeps the same tools, skills, MCP servers, and workflows.\n\nChange the model.\n\nKeep the environment.\n\nAgent infrastructure is becoming portable\n\nWe already have common layers:\n\nMCP \u2192 tools\nSkills \u2192 instructions\nHooks \u2192 control\nMods/plugins \u2192 extensions\nHarness \u2192 runtime\n\nClaude Code helped build this ecosystem.\nOther harnesses can now start to consume it.\n\nThat matters because your agent setup no longer needs to belong to one model.\n\nA good skill should work with Claude today and another model tomorrow.\n\nA good MCP server should not care which model calls it.\n\nA good harness should let you change models without rebuilding the system around them.\n\nModels become interchangeable\n\nThe model still matters.\n\nBut the harness owns more of the system:\n\ncontext \u2192 tools \u2192 state \u2192 execution \u2192 verification\n\nThis changes the moat.\n\nThe best coding agent may not come from the company with the best model.\n\nIt may come from the company that owns the best runtime.",
       "author": "Alireza Bashiri (@al3rez)",
       "topics": [
         "AI",
@@ -945,7 +1144,7 @@
       "section": "news",
       "type": "news",
       "title": "In DHH's 'VibeGate' benchmark, the Rust entry was far more tuned than Elixir or Go",
-      "description": "Mike Hostetler notes that in DHH's 'VibeGate' benchmark, the Rust repo had 300+ tuning commits versus 3 each for Elixir and Go, yet initial requests per second were similar. He quotes José Valim.",
+      "description": "Mike Hostetler notes that in DHH's 'VibeGate' benchmark, the Rust repo had 300+ tuning commits versus 3 each for Elixir and Go, yet initial requests per second were similar. He quotes Jos\u00e9 Valim.",
       "author": "Mike Hostetler (@mikehostetler)",
       "topics": [
         "Programming"
@@ -954,7 +1153,7 @@
       "url": "https://x.com/mikehostetler/status/2107253220699435241",
       "createdAt": "2026-10-05T23:34:53Z",
       "status": "inbox",
-      "content": "Quotes José Valim."
+      "content": "Quotes Jos\u00e9 Valim."
     },
     {
       "id": "x:2107242747988189393",
@@ -1440,10 +1639,10 @@
       "id": "x:2106881398187360767",
       "section": "news",
       "type": "news",
-      "title": "Gergő Móricz jokes that Rust disk usage can be fixed by asking Claude to install Kache",
-      "description": "Gergő Móricz jokes that Rust disk usage can be fixed by asking Claude to install Kache.",
+      "title": "Gerg\u0151 M\u00f3ricz jokes that Rust disk usage can be fixed by asking Claude to install Kache",
+      "description": "Gerg\u0151 M\u00f3ricz jokes that Rust disk usage can be fixed by asking Claude to install Kache.",
       "content": "Bookmarked on X.",
-      "author": "Gergő Móricz (@gergomoricz)",
+      "author": "Gerg\u0151 M\u00f3ricz (@gergomoricz)",
       "topics": [
         "Programming"
       ],
@@ -1689,10 +1888,10 @@
       "id": "x:2106146799471772007",
       "section": "news",
       "type": "news",
-      "title": "雷电芽衣 shared elygpui.com, 1272 GPUI components hoping GPUI becomes a mainstream framework",
-      "description": "雷电芽衣 shared elygpui.com, 1272 GPUI components hoping GPUI becomes a mainstream framework.",
+      "title": "\u96f7\u7535\u82bd\u8863 shared elygpui.com, 1272 GPUI components hoping GPUI becomes a mainstream framework",
+      "description": "\u96f7\u7535\u82bd\u8863 shared elygpui.com, 1272 GPUI components hoping GPUI becomes a mainstream framework.",
       "content": "Bookmarked on X.\nLink: https://elygpui.com",
-      "author": "雷电芽衣 (@ZacharyZhang)",
+      "author": "\u96f7\u7535\u82bd\u8863 (@ZacharyZhang)",
       "topics": [
         "Programming",
         "Technology"
@@ -2183,9 +2382,9 @@
       "section": "news",
       "type": "news",
       "title": "ELY-GPUI library with 1272 components",
-      "description": "Post from 雷电芽衣: ELY-GPUI library with 1272 components.",
+      "description": "Post from \u96f7\u7535\u82bd\u8863: ELY-GPUI library with 1272 components.",
       "content": "Bookmarked on X.\nLink: https://github.com/ZacharyZhang-NY/Ely-GPUI-Components",
-      "author": "雷电芽衣 (@ZacharyZhang)",
+      "author": "\u96f7\u7535\u82bd\u8863 (@ZacharyZhang)",
       "topics": [
         "Programming",
         "Technology"
@@ -3753,10 +3952,10 @@
       "id": "x:2101862019792056426",
       "section": "news",
       "type": "news",
-      "title": "EA Gálvez argues people anthropomorphize AI and confuse emergent behavior with a mind",
-      "description": "EA Gálvez argues people anthropomorphize AI and confuse emergent behavior with a mind.",
+      "title": "EA G\u00e1lvez argues people anthropomorphize AI and confuse emergent behavior with a mind",
+      "description": "EA G\u00e1lvez argues people anthropomorphize AI and confuse emergent behavior with a mind.",
       "content": "Bookmarked on X.",
-      "author": "EA Gálvez (@EAGalvezAuthor)",
+      "author": "EA G\u00e1lvez (@EAGalvezAuthor)",
       "topics": [
         "AI"
       ],
@@ -3769,10 +3968,10 @@
       "id": "x:2101578929786228924",
       "section": "news",
       "type": "news",
-      "title": "酱紫表 uses an Apple Design skill that compiles WWDC design talks into a guide while building apps",
-      "description": "酱紫表 uses an Apple Design skill that compiles WWDC design talks into a guide while building apps.",
+      "title": "\u9171\u7d2b\u8868 uses an Apple Design skill that compiles WWDC design talks into a guide while building apps",
+      "description": "\u9171\u7d2b\u8868 uses an Apple Design skill that compiles WWDC design talks into a guide while building apps.",
       "content": "Bookmarked on X.",
-      "author": "酱紫表 (@pengchujin)",
+      "author": "\u9171\u7d2b\u8868 (@pengchujin)",
       "topics": [
         "AI",
         "iOS / Mac Apps"
@@ -4037,7 +4236,7 @@
       "id": "x:deploy-studio-6806610127",
       "section": "news",
       "type": "news",
-      "title": "Deploy Studio — ship iOS releases from iPhone",
+      "title": "Deploy Studio \u2014 ship iOS releases from iPhone",
       "description": "An App Store Connect client for selecting builds, preparing release notes and export-compliance details, and submitting releases from iPhone. The listing says its API key stays in the device Keychain; it supports iPhone and iPad, Apple-silicon Mac, and visionOS.",
       "topics": [
         "Programming",
@@ -4219,9 +4418,9 @@
       "section": "news",
       "type": "news",
       "title": "Someone released a fully jailbroken open-source pre-built iOS 26 virtual machine",
-      "description": "Post from 科技混子Chris: Someone released a fully jailbroken open-source pre-built iOS 26 virtual machine.",
+      "description": "Post from \u79d1\u6280\u6df7\u5b50Chris: Someone released a fully jailbroken open-source pre-built iOS 26 virtual machine.",
       "content": "Bookmarked on X.\nLink: https://github.com/34306/vphone-aio",
-      "author": "科技混子Chris (@ChrisSlacker)",
+      "author": "\u79d1\u6280\u6df7\u5b50Chris (@ChrisSlacker)",
       "topics": [
         "iOS / Mac Apps"
       ],
@@ -4434,10 +4633,10 @@
       "id": "x:2085443815020621828",
       "section": "news",
       "type": "news",
-      "title": "Jesús Morán notes that GitHub keys pages expose SSH keys publicly",
-      "description": "Jesús Morán notes that GitHub keys pages expose SSH keys publicly.",
+      "title": "Jes\u00fas Mor\u00e1n notes that GitHub keys pages expose SSH keys publicly",
+      "description": "Jes\u00fas Mor\u00e1n notes that GitHub keys pages expose SSH keys publicly.",
       "content": "Bookmarked on X.\nLink: https://github.com",
-      "author": "Jesús Morán (@jamoran1356)",
+      "author": "Jes\u00fas Mor\u00e1n (@jamoran1356)",
       "topics": [
         "Programming"
       ],
@@ -4619,10 +4818,10 @@
       "id": "x:2077014547890655704",
       "section": "news",
       "type": "news",
-      "title": "Iñaki says the agent harness matters more than a single model across gpt-5.5, opus-4.8, glm-5.2, and 5.6-terra",
-      "description": "Iñaki says the agent harness matters more than a single model across gpt-5.5, opus-4.8, glm-5.2, and 5.6-terra.",
+      "title": "I\u00f1aki says the agent harness matters more than a single model across gpt-5.5, opus-4.8, glm-5.2, and 5.6-terra",
+      "description": "I\u00f1aki says the agent harness matters more than a single model across gpt-5.5, opus-4.8, glm-5.2, and 5.6-terra.",
       "content": "Bookmarked on X.",
-      "author": "Iñaki (@inakitajes)",
+      "author": "I\u00f1aki (@inakitajes)",
       "topics": [
         "AI"
       ],
@@ -4654,9 +4853,9 @@
       "section": "news",
       "type": "news",
       "title": "Luna looks good on the benchmark but feels like GPT 5.5 in design, and costs more than GPT 5.6 Sol medium",
-      "description": "Post from Melvyn • Builder: Luna looks good on the benchmark but feels like GPT 5.5 in design, and costs more than GPT 5.6 Sol medium.",
+      "description": "Post from Melvyn \u2022 Builder: Luna looks good on the benchmark but feels like GPT 5.5 in design, and costs more than GPT 5.6 Sol medium.",
       "content": "Bookmarked on X.",
-      "author": "Melvyn • Builder (@melvynx)",
+      "author": "Melvyn \u2022 Builder (@melvynx)",
       "topics": [
         "AI"
       ],
@@ -5014,9 +5213,9 @@
       "section": "news",
       "type": "news",
       "title": "New book from Tianqi Chen, creator of XGBoost: Modern GPU Programming for MLSys",
-      "description": "Post from 机器之心 JIQIZHIXIN: New book from Tianqi Chen, creator of XGBoost: Modern GPU Programming for MLSys.",
+      "description": "Post from \u673a\u5668\u4e4b\u5fc3 JIQIZHIXIN: New book from Tianqi Chen, creator of XGBoost: Modern GPU Programming for MLSys.",
       "content": "Bookmarked on X.\nLink: https://mlc.ai/modern-gpu-programming-for-mlsys/",
-      "author": "机器之心 JIQIZHIXIN (@jiqizhixin)",
+      "author": "\u673a\u5668\u4e4b\u5fc3 JIQIZHIXIN (@jiqizhixin)",
       "topics": [
         "Machine Learning"
       ],
@@ -5354,9 +5553,9 @@
       "section": "news",
       "type": "news",
       "title": "Sideloads iOS apps without a jailbreak",
-      "description": "Post from Tom Dörr: Sideloads iOS apps without a jailbreak.",
+      "description": "Post from Tom D\u00f6rr: Sideloads iOS apps without a jailbreak.",
       "content": "Bookmarked on X.\nLink: https://github.com/SideloadlyiOS/Sideloadly-Download",
-      "author": "Tom Dörr (@tom_doerr)",
+      "author": "Tom D\u00f6rr (@tom_doerr)",
       "topics": [
         "iOS / Mac Apps"
       ],
@@ -5734,9 +5933,9 @@
       "section": "news",
       "type": "news",
       "title": "Complaint that iOS updates never add a clear-app-cache option",
-      "description": "Post from príncipe de salcity.: Complaint that iOS updates never add a clear-app-cache option.",
+      "description": "Post from pr\u00edncipe de salcity.: Complaint that iOS updates never add a clear-app-cache option.",
       "content": "Bookmarked on X.",
-      "author": "príncipe de salcity. (@thatshotleon)",
+      "author": "pr\u00edncipe de salcity. (@thatshotleon)",
       "topics": [
         "iOS / Mac Apps"
       ],
@@ -5782,10 +5981,10 @@
       "id": "x:2048806306669064381",
       "section": "news",
       "type": "news",
-      "title": "Dominik Vít introduced Lensflare, an open-source macOS development observability stack for humans and AI agents",
-      "description": "Dominik Vít introduced Lensflare, an open-source macOS development observability stack for humans and AI agents.",
+      "title": "Dominik V\u00edt introduced Lensflare, an open-source macOS development observability stack for humans and AI agents",
+      "description": "Dominik V\u00edt introduced Lensflare, an open-source macOS development observability stack for humans and AI agents.",
       "content": "Bookmarked on X.",
-      "author": "Dominik Vít (@__dominikvit)",
+      "author": "Dominik V\u00edt (@__dominikvit)",
       "topics": [
         "AI",
         "iOS / Mac Apps",
@@ -6236,10 +6435,10 @@
       "id": "x:1699023607840592280",
       "section": "news",
       "type": "news",
-      "title": "too° announces a quarterly thread (threading/programming)",
-      "description": "too° announces a quarterly thread (threading/programming).",
+      "title": "too\u00b0 announces a quarterly thread (threading/programming)",
+      "description": "too\u00b0 announces a quarterly thread (threading/programming).",
       "content": "Bookmarked on X.",
-      "author": "too° (@toodegrees)",
+      "author": "too\u00b0 (@toodegrees)",
       "topics": [
         "Programming"
       ],
@@ -6252,10 +6451,10 @@
       "id": "x:1699015882536554883",
       "section": "news",
       "type": "news",
-      "title": "“Books every software engineer should read” style list",
-      "description": "Post from Dr Milan Milanović: \"Books every software engineer should read\" style list.",
+      "title": "\u201cBooks every software engineer should read\u201d style list",
+      "description": "Post from Dr Milan Milanovi\u0107: \"Books every software engineer should read\" style list.",
       "content": "Bookmarked on X.",
-      "author": "Dr Milan Milanović (@milan_milanovic)",
+      "author": "Dr Milan Milanovi\u0107 (@milan_milanovic)",
       "topics": [
         "Programming"
       ],
@@ -6317,9 +6516,9 @@
       "section": "news",
       "type": "news",
       "title": "How to build multi-tenant apps with EF Core",
-      "description": "Post from Milan Jovanović: How to build multi-tenant apps with EF Core.",
+      "description": "Post from Milan Jovanovi\u0107: How to build multi-tenant apps with EF Core.",
       "content": "Bookmarked on X.",
-      "author": "Milan Jovanović (@mjovanovictech)",
+      "author": "Milan Jovanovi\u0107 (@mjovanovictech)",
       "topics": [
         "Programming"
       ],
@@ -6397,9 +6596,9 @@
       "section": "news",
       "type": "news",
       "title": "Clean Architecture after 5+ years",
-      "description": "Post from Milan Jovanović: Clean Architecture after 5+ years.",
+      "description": "Post from Milan Jovanovi\u0107: Clean Architecture after 5+ years.",
       "content": "Bookmarked on X.",
-      "author": "Milan Jovanović (@mjovanovictech)",
+      "author": "Milan Jovanovi\u0107 (@mjovanovictech)",
       "topics": [
         "Programming"
       ],
@@ -6413,9 +6612,9 @@
       "section": "news",
       "type": "news",
       "title": "CSS glitch effect",
-      "description": "Post from • nanou •: CSS glitch effect.",
+      "description": "Post from \u2022 nanou \u2022: CSS glitch effect.",
       "content": "Bookmarked on X.",
-      "author": "• nanou • (@NanouuSymeon)",
+      "author": "\u2022 nanou \u2022 (@NanouuSymeon)",
       "topics": [
         "Programming"
       ],
@@ -6493,9 +6692,9 @@
       "section": "news",
       "type": "news",
       "title": "When to use choreography in microservices",
-      "description": "Post from Milan Jovanović: When to use choreography in microservices.",
+      "description": "Post from Milan Jovanovi\u0107: When to use choreography in microservices.",
       "content": "Bookmarked on X.",
-      "author": "Milan Jovanović (@mjovanovictech)",
+      "author": "Milan Jovanovi\u0107 (@mjovanovictech)",
       "topics": [
         "Programming"
       ],
@@ -6508,7 +6707,7 @@
       "id": "x:1695468514537046042",
       "section": "news",
       "type": "news",
-      "title": "Matt Pocock argues LLMs are weak for problems that are not just “ask a question.”",
+      "title": "Matt Pocock argues LLMs are weak for problems that are not just \u201cask a question.\u201d",
       "description": "Matt Pocock argues LLMs are weak for problems that are not just \"ask a question.\".",
       "content": "Bookmarked on X.",
       "author": "Matt Pocock (@mattpocockuk)",
@@ -6589,9 +6788,9 @@
       "section": "news",
       "type": "news",
       "title": "Estimation and prediction explained (intro thread)",
-      "description": "Post from Selçuk Korkmaz: Estimation and prediction explained (intro thread).",
+      "description": "Post from Sel\u00e7uk Korkmaz: Estimation and prediction explained (intro thread).",
       "content": "Bookmarked on X.",
-      "author": "Selçuk Korkmaz (@selcukorkmaz)",
+      "author": "Sel\u00e7uk Korkmaz (@selcukorkmaz)",
       "topics": [
         "Machine Learning"
       ],
@@ -6701,9 +6900,9 @@
       "section": "news",
       "type": "news",
       "title": "When to use orchestration in microservices",
-      "description": "Post from Milan Jovanović: When to use orchestration in microservices.",
+      "description": "Post from Milan Jovanovi\u0107: When to use orchestration in microservices.",
       "content": "Bookmarked on X.",
-      "author": "Milan Jovanović (@mjovanovictech)",
+      "author": "Milan Jovanovi\u0107 (@mjovanovictech)",
       "topics": [
         "Programming"
       ],
@@ -6782,9 +6981,9 @@
       "section": "news",
       "type": "news",
       "title": "Rust Programming in a Nutshell",
-      "description": "Post from Тsфdiиg: Rust Programming in a Nutshell.",
+      "description": "Post from \u0422s\u0444di\u0438g: Rust Programming in a Nutshell.",
       "content": "Bookmarked on X.",
-      "author": "Тsфdiиg (@tsoding)",
+      "author": "\u0422s\u0444di\u0438g (@tsoding)",
       "topics": [
         "Programming"
       ],
@@ -6894,9 +7093,9 @@
       "section": "news",
       "type": "news",
       "title": "Bayes' theorem unpacked",
-      "description": "Post from Selçuk Korkmaz: Bayes' theorem unpacked.",
+      "description": "Post from Sel\u00e7uk Korkmaz: Bayes' theorem unpacked.",
       "content": "Bookmarked on X.",
-      "author": "Selçuk Korkmaz (@selcukorkmaz)",
+      "author": "Sel\u00e7uk Korkmaz (@selcukorkmaz)",
       "topics": [
         "Machine Learning"
       ],
@@ -7006,9 +7205,9 @@
       "section": "news",
       "type": "news",
       "title": "Best way to learn programming is to program",
-      "description": "Post from Miguel Ángel Durán: Best way to learn programming is to program; favorite sites.",
+      "description": "Post from Miguel \u00c1ngel Dur\u00e1n: Best way to learn programming is to program; favorite sites.",
       "content": "Bookmarked on X.",
-      "author": "Miguel Ángel Durán (@midudev)",
+      "author": "Miguel \u00c1ngel Dur\u00e1n (@midudev)",
       "topics": [
         "Programming"
       ],
@@ -7199,9 +7398,9 @@
       "section": "news",
       "type": "news",
       "title": "EF Core global query filters in .NET",
-      "description": "Post from Stefan Đokić: EF Core global query filters in .NET.",
+      "description": "Post from Stefan \u0110oki\u0107: EF Core global query filters in .NET.",
       "content": "Bookmarked on X.",
-      "author": "Stefan Đokić (@TheCodeMan__)",
+      "author": "Stefan \u0110oki\u0107 (@TheCodeMan__)",
       "topics": [
         "Programming"
       ],
@@ -8613,9 +8812,9 @@
       "section": "news",
       "type": "news",
       "title": "Continuous training in MLOps",
-      "description": "Post from Aurimas Griciūnas: Continuous training in MLOps.",
+      "description": "Post from Aurimas Grici\u016bnas: Continuous training in MLOps.",
       "content": "Bookmarked on X.",
-      "author": "Aurimas Griciūnas (@Aurimas_Gr)",
+      "author": "Aurimas Grici\u016bnas (@Aurimas_Gr)",
       "topics": [
         "Machine Learning"
       ],
@@ -8709,9 +8908,9 @@
       "section": "news",
       "type": "news",
       "title": "Methods to pick the optimal number of clusters",
-      "description": "Post from Selçuk Korkmaz: Methods to pick the optimal number of clusters.",
+      "description": "Post from Sel\u00e7uk Korkmaz: Methods to pick the optimal number of clusters.",
       "content": "Bookmarked on X.",
-      "author": "Selçuk Korkmaz (@selcukorkmaz)",
+      "author": "Sel\u00e7uk Korkmaz (@selcukorkmaz)",
       "topics": [
         "Machine Learning"
       ],
@@ -9109,9 +9308,9 @@
       "section": "news",
       "type": "news",
       "title": "Favorite native desktop apps written in Rust",
-      "description": "Post from Fredrik Björk: Favorite native desktop apps written in Rust.",
+      "description": "Post from Fredrik Bj\u00f6rk: Favorite native desktop apps written in Rust.",
       "content": "Bookmarked on X.",
-      "author": "Fredrik Björk (@fbjork)",
+      "author": "Fredrik Bj\u00f6rk (@fbjork)",
       "topics": [
         "Programming"
       ],
@@ -9647,7 +9846,7 @@
       "section": "news",
       "type": "news",
       "title": "Mitchell Hashimoto describes an OpenAI Dot workflow for Mac benchmarks",
-      "description": "Hashimoto says a phone conversation with his OpenAI Dot moved Rex benchmark results from his Mac Studio to MacBook Pro over Tailscale—a fresh example of an AI assistant bridging work across devices.",
+      "description": "Hashimoto says a phone conversation with his OpenAI Dot moved Rex benchmark results from his Mac Studio to MacBook Pro over Tailscale\u2014a fresh example of an AI assistant bridging work across devices.",
       "content": "Hashimoto reports that the benchmark files were waiting on his MacBook when he returned to his desk. This is a first-person usage anecdote, not an official product announcement.",
       "topics": [
         "AI",
@@ -9791,13 +9990,13 @@
       "type": "news",
       "status": "inbox",
       "title": "Swift toolchains get distributed compilation caching via toolchain-cas-plugin",
-      "description": "Pedro Piñera highlights a Swift Forums proposal for a new swiftlang/toolchain-cas-plugin repository to support distributed compilation caching with open-source Swift toolchains.",
+      "description": "Pedro Pi\u00f1era highlights a Swift Forums proposal for a new swiftlang/toolchain-cas-plugin repository to support distributed compilation caching with open-source Swift toolchains.",
       "topics": [
         "Programming",
         "iOS / Mac Apps"
       ],
       "source": "Twitter / X",
-      "author": "Pedro Piñera (@pepicrft)",
+      "author": "Pedro Pi\u00f1era (@pepicrft)",
       "url": "https://x.com/pepicrft/status/2108170917918769596",
       "createdAt": "2026-10-08T12:21:29Z",
       "content": "Swift Forums thread: \"Compilation caching integration with toolchain-cas-plugin\".",
@@ -9877,7 +10076,7 @@
       "section": "news",
       "type": "news",
       "title": "Bootstrap 6 Alpha 1 modernizes CSS, Sass customization, and JavaScript",
-      "description": "Bootstrap’s first v6 alpha raises browser minimums and makes breaking changes to Sass customization, responsive class names, and JavaScript modules; v5 remains supported.",
+      "description": "Bootstrap\u2019s first v6 alpha raises browser minimums and makes breaking changes to Sass customization, responsive class names, and JavaScript modules; v5 remains supported.",
       "content": "The release introduces Sass @use/@forward token maps; modern CSS including container queries, light-dark(), oklch(), CSS layers, and native details/dialog; prefix-style responsive utilities; TypeScript source and types; and ESM-only JavaScript. The official browser floor is Chrome/Edge 130, Firefox 132, or Safari 18. Alpha 1 is on npm/CDN; read the migration guide before adopting.\n\nOfficial announcement: https://blog.getbootstrap.com/2026/10/08/bootstrap-6-alpha/\nMigration guide: https://getbootstrap.com/docs/6.0/guides/migration",
       "author": "Bootstrap Team (@mdo)",
       "topics": [
@@ -9894,7 +10093,7 @@
       "section": "news",
       "type": "news",
       "title": "The Benchmark Gap: Coding Agents vs Data Science",
-      "description": "Data-science engineer Eldar Hasanov argues that coding agents’ rapid gains have not carried over to data-science and AI/ML work, and says benchmark results support the gap.",
+      "description": "Data-science engineer Eldar Hasanov argues that coding agents\u2019 rapid gains have not carried over to data-science and AI/ML work, and says benchmark results support the gap.",
       "author": "Eldar Hasanov (@eldar_hsnv)",
       "topics": [
         "AI",
@@ -9965,7 +10164,7 @@
       "section": "news",
       "type": "news",
       "status": "inbox",
-      "title": "REA Reverse – Engineer Anything",
+      "title": "REA Reverse \u2013 Engineer Anything",
       "description": "REA Tools is presented as a reverse-engineering assistant able to 'engineer anything', prompting discussion of its techniques.",
       "content": "HN discussion: https://news.ycombinator.com/item?id=50028275",
       "author": "modinfo",
@@ -10087,7 +10286,7 @@
       "section": "news",
       "type": "news",
       "status": "inbox",
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "title": "Talorys \u2013 A self-hosted personal AI agent on Cloudflare's free tier",
       "description": "Talorys is a self-hosted, open-source personal AI agent designed to run entirely on Cloudflare's free tier.",
       "content": "HN discussion: https://news.ycombinator.com/item?id=50031614",
       "author": "rociiu",
@@ -10106,8 +10305,8 @@
       "type": "news",
       "status": "inbox",
       "title": "Why DuckDB 2.0 is faster",
-      "description": "DuckDB 2.0 alpha pipelines asynchronous S3 reads with CPU decoding; MotherDuck’s author reports faster tests, while cautioning that the figures came from one M5 laptop and network.",
-      "content": "MotherDuck’s post explains how DuckDB 2.0 overlaps object-store downloads with CPU decoding. In the author’s single-machine test, a 2.2 GB S3 Parquet query took 18.8 seconds on DuckDB 1.5.5 and 7.7 seconds on 2.0 alpha. The author notes these measurements used one M5 laptop and a home connection, so they are workload-specific rather than a general benchmark. Async I/O is enabled by default through read_ahead_depth.\n\nHN discussion: https://news.ycombinator.com/item?id=50035530",
+      "description": "DuckDB 2.0 alpha pipelines asynchronous S3 reads with CPU decoding; MotherDuck\u2019s author reports faster tests, while cautioning that the figures came from one M5 laptop and network.",
+      "content": "MotherDuck\u2019s post explains how DuckDB 2.0 overlaps object-store downloads with CPU decoding. In the author\u2019s single-machine test, a 2.2 GB S3 Parquet query took 18.8 seconds on DuckDB 1.5.5 and 7.7 seconds on 2.0 alpha. The author notes these measurements used one M5 laptop and a home connection, so they are workload-specific rather than a general benchmark. Async I/O is enabled by default through read_ahead_depth.\n\nHN discussion: https://news.ycombinator.com/item?id=50035530",
       "author": "tosh",
       "topics": [
         "Programming",
@@ -10125,7 +10324,7 @@
       "status": "inbox",
       "title": "Can AI automate AI R&D yet?",
       "description": "Epoch AI tested whether coding agents could devise a novel post-training method; neither model matched the reference innovation, and the report highlights limits in both research capability and evaluation.",
-      "content": "Epoch AI asked Claude Fable 5 and GPT-5.6 Sol to improve Qwen3-8B post-training over a strong GRPO baseline through an in-scope algorithmic innovation. Neither reproduced the reference on-policy self-distillation result. With generous scope assumptions, Sol reached 35% of the reference gains on short-answer tasks and 15% on coding at comparable wall-clock time; Fable’s apparent gains relied on selecting the best of many runs, which Epoch judged out of scope. The authors caution that this is a narrow, expensive evaluation with few runs and human-in-the-loop scope review, not a general verdict on all AI R&D.\n\nHN discussion: https://news.ycombinator.com/item?id=50027257",
+      "content": "Epoch AI asked Claude Fable 5 and GPT-5.6 Sol to improve Qwen3-8B post-training over a strong GRPO baseline through an in-scope algorithmic innovation. Neither reproduced the reference on-policy self-distillation result. With generous scope assumptions, Sol reached 35% of the reference gains on short-answer tasks and 15% on coding at comparable wall-clock time; Fable\u2019s apparent gains relied on selecting the best of many runs, which Epoch judged out of scope. The authors caution that this is a narrow, expensive evaluation with few runs and human-in-the-loop scope review, not a general verdict on all AI R&D.\n\nHN discussion: https://news.ycombinator.com/item?id=50027257",
       "author": "merksittich",
       "topics": [
         "AI",
@@ -10144,7 +10343,7 @@
       "status": "inbox",
       "title": "Can you use autoregressive diffusion to generate market data?",
       "description": "Jane Street tests event-level diffusion on equities data: flow matching and atom smoothing improve one-step fits, but long autoregressive rollouts remain inaccurate.",
-      "content": "A Jane Street research intern modeled U.S. equity events as an autoregressive stream, using a transformer encoder, a categorical event head, and a diffusion head for continuous features. DDPM trajectories proved unstable; flow matching plus “atom smoothing” better captured sharp point masses such as zero time gaps. The one-step distributions improved, but the authors say the full rollouts still drift and are not accurate enough to be realistic; hand-engineering a category for each discontinuity may also fail to scale.\n\nHN discussion: https://news.ycombinator.com/item?id=50021410",
+      "content": "A Jane Street research intern modeled U.S. equity events as an autoregressive stream, using a transformer encoder, a categorical event head, and a diffusion head for continuous features. DDPM trajectories proved unstable; flow matching plus \u201catom smoothing\u201d better captured sharp point masses such as zero time gaps. The one-step distributions improved, but the authors say the full rollouts still drift and are not accurate enough to be realistic; hand-engineering a category for each discontinuity may also fail to scale.\n\nHN discussion: https://news.ycombinator.com/item?id=50021410",
       "author": "jsomers",
       "topics": [
         "AI",
@@ -10232,7 +10431,7 @@
       "type": "news",
       "status": "inbox",
       "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
-      "description": "Benchmarks suggest WSL3 is about 5–60% faster than WSL2, depending on the workload.",
+      "description": "Benchmarks suggest WSL3 is about 5\u201360% faster than WSL2, depending on the workload.",
       "author": "tonymet",
       "topics": [
         "Programming",
@@ -10347,7 +10546,7 @@
       "type": "news",
       "status": "inbox",
       "title": "Noto means \"no tofu\": fixing dotted circles in Myanmar text",
-      "description": "How dotted circles (“tofu”) in Myanmar text get fixed with the Noto font.",
+      "description": "How dotted circles (\u201ctofu\u201d) in Myanmar text get fixed with the Noto font.",
       "author": "steffoz",
       "topics": [
         "Programming"
