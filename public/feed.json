@@ -2,6 +2,87 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50019911",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Deno is joining Cloudflare",
+      "description": "Deno’s team is joining Cloudflare to build around Workers and Durable Objects. The company says the Deno runtime will receive one more year of bug and security releases, while Deno Deploy will close in six months; JSR continues.",
+      "author": "ilreb",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://deno.com/blog/cloudflare",
+      "createdAt": "2026-10-09T13:03:48Z"
+    },
+    {
+      "id": "hn:50018817",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "description": "An MIT-licensed Swift CLI for macOS 14+ lets Claude Code and Codex point out UI controls with temporary click-through arrows and labels; it deliberately never clicks, types, or captures the screen.",
+      "author": "franze",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "createdAt": "2026-10-09T11:03:48Z"
+    },
+    {
+      "id": "hn:50024913",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft-Decision-1, our model for fast decision-making",
+      "description": "Microsoft’s post-trained Qwen3.5-9B model returns calibrated probabilities for fixed-choice tasks such as routing, classification, and grading, with access through Microsoft Foundry and OpenRouter. Benchmark and latency results are Microsoft’s own claims.",
+      "author": "lisajaloza",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "createdAt": "2026-10-09T18:38:44Z"
+    },
+    {
+      "id": "hn:49983582",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Training Text-to-Image Models Without a VAE",
+      "description": "Linum’s Pyramid-JiT is a decoder-only pixel-space diffusion model that adds multi-resolution image prediction. The company reports matching its prior model’s FD-DINOv2 score with 11.3× fewer training samples and 4.3× fewer GPU-hours; code and weights are an Apache-2.0 research release.",
+      "author": "schopra909",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.linum.ai/field-notes/pyramid-jit",
+      "createdAt": "2026-10-06T20:24:52Z"
+    },
+    {
+      "id": "hn:50024499",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "description": "An open API and CC0 dataset decode and compare carrier settings from iPhone, Pixel, and Galaxy firmware, including APNs, VoLTE, Wi-Fi Calling, and 5G.",
+      "author": "simplyalec",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://carrierexplode.com/",
+      "createdAt": "2026-10-09T18:10:55Z"
+    },
+    {
       "id": "x:2108777962053292398",
       "section": "news",
       "type": "news",
