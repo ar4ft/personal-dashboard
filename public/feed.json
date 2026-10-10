@@ -10193,6 +10193,169 @@
       "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
       "createdAt": "2026-10-10T18:48:35Z",
       "updatedAt": "2026-10-10T18:48:35Z"
+    },
+    {
+      "id": "hn:50033407",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Bitwarden Dual License Model",
+      "description": "Bitwarden is adopting a dual license model.",
+      "author": "Cider9986",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "createdAt": "2026-10-10T14:32:50Z",
+      "updatedAt": "2026-10-10T14:32:50Z"
+    },
+    {
+      "id": "hn:50031653",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple/macOS removed from official Unix registry",
+      "description": "Apple/macOS has been removed from the official Unix registry.",
+      "author": "john_alan",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.opengroup.org//openbrand/register/",
+      "createdAt": "2026-10-10T10:57:31Z",
+      "updatedAt": "2026-10-10T10:57:31Z"
+    },
+    {
+      "id": "hn:49998801",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
+      "description": "Benchmarks suggest WSL3 is about 5–60% faster than WSL2, depending on the workload.",
+      "author": "tonymet",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://tonym.us/wsl2-vs-wsl3-benchmarks.html",
+      "createdAt": "2026-10-07T21:06:54Z",
+      "updatedAt": "2026-10-07T21:06:54Z"
+    },
+    {
+      "id": "hn:50029487",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Lightbulb Computer",
+      "description": "A project building a working computer out of lightbulbs.",
+      "author": "oskarth",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://lightbulbcomputer.com/",
+      "createdAt": "2026-10-10T04:12:26Z",
+      "updatedAt": "2026-10-10T04:12:26Z"
+    },
+    {
+      "id": "hn:50034081",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Knuth reward check",
+      "description": "A write-up of receiving a Knuth reward check.",
+      "author": "Curiositry",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+      "createdAt": "2026-10-10T15:47:01Z",
+      "updatedAt": "2026-10-10T15:47:01Z"
+    },
+    {
+      "id": "hn:50017247",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nix wrote half of my debugger",
+      "description": "The author shows how Nix did much of the work of writing a debugger.",
+      "author": "ingve",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
+      "createdAt": "2026-10-09T07:29:08Z",
+      "updatedAt": "2026-10-09T07:29:08Z"
+    },
+    {
+      "id": "hn:50033357",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Unikernels were hard. key word: were",
+      "description": "Unikernels used to be hard to build; this post argues they are not anymore.",
+      "author": "ghuntley",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://ghuntley.com/unikernels/",
+      "createdAt": "2026-10-10T14:27:09Z",
+      "updatedAt": "2026-10-10T14:27:09Z"
+    },
+    {
+      "id": "hn:50024242",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rampart: Browser native on-device PII radaction",
+      "description": "Rampart performs PII redaction natively in the browser, entirely on-device.",
+      "author": "nateb2022",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://ndstudio.gov/posts/say-hello-to-rampart",
+      "createdAt": "2026-10-09T17:52:07Z",
+      "updatedAt": "2026-10-09T17:52:07Z"
+    },
+    {
+      "id": "hn:49984349",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenSCAD the Programmers Solid 3D CAD Modeller",
+      "description": "OpenSCAD is a solid 3D CAD modeller aimed at programmers.",
+      "author": "b-man",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://openscad.org/",
+      "createdAt": "2026-10-06T21:22:44Z",
+      "updatedAt": "2026-10-06T21:22:44Z"
+    },
+    {
+      "id": "hn:49981508",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Noto means \"no tofu\": fixing dotted circles in Myanmar text",
+      "description": "How dotted circles (“tofu”) in Myanmar text get fixed with the Noto font.",
+      "author": "steffoz",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.datocms.com/blog/handling-less-common-scripts",
+      "createdAt": "2026-10-06T17:24:17Z",
+      "updatedAt": "2026-10-06T17:24:17Z"
     }
   ]
 }
