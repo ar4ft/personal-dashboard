@@ -8,14 +8,14 @@
       "status": "inbox",
       "title": "How I reverse engineered a commercial spatial audio effect",
       "description": "An audio developer characterizes a commercial surround effect via stereo impulse responses, logarithmic sweeps, and multitone tests, then uses convolution to reproduce modes behaving as linear time-invariant filters.",
-      "content": "On a Linux/PipeWire setup, the author measures four channel-transfer filters and checks the result against held-out noise. Other modes vary with level or between runs and cannot be reproduced by fixed convolution—a useful DSP measurement workflow, rather than a complete recreation of every mode.\n\n[Read the article](http://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50044272)",
+      "content": "On a Linux/PipeWire setup, the author measures four channel-transfer filters and checks the result against held-out noise. Other modes vary with level or between runs and cannot be reproduced by fixed convolution—a useful DSP measurement workflow, rather than a complete recreation of every mode.\n\n[Read the article](https://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50044272)",
       "author": "epestr",
       "topics": [
         "Technology",
         "Programming"
       ],
       "source": "Hacker News",
-      "url": "http://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/",
+      "url": "https://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/",
       "createdAt": "2026-10-11T15:21:58Z"
     },
     {
