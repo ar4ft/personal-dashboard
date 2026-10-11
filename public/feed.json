@@ -2,6 +2,110 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50044272",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How I reverse engineered a commercial spatial audio effect",
+      "description": "An audio developer characterizes a commercial surround effect via stereo impulse responses, logarithmic sweeps, and multitone tests, then uses convolution to reproduce modes behaving as linear time-invariant filters.",
+      "content": "On a Linux/PipeWire setup, the author measures four channel-transfer filters and checks the result against held-out noise. Other modes vary with level or between runs and cannot be reproduced by fixed convolution—a useful DSP measurement workflow, rather than a complete recreation of every mode.\n\n[Read the article](http://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50044272)",
+      "author": "epestr",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "http://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/",
+      "createdAt": "2026-10-11T15:21:58Z"
+    },
+    {
+      "id": "hn:50043689",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I'm sorry, but you still have to think",
+      "description": "Piotr Sarnacki examines AI-produced Rails-to-Rust and Elixir rewrites and shows how underspecified requirements and single-metric benchmarks hide behavior and reliability trade-offs.",
+      "content": "Using notification delivery under load as an example, Sarnacki contrasts request throughput with missed events, latency, and memory. His constant-arrival-rate tests expose trade-offs between dropped notifications, timeouts, and long delays; increasing a Rust broadcast buffer improved delivery but raised tail latency. These are the author’s experiments on two implementations, not a universal language benchmark.\n\n[Read the article](https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043689)",
+      "author": "drogus",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
+      "createdAt": "2026-10-11T14:29:07Z"
+    },
+    {
+      "id": "hn:50043026",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Terence Tao: Math 2.0",
+      "description": "Terence Tao argues AI is disrupting mathematics because proofs are verifiable and digitized and research literature is increasingly available to models. His “Math 2.0” proposal urges transparent evaluation and tools that expand human understanding, not just produce more solutions.",
+      "content": "In an October 2026 Caltech talk, Tao describes a shift from proof scarcity toward proof abundance, while emphasizing that model performance remains jagged and many frontier problems remain unsolved. He suggests using AI to strengthen formal libraries, improve exposition, explore theorem variants, and map mathematical difficulty—while reporting compute, failures, and negative results. This is a perspective talk, not a benchmark.\n\n[View the slides](https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043026)",
+      "author": "Anon84",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "createdAt": "2026-10-11T13:16:45Z"
+    },
+    {
+      "id": "hn:50042362",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
+      "description": "Evan Ovadia’s evolving Valen language prototype presents group borrowing: the compiler tracks reference targets to catch use-after-free while aiming to permit mutation patterns rejected by Rust’s shared-xor-mutable rule.",
+      "content": "The article demonstrates multiple mutable aliases to a collection and borrow patterns involving nested objects. The author says the checks have no runtime cost; however, Valen remains an experimental language, and some syntax and features are still in development. Treat this as an evolving design, not a production-ready replacement for Rust.\n\n[Read the article](https://verdagon.dev/blog/valen-group-borrowing)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042362)",
+      "author": "verdagon",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://verdagon.dev/blog/valen-group-borrowing",
+      "createdAt": "2026-10-11T12:06:22Z"
+    },
+    {
+      "id": "hn:50042333",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "BetterWispr: Open-source on-device dictation for Mac",
+      "description": "A free Apache-2.0 macOS dictation app offers local speech models, offline use after setup, configurable cleanup, and a global shortcut; optional API-backed cleanup or note models can send text externally when configured.",
+      "content": "BetterWispr supports macOS 14+, recommends Apple Silicon, and also provides an Intel build. Its selected local speech models run without cloud transcription fallback; model downloads are explicit. Optional remote APIs for writing enhancement or meeting notes are separate choices and can receive transcripts when enabled.\n\n[Product details](https://betterwispr.com/)\n\n[Source code](https://github.com/opennookorg/betterwispr)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042333)",
+      "author": "kartik017",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://betterwispr.com/",
+      "createdAt": "2026-10-11T12:01:28Z"
+    },
+    {
+      "id": "hn:50032253",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
+      "description": "MIT researchers use zigzag soft optical fibers embedded in silicone to reconstruct a sheet’s 3D bends and twists; controlled tests report under 0.4 cm error. A motion-sensing garment for therapy or VR is a proposed application, not a current product.",
+      "content": "Each bidirectional fiber’s light transmission changes as it bends; software combines those measurements to estimate surface shape. The prototype uses 1 mm fibers and an external circuit board. MIT says thinner fibers and denser coverage are future work, with possible use in physical therapy, VR, or gaming.\n\n[Read the MIT report](https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50032253)",
+      "author": "bookofjoe",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008",
+      "createdAt": "2026-10-10T12:27:36Z"
+    },
+    {
       "id": "hn:50040276",
       "section": "news",
       "type": "news",
