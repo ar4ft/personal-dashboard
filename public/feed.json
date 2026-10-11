@@ -2,6 +2,70 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50040276",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LineageOS 24.0",
+      "description": "LineageOS says version 24.0, based on Android 17, is ready for initial device builds. Changelog 32 adds October 2026 security patches, refreshed core apps, streamed updater changes, and browser-based WebUSB tools for ADB, Fastboot, Odin, and Amlogic flashing.",
+      "author": "timschumi",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://lineageos.org/Changelog-32/",
+      "createdAt": "2026-10-11T06:18:59Z"
+    },
+    {
+      "id": "hn:50029487",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Lightbulb Computer",
+      "description": "Designer Guillaume Ardaud presents a real but bulky projector-and-computer-vision prototype for ambient spatial computing: voice, pointing and gestures, vision, and projection for room-scale widgets and controls. He describes it as a speculative direction, not a consumer product.",
+      "author": "oskarth",
+      "topics": [
+        "Technology",
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "url": "https://lightbulbcomputer.com/",
+      "createdAt": "2026-10-10T04:12:26Z"
+    },
+    {
+      "id": "hn:50017247",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nix wrote half of my debugger",
+      "description": "Farid Zakaria shows how Rewind VM’s deterministic recording and Nix-built inputs make data races reproducible: the debugger perturbs thread schedules, identifies the first divergent step, and supports source inspection and GDB at any replay point.",
+      "author": "ingve",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
+      "createdAt": "2026-10-09T07:29:08Z"
+    },
+    {
+      "id": "hn:50016956",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "description": "Microsoft says Execution Containers are generally available, letting developers define filesystem, network, and UI boundaries for agent workloads, enforced independently of the agent. Process containers span Windows, macOS, and Linux, with Windows-specific session/WSL options and experimental MicroVM support.",
+      "author": "smokel",
+      "topics": [
+        "AI",
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "createdAt": "2026-10-09T06:52:49Z"
+    },
+    {
       "id": "x:2109264448481530201",
       "section": "news",
       "type": "news",
