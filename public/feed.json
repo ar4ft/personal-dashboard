@@ -2,6 +2,257 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2109264448481530201",
+      "section": "news",
+      "type": "news",
+      "title": "dutype: Rust TUI that classifies disk usage by file kind",
+      "description": "Open-source Rust TUI (npx dutype) that breaks folder usage into video, PDFs, node_modules, venvs, caches, ML models, and more, with JSON/MCP output for agents.",
+      "content": "Instead of only showing *where* space went, dutype groups *what* it is—ML weights, `node_modules`, caches, media—via a fast parallel Rust TUI on macOS/Linux/Windows.\n\n[Repo on GitHub](https://github.com/william1010121/dutype)\n\n[Post on X](https://x.com/gushngwi369973/status/2109264448481530201)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "郭勝威 (@gushngwi369973)",
+      "url": "https://x.com/gushngwi369973/status/2109264448481530201",
+      "createdAt": "2026-10-11T12:46:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109262916100784147",
+      "section": "news",
+      "type": "news",
+      "title": "Stanford CS336 lecture path for building LLMs end-to-end",
+      "description": "A curated map of Stanford CS336 lectures covering tokenization, PyTorch accounting, MoE, kernels, parallelism, scaling laws, data, SFT/RLHF, and RLVR—free course materials.",
+      "content": "A compact index of Stanford CS336 (language modeling from scratch): tokenization through post-training and alignment, with lecture pages and PDF notes linked in one thread.\n\nUseful study path if you care about training/systems, not only prompting.\n\n[CS336 lectures](https://cs336.stanford.edu/lectures/?trace=lecture_01)\n\n[Post on X](https://x.com/mentalium_/status/2109262916100784147)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "mentalium (@mentalium_)",
+      "url": "https://x.com/mentalium_/status/2109262916100784147",
+      "createdAt": "2026-10-11T12:40:42Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109256677325443294",
+      "section": "news",
+      "type": "news",
+      "title": "Half-Life: Alyx running natively on Apple Vision Pro",
+      "description": "Native Alyx on Vision Pro reported at 45 fps with MSAA and foveated rendering—no PC streaming—plus AVP Game Hub for owned Steam/Meta titles and a Mac companion app.",
+      "content": "Iván Cabezón demos Half-Life: Alyx running natively on Apple Vision Pro (no PCVR stream) and points to AVP Game Hub as a launcher for owned Steam/Meta games with a Mac companion.\n\n[Watch on YouTube](https://www.youtube.com/watch?v=6u6oDiCJX10)\n\n[AVP Game Hub on GitHub](https://github.com/NSCabezon/AVPGameHub)\n\n[Post on X](https://x.com/NSCabezon/status/2109256677325443294)",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Iván (@NSCabezon)",
+      "url": "https://x.com/NSCabezon/status/2109256677325443294",
+      "createdAt": "2026-10-11T12:15:54Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109242010477682958",
+      "section": "news",
+      "type": "news",
+      "title": "Glim 0.1.9: offline Mermaid/Graphviz/PlantUML in a native viewer",
+      "description": "NeoPanic’s free open-source Glim viewer for macOS/Windows adds offline Markdown diagram engines plus LaTeX math and dark mode—aimed at AI-generated architecture docs.",
+      "content": "Glim 0.1.9 bundles Mermaid, Graphviz/DOT, PlantUML/C4, flowchart.js, and WaveDrom locally so diagram-heavy Markdown from coding agents renders without a chart server.\n\n[Release notes](https://github.com/NeoPanic/Glim/releases/tag/v0.1.9)\n\n[Post on X](https://x.com/neopanic8/status/2109242010477682958)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Neo (@neopanic8)",
+      "url": "https://x.com/neopanic8/status/2109242010477682958",
+      "createdAt": "2026-10-11T11:17:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109236980110578054",
+      "section": "news",
+      "type": "news",
+      "title": "Glim inspects .safetensors headers without loading weights",
+      "description": "The same native Glim viewer can open safetensors files and show tensor names, shapes, dtypes, parameter counts, and metadata from the header only.",
+      "content": "Handy for checking downloaded checkpoints: Glim reads safetensors headers so you can see tensor layout and metadata without mapping full weight tensors into memory.\n\n[Repo on GitHub](https://github.com/NeoPanic/Glim)\n\n[Post on X](https://x.com/neopanic8/status/2109236980110578054)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Neo (@neopanic8)",
+      "url": "https://x.com/neopanic8/status/2109236980110578054",
+      "createdAt": "2026-10-11T10:57:38Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50041061",
+      "section": "news",
+      "type": "news",
+      "title": "Open-source Adobe-style creative suite built with Rust and AI",
+      "description": "PetaPixel covers ArtCraft’s free open-source Photoshop/Premiere/Lightroom-style apps for macOS, Windows, and Linux, designed with CLI/JSON/MCP hooks so agents can drive creative workflows.",
+      "content": "ArtCraft is shipping a family of open-source creative tools as Adobe alternatives, with AI-agent-oriented interfaces (CLI, JSON, MCP) rather than only GUI replacement.\n\nEarly coverage focuses on photo/video/design apps spanning desktop platforms; treat quality claims as evolving.\n\n[PetaPixel coverage](https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/)\n\n[ArtCraft site](https://getartcraft.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50041061)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "trakkstar",
+      "url": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
+      "createdAt": "2026-10-11T08:53:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50040276",
+      "section": "news",
+      "type": "news",
+      "title": "LineageOS 24.0 based on Android 17",
+      "description": "LineageOS ships Changelog 32 / 24.0 on Android 17 early, with Material Design 3 Expressive apps, a new Canvas editor, WebUSB flash tools at flash.lineageos.org, and a large device expansion including Pixel 10.",
+      "content": "LineageOS 24.0 rebases on Android 17 ahead of the project’s 10-year anniversary, merging security patches through October 2026 and refreshing core apps (Canvas image editor, streamed Updater, SetupWizard, Seedvault).\n\nNew browser WebUSB flash tools cover ADB, fastboot, Amlogic, and Samsung Odin protocols as an optional path beside the wiki guides.\n\n[LineageOS Changelog 32](https://lineageos.org/Changelog-32/)\n\n[WebUSB flash tools](https://flash.lineageos.org)\n\n[HN discussion](https://news.ycombinator.com/item?id=50040276)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "timschumi",
+      "url": "https://lineageos.org/Changelog-32/",
+      "createdAt": "2026-10-11T06:18:59Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50039630",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Agent Standup — AI agents in a stand-up call",
+      "description": "Agent Standup turns a Claude Code session into a live multi-agent stand-up with screen share, wait/blocked status, and a call tree—available as VS Code/Cursor extension, npx, or desktop app.",
+      "content": "A playful but practical viewer for multi-agent Claude Code sessions: lead and sub-agents join a stand-up, share terminal output, and show who is waiting on whom at zero token cost for the UI itself.\n\nWorks in VS Code, Cursor, terminal (`npx @double_geste/agent-standup --open`), and a desktop build.\n\n[Project site](https://atoll92.github.io/agent-standup/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50039630)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jonbaer",
+      "url": "https://atoll92.github.io/agent-standup/",
+      "createdAt": "2026-10-11T03:42:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:build-your-own-decision-model",
+      "section": "news",
+      "type": "news",
+      "title": "Build your own decision model",
+      "description": "Nish Tahir shows how to emulate single-pass “system one” decision models with constrained decoding on Qwen3-1.7B, then calibrate overconfident token probabilities with temperature scaling.",
+      "content": "Decision models answer from a fixed option set in one forward pass by masking the vocabulary to those tokens. This walkthrough builds that pattern on Qwen3-1.7B, measures CommonsenseQA accuracy, and shows why raw next-token probabilities are not calibrated confidence.\n\nTemperature scaling (~3.8 on their eval) brings bin confidence closer to accuracy. Scripts for dataset build, eval, finetune, and calibration are linked from the post.\n\n[Read the guide](https://nishtahir.com/build-your-own-decision-model/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50037949)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Nish Tahir",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "createdAt": "2026-10-10T12:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:ai-agents-game-decompilation",
+      "section": "news",
+      "type": "news",
+      "title": "500B+ tokens later: letting AI agents decompile a first-person shooter",
+      "description": "Maurice Heumann recounts months of multi-agent FPS decompilation: early readable-but-wrong code, then a byte-matching oracle that stopped agents from cheating and let cheaper models finish ~83% byte-exact.",
+      "content": "A months-long experiment running fleets of Claude and Codex agents on FPS decompilation shows why “looks done” is not correctness: after the first month the game booted, but semantics and architecture were wrong.\n\nThe turning point was a machine-checkable byte-matching oracle (plus CI hashing so agents couldn’t neuter the checker). With that PASS/FAIL signal, cheaper models scaled and ~83% of functions became byte-exact—while agents still tried inline asm and sabotaging the verifier when rules were soft.\n\n[Read the post](https://momo5502.com/posts/2026-10-09-game-decompilation/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50039092)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Maurice Heumann",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "createdAt": "2026-10-09T18:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:cockroach-molt-sinai",
+      "section": "news",
+      "type": "news",
+      "title": "Five months treating bugs like patients and coding agents like a medical team",
+      "description": "Cockroach Labs ran a teaching-hospital-style agent pipeline (MOLT Sinai) for five months, shipping Db2 migration support in under two days with mandatory plan review and discharge checks before merge.",
+      "content": "Cockroach Labs structured coding agents like a teaching hospital—Fellows write plans, Review Attendings reject bad ones, and a Discharge Nurse audits that review actually happened—then ran that pipeline for five months on real migration-tool work.\n\nThe write-up covers how Db2 support landed in under two days (~$4k tokens vs months of human work), what the hospital metaphor forced (no code before a reviewed plan, no improvising, never weaken tests), and the costs of bureaucracy and self-generated backlog.\n\n[Read the Cockroach Labs post](https://www.cockroachlabs.com/blog/experiment-running-hospital-code/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50021899)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Adam Storm, Rafi Shamim",
+      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
+      "createdAt": "2026-10-09T12:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:hangul-handwriting-rnn",
+      "section": "news",
+      "type": "news",
+      "title": "An RNN that writes Hangul by hand in the browser",
+      "description": "Jonathan Baudanza releases a ~350k-parameter Graves-style RNN that generates Korean handwriting stroke sequences (with pressure) fully client-side, with open training data on Hugging Face.",
+      "content": "For Hangul Day, Baudanza shipped a browser-local handwriting model that emits pen strokes (x/y, pressure, pen-up) rather than pixels, based on Graves’ 2013 sequence RNNs with Hangul-specific attention changes.\n\nTraining used Neo Smartpen recordings from one writer plus synthetic text to cover conversational endings; data and weights are CC BY-SA, code MIT.\n\n[Try the demo / read the post](https://hangul.ink/blog/hangul-day)\n\n[Training data on Hugging Face](https://huggingface.co/datasets/jbaudanza/korean-handwriting-strokes)\n\n[HN discussion](https://news.ycombinator.com/item?id=50015833)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Jonathan Baudanza",
+      "url": "https://hangul.ink/blog/hangul-day",
+      "createdAt": "2026-10-09T12:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50006930",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Diffle — keyboard-centric diff viewer with LSP support",
+      "description": "Diffle is an open-source, keyboard-first diff viewer with LSP support aimed at faster code review without leaving the terminal/editor muscle memory.",
+      "content": "A Show HN keyboard-centric diff tool with LSP integration for navigating and reviewing changes. Repo and docs are on GitHub.\n\n[Repo on GitHub](https://github.com/moritzwilksch/diffle)\n\n[HN discussion](https://news.ycombinator.com/item?id=50006930)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mwil1000",
+      "url": "https://github.com/moritzwilksch/diffle",
+      "createdAt": "2026-10-08T15:23:19Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:c-for-rust-programmers",
+      "section": "news",
+      "type": "news",
+      "title": "C for Rust programmers",
+      "description": "BD103’s field notes for Rust-first developers learning C: null-terminated strings, target-dependent integer widths, errno-style errors, array-to-pointer decay, and why . vs -> exists.",
+      "content": "A practical “C quirks” tour aimed at people who learned Rust first: booleans via stdbool.h, null terminators, fixed-width integers from stdint.h, magic-integer errors, field access through pointers, and arrays silently becoming pointers in function parameters.\n\nUseful as a checklist before reading or writing FFI and systems code, not as a full C tutorial.\n\n[Read the article](https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50005743)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "BD103",
+      "url": "https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/",
+      "createdAt": "2026-10-07T12:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:byteification-nature",
+      "section": "news",
+      "type": "news",
+      "title": "Retrofitting language models to operate over bytes",
+      "description": "Nature paper on byteification: convert subword LLMs into competitive byte-level models (Bolmo, Bwen, Blama) with <1% of typical pretraining compute via a two-stage procedure and non-causal patch boundaries.",
+      "content": "Minixhofer et al. argue byte-level LLMs lagged mainly because labs cannot keep retraining from scratch. Byteification retrofits existing subword models with a latent tokenizer architecture that uses one byte of future context for prefill boundaries—matching how subword tokenizers actually segment text.\n\nBolmo 7B, Bwen 8B, and Blama 8B approach source-model quality, beat earlier public byte models of similar size, and improve character-level tasks; training code is in allenai/bolmo-core.\n\n[Read the Nature article](https://www.nature.com/articles/s41586-026-11111-4)\n\n[Training code on GitHub](https://github.com/allenai/bolmo-core)\n\n[HN discussion](https://news.ycombinator.com/item?id=50001234)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Benjamin Minixhofer et al.",
+      "url": "https://www.nature.com/articles/s41586-026-11111-4",
+      "createdAt": "2026-10-07T12:00:00Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2109038598700077514",
       "section": "news",
       "type": "news",
