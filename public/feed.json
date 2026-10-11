@@ -2,157 +2,6 @@
   "version": 1,
   "items": [
     {
-      "id": "hn:50044272",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "How I reverse engineered a commercial spatial audio effect",
-      "description": "An audio developer characterizes a commercial surround effect via stereo impulse responses, logarithmic sweeps, and multitone tests, then uses convolution to reproduce modes behaving as linear time-invariant filters.",
-      "content": "On a Linux/PipeWire setup, the author measures four channel-transfer filters and checks the result against held-out noise. Other modes vary with level or between runs and cannot be reproduced by fixed convolution—a useful DSP measurement workflow, rather than a complete recreation of every mode.\n\n[Read the article](https://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50044272)",
-      "author": "epestr",
-      "topics": [
-        "Technology",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/",
-      "createdAt": "2026-10-11T15:21:58Z"
-    },
-    {
-      "id": "hn:50043689",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "I'm sorry, but you still have to think",
-      "description": "Piotr Sarnacki examines AI-produced Rails-to-Rust and Elixir rewrites and shows how underspecified requirements and single-metric benchmarks hide behavior and reliability trade-offs.",
-      "content": "Using notification delivery under load as an example, Sarnacki contrasts request throughput with missed events, latency, and memory. His constant-arrival-rate tests expose trade-offs between dropped notifications, timeouts, and long delays; increasing a Rust broadcast buffer improved delivery but raised tail latency. These are the author’s experiments on two implementations, not a universal language benchmark.\n\n[Read the article](https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043689)",
-      "author": "drogus",
-      "topics": [
-        "AI",
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
-      "createdAt": "2026-10-11T14:29:07Z"
-    },
-    {
-      "id": "hn:50043026",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Terence Tao: Math 2.0",
-      "description": "Terence Tao argues AI is disrupting mathematics because proofs are verifiable and digitized and research literature is increasingly available to models. His “Math 2.0” proposal urges transparent evaluation and tools that expand human understanding, not just produce more solutions.",
-      "content": "In an October 2026 Caltech talk, Tao describes a shift from proof scarcity toward proof abundance, while emphasizing that model performance remains jagged and many frontier problems remain unsolved. He suggests using AI to strengthen formal libraries, improve exposition, explore theorem variants, and map mathematical difficulty—while reporting compute, failures, and negative results. This is a perspective talk, not a benchmark.\n\n[View the slides](https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043026)",
-      "author": "Anon84",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-      "createdAt": "2026-10-11T13:16:45Z"
-    },
-    {
-      "id": "hn:50042362",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
-      "description": "Evan Ovadia’s evolving Valen language prototype presents group borrowing: the compiler tracks reference targets to catch use-after-free while aiming to permit mutation patterns rejected by Rust’s shared-xor-mutable rule.",
-      "content": "The article demonstrates multiple mutable aliases to a collection and borrow patterns involving nested objects. The author says the checks have no runtime cost; however, Valen remains an experimental language, and some syntax and features are still in development. Treat this as an evolving design, not a production-ready replacement for Rust.\n\n[Read the article](https://verdagon.dev/blog/valen-group-borrowing)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042362)",
-      "author": "verdagon",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://verdagon.dev/blog/valen-group-borrowing",
-      "createdAt": "2026-10-11T12:06:22Z"
-    },
-    {
-      "id": "hn:50032253",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
-      "description": "MIT researchers use zigzag soft optical fibers embedded in silicone to reconstruct a sheet’s 3D bends and twists; controlled tests report under 0.4 cm error. A motion-sensing garment for therapy or VR is a proposed application, not a current product.",
-      "content": "Each bidirectional fiber’s light transmission changes as it bends; software combines those measurements to estimate surface shape. The prototype uses 1 mm fibers and an external circuit board. MIT says thinner fibers and denser coverage are future work, with possible use in physical therapy, VR, or gaming.\n\n[Read the MIT report](https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50032253)",
-      "author": "bookofjoe",
-      "topics": [
-        "Wearables",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008",
-      "createdAt": "2026-10-10T12:27:36Z"
-    },
-    {
-      "id": "hn:50040276",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "LineageOS 24.0",
-      "description": "LineageOS says version 24.0, based on Android 17, is ready for initial device builds. Changelog 32 adds October 2026 security patches, refreshed core apps, streamed updater changes, and browser-based WebUSB tools for ADB, Fastboot, Odin, and Amlogic flashing.",
-      "author": "timschumi",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://lineageos.org/Changelog-32/",
-      "createdAt": "2026-10-11T06:18:59Z"
-    },
-    {
-      "id": "hn:50029487",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "The Lightbulb Computer",
-      "description": "Designer Guillaume Ardaud presents a real but bulky projector-and-computer-vision prototype for ambient spatial computing: voice, pointing and gestures, vision, and projection for room-scale widgets and controls. He describes it as a speculative direction, not a consumer product.",
-      "author": "oskarth",
-      "topics": [
-        "Technology",
-        "Wearables"
-      ],
-      "source": "Hacker News",
-      "url": "https://lightbulbcomputer.com/",
-      "createdAt": "2026-10-10T04:12:26Z"
-    },
-    {
-      "id": "hn:50017247",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Nix wrote half of my debugger",
-      "description": "Farid Zakaria shows how Rewind VM’s deterministic recording and Nix-built inputs make data races reproducible: the debugger perturbs thread schedules, identifies the first divergent step, and supports source inspection and GDB at any replay point.",
-      "author": "ingve",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
-      "createdAt": "2026-10-09T07:29:08Z"
-    },
-    {
-      "id": "hn:50016956",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-      "description": "Microsoft says Execution Containers are generally available, letting developers define filesystem, network, and UI boundaries for agent workloads, enforced independently of the agent. Process containers span Windows, macOS, and Linux, with Windows-specific session/WSL options and experimental MicroVM support.",
-      "author": "smokel",
-      "topics": [
-        "AI",
-        "Technology",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-      "createdAt": "2026-10-09T06:52:49Z"
-    },
-    {
       "id": "x:2109264448481530201",
       "section": "news",
       "type": "news",
@@ -10352,168 +10201,6 @@
       "updatedAt": "2026-10-11T06:51:21Z"
     },
     {
-      "id": "hn:49991852",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "2D Vehicles",
-      "description": "A showcase of 2D vehicle designs built for the web on patkerr.co.uk.",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "Michelangelo11",
-      "url": "https://patkerr.co.uk/2d-vehicles/",
-      "createdAt": "2026-10-07T12:30:40Z",
-      "updatedAt": "2026-10-07T12:30:40Z"
-    },
-    {
-      "id": "hn:50040547",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "3rd Yandex Cloud Data Center Was Hit",
-      "description": "Yandex Cloud's status page reports an incident affecting a data center, the third such strike reported.",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "defly",
-      "url": "https://status.yandex.cloud/en/incidents/2136",
-      "createdAt": "2026-10-11T07:34:45Z",
-      "updatedAt": "2026-10-11T07:34:45Z"
-    },
-    {
-      "id": "hn:50041619",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
-      "description": "Cloudflare Radar shows a sudden drop in bot traffic on Yandex's network following the reported strike on a Yandex datacenter.",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "walrus01",
-      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
-      "createdAt": "2026-10-11T10:27:53Z",
-      "updatedAt": "2026-10-11T10:27:53Z"
-    },
-    {
-      "id": "hn:50041682",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Nitter: Update Oct 10th seeking funding and legal help",
-      "description": "The Nitter project posted an October 10th update seeking funding and legal help to keep the service alive.",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "ForHackernews",
-      "url": "https://nitter.net",
-      "createdAt": "2026-10-11T10:37:55Z",
-      "updatedAt": "2026-10-11T10:37:55Z"
-    },
-    {
-      "id": "hn:50041540",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "IRCv3",
-      "description": "A look at IRCv3, the ongoing effort to modernize the IRC protocol with new extensions.",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "basilikum",
-      "url": "https://ircv3.net/",
-      "createdAt": "2026-10-11T10:11:27Z",
-      "updatedAt": "2026-10-11T10:11:27Z"
-    },
-    {
-      "id": "hn:50039536",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "GameBoy on E-Paper ESP32 at 30FPS [video]",
-      "description": "A video demo of a Game Boy running on an ESP32 with an e-paper display at 30 frames per second.",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "pizzaiolo",
-      "url": "https://www.youtube.com/watch?v=XiZmM6hwwAU",
-      "createdAt": "2026-10-11T03:21:07Z",
-      "updatedAt": "2026-10-11T03:21:07Z"
-    },
-    {
-      "id": "hn:50038623",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "PSPi 6 – Raspberry Pi in a PSP",
-      "description": "Version 6 of the PSPi project, which fits a Raspberry Pi inside a PSP shell.",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "therepanic",
-      "url": "https://github.com/othermod/PSPi-Version-6",
-      "createdAt": "2026-10-11T00:45:49Z",
-      "updatedAt": "2026-10-11T00:45:49Z"
-    },
-    {
-      "id": "hn:50028647",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Decade-old RAM is making a comeback",
-      "description": "The Verge reports that decade-old DDR4 RAM is making a comeback amid a memory shortage.",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "1potato",
-      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
-      "createdAt": "2026-10-10T01:37:08Z",
-      "updatedAt": "2026-10-10T01:37:08Z"
-    },
-    {
-      "id": "hn:50042219",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "I paid people to try and follow my README",
-      "description": "The author paid volunteers to follow his project's README and reports where they got stuck.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "edent",
-      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
-      "createdAt": "2026-10-11T11:47:29Z",
-      "updatedAt": "2026-10-11T11:47:29Z"
-    },
-    {
-      "id": "hn:50042107",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "AI is creating a 'human premium' for art created by people",
-      "description": "The BBC reports on a growing 'human premium' for art created by people as AI-generated work spreads.",
-      "topics": [
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "colinprince",
-      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-      "createdAt": "2026-10-11T11:34:28Z",
-      "updatedAt": "2026-10-11T11:34:28Z"
-    },
-    {
       "id": "x:2109313576116604977",
       "section": "news",
       "type": "news",
@@ -10614,125 +10301,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:50031614",
-      "section": "news",
-      "type": "news",
-      "title": "Talorys: self-hosted personal AI agent on Cloudflare’s free tier",
-      "description": "Open-source personal agent (chat, memory, tasks, notes, scheduled reminders) that deploys into your own Cloudflare account with npx create-talorys—single-user, no telemetry.",
-      "content": "Talorys aims at a personal agent you host yourself on Cloudflare’s free tier rather than a multi-tenant SaaS inbox. One-command scaffold, your account, your data.\n\n[Repo on GitHub](https://github.com/rociiu/talorys)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50031614)",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "rociiu",
-      "url": "https://github.com/rociiu/talorys",
-      "createdAt": "2026-10-10T10:52:09Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:50024499",
-      "section": "news",
-      "type": "news",
-      "title": "Carrier-Explode: decoded carrier settings for iPhone, Pixel, and Galaxy",
-      "description": "Show HN tool that inspects and explains mobile carrier configuration payloads across major phone platforms—useful for debugging SIM/carrier quirks.",
-      "content": "Carrier-Explode surfaces what carrier settings blobs actually contain on iPhone, Pixel, and Galaxy devices, aimed at people who debug provisioning and network behavior.\n\n[Product site](https://carrierexplode.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50024499)",
-      "topics": [
-        "iOS / Mac Apps",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "simplyalec",
-      "url": "https://carrierexplode.com/",
-      "createdAt": "2026-10-09T18:10:55Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:50018817",
-      "section": "news",
-      "type": "news",
-      "title": "Big Arrow: let AI agents paint arrows, boxes, and text on your Mac screen",
-      "description": "MIT-licensed CLI/skill so Claude Code or Codex can draw click-through overlays (arrows, boxes, labels) on macOS that clear themselves—handy for demos and visual guidance.",
-      "content": "Rather than describing UI positions in prose, agents can paint ephemeral on-screen annotations. One CLI, click-through overlays, auto-dismiss.\n\n[Repo on GitHub](https://github.com/franzenzenhofer/big-arrow-on-the-screen)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50018817)",
-      "topics": [
-        "AI",
-        "Programming",
-        "iOS / Mac Apps"
-      ],
-      "source": "Hacker News",
-      "author": "franze",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "createdAt": "2026-10-09T11:03:48Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:49988516",
-      "section": "news",
-      "type": "news",
-      "title": "Rgpu: PyTorch device whose tensors live on a remote GPU",
-      "description": "Keep Python on your laptop (including Mac without CUDA) while PyTorch ops and tensor storage run on a remote GPU over the network.",
-      "content": "Rgpu registers a PyTorch device that ships tensors and kernels to a remote CUDA box, so local notebooks can train/infer without a local GPU install.\n\n[Repo on GitHub](https://github.com/ymcrcat/rgpu)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=49988516)",
-      "topics": [
-        "Machine Learning",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "boxstream",
-      "url": "https://github.com/ymcrcat/rgpu",
-      "createdAt": "2026-10-07T05:15:44Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:50045273",
-      "section": "news",
-      "type": "news",
-      "title": "APSW: Another Python SQLite Wrapper",
-      "description": "Mature, thin Python binding that exposes nearly the full SQLite C API—useful when you want SQLite power without an ORM layer.",
-      "content": "APSW stays close to SQLite itself (virtual tables, advanced APIs, embedding) rather than presenting a Django/SQLAlchemy-style model layer. Handy for tooling and data pipelines that need SQLite’s full surface.\n\n[Repo on GitHub](https://github.com/rogerbinns/apsw)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50045273)",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "tosh",
-      "url": "https://github.com/rogerbinns/apsw",
-      "createdAt": "2026-10-11T16:58:22Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:50046864",
-      "section": "news",
-      "type": "news",
-      "title": "The unreasonable effectiveness of VEX in NixOS",
-      "description": "A write-up on using VEX (Vulnerability Exploitability eXchange) with NixOS to cut noise from scanner findings by recording what is actually exploitable in a given build.",
-      "content": "DaTosh argues VEX complements Nix’s reproducible builds: scanners still flag CVEs, but attested exploitability status keeps triage focused on real risk in a NixOS system.\n\n[Read the article](https://blog.kammel.dev/post/nixos_vex/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50046864)",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "datosh",
-      "url": "https://blog.kammel.dev/post/nixos_vex/",
-      "createdAt": "2026-10-11T19:23:07Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:50007993",
-      "section": "news",
-      "type": "news",
-      "title": "Jevman: Pac-Man benchmark for AI decision models",
-      "description": "Opper’s Show HN benchmark puts decision-model agents in Pac-Man to compare planning quality under a shared, visual, reward-driven environment.",
-      "content": "Jevman frames decision-model evaluation as playing Pac-Man—useful contrast to chat-only evals when you care about sequential choices under uncertainty.\n\n[Benchmark site](https://opper.ai/jevman-benchmark/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50007993)",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "author": "felix089",
-      "url": "https://opper.ai/jevman-benchmark/",
-      "createdAt": "2026-10-08T16:34:13Z",
-      "status": "inbox"
-    },
-    {
       "id": "reading:harvard-cs249r-ml-systems",
       "section": "news",
       "type": "news",
@@ -10765,6 +10333,193 @@
       "url": "https://github.com/raullenchai/Rapid-MLX",
       "createdAt": "2026-10-11T14:22:20Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50045946",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NYC's \"Click to Cancel\" rule is now in effect",
+      "description": "New York City's \"Click to Cancel\" rule is now in effect, requiring businesses to make subscriptions and recurring charges as easy to cancel as they were to start.",
+      "content": "[Read the article](https://www.nyc.gov/main/click-to-cancel)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50045946)",
+      "author": "gregsadetsky",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.nyc.gov/main/click-to-cancel",
+      "createdAt": "2026-10-11T18:01:16Z",
+      "updatedAt": "2026-10-11T18:01:16Z"
+    },
+    {
+      "id": "hn:50042425",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The tilde in your PATH may not be your HOME",
+      "description": "A look at why the tilde in your PATH may not expand to your HOME directory, and the subtle shell behavior that catches people out.",
+      "content": "[Read the article](https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042425)",
+      "author": "arusekk",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+      "createdAt": "2026-10-11T12:13:13Z",
+      "updatedAt": "2026-10-11T12:13:13Z"
+    },
+    {
+      "id": "hn:50042333",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: BetterWispr – Free, open-source dictation for Mac",
+      "description": "A free, open-source dictation app for macOS shown on HN.",
+      "content": "[Read the article](https://betterwispr.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042333)",
+      "author": "kartik017",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://betterwispr.com/",
+      "createdAt": "2026-10-11T12:01:28Z",
+      "updatedAt": "2026-10-11T12:01:28Z"
+    },
+    {
+      "id": "hn:50047422",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "description": "A note on Andrej Karpathy's observation that the gap in shared understanding of LLM capability is widening.",
+      "content": "[Read the article](https://twitter.com/karpathy/status/2109361546505966046)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50047422)",
+      "author": "albertzeyer",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "createdAt": "2026-10-11T20:20:52Z",
+      "updatedAt": "2026-10-11T20:20:52Z"
+    },
+    {
+      "id": "hn:50048312",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Passkeys are a trap. Do not use them",
+      "description": "An opinion piece arguing that passkeys are a trap and should not be used.",
+      "content": "[Read the article](https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50048312)",
+      "author": "laurex",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "createdAt": "2026-10-11T21:59:48Z",
+      "updatedAt": "2026-10-11T21:59:48Z"
+    },
+    {
+      "id": "hn:50041765",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "description": "Berkeley research reported as showing that using AI for just 10 minutes erodes people's ability to persist at hard things.",
+      "content": "[Read the article](https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50041765)",
+      "author": "giuliomagnifico",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "createdAt": "2026-10-11T10:47:21Z",
+      "updatedAt": "2026-10-11T10:47:21Z"
+    },
+    {
+      "id": "hn:50028264",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+      "description": "A replica of the Cray-1 supercomputer built from 30 \"obsolete\" Mac Minis, covered by Ars Technica.",
+      "content": "[Read the article](https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50028264)",
+      "author": "pseudolus",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+      "createdAt": "2026-10-10T00:34:34Z",
+      "updatedAt": "2026-10-10T00:34:34Z"
+    },
+    {
+      "id": "hn:50018929",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Plumbers, chains, and famous painters: The history of the pipe operator in R",
+      "description": "The history of the pipe operator in R, from plumbers and chains to famous painters.",
+      "content": "[Read the article](http://adolfoalvarez.cl/blog/2021-09-16-plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50018929)",
+      "author": "sinnsro",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "http://adolfoalvarez.cl/blog/2021-09-16-plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/",
+      "createdAt": "2026-10-09T11:20:49Z",
+      "updatedAt": "2026-10-09T11:20:49Z"
+    },
+    {
+      "id": "hn:50033601",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Safe SIMD in Rust, even on the inside",
+      "description": "An exploration of safe SIMD usage in Rust, including the internals.",
+      "content": "[Read the article](https://shnatsel.github.io/safe-simd-in-rust-even-on-the-inside/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50033601)",
+      "author": "ravenical",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://shnatsel.github.io/safe-simd-in-rust-even-on-the-inside/",
+      "createdAt": "2026-10-10T14:56:11Z",
+      "updatedAt": "2026-10-10T14:56:11Z"
+    },
+    {
+      "id": "hn:50043603",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Texas Is Making Data Centers Wait",
+      "description": "a16z's take on why Texas is making data centers wait.",
+      "content": "[Read the article](https://a16z.com/why-texas-is-making-data-centers-wait/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043603)",
+      "author": "gmays",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://a16z.com/why-texas-is-making-data-centers-wait/",
+      "createdAt": "2026-10-11T14:21:31Z",
+      "updatedAt": "2026-10-11T14:21:31Z"
+    },
+    {
+      "id": "hn:50048591",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Amazon in talks to buy AI startup Decart for around $7B, WSJ reports",
+      "description": "Reuters reports Amazon is in talks to buy AI startup Decart for around $7B, per the WSJ.",
+      "content": "[Read the article](https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50048591)",
+      "author": "mraniki",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
+      "createdAt": "2026-10-11T22:28:18Z",
+      "updatedAt": "2026-10-11T22:28:18Z"
     }
   ]
 }
