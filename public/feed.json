@@ -691,7 +691,7 @@
       "type": "idea",
       "title": "Local voice desk bot",
       "description": "Wake word, then STT, then a local tool-using LLM agent, then TTS, with a spoken confirm before shell commands.",
-      "content": "Stack: USB mic or $5-15 ESP32, Whisper/Parakeet, Kokoro/Piper, Ollama, Python FastAPI bridge.\n\nHard parts: Barge-in and blocking destructive tools.\n\nEffort: A weekend mic-only, 1-2 weeks with the robot.\n\nInspired by: ESP Vocat desk bot - https://x.com/vineethkalluru/status/2108388089731436546",
+      "content": "## How it works\n\nA fully local voice assistant on my desk: say the wake word, speak, and a tool-using LLM agent answers out loud. It asks for a spoken confirmation before running anything risky, like shell commands.\n\n```mermaid\nflowchart LR\n  W[Wake word] --> S[Speech to text]\n  S --> A[Local LLM agent]\n  A --> C{Risky tool?}\n  C -->|yes| Q[Ask out loud to confirm]\n  C -->|no| T[Run tool]\n  Q --> T\n  T --> V[Text to speech]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Hardware | USB mic, or a $5-15 ESP32 |\n| Speech to text | Whisper or Parakeet |\n| Text to speech | Kokoro or Piper |\n| LLM | Ollama |\n| Glue | Python FastAPI bridge |\n\n## Hard parts\n\n- Barge-in: interrupting the bot while it is talking.\n- Blocking destructive tools until confirmed.\n\n## Effort\n\nA weekend for a mic-only version, 1-2 weeks with the robot.\n\n## Inspired by\n\n- [ESP Vocat desk bot on X](https://x.com/vineethkalluru/status/2108388089731436546)\n- [jarvis-desk-bot repo](https://github.com/dreamhunter02/jarvis-desk-bot)",
       "nextStep": "Prototype the mic-only pipeline: Parakeet STT -> Ollama -> Kokoro TTS.",
       "topics": [
         "AI",
@@ -699,7 +699,8 @@
       ],
       "source": "DaVinci digest",
       "createdAt": "2026-10-09T17:21:25Z",
-      "status": "explore"
+      "status": "explore",
+      "updatedAt": "2026-10-11T07:03:20Z"
     },
     {
       "id": "ideas:push-to-talk-dictation-cleanup",
@@ -707,7 +708,7 @@
       "type": "idea",
       "title": "Push-to-talk dictation that removes filler words",
       "description": "Global hotkey, local whisper.cpp, a small LLM cleanup pass, paste at cursor.",
-      "content": "Stack: Swift on Mac or a cross-platform tray app.\n\nHard parts: Fast paste into any app and macOS accessibility permissions.\n\nEffort: A few days for a Mac MVP.\n\nInspired by: BetterWispr - https://x.com/code_kartik/status/2108219601469550720",
+      "content": "## How it works\n\nHold a global hotkey, speak, and get clean text pasted at the cursor in any app, with filler words removed. Everything runs on the Mac.\n\n```mermaid\nflowchart LR\n  H[Hold hotkey] --> R[Record audio]\n  R --> W[whisper.cpp transcription]\n  W --> L[Small LLM cleanup pass]\n  L --> P[Paste at cursor]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| App | Swift menu-bar app on Mac, or a cross-platform tray app |\n| Transcription | Local whisper.cpp |\n| Cleanup | A small local LLM |\n\n## Hard parts\n\n- Pasting fast and reliably into any app.\n- macOS accessibility permissions.\n\n## Effort\n\nA few days for a Mac MVP.\n\n## Inspired by\n\n- [BetterWispr on X](https://x.com/code_kartik/status/2108219601469550720)\n- [betterwispr.com](https://betterwispr.com)",
       "nextStep": "Build a Swift menu-bar MVP: global hotkey -> record -> whisper.cpp transcription -> paste at cursor.",
       "topics": [
         "iOS / Mac Apps",
@@ -715,7 +716,8 @@
       ],
       "source": "DaVinci digest",
       "createdAt": "2026-10-09T17:21:25Z",
-      "status": "explore"
+      "status": "explore",
+      "updatedAt": "2026-10-11T07:03:20Z"
     },
     {
       "id": "ideas:fast-decision-layer-for-agents",
@@ -723,7 +725,7 @@
       "type": "idea",
       "title": "Fast decision layer for agents",
       "description": "Turn yes/no, routing and spam calls into typed multiple-choice questions answered by a small model instead of a full LLM, exposed as a tool behind a FastAPI sidecar.",
-      "content": "Stack: Small decision model (e.g. Open d1) behind a FastAPI sidecar, exposed as an agent tool.\n\nHard parts: Good task schemas and calibration.\n\nEffort: 1-2 weeks.\n\nInspired by: Liquid AI Open d1 - https://x.com/liquidai/status/2107878924831379676",
+      "content": "## How it works\n\nMany agent steps are simple decisions: yes or no, which route to take, is this spam. Instead of asking a full LLM, turn them into typed multiple-choice questions answered by a small decision model in one forward pass, exposed to agents as a tool.\n\n```mermaid\nflowchart LR\n  A[Agent] -->|typed question| S[FastAPI sidecar]\n  S --> D[Small decision model]\n  D -->|calibrated answer| S\n  S --> A\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Model | A small decision model such as Liquid AI's Open d1 (d1-3B) |\n| Server | FastAPI sidecar |\n| Interface | An agent tool with typed schemas |\n\n## Hard parts\n\n- Designing good task schemas.\n- Calibration, so the answers can be trusted.\n\n## Effort\n\n1-2 weeks.\n\n## Inspired by\n\n- [Liquid AI Open d1 on X](https://x.com/liquidai/status/2107878924831379676)\n- [Open d1 announcement](https://www.liquid.ai/blog/d1-open)",
       "nextStep": "Define three typed decision schemas (yes/no, routing, spam) and serve d1-3B behind a FastAPI endpoint.",
       "topics": [
         "AI",
@@ -732,7 +734,8 @@
       ],
       "source": "DaVinci digest",
       "createdAt": "2026-10-09T17:21:25Z",
-      "status": "explore"
+      "status": "explore",
+      "updatedAt": "2026-10-11T07:03:20Z"
     },
     {
       "id": "x:2108176088585400775",
