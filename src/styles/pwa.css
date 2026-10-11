@@ -75,3 +75,5 @@
     display: none;
   }
 }
+
+#app-install-status:empty { display: none; }

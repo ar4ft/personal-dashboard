@@ -3,10 +3,13 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const http = require('node:http');
 const path = require('node:path');
+const os = require('node:os');
 (async () => {
   const browser = await chromium.launch({executablePath:process.env.DASHBOARD_BROWSER_EXECUTABLE, args:['--no-sandbox'], ...(process.env.DASHBOARD_TEST_PROXY ? {proxy:{server:process.env.DASHBOARD_TEST_PROXY, bypass:'localhost,127.0.0.1'}} : {})});
   const root = process.env.DASHBOARD_TEST_URL || 'http://localhost:4322/personal-dashboard/';
-  const context = await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+  // A normal profile is required: Chromium deliberately blocks installation in incognito.
+  const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'dashboard-installability-'));
+  const context = await chromium.launchPersistentContext(profile, {executablePath:process.env.DASHBOARD_BROWSER_EXECUTABLE, args:['--no-sandbox'], viewport:{width:390,height:844},isMobile:true,hasTouch:true, ...(process.env.DASHBOARD_TEST_PROXY ? {proxy:{server:process.env.DASHBOARD_TEST_PROXY, bypass:'localhost,127.0.0.1'}} : {})});
   const page = await context.newPage();
   const errors = []; page.on('pageerror', e => errors.push(e.message));
   await page.goto(root);
@@ -14,9 +17,24 @@ const path = require('node:path');
   await page.waitForFunction(() => Boolean(navigator.serviceWorker.controller));
   const manifest = await page.evaluate(async () => (await fetch(document.querySelector('link[rel=manifest]').href)).json());
   assert.equal(manifest.scope, new URL(root).pathname);
+  assert.equal(manifest.id, manifest.scope);
   assert.equal(manifest.start_url, manifest.scope);
   assert.equal(manifest.display, 'standalone');
+  assert.equal(manifest.prefer_related_applications, false);
+  assert.ok(manifest.icons.some(icon => icon.sizes === '192x192'));
+  assert.ok(manifest.icons.some(icon => icon.sizes === '512x512'));
+  for (const name of ['mobile-web-app-capable', 'apple-mobile-web-app-capable']) {
+    assert.equal(await page.locator(`meta[name="${name}"]`).getAttribute('content'), 'yes');
+  }
+  const appleIcon = await page.locator('link[rel="apple-touch-icon"]').getAttribute('href');
+  assert.deepEqual(await page.evaluate(async src => {
+    const img = new Image(); img.src = src; await img.decode(); return [img.naturalWidth, img.naturalHeight];
+  }, appleIcon), [180, 180]);
+  const cdp = await context.newCDPSession(page);
+  const eligibility = await cdp.send('Page.getInstallabilityErrors');
+  assert.deepEqual(eligibility.installabilityErrors, [], 'Chromium installability requirements');
   for (const icon of manifest.icons) {
+    assert.ok(icon.purpose.split(' ').includes('maskable'));
     const size = Number(icon.sizes.split('x')[0]);
     const dimensions = await page.evaluate(async src => {const img = new Image();img.src=src;await img.decode();return [img.naturalWidth,img.naturalHeight];}, icon.src);
     assert.deepEqual(dimensions,[size,size]);
@@ -54,6 +72,7 @@ const path = require('node:path');
   }
   assert.deepEqual(errors,[]);
   await context.close();
+  fs.rmSync(profile, {recursive:true, force:true});
   // A controlled server produces a second build to exercise the waiting/update lifecycle.
   let newer = false;
   const base = manifest.scope;

@@ -103,7 +103,12 @@ The phone browser regression suite exercises real touch scrolling, bottom naviga
 
 ## Install on your phone (PWA)
 
-Open the dashboard and tap **App** to check that offline access is ready. On Android, use **Install app** when offered, or the browser's install menu. On iPhone/iPad, open it in Safari, choose **Share → Add to Home Screen**, and enable **Open as Web App** if shown. Launch the new Dashboard icon for a standalone experience.
+Open [the dashboard](https://ar4ft.github.io/personal-dashboard/) and tap **App** (in the reader menu on News/Ideas). The app shows instructions for your device and its offline status.
+
+- **iPhone/iPad:** open the site in Safari, choose **Share → Add to Home Screen**, enable **Open as Web App** if shown, then tap **Add**. Launch the new **Dashboard** icon.
+- **Android:** open the site in Chrome, tap **Install app** in the App panel when offered, or use **⋮ → Install app / Add to Home screen** and confirm. Launch the **Dashboard** icon. Browser labels vary; if an in-app browser has no install option, open the URL directly in Chrome.
+
+Installation runs the dashboard in its own standalone window. iOS uses the Share menu rather than an automatic install prompt. Android's prompt is controlled by the browser and may appear after interacting with the site; menu installation remains available. Installed apps hide installation guidance. Before relying on offline access, wait for **Ready for offline use** in the App panel.
 
 After the first successful online visit, all dashboard sections, bundled images, and app assets work offline. You can read cached content, edit boards and notes, and save favorites. New feeds, external article links, and remote images require a connection. The repository feed keeps its last successfully fetched response for offline reading; browser-local feed imports remain in your workspace backup.
 
@@ -111,7 +116,7 @@ A new deployment offers an **Update** button after its offline files finish down
 
 After a repository rename, open the new Pages URL. Existing installed apps may still launch the old URL; export a workspace backup before removing the old installation, then install from the new URL and restore if needed. Browser storage keys stay unchanged, so the same browser profile retains its workspace.
 
-`npm run build` generates a base-aware manifest and versioned service worker with a complete offline asset list. The PWA browser test checks installation metadata, icon sizes, offline navigation/images/edits, and update activation without losing local data. Changes to PWA caching live in `scripts/build-pwa.mjs`; no service-worker cache contains private credentials.
+`npm run build` generates a base-aware manifest and versioned service worker with a complete offline asset list. PWA browser checks verify Chromium installability, manifest and Apple metadata, icon sizes, offline navigation/images/edits, and update activation without losing local data. Installation UI checks emulate iPhone, iPad desktop mode, Android prompt outcomes and standalone display; these do not automate the operating system’s home-screen installation. Changes to PWA caching live in `scripts/build-pwa.mjs`; no service-worker cache contains private credentials.
 
 
 ## Design and accessibility
