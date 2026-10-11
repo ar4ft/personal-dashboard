@@ -10512,6 +10512,259 @@
       "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
       "createdAt": "2026-10-11T11:34:28Z",
       "updatedAt": "2026-10-11T11:34:28Z"
+    },
+    {
+      "id": "x:2109313576116604977",
+      "section": "news",
+      "type": "news",
+      "title": "Sill: stream any Mac window live to iPhone or iPad",
+      "description": "Free open-source app that mirrors any Mac window to iPhone/iPad with touch, Apple Pencil, trackpad, and keyboard—no account or servers.",
+      "content": "Noah’s Sill ships a Mac companion plus an iOS app so a live Mac window is interactive on phone or tablet locally, with source on GitHub and a free App Store build.\n\n[Source on GitHub](https://github.com/Saffsanity/sill)\n\n[Download page](https://getsill.app/download)\n\n[App Store listing](https://apps.apple.com/us/app/sill-mac-streaming/id6816359860)\n\n[Post on X](https://x.com/Saffsanity/status/2109313576116604977)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Noah (@Saffsanity)",
+      "url": "https://x.com/Saffsanity/status/2109313576116604977",
+      "createdAt": "2026-10-11T16:02:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109268163095597335",
+      "section": "news",
+      "type": "news",
+      "title": "Buds Control: native macOS app for OnePlus Buds Pro 3",
+      "description": "OnePlus never shipped a Mac app for Buds Pro 3; this reverse-engineered Bluetooth RFCOMM client exposes controls in a native macOS app with open source.",
+      "content": "Ayush reverse-engineered the Buds Pro 3 Bluetooth protocol (unencrypted RFCOMM command bytes) and shipped Buds Control so Mac users can manage the earbuds without the phone app.\n\n[Repo on GitHub](https://github.com/Ayush-Walia/BudsControl)\n\n[Post on X](https://x.com/ayushwalia999/status/2109268163095597335)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "Ayush (@ayushwalia999)",
+      "url": "https://x.com/ayushwalia999/status/2109268163095597335",
+      "createdAt": "2026-10-11T13:01:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109325771596869843",
+      "section": "news",
+      "type": "news",
+      "title": "TCLimate: macOS menu bar control for TCL Home ACs",
+      "description": "Unofficial native macOS menu bar companion reverse-engineered from the TCL Home iOS app so you can control the AC without finding the remote or phone.",
+      "content": "Umz turned TCL Home’s iOS control path into a small open-source macOS menu bar app for day-to-day climate control from the desktop.\n\n[Repo on GitHub](https://github.com/umarz317/TCLimate)\n\n[Post on X](https://x.com/O_Osteam/status/2109325771596869843)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Umz (@O_Osteam)",
+      "url": "https://x.com/O_Osteam/status/2109325771596869843",
+      "createdAt": "2026-10-11T16:50:27Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109385006603006435",
+      "section": "news",
+      "type": "news",
+      "title": "Sakana AI MASS: multi-agent self-supervision for recursive self-improvement",
+      "description": "Sakana AI (with UC Berkeley) introduces Multi-Agent Self-Supervision (MASS): optimize multi-agent workflows, then distill team trajectories as self-supervision for homogeneous RSI.",
+      "content": "MASS keeps one shared model as executor, workflow optimizer, and evaluator. An inner loop searches team workflows; an outer loop fine-tunes on self-ranked multi-agent trajectories—aiming at research tasks where no stronger human supervisor is available.\n\nOn synthetic research tasks and several public benchmarks, two MASS rounds from Qwen3.6-27B raised score-per-token versus the base model, with uneven transfer to Terminal-Bench / SWE-bench.\n\n[MASS project page](https://pub.sakana.ai/mass/)\n\n[Post on X](https://x.com/SakanaAILabs/status/2109385006603006435)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Sakana AI (@SakanaAILabs)",
+      "url": "https://x.com/SakanaAILabs/status/2109385006603006435",
+      "createdAt": "2026-10-11T20:45:50Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109178921808019905",
+      "section": "news",
+      "type": "news",
+      "title": "EdgeQuake 0.34: Rust Graph-RAG with Postgres and MCP second brain",
+      "description": "Raphaël Mansuy’s EdgeQuake ships v0.34—LightRAG-style hybrid GraphRAG in Rust on PostgreSQL (pgvector + Apache AGE), multi-provider LLMs, and an MCP server for agent memory.",
+      "content": "EdgeQuake turns documents into an entity/relationship graph and answers with vector + graph retrieval. The 0.34 release emphasizes one-binary/one-Postgres deploy, workspace isolation, SSO options, and MCP tools so agents can remember and recall with sources.\n\n[Repo on GitHub](https://github.com/raphaelmansuy/edgequake)\n\n[Docs / site](https://edgequake.com)\n\n[Post on X](https://x.com/raphaelmansuy/status/2109178921808019905)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Raphael Mansuy (@raphaelmansuy)",
+      "url": "https://x.com/raphaelmansuy/status/2109178921808019905",
+      "createdAt": "2026-10-11T07:06:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109361546505966046",
+      "section": "news",
+      "type": "news",
+      "title": "Karpathy: the LLM capability understanding gap is widening into a funnel",
+      "description": "Andrej Karpathy argues public/casual ChatGPT use, professional math&code agent work, and internal frontier access now sit on sharply different tiers of lived experience.",
+      "content": "Karpathy updates an April thread: most people barely touch LLMs, casual free-tier users see “derpy chatbots,” a thin professional slice in math/code watches agents finish weeks of work from a prompt, and a tiny internal cohort sees multi-agent mega-projects. He attributes the funnel to ambition/horizon, jagged verifiable domains, and access tiers.\n\n[Post on X](https://x.com/karpathy/status/2109361546505966046)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50047422)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Andrej Karpathy (@karpathy)",
+      "url": "https://x.com/karpathy/status/2109361546505966046",
+      "createdAt": "2026-10-11T19:12:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50031614",
+      "section": "news",
+      "type": "news",
+      "title": "Talorys: self-hosted personal AI agent on Cloudflare’s free tier",
+      "description": "Open-source personal agent (chat, memory, tasks, notes, scheduled reminders) that deploys into your own Cloudflare account with npx create-talorys—single-user, no telemetry.",
+      "content": "Talorys aims at a personal agent you host yourself on Cloudflare’s free tier rather than a multi-tenant SaaS inbox. One-command scaffold, your account, your data.\n\n[Repo on GitHub](https://github.com/rociiu/talorys)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50031614)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rociiu",
+      "url": "https://github.com/rociiu/talorys",
+      "createdAt": "2026-10-10T10:52:09Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50024499",
+      "section": "news",
+      "type": "news",
+      "title": "Carrier-Explode: decoded carrier settings for iPhone, Pixel, and Galaxy",
+      "description": "Show HN tool that inspects and explains mobile carrier configuration payloads across major phone platforms—useful for debugging SIM/carrier quirks.",
+      "content": "Carrier-Explode surfaces what carrier settings blobs actually contain on iPhone, Pixel, and Galaxy devices, aimed at people who debug provisioning and network behavior.\n\n[Product site](https://carrierexplode.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50024499)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "simplyalec",
+      "url": "https://carrierexplode.com/",
+      "createdAt": "2026-10-09T18:10:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50018817",
+      "section": "news",
+      "type": "news",
+      "title": "Big Arrow: let AI agents paint arrows, boxes, and text on your Mac screen",
+      "description": "MIT-licensed CLI/skill so Claude Code or Codex can draw click-through overlays (arrows, boxes, labels) on macOS that clear themselves—handy for demos and visual guidance.",
+      "content": "Rather than describing UI positions in prose, agents can paint ephemeral on-screen annotations. One CLI, click-through overlays, auto-dismiss.\n\n[Repo on GitHub](https://github.com/franzenzenhofer/big-arrow-on-the-screen)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50018817)",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "franze",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "createdAt": "2026-10-09T11:03:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49988516",
+      "section": "news",
+      "type": "news",
+      "title": "Rgpu: PyTorch device whose tensors live on a remote GPU",
+      "description": "Keep Python on your laptop (including Mac without CUDA) while PyTorch ops and tensor storage run on a remote GPU over the network.",
+      "content": "Rgpu registers a PyTorch device that ships tensors and kernels to a remote CUDA box, so local notebooks can train/infer without a local GPU install.\n\n[Repo on GitHub](https://github.com/ymcrcat/rgpu)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=49988516)",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "boxstream",
+      "url": "https://github.com/ymcrcat/rgpu",
+      "createdAt": "2026-10-07T05:15:44Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50045273",
+      "section": "news",
+      "type": "news",
+      "title": "APSW: Another Python SQLite Wrapper",
+      "description": "Mature, thin Python binding that exposes nearly the full SQLite C API—useful when you want SQLite power without an ORM layer.",
+      "content": "APSW stays close to SQLite itself (virtual tables, advanced APIs, embedding) rather than presenting a Django/SQLAlchemy-style model layer. Handy for tooling and data pipelines that need SQLite’s full surface.\n\n[Repo on GitHub](https://github.com/rogerbinns/apsw)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50045273)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tosh",
+      "url": "https://github.com/rogerbinns/apsw",
+      "createdAt": "2026-10-11T16:58:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50046864",
+      "section": "news",
+      "type": "news",
+      "title": "The unreasonable effectiveness of VEX in NixOS",
+      "description": "A write-up on using VEX (Vulnerability Exploitability eXchange) with NixOS to cut noise from scanner findings by recording what is actually exploitable in a given build.",
+      "content": "DaTosh argues VEX complements Nix’s reproducible builds: scanners still flag CVEs, but attested exploitability status keeps triage focused on real risk in a NixOS system.\n\n[Read the article](https://blog.kammel.dev/post/nixos_vex/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50046864)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "datosh",
+      "url": "https://blog.kammel.dev/post/nixos_vex/",
+      "createdAt": "2026-10-11T19:23:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50007993",
+      "section": "news",
+      "type": "news",
+      "title": "Jevman: Pac-Man benchmark for AI decision models",
+      "description": "Opper’s Show HN benchmark puts decision-model agents in Pac-Man to compare planning quality under a shared, visual, reward-driven environment.",
+      "content": "Jevman frames decision-model evaluation as playing Pac-Man—useful contrast to chat-only evals when you care about sequential choices under uncertainty.\n\n[Benchmark site](https://opper.ai/jevman-benchmark/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50007993)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "felix089",
+      "url": "https://opper.ai/jevman-benchmark/",
+      "createdAt": "2026-10-08T16:34:13Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:harvard-cs249r-ml-systems",
+      "section": "news",
+      "type": "news",
+      "title": "Harvard CS249r open textbook: Machine Learning & AI Systems",
+      "description": "Multi-volume open ML/AI systems textbook (and related materials) from Harvard’s CS249r / harvard-edge project, freely downloadable as PDFs.",
+      "content": "Kirk Borne highlighted the harvard-edge CS249r book repo: a large open curriculum spanning ML and AI systems design, available as downloadable volumes for self-study.\n\n[Repo on GitHub](https://github.com/harvard-edge/cs249r_book)\n\n[Post on X](https://x.com/KirkDBorne/status/2109404012797907210)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Harvard Edge / CS249r",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "createdAt": "2026-10-11T22:01:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:rapid-mlx-apple-silicon",
+      "section": "news",
+      "type": "news",
+      "title": "Rapid-MLX: OpenAI/Anthropic-compatible local inference on Apple Silicon",
+      "description": "Apache-2.0 MLX inference server that speaks OpenAI and Anthropic APIs so coding agents can point at localhost—focused on reliable tool calling on Mac GPUs.",
+      "content": "Rapid-MLX is aimed at local agent harnesses on Apple Silicon: same API shapes as cloud providers, weights via MLX, emphasis on tool-call reliability rather than chat demos alone.\n\n[Repo on GitHub](https://github.com/raullenchai/Rapid-MLX)\n\n[Mention on X](https://x.com/poweredbymuse/status/2109288492916244645)",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "author": "raullenchai",
+      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "createdAt": "2026-10-11T14:22:20Z",
+      "status": "inbox"
     }
   ]
 }
