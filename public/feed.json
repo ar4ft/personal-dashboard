@@ -72,23 +72,6 @@
       "createdAt": "2026-10-11T12:06:22Z"
     },
     {
-      "id": "hn:50042333",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "BetterWispr: Open-source on-device dictation for Mac",
-      "description": "A free Apache-2.0 macOS dictation app offers local speech models, offline use after setup, configurable cleanup, and a global shortcut; optional API-backed cleanup or note models can send text externally when configured.",
-      "content": "BetterWispr supports macOS 14+, recommends Apple Silicon, and also provides an Intel build. Its selected local speech models run without cloud transcription fallback; model downloads are explicit. Optional remote APIs for writing enhancement or meeting notes are separate choices and can receive transcripts when enabled.\n\n[Product details](https://betterwispr.com/)\n\n[Source code](https://github.com/opennookorg/betterwispr)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042333)",
-      "author": "kartik017",
-      "topics": [
-        "iOS / Mac Apps",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://betterwispr.com/",
-      "createdAt": "2026-10-11T12:01:28Z"
-    },
-    {
       "id": "hn:50032253",
       "section": "news",
       "type": "news",
@@ -880,7 +863,7 @@
       "section": "news",
       "type": "news",
       "title": "BetterWispr: free on-device Mac dictation",
-      "description": "Free on-device Mac dictation: hold a shortcut, speak, and get cleaned-up text in any app.",
+      "description": "Free Apache-2.0 Mac dictation app: local speech models work offline after setup, with a configurable shortcut and cleanup for text in any app. Requires macOS 14+; Apple Silicon is recommended, with an Intel build available. Optional API-backed cleanup or meeting-note tools may send text externally when selected.",
       "author": "@code_kartik",
       "topics": [
         "iOS / Mac Apps",
@@ -890,7 +873,7 @@
       "url": "https://x.com/code_kartik/status/2108219601469550720",
       "createdAt": "2026-10-08T15:34:56Z",
       "status": "inbox",
-      "content": "Free on-device Mac dictation: hold a shortcut, speak, and get cleaned-up text in any app.\n\nLink: https://betterwispr.com"
+      "content": "Hold Option+Space (or choose another shortcut) to dictate into the app in focus. Local speech models have no cloud transcription fallback and work offline after compatible models and required assets are installed. BetterWispr supports macOS 14+; Apple Silicon is recommended, and an Intel build is available. Optional API-backed writing cleanup or meeting-note models can receive transcripts when selected; local options include Apple Intelligence and Ollama. The app is free and open source under Apache 2.0.\n\n[Product details](https://betterwispr.com/)\n\n[Source code](https://github.com/opennookorg/betterwispr)\n\n[Original X post](https://x.com/code_kartik/status/2108219601469550720)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042333)"
     },
     {
       "id": "x:2108390106856071321",
