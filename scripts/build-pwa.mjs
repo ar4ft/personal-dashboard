@@ -71,7 +71,26 @@ self.addEventListener('fetch', event => {
       try { const response = await fetch(event.request); if (response.ok) return response; } catch {}
       return (await cache.match(key)) || new Response('This page is unavailable offline. Open a dashboard section.', {status:503, headers:{'Content-Type':'text/plain'}});
     }
-    return (await cache.match(key)) || fetch(event.request);
+    const cached = await cache.match(key);
+    const range = event.request.headers.get('range');
+    // Cached media must support byte ranges for playback and seeking offline.
+    if (cached && range) {
+      const match = /^bytes=(\\d*)-(\\d*)$/.exec(range);
+      if (match && (match[1] || match[2])) {
+        const bytes = await cached.arrayBuffer();
+        const size = bytes.byteLength;
+        const start = match[1] ? Number(match[1]) : Math.max(0, size - Number(match[2]));
+        const end = match[1] && match[2] ? Math.min(size - 1, Number(match[2])) : size - 1;
+        if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end) || start > end || start >= size)
+          return new Response(null, {status:416, headers:{'Content-Range':'bytes */' + size}});
+        const headers = new Headers(cached.headers);
+        headers.set('Content-Range', 'bytes ' + start + '-' + end + '/' + size);
+        headers.set('Content-Length', String(end - start + 1));
+        headers.set('Accept-Ranges', 'bytes');
+        return new Response(bytes.slice(start, end + 1), {status:206, headers});
+      }
+    }
+    return cached || fetch(event.request);
   })());
 });
 `;

@@ -155,7 +155,7 @@ fs.mkdirSync("test-output", { recursive: true });
   assert.equal(await page.locator(".item-card").count(), 1);
   await page.locator(".item-title").click();
   assert.equal(
-    await page.locator(".detail-text").textContent(),
+    (await page.locator(".detail-text").textContent()).trim(),
     "The complete text to search and read.",
   );
   await close("detail-dialog");
@@ -246,7 +246,7 @@ fs.mkdirSync("test-output", { recursive: true });
     "An updated automated story",
   );
   assert.equal(
-    await page.locator(".detail-text").textContent(),
+    (await page.locator(".detail-text").textContent()).trim(),
     "Personal research notes",
   );
   assert.match(

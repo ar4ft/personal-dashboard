@@ -53,7 +53,13 @@ Your edits save in this browser's localStorage under `personal-dashboard:workspa
 
 The existing v1 task checkmarks are migrated on the first visit to an interactive section.
 
-Starter content remains in `src/data/dashboard.json`. News links and dated events are examples. News details show the full plain text supplied by a feed or your notes; the dashboard does not scrape linked websites. If no full text is supplied, open the original source.
+Starter content remains in `src/data/dashboard.json`. News links and dated events are examples. News and Ideas details render Markdown supplied by a feed or your notes, including links, images, tables, fenced Mermaid diagrams and embedded videos; the dashboard does not scrape linked websites. If no full text is supplied, open the original source.
+
+## Markdown details
+
+Write Markdown in the **Full text / notes** editor or the feed item's `content` string. The editor includes examples. News and Ideas support headings, emphasis, lists, task lists, quotes, code blocks, tables, clickable links, images, and fenced `mermaid` diagrams. Put a link to an MP4/WebM/OGV/OGG file, YouTube video or Vimeo video in its own paragraph to embed it. YouTube/Vimeo players load on Play; raw HTML, arbitrary iframes and scripts remain visible text. Tasks and calendar notes remain plain text.
+
+Read [Markdown content examples](docs/markdown-content.md) for syntax, video formats, asset paths, safe rendering and offline behavior. Existing feed/backup format stays at version 1: no new fields are required.
 
 ## Feed your dashboard automatically
 

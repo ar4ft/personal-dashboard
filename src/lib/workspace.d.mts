@@ -6,6 +6,7 @@ export type Item = {
   type: ItemType;
   title: string;
   description: string;
+  /** Markdown in news/ideas details; plain text for planning. Stored unchanged. */
   content: string;
   topics: string[];
   source: string;

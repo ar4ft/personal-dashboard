@@ -1,4 +1,5 @@
 import { showClipFeedback } from "../lib/clip-feedback";
+import { renderMarkdown } from "../lib/markdown";
 import { retainFocus } from "../lib/focus";
 import { installNewsSwipe } from "./news-swipe";
 import { installBoardDrag } from "../lib/board-drag";
@@ -815,7 +816,12 @@ function initialize(host: HTMLElement) {
     body.append(coverImage(item));
     if (item.description)
       body.append(el("p", "detail-summary", item.description));
-    if (item.content) body.append(el("div", "detail-text", item.content));
+    if (item.content)
+      body.append(
+        item.section === "news" || item.section === "ideas"
+          ? renderMarkdown(item.content, base)
+          : el("div", "detail-text", item.content),
+      );
     else
       body.append(
         el(
@@ -917,6 +923,7 @@ function initialize(host: HTMLElement) {
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
   function editorFields() {
     const type = field("type").value;
+    $("#markdown-help").hidden = type !== "news" && type !== "idea";
     $("#event-fields").hidden = type !== "task" && type !== "event";
     $("#next-step-field").hidden = type !== "idea";
     $("#task-group-field").hidden = type !== "task";

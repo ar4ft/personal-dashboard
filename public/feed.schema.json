@@ -89,7 +89,8 @@
             "type": "string"
           },
           "content": {
-            "type": "string"
+            "type": "string",
+            "description": "Markdown for News and Ideas details: links, images, fenced Mermaid and standalone video links. Planning content remains plain text. Raw HTML is displayed as text."
           },
           "source": {
             "type": "string"

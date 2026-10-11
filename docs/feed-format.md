@@ -58,7 +58,7 @@ Required root fields: `version: 1` and `items` array. Each item requires a globa
 | `id` | Stable string, at most 200 characters; use source prefixes. IDs `__proto__`, `constructor`, and `prototype` are reserved. Do not reuse an ID for a different item or section. |
 | `title` | Nonempty string, at most 500 characters |
 | `description` | Short summary shown on the card |
-| `content` | Full plain text or notes, shown in the detail view. HTML is displayed as text. |
+| `content` | Markdown text for News and Ideas details (links, images, tables, fenced Mermaid and video links); plain text notes for planning. Raw HTML is displayed as text. See [Markdown examples](markdown-content.md). |
 | `topics` | Array of topic strings, each at most 80 characters. Defaults to `General`. |
 | `author` | Author or account name shown above the post |
 | `image` | Optional HTTPS image URL or dashboard-relative path such as `media/story.jpg` (stored at `public/media/story.jpg`). Missing/broken images use an honest cover fallback. |
@@ -70,7 +70,7 @@ Required root fields: `version: 1` and `items` array. Each item requires a globa
 | `status` | Board column ID. News: `inbox`, `following`, `read`, `archived`. Ideas: `explore`, `build`, `later`, `shipped`. Planning: `todo`, `doing`, `done`. Unknown columns fall back to the first lane. |
 | `nextStep` | Optional next step for an idea |
 | `group` | Optional task group: `Today`, `Upcoming`, `Someday`; used by planning subsections |
-| `date` | Valid `YYYY-MM-DD`. Required for calendar events, optional due date for tasks. Timeline uses this date when present. |
+| `date` | Valid `YYYY-MM-DD`. Required for calendar events, optional due date for tasks. Calendar uses this date for events and dated tasks. |
 | `time` | Optional 24-hour `HH:MM`. Dates and times are displayed as entered, without timezone conversion. |
 | `done` | Optional boolean for tasks. The Done lane also marks tasks complete. |
 
@@ -83,3 +83,7 @@ Repository feeds are validated by `npm test` and in GitHub Actions. Browser impo
 The current site is public. Only publish content you intend to expose in your repository/feed. The app fetches public JSON with credentials omitted; it does not connect directly to Twitter/X or private calendars. Your producer handles those sources and their credentials outside the published dashboard.
 
 For agent publishing instructions and authorization rules, read [llms.txt](../public/llms.txt) and [AGENTS.md](../AGENTS.md). Public access does not grant write permission.
+
+## Markdown and embedded media
+
+The v1 `content` field remains a string, saved unchanged in feeds, editor notes and backups. News and Ideas interpret that string as sanitized Markdown when opening details; summaries, titles and planning notes remain plain text. Use `![Alt text](media/image.jpg)` for images and a standalone `[Watch](media/demo.mp4)` or YouTube/Vimeo link for videos. Use fenced `mermaid` code blocks for diagrams. Do not supply HTML embeds, scripts or Mermaid configuration directives. Read [Markdown content examples](markdown-content.md) for complete syntax and offline delivery.
