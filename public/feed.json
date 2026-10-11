@@ -86,56 +86,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:50041061",
-      "section": "news",
-      "type": "news",
-      "title": "Open-source Adobe-style creative suite built with Rust and AI",
-      "description": "PetaPixel covers ArtCraft’s free open-source Photoshop/Premiere/Lightroom-style apps for macOS, Windows, and Linux, designed with CLI/JSON/MCP hooks so agents can drive creative workflows.",
-      "content": "ArtCraft is shipping a family of open-source creative tools as Adobe alternatives, with AI-agent-oriented interfaces (CLI, JSON, MCP) rather than only GUI replacement.\n\nEarly coverage focuses on photo/video/design apps spanning desktop platforms; treat quality claims as evolving.\n\n[PetaPixel coverage](https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/)\n\n[ArtCraft site](https://getartcraft.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50041061)",
-      "topics": [
-        "Programming",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "trakkstar",
-      "url": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
-      "createdAt": "2026-10-11T08:53:32Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:50040276",
-      "section": "news",
-      "type": "news",
-      "title": "LineageOS 24.0 based on Android 17",
-      "description": "LineageOS ships Changelog 32 / 24.0 on Android 17 early, with Material Design 3 Expressive apps, a new Canvas editor, WebUSB flash tools at flash.lineageos.org, and a large device expansion including Pixel 10.",
-      "content": "LineageOS 24.0 rebases on Android 17 ahead of the project’s 10-year anniversary, merging security patches through October 2026 and refreshing core apps (Canvas image editor, streamed Updater, SetupWizard, Seedvault).\n\nNew browser WebUSB flash tools cover ADB, fastboot, Amlogic, and Samsung Odin protocols as an optional path beside the wiki guides.\n\n[LineageOS Changelog 32](https://lineageos.org/Changelog-32/)\n\n[WebUSB flash tools](https://flash.lineageos.org)\n\n[HN discussion](https://news.ycombinator.com/item?id=50040276)",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "timschumi",
-      "url": "https://lineageos.org/Changelog-32/",
-      "createdAt": "2026-10-11T06:18:59Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:50039630",
-      "section": "news",
-      "type": "news",
-      "title": "Show HN: Agent Standup — AI agents in a stand-up call",
-      "description": "Agent Standup turns a Claude Code session into a live multi-agent stand-up with screen share, wait/blocked status, and a call tree—available as VS Code/Cursor extension, npx, or desktop app.",
-      "content": "A playful but practical viewer for multi-agent Claude Code sessions: lead and sub-agents join a stand-up, share terminal output, and show who is waiting on whom at zero token cost for the UI itself.\n\nWorks in VS Code, Cursor, terminal (`npx @double_geste/agent-standup --open`), and a desktop build.\n\n[Project site](https://atoll92.github.io/agent-standup/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50039630)",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "jonbaer",
-      "url": "https://atoll92.github.io/agent-standup/",
-      "createdAt": "2026-10-11T03:42:47Z",
-      "status": "inbox"
-    },
-    {
       "id": "reading:build-your-own-decision-model",
       "section": "news",
       "type": "news",
@@ -201,22 +151,6 @@
       "author": "Jonathan Baudanza",
       "url": "https://hangul.ink/blog/hangul-day",
       "createdAt": "2026-10-09T12:00:00Z",
-      "status": "inbox"
-    },
-    {
-      "id": "hn:50006930",
-      "section": "news",
-      "type": "news",
-      "title": "Show HN: Diffle — keyboard-centric diff viewer with LSP support",
-      "description": "Diffle is an open-source, keyboard-first diff viewer with LSP support aimed at faster code review without leaving the terminal/editor muscle memory.",
-      "content": "A Show HN keyboard-centric diff tool with LSP integration for navigating and reviewing changes. Repo and docs are on GitHub.\n\n[Repo on GitHub](https://github.com/moritzwilksch/diffle)\n\n[HN discussion](https://news.ycombinator.com/item?id=50006930)",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "mwil1000",
-      "url": "https://github.com/moritzwilksch/diffle",
-      "createdAt": "2026-10-08T15:23:19Z",
       "status": "inbox"
     },
     {
@@ -306,22 +240,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:50028059",
-      "section": "news",
-      "type": "news",
-      "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
-      "description": "A survey of 23 widely depended-on open source projects finds nearly half are maintained by only one or two people, underscoring bus-factor risk in the commons.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "dxs",
-      "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/",
-      "createdAt": "2026-10-09T23:56:55Z",
-      "status": "inbox",
-      "content": "Discussion: https://news.ycombinator.com/item?id=50028059\n\nhttps://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/"
-    },
-    {
       "id": "reading:eurydice-rust-to-c",
       "section": "news",
       "type": "news",
@@ -404,22 +322,6 @@
       "content": "Discussion: https://news.ycombinator.com/item?id=50019056\n\nhttps://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
     },
     {
-      "id": "hn:50016312",
-      "section": "news",
-      "type": "news",
-      "title": "Show HN: Quake ported to safe Rust, playable in browser",
-      "description": "A Show HN demo ports Quake to safe Rust and runs it in the browser, highlighting memory-safe systems work without giving up a classic realtime game loop.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "ilreb",
-      "url": "https://quake-srp.pages.dev/",
-      "createdAt": "2026-10-09T05:22:58Z",
-      "status": "inbox",
-      "content": "Discussion: https://news.ycombinator.com/item?id=50016312\n\nhttps://quake-srp.pages.dev/"
-    },
-    {
       "id": "reading:karagila-openai-partition-principle",
       "section": "news",
       "type": "news",
@@ -434,103 +336,6 @@
       "createdAt": "2026-10-08T23:29:43Z",
       "status": "inbox",
       "content": "Discussion: https://news.ycombinator.com/item?id=50013902\n\nhttps://karagila.org/2026/openai-pp/"
-    },
-    {
-      "id": "hn:50003545",
-      "section": "news",
-      "type": "news",
-      "title": "Show HN: Proton Drive for Linux",
-      "description": "Show HN: a Go FUSE client that mounts Proton Drive on Linux like a local folder while Proton’s official Linux Drive app is still pending.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "khaosdoctor",
-      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
-      "createdAt": "2026-10-08T09:10:42Z",
-      "status": "inbox",
-      "content": "Discussion: https://news.ycombinator.com/item?id=50003545\n\nhttps://oss.lsantos.dev/proton-drive-linux-fs/"
-    },
-    {
-      "id": "hn:50019911",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Deno is joining Cloudflare",
-      "description": "Deno’s team is joining Cloudflare to build around Workers and Durable Objects. The company says the Deno runtime will receive one more year of bug and security releases, while Deno Deploy will close in six months; JSR continues.",
-      "author": "ilreb",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://deno.com/blog/cloudflare",
-      "createdAt": "2026-10-09T13:03:48Z"
-    },
-    {
-      "id": "hn:50018817",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-      "description": "An MIT-licensed Swift CLI for macOS 14+ lets Claude Code and Codex point out UI controls with temporary click-through arrows and labels; it deliberately never clicks, types, or captures the screen.",
-      "author": "franze",
-      "topics": [
-        "AI",
-        "Programming",
-        "iOS / Mac Apps"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "createdAt": "2026-10-09T11:03:48Z"
-    },
-    {
-      "id": "hn:50024913",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Microsoft-Decision-1, our model for fast decision-making",
-      "description": "Microsoft’s post-trained Qwen3.5-9B model returns calibrated probabilities for fixed-choice tasks such as routing, classification, and grading, with access through Microsoft Foundry and OpenRouter. Benchmark and latency results are Microsoft’s own claims.",
-      "author": "lisajaloza",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
-      "createdAt": "2026-10-09T18:38:44Z"
-    },
-    {
-      "id": "hn:49983582",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Training Text-to-Image Models Without a VAE",
-      "description": "Linum’s Pyramid-JiT is a decoder-only pixel-space diffusion model that adds multi-resolution image prediction. The company reports matching its prior model’s FD-DINOv2 score with 11.3× fewer training samples and 4.3× fewer GPU-hours; code and weights are an Apache-2.0 research release.",
-      "author": "schopra909",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.linum.ai/field-notes/pyramid-jit",
-      "createdAt": "2026-10-06T20:24:52Z"
-    },
-    {
-      "id": "hn:50024499",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "description": "An open API and CC0 dataset decode and compare carrier settings from iPhone, Pixel, and Galaxy firmware, including APNs, VoLTE, Wi-Fi Calling, and 5G.",
-      "author": "simplyalec",
-      "topics": [
-        "Technology",
-        "iOS / Mac Apps"
-      ],
-      "source": "Hacker News",
-      "url": "https://carrierexplode.com/",
-      "createdAt": "2026-10-09T18:10:55Z"
     },
     {
       "id": "x:2108777962053292398",
@@ -10379,438 +10184,6 @@
       "status": "inbox"
     },
     {
-      "id": "hn:50000488",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-      "description": "A blog post asks why the AI industry's reaction to DeepSeek 4.1 Flash has been so muted, given that a frontier-class open model release would once have dominated the conversation.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50000488",
-      "author": "jonotime",
-      "topics": [
-        "AI",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-      "createdAt": "2026-10-08T00:14:48Z",
-      "updatedAt": "2026-10-08T00:14:48Z"
-    },
-    {
-      "id": "hn:50020014",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Our $445M Series D",
-      "description": "Oxide Computer announced a $445M Series D to fund its rack-scale 'cloud computer' hardware business.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50020014",
-      "author": "ahlCVA",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://oxide.computer/blog/our-445m-series-d",
-      "createdAt": "2026-10-09T13:12:47Z",
-      "updatedAt": "2026-10-09T13:12:47Z"
-    },
-    {
-      "id": "hn:50028275",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "REA Reverse – Engineer Anything",
-      "description": "REA Tools is presented as a reverse-engineering assistant able to 'engineer anything', prompting discussion of its techniques.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50028275",
-      "author": "modinfo",
-      "topics": [
-        "Technology",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://rea.tools/",
-      "createdAt": "2026-10-10T00:37:07Z",
-      "updatedAt": "2026-10-10T00:37:07Z"
-    },
-    {
-      "id": "hn:50017357",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Programming Isn't Special",
-      "description": "An essay argues that programming is not a uniquely special discipline, sparking a wide debate among developers.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50017357",
-      "author": "ingve",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
-      "createdAt": "2026-10-09T07:44:36Z",
-      "updatedAt": "2026-10-09T07:44:36Z"
-    },
-    {
-      "id": "hn:50029123",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-      "description": "Security researchers describe a Telegram Desktop vulnerability that could have allowed theft of any user's files, a one-click account-takeover class of flaw.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50029123",
-      "author": "g-b-r",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-      "createdAt": "2026-10-10T03:02:47Z",
-      "updatedAt": "2026-10-10T03:02:47Z"
-    },
-    {
-      "id": "hn:49997481",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection (2024)",
-      "description": "A USENIX Security '24 paper presents a long-range technique for detecting hidden spy cameras.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=49997481",
-      "author": "ortusdux",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
-      "createdAt": "2026-10-07T19:15:57Z",
-      "updatedAt": "2026-10-07T19:15:57Z"
-    },
-    {
-      "id": "hn:50031269",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "`123456' password used in Danish CPR data breach",
-      "description": "Reporting on the Danish CPR data breach notes the attackers used the trivially guessable password '123456'.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50031269",
-      "author": "baal80spam",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
-      "createdAt": "2026-10-10T09:51:49Z",
-      "updatedAt": "2026-10-10T09:51:49Z"
-    },
-    {
-      "id": "hn:50027118",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
-      "description": "Police say an Anthropic AI model submitted a false tip about an unsolved Philadelphia murder, raising questions about AI-generated tips in law enforcement.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50027118",
-      "author": "Zambyte",
-      "topics": [
-        "AI",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "createdAt": "2026-10-09T22:00:35Z",
-      "updatedAt": "2026-10-09T22:00:35Z"
-    },
-    {
-      "id": "hn:50024055",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Show HN: The rarest tech books and docs you've probably never read",
-      "description": "A Show HN collection gathers the rarest technology books and documents that most engineers have never read.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50024055",
-      "author": "miletus",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://readrare.com/",
-      "createdAt": "2026-10-09T17:39:44Z",
-      "updatedAt": "2026-10-09T17:39:44Z"
-    },
-    {
-      "id": "hn:50031614",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "description": "Talorys is a self-hosted, open-source personal AI agent designed to run entirely on Cloudflare's free tier.",
-      "content": "HN discussion: https://news.ycombinator.com/item?id=50031614",
-      "author": "rociiu",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://github.com/rociiu/talorys",
-      "createdAt": "2026-10-10T10:52:09Z",
-      "updatedAt": "2026-10-10T10:52:09Z"
-    },
-    {
-      "id": "hn:50035530",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Why DuckDB 2.0 is faster",
-      "description": "DuckDB 2.0 alpha pipelines asynchronous S3 reads with CPU decoding; MotherDuck’s author reports faster tests, while cautioning that the figures came from one M5 laptop and network.",
-      "content": "MotherDuck’s post explains how DuckDB 2.0 overlaps object-store downloads with CPU decoding. In the author’s single-machine test, a 2.2 GB S3 Parquet query took 18.8 seconds on DuckDB 1.5.5 and 7.7 seconds on 2.0 alpha. The author notes these measurements used one M5 laptop and a home connection, so they are workload-specific rather than a general benchmark. Async I/O is enabled by default through read_ahead_depth.\n\nHN discussion: https://news.ycombinator.com/item?id=50035530",
-      "author": "tosh",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
-      "createdAt": "2026-10-10T18:08:49Z",
-      "updatedAt": "2026-10-10T18:08:49Z"
-    },
-    {
-      "id": "hn:50027257",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Can AI automate AI R&D yet?",
-      "description": "Epoch AI tested whether coding agents could devise a novel post-training method; neither model matched the reference innovation, and the report highlights limits in both research capability and evaluation.",
-      "content": "Epoch AI asked Claude Fable 5 and GPT-5.6 Sol to improve Qwen3-8B post-training over a strong GRPO baseline through an in-scope algorithmic innovation. Neither reproduced the reference on-policy self-distillation result. With generous scope assumptions, Sol reached 35% of the reference gains on short-answer tasks and 15% on coding at comparable wall-clock time; Fable’s apparent gains relied on selecting the best of many runs, which Epoch judged out of scope. The authors caution that this is a narrow, expensive evaluation with few runs and human-in-the-loop scope review, not a general verdict on all AI R&D.\n\nHN discussion: https://news.ycombinator.com/item?id=50027257",
-      "author": "merksittich",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://epoch.ai/publications/innovationeval",
-      "createdAt": "2026-10-09T22:14:40Z",
-      "updatedAt": "2026-10-09T22:14:40Z"
-    },
-    {
-      "id": "hn:50021410",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Can you use autoregressive diffusion to generate market data?",
-      "description": "Jane Street tests event-level diffusion on equities data: flow matching and atom smoothing improve one-step fits, but long autoregressive rollouts remain inaccurate.",
-      "content": "A Jane Street research intern modeled U.S. equity events as an autoregressive stream, using a transformer encoder, a categorical event head, and a diffusion head for continuous features. DDPM trajectories proved unstable; flow matching plus “atom smoothing” better captured sharp point masses such as zero time gaps. The one-step distributions improved, but the authors say the full rollouts still drift and are not accurate enough to be realistic; hand-engineering a category for each discontinuity may also fail to scale.\n\nHN discussion: https://news.ycombinator.com/item?id=50021410",
-      "author": "jsomers",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
-      "createdAt": "2026-10-09T14:56:13Z",
-      "updatedAt": "2026-10-09T14:56:13Z"
-    },
-    {
-      "id": "hn:50016956",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Microsoft Execution Containers 1.0 adds policy-driven isolation for AI agents",
-      "description": "MXC puts explicit file, network, process, and UI permissions outside the agent workload, with process-container backends for Windows, macOS, and Linux.",
-      "content": "Microsoft Execution Containers (MXC) is a policy-driven layer for containing untrusted code, agent tools, or an entire agent. Developers declare the resources a workload needs, and the OS-backed boundary prevents the agent from granting itself more access. Process containers support Windows, macOS, and Linux; session and WSL containers are Windows-only, while microVM support is experimental. Microsoft notes that the backends have different security properties and should be selected for the workload.\n\nHN discussion: https://news.ycombinator.com/item?id=50016956",
-      "author": "smokel",
-      "topics": [
-        "AI",
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-      "createdAt": "2026-10-09T06:52:49Z",
-      "updatedAt": "2026-10-09T06:52:49Z"
-    },
-    {
-      "id": "hn:50035886",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "FT reports Nvidia is in talks to acquire or deepen its investment in Reflection AI",
-      "description": "The FT reports discussions involving Nvidia and open-weight-model startup Reflection AI; Reuters could not independently verify the report, and neither company had commented at publication.",
-      "content": "The Financial Times, citing people with direct knowledge, reports Nvidia is discussing acquiring Reflection AI or increasing its investment. Bloomberg Law repeated the FT report; Reuters said it could not independently verify it, described talks as early-stage with several possible forms including an acqui-hire, and said neither company had immediately commented. This remains unconfirmed reporting, not a completed deal.\n\nReuters summary: https://m.economictimes.com/tech/technology/nvidia-in-talks-to-buy-reflection-ai-or-deepen-its-investment-ft-reports/articleshow/134860347.cms\nHN discussion: https://news.ycombinator.com/item?id=50035886",
-      "author": "arkj",
-      "topics": [
-        "AI",
-        "Machine Learning",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "createdAt": "2026-10-10T18:48:35Z",
-      "updatedAt": "2026-10-10T18:48:35Z"
-    },
-    {
-      "id": "hn:50033407",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Bitwarden Dual License Model",
-      "description": "Bitwarden is adopting a dual license model.",
-      "author": "Cider9986",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
-      "createdAt": "2026-10-10T14:32:50Z",
-      "updatedAt": "2026-10-10T14:32:50Z"
-    },
-    {
-      "id": "hn:50031653",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Apple/macOS removed from official Unix registry",
-      "description": "Apple/macOS has been removed from the official Unix registry.",
-      "author": "john_alan",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.opengroup.org//openbrand/register/",
-      "createdAt": "2026-10-10T10:57:31Z",
-      "updatedAt": "2026-10-10T10:57:31Z"
-    },
-    {
-      "id": "hn:49998801",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
-      "description": "Benchmarks suggest WSL3 is about 5–60% faster than WSL2, depending on the workload.",
-      "author": "tonymet",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://tonym.us/wsl2-vs-wsl3-benchmarks.html",
-      "createdAt": "2026-10-07T21:06:54Z",
-      "updatedAt": "2026-10-07T21:06:54Z"
-    },
-    {
-      "id": "hn:50029487",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "The Lightbulb Computer",
-      "description": "A project building a working computer out of lightbulbs.",
-      "author": "oskarth",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://lightbulbcomputer.com/",
-      "createdAt": "2026-10-10T04:12:26Z",
-      "updatedAt": "2026-10-10T04:12:26Z"
-    },
-    {
-      "id": "hn:50034081",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Knuth reward check",
-      "description": "A write-up of receiving a Knuth reward check.",
-      "author": "Curiositry",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.thomas-huehn.com/knuth-reward-check/",
-      "createdAt": "2026-10-10T15:47:01Z",
-      "updatedAt": "2026-10-10T15:47:01Z"
-    },
-    {
-      "id": "hn:50017247",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Nix wrote half of my debugger",
-      "description": "The author shows how Nix did much of the work of writing a debugger.",
-      "author": "ingve",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
-      "createdAt": "2026-10-09T07:29:08Z",
-      "updatedAt": "2026-10-09T07:29:08Z"
-    },
-    {
-      "id": "hn:50033357",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Unikernels were hard. key word: were",
-      "description": "Unikernels used to be hard to build; this post argues they are not anymore.",
-      "author": "ghuntley",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://ghuntley.com/unikernels/",
-      "createdAt": "2026-10-10T14:27:09Z",
-      "updatedAt": "2026-10-10T14:27:09Z"
-    },
-    {
-      "id": "hn:50024242",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Rampart: Browser native on-device PII radaction",
-      "description": "Rampart performs PII redaction natively in the browser, entirely on-device.",
-      "author": "nateb2022",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://ndstudio.gov/posts/say-hello-to-rampart",
-      "createdAt": "2026-10-09T17:52:07Z",
-      "updatedAt": "2026-10-09T17:52:07Z"
-    },
-    {
-      "id": "hn:49984349",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "OpenSCAD the Programmers Solid 3D CAD Modeller",
-      "description": "OpenSCAD is a solid 3D CAD modeller aimed at programmers.",
-      "author": "b-man",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://openscad.org/",
-      "createdAt": "2026-10-06T21:22:44Z",
-      "updatedAt": "2026-10-06T21:22:44Z"
-    },
-    {
-      "id": "hn:49981508",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Noto means \"no tofu\": fixing dotted circles in Myanmar text",
-      "description": "How dotted circles (“tofu”) in Myanmar text get fixed with the Noto font.",
-      "author": "steffoz",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.datocms.com/blog/handling-less-common-scripts",
-      "createdAt": "2026-10-06T17:24:17Z",
-      "updatedAt": "2026-10-06T17:24:17Z"
-    },
-    {
       "id": "ideas:webmcp",
       "section": "ideas",
       "type": "idea",
@@ -10826,6 +10199,168 @@
       "nextStep": "Enable the Chrome WebMCP flag, add 3 tools to one of my own apps, and drive them from an agent.",
       "createdAt": "2026-10-11T06:31:40Z",
       "updatedAt": "2026-10-11T06:51:21Z"
+    },
+    {
+      "id": "hn:49991852",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "2D Vehicles",
+      "description": "A showcase of 2D vehicle designs built for the web on patkerr.co.uk.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Michelangelo11",
+      "url": "https://patkerr.co.uk/2d-vehicles/",
+      "createdAt": "2026-10-07T12:30:40Z",
+      "updatedAt": "2026-10-07T12:30:40Z"
+    },
+    {
+      "id": "hn:50040547",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "3rd Yandex Cloud Data Center Was Hit",
+      "description": "Yandex Cloud's status page reports an incident affecting a data center, the third such strike reported.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "defly",
+      "url": "https://status.yandex.cloud/en/incidents/2136",
+      "createdAt": "2026-10-11T07:34:45Z",
+      "updatedAt": "2026-10-11T07:34:45Z"
+    },
+    {
+      "id": "hn:50041619",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "description": "Cloudflare Radar shows a sudden drop in bot traffic on Yandex's network following the reported strike on a Yandex datacenter.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "walrus01",
+      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
+      "createdAt": "2026-10-11T10:27:53Z",
+      "updatedAt": "2026-10-11T10:27:53Z"
+    },
+    {
+      "id": "hn:50041682",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nitter: Update Oct 10th seeking funding and legal help",
+      "description": "The Nitter project posted an October 10th update seeking funding and legal help to keep the service alive.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ForHackernews",
+      "url": "https://nitter.net",
+      "createdAt": "2026-10-11T10:37:55Z",
+      "updatedAt": "2026-10-11T10:37:55Z"
+    },
+    {
+      "id": "hn:50041540",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "IRCv3",
+      "description": "A look at IRCv3, the ongoing effort to modernize the IRC protocol with new extensions.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "basilikum",
+      "url": "https://ircv3.net/",
+      "createdAt": "2026-10-11T10:11:27Z",
+      "updatedAt": "2026-10-11T10:11:27Z"
+    },
+    {
+      "id": "hn:50039536",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GameBoy on E-Paper ESP32 at 30FPS [video]",
+      "description": "A video demo of a Game Boy running on an ESP32 with an e-paper display at 30 frames per second.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pizzaiolo",
+      "url": "https://www.youtube.com/watch?v=XiZmM6hwwAU",
+      "createdAt": "2026-10-11T03:21:07Z",
+      "updatedAt": "2026-10-11T03:21:07Z"
+    },
+    {
+      "id": "hn:50038623",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PSPi 6 – Raspberry Pi in a PSP",
+      "description": "Version 6 of the PSPi project, which fits a Raspberry Pi inside a PSP shell.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "therepanic",
+      "url": "https://github.com/othermod/PSPi-Version-6",
+      "createdAt": "2026-10-11T00:45:49Z",
+      "updatedAt": "2026-10-11T00:45:49Z"
+    },
+    {
+      "id": "hn:50028647",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Decade-old RAM is making a comeback",
+      "description": "The Verge reports that decade-old DDR4 RAM is making a comeback amid a memory shortage.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "1potato",
+      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
+      "createdAt": "2026-10-10T01:37:08Z",
+      "updatedAt": "2026-10-10T01:37:08Z"
+    },
+    {
+      "id": "hn:50042219",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I paid people to try and follow my README",
+      "description": "The author paid volunteers to follow his project's README and reports where they got stuck.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "edent",
+      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "createdAt": "2026-10-11T11:47:29Z",
+      "updatedAt": "2026-10-11T11:47:29Z"
+    },
+    {
+      "id": "hn:50042107",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI is creating a 'human premium' for art created by people",
+      "description": "The BBC reports on a growing 'human premium' for art created by people as AI-generated work spreads.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "colinprince",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "createdAt": "2026-10-11T11:34:28Z",
+      "updatedAt": "2026-10-11T11:34:28Z"
     }
   ]
 }
