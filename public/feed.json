@@ -2,6 +2,206 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50055399",
+      "section": "news",
+      "type": "news",
+      "title": "Linus Torvalds: LLM help during a brutal kernel debug session",
+      "description": "Phoronix covers Linus noting an LLM “enormously helped” him make sense of tricky assoc-array kernel code during a painful debug—while still preaching careful human ownership of the result.",
+      "content": "Alongside the assoc-array fixes tag, Torvalds describes using an LLM as a reading aid on tangled code paths—not as an unsupervised patch author—echoing his “use LLMs to help make sense of the code” stance.\n\n[Phoronix write-up](https://www.phoronix.com/news/Linus-Torvalds-Debug-AI)\n\n[Kernel tag notes](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tag/?h=assoc-array-fixes)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50055399)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Michael Larabel / Phoronix",
+      "url": "https://www.phoronix.com/news/Linus-Torvalds-Debug-AI",
+      "createdAt": "2026-10-12T12:25:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50054751",
+      "section": "news",
+      "type": "news",
+      "title": "QGIS adopts a strict ban on AI-assisted contributions",
+      "description": "QGIS Enhancement Proposal 428 merged: AI-assisted contributions are not permitted, tightening an earlier human-in-the-loop policy after maintainer overload from LLM-generated PRs.",
+      "content": "Maintainers framed the ban as a temporary closed door—protecting review bandwidth and the human contributor network—after the prior “AI Assisted” tagging process failed to contain extractive PR volume.\n\nDiscussion leaves room to reopen narrow cases later (for example IDE autocomplete) once the community agrees on safe exception paths.\n\n[QEP pull request](https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50054751)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Nyall Dawson / QGIS",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "createdAt": "2026-10-12T11:22:24Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50051791",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: WriteNative – correct, natural English in any Mac app",
+      "description": "Mac utility that rewrites selected text into more natural English inside whatever app you’re already typing in.",
+      "content": "WriteNative sits at the system text layer so you can polish phrasing without pasting into a separate chat window—targeted at non-native writers and quick tone fixes.\n\n[Product site](https://writenative.app/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50051791)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "WriteNative",
+      "url": "https://writenative.app/",
+      "createdAt": "2026-10-12T05:40:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:linux-phones-2026",
+      "section": "news",
+      "type": "news",
+      "title": "Will Linux phones become a viable alternative to Android/iOS?",
+      "description": "Amos Batto’s long 2026 survey of SoCs, Phosh/Plasma Mobile, RK3588S designs, Qualcomm IoT chips, and why longer Android support plus locked bootloaders may reopen space for mobile Linux.",
+      "content": "Deep dive covering Librem 5 / PinePhone lessons, Rockchip RK3588S phone designs (Liberux NEXX, Dawndrums), Qualcomm Dragonwing IoT SoCs, Android-kernel lifespan risks, and Jolla’s preorder demand as a signal of pent-up interest.\n\nUseful context if you care about open mobile stacks, hardware kill switches, and convergent Linux phones—not just another “year of the Linux phone” headline.\n\n[Read the essay](https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50051530)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Amos Batto",
+      "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+      "createdAt": "2026-10-12T04:54:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:pensieve-local-agent-index",
+      "section": "news",
+      "type": "news",
+      "title": "Pensieve: local code/docs index that cuts agent grep loops",
+      "description": "Open-source Mac app indexes files, repos, and agent sessions on-device and exposes MCP search so coding agents fetch the few relevant passages instead of repeated greps.",
+      "content": "Pensieve runs embeddings locally in `~/.pensieve`, watches worktrees (including uncommitted edits), and plugs into Claude Code, Codex, Cursor, and other MCP clients via `pensieve integrate`.\n\nTheir held-out Claude Code benchmark claims fewer tool calls and lower cost per lookup versus grep-heavy baselines; ownership/blame maps and knowledge-gap flags are optional extras.\n\n[Pensieve site](https://tedhaley.ca/pensieve/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50049508)",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "author": "Ted Haley",
+      "url": "https://tedhaley.ca/pensieve/",
+      "createdAt": "2026-10-12T00:47:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50049588",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Atticus – hold-to-talk macOS voice assistant on Claude -p",
+      "description": "Free open-source Mac voice assistant: hold ⌃⌥Space to talk, no separate API key—uses your Claude Pro/Max plan via `claude -p`, with memory for shortcuts.",
+      "content": "Atticus is a push-to-talk desktop companion that shells out to Claude’s CLI instead of shipping its own model billing, keeping the loop local to your subscription.\n\n[Repo on GitHub](https://github.com/SaarthurR/atticus-mac)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50049588)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "SaarthurR",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "createdAt": "2026-10-12T00:15:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50049531",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Preloop – run GitHub Actions locally in microVMs",
+      "description": "Preloop runs GitHub Actions workflows in local microVMs with SSH access and the ability to pause on failure for interactive debugging.",
+      "content": "Local CI that mirrors Actions semantics inside microVMs so you can SSH in, inspect state, and resume—useful when flaky cloud runners waste push cycles.\n\n[Repo on GitHub](https://github.com/preloopdev/preloop)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50049531)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "preloopdev",
+      "url": "https://github.com/preloopdev/preloop",
+      "createdAt": "2026-10-12T00:07:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50049498",
+      "section": "news",
+      "type": "news",
+      "title": "HashiCorp archives the Boundary open-source repository",
+      "description": "HashiCorp moved Boundary’s public GitHub repo to archived status, ending active open-source development on the identity-aware access proxy.",
+      "content": "Boundary provided just-in-time, identity-based access to dynamic infrastructure without standing VPN tunnels. Archiving the OSS tree signals the project’s open development path is frozen; check HashiCorp’s commercial offering if you still depend on it.\n\n[Archived repo](https://github.com/hashicorp/boundary)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50049498)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "HashiCorp",
+      "url": "https://github.com/hashicorp/boundary",
+      "createdAt": "2026-10-12T00:02:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50049132",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: BraiNOTES – handwritten notes on lecture PDFs in a browser tab",
+      "description": "Open-source web app for annotating lecture PDFs with handwriting in a normal browser tab—no install required for the core note-taking loop.",
+      "content": "BraiNOTES keeps PDF lectures and ink notes together in-browser, aimed at students who want a lightweight annotation surface without a dedicated note app install.\n\n[Repo on GitHub](https://github.com/swimmingbrain/brainotes)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50049132)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "swimmingbrain",
+      "url": "https://github.com/swimmingbrain/brainotes",
+      "createdAt": "2026-10-11T23:22:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:paid-readme-usability",
+      "section": "news",
+      "type": "news",
+      "title": "I paid people to try and follow my README",
+      "description": "Terence Eden paid volunteers €25/hour to think-aloud through ActivityBot’s install docs, then rewrote the README after each session—catching wrong demo links, hidden-file rename confusion, and joke-induced ambiguity.",
+      "content": "A practical usability-test write-up for open-source docs: Eden ran paid screen-share sessions, took handwritten notes, and updated the README between volunteers so the next person hit a cleaner first-run path.\n\nHe argues real people beat LLM “simulated users” for catching install friction, and that hallway-style testing belongs next to unit tests for documentation.\n\n[Read the essay](https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042219)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Terence Eden",
+      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "createdAt": "2026-10-11T11:47:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:bag-of-decisions-reranker",
+      "section": "news",
+      "type": "news",
+      "title": "Bag of Decisions Reranker: LLM criteria + decision-model scores",
+      "description": "Softwaredoug turns each query into yes/no relevance questions, scores them with a decision model (Jev/noul), and sums P(yes) as a rerank signal—beating BM25 and single-question Jev on WANDS and ESCI in a toy study.",
+      "content": "Instead of one “is this relevant?” ask, an LLM drafts a per-query rubric; each criterion becomes a calibrated decision, and the sum of affirmative probabilities is the rerank score (optionally mixed with BM25).\n\nOn Wayfair WANDS and Amazon ESCI, bag-of-decisions mean NDCG beat both BM25 and a single Jev relevance question in the reported runs.\n\n[Read the post](https://softwaredoug.com/blog/2026/10/08/bag-of-decisions.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50034950)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Doug Turnbull",
+      "url": "https://softwaredoug.com/blog/2026/10/08/bag-of-decisions.html",
+      "createdAt": "2026-10-10T17:12:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49986740",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: TerrainSR – fast heightmap upscaling model",
+      "description": "TerrainSR is a specialized model for realistic terrain heightmap upscaling, published on Hugging Face for games and procedural landscape pipelines.",
+      "content": "A compact ML upscaler aimed at heightmaps rather than photos—useful when you need sharper DEM/terrain detail without generic image-SR artifacts.\n\n[Model on Hugging Face](https://huggingface.co/joe-gibbs/terrainsr)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=49986740)",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "joe-gibbs",
+      "url": "https://huggingface.co/joe-gibbs/terrainsr",
+      "createdAt": "2026-10-07T01:24:17Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2109264448481530201",
       "section": "news",
       "type": "news",
