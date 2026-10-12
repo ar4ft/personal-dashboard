@@ -10335,191 +10335,177 @@
       "status": "inbox"
     },
     {
-      "id": "hn:50045946",
+      "id": "hn:50042362",
       "section": "news",
       "type": "news",
       "status": "inbox",
-      "title": "NYC's \"Click to Cancel\" rule is now in effect",
-      "description": "New York City's \"Click to Cancel\" rule is now in effect, requiring businesses to make subscriptions and recurring charges as easy to cancel as they were to start.",
-      "content": "[Read the article](https://www.nyc.gov/main/click-to-cancel)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50045946)",
-      "author": "gregsadetsky",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.nyc.gov/main/click-to-cancel",
-      "createdAt": "2026-10-11T18:01:16Z",
-      "updatedAt": "2026-10-11T18:01:16Z"
-    },
-    {
-      "id": "hn:50042425",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "The tilde in your PATH may not be your HOME",
-      "description": "A look at why the tilde in your PATH may not expand to your HOME directory, and the subtle shell behavior that catches people out.",
-      "content": "[Read the article](https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042425)",
-      "author": "arusekk",
+      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
+      "description": "An introduction to Valen's new approach to borrow checking, a novel memory-safety mechanism for the language.",
+      "content": "[Read the article](https://verdagon.dev/blog/valen-group-borrowing)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042362)",
+      "author": "verdagon",
       "topics": [
         "Programming"
       ],
       "source": "Hacker News",
-      "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
-      "createdAt": "2026-10-11T12:13:13Z",
-      "updatedAt": "2026-10-11T12:13:13Z"
+      "url": "https://verdagon.dev/blog/valen-group-borrowing",
+      "createdAt": "2026-10-11T12:06:22Z",
+      "updatedAt": "2026-10-11T12:06:22Z"
     },
     {
-      "id": "hn:50042333",
+      "id": "hn:50051573",
       "section": "news",
       "type": "news",
       "status": "inbox",
-      "title": "Show HN: BetterWispr – Free, open-source dictation for Mac",
-      "description": "A free, open-source dictation app for macOS shown on HN.",
-      "content": "[Read the article](https://betterwispr.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042333)",
-      "author": "kartik017",
+      "title": "Type-safe HTML templating in Zig",
+      "description": "A blog post describing a technique for type-safe HTML templating in the Zig programming language.",
+      "content": "[Read the article](https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50051573)",
+      "author": "lukaslalinsky",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "createdAt": "2026-10-12T05:02:34Z",
+      "updatedAt": "2026-10-12T05:02:34Z"
+    },
+    {
+      "id": "hn:50048522",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Recursive self-improvement through collective intelligence",
+      "description": "A piece from Sakana AI on MASS, a framework for recursive self-improvement through collective intelligence.",
+      "content": "[Read the article](https://pub.sakana.ai/mass/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50048522)",
+      "author": "hardmaru",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://pub.sakana.ai/mass/",
+      "createdAt": "2026-10-11T22:22:10Z",
+      "updatedAt": "2026-10-11T22:22:10Z"
+    },
+    {
+      "id": "hn:50043026",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Terence Tao: Math 2.0 [pdf]",
+      "description": "Slides from Terence Tao's talk 'Math 2.0', on the role of AI tools in mathematical research.",
+      "content": "[Read the article](https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043026)",
+      "author": "Anon84",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "createdAt": "2026-10-11T13:16:45Z",
+      "updatedAt": "2026-10-11T13:16:45Z"
+    },
+    {
+      "id": "hn:50052251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "description": "A Show HN project that statically recompiles PlayStation 2 games to WebAssembly so they run in the browser.",
+      "content": "[Read the article](https://github.com/snuri00/ps2-web-recomp)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50052251)",
+      "author": "deadxwarrior",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "createdAt": "2026-10-12T06:46:53Z",
+      "updatedAt": "2026-10-12T06:46:53Z"
+    },
+    {
+      "id": "hn:50052163",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Postgres isn't slow, your storage is",
+      "description": "A ClickHouse blog post arguing that slow Postgres performance is usually a storage problem, not a database problem.",
+      "content": "[Read the article](https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50052163)",
+      "author": "saisrirampur",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+      "createdAt": "2026-10-12T06:36:53Z",
+      "updatedAt": "2026-10-12T06:36:53Z"
+    },
+    {
+      "id": "hn:50051097",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Crest – an Arc-inspired open-source browser for Mac",
+      "description": "An open-source browser for macOS inspired by Arc, announced by its developer.",
+      "content": "[Read the article](https://crestbrowser.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50051097)",
+      "author": "cobychapple",
       "topics": [
         "iOS / Mac Apps"
       ],
       "source": "Hacker News",
-      "url": "https://betterwispr.com/",
-      "createdAt": "2026-10-11T12:01:28Z",
-      "updatedAt": "2026-10-11T12:01:28Z"
+      "url": "https://crestbrowser.com/",
+      "createdAt": "2026-10-12T03:37:09Z",
+      "updatedAt": "2026-10-12T03:37:09Z"
     },
     {
-      "id": "hn:50047422",
+      "id": "hn:50048642",
       "section": "news",
       "type": "news",
       "status": "inbox",
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "description": "A note on Andrej Karpathy's observation that the gap in shared understanding of LLM capability is widening.",
-      "content": "[Read the article](https://twitter.com/karpathy/status/2109361546505966046)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50047422)",
-      "author": "albertzeyer",
-      "topics": [
-        "AI"
-      ],
-      "source": "Hacker News",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
-      "createdAt": "2026-10-11T20:20:52Z",
-      "updatedAt": "2026-10-11T20:20:52Z"
-    },
-    {
-      "id": "hn:50048312",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Passkeys are a trap. Do not use them",
-      "description": "An opinion piece arguing that passkeys are a trap and should not be used.",
-      "content": "[Read the article](https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50048312)",
-      "author": "laurex",
+      "title": "Fingerprints are the new cookies",
+      "description": "A writeup on how browser fingerprinting is replacing third-party cookies as the tracking technology of choice.",
+      "content": "[Read the article](https://royfish.dev/fingerprints-are-the-new-cookies)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50048642)",
+      "author": "royfish",
       "topics": [
         "Technology"
       ],
       "source": "Hacker News",
-      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-      "createdAt": "2026-10-11T21:59:48Z",
-      "updatedAt": "2026-10-11T21:59:48Z"
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "createdAt": "2026-10-11T22:33:39Z",
+      "updatedAt": "2026-10-11T22:33:39Z"
     },
     {
-      "id": "hn:50041765",
+      "id": "hn:50041573",
       "section": "news",
       "type": "news",
       "status": "inbox",
-      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
-      "description": "Berkeley research reported as showing that using AI for just 10 minutes erodes people's ability to persist at hard things.",
-      "content": "[Read the article](https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50041765)",
-      "author": "giuliomagnifico",
-      "topics": [
-        "AI"
-      ],
-      "source": "Hacker News",
-      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-      "createdAt": "2026-10-11T10:47:21Z",
-      "updatedAt": "2026-10-11T10:47:21Z"
-    },
-    {
-      "id": "hn:50028264",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
-      "description": "A replica of the Cray-1 supercomputer built from 30 \"obsolete\" Mac Minis, covered by Ars Technica.",
-      "content": "[Read the article](https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50028264)",
-      "author": "pseudolus",
+      "title": "Running the unmodified Linux amdgpu driver on an iPad",
+      "description": "A project demonstrating the unmodified Linux amdgpu driver running on an iPad.",
+      "content": "[Read the article](https://github.com/Geramy/LemonSeed-Studio)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50041573)",
+      "author": "joshcsimmons",
       "topics": [
         "Technology"
       ],
       "source": "Hacker News",
-      "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
-      "createdAt": "2026-10-10T00:34:34Z",
-      "updatedAt": "2026-10-10T00:34:34Z"
+      "url": "https://github.com/Geramy/LemonSeed-Studio",
+      "createdAt": "2026-10-11T10:18:18Z",
+      "updatedAt": "2026-10-11T10:18:18Z"
     },
     {
-      "id": "hn:50018929",
+      "id": "hn:50052814",
       "section": "news",
       "type": "news",
       "status": "inbox",
-      "title": "Plumbers, chains, and famous painters: The history of the pipe operator in R",
-      "description": "The history of the pipe operator in R, from plumbers and chains to famous painters.",
-      "content": "[Read the article](http://adolfoalvarez.cl/blog/2021-09-16-plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50018929)",
-      "author": "sinnsro",
+      "title": "Zod 4.6.6 compromised by malware?",
+      "description": "A report suggesting that version 4.6.6 of the Zod validation library may have been compromised by malware.",
+      "content": "[Read the article](https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50052814)",
+      "author": "luggage_bazooka",
       "topics": [
         "Programming"
       ],
       "source": "Hacker News",
-      "url": "http://adolfoalvarez.cl/blog/2021-09-16-plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/",
-      "createdAt": "2026-10-09T11:20:49Z",
-      "updatedAt": "2026-10-09T11:20:49Z"
-    },
-    {
-      "id": "hn:50033601",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Safe SIMD in Rust, even on the inside",
-      "description": "An exploration of safe SIMD usage in Rust, including the internals.",
-      "content": "[Read the article](https://shnatsel.github.io/safe-simd-in-rust-even-on-the-inside/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50033601)",
-      "author": "ravenical",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "url": "https://shnatsel.github.io/safe-simd-in-rust-even-on-the-inside/",
-      "createdAt": "2026-10-10T14:56:11Z",
-      "updatedAt": "2026-10-10T14:56:11Z"
-    },
-    {
-      "id": "hn:50043603",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Why Texas Is Making Data Centers Wait",
-      "description": "a16z's take on why Texas is making data centers wait.",
-      "content": "[Read the article](https://a16z.com/why-texas-is-making-data-centers-wait/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043603)",
-      "author": "gmays",
-      "topics": [
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "url": "https://a16z.com/why-texas-is-making-data-centers-wait/",
-      "createdAt": "2026-10-11T14:21:31Z",
-      "updatedAt": "2026-10-11T14:21:31Z"
-    },
-    {
-      "id": "hn:50048591",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Amazon in talks to buy AI startup Decart for around $7B, WSJ reports",
-      "description": "Reuters reports Amazon is in talks to buy AI startup Decart for around $7B, per the WSJ.",
-      "content": "[Read the article](https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50048591)",
-      "author": "mraniki",
-      "topics": [
-        "AI"
-      ],
-      "source": "Hacker News",
-      "url": "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
-      "createdAt": "2026-10-11T22:28:18Z",
-      "updatedAt": "2026-10-11T22:28:18Z"
+      "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+      "createdAt": "2026-10-12T07:47:29Z",
+      "updatedAt": "2026-10-12T07:47:29Z"
     }
   ]
 }
