@@ -2,6 +2,92 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50053216",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fable Took My Job",
+      "description": "A developer describes a layoff amid leadership confidence in AI and argues that Fable did not outperform his engineering work; a personal account of AI’s impact on staffing, not proof that AI directly replaced an engineer.",
+      "content": "The author distinguishes AI contributing to a decision to eliminate a role from a model actually doing that role, and discusses where current systems still fall short in product judgment and long-term trade-offs.\n\n[Original essay](https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50053216)",
+      "author": "Cendyne",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
+      "createdAt": "2026-10-12T08:30:33Z"
+    },
+    {
+      "id": "hn:50049872",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Doory – Open-Source Canva",
+      "description": "A new browser-based design editor offers templates, collaboration, animation, and image/PDF/video exports, with guest use and optional Docker self-hosting; its repository is very early-stage.",
+      "content": "The project presents itself as a self-hostable Canva-style editor for posters, slides, invitations and more. Its GitHub page showed six commits at review time and an Attribution Assurance License, so check the project’s maturity and terms before adopting it.\n\n[Project on GitHub](https://github.com/shaongitbd/doory)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50049872)",
+      "author": "Siam / Doory",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/shaongitbd/doory",
+      "createdAt": "2026-10-12T00:48:27Z"
+    },
+    {
+      "id": "hn:50041252",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Programmable pigments: Photochromic nanoparticle inks for rewritable tattoos",
+      "description": "Researchers report tattoo inks that switch color under UV light and erase under bright visible light; the experimental system remained rewritable in skin models and a single-subject pilot, with further safety testing still needed.",
+      "content": "PhotoTat uses photochromic dyes encapsulated in polymer nanoparticles. The paper reports color switching in skin models and a single-subject in-vivo pilot after more than two years; it also notes color-channel limits and says further safety testing is needed. This is early research, not a consumer product.\n\n[Research paper](https://www.cell.com/matter-light/fulltext/S3117-5848(26)00119-5)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50041252)",
+      "author": "Bluestein",
+      "topics": [
+        "Technology",
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.cell.com/matter-light/fulltext/S3117-5848(26)00119-5",
+      "createdAt": "2026-10-11T09:19:46Z"
+    },
+    {
+      "id": "hn:50034206",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Calculus with Julia",
+      "description": "A Quarto-book set of calculus notes uses Julia for numerical, graphical, and algebraic examples, with self-graded exercises and a companion package.",
+      "content": "John Verzani’s notes use Julia to connect calculus concepts with computational examples and include try-it-yourself questions. The resource is a learning text (version 0.27), rather than a new Julia release.\n\n[Read the notes](https://jverzani.github.io/CalculusWithJuliaNotes.jl/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50034206)",
+      "author": "John Verzani",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+      "createdAt": "2026-10-10T15:59:52Z"
+    },
+    {
+      "id": "hn:50034001",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "No portable way to detect string-to-float conversion errors in standard C",
+      "description": "A portability guide explains how strict C’s strtod overflow/underflow reporting depends on math_errhandling, while malformed input should be detected with endptr rather than relying on errno.",
+      "content": "The author compares standard C with POSIX and describes how libc implementations can differ when reporting conversion failures.\n\n[Technical write-up](https://sebsite.pw/w/20261009-strtod.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50034001)",
+      "author": "sebsite",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://sebsite.pw/w/20261009-strtod.html",
+      "createdAt": "2026-10-10T15:39:30Z"
+    },
+    {
       "id": "hn:50055399",
       "section": "news",
       "type": "news",
