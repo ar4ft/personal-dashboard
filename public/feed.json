@@ -2,6 +2,263 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2109642746151788799",
+      "section": "news",
+      "type": "news",
+      "title": "apple_watch_connector: pairing an Apple Watch with Android, Linux and Windows",
+      "description": "An experimental open-source project reconstructs Apple Watch pairing, activation and watch-face management over native Bluetooth/IDS protocols; tested on Apple Watch Ultra 2 with watchOS 26.2.",
+      "content": "LordixDemon's `apple_watch_connector` rebuilds the path from discovery and pairing through activation, reconnection, preference exchange and watch-face management, with a shared Flutter companion app. On Android a Magisk module (root required) owns the phone connection and keys, and pairing can be done by scanning the watch's pairing animation with the camera; Linux and Windows use a Rust desktop backend and the six-digit watch code. It's experimental and only verified on an Apple Watch Ultra 2 running watchOS 26.2.\n\n[Repo on GitHub](https://github.com/LordixDemon/apple_watch_connector)\n\n[Post on X](https://x.com/VaibhavSisinty/status/2109642746151788799)",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Vaibhav Sisinty (@VaibhavSisinty)",
+      "url": "https://x.com/VaibhavSisinty/status/2109642746151788799",
+      "createdAt": "2026-10-12T13:50:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109625821040140479",
+      "section": "news",
+      "type": "news",
+      "title": "RustGIS v0.1.0: a free, open-source desktop GIS in pure Rust",
+      "description": "First release of RustGIS: native on Windows, macOS and Linux plus the browser, with 1,000+ geoprocessing tools, scripting, WebAssembly plugins and an AI assistant using the model you choose.",
+      "content": "Qiusheng Wu's RustGIS reads GeoJSON, Shapefile, GeoParquet, FlatGeobuf, PMTiles, GeoTIFF/COG and vector tiles on a 3D globe or any projection, and ships cartography layouts, ModelBuilder-style workflows and 1,000+ GeoLibre and Whitebox tools for terrain, hydrology and LiDAR, even in the browser. Every action is a scriptable command, plugins run as sandboxed WebAssembly, and the AI assistant works with Anthropic, OpenAI, Gemini or Ollama. Data stays local unless you send it to a model.\n\n[Repo on GitHub](https://github.com/opengeos/RustGIS)\n\n[Web app](https://web.rustgis.app)\n\n[Release notes](https://github.com/opengeos/RustGIS/releases/tag/v0.1.0)\n\n[Post on X](https://x.com/giswqs/status/2109625821040140479)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Qiusheng Wu (@giswqs)",
+      "url": "https://x.com/giswqs/status/2109625821040140479",
+      "createdAt": "2026-10-12T12:42:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109471774542811394",
+      "section": "news",
+      "type": "news",
+      "title": "DigUp: on-device content search for your Mac with EmbeddingGemma 2",
+      "description": "Free, open-source Mac app that indexes photos, PDFs, recordings, videos and code with Google DeepMind's EmbeddingGemma 2 locally, so a search can jump to the right PDF page or podcast minute.",
+      "content": "DigUp puts text, images, audio and video into one shared embedding space on your Mac, so you search by what's *in* the files rather than their names. A query about a lease clause opens the matching PDF page, and a spoken phrase jumps to the right minute of a recording. Everything runs on-device; the repo passed 1,800 stars within days.\n\n[Repo on GitHub](https://github.com/ARahim3/DigUp)\n\n[Post on X](https://x.com/lalamolly_/status/2109471774542811394)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "lalamolly (@lalamolly_)",
+      "url": "https://x.com/lalamolly_/status/2109471774542811394",
+      "createdAt": "2026-10-12T02:30:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109635651456979294",
+      "section": "news",
+      "type": "news",
+      "title": "Device Hub Pro: iOS and Android devices side by side on your Mac",
+      "description": "Free, open-source Mac app for mobile developers that mirrors and controls iOS simulators, iPhones, Android emulators and phones in one window, with logs, files, screenshots and recordings.",
+      "content": "Device Hub Pro puts Android emulators, Android phones, iOS simulators and iPhones next to each other on the Mac. You can mirror and control them, flip settings like network, location and dark mode, read logs, move files, and capture screenshots or recordings. MIT licensed.\n\n[Repo on GitHub](https://github.com/gitemre/device-hub-pro)\n\n[Post on X](https://x.com/eemmrreeozturk/status/2109635651456979294)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Emre Öztürk (@eemmrreeozturk)",
+      "url": "https://x.com/eemmrreeozturk/status/2109635651456979294",
+      "createdAt": "2026-10-12T13:21:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109527821970293183",
+      "section": "news",
+      "type": "news",
+      "title": "WavePrune: one period is often enough for RoPE",
+      "description": "New paper restricts each RoPE channel to its first rotation period, removing position-aliasing 'ghost' attention, lifting long-context HELMET scores without tuning and speeding up attention kernels.",
+      "content": "RoPE rotates each query/key channel at its own frequency, so positions a full period apart start to look alike. WavePrune limits every channel to a sliding window of one rotation period. Training-free, it raises HELMET on four of five tested models (Qwen3-8B goes from 35.7 to 40.0); used during pretraining it lowers loss at extrapolated lengths; and the induced sparsity lets custom CUDA kernels run 1.15x faster prefill and 1.24x faster decoding than FlashAttention-2 at 32K context.\n\n[Paper on arXiv](https://arxiv.org/html/2610.06963)\n\n[Post on X](https://x.com/ducatiqwq/status/2109527821970293183)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Guancheng Du (@ducatiqwq)",
+      "url": "https://x.com/ducatiqwq/status/2109527821970293183",
+      "createdAt": "2026-10-12T06:13:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50060694",
+      "section": "news",
+      "type": "news",
+      "title": "Codex CLI now starts a persistent, self-updating background daemon by default",
+      "description": "A GitHub issue asks OpenAI to make daemon_auto_start opt-in: since Codex CLI 0.157.0, opening a session launches an app-server daemon that outlives every window and copies a ~374 MB package into ~/.codex.",
+      "content": "Since Codex CLI 0.157.0, simply opening an interactive `codex` session starts `codex app-server --managed-daemon` in its own session with no TTY. It keeps running after every Codex window closes (reparented to PID 1) until you run `codex app-server daemon stop` or reboot, and it copies the whole ~374 MB platform package into `~/.codex/packages/app-server-daemon/`. The issue asks for `daemon_auto_start` to default to false, or at least to ask once first.\n\n[GitHub issue #48195](https://github.com/openai/codex/issues/48195)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50060694)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "whimblepop",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "createdAt": "2026-10-12T18:29:04Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50061603",
+      "section": "news",
+      "type": "news",
+      "title": "Anthropic: small AI models may soon self-replicate on cheap IoT devices",
+      "description": "Anthropic's Frontier Red Team found a 9B model got inference running on 8 of 9 IoT hardware types it tested, and GLM-5.2-class models can complete end-to-end replication in simplified evals.",
+      "content": "Anthropic's Frontier Red Team tested whether small models could copy themselves onto commodity IoT hardware such as smart ovens and off-brand Android TV boxes, with no datacenter involved. A 9B model got inference running on 8 of the 9 hardware types tested; models of 30B parameters and under can already do many of the individual steps but stumble when chaining them, while GLM-5.2 and stronger models completed end-to-end replication in simplified evals. If small models keep improving at their historical rate, the authors expect them to reach that level by the end of the year.\n\n[Anthropic research post](https://www.anthropic.com/research/self-replicating-ai)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50061603)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "William Zhou, Daniel Freeman (Anthropic)",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "createdAt": "2026-10-12T19:30:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:rich-hickey-ai-is-not-a-tool",
+      "section": "news",
+      "type": "news",
+      "title": "Rich Hickey: 'AI' is not a tool",
+      "description": "Clojure's creator argues that a tool is something you wield, with direct control and feedback, and that calling AI a tool stretches the word into meaninglessness.",
+      "content": "Rich Hickey expands a quip he keeps making. He starts from definitions: a tool is something you *wield*, held in the hand, giving you power, control and continuous feedback, like a hammer or a saw. Plenty of useful things, such as shirt pockets or drive-thru windows, are not tools, and he argues 'AI' belongs on that side of the line.\n\n[Essay on LinkedIn](https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50060269)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Rich Hickey",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "createdAt": "2026-10-12T18:00:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:lemire-json-free-threaded-python",
+      "section": "news",
+      "type": "news",
+      "title": "Parsing JSON at tens of gigabytes per second in Python",
+      "description": "Daniel Lemire uses free-threaded Python 3.14 and fastsimdjson's lazy views to scan 7.6 GB of GH Archive events, beating json, orjson and msgspec by a wide margin.",
+      "content": "Lemire counts pull requests by language across eight hours of GH Archive data (7.6 GB, 2.2 million events). On one core the standard library manages 0.18 GB/s, orjson 0.42 and msgspec with typed structs 1.29, while `fastsimdjson.map_many` with lazy views hits 2.13 GB/s, because Python objects are only created for fields you actually touch. With free-threaded Python 3.14 and 64 cores in one process, the same approach scales to tens of GB/s.\n\n[Blog post](https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50055912)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Daniel Lemire",
+      "url": "https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/",
+      "createdAt": "2026-10-12T13:06:39Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:sindresorhus-swift-website",
+      "section": "news",
+      "type": "news",
+      "title": "Sindre Sorhus rebuilt his website in Swift",
+      "description": "The Mac app developer moved his site from Astro to Swift, with SwiftUI-like HTML components, styles as modifiers, and a compiler that catches broken links.",
+      "content": "Sindre Sorhus replaced his Astro site with Swift: components are structs with a `body` built on the Elementary HTML library, styles are SwiftUI-style modifiers that compile to scoped classes, and code samples are highlighted at build time with swift-syntax. The main win is the compiler: renaming a page breaks every stale link at build time instead of in the browser, across the data for his 60+ apps.\n\n[Blog post](https://sindresorhus.com/blog/swift-website)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50060268)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "author": "Sindre Sorhus",
+      "url": "https://sindresorhus.com/blog/swift-website",
+      "createdAt": "2026-10-11T00:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:filippo-pq-cryptographic-right-answers",
+      "section": "news",
+      "type": "news",
+      "title": "(Post-Quantum) Cryptographic Right Answers",
+      "description": "Filippo Valsorda updates the classic developer cheat sheet for a post-quantum transition now expected to finish by 2029: symmetric crypto stays fine, nearly every asymmetric answer changes.",
+      "content": "Following Colin Percival (2009), Thomas Ptacek (2015) and Latacora (2018, 2024), Filippo Valsorda publishes a new set of crypto defaults for developers. Symmetric choices barely move (XAES-256-GCM or XChaCha20Poly1305, HMAC-SHA-256, Argon2id), but key exchange and signatures shift to post-quantum schemes. He also adds two 2026 right answers: use a memory-safe language, and get a review from the best model you can afford, since LLMs are now very good at finding bugs.\n\n[Article](https://words.filippo.io/right-answers/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50055409)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Filippo Valsorda",
+      "url": "https://words.filippo.io/right-answers/",
+      "createdAt": "2026-10-12T12:00:27Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50062025",
+      "section": "news",
+      "type": "news",
+      "title": "Martin Odersky keynote: The End of Programming?",
+      "description": "Scala creator Martin Odersky's Scala Days keynote asks whether AI means the end of programming.",
+      "content": "Martin Odersky, creator of Scala, gave the Scala Days keynote titled \"The End of Programming?\", on where programming and programming languages go as AI writes more code.\n\n[Watch on YouTube](https://www.youtube.com/watch?v=jlJyuJhDnlc)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50062025)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Scala Days Conferences",
+      "url": "https://www.youtube.com/watch?v=jlJyuJhDnlc",
+      "createdAt": "2026-10-12T19:52:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50029607",
+      "section": "news",
+      "type": "news",
+      "title": "Nagare: a to-do app for iPhone and Mac that merges tasks and calendar events",
+      "description": "Nagare treats events and tasks as one kind of commitment with an optional time, so you can order your whole day in a single list; it also exposes the list to your AI agent.",
+      "content": "Inspired by planning each day on a single sheet of paper, the developer built Nagare so that calendar events and to-dos are the same item type, with times optional. Untimed tasks can sit between timed appointments in one ordered list, showing how the day should flow without forcing a start time on everything. The app runs on iPhone and Mac and can be driven by an agent.\n\n[Introducing Nagare](https://ilia.page/writing/introducing-nagare)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50029607)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "shmilia",
+      "url": "https://ilia.page/writing/introducing-nagare",
+      "createdAt": "2026-10-10T04:37:13Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50038883",
+      "section": "news",
+      "type": "news",
+      "title": "littleguys: a WhatsApp-style Mac app for your coding agents",
+      "description": "Free, open-source macOS app (Rust + Tauri) that turns Claude Code, Codex, Gemini CLI, OpenClaw, Hermes and other ACP agents into chat contacts with one-click approvals and a menu bar status character.",
+      "content": "Each agent becomes a contact with streaming replies, tool calls and attachments, and commands that need permission show up as allow-once / always / deny cards instead of a buried `[y/N]` prompt. A menu bar character acts out what your agents are doing, it can schedule routines, and it discovers agent gateways across your tailnet and LAN. It speaks the Agent Client Protocol, needs no account, and has no telemetry.\n\n[littleguys site](https://littleguys.hervalicio.us)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50038883)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "herval",
+      "url": "https://littleguys.hervalicio.us",
+      "createdAt": "2026-10-11T01:19:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50057185",
+      "section": "news",
+      "type": "news",
+      "title": "Microsoft details the Azure Maia 300 AI accelerator",
+      "description": "Maia 300 is a multi-chiplet inference chip with compute on TSMC N2P, 36% more compute, 2.5x HBM bandwidth, MXFP4 and sub-3-bit formats, and superpods of 12,288 accelerators.",
+      "content": "Microsoft's deep dive says Maia 300 puts compute dies on TSMC N2P and moves memory-controller and I/O functions to separate dies, raising system compute by 36%, HBM bandwidth by 2.5x and scale-up bandwidth by 14%. Enhanced MXFP4 and sub-3-bit storage formats target bigger models, longer contexts and more concurrent sessions per chip, and up to 12,288 accelerators can work as one superpod.\n\n[Azure blog post](https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50057185)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Rani Borkar, Saurabh Dighe (Microsoft)",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "createdAt": "2026-10-12T13:00:00Z",
+      "status": "inbox"
+    },
+    {
       "id": "hn:50059523",
       "section": "news",
       "type": "news",
