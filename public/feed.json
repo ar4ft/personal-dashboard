@@ -2,6 +2,111 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50059523",
+      "section": "news",
+      "type": "news",
+      "title": "AI coding agents generate more code, but not more software",
+      "description": "A Harvard job-market paper using data from 718 firms finds agent adoption raised code, commits, and pull requests but showed no statistically significant rise in Jira issues or epics resolved; human review time rose 49%.",
+      "content": "Harvard researchers Fiona Chen and James Stratton analyze a proprietary Jellyfish dataset of 718 firms and about 300 million engineering work events from 2021 to March 2026, using staggered difference-in-differences. Agent adoption was associated with 30% more lines of code, 20% more commits, and 23% more pull requests per worker; Jira issues and epics showed no statistically significant increase. Review time rose 49%, change requests nearly doubled, and comments per PR rose 35%.\n\nThis is a Harvard job-market paper using proprietary firm-level data; these are observational estimates. The authors say their data partner checked confidentiality, not scientific content.\n\n[Ars Technica summary](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/)\n\n[Original working paper](https://fion.ac/jellyfish.pdf)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50059523)",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gumby",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "createdAt": "2026-10-12T17:14:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50059115",
+      "section": "news",
+      "type": "news",
+      "title": "Muse Wonder",
+      "description": "Meta introduced Muse Wonder and Wonder Full for personal and professional agent tasks, with active-memory and sustained-focus features. Meta reports frontier agent and coding results; availability differs by product tier.",
+      "content": "Meta describes Active Memory as carrying relevant context across conversations and Active Focus as continuing through long tasks, adapting to blockers, and checking before important actions. Its announcement says Muse Wonder is available through the Meta Model API and Muse Code, while Wonder Full is for Muse Code subscribers. These benchmark and safety claims are Meta’s own; the full safety report was forthcoming in the announcement.\n\n[Meta Research announcement](https://research.meta.ai/blog/muse-wonder)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50059115)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "meetpateltech",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "createdAt": "2026-10-12T16:48:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50058528",
+      "section": "news",
+      "type": "news",
+      "title": "A Modern Web App in C",
+      "description": "A developer describes shipping a commercial web app on OpenBSD with C/CGI and SQLite: one static binary, a small dependency surface, and no JavaScript requirement. The write-up also details the hand-built request parsing and escaping this approach entails.",
+      "content": "The showcased product combines accounts, content search, folders, payments, and transactional email using OpenBSD, C, httpd CGI, and SQLite. The author says it builds into one static binary with only a few external dependencies, and relies on OpenBSD sandboxing. It is a single developer’s case study, not a general recommendation to hand-roll security-sensitive parsing: cookie, form, query, and output-escaping helpers were written for the project.\n\n[Read the article](https://prophitt.me/writing/a-modern-web-app-in-c)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50058528)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "prophittcorey",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "createdAt": "2026-10-12T16:13:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50058507",
+      "section": "news",
+      "type": "news",
+      "title": "GLM-Legal",
+      "description": "Z.ai introduced a legal-focused agent model built on GLM-5.3-Flash and reports 19.2% all-pass on Harvey LAB plus parity on other legal benchmarks; access is by API beta application, and the results are vendor-reported.",
+      "content": "GLM-Legal targets document review, evidence analysis, and legal-workflow drafting. Z.ai says it achieved a 19.2% all-pass rate on Harvey LAB and matched leading closed models on LegalBench and PLawBench. The announcement describes a beta API application and integration with AutoClaw; these are company-reported benchmarks, not independent validation.\n\n[Z.ai announcement](https://z.ai/blog/glm-legal)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50058507)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://z.ai/blog/glm-legal",
+      "createdAt": "2026-10-12T16:11:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50055593",
+      "section": "news",
+      "type": "news",
+      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "description": "An open-source build turns a specific Gemtek W1700K Wi-Fi 7 router into a receive-only SDR, capturing 14-bit IQ at up to 320 Msps and streaming it over 10 GbE. It requires custom firmware and replaces the router’s stock OS, so it is a specialized build—not plug-and-play.",
+      "content": "The repository documents a receiver for 2.4, 5, and 6 GHz bands, with custom radio firmware/driver and a Linux host for spectrum display and recording. The project requires the exact router, a serial adapter, and a 10 GbE host link. Its installation replaces the stock operating system; the maintainers recommend backing up NAND and document hardware hazards.\n\n[Project repository and installation notes](https://github.com/h0m3us3r/w1700k-sdr)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50055593)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "djfergus",
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "createdAt": "2026-10-12T12:41:58Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50052638",
+      "section": "news",
+      "type": "news",
+      "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
+      "description": "A security researcher reports that Google DevSite exposed a Flask signing secret in a session cookie and accepted forged session data into unsafe deserialization, enabling a benign timing proof of remote code execution. The author says Google fixed it Oct. 7 and awarded $90,000.",
+      "content": "This is the researcher’s first-person responsible-disclosure account. The author says the issue affected shared DevSite infrastructure, was reported in August and fixed on October 7, and that the proof used a harmless time delay rather than destructive commands. The write-up is a retrospective security case study; the flaw was reported fixed before publication.\n\n[Researcher’s report](https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50052638)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "soeckly",
+      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+      "createdAt": "2026-10-12T07:28:53Z",
+      "status": "inbox"
+    },
+    {
       "id": "hn:50053216",
       "section": "news",
       "type": "news",
