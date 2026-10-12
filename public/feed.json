@@ -11303,6 +11303,173 @@
       "source": "X digest",
       "createdAt": "2026-10-12T14:38:05Z",
       "status": "explore"
+    },
+    {
+      "id": "hn:50060694",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "description": "An OpenAI Codex CLI issue reports that the tool installs a persistent, self-updating background daemon by default.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "whimblepop",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "createdAt": "2026-10-12T10:29:04Z",
+      "updatedAt": "2026-10-12T10:29:04Z"
+    },
+    {
+      "id": "hn:50055304",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "description": "Attackers reportedly triggered automatic defrosting in supermarket refrigeration units across Europe, spoiling food.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Zeekaas",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedente",
+      "createdAt": "2026-10-12T04:56:42Z",
+      "updatedAt": "2026-10-12T04:56:42Z"
+    },
+    {
+      "id": "hn:50059204",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Thinking will become a hobby",
+      "description": "An essay arguing that as AI takes over intellectual work, thinking itself will become a leisure pursuit rather than an economic one.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pranitha_m",
+      "url": "https://www.spinellis.gr/blog/20261008/?li261008",
+      "createdAt": "2026-10-12T08:54:08Z",
+      "updatedAt": "2026-10-12T08:54:08Z"
+    },
+    {
+      "id": "hn:50060269",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "description": "Rich Hickey, creator of Clojure, argues that AI should not be framed as merely a tool.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "svieira",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "createdAt": "2026-10-12T10:00:25Z",
+      "updatedAt": "2026-10-12T10:00:25Z"
+    },
+    {
+      "id": "hn:50057668",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "description": "A retrospective checking how Kevin Kelly's 2016 predictions about AI held up a decade later.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "surprisetalk",
+      "url": "https://taylor.town/kk-ai-2026",
+      "createdAt": "2026-10-12T07:16:45Z",
+      "updatedAt": "2026-10-12T07:16:45Z"
+    },
+    {
+      "id": "hn:50055409",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "(Post-Quantum) Cryptographic Right Answers",
+      "description": "Filippo Valsorda's updated guidance on choosing cryptographic algorithms in the post-quantum era.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gavide",
+      "url": "https://words.filippo.io/right-answers/",
+      "createdAt": "2026-10-12T05:06:32Z",
+      "updatedAt": "2026-10-12T05:06:32Z"
+    },
+    {
+      "id": "hn:50056822",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Solar panels that plug into your wall",
+      "description": "A look at plug-in balcony solar panels that connect directly to a home wall outlet.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://www.nationalgeographic.com/environment/article/balcony-plug-in",
+      "createdAt": "2026-10-12T06:19:04Z",
+      "updatedAt": "2026-10-12T06:19:04Z"
+    },
+    {
+      "id": "hn:50059096",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "description": "Agent37, a Y Combinator F26 company, launches low-cost sandboxes for running AI agents.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "vishnukool",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "createdAt": "2026-10-12T08:46:34Z",
+      "updatedAt": "2026-10-12T08:46:34Z"
+    },
+    {
+      "id": "hn:50063717",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "description": "Janas lets you run mixture-of-experts LLMs larger than system RAM by streaming experts from an SSD.",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "khalidkhair",
+      "url": "https://github.com/prabanta-dev/janas",
+      "createdAt": "2026-10-12T14:05:43Z",
+      "updatedAt": "2026-10-12T14:05:43Z"
+    },
+    {
+      "id": "hn:50064063",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AWS Lambda Web Functions",
+      "description": "AWS announces Lambda Web Functions, bringing web-facing function hosting to Lambda.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "squiwardStan5",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-f",
+      "createdAt": "2026-10-12T14:37:41Z",
+      "updatedAt": "2026-10-12T14:37:41Z"
     }
   ]
 }
