@@ -11305,23 +11305,6 @@
       "status": "explore"
     },
     {
-      "id": "hn:50060694",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-      "description": "An OpenAI Codex CLI issue reports that the tool installs a persistent, self-updating background daemon by default.",
-      "topics": [
-        "Programming",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "whimblepop",
-      "url": "https://github.com/openai/codex/issues/48195",
-      "createdAt": "2026-10-12T10:29:04Z",
-      "updatedAt": "2026-10-12T10:29:04Z"
-    },
-    {
       "id": "hn:50055304",
       "section": "news",
       "type": "news",
@@ -11355,23 +11338,6 @@
       "updatedAt": "2026-10-12T08:54:08Z"
     },
     {
-      "id": "hn:50060269",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "'AI' Is Not a Tool by Rich Hickey",
-      "description": "Rich Hickey, creator of Clojure, argues that AI should not be framed as merely a tool.",
-      "topics": [
-        "AI",
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "svieira",
-      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
-      "createdAt": "2026-10-12T10:00:25Z",
-      "updatedAt": "2026-10-12T10:00:25Z"
-    },
-    {
       "id": "hn:50057668",
       "section": "news",
       "type": "news",
@@ -11387,23 +11353,6 @@
       "url": "https://taylor.town/kk-ai-2026",
       "createdAt": "2026-10-12T07:16:45Z",
       "updatedAt": "2026-10-12T07:16:45Z"
-    },
-    {
-      "id": "hn:50055409",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "(Post-Quantum) Cryptographic Right Answers",
-      "description": "Filippo Valsorda's updated guidance on choosing cryptographic algorithms in the post-quantum era.",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "gavide",
-      "url": "https://words.filippo.io/right-answers/",
-      "createdAt": "2026-10-12T05:06:32Z",
-      "updatedAt": "2026-10-12T05:06:32Z"
     },
     {
       "id": "hn:50056822",
