@@ -2,6 +2,158 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50058850",
+      "section": "news",
+      "type": "news",
+      "title": "REA: an MCP server for agent-driven reverse engineering of apps and binaries",
+      "description": "REA connects coding agents to local tools for inspecting native binaries, JavaScript/Electron apps, .NET assemblies and websites, so an agent can explain how an app feature works with evidence.",
+      "content": "Run `npx rea-agents setup` to register REA's MCP server and workflow instructions with Claude Code, Codex, Cursor, Gemini CLI and other agents. Native analysis can drive an existing Hopper, Ghidra or IDA install, while static JavaScript analysis needs no native engine. Analysis runs locally and each conclusion comes with its evidence and limitations; the pitch is asking an agent how a feature in another app works and then building a similar one.\n\n[Repo on GitHub](https://github.com/morluto/rea)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50058850)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "morluto",
+      "url": "https://github.com/morluto/rea",
+      "createdAt": "2026-10-12T16:31:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:who-is-vfmaddrnd231pd",
+      "section": "news",
+      "type": "news",
+      "title": "Who is vfmaddrnd231pd?",
+      "description": "purplesyringa digs into an FMA instruction with per-instruction rounding control that appears in Intel's 2024 SDM, but no assembler or compiler knows it, it raises #UD on real CPUs, and it is gone from the 2026 SDM.",
+      "content": "The 2024 Intel SDM documents `VFMADDRND231PD`, a fused multiply-add with rounding mode set per instruction, which would make rounding-sensitive algorithms much faster without AVX-512. But GNU as doesn't recognize it, its intrinsics are missing from Clang and ICC, its opcode uses an odd `DDS` encoding, a Haswell raises undefined-instruction when it runs, and the 2026 SDM drops it. The best guess is a feature pulled late whose documentation was never cleaned up.\n\n[Blog post](https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50063138)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "purplesyringa",
+      "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
+      "createdAt": "2026-10-12T21:12:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:gpu-compiler-pytorch-to-cuda",
+      "section": "news",
+      "type": "news",
+      "title": "Building a GPU compiler from scratch: one PyTorch op lowered to CUDA",
+      "description": "A hands-on tutorial follows a PyTorch operation through six IR stages, from Torch IR to tensor, loop, tile and kernel IR to CUDA, using RMSNorm and attention as examples with the Emmy compiler.",
+      "content": "Dmitry Trifonov, who started building the Apple Neural Engine lowering stack in 2018, explains why each ML compiler stage exists by progressively lowering ops with small reproducible examples. Readers can install `emmy-ml` and inspect every IR without a GPU; the benchmarks need an NVIDIA GPU and nvcc. Covers explicit indexing and reductions, loop fusion, separating computation from schedule with tiles, and shared-memory and MMA kernels.\n\n[Tutorial on CloudRift](https://www.cloudrift.ai/blog/inside-a-gpu-compiler-from-pytorch-to-cuda)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50067876)",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Dmitry Trifonov (CloudRift)",
+      "url": "https://www.cloudrift.ai/blog/inside-a-gpu-compiler-from-pytorch-to-cuda",
+      "createdAt": "2026-10-13T07:08:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:yyhh-ai-is-a-tool",
+      "section": "news",
+      "type": "news",
+      "title": "AI is a tool and using it well takes skill",
+      "description": "Huahai Yang responds to Rich Hickey's essay 'AI is not a tool', arguing LLMs are still wielded through human-directed feedback loops and that using them well is a skill like using any tool.",
+      "content": "Yang agrees that outsourcing work can cost learning opportunities but rejects Hickey's conclusion. Predictability and bounded function are criteria for judging tools, not for membership in the category; compilers and spreadsheets automate work yet remain tools; and a programmer who asks an LLM to explain code, challenges the answer, tests the change and refines the request is running a human-directed feedback loop that rewards expertise.\n\n[Essay](https://yyhh.org/blog/2026/10/ai-is-a-tool/)\n\n[Rich Hickey's original essay](https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50063427)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Huahai Yang",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "createdAt": "2026-10-12T21:40:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109920209075356068",
+      "section": "news",
+      "type": "news",
+      "title": "SwiftFairy adds a SwiftUI Layout & Resizability Scroll for iPhone Duo and resizable windows",
+      "description": "Nil Coalescing's SwiftFairy, a Mac app that reviews your coding agent's Swift code locally, gets a new Scroll that flags 100+ SwiftUI layout issues that break on iPhone Duo and resizable windows.",
+      "content": "Natalia Panferova announces a new SwiftFairy Scroll focused on SwiftUI layout and resizability. Your coding agent sends code to the local macOS app, which flags issues such as fixed frames and `fixedSize()` that stop text wrapping, `GeometryReader` used to size or track content, scroll views sharing a stack with bars, nested `NavigationStack`s, and layouts chosen by device or orientation rather than available space. Each finding comes with guidance and a code example. The product page lists over 110 issues; it shipped in SwiftFairy 2026.10.2 (macOS 26, Apple silicon).\n\n[SwiftUI Layout & Resizability Scroll](https://tools.nilcoalescing.com/swiftfairy/swiftui-layout/)\n\n[SwiftFairy](https://tools.nilcoalescing.com/swiftfairy/)\n\n[Post on X](https://x.com/natpanferova/status/2109920209075356068)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Natalia Panferova (@natpanferova)",
+      "url": "https://x.com/natpanferova/status/2109920209075356068",
+      "createdAt": "2026-10-13T08:12:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109962583247552990",
+      "section": "news",
+      "type": "news",
+      "title": "iPhone Duo: when to reach for SwiftUI's ArrangementView",
+      "description": "Sarun notes that standard navigation and content containers already adapt to the iPhone Duo fold, and that ArrangementView is for two views that should split or overlay without a split view's extra behavior.",
+      "content": "Sarun's tip for foldable layouts: you don't need anything special for standard navigation and content containers, which already adapt to the fold. Use `ArrangementView` (iOS 27.1 beta) when you want a primary and secondary view to sit side by side (`.split`) or one over the other (`.overlay`), without the extra behavior of a split view. Apple's docs say split arrangements put their divider on the fold and overlay arrangements move to side by side when the device is partially open.\n\n[ArrangementView docs](https://developer.apple.com/documentation/swiftui/arrangementview)\n\n[Preparing your app for iPhone Duo](https://developer.apple.com/documentation/technologyoverviews/preparing-your-app-for-iphone-duo)\n\n[Post on X](https://x.com/sarunw/status/2109962583247552990)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2109962583247552990",
+      "createdAt": "2026-10-13T11:00:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109924976522363287",
+      "section": "news",
+      "type": "news",
+      "title": "Enroute: open-source, headless git infrastructure for agentic workloads",
+      "description": "Pedro Piñera highlights Enroute, an Apache-2.0 Rust git server built on S3-compatible object storage and controlled through a gRPC API and hooks, aimed at the git load coding agents generate.",
+      "content": "Pedro Piñera praises @periping and the Enroute team for scaling git operations to meet upcoming demand. Enroute is a stateless git server that speaks the git wire protocol and a gRPC API, stores objects in S3-compatible storage and ref tables and indexes in Postgres, and offloads pack-file work to serverless compute. It promises unlimited repos and no rate limits. Access control, review strategy and branch protection are left to your own app through hooks; suggested uses include scalable CI, agent artifact storage and a GitHub gateway. It's free to self-host.\n\n[Enroute](https://enroute.sh/)\n\n[Repo on GitHub](https://github.com/enroute-sh/enroute)\n\n[Post on X](https://x.com/pepicrft/status/2109924976522363287)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Pedro Piñera (@pepicrft)",
+      "url": "https://x.com/pepicrft/status/2109924976522363287",
+      "createdAt": "2026-10-13T08:31:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109901956009349313",
+      "section": "news",
+      "type": "news",
+      "title": "MongoDB Extension for Hibernate ORM is generally available",
+      "description": "MongoDB's first-party, open-source Hibernate ORM extension reaches GA, letting Java apps use @Entity, HQL, Criteria queries and Session APIs with MongoDB; it requires Hibernate ORM 7.4 LTS.",
+      "content": "The GA release lets Java teams build new apps or move existing Hibernate workloads off relational databases while keeping familiar Hibernate APIs. It adds INNER and LEFT OUTER JOINs across collections via HQL/JPQL, optimistic locking with `@Version`, Spring Boot auto-configuration from the MongoDB JDBC URL, native embedded documents, and clearer errors and logging. Setup is adding the extension to your build and configuring Hibernate to use it.\n\n[Announcement on the MongoDB blog](https://www.mongodb.com/company/blog/product-release-announcements/extension-for-hibernate-orm-now-ga)\n\n[Repo on GitHub](https://github.com/mongodb/mongo-hibernate)\n\n[Post on X](https://x.com/MongoDB/status/2109901956009349313)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "MongoDB (@MongoDB)",
+      "url": "https://x.com/MongoDB/status/2109901956009349313",
+      "createdAt": "2026-10-13T07:00:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109896145770078307",
+      "section": "news",
+      "type": "news",
+      "title": "WUJI Hand 2: a 20-joint dexterous robot hand with sim-to-real pen spinning",
+      "description": "Linus Ekenstam shares demos of WUJI Hand 2 mirroring a person's hand via camera tracking or the WUJI Glove, and spinning a pen with a policy trained by reinforcement learning in simulation.",
+      "content": "WUJI Hand 2 maps your movements to its 20 independently actuated joints, using camera tracking or the WUJI Glove. It can also handle objects on its own: WUJI trains pen spinning and in-hand cube rotation in simulation with motion-reference tracking and reinforcement learning in mjlab, then transfers the policy to the real hand, which keeps adjusting its fingers as the object moves. The training and deployment code, wuji-mjlab (PPO, Apache-2.0), and setup guides are open source.\n\n[wuji-mjlab on GitHub](https://github.com/wuji-technology/wuji-mjlab)\n\n[Post on X](https://x.com/LinusEkenstam/status/2109896145770078307)\n\n[WUJI's pen-spinning post on X](https://x.com/wuji_global/status/2104766173535695005)",
+      "topics": [
+        "Technology",
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Linus Ekenstam (@LinusEkenstam)",
+      "url": "https://x.com/LinusEkenstam/status/2109896145770078307",
+      "createdAt": "2026-10-13T06:36:55Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2109642746151788799",
       "section": "news",
       "type": "news",
