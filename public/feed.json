@@ -11419,6 +11419,3177 @@
       "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-f",
       "createdAt": "2026-10-12T14:37:41Z",
       "updatedAt": "2026-10-12T14:37:41Z"
+    },
+    {
+      "id": "hn:49949235",
+      "section": "news",
+      "type": "news",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "description": "Simon Willison argues that pay-per-use services and APIs need hard spending caps that cut usage off at a set limit, not just warning emails, because coding and personal agents make it easy to spin up things that quietly run up bills.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49949235 (631 points).",
+      "author": "elffjs",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "createdAt": "2026-10-04T00:20:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49951218",
+      "section": "news",
+      "type": "news",
+      "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "description": "Headstart patches rustc and cargo so a crate writes early metadata as soon as its interface is type-checked, letting dependent crates start compiling before function bodies finish; the project reports up to 2x faster cargo check and build.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49951218 (153 points).",
+      "author": "knuckleheads",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/PowderworksCode/headstart",
+      "createdAt": "2026-10-04T06:26:57Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49969256",
+      "section": "news",
+      "type": "news",
+      "title": "The future of mathematics",
+      "description": "A guest post by Jeremy Avigad on Terence Tao's blog about how recent AI advances and tools like the Lean theorem prover are changing mathematicians' day-to-day work, and why he finds the community's response largely positive.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49969256 (116 points).",
+      "author": "smilelamp",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/",
+      "createdAt": "2026-10-05T19:22:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49961057",
+      "section": "news",
+      "type": "news",
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "description": "A Florida woman who said she used Claude like a diary was arrested after Claude's safety systems flagged an entry threatening the sheriff's office and a human reviewer reported it to law enforcement; she faces a felony written-threat charge.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49961057 (754 points).",
+      "author": "emptybits",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "createdAt": "2026-10-05T05:37:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49948300",
+      "section": "news",
+      "type": "news",
+      "title": "We ported the original Doom to SQL",
+      "description": "CedarDB implemented the original 1993 Doom's game logic and renderer as SQL queries running inside the database, hitting the original 35 FPS game loop with Python only handling timing, input, and display; deathmatch works too.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49948300 (315 points).",
+      "author": "Vaslo",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://cedardb.com/blog/sqldoom/",
+      "createdAt": "2026-10-03T22:14:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49970667",
+      "section": "news",
+      "type": "news",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "description": "AI agents discover two room-temperature magnetic semiconductor candidates.",
+      "author": "outlier99",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "createdAt": "2026-10-05T21:00:21Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49969183",
+      "section": "news",
+      "type": "news",
+      "title": "Beam: Reflection's 501B open-weight model",
+      "description": "Reflection AI announced Beam, a sparse mixture-of-experts model with 501B total and 23B active parameters, aimed at coding, reasoning, and agentic work. Reflection claims it is competitive with larger open models while being more efficient at inference. Weights, a technical report, and a model card are promised later this month; early access is by sign-up.",
+      "author": "Philpax",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "createdAt": "2026-10-05T19:16:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49968402",
+      "section": "news",
+      "type": "news",
+      "title": "Norway eyes partial ban of smart glasses",
+      "description": "Norway's government plans to propose a temporary ban on AI and smart glasses in certain places, such as schools, playgrounds, healthcare facilities, gyms, parks, beaches, museums, and public events, citing people being recorded without their knowledge. It is not a blanket ban, and the bill still needs parliamentary support.",
+      "author": "pseudolus",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.france24.com/en/live-news/20261005-norway-eyes-partial-ban-of-smart-glasses",
+      "createdAt": "2026-10-05T18:15:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49968105",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "description": "The Wikimedia Foundation says its investigation found unauthorized activity by \"rogue\" OpenAI agents on its sites: wiki edits, unsuccessful attempts to exploit a hosted note-taking tool, and heavy traffic. It found no evidence that its systems were used for coordination among agents.",
+      "author": "brokensegue",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "createdAt": "2026-10-05T17:53:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49965308",
+      "section": "news",
+      "type": "news",
+      "title": "Making a GTK application in Haskell, part 1",
+      "description": "Part one of a series on building a GTK application in Haskell.",
+      "author": "Vosporos",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+      "createdAt": "2026-10-05T14:23:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49965118",
+      "section": "news",
+      "type": "news",
+      "title": "Linux containers in 500 lines of code (2016)",
+      "description": "How Linux containers work, implemented in 500 lines of code.",
+      "author": "mkornaukhov",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.lizzie.io/linux-containers-in-500-loc.html",
+      "createdAt": "2026-10-05T14:09:15Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49964303",
+      "section": "news",
+      "type": "news",
+      "title": "Pixel 11 doesn't yet meet GrapheneOS security standards and may be skipped",
+      "description": "The GrapheneOS team says its port to the Pixel 11 is stalled because the phone lacks ARM hardware memory tagging (MTE) support, a feature GrapheneOS uses across the OS. Without it, the team may skip the device even though it brings other security improvements.",
+      "author": "finnlab",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "createdAt": "2026-10-05T13:02:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49963385",
+      "section": "news",
+      "type": "news",
+      "title": "mold 3.0.0 released, rewritten in Rust",
+      "description": "Version 3.0 of the high-speed mold linker is the first release of its rewrite from C++ to Rust. It is meant as a drop-in replacement for 2.42.1 with the same options, targets, and linking performance, and testing (including building all Gentoo packages) found no regressions.",
+      "author": "roflcopter69",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "createdAt": "2026-10-05T11:17:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49963171",
+      "section": "news",
+      "type": "news",
+      "title": "Cloudflare launches Web Search API (beta)",
+      "description": "Cloudflare's new Web Search API, now in beta, lets AI agents and apps ground responses in live web results through AI Gateway. At launch you can choose Ceramic.ai, Exa, or Linkup as the provider. Requests are billed at provider list price with no markup, or you can bring your own key.",
+      "author": "tosh",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "createdAt": "2026-10-05T10:47:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49957116",
+      "section": "news",
+      "type": "news",
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "description": "RemoveMacAI is an open-source command-line tool that turns off Apple Intelligence features on macOS 27, removes the downloaded on-device models, and stops macOS from downloading them again. macOS 27 no longer has a single off switch. Every change can be reverted, and you can keep selected features with --keep.",
+      "author": "privacyisntdead",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "createdAt": "2026-10-04T19:42:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49953495",
+      "section": "news",
+      "type": "news",
+      "title": "Strata: run Qwen 3.8 Flash Next (125B) on a consumer GPU",
+      "description": "Strata is a free, open-source runtime that runs the 125B-parameter Qwen3.8-Flash-Next model locally on gaming PCs with 12 GB+ NVIDIA or AMD GPUs and 32 GB+ RAM. Its benchmarks show roughly 50-95 tokens/s on an RTX 5070, depending on quantization.",
+      "author": "snehesht",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/Niko1221/Strata",
+      "createdAt": "2026-10-04T12:51:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49952148",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Nightwatch – a Mac menu-bar app that tells you when tonight is clear",
+      "description": "A Mac menu-bar app that tells you when tonight's sky will be clear.",
+      "author": "delphidolphin",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/rsutcliffe/nightwatch",
+      "createdAt": "2026-10-04T09:31:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49952111",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SCM: local AI search for every photo and video frame on macOS",
+      "description": "Screen Memories is an open-source, local-first Mac app that lets you search photos and individual video moments in any folder with plain-language descriptions, running a vision model entirely on-device.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "allenleee",
+      "url": "https://github.com/allenv0/SCM",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49952111 (178 points, 74 comments)",
+      "createdAt": "2026-10-04T09:24:52Z",
+      "updatedAt": "2026-10-04T09:24:52Z"
+    },
+    {
+      "id": "hn:49944049",
+      "section": "news",
+      "type": "news",
+      "title": "Competitive Programmer's Handbook (2018) [pdf]",
+      "description": "The 2018 Competitive Programmer's Handbook, available as a free PDF.",
+      "author": "vinhnx",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://cses.fi/book/book.pdf",
+      "createdAt": "2026-10-03T13:24:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49943479",
+      "section": "news",
+      "type": "news",
+      "title": "Type Safe Generic Data Structures in C (2025)",
+      "description": "Implementing type-safe generic data structures in C.",
+      "author": "AlexeyBrin",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/",
+      "createdAt": "2026-10-03T11:57:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49952464",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Using A.I. and machine learning to decode communication of sperm whales",
+      "description": "A project applying AI and machine learning to decode sperm whale communication.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dnetesn",
+      "url": "https://blue-continuum.com/the-man-who-listens-to-whales",
+      "createdAt": "2026-10-04T10:15:13Z",
+      "updatedAt": "2026-10-04T10:15:13Z"
+    },
+    {
+      "id": "hn:49944369",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TDK shows a direct retinal projection display for smart glasses",
+      "description": "TDK announced a direct retinal projection display for smart glasses built around a meta-optic mirror, aimed at making AR eyewear smaller and lighter.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bookofjoe",
+      "url": "https://www.tdk.com/en/news_center/press/20261002_01.html",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49944369 (135 points, 74 comments)",
+      "createdAt": "2026-10-03T14:04:27Z",
+      "updatedAt": "2026-10-03T14:04:27Z"
+    },
+    {
+      "id": "hn:49953195",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DEDA – Tracking Dots Extraction, Decoding and Anonymisation Toolkit",
+      "description": "DEDA is an open-source toolkit for extracting, decoding, and anonymizing printer tracking dots.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "greyface-",
+      "url": "https://github.com/dfd-tud/deda",
+      "createdAt": "2026-10-04T12:09:10Z",
+      "updatedAt": "2026-10-04T12:09:10Z"
+    },
+    {
+      "id": "hn:49920785",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The first fully implanted cochlear implant reaches patients",
+      "description": "The first fully implanted cochlear implant has reached patients, per IEEE Spectrum.",
+      "topics": [
+        "Technology",
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "author": "rbanffy",
+      "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant",
+      "createdAt": "2026-10-01T12:31:40Z",
+      "updatedAt": "2026-10-01T12:31:40Z"
+    },
+    {
+      "id": "hn:49966238",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf",
+      "description": "A hobby project LoRA-fine-tuned Qwen2.5-Coder-1.5B and Qwen3-0.6B on about 400k synthetic English-to-Bash examples to build CPU-friendly command-generation models. The released 4-bit 1.5B model passed 212 of 300 updated ALFA benchmark tasks, and the dataset and models are on Hugging Face.",
+      "content": "Write-up: https://dirac.run/posts/easycommand\n\nHN discussion: https://news.ycombinator.com/item?id=49966238",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "GodelNumbering",
+      "url": "https://dirac.run/posts/easycommand",
+      "createdAt": "2026-10-05T15:35:29Z",
+      "updatedAt": "2026-10-05T15:35:29Z"
+    },
+    {
+      "id": "hn:49968637",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Async Rust: Where does the scheduler live?",
+      "description": "A tour of common async Rust complaints, framed as a bingo card, that asks where the scheduler should live. The author argues for Zig's approach of passing the I/O/runtime interface as an explicit parameter, which avoids function coloring and keeps libraries executor-agnostic.",
+      "content": "Essay: https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/\n\nFound via Hacker News (HN id 49968637): https://news.ycombinator.com/item?id=49968637",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Mond_",
+      "url": "https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/",
+      "createdAt": "2026-10-05T18:32:09Z",
+      "updatedAt": "2026-10-05T18:32:09Z"
+    },
+    {
+      "id": "hn:49970043",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: CoIsland – A local Mac app that monitors your dev tools and alerts you",
+      "description": "CoIsland is a local Mac app that lives in the notch and watches builds, deploys, pull requests, incidents and tickets across 35+ connectors, surfacing only what needs attention. One click hands an item to Claude Code, Codex or Cortex Code to investigate.",
+      "content": "App site: https://coisland.app/\n\nHN discussion: https://news.ycombinator.com/item?id=49970043",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "LeDonT",
+      "url": "https://coisland.app/",
+      "createdAt": "2026-10-05T20:14:52Z",
+      "updatedAt": "2026-10-05T20:14:52Z"
+    },
+    {
+      "id": "hn:49975619",
+      "section": "news",
+      "type": "news",
+      "title": "Gleam doesn't compile to Erlang source anymore",
+      "description": "Gleam v1.19.0 ships a rewritten Erlang code generator that emits Erlang abstract forms instead of Erlang source, letting generated code load directly and skip the front half of the Erlang compiler, with notable compiler performance gains.",
+      "content": "Hacker News discussion: https://news.ycombinator.com/item?id=49975619 (88 points).",
+      "author": "ingve",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "createdAt": "2026-10-06T08:08:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49974235",
+      "section": "news",
+      "type": "news",
+      "title": "Monte Carlo Tree Search Is Awesome",
+      "description": "An explainer on Monte Carlo Tree Search, the classic search algorithm behind game-AI breakthroughs.",
+      "author": "usernotfoundrn",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://thegustafson.com/blog/mcts-is-awesome",
+      "createdAt": "2026-10-06T04:36:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49971726",
+      "section": "news",
+      "type": "news",
+      "title": "Learning Jazz Pianist Style with Cross-Attention Conditioning",
+      "description": "Learning and emulating a jazz pianist's playing style with cross-attention conditioning.",
+      "author": "ishan0102",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "url": "https://almostimplemented.github.io/jazz-pianist-style/",
+      "createdAt": "2026-10-05T22:30:52Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49970871",
+      "section": "news",
+      "type": "news",
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "description": "A new method for pretraining Transformers without backpropagation.",
+      "author": "E-Reverance",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "url": "https://qlabs.sh/research/dust",
+      "createdAt": "2026-10-05T21:15:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49973598",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Common Lisp is now the best programming language",
+      "description": "An essay making the case for Common Lisp as the best programming language today.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "misterchocolat",
+      "url": "https://www.vivienhenz.com/common-lisp",
+      "createdAt": "2026-10-06T02:51:51Z",
+      "updatedAt": "2026-10-06T02:51:51Z"
+    },
+    {
+      "id": "hn:49971921",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Example.com just launched the biggest redesign in decades",
+      "description": "A look at the history of example.com and its biggest redesign in decades.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jgx0",
+      "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+      "createdAt": "2026-10-05T22:55:11Z",
+      "updatedAt": "2026-10-05T22:55:11Z"
+    },
+    {
+      "id": "hn:49971846",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "description": "Reports that ChatGPT is generating fake New Yorker cartoons signed with real cartoonists' names.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rdmuser",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "createdAt": "2026-10-05T22:46:45Z",
+      "updatedAt": "2026-10-05T22:46:45Z"
+    },
+    {
+      "id": "hn:49971719",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Friendship ended with Deno, now Node is my best friend",
+      "description": "A developer's account of switching from Deno back to Node.js.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "createdAt": "2026-10-05T22:30:02Z",
+      "updatedAt": "2026-10-05T22:30:02Z"
+    },
+    {
+      "id": "hn:49973878",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Resurrecting iChat audio and video conferencing",
+      "description": "Chris Jones got iChat AV audio and video calls between Leopard-era Macs working over the internet again by debugging its SNATMAP/NAT-discovery flow. The fix is a single /etc/hosts entry that points configuration.apple.com at a replacement server.",
+      "content": "Blog post: https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/\n\nFound via Hacker News (HN id 49973878): https://news.ycombinator.com/item?id=49973878",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Chris Jones",
+      "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+      "createdAt": "2026-10-06T03:39:01Z",
+      "updatedAt": "2026-10-06T03:39:01Z"
+    },
+    {
+      "id": "hn:49976265",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nobel Prize in Physics 2026: Francis Halzen",
+      "description": "The 2026 Nobel Prize in Physics was awarded to Francis Halzen, according to the official Nobel Prize announcement.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49976265",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "solarist",
+      "url": "https://www.nobelprize.org/prizes/physics/2026/",
+      "createdAt": "2026-10-06T09:48:46Z",
+      "updatedAt": "2026-10-06T09:48:46Z"
+    },
+    {
+      "id": "hn:open-tpu-ai-inference-accelerator",
+      "section": "news",
+      "type": "news",
+      "title": "openTPU pairs an AI-developed accelerator with a full LLM software stack",
+      "description": "The open-source project brings together SystemVerilog RTL, an instruction set, simulator, compiler and profiler; its README reports multiple current language models running bit-exactly on a Kintex-7 FPGA card.",
+      "content": "The repository presents openTPU as an AI-developed accelerator and learning project. It documents a software simulator alongside the RTL implementation and reports running ten models on a Kintex-7 PCIe card, with benchmark and profiler details.",
+      "author": "fsbonetto",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/FeSens/openTPU",
+      "createdAt": "2026-10-06T17:10:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:benchmark-in-milliseconds",
+      "section": "news",
+      "type": "news",
+      "title": "A rule of thumb for microbenchmarks: aim for around 300 ms",
+      "description": "Matklad recommends benchmarks near 300 ms: long enough to make small improvements visible and limit fixed-overhead distortion, yet short enough to repeat quickly; the goal is practical intuition rather than precise measurement.",
+      "content": "Aleksey Kladov’s rule of thumb is to tune benchmark input until each run takes roughly 300 milliseconds. That range makes results easy to scan, reduces startup overhead, and keeps repeated runs fast enough for iteration.",
+      "author": "surprisetalk",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
+      "createdAt": "2026-10-06T14:10:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:darkplug-iphone-darkroom-timer",
+      "section": "news",
+      "type": "news",
+      "title": "Darkplug turns an iPhone into a local-network darkroom timer",
+      "description": "The iPhone and iPad app controls a supported Shelly smart plug and enlarger over the local network, with timed exposures, F-stop steps, guided test strips, split-grade printing and dodge-and-burn workflows.",
+      "content": "Darkplug is a red-on-black darkroom timer for film photographers. It connects directly to compatible Shelly plugs on the same local network; advanced printing tools are offered through a one-time Darkplug+ purchase.",
+      "author": "pentakkusu",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://peterszentkiralyi.eu/darkplug/",
+      "createdAt": "2026-10-06T14:10:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49977979",
+      "section": "news",
+      "type": "news",
+      "title": "Mistral Large 4 is a 1.05T-parameter open-weight multimodal model",
+      "description": "Mistral's new public-preview model uses a granular Mixture-of-Experts design with 49B active parameters, 1.05T total parameters, a 1.6B vision encoder and a 1M-token context window. Its documentation lists structured outputs, function calling and document Q&A.",
+      "author": "Philpax",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "createdAt": "2026-10-06T13:15:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49977832",
+      "section": "news",
+      "type": "news",
+      "title": "Two ARM64 compiler-optimization bugs exposed by curl's HTTP/3 CI",
+      "description": "curl's upstream report traces two failures to optimized builds: GCC 15/16 at -O3 triggers OpenSSL Valgrind errors on ARM64, while Rust 1.98.1 release optimization triggers quiche errors. Lower optimization levels or Clang avoid the reported reproductions.",
+      "author": "torutofu",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/curl/curl/issues/23237",
+      "createdAt": "2026-10-06T13:06:00Z",
+      "status": "inbox",
+      "content": "The report says -O2 avoids the OpenSSL issue (-O3 reproduces it); setting CARGO_PROFILE_RELEASE_OPT_LEVEL=0 avoids the quiche issue (level 1 reproduces it)."
+    },
+    {
+      "id": "hn:49977177",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Release of Polars 2.0",
+      "description": "The Polars project has released version 2.0 of its fast DataFrame library.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "simicd",
+      "url": "https://pola.rs/posts/release-polars-2/",
+      "createdAt": "2026-10-06T11:59:01Z",
+      "updatedAt": "2026-10-06T11:59:01Z"
+    },
+    {
+      "id": "hn:49977597",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Software Supply Chain Attack on subql/common",
+      "description": "A reported software supply-chain attack targeting the subql/common npm package.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "WalterSobchak",
+      "url": "https://flatt.tech/research/posts/subql-common-npm-supply-chain-attack/",
+      "createdAt": "2026-10-06T12:46:19Z",
+      "updatedAt": "2026-10-06T12:46:19Z"
+    },
+    {
+      "id": "hn:49983055",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
+      "description": "Burn 0.22 drops backend type parameters from the Rust deep learning framework's user API and selects execution through the device instead, which the team says makes rebuilds up to 15x faster. The release also adds adaptive memory management, smarter autotuning, graph replay, LoRA/QLoRA fine-tuning, ONNX export and expanded remote compute.",
+      "content": "Release notes from the Tracel (Burn) team: https://tracel.ai/blog/release-0.22.0/\n\nHN discussion: https://news.ycombinator.com/item?id=49983055",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Tracel (Burn team)",
+      "url": "https://tracel.ai/blog/release-0.22.0/",
+      "createdAt": "2026-10-06T19:41:57Z",
+      "updatedAt": "2026-10-06T19:41:57Z"
+    },
+    {
+      "id": "hn:49981455",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ask a model if code is malicious and it reaches for its morals",
+      "description": "Manifold Security probed mixture-of-experts models (OLMoE and DeepSeek-V2-Lite variants) and found that asking whether code is malicious routes through the same experts used for morality questions, more than vulnerability or legal questions do. Forcing the router to reuse another question's expert choices shifted the models' answers.",
+      "content": "Article: https://www.manifold.security/blog/do-models-consider-morality-malware\n\nFound via Hacker News (HN id 49981455): https://news.ycombinator.com/item?id=49981455",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "codyznash (Manifold Security)",
+      "url": "https://www.manifold.security/blog/do-models-consider-morality-malware",
+      "createdAt": "2026-10-06T17:20:26Z",
+      "updatedAt": "2026-10-06T17:20:26Z"
+    },
+    {
+      "id": "hn:49978333",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What Is Codemode",
+      "description": "Armin Ronacher explains Codemode, now used for MCP support in Pi 1.0: agents issue tool calls from JavaScript so they can compose them, run them concurrently and process large results without routing everything through the LLM's context. He also lists what MCP servers need to improve for it, such as structured output and consistent results.",
+      "content": "Essay: https://lucumr.pocoo.org/2026/10/6/codemode/\n\nFound via Hacker News (HN id 49978333): https://news.ycombinator.com/item?id=49978333",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Armin Ronacher",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "createdAt": "2026-10-06T13:41:03Z",
+      "updatedAt": "2026-10-06T13:41:03Z"
+    },
+    {
+      "id": "hn:49980487",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "description": "Google announced EmbeddingGemma 2, an open, lightweight embedding model that works across multiple modalities.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49980487",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "createdAt": "2026-10-06T16:03:49Z",
+      "updatedAt": "2026-10-06T16:03:49Z"
+    },
+    {
+      "id": "hn:49978563",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+      "description": "The Tapo library, available for Rust and Python, has added support for TP-Link's TPAP protocol.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49978563",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "faithraven",
+      "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+      "createdAt": "2026-10-06T13:55:37Z",
+      "updatedAt": "2026-10-06T13:55:37Z"
+    },
+    {
+      "id": "hn:49983791",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenSSH 10.6",
+      "description": "OpenSSH 10.6 has been released, with release notes published on openssh.org.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49983791",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "torcete",
+      "url": "https://www.openssh.org/releasenotes.html#10.6",
+      "createdAt": "2026-10-06T20:41:39Z",
+      "updatedAt": "2026-10-06T20:41:39Z"
+    },
+    {
+      "id": "hn:49984923",
+      "section": "news",
+      "type": "news",
+      "title": "Sharing AI progress in mathematics",
+      "description": "OpenAI shares an update on its progress applying AI to mathematics.",
+      "content": "OpenAI shares an update on its progress applying AI to mathematics.\n\nHacker News discussion: https://news.ycombinator.com/item?id=49984923",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "OfficialTurkey",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "createdAt": "2026-10-06T22:17:21Z",
+      "updatedAt": "2026-10-06T22:17:21Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49981905",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "description": "An essay examines Claude Code's suggested-message feature and argues the real customer of that feature may be the model itself.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49981905",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zed_labs_dev",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "createdAt": "2026-10-06T18:00:34Z",
+      "updatedAt": "2026-10-06T18:00:34Z"
+    },
+    {
+      "id": "hn:49983703",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "description": "Paramount Skydance has completed its $111 billion merger with Warner Bros. Discovery.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49983703",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Mgtyalx",
+      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+      "createdAt": "2026-10-06T20:33:47Z",
+      "updatedAt": "2026-10-06T20:33:47Z"
+    },
+    {
+      "id": "hn:49977437",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Subquadratic 3SUM and Subcubic APSP",
+      "description": "A paper presents subquadratic algorithms for 3SUM and subcubic algorithms for all-pairs shortest paths.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49977437",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mauriziocalo",
+      "url": "https://arxiv.org/abs/2610.06783",
+      "createdAt": "2026-10-06T12:31:17Z",
+      "updatedAt": "2026-10-06T12:31:17Z"
+    },
+    {
+      "id": "hn:49978171",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
+      "description": "Show HN for Parseable, an open observability datalake reported to handle 100 million time-series per minute.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49978171",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "yashdotrv",
+      "url": "https://www.parseable.com",
+      "createdAt": "2026-10-06T13:30:50Z",
+      "updatedAt": "2026-10-06T13:30:50Z"
+    },
+    {
+      "id": "hn:49979845",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Early History of Smalltalk (1993)",
+      "description": "A historical piece on the early history of Smalltalk, dating from 1993.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49979845",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "_reza",
+      "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+      "createdAt": "2026-10-06T15:19:57Z",
+      "updatedAt": "2026-10-06T15:19:57Z"
+    },
+    {
+      "id": "hn:49985292",
+      "title": "UniEvo-VL: on-policy self-distillation for multimodal model self-improvement",
+      "description": "A new paper (with authors including Jure Leskovec and Yejin Choi) proposes letting a single multimodal model act as both teacher and student: the teacher sees the model's own self-critique as privileged information while the student sees only the question. It is a training recipe for self-improvement without a larger separate teacher.",
+      "content": "Paper: https://arxiv.org/abs/2609.38721\nHN discussion: https://news.ycombinator.com/item?id=49985292",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://arxiv.org/abs/2609.38721",
+      "createdAt": "2026-10-06T22:51:35Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-06T22:51:35Z"
+    },
+    {
+      "id": "hn:49984716",
+      "section": "news",
+      "type": "news",
+      "title": "Penguin Mail: a Rust mail and calendar app for Linux with an optional AI assistant",
+      "description": "A new GPL-licensed Linux desktop client brings mail, calendars, contacts and encryption together. Its optional assistant can use a local model and asks before sending mail or changing settings.",
+      "content": "Penguin Mail is built with Rust, GTK 4 and libadwaita; it supports Gmail, Microsoft, IMAP/POP3, calendars, contacts, OpenPGP and S/MIME. The assistant is off until enabled and can run with LM Studio, Ollama or other supported providers.\nWebsite: https://penguin-mail.com/\nSource code: https://github.com/c9dev/penguin-mail\nHacker News discussion: https://news.ycombinator.com/item?id=49984716",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "kavourias",
+      "url": "https://penguin-mail.com/",
+      "createdAt": "2026-10-06T21:59:43Z",
+      "updatedAt": "2026-10-06T21:59:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49984025",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI launches a Decisions API public beta for classification and routing",
+      "description": "OpenAI’s new /v1/decisions endpoint returns typed predicate probabilities, fixed-choice answers or rubric scores for text and images. The public beta currently supports gpt-6-luna and targets fast classification, routing and prioritization.",
+      "content": "Official documentation: https://developers.openai.com/api/docs/guides/decisions\nThe endpoint returns predicate, choice or score answers rather than free-form text; OpenAI says it is about 10× faster than the Responses API. The docs identify gpt-6-luna as the only supported model during the public beta.\nHacker News discussion: https://news.ycombinator.com/item?id=49984025",
+      "topics": [
+        "AI",
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "chiefstorm",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "createdAt": "2026-10-06T20:57:25Z",
+      "updatedAt": "2026-10-06T20:57:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49977351",
+      "section": "news",
+      "type": "news",
+      "title": "A minimal kernel in Swift, running in QEMU",
+      "description": "A walkthrough of building a minimal OS kernel in Swift that boots under QEMU. Explores Swift beyond apps as a systems language with bare-metal constraints.",
+      "content": "Technical post: Swift kernel on QEMU — https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
+      "author": "by surprisetalk",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
+      "createdAt": "2026-10-06T12:20:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49970767",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Living off-grid: Hundred Rabbits",
+      "description": "A look at Hundred Rabbits, the creative duo living off-grid on a sailboat while building open-source software.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Muhammad523",
+      "url": "https://100r.ca/site/home.html",
+      "createdAt": "2026-10-05T21:08:33Z",
+      "updatedAt": "2026-10-05T21:08:33Z"
+    },
+    {
+      "id": "hn:49949680",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rust's derive often implies inline",
+      "description": "Derived Debug/Clone/etc. impls in Rust currently emit #[inline], which is usually fine but can bloat binaries when nested error types get inlined into hot logging paths. Preventing one Debug inline shrank uv by ~160KB.",
+      "content": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+      "author": "woodruffw",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+      "createdAt": "2026-10-04T01:27:02Z"
+    },
+    {
+      "id": "hn:49982096",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How many GPUs does it take to serve 1M, 1B or 1T tokens?",
+      "description": "Cedana built a calculator that estimates how many A100, H100 or B200 GPUs you need to serve a given token volume for models like Llama 3.3 70B and DeepSeek V4, with adjustable token mix and utilization.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "kmavm",
+      "url": "https://cedana.com/resources/tokens-to-gpus/",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49982096 (21 points, 9 comments)",
+      "createdAt": "2026-10-06T18:17:40Z",
+      "updatedAt": "2026-10-06T18:17:40Z"
+    },
+    {
+      "id": "hn:49970810",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sideloop: re-sign sideloaded iOS apps over Wi-Fi before they expire",
+      "description": "A self-hosted service with a web UI that keeps sideloaded IPAs signed with a free Apple ID, re-installing them over Wi-Fi before the 7-day signature expires without AltStore or SideStore on the device.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "filippofinke",
+      "url": "https://github.com/filippofinke/sideloop",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49970810 (7 points, 1 comments)",
+      "createdAt": "2026-10-05T21:11:04Z",
+      "updatedAt": "2026-10-05T21:11:04Z"
+    },
+    {
+      "id": "hn:49987076",
+      "title": "Strands Decider 2B: a small, open-source decision model",
+      "description": "Strands Labs released Decider 2B, a small \"decision model\" that picks between fixed options or outputs a numeric score in a single fast pass instead of generating free text. It trades flexibility for low latency and guaranteed valid answers, making it useful for routing and classification in agent pipelines.",
+      "content": "Article: https://strandsagents.com/blog/introducing-strands-decider/\nHN discussion: https://news.ycombinator.com/item?id=49987076",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "createdAt": "2026-10-07T02:02:11Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T02:02:11Z"
+    },
+    {
+      "id": "hn:49991227",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Shipping JPEG XL in Chrome",
+      "description": "Chrome 155 adds JPEG XL decoding via a pure-Rust jxl-rs decoder chosen for memory safety and SIMD performance. The format targets ~30–50% better compression than JPEG plus lossless JPEG transcoding and HDR.",
+      "content": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "author": "AshleysBrain",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "createdAt": "2026-10-07T11:25:02Z"
+    },
+    {
+      "id": "hn:49987679",
+      "title": "OpenWAM: an open framework for composable world-action models",
+      "description": "Stanford researchers introduce OpenWAM, a framework for robot world-action models built on Wan2.2-5B with causal pretraining on over 10,000 hours of robot video and a Mixture-of-Transformers action expert. Robot-video training raised LIBERO-Long success from 68.4% to 97.8%.",
+      "content": "Project page: https://openwam.stanford.edu/\nHN discussion: https://news.ycombinator.com/item?id=49987679",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://openwam.stanford.edu/",
+      "createdAt": "2026-10-07T03:17:49Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T03:17:49Z"
+    },
+    {
+      "id": "hn:49988641",
+      "title": "Show HN: musql, a JIT-compiled SQLite-compatible database",
+      "description": "musql is a SQLite-compatible database that pairs a columnar storage format with a JIT compiler that turns supported query paths into native code. Its author claims up to 300x speedups over C SQLite and 1000x over Turso on supported queries.",
+      "content": "Repo: https://github.com/samyfodil/musql\nHN discussion: https://news.ycombinator.com/item?id=49988641",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dsamy",
+      "url": "https://github.com/samyfodil/musql",
+      "createdAt": "2026-10-07T05:30:23Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T05:30:23Z"
+    },
+    {
+      "id": "hn:49991580",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "description": "The Telegraph Test shows instructing models to write cablese cuts billed output tokens ~40–49% across families while other models recover facts at plaintext parity—useful for agent memory and machine-to-machine handoffs.",
+      "content": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
+      "author": "Theory42",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
+      "createdAt": "2026-10-07T12:04:36Z"
+    },
+    {
+      "id": "hn:49986862",
+      "section": "news",
+      "type": "news",
+      "title": "ESP32-C3 Adblock stores large DNS blocklists as compact hashes in flash",
+      "description": "An open-source Pi-hole-style DNS blocker uses sorted 40-bit domain hashes in flash instead of storing domain strings in RAM. Its author reports roughly 50 KB RAM use and about 10 ms lookups on a low-cost ESP32-C3.",
+      "content": "The README describes a PlatformIO project for the ESP32-C3 that can block hundreds of thousands of domains without PSRAM. The reported maximum blocklist and firmware-over-the-air setup have different flash-capacity trade-offs; the repository documents the hardware, build process and security limits.\nRepository: https://github.com/M-Abozaid/esp32-c3-adblock\nHacker News discussion: https://news.ycombinator.com/item?id=49986862",
+      "topics": [
+        "Programming",
+        "Technology",
+        "IoT"
+      ],
+      "source": "Hacker News",
+      "author": "jayhoon",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "createdAt": "2026-10-07T01:39:21Z",
+      "updatedAt": "2026-10-07T01:39:21Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49991390",
+      "title": "Show HN: Every number in a tiny GPT, from one forward pass to one RLHF step",
+      "description": "An interactive, in-browser walkthrough of a toy GPT-2-style model where every matrix fits on screen and hovering a cell shows the exact math. It covers one token of inference, one pretraining step and one PPO iteration of RLHF.",
+      "content": "Demo: https://llm.manogya.dev\nSource: https://github.com/manogyasingh/transformer-visualisation\nHN discussion: https://news.ycombinator.com/item?id=49991390",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "xtcntr",
+      "url": "https://llm.manogya.dev",
+      "createdAt": "2026-10-07T11:44:37Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T11:44:37Z"
+    },
+    {
+      "id": "hn:49988516",
+      "section": "news",
+      "type": "news",
+      "title": "Rgpu: PyTorch device whose tensors live on a remote GPU",
+      "description": "Keep Python on your laptop (including Mac without CUDA) while PyTorch ops and tensor storage run on a remote GPU over the network.",
+      "content": "Rgpu registers a PyTorch device that ships tensors and kernels to a remote CUDA box, so local notebooks can train/infer without a local GPU install.\n\n[Repo on GitHub](https://github.com/ymcrcat/rgpu)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=49988516)",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "boxstream",
+      "url": "https://github.com/ymcrcat/rgpu",
+      "createdAt": "2026-10-07T05:15:44Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49988230",
+      "title": "Attackers hijacked three country TLDs to mint counterfeit TLS certs for Google",
+      "description": "Google says attackers took over DNS for the .gh, .sl and .as country-code domains and used it to pass domain validation and obtain unauthorized certificates for Google and other major services. Chrome now blocks the identified certificates, and Google urges domain owners to watch Certificate Transparency logs and set restrictive CAA records.",
+      "content": "Article: https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/\nHN discussion: https://news.ycombinator.com/item?id=49988230",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "colinprince",
+      "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+      "createdAt": "2026-10-07T04:37:05Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T04:37:05Z"
+    },
+    {
+      "id": "hn:49991243",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "description": "Static recompilation project that ports PSP God of War to WebAssembly so it runs in a browser without a traditional emulator loop.",
+      "content": "https://github.com/snuri00/psp-web-recomp",
+      "author": "sn001",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/snuri00/psp-web-recomp",
+      "createdAt": "2026-10-07T11:27:27Z"
+    },
+    {
+      "id": "hn:50008642",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: AI SRE Arena, an Open Benchmark for AI SRE Agents on Kubernetes",
+      "description": "AI SRE Arena is an open benchmark that scores AI SRE agents on Kubernetes incident-style tasks. It gives a reproducible way to compare agent ops skills beyond chat demos.",
+      "content": "Show HN open benchmark for K8s AI SRE agents — https://github.com/edgedelta/project-arena",
+      "author": "by emrahsamdan",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/edgedelta/project-arena",
+      "createdAt": "2026-10-08T17:13:08Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49996437",
+      "section": "news",
+      "type": "news",
+      "title": "Claude Haiku 5.5 launches as Anthropic's faster, cheaper small model",
+      "description": "Anthropic's new small model adds adjustable effort and stronger results on computer-use and agentic-coding benchmarks; the company says it is around 75% cheaper to run than Haiku 4.5 on average.",
+      "content": "Announced Oct. 7, 2026, Claude Haiku 5.5 is available on the Claude Platform and major cloud platforms. Anthropic positions it for high-volume, latency-sensitive work and subagent tasks rather than the hardest coding jobs. For prompts up to 100K tokens, Anthropic lists $0.10/M input and $0.50/M output. Vendor benchmarks and pricing details are in the announcement.\nHacker News discussion: https://news.ycombinator.com/item?id=49996437",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sfkgtbor",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "createdAt": "2026-10-07T18:01:32Z",
+      "updatedAt": "2026-10-07T18:01:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49992774",
+      "section": "news",
+      "type": "news",
+      "title": "Google Playground lets users create and share custom games with text prompts",
+      "description": "Google's experimental browser platform turns prompts into custom games users can play, share privately, or publish; select genres include multiplayer and leaderboards.",
+      "content": "Playground launched Oct. 7 for U.S. users age 18+; tiered creation access is rolling out based on Google AI subscriptions. Google says Unity Spark integration is planned, with closed beta coming soon.\nOfficial announcement: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/\nTry Playground: https://playground.google\nHacker News discussion: https://news.ycombinator.com/item?id=49992774",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "trollied",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "createdAt": "2026-10-07T13:42:03Z",
+      "updatedAt": "2026-10-07T13:42:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49996425",
+      "title": "OpenAI brings GPT-6 to all ChatGPT users with Intelligent UI",
+      "description": "OpenAI is rolling out a new GPT-6 model to ChatGPT's free and paid users. Its Intelligent UI feature lets answers include interactive diagrams, charts, forms, buttons and small tools built on the fly, while plain text is still used when that works best.",
+      "content": "Article: https://openai.com/index/gpt-6-for-everyone/\nHN discussion: https://news.ycombinator.com/item?id=49996425",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "joshuawright11",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "createdAt": "2026-10-07T18:00:58Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T18:00:58Z"
+    },
+    {
+      "id": "hn:49998895",
+      "title": "Margaret Hamilton, who led Apollo's flight software team, dies at 90",
+      "description": "MIT reports that computing pioneer Margaret Hamilton has died at 90. She led the MIT teams, more than 400 people, that wrote the on-board flight software for Apollo's Lunar Module and Command Module, and she helped establish software engineering as a discipline.",
+      "content": "Article: https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007\nHN discussion: https://news.ycombinator.com/item?id=49998895",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "muglug",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "createdAt": "2026-10-07T21:16:18Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T21:16:18Z"
+    },
+    {
+      "id": "hn:49996259",
+      "title": "Docker Agent: build and run multi-agent AI teams from YAML",
+      "description": "Docker's open-source docker-agent is a Docker CLI plugin for defining AI agents in declarative YAML. It supports multi-agent delegation, any MCP server as tools, many model providers, built-in RAG, and sharing agents through OCI registries.",
+      "content": "Repo: https://github.com/docker/docker-agent\nIt ships preinstalled in Docker Desktop 4.63+ (run `docker agent`) or via Homebrew.\nHN discussion: https://news.ycombinator.com/item?id=49996259",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "saikatsg",
+      "url": "https://github.com/docker/docker-agent",
+      "createdAt": "2026-10-07T17:48:38Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T17:48:38Z"
+    },
+    {
+      "id": "hn:49999596",
+      "title": "Some Apple Watch Series 12 and Ultra 4 owners report skin irritation",
+      "description": "MacRumors rounds up forum and Reddit reports of burning and redness under the sensor area on the new watches. The cause is unknown; the new models sample heart rate every five seconds and have larger ECG electrodes and LEDs, and Apple advises a good fit, keeping things clean, and seeing a doctor if irritation persists.",
+      "content": "Article: https://www.macrumors.com/2026/10/07/apple-watch-series-12-skin-irritation/\nHN discussion: https://news.ycombinator.com/item?id=49999596",
+      "topics": [
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "author": "dabinat",
+      "url": "https://www.macrumors.com/2026/10/07/apple-watch-series-12-skin-irritation/",
+      "createdAt": "2026-10-07T22:25:36Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T22:25:36Z"
+    },
+    {
+      "id": "hn:49998495",
+      "title": "Claude now works inside Google Docs, Sheets and Slides",
+      "description": "Anthropic launched a Claude for Google Workspace beta on paid plans. A sidebar can edit the open file in place: writing formulas, pivot tables and charts in Sheets, building on-theme slides, and proposing suggestion cards in Docs, with an ask-before-edits mode by default.",
+      "content": "Article: https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides\nHN discussion: https://news.ycombinator.com/item?id=49998495",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dgf18",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "createdAt": "2026-10-07T20:39:38Z",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "updatedAt": "2026-10-07T20:39:38Z"
+    },
+    {
+      "id": "hn:50001580",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A 100x faster* alternative to homebrew",
+      "description": "An alternative package manager for macOS that claims to be 100x faster than Homebrew.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "cachebag",
+      "url": "https://github.com/zerobrewhq/zerobrew",
+      "createdAt": "2026-10-08T03:23:08Z",
+      "updatedAt": "2026-10-08T03:23:08Z"
+    },
+    {
+      "id": "hn:49994443",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "description": "Bigwords.page turns any screen into a big readable sign — the URL itself is the app.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "SpeakingOfBrad",
+      "url": "https://bigwords.page/",
+      "createdAt": "2026-10-07T15:44:21Z",
+      "updatedAt": "2026-10-07T15:44:21Z"
+    },
+    {
+      "id": "hn:49993857",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Animated ASCII Art for Web Pages",
+      "description": "ascii.rest offers animated ASCII art for web pages.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "turrini",
+      "url": "https://ascii.rest/",
+      "createdAt": "2026-10-07T15:05:37Z",
+      "updatedAt": "2026-10-07T15:05:37Z"
+    },
+    {
+      "id": "hn:50000676",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "description": "An LLM-driven port of the TypeScript compiler, type checker, and language server to Rust.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jcbhmr",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "createdAt": "2026-10-08T00:46:00Z",
+      "updatedAt": "2026-10-08T00:46:00Z"
+    },
+    {
+      "id": "hn:50003107",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI Withdraws 3 Math Papers",
+      "description": "OpenAI has withdrawn three math papers, with history tracked in their math repo.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "theemathas",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "createdAt": "2026-10-08T08:08:37Z",
+      "updatedAt": "2026-10-08T08:08:37Z"
+    },
+    {
+      "id": "hn:50004790",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "description": "An author gave Claude Opus 5.5 a single prompt and six hours to produce a visualization of Italo Calvino's Invisible Cities.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "stared",
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "createdAt": "2026-10-08T12:00:20Z",
+      "updatedAt": "2026-10-08T12:00:20Z"
+    },
+    {
+      "id": "hn:50005127",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Solo Developer Rebuilds Adobe Creative Suite in Rust Using Claude",
+      "description": "A solo developer rebuilt the Adobe Creative Suite in Rust using Claude.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ianbooker",
+      "url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
+      "createdAt": "2026-10-08T12:39:26Z",
+      "updatedAt": "2026-10-08T12:39:26Z"
+    },
+    {
+      "id": "hn:50005124",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: ScreenCI – Tutorial videos as E2E tests, written by your coding agent",
+      "description": "ScreenCI turns tutorial videos into end-to-end tests, written by a coding agent.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ollipal",
+      "url": "https://screenci.com/",
+      "createdAt": "2026-10-08T12:39:16Z",
+      "updatedAt": "2026-10-08T12:39:16Z"
+    },
+    {
+      "id": "hn:50002426",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Classic PC demoscene productions running natively in the browser",
+      "description": "Classic PC demoscene productions running natively in the browser via recompilation.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "adunk",
+      "url": "https://treylorswift.github.io/demoscene-recomp/web/",
+      "createdAt": "2026-10-08T06:29:25Z",
+      "updatedAt": "2026-10-08T06:29:25Z"
+    },
+    {
+      "id": "hn:50005013",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pivot – Real-time analytics on Iceberg, faster than ClickHouse on benchmarks",
+      "description": "Pivot offers real-time analytics on Apache Iceberg, claiming benchmarks faster than ClickHouse.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ntur1337",
+      "url": "https://github.com/pivotlake/pivot",
+      "createdAt": "2026-10-08T12:28:32Z",
+      "updatedAt": "2026-10-08T12:28:32Z"
+    },
+    {
+      "id": "hn:50003703",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "\"What Time Is It?\": a 64k demo for the Pebble Time 2",
+      "description": "A demoscene-style 64k demo built for the Pebble Time 2 watch, with a write-up on the Mad Tea Synth plug-in and Tea++ scripting language used to make music and visuals that compile down to fixed-point C.",
+      "topics": [
+        "Wearables",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "smig0",
+      "url": "https://teadrinker.net/blog/what-time-is-it.html",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50003703 (4 points, 0 comments)",
+      "createdAt": "2026-10-08T09:33:22Z",
+      "updatedAt": "2026-10-08T09:33:22Z"
+    },
+    {
+      "id": "hn:49995706",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Shortfuse: make macOS app permissions expire automatically",
+      "description": "A Mac app that schedules permissions like microphone access to expire after 15 minutes, an hour, tonight or when the app quits, and helps spot leftover permission records from deleted apps.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "wxce",
+      "url": "https://rygorlabs.com/shortfuse",
+      "content": "Show HN discussion: https://news.ycombinator.com/item?id=49995706. Requires macOS 14+ on Intel or Apple silicon.",
+      "createdAt": "2026-10-07T17:09:42Z",
+      "updatedAt": "2026-10-07T17:09:42Z"
+    },
+    {
+      "id": "hn:50002249",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Let's Encrypt moves to 64-day certificates in February 2027",
+      "description": "Starting February 10, 2027, Let's Encrypt certificates default to 64-day lifetimes (staging switches October 14, 2026), so hard-coded renewal schedules should move to renewing at about two-thirds of the lifetime or use ACME Renewal Info.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "allddd",
+      "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50002249 (6 points, 0 comments)",
+      "createdAt": "2026-10-08T06:01:21Z",
+      "updatedAt": "2026-10-08T06:01:21Z"
+    },
+    {
+      "id": "hn:49993338",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple Intelligence models can't be removed on macOS 27, even with Siri AI off",
+      "description": "A Tell HN post complains that macOS 27 keeps about 30 GB of Apple Intelligence models on disk even when the features are disabled, with no way to remove or offload them.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "busymom0",
+      "url": "https://news.ycombinator.com/item?id=49993338",
+      "content": "Discussion: https://news.ycombinator.com/item?id=49993338 (36 points, 27 comments)",
+      "createdAt": "2026-10-07T14:26:53Z",
+      "updatedAt": "2026-10-07T14:26:53Z"
+    },
+    {
+      "id": "hn:50002008",
+      "section": "news",
+      "type": "news",
+      "title": "“Math 2.0” will need to value mathematical progress more holistically",
+      "description": "Terence Tao argues that AI-era mathematical progress should be measured beyond solving open problems, including exposition, community-building, and opening new research directions.",
+      "content": "Tao contrasts traditional breakthroughs that lead to talks, workshops, collaboration, and durable understanding with a risk that AI-generated solutions are harvested without that follow-up. He calls for a broader “Math 2.0” that rewards exposition, community-building, and new directions, and argues AI can help there too.",
+      "author": "Terence Tao",
+      "topics": [
+        "AI",
+        "Mathematics",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://mathstodon.xyz/@tao/117395269325940185",
+      "createdAt": "2026-10-08T05:14:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50008427",
+      "section": "news",
+      "type": "news",
+      "title": "Whistle: on-device speech recognition in a 16.9 MB model",
+      "description": "Cactus Compute’s open, CPU-only speech-recognition model covers seven languages and ships a 17-target runtime including iOS and watchOS, aiming at phones and wearables.",
+      "content": "Whistle handles up to 30 seconds of 16 kHz mono audio and supports word timestamps and speech embeddings. The vendor reports 11.1 ms to first token on an Apple M4 Pro CPU; its benchmarks lead Whisper base on some datasets but trail on others, and compare vendor results with published baselines.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50008427",
+      "author": "Cactus Compute (Jakub Mroz & Henry Ndubuaku)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Wearables",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "createdAt": "2026-10-08T16:59:39Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50000488",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "description": "A blog post asks why the AI industry's reaction to DeepSeek 4.1 Flash has been so muted, given that a frontier-class open model release would once have dominated the conversation.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50000488",
+      "author": "jonotime",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "createdAt": "2026-10-08T00:14:48Z",
+      "updatedAt": "2026-10-08T00:14:48Z"
+    },
+    {
+      "id": "hn:50002650",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI withdraws three mathematical results",
+      "description": "OpenAI has withdrawn three mathematical results it previously announced.",
+      "content": "The post links to a statement from a mathematician about OpenAI retracting three math results, sparking discussion about how labs communicate research claims and verify correctness before publishing.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50002650",
+      "author": "sashank_1509",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
+      "createdAt": "2026-10-08T07:05:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50007519",
+      "section": "news",
+      "type": "news",
+      "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
+      "description": "Four-hour battery storage is now reportedly cheaper to install than gas turbines across the globe.",
+      "content": "The report argues grid-scale batteries have crossed a cost threshold that undercuts new gas peaker plants worldwide, with implications for grid planning and fossil-fuel retirements.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50007519",
+      "author": "01-_-",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
+      "createdAt": "2026-10-08T16:03:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49996149",
+      "section": "news",
+      "type": "news",
+      "title": "DuckDB Ducklake",
+      "description": "DuckDB's DuckLake, an open lakehouse format built on SQL, draws attention on HN.",
+      "content": "DuckLake layers lakehouse features like snapshots, catalogs, and schema evolution on top of open file formats, letting teams query data lakes with plain SQL through DuckDB.\n\nHacker News discussion: https://news.ycombinator.com/item?id=49996149",
+      "author": "saikatsg",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/duckdb/ducklake",
+      "createdAt": "2026-10-07T17:40:23Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50007764",
+      "section": "news",
+      "type": "news",
+      "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
+      "description": "Step 5 Preview, a 1M-context mixture-of-experts model from StepFun, has appeared on OpenRouter.",
+      "content": "The 1M-token-context MoE model is now available through OpenRouter, drawing interest from developers testing ultra-long-context workflows.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50007764",
+      "author": "AnneWodell",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://openrouter.ai/stepfun/step-5-preview",
+      "createdAt": "2026-10-08T16:20:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49994663",
+      "section": "news",
+      "type": "news",
+      "title": "The dawn of the age of the exoskeleton",
+      "description": "An overview of exoskeletons moving from lab curiosities toward practical, widely used devices.",
+      "content": "The piece surveys industrial, medical, and consumer exoskeleton designs and asks what will tip them into everyday use.\n\nHacker News discussion: https://news.ycombinator.com/item?id=49994663",
+      "author": "speckx",
+      "topics": [
+        "Technology",
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "url": "https://theconversation.com/the-dawn-of-the-age-of-the-exoskeleton-281804",
+      "createdAt": "2026-10-07T15:59:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50005424",
+      "section": "news",
+      "type": "news",
+      "title": "New CRAM method offers giant boost to compressed memory reads",
+      "description": "A new CRAM method is reported to offer a giant boost to compressed memory reads.",
+      "content": "The technique targets faster access to compressed in-memory data, which could improve memory efficiency for Linux systems and data-intensive workloads.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50005424",
+      "author": "danny00",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.tomshardware.com/software/linux/new-linux-tech-compresses-memory-in-ram-as-ram-for-452x-speedup-new-cram-method-offers-giant-boost-to-compressed-memory-reads",
+      "createdAt": "2026-10-08T13:11:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50002665",
+      "section": "news",
+      "type": "news",
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "description": "A poster describes using Claude Code to identify what they believe is a previously unknown planet.",
+      "content": "A poster describes using Claude Code to identify what they believe is a previously unknown planet.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50002665",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pyduan",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "createdAt": "2026-10-08T07:07:34Z",
+      "updatedAt": "2026-10-08T07:07:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50003796",
+      "section": "news",
+      "type": "news",
+      "title": "Yes, and",
+      "description": "An essay from the htmx project on the craft and attitude of building for the web.",
+      "content": "An essay from the htmx project on the craft and attitude of building for the web.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50003796",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Michelangelo11",
+      "url": "https://htmx.org/essays/yes-and/",
+      "createdAt": "2026-10-08T09:48:18Z",
+      "updatedAt": "2026-10-08T09:48:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:49986882",
+      "section": "news",
+      "type": "news",
+      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "description": "A homeowner hired an illustrator to draw their house and turned the artwork into a Home Assistant dashboard.",
+      "content": "A homeowner hired an illustrator to draw their house and turned the artwork into a Home Assistant dashboard.\n\nHacker News discussion: https://news.ycombinator.com/item?id=49986882",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "soheilpro",
+      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+      "createdAt": "2026-10-07T01:41:03Z",
+      "updatedAt": "2026-10-07T01:41:03Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50021410",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Can you use autoregressive diffusion to generate market data?",
+      "description": "Jane Street tests event-level diffusion on equities data: flow matching and atom smoothing improve one-step fits, but long autoregressive rollouts remain inaccurate.",
+      "content": "A Jane Street research intern modeled U.S. equity events as an autoregressive stream, using a transformer encoder, a categorical event head, and a diffusion head for continuous features. DDPM trajectories proved unstable; flow matching plus “atom smoothing” better captured sharp point masses such as zero time gaps. The one-step distributions improved, but the authors say the full rollouts still drift and are not accurate enough to be realistic; hand-engineering a category for each discontinuity may also fail to scale.\n\nHN discussion: https://news.ycombinator.com/item?id=50021410",
+      "author": "jsomers",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "createdAt": "2026-10-09T14:56:13Z",
+      "updatedAt": "2026-10-09T14:56:13Z"
+    },
+    {
+      "id": "hn:50031653",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple/macOS removed from official Unix registry",
+      "description": "Apple/macOS has been removed from the official Unix registry.",
+      "author": "john_alan",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.opengroup.org//openbrand/register/",
+      "createdAt": "2026-10-10T10:57:31Z",
+      "updatedAt": "2026-10-10T10:57:31Z"
+    },
+    {
+      "id": "hn:49981264",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How to head into VR without wearing a headset",
+      "description": "Kyushu University research page on experiencing VR without wearing a headset.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49981264",
+      "author": "Betelbuddy",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.kyushu-u.ac.jp/en/researches/view/414/",
+      "createdAt": "2026-10-06T17:07:12Z"
+    },
+    {
+      "id": "hn:50021127",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Python 3.15",
+      "description": "Python 3.15.0 is out with lazy imports (PEP 810), frozendict, UTF-8 as the default encoding, TypedDict extras, and a stronger experimental JIT. Official builds also ship free-threading on macOS by default.",
+      "content": "Release notes: https://www.python.org/downloads/release/python-3150/",
+      "author": "ngoldbaum",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.python.org/downloads/release/python-3150/",
+      "createdAt": "2026-10-09T14:35:42Z"
+    },
+    {
+      "id": "hn:50009066",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Scaling and benchmarking a critical message bus using a new indexing strategy",
+      "description": "Jane Street details how an intern project added topic-partition indexes and adaptive on-disk subtree splitting to Aria, cutting tip-recovery CPU ~30% while preserving strict message ordering for a multi-TB/day bus.",
+      "content": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/",
+      "author": "eatonphil",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/",
+      "createdAt": "2026-10-08T17:39:26Z"
+    },
+    {
+      "id": "hn:50005608",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sub-1-Bit LLM Compression via Latent Factorization",
+      "description": "Samsung Labs’ LittleBit (NeurIPS 2025) and LittleBit-2 (ICML 2026) open implementation for compressing LLM weights below one bit per parameter via latent factorization.",
+      "content": "https://github.com/SamsungLabs/LittleBit",
+      "author": "brainless",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/SamsungLabs/LittleBit",
+      "createdAt": "2026-10-08T13:29:46Z"
+    },
+    {
+      "id": "hn:49992994",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ETH-68: Ethernet Audio Interface for Linux",
+      "description": "Open hardware/software Ethernet audio interface for Linux aimed at low-latency networked audio without proprietary USB stack pain.",
+      "content": "https://naturalsystems.io/eth68",
+      "author": "chabad360",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://naturalsystems.io/eth68",
+      "createdAt": "2026-10-07T13:58:05Z"
+    },
+    {
+      "id": "hn:50015074",
+      "section": "news",
+      "type": "news",
+      "title": "Reducing undefined behavior in the C language",
+      "description": "LWN covers ongoing work to shrink undefined behavior in C, including language and tooling changes that make more programs well-defined without breaking C’s low-level model.",
+      "content": "LWN article on reducing C undefined behavior — https://lwn.net/Articles/1095811/",
+      "author": "by signa11",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://lwn.net/Articles/1095811/",
+      "createdAt": "2026-10-09T02:02:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50009634",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
+      "description": "Pocketty is an iPhone SSH terminal that notifies you when a remote coding agent is blocked waiting for input. Aimed at developers who leave long agent sessions running on servers.",
+      "content": "Show HN iOS app: SSH client with agent-block push alerts — https://pocketty.app/",
+      "author": "by lukeed",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://pocketty.app/",
+      "createdAt": "2026-10-08T18:11:52Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50009904",
+      "section": "news",
+      "type": "news",
+      "title": "K10s: a clickable Go terminal UI for Kubernetes",
+      "description": "An Apache-2.0 Kubernetes TUI combines searchable resources, contextual actions, logs/exec/port-forward, an offline demo, and an optional context-aware AI prompt.",
+      "content": "K10s uses the standard kubeconfig and starts watches lazily as resource kinds are opened. Its README lists 30 resource kinds, read-only mode, k9s-style plugins, and static macOS/Linux/Windows builds.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50009904",
+      "author": "pierreneter",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/p10node/k10s",
+      "createdAt": "2026-10-08T18:29:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50012199",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
+      "description": "Rembrandt is a free, open-source Adobe Lightroom alternative that runs completely locally with AI features.",
+      "content": "The Show HN post presents a fully local photo-editing app with AI-assisted tools, targeting users who want Lightroom-style workflows without a subscription or cloud uploads.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50012199",
+      "author": "thesnarkitecht",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/thesnarkitecht/rembrandt",
+      "createdAt": "2026-10-08T21:00:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50011694",
+      "section": "news",
+      "type": "news",
+      "title": "Model Collapse Isn't New, nor Is It Specific to AI",
+      "description": "An essay argues that model collapse is neither new nor specific to AI, with historical precedents for feedback loops degrading quality.",
+      "content": "The author traces analogues of self-referential degradation in other fields to argue that AI model collapse is a general statistical phenomenon, not a uniquely machine-learning pathology.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50011694",
+      "author": "hovhannesian",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://rulr.dev/blog/model-collapse-isnt-new/",
+      "createdAt": "2026-10-08T20:26:28Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50015236",
+      "section": "news",
+      "type": "news",
+      "title": "What should we tell our students?",
+      "description": "Terence Tao writes about what students should be told in an era of increasingly capable AI.",
+      "content": "Terence Tao writes about what students should be told in an era of increasingly capable AI.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50015236",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sajid",
+      "url": "https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/",
+      "createdAt": "2026-10-09T02:27:45Z",
+      "updatedAt": "2026-10-09T02:27:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50013610",
+      "section": "news",
+      "type": "news",
+      "title": "Bevy 0.20",
+      "description": "The Bevy open-source game engine announces its 0.20 release.",
+      "content": "The Bevy open-source game engine announces its 0.20 release.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50013610",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Philpax",
+      "url": "https://bevy.org/news/bevy-0-20/",
+      "createdAt": "2026-10-08T22:57:50Z",
+      "updatedAt": "2026-10-08T22:57:50Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50016312",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "description": "A Show HN demo ports Quake to safe Rust and runs it in the browser, highlighting memory-safe systems work without giving up a classic realtime game loop.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://quake-srp.pages.dev/",
+      "createdAt": "2026-10-09T05:22:58Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50016312\n\nhttps://quake-srp.pages.dev/"
+    },
+    {
+      "id": "hn:50016489",
+      "section": "news",
+      "type": "news",
+      "title": "MXC - a sandboxed code execution system",
+      "description": "Microsoft's open-source MXC project provides a sandboxed system for executing code.",
+      "content": "Microsoft's open-source MXC project provides a sandboxed system for executing code.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50016489",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nreece",
+      "url": "https://github.com/microsoft/mxc",
+      "createdAt": "2026-10-09T05:51:29Z",
+      "updatedAt": "2026-10-09T05:51:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50015515",
+      "section": "news",
+      "type": "news",
+      "title": "Keyboard differences between Windows and Macs",
+      "description": "A detailed comparison of how keyboards differ between Windows and Mac machines.",
+      "content": "A detailed comparison of how keyboards differ between Windows and Mac machines.\n\nHacker News discussion: https://news.ycombinator.com/item?id=50015515",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sohkamyung",
+      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "createdAt": "2026-10-09T03:08:05Z",
+      "updatedAt": "2026-10-09T03:08:05Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50019911",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Deno is joining Cloudflare",
+      "description": "Deno’s team is joining Cloudflare to build around Workers and Durable Objects. The company says the Deno runtime will receive one more year of bug and security releases, while Deno Deploy will close in six months; JSR continues.",
+      "author": "ilreb",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://deno.com/blog/cloudflare",
+      "createdAt": "2026-10-09T13:03:48Z"
+    },
+    {
+      "id": "hn:50024499",
+      "section": "news",
+      "type": "news",
+      "title": "Carrier-Explode: decoded carrier settings for iPhone, Pixel, and Galaxy",
+      "description": "Show HN tool that inspects and explains mobile carrier configuration payloads across major phone platforms—useful for debugging SIM/carrier quirks.",
+      "content": "Carrier-Explode surfaces what carrier settings blobs actually contain on iPhone, Pixel, and Galaxy devices, aimed at people who debug provisioning and network behavior.\n\n[Product site](https://carrierexplode.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50024499)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "simplyalec",
+      "url": "https://carrierexplode.com/",
+      "createdAt": "2026-10-09T18:10:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50018817",
+      "section": "news",
+      "type": "news",
+      "title": "Big Arrow: let AI agents paint arrows, boxes, and text on your Mac screen",
+      "description": "MIT-licensed CLI/skill so Claude Code or Codex can draw click-through overlays (arrows, boxes, labels) on macOS that clear themselves—handy for demos and visual guidance.",
+      "content": "Rather than describing UI positions in prose, agents can paint ephemeral on-screen annotations. One CLI, click-through overlays, auto-dismiss.\n\n[Repo on GitHub](https://github.com/franzenzenhofer/big-arrow-on-the-screen)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50018817)",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "franze",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "createdAt": "2026-10-09T11:03:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50018350",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "description": "OpenAI fired three safety researchers over alleged mishandling of research information; the researchers dispute the claims and warn of a chilling effect.",
+      "author": "trakkstar",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "createdAt": "2026-10-09T10:00:26Z",
+      "updatedAt": "2026-10-09T10:00:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50026555",
+      "section": "news",
+      "type": "news",
+      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+      "description": "A YouTuber says police paid him a visit after he built a Flock-style license-plate camera to track police cars.",
+      "author": "gumby",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+      "createdAt": "2026-10-09T21:06:59Z",
+      "updatedAt": "2026-10-09T21:06:59Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50023450",
+      "section": "news",
+      "type": "news",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "description": "Typesafe AI raised $870M at a $7.5B valuation.",
+      "author": "tosh",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "createdAt": "2026-10-09T17:02:31Z",
+      "updatedAt": "2026-10-09T17:02:31Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50024913",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft-Decision-1, our model for fast decision-making",
+      "description": "Microsoft’s post-trained Qwen3.5-9B model returns calibrated probabilities for fixed-choice tasks such as routing, classification, and grading, with access through Microsoft Foundry and OpenRouter. Benchmark and latency results are Microsoft’s own claims.",
+      "author": "lisajaloza",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "createdAt": "2026-10-09T18:38:44Z"
+    },
+    {
+      "id": "hn:50041061",
+      "section": "news",
+      "type": "news",
+      "title": "Open-source Adobe-style creative suite built with Rust and AI",
+      "description": "PetaPixel covers ArtCraft’s free open-source Photoshop/Premiere/Lightroom-style apps for macOS, Windows, and Linux, designed with CLI/JSON/MCP hooks so agents can drive creative workflows.",
+      "content": "ArtCraft is shipping a family of open-source creative tools as Adobe alternatives, with AI-agent-oriented interfaces (CLI, JSON, MCP) rather than only GUI replacement.\n\nEarly coverage focuses on photo/video/design apps spanning desktop platforms; treat quality claims as evolving.\n\n[PetaPixel coverage](https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/)\n\n[ArtCraft site](https://getartcraft.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50041061)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "trakkstar",
+      "url": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
+      "createdAt": "2026-10-11T08:53:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50040276",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LineageOS 24.0",
+      "description": "LineageOS says version 24.0, based on Android 17, is ready for initial device builds. Changelog 32 adds October 2026 security patches, refreshed core apps, streamed updater changes, and browser-based WebUSB tools for ADB, Fastboot, Odin, and Amlogic flashing.",
+      "author": "timschumi",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://lineageos.org/Changelog-32/",
+      "createdAt": "2026-10-11T06:18:59Z"
+    },
+    {
+      "id": "hn:50039630",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Agent Standup — AI agents in a stand-up call",
+      "description": "Agent Standup turns a Claude Code session into a live multi-agent stand-up with screen share, wait/blocked status, and a call tree—available as VS Code/Cursor extension, npx, or desktop app.",
+      "content": "A playful but practical viewer for multi-agent Claude Code sessions: lead and sub-agents join a stand-up, share terminal output, and show who is waiting on whom at zero token cost for the UI itself.\n\nWorks in VS Code, Cursor, terminal (`npx @double_geste/agent-standup --open`), and a desktop build.\n\n[Project site](https://atoll92.github.io/agent-standup/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50039630)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jonbaer",
+      "url": "https://atoll92.github.io/agent-standup/",
+      "createdAt": "2026-10-11T03:42:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50006930",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Diffle — keyboard-centric diff viewer with LSP support",
+      "description": "Diffle is an open-source, keyboard-first diff viewer with LSP support aimed at faster code review without leaving the terminal/editor muscle memory.",
+      "content": "A Show HN keyboard-centric diff tool with LSP integration for navigating and reviewing changes. Repo and docs are on GitHub.\n\n[Repo on GitHub](https://github.com/moritzwilksch/diffle)\n\n[HN discussion](https://news.ycombinator.com/item?id=50006930)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mwil1000",
+      "url": "https://github.com/moritzwilksch/diffle",
+      "createdAt": "2026-10-08T15:23:19Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50028059",
+      "section": "news",
+      "type": "news",
+      "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
+      "description": "A survey of 23 widely depended-on open source projects finds nearly half are maintained by only one or two people, underscoring bus-factor risk in the commons.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dxs",
+      "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/",
+      "createdAt": "2026-10-09T23:56:55Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50028059\n\nhttps://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/"
+    },
+    {
+      "id": "hn:50003545",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Proton Drive for Linux",
+      "description": "Show HN: a Go FUSE client that mounts Proton Drive on Linux like a local folder while Proton’s official Linux Drive app is still pending.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "khaosdoctor",
+      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+      "createdAt": "2026-10-08T09:10:42Z",
+      "status": "inbox",
+      "content": "Discussion: https://news.ycombinator.com/item?id=50003545\n\nhttps://oss.lsantos.dev/proton-drive-linux-fs/"
+    },
+    {
+      "id": "hn:49983582",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Training Text-to-Image Models Without a VAE",
+      "description": "Linum’s Pyramid-JiT is a decoder-only pixel-space diffusion model that adds multi-resolution image prediction. The company reports matching its prior model’s FD-DINOv2 score with 11.3× fewer training samples and 4.3× fewer GPU-hours; code and weights are an Apache-2.0 research release.",
+      "author": "schopra909",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.linum.ai/field-notes/pyramid-jit",
+      "createdAt": "2026-10-06T20:24:52Z"
+    },
+    {
+      "id": "hn:50020014",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Our $445M Series D",
+      "description": "Oxide Computer announced a $445M Series D to fund its rack-scale 'cloud computer' hardware business.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50020014",
+      "author": "ahlCVA",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "createdAt": "2026-10-09T13:12:47Z",
+      "updatedAt": "2026-10-09T13:12:47Z"
+    },
+    {
+      "id": "hn:50028275",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "REA Reverse – Engineer Anything",
+      "description": "REA Tools is presented as a reverse-engineering assistant able to 'engineer anything', prompting discussion of its techniques.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50028275",
+      "author": "modinfo",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://rea.tools/",
+      "createdAt": "2026-10-10T00:37:07Z",
+      "updatedAt": "2026-10-10T00:37:07Z"
+    },
+    {
+      "id": "hn:50017357",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Programming Isn't Special",
+      "description": "An essay argues that programming is not a uniquely special discipline, sparking a wide debate among developers.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50017357",
+      "author": "ingve",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
+      "createdAt": "2026-10-09T07:44:36Z",
+      "updatedAt": "2026-10-09T07:44:36Z"
+    },
+    {
+      "id": "hn:50029123",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "description": "Security researchers describe a Telegram Desktop vulnerability that could have allowed theft of any user's files, a one-click account-takeover class of flaw.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50029123",
+      "author": "g-b-r",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "createdAt": "2026-10-10T03:02:47Z",
+      "updatedAt": "2026-10-10T03:02:47Z"
+    },
+    {
+      "id": "hn:49997481",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection (2024)",
+      "description": "A USENIX Security '24 paper presents a long-range technique for detecting hidden spy cameras.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=49997481",
+      "author": "ortusdux",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+      "createdAt": "2026-10-07T19:15:57Z",
+      "updatedAt": "2026-10-07T19:15:57Z"
+    },
+    {
+      "id": "hn:50031269",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "`123456' password used in Danish CPR data breach",
+      "description": "Reporting on the Danish CPR data breach notes the attackers used the trivially guessable password '123456'.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50031269",
+      "author": "baal80spam",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "createdAt": "2026-10-10T09:51:49Z",
+      "updatedAt": "2026-10-10T09:51:49Z"
+    },
+    {
+      "id": "hn:50027118",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "description": "Police say an Anthropic AI model submitted a false tip about an unsolved Philadelphia murder, raising questions about AI-generated tips in law enforcement.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50027118",
+      "author": "Zambyte",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "createdAt": "2026-10-09T22:00:35Z",
+      "updatedAt": "2026-10-09T22:00:35Z"
+    },
+    {
+      "id": "hn:50024055",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: The rarest tech books and docs you've probably never read",
+      "description": "A Show HN collection gathers the rarest technology books and documents that most engineers have never read.",
+      "content": "HN discussion: https://news.ycombinator.com/item?id=50024055",
+      "author": "miletus",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://readrare.com/",
+      "createdAt": "2026-10-09T17:39:44Z",
+      "updatedAt": "2026-10-09T17:39:44Z"
+    },
+    {
+      "id": "hn:50031614",
+      "section": "news",
+      "type": "news",
+      "title": "Talorys: self-hosted personal AI agent on Cloudflare’s free tier",
+      "description": "Open-source personal agent (chat, memory, tasks, notes, scheduled reminders) that deploys into your own Cloudflare account with npx create-talorys—single-user, no telemetry.",
+      "content": "Talorys aims at a personal agent you host yourself on Cloudflare’s free tier rather than a multi-tenant SaaS inbox. One-command scaffold, your account, your data.\n\n[Repo on GitHub](https://github.com/rociiu/talorys)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50031614)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rociiu",
+      "url": "https://github.com/rociiu/talorys",
+      "createdAt": "2026-10-10T10:52:09Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50035530",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why DuckDB 2.0 is faster",
+      "description": "DuckDB 2.0 alpha pipelines asynchronous S3 reads with CPU decoding; MotherDuck’s author reports faster tests, while cautioning that the figures came from one M5 laptop and network.",
+      "content": "MotherDuck’s post explains how DuckDB 2.0 overlaps object-store downloads with CPU decoding. In the author’s single-machine test, a 2.2 GB S3 Parquet query took 18.8 seconds on DuckDB 1.5.5 and 7.7 seconds on 2.0 alpha. The author notes these measurements used one M5 laptop and a home connection, so they are workload-specific rather than a general benchmark. Async I/O is enabled by default through read_ahead_depth.\n\nHN discussion: https://news.ycombinator.com/item?id=50035530",
+      "author": "tosh",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "createdAt": "2026-10-10T18:08:49Z",
+      "updatedAt": "2026-10-10T18:08:49Z"
+    },
+    {
+      "id": "hn:50027257",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Can AI automate AI R&D yet?",
+      "description": "Epoch AI tested whether coding agents could devise a novel post-training method; neither model matched the reference innovation, and the report highlights limits in both research capability and evaluation.",
+      "content": "Epoch AI asked Claude Fable 5 and GPT-5.6 Sol to improve Qwen3-8B post-training over a strong GRPO baseline through an in-scope algorithmic innovation. Neither reproduced the reference on-policy self-distillation result. With generous scope assumptions, Sol reached 35% of the reference gains on short-answer tasks and 15% on coding at comparable wall-clock time; Fable’s apparent gains relied on selecting the best of many runs, which Epoch judged out of scope. The authors caution that this is a narrow, expensive evaluation with few runs and human-in-the-loop scope review, not a general verdict on all AI R&D.\n\nHN discussion: https://news.ycombinator.com/item?id=50027257",
+      "author": "merksittich",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://epoch.ai/publications/innovationeval",
+      "createdAt": "2026-10-09T22:14:40Z",
+      "updatedAt": "2026-10-09T22:14:40Z"
+    },
+    {
+      "id": "hn:50016956",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "description": "Microsoft says Execution Containers are generally available, letting developers define filesystem, network, and UI boundaries for agent workloads, enforced independently of the agent. Process containers span Windows, macOS, and Linux, with Windows-specific session/WSL options and experimental MicroVM support.",
+      "author": "smokel",
+      "topics": [
+        "AI",
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "createdAt": "2026-10-09T06:52:49Z"
+    },
+    {
+      "id": "hn:50035886",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FT reports Nvidia is in talks to acquire or deepen its investment in Reflection AI",
+      "description": "The FT reports discussions involving Nvidia and open-weight-model startup Reflection AI; Reuters could not independently verify the report, and neither company had commented at publication.",
+      "content": "The Financial Times, citing people with direct knowledge, reports Nvidia is discussing acquiring Reflection AI or increasing its investment. Bloomberg Law repeated the FT report; Reuters said it could not independently verify it, described talks as early-stage with several possible forms including an acqui-hire, and said neither company had immediately commented. This remains unconfirmed reporting, not a completed deal.\n\nReuters summary: https://m.economictimes.com/tech/technology/nvidia-in-talks-to-buy-reflection-ai-or-deepen-its-investment-ft-reports/articleshow/134860347.cms\nHN discussion: https://news.ycombinator.com/item?id=50035886",
+      "author": "arkj",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "createdAt": "2026-10-10T18:48:35Z",
+      "updatedAt": "2026-10-10T18:48:35Z"
+    },
+    {
+      "id": "hn:50033407",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Bitwarden Dual License Model",
+      "description": "Bitwarden is adopting a dual license model.",
+      "author": "Cider9986",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "createdAt": "2026-10-10T14:32:50Z",
+      "updatedAt": "2026-10-10T14:32:50Z"
+    },
+    {
+      "id": "hn:49998801",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
+      "description": "Benchmarks suggest WSL3 is about 5–60% faster than WSL2, depending on the workload.",
+      "author": "tonymet",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://tonym.us/wsl2-vs-wsl3-benchmarks.html",
+      "createdAt": "2026-10-07T21:06:54Z",
+      "updatedAt": "2026-10-07T21:06:54Z"
+    },
+    {
+      "id": "hn:50029487",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Lightbulb Computer",
+      "description": "Designer Guillaume Ardaud presents a real but bulky projector-and-computer-vision prototype for ambient spatial computing: voice, pointing and gestures, vision, and projection for room-scale widgets and controls. He describes it as a speculative direction, not a consumer product.",
+      "author": "oskarth",
+      "topics": [
+        "Technology",
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "url": "https://lightbulbcomputer.com/",
+      "createdAt": "2026-10-10T04:12:26Z"
+    },
+    {
+      "id": "hn:50034081",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Knuth reward check",
+      "description": "A write-up of receiving a Knuth reward check.",
+      "author": "Curiositry",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+      "createdAt": "2026-10-10T15:47:01Z",
+      "updatedAt": "2026-10-10T15:47:01Z"
+    },
+    {
+      "id": "hn:50017247",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nix wrote half of my debugger",
+      "description": "Farid Zakaria shows how Rewind VM’s deterministic recording and Nix-built inputs make data races reproducible: the debugger perturbs thread schedules, identifies the first divergent step, and supports source inspection and GDB at any replay point.",
+      "author": "ingve",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
+      "createdAt": "2026-10-09T07:29:08Z"
+    },
+    {
+      "id": "hn:50033357",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Unikernels were hard. key word: were",
+      "description": "Unikernels used to be hard to build; this post argues they are not anymore.",
+      "author": "ghuntley",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://ghuntley.com/unikernels/",
+      "createdAt": "2026-10-10T14:27:09Z",
+      "updatedAt": "2026-10-10T14:27:09Z"
+    },
+    {
+      "id": "hn:50024242",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rampart: Browser native on-device PII radaction",
+      "description": "Rampart performs PII redaction natively in the browser, entirely on-device.",
+      "author": "nateb2022",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://ndstudio.gov/posts/say-hello-to-rampart",
+      "createdAt": "2026-10-09T17:52:07Z",
+      "updatedAt": "2026-10-09T17:52:07Z"
+    },
+    {
+      "id": "hn:49984349",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenSCAD the Programmers Solid 3D CAD Modeller",
+      "description": "OpenSCAD is a solid 3D CAD modeller aimed at programmers.",
+      "author": "b-man",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://openscad.org/",
+      "createdAt": "2026-10-06T21:22:44Z",
+      "updatedAt": "2026-10-06T21:22:44Z"
+    },
+    {
+      "id": "hn:49981508",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Noto means \"no tofu\": fixing dotted circles in Myanmar text",
+      "description": "How dotted circles (“tofu”) in Myanmar text get fixed with the Noto font.",
+      "author": "steffoz",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.datocms.com/blog/handling-less-common-scripts",
+      "createdAt": "2026-10-06T17:24:17Z",
+      "updatedAt": "2026-10-06T17:24:17Z"
+    },
+    {
+      "id": "hn:50042333",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: BetterWispr – Free, open-source dictation for Mac",
+      "description": "A free, open-source dictation app for macOS shown on HN.",
+      "content": "[Read the article](https://betterwispr.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042333)",
+      "author": "kartik017",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://betterwispr.com/",
+      "createdAt": "2026-10-11T12:01:28Z",
+      "updatedAt": "2026-10-11T12:01:28Z"
+    },
+    {
+      "id": "hn:50044272",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How I reverse engineered a commercial spatial audio effect",
+      "description": "An audio developer characterizes a commercial surround effect via stereo impulse responses, logarithmic sweeps, and multitone tests, then uses convolution to reproduce modes behaving as linear time-invariant filters.",
+      "content": "On a Linux/PipeWire setup, the author measures four channel-transfer filters and checks the result against held-out noise. Other modes vary with level or between runs and cannot be reproduced by fixed convolution—a useful DSP measurement workflow, rather than a complete recreation of every mode.\n\n[Read the article](https://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50044272)",
+      "author": "epestr",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/",
+      "createdAt": "2026-10-11T15:21:58Z"
+    },
+    {
+      "id": "hn:50043689",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I'm sorry, but you still have to think",
+      "description": "Piotr Sarnacki examines AI-produced Rails-to-Rust and Elixir rewrites and shows how underspecified requirements and single-metric benchmarks hide behavior and reliability trade-offs.",
+      "content": "Using notification delivery under load as an example, Sarnacki contrasts request throughput with missed events, latency, and memory. His constant-arrival-rate tests expose trade-offs between dropped notifications, timeouts, and long delays; increasing a Rust broadcast buffer improved delivery but raised tail latency. These are the author’s experiments on two implementations, not a universal language benchmark.\n\n[Read the article](https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043689)",
+      "author": "drogus",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
+      "createdAt": "2026-10-11T14:29:07Z"
+    },
+    {
+      "id": "hn:50032253",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
+      "description": "MIT researchers use zigzag soft optical fibers embedded in silicone to reconstruct a sheet’s 3D bends and twists; controlled tests report under 0.4 cm error. A motion-sensing garment for therapy or VR is a proposed application, not a current product.",
+      "content": "Each bidirectional fiber’s light transmission changes as it bends; software combines those measurements to estimate surface shape. The prototype uses 1 mm fibers and an external circuit board. MIT says thinner fibers and denser coverage are future work, with possible use in physical therapy, VR, or gaming.\n\n[Read the MIT report](https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50032253)",
+      "author": "bookofjoe",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008",
+      "createdAt": "2026-10-10T12:27:36Z"
+    },
+    {
+      "id": "hn:49991852",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "2D Vehicles",
+      "description": "A showcase of 2D vehicle designs built for the web on patkerr.co.uk.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Michelangelo11",
+      "url": "https://patkerr.co.uk/2d-vehicles/",
+      "createdAt": "2026-10-07T12:30:40Z",
+      "updatedAt": "2026-10-07T12:30:40Z"
+    },
+    {
+      "id": "hn:50040547",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "3rd Yandex Cloud Data Center Was Hit",
+      "description": "Yandex Cloud's status page reports an incident affecting a data center, the third such strike reported.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "defly",
+      "url": "https://status.yandex.cloud/en/incidents/2136",
+      "createdAt": "2026-10-11T07:34:45Z",
+      "updatedAt": "2026-10-11T07:34:45Z"
+    },
+    {
+      "id": "hn:50041619",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "description": "Cloudflare Radar shows a sudden drop in bot traffic on Yandex's network following the reported strike on a Yandex datacenter.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "walrus01",
+      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
+      "createdAt": "2026-10-11T10:27:53Z",
+      "updatedAt": "2026-10-11T10:27:53Z"
+    },
+    {
+      "id": "hn:50041682",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nitter: Update Oct 10th seeking funding and legal help",
+      "description": "The Nitter project posted an October 10th update seeking funding and legal help to keep the service alive.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ForHackernews",
+      "url": "https://nitter.net",
+      "createdAt": "2026-10-11T10:37:55Z",
+      "updatedAt": "2026-10-11T10:37:55Z"
+    },
+    {
+      "id": "hn:50041540",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "IRCv3",
+      "description": "A look at IRCv3, the ongoing effort to modernize the IRC protocol with new extensions.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "basilikum",
+      "url": "https://ircv3.net/",
+      "createdAt": "2026-10-11T10:11:27Z",
+      "updatedAt": "2026-10-11T10:11:27Z"
+    },
+    {
+      "id": "hn:50039536",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GameBoy on E-Paper ESP32 at 30FPS [video]",
+      "description": "A video demo of a Game Boy running on an ESP32 with an e-paper display at 30 frames per second.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pizzaiolo",
+      "url": "https://www.youtube.com/watch?v=XiZmM6hwwAU",
+      "createdAt": "2026-10-11T03:21:07Z",
+      "updatedAt": "2026-10-11T03:21:07Z"
+    },
+    {
+      "id": "hn:50038623",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PSPi 6 – Raspberry Pi in a PSP",
+      "description": "Version 6 of the PSPi project, which fits a Raspberry Pi inside a PSP shell.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "therepanic",
+      "url": "https://github.com/othermod/PSPi-Version-6",
+      "createdAt": "2026-10-11T00:45:49Z",
+      "updatedAt": "2026-10-11T00:45:49Z"
+    },
+    {
+      "id": "hn:50028647",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Decade-old RAM is making a comeback",
+      "description": "The Verge reports that decade-old DDR4 RAM is making a comeback amid a memory shortage.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "1potato",
+      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
+      "createdAt": "2026-10-10T01:37:08Z",
+      "updatedAt": "2026-10-10T01:37:08Z"
+    },
+    {
+      "id": "hn:50042107",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI is creating a 'human premium' for art created by people",
+      "description": "The BBC reports on a growing 'human premium' for art created by people as AI-generated work spreads.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "colinprince",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "createdAt": "2026-10-11T11:34:28Z",
+      "updatedAt": "2026-10-11T11:34:28Z"
+    },
+    {
+      "id": "hn:50045273",
+      "section": "news",
+      "type": "news",
+      "title": "APSW: Another Python SQLite Wrapper",
+      "description": "Mature, thin Python binding that exposes nearly the full SQLite C API—useful when you want SQLite power without an ORM layer.",
+      "content": "APSW stays close to SQLite itself (virtual tables, advanced APIs, embedding) rather than presenting a Django/SQLAlchemy-style model layer. Handy for tooling and data pipelines that need SQLite’s full surface.\n\n[Repo on GitHub](https://github.com/rogerbinns/apsw)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50045273)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tosh",
+      "url": "https://github.com/rogerbinns/apsw",
+      "createdAt": "2026-10-11T16:58:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50046864",
+      "section": "news",
+      "type": "news",
+      "title": "The unreasonable effectiveness of VEX in NixOS",
+      "description": "A write-up on using VEX (Vulnerability Exploitability eXchange) with NixOS to cut noise from scanner findings by recording what is actually exploitable in a given build.",
+      "content": "DaTosh argues VEX complements Nix’s reproducible builds: scanners still flag CVEs, but attested exploitability status keeps triage focused on real risk in a NixOS system.\n\n[Read the article](https://blog.kammel.dev/post/nixos_vex/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50046864)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "datosh",
+      "url": "https://blog.kammel.dev/post/nixos_vex/",
+      "createdAt": "2026-10-11T19:23:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50007993",
+      "section": "news",
+      "type": "news",
+      "title": "Jevman: Pac-Man benchmark for AI decision models",
+      "description": "Opper’s Show HN benchmark puts decision-model agents in Pac-Man to compare planning quality under a shared, visual, reward-driven environment.",
+      "content": "Jevman frames decision-model evaluation as playing Pac-Man—useful contrast to chat-only evals when you care about sequential choices under uncertainty.\n\n[Benchmark site](https://opper.ai/jevman-benchmark/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50007993)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "felix089",
+      "url": "https://opper.ai/jevman-benchmark/",
+      "createdAt": "2026-10-08T16:34:13Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50045946",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NYC's \"Click to Cancel\" rule is now in effect",
+      "description": "New York City's \"Click to Cancel\" rule is now in effect, requiring businesses to make subscriptions and recurring charges as easy to cancel as they were to start.",
+      "content": "[Read the article](https://www.nyc.gov/main/click-to-cancel)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50045946)",
+      "author": "gregsadetsky",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.nyc.gov/main/click-to-cancel",
+      "createdAt": "2026-10-11T18:01:16Z",
+      "updatedAt": "2026-10-11T18:01:16Z"
+    },
+    {
+      "id": "hn:50042425",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The tilde in your PATH may not be your HOME",
+      "description": "A look at why the tilde in your PATH may not expand to your HOME directory, and the subtle shell behavior that catches people out.",
+      "content": "[Read the article](https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50042425)",
+      "author": "arusekk",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+      "createdAt": "2026-10-11T12:13:13Z",
+      "updatedAt": "2026-10-11T12:13:13Z"
+    },
+    {
+      "id": "hn:50047422",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "description": "A note on Andrej Karpathy's observation that the gap in shared understanding of LLM capability is widening.",
+      "content": "[Read the article](https://twitter.com/karpathy/status/2109361546505966046)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50047422)",
+      "author": "albertzeyer",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "createdAt": "2026-10-11T20:20:52Z",
+      "updatedAt": "2026-10-11T20:20:52Z"
+    },
+    {
+      "id": "hn:50048312",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Passkeys are a trap. Do not use them",
+      "description": "An opinion piece arguing that passkeys are a trap and should not be used.",
+      "content": "[Read the article](https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50048312)",
+      "author": "laurex",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "createdAt": "2026-10-11T21:59:48Z",
+      "updatedAt": "2026-10-11T21:59:48Z"
+    },
+    {
+      "id": "hn:50041765",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "description": "Berkeley research reported as showing that using AI for just 10 minutes erodes people's ability to persist at hard things.",
+      "content": "[Read the article](https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50041765)",
+      "author": "giuliomagnifico",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "createdAt": "2026-10-11T10:47:21Z",
+      "updatedAt": "2026-10-11T10:47:21Z"
+    },
+    {
+      "id": "hn:50028264",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+      "description": "A replica of the Cray-1 supercomputer built from 30 \"obsolete\" Mac Minis, covered by Ars Technica.",
+      "content": "[Read the article](https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50028264)",
+      "author": "pseudolus",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+      "createdAt": "2026-10-10T00:34:34Z",
+      "updatedAt": "2026-10-10T00:34:34Z"
+    },
+    {
+      "id": "hn:50018929",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Plumbers, chains, and famous painters: The history of the pipe operator in R",
+      "description": "The history of the pipe operator in R, from plumbers and chains to famous painters.",
+      "content": "[Read the article](http://adolfoalvarez.cl/blog/2021-09-16-plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50018929)",
+      "author": "sinnsro",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "http://adolfoalvarez.cl/blog/2021-09-16-plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/",
+      "createdAt": "2026-10-09T11:20:49Z",
+      "updatedAt": "2026-10-09T11:20:49Z"
+    },
+    {
+      "id": "hn:50033601",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Safe SIMD in Rust, even on the inside",
+      "description": "An exploration of safe SIMD usage in Rust, including the internals.",
+      "content": "[Read the article](https://shnatsel.github.io/safe-simd-in-rust-even-on-the-inside/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50033601)",
+      "author": "ravenical",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://shnatsel.github.io/safe-simd-in-rust-even-on-the-inside/",
+      "createdAt": "2026-10-10T14:56:11Z",
+      "updatedAt": "2026-10-10T14:56:11Z"
+    },
+    {
+      "id": "hn:50043603",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Texas Is Making Data Centers Wait",
+      "description": "a16z's take on why Texas is making data centers wait.",
+      "content": "[Read the article](https://a16z.com/why-texas-is-making-data-centers-wait/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50043603)",
+      "author": "gmays",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://a16z.com/why-texas-is-making-data-centers-wait/",
+      "createdAt": "2026-10-11T14:21:31Z",
+      "updatedAt": "2026-10-11T14:21:31Z"
+    },
+    {
+      "id": "hn:50048591",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Amazon in talks to buy AI startup Decart for around $7B, WSJ reports",
+      "description": "Reuters reports Amazon is in talks to buy AI startup Decart for around $7B, per the WSJ.",
+      "content": "[Read the article](https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50048591)",
+      "author": "mraniki",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
+      "createdAt": "2026-10-11T22:28:18Z",
+      "updatedAt": "2026-10-11T22:28:18Z"
     }
   ]
 }
