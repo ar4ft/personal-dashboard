@@ -2,6 +2,175 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2109789510447890572",
+      "section": "news",
+      "type": "news",
+      "title": "A Raspberry Pi learns to forecast a home's solar output from Victron data and satellite weather",
+      "description": "Dr. Simon trained a model on a Raspberry Pi that combines live Victron inverter data with open satellite weather data from Norway and predicts next-day solar production with over 90% accuracy, he says.",
+      "content": "The model on the Pi looks at more than 1,500 data points, including the sun's path, seasonal changes and the shading around the house, and keeps learning from real-time readings from the Victron system. His example forecast was 50 kWh for the next day, only 31% of the clear-sky potential. It's a nice small-scale case of classic forecasting ML running on cheap hardware next to the equipment it watches.\n\n[Victron Venus OS on GitHub](https://github.com/victronenergy/venus)\n\n[Post on X](https://x.com/goddek/status/2109789510447890572)",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Dr. Simon (@goddek)",
+      "url": "https://x.com/goddek/status/2109789510447890572",
+      "createdAt": "2026-10-12T23:33:11Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109710317357760584",
+      "section": "news",
+      "type": "news",
+      "title": "LightOn's ColGrep-Agent-2B: a small local model that does code search for your coding agent",
+      "description": "LightOn released ColGrep-Agent-2B, a 2B open model that runs locally and finds files and line ranges for a coding agent. In LightOn's tests, Claude Code used 34% fewer API tokens than with plain grep.",
+      "content": "The roughly 2.5 GB model sits between your coding agent and the repo: it runs ColGrep semantic code search, reads promising files, follows references and returns paths, line ranges and code. On 52 questions across 13 repos, LightOn reports 34% fewer tokens and 40% lower cache-aware cost, with bigger savings on larger repos. The trade-offs are stated plainly: answers took longer (21.6 s vs 13.0 s) and accuracy was 80.8% vs 83.3% for grep. Training used a 2B base, a short supervised cold start, then GRPO with a file and line F1 reward.\n\n[ColGrep-Agent-2B on Hugging Face](https://huggingface.co/lightonai/colgrep-agent-2B)\n\n[Paper on arXiv](https://arxiv.org/abs/2610.05099)\n\n[Post on X](https://x.com/lmoroney/status/2109710317357760584)",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Laurence Moroney (@lmoroney)",
+      "url": "https://x.com/lmoroney/status/2109710317357760584",
+      "createdAt": "2026-10-12T18:18:30Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109722692282917026",
+      "section": "news",
+      "type": "news",
+      "title": "OpenBMB's MiniCPM-V 4.7 35B-A3B lands with full GGUF set and runs on an iPad Pro",
+      "description": "OpenBMB released MiniCPM-V 4.7 35B-A3B under Apache 2.0, a multimodal MoE with about 3B active parameters, with every common quantization, llama.cpp support and a 1B sibling.",
+      "content": "Weights ship in bf16, fp8, int4, AWQ and GPTQ, plus GGUF (Q4_K_M at 21.2 GB, a mixed 3-bit at 15.5 GB), a draft model for speculative decoding and a 1B version at 0.67 GB. OpenBMB's own tables put it ahead of Qwen 3.6 35B-A3B on 24 of 34 benchmarks, including OCRBench and tool calling, but behind on ScreenSpot and MMLU-Pro. A separate post highlights Lookahead Expert Scheduling, which preloads the experts the next layer will likely need from flash, reaching 17.4 tokens/s on a 16 GB M4 iPad Pro.\n\n[MiniCPM-V 4.7 35B-A3B on Hugging Face](https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B)\n\n[GGUF weights](https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf)\n\n[iPad Pro speed breakdown on X](https://x.com/TeksEdge/status/2109684977025929389)\n\n[Post on X](https://x.com/sudoingX/status/2109722692282917026)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Sudo su (@sudoingX)",
+      "url": "https://x.com/sudoingX/status/2109722692282917026",
+      "createdAt": "2026-10-12T19:07:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109703511843979391",
+      "section": "news",
+      "type": "news",
+      "title": "Artificial Analysis launches a FrontierCode 1.1 leaderboard: top models still fail over 40% of real merge-ready tasks",
+      "description": "Cognition's private FrontierCode benchmark checks whether a model's change to a real open source repo would actually get merged. Claude Opus 5.5 leads at 52%, with nine models from six labs between 43% and 52%.",
+      "content": "Each of the 100 main tasks was built with open source maintainers, and grading goes past unit tests: oversized diffs, edits outside scope, or unhelpful tests can fail an attempt. Artificial Analysis runs every model through its open Stirrup harness. MiMo-V2.6-Pro is the best open weights model at 45%, and GPT-6.1 Sol scores 49% at $0.81 per task, under a tenth of the cost of comparable Anthropic runs. Nine tasks were never solved by any model.\n\n[FrontierCode leaderboard](https://artificialanalysis.ai/evaluations/frontiercode)\n\n[Post on X](https://x.com/ArtificialAnlys/status/2109703511843979391)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Artificial Analysis (@ArtificialAnlys)",
+      "url": "https://x.com/ArtificialAnlys/status/2109703511843979391",
+      "createdAt": "2026-10-12T17:51:28Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109905727737459188",
+      "section": "news",
+      "type": "news",
+      "title": "esp32-iphone-agent lets an AI model drive a real iPhone through a $7 ESP32",
+      "description": "An open source project where the iPhone mirrors over AirPlay so a vision model can see it, and an ESP32 in the charging port acts as a USB mouse and keyboard to tap and type. No jailbreak or developer account needed.",
+      "content": "Any OpenAI-compatible vision model plans the next step from the mirrored screen, and the ESP32 sends the taps. By iOS design it can't see passcode or Apple Pay screens. The MIT-licensed repo passed 1,200 stars within two days of being created. A similar project, Oh My Phone Use, swaps USB for Bluetooth HID and adds hands-free call audio.\n\n[esp32-iphone-agent on GitHub](https://github.com/onehumanbeing/esp32-iphone-agent)\n\n[Oh My Phone Use on GitHub](https://github.com/getGate/oh-my-phone-use)\n\n[Post on X](https://x.com/RoundtableSpace/status/2109905727737459188)",
+      "topics": [
+        "Technology",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "0xMarioNawfal (@RoundtableSpace)",
+      "url": "https://x.com/RoundtableSpace/status/2109905727737459188",
+      "createdAt": "2026-10-13T07:15:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110005346077127020",
+      "section": "news",
+      "type": "news",
+      "title": "Apple's Welcome home launch: HomeView smart display, HomePod mini 2 and a new Apple TV 4K",
+      "description": "Apple announced HomeView, a $299 smart display with a 7-inch screen and Siri AI, plus HomePod mini 2 ($149, S10 chip) and a fourth-generation Apple TV 4K ($299, A19 chip, far-field mics).",
+      "content": "HomeView recognizes up to six people by face to show their own Messages, Calendar and Reminders, and works as a Matter controller and Thread border router; it ships November 13. HomePod mini 2 adds Sound Glow, works as a Mac speaker and launches October 30. The new Apple TV 4K adds hands-free Siri, Wi-Fi 7, 128 GB of storage and a findable remote, and with four HomePod mini 2s it can do four-speaker surround that calibrates itself to the room.\n\n[HomeView press release](https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/)\n\n[HomePod mini 2 press release](https://www.apple.com/newsroom/2026/10/apple-announces-the-next-generation-of-homepod-mini/)\n\n[Apple TV 4K press release](https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/)\n\n[Post on X](https://x.com/theapplehub/status/2110005346077127020)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Apple Hub (@theapplehub)",
+      "url": "https://x.com/theapplehub/status/2110005346077127020",
+      "createdAt": "2026-10-13T13:50:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109821444792242669",
+      "section": "news",
+      "type": "news",
+      "title": "Sofla brings back a Launchpad-style app launcher for macOS 26",
+      "description": "Sofla is a free, open source Mac app launcher with the familiar Launchpad grid, fast app search, folders, favorites and recents, and no AI or web results.",
+      "content": "Alexey built it because the macOS 26 launcher searches the web and files before the app you want, and Raycast felt like too much for just opening apps. Version 1.0.0 is available as an Apple silicon download from the MIT-licensed repo.\n\n[Sofla website](https://sofla.app)\n\n[Sofla on GitHub](https://github.com/a-yunes/sofla)\n\n[Post on X](https://x.com/alexey_you/status/2109821444792242669)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Alexey (@alexey_you)",
+      "url": "https://x.com/alexey_you/status/2109821444792242669",
+      "createdAt": "2026-10-13T01:40:05Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109688720857415960",
+      "section": "news",
+      "type": "news",
+      "title": "Desklamp: a tiny menu bar app that keeps your Mac awake while agents run",
+      "description": "Desklamp is an open source macOS menu bar app that keeps the Mac awake, with a desk lamp icon that dims after 3 hours and flickers after 6 so you notice long sessions.",
+      "content": "Sean built it while waiting on coding agents. It installs with `npx @seansmithworks/desklamp`, and the source is MIT-licensed on GitHub.\n\n[Desklamp on GitHub](https://github.com/seansmithworks/desklamp)\n\n[Post on X](https://x.com/seansmithworks/status/2109688720857415960)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sean Smith (@seansmithworks)",
+      "url": "https://x.com/seansmithworks/status/2109688720857415960",
+      "createdAt": "2026-10-12T16:52:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "ideas:pi-solar-forecaster",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Next-day solar forecaster on a Raspberry Pi",
+      "description": "A Raspberry Pi service that learns a home's solar production from inverter history and free weather forecasts, then publishes tomorrow's expected kWh and a suggested battery plan.",
+      "content": "## How it works\n\nLog hourly production from the inverter (Victron, or any system with a local API) into SQLite, and pull hourly cloud cover, temperature and irradiance forecasts from a free weather API. Each night, train a gradient-boosted regression model on features like sun elevation, day of year, cloud cover and recent shading errors, then predict the next day hour by hour. A small web page or the dashboard shows the forecast against clear-sky potential and last week's accuracy.\n\n```mermaid\nflowchart LR\n  I[Inverter readings] --> D[(SQLite history)]\n  W[Weather forecast API] --> F[Feature builder]\n  D --> F\n  F --> M[XGBoost regression]\n  M --> P[Tomorrow's kWh by hour]\n  P --> U[Web page or dashboard card]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Hardware | Raspberry Pi 4 or 5 on the home network |\n| Inverter data | Victron Venus OS MQTT or Modbus, or the inverter's local API |\n| Weather | Open-Meteo or MET Norway free forecast APIs |\n| Model | XGBoost or LightGBM regression, with pvlib for sun position and clear-sky baseline |\n| Storage and UI | SQLite plus a small FastAPI page |\n\n## Hard parts\n\n- Getting enough clean history: weeks of hourly data before the model beats a clear-sky baseline.\n- Shading and snow that change over the year, so the model needs regular retraining and error tracking.\n- Turning forecasts into a useful battery or appliance schedule rather than just a number.\n\n## Effort\n\nA weekend for logging and a baseline model, then 1-2 weeks to tune features and add the forecast page.\n\n## Inspired by\n\n- [Dr. Simon's post on X](https://x.com/goddek/status/2109789510447890572)\n- [Victron Venus OS on GitHub](https://github.com/victronenergy/venus)",
+      "nextStep": "Write a Python script that pulls Open-Meteo hourly forecasts for your location and fits an XGBoost model on any 30 days of solar production data you can export.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-13T14:50:00Z",
+      "status": "explore"
+    },
+    {
+      "id": "ideas:real-iphone-ui-test-rig",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Real-iPhone UI test rig driven by a local vision model",
+      "description": "Use an ESP32 as a USB keyboard and mouse plus AirPlay mirroring so a local vision model can run plain-English smoke tests of your own iOS apps on a real device.",
+      "content": "## How it works\n\nMirror the iPhone to a Mac over AirPlay and capture frames. An ESP32 plugged into the phone acts as a USB mouse and keyboard. You write test scripts in plain English (\"open Settings, turn on dark mode, check the chart still shows labels\"), a local vision model reads each frame and decides the next tap, and the rig records screenshots and a pass or fail report for each step. It catches layout and flow bugs on real hardware without XCUITest code.\n\n```mermaid\nflowchart LR\n  T[Plain-English test] --> A[Agent loop on Mac]\n  S[AirPlay screen capture] --> V[Local vision model]\n  A --> V\n  V -->|next tap or text| E[ESP32 USB HID]\n  E --> P[Real iPhone]\n  P --> S\n  A --> R[Report with screenshots]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Input | ESP32-S3 running the esp32-iphone-agent firmware |\n| Screen | AirPlay receiver on the Mac with frame capture |\n| Model | MiniCPM-V 4.7 via llama.cpp or MLX, or any OpenAI-compatible vision endpoint |\n| Runner | Python or Swift CLI that reads YAML test files |\n| Reports | Markdown or HTML with step screenshots |\n\n## Hard parts\n\n- Mapping model coordinates to the HID pointer reliably across screen sizes and orientations.\n- Making runs repeatable when the model's choices vary between attempts.\n- Telling real app bugs apart from model misreads, which needs good screenshots and retries.\n\n## Effort\n\n3-5 days to get one test passing end to end, about 2 weeks for a reusable runner and reports.\n\n## Inspired by\n\n- [0xMarioNawfal's post on X](https://x.com/RoundtableSpace/status/2109905727737459188)\n- [esp32-iphone-agent on GitHub](https://github.com/onehumanbeing/esp32-iphone-agent)\n- [MiniCPM-V 4.7 post on X](https://x.com/sudoingX/status/2109722692282917026)",
+      "nextStep": "Flash the esp32-iphone-agent firmware to an ESP32-S3, get one tap working on a test iPhone, then point it at one of your own apps' main screens.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-13T14:50:00Z",
+      "status": "explore"
+    },
+    {
       "id": "hn:50061859",
       "section": "news",
       "type": "news",
