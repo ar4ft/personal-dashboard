@@ -15132,6 +15132,121 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
       "createdAt": "2026-10-13T11:24:08Z",
       "updatedAt": "2026-10-13T11:24:08Z"
+    },
+    {
+      "id": "hn:50074869",
+      "section": "news",
+      "type": "news",
+      "title": "Gemini 4 Argon for Robotics",
+      "description": "Google demonstrates Gemini 4 Argon across robot control, real-to-simulation transfer, and physical reasoning.",
+      "content": "Google describes demonstrations spanning robot control, real-to-simulation transfer, and physical understanding, and reports 87% on its Embodied Reasoning (ERQA) benchmark. These are company-reported results and demonstrations, not an independent evaluation.\n\n[Read the article](https://developers.googleblog.com/gemini-4-argon-for-robotics/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50074869)",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "xnx",
+      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "createdAt": "2026-10-13T16:55:47Z",
+      "updatedAt": "2026-10-13T16:55:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50073633",
+      "section": "news",
+      "type": "news",
+      "title": "Redesigning source control at Anthropic",
+      "description": "Anthropic details Scion, an internal server-centric source-control system for agent-heavy monorepos.",
+      "content": "Anthropic’s engineering post describes Scion’s online clients, sparse or virtualized checkouts, content-addressed objects, and scalable derived indexes. It is an internal architecture case study—not a public product release—and discusses replacing hundreds of Git mirrors while enabling API-based repository operations.\n\n[Read the article](https://www.anthropic.com/engineering/redesigning-source-control)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50073633)",
+      "topics": [
+        "Programming",
+        "AI",
+        "Developer Tools"
+      ],
+      "source": "Hacker News",
+      "author": "Philpax",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "createdAt": "2026-10-13T15:49:56Z",
+      "updatedAt": "2026-10-13T15:49:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50072913",
+      "section": "news",
+      "type": "news",
+      "title": "Thunderbird for iOS",
+      "description": "Thunderbird previews a native iOS email app now in development, with community testing expected in the coming months.",
+      "content": "Thunderbird says the iOS app is being built natively from scratch. Multi-account setup and background sync are still under development; community testing is expected in the next few months, so the app is not generally available yet.\n\n[Read the article](https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50072913)",
+      "topics": [
+        "iOS",
+        "Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mjorgers",
+      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "createdAt": "2026-10-13T15:07:37Z",
+      "updatedAt": "2026-10-13T15:07:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50071017",
+      "section": "news",
+      "type": "news",
+      "title": "Apple HomeView",
+      "description": "Apple previews a 7-inch smart-home display with an A18 chip, FaceTime, Home controls, and Siri features.",
+      "content": "Apple says HomeView will support multi-user recognition, FaceTime and audio, and Apple Home controls, with pre-orders and availability from November 13. Siri features are in beta, launch in English, and some personal-context capabilities require a paired Apple Intelligence iPhone or iPad.\n\n[Read the article](https://www.apple.com/apple-homeview/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50071017)",
+      "topics": [
+        "Technology",
+        "Apple",
+        "Smart Home"
+      ],
+      "source": "Hacker News",
+      "author": "etothet",
+      "url": "https://www.apple.com/apple-homeview/",
+      "createdAt": "2026-10-13T13:02:12Z",
+      "updatedAt": "2026-10-13T13:02:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50070593",
+      "section": "news",
+      "type": "news",
+      "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+      "description": "An Apple research paper describes Minions, a fault-tolerant inference system that pools idle Apple Silicon Macs.",
+      "content": "The paper describes a system with a server, PostgreSQL metadata store, executor agents, and watchdog for running distributed inference tasks on idle Apple Silicon devices. The authors report internal GPU queues dropping from more than 10 hours to minutes; this is an internal operational report and not an independent benchmark or public cloud service.\n\n[Read the paper](https://machinelearning.apple.com/research/distributed-gpu-cloud)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50070593)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Apple",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+      "createdAt": "2026-10-13T12:26:36Z",
+      "updatedAt": "2026-10-13T12:26:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50061659",
+      "section": "news",
+      "type": "news",
+      "title": "MIT class project turns into an FDA-cleared treatment for tremors",
+      "description": "MIT reports FDA 510(k) clearance for Encora, a wrist-worn vibration device for adults with essential tremor.",
+      "content": "MIT reports that Encora received FDA 510(k) clearance in February 2026 for adults with essential tremor—not Parkinson’s. The article summarizes randomized and home-use trials; the device was not yet broadly available as production and insurance coverage ramped up. This is a reported clinical/device result, not medical advice.\n\n[Read the article](https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50061659)",
+      "topics": [
+        "Wearables",
+        "Health Technology",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "zdw",
+      "url": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
+      "createdAt": "2026-10-12T19:28:48Z",
+      "updatedAt": "2026-10-12T19:28:48Z",
+      "status": "inbox"
     }
   ]
 }
