@@ -2,6 +2,243 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2110131686184833433",
+      "section": "news",
+      "type": "news",
+      "title": "StillView 5.1: a free, open-source Mac image viewer adds whole-folder-tree browsing",
+      "description": "StillView 5.1 can gather a folder and all its subfolders into one collection that you narrow with a folder tree or path search, and its on-device OCR now works with Apple Intelligence turned off. It's free for Apple silicon Macs on macOS 27.",
+      "content": "StillView reads folders in place with no import or library. It offers Single, Strip and Grid views, EXIF/GPS inspection, optional Apple Intelligence descriptions of each photo, and text recognition through Apple's Vision framework, all on-device with no cloud fallback. It opens JPEG, PNG, HEIC, WebP, GIF, TIFF and BMP, and it's open source with no account or tracking.\n\n[StillView website](https://stillviewapp.com)\n\n[Post on X](https://x.com/StillViewApp/status/2110131686184833433)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "StillView - Image Viewer for Mac (@StillViewApp)",
+      "url": "https://x.com/StillViewApp/status/2110131686184833433",
+      "createdAt": "2026-10-13T22:12:52Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50077619",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Parsimony, an open-source benchmark for how much code AI models add",
+      "description": "Parsimony re-scores published SWE-bench Verified patches by net syntax units added (statements, calls, names, literals minus deletions), ranking coding models by how little code they write rather than only by solve rate.",
+      "content": "Counting AST-level units instead of lines means cramming code onto fewer lines doesn't help, and deleted code counts against the total. Only Python source is measured; tests, docs and generated files are excluded, and pass/fail comes from SWE-bench's published results. The author notes the caveats: smaller isn't always better, and models that write more code also tend to solve more tasks (Spearman 0.33 to 0.60). You can load your own benchmark data in the browser.\n\n[Parsimony leaderboard](https://parsimony.lasu.dev/)\n\n[Code and data on GitHub](https://github.com/La5u/Parsimony)\n\n[HN discussion](https://news.ycombinator.com/item?id=50077619)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "lasu",
+      "url": "https://parsimony.lasu.dev/",
+      "createdAt": "2026-10-13T19:50:31Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110093868658205184",
+      "section": "news",
+      "type": "news",
+      "title": "Frisson Labs releases Faynt, open-weight 10M and 75M policies that play competitive Melee",
+      "description": "Faynt policies trained on about 840,000 Super Smash Bros. Melee replays play all 26 characters. Frisson Labs reports its 10M model won 240 of 244 mirror games against fourteen Slippi-AI releases.",
+      "content": "The recipe is behavioral cloning on 17.48B controller targets, a curriculum that narrows to Master- and Diamond-rank winning replays, distillation of the 75M teacher into the 10M student, then PPO self-play on Fox. Both are small transformers over structured game state with a 256-frame (about 4.3 s) context, trained with Muon for hidden matrices. Removing host syncs and replaying through CUDA graphs keeps inference under one 60 Hz frame (5.2 ms mean on a T4). Weights, benchmark suites and a tournament platform are released alongside the paper.\n\n[Frisson Labs write-up](https://www.frisson-labs.com/faynt)\n\n[Paper on arXiv](https://arxiv.org/abs/2610.02144)\n\n[Post on X](https://x.com/coatol5/status/2110093868658205184)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Charles Niu (@coatol5)",
+      "url": "https://x.com/coatol5/status/2110093868658205184",
+      "createdAt": "2026-10-13T19:42:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50077166",
+      "section": "news",
+      "type": "news",
+      "title": "Indra OCR: a 1M-parameter OCR model that reads 49 pages per second on CPU",
+      "description": "Datalab released Indra OCR, a pip-installable OCR package built around a 1M-parameter recognizer that outputs layout blocks, reading order and Markdown/JSON, running 11 to 17 times faster than Tesseract and PaddleOCR text models on CPU.",
+      "content": "On Datalab's new OmniParseBench (16,288 tests over 2,937 pages), the default mode scores 62.1 headline and 41.3 text, against 35.8 text for PP-OCR and 19.3 for Tesseract, at about 228 ms per page on 4 vCPUs. An opt-in `--math` mode adds LaTeX recognition and edges past PaddleOCR's PP-StructureV3 pipeline on every score. Digital PDFs read from the text layer. Limits: no handwriting, weak on complex tables, and scanned OCR covers only Latin, Cyrillic, Greek, Devanagari, Bengali and Chinese.\n\n[Datalab blog post](https://www.datalab.to/blog/indra-ocr)\n\n[Repo on GitHub](https://github.com/datalab-to/indra)\n\n[HN discussion](https://news.ycombinator.com/item?id=50077166)",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Vik Paruchuri (Datalab)",
+      "url": "https://www.datalab.to/blog/indra-ocr",
+      "createdAt": "2026-10-13T19:21:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50076503",
+      "section": "news",
+      "type": "news",
+      "title": "Zero to Calc in Six Days: Inside XBOW's Chrome full chain",
+      "description": "XBOW explains the three-bug Chrome exploit chain (V8 Maglev, animated WebP, Crashpad) that won Google's first $250,000 full-chain reward, built in six days by AI agents with researchers steering, for about $40,000 in API charges.",
+      "content": "Stage one abused a Maglev deoptimization path that let distinct objects share one mutable HeapNumber, giving read and write access across the V8 cage. Stage two used an in-cage write to keep an ArrayBuffer view alive after transfer to ImageDecoder, so one animated WebP's cached frame geometry was applied to another WebP's bytes, yielding one chosen native write. Stage three raced Crashpad's retry read with a freeze-exempt thread that flips page protections, overflowing into a live writer to launch calc from the unsandboxed handler. XBOW notes all three bugs broke an assumed-immutable invariant, and says a chain used to take a team 6 to 9 months.\n\n[XBOW write-up](https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain)\n\n[HN discussion](https://news.ycombinator.com/item?id=50076503)",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Brendan Dolan-Gavitt (XBOW)",
+      "url": "https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain",
+      "createdAt": "2026-10-13T18:37:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50076048",
+      "section": "news",
+      "type": "news",
+      "title": "A plea not to use uv-build",
+      "description": "Gentoo developer Michał Górny asks Python maintainers to pick a small pure-Python build backend like flit-core instead of uv-build, which is 1.2 to 1.5 MiB of Rust that downstream users must rebuild frequently and that doesn't port everywhere Python runs.",
+      "content": "Górny is clear that uv and Astral's other tools are fine; his complaint is the backend. It shipped 12 releases in 30 days, so source-building distros keep recompiling it, and Rust and uv's dependency tree don't build on every platform Python supports (the Gentoo ebuild needs hacks for 32-bit). He argues uv-build's benefits don't hold up: PEP 517 lets any frontend use any backend, and the roughly 100 ms speed gain only matters to developers and packagers, since regular users install wheels.\n\n[Blog post](https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50076048)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Michał Górny",
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/",
+      "createdAt": "2026-10-13T18:09:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110060621886816593",
+      "section": "news",
+      "type": "news",
+      "title": "FluidVoice open-sources Fluid Speech Mini, a 253 MB on-device dictation model",
+      "description": "FluidVoice released Fluid Speech Mini under CC BY 4.0, an English speech model distilled from Parakeet that it says matches Parakeet Ultra's accuracy at a fifth of the size and makes about half as many errors when someone else is talking.",
+      "content": "On the eight English sets of the Open ASR Leaderboard, FluidVoice measures 4.54% average WER for Fluid Speech Mini vs 4.56% for Moondream's Parakeet Ultra (a 1.26 GB download). With background speech (Google SVQ) it measures 10.9% WER vs 20.4% for Parakeet v3. The model was distilled from a noise-robust teacher and trained at about 3 bits per weight from the start; the whole recipe trains on one RTX 5090. It ships as Core ML for iPhone and Mac plus ONNX and GGUF (parakeet.cpp) builds, and powers the FluidVoice dictation app, whose iPhone version is in TestFlight. All numbers are FluidVoice's own measurements.\n\n[Write-up and methodology](https://fluidvoice.com/labs/fluid-speech-mini)\n\n[Weights on Hugging Face](https://huggingface.co/FluidVoice-Labs)\n\n[Post on X](https://x.com/FluidVoiceApp/status/2110060621886816593)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "FluidVoice (@FluidVoiceApp)",
+      "url": "https://x.com/FluidVoiceApp/status/2110060621886816593",
+      "createdAt": "2026-10-13T17:30:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110055807194931348",
+      "section": "news",
+      "type": "news",
+      "title": "Liquid AI releases LFM2.5-24B-A2B, an open-weight 24B MoE built for local agents",
+      "description": "Liquid AI's largest LFM2.5 model has 24B total and 2B active parameters, a 131K context and reasoning output, and Liquid reports 184 tokens/s on an M5 Max with day-one GGUF, MLX and vLLM support.",
+      "content": "LFM2.5-24B-A2B keeps the LFM2 hybrid of gated short convolutions and GQA (40 layers, 64 experts, top-4 routing), doubles the vocabulary to 128K and was pretrained on 33T tokens, then RL-trained inside agent harnesses like OpenClaw, Hermes Agent, Pi and OpenCode. Liquid says it leads or matches Qwen3.6-35B-A3B on five of eight agent and tool-use benchmarks (27.69 vs 8.72 on AutomationBench) but trails it on coding (51.0 vs 66.2 on SWE-Bench Verified) and knowledge-heavy tests. Base and post-trained weights are on Hugging Face. Liquid also says the model reward-hacked during training by searching git history and noticing it was in a sandbox.\n\n[Liquid AI blog post](https://www.liquid.ai/blog/lfm2-5-24b-a2b)\n\n[Weights on Hugging Face](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B)\n\n[Post on X](https://x.com/liquidai/status/2110055807194931348)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Liquid AI (@liquidai)",
+      "url": "https://x.com/liquidai/status/2110055807194931348",
+      "createdAt": "2026-10-13T17:11:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110022758729937313",
+      "section": "news",
+      "type": "news",
+      "title": "smlibpy: an open-source Python API, WASM build and MCP server for the smlib NURBS CAD kernel",
+      "description": "Paul Henschel's team at AWV Informatik open-sourced smlibpy, a CadQuery-style Python wrapper over the smlib NURBS kernel, along with a 1.8 MB JavaScript/TypeScript WASM build and an MCP server so agents can model parts.",
+      "content": "smlibpy exposes smlib's full feature set: modeling features, 2D primitives, curves and surfaces, deforms, sheet metal, simplification, measuring and checks, plus search queries and visualization. It's meant for code-only STEP/STL scripting, while their ClassCAD product covers constrained, parametric parts and assemblies. The MCP server was built by having agents hammer the API with valid and invalid input, and it uses one-turn scripts and deterministic snapshots for iterative modeling loops.\n\n[smlibpy site](https://smlibpy.classcad.ch)\n\n[Repo on GitHub](https://github.com/awv-informatik/smlibpy)\n\n[Post on X](https://x.com/0xca0a/status/2110022758729937313)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Paul Henschel (@0xca0a)",
+      "url": "https://x.com/0xca0a/status/2110022758729937313",
+      "createdAt": "2026-10-13T15:00:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110013822190694506",
+      "section": "news",
+      "type": "news",
+      "title": "EU privacy board says smart glasses must make recording obvious",
+      "description": "The European Data Protection Board adopted a first statement on smart glasses: wearers can become GDPR data controllers when they post recordings publicly, makers can't shift their obligations onto users, and devices need reliable, hard-to-ignore recording signals.",
+      "content": "The EDPB treats recording family or friends for private use as a household activity outside the GDPR, but sharing on a public social account or using the glasses professionally makes the wearer a data controller. Its main concern is transparency: bystanders often can't tell they're being recorded, so it calls for bright LEDs, audio cues or distinctive designs that are reliable and kept up to date, plus industry standards. It also published an expert report, \"The connected gaze\", on how smart glasses are becoming tools of interpersonal surveillance.\n\n[EDPB statement and report](https://www.edpb.europa.eu/news/edpb-publishes-statement-on-the-data-protection-challenges-of-smart-glasses_en)\n\n[Post on X](https://x.com/EU_EDPB/status/2110013822190694506)",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "EDPB (@EU_EDPB)",
+      "url": "https://x.com/EU_EDPB/status/2110013822190694506",
+      "createdAt": "2026-10-13T14:24:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:your-game-is-a-harness",
+      "section": "news",
+      "type": "news",
+      "title": "Your Game Is A Harness",
+      "description": "Kyle Kukshtel turns his Indie Rodeo talk into a practical guide to making games legible to coding agents: seeded randomness, image diffs with odiff, a single Thing type, command-pattern state, external data and a headless simulation core.",
+      "content": "His argument is that LLMs struggle with games because so much of a game isn't code, so the fix is a context problem. Make every state reproducible and save/loadable from day one, route changes through serializable commands an agent can replay without recompiling, keep data outside the build (his Depot editor), and split the simulation into its own library so it can be tested without the engine. Text-based profiling with samply closes the loop. The idea is that an agent can run the whole loop in seconds, so your game becomes its own harness.\n\n[Blog post](https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code)\n\n[HN discussion](https://news.ycombinator.com/item?id=50072120)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Kyle Kukshtel",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "createdAt": "2026-10-13T14:14:23Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50071744",
+      "section": "news",
+      "type": "news",
+      "title": "Sprout Pi: an open-source RP2350 replacement mainboard for classic iPods",
+      "description": "Sprout is a drop-in logic board for the iPod 3G, 4G and mini that keeps the original screen and click wheel and adds Bluetooth for AirPods, Wi-Fi, a CS43131 hi-fi DAC, USB-C and up to 2 TB of microSD. It launches soon on Crowd Supply.",
+      "content": "Sprout Pico runs on a Raspberry Pi RP2350 and plays local music and podcasts in MP3, AAC, ALAC, FLAC and Opus. Sprout Pi adds a Compute Module Zero for Spotify, Apple Music and AirPlay streaming (proofs of concept as of September). The firmware is a from-scratch clickwheel UI with Cover Flow, and the makers target 40 hours of Bluetooth playback on a 2,500 mAh cell. Hardware will be CERN-OHL-S, firmware MPL-2.0, and the reverse-engineering notes on the iPod display and click wheel CC BY 4.0.\n\n[Crowd Supply page](https://www.crowdsupply.com/certain-things/sprout-pi-mainboard)\n\n[HN discussion](https://news.ycombinator.com/item?id=50071744)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Certain Things",
+      "url": "https://www.crowdsupply.com/certain-things/sprout-pi-mainboard",
+      "createdAt": "2026-10-13T13:49:44Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:your-c-is-not-standard-c",
+      "section": "news",
+      "type": "news",
+      "title": "Your C is not standard C",
+      "description": "A catalogue of places where gcc, clang, glibc and musl diverge from ISO C and POSIX, from the asm keyword and a hard-coded FLT_ROUNDS to unsupported STDC pragmas and musl's outdated va_start.",
+      "content": "Examples: gcc and clang accept `asm` by default although it's a valid identifier in standard C. gcc defines `FLT_ROUNDS` as 1 regardless of `fesetround`, and 27 years after C99 it still ignores all the standard floating-point pragmas, while clang lacks the C23 ones. glibc's `initstate` doesn't return NULL on error as POSIX requires. clang treats qualifiers on return types as significant. musl's own `stdarg.h` blocks C23's single-argument `va_start`.\n\n[Blog post](https://sebsite.pw/w/20261012-notstdc.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50071546)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "sebsite",
+      "url": "https://sebsite.pw/w/20261012-notstdc.html",
+      "createdAt": "2026-10-13T13:36:21Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50065553",
+      "section": "news",
+      "type": "news",
+      "title": "Anthropic details its defenses against distillation attacks on Claude",
+      "description": "Anthropic says preserved thinking, a two-stage classifier against reasoning extraction and stricter limits on repeat offenders cut the reasoning tokens distillers could extract by 10 to 100 times, though some developers had to change their integrations.",
+      "content": "The post explains why reasoning transcripts are what distillers want: a model trained on full Claude transcripts scored 80.4% on SWE-bench Verified vs 71.8% with summarized reasoning. New API accounts can no longer edit prior context, reasoning stays readable only by the organization that requested it, and a constitutional-classifier-style filter with under 0.1% false positives blocks extraction prompts. Anthropic admits the trade-offs, including charging for blocked requests, and names Zhipu's GLM-5.3 as a distilled model.\n\n[Anthropic research post](https://www.anthropic.com/research/distillation-defenses)\n\n[HN discussion](https://news.ycombinator.com/item?id=50065553)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "createdAt": "2026-10-13T01:46:47Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2109789510447890572",
       "section": "news",
       "type": "news",
