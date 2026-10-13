@@ -2,6 +2,40 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50061859",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Writing a Demoscene Intro for the ZX Spectrum",
+      "description": "Mark Dastmalchi-Round documents a Z80-assembly intro for a stock 128KB ZX Spectrum: 10,287 bytes of code with scrolltext, AY music, VU meters, and a parallax starfield.",
+      "content": "A technical walkthrough of building for retro hardware with Pasmo, zmakebas, and the FUSE emulator, then testing on a real Spectrum. The author also explains low-level rendering and debugging challenges.\n\n[Original article](https://www.markround.com/blog/2026/zx-spectrum-intro)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50061859)",
+      "author": "Mark Dastmalchi-Round",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
+      "createdAt": "2026-10-12T19:40:00Z"
+    },
+    {
+      "id": "hn:50036287",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
+      "description": "A resurfaced, unpublished long-form interview with Nintendo coder Giles Goddard covers Super Mario 64’s early SGI Onyx prototypes, N64 APIs, camera design, and controller experiments.",
+      "content": "This is archival material, not a new release: an expanded 2001 interview whose shorter version appeared in NGC magazine. It offers behind-the-scenes context on game programming and the constraints of early 3D development on the N64.\n\n[Full interview](https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50036287)",
+      "author": "Mark Green / Giles Goddard",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
+      "createdAt": "2026-10-10T19:28:41Z"
+    },
+    {
       "id": "hn:50058850",
       "section": "news",
       "type": "news",
