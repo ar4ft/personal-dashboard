@@ -15484,6 +15484,175 @@
       "createdAt": "2026-10-12T19:28:48Z",
       "updatedAt": "2026-10-12T19:28:48Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50073879",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gemini 4 Argon",
+      "description": "Google DeepMind has introduced Gemini 4 Argon, the latest iteration of its Gemini model family.",
+      "topics": [
+        "AI",
+        "Technology",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "737max",
+      "url": "https://deepmind.google/models/gemini/",
+      "createdAt": "2026-10-13T16:03:16+00:00",
+      "updatedAt": "2026-10-13T16:03:16+00:00"
+    },
+    {
+      "id": "hn:50071310",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "New Apple TV 4K",
+      "description": "Apple has unveiled a new Apple TV 4K model, announced through its newsroom.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "corvad",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+      "createdAt": "2026-10-13T13:21:35+00:00",
+      "updatedAt": "2026-10-13T13:21:35+00:00"
+    },
+    {
+      "id": "hn:50072286",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "description": "Apple's new 'Switch to Safari' campaign makes the case for why users should ditch Chrome in favor of Safari.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ivell",
+      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+      "createdAt": "2026-10-13T14:26:08+00:00",
+      "updatedAt": "2026-10-13T14:26:08+00:00"
+    },
+    {
+      "id": "hn:50069318",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AWS Lambda Web Functions",
+      "description": "AWS announced Lambda Web Functions, extending Lambda toward serving web workloads directly.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "HatchedLake721",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "createdAt": "2026-10-13T10:07:03+00:00",
+      "updatedAt": "2026-10-13T10:07:03+00:00"
+    },
+    {
+      "id": "hn:50079842",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Running Qwen3.8 at 255 tok/s on a single 5090",
+      "description": "A report on running Qwen3.8 at 255 tokens per second on a single NVIDIA RTX 5090 GPU.",
+      "topics": [
+        "AI",
+        "Deep Learning",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Ir0n",
+      "url": "https://meshapplied.com",
+      "createdAt": "2026-10-13T22:31:48+00:00",
+      "updatedAt": "2026-10-13T22:31:48+00:00"
+    },
+    {
+      "id": "hn:50079437",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Physical Intelligence API Beta: Frontier Models for Every Robot",
+      "description": "Physical Intelligence opened an API beta, offering frontier robotics models to developers.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "modeless",
+      "url": "https://www.pi.website/blog/api-beta",
+      "createdAt": "2026-10-13T21:55:25+00:00",
+      "updatedAt": "2026-10-13T21:55:25+00:00"
+    },
+    {
+      "id": "hn:50080086",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Speculative Decoding: The Art of Guessing Well",
+      "description": "An explainer on speculative decoding, an inference technique that speeds up LLM generation by guessing tokens well.",
+      "topics": [
+        "AI",
+        "Deep Learning",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://astralord.github.io/posts/speculative-decoding-the-art-of-guessing-well/",
+      "createdAt": "2026-10-13T22:53:44+00:00",
+      "updatedAt": "2026-10-13T22:53:44+00:00"
+    },
+    {
+      "id": "hn:50054092",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "description": "Ledger confirmed that a spy chip implant was behind a string of wallet crypto thefts.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "thm",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "createdAt": "2026-10-12T10:09:37+00:00",
+      "updatedAt": "2026-10-12T10:09:37+00:00"
+    },
+    {
+      "id": "hn:50078691",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dutch tax authorities cancel Microsoft 365 cloud rollout and turn to open source",
+      "description": "The Dutch tax authorities canceled their Microsoft 365 cloud rollout and are turning to open source instead.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "CrankyBear",
+      "url": "https://www.zdnet.com/business/dutch-tax-authorities-cancel-microsoft-365-cloud-rollout/",
+      "createdAt": "2026-10-13T21:01:37+00:00",
+      "updatedAt": "2026-10-13T21:01:37+00:00"
+    },
+    {
+      "id": "hn:50067721",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Maybe a better way to track the release history of a Git repo",
+      "description": "A proposal for a better way to track the release history of a Git repository.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "hellerve",
+      "url": "https://blog.plover.com/prog/git/history-proposal.html",
+      "createdAt": "2026-10-13T06:47:42+00:00",
+      "updatedAt": "2026-10-13T06:47:42+00:00"
     }
   ]
 }
