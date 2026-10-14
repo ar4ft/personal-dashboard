@@ -16388,6 +16388,247 @@
       "createdAt": "2026-10-14T17:45:23Z",
       "updatedAt": "2026-10-14T17:45:23Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50088935",
+      "section": "news",
+      "type": "news",
+      "title": "Passkeys are not a trap",
+      "description": "Scott Helme rebuts the viral “passkeys are a trap” piece, arguing sync and recovery concerns are manageable and that passkeys still beat passwords for phishing resistance.",
+      "content": "Scott Helme responds to the Substack essay that topped HN earlier this week claiming passkeys are a trap. He walks through sync, account recovery, and platform lock-in objections, and argues passkeys remain a strong phishing-resistant upgrade when recovery is designed deliberately.\n\n[Read the article](https://scotthelme.co.uk/passkeys-are-not-a-trap/)\n\n[Earlier counterpoint on HN](https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50088935)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+      "createdAt": "2026-10-14T15:15:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50094994",
+      "section": "news",
+      "type": "news",
+      "title": "OpenCode 2.0: shared service, stronger terminal, and agent flex",
+      "description": "OpenCode 2.0 makes the client/server backend a default background process shared by TUI, web, and desktop, with major terminal and agent-workflow improvements.",
+      "content": "OpenCode 2.0 is a major overhaul of the open coding-agent harness. The server now runs automatically as a single background process so the TUI, web UI, and desktop app share one session; the release also ships terminal fixes and other agent-facing changes drawn from high daily usage.\n\n[Read the release notes](https://anoma.ly/notes/opencode-2-0/)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50094994)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "createdAt": "2026-10-14T20:48:24Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50092470",
+      "section": "news",
+      "type": "news",
+      "title": "Petal: open-source CoScreen/ScreenHero-style pair programming, free",
+      "description": "The CoScreen makers open-sourced Petal, a low-latency high-resolution screenshare and remote-control tool for pair programming.",
+      "content": "Petal is a free, open-source pair-programming screenshare from the makers of CoScreen. It targets low-latency, high-resolution sharing with remote control, and ships downloads plus docs for teams that want ScreenHero/CoScreen-style collaboration without a proprietary client.\n\n[Petal site](https://petal.live/)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50092470)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "thedracle",
+      "url": "https://petal.live/",
+      "createdAt": "2026-10-14T18:23:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50080275",
+      "section": "news",
+      "type": "news",
+      "title": "Pulse Local: Mac budgeting with on-device AI models",
+      "description": "Show HN for Pulse Local, a Mac budgeting app that keeps both the ledger and the AI models on disk so questions never leave the machine.",
+      "content": "Pulse Local is a Mac budgeting app whose AI models download once and then run locally. The pitch is that other “local data” apps still ship your natural-language questions to a cloud model; here the ledger and the model stay on disk.\n\n[Pulse Local](https://pulseos.finance)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50080275)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "niztk",
+      "url": "https://pulseos.finance",
+      "createdAt": "2026-10-13T23:13:23Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50092423",
+      "section": "news",
+      "type": "news",
+      "title": "Virtual Oxide Labs: emulating a full Oxide rack",
+      "description": "Oxide describes Voxel Labs, its approach to emulating and simulating rack-scale hardware so developers can test without a physical rack.",
+      "content": "Oxide Computer explains how Virtual Oxide Labs (Voxel Labs) emulate a full Oxide rack for product assurance. Rack-scale hardware is hard to develop against at desk scale; the post covers their emulation and simulation approach for tiny versions of big systems.\n\n[Read the post](https://oxide.computer/blog/voxel-labs)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50092423)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "tosh",
+      "url": "https://oxide.computer/blog/voxel-labs",
+      "createdAt": "2026-10-14T18:21:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50088044",
+      "section": "news",
+      "type": "news",
+      "title": "GitHub Actions workflow lockfiles enter public preview",
+      "description": "GitHub shipped dependency lockfiles for Actions workflows so pins to tags and branches cannot silently move after resolution.",
+      "content": "GitHub Actions workflow dependency lockfiles are in public preview across Free, Team, and Enterprise Cloud. Tags and branches can move after you pin them; lockfiles record resolved action versions so CI stays reproducible.\n\n[Changelog](https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50088044)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bengotch",
+      "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/",
+      "createdAt": "2026-10-14T14:09:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50094694",
+      "section": "news",
+      "type": "news",
+      "title": "Anthropic’s Scion is heavily inspired by Mononoke",
+      "description": "sunshowers documents how Anthropic’s Scion source-control work draws on Mononoke and argues for clearer credit to the open-source lineage.",
+      "content": "A technical write-up argues Anthropic’s Scion source-control redesign is heavily inspired by Mononoke (Facebook/Meta’s Mercurial backend). The author walks through shared design ideas and calls for explicit credit when frontier labs build on open systems.\n\n[Read the post](https://sunshowers.io/posts/anthropic-mononoke/)\n\n[Anthropic engineering: redesigning source control](https://www.anthropic.com/engineering/redesigning-source-control)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50094694)",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sunshowers",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "createdAt": "2026-10-14T20:30:54Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50088582",
+      "section": "news",
+      "type": "news",
+      "title": "T0: open-weights 256M SOTA time-series forecasting model",
+      "description": "Show HN from The Forecasting Company for T0, a 256M-parameter open-weights time-series foundation model they report as SOTA in their evals.",
+      "content": "The Forecasting Company open-sourced T0, a 256M-parameter time-series forecasting foundation model with weights on GitHub. The Show HN pitch positions it as SOTA in their internal comparisons for a compact open-weights forecaster.\n\n[Repo on GitHub](https://github.com/theforecastingcompany/tfc-t0)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50088582)",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "LTMeyer",
+      "url": "https://github.com/theforecastingcompany/tfc-t0",
+      "createdAt": "2026-10-14T14:51:04Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110390124743970952",
+      "section": "news",
+      "type": "news",
+      "title": "Ant Ling open-sources Ling-3.1-flash: 560B MoE, ~25B active, 1M context",
+      "description": "Ant Group’s Ant Ling released Ling-3.1-flash under MIT—a hybrid MoE aimed at turning rough briefs into pages, mobile UIs, and interactive prototypes.",
+      "content": "Ant Ling (@AntLingAGI) open-sourced Ling-3.1-flash: about 560B total parameters with ~25B active per token and up to 1M context. The team positions it for agentic UI and prototype work (pages, React Native UIs, interactive Web 3D). Weights are on Hugging Face as inclusionAI/Ling-3.1-flash; day-0 SGLang/vLLM support is circulating in follow-up posts.\n\n[Weights on Hugging Face](https://huggingface.co/inclusionAI/Ling-3.1-flash)\n\n[Announcement on X](https://x.com/AntLingAGI/status/2110390124743970952)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Ant Ling (@AntLingAGI)",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+      "createdAt": "2026-10-14T15:19:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110400987622265232",
+      "section": "news",
+      "type": "news",
+      "title": "Paper Instruments releases Ultramarine 1 Flash for knowledge work",
+      "description": "A five-person lab post-trained Ultramarine 1 Flash (~$300k) for decks, models, and memos; API is live now, open weights promised in about two weeks.",
+      "content": "Daanish Khazi (@bertgodel) of Paper Instruments announced Ultramarine 1 Flash: an open-source-bound model for professional knowledge work (PowerPoint decks, Excel models, Word memos). They claim Fable 5-class results at roughly 60× lower cost after a five-person ~$300k post-training run on GLM-5.3 Flash. API is available now; weights are scheduled in about two weeks, with a tech write-up on their blog.\n\n[Blog post](https://www.paperinstruments.com/blog/ultramarine)\n\n[Announcement on X](https://x.com/bertgodel/status/2110400987622265232)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Daanish Khazi (@bertgodel)",
+      "url": "https://www.paperinstruments.com/blog/ultramarine",
+      "createdAt": "2026-10-14T16:02:59Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110479554951491656",
+      "section": "news",
+      "type": "news",
+      "title": "omarchy-apple-dev 0.4.0: Linux-signed iPhone apps get push, Sign in with Apple, universal links",
+      "description": "Joshua Warren’s open-source apple-dev toolchain for Omarchy Linux now signs iOS apps with push notifications, Sign in with Apple, and universal links—no macOS or Xcode required.",
+      "content": "Joshua Warren (@JoshuaSWarren) shipped omarchy-apple-dev v0.4.0. The release extends Linux-side iOS signing so apps can request push notifications, Sign in with Apple, and universal links via ASC entitlements—without returning to macOS or Xcode. Builds on his earlier “ship an iPhone app from Linux” work.\n\n[Release on GitHub](https://github.com/joshuaswarren/omarchy-apple-dev/releases/tag/v0.4.0)\n\n[Post on X](https://x.com/JoshuaSWarren/status/2110479554951491656)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Joshua Warren (@JoshuaSWarren)",
+      "url": "https://github.com/joshuaswarren/omarchy-apple-dev/releases/tag/v0.4.0",
+      "createdAt": "2026-10-14T21:15:11Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110089765450137800",
+      "section": "news",
+      "type": "news",
+      "title": "Orchestra: open-source macOS/Linux workspace for multiple coding agents",
+      "description": "Leonardo Borges launched Orchestra, an ~11 MB open-source app that runs Claude Code, Codex, OpenCode, Pi and more side by side with Git worktrees and agent inboxes.",
+      "content": "Orchestra is an open-source macOS and Linux workspace for coding agents. Leonardo Borges (@lborgav) describes an ~11 MB native WebView app that keeps Claude Code, Codex, OpenCode, Pi and others in separate sessions with Git worktrees, agent inboxes, and 30+ themes—bring your own API keys.\n\n[Orchestra site](https://theorchestra.dev)\n\n[Post on X](https://x.com/lborgav/status/2110089765450137800)",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Leonardo Borges (@lborgav)",
+      "url": "https://theorchestra.dev",
+      "createdAt": "2026-10-13T19:26:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110207604974571676",
+      "section": "news",
+      "type": "news",
+      "title": "ConcordUI Developer Release 1: shared Swift for native iOS, macOS, and Android UIs",
+      "description": "ConcordUI’s first developer release is an open-source framework and CLI for building native interfaces from shared Swift code across Apple platforms and Android.",
+      "content": "Zodiac Innovations announced ConcordUI Developer Release 1. The open-source framework lets you write shared Swift UI code that targets native iOS, macOS, and Android, with a CLI to get from project setup into each native IDE.\n\n[ConcordUI](https://concordui.org)\n\n[Post on X](https://x.com/ZodiacInnovate/status/2110207604974571676)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Zodiac Innovations (@ZodiacInnovate)",
+      "url": "https://concordui.org",
+      "createdAt": "2026-10-14T03:14:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50094673",
+      "section": "news",
+      "type": "news",
+      "title": "Yandex outage: malicious bots moved instead of going dark",
+      "description": "Cloudflare data shows search crawling stopped during the Yandex data-center strikes, but malicious bot traffic migrated to other networks rather than vanishing.",
+      "content": "Cloudflare’s analysis of the Yandex outage finds that while legitimate search crawling dropped, malicious bots did not simply disappear—they shifted to other networks. Adds detail beyond the earlier “bot traffic drop” HN threads from the strike weekend.\n\n[Read on Cloudflare Blog](https://blog.cloudflare.com/yandex-outage/)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50094673)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "coloneltcb",
+      "url": "https://blog.cloudflare.com/yandex-outage/",
+      "createdAt": "2026-10-14T20:29:13Z",
+      "status": "inbox"
     }
   ]
 }
