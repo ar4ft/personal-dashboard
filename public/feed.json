@@ -16629,6 +16629,105 @@
       "url": "https://blog.cloudflare.com/yandex-outage/",
       "createdAt": "2026-10-14T20:29:13Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50090349",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google is silently linking your phone number across all signed-in accounts",
+      "description": "A report that Google is linking users' phone numbers across all signed-in accounts, according to Android Authority.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Brajeshwar",
+      "url": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/",
+      "createdAt": "2026-10-14T16:28:51Z",
+      "updatedAt": "2026-10-14T16:28:51Z"
+    },
+    {
+      "id": "hn:50088643",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Running Windows desktop tests from Linux with disposable VMs",
+      "description": "A guide to running Windows desktop tests from Linux using disposable VMs.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jadenlemmon",
+      "url": "https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation",
+      "createdAt": "2026-10-14T14:55:19Z",
+      "updatedAt": "2026-10-14T14:55:19Z"
+    },
+    {
+      "id": "hn:50095353",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "description": "The announcement of Jev 1.14.0, with experimental features for dreamers.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "emschwartz",
+      "url": "https://typesafe.ai/blog/jev-1-14",
+      "createdAt": "2026-10-14T21:11:03Z",
+      "updatedAt": "2026-10-14T21:11:03Z"
+    },
+    {
+      "id": "hn:50090799",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Has AI tells",
+      "description": "A post examining whether AI systems exhibit detectable 'tells'.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "7777777phil",
+      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+      "createdAt": "2026-10-14T16:52:42Z",
+      "updatedAt": "2026-10-14T16:52:42Z"
+    },
+    {
+      "id": "hn:50096600",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google's Fitbit Edge Has Health Features and a Replaceable Battery",
+      "description": "Engadget's report on Google's new Fitbit Edge, with health features and a replaceable battery.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://www.engadget.com/2283307/googles-sleek-new-fitbit-edge-is-packed-with-health-features-and-a-replaceable-battery/",
+      "createdAt": "2026-10-14T22:48:00Z",
+      "updatedAt": "2026-10-14T22:48:00Z"
+    },
+    {
+      "id": "hn:50096398",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Inference vs. Distillation",
+      "description": "A blog post on inference versus distillation in machine learning.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "debarshri",
+      "url": "https://debarshibasak.github.io/readables/blogs/inference-vs-distillation",
+      "createdAt": "2026-10-14T22:30:43Z",
+      "updatedAt": "2026-10-14T22:30:43Z"
     }
   ]
 }
