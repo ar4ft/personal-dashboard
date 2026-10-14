@@ -2,6 +2,58 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50085306",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pulsar at ESUG 2026: A New Coding-First IDE for Pharo",
+      "description": "Pharo creator Esteban Lorenzano presents Pulsar, an early-stage but usable IDE focused on code navigation and understanding—an approach he argues remains important alongside generative coding agents.",
+      "content": "The author describes Pulsar as a work in progress and shares the ESUG 2026 talk and slides. The current project is pre-alpha; the post discusses its direction rather than announcing a finished product.\n\n[Author’s post and presentation](https://blog.lorenzano.eu/pulsar-at-esug-2026/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50085306)",
+      "author": "Esteban Lorenzano",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.lorenzano.eu/pulsar-at-esug-2026/",
+      "createdAt": "2026-10-14T10:26:53Z"
+    },
+    {
+      "id": "hn:50077020",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+      "description": "A free browser-based guitar and bass learning app uses real instrument samples, keyboard or touch controls, songs that can be slowed down, and chord/strumming visualizations; recordings stay in the browser.",
+      "content": "Guitoro offers acoustic, classical, electric and bass sounds, chord progressions, backing tracks, a tuner, and recording/export. It works on phones and tablets as well as computers; no download or account is required.\n\n[Try Guitoro](https://guitoro.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50077020)",
+      "author": "Guitoro",
+      "topics": [
+        "Technology",
+        "Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://guitoro.com/",
+      "createdAt": "2026-10-13T19:11:48Z"
+    },
+    {
+      "id": "hn:50063104",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kcgi – minimal CGI and FastCGI library for C/C++",
+      "description": "An open-source C/C++ library for CGI and FastCGI web applications, with request validation, formatted output, compression, and sandboxed process separation for untrusted input. The project site lists v1.0.1 from November 2025.",
+      "content": "Kcgi supports Linux, BSDs, Solaris/OmniOS, and macOS. It is an established library rather than a new release; the project emphasizes minimizing and sandboxing the untrusted request-handling path.\n\n[Project documentation](https://kristaps.bsd.lv/kcgi/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50063104)",
+      "author": "kcgi project",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://kristaps.bsd.lv/kcgi/",
+      "createdAt": "2026-10-12T21:09:08Z"
+    },
+    {
       "id": "x:2110349255336706418",
       "section": "news",
       "type": "news",
