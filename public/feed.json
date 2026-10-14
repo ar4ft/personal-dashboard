@@ -2,6 +2,276 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2110349255336706418",
+      "section": "news",
+      "type": "news",
+      "title": "APEX: asynchronous prefix denoising makes highly compressed diffusion latents competitive",
+      "description": "APEX pairs a hierarchical latent space ordered from structure to detail with one shared denoiser that generates channel groups at staggered noise levels. That lets diffusion use fewer, deeper tokens without the usual generation collapse.",
+      "content": "Aggressive spatial compression saves compute, but the extra channels it needs usually make generation harder. On ImageNet-512, APEX outperforms existing methods at every evaluated channel count under 64× and 128× compression. The authors report that at matched training and guided-sampling compute, a 64-token APEX model beats a 256-token model across the evaluated budgets, with larger gains at lower compute. By David Dinkevich, Nisan Chiprut, Yoav HaCohen and Dani Lischinski.\n\n[Project page and code](https://daviddinkevich.github.io/APEX/)\n\n[Paper on arXiv](https://arxiv.org/abs/2610.12843)\n\n[Thread on X](https://x.com/DavidDinkevich/status/2110349255336706418)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "David Dinkevich (@DavidDinkevich)",
+      "url": "https://x.com/DavidDinkevich/status/2110349255336706418",
+      "createdAt": "2026-10-14T12:37:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110334479202177284",
+      "section": "news",
+      "type": "news",
+      "title": "Hacking with Swift+: uploading Codable data with URLSession, generics and Result",
+      "description": "Paul Hudson's new Hacking with Swift+ article covers the other side of networking: uploading Codable data, wrapping Apple's somewhat gnarly URLSession upload API in a generic container that reports back with Result.",
+      "content": "A follow-up to his earlier article on downloading data with Combine. The tutorial looks at the problem with Apple's upload API, wraps it with generics and `Result`, then brings in Combine, and ends with challenges. It's for HWS+ subscribers, so the full text is paywalled.\n\n[Uploading Codable data – Hacking with Swift+](https://www.hackingwithswift.com/plus/networking/uploading-codable-data)\n\n[Post on X](https://x.com/twostraws/status/2110334479202177284)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Paul Hudson (@twostraws)",
+      "url": "https://x.com/twostraws/status/2110334479202177284",
+      "createdAt": "2026-10-14T11:38:42Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110324875806052725",
+      "section": "news",
+      "type": "news",
+      "title": "SwiftUI's Map lives in the _MapKit_SwiftUI cross-import overlay",
+      "description": "Sarun W. notes that importing both SwiftUI and MapKit also loads their cross-import overlay, _MapKit_SwiftUI, which is the module where Map is actually defined.",
+      "content": "A short tip: the compiler loads `_MapKit_SwiftUI` automatically when a file imports both `SwiftUI` and `MapKit`. You import the public frameworks, not the underscored module.\n\n[Post on X](https://x.com/sarunw/status/2110324875806052725)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2110324875806052725",
+      "createdAt": "2026-10-14T11:00:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:what-agents-mean-for-rust",
+      "section": "news",
+      "type": "news",
+      "title": "What agents mean for Rust (and vice versa)",
+      "description": "Niko Matsakis argues Rust fits agentic development well because of its performance knobs and strong type-system guardrails. He proposes doubling down on \"if it compiles, it works\", plus a north star of proving all unsafe code sound.",
+      "content": "This is the blog companion to his REBASE/SPLASH talk. Agents are good at profiler-driven tuning, and Rust exposes the knobs for it. Tests alone don't catch agents' logic mistakes, and type systems help but can't show correctness, so he points to Rust proof tools like Verus, Creusot, Aeneas and Kani, noting that Verus leans on the borrow checker's uniqueness guarantees. His wishlist: a more expressive type system, an extensible compiler that integrates provers without pinned toolchains, and proven-sound unsafe code. He calls design and specification the open problem.\n\n[Blog post](https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50084416)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Niko Matsakis",
+      "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/",
+      "createdAt": "2026-10-14T08:49:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110264451177800154",
+      "section": "news",
+      "type": "news",
+      "title": "SwiftUI: concentricCornerRadii never goes above half a view's shorter side",
+      "description": "Sarun W. points out that concentricCornerRadii is capped at half of a view's shorter side, so a 62-point-tall view gets a 31-point radius even right at the screen corner, and its corner tip gets cut off.",
+      "content": "A 31-point corner is tighter than the screen's own curve, so a short card placed flush against the screen corner has part of its corner fall outside the display. Sarun's screenshot shows the same 62-point card at gaps of 0, 8 and 16 points from an iPhone 18 Pro screen corner: it always gets radius 31, gets clipped at 0 and 8 points, and only fits at 16 points.\n\n[Post on X](https://x.com/sarunw/status/2110264451177800154)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2110264451177800154",
+      "createdAt": "2026-10-14T07:00:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:quanta-attention-essence-of-intelligence",
+      "section": "news",
+      "type": "news",
+      "title": "Is 'Attention' the Essence of Intelligence?",
+      "description": "In her Qualia column for Quanta, Natalie Wolchover traces the attention mechanism from Dzmitry Bahdanau's 2014 translation work in Yoshua Bengio's lab to today's large language models, and asks why attention turned out to be the key.",
+      "content": "A long-form essay on the mathematical mechanism behind transformers. It starts with Bahdanau as a 23-year-old intern helping neural networks translate English to French in Montreal, then works through what attention does and why it scaled so well. Good background reading if you want the intuition behind the architecture rather than another benchmark.\n\n[Article on Quanta Magazine](https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50081930)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Natalie Wolchover (Quanta Magazine)",
+      "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+      "createdAt": "2026-10-14T03:10:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50081045",
+      "section": "news",
+      "type": "news",
+      "title": "Building a Garmin \"MCP\": asking Claude about your own workout and health data",
+      "description": "Jack Antico wanted to ask an LLM about his Garmin training and sleep, but found no official Garmin MCP. He built a small agent app on an unofficial Garmin API library and the Anthropic API instead.",
+      "content": "Syncing Garmin to Apple Health and using Claude's Apple Health connector only passed basic, forward-only data, and manual exports were tedious. His app logs in with Garmin credentials, caches the token in the session, and runs an agent loop with tools such as `list_activities`, `get_activity_detail`, `get_daily_health`, `get_training_status` and `get_body_composition`. He's clear that it isn't a true MCP server. He plans a weekly report-card agent, and argues that unofficial MCPs will spread because users want their data while platforms want to keep the UI.\n\n[Blog post](https://jackantico.io/garmin-mcp)\n\n[HN discussion](https://news.ycombinator.com/item?id=50081045)",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ricotico060",
+      "url": "https://jackantico.io/garmin-mcp",
+      "createdAt": "2026-10-14T00:52:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50080836",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: mosh-rs, a wire-compatible Rust rewrite of mosh with scrollback and a Windows client",
+      "description": "mosh-rs ports mosh to Rust while staying wire-compatible with mosh-server 1.4, so it works with servers already installed. It adds a native Windows client and opt-in scrollback that lands in your local terminal history.",
+      "content": "mosh keeps a remote terminal alive across Wi-Fi/cellular handoffs, sleep and lossy links by syncing screen state over UDP with local echo. mosh-rs is an independent port of mosh master (March 2026). Scrollback works with `mosh --scrollback host` against a mosh-rs server, and plain `mosh host` behaves like upstream. Linux builds are single static binaries. It's pre-alpha (v0.1.2), and the README lists measured compatibility results and known limitations.\n\n[Repo on GitHub](https://github.com/Arunjay4213/mosh-rs)\n\n[HN discussion](https://news.ycombinator.com/item?id=50080836)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Arunjay__",
+      "url": "https://github.com/Arunjay4213/mosh-rs",
+      "createdAt": "2026-10-14T00:22:19Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50079464",
+      "section": "news",
+      "type": "news",
+      "title": "AlphaNIST: one RL policy learns all 20 NIST assembly-board tasks from binary rewards",
+      "description": "AlphaNIST trains a single end-to-end robot policy in simulation to complete the twenty tasks of the NIST Assembly Task Board, using only a binary success reward, cached starting states and success-guided sampling, with no prescribed manipulation stages.",
+      "content": "Training starts from diverse states cached in simulation (loose parts, in-hand grasps, partial assemblies). These are starting points, not demonstrations. A Beta-distribution sampler favors states the policy solves about half the time. The authors report that one policy across all twenty tasks reaches higher training success than twenty specialists, and that adding reaching and alignment rewards lowered success. A separately trained policy completes ten-part assemblies. Emergent behaviors include regrasping a peg near one end for insertion and using contact with the board to turn a connector. Code is listed as coming soon.\n\n[Project page](https://alpha-nist.github.io/)\n\n[Paper on arXiv](https://arxiv.org/abs/2610.13354)\n\n[HN discussion](https://news.ycombinator.com/item?id=50079464)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "jasonjmcghee",
+      "url": "https://alpha-nist.github.io/",
+      "createdAt": "2026-10-13T21:57:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110081938140582085",
+      "section": "news",
+      "type": "news",
+      "title": "Fish Audio's open-weight Drama 3 tops Artificial Analysis' open-weights text-to-speech leaderboard",
+      "description": "Artificial Analysis ranks Fish Audio's Drama 3 Preview as the #1 open-weights text-to-speech model, and first overall on its Pronunciation Robustness leaderboard, ahead of Eleven v4 and Eleven v4 Turbo.",
+      "content": "Drama 3 is a 35B-parameter MoE TTS model with about 3B active per token and hybrid full and linear attention. It has a codebook-MTP audio decoder and FP8 experts. It does voice cloning, multi-speaker scenes with up to 16 speaker tags, inline tags like [sighs] or [laughs], natural-language direction, and editing by continuing from previous takes. Weights are on Hugging Face under a custom Fish Audio license, so check the terms before commercial use, and it serves with SGLang-Omni from day one.\n\n[Model card on Hugging Face](https://huggingface.co/fishaudio/drama-3)\n\n[Drama 3 cookbook (SGLang-Omni)](https://sgl-project.github.io/sglang-omni/cookbook/fishaudio_drama3.html)\n\n[Post on X](https://x.com/ArtificialAnlys/status/2110081938140582085)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Artificial Analysis (@ArtificialAnlys)",
+      "url": "https://x.com/ArtificialAnlys/status/2110081938140582085",
+      "createdAt": "2026-10-13T18:55:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50073755",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Sayso, free open-source local dictation for Mac, Windows and Linux",
+      "description": "Sayso is a Rust/GPUI dictation app: press a hotkey, speak, and the text is pasted into the focused app. Speech recognition runs locally, on the Neural Engine on Macs via a Swift engine using WhisperKit and FluidAudio.",
+      "content": "On macOS it offers Parakeet, Nemotron, Canary, SenseVoice, several Whisper variants and Apple Speech on macOS 26. Cloud providers like OpenAI, Groq, Deepgram or ElevenLabs are optional and use your own key. AI styles (Clean, Polished, Email, Notes…) rewrite the transcript through an OpenAI-compatible endpoint or the Claude/Codex CLI, each defined in an editable TOML file. It keeps a local history, imports from the same developer's Pindrop, and needs Apple silicon on macOS 14+ (`brew install --cask watzon/tap/sayso`).\n\n[Repo on GitHub](https://github.com/watzon/sayso)\n\n[HN discussion](https://news.ycombinator.com/item?id=50073755)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "watzon",
+      "url": "https://github.com/watzon/sayso",
+      "createdAt": "2026-10-13T15:56:30Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110013558054600753",
+      "section": "news",
+      "type": "news",
+      "title": "Self-Saliency: rewarding vision-language models for looking where their reasoning says",
+      "description": "NVIDIA Research's Self-Saliency grounds the objects named in each reasoning step and rewards a VLM, during GRPO training, for attention that overlaps those regions. It beats the vanilla model by 3.2 points on average across 25 visual reasoning benchmarks.",
+      "content": "A grounding model extracts bounding boxes for the regions each reasoning step mentions. A saliency map from the model's own visual attention is scored against them, and that score joins the accuracy and format rewards in GRPO. On Qwen3-VL 8B-Instruct the mean score rises from 61.1 to 64.3, ahead of SFT, vanilla GRPO and prior attention methods. The largest gains are on AlgoPuzzleVQA, SalBench and MME-RealWorld, and there are surprising gains on math benchmarks like WeMath and MathVision. Code and weights are listed as coming soon.\n\n[Project page](https://research.nvidia.com/labs/par/projects/self-saliency/)\n\n[Paper on arXiv](https://arxiv.org/abs/2610.05023)\n\n[Post on X](https://x.com/uriberger88/status/2110013558054600753)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Uri Berger (@uriberger88)",
+      "url": "https://x.com/uriberger88/status/2110013558054600753",
+      "createdAt": "2026-10-13T14:23:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109976436094406777",
+      "section": "news",
+      "type": "news",
+      "title": "swiftui-flx: shadcn/ui-style copy-and-own SwiftUI components for iOS, iPadOS and macOS",
+      "description": "swiftui-flx is an open-source design system for SwiftUI that, like shadcn/ui, adds component source to your project instead of a dependency. Components wrap native controls via their Style protocols and follow Apple's HIG on each platform.",
+      "content": "You add a foundation once, then components such as Button, Card, Toggle, Badge, Avatar, Collapsible and Form Field with the shadcn CLI (for example `npx shadcn@latest add https://swiftui.flexnative.com/r/ios-button.json --cwd MyApp`), or copy the source by hand. Shared tokens drive themes and dark mode. Components are built with Dynamic Type and VoiceOver in mind, and a Toggle renders as a switch on iPhone but a checkbox on Mac. There's an llms.txt for coding agents.\n\n[Repo on GitHub](https://github.com/felipemenezes098/swiftui-flx)\n\n[Post on X](https://x.com/rammcodes/status/2109976436094406777)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Ram Maheshwari (@rammcodes)",
+      "url": "https://x.com/rammcodes/status/2109976436094406777",
+      "createdAt": "2026-10-13T11:55:58Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:when-architecture-decisions-actually-apply",
+      "section": "news",
+      "type": "news",
+      "title": "When Architecture Decisions Actually Apply",
+      "description": "Theo Valmis argues that retrieving a relevant architecture decision for an AI coding agent isn't the same as knowing it governs the code being changed, and that only some applicable decisions are precise enough for deterministic enforcement.",
+      "content": "This follows his earlier Radar piece \"Architectural Guardrails for AI-Generated Code\". In a controlled repo, an agent was given an active decision ruling out PostgreSQL and ORMs for a CLI's storage module, and it still proposed PostgreSQL, an ORM and migrations. The decision was retrieved fine, but nothing told the agent that it applied there. He calls this *authority flattening*: README notes, old design docs, ADRs and platform standards lose their hierarchy once they're merged into one context window. In a seven-task experiment, supplying decisions up front raised first-attempt architectural compliance from 6/15 to 10/15 runs with task completion unchanged. Guided agents also sometimes did extra persistence work nobody had asked for. His amended model:\n\n- **Retrieval** surfaces candidate decisions.\n- **Applicability** (scope, lifecycle, precedence) decides which ones govern the artifact.\n- **Enforcement** blocks only precise, reproducibly checkable rules, like \"no SQLAlchemy in this component\".\n- **Guidance** covers fuzzier ones, like \"use the persistence abstraction correctly\".\n\n[Article on O'Reilly Radar](https://www.oreilly.com/radar/when-architecture-decisions-actually-apply/)\n\n[O'Reilly's post on X](https://x.com/OReillyMedia/status/2110112094120972645)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Theo Valmis",
+      "url": "https://www.oreilly.com/radar/when-architecture-decisions-actually-apply/",
+      "createdAt": "2026-10-13T11:02:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109858475333570565",
+      "section": "news",
+      "type": "news",
+      "title": "Nature Will's Natura-1: a 50B MoE foundation model for dexterous robot hands, pretrained on 1M hours of egocentric human data",
+      "description": "Physical AI lab Nature Will introduced Natura-1, a 50-billion-parameter mixture-of-experts model that follows natural-language instructions zero-shot and carries them out with 20-DoF dexterous hands in a 100 ms control loop.",
+      "content": "Natura-1 is pretrained on about one million hours of first-person human video (61.7M episodes, 317,842 tasks, 14,286 scenes), then post-trained on a limited amount of robot data. One autoregressive MoE transformer models language, images, video and action together, with video and action trained jointly via flow matching. On Nature Will's own 12-dimension benchmark it scores 53.4 (Base) and 59.1 (Agentic) with dexterous hands. The π0.5 and GPT-6-Astra baselines produced no score on that hand platform and got 13.5 and 16.7 on a gripper platform. Note that the six long-horizon demos (wontons, screen protector, etc.) use extra task-specific tuning. The blog also shows zero-shot instruction following, emergent recovery behaviors, a Rust inference orchestrator, and scaling curves from about 44K to 1M hours.\n\n[Natura-1 announcement blog](https://www.naturewill.com/blog/natura-1)\n\n[Announcement post on X](https://x.com/naturewill/status/2109858475333570565)\n\n[Linus Ekenstam's post about it](https://x.com/LinusEkenstam/status/2110028095830806986)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Nature Will (@naturewill)",
+      "url": "https://x.com/naturewill/status/2109858475333570565",
+      "createdAt": "2026-10-13T04:07:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2109768574222917754",
+      "section": "news",
+      "type": "news",
+      "title": "Google Fitbit Edge: a $180 screen tracker with replaceable battery, GPS and Gemini Health Coach",
+      "description": "Google's new Fitbit Edge sits between Fitbit Air and Pixel Watch: a slim tracker with a touch screen 45% larger and over 40% brighter than Charge 6's, a replaceable battery, built-in GPS and up to a week of battery life. Pre-orders are $179.99, shipping October 27.",
+      "content": "Google's announcement highlights automatic workout recognition across 50+ exercise types, heart rate, sleep and recovery tracking, and personalized coaching from Google Health Coach. Android Central's launch summary adds blood-oxygen tracking and ECG. Some coaching features are tied to Google Health Premium.\n\n[Google's announcement](https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/)\n\n[Post on X](https://x.com/androidcentral/status/2109768574222917754)",
+      "topics": [
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "Android Central (@androidcentral)",
+      "url": "https://x.com/androidcentral/status/2109768574222917754",
+      "createdAt": "2026-10-12T22:10:00Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2110131686184833433",
       "section": "news",
       "type": "news",
