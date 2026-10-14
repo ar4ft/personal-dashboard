@@ -2,6 +2,157 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2110046114820890809",
+      "section": "news",
+      "type": "news",
+      "title": "NVIDIA Nemotron 3.5 Bolt 74B: open 74B MoE packed into 24GB for local agents",
+      "description": "A 74B-parameter MoE with about 9B active per token, squeezed to ~24GB with 2-bit quantization-aware training. Weights, training data and recipes are open; day-one runners include llama.cpp, Ollama, vLLM, Unsloth and LM Studio. Ships Oct 15 for RTX Spark and other local-agent setups.",
+      "content": "NVIDIA positioned Bolt for agent workloads on laptop-class memory, not just chat demos. Independent quality numbers are still pending until the weights land, and the 24GB figure is the model footprint — KV cache and runtime still need room.\n\n[NVIDIA RTX Spark software blog](https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/)\n\n[Post on X](https://x.com/MiaAI_lab/status/2110046114820890809)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Mia (@MiaAI_lab)",
+      "url": "https://x.com/MiaAI_lab/status/2110046114820890809",
+      "createdAt": "2026-10-13T16:32:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:nvidia-pair-ga",
+      "section": "news",
+      "type": "news",
+      "title": "NVIDIA PAIR leaves beta: open-source personal AI router across home PCs",
+      "description": "PAIR discovers machines on your LAN, installs models and inference engines, and spreads workloads across them. The GA build adds llama.cpp support, Hugging Face downloads, tunable engine settings and RTX Spark support. Free and open source on Windows, Linux and macOS.",
+      "content": "PAIR is the companion piece to local agent models like Nemotron Bolt: instead of one overloaded laptop, you can farm prompts across every compatible box on the network. NVIDIA says community contributors already landed more than ten features and fixes in the first month of beta.\n\n[NVIDIA RTX Spark software blog](https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "createdAt": "2026-10-13T14:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110339846963355891",
+      "section": "news",
+      "type": "news",
+      "title": "Zap!: a fast KiCad PCB autorouter aimed at AI hardware loops",
+      "description": "Yejun Jang launched Zap!, a hosted autorouter that times and completeness-beats Freerouting, TraceMaker and tscircuit on a 25-board public KiCad set. Built so agents can finish boards after placement, with a REST API and early-access keys.",
+      "content": "Zap! keeps copper pours, differential-pair rules and custom .kicad_dru constraints that older autorouters often drop. Jang says he is using it to ship AnchorCam Stereo without a hardware co-founder, then handing unfinished nets to coding agents for cleanup.\n\n[Zap! product and benchmarks](https://zap.mutual.solutions)\n\n[Zap! docs](https://zap.mutual.solutions/docs)\n\n[Post on X](https://x.com/mmmutantQ/status/2110339846963355891)",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Yejun Jang (@mmmutantQ)",
+      "url": "https://x.com/mmmutantQ/status/2110339846963355891",
+      "createdAt": "2026-10-14T12:00:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110363457795367119",
+      "section": "news",
+      "type": "news",
+      "title": "House Control goes open source: 3D home twin in the Mac menu bar and on iPhone",
+      "description": "MIT-licensed Mac and iPhone app that shows your home as a live 3D model and drives lights and ACs through Smart Life, Home Assistant, Philips Hue and Apple Home. No account, no telemetry; ChatGPT or Claude can flip switches too.",
+      "content": "A rare smart-home client that treats the house itself as the UI instead of another grid of tiles. Local-first posture plus agent hooks make it a natural desk companion for anyone already running Home Assistant.\n\n[house-control on GitHub](https://github.com/0xProbabillity/house-control)\n\n[Post on X](https://x.com/0xProbabillity/status/2110363457795367119)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "0xProbability (@0xProbabillity)",
+      "url": "https://x.com/0xProbabillity/status/2110363457795367119",
+      "createdAt": "2026-10-14T13:33:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110113101794381914",
+      "section": "news",
+      "type": "news",
+      "title": "SwiftVM: macOS and Linux VMs from the Mac menu bar",
+      "description": "Free Apache-2.0 native app built on Apple's Virtualization framework. Installs macOS guests without the setup assistant (macOS 27+), boots Ubuntu/Debian images fast, and exposes SSH-by-name, snapshots, shared folders, port forwards and a matching swiftvm CLI.",
+      "content": "Everything lives in a .swiftvm package folder with APFS clones for cheap duplicates. No root helper and no kext — guests run in the app process. Apple Silicon and macOS 27 or newer required.\n\n[SwiftVM site](https://swiftvm.app/)\n\n[Post on X](https://x.com/AlternativeTo/status/2110113101794381914)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "AlternativeTo (@AlternativeTo)",
+      "url": "https://x.com/AlternativeTo/status/2110113101794381914",
+      "createdAt": "2026-10-13T20:59:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110355948242161972",
+      "section": "news",
+      "type": "news",
+      "title": "HyperFrames: write HTML, render a deterministic MP4 for agents and CI",
+      "description": "HeyGen's Apache-2.0 toolkit turns HTML, CSS and seekable animations (GSAP, Lottie, Three.js) into frame-perfect video via headless Chrome and FFmpeg. Compositions are editable project folders agents already know how to write — not a black-box timeline.",
+      "content": "The pitch is video as a build artifact: same input, same frames, same MP4. Skills cover product-launch clips, faceless explainers and even PR-to-changelog videos, with a local CLI plus Docker/Lambda paths when you need scale.\n\n[hyperframes on GitHub](https://github.com/heygen-com/hyperframes)\n\n[HyperFrames site](https://hyperframes.video/)\n\n[Post on X](https://x.com/FReza1984/status/2110355948242161972)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Fajar M Reza (@FReza1984)",
+      "url": "https://x.com/FReza1984/status/2110355948242161972",
+      "createdAt": "2026-10-14T13:04:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110025309970174026",
+      "section": "news",
+      "type": "news",
+      "title": "Stride 4.4: open-source C# game engine rebuilds Vulkan/D3D12 and Mac/Linux builds",
+      "description": "The Unity-like engine makes Vulkan and Direct3D 12 primary, drops OpenGL, unifies macOS/Linux asset compiles with Windows, and ships a new CLI for install, versions and project creation. Game Studio is moving from WPF toward Avalonia for native Mac/Linux editing.",
+      "content": "Linux can already run the editor through Proton while the Avalonia port lands. Strongly typed Assets URLs catch missing content at compile time, and replacement assets make package overrides cleaner.\n\n[Stride 4.4 write-up](https://gamefromscratch.com/stride-4-4-released/)\n\n[Stride on GitHub](https://github.com/stride3d/stride)\n\n[Post on X](https://x.com/gamefromscratch/status/2110025309970174026)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "GameFromScratch (@gamefromscratch)",
+      "url": "https://x.com/gamefromscratch/status/2110025309970174026",
+      "createdAt": "2026-10-13T15:09:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "ideas:pr-changelog-video",
+      "section": "ideas",
+      "type": "idea",
+      "title": "PR-to-changelog video via HyperFrames",
+      "description": "A local pipeline that turns a merged pull request into a short, editable HTML composition and renders a deterministic MP4 changelog clip with HyperFrames — no proprietary timeline tool.",
+      "content": "## How it works\n\nOn merge (or on demand), a script pulls the PR title, summary, file diff highlights and screenshots, then writes a HyperFrames `index.html` with timed scenes. `npx hyperframes render` seeks each frame in headless Chrome and encodes with FFmpeg. The HTML stays in the repo so you can tweak timing or copy before re-rendering.\n\n```mermaid\nflowchart LR\n  P[PR merge or CLI] --> S[Summarize diff + assets]\n  S --> H[Write HyperFrames HTML]\n  H --> R[hyperframes render]\n  R --> V[MP4 changelog clip]\n  H --> E[Edit HTML and re-render]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Composition | HyperFrames CLI + GSAP |\n| Summaries | Local LLM or `gh` + templates |\n| CI | GitHub Actions runner with Chrome/FFmpeg |\n| Storage | Commit HTML under `docs/videos/`; upload MP4 to Pages or Releases |\n\n## Hard parts\n\n- Writing scenes that stay readable when the diff is huge or mostly refactors.\n- Keeping renders cheap on CI (caching Chrome, capping length).\n- Matching brand typography without hand-tuning every clip.\n\n## Effort\n\nA weekend for a single-template CLI on one repo, then a few days to harden CI and a second template.\n\n## Inspired by\n\n- [Fajar M Reza on X](https://x.com/FReza1984/status/2110355948242161972)\n- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)",
+      "nextStep": "Clone heygen-com/hyperframes, run the product-launch sample locally, then write a script that fills one HTML template from `gh pr view <n> --json title,body,files`.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-14T14:10:00Z",
+      "status": "explore"
+    },
+    {
+      "id": "ideas:menu-bar-home-twin",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Menu-bar 3D home twin with local agent control",
+      "description": "A Mac menu-bar (and optional iPhone) view of your rooms as a simple 3D twin, wired to Home Assistant, with a local LLM that can turn lights and ACs on from natural language — no cloud account required.",
+      "content": "## How it works\n\nModel rooms as a lightweight SceneKit or RealityKit scene loaded from a JSON layout. Poll Home Assistant for entity states and paint lights/thermostats live. A small local model (or your existing coding-agent endpoint) maps phrases like \"dim the office\" to service calls, with a confirmation toast for anything irreversible.\n\n```mermaid\nflowchart LR\n  U[Menu bar / iPhone] --> S[3D scene + entity map]\n  HA[Home Assistant] --> S\n  U --> L[Local LLM intent]\n  L --> HA\n  S --> U\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Mac UI | SwiftUI menu-bar app + SceneKit |\n| Phone | SwiftUI sharing the same layout JSON |\n| Home bus | Home Assistant REST/WebSocket |\n| Agent | Ollama or OpenAI-compatible local endpoint |\n\n## Hard parts\n\n- Building a floor plan that is accurate enough without a full CAD import.\n- Safe agent actions: confirmations, allowlists, and offline behavior when HA is down.\n- Keeping the menu-bar UI light so it does not burn battery on always-on 3D.\n\n## Effort\n\nA long weekend for HA read-only visualization, then 1–2 weeks for write actions and a voice/agent path.\n\n## Inspired by\n\n- [0xProbability on X](https://x.com/0xProbabillity/status/2110363457795367119)\n- [house-control on GitHub](https://github.com/0xProbabillity/house-control)",
+      "nextStep": "Export a two-room JSON layout and a SwiftUI menu-bar prototype that paints Home Assistant light states as colored boxes — no 3D yet.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-14T14:11:00Z",
+      "status": "explore"
+    },
+    {
       "id": "hn:50085306",
       "section": "news",
       "type": "news",
