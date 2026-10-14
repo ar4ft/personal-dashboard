@@ -15653,6 +15653,188 @@
       "url": "https://blog.plover.com/prog/git/history-proposal.html",
       "createdAt": "2026-10-13T06:47:42+00:00",
       "updatedAt": "2026-10-13T06:47:42+00:00"
+    },
+    {
+      "id": "hn:50078141",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "description": "An OpenAI engineer was arrested over the alleged bugging of an executive conference room.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "forthwall",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "createdAt": "2026-10-13T20:23:55+00:00",
+      "updatedAt": "2026-10-13T20:23:55+00:00"
+    },
+    {
+      "id": "hn:50083130",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "description": "Android developers are disassembling libraries to report bugs because AOSP source releases arrive so late.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "tharen",
+      "url": "https://github.com/android/ndk/issues/2260",
+      "createdAt": "2026-10-14T06:18:01+00:00",
+      "updatedAt": "2026-10-14T06:18:01+00:00"
+    },
+    {
+      "id": "hn:50084240",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+      "description": "Iosevka is an open-source monospace font available in sans-serif and slab-serif styles.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "otobrglez",
+      "url": "https://typeof.net/Iosevka/",
+      "createdAt": "2026-10-14T08:27:59+00:00",
+      "updatedAt": "2026-10-14T08:27:59+00:00"
+    },
+    {
+      "id": "hn:50079865",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Recreational Programming",
+      "description": "A presentation on programming pursued as recreation.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jslakro",
+      "url": "https://www.cphiri.dev/presentations/recreational-programming",
+      "createdAt": "2026-10-13T22:33:33+00:00",
+      "updatedAt": "2026-10-13T22:33:33+00:00"
+    },
+    {
+      "id": "hn:50084757",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Amazon pushes up prices across the Internet",
+      "description": "An analysis of how Amazon pushes up prices across the Internet.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sighborg",
+      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "createdAt": "2026-10-14T09:28:17+00:00",
+      "updatedAt": "2026-10-14T09:28:17+00:00"
+    },
+    {
+      "id": "hn:50082021",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
+      "description": "Strafe is a new open-source, end-to-end encrypted, federated alternative to Discord.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "brydencalaway",
+      "url": "https://strafe.chat/",
+      "createdAt": "2026-10-14T03:28:00+00:00",
+      "updatedAt": "2026-10-14T03:28:00+00:00"
+    },
+    {
+      "id": "hn:50046022",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Arena Allocators in C",
+      "description": "A guide to arena allocators in C.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dimonomid",
+      "url": "https://eliasebner.com/blog/guides/arena-allocators-in-c/",
+      "createdAt": "2026-10-11T18:07:56+00:00",
+      "updatedAt": "2026-10-11T18:07:56+00:00"
+    },
+    {
+      "id": "hn:50086165",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "description": "Pg_vectorsearch is a Postgres index described as faster than pgvector's IVFFlat and HNSW indexes.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "jascha_eng",
+      "url": "https://github.com/timescale/pg_vectorsearch",
+      "createdAt": "2026-10-14T11:47:53+00:00",
+      "updatedAt": "2026-10-14T11:47:53+00:00"
+    },
+    {
+      "id": "hn:50071466",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Same Job, Two Engines: InnoDB and Iceberg Internals",
+      "description": "A comparison of the internals of InnoDB and Iceberg, two engines doing the same job.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "marcbpaul",
+      "url": "https://marcpaul.io/logs/same-job-two-engines-innodb-and-iceberg-internals/",
+      "createdAt": "2026-10-13T13:31:43+00:00",
+      "updatedAt": "2026-10-13T13:31:43+00:00"
+    },
+    {
+      "id": "hn:50086596",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepMind and Singapore fine-tune an on-device Gemma model for scam detection",
+      "description": "DeepMind and Singapore fine-tuned an on-device Gemma model for scam detection.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "createdAt": "2026-10-14T12:24:44+00:00",
+      "updatedAt": "2026-10-14T12:24:44+00:00"
+    },
+    {
+      "id": "hn:50086844",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fun with low-rank vocab matrices (and a bonus test loss reduction)?",
+      "description": "An exploration of low-rank vocabulary matrices, including a bonus reduction in test loss.",
+      "topics": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://www.gilesthomas.com/2026/10/low-rank-vocab-matrices",
+      "createdAt": "2026-10-14T12:44:28+00:00",
+      "updatedAt": "2026-10-14T12:44:28+00:00"
     }
   ]
 }
