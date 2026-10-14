@@ -16308,6 +16308,86 @@
       "url": "https://www.gilesthomas.com/2026/10/low-rank-vocab-matrices",
       "createdAt": "2026-10-14T12:44:28+00:00",
       "updatedAt": "2026-10-14T12:44:28+00:00"
+    },
+    {
+      "id": "hn:50090842",
+      "section": "news",
+      "type": "news",
+      "title": "Linus Torvalds's first LLM-assisted patch series",
+      "description": "Linus Torvalds posted an experimental, LLM-assisted Linux page-cache patch series; reviewers found a correctness race, and it is unmerged.",
+      "content": "The ten-patch rcu-free-v3 series uses RCU to avoid page-cache refcount work on a hot read path. Torvalds reports about 23× in a deliberately artificial 64-thread benchmark (13.3M to 304M reads per second); that result is not representative of ordinary workloads. Kernel review identified a race that could copy stale data. This is an unmerged development experiment, not a shipped Linux feature.\n\n[Read LWN’s report](https://lwn.net/Articles/1100449/)\n\n[Torvalds’s LKML cover message](https://lwn.net/ml/all/CAHk-=wjLjgfwgSZ1RDk4YdNFcV0ntosMO5AmBoHD76Zb3HFY7Q@mail.gmail.com) · [Review response](https://lwn.net/ml/all/as6vBoWQGglxXxb0@thinkstation) · [Kernel branch](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?h=rcu-free-v3)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50090842)",
+      "topics": [
+        "Programming",
+        "AI",
+        "Linux",
+        "Systems"
+      ],
+      "source": "Hacker News",
+      "author": "janvdberg",
+      "url": "https://lwn.net/Articles/1100449/",
+      "createdAt": "2026-10-14T16:55:07Z",
+      "updatedAt": "2026-10-14T16:55:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50090369",
+      "section": "news",
+      "type": "news",
+      "title": "Better HTTP/1 connection reuse in Go 1.27",
+      "description": "Go 1.27 improves HTTP/1 connection reuse when clients close unread response bodies, with bounded background draining.",
+      "content": "The Go team says net/http now asynchronously drains a bounded amount of unread HTTP/1 response data when Body.Close is called, allowing the connection to be reused when practical. In the authors’ benchmark, 100 sequential requests took about 710 ms on Go 1.26 versus 150 ms on Go 1.27; that is a team-reported result for a specific workload, not a general speedup guarantee. The change is HTTP/1-specific; HTTP/2 behaves differently.\n\n[Read the Go team’s explanation](https://go.dev/blog/http-connection-reuse)\n\n[Go 1.27 release notes](https://go.dev/doc/go1.27)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50090369)",
+      "topics": [
+        "Programming",
+        "Go",
+        "Technology",
+        "Developer Tools"
+      ],
+      "source": "Hacker News",
+      "author": "allddd",
+      "url": "https://go.dev/blog/http-connection-reuse",
+      "createdAt": "2026-10-14T16:29:33Z",
+      "updatedAt": "2026-10-14T16:29:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50090443",
+      "section": "news",
+      "type": "news",
+      "title": "Why do LLM pelicans look like this?",
+      "description": "A visual example leads into research measuring repetitive LLM-generated UI and creative range against human designs.",
+      "content": "Aman Rusia uses similar “pelican riding a bicycle” SVGs as a hook for a narrower question: how repetitive are LLM-generated interfaces? The linked preprint, Design Creativity Bench, compares originality, creative range, and brief-following. Its authors report model-model originality of 0.592 versus 0.764 for human-model pairs, and model creative range of 0.581 versus 0.902 for human designs. These are preprint results from a specific UI benchmark—not a universal rule about all model outputs.\n\n[Read the article](https://arcfu.com/post/the-emperor-pelican-has-no-clothes/)\n\n[Preprint](https://arxiv.org/abs/2610.11539) · [Benchmark and methodology](https://kombai.com/benchmark/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50090443)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Generative AI",
+        "Evaluation"
+      ],
+      "source": "Hacker News",
+      "author": "pcwelder",
+      "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+      "createdAt": "2026-10-14T16:33:34Z",
+      "updatedAt": "2026-10-14T16:33:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50091788",
+      "section": "news",
+      "type": "news",
+      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+      "description": "CSO analysis argues recent AI-agent incidents point to failures in isolation, egress controls, credentials, and monitoring—not only model behavior.",
+      "content": "The CSO analysis draws on security experts and discusses incident disclosures from OpenAI and Anthropic. Those primary reports describe specific environment, isolation, and monitoring failures. The broader claim that frontier labs are skipping security basics is the author’s analysis, and the evidence does not rule out model-level alignment concerns.\n\n[Read the analysis](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)\n\n[OpenAI incident report](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) · [Anthropic incident review](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50091788)",
+      "topics": [
+        "AI",
+        "Security",
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "latexr",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "createdAt": "2026-10-14T17:45:23Z",
+      "updatedAt": "2026-10-14T17:45:23Z",
+      "status": "inbox"
     }
   ]
 }
