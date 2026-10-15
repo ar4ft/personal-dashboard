@@ -17298,6 +17298,86 @@
       "source": "X digest",
       "createdAt": "2026-10-15T14:15:00Z",
       "status": "explore"
+    },
+    {
+      "id": "hn:50099375",
+      "section": "news",
+      "type": "news",
+      "title": "Claude Code Desktop Vulnerability: Preview Pane Data Exfiltration",
+      "description": "Noma Labs reports a Claude Desktop preview-pane path that could expose local files when a user opens a crafted repository file.",
+      "content": "Noma Labs describes a reported HTML-preview issue in Claude Desktop: a malicious repository file plus a user-triggered preview could allow local-file reads and exfiltration. Noma says it was fixed in Claude Desktop 1.30096.1 and later. The sources reviewed did not include a public Anthropic advisory or independent reproduction, so treat the exploit chain and fix details as Noma’s disclosure, not independently confirmed findings.\n\n[Read Noma Labs’ report](https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data)\n\n[CSO coverage](https://www.csoonline.com/article/4235139/how-claude-codes-256kb-blind-spot-put-developers-secrets-in-the-preview-pane.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50099375)",
+      "topics": [
+        "AI",
+        "macOS",
+        "Security",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data",
+      "createdAt": "2026-10-15T05:02:06Z",
+      "updatedAt": "2026-10-15T05:02:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50104310",
+      "section": "news",
+      "type": "news",
+      "title": "Prompt injection in HTTP headers: what 217M web responses show",
+      "description": "A Common Crawl-based analysis measures AI-directed HTTP headers and when agent tooling may expose them to models.",
+      "content": "Signals Corps reports examining 217 million page responses from one Common Crawl archive, identifying 30 hostnames with text classified as prompt-injection attempts; most were described as crude pranks. In a small canary test, whether headers reached an agent depended on the fetch tool, and instructions were followed more often when the user prompt explicitly granted server content authority. This is a vendor-authored, single-crawl observation—not a live-web prevalence estimate or proof of widespread exploitation. The practical takeaway is to treat headers, redirects, and linked instructions as untrusted data and enforce authorization outside the model.\n\n[Read the analysis](https://www.signalscorps.com/blog/prompt-injection-in-http-headers/)\n\n[Common Crawl archive details](https://commoncrawl.org/blog/september-2026-crawl-archive-now-available)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50104310)",
+      "topics": [
+        "AI",
+        "Programming",
+        "Security",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "panoramas4good",
+      "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
+      "createdAt": "2026-10-15T14:36:22Z",
+      "updatedAt": "2026-10-15T14:36:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50105647",
+      "section": "news",
+      "type": "news",
+      "title": "Neural networks are clean",
+      "description": "Goodfire’s working hypothesis argues that some classic polysemanticity examples may reflect model architecture and analysis tools.",
+      "content": "Nick Cammarata’s Goodfire essay revisits mechanistic-interpretability evidence and proposes that some apparent neuron entanglement in classic vision models may arise from architecture, training, and tooling. It reports preliminary internal audits—including high interpretability estimates for a modernized vision model—but labels the account a working hypothesis. The measures are threshold-sensitive and not independently replicated; this is not evidence that superposition is settled or all networks are monosemantic.\n\n[Read the working hypothesis](https://already-clean.goodfire.com/)\n\n[Distill circuits paper](https://distill.pub/2020/circuits/zoom-in/) · [Anthropic’s 2023 SAE study](https://transformer-circuits.pub/2023/monosemantic-features/index.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50105647)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Interpretability",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "themgt",
+      "url": "https://already-clean.goodfire.com/",
+      "createdAt": "2026-10-15T16:04:01Z",
+      "updatedAt": "2026-10-15T16:04:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50104299",
+      "section": "news",
+      "type": "news",
+      "title": "Using AI to reverse engineer hardware",
+      "description": "A GNOME developer describes AI-assisted USB/MIPI tracing and human validation for Linux scanner and laptop-camera support.",
+      "content": "Christian Fredrik Kalager Schaller describes using a Windows VM, USB/MIPI captures, and AI-assisted trace analysis to improve Linux support for a film scanner and a laptop camera. The work produced a SANE backend/app and kernel/libcamera patches; the author notes upstream SANE had already added scanner support. This is a first-person case study, not an independent benchmark or proof that AI can reverse-engineer arbitrary hardware.\n\n[Read the case study](https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/)\n\n[Hardware reverse-engineering tools](https://github.com/cschalle/hw-harness) · [MIPI camera fixes and measurements](https://cschalle.github.io/mipi-fixes-x1-aura/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50104299)",
+      "topics": [
+        "Programming",
+        "AI",
+        "Linux",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ErenayDev",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "createdAt": "2026-10-15T14:35:15Z",
+      "updatedAt": "2026-10-15T14:35:15Z",
+      "status": "inbox"
     }
   ]
 }
