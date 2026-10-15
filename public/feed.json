@@ -17147,6 +17147,157 @@
       "url": "https://x.com/therealdelairj/status/2110695771838579147",
       "createdAt": "2026-10-15T11:34:21Z",
       "status": "inbox"
+    },
+    {
+      "id": "x:2110717330657616092",
+      "section": "news",
+      "type": "news",
+      "title": "StepFun releases open weights for Step 5 Preview: 600B MoE, 27B active, 1M context",
+      "description": "StepFun shipped BF16 and FP8 weights for Step 5 Preview on Hugging Face and ModelScope: a 600B sparse MoE with 27B active per token, native text and vision, and a 1M-token window aimed at long-horizon agents.",
+      "content": "The official Oct 15 drop puts StepFun's flagship into self-host territory with day-0 vLLM and SGLang paths and an NVFP4 checkpoint for NVIDIA stacks. It is built for multi-hour agent work — coding, knowledge work and finance — rather than short chat turns.\n\n[Step-5-Preview on Hugging Face](https://huggingface.co/stepfun-ai/Step-5-Preview)\n\n[Repo on GitHub](https://github.com/stepfun-ai/Step-5-Preview)\n\n[Post on X](https://x.com/StepFun_ai/status/2110717330657616092)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "StepFun (@StepFun_ai)",
+      "url": "https://x.com/StepFun_ai/status/2110717330657616092",
+      "createdAt": "2026-10-15T13:00:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110615377088745817",
+      "section": "news",
+      "type": "news",
+      "title": "Skywork open-sources Matrix-Game 4.0: playable world model at 60 FPS on one GPU",
+      "description": "Matrix-Game 4.0 pairs a real game engine (rules, physics, state) with a causal video model that renders frames in real time — claimed 480p at 60 FPS and ~112ms response on a single RTX 5090 — under Apache-2.0.",
+      "content": "Instead of a pure generative demo, the engine keeps authoritative world state while the video model redraws low-poly frames into detailed scenes. Three starter scenes (castle, Egypt shooter, city racing) ship with weights, inference code and a browser demo; a coding agent can change gameplay in natural language without retraining the renderer.\n\n[Matrix-Game on GitHub](https://github.com/SkyworkAI/Matrix-Game)\n\n[Weights on Hugging Face](https://huggingface.co/Skywork/Matrix-Game-4.0)\n\n[Project page](https://matrix-game-v4-0.github.io/page/)\n\n[Post on X](https://x.com/Skywork_ai/status/2110615377088745817)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Skywork (@Skywork_ai)",
+      "url": "https://x.com/Skywork_ai/status/2110615377088745817",
+      "createdAt": "2026-10-15T06:14:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110572746581430740",
+      "section": "news",
+      "type": "news",
+      "title": "Player-1: open framework that teaches VLMs and computer-use agents to play games via synthetic RL",
+      "description": "Tencent ARC's Player-1 is an open-source Game RL framework that boosts general vision-language models and computer-use agents by training on synthetic gameplay experience, with code, paper and project page out.",
+      "content": "Games are a hard test for planning and UI control, but open tooling for Game RL on general VLMs has been thin. Player-1 aims to close that gap with a synthetic-experience loop so models learn complex play without only scraping human traces.\n\n[Player-1 on GitHub](https://github.com/TencentARC/Player-1)\n\n[Project page](https://player-1-project.github.io)\n\n[Paper on Hugging Face](https://huggingface.co/papers/2610.20584)\n\n[Post on X](https://x.com/wang_yi75406/status/2110572746581430740)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@wang_yi75406",
+      "url": "https://x.com/wang_yi75406/status/2110572746581430740",
+      "createdAt": "2026-10-15T03:25:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110635509374717968",
+      "section": "news",
+      "type": "news",
+      "title": "Kamino: Disney Research's GPU physics solver for robots with kinematic loops",
+      "description": "Kamino is a GPU-accelerated physics simulator for mechanical systems with kinematic loops — parallel manipulators, linkages, multi-limbed robots — built on NVIDIA Warp inside the open Newton framework for large-scale RL.",
+      "content": "Unlike solvers that force you to approximate closed loops away, Kamino keeps accurate constraints and can run thousands of parallel (even heterogeneous) environments on one GPU, which matters for training robot policies that have coupled joints.\n\n[Kamino project site](https://disneyresearch.github.io/kamino-site/)\n\n[Post on X](https://x.com/AvimanyuRoy3/status/2110635509374717968)",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@AvimanyuRoy3",
+      "url": "https://x.com/AvimanyuRoy3/status/2110635509374717968",
+      "createdAt": "2026-10-15T07:34:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110378421004231140",
+      "section": "news",
+      "type": "news",
+      "title": "FUMI: an open-source AI Tamagotchi that lives on an ESP32 board",
+      "description": "FUMI is a physical AI companion on ESP32 with a face, expressions and voice — an open-source desk pet rather than another browser agent, with hardware and code on GitHub.",
+      "content": "A reminder that agents do not have to stay in a chat window: FUMI puts a small expressive character on real hardware you can leave on a desk. Repo and site cover the board, face UI and interaction loop.\n\n[fumi.codes](https://fumi.codes/)\n\n[Repo on GitHub](https://github.com/imaaiagent/fumi)\n\n[Post on X](https://x.com/yerofreyarc/status/2110378421004231140)",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Rey (@yerofreyarc)",
+      "url": "https://x.com/yerofreyarc/status/2110378421004231140",
+      "createdAt": "2026-10-14T14:33:19Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110638053039784295",
+      "section": "news",
+      "type": "news",
+      "title": "Hearth: open-source Mac menu bar for Home Assistant energy, cameras, lights and more",
+      "description": "Elvis Obi shipped Hearth, a SwiftUI menu-bar app that talks to Home Assistant so you can monitor energy, cameras, speakers, lights, plugs, ACs and even supported EVs without leaving the Mac menu bar. MIT-style open source.",
+      "content": "A weekend build with real traction: energy and camera glanceables plus device control from one menu-bar surface, with a video demo from a Mac mini. Distinct from yesterday's 3D house twin — this is HA-first controls and status in the bar.\n\n[hearth-macos on GitHub](https://github.com/obileonardo/hearth-macos)\n\n[Post on X](https://x.com/TheObiLeonard/status/2110638053039784295)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Elvis Obi (@TheObiLeonard)",
+      "url": "https://x.com/TheObiLeonard/status/2110638053039784295",
+      "createdAt": "2026-10-15T07:45:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110620521968935295",
+      "section": "news",
+      "type": "news",
+      "title": "Macinto.sh: secure CLI and MCP tunnel so agents can control your Mac without blanket permissions",
+      "description": "Kyle Wild released Macinto.sh: a notarized Swift menu-bar app holds Accessibility and Screen Recording, while a Rust CLI/MCP server issues clicks, typing and UI reads — with a default 30-minute enable timer and a blinking on-air indicator.",
+      "content": "The design separates trust: only the Swift app gets permanent macOS permissions; agents talk to the Rust MCP/CLI, and the app refuses automation until you enable it (timer by default). Brew cask and GitHub releases are signed and notarized; MIT and free forever.\n\n[macinto-sh on GitHub](https://github.com/dorkitude/macinto-sh)\n\n[Post on X](https://x.com/dorkitude/status/2110620521968935295)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Kyle Wild (@dorkitude)",
+      "url": "https://x.com/dorkitude/status/2110620521968935295",
+      "createdAt": "2026-10-15T06:35:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "ideas:timed-mac-agent-tunnel",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Timed permission tunnel for Mac computer-use agents",
+      "description": "A local menu-bar gate that holds Accessibility and Screen Recording, exposes a short-lived MCP/CLI to coding agents, and auto-disables after a timer with a loud on-air indicator — so agents never get permanent computer-use rights.",
+      "content": "## How it works\n\nShip a small Swift menu-bar app that alone holds the sensitive macOS permissions. A Rust or Swift CLI and MCP server talk only to that app. Enabling automation starts a countdown (default 30 minutes), paints a bright on-screen badge, and logs every click and keystroke to a local file. When the timer ends — or you hit Disable — all agent calls fail closed until a human re-enables.\n\n```mermaid\nflowchart LR\n  A[Coding agent] -->|MCP / CLI| T[Tunnel daemon]\n  T --> G[Menu-bar gate + timer]\n  G -->|Accessibility / Screen| M[macOS apps]\n  G -->|expire| X[Fail closed]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Gate UI | SwiftUI menu-bar app |\n| Agent surface | MCP server + CLI |\n| IPC | XPC or local Unix socket |\n| Distribution | Notarized Developer ID build + brew cask |\n\n## Hard parts\n\n- Keeping the permission surface minimal while still exposing enough UI tree and screenshot APIs for useful agents.\n- Clear \"you are exposed\" UX so a forgotten enable cannot linger overnight.\n- Hardening IPC so a compromised terminal cannot bypass the timer.\n\n## Effort\n\nA long weekend for a click/type/screenshot MVP with a hard timer; 1–2 weeks for notarization, logging and MCP polish.\n\n## Inspired by\n\n- [Kyle Wild on X](https://x.com/dorkitude/status/2110620521968935295)\n- [macinto-sh on GitHub](https://github.com/dorkitude/macinto-sh)",
+      "nextStep": "Sketch the XPC contract: enable(duration), click, type, screenshot, uiTree, disable — and a SwiftUI menu-bar stub that only implements enable/disable with a countdown.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-15T14:15:00Z",
+      "status": "explore"
+    },
+    {
+      "id": "ideas:esp32-desk-pet",
+      "section": "ideas",
+      "type": "idea",
+      "title": "ESP32 desk pet that shows agent status with a face and voice",
+      "description": "A small ESP32 companion on the desk that shows a face, speaks short status lines, and mirrors what your coding agents are doing — idle, thinking, needs approval, done — so agent work stops being a silent terminal tab.",
+      "content": "## How it works\n\nAn ESP32 with a small display and speaker runs a lightweight face/expression UI. Your laptop (or Hermes/Claude/Codex session) posts status events over Wi-Fi or serial: idle, working, waiting for approve, error. The pet animates and optionally speaks a one-line summary. A button on the board can send approve/reject back for gated actions.\n\n```mermaid\nflowchart LR\n  Agent[Coding agent] -->|status events| Hub[Local bridge]\n  Hub -->|Wi-Fi / serial| Pet[ESP32 face + voice]\n  Pet -->|approve / reject| Hub\n  Hub --> Agent\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Board | ESP32-S3 with LCD + I2S speaker |\n| Firmware | ESP-IDF or Arduino + LVGL face UI |\n| Bridge | Tiny Python/Node service on the Mac |\n| Agent hook | MCP tool or shell wrapper that emits status JSON |\n\n## Hard parts\n\n- Keeping latency low enough that expressions feel like they belong to the current task.\n- Safe approve/reject: the board must be an authenticated channel, not an open LAN button.\n- Battery vs always-on USB power and heat on a desk.\n\n## Effort\n\nA weekend for wired status + face states; another week for voice lines and authenticated approve.\n\n## Inspired by\n\n- [Rey on X](https://x.com/yerofreyarc/status/2110378421004231140)\n- [FUMI on GitHub](https://github.com/imaaiagent/fumi)\n- [fumi.codes](https://fumi.codes/)",
+      "nextStep": "Flash an ESP32-S3 with a three-state LVGL face (idle/working/wait) and a Python script that flips states from a dummy agent log.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-15T14:15:00Z",
+      "status": "explore"
     }
   ]
 }
