@@ -16891,6 +16891,245 @@
       "url": "https://arxiv.org/abs/2512.18792",
       "createdAt": "2026-10-15T12:39:13Z",
       "updatedAt": "2026-10-15T12:39:13Z"
+    },
+    {
+      "id": "hn:50099118",
+      "section": "news",
+      "type": "news",
+      "title": "Handwired: compile ordinary JavaScript into an exact neural net",
+      "description": "Cheng Lou's Handwired turns regular JS conditionals and loops into ReLU networks that need no training, stay exactly correct yet differentiable, and run in the browser without a GPU.",
+      "content": "Handwired rewrites plain JavaScript into neural-network arithmetic: a branch like `a > 4 ? 10 : 12` becomes a ReLU-based soft switch that gives the exact same answer but stays differentiable. Demos include a small desktop OS (windows, scrolling, drag, input) compiled into ~9,900 weights across 130 layers with zero training, a gallery where you unfreeze a compiled program's weights and train them live, and a search over 100,000 JSON documents whose regex and parsing code becomes WebGPU kernels.\n\n[Try Handwired](https://chenglou.me/handwired/)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50099118)",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dvrp",
+      "url": "https://chenglou.me/handwired/",
+      "createdAt": "2026-10-15T04:23:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50099136",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Flipflop, persistent Iroh-powered tunnels for sharing files between devices",
+      "description": "Flipflop sets up a trusted, always-on tunnel between your devices (or family members') over Bluetooth, LAN or the internet, so you can send files, links and text any time.",
+      "content": "Flipflop is a Rust app built on Iroh and the Slint UI toolkit. The author started it out of frustration with LocalSend-style one-off transfers: once two devices are paired, the channel stays available, whether they're on the same network, nearby over Bluetooth, or far apart. Builds are available for Linux, macOS, Windows and Android; the author says iOS isn't possible to publish for now.\n\n[Repo on GitHub](https://github.com/andunieee/flipflop)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50099136)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "andunie",
+      "url": "https://github.com/andunieee/flipflop",
+      "createdAt": "2026-10-15T04:25:28Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50097811",
+      "section": "news",
+      "type": "news",
+      "title": "Capsem: a Rust hypervisor that runs each AI coding agent in an air-gapped Linux VM on the Mac",
+      "description": "Capsem uses Apple's Virtualization.framework to boot a throwaway Linux VM per agent session, with network traffic forced through an inspecting proxy and Claude Code, Gemini CLI and Codex preinstalled.",
+      "content": "Capsem sandboxes AI coding agents in lightweight Linux VMs that boot to a prompt in under 10 seconds. Each session gets a read-only root filesystem with a tmpfs workspace, no systemd/sshd/cron, and a dummy NIC with fake DNS, so nothing reaches the real network without going through its MITM proxy where you can see and control every request. Tool access is exposed as a policy-checked MCP endpoint over vsock. It currently runs on macOS; Linux host support, VM checkpoints and a VS Code extension are on the roadmap.\n\n[Capsem site](https://capsem.org/)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50097811)",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "madars",
+      "url": "https://capsem.org/",
+      "createdAt": "2026-10-15T00:58:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50096968",
+      "section": "news",
+      "type": "news",
+      "title": "Robo-bench: frontier models struggle to control simulated robots from motor commands and camera images",
+      "description": "Vals AI's Robo-bench has models drive a robot arm and a humanoid in real-time physics from raw motor commands and camera views; the best model, GPT-6.1 Sol, scores 28.33% and most score far lower.",
+      "content": "Robo-bench gives models only motor commands and camera images, with most tasks held out. On the leaderboard GPT-6.1 Sol leads at 28.33%, followed by GPT-6 Astra (23.33%) and Claude Opus 5.5 (14.58%), while Gemini 4 Argon (0.83%) and Grok 4.7 (0.21%) barely register. Replays show the gaps: on a balance-scale task Sol wrote its own controller and sent 2,204 joint commands to level the beam, while on a Lego-manual task every model declared success after placing one brick correctly at best.\n\n[Leaderboard and methodology](https://www.vals.ai/benchmarks/robo_bench)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50096968)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "miyukimatthews",
+      "url": "https://www.vals.ai/benchmarks/robo_bench",
+      "createdAt": "2026-10-14T23:20:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50101457",
+      "section": "news",
+      "type": "news",
+      "title": "macOS Golden Gate is a buggy mess",
+      "description": "Jeff Johnson argues macOS 27 Golden Gate is no 'Snow Leopard' quality release, citing a Passwords app regression where the password field no longer has keyboard focus at launch.",
+      "content": "Lapcat Software's Jeff Johnson pushes back on the idea that macOS 27 Golden Gate is a bug-fix release. Apple's yearly schedule, he says, piles on new bugs faster than old ones get fixed; the App Running in Background notification issues he reported in June are still unfixed. His new example: on a Mac without Touch ID, the Passwords app opens without focus in the password field, so typing just triggers the alert sound until you press Tab, unlike on macOS Tahoe.\n\n[Read the article](https://lapcatsoftware.com/articles/2026/10/5.html)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50101457)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "robin_reala",
+      "url": "https://lapcatsoftware.com/articles/2026/10/5.html",
+      "createdAt": "2026-10-15T09:58:59Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50099490",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Markov Chains for Programmers, free book (2nd edition) with C code",
+      "description": "Ricardo M. Czekster's free book teaches Markov chains through code rather than proofs, with C solvers, tests and CI; the second edition fixes errata and adds uniformised and embedded DTMCs.",
+      "content": "The book builds chains as matrices and solves them in C: the power method, steady-state solutions for DTMCs and CTMCs, and simulation to check the numbers. The repo includes the PDF (CC BY), GPLv3 C solutions, and about 14 example models (Land of Oz, a mouse maze, a Shakespeare sonnet) also in PRISM, MATLAB and Excel. The 2nd edition marks LLM-assisted passages in grey.\n\n[Book and code on GitHub](https://github.com/czekster/markov)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50099490)",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "raister",
+      "url": "https://github.com/czekster/markov",
+      "createdAt": "2026-10-15T05:19:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:futhark-defining-division",
+      "section": "news",
+      "type": "news",
+      "title": "Making all divisions slower to fix a bug in 0.000000000000000000542% of cases",
+      "description": "The Futhark compiler team explains how INT_MIN / -1 creates undefined behaviour in generated C, how they fixed it, and why the fix costs nothing on CPUs but more than doubles a division-heavy CUDA benchmark.",
+      "content": "Futhark compiles to C and represents its wrap-around integers as unsigned C types to avoid C's signed-overflow undefined behaviour, but signed division of the most negative number by -1 still slipped through. The post walks through the fix, then benchmarks it: no measurable difference on a speculative CPU, but on the CUDA backend a contrived division loop goes from about 5.5 ms to 12.6 ms because the extra branches break up unrolled `div.s32` instructions. The fix has essentially no impact on realistic code, and unsigned division avoids the cost entirely.\n\n[Read the article](https://futhark-lang.org/blog/2026-10-14-defining-division.html)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50097797)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Futhark blog",
+      "url": "https://futhark-lang.org/blog/2026-10-14-defining-division.html",
+      "createdAt": "2026-10-15T00:56:13Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:jpeg-xl-vs-avif",
+      "section": "news",
+      "type": "news",
+      "title": "JPEG XL vs AVIF for web use-cases",
+      "description": "Now that JPEG XL ships in all major browsers, Jake Archibald benchmarks it against AVIF and finds AVIF usually smaller for lossy photos, much smaller for screenshots, illustrations and transparency, and generally faster to encode.",
+      "content": "For lossy photos, the best JPEG XL file is typically 15-25% larger than the equivalent AVIF at default effort (6-20% at max effort), with a few outliers where JPEG XL wins. For screenshots and illustrations, JPEG XL comes out 30-90% larger at default effort, and AVIF also wins on images with transparency. The encoder matters: the newer jixel JPEG XL encoder usually beats libjxl except on detailed transparency. The full post has side-by-side examples and data.\n\n[Read the article](https://jakearchibald.com/2026/jpeg-xl-vs-avif/)\n\n[Discussion on HN](https://news.ycombinator.com/item?id=50102504)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Jake Archibald",
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "createdAt": "2026-10-15T12:08:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110385143643091204",
+      "section": "news",
+      "type": "news",
+      "title": "Hermes Agent v0.22.0 'The Threshold Release': guided setup, connectors, one-click local models",
+      "description": "Nous Research's biggest Hermes Agent release adds a guided first-run chat on a free trial model, app connectors, a one-click llama.cpp local-model runtime, signed desktop packages and a 600-plugin catalog.",
+      "content": "Nous Research shipped Hermes Agent v0.22.0. A fresh desktop install now opens on a setup chat running on a free trial model, so newcomers can start before getting an API key. The release also adds connectors to everyday apps, one-click local models through a bundled llama.cpp runtime, tested SemVer stable releases that installs follow by default, and signed desktop packages (including the Microsoft Store). Other additions: a 600-plugin catalog, password-manager sign-in for the browser, and a bot screen you can take over. Patch releases v0.22.1 and v0.22.2 followed on Oct 14-15.\n\n[Release notes on GitHub](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0)\n\n[Post on X](https://x.com/NousResearch/status/2110385143643091204)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Nous Research (@NousResearch)",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0",
+      "createdAt": "2026-10-14T15:00:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110421732029063352",
+      "section": "news",
+      "type": "news",
+      "title": "Claude Platform adds OpenTelemetry traces for the Messages API, Managed Agents and SDKs",
+      "description": "Anthropic put native OpenTelemetry export in public beta, so Claude agent turns, model calls and tool uses can be sent as standard traces to tools like Grafana, Langfuse and LangSmith.",
+      "content": "Claude Managed Agents and the Messages API send traces once an admin adds a telemetry destination in the Claude Console. The Claude SDKs (Python, TypeScript, C#, Go, Java, PHP, Ruby) emit spans from code. Spans follow the OpenTelemetry gen_ai semantic conventions and include duration, status, token counts, model and tool names; destinations default to metadata-only, with an optional content mode. Grafana, Langfuse and LangChain announced same-day support.\n\n[Announcement](https://claude.com/resources/articles/agent-observability-on-the-claude-platform)\n\n[OpenTelemetry docs](https://platform.claude.com/docs/en/manage-claude/opentelemetry)\n\n[Post on X](https://x.com/ClaudeDevs/status/2110421732029063352)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "ClaudeDevs (@ClaudeDevs)",
+      "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+      "createdAt": "2026-10-14T17:25:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110420697814114693",
+      "section": "news",
+      "type": "news",
+      "title": "White Circle open-sources RISE, a red-teaming method that breaks frontier image-model safeguards",
+      "description": "RISE uses an off-the-shelf Qwen3-32B attacker and a Gemini Flash judge, with no extra training, to get prohibited images from DALL·E 3, GPT-Image and Nano Banana on up to 13% of attempts.",
+      "content": "White Circle's RISE learns attack tactics rather than rewriting a single prompt, which makes prompt blocklists ineffective. Against DALL·E 3, GPT-Image-2 and Nano Banana 2 it produced policy-violating images on up to 13% of attempts. Against the newer GPT-Image-2.5-Flare and Nano Banana 2.1, its success rate on explicit nudity more than doubled compared with the models they replaced.\n\n[Research write-up](https://whitecircle.com/research/breaking-frontier-image-models)\n\n[Post on X](https://x.com/whitecircle/status/2110420697814114693)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "White Circle (@whitecircle)",
+      "url": "https://whitecircle.com/research/breaking-frontier-image-models",
+      "createdAt": "2026-10-14T17:21:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110493926688002182",
+      "section": "news",
+      "type": "news",
+      "title": "SelfReflect launches on the App Store: full body, hand and face tracking from one device",
+      "description": "SelfReflect is a new iOS motion-capture app for VTubers that tracks body, hands and face from a single device and streams to standard VMC apps; free to try with a one-time unlock.",
+      "content": "Brielle Garcia announced SelfReflect on the App Store. It streams tracking data over your local network to a host computer at up to 60 fps and works with VMC-compatible tools such as Warudo, VSeeFace, VNyan and Unreal Engine plugins, with adjustable VRM/ARKit blendshapes. It's free to try, with a single purchase to unlock and no subscription.\n\n[SelfReflect on the App Store](https://apps.apple.com/us/app/selfreflectapp/id6670184754)\n\n[Post on X](https://x.com/tacolamp/status/2110493926688002182)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Brielle Garcia (@tacolamp)",
+      "url": "https://apps.apple.com/us/app/selfreflectapp/id6670184754",
+      "createdAt": "2026-10-14T22:12:17Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110679572962488379",
+      "section": "news",
+      "type": "news",
+      "title": "Matthaus Woolard: over 400x faster Swift with Span, BitwiseCopyable, non-copyable structs and atomics",
+      "description": "Writing performance-critical Swift with spans, BitwiseCopyable types, explicit non-copyable structs and Synchronization-module atomics beat Swift collection types plus kernel-based locking by more than 400x, he reports.",
+      "content": "Matthaus Woolard (@hishnash) shares a result from performance-critical Swift work: combining these newer language and standard-library features gave what he calls amazing speedups:\n\n- `Span` for safe, contiguous memory access\n- `BitwiseCopyable` types\n- explicit non-copyable (`~Copyable`) structs\n- atomics from the `Synchronization` module\n\nHe puts the result at over 400x faster than the same work using Swift collection types and traditional kernel-based locking. The post doesn't include code or benchmark details.\n\n[Post on X](https://x.com/hishnash/status/2110679572962488379)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Matthaus Woolard (@hishnash)",
+      "url": "https://x.com/hishnash/status/2110679572962488379",
+      "createdAt": "2026-10-15T10:29:59Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110695771838579147",
+      "section": "news",
+      "type": "news",
+      "title": "Deploy your CloudKit schema: an iOS dev recovers 146 wiped workouts from the Development environment",
+      "description": "Jonathan Delaire's own iOS app wiped his workouts; Opus 5.5 pulled the database off his phone and found the bug, and he learned his CloudKit schema had never been deployed to Production.",
+      "content": "Jonathan Delaire (@therealdelairj) says his own iOS app wiped his workouts. He had Opus 5.5 pull the database off his phone, and it found the bug. It also turned out his CloudKit schema had never been deployed to Production, and he got 146 workouts back from the Development copy.\n\nHis tip: if you use CloudKit, deploy your schema to Production before shipping to TestFlight.\n\n[Post on X](https://x.com/therealdelairj/status/2110695771838579147)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Jonathan Delaire (@therealdelairj)",
+      "url": "https://x.com/therealdelairj/status/2110695771838579147",
+      "createdAt": "2026-10-15T11:34:21Z",
+      "status": "inbox"
     }
   ]
 }
