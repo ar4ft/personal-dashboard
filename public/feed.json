@@ -16728,6 +16728,169 @@
       "url": "https://debarshibasak.github.io/readables/blogs/inference-vs-distillation",
       "createdAt": "2026-10-14T22:30:43Z",
       "updatedAt": "2026-10-14T22:30:43Z"
+    },
+    {
+      "id": "hn:50097369",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "description": "Liquid AI releases LFM2.5-24B-A2B, a 24B-parameter model optimized for fast on-device agentic workloads.",
+      "topics": [
+        "AI",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "createdAt": "2026-10-14T23:59:37Z",
+      "updatedAt": "2026-10-14T23:59:37Z"
+    },
+    {
+      "id": "hn:50070625",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "description": "A researcher describes downloading an ISO and ending up writing a kernel exploit, in a deep dive on the TP-Link EAP770.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "0xdeafbeef",
+      "url": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
+      "createdAt": "2026-10-13T12:30:08Z",
+      "updatedAt": "2026-10-13T12:30:08Z"
+    },
+    {
+      "id": "hn:50089229",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Submarine cable resilience",
+      "description": "An APNIC analysis of submarine cable resilience and what keeps intercontinental internet connectivity running.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
+      "createdAt": "2026-10-14T15:31:15Z",
+      "updatedAt": "2026-10-14T15:31:15Z"
+    },
+    {
+      "id": "hn:50054465",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Phloem: Git history grown like a slime mold",
+      "description": "Phloem visualizes Git history as if it grew like slime mold, an organic take on repository timelines.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "thclpr",
+      "url": "https://phloem.stemdeck.app/",
+      "createdAt": "2026-10-12T10:52:25Z",
+      "updatedAt": "2026-10-12T10:52:25Z"
+    },
+    {
+      "id": "hn:50070661",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "It took me nine years to hack my Xbox 360",
+      "description": "A nine-year hardware glitching project against the Xbox 360, documented from start to finish.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "kennedn",
+      "url": "https://kennedn.com/blog/posts/glitching/",
+      "createdAt": "2026-10-13T12:33:18Z",
+      "updatedAt": "2026-10-13T12:33:18Z"
+    },
+    {
+      "id": "hn:50067325",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ask HN: CAD for wood working with LLM support?",
+      "description": "An Ask HN thread about CAD software for woodworking with LLM support.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "reacharavindh",
+      "url": "https://news.ycombinator.com/item?id=50067325",
+      "createdAt": "2026-10-13T05:54:01Z",
+      "updatedAt": "2026-10-13T05:54:01Z"
+    },
+    {
+      "id": "hn:50098274",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Double Headed Stack Allocator",
+      "description": "A technical write-up of the double-headed stack allocator, a memory allocation strategy explained with diagrams.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "g0xA52A2A",
+      "url": "https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/",
+      "createdAt": "2026-10-15T02:06:36Z",
+      "updatedAt": "2026-10-15T02:06:36Z"
+    },
+    {
+      "id": "hn:50096300",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Ito – Build Terminal UIs in Lua",
+      "description": "Show HN: Ito, a Lua toolkit for building terminal user interfaces.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "cat-whisperer",
+      "url": "https://uji.sh/ito/",
+      "createdAt": "2026-10-14T22:23:53Z",
+      "updatedAt": "2026-10-14T22:23:53Z"
+    },
+    {
+      "id": "hn:50102637",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: UberDeviceLog – Unified native and WebView logging for iOS and Android",
+      "description": "Show HN: UberDeviceLog, unified native and WebView logging for iOS and Android apps.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "fabricci",
+      "url": "https://uber-device-log.app/",
+      "createdAt": "2026-10-15T12:24:11Z",
+      "updatedAt": "2026-10-15T12:24:11Z"
+    },
+    {
+      "id": "hn:50102775",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Dead Salmons of AI Interpretability",
+      "description": "A paper on the 'dead salmons' problem in AI interpretability research.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Luc",
+      "url": "https://arxiv.org/abs/2512.18792",
+      "createdAt": "2026-10-15T12:39:13Z",
+      "updatedAt": "2026-10-15T12:39:13Z"
     }
   ]
 }
