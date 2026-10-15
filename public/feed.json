@@ -2,6 +2,23 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50096142",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tiny Little Office",
+      "description": "A beta collection of lightweight office and creative tools: word processor, outliner, presentation builder, spreadsheet, calculator, drawing and diagram tools, animator, calendar, and trip planner.",
+      "content": "Tiny Little Office is an Aboard Foundry project. The site lists its tools and identifies the current version as v1.2.32 beta.\n\n[Open Tiny Little Office](https://tinylittleoffice.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50096142)",
+      "author": "Aboard Foundry",
+      "topics": [
+        "Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://tinylittleoffice.com/",
+      "createdAt": "2026-10-14T22:10:08Z"
+    },
+    {
       "id": "x:2110046114820890809",
       "section": "news",
       "type": "news",
