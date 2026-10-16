@@ -18470,6 +18470,172 @@
       "createdAt": "2026-10-16T17:08:38Z",
       "updatedAt": "2026-10-16T17:08:38Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50122800",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude reveals ECDSA curve origins",
+      "description": "Anthropic publishes research on how Claude traced the origins of the ECDSA elliptic curves used in modern cryptography.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ahlCVA",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "createdAt": "2026-10-16T18:55:59Z",
+      "updatedAt": "2026-10-16T18:55:59Z"
+    },
+    {
+      "id": "hn:50122878",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "You could have invented transformers from memory",
+      "description": "A walkthrough showing how the transformer architecture can be motivated from associative-memory ideas, presented so readers could re-derive it.",
+      "topics": [
+        "Neural Networks",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "createdAt": "2026-10-16T19:01:17Z",
+      "updatedAt": "2026-10-16T19:01:17Z"
+    },
+    {
+      "id": "hn:50123580",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FLUX 3 Image Klein",
+      "description": "Black Forest Labs announces FLUX 3 Image Klein, a new text-to-image model release.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "createdAt": "2026-10-16T19:47:13Z",
+      "updatedAt": "2026-10-16T19:47:13Z"
+    },
+    {
+      "id": "hn:50118688",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "description": "A Show HN benchmark demo where Google's Gemini 4 Argon model plays StarCraft.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "__cayenne__",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "createdAt": "2026-10-16T14:18:44Z",
+      "updatedAt": "2026-10-16T14:18:44Z"
+    },
+    {
+      "id": "hn:50118977",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+      "description": "Security research details the exploitation of a 37-year-old kernel vulnerability in OpenBSD.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rs_rs_rs_rs_rs",
+      "url": "https://calif.io/research/big-fish",
+      "createdAt": "2026-10-16T14:44:02Z",
+      "updatedAt": "2026-10-16T14:44:02Z"
+    },
+    {
+      "id": "hn:50117746",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I Love Software Rendering",
+      "description": "An appreciation of software rendering: drawing every pixel in code rather than relying on the GPU.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+      "createdAt": "2026-10-16T12:52:08Z",
+      "updatedAt": "2026-10-16T12:52:08Z"
+    },
+    {
+      "id": "hn:50121004",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "/dev/null: social network for developers",
+      "description": "A Show HN developer-focused social network built around /dev/null.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mnapoli",
+      "url": "https://dev-null.sh",
+      "createdAt": "2026-10-16T16:57:49Z",
+      "updatedAt": "2026-10-16T16:57:49Z"
+    },
+    {
+      "id": "hn:50124251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I never authorized an integration that scans my secrets",
+      "description": "A Home Assistant issue raising that an integration scanned the user's secrets without explicit authorization.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "trvrprkr",
+      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+      "createdAt": "2026-10-16T20:33:41Z",
+      "updatedAt": "2026-10-16T20:33:41Z"
+    },
+    {
+      "id": "hn:50121939",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "description": "Anthropic research on using Claude to design more efficient quantum circuits.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "pretext",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "createdAt": "2026-10-16T18:00:18Z",
+      "updatedAt": "2026-10-16T18:00:18Z"
+    },
+    {
+      "id": "hn:50076089",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Monte-Carlo Simulations",
+      "description": "An explainer of Monte-Carlo simulations with examples, useful background for classical ML and statistics.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://eli.thegreenplace.net/2026/monte-carlo-simulations/",
+      "createdAt": "2026-10-13T18:11:46Z",
+      "updatedAt": "2026-10-13T18:11:46Z"
     }
   ]
 }
