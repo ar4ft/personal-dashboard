@@ -18368,6 +18368,108 @@
       "source": "X digest",
       "createdAt": "2026-10-16T14:16:00Z",
       "status": "explore"
+    },
+    {
+      "id": "hn:50122951",
+      "section": "news",
+      "type": "news",
+      "title": "How the Claude Code team does code review",
+      "description": "Anthropic describes its AI-assisted PR review pipeline, risk-based human checks, and staged rollout safeguards.",
+      "content": "Anthropic outlines pre-PR verification, parallel AI reviewers that find and verify issues, CI and security checks, risk-based human approval, and staged rollout with rollback. It reports that PR volume more than doubled while the reverted share fell by over 40%, and that substantive review comments rose from 16% to 54%. These are internal, self-reported observations without a controlled causal analysis or raw dataset. The review can miss bugs and does not build or run code; human merge accountability remains.\n\n[Read the engineering account](https://claude.dev/blog/solving-code-review-at-anthropic/)\n\n[Claude Code Review documentation](https://code.claude.com/docs/en/code-review)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50122951)",
+      "topics": [
+        "AI",
+        "Programming",
+        "Code Review",
+        "Software Engineering"
+      ],
+      "source": "Hacker News",
+      "author": "Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "createdAt": "2026-10-16T19:04:47Z",
+      "updatedAt": "2026-10-16T19:04:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50118320",
+      "section": "news",
+      "type": "news",
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "description": "Apple reports distributed MLX inference for Meta’s 816B/42B-active Muse Spark Open model across four M5 Ultra Mac Studios.",
+      "content": "Apple describes running Meta’s 816B-total/42B-active Muse Spark Open MoE with MLX, reporting over 36 tokens/s on four M5 Ultra Mac Studios at an 8,192-token context. The NVFP4 model footprint is about 493 GB before runtime overhead, so this is a multi-machine demonstration, not single-Mac performance. The setup uses MLX distributed inference, JACCL, and RDMA over Thunderbolt 5; results are Apple’s own benchmarks. Meta’s weights use the Muse Model License, so “open” does not mean unrestricted.\n\n[Apple’s benchmark and setup](https://machinelearning.apple.com/research/mlx-distributed-inference)\n\n[Meta’s model release](https://research.meta.ai/blog/muse-spark-open) · [Model card and license](https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50118320)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Apple",
+        "Mac",
+        "Local Inference"
+      ],
+      "source": "Hacker News",
+      "author": "Apple Machine Learning Research",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "createdAt": "2026-10-16T13:43:48Z",
+      "updatedAt": "2026-10-16T13:43:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50122431",
+      "section": "news",
+      "type": "news",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "description": "An early PS5 homebrew project brings llama.cpp inference to jailbroken consoles through payload and native Vulkan paths.",
+      "content": "PS5LM is an experimental llama.cpp port for a jailbroken PlayStation 5, with a memory-limited payload path and a separate native Vulkan app. The repository reports 9–21 tokens/s for Qwen3.8-27B on the native path, but this is a maintainer-reported result, not an independent benchmark. It requires compatible firmware, jailbreak and homebrew tooling; “any GGUF” means architectures supported by llama.cpp that also fit the console’s memory and backend limits.\n\n[Project repository](https://github.com/cobanov/PS5LM)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50122431)",
+      "topics": [
+        "AI",
+        "Programming",
+        "Local Inference",
+        "Hardware",
+        "PlayStation"
+      ],
+      "source": "Hacker News",
+      "author": "cobanov",
+      "url": "https://github.com/cobanov/PS5LM",
+      "createdAt": "2026-10-16T18:32:35Z",
+      "updatedAt": "2026-10-16T18:32:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50119991",
+      "section": "news",
+      "type": "news",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "description": "A PostgreSQL release account links AI-assisted review to an edge-case backlog alongside architectural, security-workload, and timing pressures.",
+      "content": "PostgreSQL’s current schedule lists RC1 on October 15, RC2 planned for November 12, and general availability planned for November 19. The Register quotes committer Peter Eisentraut saying LLM-assisted review surfaced a long tail of edge-case reports—about 40 by his rough estimate—with fixed triage overhead. He also cites architectural defects, complexity, reduced review capacity during security work, and timing. The evidence supports AI-assisted review as one contributor, not proof it alone delayed PostgreSQL 19; the reported count is approximate, not a verified bug total.\n\n[The Register report](https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471)\n\n[Committer’s account](https://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves) · [Official PostgreSQL 19 status](https://wiki.postgresql.org/wiki/PostgreSQL_19_Open_Items)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50119991)",
+      "topics": [
+        "Programming",
+        "PostgreSQL",
+        "AI",
+        "Software Engineering"
+      ],
+      "source": "Hacker News",
+      "author": "Lindsay Clark",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "createdAt": "2026-10-16T15:55:40Z",
+      "updatedAt": "2026-10-16T15:55:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50121179",
+      "section": "news",
+      "type": "news",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "description": "Mercor estimates that most US work hours fall on tasks with little benchmark coverage in its map—not that AI cannot perform them.",
+      "content": "Mercor maps 29 selected AI benchmarks onto 923 O*NET occupations and 18,797 tasks. It counts a task as covered only when at least five benchmark prompts map to it, then combines that coverage with LLM-estimated task-time shares to produce the “90%” figure. This is a provisional estimate of benchmark coverage, not a measure of model capability, automation, or job-loss risk. Mercor notes subjectivity and sampling limits; its APEX expert review accepted the model’s first-choice mapping in about 76.7% of judgments.\n\n[Benchmark map](https://www.mercor.com/research/labor-index/benchmark-map/)\n\n[Methodology and limitations](https://www.mercor.com/research/labor-index/benchmark-map/methodology/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50121179)",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Benchmarks",
+        "Labor Markets"
+      ],
+      "source": "Hacker News",
+      "author": "Mercor Research",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "createdAt": "2026-10-16T17:08:38Z",
+      "updatedAt": "2026-10-16T17:08:38Z",
+      "status": "inbox"
     }
   ]
 }
