@@ -18218,6 +18218,156 @@
       "url": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
       "createdAt": "2026-10-16T00:52:40Z",
       "status": "inbox"
+    },
+    {
+      "id": "x:2110756359679426815",
+      "section": "news",
+      "type": "news",
+      "title": "Inbox Zero Mail: open-source Superhuman alternative for Gmail and Outlook",
+      "description": "Keyboard-first unified inbox with split inboxes, AI triage and drafts, bulk unsubscribe and team tools — web, desktop and native iOS; self-host free or $20/mo AI.",
+      "content": "Inbox Zero is an open-source Superhuman-style client for Gmail and Outlook: keyboard-first navigation, split inboxes, AI triage and drafts, bulk unsubscribe, and team workflows. It ships as web, desktop, and native iOS, with a free self-host path and a $20/mo AI tier.\n\n[Inbox Zero site](https://www.getinboxzero.com/)\n\n[Repo on GitHub](https://github.com/elie222/inbox-zero)\n\n[Post on X](https://x.com/elie2222/status/2110756359679426815)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@elie2222",
+      "url": "https://x.com/elie2222/status/2110756359679426815",
+      "createdAt": "2026-10-15T15:35:06.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111004243939172588",
+      "section": "news",
+      "type": "news",
+      "title": "Strix: open-source AI pentesting agent that proves exploits, not just scans",
+      "description": "Local Docker agent finds SQLi/XSS/auth flaws, validates with PoCs, suggests fixes, and can gate GitHub PRs — works beside Claude Code, Cursor and Codex.",
+      "content": "Strix runs as a local Docker agent that does more than vulnerability scanning: it finds SQLi, XSS, and auth flaws, validates them with proof-of-concept exploits, suggests fixes, and can gate GitHub PRs. It slots in beside Claude Code, Cursor, and Codex for agent-assisted security review.\n\n[Repo on GitHub](https://github.com/usestrix/strix)\n\n[Post on X](https://x.com/0xrux/status/2111004243939172588)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@0xrux",
+      "url": "https://x.com/0xrux/status/2111004243939172588",
+      "createdAt": "2026-10-16T08:00:06.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110997747210100891",
+      "section": "news",
+      "type": "news",
+      "title": "deepseek-bot: open-source agent harness tuned for DeepSeek with persistent memory",
+      "description": "Ultra-fast TUI agent built on deepseek-harness with lasting user memory — same class of local agent as Hermes/Dots, optimized for DeepSeek models.",
+      "content": "deepseek-bot is an ultra-fast TUI agent built on deepseek-harness with lasting user memory. It sits in the same local-agent class as Hermes and Dots, but is tuned specifically for DeepSeek models.\n\n[Repo on GitHub](https://github.com/rlaope/deepseek-bot)\n\n[Post on X](https://x.com/rlaope/status/2110997747210100891)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@rlaope",
+      "url": "https://x.com/rlaope/status/2110997747210100891",
+      "createdAt": "2026-10-16T07:34:18.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110902041048387926",
+      "section": "news",
+      "type": "news",
+      "title": "OpenBiliClaw: local-first cross-platform AI content discovery agent",
+      "description": "On-device profile in SQLite learns from feedback across Bilibili, YouTube, X, Reddit, GitHub and more, then hunts recommendations without a cloud account.",
+      "content": "OpenBiliClaw keeps an on-device profile in SQLite that learns from your feedback across Bilibili, YouTube, X, Reddit, GitHub and more, then hunts recommendations without a cloud account — a local-first content discovery agent.\n\n[Repo on GitHub](https://github.com/whiteguo233/OpenBiliClaw)\n\n[Post on X](https://x.com/DanKornas/status/2110902041048387926)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@DanKornas",
+      "url": "https://x.com/DanKornas/status/2110902041048387926",
+      "createdAt": "2026-10-16T01:13:59.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111050407749255676",
+      "section": "news",
+      "type": "news",
+      "title": "ScreenCraft: open-source Screen Studio alternative with auto-zoom and offline captions",
+      "description": "Native Rust recorder/editor for polished demo videos — cursor-following zooms, device frames, on-device captions, annotations and up to 4K60 MP4 export on your machine.",
+      "content": "ScreenCraft is a native Rust recorder and editor aimed at polished demo videos: cursor-following zooms, device frames, on-device captions, annotations, and up to 4K60 MP4 export — all offline on your machine as an open-source Screen Studio alternative.\n\n[Repo on GitHub](https://github.com/MarshallNickolauson/ScreenCraft)\n\n[ScreenCraft site](https://screencraft.mdnlabs.dev)\n\n[Post on X](https://x.com/mdnlabs/status/2111050407749255676)",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@mdnlabs",
+      "url": "https://x.com/mdnlabs/status/2111050407749255676",
+      "createdAt": "2026-10-16T11:03:33.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110978067103658416",
+      "section": "news",
+      "type": "news",
+      "title": "Agent Island: macOS menu bar HUD that watches Codex, Claude and other agents live",
+      "description": "Open-source menu-bar status island for agent activity, approvals and local context so you do not keep flipping through terminal tabs.",
+      "content": "Agent Island is an open-source macOS menu-bar HUD that watches Codex, Claude, and other agents live — activity, approvals, and local context — so you do not keep flipping through terminal tabs.\n\n[Repo on GitHub](https://github.com/Bill-Fei/agent-island)\n\n[Download](https://agent-island.pages.dev)\n\n[Post on X](https://x.com/nihao3640921853/status/2110978067103658416)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@nihao3640921853",
+      "url": "https://x.com/nihao3640921853/status/2110978067103658416",
+      "createdAt": "2026-10-16T06:16:05.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110766744260218964",
+      "section": "news",
+      "type": "news",
+      "title": "RoboParty open-sources RP1: full-stack humanoid platform with CAD, firmware and learning tools",
+      "description": "Connected humanoid stack beyond a body — mechanical design, joints, firmware, control, simulation and learning; variants from 24–42 DoF with swappable hands.",
+      "content": "RoboParty open-sourced RP1 as a full-stack humanoid platform: mechanical design, joints, firmware, control, simulation, and learning tools — not just a body. Variants span 24–42 DoF with swappable hands, plus Party_OS for the software side.\n\n[RP1 on GitHub](https://github.com/Roboparty/RP1)\n\n[Party_OS](https://github.com/Roboparty/Party_OS)\n\n[Post on X](https://x.com/WallStreetB0Ts/status/2110766744260218964)",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@WallStreetB0Ts",
+      "url": "https://x.com/WallStreetB0Ts/status/2110766744260218964",
+      "createdAt": "2026-10-15T16:16:22.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "ideas:menu-bar-agent-island",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Menu-bar agent island for dashboard and coding agents",
+      "description": "A tiny macOS menu-bar HUD that shows live status for Hermes, Claude, Codex and dashboard curation runs — working, waiting for approve, error — with one-click open logs.",
+      "content": "## How it works\n\nA SwiftUI `MenuBarExtra` reads a small local JSON status file that agents (Hermes, Claude, Codex, or dashboard curation scripts) rewrite every couple of seconds. The island shows working / waiting-for-approve / error, and a click opens the matching log. Approvals stay on the laptop; the bar is just visibility.\n\n```mermaid\nflowchart LR\n  Agents[Hermes / Claude / Codex / digest] -->|write status JSON| File[Local status file]\n  File -->|poll 2s| Island[MenuBarExtra HUD]\n  Island -->|open logs| Logs[Terminal / log viewer]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| UI | SwiftUI MenuBarExtra on macOS |\n| Status contract | Tiny JSON schema (id, state, logPath, updatedAt) |\n| Writers | Dummy Python agent, then real agent hooks / shell wrappers |\n| Open action | `NSWorkspace` / `open` on the log path |\n\n## Hard parts\n\n- One shared status file vs per-agent files without races or stale states.\n- Keeping the island quiet when nothing is running so it does not become noise.\n- Mapping approve/wait states without turning the menu bar into a second chat UI.\n\n## Effort\n\nAn afternoon for a dummy writer + three-state island; a weekend to wire real agents and log open.\n\n## Inspired by\n\n- [Agent Island post on X](https://x.com/nihao3640921853/status/2110978067103658416)\n- [agent-island on GitHub](https://github.com/Bill-Fei/agent-island)\n- [Download](https://agent-island.pages.dev)",
+      "nextStep": "Sketch a SwiftUI MenuBarExtra that reads a local JSON status file written by a dummy Python agent every 2 seconds.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-16T14:15:00Z",
+      "status": "explore"
+    },
+    {
+      "id": "ideas:local-demo-video-craft",
+      "section": "ideas",
+      "type": "idea",
+      "title": "Local auto-zoom demo video exporter for agent launches",
+      "description": "Record a product walkthrough once, then export a Screen Studio-style clip with cursor zooms, captions and device frames entirely on-device for digest highlights and README demos.",
+      "content": "## How it works\n\nRecord a short screen capture of a product or dashboard walkthrough. A local CLI tracks cursor position, builds crop/zoom keyframes, burns optional captions, and composites a device frame, then writes an MP4 with ffmpeg — no cloud editor. Use the clips for digest highlights and README demos.\n\n```mermaid\nflowchart LR\n  Capture[Screen capture] --> Cursor[Cursor track + zoom keyframes]\n  Cursor --> Caps[Offline captions]\n  Caps --> Frame[Device frame composite]\n  Frame --> Out[ffmpeg MP4 export]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Capture | macOS ScreenCaptureKit or a simple Rust/Swift recorder |\n| Zoom logic | Cursor-follow crop boxes in a small CLI |\n| Captions | On-device speech-to-text or manual SRT |\n| Export | ffmpeg H.264/H.265 MP4 |\n\n## Hard parts\n\n- Smooth zoom interpolation that feels intentional, not nauseating.\n- Keeping the whole pipeline offline and fast enough for 30–60s clips.\n- Framing that works for both README embeds and social-sized cuts.\n\n## Effort\n\nA weekend for cursor-follow crops + ffmpeg export; longer for polished captions and device frames.\n\n## Inspired by\n\n- [ScreenCraft post on X](https://x.com/mdnlabs/status/2111050407749255676)\n- [ScreenCraft on GitHub](https://github.com/MarshallNickolauson/ScreenCraft)\n- [ScreenCraft site](https://screencraft.mdnlabs.dev)",
+      "nextStep": "Record a 30-second screen capture of the dashboard and prototype cursor-follow crop boxes in a small Swift or Rust CLI that writes an MP4 via ffmpeg.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-16T14:16:00Z",
+      "status": "explore"
     }
   ]
 }
