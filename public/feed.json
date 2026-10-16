@@ -17700,6 +17700,276 @@
       "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
       "createdAt": "2026-10-15T19:55:49Z",
       "updatedAt": "2026-10-15T19:55:49Z"
+    },
+    {
+      "id": "hn:50115465",
+      "section": "news",
+      "type": "news",
+      "title": "Mistral Timestral: time-series foundation models from 5M to 209M parameters that run on CPU",
+      "description": "Mistral's first time-series foundation model family gives zero-shot probabilistic, multivariate forecasts with past and known-future covariates, and its 209M model ranks first on GIFT-Eval, TIME and fev-bench.",
+      "content": "Timestral comes in four sizes (5M, 28M, 123M, 209M) with a 32,768-step context and 21-quantile probabilistic output. Mistral says it needs no GPU: forecasting a day ahead from three weeks of 15-minute data takes 10 ms (5M) to 140 ms (209M) on an 8-thread CPU. The post contrasts it with classical ARIMA/linear regression and per-dataset deep models like PatchTST, and describes the techniques: decoupled horizon forecasting, covariate-aware attention, mostly synthetic pre-training data, and two-stage training with a pinball loss. It ships under a modified MIT licence.\n\n[Mistral announcement](https://mistral.ai/news/timestral/)\n\n[Timestral collection on Hugging Face](https://huggingface.co/collections/mistralai/timestral)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50115465)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "hqm_",
+      "url": "https://mistral.ai/news/timestral/",
+      "createdAt": "2026-10-16T07:57:26Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50105791",
+      "section": "news",
+      "type": "news",
+      "title": "Microsoft AI details MAI-Base-2 pre-training: 2.8T-parameter MoE, scaling ladders and Muon at 16k GPUs",
+      "description": "Microsoft AI's technical write-up on pre-training MAI-Base-2 (80B active / 2.8T total MoE) covers source-scaled scaling ladders, fitted hyperparameter scaling laws, dropless MoE, Muon optimizer engineering and activation gradient clipping.",
+      "content": "A detailed pre-training report: MAI-Base-2 was trained on 16k GB200 GPUs for 38 days (21% MFU, 89% goodput) on a 50T-token mix, and Microsoft claims a 4-12x pre-training FLOPs-efficiency advantage over DeepSeek-V4-Pro-Base. The useful material for ML practitioners:\n\n- **Source scaling** in scaling ladders so small runs repeat data as often as the full run does\n- **Hyperparameter scaling laws** fitted by sweeping learning rate against LR x weight decay (e.g. LR* x WD* = 17.04 / steps), plus a dropout law\n- **Multi-round dropless MoE** with fixed memory under routing imbalance (MoE MFU raised from 24% to 35%)\n- **Muon** at scale (2.1% of iteration time) and **activation gradient clipping**, which also surfaced a data-pipeline bug\n\n[Microsoft AI post](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50105791)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "psoulos",
+      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+      "createdAt": "2026-10-15T16:12:13Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50103263",
+      "section": "news",
+      "type": "news",
+      "title": "GridSnap: an open-source, Divvy-style grid window snapper for macOS",
+      "description": "GridSnap is an MIT-licensed Swift menu-bar app: press a shortcut, drag across a grid overlay and the focused window snaps to that region, with presets bound to their own global shortcuts.",
+      "content": "GridSnap re-creates the Divvy workflow: a grid overlay with live preview, presets with their own hotkeys (Full screen on Ctrl-Opt-F built in), undo of the last snap, adjustable grid size and gaps, and multi-display support. It needs only the Accessibility permission and has no network access, analytics or accounts. It requires macOS 14+ (glass material on macOS 26), installs via a Homebrew cask, and builds with plain `swiftc`, no Xcode project.\n\n[Repo on GitHub](https://github.com/konieczkow/gridsnap)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50103263)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zderror",
+      "url": "https://github.com/konieczkow/gridsnap",
+      "createdAt": "2026-10-15T13:19:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50115905",
+      "section": "news",
+      "type": "news",
+      "title": "SpatialCue: Vision Pro-style palm-flip gestures on Apple Watch and AirPods",
+      "description": "An open-source watchOS + iOS experiment that detects a Vision Pro-like palm-up/flip gesture with Apple Watch motion sensors to tell the time by haptics or speech, and uses Double Tap, wrist flicks and AirPods head motion to control music.",
+      "content": "SpatialCue (MIT, Swift) pairs an Apple Watch app (gesture recognition, haptics) with an iPhone app (AirPods head-motion relay, settings, music control). Turn your palm up to arm it, flip it back to hear the time in Digits or Morse-code haptics; on the clock, Double Tap plays/pauses, wrist flicks skip tracks and the Digital Crown sets volume. Pinches can come from Double Tap, Accessibility Quick Actions, AirPods nods or an experimental wrist-impact classifier you train on-watch. The author notes the thresholds were tuned on synthetic data. Requires iOS 17+ and watchOS 11+.\n\n[Repo on GitHub](https://github.com/Ag3497120/SpatialCue)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50115905)",
+      "topics": [
+        "Wearables",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "kofuudai",
+      "url": "https://github.com/Ag3497120/SpatialCue",
+      "createdAt": "2026-10-16T08:58:19Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50103587",
+      "section": "news",
+      "type": "news",
+      "title": "Antithesis opens its time-travel Multiverse Debugger to coding agents",
+      "description": "Antithesis now lets agents drive its deterministic Multiverse Debugger: rewind a failing distributed-systems test to any moment, branch time with a terminal, inspect state, then rerun the fix in Antithesis.",
+      "content": "With Release 64, agents can do what human Antithesis users already could: open a bit-for-bit deterministic replay of a bug, jump to any moment in its history, and run commands in a branched timeline without losing the original repro. The post walks through an etcd linearizability bug (a paused old leader resuming after a new election) and a Claude session debugging HashiCorp Raft. Access is via an `antithesis-debug` agent skill, the Snouty CLI (`snouty runs exec`, `snouty runs search`) or a `/command` HTTP API.\n\n[Antithesis blog post](https://antithesis.com/blog/2026/time-traveling-agents/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50103587)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ghuntley",
+      "url": "https://antithesis.com/blog/2026/time-traveling-agents/",
+      "createdAt": "2026-10-15T13:41:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50108229",
+      "section": "news",
+      "type": "news",
+      "title": "E Ink Kaleido 4: color ePaper with double the gamut and 18 fps video",
+      "description": "E Ink's new Kaleido 4 color ePaper doubles color gamut volume, raises white reflectance 15% and contrast 50%, and plays video at up to 18 fps; Hanvon's M10C II notebook is the first device to use it.",
+      "content": "Kaleido 4 adds a new oxide TFT backplane that supports higher drive voltages and faster refresh, plus new algorithms for up to 18 fps video. E Ink pitches it for color PDFs, slides, charts and engineering drawings rather than just books. The first device, Hanvon's M10C II note-taker, pairs it with a redesigned front light, 27% faster page turns and an 8,192-level battery-free pen.\n\n[E Ink announcement](https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50108229)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Perroboc",
+      "url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+      "createdAt": "2026-10-15T18:38:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50113844",
+      "section": "news",
+      "type": "news",
+      "title": "dotnetup: a rustup-style toolchain manager for .NET SDKs and runtimes",
+      "description": "Microsoft's public preview of dotnetup installs, updates and removes .NET SDKs and runtimes in your user account without admin rights, tracks channels like 10.0 or latest, respects global.json and handles previews and daily builds.",
+      "content": "Modeled on `rustup` and `nvm`, `dotnetup` gives macOS, Linux and PowerShell the same commands: `dotnetup init`, `list`, `update`, `sdk install preview`, `runtime install aspnetcore@10.0` or `runtime install daily`. Installs are verified by signature and checksum, unneeded versions are cleaned up after updates, and exact pins stay fixed. It is pitched for CI as well, with GitHub Actions / Azure DevOps integration and Windows system-install support on the roadmap.\n\n[.NET Blog announcement](https://devblogs.microsoft.com/dotnet/introducing-dotnetup/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50113844)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "soheilpro",
+      "url": "https://devblogs.microsoft.com/dotnet/introducing-dotnetup/",
+      "createdAt": "2026-10-16T03:50:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:rieseberg-ambitious-with-models",
+      "section": "news",
+      "type": "news",
+      "title": "How to be more ambitious with AI models: altitude, depth and range",
+      "description": "Felix Rieseberg, who works on Claude, lays out a practical framework for getting more out of models: aim at outcomes rather than tasks (altitude), insist on expert-grade methods and outside validation (depth), and pull in other fields (range).",
+      "content": "An essay with concrete prompts, using a quarterly-business-review deck as the running example. Altitude: ask for the goal behind the task, like Rieseberg asking Claude to keep apps crash-free instead of fixing single crashes. Depth: demand real databases and statistical models, set unreasonable targets and use an outside judge instead of self-review. Range: describe the work as verbs and assemble a cross-discipline crew. The essay ends with research on self-efficacy and goal setting.\n\n[Read the essay](https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50100345)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Felix Rieseberg",
+      "url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/",
+      "createdAt": "2026-10-15T07:16:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111027329816465435",
+      "section": "news",
+      "type": "news",
+      "title": "Tencent open-sources Hy Memory 2.0: memory model, agent memory SDK and MemHub app",
+      "description": "Tencent Hunyuan released Hy Memory 2.0 as three open layers: the Hy-Memory-30B-A3B model that reads and writes memories, the hy-memory Python engine for chat, work and coding memory, and MemHub, a local-first CLI and Mac app that shares memory across AI tools.",
+      "content": "Hy Memory is a memory engine for LLM agents with separate pipelines for **Chat** (hierarchical long-term memory), **Working** (facts plus reusable experience) and **Coding** (version-evolution diff chains). MemHub collects history from user-authorized tools such as Claude Code, Cursor, Codex, OpenCode and Qwen Code into one local data directory. Tencent says the 30B-A3B model ranks first among open-source models on four memory benchmarks and slightly beats Claude Opus 5 on its macro average (55.49 vs 54.62). These are Tencent's own numbers.\n\n[Repo on GitHub](https://github.com/Tencent-Hunyuan/Hy-Memory)\n\n[Hy-Memory-30B-A3B on Hugging Face](https://huggingface.co/tencent/Hy-Memory-30B-A3B)\n\n[Post on X](https://x.com/TencentHunyuan/status/2111027329816465435)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Tencent Hy (@TencentHunyuan)",
+      "url": "https://x.com/TencentHunyuan/status/2111027329816465435",
+      "createdAt": "2026-10-16T09:31:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110703084032663884",
+      "section": "news",
+      "type": "news",
+      "title": "ATC: an open-source coding agent that uses Scala 3 capture checking to limit what it can do",
+      "description": "EPFL's LAMP lab released ATC, a terminal coding agent based on TACIT that writes Scala 3 snippets against a capability-typed API, so file writes, commands and network calls only compile and run when the matching capability is in scope.",
+      "content": "Every snippet the agent writes is compiled before it runs. Capture checking limits which capabilities it can retain, a safe mode restricts APIs, and host-side permission rules deny by default (deny rules win). Confidential values stay wrapped in `Classified` and can only leave through approved outputs. ATC adds a terminal UI, persistent REPL sessions and multiple model providers, including Claude and Codex subscriptions. Apache-2.0, funded by the Swiss Cyber-Defence Campus.\n\n[Repo on GitHub](https://github.com/lampepfl/atc)\n\n[TACIT, the underlying design](https://github.com/lampepfl/tacit)\n\n[Post on X](https://x.com/etaconversion/status/2110703084032663884)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Oliver Bračevac (@etaconversion)",
+      "url": "https://x.com/etaconversion/status/2110703084032663884",
+      "createdAt": "2026-10-15T12:03:24Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110708151838232908",
+      "section": "news",
+      "type": "news",
+      "title": "Amazon's Bee Frontier wearable and Bee Eclipse phone attachment turn conversations into AI memories",
+      "description": "Amazon introduced two Bee devices: the $74.99 Bee Frontier, worn on the wrist or clipped on with a 7-day battery and IP67 rating, available now, and the $99.99 Bee Eclipse magnetic phone attachment with 21+ days of battery, coming soon.",
+      "content": "Both devices record speech and turn it into searchable summaries, to-dos and reminders. Amazon says audio is processed and then deleted, and transcripts are encrypted. The free tier keeps 14 days of memory. Bee Pro ($11.99/month) adds longer-term memory and planned Alexa+ and Amazon.com connections, which are not live yet. Coverage notes the privacy questions for bystanders that come with an always-listening wearable.\n\n[TechBooky coverage](https://www.techbooky.com/amazon-launches-bee-frontier-wearable-and-eclipse-ai-accessory/)\n\n[Post on X](https://x.com/amazon/status/2110708151838232908)",
+      "topics": [
+        "Wearables",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Amazon (@amazon)",
+      "url": "https://x.com/amazon/status/2110708151838232908",
+      "createdAt": "2026-10-15T12:23:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110760472106443202",
+      "section": "news",
+      "type": "news",
+      "title": "Voxum: free, open-source local dictation for macOS using WhisperKit and a Qwen3 4B model on MLX",
+      "description": "Voxum is a GPL-3.0 macOS menu-bar app: hold a key, speak, and Whisper (via WhisperKit) transcribes while a local Qwen3 4B model on MLX cleans up the text before pasting it where you type. Nothing leaves your Mac.",
+      "content": "Beyond dictation it can edit a selection by voice (\"make it more formal\", \"translate it\"), answer questions in a floating panel, and transcribe audio and video files. It has a hands-free mode, a No AI mode that pastes raw Whisper output, and supports English, Brazilian Portuguese, Spanish (beta), French and Simplified Chinese. The network is used only for the one-time model download and EdDSA-signed Sparkle update checks.\n\n[Repo on GitHub](https://github.com/GSB05BR/voxum)\n\n[Post on X](https://x.com/GabrielSB05/status/2110760472106443202)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Gabriel Biagini (@GabrielSB05)",
+      "url": "https://x.com/GabrielSB05/status/2110760472106443202",
+      "createdAt": "2026-10-15T15:51:27Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111049717756924020",
+      "section": "news",
+      "type": "news",
+      "title": "iOS 27 SwiftUI: drag to reorder in ForEach with .reorderable() and .reorderContainer",
+      "description": "In iOS 27, SwiftUI's ForEach gets its own drag-to-reorder: mark the ForEach .reorderable() and put .reorderContainer on the List, with no .onMove handler and no edit mode.",
+      "content": "Sarun's tip for the new iOS 27 API:\n\n- Add `.reorderable()` to the `ForEach`\n- Add `.reorderContainer` to the enclosing `List`\n\nThat replaces the old pattern of an `.onMove` closure plus an `EditButton`/edit mode just to let users drag rows around. His post includes a screenshot of the code.\n\n[Post on X](https://x.com/sarunw/status/2111049717756924020)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2111049717756924020",
+      "createdAt": "2026-10-16T11:00:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110778478312481167",
+      "section": "news",
+      "type": "news",
+      "title": "Perplexity open-sources SPACE, the Firecracker microVM sandbox platform behind Perplexity Computer",
+      "description": "Perplexity released SPACE (Sandboxed Platform for Agentic Code Execution) under Apache 2.0: each agent task gets its own Firecracker microVM, with credentials and outbound traffic controlled from outside the VM.",
+      "content": "SPACE is the sandbox that runs every task in Perplexity Computer and the first open component of its Agentic Runtime Platform. Applications use an HTTP API to create sandboxes from templates, run command sessions and stream output; sandboxes can outlive the request that created them and pause, fork or suspend to a memory and disk snapshot, then wake where they left off. Agents get root inside the guest while a per-sandbox gateway enforces egress policy on every outbound connection. It is written in Rust, deploys on Kubernetes (a local Kind setup is documented) and ships an E2B compatibility wrapper. Perplexity says it handles millions of executions a day, and in its red-team write-up nine frontier-model configurations made 108 escape attempts with root in the VM, none reaching the host.\n\n[Repo on GitHub](https://github.com/perplexityai/SPACE)\n\n[Perplexity blog: Open-sourcing SPACE](https://www.perplexity.ai/hub/blog/open-sourcing-space)\n\n[Escaping SPACE: Part I (red-teaming)](https://www.perplexity.ai/hub/blog/escaping-space-part-i)\n\n[Post on X](https://x.com/perplexity_ai/status/2110778478312481167)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Perplexity (@perplexity_ai)",
+      "url": "https://x.com/perplexity_ai/status/2110778478312481167",
+      "createdAt": "2026-10-15T17:03:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2110804295352488143",
+      "section": "news",
+      "type": "news",
+      "title": "Google Quantum AI demonstrates magic state cultivation on Willow: 40x lower error, 99.99% logical fidelity",
+      "description": "Google Quantum AI ran magic state cultivation on physical hardware for the first time, cutting errors about 40x versus un-cultivated states on its Willow processor and reaching T-states with 99.99% logical fidelity, published in Science.",
+      "content": "Magic states are needed for universal, error-corrected quantum computing but are expensive to make; some estimates put up to 95% of a machine's capacity into producing them. Cultivation, proposed by Craig Gidney, Noah Shutty and Cody Jones in 2024, injects a noisy state into a small patch of the chip and filters it with coordinated checks, discarding flawed attempts (8% of attempts were kept). The team also grafted states from a distance-3 color code into a distance-5 surface code and built a new benchmarking method after lab noise invalidated their usual one. Google notes it still has to be shown at larger scale.\n\n[Google blog: Bringing the magic](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/)\n\n[Paper in Science: Magic state cultivation on a superconducting quantum processor](https://www.science.org/doi/10.1126/science.aee7961)\n\n[arXiv preprint](https://arxiv.org/abs/2512.13908)\n\n[Post on X](https://x.com/sundarpichai/status/2110804295352488143)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Sundar Pichai (@sundarpichai)",
+      "url": "https://x.com/sundarpichai/status/2110804295352488143",
+      "createdAt": "2026-10-15T18:45:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:osmani-agentic-code-quality",
+      "section": "news",
+      "type": "news",
+      "title": "Agentic Code Quality: quality now depends on the constraints you set around your agents",
+      "description": "Addy Osmani argues that code review doesn't scale to agent-generated code, so quality has to come from deterministic quality gates in the harness, environment and pipeline, with human attention saved for the nuanced calls.",
+      "content": "Republished on O'Reilly Radar from Osmani's Elevate blog. The main points:\n\n- **Quality gates**: unit, property and acceptance tests, mutation testing, complexity and line-length metrics, type safety, performance checks, security scanning and architecture rules (for example via ESLint)\n- **Back-pressure** throughout the loop (compilers, failing tests, security policies, CI refusing to deploy), not one review at the end\n- **When verification can't keep up**: scale verification, slow agent output, or lower the quality bar, and keep the tightest constraints where they protect both throughput and quality\n- **Humans** are pulled in only when automated guardrails break, and focus on taste, intent and architecture\n\n[Read on O'Reilly Radar](https://www.oreilly.com/radar/agentic-code-quality/)\n\n[Original on Addy Osmani's blog](https://addyosmani.com/blog/agentic-code-quality/)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Addy Osmani",
+      "url": "https://www.oreilly.com/radar/agentic-code-quality/",
+      "createdAt": "2026-10-15T10:54:58Z",
+      "status": "inbox"
     }
   ]
 }
