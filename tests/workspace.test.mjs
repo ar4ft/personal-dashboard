@@ -63,6 +63,34 @@ test("An empty or partial incoming batch retains tracked older stories", () => {
   mergeFeed(state, []);
   assert.ok(materialize([], state).some((i) => i.id === "hn:100"));
 });
+test("Feeds beyond former count limits retain every story, personal tracking and backup data", () => {
+  const payload = {
+    version: 1,
+    items: Array.from({ length: 10001 }, (_, index) => ({
+      id: `retention:${index}`,
+      section: "news",
+      title: `Retained story ${index}`,
+      createdAt: "2026-10-01T00:00:00Z",
+    })),
+  };
+  const items = validateFeed(payload);
+  assert.equal(items.length, payload.items.length);
+  const state = emptyState();
+  mergeFeed(state, items);
+  state.favorites = [items[0].id];
+  state.edits[items[0].id] = { status: "following", content: "Keep these notes" };
+  mergeFeed(state, validateFeed(feed({ id: "retention:new" })));
+  const retained = materialize([], state);
+  assert.equal(retained.length, 10002);
+  assert.equal(retained[0].favorite, true);
+  assert.equal(retained[0].content, "Keep these notes");
+  assert.equal(retained[0].status, "following");
+  const backup = JSON.parse(JSON.stringify({ kind: "personal-dashboard-backup", version: 1, state }));
+  assert.deepEqual(validateBackup(backup), state);
+  // Removing a count ceiling must not skip validation of later items.
+  payload.items[10000].url = "javascript:alert(1)";
+  assert.throws(() => validateFeed(payload), /http/);
+});
 test("Card movement changes columns and preserves order including filtered cards", () => {
   const state = emptyState();
   const news = seed.filter((i) => i.section === "news");

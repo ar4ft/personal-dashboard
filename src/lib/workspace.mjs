@@ -247,8 +247,6 @@ export function validateItem(value) {
 function validateCollection(payload) {
   if (!payload || payload.version !== 1 || !Array.isArray(payload.items))
     throw new Error("Use a JSON object with version: 1 and an items array.");
-  if (payload.items.length > 10000)
-    throw new Error("A feed can contain at most 10,000 items.");
   const items = payload.items.map(validateItem);
   if (new Set(items.map((i) => i.id)).size !== items.length)
     throw new Error("Feed item IDs must be unique across all sections.");

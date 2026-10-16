@@ -67,6 +67,8 @@ Commit a versioned JSON feed to **`public/feed.json`**. GitHub Actions validates
 
 Alternatively enter a public JSON feed URL in **Feeds & backup**. The endpoint must permit browser access using CORS, and it must be HTTPS when served from GitHub Pages. No private API credential is stored or sent by this app.
 
+There is no item-count or age-based feed retention limit. Producers must retain all existing stories when adding batches, including beyond 600 or 10,000 items; UI pagination only limits rendered cards. The 10 MB JSON file-size guard still rejects oversized files without trimming content. Read [the retention rules](docs/feed-format.md#retention) before changing a producer.
+
 Feed items are merged by stable ID. Repeated ingestion updates source fields while retaining favorites, board positions, and individually edited fields. Old items stay in the browser cache for tracking even when absent from a newer feed; delete an item to hide it in your workspace. Use globally unique IDs (for example `hn:123456` or `x:987654`) and keep IDs unchanged between updates. Import feed JSON is additive; Restore backup replaces local state.
 
 See [the feed format](docs/feed-format.md) for all fields and a three-section example. The JSON Schema is at [public/feed.schema.json](public/feed.schema.json).

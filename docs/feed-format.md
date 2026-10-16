@@ -49,7 +49,7 @@ Your automation should write `public/feed.json` and commit it to `main`, or serv
 }
 ```
 
-Required root fields: `version: 1` and `items` array. Each item requires a globally unique stable `id`, `section`, and nonempty `title`. Up to 10,000 items and a 10 MB JSON file are supported.
+Required root fields: `version: 1` and `items` array. Each item requires a globally unique stable `id`, `section`, and nonempty `title`. There is no fixed item-count limit. The 10 MB JSON file-size limit still applies; it rejects an oversized file rather than trimming stories.
 
 | Field | Format / behavior |
 | --- | --- |
@@ -87,3 +87,11 @@ For agent publishing instructions and authorization rules, read [llms.txt](../pu
 ## Markdown and embedded media
 
 The v1 `content` field remains a string, saved unchanged in feeds, editor notes and backups. News and Ideas interpret that string as sanitized Markdown when opening details; summaries, titles and planning notes remain plain text. Use `![Alt text](media/image.jpg)` for images and a standalone `[Watch](media/demo.mp4)` or YouTube/Vimeo link for videos. Use fenced `mermaid` code blocks for diagrams. Do not supply HTML embeds, scripts or Mermaid configuration directives. Read [Markdown content examples](markdown-content.md) for complete syntax and offline delivery.
+
+## Retention
+
+Keep all existing items in `public/feed.json` when adding a batch. No 600-item cap, per-source cap, age cutoff, or automatic archival applies. Upsert by stable ID; do not replace a source’s accumulated history with its newest batch. Removing an item requires an explicit owner instruction or a verified duplicate source URL with a surviving item. Pagination in the UI controls how many cards render at once, not how many items the feed retains.
+
+The browser and backup validator accept collections beyond 10,000 items without truncation. File-size, browser-storage, and device-memory constraints still apply. If those constraints become a problem, report it and propose storage or feed pagination changes; never silently drop older stories. Browser-only caches are not a replacement for preserving repository content for new devices.
+
+External producers must also remove any instruction or code that slices a collection to 600 or another retention count. Repository documentation cannot change a producer configured elsewhere. Read this guide and `AGENTS.md` before every producer run.
