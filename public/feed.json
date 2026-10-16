@@ -18149,6 +18149,75 @@
       "url": "https://modal.com/blog/toward-rl-on-mixed-precision-mixed-accelerator-samplers",
       "createdAt": "2026-10-16T12:57:59Z",
       "updatedAt": "2026-10-16T12:57:59Z"
+    },
+    {
+      "id": "hn:50106023",
+      "section": "news",
+      "type": "news",
+      "title": "Jev meets the Trolley Problem",
+      "description": "An exploratory comparison runs Jev, OpenAI’s Decisions API and a dozen local decision models through 5,240 trolley-problem setups, with an interactive results explorer.",
+      "content": "The author reports consistency and wording/order effects and provides methods and source code. This is a custom experiment, not a general model benchmark; calibration was not tested, and no model controls a real trolley.\n\n[Experiment and interactive results](https://zachlandes.com/trolley-problem/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50106023)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Zach Landes",
+      "url": "https://zachlandes.com/trolley-problem/",
+      "createdAt": "2026-10-15T16:24:52Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50068203",
+      "section": "news",
+      "type": "news",
+      "title": "Apple routed a graphite pipe through the iPhone Duo’s hinge to dissipate heat",
+      "description": "In a PCMag interview, Apple’s silicon and thermal engineers say a flexible graphite pipe through the hinge transfers heat between the iPhone Duo’s halves; the article also explains its vapor chamber and heat-spreading materials.",
+      "content": "Apple describes the pipe as a co-engineered flexible component designed to survive repeated hinge cycles. PCMag had not yet tested the Duo’s A20 Pro at publication, so performance claims here are reported design details, not an independent thermal test.\n\n[PCMag interview](https://www.pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50068203)",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "Eric Zeman",
+      "url": "https://www.pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge",
+      "createdAt": "2026-10-16T00:52:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50112330",
+      "section": "news",
+      "type": "news",
+      "title": "RPKI now protects 70% of Internet routes, up from 54% a year ago",
+      "description": "IPinfo’s route data show 70.3% of routed prefixes were RPKI-valid on September 28, 2026, up from 54% a year earlier; the analysis finds invalid announcements are seen by far fewer public BGP vantage points.",
+      "content": "RPKI lets address holders publish signed Route Origin Authorizations (ROAs) that network operators can check against BGP announcements. IPinfo uses RIPE RIS and RouteViews data; the percentage describes routed prefixes, not the validation status of individual RPKI objects, and the post documents its methodology.\n\n[IPinfo analysis](https://ipinfo.io/blog/rpki-protects-70-internet-routes)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50112330)",
+      "topics": [
+        "Technology",
+        "Networking",
+        "Security"
+      ],
+      "source": "Hacker News",
+      "author": "João Tomé",
+      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+      "createdAt": "2026-10-16T00:52:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50112331",
+      "section": "news",
+      "type": "news",
+      "title": "Thank You, Deno",
+      "description": "Vlt founder Darcy Clarke argues Deno and Bun accelerated JavaScript ecosystem improvements, from Node’s web APIs and built-in TypeScript support to safer package-install defaults.",
+      "content": "The essay frames Deno’s runtime winding down as its team joins Cloudflare as a case where competitors’ ideas outlasted the runtimes themselves. It is a practitioner’s perspective on JavaScript ecosystem history, not a neutral benchmark.\n\n[Article](https://www.vlt.io/blog/competition-keeps-javascript-moving)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50112331)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Darcy Clarke",
+      "url": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
+      "createdAt": "2026-10-16T00:52:40Z",
+      "status": "inbox"
     }
   ]
 }
