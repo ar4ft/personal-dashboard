@@ -18636,6 +18636,242 @@
       "url": "https://eli.thegreenplace.net/2026/monte-carlo-simulations/",
       "createdAt": "2026-10-13T18:11:46Z",
       "updatedAt": "2026-10-13T18:11:46Z"
-    }
+    },
+  {
+    "id": "reading:nist-ecdsa-seeds-solved",
+    "section": "news",
+    "type": "news",
+    "title": "The NIST elliptic-curve seeds bounty has been claimed",
+    "description": "Filippo Valsorda confirms Anthropic researchers solved the seed riddle—drand48 seeded with 1997–98 timestamps—and donated the tripled bounty to ISRG/Let’s Encrypt.",
+    "content": "Valsorda’s bounty post verifies the Anthropic claim in Go, notes an extra undocumented rejection rule on curve order length, and records that the prize was donated to ISRG (Let’s Encrypt), tripled to $36,864. Together with Anthropic’s writeup, it closes a long-standing page of cryptographic history without implying a new attack on ECDSA.\n\n[Read Filippo Valsorda’s claim post](https://words.filippo.io/seeds-solved/)\n\n[Anthropic research writeup](https://www.anthropic.com/research/ecdsa-curve-origins)",
+    "topics": [
+      "Programming",
+      "Technology"
+    ],
+    "source": "Reading",
+    "author": "Filippo Valsorda",
+    "url": "https://words.filippo.io/seeds-solved/",
+    "createdAt": "2026-10-16T18:57:20Z",
+    "status": "inbox"
+  },
+  {
+    "id": "hn:50122736",
+    "section": "news",
+    "type": "news",
+    "title": "C++26 adds a standard <debugging> header",
+    "description": "Sandor Dargo covers P2546R5/P2810R4: std::breakpoint, is_debugger_present, and breakpoint_if_debugging replace the platform-specific traps every test framework reinvented.",
+    "content": "Instead of `#ifdef` chains with `__debugbreak`, `__builtin_debugtrap`, or `int3`, C++26’s freestanding `<debugging>` header exposes three `noexcept` functions. `is_debugger_present` is replaceable (like `operator new`) so bare-metal targets can wire their own check. Sandor walks through semantics, replaceability, and how Catch2/Boost.Test/ImGui-style helpers become one-liners.\n\n[Read the blog post](https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50122736)",
+    "topics": [
+      "Programming"
+    ],
+    "source": "Hacker News",
+    "author": "Sandor Dargo",
+    "url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
+    "createdAt": "2026-10-16T18:52:39Z",
+    "status": "inbox"
+  },
+  {
+    "id": "hn:50113842",
+    "section": "news",
+    "type": "news",
+    "title": "Thinking leakage in RL for hybrid LLM reasoners",
+    "description": "arXiv paper on Qwen3 shows GRPO gains in NO-THINK mode largely reactivate the original THINK mode via activations and attention heads, rather than teaching new reasoning.",
+    "content": "Zhu et al. train Qwen3 1.7B/4B/8B with GRPO in NO-THINK mode and find accuracy gains track longer, more reflective answers whose activations shift toward THINK. Scaling the RL update approaches but does not beat THINK accuracy; swapping a low-dimensional THINK subspace between RL and base models transfers most of the gain. They argue the GRPO advantage signal itself favors THINK-like rollouts.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.14270)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50113842)",
+    "topics": [
+      "Machine Learning",
+      "AI"
+    ],
+    "source": "Hacker News",
+    "author": "Wenxuan Zhu et al.",
+    "url": "https://arxiv.org/abs/2610.14270",
+    "createdAt": "2026-10-16T03:49:46Z",
+    "status": "inbox"
+  },
+  {
+    "id": "hn:50124642",
+    "section": "news",
+    "type": "news",
+    "title": "Why agent harnesses decide coding energy (and token) cost",
+    "description": "Neuralwatt’s Chad Gibson shows uncached input ranging 1.6–11.1% across clients: cache breaks from rewriting earlier prompt text dominate GPU energy on long agent turns.",
+    "content": "On a month of agent traffic, prompt-cache hit rate—not just model size—dominates prefill energy. A cache miss roughly doubles a request’s energy on GLM-5.3; deep sessions make mid-prompt edits extremely expensive. Lab tests blamed harnesses that mutate already-sent prefixes (timestamps, tool schemas). Practical takeaway: keep agent prompts append-only at the end whenever possible.\n\n[Read the Neuralwatt post](https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50124642)",
+    "topics": [
+      "AI",
+      "Programming"
+    ],
+    "source": "Hacker News",
+    "author": "Chad Gibson",
+    "url": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+    "createdAt": "2026-10-16T21:01:23Z",
+    "status": "inbox"
+  },
+  {
+    "id": "hn:50120272",
+    "section": "news",
+    "type": "news",
+    "title": "Firefox 158 ships JPEG XL support by default",
+    "description": "Mozilla’s 158 release notes enable JPEG XL natively, plus typed CSS calc(), smoother scrolling, more accessible PDF export, and WebAuthn conditional UI on autocomplete=\"webauthn\".",
+    "content": "Firefox 158 (first offered October 13, 2026) turns on JPEG XL by default—better compression than WebP/JPEG/PNG/GIF for many images—alongside Smart Window form fill, accessible PDF saving, typed arithmetic in CSS `calc()`, and WebAuthn conditional UI when an input has `autocomplete=\"webauthn\"`. Enterprise and security notes are linked from the release notes page.\n\n[Read the Firefox 158 release notes](https://www.firefox.com/en-US/firefox/158.0/releasenotes/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50120272)",
+    "topics": [
+      "Technology",
+      "Programming"
+    ],
+    "source": "Hacker News",
+    "author": "Mozilla",
+    "url": "https://www.firefox.com/en-US/firefox/158.0/releasenotes/",
+    "createdAt": "2026-10-16T16:14:55Z",
+    "status": "inbox"
+  },
+  {
+    "id": "hn:50118876",
+    "section": "news",
+    "type": "news",
+    "title": "Show HN: rStation – a shared research lab for AI agents",
+    "description": "rStation is a community where independent agents discuss open research problems and publish reviewed papers; humans can observe and send their own agents.",
+    "content": "The Show HN pitch: point an agent at rStation, pick problems spanning math/AI/CS (Diophantine septuples, Earth–Moon problem, Millennium problems, and more), and let agents discuss and submit reviewed writeups. Positioned as a shared “research lab” surface rather than a chat playground.\n\n[Open rStation](https://rstation.ai/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50118876)",
+    "topics": [
+      "AI",
+      "Technology"
+    ],
+    "source": "Hacker News",
+    "author": "stephenchung",
+    "url": "https://rstation.ai/",
+    "createdAt": "2026-10-16T14:35:43Z",
+    "status": "inbox"
+  },
+  {
+    "id": "hn:50122039",
+    "section": "news",
+    "type": "news",
+    "title": "Building fast filesystems for Modal VM sandboxes",
+    "description": "Modal engineers explain moving VM sandboxes from virtio-fs-on-ImageFS to a block-oriented path so agent workloads keep container-class cold starts without slow runtime I/O.",
+    "content": "Modal’s VM Sandboxes inherit ImageFS lazy loading for sub-second boots, but virtio-fs turned out fast to start and slow to use under agent I/O. The post walks the redesign: speak in blocks instead of files so the guest gets ImageFS’s cold-start behavior without the FUSE hop tax on every hot path. Useful systems writeup if you run coding agents in microVMs.\n\n[Read the Modal blog post](https://modal.com/blog/vm-sandbox-filesystem)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50122039)",
+    "topics": [
+      "Programming",
+      "Technology"
+    ],
+    "source": "Hacker News",
+    "author": "Amit Prasad / Modal",
+    "url": "https://modal.com/blog/vm-sandbox-filesystem",
+    "createdAt": "2026-10-16T18:06:55Z",
+    "status": "inbox"
+  },
+  {
+    "id": "hn:50118512",
+    "section": "news",
+    "type": "news",
+    "title": "How to formalize all of mathematics (without rushing it)",
+    "description": "Lean veterans Avigad, Buzzard, Commelin and co-authors warn that AI-driven “formalize everything now” campaigns risk lasting damage, and outline how to do large-scale formalization well.",
+    "content": "A guest post on the Xena blog by Jeremy Avigad, Kevin Buzzard, Johan Commelin, Rémy Degenne, Kim Morrison, Oliver Nash and Adam Topaz. They are optimistic about AI-assisted formalization but argue that sprinting to encode “all of math” poorly would waste resources and harm the field. The piece sketches concerns, lived Lean experience, and a positive vision for coordinated formalization that keeps mathematical judgment in the loop.\n\n[Read the Xena guest post](https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50118512)",
+    "topics": [
+      "Programming",
+      "AI"
+    ],
+    "source": "Hacker News",
+    "author": "Avigad, Buzzard, Commelin et al.",
+    "url": "https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/",
+    "createdAt": "2026-10-16T14:01:53Z",
+    "status": "inbox"
+  },
+  {
+    "id": "x:2111189152117186956",
+    "section": "news",
+    "type": "news",
+    "title": "Mirror: Reflection’s open-source coding agent optimized for Beam",
+    "description": "Jake Nations opens Mirror, Reflection’s terminal coding harness tuned for Beam; install via `uv tool install reflection-mirror` with source under reflection-oss/mirror.",
+    "content": "Reflection AI’s Jake Nations published Mirror, the open-source coding agent the team built alongside Beam. Install today with `uv tool install reflection-mirror`; docs and source live in the reflection-oss/mirror repo. Positioned as a Beam-optimized harness rather than a closed IDE plugin.\n\n[Repo on GitHub](https://github.com/reflection-oss/mirror)\n\n[Install docs](https://github.com/reflection-oss/mirror/blob/main/mirror-cli/README.md)\n\n[Post on X](https://x.com/nayshins/status/2111189152117186956)",
+    "topics": [
+      "AI",
+      "Programming"
+    ],
+    "source": "Twitter / X",
+    "author": "Jake Nations (@nayshins)",
+    "url": "https://x.com/nayshins/status/2111189152117186956",
+    "createdAt": "2026-10-16T20:14:52Z",
+    "status": "inbox"
+  },
+  {
+    "id": "x:2111086531762868558",
+    "section": "news",
+    "type": "news",
+    "title": "Training language models to fail gracefully (GracefulRL)",
+    "description": "Daman Arora et al. add a safe Fallback outcome to RL and use log-barriers so models learn to abstain instead of gambling when success is unlikely.",
+    "content": "Standard success-only RL pushes models to guess on hard tasks. GracefulRL treats Success / Fallback / Error as a simplex and puts log-barriers on the bad edges so policy gradients don’t collapse to always-fallback or never-fallback. Results cover SafeMaze, math abstention, and Minesweeper under uncertainty; blog + arXiv linked from the thread.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.20401)\n\n[Project page](https://zanette-labs.github.io/failing-gracefully/)\n\n[Post on X](https://x.com/amuseddaman/status/2111086531762868558)",
+    "topics": [
+      "AI",
+      "Machine Learning"
+    ],
+    "source": "Twitter / X",
+    "author": "Daman Arora (@amuseddaman)",
+    "url": "https://x.com/amuseddaman/status/2111086531762868558",
+    "createdAt": "2026-10-16T13:27:05Z",
+    "status": "inbox"
+  },
+  {
+    "id": "x:2111133132506173842",
+    "section": "news",
+    "type": "news",
+    "title": "Langevin Flow Maps: NN potentials that learn their own integrator",
+    "description": "McCallum, Rindtorff, Tong, and Foster train neural force fields that also learn the stochastic Langevin path, enabling larger MD timesteps without trajectory supervision.",
+    "content": "Langevin Flow Maps extend ML force fields so the model learns the stochastic integrator itself. The authors report order-of-magnitude faster MD than current MLFF baselines while recovering dynamical properties, with a path toward transferability across molecular systems and no need for trajectory data. Code, data, and arXiv paper are public.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.05998)\n\n[Code on GitHub](https://github.com/sammccallum/lfm)\n\n[Post on X](https://x.com/Niklas_TR/status/2111133132506173842)",
+    "topics": [
+      "Machine Learning",
+      "AI"
+    ],
+    "source": "Twitter / X",
+    "author": "Niklas Rindtorff (@Niklas_TR)",
+    "url": "https://x.com/Niklas_TR/status/2111133132506173842",
+    "createdAt": "2026-10-16T16:32:16Z",
+    "status": "inbox"
+  },
+  {
+    "id": "x:2111163562777329773",
+    "section": "news",
+    "type": "news",
+    "title": "tinywm: niri-style scrolling window manager for macOS",
+    "description": "bodidev open-sources a free Apple-silicon macOS WM where new windows open beside the current one on an endless strip—no forced resize of neighbors.",
+    "content": "Inspired by Linux’s niri, tinywm keeps each display’s windows on a horizontal strip: opening a window never squeezes others; you scroll with a key or three-finger swipe. Features include stacked workspaces, overview, per-display strips, and a plain-text config. Requires macOS 14+ on Apple silicon; notarized release zip or build-from-source.\n\n[Repo on GitHub](https://github.com/bbodi/tinywm)\n\n[Post on X](https://x.com/bodidev/status/2111163562777329773)",
+    "topics": [
+      "iOS / Mac Apps"
+    ],
+    "source": "Twitter / X",
+    "author": "bodidev (@bodidev)",
+    "url": "https://x.com/bodidev/status/2111163562777329773",
+    "createdAt": "2026-10-16T18:33:11Z",
+    "status": "inbox"
+  },
+  {
+    "id": "x:2111116250546094289",
+    "section": "news",
+    "type": "news",
+    "title": "MetalQuake: native Metal 3 QuakeSpasm port for Apple Silicon",
+    "description": "aloysha976 ports QuakeSpasm to Metal 3 with MetalFX upscaling, HDR/EDR, Spatial Audio, no SDL, and a SwiftUI launcher—open source for macOS 14+.",
+    "content": "MetalQuake replaces OpenGL/SDL with a native Metal 3 pipeline aimed at ProMotion and Liquid Retina XDR: MetalFX spatial/temporal upscaling, RGBA16Float HDR, bloom/PBR touches, model interpolation, AVAudioEngine spatial audio, GameController support, and a SwiftUI launcher. Needs original Quake pak files and Apple silicon.\n\n[Repo on GitHub](https://github.com/aloysha976/MetalQuake)\n\n[Post on X](https://x.com/SoloMeown/status/2111116250546094289)",
+    "topics": [
+      "iOS / Mac Apps",
+      "Programming"
+    ],
+    "source": "Twitter / X",
+    "author": "aloysha976 (via @SoloMeown)",
+    "url": "https://x.com/SoloMeown/status/2111116250546094289",
+    "createdAt": "2026-10-16T15:25:11Z",
+    "status": "inbox"
+  },
+  {
+    "id": "x:2111173676582490385",
+    "section": "news",
+    "type": "news",
+    "title": "Ray-Ban Meta glasses recorded audio without wearer consent",
+    "description": "Ars Technica reports a firmware-era bug where some Ray-Ban Metas logged conversations without “Hey Meta”; Meta says it is fixed, without detailing scope.",
+    "content": "Users reported Ray-Ban Meta smart glasses capturing audio/transcripts without the wake phrase, even with “Respond without Hey Meta” off. Meta told Android Authority the issue was resolved and that voice logs remain user-manageable; Ars notes Meta has not said how many devices were affected or what caused the bug. Broader smart-glasses privacy concerns remain even after the patch claim.\n\n[Read on Ars Technica](https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/)\n\n[Post on X](https://x.com/arstechnica/status/2111173676582490385)",
+    "topics": [
+      "Wearables",
+      "Technology"
+    ],
+    "source": "Twitter / X",
+    "author": "Ars Technica (@arstechnica)",
+    "url": "https://x.com/arstechnica/status/2111173676582490385",
+    "createdAt": "2026-10-16T19:13:22Z",
+    "status": "inbox"
+  }
   ]
 }
