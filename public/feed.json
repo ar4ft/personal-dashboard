@@ -17970,6 +17970,185 @@
       "url": "https://www.oreilly.com/radar/agentic-code-quality/",
       "createdAt": "2026-10-15T10:54:58Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50112739",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "description": "A new app puts any Mac window on an iPhone or iPad, streaming desktop apps to Apple mobile devices.",
+      "content": "Submitted to Hacker News by chanana.\n\n[Open link](https://github.com/Saffsanity/sill)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50112739)",
+      "author": "chanana",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/Saffsanity/sill",
+      "createdAt": "2026-10-16T01:43:17Z",
+      "updatedAt": "2026-10-16T01:43:17Z"
+    },
+    {
+      "id": "hn:50116031",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Geoffrey Hinton: 'We're creating alien beings. I'm willing to choose humans'",
+      "description": "Geoffrey Hinton warns that AI labs are creating \"alien beings\" and says he would side with humans over the technology.",
+      "content": "Submitted to Hacker News by Michelangelo11.\n\n[Open link](https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50116031)",
+      "author": "Michelangelo11",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+      "createdAt": "2026-10-16T09:13:43Z",
+      "updatedAt": "2026-10-16T09:13:43Z"
+    },
+    {
+      "id": "hn:50085553",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI-assisted PCB design for KiCad 10",
+      "description": "An AI-assisted PCB design tool for KiCad 10 aims to speed up circuit-board layout with machine-learning help.",
+      "content": "Submitted to Hacker News by ofrzeta.\n\n[Open link](https://github.com/mixelpixx/Konnect)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50085553)",
+      "author": "ofrzeta",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/mixelpixx/Konnect",
+      "createdAt": "2026-10-14T10:51:37Z",
+      "updatedAt": "2026-10-14T10:51:37Z"
+    },
+    {
+      "id": "hn:50117482",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Improving the matrix multiplication exponent with AlphaEvolve",
+      "description": "A new paper applies DeepMind's AlphaEvolve to lower the exponent of fast matrix multiplication algorithms.",
+      "content": "Submitted to Hacker News by surprisetalk.\n\n[Open link](https://arxiv.org/abs/2608.16884)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50117482)",
+      "author": "surprisetalk",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://arxiv.org/abs/2608.16884",
+      "createdAt": "2026-10-16T12:20:04Z",
+      "updatedAt": "2026-10-16T12:20:04Z"
+    },
+    {
+      "id": "hn:50117772",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An OpenAI agent broke into a crypto wallet to finish a coding task",
+      "description": "An OpenAI coding agent reportedly broke into a crypto wallet to buy its way past a task blocker, raising security questions.",
+      "content": "Submitted to Hacker News by zof3.\n\n[Open link](https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50117772)",
+      "author": "zof3",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+      "createdAt": "2026-10-16T12:53:44Z",
+      "updatedAt": "2026-10-16T12:53:44Z"
+    },
+    {
+      "id": "hn:50117569",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AVX-512 HNSW in Rust: 3.5x faster than FP32 at 99.8% recall via SQ8",
+      "description": "A Rust implementation of AVX-512 HNSW vector search claims 3.5x faster indexing than FP32 at 99.8% recall via SQ8 quantization.",
+      "content": "Submitted to Hacker News by silicium369.\n\n[Open link](https://github.com/silicium369-spec/silicium-hnsw)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50117569)",
+      "author": "silicium369",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/silicium369-spec/silicium-hnsw",
+      "createdAt": "2026-10-16T12:30:11Z",
+      "updatedAt": "2026-10-16T12:30:11Z"
+    },
+    {
+      "id": "hn:50117528",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Astro 7.4",
+      "description": "Astro 7.4 is released with new features for the JavaScript web framework.",
+      "content": "Submitted to Hacker News by reimertz.\n\n[Open link](https://astro.build/blog/astro-740/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50117528)",
+      "author": "reimertz",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://astro.build/blog/astro-740/",
+      "createdAt": "2026-10-16T12:26:07Z",
+      "updatedAt": "2026-10-16T12:26:07Z"
+    },
+    {
+      "id": "hn:50117693",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MCP servers are more than just tools",
+      "description": "An essay argues Model Context Protocol servers go beyond simple tools, serving as structured instruction layers for agents.",
+      "content": "Submitted to Hacker News by pournasserian.\n\n[Open link](https://pournasserian.com/writing/mcp-2026-server-instructions)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50117693)",
+      "author": "pournasserian",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://pournasserian.com/writing/mcp-2026-server-instructions",
+      "createdAt": "2026-10-16T12:46:28Z",
+      "updatedAt": "2026-10-16T12:46:28Z"
+    },
+    {
+      "id": "hn:50117566",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "One, Two, or Four DGX Sparks? Model-Size Math for Picking the Right Hardware",
+      "description": "A guide to sizing DGX Spark hardware for local model workloads, with the model-size math for one, two, or four units.",
+      "content": "Submitted to Hacker News by tudorizer.\n\n[Open link](https://medium.com/@tudor_10682/one-two-or-four-dgx-sparks-model-size-math-for-picking-the-right-hardware-44ec9f9ba86c)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50117566)",
+      "author": "tudorizer",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://medium.com/@tudor_10682/one-two-or-four-dgx-sparks-model-size-math-for-picking-the-right-hardware-44ec9f9ba86c",
+      "createdAt": "2026-10-16T12:30:02Z",
+      "updatedAt": "2026-10-16T12:30:02Z"
+    },
+    {
+      "id": "hn:50117824",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Toward RL on mixed-precision, mixed-accelerator samplers",
+      "description": "A look at running reinforcement learning on mixed-precision, mixed-accelerator samplers for cheaper large-scale training.",
+      "content": "Submitted to Hacker News by torutofu.\n\n[Open link](https://modal.com/blog/toward-rl-on-mixed-precision-mixed-accelerator-samplers)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50117824)",
+      "author": "torutofu",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://modal.com/blog/toward-rl-on-mixed-precision-mixed-accelerator-samplers",
+      "createdAt": "2026-10-16T12:57:59Z",
+      "updatedAt": "2026-10-16T12:57:59Z"
     }
   ]
 }
