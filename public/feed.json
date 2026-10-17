@@ -19289,6 +19289,39 @@
       "createdAt": "2026-10-17T11:54:49Z",
       "updatedAt": "2026-10-17T11:54:49Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50112657",
+      "section": "news",
+      "type": "news",
+      "title": "Tesla details Roadster fan downforce and cold-gas thruster configurations",
+      "description": "Tesla’s Roadster page describes active aerodynamics, fan-generated downforce and optional cold-gas thrusters. The invitation-only, single-seat Rocket configuration is explicitly not approved for public-road use.",
+      "content": "The page distinguishes a two-seat Performance version, a limited-release Thrust augment, and an invitation-only Rocket version. These are manufacturer specifications and claims, not independently verified performance results; the page does not establish a delivery date.\n\n[Tesla Roadster](https://www.tesla.com/roadster)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50112657)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Tesla",
+      "url": "https://www.tesla.com/roadster",
+      "createdAt": "2026-10-16T01:32:45Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50104783",
+      "section": "news",
+      "type": "news",
+      "title": "OpenRewrite recipes move from Maven Central to the Code Genome Project",
+      "description": "OpenRewrite’s documentation now distributes modules and its Gradle plugin through an authenticated Code Genome Project repository. Builds need that repository and credentials, while Maven Central remains necessary for transitive dependencies.",
+      "content": "The documentation recommends aligning recipe versions with the recipe BOM and describes repository configuration for Maven and Gradle. It lists licenses per module, including Apache 2.0 and Moderne Source Available licenses; the distribution change should not be read as one blanket license for every module.\n\n[OpenRewrite module and repository documentation](https://docs.openrewrite.org/reference/latest-versions-of-every-openrewrite-module)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50104783)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "OpenRewrite",
+      "url": "https://docs.openrewrite.org/reference/latest-versions-of-every-openrewrite-module",
+      "createdAt": "2026-10-15T15:06:52Z",
+      "status": "inbox"
     }
   ]
 }
