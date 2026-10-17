@@ -19675,6 +19675,137 @@
       "source": "Twitter / X",
       "createdAt": "2026-10-17T20:20:34Z",
       "updatedAt": "2026-10-17T20:20:34Z"
+    },
+    {
+      "id": "hn:50131256",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Solar surpasses nuclear power globally for first time",
+      "description": "Solar power has surpassed nuclear power in global output for the first time, according to this report.",
+      "topics": [
+        "Technology"
+      ],
+      "author": "xbmcuser",
+      "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+      "createdAt": "2026-10-17T14:01:01.000Z",
+      "updatedAt": "2026-10-17T14:01:01.000Z",
+      "source": "Hacker News"
+    },
+    {
+      "id": "hn:50129947",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MapQuest will now show you where Flock cameras are in your neighborhood",
+      "description": "MapQuest will now show users where Flock automated license-plate cameras are located in their neighborhoods.",
+      "topics": [
+        "Technology"
+      ],
+      "author": "bookofjoe",
+      "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
+      "createdAt": "2026-10-17T10:59:31.000Z",
+      "updatedAt": "2026-10-17T10:59:31.000Z",
+      "source": "Hacker News"
+    },
+    {
+      "id": "hn:50127586",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Source code of the Estonian online voting system",
+      "description": "The source code of Estonia's internet voting system is now public on GitHub.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "author": "theanonymousone",
+      "url": "https://github.com/valimised/ivxv",
+      "createdAt": "2026-10-17T03:18:39.000Z",
+      "updatedAt": "2026-10-17T03:18:39.000Z",
+      "source": "Hacker News"
+    },
+    {
+      "id": "hn:50127572",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A skeptic's first contact with Kubernetes (2024)",
+      "description": "A Kubernetes skeptic describes their first real encounter with the orchestrator.",
+      "topics": [
+        "Programming"
+      ],
+      "author": "pmoriarty",
+      "url": "https://blog.davidv.dev/posts/first-contact-with-k8s/",
+      "createdAt": "2026-10-17T03:16:25.000Z",
+      "updatedAt": "2026-10-17T03:16:25.000Z",
+      "source": "Hacker News"
+    },
+    {
+      "id": "hn:50134617",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "description": "Chrome and Edge are removing XSLT support; this article explains what breaks and what does not.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "author": "croes",
+      "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
+      "createdAt": "2026-10-17T20:07:33.000Z",
+      "updatedAt": "2026-10-17T20:07:33.000Z",
+      "source": "Hacker News"
+    },
+    {
+      "id": "hn:50133830",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft and CMU Team Up to Train Early Career Software Engineers",
+      "description": "Microsoft and Carnegie Mellon University are teaming up to train early-career software engineers.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "author": "azhenley",
+      "url": "https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise",
+      "createdAt": "2026-10-17T18:45:07.000Z",
+      "updatedAt": "2026-10-17T18:45:07.000Z",
+      "source": "Hacker News"
+    },
+    {
+      "id": "hn:50135274",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "All of the new 2026 Kindles have user replaceable batteries",
+      "description": "All of the new 2026 Kindle models reportedly ship with user-replaceable batteries.",
+      "topics": [
+        "Technology"
+      ],
+      "author": "edward",
+      "url": "https://goodereader.com/blog/kindle/all-of-the-new-2026-kindles-have-user-replaceable-batteries",
+      "createdAt": "2026-10-17T21:23:08.000Z",
+      "updatedAt": "2026-10-17T21:23:08.000Z",
+      "source": "Hacker News"
+    },
+    {
+      "id": "hn:50135554",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cadence: A free, copyleft music-learning studio for Mac",
+      "description": "Cadence is a free, copyleft music-learning studio for the Mac.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "author": "cigrainger",
+      "url": "https://cigrainger.github.io/cadence/",
+      "createdAt": "2026-10-17T21:59:38.000Z",
+      "updatedAt": "2026-10-17T21:59:38.000Z",
+      "source": "Hacker News"
     }
   ]
 }
