@@ -19422,6 +19422,259 @@
       "createdAt": "2026-10-15T08:48:30.000Z",
       "updatedAt": "2026-10-15T08:48:30.000Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50133401",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenCode reports a security breach affecting 1.4% of OpenCode Console users",
+      "description": "OpenCode says a breach tied to a large-scale distillation attack hit 1.4% of OpenCode Console users, who were notified by email; the incident is still ongoing.",
+      "content": "OpenCode posted that it had a security breach overnight related to a large-scale distillation attack, affecting 1.4% of OpenCode Console users. Affected users were emailed the morning of October 17. The team says the incident is ongoing, so it can't share more details yet, and that it is working with Anthropic, OpenAI and Google to remediate. If you use OpenCode Console with provider keys, check your email and consider rotating keys.\n\n[OpenCode announcement on X](https://x.com/opencode/status/2111516673953935833)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50133401)",
+      "author": "OpenCode",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "source": "Hacker News",
+      "createdAt": "2026-10-17T18:01:41Z",
+      "updatedAt": "2026-10-17T18:01:41Z"
+    },
+    {
+      "id": "hn:50133500",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Qwen3.8-27B runs on the iPhone 18 Neural Engine at 15-70 tok/s",
+      "description": "Anemll shows a 1.5-bit-per-weight Qwen3.8-27B running on the A20 Apple Neural Engine with a speculative draft model, now with a 24K context.",
+      "content": "Anemll, which builds tooling for running LLMs on the Apple Neural Engine, demoed Qwen3.8-27B on an iPhone 18. The base is PrismML's Bonsai-2 (1.585 bpw) requantized to 1.5 bits per weight with vector quantization (6 bits per 4 weights), plus a dflash-2 draft model at about 2.8 bpw for speculative decoding. Decoding runs at roughly 15-60 tok/s, peaking near 70 tok/s on predictable text. A follow-up confirms 24K context with int8 K/V cache. The 6-7 GB iOS app memory ceiling is the main limit.\n\n[Original demo post](https://x.com/anemll/status/2111346290336628897) · [24K context follow-up](https://x.com/anemll/status/2111517143087067309)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50133500)",
+      "author": "Anemll",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "url": "https://twitter.com/anemll/status/2111517143087067309",
+      "source": "Hacker News",
+      "createdAt": "2026-10-17T18:10:21Z",
+      "updatedAt": "2026-10-17T18:10:21Z"
+    },
+    {
+      "id": "hn:50132950",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LWN: development statistics for the 7.2 kernel",
+      "description": "Jonathan Corbet breaks down Linux 7.2, the second-busiest release ever with 16,418 non-merge commits from a record 2,652 developers.",
+      "content": "LWN's Jonathan Corbet looks at the 7.2 kernel cycle: nearly 600,000 lines of code added, 16,418 non-merge commits (second only to 6.7, which was inflated by the bcachefs history merge), and a record 2,652 contributing developers, up from 2,479 in 7.1. The article covers the most active developers by changesets and changed lines and how the contributor base keeps growing.\n\n[Article on LWN](https://lwn.net/Articles/1088776/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50132950)",
+      "author": "Jonathan Corbet",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://lwn.net/Articles/1088776/",
+      "source": "Hacker News",
+      "createdAt": "2026-10-17T17:14:12Z",
+      "updatedAt": "2026-10-17T17:14:12Z"
+    },
+    {
+      "id": "hn:50101649",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Laser fault injection on a budget: bypassing RP2350 secure boot",
+      "description": "Courk built a custom infrared laser fault-injection rig and used a single laser-induced fault to bypass the RP2350's Secure Boot in the Raspberry Pi hacking challenge.",
+      "content": "A detailed write-up of beating the Raspberry Pi RP2350 Hacking Challenge with a homemade laser fault-injection platform. It covers die exposure and sample prep, the infrared optics, imaging and focusing, the laser driver board and FPGA pulse synchronization, finding sensitive areas on the die, and boot ROM analysis. A single injected fault was enough to bypass Secure Boot. Manufacturing files for the platform are included, with a safety warning about the high-power IR laser.\n\n[Write-up on Courk's blog](https://courk.cc/rp2350-challenge-laser)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50101649)",
+      "author": "Courk",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "url": "https://courk.cc/rp2350-challenge-laser",
+      "source": "Hacker News",
+      "createdAt": "2026-10-15T10:24:16Z",
+      "updatedAt": "2026-10-15T10:24:16Z"
+    },
+    {
+      "id": "hn:50132550",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HUMXN offers free home repairs in exchange for wearable-camera robot training data",
+      "description": "AI data lab HUMXN will subsidize plumbing, HVAC, electrical and cleaning jobs in Minneapolis, Chicago and Miami if technicians can record the work with wearable capture gear.",
+      "content": "HUMXN wants real-world footage of skilled trades to train robots. Homeowners in Minneapolis, Chicago and Miami who qualify get plumbing, electrical, HVAC, air-duct or carpet work for free, while the technicians still get paid, in exchange for letting a worker with wearable capture technology record the job. The company says lab settings can't capture natural movement across varied homes, equipment and problems, and the data shows how technicians diagnose, choose tools and verify a fix.\n\n[Tom's Hardware article](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50132550)",
+      "author": "Tom's Hardware",
+      "topics": [
+        "AI",
+        "Wearables",
+        "Machine Learning"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+      "source": "Hacker News",
+      "createdAt": "2026-10-17T16:35:35Z",
+      "updatedAt": "2026-10-17T16:35:35Z"
+    },
+    {
+      "id": "hn:50132963",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "JetBrains Junie: a model-agnostic coding agent with local model support",
+      "description": "JetBrains pitches Junie as a coding agent you own: bring your own key at provider rates, run local models, plan on one model and implement on another.",
+      "content": "JetBrains' Junie coding agent now comes as a CLI and IDE agent built on the IntelliJ engine. It works with 10+ models via bring-your-own-key at provider-rate pricing with no markup, supports locally running models, and includes a free Junie Lite model in every JetBrains account. Features include a plan mode that writes editable, committable plans to `.junie/plans`, planning and implementing on different models, steering mid-task, human approval of key actions, remote monitoring of async runs, and persistent team guidelines and Agent Skills shared across CLI and IDE.\n\n[Junie product page](https://junie.jetbrains.com/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50132963)",
+      "author": "JetBrains",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://junie.jetbrains.com/",
+      "source": "Hacker News",
+      "createdAt": "2026-10-17T17:15:30Z",
+      "updatedAt": "2026-10-17T17:15:30Z"
+    },
+    {
+      "id": "reading:orlp-two-stack-sliding-window-aggregation",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Two-stack sliding-window aggregation",
+      "description": "Orson Peters explains a simple amortized O(1) two-stack algorithm for sliding-window aggregates like min, quantiles or HyperLogLog that have no inverse operation.",
+      "content": "Sliding-window sums are easy because addition can be undone, but most useful summaries (minimum, quantiles, HyperLogLog counts, even floating-point sums once a NaN appears) have no inverse. Orson Peters walks through the folklore two-stack algorithm, described in Tangwongsan et al.'s low-latency sliding-window aggregation paper and traced back to a 2011 Stack Overflow answer, which handles any associative operator in amortized O(1) per step. He argues it should be far more widely known and makes his own earlier min/max-only approach pointless.\n\n[Read on orlp.net](https://orlp.net/blog/two-stack-sliding-window-aggregation/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50072485)",
+      "author": "Orson Peters",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://orlp.net/blog/two-stack-sliding-window-aggregation/",
+      "source": "Reading",
+      "createdAt": "2026-10-13T14:40:03Z",
+      "updatedAt": "2026-10-13T14:40:03Z"
+    },
+    {
+      "id": "reading:opengcua-open-generalist-computer-use",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenGCUA: an open stack for generalist computer-use agents",
+      "description": "Alibaba Tongyi-MAI's OpenGCUA lets computer-use agents mix GUI actions with code execution, raising mean OSWorld-v2 partial scores by 19.6 points across eight models.",
+      "content": "The OpenGCUA report defines a generalist computer-use agent as one where the model chooses how to observe, act and organize work across visual and programmatic interfaces. Code execution is central: intermediate results drive later steps, and models can use their programming skills directly. It also proposes harness-to-model decision transfer, moving some observation and task-state decisions from fixed harness rules into the model. On OSWorld-v2, the full configuration improved all eight models tested, including GPT-6 Astra and Claude Opus 5, raising mean partial score from 45.3 to 64.9 and cutting steps per task by 53% versus batched GUI-only execution. The team releases code, prompts, evaluation trajectories and early real-device harness work.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.22200) · [PDF](https://arxiv.org/pdf/2610.22200v1)",
+      "author": "Tongyi-MAI (Alibaba)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://arxiv.org/abs/2610.22200",
+      "source": "Reading",
+      "createdAt": "2026-10-15T16:51:35Z",
+      "updatedAt": "2026-10-15T16:51:35Z"
+    },
+    {
+      "id": "x:2111454081227080155",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Upright: a free, open-source menu-bar app for Logitech mice on macOS",
+      "description": "A native MIT-licensed Mac menu-bar app that replaces Logitech's software for button mapping, with no account, daemon or kernel extension.",
+      "content": "Upright is a small native macOS menu-bar app for Logitech mice, built as a lightweight alternative to Logitech's own software. It needs no account, background daemon or kext. You can map Back, Forward, the top button, wheel click and other remappable buttons to Mission Control, App Exposé, Show Desktop, Spaces, media keys, any keyboard shortcut, opening an app or URL, or running a Shortcuts.app shortcut. Free and open source under MIT.\n\n[Upright website](https://dpdev69.github.io/upright)",
+      "author": "v.4.20.69 (@broken_chemex)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/broken_chemex/status/2111454081227080155",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-17T13:47:36Z",
+      "updatedAt": "2026-10-17T13:47:36Z"
+    },
+    {
+      "id": "x:2111355310287806533",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SpectraSense: an open-source app that detects nearby smart glasses over BLE",
+      "description": "An early Flutter app that passively scans Bluetooth Low Energy advertisements and scores nearby devices against wearable fingerprints, starting with Ray-Ban Meta.",
+      "content": "SpectraSense listens passively to public BLE advertisement packets and flags devices that match known smart-glasses and wearable fingerprints, with a confidence score (manufacturer ID, service UUIDs, payload prefix and name). It is an MVP scaffold: the README says the fingerprint database is unverified placeholder data, Android is the real target because iOS CoreBluetooth hides manufacturer data and MAC addresses, and Bluetooth Classic discovery isn't done yet. Interesting as a starting point for bystander privacy tools.\n\n[Repo on GitHub](https://github.com/Ferousco-dev/SpectraSense)",
+      "author": "FERaNMI (@fer_nmi)",
+      "topics": [
+        "Wearables",
+        "Programming"
+      ],
+      "url": "https://x.com/fer_nmi/status/2111355310287806533",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-17T07:15:07Z",
+      "updatedAt": "2026-10-17T07:15:07Z"
+    },
+    {
+      "id": "x:2111520013760844188",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Alibaba's Qwen Glasses N1 bring a 50MP camera and eye tracking for $490",
+      "description": "Gizmodo says Alibaba's new 3,499 RMB smart glasses outspec Ray-Ban Meta Gen 3 with a 50MP sensor, eye tracking and claimed 9 hours of music playback.",
+      "content": "Alibaba's Qwen Glasses N1 cost 3,499 RMB (about $490). Gizmodo highlights a 50-megapixel camera versus 12MP on Ray-Ban Meta Gen 3, claimed battery life of 25 hours standby and nine hours of music playback, and a tiny 1.7mm eye-tracking camera that lets the assistant know what you're looking at when you ask a question, something Meta's glasses don't offer.\n\n[Gizmodo article](https://gizmodo.com/alibaba-qwen-glasses-n1-2000825793)",
+      "author": "Gizmodo (@Gizmodo)",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "url": "https://x.com/Gizmodo/status/2111520013760844188",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-17T18:09:36Z",
+      "updatedAt": "2026-10-17T18:09:36Z"
+    },
+    {
+      "id": "x:2111405002036040088",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HTC Vive Eagle smart glasses aim to be the privacy-first alternative to Meta",
+      "description": "WIRED tests HTC's $499 Vive Eagle glasses, which match Meta's core features while avoiding social-media ties and adding bystander privacy protections.",
+      "content": "HTC began selling the $499 Vive Eagle smart glasses in the US in September. They offer cameras for photos and video, open-ear speakers for music and calls, an AI assistant, and voice-note recording and transcription. HTC is positioning them as the anti-Meta option: no social platform tie-in, and design choices meant to protect people around the wearer as well as the wearer. WIRED's reviewer found they meet expectations after a couple of weeks of use.\n\n[WIRED review](https://www.wired.com/story/htc-wants-its-vive-eagle-smart-glasses-to-be-the-anti-meta/)",
+      "author": "WIRED (@WIRED)",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "url": "https://x.com/WIRED/status/2111405002036040088",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-17T10:32:35Z",
+      "updatedAt": "2026-10-17T10:32:35Z"
+    },
+    {
+      "id": "x:2111506713601867852",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vitnify: deterministic, verifiable receipts for LLM agent runs",
+      "description": "An Apache-2.0 project pairing a bit-identical cross-vendor Rust inference engine with a Python SDK that seals an agent run into a signed, offline-verifiable receipt.",
+      "content": "Vitnify tackles the fact that running the same prompt twice gives different bits and agents leave only logs. vitni-tensor is a deterministic no_std Rust engine that produces bit-identical output across CPU vendors, instruction sets, Metal and CUDA by pinning floating-point reduction order and using exact-integer k-quants; it runs stock GGUF models. The vitnify Python SDK wraps LangGraph and MCP agents and seals the model computation, granted capabilities, every tool call and result, and ordering into one ed25519-signed receipt anyone can verify offline.\n\n[Vitnify on GitHub](https://github.com/vitnify) · [Project site](http://vitnify.com)",
+      "author": "Nick Pijeau (@NickPijeau)",
+      "topics": [
+        "AI",
+        "Programming",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/NickPijeau/status/2111506713601867852",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-17T17:16:45Z",
+      "updatedAt": "2026-10-17T17:16:45Z"
+    },
+    {
+      "id": "x:2111552973885087933",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "@mobai-app/e2e runs iOS and Android end-to-end tests on real devices",
+      "description": "A new MobAI device engine for the tester-army e2e framework targets physical iPhones and Android phones, simulators, emulators and cloud device farms from macOS, Linux or Windows.",
+      "content": "@mobai-app/e2e plugs a MobAI device engine and reporter into the tester-army `e2e` test runner. It can drive real iPhones and Android phones over USB, iOS simulators, Android emulators, and BrowserStack, Sauce Labs or AWS Device Farm, from macOS, Linux or Windows. Failed sessions can be held at the exact screen for inspection, and results with screenshots, videos and logs can go to the MobAI dashboard. Physical-device and single-device runs are on the free plan; parallel devices, farms and hold-on-failure need Pro.\n\n[Repo on GitHub](https://github.com/MobAI-App/mobai-e2e)",
+      "author": "Interlap (@interlap01)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/interlap01/status/2111552973885087933",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-17T20:20:34Z",
+      "updatedAt": "2026-10-17T20:20:34Z"
     }
   ]
 }
