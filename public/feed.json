@@ -19322,6 +19322,106 @@
       "url": "https://docs.openrewrite.org/reference/latest-versions-of-every-openrewrite-module",
       "createdAt": "2026-10-15T15:06:52Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50131189",
+      "title": "Esp32sim: run ESP32 firmware in the browser",
+      "description": "A Rust emulator runs unmodified ESP32 firmware through ROM and bootloader paths, with a WebAssembly browser front end and interactive board models.",
+      "content": "Esp32sim models ESP32/ESP32-S3 and draft ESP32-C3/C6 targets, with register-level peripherals and browser demos running in a Web Worker. Firmware can be loaded locally without the emulator uploading it. Coverage is selective: this is not a complete cycle-accurate or physical RF simulation, C3/C6 have documented gaps, and browser networking has restrictions.\n\n[Repository and demos](https://github.com/mikroverk/esp32sim) · [Browser architecture and limits](https://github.com/mikroverk/esp32sim/blob/main/docs/wasm.md)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50131189)",
+      "author": "Joakim Eriksson",
+      "topics": [
+        "Programming",
+        "Technology",
+        "Embedded Systems",
+        "WebAssembly"
+      ],
+      "url": "https://github.com/mikroverk/esp32sim",
+      "section": "news",
+      "type": "news",
+      "source": "Hacker News",
+      "createdAt": "2026-10-17T13:51:08.000Z",
+      "updatedAt": "2026-10-17T13:51:08.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50132911",
+      "title": "tsc-ts: TypeScript written in TypeScript",
+      "description": "Vercel Labs experiments with a TypeScript port of the TypeScript 7.0.2/tsgo compiler, compiled into native executables with scriptc.",
+      "content": "The experimental compiler aims for a tsc-compatible command line and JavaScript/declaration output, while implementing the compiler itself in TypeScript and compiling it to native code. It is not a general tool for compiling user TypeScript applications into native programs. Compatibility claims are project-reported against a particular tsgo version and test corpus; API, component and memory limitations remain, so this is not a production-readiness guarantee.\n\n[Project repository](https://github.com/vercel-labs/tsc-ts) · [Package documentation](https://github.com/vercel-labs/tsc-ts/blob/main/packages/tsc-ts/README.md)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50132911)",
+      "author": "Vercel Labs",
+      "topics": [
+        "Programming",
+        "TypeScript",
+        "Compilers",
+        "Technology"
+      ],
+      "url": "https://github.com/vercel-labs/tsc-ts",
+      "section": "news",
+      "type": "news",
+      "source": "Hacker News",
+      "createdAt": "2026-10-17T17:10:27.000Z",
+      "updatedAt": "2026-10-17T17:10:27.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50100366",
+      "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "description": "Antirez’s C64 board-netlist simulator lets users inject pin and component faults and observe the resulting signals and display symptoms.",
+      "content": "This C program models the PAL ASSY 250407 motherboard with pin-connected components around cycle-accurate cores for major chips. Users can float or short pins, remove chips, open selected components and run deterministic fault scenarios. Its electrical and timing behavior is approximate, not SPICE-like analog simulation; a matching symptom is a diagnostic clue rather than proof of a real-board fault. It is not intended as a game-playing emulator.\n\n[Repository and limitations](https://github.com/antirez/c64-hw-simulator) · [Model design](https://github.com/antirez/c64-hw-simulator/blob/main/PLAN.md)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50100366)",
+      "author": "Salvatore Sanfilippo (antirez)",
+      "topics": [
+        "Programming",
+        "Technology",
+        "Hardware",
+        "Simulation"
+      ],
+      "url": "https://github.com/antirez/c64-hw-simulator",
+      "section": "news",
+      "type": "news",
+      "source": "Hacker News",
+      "createdAt": "2026-10-15T07:18:14.000Z",
+      "updatedAt": "2026-10-15T07:18:14.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50132193",
+      "title": "Pele: Mermaid diagrams as themeable SVG",
+      "description": "An MIT-licensed rendering library turns Mermaid syntax into SVG with CSS-variable theming and npm/browser APIs.",
+      "content": "Pele provides synchronous and lazy rendering APIs and its own layout and visual style. The project documents broad Mermaid 12.1.0 syntax support, but diagrams need not match Mermaid’s layout; external plugins, arbitrary HTML labels and JavaScript callbacks are unsupported. The documented output is SVG, not PNG/PDF, and no official CLI is documented. Performance comparisons are project claims, not independently benchmarked here.\n\n[Project site](https://pele.run/) · [API](https://pele.run/api) · [Compatibility](https://pele.run/compatibility) · [Source](https://github.com/obsidianmd/pele)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50132193)",
+      "author": "kepano",
+      "topics": [
+        "Programming",
+        "Technology",
+        "Diagrams",
+        "SVG"
+      ],
+      "url": "https://pele.run/",
+      "section": "news",
+      "type": "news",
+      "source": "Hacker News",
+      "createdAt": "2026-10-17T15:55:09.000Z",
+      "updatedAt": "2026-10-17T15:55:09.000Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50100994",
+      "title": "Furifont: a Japanese font that shows furigana",
+      "description": "Anthony Fu’s early-stage font project adds Japanese reading aids through OpenType glyph shaping while preserving ordinary source text.",
+      "content": "Furifont generates kanji-plus-furigana glyphs and longest-match ligatures from Source Han fonts and reading dictionaries. The core font can work in desktop apps or via web fonts without ruby markup or JavaScript. It cannot understand full sentence context, so readings may be wrong; browser script-run boundaries also limit okurigana handling, and sufficient line height is needed. The optional JavaScript path addresses some context limits. Code, fonts and dictionary data have separate licenses.\n\n[Project and downloads](https://furifont.antfu.me/) · [Source and caveats](https://github.com/antfu/furifont/blob/main/README.md)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50100994)",
+      "author": "Anthony Fu",
+      "topics": [
+        "Programming",
+        "Technology",
+        "Typography",
+        "OpenType"
+      ],
+      "url": "https://furifont.antfu.me/",
+      "section": "news",
+      "type": "news",
+      "source": "Hacker News",
+      "createdAt": "2026-10-15T08:48:30.000Z",
+      "updatedAt": "2026-10-15T08:48:30.000Z",
+      "status": "inbox"
     }
   ]
 }
