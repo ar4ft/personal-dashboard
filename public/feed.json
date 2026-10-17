@@ -18872,6 +18872,260 @@
     "url": "https://x.com/arstechnica/status/2111173676582490385",
     "createdAt": "2026-10-16T19:13:22Z",
     "status": "inbox"
-  }
+  },
+    {
+      "id": "hn:50129045",
+      "section": "news",
+      "type": "news",
+      "title": "DeepSeek-V4.1-Flash-1017: a faster, stronger checkpoint of V4.1 Flash",
+      "description": "DeepSeek released an MIT-licensed minor update to V4.1 Flash with big gains on agentic coding and reasoning benchmarks while using shorter outputs.",
+      "content": "DeepSeek calls V4.1-Flash-1017 a minor update to V4.1 Flash, but its model card reports sizable jumps: Terminal-Bench 4.0 rises from 31.2 to 42.3, ProgramBench from 20.3 to 29.1 and HLE without tools from 36.8 to 42.6. It also cuts task execution time and output length, so agent runs finish faster and cheaper. Weights ship in FP8 safetensors under the MIT license with image-text-to-text support.\n\n[Model card on Hugging Face](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50129045)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "DeepSeek",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "createdAt": "2026-10-17T08:21:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50127979",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: llmspeed lets you feel how fast a local LLM runs before buying hardware",
+      "description": "An open-source simulator that streams text at the measured or estimated token speed of a given model on a given GPU, Mac or CPU setup.",
+      "content": "Pick a device (RTX 3090/4090/5090, Strix Halo, DGX Spark, M-series MacBooks and Mac Studios, cloud H100s) and a model (Qwen, Gemma 4, GPT-OSS, DeepSeek V4 Flash and more) and llmspeed plays back generation at that speed so you can judge whether it feels usable. Numbers come from community benchmarks such as r/LocalLLaMA and localscore.ai, with the rest derived from similar setups or projected from specs.\n\n[Source on GitHub](https://github.com/nicorobinreal/llmspeed)\n\n[Try llmspeed](https://llmspeed.dev/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50127979)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "albinstman",
+      "url": "https://llmspeed.dev/",
+      "createdAt": "2026-10-17T04:36:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50128654",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: siltop, a btop-style monitor that actually sees your Apple Silicon chip",
+      "description": "A Rust terminal monitor for M1 to M5 Macs that shows real watts, per-core clocks, GPU activity and temperatures without sudo or telemetry.",
+      "content": "siltop reads power, clocks and temperatures straight from the SMC and IOReport, which btop can't see on a Mac. It aims for btop's calm look, uses about 1.3% of one core, needs no sudo, and includes a `--demo` mode that replays a canned 60-second session (build burst, GPU inference, battery drain). It's dual MIT/Apache licensed with Homebrew packaging.\n\n[Repo on GitHub](https://github.com/CLoaKY233/siltop)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50128654)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "cloaky233",
+      "url": "https://github.com/CLoaKY233/siltop",
+      "createdAt": "2026-10-17T07:01:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50119751",
+      "section": "news",
+      "type": "news",
+      "title": "Reverse engineering the Eufy HomeBase 2: Wi-Fi secrets, UART lockdowns and a damaged flash chip",
+      "description": "Adepts of 0xCC extract and analyze firmware 3.4.2.2h from Eufy's HomeBase 2 hub, continuing their research into the Eufy camera ecosystem.",
+      "content": "The follow-up to their doorbell research walks through physically extracting firmware from the HomeBase 2 (including working around a damaged flash memory chip), getting past a locked-down UART console, and digging into how the hub stores Wi-Fi secrets. It's written by someone doing hardware work for the first time, which makes it a readable intro to embedded firmware extraction.\n\n[Read the writeup](https://adepts.of0x.cc/eufy-homestation2-firmware/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50119751)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Adepts of 0xCC",
+      "url": "https://adepts.of0x.cc/eufy-homestation2-firmware/",
+      "createdAt": "2026-10-16T15:38:28Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50118600",
+      "section": "news",
+      "type": "news",
+      "title": "iPhone Duo sells out within minutes, now backordered until next year",
+      "description": "Apple's first foldable iPhone went up for pre-order on October 16 and every configuration quickly slipped to January delivery estimates.",
+      "content": "First pre-orders arrive October 23, but by 8:30 a.m. ET all colors and storage options showed estimated ship dates of January 25, with some users seeing January 29. 9to5Mac says it's a mix of strong demand and tight supply, as earlier reports from Nikkei Asia suggested Apple was still ramping up production.\n\n[Read on 9to5Mac](https://9to5mac.com/2026/10/16/iphone-duo-pre-orders-now-backordered-to-next-year/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50118600)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Chance Miller (9to5Mac)",
+      "url": "https://9to5mac.com/2026/10/16/iphone-duo-pre-orders-now-backordered-to-next-year/",
+      "createdAt": "2026-10-16T14:09:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:modestly-successful-software-boom",
+      "section": "news",
+      "type": "news",
+      "title": "AI is driving a boom in modestly successful software projects",
+      "description": "Sean Goedecke compares about twenty software marketplaces and registries before and after agentic coding went mainstream and finds roughly 2x more modestly successful projects, but no rise in big hits.",
+      "content": "Answering \"where is all the AI-built software?\", Goedecke counts projects that cross install or review thresholds in places like NVDA add-ons, Home Assistant's HACS store, Steam and Obsidian plugins. Between 2022-24 and 2025-26 the number of modestly successful new projects roughly doubled (Steam games with 100+ reviews are about 60% more common), while massively successful projects show no growth.\n\n[Read the essay](https://www.seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50127729)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Sean Goedecke",
+      "url": "https://www.seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/",
+      "createdAt": "2026-10-17T03:47:39Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:solene-incus-os-selfhosting",
+      "section": "news",
+      "type": "news",
+      "title": "My self-hosted infrastructure with Incus OS",
+      "description": "Solene explains a seven-month rebuild of her home server around Incus OS, disposable system containers and deny-by-default networking.",
+      "content": "Borrowing ideas from SecNumCloud and ISO 27001, the post covers the architecture rather than step-by-step code: Incus OS as the base, disposable system containers, default-deny outgoing and incoming traffic, private access over VPN, secrets management, automatic updates, backups, monitoring, and how each layer serves confidentiality, integrity and availability. She's candid that it's overengineered for a family Nextcloud.\n\n[Read on dataswamp.org](https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50124646)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Solene (dataswamp.org)",
+      "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
+      "createdAt": "2026-10-16T21:01:32Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111166029539758120",
+      "section": "news",
+      "type": "news",
+      "title": "Perplexity releases pplx-decider v1.2 open-weight multimodal decision models",
+      "description": "Perplexity's next-gen decision models come in regular and 4B Flash sizes, with better text and vision scores and up to 5x faster inference.",
+      "content": "The v1.2 models answer all questions in a request in a single pass, which is where the up-to-5x inference speedup comes from. Perplexity says the Flash model is the top 4B model on its Decision Index. Weights are on Hugging Face.\n\n[pplx-decider-v1.2 on Hugging Face](https://huggingface.co/perplexity-ai/pplx-decider-v1.2)\n\n[pplx-decider-flash-v1.2 on Hugging Face](https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.2)\n\n[Post on X](https://x.com/perplexitydevs/status/2111166029539758120)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Perplexity Developers (@perplexitydevs)",
+      "url": "https://x.com/perplexitydevs/status/2111166029539758120",
+      "createdAt": "2026-10-16T18:42:59Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111272070768185787",
+      "section": "news",
+      "type": "news",
+      "title": "Vercel Labs ports the TypeScript compiler back to TypeScript, and it beats tsgo",
+      "description": "tsc-ts takes TypeScript's compiler back from Go to TypeScript and compiles it with scriptc, claiming 2-4x faster runs than tsgo.",
+      "content": "TypeScript's compiler was written in TypeScript, then rewritten in Go (tsgo) for speed. Vercel Labs' tsc-ts ports it back to TypeScript and compiles it ahead of time with their scriptc compiler, and Chris Tate reports it runs 2-4x faster than tsgo. It's a strong data point for compiling TypeScript natively rather than running it on a JS engine.\n\n[Post on X](https://x.com/ctatedev/status/2111272070768185787)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Chris Tate (@ctatedev)",
+      "url": "https://x.com/ctatedev/status/2111272070768185787",
+      "createdAt": "2026-10-17T01:44:21Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111209551005692327",
+      "section": "news",
+      "type": "news",
+      "title": "Swift Package Index adds Swift 6.4 support and moves to Swift Build",
+      "description": "The Swift Package Index now builds packages and generates docs with Swift 6.4, which brings Swift Build as SwiftPM's new default build system.",
+      "content": "Package authors should check their packages still build cleanly, since Swift 6.4 switches SwiftPM's default build system to Swift Build. The index now uses 6.4 for generated documentation as well.\n\n[Swift Package Index blog post](https://swiftpackageindex.com/blog/swift-6-4-support-and-the-move-to-swift-build)\n\n[Post on X](https://x.com/SwiftLang/status/2111209551005692327)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Swift Language (@SwiftLang)",
+      "url": "https://x.com/SwiftLang/status/2111209551005692327",
+      "createdAt": "2026-10-16T21:35:55Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111352245099061368",
+      "section": "news",
+      "type": "news",
+      "title": "Reset: an open-source Mac menu bar app that tracks Claude Code usage windows",
+      "description": "A free MIT-licensed macOS app that shows how much of your Claude Code window is left, warns before you run out, and can let Claude pace itself via MCP.",
+      "content": "Reset puts a menu bar pill with time and percentage left, warns from 80% of the weekly limit, and supports separate work and personal accounts. It queues phone alerts for resets, can auto-start the next window, and exposes an MCP server so Claude can check its remaining budget and downshift to a smaller model at a cap. It also has a cost dashboard and desktop widgets, and works with Codex, Gemini CLI and Antigravity. It needs macOS 14+ and isn't notarized yet.\n\n[Reset project page](http://msfbeast.github.io/reset)\n\n[Post on X](https://x.com/msfbeast007/status/2111352245099061368)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Sajid Khan (@msfbeast007)",
+      "url": "https://x.com/msfbeast007/status/2111352245099061368",
+      "createdAt": "2026-10-17T07:02:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111147664134017328",
+      "section": "news",
+      "type": "news",
+      "title": "QUASAR: fixing the latent-weight mismatch in quantization-aware training",
+      "description": "A cheap change to QAT's forward-pass weight reconstruction that gets consistently lower loss than QAT baselines at 2-4 bits with no inference overhead.",
+      "content": "In QAT the high-precision latent weights get the gradient updates, but loss is computed on their low-bit reconstructions, and that mismatch raises the loss floor. Existing fixes (learned scales, soft-to-hard rounding, better init) don't target it directly. QUASAR only changes the reconstruction map in the forward pass, so it can stack with most other QAT methods.\n\n[Post on X](https://x.com/counathe/status/2111147664134017328)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Vincent Counathe (@counathe)",
+      "url": "https://x.com/counathe/status/2111147664134017328",
+      "createdAt": "2026-10-16T17:30:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111127193153900689",
+      "section": "news",
+      "type": "news",
+      "title": "NVIDIA's EdgeWise trains a small local model to decide when to call a frontier model",
+      "description": "An RL-trained small model runs coding tasks and learns when to delegate a step to a stronger cloud model, cutting cloud API cost by 53% on SWE-ReBench.",
+      "content": "EdgeWise puts the small local model in charge and uses reinforcement learning to teach it both to solve tasks and to judge when a step needs help, so no separate router is needed at inference. On SWE-ReBench it reports higher Pass@3 with 53% lower cloud API cost.\n\n[Paper on Hugging Face](https://huggingface.co/papers/2610.17560)\n\n[NVIDIA project page](https://research.nvidia.com/labs/lpr/edge-wise/)\n\n[Post on X](https://x.com/srv_m/status/2111127193153900689)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Saurav Muralidharan (@srv_m)",
+      "url": "https://x.com/srv_m/status/2111127193153900689",
+      "createdAt": "2026-10-16T16:08:40Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111102659377946821",
+      "section": "news",
+      "type": "news",
+      "title": "E2B's founder argues \"sandboxes are dead\" for production agents",
+      "description": "Vasek Mlejnsky says agents now need a per-agent private cloud with storage, networking, secrets and elastic compute, not a fast-booting VM behind an API.",
+      "content": "In an X article, the E2B co-founder traces three agent waves (code-interpreter copilots, app-building agents, agents that run whole computers) and argues that competing on cold-start milliseconds and vCPU price is a first-wave answer. His pitch is an agent-driven private cloud that adapts to what each task needs, informed by traces from billions of E2B agent runs.\n\n[Post on X](https://x.com/mlejva/status/2111102659377946821)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Vasek Mlejnsky (@mlejva)",
+      "url": "https://x.com/mlejva/status/2111102659377946821",
+      "createdAt": "2026-10-16T14:31:11Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111300127852019955",
+      "section": "news",
+      "type": "news",
+      "title": "China drafts export controls on frontier AI model weights and training methods",
+      "description": "MOFCOM's draft rules would cover new model releases above 10^26 FLOPs, 2T parameters or a global top-10 ranking, and count open-sourcing as an export.",
+      "content": "Already-public open-weight models aren't affected, and covered releases only need registration until the rules take effect; restricted models can get an \"automatic licence\". API and app access isn't covered. The list also restricts AI agents, chip design at 14nm and below, 10,000-GPU cluster know-how and AI cyber tools. Kotasthane's FAQ looks at what it means for builders who fine-tune Qwen, DeepSeek and Kimi.\n\n[Reuters report](https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50127369)\n\n[Post on X](https://x.com/pranaykotas/status/2111300127852019955)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Pranay Kotasthane (@pranaykotas)",
+      "url": "https://x.com/pranaykotas/status/2111300127852019955",
+      "createdAt": "2026-10-17T03:35:51Z",
+      "status": "inbox"
+    }
   ]
 }
