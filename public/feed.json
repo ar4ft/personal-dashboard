@@ -20358,6 +20358,181 @@
       "createdAt": "2026-10-18T13:48:48.000Z",
       "updatedAt": "2026-10-18T13:48:48.000Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50142866",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Namecheap just seized and disabled all my domains",
+      "description": "A sysadmin's Reddit post recounting how Namecheap seized and disabled all of their domains, sparking an HN discussion about registrar power and domain-risk mitigation.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sashk",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "content": "A sysadmin's Reddit post recounting how Namecheap seized and disabled all of their domains, sparking an HN discussion about registrar power and domain-risk mitigation.\n\n[Article](https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50142866)",
+      "createdAt": "2026-10-18T16:56:56.000Z",
+      "updatedAt": "2026-10-18T16:56:56.000Z"
+    },
+    {
+      "id": "hn:50142573",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Someone behind the software",
+      "description": "Karri Saarinen's essay reflecting on the people behind software products and the human side of building technology.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "tosh",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "content": "Karri Saarinen's essay reflecting on the people behind software products and the human side of building technology.\n\n[Article](https://karrisaarinen.com/posts/someone-behind-the-software/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50142573)",
+      "createdAt": "2026-10-18T16:32:00.000Z",
+      "updatedAt": "2026-10-18T16:32:00.000Z"
+    },
+    {
+      "id": "hn:50145337",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "description": "An arXiv paper proposing hybrid reasoning agents that perform internal reasoning in latent space while acting through plain text.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "allinonai",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "content": "An arXiv paper proposing hybrid reasoning agents that perform internal reasoning in latent space while acting through plain text.\n\n[Article](https://arxiv.org/abs/2610.18861)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50145337)",
+      "createdAt": "2026-10-18T20:48:14.000Z",
+      "updatedAt": "2026-10-18T20:48:14.000Z"
+    },
+    {
+      "id": "hn:50141681",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Will it be a golden age or a dark age for mathematics (and science)?",
+      "description": "Terry Tao's essay weighing whether AI will usher in a golden age or a dark age for mathematics and science.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "smilelamp",
+      "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+      "content": "Terry Tao's essay weighing whether AI will usher in a golden age or a dark age for mathematics and science.\n\n[Article](https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50141681)",
+      "createdAt": "2026-10-18T15:00:40.000Z",
+      "updatedAt": "2026-10-18T15:00:40.000Z"
+    },
+    {
+      "id": "hn:50144066",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Free Pascal compiler now supports dynamic packages",
+      "description": "The Free Pascal compiler has gained support for dynamic packages, extending how code can be modularized and distributed.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sysrpl",
+      "url": "https://www.getlazarus.org/dynamic/",
+      "content": "The Free Pascal compiler has gained support for dynamic packages, extending how code can be modularized and distributed.\n\n[Article](https://www.getlazarus.org/dynamic/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50144066)",
+      "createdAt": "2026-10-18T18:48:04.000Z",
+      "updatedAt": "2026-10-18T18:48:04.000Z"
+    },
+    {
+      "id": "hn:50142449",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Intel 8087 chip: floating-point addition and subtraction",
+      "description": "Ken Shirriff's deep dive into how the Intel 8087 coprocessor implements floating-point addition and subtraction at the microcode level.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pwg",
+      "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+      "content": "Ken Shirriff's deep dive into how the Intel 8087 coprocessor implements floating-point addition and subtraction at the microcode level.\n\n[Article](https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50142449)",
+      "createdAt": "2026-10-18T16:20:27.000Z",
+      "updatedAt": "2026-10-18T16:20:27.000Z"
+    },
+    {
+      "id": "hn:50139998",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Brain Sandwich",
+      "description": "An essay on software engineering ideas, from the terriblesoftware.org blog.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "keyle",
+      "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
+      "content": "An essay on software engineering ideas, from the terriblesoftware.org blog.\n\n[Article](https://terriblesoftware.org/2026/10/02/the-brain-sandwich/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50139998)",
+      "createdAt": "2026-10-18T11:15:37.000Z",
+      "updatedAt": "2026-10-18T11:15:37.000Z"
+    },
+    {
+      "id": "hn:50143132",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mitos editor is a fork of Helix",
+      "description": "Mitos, a new text editor forked from the Helix editor project, announced to Hacker News.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ambigious7777",
+      "url": "https://mitos.computer/",
+      "content": "Mitos, a new text editor forked from the Helix editor project, announced to Hacker News.\n\n[Article](https://mitos.computer/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50143132)",
+      "createdAt": "2026-10-18T17:19:34.000Z",
+      "updatedAt": "2026-10-18T17:19:34.000Z"
+    },
+    {
+      "id": "hn:50135762",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I built a programming language that LLMs can't use",
+      "description": "An author describes building a programming language deliberately designed to be unusable by large language models.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dom96",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "content": "An author describes building a programming language deliberately designed to be unusable by large language models.\n\n[Article](https://blog.picheta.me/post/killswitch-lang/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50135762)",
+      "createdAt": "2026-10-17T22:26:47.000Z",
+      "updatedAt": "2026-10-17T22:26:47.000Z"
+    },
+    {
+      "id": "hn:50146049",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Wearable Bioacoustics for Two-Way Communication Between Humans and Cetaceans",
+      "description": "A NeurIPS workshop paper on wearable bioacoustic devices aimed at enabling two-way communication between humans and cetaceans.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "joebig",
+      "url": "https://neurips.cc/virtual/2025/loc/san-diego/workshop/109586",
+      "content": "A NeurIPS workshop paper on wearable bioacoustic devices aimed at enabling two-way communication between humans and cetaceans.\n\n[Article](https://neurips.cc/virtual/2025/loc/san-diego/workshop/109586)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50146049)",
+      "createdAt": "2026-10-18T22:15:48.000Z",
+      "updatedAt": "2026-10-18T22:15:48.000Z"
     }
   ]
 }
