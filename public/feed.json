@@ -2,6 +2,256 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2111753928031531232",
+      "section": "news",
+      "type": "news",
+      "title": "Google Research open-sources Harness², agents that tune their own harness",
+      "description": "Harness² lets an agent refine its prompts, tools, memory, skills and subagents for each new task while model weights stay frozen, then carries the lessons forward to later tasks. It compares several candidate runs instead of needing a grader.",
+      "content": "The framework has two levels of recursion: a task-level loop proposes harness edits, runs candidate versions and composes a better harness from how they behaved, and a cross-task loop saves the settled harness and lessons as the starting point for the next task. Google tested it with Gemini 3.5 Flash and GLM-5 on legal, office and professional-work benchmarks, with OpenCode or Codex executing the work; one round of edits already beat the original harnesses.\n\n[Harness² repo on GitHub](https://github.com/google-research/harness2)\n\n[Post on X](https://x.com/akshay_pachaar/status/2111753928031531232)",
+      "author": "Akshay (@akshay_pachaar)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/akshay_pachaar/status/2111753928031531232",
+      "createdAt": "2026-10-18T09:39:05Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111736919390302420",
+      "section": "news",
+      "type": "news",
+      "title": "NVIDIA Structured Data Models: tabular foundation models behind one PyTorch API",
+      "description": "NVIDIA's new structured-data-models library wraps pretrained in-context tabular and relational models such as TabICLv2, KumoTabular, KumoRelational and TimesFM3, so you can predict on a table from labeled context rows without training. The post compares them with logistic regression and gradient boosting on a small dataset.",
+      "content": "The library adds GPU-native PyTorch tensor types for numerical, categorical, datetime, text and relational data plus composable preprocessing, and exposes a fit/predict interface over in-context learning. It covers classification and regression on single tables, relational databases via `RelatedTables`, and time-series forecasting. According to the post, on a 300-row breast-cancer sample the models roughly matched well-tuned logistic regression and gradient boosting, a useful reality check for anyone weighing tabular foundation models against XGBoost-style baselines. Weights ship under several licenses (BSD-3, OpenMDW, and some non-commercial), so check each model before production use.\n\n[structured-data-models on GitHub](https://github.com/NVIDIA/structured-data-models)\n\n[Model overview and licenses](https://nvidia.github.io/structured-data-models/api/models.html)\n\n[Post on X](https://x.com/ApollonVisual/status/2111736919390302420)",
+      "author": "Apollo (@ApollonVisual)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/ApollonVisual/status/2111736919390302420",
+      "createdAt": "2026-10-18T08:31:30Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111541211869655453",
+      "section": "news",
+      "type": "news",
+      "title": "Cauchy: an open-source native Mac PDF reader built for maths papers",
+      "description": "Cauchy lets you hover a cross-reference like \"Theorem 2.1\" to see its statement, and ask questions about highlighted passages with your own AI provider, getting LaTeX answers that cite the pages they used. Free, MIT licensed, requires macOS 27.",
+      "content": "Built natively for macOS with continuous, single-page and two-up layouts, one document per window, coloured highlights and undo. AI answers render LaTeX via SwiftMath and keep a visible boundary between PDF-backed claims, outside knowledge and insufficient evidence; highlights and conversations export to Markdown. Building from source needs Xcode 27.\n\n[Cauchy on GitHub](https://github.com/jerrydjin/cauchy)\n\n[Post on X](https://x.com/jerryjin/status/2111541211869655453)",
+      "author": "Jerry Jin (@jerryjin)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/jerryjin/status/2111541211869655453",
+      "createdAt": "2026-10-17T19:33:50Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111563389113692587",
+      "section": "news",
+      "type": "news",
+      "title": "Omarchy Mac team ships its own Linux kernel for M1–M3 and MacBook Neo",
+      "description": "The Omarchy Mac team now has a Linux kernel for Apple Silicon covering M1, M2, M3 and MacBook Neo, with external monitors, Thunderbolt docks and Touch ID. M4, M5 and M6 support is planned.",
+      "content": "Joshua Warren says the kernel is still an edge release: the public installer won't install it yet, but once it clears testing it should be a simple install. The installer sets up Omarchy, DHH's Linux distro, alongside macOS by default, so dual booting is supported.\n\n[Announcement on X](https://x.com/JoshuaSWarren/status/2111563389113692587)\n\n[Dual-boot and edge-release details](https://x.com/JoshuaSWarren/status/2111570430637031430)",
+      "author": "Joshua Warren (@JoshuaSWarren)",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/JoshuaSWarren/status/2111563389113692587",
+      "createdAt": "2026-10-17T21:01:57Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111567628146037103",
+      "section": "news",
+      "type": "news",
+      "title": "OpenWALDO's training ladder: reproducible small foundation models you can train on a Mac",
+      "description": "OpenWALDO publishes \"composes\" that pin architecture, tokenizer, data, token budget, optimizer and evals for each rung, from a 10.7M-parameter Tiny Shakespeare model to a 64.7M Simple-English model, each with frozen acceptance gates. The first two rungs train with one command via an MLX backend on a 128GB M4 Max.",
+      "content": "Four rungs are validated so far, each with held-out loss, generation-quality, repetition, EOS and checkpoint-reload gates. The goal is reproducible methodology and comparable results rather than bit-identical weights. Estimated local training time is about 1–3 hours for rung 1 and 12–24 hours for rung 2 (estimates, not measured benchmarks). A 124.6M-parameter general-foundation rung trained on a Wikimedia, educational, Stack Exchange and story mix is now being qualified.\n\n[Validated composes on GitHub](https://github.com/openwaldo/waldo/tree/main/composes)\n\n[OpenWALDO site](https://openwaldo.org/)\n\n[Post on X](https://x.com/gmkurtzer/status/2111567628146037103)",
+      "author": "Gregory M. Kurtzer (@gmkurtzer)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/gmkurtzer/status/2111567628146037103",
+      "createdAt": "2026-10-17T21:18:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111488770319278384",
+      "section": "news",
+      "type": "news",
+      "title": "WASD 0.6: a pure Dart WebAssembly runtime now runs WASI 0.2 and 0.3 components",
+      "description": "WASD decodes, validates, instantiates and runs Wasm modules from Dart and Flutter without a native runtime dependency. The 0.6 line adds stable WASI Preview 2 and Preview 3 command and HTTP components, so you can build a Rust server and run it inside Dart.",
+      "content": "Besides WASI Preview1 command modules, the runtime exposes WebAssembly-style compile/instantiate/validate APIs, host imports via import maps, and module inspection. The 0.6.1 patch adds instance-local component handles, typed ownership transfer and resource destructors, plus JSPI-based async host imports on JavaScript backends.\n\n[WASD on GitHub](https://github.com/medz/wasd)\n\n[Post on X](https://x.com/shiweidu/status/2111488770319278384)",
+      "author": "Seven Du (@shiweidu)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/shiweidu/status/2111488770319278384",
+      "createdAt": "2026-10-17T16:05:27Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:m17-codec2-3200-fargan",
+      "section": "news",
+      "type": "news",
+      "title": "Codec2 3200 meets FARGAN: a neural decoder for M17 digital radio voice",
+      "description": "The M17 Project swaps Codec2's buzzy 8 kHz sinusoidal decoder for Xiph's FARGAN neural vocoder, producing 16 kHz speech from exactly the same 3200 bps bits on air. The ~818K-parameter model runs in about 1.6 ms per 20 ms frame on one x86 core.",
+      "content": "Wojciech Kaczmarski (SP5WWP) maps the unpacked Codec2 parameters (pitch, voicing, energy, LSPs) to 20 features per 10 ms and trains FARGAN with Opus's two-stage recipe: 400 regular epochs, then 50 adversarial epochs that made a clearly audible difference. A key lesson: never pair noisy features with a clean target, because the network can't denoise. The result, Codec2-mod-neural, is a drop-in alternative to `codec2_decode()` that needs no transmitter changes, and the training run cost under $200 on rented GPUs.\n\n[Codec2-mod-neural code, training scripts and model](https://github.com/M17-Project/Codec2-mod-neural)\n\n[FARGAN paper (Valin et al.)](https://arxiv.org/abs/2405.21069)\n\n[M17 Project post on X](https://x.com/m17_project/status/2111436610982019133)",
+      "author": "Wojciech Kaczmarski (M17 Project)",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Reading",
+      "url": "https://m17project.org/2026/10/17/codec2-3200-meets-fargan/",
+      "createdAt": "2026-10-17T12:38:11Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:t3-parser-combinators",
+      "section": "news",
+      "type": "news",
+      "title": "Parser Combinators: better than regex",
+      "description": "An interactive TypeScript walkthrough that builds parsers as functions from input to a value plus the remaining string, then composes them with sequencing and mapping into typed parsers for real structures. It shows how variadic tuple types keep combinators like pSeq fully typed.",
+      "content": "The essay starts with tiny parsers such as pInteger and pHello, visualizes how each consumes input and passes the rest along, and gradually builds a small toolkit (sequence, map, ignore-whitespace) that turns strings like \"Hello, world!\" into typed objects. It is a gentle path to an idea from functional programming that scales better than regex for structured input.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50139067)",
+      "author": "Florian (T3 Blog)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
+      "createdAt": "2026-10-17T12:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50137950",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Sphinx, a Git hook that quizzes you on your agent's code before it ships",
+      "description": "Sphinx pauses pushes to protected branches and asks a question generated from the diff about what the change does when things go wrong. Answer correctly and the push continues; answer wrong and it explains why and tries a new scenario.",
+      "content": "The free, open-source tool (\"outsource your thinking, not your understanding\") installs via npm as `sphinx-understand` and is meant to run on minimal tokens using your existing coding agent, OpenRouter or any OpenAI-compatible endpoint. A reviewer that never saw your chat reads the diff, so the check targets cognitive debt from agent-written code.\n\n[Sphinx on GitHub](https://github.com/parthh01/sphinx)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50137950)",
+      "author": "parthh01",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "createdAt": "2026-10-18T04:33:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50138531",
+      "section": "news",
+      "type": "news",
+      "title": "DeepSeek launches Search and Fetch APIs at $0.75 per 1,000 successful requests",
+      "description": "DeepSeek's new Search API returns structured web results from its in-house search engine, and the Fetch API returns a single page as Markdown, both aimed at agents and RAG apps. Only successful, non-empty requests are billed.",
+      "content": "Both are raw JSON endpoints (`/v1/tools/search` and `/v1/tools/fetch`) using the same bearer key as the DeepSeek API, with independent rate limits. Server-side tool calls made through DeepSeek Harness, Claude Code or Codex already hit these APIs and are free until per-request billing starts on November 1, 2026 (Beijing time).\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50138531)",
+      "author": "DeepSeek",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "createdAt": "2026-10-18T06:50:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50135379",
+      "section": "news",
+      "type": "news",
+      "title": "JDK 28 feature set takes shape: value objects, AOT code compilation and a JSON API",
+      "description": "JEPs targeted to JDK 28 so far include Value Objects (preview), generational Shenandoah by default, a Simple JSON API incubator, ahead-of-time code compilation, final Structured Concurrency and ZGC startup and adaptive-heap improvements. The macOS/x64 port is deprecated for removal.",
+      "content": "The full list so far: JEP 401 Value Objects (Preview), 535 Shenandoah generational mode by default, 539 Strict Field Initialization in the JVM (Preview), 540 Simple JSON API (Incubator), 541 Deprecate the macOS/x64 port for removal, 542 PEM encodings of cryptographic objects, 543 Structured Concurrency, 544 Ahead-of-Time Code Compilation, 545 faster startup and warmup with ZGC, and 546 adaptive heap sizing for ZGC. Early-access builds are available.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50135379)",
+      "author": "OpenJDK",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://openjdk.org/projects/jdk/28/",
+      "createdAt": "2026-10-17T21:37:07Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50130379",
+      "section": "news",
+      "type": "news",
+      "title": "lpviz: watch Simplex, interior point and PDHG solve linear programs in the browser",
+      "description": "Draw a feasible region and aim an objective, then watch Simplex, interior point methods, PDHG, the ellipsoid method and the central path solve it live. A visual way to build intuition for the optimization solvers behind much of ML and operations research.",
+      "content": "The interactive app runs entirely in the browser; its documentation works even without JavaScript.\n\n[Open lpviz](https://lpviz.net/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50130379)",
+      "author": "lpviz",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://lpviz.net/",
+      "createdAt": "2026-10-17T12:06:44Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50139658",
+      "section": "news",
+      "type": "news",
+      "title": "It's time to talk about TEEs",
+      "description": "Alin Tomescu surveys attacks on trusted execution environments, from memory-safety bugs inside enclaves to remote-attestation forgery and side channels on Intel SGX and AMD SEV, and argues teams should rethink whether and how they deploy TEE-based apps.",
+      "content": "The post argues hardware vendors mainly compete on performance and features, while security claims are hard for the market to judge and are undermined by the complexity of modern CPUs. Examples include Signal's contact-discovery enclave leaking memory and Foreshadow-style attestation attacks.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50139658)",
+      "author": "Alin Tomescu",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://alinush.github.io//tee",
+      "createdAt": "2026-10-18T10:14:42Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50137784",
+      "section": "news",
+      "type": "news",
+      "title": "Openprinter: an open-hardware inkjet printer you can repair and refill",
+      "description": "An upcoming Crowd Supply project for a modular, open-source inkjet printer built from standard parts, with no proprietary drivers and no cartridge DRM. It prints on sheets or paper rolls with refillable black or colour cartridges.",
+      "content": "Openprinter is designed for makers and artists who want a printer they can assemble, modify and keep running instead of throwing away. It can sit on a desk or mount on a wall. The campaign is listed as launching soon.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50137784)",
+      "author": "Open Tools",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.crowdsupply.com/open-tools/openprinter",
+      "createdAt": "2026-10-18T03:56:29Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50140001",
+      "section": "news",
+      "type": "news",
+      "title": "Open Micro-Manipulator: a low-cost XYZ stage with sub-micrometer steps",
+      "description": "An open-source motorized XYZ micro-manipulator for optical alignment, probing electronics and microscopy. A parallel-kinematic design with off-the-shelf steppers, a 30 kHz closed-loop controller and magnetic gearing on cheap encoders reaches steps down to 50 nm.",
+      "content": "The author stresses that 50 nm is resolution, not absolute accuracy. The device takes G-code over USB serial, and its firmware includes a motion planner with look-ahead for smooth paths. The repo includes the bill of materials, electronics, firmware and a companion GUI.\n\n[Companion GUI on GitHub](https://github.com/0x23/OpenMicroManipulatorGUI)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50140001)",
+      "author": "0x23",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/0x23/MicroManipulatorStepper",
+      "createdAt": "2026-10-18T11:16:22Z",
+      "status": "inbox"
+    },
+    {
       "id": "hn:50096142",
       "section": "news",
       "type": "news",
