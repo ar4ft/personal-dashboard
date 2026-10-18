@@ -2,6 +2,222 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50145337",
+      "section": "news",
+      "type": "news",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "description": "A paper on agents that reason beyond token-by-token language in a continuous latent space, then emit text only when they need to act or communicate. The hybrid loop aims to keep deliberation richer than chain-of-thought while staying compatible with tools and chat.",
+      "content": "Hybrid Reasoning Agents (arxiv:2610.18861) explore how an agent can \"think beyond human language, yet still act through it,\" combining latent-space reasoning with text actions for tools and users. The framing targets the usual limits of purely textual chain-of-thought for long-horizon agent work.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.18861)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50145337)",
+      "author": "allinonai",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "createdAt": "2026-10-18T20:48:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50144066",
+      "section": "news",
+      "type": "news",
+      "title": "Free Pascal compiler now supports dynamic packages",
+      "description": "Free Pascal / Lazarus gains dynamic packages so libraries can be loaded and shared at runtime instead of being baked into every binary. The write-up covers how the packaging model works and what it changes for modular desktop apps.",
+      "content": "Dynamic packages let Free Pascal programs ship shared units that load on demand, closer to the plugin / shared-library workflows other ecosystems take for granted. The Lazarus team documents the new model, build flags and how packages relate to units and packages on disk.\n\n[Free Pascal dynamic packages](https://www.getlazarus.org/dynamic/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50144066)",
+      "author": "sysrpl",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.getlazarus.org/dynamic/",
+      "createdAt": "2026-10-18T18:48:04Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50090927",
+      "section": "news",
+      "type": "news",
+      "title": "Types of types: Haskell's Kind system",
+      "description": "A clear tour of Haskell kinds: how * , Constraint and higher-kinded types classify types the way types classify values. Useful if you have used type classes and want the next layer of the type system demystified.",
+      "content": "The post walks from ordinary types up through kinds, showing why `Maybe` has kind `* -> *`, how constraints sit in the kind hierarchy, and where higher-kinded polymorphism shows up in everyday Haskell libraries. It is a short conceptual map rather than a reference manual.\n\n[Types of types on Thunk](https://thunk.blog/posts/types-of-types-haskell-kind-system/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50090927)",
+      "author": "Thom2503",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://thunk.blog/posts/types-of-types-haskell-kind-system/",
+      "createdAt": "2026-10-14T17:00:31Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50142449",
+      "section": "news",
+      "type": "news",
+      "title": "The Intel 8087 chip: floating-point addition and subtraction",
+      "description": "Ken Shirriff reverse-engineers how the 1980 Intel 8087 performed floating-point add and subtract in microcode, including alignment, rounding and the spectacular speedup it gave the IBM PC over software floating point.",
+      "content": "Although the 8087 also handled tangents, square roots and logs, this deep dive sticks to addition and subtraction: how mantissa alignment, sticky bits and microcode sequences implement IEEE-style arithmetic on the classic math coprocessor die. Classic Shirriff silicon archaeology for anyone who likes numeric hardware.\n\n[Inside the Intel 8087](https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50142449)",
+      "author": "pwg",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+      "createdAt": "2026-10-18T16:20:27Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50135762",
+      "section": "news",
+      "type": "news",
+      "title": "I built a programming language that LLMs can't use",
+      "description": "Dominik Picheta designs Killswitch, a deliberately unfamiliar language, to test how much LLM coding skill is recall versus real understanding. Humans can still write it; models trained on common languages struggle.",
+      "content": "The experiment asks whether models write code by understanding programs or by regurgitating patterns from training data. Killswitch is usable by people but kept out of the usual corpus so that success would require genuine transfer. The post covers the design choices and early model failures, with a related adversarial coding benchmark.\n\n[Killswitch language post](https://blog.picheta.me/post/killswitch-lang/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50135762)",
+      "author": "dom96",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "createdAt": "2026-10-17T22:26:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50118098",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Parin – A 2D game engine between raylib and Godot, written in D",
+      "description": "Parin sits between immediate-mode simplicity and a full editor engine: a 2D toolkit in D that aims for raylib-like ease with a bit more structure for small games.",
+      "content": "The engine ships as an open-source D project for 2D games that want more than a raw framework but less ceremony than Godot. Show HN discusses API shape, targets and how it compares to raylib-style workflows.\n\n[Parin on GitHub](https://github.com/Kapendev/parin)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50118098)",
+      "author": "Kapendev",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/Kapendev/parin",
+      "createdAt": "2026-10-16T13:22:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50141657",
+      "section": "news",
+      "type": "news",
+      "title": "Websites are closing their doors to AI agents",
+      "description": "The Verge looks at sites that now block or throttle AI agents and crawlers, and what that means for browser-use automation as publishers push back on unpaid scraping and agent traffic.",
+      "content": "As agent browsers proliferate, more properties are detecting and refusing automated visitors. The piece covers the arms race between agent frameworks and bot defenses, and the open question of paid or allowlisted agent access.\n\n[The Verge article](https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50141657)",
+      "author": "evolve2k",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "createdAt": "2026-10-18T14:58:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50142886",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Chest – a tiny, open-source menu bar manager for macOS 27",
+      "description": "Chest hides overflow menu-bar icons behind a dot or a drawer on macOS 27 Golden Gate. Free, open source, no account — a focused alternative to heavier bartenders.",
+      "content": "Click the Chest control to reveal icons parked to its left or open a small drawer for Display, Wi-Fi and similar controls. It requires macOS 27 or later and is maintained alongside boringbar.app.\n\n[Chest homepage](https://chest.boringbar.app/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50142886)",
+      "author": "a-ve",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "url": "https://chest.boringbar.app/",
+      "createdAt": "2026-10-18T16:58:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111343045266596102",
+      "section": "news",
+      "type": "news",
+      "title": "Slice 0.1.0: native SwiftUI screen recorder and editor for Mac",
+      "description": "rit3zh ships the first release of Slice, a free native macOS recorder/editor with auto zooms, smooth cursor, captions and local-only processing — source available, no account.",
+      "content": "Slice records screen, camera and microphone on-device, then lets you polish clips with zooms, wallpapers, transitions and captions without uploading footage. v0.1.0 is the first public cut for Mac builders who want something lighter than the usual SaaS recorders.\n\n[Slice for Mac](https://slice.rit3zh.dev)\n\n[Post on X](https://x.com/rit3zh/status/2111343045266596102)",
+      "author": "rit3zh (@rit3zh)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/rit3zh/status/2111343045266596102",
+      "createdAt": "2026-10-17T06:26:23Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111813843169013985",
+      "section": "news",
+      "type": "news",
+      "title": "Swiftflip 1.21 adds deck widgets and Control Center reviews on watchOS",
+      "description": "The spaced-repetition app updates across iOS, macOS and watchOS with a Home Screen deck widget, a Control Center shortcut for due cards, and cards that mix text, audio and images on one side.",
+      "content": "Swiftflip 1.21 is aimed at flashcard review that fits Apple's surfaces: due cards from Control Center, a deck on the Home Screen, and richer card media including pictures and recordings. Insights still show upcoming reviews.\n\n[Swiftflip 1.21 release notes](https://hksw.io/news/swiftflip-1-21-release-notes/)\n\n[Post on X](https://x.com/hkswio/status/2111813843169013985)",
+      "author": "HK Softworks (@hkswio)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/hkswio/status/2111813843169013985",
+      "createdAt": "2026-10-18T13:37:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111843590834164175",
+      "section": "news",
+      "type": "news",
+      "title": "Launchpod: free open-source Launchpad alternative for macOS 26+",
+      "description": "Callum open-sources Launchpod, a native full-screen app grid with pages, folders and instant search for macOS 26 and later — no account, no paywall.",
+      "content": "Built as a Launchpad stand-in after Apple's grid changes, Launchpod keeps organization local: pages, folders and search in a native full-screen UI. The author flipped it from paid to free/open source mid-build-in-public.\n\n[Launchpod on GitHub](https://github.com/callumhxu/launchpod)\n\n[Post on X](https://x.com/callumhxu/status/2111843590834164175)",
+      "author": "Callum (@callumhxu)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/callumhxu/status/2111843590834164175",
+      "createdAt": "2026-10-18T15:35:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111910218959655413",
+      "section": "news",
+      "type": "news",
+      "title": "FerroEDA 0.1.0: Rust/WebAssembly KiCad-compatible EDA in the browser",
+      "description": "A GPL-3.0 Rust rewrite aimed at KiCad 10 workflows: schematic and PCB editors, 3D viewer, DRC/zone fill parity, hardware-as-code scripts, plus native apps and a CLI — runnable in-browser via Wasm.",
+      "content": "FerroEDA reads and writes KiCad files so you can edit a project in the browser demo and return to KiCad without data loss. The 0.1.0 cut also ships macOS/Windows/Linux natives and positions itself as an early, contribution-friendly fork of KiCad behaviour rather than a closed SaaS PCB tool.\n\n[Try FerroEDA in the browser](https://ferroeda.github.io/ferroeda/)\n\n[FerroEDA on GitHub](https://github.com/ferroeda/ferroeda)\n\n[Post on X](https://x.com/PivotRemy/status/2111910218959655413)",
+      "author": "remy (@PivotRemy)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/PivotRemy/status/2111910218959655413",
+      "createdAt": "2026-10-18T20:00:08Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2111200892829479267",
+      "section": "news",
+      "type": "news",
+      "title": "Apache OpenNLP 2.5.12 and 3.0.0-M6 released",
+      "description": "The ASF ships a stable OpenNLP 2.5.12 plus a 3.0.0 milestone for the classic ML NLP toolkit covering tokenization, tagging, chunking and more on JVM projects.",
+      "content": "OpenNLP remains a practical Java/JVM library for classical NLP pipelines when you want machine-learning text processing without pulling in a full LLM stack. Downloads and notes are on the project site.\n\n[OpenNLP downloads](https://opennlp.apache.org/download.html)\n\n[Post on X](https://x.com/TheASF/status/2111200892829479267)",
+      "author": "The ASF (@TheASF)",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "url": "https://x.com/TheASF/status/2111200892829479267",
+      "createdAt": "2026-10-16T21:01:31Z",
+      "status": "inbox"
+    },
+    {
       "id": "x:2111753928031531232",
       "section": "news",
       "type": "news",
@@ -20394,24 +20610,6 @@
       "updatedAt": "2026-10-18T16:32:00.000Z"
     },
     {
-      "id": "hn:50145337",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "description": "An arXiv paper proposing hybrid reasoning agents that perform internal reasoning in latent space while acting through plain text.",
-      "topics": [
-        "AI",
-        "Machine Learning"
-      ],
-      "source": "Hacker News",
-      "author": "allinonai",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "content": "An arXiv paper proposing hybrid reasoning agents that perform internal reasoning in latent space while acting through plain text.\n\n[Article](https://arxiv.org/abs/2610.18861)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50145337)",
-      "createdAt": "2026-10-18T20:48:14.000Z",
-      "updatedAt": "2026-10-18T20:48:14.000Z"
-    },
-    {
       "id": "hn:50141681",
       "section": "news",
       "type": "news",
@@ -20428,41 +20626,6 @@
       "content": "Terry Tao's essay weighing whether AI will usher in a golden age or a dark age for mathematics and science.\n\n[Article](https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50141681)",
       "createdAt": "2026-10-18T15:00:40.000Z",
       "updatedAt": "2026-10-18T15:00:40.000Z"
-    },
-    {
-      "id": "hn:50144066",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Free Pascal compiler now supports dynamic packages",
-      "description": "The Free Pascal compiler has gained support for dynamic packages, extending how code can be modularized and distributed.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "sysrpl",
-      "url": "https://www.getlazarus.org/dynamic/",
-      "content": "The Free Pascal compiler has gained support for dynamic packages, extending how code can be modularized and distributed.\n\n[Article](https://www.getlazarus.org/dynamic/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50144066)",
-      "createdAt": "2026-10-18T18:48:04.000Z",
-      "updatedAt": "2026-10-18T18:48:04.000Z"
-    },
-    {
-      "id": "hn:50142449",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "The Intel 8087 chip: floating-point addition and subtraction",
-      "description": "Ken Shirriff's deep dive into how the Intel 8087 coprocessor implements floating-point addition and subtraction at the microcode level.",
-      "topics": [
-        "Programming",
-        "Technology"
-      ],
-      "source": "Hacker News",
-      "author": "pwg",
-      "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
-      "content": "Ken Shirriff's deep dive into how the Intel 8087 coprocessor implements floating-point addition and subtraction at the microcode level.\n\n[Article](https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50142449)",
-      "createdAt": "2026-10-18T16:20:27.000Z",
-      "updatedAt": "2026-10-18T16:20:27.000Z"
     },
     {
       "id": "hn:50139998",
@@ -20497,24 +20660,6 @@
       "content": "Mitos, a new text editor forked from the Helix editor project, announced to Hacker News.\n\n[Article](https://mitos.computer/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50143132)",
       "createdAt": "2026-10-18T17:19:34.000Z",
       "updatedAt": "2026-10-18T17:19:34.000Z"
-    },
-    {
-      "id": "hn:50135762",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "I built a programming language that LLMs can't use",
-      "description": "An author describes building a programming language deliberately designed to be unusable by large language models.",
-      "topics": [
-        "Programming",
-        "AI"
-      ],
-      "source": "Hacker News",
-      "author": "dom96",
-      "url": "https://blog.picheta.me/post/killswitch-lang/",
-      "content": "An author describes building a programming language deliberately designed to be unusable by large language models.\n\n[Article](https://blog.picheta.me/post/killswitch-lang/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50135762)",
-      "createdAt": "2026-10-17T22:26:47.000Z",
-      "updatedAt": "2026-10-17T22:26:47.000Z"
     },
     {
       "id": "hn:50146049",
