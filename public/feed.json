@@ -20219,6 +20219,23 @@
       "createdAt": "2026-10-17T15:26:31.000Z",
       "updatedAt": "2026-10-17T15:26:31.000Z",
       "source": "Hacker News"
+    },
+    {
+      "id": "hn:50100640",
+      "section": "news",
+      "type": "news",
+      "title": "What changes when your search index lives on S3?",
+      "description": "Infino’s engineering writeup explains how object-storage search shifts optimization toward fewer network round trips: immutable Parquet superfiles, cached metadata, a term index, ranged reads and local caching.",
+      "content": "The post describes an object-storage-native search architecture for S3, GCS and Azure Blob, including how a term index narrows the files and byte ranges needed by a query. It also acknowledges extra reads around deletes and background caching. This is vendor-authored architecture material; comparative performance claims are not independently validated here.\n\n[Infino engineering article](https://infino.ai/blog/search-index-on-s3/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50100640)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Infino",
+      "url": "https://infino.ai/blog/search-index-on-s3/",
+      "createdAt": "2026-10-15T07:55:34Z",
+      "status": "inbox"
     }
   ]
 }
