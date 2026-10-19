@@ -21470,6 +21470,215 @@
       "url": "https://arxiv.org/abs/2610.19264",
       "createdAt": "2026-10-19T22:33:35Z",
       "updatedAt": "2026-10-19T22:33:35Z"
+    },
+    {
+      "id": "hn:50151928",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: Qwen3-4B fine-tuned on a MacBook Air to drop AI writing tics",
+      "description": "qwen3-4b-deslop is a LoRA fine-tune that writes without em dashes, \"not X, but Y\" or lists of three, with no system prompt. On 40 held-out prompts its slop score fell from 121 to 12.5 per 1,000 words while it still got 30 of 30 factual questions right.",
+      "content": "The author built a weighted slop detector from a style guide of AI writing habits, then distilled answers from progressively better teachers (steering, a four-neuron patch, a plain-style prompt) into a small LoRA adapter. A middle round scored lower but wrote badly, with no opinions, invented studies and endless \", which\" joins, so the final round kept only answers that also passed task-fit checks. The released model was trained on 161 answers; it runs via Ollama or llama.cpp as a 2.5 GB Q4_K_M build. Its voice is plain to the point of flat, and it still invents names and places.\n\n[Write-up with before/after answers](https://100toolkit.com/blog/deslop-model/)\n\n[GGUF build on Hugging Face](https://huggingface.co/erikkannike/qwen3-4b-deslop-v4-GGUF)\n\n[HN discussion](https://news.ycombinator.com/item?id=50151928)",
+      "author": "erikkannike",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://100toolkit.com/blog/deslop-model/",
+      "createdAt": "2026-10-19T13:00:47Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50152541",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: KiviDB, a multi-threaded Redis-compatible database in Rust with vector search",
+      "description": "KiviDB speaks RESP2 and RESP3, so existing Redis clients work unchanged, and adds Redis Stack-style FT.* full-text and vector (FLAT/HNSW) search. On 32 cores the author measured 21.2M pipelined GETs per second, about 9x Redis 8 and 2.3x Dragonfly.",
+      "content": "The keyspace is sharded across threads and uses io_uring via tokio_uring on Linux, with a tokio fallback elsewhere; persistence is snapshots plus an optional append-only file. Without pipelining Dragonfly was slightly faster (3.35M vs 3.07M ops/sec) in the author's memtier benchmark on c7gn.metal instances. The core engine is AGPL-3.0, supports roughly 98-99% of Redis 8.10 commands, and listens on port 6380 by default so it can run beside Redis.\n\n[KiviDB on GitHub](https://github.com/kividbio/kividb)\n\n[HN discussion](https://news.ycombinator.com/item?id=50152541)",
+      "author": "murtazayusuf",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://github.com/kividbio/kividb",
+      "createdAt": "2026-10-19T13:53:52Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50152307",
+      "section": "news",
+      "type": "news",
+      "title": "Wine ported to OpenBSD, running dozens of 64-bit Windows apps and games",
+      "description": "Thomas Frohwein proposed an emulators/wine port for OpenBSD after Andrii's software workaround for the platform's %gs/gsbase limitation, which emulates the %gs prefix on instructions. Dozens of 64-bit Windows programs were tested, mostly successfully, including The Witcher 3 remaster with vkd3d-proton.",
+      "content": "The biggest limitation is that WoW64 doesn't work, so 32-bit Windows software won't run yet, and Wine's built-in tests are disabled for now because they need an X server and some still hang. Frohwein suggests Notepad++ as a simple first test and recommends running Wine under a separate unprivileged user until sandboxing with unveil(2) is explored.\n\n[Port proposal on the openbsd-ports list](https://marc.info/?l=openbsd-ports&m=179236125692175)\n\n[HN discussion](https://news.ycombinator.com/item?id=50152307)",
+      "author": "Thomas Frohwein",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "createdAt": "2026-10-19T13:35:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50155907",
+      "section": "news",
+      "type": "news",
+      "title": "Cloudflare previews Clairic, a single-pass extraction model that returns typed values",
+      "description": "Clairic, now in preview on Workers AI as @cf/cloudflare/clairic, reads text plus up to four images and fills a schema of typed fields: spans, numbers, dates, durations and lists, plus estimates and forecasts with 80% intervals. It runs in one forward pass with no output tokens, so it bills only for input.",
+      "content": "Cloudflare frames it as a \"System One\" model, after TypeSafe's decision models like Jev and Clef: where those classify among listed options, Clairic does regression-style extraction, computation, estimation and forecasting. Every answer is a value of the declared type (or null) with a confidence score, which avoids parsing free-form LLM output, and responses typically arrive in under a second. Cloudflare plans to release open weights soon.\n\n[Clairic announcement](https://blog.cloudflare.com/clairic-extraction-model/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50155907)",
+      "author": "Cloudflare",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "createdAt": "2026-10-19T18:18:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50151036",
+      "section": "news",
+      "type": "news",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "description": "Quoting a Meta engineer who says AI-assisted shipping now moves too fast to check every line, the poster asks how developers handle owning systems they understand at a high level but not in detail. The thread drew more than 300 comments.",
+      "content": "The prompt: if reviewing each line of agent-written code takes forever, how much do you need to understand before you're comfortable moving forward, and are other engineers feeling the same discomfort? A useful read for practical approaches to review, testing and ownership of AI-generated code.\n\n[HN discussion](https://news.ycombinator.com/item?id=50151036)",
+      "author": "rzk",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "createdAt": "2026-10-19T11:24:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2112272812559802832",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI's .hard scroll edge effect looks different on iOS 26 and iOS 27",
+      "description": "Sarun W. compared the .hard scroll edge effect style across releases: on iOS 26 it is an almost solid bar that hides the text behind it, while on iOS 27 the cutoff line stays but content still shows through.",
+      "content": "The `.hard` style of SwiftUI's scroll edge effect doesn't render the same way on both systems. In Sarun's side-by-side screenshot, iOS 26 draws a nearly opaque bar at the edge, so scrolled text underneath is unreadable; on iOS 27 the hard cutoff line remains but the content is still visible through it. Worth checking on both versions if your layout relies on `.hard` to mask content under a toolbar or header.\n\n[Post on X](https://x.com/sarunw/status/2112272812559802832)",
+      "author": "Sarun W. (@sarunw)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/sarunw/status/2112272812559802832",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T20:00:57Z",
+      "updatedAt": "2026-10-19T20:00:57Z"
+    },
+    {
+      "id": "x:2112041648163058000",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "One-prompt test: AI-built native Campfire chat screens ran faster in UIKit than SwiftUI",
+      "description": "Fernando asked Opus and Sol to each build a native version of Campfire's chat screen from a single prompt with no skills, and on a real device found the UIKit version much more performant than SwiftUI. He plans to repeat the test with Xcode's skills.",
+      "content": "Inspired by DHH, Fernando gave each model the same single prompt, with no skills or prep, and tested the resulting chat screens on an actual device. His takeaway is that, without preparation, UIKit came out much more performant than SwiftUI; he says the repo is in the replies and that his next run will use Xcode's skills. Apple UI Frameworks engineer Steven Peterson (@squeakytoy) replied that he is one of the engineers who wrote Xcode's SwiftUI Specialist skill and is looking forward to the test with the skill enabled.\n\n[Post on X](https://x.com/fromjrtosr/status/2112041648163058000)\n\n[Steven Peterson's reply](https://x.com/squeakytoy/status/2112063549933859158)",
+      "author": "Fernando (@fromjrtosr)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://x.com/fromjrtosr/status/2112041648163058000",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T04:42:23Z",
+      "updatedAt": "2026-10-19T04:42:23Z"
+    },
+    {
+      "id": "reading:swiftlee-swiftui-performance-instruments",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI Performance: Find Redraws in Xcode Instruments",
+      "description": "Antoine van der Lee walks through finding SwiftUI redraws with the Instruments SwiftUI template: reading the SwiftUI track, using the View Body Updates hierarchy and table to see which views update, how often and why, and tracing updates back to their cause.",
+      "content": "Profile a Release build with the SwiftUI template, record one focused interaction, then use the View Body Updates hierarchy (⌘3) and table (⌘4) with filters like Hide System Libraries to find the views that run their `body` most often or longest. His example shows why both matter: each update took only about 40-50 µs, but hundreds of them on the main thread still add up, and the Root Causes column pointed to a single `Int` property on an `@Observable` controller. For deeper context he shows Apple's cause-and-effect graph and the usual fixes (track only the properties a view reads, move heavy work out of `body`), then re-recording to confirm. The article closes by promoting his own Mac app, RocketTrace, which automates this analysis and can hand findings to coding agents.\n\n[Article on SwiftLee](https://www.avanderlee.com/swiftui/swiftui-performance-xcode-instruments/)\n\n[Post on X](https://x.com/twannl/status/2112166150540767412)",
+      "author": "Antoine van der Lee",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://www.avanderlee.com/swiftui/swiftui-performance-xcode-instruments/",
+      "source": "Reading",
+      "createdAt": "2026-10-19T12:57:07Z",
+      "updatedAt": "2026-10-19T12:57:07Z"
+    },
+    {
+      "id": "x:2112121558143480175",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Software Mansion's enriched-markdown renders Markdown natively on Android, iOS, macOS and web",
+      "description": "Tomasz Zawadzki of Software Mansion highlighted enriched-markdown, which renders Markdown as native text with no WebView and works with SwiftUI, Jetpack Compose, React Native and React.",
+      "content": "According to its README, enriched-markdown is an MIT-licensed SDK that ships as a React Native library for iOS, Android, macOS and web, plus standalone Swift and Kotlin SDKs. Rendering is built on each platform's text APIs, and it supports CommonMark and GitHub Flavored Markdown (tables, task lists), LaTeX math, streaming for AI chat interfaces, tree-sitter syntax highlighting, accessibility (VoiceOver, TalkBack, semantic HTML) and a rich-text input that outputs Markdown.\n\n[Post on X](https://x.com/tomekzaw_/status/2112121558143480175)\n\n[enriched-markdown on GitHub](https://github.com/software-mansion/enriched-markdown)\n\n[Docs](https://enriched.swmansion.com/markdown/)",
+      "author": "Tomasz Zawadzki (@tomekzaw_)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/tomekzaw_/status/2112121558143480175",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T09:59:55Z",
+      "updatedAt": "2026-10-19T09:59:55Z"
+    },
+    {
+      "id": "x:2112161527109427434",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Will a big MoE fit on one GPU plus RAM? A memory breakdown of DeepSeek V4.1 Flash",
+      "description": "In a LocalLLaMA community post, TensorQuay argues two numbers decide whether a large mixture-of-experts model runs on one card plus system RAM, and says DeepSeek V4.1 Flash (510 GB as shipped) needs a third: its engram lookups.",
+      "content": "Working from the model's files, TensorQuay splits the memory into parts: about 8.5 GB of always-on weights that sit on the GPU, roughly 4.5 GB of experts read per token out of 289 GB stored in RAM, and 203 GB of engram lookup tables of which a token reads only about 13 KB. The point, in the author's words, is that the engram tables cost \"room, not speed\": they take capacity but little bandwidth. These figures are the poster's own analysis.\n\n[Post on X](https://x.com/tensorquay/status/2112161527109427434)",
+      "author": "TensorQuay (@tensorquay)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/tensorquay/status/2112161527109427434",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T12:38:44Z",
+      "updatedAt": "2026-10-19T12:38:44Z"
+    },
+    {
+      "id": "x:2112284761079312723",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nick Cammarata tells MIT Technology Review why he thinks neural networks can be understood",
+      "description": "Goodfire shared MIT Technology Review's interview with its researcher Nick Cammarata about his essay \"Neural Networks Are Already Clean,\" which argues the evidence for tangled, superposed neurons was misread. Other researchers quoted in the piece are skeptical.",
+      "content": "In the interview, Cammarata explains how revisiting Inception v1 changed his mind, for example reading a neuron that fired for both cars and cats as a V-shape detector, and says that \"our job is to sort of try to think like the neural network.\" He is careful to say this isn't \"everything solved.\" The article also quotes critics: Stanford's Chris Potts calls it little more than a hunch so far, and ARC's Jacob Hilton and Google DeepMind's Neel Nanda say neurons are only one piece of understanding circuits. Zvi Mowshowitz also wrote up the claim and its reactions in \"I Can See Everything,\" calling it meaningful but in some ways overstated.\n\n[Post on X](https://x.com/GoodfireAI/status/2112284761079312723)\n\n[MIT Technology Review interview](https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/)\n\n[Neural Networks Are Already Clean (Goodfire)](https://www.goodfire.com/research/already-clean)\n\n[Zvi's post](https://x.com/TheZvi/status/2112178686518825126)",
+      "author": "Goodfire (@GoodfireAI)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/GoodfireAI/status/2112284761079312723",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T20:48:26Z",
+      "updatedAt": "2026-10-19T20:48:26Z"
+    },
+    {
+      "id": "x:2112126108850077861",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SensWear: an open-source modular wearable platform with swappable sensors",
+      "description": "PCBWay featured SensWear, an open-source wearable development platform by @senswearables built around a flexible nRF54L15 main board with interchangeable sensor and haptic daughter boards that can go into rings, wristbands, patches and other forms.",
+      "content": "According to the project page, the main board pairs a Nordic nRF54L15 (processing and Bluetooth LE) with a Bosch BHI360 six-axis IMU, battery charging and fuel gauging, and an I²C expansion port for daughter boards. Current modules include a MAX30101 PPG board, a MAX30208 temperature board, an MTCH6102 capacitive touch board and a haptic board. Firmware is built on Zephyr, there are Python, React Native and Web Bluetooth SDKs, and the raw sensor access is pitched at building datasets and edge-AI experiments. Hardware, firmware and software are MIT-licensed and the hardware is OSHWA-certified.\n\n[Post on X](https://x.com/PCBWayOfficial/status/2112126108850077861)\n\n[SensWear project page](https://www.pcbway.com/project/shareproject/SensWear_An_Open_Source_Modular_AI_Ready_Wearable_Platform_50e3b483.html)\n\n[SensWear on GitHub](https://github.com/Sens-Wear)",
+      "author": "PCBWay (@PCBWayOfficial)",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "url": "https://x.com/PCBWayOfficial/status/2112126108850077861",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T10:18:00Z",
+      "updatedAt": "2026-10-19T10:18:00Z"
     }
   ]
 }
