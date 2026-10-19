@@ -2,6 +2,292 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50149392",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Linux 7.3 released with a record 18,765 commits",
+      "description": "Linus Torvalds released Linux 7.3, a record-breaking cycle with 18,765 non-merge commits from 3,021 developers, 807 of them first-time contributors.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "cjd8",
+      "url": "https://lwn.net/Articles/1101143/",
+      "content": "Linux 7.3 is out, and the 7.4 merge window opens next. LWN notes it is a record on every front: 18,765 non-merge commits from 3,021 developers, 807 of them new. Highlights include **binfmt_misc** extensions, group-scheduling work for large systems, the new `failfs` filesystem that fails every operation, an `fchroot()` system call, global per-CPU data for BPF programs, completion of the **sched_ext** subscheduler feature, working-set tracking for VMs, alternate data streams in ntfs3, and many SMB server improvements.\n\n[LWN announcement](https://lwn.net/Articles/1101143/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50149392)",
+      "createdAt": "2026-10-19T07:23:57.000Z",
+      "updatedAt": "2026-10-19T07:23:57.000Z"
+    },
+    {
+      "id": "hn:50148855",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "tmux and Claude Code: sessions, send-keys, and where tmux tops out",
+      "description": "A practical guide to running AI coding agents in named, detachable tmux sessions, scripting them with send-keys and capture-pane, and where that approach stops scaling.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ankitg12",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "content": "The guide explains why tmux fits long-running coding agents: sessions survive closed terminals and dropped SSH connections, one window can hold many agents, `send-keys` lets a script type into any of them and `capture-pane` reads output back. It starts with Claude Code's built-in `claude --worktree --tmux`, which creates a git worktree and tmux session for you, then covers what that doesn't reach and the point where tmux itself becomes the bottleneck.\n\n[Guide on crystl.dev](https://crystl.dev/guides/tmux-for-ai-agents/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50148855)",
+      "createdAt": "2026-10-19T05:55:31.000Z",
+      "updatedAt": "2026-10-19T05:55:31.000Z"
+    },
+    {
+      "id": "hn:50145628",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OmniPTY: a Rust terminal for macOS and Linux with splits, workspaces and a file tree built in",
+      "description": "OmniPTY (formerly Oxide) is a GPU-rendered terminal emulator written in Rust that bundles splits, pinned workspaces, a vim-style file tree, copy mode and a git-aware prompt.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "bobbycoleman-de",
+      "url": "https://github.com/omnipty-terminal/omnipty",
+      "content": "OmniPTY aims to replace the usual terminal-plus-add-ons stack (tmux for splits, a file manager pane, a prompt framework, copy-mode plugins) with one native app. A file tree you drive with vim keys sits beside your panes and follows your shell's `cd`; tabs and splits group into named workspaces you can pin so they reopen with the same layout and directories; copy mode puts vim keys on the scrollback; and the status bar knows your git branch and when you're inside ssh. It's written in Rust, GPU-rendered, and installed copies update themselves.\n\n[Repo on GitHub](https://github.com/omnipty-terminal/omnipty)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50145628)",
+      "createdAt": "2026-10-18T21:24:13.000Z",
+      "updatedAt": "2026-10-18T21:24:13.000Z"
+    },
+    {
+      "id": "hn:50147760",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Annotated VT100 Firmware",
+      "description": "A fully annotated disassembly of the VT100 terminal's original 8 KiB Intel 8080 firmware, cross-linked to DEC's technical manual and print set.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Aleksandr_NFA",
+      "url": "https://vt100.net/dec/vt100/rom/",
+      "content": "The VT100 (1978) was DEC's first ANSI-compatible terminal and its first built around a microprocessor, the Intel 8080; its escape sequences became the definition of \"VT100 compatible\". This project walks through the original 8 KiB ROM with a fully annotated disassembly linked to the Technical Manual and schematics, plus sections on why and how it was disassembled, bugs and oddities found along the way, and Awnty, an 8080 coverage checker built for the job.\n\n[Annotated firmware on vt100.net](https://vt100.net/dec/vt100/rom/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50147760)",
+      "createdAt": "2026-10-19T02:40:04.000Z",
+      "updatedAt": "2026-10-19T02:40:04.000Z"
+    },
+    {
+      "id": "hn:50143218",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "British Airways warns covert filming with Meta smart glasses can get tickets cancelled",
+      "description": "British Airways updated its rules to cover passengers secretly recording staff with Meta AI glasses; wearing them is allowed, but filming crew without consent can lead to refused carriage.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bookofjoe",
+      "url": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
+      "content": "BA's change builds on earlier restrictions against photographing, filming or livestreaming employees without consent, and makes clear that a less conspicuous camera on your face doesn't get around them. Its Conditions of Carriage let the airline refuse carriage, including the rest of a journey, when passengers record crew without permission. It's another sign of operators drawing explicit lines around camera-equipped wearables.\n\n[Article on Live and Let's Fly](https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50143218)",
+      "createdAt": "2026-10-18T17:27:30.000Z",
+      "updatedAt": "2026-10-18T17:27:30.000Z"
+    },
+    {
+      "id": "hn:50151390",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Harness Engineering 101: building AI agents from first principles",
+      "description": "A 16-chapter online book that grows a roughly 300-line Python toy agent to explain how an agent harness builds, maintains and protects the conversation it sends to a stateless LLM API.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "isuruwijesiri",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "content": "The series starts from one idea: an LLM API is stateless, so every turn you resend the whole conversation as a JSON array, and the *harness* is the program that builds, maintains and protects that array. Everything people call an \"agent\" is a set of patches to that one loop, each added because something concrete broke. Over 16 chapters it grows a small plain-Python agent; the full patterns live in One Code, an open-source coding agent built on pi.\n\n[Read the book online](https://isuruwijesiri.com/harness-engineering-101/)\n\n[Repo on GitHub](https://github.com/IsuruMaduranga/harness-engineering-101)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50151390)",
+      "createdAt": "2026-10-19T12:07:41.000Z",
+      "updatedAt": "2026-10-19T12:07:41.000Z"
+    },
+    {
+      "id": "hn:50143154",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What the heck is /pkg? A mysterious new macOS 27 directory on your PATH",
+      "description": "macOS 27.0 adds a new root-level /pkg directory and puts /pkg/env/global/bin on every user's PATH via path_helper, and nobody seems to know what it's for yet.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "GavinAnderegg",
+      "url": "https://anderegg.ca/2026/10/18/what-the-heck-is-pkg",
+      "content": "While debugging a PATH issue, Gavin Anderegg found `/pkg/env/global/bin` added by a new `10-pmk-global` file in `/etc/paths.d`, which `path_helper` (around since Mac OS X 10.5) reads at shell startup. Howard Oakley has noted that `/pkg` appeared on the Data volume in macOS 26.4 and on the Signed System Volume root in 27.0. The post digs into its four subdirectories and the open question of why Apple changed the filesystem layout and everyone's PATH without explanation.\n\n[Post on anderegg.ca](https://anderegg.ca/2026/10/18/what-the-heck-is-pkg)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50143154)",
+      "createdAt": "2026-10-18T17:21:23.000Z",
+      "updatedAt": "2026-10-18T17:21:23.000Z"
+    },
+    {
+      "id": "hn:50146286",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How RC2's π table was made",
+      "description": "A research note shows that both 256-byte tables in Ron Rivest's RC2 cipher (RFC 2268) are reproduced exactly by a Fisher-Yates shuffle driven by the decimal digits of π, answering a question open since 1996.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "KhalidH",
+      "url": "https://khalidhamadeh.com/writing/rc2-pi-table",
+      "content": "RFC 2268 says RC2's key-schedule `PITABLE` is \"based on the digits of PI\" but never gives the method, and a second table has no stated origin. Khalid Hamadeh shows both come from a Fisher-Yates shuffle that reads exactly three digits of π per draw and discards draws that would bias the result; `PITABLE` starts at the leading 3 and the second table four digits later. Rivest's MD2 uses the same shuffle with a varying number of digits per draw, which may be why nobody connected them. It's a nice nothing-up-my-sleeve archaeology story; it has no bearing on RC2's security.\n\n[Research note](https://khalidhamadeh.com/writing/rc2-pi-table)\n\n[Code on GitHub](https://github.com/khalid-hamadeh/rc2-pi-tables)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50146286)",
+      "createdAt": "2026-10-18T22:48:07.000Z",
+      "updatedAt": "2026-10-18T22:48:07.000Z"
+    },
+    {
+      "id": "hn:50147492",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Superlite: a Claude Code plugin that turns a spec into parallel, tested work",
+      "description": "Superlite is a faster, more autonomous take on the Superpowers workflow: it plans a build, splits it into parallel tasks routed to the cheapest capable agent, checks the seams and reviews the result.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "iheatuchriswogu",
+      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "content": "The author profiled the popular Superpowers plugin and found most build time going to 8-12 human approval gates per feature, strictly sequential implement-then-review dispatches, re-review loops, repeated full test runs and slow Opus subagents on the critical path. Superlite keeps Superpowers' plugin layout and lifecycle skills but runs tasks side by side, picks the cheapest agent that can do each well, checks the seams between tasks, reviews the finished result, and leaves a list of every decision it made. The post includes benchmarks and is explicit that Superpowers is still the better fit when you want to steer every step.\n\n[Blog post](https://contextfirst.blog/superlite-hand-an-agent-a-spec/)\n\n[Superlite on GitHub](https://github.com/iha2/superlite)\n\n[Superpowers on GitHub](https://github.com/obra/superpowers)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50147492)",
+      "createdAt": "2026-10-19T02:01:16.000Z",
+      "updatedAt": "2026-10-19T02:01:16.000Z"
+    },
+    {
+      "id": "reading:eli-bendersky-complex-roots-of-unity",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Notes on the complex roots of unity",
+      "description": "Eli Bendersky builds up the complex roots of unity from first principles, from the real-number case to computing the nth roots of 1 with polar coordinates.",
+      "content": "Starting from the middle-school question of what the square root of 1 is, the post extends the roots of unity to complex numbers, and shows how to calculate them using polar coordinates for numbers of magnitude 1. It's a clear, programmer-friendly refresher on math that shows up in signal processing and Fourier transforms.\n\n[Article on Eli Bendersky's site](https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50138002)",
+      "author": "Eli Bendersky",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/",
+      "source": "Reading",
+      "createdAt": "2026-10-18T04:49:31.000Z",
+      "updatedAt": "2026-10-18T04:49:31.000Z"
+    },
+    {
+      "id": "reading:run-your-own-llm-proxy",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "If you don't run your own LLM proxy, how do you know what's going on?",
+      "description": "An opinionated case for putting a self-hosted proxy in front of every LLM provider to get real per-key, per-model usage logs, virtual API keys and a single multi-provider endpoint you control.",
+      "content": "The author argues that provider analytics panels and subscription dashboards aren't usable engineering telemetry, and that OTel export alone isn't enough. Running your own proxy gives one endpoint across providers and models, logs of which key called which model from which client and when, virtual API keys so a single main key isn't scattered across agents and harnesses, and infrastructure you control.\n\n[Essay](https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50145507)",
+      "author": "jrdsgl",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "source": "Reading",
+      "createdAt": "2026-10-18T21:09:12.000Z",
+      "updatedAt": "2026-10-18T21:09:12.000Z"
+    },
+    {
+      "id": "x:2112092472969183522",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "turmite-autoresearch: using AI agents to research Langton's ant and turmites",
+      "description": "Tim McNamara shared the Rust repo he has been using with AI agents to study generalised Langton's ants (turmites), saying he may have found something new.",
+      "content": "Tim McNamara has been running AI coding agents on an empirical study of generalised Langton's ants, where rules are strings over {L, R}: the current cell's colour selects a turn and the colour advances modulo the rule length. The repo is a Rust project with agent configs for Claude and Codex, experiments, notes and a research output on cube-root growth, and he thinks there's a good chance it turned up something new. It's a concrete example of agents used for open-ended research rather than app code.\n\n[Repo on GitHub](https://github.com/timClicks/turmite-autoresearch)",
+      "author": "Tim McNamara (@timClicks)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/timClicks/status/2112092472969183522",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T08:04:20Z",
+      "updatedAt": "2026-10-19T08:04:20Z"
+    },
+    {
+      "id": "x:2112150853532483620",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A macOS app turns a walkie-talkie into a voice remote for Claude Code and Codex",
+      "description": "A ham radio operator built a Mac app where pressing push-to-talk sends a spoken command to a coding agent, with local Whisper transcription and spoken replies over the radio.",
+      "content": "Press PTT and talk, and the app transcribes the speech locally with Whisper and hands it to Claude Code or Codex as a command; the agent works the task and answers back over the radio with Turkish or English text-to-speech. Without a radio, the built-in mic works the same way. The app itself carries a sensible warning: radio is an open channel, so anyone on the frequency can hear replies and anyone who keys up can inject commands. The post doesn't link the app.",
+      "author": "Sail (@AsWill11)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://x.com/AsWill11/status/2112150853532483620",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T11:56:20Z",
+      "updatedAt": "2026-10-19T11:56:20Z"
+    },
+    {
+      "id": "x:2112158357280735530",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Routine: a free native SwiftUI Mac app for reminders you can't ignore",
+      "description": "A free SwiftUI Mac app with no account where firm reminders cover the screen until you act, gentle ones live in the notch, and focus blocks lock the screen for a real break.",
+      "content": "Routine keeps everything on your Mac. Each routine can be *firm* (a reminder covers the screen and a chime grows louder until you choose Mark done, Snooze, Move or Skip today) or *gentle* (a normal notification, with today's list in the notch when you point at it). It also works from the menu bar, shows album art and lyrics for what's playing in Spotify or Apple Music, and mentions working alongside Calendar, Claude Code and Codex.\n\n[Routine for Mac](https://routine.tifeolayinka.com)",
+      "author": "Boluwatife (Tife) Olayinka (@tife_olayinka)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/tife_olayinka/status/2112158357280735530",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T12:26:09Z",
+      "updatedAt": "2026-10-19T12:26:09Z"
+    },
+    {
+      "id": "x:2112046216443748422",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iOS 26 tip: give a bottom-bar search field its own capsule with ToolbarSpacer",
+      "description": "In iOS 26 a bottom-bar search field is a toolbar item and merges with neighbouring buttons; a fixed ToolbarSpacer on each side separates it into its own capsule.",
+      "content": "Because the bottom-bar search field is just another toolbar item, iOS 26's Liquid Glass toolbar groups it into the same capsule as the buttons beside it. Sarun's fix is to put a fixed `ToolbarSpacer` on each side of it so it gets a capsule of its own. The post includes a screenshot of the result.",
+      "author": "Sarun W. (@sarunw)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/sarunw/status/2112046216443748422",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T05:00:32Z",
+      "updatedAt": "2026-10-19T05:00:32Z"
+    },
+    {
+      "id": "x:2112016004582654432",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI's stepped Slider now draws tick marks on iOS 26",
+      "description": "On iOS 26, a SwiftUI Slider with a step value automatically shows a tick mark for every possible value, so you no longer need to draw them yourself.",
+      "content": "Use `Slider(value:in:step:)` with, say, `step: 1` and SwiftUI on iOS 26 adds a tick for each allowed value. A small change, but it removes a common bit of custom drawing code.",
+      "author": "Sarun W. (@sarunw)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/sarunw/status/2112016004582654432",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T03:00:29Z",
+      "updatedAt": "2026-10-19T03:00:29Z"
+    },
+    {
       "id": "hn:50145337",
       "section": "news",
       "type": "news",
