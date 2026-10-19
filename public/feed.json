@@ -21130,6 +21130,182 @@
       "url": "https://github.com/finereli/whatsapp-mcp",
       "createdAt": "2026-10-18T21:36:10Z",
       "updatedAt": "2026-10-18T21:36:10Z"
+    },
+    {
+      "id": "x:2111998675249664432",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PaperLeet: LeetCode-style drills for implementing AI research papers",
+      "description": "PaperLeet turns key papers on LLMs, RL, diffusion, flow matching, JEPA and world models into Python implementation exercises graded by tests that check the math.",
+      "content": "PaperLeet is a free practice site where each exercise is a research paper you implement yourself in Python, from GAE, PPO, DPO and GRPO variants to DDPM, DDIM, flow matching, LoRA/QLoRA, consistency models and the Transformer. Each task spells out what to implement, supplies helpers and small experiments, and checks your code with tests on the underlying math. The launch post describes about 100 tasks and says the project is open source.\n\n[PaperLeet site](https://paperleet.com/)",
+      "author": "Hongyang Du (@DuHongyang31892)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/DuHongyang31892/status/2111998675249664432",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T01:51:37Z",
+      "updatedAt": "2026-10-19T01:51:37Z"
+    },
+    {
+      "id": "x:2111143189222404427",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "RAX: a frozen coding agent learns real robot skills by scaling exploration",
+      "description": "RAX connects a general-purpose coding agent to a robot's perception and control APIs so it writes, tests and reuses control programs with no teleoperation or fine-tuning.",
+      "content": "RAX (Robot Agent eXploration) lets a coding agent write robot control code directly, run it, observe the result and revise, saving verified skills to a versioned repository. The model stays frozen; learning lives in the agent's workspace of code, notes and skills. The team reports about +37 points over leading learned policies across five simulation benchmarks, real-robot tasks such as 0.1 mm insertion and deformable objects learned in roughly two hours each, and support for arms, bimanual, dexterous, humanoid and mobile robots. The framework and every experiment session are open source.\n\n[RAX project page](https://robot-agent-exploration.com/) · [Paper (PDF)](https://assets.robot-agent-exploration.com/paper/rax.pdf)",
+      "author": "Yilun Du (@du_yilun)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://x.com/du_yilun/status/2111143189222404427",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-16T17:12:14Z",
+      "updatedAt": "2026-10-16T17:12:14Z"
+    },
+    {
+      "id": "x:2111127089428701366",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NVIDIA open-sources ASPIRE, agents that write and refine robot skills",
+      "description": "ASPIRE is a code-as-policy continual learning system where agents debug robot programs, keep validated fixes in a skill library, and now solve a Rubik's Cube on real hardware.",
+      "content": "ASPIRE (Agentic Skill Programming through Iterative Robot Exploration) treats training as skill refinement: an execution engine exposes perception overlays, grasp candidates, trajectories and collision feedback so an agent can diagnose failures, an evolutionary search tries program repairs, and validated fixes go into a reusable skill library. v1.0 reports 99% across 80 LIBERO-Pro tasks, 100% on representative Robosuite and BEHAVIOR-1K tasks, and real-world manipulation including a Rubik's Cube. Apache 2.0.\n\n[ASPIRE on GitHub](https://github.com/NVlabs/ASPIRE) · [Project page](https://research.nvidia.com/labs/gear/aspire/)",
+      "author": "Guanzhi Wang (@guanzhi_wang)",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "url": "https://x.com/guanzhi_wang/status/2111127089428701366",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-16T16:08:15Z",
+      "updatedAt": "2026-10-16T16:08:15Z"
+    },
+    {
+      "id": "x:2111023212129829086",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenDesign Motion: open-source, agent-agnostic alternative to Claude Motion",
+      "description": "Open Design 0.25.0 adds Motion, which turns a prompt into editable animation source plus an MP4, using whichever coding agent or model you already run.",
+      "content": "OpenDesign Motion ships in Open Design 0.25.0 (Apache 2.0). Ask for a video and you get editable source files and an MP4, while interactive animations stay as runnable HTML. It starts from five bundled examples (Motion Future, Product Promo, Showreel, UI Morph, Visual Lesson) with motion skills in the @ picker, and works with Claude, Codex, Cursor, DeepSeek, local setups or your own API key. The desktop app is free; cloud is the paid tier. The launch video was made with it.\n\n[Open Design on GitHub](https://github.com/nexu-io/open-design) · [0.25.0 release notes](https://github.com/nexu-io/open-design/releases) · [motion-anything engine](https://github.com/nexu-io/motion-anything)",
+      "author": "OpenDesign (@OpenDesignHQ)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/OpenDesignHQ/status/2111023212129829086",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-16T09:15:29Z",
+      "updatedAt": "2026-10-16T09:15:29Z"
+    },
+    {
+      "id": "x:2111521710604530144",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Espressif's open ESP Emulator runs real ESP32 firmware, even in a browser tab",
+      "description": "A Rust emulator from Espressif boots unmodified firmware for ESP32-C3, C5, C6, H2, P4, S3 and S31, with WiFi, BLE, Thread and a WebAssembly build.",
+      "content": "ESP Emulator (beta) emulates RISC-V and Xtensa ESP32 chips well enough to boot the real ROM and IDF bootloader, with WiFi soft AP, BLE via NimBLE, Thread, Ethernet, crypto blocks and most peripherals. esptool and `idf.py flash` can drive it over TCP, and two instances can form a Thread mesh. The browser build lets you drop a merged flash image (`idf.py merge-bin`) on a page and watch the console, GPIO and registers without the firmware leaving your machine; networking needs the native binary.\n\n[esp-emulator on GitHub](https://github.com/espressif/esp-emulator) · [Browser front end](https://espemulator.com/)",
+      "author": "Praveen Kumar Verma (@Alacritic_Super)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "url": "https://x.com/Alacritic_Super/status/2111521710604530144",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-17T18:16:20Z",
+      "updatedAt": "2026-10-17T18:16:20Z"
+    },
+    {
+      "id": "x:2111982411101909284",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Slinky: free Mac app that keeps API keys and .env values out of files",
+      "description": "Slinky stores secrets in one Touch ID-locked encrypted file and lets Claude Code, Cursor and Codex run commands with your keys without ever seeing the values.",
+      "content": "Slinky is a native Swift Mac app (MIT, about 5 MB) for API keys, per-project .env files and recovery codes. Drop a project folder and it sorts variables into Local, Preview and Production and flags what `.env.example` says is missing; a global shortcut finds and copies a key, and copies clear after a minute. Coding agents run your app through `slinky run`, with each command approved by Touch ID, so they only see key names. A Health view scans project files, git history, shell history and AI conversations for leaked keys. No account, server or sync.\n\n[Slinky site](https://slinkyfiles.com/)",
+      "author": "Derek Castelli (@heyderekj)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/heyderekj/status/2111982411101909284",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T00:47:00Z",
+      "updatedAt": "2026-10-19T00:47:00Z"
+    },
+    {
+      "id": "x:2111465009754882178",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Spare: menu-bar CPU and memory monitor grouped by apps, projects and AI agents",
+      "description": "Spare shows Mac resource use by the apps, dev projects and coding agents you actually run, instead of a wall of process names.",
+      "content": "Spare is a free, MIT-licensed macOS menu-bar monitor that rolls processes up into apps, development projects and AI agent sessions such as Claude, Codex, Ollama, Aider and OpenCode. It shows memory pressure and lets you review and gracefully stop selected sessions, but never kills anything automatically. macOS 14+ on Apple silicon; installs with `brew install --cask coreyhaines31/tap/spare`.\n\n[Spare site](https://spareformac.com/)",
+      "author": "Corey Haines (@coreyhainesco)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/coreyhainesco/status/2111465009754882178",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-17T14:31:02Z",
+      "updatedAt": "2026-10-17T14:31:02Z"
+    },
+    {
+      "id": "x:2111806349558374587",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ratio: a solo-built notepad calculator for Mac that landed its first sale in two days",
+      "description": "Ratio answers plain-text math line by line, with live currencies, units, time zones, VAT, loans and a Terminal command, for a one-time $9.99.",
+      "content": "Ratio is a Soulver-style notepad calculator: type lines like `dinner 84 eur / 3` or `3pm in Tokyo` and the answer appears beside each one. It handles 160+ live currencies and crypto, 150+ units, named values and `L3` line references, working-day math, equation solving, developer conversions like hex and `chmod 755`, and a `ratio` Terminal command on Mac. It runs on Mac, Windows and Linux with a 7-day trial and a one-time license. The maker's post about building it for himself and getting the first paid sale two days after launch drew about 3K likes.\n\n[Ratio site](https://useratio.app/)",
+      "author": "Adrian (@adrianhqs)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/adrianhqs/status/2111806349558374587",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-18T13:07:23Z",
+      "updatedAt": "2026-10-18T13:07:23Z"
+    },
+    {
+      "id": "ideas:esp32-agent-firmware-bench",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Agent-driven ESP32 firmware test bench in an emulator",
+      "description": "Let a coding agent build, flash and check ESP32 firmware against Espressif's emulator in a loop, saving verified fixes as reusable skills, before anything touches real hardware.",
+      "content": "## How it works\n\nA small harness builds an ESP-IDF project, merges the flash image, boots it in Espressif's esp-emulator, and captures the UART log, GPIO states and a pass/fail check script. A coding agent reads that trace, edits the firmware and reruns, the same explore-observe-revise loop RAX and ASPIRE use for robots. Fixes that pass get committed to a skills folder the agent reads next time. CI runs the same bench on every push.\n\n```mermaid\nflowchart LR\n  Task[Firmware task] --> Agent[Coding agent edits code]\n  Agent --> Build[idf.py build + merge-bin]\n  Build --> Emu[esp-emulator run]\n  Emu --> Trace[UART log + GPIO trace]\n  Trace --> Check{Checks pass?}\n  Check -- no --> Agent\n  Check -- yes --> Skills[Commit skill + CI]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Toolchain | ESP-IDF in Docker |\n| Emulator | espressif/esp-emulator native binary (TCP UART bridge) |\n| Agent | Any local coding agent CLI |\n| Checks | Python script asserting on UART lines and GPIO toggles |\n| CI | GitHub Actions running the same harness |\n\n## Hard parts\n\n- Writing checks that catch real behavior bugs, not just a clean boot log.\n- Peripherals the emulator doesn't model, such as displays and sensors, need stubs.\n- Keeping the agent from gaming the checks instead of fixing the firmware.\n\n## Effort\n\nA weekend for the build-run-check loop on one ESP32-C3 example; a week or two to add skill memory and CI.\n\n## Inspired by\n\n- [ESP Emulator post on X](https://x.com/Alacritic_Super/status/2111521710604530144)\n- [esp-emulator on GitHub](https://github.com/espressif/esp-emulator)\n- [RAX post on X](https://x.com/du_yilun/status/2111143189222404427)\n- [ASPIRE on GitHub](https://github.com/NVlabs/ASPIRE)",
+      "nextStep": "Build the ESP-IDF hello_world for ESP32-C3, run the merged image in the esp-emulator native binary, and write a Python script that passes only when the expected UART line appears.",
+      "topics": [
+        "Technology",
+        "Programming",
+        "AI"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-19T14:20:00Z"
+    },
+    {
+      "id": "ideas:paper-drill-from-feed",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Paper drill of the day from the dashboard's ML reading",
+      "description": "Turn an ML paper saved in the dashboard into a small PaperLeet-style implementation exercise with local tests, so reading becomes practice.",
+      "content": "## How it works\n\nPick one Machine Learning item from the feed that links a paper. A local model drafts a short exercise: a function stub for the paper's core equation, a few NumPy or PyTorch helpers, and tests that check the math on tiny inputs. You solve it in a notebook or editor, the tests grade it locally, and the result is logged back as a done note on the item.\n\n```mermaid\nflowchart LR\n  Feed[ML item with paper link] --> Fetch[Fetch abstract + method]\n  Fetch --> Draft[Local LLM drafts stub + tests]\n  Draft --> Verify[Run reference solution]\n  Verify --> Solve[You implement]\n  Solve --> Grade[pytest grades]\n  Grade --> Log[Log result on item]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Source | public/feed.json items tagged Machine Learning |\n| Generator | Local model via Ollama or MLX |\n| Exercise | Python stub + pytest file |\n| Runtime | NumPy or PyTorch CPU |\n| Tracking | Small JSON log or dashboard status change |\n\n## Hard parts\n\n- Generated tests must be right; the drafter needs a reference solution that passes before you see the task.\n- Scoping a paper down to one checkable function.\n- Many papers lack enough detail to test without heavy setup.\n\n## Effort\n\nAn evening for one hand-picked paper; a weekend to automate drafting and validation from the feed.\n\n## Inspired by\n\n- [PaperLeet post on X](https://x.com/DuHongyang31892/status/2111998675249664432)\n- [PaperLeet site](https://paperleet.com/)",
+      "nextStep": "Pick one ML paper already in the feed, hand-write a stub and three pytest checks for its core equation, then try having a local model regenerate the same exercise from the abstract.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-19T14:20:00Z"
     }
   ]
 }
