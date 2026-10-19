@@ -21306,6 +21306,170 @@
       ],
       "source": "X digest",
       "createdAt": "2026-10-19T14:20:00Z"
+    },
+    {
+      "id": "hn:50134472",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "It's still ok to enjoy programming",
+      "description": "A blog post making the case that it is still fine to enjoy programming for its own sake.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "goostavos",
+      "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+      "createdAt": "2026-10-17T19:53:20Z",
+      "updatedAt": "2026-10-17T19:53:20Z"
+    },
+    {
+      "id": "hn:50154540",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MiniMax M3.1 Flash",
+      "description": "MiniMax introduced M3.1 Flash, a new model release from the Chinese AI lab.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jtg",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "createdAt": "2026-10-19T16:39:09Z",
+      "updatedAt": "2026-10-19T16:39:09Z"
+    },
+    {
+      "id": "hn:50153630",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "description": "Mistral and CERN announced a statement of intent to establish a strategic partnership to accelerate AI for science.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "kensai",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "createdAt": "2026-10-19T15:28:24Z",
+      "updatedAt": "2026-10-19T15:28:24Z"
+    },
+    {
+      "id": "hn:50154624",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Android apps running native on macOS",
+      "description": "An open-source project that runs Android apps natively on macOS.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "flocked",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "createdAt": "2026-10-19T16:45:30Z",
+      "updatedAt": "2026-10-19T16:45:30Z"
+    },
+    {
+      "id": "hn:50155245",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mercury 3: Diffusion at scale",
+      "description": "Inception Labs announced Mercury 3, a diffusion-based large language model targeting scale.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "cmrdporcupine",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "createdAt": "2026-10-19T17:27:11Z",
+      "updatedAt": "2026-10-19T17:27:11Z"
+    },
+    {
+      "id": "hn:50152976",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Detecting model weight tampering in GPU memory (Rome attacks)",
+      "description": "Research on detecting tampering of model weights in GPU memory (Rome attacks).",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "rafaeldavidtin",
+      "url": "https://stealthium.io/blog/hands-off-detecting-model-weight-tampering",
+      "createdAt": "2026-10-19T14:31:27Z",
+      "updatedAt": "2026-10-19T14:31:27Z"
+    },
+    {
+      "id": "hn:50158765",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EFF's Privacy Badger Anti-Tracking Extension Expands to Safari",
+      "description": "The EFF's Privacy Badger anti-tracking browser extension is now expanding to Safari.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "cdrnsf",
+      "url": "https://www.macrumors.com/2026/10/19/eff-privacy-badger-safari/",
+      "createdAt": "2026-10-19T22:12:28Z",
+      "updatedAt": "2026-10-19T22:12:28Z"
+    },
+    {
+      "id": "hn:50158985",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Spacebar – Preview .sqlite3, .geojson, .ipynb and more in the Finder",
+      "description": "Show HN: Spacebar, a macOS app that previews .sqlite3, .geojson, .ipynb and other file types in the Finder.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "gregsadetsky",
+      "url": "https://spacebar.greg.technology/",
+      "createdAt": "2026-10-19T22:38:01Z",
+      "updatedAt": "2026-10-19T22:38:01Z"
+    },
+    {
+      "id": "hn:50158960",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PyTorch-native TPU back end for vLLM",
+      "description": "vLLM gained a PyTorch-native TPU back end for serving large models.",
+      "topics": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "zniturah",
+      "url": "https://github.com/vllm-project/vllm-torchtpu",
+      "createdAt": "2026-10-19T22:34:38Z",
+      "updatedAt": "2026-10-19T22:34:38Z"
+    },
+    {
+      "id": "hn:50158954",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Profiling the Attack Surface of AI Agent Skills",
+      "description": "An arXiv paper profiling the attack surface of AI agent skills.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ratneshiiita",
+      "url": "https://arxiv.org/abs/2610.19264",
+      "createdAt": "2026-10-19T22:33:35Z",
+      "updatedAt": "2026-10-19T22:33:35Z"
     }
   ]
 }
