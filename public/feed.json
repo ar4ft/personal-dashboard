@@ -20964,6 +20964,172 @@
       "content": "A NeurIPS workshop paper on wearable bioacoustic devices aimed at enabling two-way communication between humans and cetaceans.\n\n[Article](https://neurips.cc/virtual/2025/loc/san-diego/workshop/109586)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50146049)",
       "createdAt": "2026-10-18T22:15:48.000Z",
       "updatedAt": "2026-10-18T22:15:48.000Z"
+    },
+    {
+      "id": "hn:50136150",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "description": "3blue1brown's video essay makes the case that there's never been a better time to go into math, presented with the channel's signature visual style.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "mdp2021",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "createdAt": "2026-10-17T23:26:35Z",
+      "updatedAt": "2026-10-17T23:26:35Z"
+    },
+    {
+      "id": "hn:50151638",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We fine-tuned a 235B model on 4 GPUs. Then we didn't need it",
+      "description": "A postmortem on fine-tuning a 235B mixture-of-experts model on just four GPUs — and the lesson that the team ultimately didn't need the giant model.",
+      "topics": [
+        "AI",
+        "Deep Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "kgritesh",
+      "url": "https://blog.vertexcover.io/fine-tuning-235b-moe-four-gpus",
+      "createdAt": "2026-10-19T12:35:20Z",
+      "updatedAt": "2026-10-19T12:35:20Z"
+    },
+    {
+      "id": "hn:50151678",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Developer Agent Experience",
+      "description": "Microsoft's guide to developer agent experience, covering how to design tools and workflows around AI coding agents.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "waldekm",
+      "url": "https://microsoft.github.io/agent-experience/",
+      "createdAt": "2026-10-19T12:40:06Z",
+      "updatedAt": "2026-10-19T12:40:06Z"
+    },
+    {
+      "id": "hn:50151771",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Borrow Checking Zero-Cost Cyclic Mutability",
+      "description": "A write-up on achieving safe cyclic mutability at zero cost under the borrow checker, from the Ante language blog.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jfecher",
+      "url": "https://antelang.org/blog/safe_cyclic_mutability/",
+      "createdAt": "2026-10-19T12:47:42Z",
+      "updatedAt": "2026-10-19T12:47:42Z"
+    },
+    {
+      "id": "hn:50151867",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: LaunchWindow – Modern macOS App Grid; but Good",
+      "description": "Show HN: LaunchWindow, a modern app-grid launcher for macOS aiming to do the classic grid interface well.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "areedelahi",
+      "url": "https://avuriolabs.vercel.app/product/launchwindow",
+      "createdAt": "2026-10-19T12:56:21Z",
+      "updatedAt": "2026-10-19T12:56:21Z"
+    },
+    {
+      "id": "hn:50151756",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+      "description": "PwnEscape, a guest-to-host escape in KVM (CVE-2026-99999), with a technical write-up of the vulnerability.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pantalaimon",
+      "url": "https://pwn.ai/blog/pwnescape",
+      "createdAt": "2026-10-19T12:46:18Z",
+      "updatedAt": "2026-10-19T12:46:18Z"
+    },
+    {
+      "id": "hn:50108297",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How Postgres DELETE can actually scale",
+      "description": "How to make DELETE operations in Postgres actually scale, from the DBOS blog.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "KraftyOne",
+      "url": "https://www.dbos.dev/blog/scaling-deletions-in-postgres",
+      "createdAt": "2026-10-15T18:42:57Z",
+      "updatedAt": "2026-10-15T18:42:57Z"
+    },
+    {
+      "id": "hn:50104874",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How to Train Your Robot",
+      "description": "An overview of how robots are trained, from the Construction Physics newsletter.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "crescit_eundo",
+      "url": "https://www.construction-physics.com/p/how-to-train-your-robot",
+      "createdAt": "2026-10-15T15:13:21Z",
+      "updatedAt": "2026-10-15T15:13:21Z"
+    },
+    {
+      "id": "hn:50150809",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "description": "Let's Encrypt is adding two more remote vantage points for domain validation to make issuance more resilient to network attacks.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gslin",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "createdAt": "2026-10-19T10:53:39Z",
+      "updatedAt": "2026-10-19T10:53:39Z"
+    },
+    {
+      "id": "hn:50145715",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "description": "Show HN: a WhatsApp MCP server that runs for free on Cloudflare's free tier.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "zoozla",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "createdAt": "2026-10-18T21:36:10Z",
+      "updatedAt": "2026-10-18T21:36:10Z"
     }
   ]
 }
