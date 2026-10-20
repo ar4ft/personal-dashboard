@@ -22275,6 +22275,296 @@
       ],
       "source": "X digest",
       "createdAt": "2026-10-20T14:40:00Z"
+    },
+    {
+      "id": "hn:50168396",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mistral releases Voxtral 3 speech models and a voice agent SDK",
+      "description": "Mistral's Voxtral 3 family adds speech-to-text models for 50+ languages with diarization and context biasing, an expressive TTS model for 35+ languages, and a LiveKit-based voice agent SDK.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "content": "Voxtral 3 bundles **Voxtral Small/Mini Transcribe 3** (50+ languages, diarization, context biasing, end-of-turn detection; Mini is 4B params at $0.0035/min), a **Realtime Transcribe 3** model with sub-500 ms latency, and **Voxtral Mini TTS 3** with emotion/pacing/emphasis control across 35+ languages ($13 per 1M chars). A new voice agent SDK built on LiveKit streams listen → reason/tool-call → speak in one pipeline with SIP and WebRTC support, available via Mistral's EU-hosted API or self-deployment.\n\n[Mistral announcement](https://mistral.ai/news/voxtral-3/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50168396)",
+      "createdAt": "2026-10-20T16:02:07Z",
+      "updatedAt": "2026-10-20T16:02:07Z"
+    },
+    {
+      "id": "hn:50165953",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cloudflare and VoidZero introduce tsrs, a Rust port of the TypeScript compiler",
+      "description": "tsrs is a faithful Rust port of TypeScript incubated in the Oxc toolchain with the TypeScript team's cooperation; early benchmarks show up to 8x faster type checking and about 70% less memory than TypeScript 7.0.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Boshen Chen, Dimitri Mitropoulos, Christoph Nakazawa",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "content": "Cloudflare, VoidZero and Owner.com's Max Schwenk are building **tsrs**, a Rust port (not a fork) of the TypeScript compiler, incubated in Oxc. Rust was chosen largely for WebAssembly: no bundled GC, so full toolchains can run sandboxed in Workers or the browser. Some optimizations have already been upstreamed to TypeScript 7.1. The team plans to merge with Theo Browne's tsc-rs and keep in sync with upstream using an agent-driven process like Vinext's. Try it with `npx tsrs`.\n\n[Cloudflare blog](https://blog.cloudflare.com/typescript-rust-port/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50165953)",
+      "createdAt": "2026-10-20T13:18:07Z",
+      "updatedAt": "2026-10-20T13:18:07Z"
+    },
+    {
+      "id": "hn:50169053",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "description": "TorchTPU provides ATen kernels for TPUs, an XLA compilation cache, torch.compile integration and data/tensor-parallel training examples for models like Llama, Qwen, ResNet and minGPT.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "google-pytorch",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "content": "The **torch_tpu** repo is a PyTorch back end for Google TPUs: custom ATen kernels, a compilation cache for XLA computations, `torch.compile()` graph mode, distributed training (data and tensor parallelism), and examples for Llama, Qwen, ResNet, DLRM, minGPT and UNet. Docs ship as Marimo notebooks; Python 3.11+ on a TPU VM (v6e is easiest). It is the core library behind the vLLM TPU back end covered earlier.\n\n[GitHub repo](https://github.com/google-pytorch/torch_tpu)\n\n[User guide](https://torchtpu.readthedocs.io/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50169053)",
+      "createdAt": "2026-10-20T16:40:24Z",
+      "updatedAt": "2026-10-20T16:40:24Z"
+    },
+    {
+      "id": "hn:50165208",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iPadOS 27 breaks presenting from an iPad over AirPlay",
+      "description": "Teddy Svoronos reports that in iPadOS 27, tapping any other window while AirPlaying makes the external display mirror the whole iPad screen, exposing presenter notes and breaking Keynote and PowerPoint presentations.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Teddy Svoronos",
+      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+      "content": "In iPadOS 27, with multiple windows open while AirPlaying (with or without Stage Manager), the most recently tapped app takes over the external display. GoodNotes returns to presenter view when tapped again, Keynote exits the presentation, and PowerPoint gets stuck. Svoronos, who teaches from an iPad, proposes that an app in presenter mode keep the display until the presentation ends, and asks people to file feedback referencing FB23615646.\n\n[Original post](https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50165208)",
+      "createdAt": "2026-10-20T12:17:28Z",
+      "updatedAt": "2026-10-20T12:17:28Z"
+    },
+    {
+      "id": "reading:rust-compiler-2026-yoyo-code",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "2026 is an exciting year for the Rust compiler",
+      "description": "A tour of the long-running rustc projects reaching completion in 2026: the next-generation trait solver, Polonius, the parallel frontend, LLVM 23 speedups, move elimination, polymorphization and cargo cache sharing.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "panstromek (yoyo-code.com)",
+      "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
+      "content": "A rustc perf-triage contributor rounds up why 2026 feels special: the **next trait solver** (almost 10 years in the making), the **Polonius** borrow checker, a **parallel frontend** close to stabilization, **LLVM 23** as a clear compile-time win, a MIR **move-elimination** pass, a Swift-inspired **polymorphization** experiment, shared `cargo check`/`cargo build` artifacts, `no-embed-metadata` by default, and the new build-dir layout. It also covers project goals, new funding programs, and the author's plan to work on Rust full-time.\n\n[Article](https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50166502)",
+      "createdAt": "2026-10-20T13:53:48Z",
+      "updatedAt": "2026-10-20T13:53:48Z"
+    },
+    {
+      "id": "hn:50170021",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "description": "Anthropic had an internal Claude research model run a mostly autonomous 64-hour campaign that generated 318,484 binder designs. Of the 211 that were lab-tested, 17 bound one of four scorpion neurotoxins, and Anthropic is releasing all the data.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "content": "Working with Citrini Research, Anthropic prompted Claude (plus four follow-ups) to design minibinders against five scorpion toxins. Claude used 12 design tools and about 10,000 GPU hours, co-folding 553,052 design-toxin pairs. Adaptyv Bio and Twist Bioscience tested the designs with SPR: 17 met strict binder criteria (single-toxin hit rate 18%), and the best Cn2 binders reached single-digit nM affinity and compete with a neutralizing antibody. None of the multi-toxin designs worked, and neutralization hasn't been tested yet, so this is not an antivenom.\n\n[Anthropic research post](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50170021)",
+      "createdAt": "2026-10-20T17:48:29Z",
+      "updatedAt": "2026-10-20T17:48:29Z"
+    },
+    {
+      "id": "hn:50169955",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI on coding in low-resource languages like COBOL, Fortran and OCaml",
+      "description": "OpenAI introduces MultiLangBench (build a SQLite-compatible engine in 20 languages) and a COBOL migration eval. It reports GPT-6 Astra at an 87.4% average pass rate and GPT-6.1 Sol at up to 97.9% on behavior-preserving COBOL migration.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "OpenAI",
+      "url": "https://openai.com/index/low-resource-programming-languages/",
+      "content": "**MultiLangBench** has models build a SQLite-compatible database engine in each of 20 languages, scored against tests adapted from SQLite's suite using database files as the shared interface. GPT-6 Astra averages 87.4% (COBOL 72.1%, OCaml 85.8%, Fortran 83.5%), up from 26.8% for GPT-5.6 Sol. The **COBOL migration** eval requires byte-for-byte output parity when porting to C++, Java, Kotlin, Python or Rust (watch out for fixed-point truncation). There, GPT-6.1 Sol scores 86.6% at low effort and 97.9% at high effort. The benchmark is released on GitHub.\n\n[OpenAI post](https://openai.com/index/low-resource-programming-languages/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50169955)",
+      "createdAt": "2026-10-20T17:43:11Z",
+      "updatedAt": "2026-10-20T17:43:11Z"
+    },
+    {
+      "id": "reading:chessbook-1-human-like-chess-bot",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Spending 10 months building the most human-like chess bot",
+      "description": "Marcus Buffett details Chessbook-1, a 199M-parameter transformer trained on a year of Lichess games. It predicts human moves, think time and game results, and stays calibrated to human strength at every rating, unlike Maia-3 and Allie 2.0.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Marcus Buffett",
+      "url": "https://mbuffett.com/posts/most-human-chess-bot",
+      "content": "A deep ML write-up: an 18-layer, 768-wide transformer with FiLM-conditioned RmsNorm (rating and clock), Smolgen-style dynamic attention bias, a factorized 4,864-move policy head, an auxiliary future-move head, and detached value and move-aware Beta-distribution think-time heads. It was trained on 345M positions in 24 h on 8×H100 with Muon/AdamW, then fine-tuned on bullet games. Everything is written in Rust on Burn with a forked CUDA back end. Benchmarks against Maia-3 and Allie 2.0 cover move prediction, ACPL/blunder calibration by rating band, time scrambles and win prediction.\n\n[Article](https://mbuffett.com/posts/most-human-chess-bot)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50154429)",
+      "createdAt": "2026-10-19T16:30:41Z",
+      "updatedAt": "2026-10-19T16:30:41Z"
+    },
+    {
+      "id": "hn:50167604",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Penmentor, an AI tutor that marks up your handwritten math",
+      "description": "Penmentor is an open-source Linux tool that, at a keypress, has Claude Code, Codex or Antigravity mark handwritten math in xournal++ like a teacher, giving hints instead of answers and generating manim animations.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Abdullah Alhariri",
+      "url": "https://github.com/AbdullahAlhariri/penmentor",
+      "content": "You write by hand in xournal++ and press a key. Penmentor circles the first real mistake, ticks correct lines and underlines later lines that inherit the error, then offers a hint ladder (nudge → technique → faint next line), recall drills, and interactive 3Blue1Brown-style **manim** animations for any region you box. It runs on your existing Claude Code, Codex or Antigravity CLI subscription; Linux/X11 only (best with i3).\n\n[GitHub repo](https://github.com/AbdullahAlhariri/penmentor)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50167604)",
+      "createdAt": "2026-10-20T15:10:54Z",
+      "updatedAt": "2026-10-20T15:10:54Z"
+    },
+    {
+      "id": "hn:50169439",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gradium open-sources Phonon, on-device text-to-speech models",
+      "description": "Phonon is a family of 31M-40M parameter open-weight TTS models (64-75 MB) that run offline on CPUs, phones, a Raspberry Pi 5, browsers and Apple devices. A Swift package uses the Neural Engine and runs up to 22x faster than real time on an iPhone 16 Pro.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "Gradium",
+      "url": "https://gradium.ai/phonon",
+      "content": "There are three models: **Phonon 31m** (English, Apache 2.0, 64 MB, 1.7% WER on tricky numbers/emails vs Kokoro's 3.5%), **Phonon 40m** (one model per language) and **Phonon 40m multilingual** (EN/FR/DE/ES/PT); both 40m models are CC BY-NC. It runs on x86/ARM CPUs, Core ML/ANE through a Swift package, CUDA/Metal/Vulkan, Snapdragon NPU, and in-browser through WASM/WebGPU. Showcased demos include an Apple Watch coffee-brew guide working fully offline and a rep-counting iPhone app. It ships with a Rust CLI and GGUF weights.\n\n[Phonon page](https://gradium.ai/phonon)\n\n[GitHub repo](https://github.com/gradium-ai/xn-ptts)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50169439)",
+      "createdAt": "2026-10-20T17:06:22Z",
+      "updatedAt": "2026-10-20T17:06:22Z"
+    },
+    {
+      "id": "x:2112597162924351909",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An agent loop moved OpenClaw's web frontend from Lit to Solid 2.0",
+      "description": "Peter Steinberger says an agent loop migrated OpenClaw's Lit web frontend to Solid 2.0: about six days to remove Lit and another week to reach idiomatic Solid, mostly on its own with check-ins every other day and only a few tiny regressions.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Peter Steinberger (@steipete)",
+      "url": "https://x.com/steipete/status/2112597162924351909",
+      "content": "The migration ran largely automatically. Steinberger checked in roughly every other day, and it took about **6 days** to fully remove Lit and **another week** to get the code to idiomatic Solid 2.0. The regressions he found were small: button shapes and slight UX differences.\n\nIn a follow-up he describes the setup: **Astra** did the planning and **Sol 6.1** wrote the code. Prompting Astra to run the Codex CLI in separate git worktrees worked far better than using subagents, and a second agent oversaw the work.\n\n[Post on X](https://x.com/steipete/status/2112597162924351909)\n\n[Follow-up on the agent setup](https://x.com/steipete/status/2112605703219347503)",
+      "createdAt": "2026-10-20T17:29:48Z",
+      "updatedAt": "2026-10-20T17:29:48Z"
+    },
+    {
+      "id": "x:2112589805494108326",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iOS 27 adds concentricCornerRadii to SwiftUI's GeometryProxy",
+      "description": "Sarun W. notes that iOS 27 adds concentricCornerRadii to GeometryProxy, which tells you the corner radius a view needs to match the curve of the screen corner.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2112589805494108326",
+      "content": "Inside a `GeometryReader`, the proxy's new `concentricCornerRadii` property gives the radii a view needs so its corners run concentric with the device's screen corners, which helps cards and buttons that sit near the display's edge. Sarun posted earlier that these radii are capped at half of a view's shorter side, so short views placed flush against the corner can still get clipped.\n\n[Post on X](https://x.com/sarunw/status/2112589805494108326)\n\n[Earlier post on the radius cap](https://x.com/sarunw/status/2110264451177800154)",
+      "createdAt": "2026-10-20T17:00:34Z",
+      "updatedAt": "2026-10-20T17:00:34Z"
+    },
+    {
+      "id": "x:2112646362684874953",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "duology v0.3: agent skills for building iPhone Duo apps",
+      "description": "Marouane Gazouzi shipped duology v0.3, a set of Claude Code skills (now including duo-media) for building on iPhone Duo. They cover the SwiftUI changes that matter on two screens, plus widgets and Live Activities when the bars sit on the side, and were checked in the simulator.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Marouane Gazouzi (@marouanegazouzi)",
+      "url": "https://x.com/marouanegazouzi/status/2112646362684874953",
+      "content": "**duology** packages skills a coding agent can load when designing, building, testing and shipping apps for iPhone Duo and iOS 27. The repo describes layout patterns, app recipes, a fold linter and pose checks. v0.3 adds a `duo-media` skill. According to the post, the skills focus on the SwiftUI changes that matter on two screens and on how widgets and Live Activities behave when the system bars sit on the side, and the guidance was checked in the simulator.\n\n[duology on GitHub](https://github.com/Kimeur/duology)\n\n[Post on X](https://x.com/marouanegazouzi/status/2112646362684874953)",
+      "createdAt": "2026-10-20T20:45:00Z",
+      "updatedAt": "2026-10-20T20:45:00Z"
+    },
+    {
+      "id": "x:2112636251782201602",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "VS Code previews canvases: shared workspaces for you and your coding agent",
+      "description": "VS Code's new Canvases (Preview) give you and your coding agent a shared interactive workspace beside the chat, for organizing releases, prioritizing backlog tasks and turning cards into plans with context the agent can act on.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Visual Studio Code (@code)",
+      "url": "https://x.com/code/status/2112636251782201602",
+      "content": "Canvases shipped as a Preview in **VS Code 1.142**. A canvas opens next to the chat, and both you and the agent can inspect and update the same artifact. In a Kanban canvas, for example, you move cards while the agent breaks features into tasks, updates their status and adds work it discovers. Each canvas comes from a canvas extension. You can generate one with `/create-canvas` or install a chat plugin through the GitHub Copilot app.\n\nTo try it, enable `chat.canvases.enabled` and start a local session with the Copilot harness. Canvases work in both the editor window and the Agents window.\n\n[VS Code 1.142 release notes: Canvases](https://code.visualstudio.com/updates/v1_142)\n\n[Post on X](https://x.com/code/status/2112636251782201602)",
+      "createdAt": "2026-10-20T20:05:07Z",
+      "updatedAt": "2026-10-20T20:05:07Z"
+    },
+    {
+      "id": "x:2112521590957298150",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "KV cache per token differs about 3x across popular open models",
+      "description": "TensorQuay compares bf16 KV cache size per kept token, which only grows in full-attention layers: from 25 KB for qwen3.8-flash-next (3.3 GB at 128K context) to 82 KB for Gemma 4 31B (10.7 GB).",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "TensorQuay (@tensorquay)",
+      "url": "https://x.com/tensorquay/status/2112521590957298150",
+      "content": "In hybrid architectures, only the full-attention layers keep a growing KV cache, so memory per kept token can differ about 3x between models of similar size. TensorQuay's bf16 numbers:\n\n| Model | KV cache per token | At 128K tokens |\n| --- | --- | --- |\n| qwen3.8-flash-next | 25 KB | 3.3 GB |\n| gpt-oss-120b | 37 KB | 4.8 GB |\n| qwen3.8-27b | 66 KB | 8.6 GB |\n| gemma 4 31b | 82 KB | 10.7 GB |\n\nThis matters when you size long-context serving or local inference: the cache, not just the weights, decides how many concurrent long sessions fit in VRAM.\n\n[Post on X](https://x.com/tensorquay/status/2112521590957298150)",
+      "createdAt": "2026-10-20T12:29:00Z",
+      "updatedAt": "2026-10-20T12:29:00Z"
+    },
+    {
+      "id": "x:2112633238556451156",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paper: multilingual voicemail detection with pretrained audio embeddings and gradient boosting",
+      "description": "Kemal Altwlkany and Muamer Paric detect answering machines from the first seconds of a call using frozen PANNs CNN6 embeddings fed to LightGBM. The model runs in about 1.2 ms, has the best precision on both test sets, and comes with OpenAMD, the first public AMD dataset.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "SoundPapers (@SoundPapers)",
+      "url": "https://x.com/SoundPapers/status/2112633238556451156",
+      "content": "Answering machine detection (AMD) decides whether a call was picked up by a human or by a voicemail system. The authors (Infobip and the University of Sarajevo) extract 512-dimensional embeddings from the frozen 4.8M-parameter **PANNs CNN6** model and train a **LightGBM** classifier tuned to avoid labeling humans as machines. They compare it against RNN-YAMNet, a fine-tuned wav2vec model, Infobip's proprietary AMD, and a Whisper + GPT-5.4 transcription baseline:\n\n- **Precision:** CNN6-GBM has the best precision on both datasets (94.7% and 95.1%). The Whisper + GPT baseline has the best accuracy on the proprietary set but can't run in real time.\n- **Latency:** about 1.2 ms per inference vs about 132 ms for the wav2vec model.\n- **OpenAMD:** a new public dataset with 533 recordings in 7 languages. Accuracy showed no significant dependence on language or gender.\n- **Weak spot:** the model is less robust to additive noise but holds up under packet loss.\n- **Robocalls:** without retraining, it catches 94.34% of FTC robocalls.\n\nThe post says the paper was presented at SPECOM 2026.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.26100)\n\n[Post on X](https://x.com/SoundPapers/status/2112633238556451156)",
+      "createdAt": "2026-10-20T19:53:00Z",
+      "updatedAt": "2026-10-20T19:53:00Z"
     }
   ]
 }
