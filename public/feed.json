@@ -22565,6 +22565,102 @@
       "content": "Answering machine detection (AMD) decides whether a call was picked up by a human or by a voicemail system. The authors (Infobip and the University of Sarajevo) extract 512-dimensional embeddings from the frozen 4.8M-parameter **PANNs CNN6** model and train a **LightGBM** classifier tuned to avoid labeling humans as machines. They compare it against RNN-YAMNet, a fine-tuned wav2vec model, Infobip's proprietary AMD, and a Whisper + GPT-5.4 transcription baseline:\n\n- **Precision:** CNN6-GBM has the best precision on both datasets (94.7% and 95.1%). The Whisper + GPT baseline has the best accuracy on the proprietary set but can't run in real time.\n- **Latency:** about 1.2 ms per inference vs about 132 ms for the wav2vec model.\n- **OpenAMD:** a new public dataset with 533 recordings in 7 languages. Accuracy showed no significant dependence on language or gender.\n- **Weak spot:** the model is less robust to additive noise but holds up under packet loss.\n- **Robocalls:** without retraining, it catches 94.34% of FTC robocalls.\n\nThe post says the paper was presented at SPECOM 2026.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.26100)\n\n[Post on X](https://x.com/SoundPapers/status/2112633238556451156)",
       "createdAt": "2026-10-20T19:53:00Z",
       "updatedAt": "2026-10-20T19:53:00Z"
+    },
+    {
+      "id": "hn:50166579",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EMudhra Intermediate CA Compromise",
+      "description": "A compromise of an EMudhra intermediate certificate authority is under discussion, with implications for the trust of certificates it issued.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "galadran",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "createdAt": "2026-10-20T13:58:33Z",
+      "updatedAt": "2026-10-20T13:58:33Z"
+    },
+    {
+      "id": "hn:50165801",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Publish fake stats, get cited in LLMs",
+      "description": "The discussion covers how fabricated statistics get picked up and repeated by large language models.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "robtherobber",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "createdAt": "2026-10-20T13:06:22Z",
+      "updatedAt": "2026-10-20T13:06:22Z"
+    },
+    {
+      "id": "hn:50162177",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "description": "MicroG is a free, open-source reimplementation of Google's proprietary Android userspace components.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://github.com/microg/GmsCore/wiki",
+      "createdAt": "2026-10-20T06:37:07Z",
+      "updatedAt": "2026-10-20T06:37:07Z"
+    },
+    {
+      "id": "hn:50163961",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "description": "A Google Cloud outage is affecting banking and other operations across Europe.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "paweladamczuk",
+      "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+      "createdAt": "2026-10-20T10:26:02Z",
+      "updatedAt": "2026-10-20T10:26:02Z"
+    },
+    {
+      "id": "hn:50166257",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How I got over 300 Tor exit nodes removed",
+      "description": "A first-hand account of getting more than 300 Tor exit nodes removed from the network.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "kabakabakaba",
+      "url": "https://kaba.cx/posts/20261020_Tor/",
+      "createdAt": "2026-10-20T13:39:24Z",
+      "updatedAt": "2026-10-20T13:39:24Z"
+    },
+    {
+      "id": "hn:50108717",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
+      "description": "A new SlopCodeBench coding-benchmark round ranks models, with Opus 5.5 and Astra taking the overall wins.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dhorthy",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+      "createdAt": "2026-10-15T19:09:34Z",
+      "updatedAt": "2026-10-15T19:09:34Z"
     }
   ]
 }
