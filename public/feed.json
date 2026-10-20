@@ -21679,6 +21679,174 @@
       "source": "Twitter / X",
       "createdAt": "2026-10-19T10:18:00Z",
       "updatedAt": "2026-10-19T10:18:00Z"
+    },
+    {
+      "id": "hn:50163277",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepSeek just open-sourced its inference engine",
+      "description": "DeepSeek released its open-source inference engine, DeepInfer, drawing major interest from the HN community.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ggcr",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "createdAt": "2026-10-20T09:08:54Z",
+      "updatedAt": "2026-10-20T09:08:54Z"
+    },
+    {
+      "id": "hn:50159341",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "description": "WhatsApp's help pages were found to contain hidden LLM instructions steering AI answers away from recommending regulators.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ds",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "createdAt": "2026-10-19T23:22:18Z",
+      "updatedAt": "2026-10-19T23:22:18Z"
+    },
+    {
+      "id": "hn:50154244",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "description": "The U.S. DHS has ordered federal civilian agencies to remove DeepSeek AI from government IT systems.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "cmrdporcupine",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "createdAt": "2026-10-19T16:16:46Z",
+      "updatedAt": "2026-10-19T16:16:46Z"
+    },
+    {
+      "id": "hn:50152321",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+      "description": "Actively exploited Plex vulnerabilities are being used to install cryptominers on unpatched servers.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mindracer",
+      "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+      "createdAt": "2026-10-19T13:36:43Z",
+      "updatedAt": "2026-10-19T13:36:43Z"
+    },
+    {
+      "id": "hn:50159245",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How abliterated models can get you pwned",
+      "description": "A look at how uncensored ('abliterated') LLM variants introduce real security risks when deployed carelessly.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "chatmasta",
+      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+      "createdAt": "2026-10-19T23:08:52Z",
+      "updatedAt": "2026-10-19T23:08:52Z"
+    },
+    {
+      "id": "hn:50157865",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "One Hash Bloom Filters",
+      "description": "An exploration of bloom filter variants that need only a single hash function.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jcalabro",
+      "url": "https://calabro.io/ohbf",
+      "createdAt": "2026-10-19T20:50:08Z",
+      "updatedAt": "2026-10-19T20:50:08Z"
+    },
+    {
+      "id": "hn:50152466",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Maxwell: A new kind of model that sits between code and hardware",
+      "description": "Maxwell is a new abstraction layer sitting between code and hardware, aiming to rethink how software maps to machines.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "laginimaineb",
+      "url": "https://heymaxwell.ai/",
+      "createdAt": "2026-10-19T13:47:56Z",
+      "updatedAt": "2026-10-19T13:47:56Z"
+    },
+    {
+      "id": "hn:50152539",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Is Speculative Decoding Fast?",
+      "description": "An accessible explainer on why speculative decoding speeds up LLM inference.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://jbarrow.ai/2026-10-08-why-is-speculative-decoding-fast/",
+      "createdAt": "2026-10-19T13:53:41Z",
+      "updatedAt": "2026-10-19T13:53:41Z"
+    },
+    {
+      "id": "hn:50165599",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Did-It-Actually: hooks that catch Claude Code hallucinations before they ship",
+      "description": "A tool using git hooks to verify Claude Code's claims and catch hallucinations before code ships.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "kaiversum",
+      "url": "https://98dkcc488b.gumroad.com/l/did-it-actually",
+      "createdAt": "2026-10-20T12:52:19Z",
+      "updatedAt": "2026-10-20T12:52:19Z"
+    },
+    {
+      "id": "hn:50165527",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Norns – The native code editor for Apple Silicon",
+      "description": "A native code editor built specifically for Apple Silicon Macs.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "hmokiguess",
+      "url": "https://getnorns.app/",
+      "createdAt": "2026-10-20T12:45:59Z",
+      "updatedAt": "2026-10-20T12:45:59Z"
     }
   ]
 }
