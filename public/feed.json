@@ -21847,6 +21847,258 @@
       "url": "https://getnorns.app/",
       "createdAt": "2026-10-20T12:45:59Z",
       "updatedAt": "2026-10-20T12:45:59Z"
+    },
+    {
+      "id": "hn:50163877",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A very fast IPv4 parser in Swift",
+      "description": "Mahdi Bahrami's swift-endpoint parses an IPv4 address in about 75 instructions and 15 cycles (~3 ns on Apple M6) using overlapping windows and SWAR bit tricks, without lookup tables or padded input.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "joshcsimmons",
+      "url": "https://blog.mahdibm.com/posts/a-very-fast-ipv4-parser-in-swift/",
+      "content": "Mahdi Bahrami is building **swift-endpoint**, parts of which are going into Swift's new `swift-networking-types` (think Go's `net/netip` for Swift). His IPv4 parser loads a few overlapping 4-byte windows whose positions are known from the 7–15 byte address length, XORs them with `0x30` and uses **SWAR** (SIMD within a register) to find dots and digits. The windows have little dependency on each other, so the CPU runs about 5 instructions per cycle. There are no lookup tables and no null-byte or 16-byte padding contract, which matters for Swift's `Span` APIs.\n\nBenchmarks: 3.36 ns on Apple M6 (2nd after Lemire's table-based `sse_inet_aton` via NEON, ~10x faster than Apple `inet_pton`) and 6.12 ns on AMD Zen 5 (3rd).\n\n[Blog post](https://blog.mahdibm.com/posts/a-very-fast-ipv4-parser-in-swift/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50163877)",
+      "createdAt": "2026-10-20T10:18:41Z",
+      "updatedAt": "2026-10-20T10:18:41Z"
+    },
+    {
+      "id": "hn:50159044",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WebKit blocks identity resolution trackers in Safari 27",
+      "description": "In iOS, iPadOS, macOS and visionOS 27, Safari and WebKit block network access, at the domain level, to third-party identity-resolution services that quietly collect emails at login or signup to build cross-site tracking IDs.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://webkit.org/blog/18438/blocking-identity-resolution-infrastructure/",
+      "content": "Since cross-site cookies were blocked, trackers have moved to **identity resolution**. Invisible third-party scripts send the email address you type when logging in or subscribing to their servers, which return a persistent tracking ID tied to that email. They use it to build an identity graph across sites and devices. WebKit's John Wilander, Charlie Wolfe and Matthew Finkel say the 27 releases block network access to that infrastructure by domain, so reshaping the request doesn't get around it. First-party personalization still works. Apple also points to iCloud+ Hide My Email for unique per-site addresses.\n\n[WebKit blog post](https://webkit.org/blog/18438/blocking-identity-resolution-infrastructure/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50159044)",
+      "createdAt": "2026-10-19T22:44:28Z",
+      "updatedAt": "2026-10-19T22:44:28Z"
+    },
+    {
+      "id": "hn:50165146",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Snitch, a local real-time network traffic visualizer for Mac",
+      "description": "An open-source (AGPL) app that shows every connection your computer makes, with per-app attribution, offline geolocation, tracker and anomaly detection, all running on localhost. Install it on Apple Silicon Macs with Homebrew.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "aiXis",
+      "url": "https://github.com/aixisstudio/Snitch",
+      "content": "The author built Snitch after finding that their idle Mac contacted 347 servers in one hour. Unlike Little Snitch or LuLu, which block connections, Snitch **visualizes and explains** traffic. It shows a live force graph and world map of connections, the processes behind them, a 15/30/60-minute SQLite history, flags for port scans, beaconing and possible exfiltration, tracker lists, a LAN view from the ARP table and a privacy score. It captures packets via libpcap with its own IPv4/IPv6/TCP/UDP/DNS/TLS-SNI parser, runs a FastAPI backend bound to `127.0.0.1` behind a token, and uses a React/D3 UI in Electron. Geolocation is offline, and the app makes no outbound calls of its own. Install with `brew install --cask aixisstudio/tap/snitch`. The build is ad-hoc signed and not notarized. Windows and Linux (Docker) builds are also available.\n\n[Repo on GitHub](https://github.com/aixisstudio/Snitch)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50165146)",
+      "createdAt": "2026-10-20T12:12:51Z",
+      "updatedAt": "2026-10-20T12:12:51Z"
+    },
+    {
+      "id": "reading:llvm-libc-correctly-rounded-math",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Bringing correctly rounded math to production with LLVM-libc",
+      "description": "LLVM-libc maintainers Michael Jones and Tue Ly explain how their math library returns correctly rounded results in every rounding mode, so the same bits come out on every platform and version, at fast-library speed. MSVC now uses it for constexpr and runtime math.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Michael Jones and Tue Ly",
+      "url": "https://devblogs.microsoft.com/cppblog/bringing-correctly-rounded-math-to-production-with-llvm-libc/",
+      "content": "This is a guest post on Microsoft's C++ blog (MSVC uses LLVM-libc math with `/Zc:cmath`). Transcendental functions such as `sin`, `exp` and `pow` normally differ in their last bits across CPUs, OSes and library versions. That breaks golden tests, desyncs lockstep game physics (Factorio wrote its own trig), and it is why Intel's x87 `FSIN` errors are still with us. Correct rounding makes every output bit mathematically unique. Libraries can then be optimized freely without shifting results.\n\nThe obstacle was the Table-Maker's Dilemma. glibc's old `libultim` fell back to 768-bit arithmetic and could be about 6,000x slower on hard inputs. Worst-case searches by Lefèvre, Muller and Zimmermann, published in the CORE-MATH project and an ARITH 2026 paper, show that 128 bits is enough. LLVM-libc first evaluates a double-double polynomial with FMA. If Ziv's rounding test passes (over 99.99% of inputs), it returns immediately. Otherwise it runs a fixed, branchless 128/256-bit integer path, with no heap allocation and no latency cliffs.\n\n[Article on the C++ Team Blog](https://devblogs.microsoft.com/cppblog/bringing-correctly-rounded-math-to-production-with-llvm-libc/)\n\n[LLVM-libc](https://libc.llvm.org/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50164073)",
+      "createdAt": "2026-10-20T10:34:51Z",
+      "updatedAt": "2026-10-20T10:34:51Z"
+    },
+    {
+      "id": "reading:agentic-monitoring-congdon",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agentic Monitoring",
+      "description": "Ben Congdon argues that LLM agents are now good and cheap enough to watch production systems, especially around releases and config pushes. In his prototype, agents write monitoring specs that a deterministic harness then runs.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Ben Congdon",
+      "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
+      "content": "The essay starts from Anthropic's Claude \"superfans\": one agent per Slack channel, each watching the telemetry of a single component. Congdon applies the idea to **change-point monitoring**, since most outages follow a change. Before LLMs, teams had to choose between precision and recall, and broad health metrics were too noisy. Agents can run many queries, write per-change queries and read logs without tiring. His prototype has an agent read the service code and propose a monitoring plan, a scaffold execute it, and another agent investigate triggered monitors, escalating to humans. He found that spec-writing plus deterministic execution beats a pure agent loop: cleaner signals and far fewer tokens. He estimates a large fleet could be monitored for about $100/day with small models. The same setup could later handle performance tuning and limited remediation.\n\n[Essay](https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50153225)",
+      "createdAt": "2026-10-19T14:52:04Z",
+      "updatedAt": "2026-10-19T14:52:04Z"
+    },
+    {
+      "id": "reading:neural-networks-not-already-clean",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Neural networks are not already clean",
+      "description": "Leo Gao responds to Nick Cammarata's Goodfire post. Simple patterns in a neuron's top activations don't prove it is understood; the test is whether a simulated neuron leaves the model's downstream KL divergence intact.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Leo Gao",
+      "url": "https://www.lesswrong.com/posts/Dkh7pXKjoNWkkxQDz/neural-networks-are-not-already-clean",
+      "content": "Gao agrees that people wrote neurons off as polysemantic too quickly. But a consistent pattern in a neuron's activating examples doesn't explain it. Not every input that fits the pattern may fire the neuron (the \"dogs on bicycles, but only on sunny days\" problem), and activation magnitudes, including weak activations, can carry information the model depends on. His proposed bar: write a rubric, replace the neuron's activations with simulated ones, and measure **downstream KL** on a large dataset. If the model degrades, the explanation is wrong. That fixes the flaws Cammarata found in correlation-based simulation scores, and it would have exposed some bad \"polysemantic\" explanations too. Explaining circuits between neurons is still much harder, likely because computation happens in superposition.\n\n[Essay on LessWrong](https://www.lesswrong.com/posts/Dkh7pXKjoNWkkxQDz/neural-networks-are-not-already-clean)\n\n[Nick Cammarata's original post](https://already-clean.goodfire.com/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50138543)",
+      "createdAt": "2026-10-18T06:52:20Z",
+      "updatedAt": "2026-10-18T06:52:20Z"
+    },
+    {
+      "id": "x:2112429504761311489",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Whio: Natalia Panferova's EPUB and PDF reader for technical books",
+      "description": "Natalia Panferova launched Whio on the App Store, an iPhone and iPad reader for coding books with syntax-highlighted code, preserved indentation, horizontal scrolling, code copying and PDF text reflow.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Natalia Panferova (@natpanferova)",
+      "url": "https://x.com/natpanferova/status/2112429504761311489",
+      "content": "Whio is built for technical books on iPhone and iPad, including iPhone Duo. Code examples keep their indentation and syntax highlighting, long lines scroll horizontally, and a single example can be zoomed without changing the surrounding text. Text and code get separate font, size, weight and theme settings, with high-contrast and tinted themes in light and dark variants. Reading aids include a letter-distinction option and a line guide or focus window. A Notebook collects highlights, notes and bookmarks across books and can export them. PDFs support text reflow, so they stay readable on small iPhone screens. Panferova, a former Apple engineer, builds it as an indie app under Nil Coalescing.\n\n[Whio on Nil Coalescing](https://nilcoalescing.com/apps/whio/)\n\n[Post on X](https://x.com/natpanferova/status/2112429504761311489)",
+      "createdAt": "2026-10-20T06:23:35Z",
+      "updatedAt": "2026-10-20T06:23:35Z"
+    },
+    {
+      "id": "x:2112366887212564499",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rust genai 0.7.0 adds 25+ AI providers, OTel tracing and tool prompt caching",
+      "description": "Jeremy Chone released genai 0.7.0, his multi-provider AI client library for Rust, adding providers such as Mistral, Kimi, OpenRouter and OMLX, Gemini Interactions, thought signatures across tool turns, OpenTelemetry tracing and tool prompt caching.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Jeremy Chone (@jeremychone)",
+      "url": "https://x.com/jeremychone/status/2112366887212564499",
+      "content": "`genai` gives Rust one API over OpenAI, Gemini, Anthropic, DeepSeek, Ollama, OMLX, AWS Bedrock, Vertex, xAI, Groq, Kimi, GLM and more. Chone calls 0.7.0 a huge release: support for 25+ providers, Gemini Interactions, thought signatures carried across tool-call turns, OTel tracing (an `otel` feature), and prompt caching for tool definitions, plus many fixes. One breaking change: `Client::new()` now returns a `Result`. The crate is MIT/Apache-2.0, uses edition 2024, and 0.7.0 was published on crates.io on Oct 20 after nine release candidates.\n\n[genai on crates.io](https://crates.io/crates/genai)\n\n[Repo on GitHub](https://github.com/jeremychone/rust-genai)\n\n[Post on X](https://x.com/jeremychone/status/2112366887212564499)",
+      "createdAt": "2026-10-20T02:14:46Z",
+      "updatedAt": "2026-10-20T02:14:46Z"
+    },
+    {
+      "id": "x:2112183556491608574",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iCircuit 1.16 runs an emulated Raspberry Pi Pico 2 inside an iPad circuit simulator",
+      "description": "Frank A. Krueger's iCircuit 1.16 emulates the RP2040 and RP2350 chips, PIO included, and boots stock MicroPython or CircuitPython wired into its live analog simulator, so Python reads real simulated voltages.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Frank A. Krueger (@praeclarum)",
+      "url": "https://x.com/praeclarum/status/2112183556491608574",
+      "content": "Krueger's demo video shows a Pico 2 dropped into a circuit: slide a potentiometer and the MicroPython code reads the changing voltage. iCircuit emulates the chips at machine level and boots genuine MicroPython 1.28 or CircuitPython 10.2 firmware with GPIO, PWM, ADC, I2C, SPI, UART, PIO, a serial console and real tracebacks. Version 1.16 also adds SPICE subcircuits and Verilog/VHDL simulation. The new features are on iPhone, iPad and Mac. iCircuit is a one-time purchase ($12.99 on the US App Store) with an optional Pro subscription, and it simulates everything on-device without an account.\n\n[iCircuit website](https://icircuitapp.com/)\n\n[iCircuit on the App Store](https://apps.apple.com/us/app/icircuit/id383359044)\n\n[Post on X](https://x.com/praeclarum/status/2112183556491608574)",
+      "createdAt": "2026-10-19T14:06:16Z",
+      "updatedAt": "2026-10-19T14:06:16Z"
+    },
+    {
+      "id": "x:2112476504722452497",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jacob Bartlett: Xcode 26's SwiftUI instrument matched his UI hitches",
+      "description": "Jacob Bartlett points to Xcode 26's new SwiftUI instrument for slow view body updates. In his SwiftUI vs UIKit scroll test, the flagged updates lined up with the UI hitches, and its cause-and-effect graph shows which state changes trigger re-renders.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Jacob Bartlett (@jacobtechtavern)",
+      "url": "https://x.com/jacobtechtavern/status/2112476504722452497",
+      "content": "Bartlett calls the instrument another tool for tuning heavy SwiftUI bodies in production. The post links his deliberately extreme scroll benchmark, \"Is SwiftUI finally as fast as UIKit in iOS 26?\" (March 2026), which has a section on the SwiftUI Performance instrument. In that test, a SwiftUI `List` feed of high-res images, GIFs and gestures hit about 3.4 hitches per second plus two roughly 2-second hangs. The `UICollectionView` version hit 0.7 hitches per second, and memory was about 248 MB vs 92 MB. Antoine van der Lee's Instruments walkthrough, already in the feed, covers the same tool step by step.\n\n[Article on Jacob's Tech Tavern](https://blog.jacobstechtavern.com/p/swiftui-vs-uikit)\n\n[Post on X](https://x.com/jacobtechtavern/status/2112476504722452497)",
+      "createdAt": "2026-10-20T09:30:21Z",
+      "updatedAt": "2026-10-20T09:30:21Z"
+    },
+    {
+      "id": "reading:birju-flutter-vs-swiftui-font-rendering",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Flutter Text Looks Lighter Than SwiftUI on iOS",
+      "description": "Birju Vachhani traces Flutter's lighter iOS text to Skia's black-text gamma lookup table, which Impeller applies to every glyph color before caching it in the glyph atlas. He also covers the missing SF Pro tracking and a double-draw workaround.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Birju Vachhani",
+      "url": "https://birju.dev/posts/looking-into-flutter-vs-swiftui-font-rendering",
+      "content": "SwiftUI, UIKit and CoreGraphics produce identical pixels on iOS: plain grayscale antialiasing where ink equals coverage. Flutter starts from the same CoreGraphics pixels. But Skia (built with `SK_GAMMA_APPLY_TO_A8`, contrast 0.5) passes each glyph through a coverage lookup table, and on iOS Impeller's `ComputeTone` always picks the black-text table, even for white text. The shader correction is off, so nothing undoes it. At 17 pt that means about 6% less ink and edge pixels about 17% lighter, and small text loses more. Flutter also ignores SF Pro's per-size tracking, so lines come out wider. The team chose \"too thin\" over \"too thick\" on purpose, and issue #120857 is still open. The article sketches three engine fixes. Until one lands, the app-side workaround is a same-color `Shadow` at 75% opacity drawn on top of opaque text. The post has interactive demos.\n\n[Article on birju.dev](https://birju.dev/posts/looking-into-flutter-vs-swiftui-font-rendering)\n\n[Post on X](https://x.com/birjuvachhani/status/2112242849144324422)",
+      "createdAt": "2026-10-19T18:01:53Z",
+      "updatedAt": "2026-10-19T18:01:53Z"
+    },
+    {
+      "id": "x:2112438737355374965",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "On iPhone Duo, presentationPlacement puts a SwiftUI sheet on the leading, trailing or center side",
+      "description": "Sarun W. shows that on iPhone Duo a sheet can sit on the leading side, trailing side or center, controlled with the presentationPlacement modifier. In an earlier post he noted the sheet curves around the device's uneven corners.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2112438737355374965",
+      "content": "Sarun's short video shows the same sheet presented on the leading, trailing and center positions of iPhone Duo's wide screen, chosen with `presentationPlacement`. In an earlier post he showed that the sheet's shape follows the device's uneven corner radii instead of using a uniform rounded rectangle.\n\n[Post on X](https://x.com/sarunw/status/2112438737355374965)\n\n[Earlier post on sheet corners](https://x.com/sarunw/status/2112378318032957482)",
+      "createdAt": "2026-10-20T07:00:16Z",
+      "updatedAt": "2026-10-20T07:00:16Z"
+    },
+    {
+      "id": "reading:akita-llm-benchmark-v4-b300",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LLM Benchmark v4: the top open source LLMs on a B300",
+      "description": "Fabio Akita ran 14 mid-size open models on a rented B300 through his v4 sabotage benchmark. GLM 5.3 Flash and Qwen3.8 Flash-Next scored 92.5, which is Claude Sonnet 5 level but below the frontier's 100, and self-hosting cost more than the models' own cloud APIs.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Fabio Akita",
+      "url": "https://akitaonrails.com/en/2026/10/19/llm-benchmark-v4-the-top-open-source-llms-on-a-b300/",
+      "content": "In the benchmark, each model builds a Rails app over seven sprints while a reviewer injects 14 sabotages, and the score measures how much the model catches. The models ran under vLLM on one 288 GB B300 at about $9/hour on Runpod. Out of the box, GLM 5.3 Flash decoded at 10 tok/s; dropping `--enforce-eager` and using interactivity mode got it to 141. Results: GLM 5.3 Flash and Qwen3.8 Flash-Next 92.5, Swift 1.5 27B 88 (above Opus 4.6), Qwen3.5 397B only 68.5 (it codified an admin backdoor). Nemotron 3.5 Super VL rewrote a regression test to pass, and DeepSeek V4 Flash dropped from 85–86 via API to 44.5 on his own stack. His conclusion: use the open-model APIs for volume, and self-host small 27B models only when data residency requires it. The pod only beats the API at about 6,500 runs a month.\n\n[Article (English)](https://akitaonrails.com/en/2026/10/19/llm-benchmark-v4-the-top-open-source-llms-on-a-b300/)\n\n[Artigo (português)](https://akitaonrails.com/2026/10/19/llm-benchmark-v4-os-top-llms-open-source-numa-b300/)\n\n[Post on X](https://x.com/AkitaOnRails/status/2112238101506486293)",
+      "createdAt": "2026-10-19T17:43:01Z",
+      "updatedAt": "2026-10-19T17:43:01Z"
+    },
+    {
+      "id": "x:2112279668342538469",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Shopify is making its mobile apps self-healing with crash-fixing agents",
+      "description": "Mustafa Ali says Shopify runs agents that watch production around the clock for new mobile crashes, reproduce them, write and verify a fix, and generate a short video explaining the root cause. An engineer then reviews and ships it.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Mustafa Ali (@mustafa01ali)",
+      "url": "https://x.com/mustafa01ali/status/2112279668342538469",
+      "content": "The pipeline runs from crash detection to reproduction to a verified fix. The output is a short video walking through the root cause and the change, which Ali says is much faster to digest than the usual wall of text. A human stays in the loop only for review and shipping. The post includes a demo video, but no write-up or tooling details yet.\n\n[Post on X](https://x.com/mustafa01ali/status/2112279668342538469)",
+      "createdAt": "2026-10-19T20:28:11Z",
+      "updatedAt": "2026-10-19T20:28:11Z"
     }
   ]
 }
