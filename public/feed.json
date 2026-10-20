@@ -22099,6 +22099,182 @@
       "content": "The pipeline runs from crash detection to reproduction to a verified fix. The output is a short video walking through the root cause and the change, which Ali says is much faster to digest than the usual wall of text. A human stays in the loop only for review and shipping. The post includes a demo video, but no write-up or tooling details yet.\n\n[Post on X](https://x.com/mustafa01ali/status/2112279668342538469)",
       "createdAt": "2026-10-19T20:28:11Z",
       "updatedAt": "2026-10-19T20:28:11Z"
+    },
+    {
+      "id": "x:2112254454544101495",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ant Group open-sources Ming-3.0-tts, small TTS models with voice design",
+      "description": "inclusionAI's Ming-3.0-tts ships a 0.5B dense model and a 7.9B MoE with about 1.3B active under MIT, with voice cloning, text-described voices and inline paralinguistic tags.",
+      "content": "Ming-3.0-tts is a pair of speech synthesis models from Ant Group's inclusionAI: a dense 0.5B checkpoint built on Qwen2.5-0.5B and a tiny mixture-of-experts on Ling V3 (7.9B total, about 1.3B active). Both do zero-shot voice cloning from a short clip, design a voice from a plain-language description, and take 14 inline tags for laughter, sighs, breaths and hesitation. They cover Chinese, English, German, Spanish, French, Korean and Japanese plus Sichuanese and Cantonese, and the MoE can generate multi-speaker podcasts from a script. Weights are on Hugging Face and ModelScope; inference code lives in the GitHub repo, and SGLang has a cookbook for serving it.\n\n[Ming-3.0-tts on GitHub](https://github.com/inclusionAI/Ming-3.0-tts) · [0.5B model on Hugging Face](https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B) · [Tiny MoE on Hugging Face](https://huggingface.co/inclusionAI/Ming-3.0-tts-tiny)",
+      "author": "JimiLonbo (@jimmy_longbow_)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/jimmy_longbow_/status/2112254454544101495",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T18:48:00Z",
+      "updatedAt": "2026-10-19T18:48:00Z"
+    },
+    {
+      "id": "x:2112289325861814422",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PrismaX shares π0.5 fine-tuning ablations: lighting halves an expert-only checkpoint",
+      "description": "PrismaX published the fine-tuning ablations behind its IROS demo, finding hard lighting cut an expert-only π0.5 checkpoint's success roughly in half while a full fine-tune was unaffected.",
+      "content": "PrismaX's article \"openpi / π0.5 Fine-Tuning: How-To and Tips\" walks through the ablations behind its IROS robot demo. The headline result: under hard lighting, a π0.5 checkpoint fine-tuned only on expert demonstrations lost roughly half its success rate, while the full fine-tune lost nothing under the same lights. It's a practical read if you plan to fine-tune Physical Intelligence's open VLA on your own robot data, since robustness to scene changes depends heavily on what data goes into the fine-tune.\n\n[openpi on GitHub](https://github.com/Physical-Intelligence/openpi)",
+      "author": "PrismaX (@PrismaXai)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/PrismaXai/status/2112289325861814422",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T21:06:34Z",
+      "updatedAt": "2026-10-19T21:06:34Z"
+    },
+    {
+      "id": "x:2112250503757479980",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Maker Arm, a $999 3D-printed QDD robot arm, now runs Dream Labs' zero-shot Dream-1",
+      "description": "MakerMods' printed six-joint arm on RobStride quasi-direct-drive actuators is now a starter platform for Dream-1, a world action model that drives unseen bimanual robots from a text prompt.",
+      "content": "Maker Arm is a 3D-printed six-joint arm plus gripper built on RobStride quasi-direct-drive actuators, with a 1.5 kg payload, CAN control, wrist and overhead cameras, and a kit price from $999 (shipping November); two make a bimanual station. The new tie-in is Dream-1 from Dream Labs, a world action model that predicts video and end-effector poses together, so it can control two-armed robots with parallel grippers it was never trained on, from a plain-language prompt, at about $3 an hour through a public API. The arm also supports ACT, SmolVLA and π0, ships a URDF for simulation, and has an open Python SDK for Linux SocketCAN and macOS SLCAN.\n\n[Maker Arm](https://www.makermods.ai/maker-arm) · [Dream-1 announcement](https://dreamlabs.ai/research/dream-1/) · [maker-arm-sdk on GitHub](https://github.com/makermods-robotics/maker-arm-sdk)",
+      "author": "Ryan Chan (@Ryan_Resolution)",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "url": "https://x.com/Ryan_Resolution/status/2112250503757479980",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T18:32:18Z",
+      "updatedAt": "2026-10-19T18:32:18Z"
+    },
+    {
+      "id": "x:2112477181653721462",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sigasi Visual HDL 2026.5 opens its MCP server to Claude Code, Codex and other agents",
+      "description": "Sigasi's VHDL/Verilog extension now lets any coding agent in VS Code format HDL, read Sigasi's real lint violations and explore project structure through its MCP server.",
+      "content": "Sigasi Visual HDL 2026.5, released October 19, makes its built-in MCP server available to every AI agent running in VS Code, including Claude Code, OpenAI Codex and Mistral Vibe, in every edition. The server runs inside the extension, so agents get the same project-aware HDL analysis as the editor: formatting, actual linting violations and design structure. A new registration page shows the one-time command for each agent. The release also renders WaveDrom timing diagrams in hovers and docs, adds spell checking for HDL comments, and brings new VHDL declaration checks.\n\n[Sigasi 2026.5 release notes](https://www.sigasi.com/releasenotes/sigasi-2026.5/)",
+      "author": "Sigasi (@Sigasi)",
+      "topics": [
+        "Technology",
+        "Programming",
+        "AI"
+      ],
+      "url": "https://x.com/Sigasi/status/2112477181653721462",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-20T09:33:02Z",
+      "updatedAt": "2026-10-20T09:33:02Z"
+    },
+    {
+      "id": "x:2112488021455261880",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Swoop: free open-source radial window manager for macOS",
+      "description": "Hold Option, flick the mouse toward where a window should go and let go; Swoop shows an outline of the target and cycles half, third and two-thirds sizes on click.",
+      "content": "Swoop is a small Swift window manager for macOS 13 and later. Holding Left Option puts a ring under the cursor, a flick toward a direction previews where the window will land, clicking steps through sizes (half, third, two thirds), and releasing snaps it; Esc or right-click cancels. It also exposes a `swoop://` URL scheme for actions, installs with a one-line script or a download, and is MIT-licensed. v1.0 just shipped.\n\n[Swoop site](https://swoop-mac.vercel.app) · [Swoop on GitHub](https://github.com/iam8uman/swoop)",
+      "author": "Suman Sharma (@whysumancode)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/whysumancode/status/2112488021455261880",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-20T10:16:07Z",
+      "updatedAt": "2026-10-20T10:16:07Z"
+    },
+    {
+      "id": "x:2112425876885516598",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CapsJump turns Caps Lock into a launcher for apps, windows and Chrome-profile tabs",
+      "description": "A free, open-source Mac app: hold Caps Lock and press a key to jump to an app, snap a window, or open a site in a specific Chrome profile, reusing a matching tab if one is open.",
+      "content": "CapsJump was built with Claude Code by a developer tired of landing in the wrong Chrome profile. Caps plus a key you choose brings a matching tab forward in that profile or opens it there; Caps plus a letter focuses or launches an app; Caps plus an arrow snaps the front window to a half, and Caps plus F maximizes. Links can open a Slack channel or Zoom room in the app that owns them. Keys are set in a menu bar editor instead of YAML. MIT-licensed Swift, macOS 13+, installable with Homebrew (`brew install --cask whysosuresh/tap/capsjump`).\n\n[CapsJump site](https://capsjump.com) · [CapsJump on GitHub](https://github.com/whysosuresh/capsjump)",
+      "author": "Suresh Attaluri (@whysosuresh)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/whysosuresh/status/2112425876885516598",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-20T06:09:10Z",
+      "updatedAt": "2026-10-20T06:09:10Z"
+    },
+    {
+      "id": "x:2112451962977538182",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lumask: a Mac app for projection mapping by drawing shapes on the projector image",
+      "description": "Draw rectangles, ellipses or free shapes right on the projector canvas, drop a video or image into each, and go live with up to 8 sources, soft edges and magnet snapping.",
+      "content": "Lumask is a mask-based projector control app on the Mac App Store ($17.99). The canvas is the projector's full screen in pixels: you draw the areas to light, each shape gets its own feathered edge and belongs to one of up to eight sources (A to H) with its own video or image, and everything outside the shapes stays black. Shapes snap to each other and to the edges, can be grouped and reassigned, and content can follow its shape as you move or rotate it. Output is full-screen and pixel-exact, with cut or timed fades between states.\n\n[Lumask on the Mac App Store](https://apps.apple.com/us/app/lumask/id6822277006?mt=12)",
+      "author": "Vito Marinelli (@vitomarinelli)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/vitomarinelli/status/2112451962977538182",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-20T07:52:50Z",
+      "updatedAt": "2026-10-20T07:52:50Z"
+    },
+    {
+      "id": "x:2112211731141509585",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agent Alarm: free Mac app that plays a sound when your coding agent finishes",
+      "description": "Agent Alarm chimes when Codex, Claude Code, Cursor or your own CLI finishes a turn, fails or needs input, with custom sounds and working hours.",
+      "content": "Agent Alarm (v0.1.0 beta, Apple Silicon, macOS 14+) is a small free app for people who start a long agent run and walk away. It makes the end of a run audible: a chime, a song, or your own recording, with different sounds for a finish, a failure, or a request for input. It works with Codex, Claude Code, Cursor and other CLIs, respects working hours you set, and a Done button silences it. The post includes a short demo video.\n\n[Agent Alarm site](https://www.agentalarm.xyz/)",
+      "author": "Jalen D. Nelson (@JalenDNelson)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://x.com/JalenDNelson/status/2112211731141509585",
+      "source": "Twitter / X",
+      "createdAt": "2026-10-19T15:58:14Z",
+      "updatedAt": "2026-10-19T15:58:14Z"
+    },
+    {
+      "id": "ideas:spoken-feed-briefing",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Spoken morning briefing of the dashboard feed with a local TTS model",
+      "description": "Turn each morning's new dashboard items into a short two-voice audio briefing generated on the Mac with Ming-3.0-tts, playable from the dashboard or a podcast app.",
+      "content": "## How it works\n\nAfter the morning curation run, a script picks the new News items from `public/feed.json`, asks a local model to write a tight script with one or two lines per item, and renders it with Ming-3.0-tts in two designed voices (a host and a co-host) using the MoE model's podcast mode. The MP3 lands in `public/media/` with a small RSS file, so it plays in the dashboard or any podcast app on the walk to work.\n\n```mermaid\nflowchart LR\n  Feed[New items in feed.json] --> Pick[Pick top items]\n  Pick --> Script[Local LLM writes script]\n  Script --> TTS[Ming-3.0-tts podcast mode]\n  TTS --> Audio[MP3 in media folder]\n  Audio --> RSS[RSS feed + dashboard player]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Source | public/feed.json items created since yesterday |\n| Script writer | Local model via Ollama or MLX |\n| Voices | Ming-3.0-tts tiny (podcast) or 0.5B with voice design |\n| Encoding | ffmpeg to MP3 with loudness normalization |\n| Delivery | Static RSS file plus an audio link on the dashboard |\n\n## Hard parts\n\n- Running the MoE checkpoint at usable speed on a Mac; the 0.5B model may be the practical fallback.\n- Pronouncing product names, handles and code identifiers correctly.\n- Keeping the briefing short enough to finish, around three to five minutes.\n\n## Effort\n\nAn evening for a single-voice MP3 from a hand-picked set of items; a weekend for the two-voice script, RSS and a scheduled run.\n\n## Inspired by\n\n- [Ming-3.0-tts post on X](https://x.com/jimmy_longbow_/status/2112254454544101495)\n- [Ming-3.0-tts on GitHub](https://github.com/inclusionAI/Ming-3.0-tts)",
+      "nextStep": "Clone the Ming-3.0-tts repo, run the 0.5B model's voice-design example on a Mac or the box, and time how long it takes to speak three dashboard item summaries.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-20T14:40:00Z"
+    },
+    {
+      "id": "ideas:agent-status-desk-light",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Agent status desk light and chime for long coding-agent runs",
+      "description": "A menu bar helper plus a cheap ESP32 desk light that turns green, red or amber and chimes when a coding agent finishes, fails or needs input.",
+      "content": "## How it works\n\nCoding agents already expose finish and permission events through hooks. A tiny Mac menu bar helper listens for those hooks from Claude Code, Codex or Cursor, plays a sound like Agent Alarm does, and sends the state over Wi-Fi to an ESP32 with an LED ring or small screen on the desk. Green means done, red means failed, pulsing amber means it's waiting on you; a button on the device clears it.\n\n```mermaid\nflowchart LR\n  Agent[Agent hook event] --> Helper[Menu bar helper]\n  Helper --> Sound[Play chime]\n  Helper --> Net[HTTP or MQTT message]\n  Net --> ESP[ESP32 desk light]\n  ESP --> Button{Button pressed?}\n  Button -- yes --> Clear[Clear state]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Events | Claude Code and Codex hooks calling a local URL |\n| Helper | SwiftUI MenuBarExtra app with AVFoundation sounds |\n| Transport | HTTP on the LAN or a local MQTT broker |\n| Device | ESP32-S3 with a WS2812 ring or a 1.47 inch LCD |\n| Firmware | PlatformIO or ESPHome |\n\n## Hard parts\n\n- Getting consistent finish, fail and needs-input signals across different agents.\n- Telling many parallel runs apart on one light.\n- Device discovery and pairing without typing IP addresses.\n\n## Effort\n\nAn evening for a hook that plays a sound and flips an LED; a weekend for the menu bar app, per-run tracking and a printed enclosure.\n\n## Inspired by\n\n- [Agent Alarm post on X](https://x.com/JalenDNelson/status/2112211731141509585)\n- [Agent Alarm site](https://www.agentalarm.xyz/)\n- [ClaudeGauge ESP32 usage display](https://github.com/dorofino/ClaudeGauge)",
+      "nextStep": "Add a Claude Code stop hook that curls a local endpoint, and have a 20-line Python server play a sound and print the event, before touching any hardware.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-20T14:40:00Z"
     }
   ]
 }
