@@ -22661,6 +22661,275 @@
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
       "createdAt": "2026-10-15T19:09:34Z",
       "updatedAt": "2026-10-15T19:09:34Z"
+    },
+    {
+      "id": "reading:ssh-keys-macos-touch-id-mattia",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Setting up SSH keys on macOS with Touch ID",
+      "description": "Nicolas Mattia shows a three-command way to create SSH keys inside the Mac Secure Enclave, protected by Touch ID and usable with GitHub, then explains how it works.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Nicolas Mattia",
+      "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
+      "createdAt": "2026-10-21T03:51:25Z",
+      "updatedAt": "2026-10-21T03:51:25Z",
+      "content": "Instead of `~/.ssh/id_ed25519` files on disk, the key lives in the Mac's Secure Enclave: the private material can't be extracted, every use prompts for Touch ID, and it works for git-over-SSH with GitHub. The second half digs into what macOS is actually doing under the hood.\n\n[Read the post](https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/) · [HN discussion](https://news.ycombinator.com/item?id=50175882)"
+    },
+    {
+      "id": "hn:50175779",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Using Claude to reduce the attack surface of code",
+      "description": "Anthropic previews research on using Claude to map reachable code in large open-source projects and remove or restrict what a deployment does not need to expose.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Chris Rohlf (Anthropic)",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "createdAt": "2026-10-21T03:36:43Z",
+      "updatedAt": "2026-10-21T03:36:43Z",
+      "content": "Rather than hunting vulnerabilities one by one, the approach has the model map which code is reachable and then strip or gate whatever a given deployment doesn't need, which lowers the severity of bugs nobody has found yet. The post shares early data from applying this to large open-source codebases.\n\n[Anthropic research post](https://www.anthropic.com/research/attack-surface-reduction) · [HN discussion](https://news.ycombinator.com/item?id=50175779)"
+    },
+    {
+      "id": "hn:50175510",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NetWasm: C# now beats Rust on Wasm size",
+      "description": "NetWasm is an independent compiler and runtime that turns C# and .NET CIL into small standalone WASI components; its print-42 sample is 47,895 bytes versus 53,635 for size-optimized Rust.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sumnole",
+      "url": "https://github.com/zion-sati/NetWasm",
+      "createdAt": "2026-10-21T02:53:47Z",
+      "updatedAt": "2026-10-21T02:53:47Z",
+      "content": "NetWasm compiles C# straight to WebAssembly without shipping the CLR, Mono or `dotnet.js`, and still includes a precise garbage collector. On a matched WASI Preview 2 workload it comes out 10.7% smaller raw and 19.5% smaller with Brotli than Rust 1.95's size profile; the authors note it's one workload, not a language-wide ranking.\n\n| Toolchain | Raw Wasm | Brotli 11 |\n| --- | ---: | ---: |\n| NetWasm (Compact GC) | 47,895 B | 13,660 B |\n| Rust 1.95.0 size profile | 53,635 B | 16,963 B |\n| Kotlin 2.4.0 wasmWasi | 79,293 B | 22,655 B |\n| TinyGo 0.39.0 | 93,043 B | 26,931 B |\n\n[Repo on GitHub](https://github.com/zion-sati/NetWasm) · [Browser playground](https://playground.netwasm.com/) · [HN discussion](https://news.ycombinator.com/item?id=50175510)"
+    },
+    {
+      "id": "hn:50150214",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Super Mario 64 as a tabletop diorama on Apple Vision Pro",
+      "description": "Michael Steil ported Super Mario 64 to Apple Vision Pro so each level sits on a real table and you walk around it while playing with a controller.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Michael Steil (pagetable.com)",
+      "url": "https://www.pagetable.com/303",
+      "createdAt": "2026-10-19T09:21:34Z",
+      "updatedAt": "2026-10-19T09:21:34Z",
+      "content": "Built on the SM64 decompilation and sm64coopdx, the visionOS port turns every level into a living diorama: you are the camera, leaning in or stepping around the table to see Mario from any side, and rooms of the castle appear as you discover them.\n\n[Write-up with clips](https://www.pagetable.com/303) · [diorama64 on GitHub](https://github.com/mist64/diorama64) · [HN discussion](https://news.ycombinator.com/item?id=50150214)"
+    },
+    {
+      "id": "reading:vga-driver-systemverilog-werner",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Making a VGA driver in SystemVerilog",
+      "description": "An interactive, bottom-up walkthrough of how VGA timing works and how to build a VGA driver in SystemVerilog, written as a learning companion for a digital logic lab.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Lukas Werner",
+      "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
+      "createdAt": "2026-10-20T16:00:15Z",
+      "updatedAt": "2026-10-20T16:00:15Z",
+      "content": "Starts from how CRTs scanned an electron beam and builds up to sync pulses and pixel timing, with clickable simulations you can toggle to see how the signals change. It's meant as a supplement for students rather than a finished answer key.\n\n[Read the post](https://lukaswerner.com/post/2026-10-20@bottom-up-vga) · [HN discussion](https://news.ycombinator.com/item?id=50168376)"
+    },
+    {
+      "id": "reading:economics-decision-models-pncnmnp",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "To make, or to buy: the economics of decision models",
+      "description": "An essay on the cost trade-offs of decision models like Jev, formalizing when to defer between model tiers using Chow's reject rule.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "pncnmnp",
+      "url": "https://pncnmnp.github.io/blogs/economics-decision-models.html",
+      "createdAt": "2026-10-18T17:40:56Z",
+      "updatedAt": "2026-10-18T17:40:56Z",
+      "content": "Framed around Adam Smith's make-or-buy maxim, the post works through when it pays to run a decision locally versus hand it up a hierarchy of stronger models, using Chow's classic reject rule from statistical classification to formalize the abstain-and-defer threshold.\n\n[Read the essay](https://pncnmnp.github.io/blogs/economics-decision-models.html) · [HN discussion](https://news.ycombinator.com/item?id=50143360)"
+    },
+    {
+      "id": "hn:50165904",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jepsen: Orkes Conductor 5.3.2",
+      "description": "Kyle Kingsbury tested the Orkes Conductor workflow orchestrator and found frequent concurrent task execution plus three serious bugs that lost or falsely completed workflows, now patched in 5.5.6.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Kyle Kingsbury (Jepsen)",
+      "url": "https://jepsen.io/analyses/orkes-conductor-5.3.2",
+      "createdAt": "2026-10-20T13:14:39Z",
+      "updatedAt": "2026-10-20T13:14:39Z",
+      "content": "Across versions 5.3.2 through 5.5.0-rc2, Jepsen saw individual tasks run concurrently far more often than expected, one long-delay issue, four minor `startWorkflow` errors, and three serious problems where Conductor abandoned or forgot executions or marked them complete without running their tasks. Orkes shipped fixes for all the serious safety issues in 5.5.6.\n\n[Jepsen analysis](https://jepsen.io/analyses/orkes-conductor-5.3.2) · [HN discussion](https://news.ycombinator.com/item?id=50165904)"
+    },
+    {
+      "id": "hn:50179254",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "lgit: version control where storage is a neural network",
+      "description": "A browser demo that \"commits\" code or images by training a small neural network to memorize them, then reconstructs them on checkout, sometimes imperfectly.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Nico Brenner",
+      "url": "https://nicobrenner.github.io/lossy-git/demo.html",
+      "createdAt": "2026-10-21T11:41:25Z",
+      "updatedAt": "2026-10-21T11:41:25Z",
+      "content": "Each commit is a training run that maps Fourier positional encodings to your data byte by byte (or pixel by pixel) through a small ReLU MLP trained with Adam; checkout is inference. Shrinking the hidden size makes the memory lossier, which is a hands-on way to feel network capacity.\n\n[Interactive demo](https://nicobrenner.github.io/lossy-git/demo.html) · [HN discussion](https://news.ycombinator.com/item?id=50179254)"
+    },
+    {
+      "id": "reading:future-of-css-interop-2027",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The future of CSS: picks for Interop 2027",
+      "description": "Josh W. Comeau walks through his top 10 candidate CSS features for Interop 2027, the cross-browser effort that tends to push new features to near-universal support within a year.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Josh W. Comeau",
+      "url": "https://www.joshwcomeau.com/css/interop-2027/",
+      "createdAt": "2026-10-21T01:47:28Z",
+      "updatedAt": "2026-10-21T01:47:28Z",
+      "content": "Using subgrid's jump to universal support after Interop 2023 as the example, Comeau explains how the browser vendors pick focus areas and then previews the features he most wants in the 2027 round, with live demos.\n\n[Read the article](https://www.joshwcomeau.com/css/interop-2027/) · [HN discussion](https://news.ycombinator.com/item?id=50175070)"
+    },
+    {
+      "id": "x:2112815943776964839",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Positioning SwiftUI views around the fold on iPhone Duo",
+      "description": "Natalia Panferova shows how to use the reserved regions APIs so a SwiftUI lazy grid lays items out on either side of the iPhone Duo fold, since stacks and grids do not avoid it automatically.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Natalia Panferova (@natpanferova)",
+      "url": "https://x.com/natpanferova/status/2112815943776964839",
+      "createdAt": "2026-10-21T07:59:09Z",
+      "updatedAt": "2026-10-21T07:59:09Z",
+      "content": "SwiftUI's stacks and grids happily place content right across the hinge. Her new Nil Coalescing post walks through reading the reserved regions and arranging a lazy grid so cells land cleanly on each side of the fold.\n\n[Post on X](https://x.com/natpanferova/status/2112815943776964839)"
+    },
+    {
+      "id": "x:2112840180004782568",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Xcode 27.2 Device Hub can fake memory pressure, slow animations, shake and fall",
+      "description": "Sarun points out that Device Hub in Xcode 27.2 can now simulate memory pressure, slow-motion animations, a shake gesture and a fall on a device.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2112840180004782568",
+      "createdAt": "2026-10-21T09:35:28Z",
+      "updatedAt": "2026-10-21T09:35:28Z",
+      "content": "Handy for testing low-memory handling, animation glitches, shake-to-undo and fall-detection paths without physically abusing a test device. A second note from Sarun today: on a half-open iPhone Duo, `splitArrangementLayoutRatio` is ignored and the split always sits on the hinge, half and half ([post](https://x.com/sarunw/status/2112861701133533514)).\n\n[Post on X](https://x.com/sarunw/status/2112840180004782568)"
+    },
+    {
+      "id": "x:2112878314813816850",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How iPhone Duo handles apps built with older SDKs",
+      "description": "Max Weinbach notes that iPhone Duo apps not built with the iOS 27.1 SDK show a black bar, and pre-iOS 27 SDK apps run in a cropped window; about half the apps he uses now support it.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Max Weinbach (@mweinbach)",
+      "url": "https://x.com/mweinbach/status/2112878314813816850",
+      "createdAt": "2026-10-21T12:07:00Z",
+      "updatedAt": "2026-10-21T12:07:00Z",
+      "content": "A useful reminder for developers ahead of the wider launch: rebuilding against the iOS 27.1 SDK is what removes the letterboxing on the foldable. When he got his Duo only three of his apps were supported; now it's roughly half.\n\n[Post on X](https://x.com/mweinbach/status/2112878314813816850)"
+    },
+    {
+      "id": "x:2112852037000196171",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftFairy adds rules for misused ArrangementView APIs",
+      "description": "SwiftFairy's SwiftUI Layout & Resizability rules (2026.10.3) now explicitly catch the ways coding agents keep misusing the new ArrangementView APIs, even after reading Apple's docs.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Matthaus Woolard (@hishnash)",
+      "url": "https://x.com/hishnash/status/2112852037000196171",
+      "createdAt": "2026-10-21T10:22:35Z",
+      "updatedAt": "2026-10-21T10:22:35Z",
+      "content": "In their testing, agents repeatedly got the new ArrangementView APIs wrong, so the Nil Coalescing team added focused rules to detect those patterns. Existing SwiftFairy installs update automatically.\n\n[SwiftFairy tools](https://tools.nilcoalescing.com/)\n\n[Post on X](https://x.com/hishnash/status/2112852037000196171)"
+    },
+    {
+      "id": "x:2112887116384383093",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Building a JSON tidier CLI with Swift Argument Parser",
+      "description": "A Hacking with Swift+ tutorial builds a macOS command-line JSON tool that can prettify, compress, sort keys and write to a file using Swift Argument Parser.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Paul Hudson (@twostraws)",
+      "url": "https://x.com/twostraws/status/2112887116384383093",
+      "createdAt": "2026-10-21T12:41:58Z",
+      "updatedAt": "2026-10-21T12:41:58Z",
+      "content": "A compact first project for writing Mac command-line tools in Swift, showing how little code Swift Argument Parser needs for flags, options and file output. The tutorial is for HWS+ subscribers.\n\n[Post on X](https://x.com/twostraws/status/2112887116384383093)"
+    },
+    {
+      "id": "x:2112860123798647035",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Martin Fowler Fragments: LLM prose rejection and AI-assisted debugging",
+      "description": "Martin Fowler's October 21 Fragments covers reader rejection of LLM-generated prose, a cancelled Grace Hopper celebration, and using AI to help debug unfamiliar code.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Martin Fowler (@martinfowler)",
+      "url": "https://x.com/martinfowler/status/2112860123798647035",
+      "createdAt": "2026-10-21T10:54:43Z",
+      "updatedAt": "2026-10-21T10:54:43Z",
+      "content": "Short linked notes from Fowler's regular Fragments series on martinfowler.com, with the AI-assisted debugging piece the most relevant for working developers.\n\n[Martin Fowler's site](https://martinfowler.com/)\n\n[Post on X](https://x.com/martinfowler/status/2112860123798647035)"
     }
   ]
 }
