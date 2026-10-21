@@ -23494,6 +23494,163 @@
       "content": "A project rebuilding Winamp's skin engine and its MAKI script VM natively for the Mac, written up in Swift.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50179984)",
       "createdAt": "2026-10-21T12:46:23.000Z",
       "updatedAt": "2026-10-21T12:46:23.000Z"
+    },
+    {
+      "id": "hn:50182987",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "description": "PHP's security release announcement with fixes, plus the PHP team's writeup of how they're strengthening the security process.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ejohnso49",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "createdAt": "2026-10-21T15:48:56Z",
+      "updatedAt": "2026-10-21T15:48:56Z",
+      "content": "PHP's security release announcement with fixes, plus the PHP team's writeup of how they're strengthening the security process.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50182987)"
+    },
+    {
+      "id": "hn:50184586",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EA is shutting down BioWare",
+      "description": "Electronic Arts is shutting down its BioWare studio, ending the run of a storied RPG developer.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "aaronbrethorst",
+      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+      "createdAt": "2026-10-21T17:29:33Z",
+      "updatedAt": "2026-10-21T17:29:33Z",
+      "content": "Electronic Arts is shutting down its BioWare studio, ending the run of a storied RPG developer.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50184586)"
+    },
+    {
+      "id": "hn:50184820",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "description": "New Mexico won a $25 billion penalty against Meta over the Cambridge Analytica data practices.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "cbg0",
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "createdAt": "2026-10-21T17:45:13Z",
+      "updatedAt": "2026-10-21T17:45:13Z",
+      "content": "New Mexico won a $25 billion penalty against Meta over the Cambridge Analytica data practices.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50184820)"
+    },
+    {
+      "id": "hn:50180079",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI models are coming to Google Cloud",
+      "description": "OpenAI's models are coming to Google Cloud, expanding their availability beyond Microsoft's platform.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "armcat",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "createdAt": "2026-10-21T12:53:11Z",
+      "updatedAt": "2026-10-21T12:53:11Z",
+      "content": "OpenAI's models are coming to Google Cloud, expanding their availability beyond Microsoft's platform.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50180079)"
+    },
+    {
+      "id": "hn:50186037",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Duet",
+      "description": "Anthropic's Claude Duet launch.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "kuberwastaken",
+      "url": "https://claude.com/product/claude-duet",
+      "createdAt": "2026-10-21T19:14:01Z",
+      "updatedAt": "2026-10-21T19:14:01Z",
+      "content": "Anthropic's Claude Duet launch.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50186037)"
+    },
+    {
+      "id": "hn:50180752",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "description": "Researchers are using thousands of AI agents to uncover new leads in biological data.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "raahelb",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "createdAt": "2026-10-21T13:37:00Z",
+      "updatedAt": "2026-10-21T13:37:00Z",
+      "content": "Researchers are using thousands of AI agents to uncover new leads in biological data.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50180752)"
+    },
+    {
+      "id": "hn:50186010",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google's Rust Style Guide",
+      "description": "Google published its Rust style guide for the language's growing use across its codebases.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kaycebasques",
+      "url": "https://google.github.io/styleguide/rustguide.html",
+      "createdAt": "2026-10-21T19:11:57Z",
+      "updatedAt": "2026-10-21T19:11:57Z",
+      "content": "Google published its Rust style guide for the language's growing use across its codebases.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50186010)"
+    },
+    {
+      "id": "hn:50185630",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Canary Tokens",
+      "description": "Thinkst's canary tokens, the honeypot-style traps used to detect intrusions and credential leaks.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "wiradikusuma",
+      "url": "https://canarytokens.org/",
+      "createdAt": "2026-10-21T18:45:04Z",
+      "updatedAt": "2026-10-21T18:45:04Z",
+      "content": "Thinkst's canary tokens, the honeypot-style traps used to detect intrusions and credential leaks.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50185630)"
+    },
+    {
+      "id": "hn:50186043",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google staff resign in backlash over its AI contracts with military",
+      "description": "Google staff resigned in a backlash over the company's AI contracts with the military.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "saikatsg",
+      "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+      "createdAt": "2026-10-21T19:14:21Z",
+      "updatedAt": "2026-10-21T19:14:21Z",
+      "content": "Google staff resigned in a backlash over the company's AI contracts with the military.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50186043)"
     }
   ]
 }
