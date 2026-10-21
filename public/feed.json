@@ -22930,6 +22930,179 @@
       "createdAt": "2026-10-21T10:54:43Z",
       "updatedAt": "2026-10-21T10:54:43Z",
       "content": "Short linked notes from Fowler's regular Fragments series on martinfowler.com, with the AI-assisted debugging piece the most relevant for working developers.\n\n[Martin Fowler's site](https://martinfowler.com/)\n\n[Post on X](https://x.com/martinfowler/status/2112860123798647035)"
+    },
+    {
+      "id": "hn:50172041",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "description": "PHP has announced an upcoming critical security release addressing CVE-2026-109618 and CVE-2026-109619. Site administrators should prepare to update as soon as the fixed versions are published.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "xd",
+      "url": "https://news-web.php.net/php.announce/509",
+      "content": "PHP has announced an upcoming critical security release addressing CVE-2026-109618 and CVE-2026-109619. Site administrators should prepare to update as soon as the fixed versions are published.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50172041)",
+      "createdAt": "2026-10-20T20:15:50.000Z",
+      "updatedAt": "2026-10-20T20:15:50.000Z"
+    },
+    {
+      "id": "hn:50170593",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: SimCity, but with Permits",
+      "description": "A Show HN city-building game in the style of SimCity, with a twist: construction permits are part of the gameplay.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "pcai",
+      "url": "https://permit.petercai.com/",
+      "content": "A Show HN city-building game in the style of SimCity, with a twist: construction permits are part of the gameplay.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50170593)",
+      "createdAt": "2026-10-20T18:29:09.000Z",
+      "updatedAt": "2026-10-20T18:29:09.000Z"
+    },
+    {
+      "id": "hn:50177916",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "description": "A technical write-up on the eMudhra intermediate CA compromise, demonstrating that its CA keys could be cracked in milliseconds.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "hkc",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "content": "A technical write-up on the eMudhra intermediate CA compromise, demonstrating that its CA keys could be cracked in milliseconds.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50177916)",
+      "createdAt": "2026-10-21T09:08:08.000Z",
+      "updatedAt": "2026-10-21T09:08:08.000Z"
+    },
+    {
+      "id": "hn:50174687",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Muse exposes users' personal and business secrets when they share conversations",
+      "description": "Ars Technica reports that Meta's Muse can expose users' personal and business secrets when they share their conversations.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gumby",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "content": "Ars Technica reports that Meta's Muse can expose users' personal and business secrets when they share their conversations.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50174687)",
+      "createdAt": "2026-10-21T00:45:59.000Z",
+      "updatedAt": "2026-10-21T00:45:59.000Z"
+    },
+    {
+      "id": "hn:50173487",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+      "description": "Krebs on Security reports that federal investigators suspect a ransom negotiator ran the ShinyHunters extortion site.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Bender",
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "content": "Krebs on Security reports that federal investigators suspect a ransom negotiator ran the ShinyHunters extortion site.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50173487)",
+      "createdAt": "2026-10-20T22:21:05.000Z",
+      "updatedAt": "2026-10-20T22:21:05.000Z"
+    },
+    {
+      "id": "hn:50175059",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Good type against all odds",
+      "description": "A write-up celebrating well-crafted typography that persists against the odds.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "firloop",
+      "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
+      "content": "A write-up celebrating well-crafted typography that persists against the odds.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50175059)",
+      "createdAt": "2026-10-21T01:45:07.000Z",
+      "updatedAt": "2026-10-21T01:45:07.000Z"
+    },
+    {
+      "id": "hn:50158314",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Does Ruby on Rails still make sense?",
+      "description": "A blog post revisiting an old question: does Ruby on Rails still make sense in modern web development?",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dajonker",
+      "url": "https://tech.dirkjonker.nl/does-ruby-on-rails-make-sense/",
+      "content": "A blog post revisiting an old question: does Ruby on Rails still make sense in modern web development?\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50158314)",
+      "createdAt": "2026-10-19T21:29:58.000Z",
+      "updatedAt": "2026-10-19T21:29:58.000Z"
+    },
+    {
+      "id": "hn:50148845",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Composite objects and C++26 the std:polymorphic type",
+      "description": "An explainer on composite objects and the C++26 std::polymorphic type, a programming-language deep dive for C++ developers.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jandeboevrie",
+      "url": "https://mariusbancila.ro/blog/2026/10/18/composite-objects-and-cpp26-the-stdpolymorphic-type/",
+      "content": "An explainer on composite objects and the C++26 std::polymorphic type, a programming-language deep dive for C++ developers.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50148845)",
+      "createdAt": "2026-10-19T05:54:43.000Z",
+      "updatedAt": "2026-10-19T05:54:43.000Z"
+    },
+    {
+      "id": "hn:50179706",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
+      "description": "A Hirundo study finds that Qwen3-Coder writes less secure code when told the code is for a US persona.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mattifrank",
+      "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
+      "content": "A Hirundo study finds that Qwen3-Coder writes less secure code when told the code is for a US persona.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50179706)",
+      "createdAt": "2026-10-21T12:22:39.000Z",
+      "updatedAt": "2026-10-21T12:22:39.000Z"
+    },
+    {
+      "id": "hn:50179984",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rebuilding Winamp's skin engine, and its MAKI script VM, natively for the Mac",
+      "description": "A project rebuilding Winamp's skin engine and its MAKI script VM natively for the Mac, written up in Swift.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "anhphong",
+      "url": "https://amp98.com/blog/rebuilding-the-winamp-skin-engine-in-swift",
+      "content": "A project rebuilding Winamp's skin engine and its MAKI script VM natively for the Mac, written up in Swift.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50179984)",
+      "createdAt": "2026-10-21T12:46:23.000Z",
+      "updatedAt": "2026-10-21T12:46:23.000Z"
     }
   ]
 }
