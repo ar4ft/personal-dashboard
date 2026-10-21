@@ -2,6 +2,145 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2112660693539573770",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EAGLE-4 speculative decoding hits 961 tok/s on Qwen3.8-27B",
+      "description": "The EAGLE team released EAGLE-4 with inference code and a paper, showing about 961.6 tokens per second against 240.5 for vanilla decoding on Qwen3.8-27B.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@EagleCorp",
+      "url": "https://x.com/EagleCorp/status/2112660693539573770",
+      "createdAt": "2026-10-20T21:42:15Z",
+      "updatedAt": "2026-10-20T21:42:15Z",
+      "content": "EAGLE-4 is the next version of the EAGLE speculative-decoding method: a small draft head proposes tokens that the big model verifies in one pass. The release thread benchmarks Qwen3.8-27B at roughly 4x the vanilla throughput, and the official inference code and paper are public.\n\n- [EAGLE-4 repo on GitHub](https://github.com/eagle-hq/EAGLE-4)\n- [EAGLE-4 paper (PDF)](https://github.com/eagle-hq/EAGLE-4/blob/main/EAGLE4_Paper.pdf)\n- [Introducing EAGLE-4 blog post](https://blog.eagle.ai/blog/introducing-eagle-4)\n\n[Post on X](https://x.com/EagleCorp/status/2112660693539573770)"
+    },
+    {
+      "id": "x:2112639451318952116",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "basal: small models for fast, calibrated typed decisions",
+      "description": "Remek Kinas released the basal model families (basal-2.0 and basal-omni for text, image and audio) plus an inference engine that returns calibrated choice, yes/no and score decisions in Polish and English.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@KinasRemek",
+      "url": "https://x.com/KinasRemek/status/2112639451318952116",
+      "createdAt": "2026-10-20T20:17:50Z",
+      "updatedAt": "2026-10-20T20:17:50Z",
+      "content": "Instead of free text, basal models are built to answer typed questions: pick one of N choices, say yes or no, or give a score, with calibrated confidence. That makes them a cheap classifier layer in front of bigger LLMs. The omni variant takes text, images and audio.\n\n- [basal inference engine on GitHub](https://github.com/rkinas/basal)\n- [basal-omni-1.0-ultra on Hugging Face](https://huggingface.co/Remek/basal-omni-1.0-ultra)\n- [basal project page](https://basal.si5.pl/en/)\n\n[Post on X](https://x.com/KinasRemek/status/2112639451318952116)"
+    },
+    {
+      "id": "x:2112542494936478020",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CopilotKit open-sources Open Intelligent UI, a generative UI framework",
+      "description": "CopilotKit released Open Intelligent UI, an MIT-licensed framework for agents that render real interface components instead of only chat text, alongside its OpenBot, OpenDots and OpenMuse projects.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@ataiiam",
+      "url": "https://x.com/ataiiam/status/2112542494936478020",
+      "createdAt": "2026-10-20T13:52:34Z",
+      "updatedAt": "2026-10-20T13:52:34Z",
+      "content": "Open Intelligent UI lets an agent stream structured UI (forms, cards, charts) into an app over the AG-UI protocol, so the agent's output is an interactive screen rather than a wall of text. The thread pairs it with OpenBot, CopilotKit's open-source AI coworkers that each get their own browser, files and tools.\n\n- [OpenIntelligentUI repo on GitHub](https://github.com/CopilotKit/OpenIntelligentUI)\n- [OpenBot repo on GitHub](https://github.com/CopilotKit/OpenBot)\n\n[Post on X](https://x.com/ataiiam/status/2112542494936478020)"
+    },
+    {
+      "id": "x:2112847868562436251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Espressif ESP-Mosaico: modular ESP32-S31 platform for AI-assisted hardware",
+      "description": "Espressif's ESP-Mosaico is a modular ESP32-S31 development platform with a 480x480 OLED touchscreen and haptics, aimed at building hardware prototypes with AI assistance.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@cnxsoft",
+      "url": "https://x.com/cnxsoft/status/2112847868562436251",
+      "createdAt": "2026-10-21T10:06:01Z",
+      "updatedAt": "2026-10-21T10:06:01Z",
+      "content": "ESP-Mosaico snaps function modules onto an ESP32-S31 base so you can assemble a device without wiring, and it's pitched at an AI-assisted workflow where an assistant helps pick modules and write firmware. The base includes a 480x480 OLED touch display and haptic feedback.\n\n[CNX Software write-up on ESP-Mosaico](https://www.cnx-software.com/2026/10/21/esp-mosaico-an-esp32-s31-based-modular-development-platform-for-ai-assisted-hardware-creation/)\n\n[Post on X](https://x.com/cnxsoft/status/2112847868562436251)"
+    },
+    {
+      "id": "x:2112888757284401545",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GPT Voice: open-source Mac dictation that pastes into any app",
+      "description": "GPT Voice is a small MIT-licensed Mac dictation app that uses your ChatGPT sign-in: press a shortcut, speak, and the transcript is pasted into your editor, T3 Code or any text field.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@entropyconquers",
+      "url": "https://x.com/entropyconquers/status/2112888757284401545",
+      "createdAt": "2026-10-21T12:48:29Z",
+      "updatedAt": "2026-10-21T12:48:29Z",
+      "content": "A free alternative to paid dictation apps on the Mac. It hooks a global shortcut, records, transcribes through your existing ChatGPT account, and pastes the text at the cursor. The post includes a demo video.\n\n[GPT Voice repo on GitHub](https://github.com/entropyconquers/gpt-voice)\n\n[Post on X](https://x.com/entropyconquers/status/2112888757284401545)"
+    },
+    {
+      "id": "x:2112736511921963128",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "gimbalbar: a Mac menu bar app to aim a DJI Osmo Pocket 3 over USB",
+      "description": "A developer reverse-engineered the DJI Osmo Pocket 3's USB control and built gimbalbar, a macOS menu bar app that pans and tilts the gimbal with a live preview.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@amirmxt",
+      "url": "https://x.com/amirmxt/status/2112736511921963128",
+      "createdAt": "2026-10-21T02:43:31Z",
+      "updatedAt": "2026-10-21T02:43:31Z",
+      "content": "gimbalbar turns the Osmo Pocket 3 into a controllable desk camera: from the menu bar you can aim the gimbal and see a live preview, all over a USB cable, without DJI's phone app. It's MIT-licensed.\n\n[gimbalbar repo on GitHub](https://github.com/amirmxt/gimbalbar)\n\n[Post on X](https://x.com/amirmxt/status/2112736511921963128)"
+    },
+    {
+      "id": "ideas:local-spec-decode-bench",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Local speculative-decoding bench for Mac models",
+      "description": "A small benchmark harness that measures how much draft-model speculative decoding speeds up local models on an Apple Silicon Mac, per task type.",
+      "content": "## How it works\n\nEAGLE-4 shows big speedups on a server GPU, but the real question for a laptop is how much speculative decoding helps on your own prompts. The harness runs the same prompt set (code, chat, summaries) through a local model with and without a draft model or draft head, records tokens per second and acceptance rate, and writes a small report so you can pick the best pairing per task.\n\n```mermaid\nflowchart LR\n  Prompts[Prompt set] --> Runner[Bench runner]\n  Runner --> Base[Target model only]\n  Runner --> Spec[Target plus draft]\n  Base --> Stats[Tokens per second and acceptance]\n  Spec --> Stats\n  Stats --> Report[Markdown report]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Runtime | MLX-LM or llama.cpp speculative mode |\n| Models | A Qwen 7B to 14B target with a 0.5B to 1.5B draft |\n| Harness | Python script with a YAML prompt set |\n| Report | Markdown table plus a matplotlib chart |\n\n## Hard parts\n\n- Keeping runs fair: same sampling settings, warm caches and thermal state.\n- Matching draft and target tokenizers.\n- Porting EAGLE-style draft heads, which need trained weights for each target model.\n\n## Effort\n\nAn evening for a llama.cpp draft-model comparison; a weekend to add MLX, several model pairs and a clean report.\n\n## Inspired by\n\n- [EAGLE-4 post on X](https://x.com/EagleCorp/status/2112660693539573770)\n- [EAGLE-4 repo on GitHub](https://github.com/eagle-hq/EAGLE-4)",
+      "nextStep": "Run llama.cpp's speculative example with a Qwen 7B target and 0.5B draft on ten coding prompts, and log tokens per second with and without the draft.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-21T14:40:00Z"
+    },
+    {
+      "id": "ideas:auto-framing-desk-camera",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Auto-framing desk camera from a gimbal and a menu bar app",
+      "description": "A Mac menu bar app that keeps you centered on a USB-controlled gimbal camera during calls and screen recordings, using on-device face tracking.",
+      "content": "## How it works\n\ngimbalbar proves a DJI Osmo Pocket 3 can be aimed from a Mac over USB. Add Apple's Vision framework on the live preview: detect your face each frame, compute how far it is from the center, and send small pan and tilt nudges so the camera follows you as you move around the desk. A preset menu saves positions like whiteboard or desk.\n\n```mermaid\nflowchart LR\n  Cam[Gimbal camera preview] --> Vision[Face detection]\n  Vision --> Offset[Offset from center]\n  Offset --> Control[Pan and tilt nudge]\n  Control --> Gimbal[USB gimbal commands]\n  Gimbal --> Cam\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Capture | AVFoundation on the camera's USB video feed |\n| Tracking | Vision VNDetectFaceRectanglesRequest |\n| Control | gimbalbar's reverse-engineered USB commands |\n| UI | SwiftUI MenuBarExtra with presets |\n\n## Hard parts\n\n- Smoothing the control loop so the camera doesn't jitter or overshoot.\n- Sharing the camera feed with Zoom or FaceTime while also reading it.\n- Relying on an undocumented USB protocol that firmware updates could change.\n\n## Effort\n\nA weekend for basic face following on top of gimbalbar; another weekend for presets, smoothing and a virtual camera.\n\n## Inspired by\n\n- [gimbalbar post on X](https://x.com/amirmxt/status/2112736511921963128)\n- [gimbalbar repo on GitHub](https://github.com/amirmxt/gimbalbar)",
+      "nextStep": "Clone gimbalbar, build it, and add a Vision face-rectangle overlay on its live preview before sending any movement commands.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-21T14:40:00Z"
+    },
+    {
       "id": "hn:50149392",
       "section": "news",
       "type": "news",
