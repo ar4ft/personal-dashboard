@@ -23601,23 +23601,6 @@
       "content": "Researchers are using thousands of AI agents to uncover new leads in biological data.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50180752)"
     },
     {
-      "id": "hn:50186010",
-      "section": "news",
-      "type": "news",
-      "status": "inbox",
-      "title": "Google's Rust Style Guide",
-      "description": "Google published its Rust style guide for the language's growing use across its codebases.",
-      "topics": [
-        "Programming"
-      ],
-      "source": "Hacker News",
-      "author": "kaycebasques",
-      "url": "https://google.github.io/styleguide/rustguide.html",
-      "createdAt": "2026-10-21T19:11:57Z",
-      "updatedAt": "2026-10-21T19:11:57Z",
-      "content": "Google published its Rust style guide for the language's growing use across its codebases.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50186010)"
-    },
-    {
       "id": "hn:50185630",
       "section": "news",
       "type": "news",
