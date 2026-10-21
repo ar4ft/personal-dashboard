@@ -2,6 +2,258 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2113029501513081037",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft.UI.Reactor builds WinUI apps React/SwiftUI-style in plain C#",
+      "description": "Microsoft.UI.Reactor is an open-source experiment for building WinUI apps declaratively in plain C#, with hooks like var (count, setCount) = UseState(0), real native controls and no XAML.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Alexandre Chohfi (@AlexandreChohfi)",
+      "url": "https://x.com/AlexandreChohfi/status/2113029501513081037",
+      "createdAt": "2026-10-21T22:07:00Z",
+      "content": "Reactor is not a new UI platform: components return an element tree from `Render()`, a reconciler diffs it and patches only what changed on real WinUI 3 controls, and state lives in hooks such as `UseState`, `UseEffect` and `UseReducer`. It is MIT-licensed, labeled experimental and pre-1.0.\n\n[GitHub repo](https://github.com/microsoft/microsoft-ui-reactor) · [Documentation](https://microsoft.github.io/microsoft-ui-reactor/main/)"
+    },
+    {
+      "id": "x:2113015448203862255",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic introduces Claude Duet, a proactive agent app",
+      "description": "Claude Duet is Anthropic's new app where Claude acts as a proactive agent that tells you what needs attention and keeps working when you step away. It runs on Opus 5.5 with more than 6,000 connectors and plugins, and has a waitlist for the research preview.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Addy Osmani (@addyosmani)",
+      "url": "https://x.com/addyosmani/status/2113015448203862255",
+      "createdAt": "2026-10-21T21:11:55Z",
+      "content": "Duet sends a morning brief, drafts next steps, takes on larger tasks like setting up meetings or building dashboards, and waits for your OK when it matters. Your memory, skills and apps from the Claude app carry over. The research preview is for Pro and Max plans in the US.\n\n[Claude Duet product page](https://claude.com/product/claude-duet)"
+    },
+    {
+      "id": "x:2113007296183943375",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fix misaligned paging in SwiftUI scroll views",
+      "description": "Full-width pages in a SwiftUI ScrollView using .paging can drift out of alignment because of the default stack spacing between pages; setting the stack spacing to zero fixes it.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Nil Coalescing (@NilCoalescing)",
+      "url": "https://x.com/NilCoalescing/status/2113007296183943375",
+      "createdAt": "2026-10-21T20:39:31Z",
+      "content": "Paging stops are based on the scroll container's size, so the default `LazyHStack` spacing pushes each successive page further from its expected position. Use `LazyHStack(spacing: 0)` with `containerRelativeFrame(.horizontal)`, and if you still want a visible gap, add horizontal padding inside each page before applying `containerRelativeFrame`.\n\n[Nil Coalescing article](https://nilcoalescing.com/blog/FixMisalignedPagingInSwiftUIScrollViews/)"
+    },
+    {
+      "id": "reading:google-rust-style-guide",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google's Rust Style Guide",
+      "description": "Google published a Rust style guide for its open-source projects, covering code organization, ownership and borrowing, API design, error reporting, traits, concurrency, naming, documentation and unsafe code. Some rules are marked as specific to Chrome or Fuchsia.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Google",
+      "url": "https://google.github.io/styleguide/rustguide.html",
+      "createdAt": "2026-10-21T19:11:57.000Z",
+      "content": "The guide builds on the public Rust style rules and API guidelines, then adds opinionated defaults: prefer small crates, avoid glob imports, avoid `Rc`/`Arc` and deep copies where borrows work, prefer `enum` over `bool` in APIs, use `expect` over `unwrap`, apply `#[non_exhaustive]` to public enums, and avoid unstable features.\n\n[Google Rust Style Guide](https://google.github.io/styleguide/rustguide.html) · [HN discussion](https://news.ycombinator.com/item?id=50186010)"
+    },
+    {
+      "id": "x:2112975078266716390",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Storm-0940 used the ARTEX agentic AI pentest framework for a supply chain compromise",
+      "description": "Microsoft Threat Intelligence says China state-aligned Storm-0940 used the open-source agentic pentest framework ARTEX to automate attacks on hundreds of organizations and was responsible for the ConnectWise multi-tenant application supply chain compromise.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Microsoft Threat Intelligence (@MsftSecIntel)",
+      "url": "https://x.com/MsftSecIntel/status/2112975078266716390",
+      "createdAt": "2026-10-21T18:31:30Z",
+      "content": "According to Microsoft, the actor abused already-consented OAuth applications to authenticate to Microsoft 365 tenants without interactive sign-in, then used AI-accelerated Microsoft Graph activity for reconnaissance, application credential changes and privilege modification attempts. ARTEX reached more than 2,250 tenants, and in some cases privileged access came less than 3 hours after targeting. The blog includes mitigations, Defender detections, hunting queries and indicators of compromise.\n\n[Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/)"
+    },
+    {
+      "id": "reading:compiler-was-supposed-to-end-programming",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The compiler was supposed to end programming too",
+      "description": "An essay comparing today's AI coding hype with IBM's 1954 claim that FORTRAN would virtually eliminate coding and debugging. It looks at what the numbers say about AI and software work in 2026 and guesses at a developer's day in 2031.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "hrih",
+      "url": "https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/",
+      "createdAt": "2026-10-21T18:00:51.000Z",
+      "content": "The piece opens with an imagined 2031 Tuesday where overnight agents open pull requests and one stops to ask a business question it can't answer, then walks through the history of programming \"ending\", where demand moves when code gets cheap, the risk of removing junior rungs from the career ladder, and five guesses for 2031.\n\n[Essay on hrih.si](https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/) · [HN discussion](https://news.ycombinator.com/item?id=50185045)"
+    },
+    {
+      "id": "reading:github-agent-scale-git-infrastructure",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The bridge to agent-scale Git infrastructure",
+      "description": "GitHub explains how it moved a copy of 99.99999% of its repositories to Azure and how per-reference quorums will bring over the rest. Scoping write coordination to individual Git references instead of whole repositories gave 3-4x higher write throughput in internal tests.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Eleanor White, Victoria Dye",
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "createdAt": "2026-10-21T16:09:28.000Z",
+      "content": "With replicas about 25 ms away in the target Azure region, repository-wide write locks made the slowest replica cap every busy repository's throughput. Because Git's consistency guarantees apply per reference, and agents and developers mostly push to their own branches, GitHub is serializing only writes that touch the same reference. The post also covers decoupling storage from compute so heavily read-skewed repositories can scale reads independently.\n\n[GitHub Engineering blog](https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/) · [HN discussion](https://news.ycombinator.com/item?id=50183344)"
+    },
+    {
+      "id": "reading:trail-of-bits-agent-patches-regression-hunt",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Your AI agent fixed the bug, but what else did it change?",
+      "description": "Trail of Bits released patching-bugs and regression-hunt, two agent plugins that reproduce and fix reported bugs and check patches for regressions. A review of over 130 merged Patch the Planet PRs confirmed 21 regressions, none of which broke a security protection.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Anish Naik, Marcelo Morales",
+      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+      "createdAt": "2026-10-21T16:03:32.000Z",
+      "content": "Built through Patch the Planet, Trail of Bits' joint initiative with OpenAI, the plugins give maintainers a structured patching workflow with evidence, independent checks and project-specific security assumptions. Each candidate regression is confirmed with a proof-of-concept run before and after the change; in preliminary evaluations regression-hunt produced 25% fewer false positives than a baseline Codex agent asked to review the PR for regressions.\n\n[Trail of Bits blog post](https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/) · [HN discussion](https://news.ycombinator.com/item?id=50183253)"
+    },
+    {
+      "id": "x:2112917625332277593",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "macOS ships an Apple Foundation model you can chat with in Terminal",
+      "description": "Maximiliano Firtman points out that macOS now includes an LLM from Apple's Foundation models line, which you can try in Terminal with fm chat after accepting the license with sudo fm license.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Maximiliano Firtman (@maxifirtman)",
+      "url": "https://x.com/maxifirtman/status/2112917625332277593",
+      "createdAt": "2026-10-21T14:43:00Z",
+      "content": "A quick tip (originally in Spanish, quoting @AlexChhk): run `sudo fm license` once to accept the license, then `fm chat` to talk to Apple's on-device Foundation model straight from the Terminal.\n\n[Post on X](https://x.com/maxifirtman/status/2112917625332277593)"
+    },
+    {
+      "id": "x:2112915508148232571",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A roadmap for evaluating agents on highly subjective tasks",
+      "description": "Cameron Wolfe shared a roadmap for building evals on highly subjective tasks, with steps and tricks to reduce noise and increase confidence in results.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Cameron R. Wolfe, Ph.D. (@cwolferesearch)",
+      "url": "https://x.com/cwolferesearch/status/2112915508148232571",
+      "createdAt": "2026-10-21T14:34:00Z",
+      "content": "The companion overview, written for his AI Engineer conference talk, covers why agent evaluation is hard (broad task space, long-horizon tasks, non-determinism) and why subjective tasks that can't be verified deterministically must rely on human evaluation or imperfect proxies like LLM judges, plus practical techniques for drawing reliable conclusions despite noise.\n\n[Evaluating Agents on Highly Subjective Tasks](https://cameronrwolfe.substack.com/p/subjective-evals)"
+    },
+    {
+      "id": "x:2112914305058582844",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "QD-Rec: open-ended evolution of recommendations via quality-diversity",
+      "description": "Sakana AI introduced QD-Rec, which treats recommendation from a fixed pool as open-ended search over item-hypothesis pairs, each an item plus a natural-language reason it fits the decision maker. It reports the highest mean quality across M&A, customer targeting, and paper and book recommendation.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Sakana AI (@SakanaAILabs)",
+      "url": "https://x.com/SakanaAILabs/status/2112914305058582844",
+      "createdAt": "2026-10-21T14:30:00Z",
+      "content": "QD-Rec selects items with a diversity-aware contextual bandit and has a foundation model generate new hypotheses from earlier ones kept in an archive as stepping stones; a recommendation enters the archive if it is novel or beats its nearest neighbor. The open-source code runs its models through OpenRouter.\n\n[Project page](https://pub.sakana.ai/qd-rec/) · [GitHub repo](https://github.com/SakanaAI/QD-Rec) · [arXiv paper](https://arxiv.org/abs/2610.23470)"
+    },
+    {
+      "id": "reading:swe-bench-multimodal-v2-is-not-multimodal",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SWE-bench Multimodal v2 is not multimodal",
+      "description": "Sankalp found that removing images barely changes scores on SWE-bench Multimodal v2: GPT-6 Luna went from 36.9% to 37.1% on 480 tasks without images, while the same change cut its MMMU-Pro accuracy from 79.7% to 36.9%.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "sankalp (@dejavucoder)",
+      "url": "https://sankalp.bearblog.dev/swe_multimodal/",
+      "createdAt": "2026-10-21T14:14:57Z",
+      "content": "Using agent traces, the grading tests and an MMMU-Pro control, the post argues that most tasks are solvable from the issue text and code alone because screenshots mostly repeat the text, and the hidden tests rarely check details visible only in images, such as colours or spacing. Sonnet 5.5 on a 60-task subset also barely changed (35.0% with images, 40.0% without).\n\n[Blog post](https://sankalp.bearblog.dev/swe_multimodal/) · [Post on X](https://x.com/dejavucoder/status/2112910513982292256)"
+    },
+    {
+      "id": "hn:50181136",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal” released",
+      "description": "DuckDB 2.0 is the project's biggest feature release yet, adding a polished Quack client-server protocol, asynchronous I/O, a first-class VARIANT type, agent mode, triggers and an extensible SQL parser. It is a long-term support release supported until at least October 2027.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "nnx",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "createdAt": "2026-10-21T14:01:22.000Z",
+      "content": "DuckDB 2.0.0 is built from close to 20,000 commits since 1.5. Where 1.0 focused on stability, 2.0 is a feature release: the Quack protocol and a new CONNECT statement let DuckDB run client-server, alongside asynchronous I/O, a VARIANT type, agent mode, triggers and an extensible parser. The post also covers breaking changes and migration; 1.4 stays supported until late November 2026 and 1.5 until March 2027.\n\n[Release announcement](https://duckdb.org/2026/10/21/announcing-duckdb-200) · [HN discussion](https://news.ycombinator.com/item?id=50181136)"
+    },
+    {
+      "id": "hn:50181114",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Compromised LiteLLM 1.107.0 on PyPI installs a credential stealer and backdoor",
+      "description": "SafeDep reports that the LiteLLM 1.107.0 wheels on PyPI shipped a .pth credential stealer and a sitecustomize.py backdoor that run on every Python start, even without importing litellm. PyPI has removed the release; 1.106.2 and the 1.107.0 release candidates are clean.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "abhisek",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "createdAt": "2026-10-21T14:00:26.000Z",
+      "content": "The malicious release added three files to site-packages via one injected maturin `data = \"cook\"` line that does not exist in the upstream GitHub source. The stealer collects SSH keys, cloud and CI/CD secrets, AI tool tokens, browser passwords and LLM provider keys from a LiteLLM proxy database, while an hourly daemon fetches and runs remote code. The write-up includes how the implant got in and indicators of compromise.\n\n[SafeDep analysis](https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/) · [HN discussion](https://news.ycombinator.com/item?id=50181114)"
+    },
+    {
+      "id": "hn:50180190",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Opposable runs computer use on the phone with a 2B model",
+      "description": "Opposable is an Android app that reads the screen through the accessibility service and taps through other apps; when no cloud agent is connected, a 4-bit GUI-Owl 1.5 2B model runs the loop on-device via llama.cpp. On a Galaxy S25 NPU the vision encoder takes 236 ms instead of 3.9 s on an M2 CPU.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "erikkannike",
+      "url": "https://getopposable.com/blog/computer-use-on-the-phone",
+      "createdAt": "2026-10-21T12:59:58.000Z",
+      "content": "Claude, ChatGPT or Codex can drive the app from a computer, but the interesting part is the offline path: a Qwen3-VL-based screen model quantised to 4 bits (about 1.5 GB total) picks one action per screenshot. The post explains how cropping system bars and dropping flat-background image tokens cut a CPU step from 10.6 s to 7.3 s at the same accuracy on a 36-screen test set, and how about forty common tasks skip the model entirely.\n\n[Opposable blog post](https://getopposable.com/blog/computer-use-on-the-phone) · [HN discussion](https://news.ycombinator.com/item?id=50180190)"
+    },
+    {
       "id": "x:2112660693539573770",
       "section": "news",
       "type": "news",
