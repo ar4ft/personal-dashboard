@@ -2,6 +2,220 @@
  "version": 1,
  "items": [
   {
+   "id": "hn:50180836",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "PHP2Shell: Wiz says AI helped uncover critical RCE bugs in core PHP",
+   "description": "Wiz Research disclosed memory-disclosure and unauthenticated remote code execution flaws in the PHP engine itself, affecting every PHP release back to 5.4, and says frontier AI models made the exploit chain practical.",
+   "topics": [
+    "Programming",
+    "AI",
+    "Technology"
+   ],
+   "source": "Hacker News",
+   "author": "danlark1",
+   "url": "https://www.wiz.io/blog/php2shell-php-rce",
+   "createdAt": "2026-10-21T13:43:19Z",
+   "updatedAt": "2026-10-21T13:43:19Z",
+   "content": "Wiz Research found multiple memory-safety vulnerabilities in core PHP, independent of the app running on top, including unauthenticated RCE. PHP shipped fixes on October 21, 2026 (8.5.12, 8.4.27, 8.3.36, 8.2.35), and Wiz credits frontier AI models with making a very complex exploitation chain feasible. Patching right away is strongly advised.\n\n[Wiz write-up](https://www.wiz.io/blog/php2shell-php-rce) · [Hacker News discussion](https://news.ycombinator.com/item?id=50180836)"
+  },
+  {
+   "id": "hn:50195110",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "eMudhra is leaving the global SSL/TLS certificate business",
+   "description": "After its intermediate CA compromise, India's eMudhra says its board decided to voluntarily withdraw from the global SSL/TLS certificate business, which it says was about 1% of revenue.",
+   "topics": [
+    "Technology"
+   ],
+   "source": "Hacker News",
+   "author": "bo0tzz",
+   "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+   "createdAt": "2026-10-22T13:33:39Z",
+   "updatedAt": "2026-10-22T13:33:39Z",
+   "content": "eMudhra says it revoked the affected CAs within 14 hours, that no end-entity certificates were issued from them, and that its infrastructure was not breached, but it is exiting public SSL/TLS to focus on its other trust services, citing rising compliance cost and free competitors.\n\n[Press release](https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business) · [Hacker News discussion](https://news.ycombinator.com/item?id=50195110)"
+  },
+  {
+   "id": "hn:50196718",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "HackiOS boots the iOS 16.5 XNU kernel and user space on an Android phone",
+   "description": "An open-source project boots Apple's open-source XNU kernel from iOS 16.5 on a POCO X5 Pro and runs the unmodified iOS 16.5 user space, up to SpringBoard and apps; it also runs in QEMU.",
+   "topics": [
+    "iOS / Mac Apps",
+    "Programming"
+   ],
+   "source": "Hacker News",
+   "author": "aghuang",
+   "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+   "createdAt": "2026-10-22T15:26:22Z",
+   "updatedAt": "2026-10-22T15:26:22Z",
+   "content": "HackiOS uses its own EFI loader, replacements for Apple's closed drivers, a UEFI port, and a Linux Wi-Fi driver on a compatibility layer to get launchd, backboardd and SpringBoard running on Snapdragon hardware. Nothing is flashed: it boots from RAM via `fastboot boot`, and the same setup runs on any Linux machine under QEMU.\n\n[Repo on GitHub](https://github.com/oosexgang/hackios-xnu-kernel) · [Hacker News discussion](https://news.ycombinator.com/item?id=50196718)"
+  },
+  {
+   "id": "hn:50194938",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Crystal 1.22 released",
+   "description": "Crystal 1.22 brings native event loops on all targets, faster DWARF parsing, LLVM 23 and 24 support, Tier 1 aarch64-linux, and a breaking change so processes exit on broken pipes.",
+   "topics": [
+    "Programming"
+   ],
+   "source": "Hacker News",
+   "author": "ksec",
+   "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
+   "createdAt": "2026-10-22T13:20:13Z",
+   "updatedAt": "2026-10-22T13:20:13Z",
+   "content": "The release has 251 changes from 33 contributors. Writing to a closed STDOUT or STDERR now exits the process the way SIGPIPE would (opt out with `STDOUT.exit_on_broken_pipe = false`).\n\n[Release notes](https://crystal-lang.org/2026/10/12/1.22.0-released/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50194938)"
+  },
+  {
+   "id": "hn:50180257",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Show HN: Uberblok, an interactive museum of ZFS internals",
+   "description": "An interactive, explorable explainer of how ZFS works on disk, starting with the uberblock ring and how a pool finds its latest consistent state after a crash.",
+   "topics": [
+    "Programming",
+    "Technology"
+   ],
+   "source": "Hacker News",
+   "author": "storagebits",
+   "url": "https://uberblok.storagebits.workers.dev/",
+   "createdAt": "2026-10-21T13:04:25Z",
+   "updatedAt": "2026-10-21T13:04:25Z",
+   "content": "Each exhibit lets you tweak parameters, such as disk sector size, and watch the uberblock ring, transaction groups, and block pointers change in 2D and 3D views.\n\n[Open Uberblok](https://uberblok.storagebits.workers.dev/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50180257)"
+  },
+  {
+   "id": "reading:curl-ignore-the-slop",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Daniel Stenberg: why curl can't just \"ignore the slop\"",
+   "description": "curl's maintainer argues that AI-assisted vulnerability reports often point at real bugs, so ignoring them because AI was involved would leave users exposed.",
+   "topics": [
+    "Programming",
+    "AI"
+   ],
+   "source": "Reading",
+   "author": "Daniel Stenberg",
+   "url": "https://daniel.haxx.se/blog/2026/10/22/ignore-the-slop/",
+   "createdAt": "2026-10-22T07:00:14Z",
+   "updatedAt": "2026-10-22T07:00:14Z",
+   "content": "Stenberg says the AI-assisted security reports curl gets are usually accurate, if wordy, and that a project with curl's quality goals has to fix proven vulnerabilities regardless of how they were found.\n\n[Read the article](https://daniel.haxx.se/blog/2026/10/22/ignore-the-slop/) · [HN discussion](https://news.ycombinator.com/item?id=50192098)"
+  },
+  {
+   "id": "reading:flyio-sprites-block-device",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Fly.io replaces its Sprites filesystem with a simple block device",
+   "description": "Fly.io explains why it replaced the clever custom filesystem behind Sprites with the Sprites Block Device (SBD), keeping object storage as the root of each disk.",
+   "topics": [
+    "Programming",
+    "Technology"
+   ],
+   "source": "Reading",
+   "author": "Daniel Botha",
+   "url": "https://fly.io/blog/sprites-block-device/",
+   "createdAt": "2026-10-22T00:00:00Z",
+   "updatedAt": "2026-10-22T00:00:00Z",
+   "content": "The post argues that infrastructure should be the boring, reliable option, and walks through how SBD keeps a Sprite's disk backed by object storage rather than the local NVMe while improving reliability.\n\n[Read the article](https://fly.io/blog/sprites-block-device/) · [HN discussion](https://news.ycombinator.com/item?id=50194824)"
+  },
+  {
+   "id": "reading:abakcus-buffons-needle",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Buffon's Needle: calculating pi by tossing needles on the floor",
+   "description": "Abakcus explains why the chance a dropped needle crosses a floor seam is 2L/(pi d), how that birthed geometric probability and the seed of Monte Carlo, and the famous faked experiment that followed.",
+   "topics": [
+    "Math",
+    "Science"
+   ],
+   "source": "Reading",
+   "author": "Ali Kaya",
+   "url": "https://abakcus.com/articles/buffons-needle",
+   "createdAt": "2026-07-07T00:00:00Z",
+   "updatedAt": "2026-07-07T00:00:00Z",
+   "content": "A walk through the derivation of Buffon's classic geometric probability result, the experiments people ran to estimate pi with needles, and why the sine term always carries pi into the answer.\n\n[Read the article](https://abakcus.com/articles/buffons-needle)"
+  },
+  {
+   "id": "reading:abakcus-fireflies-synchronization",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Why do fireflies flash in unison?",
+   "description": "Abakcus explains how Photinus carolinus fireflies in the Great Smoky Mountains synchronize with no leader, using Steven Strogatz's mathematics of coupled oscillators.",
+   "topics": [
+    "Math",
+    "Science"
+   ],
+   "source": "Reading",
+   "author": "Ali Kaya",
+   "url": "https://abakcus.com/articles/fireflies-synchronization",
+   "createdAt": "2026-05-23T00:00:00Z",
+   "updatedAt": "2026-05-23T00:00:00Z",
+   "content": "Starting from the chemistry of firefly light, the article builds up to the coupled-oscillator model that explains how thousands of insects lock into the same rhythm.\n\n[Read the article](https://abakcus.com/articles/fireflies-synchronization)"
+  },
+  {
+   "id": "x:2113353198844985507",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "O'Reilly Radar: the latest Claude models carry invisible AI text watermarks",
+   "description": "O'Reilly highlights a Radar article by Bruce Hopkins on how recent Anthropic Claude models watermark generated text without hidden characters or extra tokens.",
+   "topics": [
+    "AI"
+   ],
+   "source": "Twitter / X",
+   "author": "O'Reilly Media (@OReillyMedia)",
+   "url": "https://x.com/OReillyMedia/status/2113353198844985507",
+   "createdAt": "2026-10-22T19:34:01Z",
+   "updatedAt": "2026-10-22T19:34:01Z",
+   "content": "According to the post, the watermark is embedded without inserting any hidden characters and without consuming extra tokens. Bruce Hopkins explains how it works and what it means for people using Claude output in the Radar piece \"The Latest Anthropic Claude Models Contain AI Text Watermarks: What Does This Mean for You?\"\n\n[Post on X](https://x.com/OReillyMedia/status/2113353198844985507)"
+  },
+  {
+   "id": "x:2113235874410614799",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Measured: Nemotron 3.5 Bolt 74B at 1-bit on one 32 GB GPU",
+   "description": "TensorQuay benchmarked the 18.5 GB 1-bit Nemotron 3.5 Bolt 74B in llama.cpp on a single 32 GB card, reporting about 175 tok/s decode and 4,543 tok/s prefill fully on GPU.",
+   "topics": [
+    "AI",
+    "Machine Learning"
+   ],
+   "source": "Twitter / X",
+   "author": "TensorQuay (@tensorquay)",
+   "url": "https://x.com/tensorquay/status/2113235874410614799",
+   "createdAt": "2026-10-22T11:47:49Z",
+   "updatedAt": "2026-10-22T11:47:49Z",
+   "content": "Offloading experts to system RAM drops throughput: 73 decode / 1,045 prefill tok/s with 57 layers' experts in RAM, and 57 / 730 tok/s with all experts in RAM. With 32K tokens already in context, fully-on-GPU decode still holds around 170 tok/s.\n\n[Post on X](https://x.com/tensorquay/status/2113235874410614799)"
+  },
+  {
+   "id": "x:2113295175216701529",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Akita's verdict: Qwen 3.8 Flash Next on Strata is competent enough for daily local use",
+   "description": "After weeks of testing, Fabio Akita concludes that Qwen 3.8 Flash Next running on the Strata engine on an RTX 5090 is good enough for everyday work, including driving Claude Code locally.",
+   "topics": [
+    "AI",
+    "Programming"
+   ],
+   "source": "Twitter / X",
+   "author": "Fabio Akita (@AkitaOnRails)",
+   "url": "https://x.com/AkitaOnRails/status/2113295175216701529",
+   "createdAt": "2026-10-22T15:43:27Z",
+   "updatedAt": "2026-10-22T15:43:27Z",
+   "content": "Akita lays out his verdict in a five-post thread and a longer write-up (in Portuguese) covering setup and results, including continuing a Claude Code session against the locally hosted model.\n\n[Write-up on AkitaOnRails.com](https://akitaonrails.com/2026/10/22/melhor-llm-open-source-strata-com-qwen-3-8-flash-next/) · [Post on X](https://x.com/AkitaOnRails/status/2113295175216701529)"
+  },
+  {
    "id": "reading:worldtui-360m-terminal-world-model",
    "section": "news",
    "type": "news",
