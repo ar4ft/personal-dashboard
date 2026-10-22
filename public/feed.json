@@ -24022,6 +24022,123 @@
    "createdAt": "2026-10-22T12:56:29Z",
    "updatedAt": "2026-10-22T12:56:29Z",
    "content": "A macOS app bringing Vim motions to every text field on the Mac, presented as a Show HN.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50194696)"
+  },
+  {
+   "id": "x:2113212025560023513",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Hugging Face releases Carbon-X, an open 14B model for DNA and text",
+   "description": "Carbon-X is an Apache-2.0, 14.8B-parameter model built on Qwen3-14B and trained jointly on DNA sequences and natural language, so you can paste raw DNA into an ordinary chat.",
+   "topics": [
+    "Machine Learning",
+    "AI"
+   ],
+   "source": "Twitter / X",
+   "author": "@LoubnaBenAllal1",
+   "url": "https://x.com/LoubnaBenAllal1/status/2113212025560023513",
+   "createdAt": "2026-10-22T10:13:03Z",
+   "content": "Hugging Face's bio team announced Carbon-X, a 14.8B decoder-only model mid-trained on DNA plus text. You give it raw DNA inside a normal chat conversation and it handles understanding, variant-effect questions and generation. The post claims it beats other open language models on DNA benchmarks and matches top closed models at a fraction of the cost per problem; the model card also shows how to use it as a tool for an agent.\n\n[Carbon-X on Hugging Face](https://huggingface.co/HuggingFaceBio/Carbon-X) · [Training code on GitHub](https://github.com/huggingface/carbon/tree/main) · [Release blog](https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release)\n\n[Post on X](https://x.com/LoubnaBenAllal1/status/2113212025560023513)"
+  },
+  {
+   "id": "x:2113046042908541083",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Unsloth GGUFs let you run the Flint coding model locally in 24 GB",
+   "description": "Unsloth published GGUF quants of Flint, Recursive SI's Apache-2.0 mixture-of-experts coding model with 39.8B total and 2.5B active parameters, claimed to run around 125 tokens per second on a Mac.",
+   "topics": [
+    "AI",
+    "Machine Learning"
+   ],
+   "source": "Twitter / X",
+   "author": "@UnslothAI",
+   "url": "https://x.com/UnslothAI/status/2113046042908541083",
+   "createdAt": "2026-10-21T23:13:29Z",
+   "content": "Flint is a new open coding model from Recursive SI: a 39.8B-parameter MoE with only 2.5B active per token, under Apache-2.0. Unsloth's dynamic GGUF quants fit it in about 24 GB of RAM, and their guide covers running it with llama.cpp or Unsloth Desktop with thinking controls.\n\n[Flint GGUFs on Hugging Face](https://huggingface.co/unsloth/flint-GGUF) · [Unsloth guide to running Flint](https://unsloth.ai/docs/models/flint)\n\n[Post on X](https://x.com/UnslothAI/status/2113046042908541083)"
+  },
+  {
+   "id": "x:2113020369200353455",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "alphaXiv's OpenResearch runs local research agents on a MacBook with Flint",
+   "description": "OpenResearch is an MIT-licensed, local-first desktop harness that turns coding agents into research agents that review literature, form hypotheses, run experiments and write up artifacts; alphaXiv shows it running on Flint at 125+ tokens per second.",
+   "topics": [
+    "AI",
+    "iOS / Mac Apps"
+   ],
+   "source": "Twitter / X",
+   "author": "@askalphaxiv",
+   "url": "https://x.com/askalphaxiv/status/2113020369200353455",
+   "createdAt": "2026-10-21T21:31:28Z",
+   "content": "alphaXiv's OpenResearch (around 7.5k GitHub stars) is a local-first workspace for research agents, shipped as a Mac app. Agents can review papers, develop hypotheses, run experiments and produce research artifacts, and the post demos the whole loop running locally on a MacBook Pro with the open Flint model.\n\n[OpenResearch on GitHub](https://github.com/alphaXiv/OpenResearch)\n\n[Post on X](https://x.com/askalphaxiv/status/2113020369200353455)"
+  },
+  {
+   "id": "x:2112973191157252103",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Cloudflare open-sources its multi-phase security audit skill for coding agents",
+   "description": "Cloudflare's security-audit skill turns any coding agent into a security auditor that runs reconnaissance, coverage-led hunting, independent validation and verified machine-readable findings; the post recommending it passed 6,000 likes.",
+   "topics": [
+    "AI",
+    "Programming"
+   ],
+   "source": "Twitter / X",
+   "author": "@jurbed",
+   "url": "https://x.com/jurbed/status/2112973191157252103",
+   "createdAt": "2026-10-21T18:24:00Z",
+   "content": "The skill is the single-repo starting point of Cloudflare's internal vulnerability discovery harness. It runs six phases: map architecture and trust boundaries, send isolated hunter agents through a coverage ledger, have fresh verifiers try to disprove every candidate, write confirmed and rejected findings to a JSON file checked against a schema, independently re-verify the final claims, and then produce a report. It works with any model and is MIT licensed.\n\n[security-audit-skill on GitHub](https://github.com/cloudflare/security-audit-skill) · [Cloudflare blog: Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness)\n\n[Post on X](https://x.com/jurbed/status/2112973191157252103)"
+  },
+  {
+   "id": "x:2113106034185453773",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "MiniMax Code Mini Apps launch as an open plugin standard",
+   "description": "MiniMax introduced Mini Apps for its MiniMax Code desktop app: interactive plugin apps that each bundle a port, an agent and a data directory, with a community repository open to pull requests.",
+   "topics": [
+    "AI",
+    "Programming"
+   ],
+   "source": "Twitter / X",
+   "author": "@Ronny_MiniMax",
+   "url": "https://x.com/Ronny_MiniMax/status/2113106034185453773",
+   "createdAt": "2026-10-22T03:11:52Z",
+   "content": "MiniMax pitches the agent as the next operating system and plugins as apps. A Mini App is a self-contained plugin package with its own UI on a local port, an agent and a data directory, installed into MiniMax Code. The MIT-licensed community repo organizes apps by author so you can download one or fork its source as a starting point.\n\n[Mini Apps docs](https://agent.minimax.io/docs/miniapp/overview) · [MiniMax-Code-MiniApps on GitHub](https://github.com/MiniMax-AI/MiniMax-Code-MiniApps)\n\n[Post on X](https://x.com/Ronny_MiniMax/status/2113106034185453773)"
+  },
+  {
+   "id": "ideas:repo-security-audit-runner",
+   "section": "ideas",
+   "type": "idea",
+   "status": "explore",
+   "title": "Weekly security audit runner for my own repos",
+   "description": "A scheduled job that runs Cloudflare's security-audit skill against each of my repos with a local model and files only verified findings as GitHub issues.",
+   "content": "## How it works\n\nCloudflare's skill already does the hard reasoning: recon, isolated hunters, fresh verifiers and a findings file checked against a schema. The runner wraps it: once a week it checks out each of my repos, runs the skill through a coding agent pointed at a local model such as Flint, reads the confirmed records from the findings file, skips anything already reported, and opens one issue per new confirmed finding with the report attached.\n\n```mermaid\nflowchart LR\n  Repos[My repos] --> Checkout[Fresh checkout]\n  Checkout --> Audit[Agent runs security-audit skill]\n  Audit --> Findings[findings.json]\n  Findings --> Filter[Confirmed and not seen before]\n  Filter --> Issues[GitHub issues]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Agent | OpenCode or Claude Code with the skill installed |\n| Model | Flint GGUF on llama.cpp, or a cheap hosted model for big repos |\n| Scheduler | launchd on the Mac or a weekly cron on a home box |\n| Dedupe | SQLite table keyed by file, line and finding type |\n| Output | gh issue create with the generated report |\n\n## Hard parts\n\n- Keeping runtime and token use bounded on larger repos.\n- Stable fingerprints so the same finding isn't filed twice after small code moves.\n- A small local model may miss or invent findings, so the verifier phase matters a lot.\n\n## Effort\n\nAn evening to run the skill once on one repo; a weekend for scheduling, dedupe and issue filing across all repos.\n\n## Inspired by\n\n- [Post recommending the skill on X](https://x.com/jurbed/status/2112973191157252103)\n- [security-audit-skill on GitHub](https://github.com/cloudflare/security-audit-skill)\n- [Flint GGUFs on Hugging Face](https://huggingface.co/unsloth/flint-GGUF)",
+   "nextStep": "Install the security-audit skill in a coding agent and run it once on ar4ft/personal-dashboard, then read findings.json to see how many records are confirmed.",
+   "topics": [
+    "AI",
+    "Programming"
+   ],
+   "source": "X digest",
+   "createdAt": "2026-10-22T14:17:00Z"
+  },
+  {
+   "id": "ideas:local-paper-repro-agent",
+   "section": "ideas",
+   "type": "idea",
+   "status": "explore",
+   "title": "Offline paper reproduction agent on the Mac",
+   "description": "Point a local research agent at an arXiv ML paper with code and have it reproduce one headline number overnight, fully offline after download.",
+   "content": "## How it works\n\nOpenResearch plus Flint shows a full research-agent loop can run on a MacBook. This narrows it to one job: given an arXiv link for a classic ML paper (gradient boosting, small neural nets), the agent fetches the paper and repo, picks one table result, builds a small reproduction plan, runs the experiment on a downsized dataset and writes a note comparing its number to the paper's.\n\n```mermaid\nflowchart LR\n  Paper[arXiv paper and repo] --> Plan[Agent picks one result and plans]\n  Plan --> Run[Run experiment locally]\n  Run --> Compare[Compare with paper table]\n  Compare --> Note[Markdown reproduction note]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Harness | OpenResearch desktop app |\n| Model | Flint GGUF via llama.cpp |\n| Experiments | Python with uv, scikit-learn, XGBoost or MLX |\n| Output | Markdown note with a results table |\n\n## Hard parts\n\n- Picking results small enough to run on a laptop in hours.\n- Environment setup for old repos with pinned dependencies.\n- Judging whether a gap from the paper is a bug or just a smaller dataset.\n\n## Effort\n\nA weekend for one paper end to end; longer to make it reliable across many papers.\n\n## Inspired by\n\n- [alphaXiv post on X](https://x.com/askalphaxiv/status/2113020369200353455)\n- [OpenResearch on GitHub](https://github.com/alphaXiv/OpenResearch)\n- [Unsloth Flint post on X](https://x.com/UnslothAI/status/2113046042908541083)",
+   "nextStep": "Install OpenResearch, load the Flint GGUF in llama.cpp, and ask it to reproduce one table from a small XGBoost paper on a 10 percent data sample.",
+   "topics": [
+    "Machine Learning",
+    "AI"
+   ],
+   "source": "X digest",
+   "createdAt": "2026-10-22T14:17:00Z"
   }
  ]
 }
