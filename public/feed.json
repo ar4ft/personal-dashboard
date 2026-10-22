@@ -2,6 +2,207 @@
   "version": 1,
   "items": [
     {
+      "id": "reading:worldtui-360m-terminal-world-model",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WorldTUI: a 360M model trained to pretend to be a terminal",
+      "description": "SimEdw fine-tuned a 360M-parameter language model to act as a terminal with no real shell behind it: each keypress goes in and the model predicts how the screen changes.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "SimEdw",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "createdAt": "2026-10-22T02:18:41Z",
+      "content": "The model can create files, run vim and tmux, play snake and usually remembers earlier commands. Training data came from running real shells, and the biggest gains came from teaching the model to repair its own mistakes and decoding screen rows in parallel. A 208 MB WebGPU demo runs in the browser.\n\n[HN discussion](https://news.ycombinator.com/item?id=50190363)"
+    },
+    {
+      "id": "hn:50191507",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI ships an official CLI for its API",
+      "description": "openai/openai-cli is the official command-line client for the OpenAI REST API, written in Go and installable with Homebrew or go install.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "armcat",
+      "url": "https://github.com/openai/openai-cli",
+      "createdAt": "2026-10-22T05:23:11Z",
+      "content": "Install it with `brew install openai/tools/openai` or `go install` (Go 1.26+). The repo includes generated API reference docs and an AGENTS.md for coding agents.\n\n[Repo on GitHub](https://github.com/openai/openai-cli)\n\n[HN discussion](https://news.ycombinator.com/item?id=50191507)"
+    },
+    {
+      "id": "reading:llm-confidence-scoring-bad-idea",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why asking an LLM for a confidence score is a bad idea",
+      "description": "Amrut Joshi explains why a probability an LLM agent states about its own answer is not a trustworthy confidence score, starting from what calibrated confidence actually requires.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Amrut Joshi",
+      "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "createdAt": "2026-10-21T04:27:51Z",
+      "content": "Using a weather forecaster as the example, the post argues that real confidence comes from the information behind a prediction and from track records of how often similar predictions were right, neither of which a model's generated number reflects.\n\n[HN discussion](https://news.ycombinator.com/item?id=50176082)"
+    },
+    {
+      "id": "reading:earstrip-faster-than-earcut",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+      "description": "GLOBUS open-sourced earstrip, the ear-clipping polygon triangulator from its map engine, as a single C++ header plus a WebAssembly npm build with earcut's API.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "GLOBUS",
+      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+      "createdAt": "2026-10-22T09:31:18Z",
+      "content": "earstrip is 14% faster than earcut.hpp in C++ and 1.4 to 2.1 times as fast as earcut.js in the browser. The post rebuilds the triangulator one idea per commit and times each step on 3.7 million polygons, down from 2.93 s with the previous constrained Delaunay approach on one M4 Pro core.\n\n[HN discussion](https://news.ycombinator.com/item?id=50193170)"
+    },
+    {
+      "id": "hn:50183892",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Omnara, an open-source alternative to Claude Managed Agents",
+      "description": "Omnara is a self-hostable managed agent platform, pitched as an open-source alternative to Claude Managed Agents and OpenAI's Agents API.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kmansm27",
+      "url": "https://github.com/omnara-ai/omnara",
+      "createdAt": "2026-10-21T16:44:53Z",
+      "content": "The Go project ships with Docker Compose, an OpenAPI spec, observability configs and a setup skill for agents.\n\n[Repo on GitHub](https://github.com/omnara-ai/omnara)\n\n[HN discussion](https://news.ycombinator.com/item?id=50183892)"
+    },
+    {
+      "id": "hn:50179857",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LayerFS: a filesystem for parallel AI coding agents",
+      "description": "LayerFS gives each coding agent an ephemeral writable workspace mounted over shared committed history, so many agents can work on one project and commit back to a single serverless store.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "l2dy",
+      "url": "https://layerfs.ai/",
+      "createdAt": "2026-10-21T12:34:46Z",
+      "content": "Each Bash tool call mounts a workspace, runs, commits and unmounts, and agents on different computers share one store file without a database server, with branches for multi-agent coordination.\n\n[LayerFS site](https://layerfs.ai/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50179857)"
+    },
+    {
+      "id": "reading:postgres-recovery-prefetch-outages",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Postgres recovery_prefetch considered harmful and causing outages",
+      "description": "Jeremy Schneider traces production Postgres outages to the recovery_prefetch setting, which issues redundant prefetches during WAL replay.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Jeremy Schneider",
+      "url": "https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/",
+      "createdAt": "2026-10-21T22:33:08Z",
+      "content": "The post digs through the hackers mailing list history, where the redundant-prefetch concern was raised in 2021 while the feature was being developed and deferred as a future improvement.\n\n[HN discussion](https://news.ycombinator.com/item?id=50188614)"
+    },
+    {
+      "id": "reading:nvidia-kumo-relational",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NVIDIA Kumo Relational beats supervised ML on relational databases with no training",
+      "description": "NVIDIA's Kumo Relational is a pretrained relational foundation model that predicts outcomes like churn, demand or fraud straight from enterprise databases in one forward pass, with no task-specific training or feature engineering.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "NVIDIA (Jure Leskovec, Matthias Fey et al.)",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "createdAt": "2026-10-21T00:00:00Z",
+      "content": "Given a predictive query, Kumo Relational pulls up to 10,000 historical examples as context. Across 41 tasks on 15 databases it beats supervised relational deep learning models and expert-built gradient-boosted tree pipelines, and on the SAP SALT benchmark it beats AutoGluon ensembles by 8% in mean reciprocal rank. It scales to 500B+ row databases and ships via NVIDIA's open-source structured-data-models library or as a NIM.\n\n[Paper on arXiv](https://arxiv.org/abs/2604.12596) · [Documentation](https://docs.nvidia.com/sdgm/rfm/overview) · [Post by @Daviswh on X](https://x.com/Daviswh/status/2113229542533808630)"
+    },
+    {
+      "id": "hn:50188228",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Railway discloses breach of customer environment variables",
+      "description": "Railway says an unauthorized party may have accessed encrypted customer environment variables and decrypted some of them, and urges all users to rotate secrets stored there.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "passenger",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "createdAt": "2026-10-21T21:58:03Z",
+      "content": "Railway believes the incident is part of a series of attacks on platform companies aimed at compromising AI inference providers, and has asked upstream providers to revoke keys. All deployments are paused during the investigation, which means users can't roll out new versions with rotated keys until builds resume.\n\n[Railway security disclosure](https://blog.railway.com/p/security-disclosure-wednesday-october-21st) · [HN discussion](https://news.ycombinator.com/item?id=50188228) · [Sarun W. on X](https://x.com/sarunw/status/2113146850211709209)"
+    },
+    {
+      "id": "x:2113226531522891851",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ant Ling releases Ling-3.1-flash-1019 with better agentic scores",
+      "description": "Ant Ling's Ling-3.1-flash-1019 update scores 44 on the Artificial Analysis Intelligence Index, up from 41, with gains on agentic benchmarks. API access and open weights are coming soon.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Ant Ling (@AntLingAGI)",
+      "url": "https://x.com/AntLingAGI/status/2113226531522891851",
+      "createdAt": "2026-10-22T11:10:41Z",
+      "content": "The refresh of Ling-3.1-flash moves AA-Briefcase from about 1400 to 1524 Elo and AutomationBench-AA from 62% to 68%. Open weights and API access are announced as coming soon.\n\n[Post on X](https://x.com/AntLingAGI/status/2113226531522891851)"
+    },
+    {
+      "id": "x:2113234442131255322",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A 3D pixel globe built with SwiftUI Canvas",
+      "description": "Shubham Singh built a rotating 3D pixel globe in SwiftUI using Canvas, and shared it in his withAnimation library.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Shubham Singh (@Shubham_iosdev)",
+      "url": "https://x.com/Shubham_iosdev/status/2113234442131255322",
+      "createdAt": "2026-10-22T11:42:07Z",
+      "content": "He says the tricky part was getting the pixel rendering right with Canvas once rotation came into play. The interactive version is on his withAnimation site.\n\n[Post on X](https://x.com/Shubham_iosdev/status/2113234442131255322) · [withAnimation](https://withanimation.app)"
+    },
+    {
+      "id": "x:2112971165811548461",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MintedTextEditor 0.4.0, a custom-drawn rich text editor for .NET MAUI",
+      "description": "MintedTextEditor 0.4.0 adds find and replace, a context menu, universal undo, more formatting, localizable UI and basic screen-reader support to this SkiaSharp-rendered rich text editor for .NET MAUI.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Michael Stonis (@MichaelStonis)",
+      "url": "https://x.com/MichaelStonis/status/2112971165811548461",
+      "createdAt": "2026-10-21T18:15:57Z",
+      "content": "The editor draws everything on a SkiaSharp canvas with HarfBuzz shaping instead of native text controls, and is split into Core, SkiaSharp and MAUI packages with HTML and Markdown interop.\n\n[Repo on GitHub](https://github.com/TheEightBot/MintedTextEditor) · [Post on X](https://x.com/MichaelStonis/status/2112971165811548461)"
+    },
+    {
       "id": "x:2113029501513081037",
       "section": "news",
       "type": "news",
