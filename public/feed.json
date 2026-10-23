@@ -2,6 +2,145 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2113316017510191578",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hallmark v2: an anti-AI-slop design skill for coding agents",
+      "description": "Hassan El Mghari shipped Hallmark v2, a rebuilt design skill for Claude Code, Codex and Opencode that steers agents away from generic AI-looking interfaces.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Hassan El Mghari (@nutlope)",
+      "url": "https://x.com/nutlope/status/2113316017510191578",
+      "createdAt": "2026-10-22T17:06:16Z",
+      "updatedAt": "2026-10-22T17:06:16Z",
+      "content": "Hallmark is a design skill that coding agents load to produce interfaces that look deliberately designed rather than like default AI output. Version 2 is a rebuild after the first release passed 30k GitHub stars and 60k installs, and it works with Claude Code, Codex, Cursor and Opencode. Install it with `npx skills add nutlope/hallmark`.\n\n[Hallmark on GitHub](https://github.com/nutlope/hallmark)\n\n[Post on X](https://x.com/nutlope/status/2113316017510191578)"
+    },
+    {
+      "id": "x:2113314214169248084",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google previews the Gemini API CLI for coding agents",
+      "description": "Google released an experimental gemini-api command, a zero-dependency Go binary that lets agents generate images, video, music and speech, transcribe media and run managed agents from the shell.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Jack Wotherspoon (@JackWoth98)",
+      "url": "https://x.com/JackWoth98/status/2113314214169248084",
+      "createdAt": "2026-10-22T16:59:06Z",
+      "updatedAt": "2026-10-22T16:59:06Z",
+      "content": "The Gemini API CLI (`gemini-api`) is an Apache 2.0 Go binary for macOS, Linux and Windows. Media commands write files straight to disk and print only the path, so base64 payloads never land in an agent's context window. It covers text generation, Nano Banana image editing, Lyria music, multi-speaker TTS, PDF and YouTube analysis, SRT transcription and managed agents such as Deep Research, with webhooks and cron triggers. Google labels it an experimental preview.\n\n- [Gemini API CLI on GitHub](https://github.com/google-gemini/gemini-api-cli)\n- [Launch post on Google AI Studio](https://aistudio.google.com/learn/introducing-the-gemini-api-cli)\n\n[Post on X](https://x.com/JackWoth98/status/2113314214169248084)"
+    },
+    {
+      "id": "x:2113312019206058163",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ideogram Vector 1.0 generates editable, layered SVGs",
+      "description": "Ideogram launched its first vector model, which turns a prompt or an existing image into scalable SVG artwork with separately editable shapes, in its app and API.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "TestingCatalog News (@testingcatalog)",
+      "url": "https://x.com/testingcatalog/status/2113312019206058163",
+      "createdAt": "2026-10-22T16:50:23Z",
+      "updatedAt": "2026-10-22T16:50:23Z",
+      "content": "Vector 1.0 has two modes: text to vector, which draws a layered SVG from a prompt plus optional reference images, and image to vector, which converts a JPEG, PNG or WEBP into an SVG. Generated files keep editable colours, gradients and individual shapes, aimed at logos, stickers, labels and print. Through the API it costs about $0.13 to $0.20 per generated SVG and $0.10 per vectorized image; layer grouping for vectorized images is listed as not yet available.\n\n[Ideogram Vector product page](https://ideogram.ai/models/vector/)\n\n[Post on X](https://x.com/testingcatalog/status/2113312019206058163)"
+    },
+    {
+      "id": "x:2113483107760570741",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AWS TorchNeuron brings native PyTorch to Trainium",
+      "description": "AWS released TorchNeuron in public beta, an open-source native PyTorch backend that runs existing models on Trainium2 and Trainium3 with a device switch.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Grand_father007 (@Grand_father007)",
+      "url": "https://x.com/Grand_father007/status/2113483107760570741",
+      "createdAt": "2026-10-23T04:10:14Z",
+      "updatedAt": "2026-10-23T04:10:14Z",
+      "content": "TorchNeuron is an Apache 2.0 PyTorch backend for AWS Trainium. Existing code targets the chip with `.to(\"neuron\")`, and compiled paths use `torch.compile(model, backend=\"neuron\")`. It supports eager execution, standard PyTorch APIs, distributed training and custom NKI kernels, shipped as part of Neuron 2.33.\n\n- [AWS announcement](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium/)\n- [TorchNeuron docs](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/torch/index.html)\n\n[Post on X](https://x.com/Grand_father007/status/2113483107760570741)"
+    },
+    {
+      "id": "x:2113480537902055495",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Open-source Microduck robots close NVIDIA's GTC Berlin keynote",
+      "description": "Four 25 cm Microduck biped robots from Pollen Robotics and Hugging Face walked on stage at Jensen Huang's GTC Berlin keynote, after a demo of an AI agent training one in simulation.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Mario Nawfal (@MarioNawfal)",
+      "url": "https://x.com/MarioNawfal/status/2113480537902055495",
+      "createdAt": "2026-10-23T04:00:01Z",
+      "updatedAt": "2026-10-23T04:00:01Z",
+      "content": "Microduck is an open-source 800 g biped with 15 servos, a camera, LiDAR and two IMUs, running reinforcement-learning policies at 50 Hz on a Rockchip RK3566. The runtime is written in Rust, and the training stack (MuJoCo Warp with PPO, exported to ONNX) is public, so owners can retrain moves. Pre-orders are $399. At the keynote, Huang showed an agent designing a course, training in simulation and the cloud, then checking results on a laptop before deploying to the robots.\n\n- [Microduck runtime on GitHub](https://github.com/pollen-robotics/microduck)\n- [Microduck RL training on GitHub](https://github.com/pollen-robotics/microduck_rl)\n- [Microduck by Pollen Robotics](https://pollen-robotics.com/microduck/)\n\n[Post on X](https://x.com/MarioNawfal/status/2113480537902055495)"
+    },
+    {
+      "id": "x:2113415413203652911",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An interactive atlas of advanced chip packaging",
+      "description": "Wentao (@jwt0625) is building an Advanced Packaging Atlas, a work-in-progress interactive tracker of chip packages, interposer sizes and power delivery approaches across the industry.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "lithos_graphein (@lithos_graphein)",
+      "url": "https://x.com/lithos_graphein/status/2113415413203652911",
+      "createdAt": "2026-10-22T23:41:14Z",
+      "updatedAt": "2026-10-22T23:41:14Z",
+      "content": "The Advanced Packaging Atlas collects data on 2.5D and 3D packaging such as CoWoS and EMIB, including which products use the largest interposers, with interactive and 3D views you can click into. Its author, who works on photonics and packaging, calls it a work in progress for an industry he describes as a mess to track.\n\n[Advanced Packaging Atlas](https://o5s.org/advanced-packaging-atlas)\n\n[Post on X](https://x.com/lithos_graphein/status/2113415413203652911)"
+    },
+    {
+      "id": "ideas:agent-app-asset-forge",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Agent skill that builds app icons and assets straight into Xcode",
+      "description": "A coding-agent skill that reads an asset list for an iOS or Mac app and generates icons, glyphs and onboarding art as SVG and PNG files dropped into the asset catalog.",
+      "content": "## How it works\n\nThe Gemini API CLI writes generated media to disk and returns only paths, and Ideogram Vector 1.0 returns layered SVGs. A small skill, styled with Hallmark-like design rules, gives an agent one command per asset: it reads an `assets.yml` in the repo, generates vector glyphs and menu-bar icons as SVG and illustrations as PNG, checks sizes and contrast, and writes them into `Assets.xcassets` with the right `Contents.json`.\n\n```mermaid\nflowchart LR\n  Spec[Asset list in repo] --> Agent[Coding agent]\n  Agent --> Raster[gemini-api image]\n  Agent --> Vector[Ideogram Vector SVG]\n  Raster --> Check[Size and contrast checks]\n  Vector --> Check\n  Check --> Catalog[Xcode asset catalog]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Raster art | gemini-api image (pay per call) |\n| Vector art | Ideogram Vector API, about $0.13 per SVG |\n| Skill format | Agent skill installed with npx skills |\n| Asset catalog | Swift script writing Contents.json |\n| Checks | resvg render plus a contrast check |\n\n## Hard parts\n\n- Keeping a consistent style across a whole icon set.\n- Turning SVGs into clean SF Symbol style templates.\n- Keeping API costs low with caching and only regenerating changed assets.\n\n## Effort\n\nAbout a weekend for icons and the asset catalog writer; longer for symbol templates.\n\n## Inspired by\n\n- [Gemini API CLI post on X](https://x.com/JackWoth98/status/2113314214169248084)\n- [Gemini API CLI on GitHub](https://github.com/google-gemini/gemini-api-cli)\n- [Ideogram Vector post on X](https://x.com/testingcatalog/status/2113312019206058163)\n- [Hallmark on GitHub](https://github.com/nutlope/hallmark)",
+      "nextStep": "Install gemini-api, write an assets.yml with three icons for one of your apps, and have the agent generate them and write a valid Contents.json.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-23T14:45:00Z"
+    },
+    {
+      "id": "ideas:microduck-trick-coach",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Agent coach that teaches Microduck new tricks in simulation",
+      "description": "Describe a move in plain words and let an agent write the reward, train a policy with the open Microduck RL stack, and test it on the simulated duck before any hardware.",
+      "content": "## How it works\n\nNVIDIA's keynote showed an agent training a Microduck end to end. This is a small open version: you describe a trick such as a bow or a side step, the agent writes a reward function and task config for microduck_rl, launches PPO training, scores the rollouts from rendered video and joint data, and iterates. A good policy is exported to ONNX and loaded into the duck-sim simulator, and onto a real robot if you buy one.\n\n```mermaid\nflowchart LR\n  Idea[Plain-language trick] --> Agent[Agent writes reward]\n  Agent --> Sim[microduck_rl in MuJoCo]\n  Sim --> Eval[Score rollouts and video]\n  Eval --> Agent\n  Eval --> ONNX[Export ONNX policy]\n  ONNX --> Duck[duck-sim or real robot]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Training | microduck_rl on a rented GPU by the hour |\n| Simulator | duck-sim from the microduck repo |\n| Agent | Claude Code or a local coding model |\n| Judging | Video frames scored by a vision model |\n| Robot | Optional Microduck, $399 |\n\n## Hard parts\n\n- Reward hacking: policies that score well but look nothing like the trick.\n- GPU cost and training time per iteration.\n- Sim-to-real gaps if you move to the physical robot.\n\n## Effort\n\nA weekend to get one agent-written reward training; a few weeks for a reliable loop.\n\n## Inspired by\n\n- [Microduck keynote post on X](https://x.com/MarioNawfal/status/2113480537902055495)\n- [Microduck RL training on GitHub](https://github.com/pollen-robotics/microduck_rl)\n- [Microduck runtime on GitHub](https://github.com/pollen-robotics/microduck)",
+      "nextStep": "Clone microduck_rl, run the stock walking task on a rented GPU, then ask an agent to write a reward for a simple bow and compare the rollouts.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-23T14:45:00Z"
+    },
+    {
       "id": "hn:50180836",
       "section": "news",
       "type": "news",
