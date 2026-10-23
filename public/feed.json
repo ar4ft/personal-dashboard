@@ -25206,6 +25206,147 @@
       "createdAt": "2026-10-23T20:37:12Z",
       "updatedAt": "2026-10-23T20:37:12Z",
       "content": "A quick tour of systemd-nspawn, the lightweight container tool built into systemd.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50214983)"
+    },
+    {
+      "id": "hn:50195488",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: OnKey, an open-source Mac singing trainer that scores your pitch",
+      "description": "OnKey is a free, open-source Apple Silicon Mac app that learns a song's melody on-device from Spotify, Apple Music or YouTube playback and then scores your singing pitch and timing line by line.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "dsmurrell",
+      "url": "https://github.com/dsmurrell/onkey",
+      "createdAt": "2026-10-22T14:04:44Z",
+      "updatedAt": "2026-10-22T14:04:44Z",
+      "content": "Built with Claude Code by a self-described bad singer, OnKey listens to your music app and your microphone. The first time through it shows lyrics; when the song ends it separates the lead vocal, tracks the singer's pitch with CREPE and converts it to per-syllable note bars with the GAME note model. On later plays the notes scroll toward a playhead with your live pitch drawn over them, plus a score and per-line report. Everything stays on the Mac (macOS 14.2+, M1 or later); only Shazam signatures, LRCLIB lyric lookups, iTunes metadata and update checks go out, and each can be switched off.\n\n[Repo on GitHub](https://github.com/dsmurrell/onkey)\n\n[Website](https://singonkey.app)\n\n[HN discussion](https://news.ycombinator.com/item?id=50195488)"
+    },
+    {
+      "id": "hn:50216187",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Token Quota, a Garmin watch face for your Codex usage limits",
+      "description": "A Garmin Instinct 2X Solar watch face shows remaining Codex 5-hour and 7-day quota and reset countdowns, fed by a Mac collector through MantleDB and Garmin Connect.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "gregkb",
+      "url": "https://github.com/greg76/token-quota/tree/main",
+      "createdAt": "2026-10-23T22:23:07Z",
+      "updatedAt": "2026-10-23T22:23:07Z",
+      "content": "A Python collector on the Mac reads quota from the signed-in Codex CLI every five minutes and publishes a snapshot (no prompts or credentials) to MantleDB. The watch fetches it via the phone's Garmin Connect app over Bluetooth. A circular gauge shows the five-hour window and a bar shows the seven-day window, with a marker for even-pace spending. A prebuilt signed .prg installs without the Garmin SDK. The snapshot URL is public, and other providers can be added with a collector that emits the shared payload.\n\n[Repo on GitHub](https://github.com/greg76/token-quota/tree/main)\n\n[HN discussion](https://news.ycombinator.com/item?id=50216187)"
+    },
+    {
+      "id": "reading:brooker-animations-system-builders",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Animations for System Builders: metastability and lost writes",
+      "description": "Marc Brooker uses LLM-built animations backed by real traces to show metastable failures in Postgres, etcd and a GC'd service, and Raft losing writes when one node lies about fsync.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Marc Brooker",
+      "url": "https://brooker.co.za/blog/2026/10/23/animations.html",
+      "createdAt": "2026-10-23T17:02:24Z",
+      "updatedAt": "2026-10-23T17:02:24Z",
+      "content": "Brooker argues that animations build intuition for how systems fail and answers skeptics who doubt metastability shows up in production-proven software. Each animation replays traces from a real test environment: a Raft cluster that loses writes when one member's storage fakes `fsync()`; Postgres 16 in a MicroVM tipping from page-cache hits to disk reads after a load spike; etcd write overload triggering storms of application resends; and a GC-driven loop where a read spike raises GC time and never recovers. The animations were generated with Kiro and KiroCrew, mostly using Opus 5.5.\n\n[Read the article](https://brooker.co.za/blog/2026/10/23/animations.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50212124)"
+    },
+    {
+      "id": "reading:abakcus-matsuyamas-paradox",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Matsuyama's Paradox: Pythagoras hiding in a puzzle",
+      "description": "Abakcus explains the vanishing-square puzzle where four congruent pieces close up without the middle square, because the rearranged frame is about 0.4 percent wider, an area change that is exactly the Pythagorean theorem.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/matsuyamas-paradox",
+      "createdAt": "2026-09-17T00:00:00Z",
+      "updatedAt": "2026-09-17T00:00:00Z",
+      "content": "A square is cut by two perpendicular lines through its centre, tilted by an angle θ, into four congruent pieces around a small square. Turned around, the pieces close into a solid square of side L/cos θ, slightly larger than L, and the small square of side L·tan θ is left over. Unlike the missing-square triangle there's no hidden kink. Only the frame grows, and L²/cos²θ = L² + (L·tan θ)² is Pythagoras. The article also traces the puzzle's thin provenance through magic journals: Mitsunobu Matsuyama, Masao Atsukawa in 1967, Yasuo Kiga, and Paul Curry's 1953 missing-square triangle.\n\n[Read the article](https://abakcus.com/articles/matsuyamas-paradox)"
+    },
+    {
+      "id": "reading:abakcus-3-4-5-incircle",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The unit circle inside the 3-4-5 triangle",
+      "description": "Abakcus gives two short proofs that the circle inscribed in a 3-4-5 triangle has radius exactly 1, and generalizes them to r = area/semiperimeter and r = (a + b - c)/2 for right triangles.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/3-4-5-triangle-incircle",
+      "createdAt": "2026-09-28T00:00:00Z",
+      "updatedAt": "2026-09-28T00:00:00Z",
+      "content": "The first proof joins the incentre to the three corners. The three small triangles all have height r, so their areas sum to 6r, which must equal the big triangle's area of 6. In general a triangle's area equals inradius times semiperimeter. The second proof uses equal tangent segments: the corner at the right angle forms a square of side r, so 5 = (4 − r) + (3 − r), giving r = 1 and, for any right triangle, r = (a + b − c)/2. That formula makes the inradius of every integer right triangle a whole number.\n\n[Read the article](https://abakcus.com/articles/3-4-5-triangle-incircle)"
+    },
+    {
+      "id": "x:2113554158074949749",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Charlie Cheever: in agent evals, UIKit keeps beating SwiftUI",
+      "description": "Charlie Cheever reports that in a batch of evals comparing SwiftUI and UIKit code written by AI, UIKit consistently came out ahead on quality and performance for about the same time and tokens.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Charlie Cheever (@ccheever)",
+      "url": "https://x.com/ccheever/status/2113554158074949749",
+      "createdAt": "2026-10-23T06:52:00Z",
+      "updatedAt": "2026-10-23T06:52:00Z",
+      "content": "> Have been running a bunch of evals comparing SwiftUI and UIKit recently, and interestingly, UIKit is beating SwiftUI pretty consistently -- better quality and performance for around the same time and tokens.\n\nThis matches Fernando's open Campfire chat-screen experiment, where agent-built UIKit and AppKit versions beat the SwiftUI ones on memory and smoothness ([SwiftUI vs AppKit round](https://x.com/fromjrtosr/status/2113430639076642878)).\n\n[Post on X](https://x.com/ccheever/status/2113554158074949749)"
+    },
+    {
+      "id": "x:2113430639076642878",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI vs AppKit: agent-built Campfire chat screen, and AppKit wins",
+      "description": "Fernando's one-prompt experiment had AI agents build a native Mac version of the Campfire chat screen. AppKit beat SwiftUI with 102.9 MB vs 216 MB peak memory and 97 vs 68.4 fps when flinging.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Fernando (@fromjrtosr)",
+      "url": "https://x.com/fromjrtosr/status/2113430639076642878",
+      "createdAt": "2026-10-23T00:41:00Z",
+      "updatedAt": "2026-10-23T00:41:00Z",
+      "content": "This is the Mac round of Fernando's ongoing experiment. AI agents (Opus and Sol) each build 37signals' Campfire chat room from **one prompt**, in AppKit (Swift and Objective-C) and in SwiftUI. Earlier rounds compared UIKit and SwiftUI on iPhone.\n\n| Metric | AppKit | SwiftUI |\n|---|---|---|\n| Peak memory | 102.9 MB | 216 MB |\n| Fling scroll | 97 fps | 68.4 fps |\n\nFernando notes that Sol did especially well with UIKit and Opus with AppKit. The prompts, shared CampfireKit fixtures, test harness and every build (including the round-4 `builds/mac` AppKit/SwiftUI variants) are in the repo.\n\nCharlie Cheever reports similar results from his own evals ([post](https://x.com/ccheever/status/2113554158074949749)).\n\n[notolivaresf/uikit-vs-swiftui on GitHub](https://github.com/notolivaresf/uikit-vs-swiftui)\n\n[Post on X](https://x.com/fromjrtosr/status/2113430639076642878)"
+    },
+    {
+      "id": "x:2113723250618589443",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Whio: an EPUB and PDF reader built for technical books on iPhone and iPad",
+      "description": "Nil Coalescing launched Whio, a reader for technical books. Code keeps its syntax highlighting and indentation, PDFs reflow, and accessibility features include letter distinction and a reading guide.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Nil Coalescing (@NilCoalescing)",
+      "url": "https://x.com/NilCoalescing/status/2113723250618589443",
+      "createdAt": "2026-10-23T20:04:28Z",
+      "updatedAt": "2026-10-23T20:04:28Z",
+      "content": "Natalia Panferova built Whio because traditional ebook readers mangle technical books.\n\n- **Code**: keeps syntax highlighting and indentation, scrolls horizontally instead of wrapping, has its own font, size and weight settings, and offers zoom and copy controls. Code blocks and images can open in separate sheets.\n- **PDFs**: turned into reflowable books, including scanned PDFs, with the same customization as EPUBs.\n- **Reading**: fonts, size, weight and line spacing, plus high-contrast, soft and tinted themes in light and dark. Text and code can have separate settings.\n- **Accessibility**: an adjustable letter-distinction feature (developed with feedback from Matt, who has dyslexia) and a reading guide that underlines or focuses the current lines.\n- **iPhone Duo**: when partially folded, it lays the book across both halves and keeps content clear of the fold.\n\nWhio is free and comes with three illustrated books. Whio Unlimited unlocks reading your own EPUBs and PDFs.\n\n[Introducing Whio: a reader built for technical books](https://nilcoalescing.com/blog/IntroducingWhio/)\n\n[Whio on the App Store](https://apps.apple.com/app/whio/id6813818431)\n\n[Post on X](https://x.com/NilCoalescing/status/2113723250618589443)"
     }
   ]
 }
