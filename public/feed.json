@@ -24472,6 +24472,255 @@
    "url": "https://walkman.uz/",
    "createdAt": "2026-10-22T22:50:51Z",
    "updatedAt": "2026-10-22T22:50:51Z"
+  },
+  {
+   "id": "reading:anthropic-llm-formal-verification",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "description": "Anthropic's Frontier Red Team and Theorem used Claude to write machine-checked proofs of memory safety at the RISC-V assembly level for 123 open-source libraries, finding long-hidden bugs along the way.",
+   "topics": [
+    "AI",
+    "Programming"
+   ],
+   "source": "Reading",
+   "author": "Anthropic Frontier Red Team",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "createdAt": "2026-10-22T00:00:00Z",
+   "updatedAt": "2026-10-22T00:00:00Z",
+   "content": "Formal verification used to cost far more than writing the code (seL4 took 2 person-years to build and 20 to verify). In this post Claude autonomously proves that executables from 123 open-source libraries always exit normally, with no memory-safety errors or failed assertions, for every input under 64 MB, under a modeled single-threaded RISC-V Linux environment. The post also covers early experiments: assessing zlib's security, proving a Rust-written Python interpreter behaves the same as the original, and digging out bugs that years of testing had missed. A subset of the proofs and the RISC-V/OS semantics are published, and Theorem has released a Claude skill for verifying your own code.\n\n[Read the post](https://www.anthropic.com/research/formal-verification)\n\n[HN discussion](https://news.ycombinator.com/item?id=50202217)"
+  },
+  {
+   "id": "hn:50202762",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Jank – the native Clojure dialect with seamless C++ interop",
+   "description": "jank is a Clojure dialect hosted on C++ instead of the JVM, with a Clang/LLVM JIT for REPL-driven development and direct use of C++ headers, templates, RAII and exceptions.",
+   "topics": [
+    "Programming"
+   ],
+   "source": "Hacker News",
+   "author": "giancarlostoro",
+   "url": "https://jank-lang.org/",
+   "createdAt": "2026-10-22T23:56:36Z",
+   "updatedAt": "2026-10-22T23:56:36Z",
+   "content": "jank keeps Clojure's immutable data and REPL workflow but swaps Java interop for C++ interop: you `:include` a header and call into libraries like Boost directly, with templates, virtual functions, overload resolution and exceptions working without bindings. It ships an LLVM-based JIT that works with nREPL editor plugins, can compile to C++, and has a Leiningen-based build system with Cargo-style native dependency handling. The site pitches it especially for game development (ImGui/GLFW/OpenGL examples).\n\n[jank website](https://jank-lang.org/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50202762)"
+  },
+  {
+   "id": "reading:bernsteinbear-object-shapes",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Objects, attributes, maps, oh my!",
+   "description": "Max Bernstein explains how dynamic-language runtimes replace per-object hash tables with shapes (hidden classes, maps), with a Python sketch, a tiny C++ runtime and a reading list.",
+   "topics": [
+    "Programming"
+   ],
+   "source": "Reading",
+   "author": "Max Bernstein",
+   "url": "https://bernsteinbear.com/blog/object-shapes/",
+   "createdAt": "2026-10-21T00:00:00Z",
+   "updatedAt": "2026-10-21T00:00:00Z",
+   "content": "Starting from a naive object model where every attribute lives in a dict, the post shows why that costs many instructions and dependent memory loads per `a.b`, then builds up shapes/hidden classes, the technique V8, JavaScriptCore, PyPy and Skybison use to store attributes inline and make inline caches fast. It ends with a minimal C++ runtime showing compact object headers and inline attribute layout, plus an annotated list of papers on shapes, class versioning and thread-safe objects.\n\n[Read the article](https://bernsteinbear.com/blog/object-shapes/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50197692)"
+  },
+  {
+   "id": "reading:dijkstra-ewd667-natural-language-programming",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "On the foolishness of \"natural language programming\" (EWD 667, 1978)",
+   "description": "Edsger Dijkstra's 1978 note arguing that formal symbolism is an asset rather than a burden, and that programming in natural language would make mistakes easier rather than programming easier. It is getting renewed attention in the age of LLM coding.",
+   "topics": [
+    "Programming",
+    "AI"
+   ],
+   "source": "Reading",
+   "author": "Edsger W. Dijkstra",
+   "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+   "createdAt": "2026-10-23T00:52:01Z",
+   "updatedAt": "2026-10-23T00:52:01Z",
+   "content": "Dijkstra recalls how high-level languages made more mistakes produce error messages instead of wrong answers, and argues that the precision of formal notation is what lets us do reasoning that natural language makes impractical. He warns that moving toward natural-language interfaces would bring back ambiguity instead of saving effort. The HN thread discusses it in the context of prompting LLMs to write code.\n\n[Read EWD 667](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50203161)"
+  },
+  {
+   "id": "hn:50208089",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Show HN: Fits Duo – which iOS apps fill iPhone Duo's inner display",
+   "description": "A crowd-sourced tracker for whether 1,088 iOS apps fill the foldable iPhone Duo's inner screen or run letterboxed, launched as the device goes on sale.",
+   "topics": [
+    "iOS / Mac Apps",
+    "Technology"
+   ],
+   "source": "Hacker News",
+   "author": "iridis",
+   "url": "https://fitsduo.com/",
+   "createdAt": "2026-10-23T12:41:40Z",
+   "updatedAt": "2026-10-23T12:41:40Z",
+   "content": "When posted, Fits Duo listed 1,088 apps: 219 fit the inner screen, 154 partly fit, 28 should fit (built with the iOS 27.1 SDK), 27 were being updated and about 650 ran letterboxed. Initial data comes from Apple's announcement, release notes, developers' statements and App Store builds inspected with ipatool. Owners can now submit screenshots, and developers can submit their own apps. It's handy for seeing how quickly apps are adopting the foldable layout.\n\n[Fits Duo](https://fitsduo.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50208089)"
+  },
+  {
+   "id": "hn:50203836",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Show HN: editmd – a WYSIWYG Markdown editor for macOS that works with agents",
+   "description": "editmd is a native macOS Markdown editor that edits rendered text in place and uses a Y.js CRDT to merge an agent's on-disk edits live, without clobbering your unsaved changes.",
+   "topics": [
+    "iOS / Mac Apps",
+    "AI",
+    "Programming"
+   ],
+   "source": "Hacker News",
+   "author": "Kira Howe",
+   "url": "https://kirahowe.com/2026/oct/22/editmd-0-1-0",
+   "createdAt": "2026-10-23T02:34:28Z",
+   "updatedAt": "2026-10-23T02:34:28Z",
+   "content": "Built for writing docs alongside coding agents: when a file changes on disk, editmd diffs it against the last version it saw, replays the changes block by block into a Y.js document, and merges them with what you've typed. Cmd-Z only undoes your own edits. It's an AppKit document app wrapping a bundled Milkdown (ProseMirror + remark) editor with no network loads. It autosaves, keeps encodings, line endings and front matter, and supports GitHub-flavored Markdown. Requires macOS 14+. Install with `brew install --cask kirahowe/tap/editmd`. It isn't signed with a Developer ID yet.\n\n[Release post](https://kirahowe.com/2026/oct/22/editmd-0-1-0)\n\n[HN discussion](https://news.ycombinator.com/item?id=50203836)"
+  },
+  {
+   "id": "reading:abakcus-1-998001",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "1/998001: the fraction that lists every number but 998",
+   "description": "Abakcus shows why dividing 1 by 998001 (999 squared) produces every three-digit block from 000 to 997 in order, then skips 998 before repeating, and explains where the missing 998 goes.",
+   "topics": [
+    "Math"
+   ],
+   "source": "Reading",
+   "author": "Ali Kaya",
+   "url": "https://abakcus.com/articles/1-998001",
+   "createdAt": "2026-09-26T00:00:00Z",
+   "updatedAt": "2026-09-26T00:00:00Z",
+   "content": "An interactive walk through the 2,997-digit repeating period of 1/998001: type any three-digit number to find it in the list. The article explains why it counts (998001 = 999², whose expansion is a sum of n/1000ⁿ) and why a carry near the end of the cycle swallows 998.\n\n[Read the article](https://abakcus.com/articles/1-998001)"
+  },
+  {
+   "id": "reading:abakcus-siteswap-juggling",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Juggler juggling juggling jugglers: siteswap explained",
+   "description": "Using the seven-ball pattern 966, Abakcus explains siteswap, the juggling notation that writes throws as digits, counts balls by averaging, and tests whether a pattern is possible using remainders.",
+   "topics": [
+    "Math"
+   ],
+   "source": "Reading",
+   "author": "Ali Kaya",
+   "url": "https://abakcus.com/articles/juggler-juggling-juggling-jugglers",
+   "createdAt": "2026-10-06T00:00:00Z",
+   "updatedAt": "2026-10-06T00:00:00Z",
+   "content": "Siteswap was invented independently around 1981–85 at Santa Cruz, Caltech and Cambridge. Each beat gets a number saying how many beats until that ball is thrown again: odd numbers cross hands, even numbers return, and bigger numbers fly higher. With ladder diagrams the article shows how 966 packs three high crossing balls and four balls that each stay in one hand. It also covers the averaging rule for counting balls and the modular check for validity, a neat case of a physical skill turning into number theory.\n\n[Read the article](https://abakcus.com/articles/juggler-juggling-juggling-jugglers)"
+  },
+  {
+   "id": "x:2113586403787342162",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "App Store Connect renames iPhone screenshot slots; 6.3-inch is now the required size",
+   "description": "Sarun W. points out that App Store Connect no longer labels iPhone screenshot slots by inches, and that the required slot is now the 6.3-inch size (1206 × 2622) rather than 6.9-inch.",
+   "topics": [
+    "iOS / Mac Apps"
+   ],
+   "source": "Twitter / X",
+   "author": "Sarun W. (@sarunw)",
+   "url": "https://x.com/sarunw/status/2113586403787342162",
+   "createdAt": "2026-10-23T11:00:41Z",
+   "updatedAt": "2026-10-23T11:00:41Z",
+   "content": "A quick heads-up for anyone shipping iOS apps: App Store Connect has renamed its iPhone screenshot slots and dropped the inch-based names. The **required** slot is now the 6.3″ size at **1206 × 2622** pixels, not the 6.9″ size. Worth checking your screenshot pipeline (fastlane, design templates) before your next submission.\n\n[Post on X](https://x.com/sarunw/status/2113586403787342162)"
+  },
+  {
+   "id": "x:2113581526470570108",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "SwiftFairy feedback in the loop keeps SwiftUI coding agents focused",
+   "description": "Matthaus Woolard says that feeding SwiftFairy's code-review findings back to coding agents during the loop, instead of front-loading a large skill library, keeps context small and produces more performant SwiftUI code.",
+   "topics": [
+    "iOS / Mac Apps",
+    "AI",
+    "Programming"
+   ],
+   "source": "Twitter / X",
+   "author": "Matthaus Woolard (@hishnash)",
+   "url": "https://x.com/hishnash/status/2113581526470570108",
+   "createdAt": "2026-10-23T10:41:19Z",
+   "updatedAt": "2026-10-23T10:41:19Z",
+   "content": "In a 52-second demo, Matthaus Woolard describes his team's workflow for building SwiftUI apps with agents: rather than stuffing the agent's context with a big library of skills up front, they let **SwiftFairy** review the generated code and return only the relevant findings. That keeps context small, focuses the agent's attention on actual issues, and leads to faster code.\n\nSwiftFairy is a Mac app from Nil Coalescing that reviews Swift and SwiftUI code locally. It groups its knowledge into \"Scrolls\" (data flow and state ownership, layout and resizability, Swift Charts performance and more) that together flag over 350 issue patterns, and returns explanations and code examples to the agent. It has a free trial.\n\n[SwiftFairy](https://tools.nilcoalescing.com/swiftfairy/)\n\n[Post on X](https://x.com/hishnash/status/2113581526470570108)"
+  },
+  {
+   "id": "x:2113495777028845703",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "iPhone Duo hinge states: closed, partiallyOpen and fullyOpen",
+   "description": "Sarun W. notes that apps can react to the foldable iPhone Duo's three hinge states (closed, partiallyOpen, fullyOpen) with the SwiftUI .onHingeChange modifier or UIKit's UIHingeInteraction.",
+   "topics": [
+    "iOS / Mac Apps",
+    "Programming"
+   ],
+   "source": "Twitter / X",
+   "author": "Sarun W. (@sarunw)",
+   "url": "https://x.com/sarunw/status/2113495777028845703",
+   "createdAt": "2026-10-23T05:00:34Z",
+   "updatedAt": "2026-10-23T05:00:34Z",
+   "content": "With the foldable iPhone Duo on sale, the new hinge API is worth knowing. There are three states: `closed`, `partiallyOpen` and `fullyOpen`. You can observe them in SwiftUI with `.onHingeChange` or in UIKit with `UIHingeInteraction`, for example to change your layout when the device is half-folded. If you want to see how many apps already adapt to the inner display, Fits Duo tracks this.\n\n[Show HN: Fits Duo discussion](https://news.ycombinator.com/item?id=50208089)\n\n[Post on X](https://x.com/sarunw/status/2113495777028845703)"
+  },
+  {
+   "id": "x:2113577153098866830",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Claude Code tops Artificial Analysis' new Coding Agent Index; Codex is far cheaper",
+   "description": "Artificial Analysis rebuilt its Coding Agent Index around code a maintainer would merge. Claude Code with Opus 5.5 leads at 61.7, while Codex with GPT-6.1 Sol scores 54.1 at $1.50 a task versus $11.42.",
+   "topics": [
+    "AI",
+    "Programming"
+   ],
+   "source": "Twitter / X",
+   "author": "Josh Builds (@Joshua_WD)",
+   "url": "https://x.com/Joshua_WD/status/2113577153098866830",
+   "createdAt": "2026-10-23T10:23:56Z",
+   "updatedAt": "2026-10-23T10:23:56Z",
+   "content": "Josh Builds' X Article breaks down the new version of Artificial Analysis' Coding Agent Index, which now focuses on whether an agent produces code a maintainer would actually merge. **Claude Code + Opus 5.5** is first at **61.7**. **Codex + GPT-6.1 Sol** reaches **54.1**, about 88% of that score, at **$1.50 per task versus $11.42** (about 13% of the cost).\n\nThe leaderboard says Index v2.0 combines three equally weighted benchmarks (FrontierCode v1.1, Terminal-Bench 4.0 and SWE-Atlas-QnA-AA), each averaged over three attempts per task, and also reports cost, tokens, time, safety refusals and reward hacking for each agent.\n\n[Coding Agent Index (Artificial Analysis)](https://artificialanalysis.ai/agents/coding-agents)\n\n[Methodology](https://artificialanalysis.ai/methodology/coding-agents-benchmarking)\n\n[Post on X](https://x.com/Joshua_WD/status/2113577153098866830)"
+  },
+  {
+   "id": "x:2113588865764049185",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "Wells Fargo trained its own 1B-parameter transaction model to catch fraud",
+   "description": "In a talk summarized by AINotes, Freddy Lecue describes how Wells Fargo trained a 1-billion-parameter transformer on billions of customer transactions, improving fraud detection and cutting false positives compared with its production XGBoost model.",
+   "topics": [
+    "Machine Learning",
+    "AI"
+   ],
+   "source": "Twitter / X",
+   "author": "AINotes (@ainotesus)",
+   "url": "https://x.com/ainotesus/status/2113588865764049185",
+   "createdAt": "2026-10-23T11:10:28Z",
+   "updatedAt": "2026-10-23T11:10:28Z",
+   "content": "A rare look at a bank building its own foundation model. Freddy Lecue explains that Wells Fargo trained a **1B-parameter transformer** directly on **billions of customer transactions** and compared it with the **XGBoost** model it runs in production for fraud detection. The transformer caught more fraud and produced fewer false positives. It's a useful data point on when sequence models trained on in-house data start beating gradient-boosted trees on tabular work.\n\n[Post on X](https://x.com/ainotesus/status/2113588865764049185)"
+  },
+  {
+   "id": "x:2113498238812918257",
+   "section": "news",
+   "type": "news",
+   "status": "inbox",
+   "title": "RLRLLL: a turmite that wanders for 12.7 billion steps, then changes habit",
+   "description": "Tim McNamara highlights RLRLLL, a generalized Langton's ant that behaves like an ordinary blob for about 12.7 billion steps, then starts building a triangle and never returns.",
+   "topics": [
+    "Programming",
+    "Science"
+   ],
+   "source": "Twitter / X",
+   "author": "Tim McNamara (@timClicks)",
+   "url": "https://x.com/timClicks/status/2113498238812918257",
+   "createdAt": "2026-10-23T05:10:21Z",
+   "updatedAt": "2026-10-23T05:10:21Z",
+   "content": "RLRLLL is one of the rules in Tim McNamara's turmite-autoresearch project, which studies generalized Langton's ants: why so many keep revisiting old ground and how their territory grows. This rule buzzes around in a blob for about **12.7 billion steps** on a blank grid, then switches into a column sweeper that moves west on every pass and builds a triangle, never returning to the blob. The research log covers how a small checker shows the sweeper runs forever (with a Lean proof in progress), along with other measured findings, such as time growing roughly with the cube of width.\n\n[Research log](https://timclicks.github.io/turmite-autoresearch/)\n\n[Post on X](https://x.com/timClicks/status/2113498238812918257)"
   }
  ]
 }
