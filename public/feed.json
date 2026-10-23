@@ -25032,6 +25032,180 @@
       "createdAt": "2026-10-22T16:14:31Z",
       "updatedAt": "2026-10-22T16:14:31Z",
       "content": "GNU Taler prepares for regulated operation of its privacy-preserving digital payment system in Germany.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50197404)"
+    },
+    {
+      "id": "hn:50211474",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "description": "A team reports that it successfully hacked the iPhone, sharing details of the exploit achieved.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pavel_lishin",
+      "url": "https://blog.calif.io/p/iphone",
+      "createdAt": "2026-10-23T16:21:50Z",
+      "updatedAt": "2026-10-23T16:21:50Z",
+      "content": "A team reports that it successfully hacked the iPhone, sharing details of the exploit achieved.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50211474)"
+    },
+    {
+      "id": "hn:50212065",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "description": "Kimi announces the K3.1 Pro and K3.1 Pro Highspeed models in its latest blog post.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Jowsey",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "createdAt": "2026-10-23T16:59:08Z",
+      "updatedAt": "2026-10-23T16:59:08Z",
+      "content": "Kimi announces the K3.1 Pro and K3.1 Pro Highspeed models in its latest blog post.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50212065)"
+    },
+    {
+      "id": "hn:50207910",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple Music 404 Not Found",
+      "description": "The poster links a nonexistent Apple Music page that returns a 404, highlighting broken links in Apple's music service.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "frizlab",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "createdAt": "2026-10-23T12:28:47Z",
+      "updatedAt": "2026-10-23T12:28:47Z",
+      "content": "The poster links a nonexistent Apple Music page that returns a 404, highlighting broken links in Apple's music service.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50207910)"
+    },
+    {
+      "id": "hn:50213925",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dessa: the most authentic full-duplex speech model ever built",
+      "description": "Dessa is introduced as a full-duplex speech model aiming for the most authentic conversational voice synthesis yet.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "dsr12",
+      "url": "https://block.xyz/dessa",
+      "createdAt": "2026-10-23T19:09:54Z",
+      "updatedAt": "2026-10-23T19:09:54Z",
+      "content": "Dessa is introduced as a full-duplex speech model aiming for the most authentic conversational voice synthesis yet.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50213925)"
+    },
+    {
+      "id": "hn:50214218",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "description": "Google says it may use data from Gmail and Google Photos to target ads, per an update to its personal intelligence privacy policy.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "JustSkyfall",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "createdAt": "2026-10-23T19:34:15Z",
+      "updatedAt": "2026-10-23T19:34:15Z",
+      "content": "Google says it may use data from Gmail and Google Photos to target ads, per an update to its personal intelligence privacy policy.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50214218)"
+    },
+    {
+      "id": "hn:50209907",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+      "description": "An approach achieves 39 to 69 percent less thinking compute for the Gemma-4-26B-A4B model while keeping the same accuracy.",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "armcat",
+      "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
+      "createdAt": "2026-10-23T14:43:02Z",
+      "updatedAt": "2026-10-23T14:43:02Z",
+      "content": "An approach achieves 39 to 69 percent less thinking compute for the Gemma-4-26B-A4B model while keeping the same accuracy.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50209907)"
+    },
+    {
+      "id": "hn:50214416",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI: Securing our frontier model training environment",
+      "description": "OpenAI describes how it secures the environment used for training its frontier models.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "pretext",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "createdAt": "2026-10-23T19:50:56Z",
+      "updatedAt": "2026-10-23T19:50:56Z",
+      "content": "OpenAI describes how it secures the environment used for training its frontier models.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50214416)"
+    },
+    {
+      "id": "hn:50211746",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "UUIDv7 doesn't have the properties you think it does",
+      "description": "A look at UUIDv7, arguing it lacks several of the properties developers commonly assume it has.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+      "createdAt": "2026-10-23T16:39:45Z",
+      "updatedAt": "2026-10-23T16:39:45Z",
+      "content": "A look at UUIDv7, arguing it lacks several of the properties developers commonly assume it has.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50211746)"
+    },
+    {
+      "id": "hn:50216027",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Fix for Softmax and Cross-Entropy",
+      "description": "A proposed fix addresses issues with the softmax function and cross-entropy loss used in neural network training.",
+      "topics": [
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "Georgelemental",
+      "url": "https://jonbarron.info/softmaxfix/",
+      "createdAt": "2026-10-23T22:07:57Z",
+      "updatedAt": "2026-10-23T22:07:57Z",
+      "content": "A proposed fix addresses issues with the softmax function and cross-entropy loss used in neural network training.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50216027)"
+    },
+    {
+      "id": "hn:50214983",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A whirlwind tour of systemd-nspawn containers",
+      "description": "A quick tour of systemd-nspawn, the lightweight container tool built into systemd.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+      "createdAt": "2026-10-23T20:37:12Z",
+      "updatedAt": "2026-10-23T20:37:12Z",
+      "content": "A quick tour of systemd-nspawn, the lightweight container tool built into systemd.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50214983)"
     }
   ]
 }
