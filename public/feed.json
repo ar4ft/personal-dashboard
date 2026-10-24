@@ -25975,6 +25975,169 @@
       "createdAt": "2026-10-20T23:18:20Z",
       "updatedAt": "2026-10-20T23:18:20Z",
       "content": "What does it actually cost to run an 80B model at home? Sam put a wall meter on his rig and posted the numbers.\n\n| Measure | Value |\n|---|---|\n| Hardware | 3x Radeon AI PRO R9700 |\n| Model | Qwen3-Coder-Next 80B, Q6_K |\n| Runtime | llama.cpp with ROCm |\n| Speed | about 55 tokens/s |\n| Idle | 80 W |\n| Generating | 425-440 W |\n| Reading long prompts | up to 886 W |\n\n[Post on X, with video](https://x.com/sultanminutes/status/2112684873286861115)"
+    },
+    {
+      "id": "hn:50224463",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "No signs of AI payoff outside the tech sector",
+      "description": "An Apollo analysis finds no signs of an AI payoff outside the technology sector so far.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "the-mitr",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "createdAt": "2026-10-24T19:47:19Z",
+      "updatedAt": "2026-10-24T19:47:19Z"
+    },
+    {
+      "id": "hn:50222622",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Roku developer repositories moved from GitHub to GitLab",
+      "description": "Roku says its developer repositories have moved from GitHub to GitLab.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "cxr",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "createdAt": "2026-10-24T16:06:26Z",
+      "updatedAt": "2026-10-24T16:06:26Z"
+    },
+    {
+      "id": "hn:50222133",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FreeDNS",
+      "description": "A link to FreeDNS, shared on Hacker News.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "esher",
+      "url": "https://freedns.afraid.org/",
+      "createdAt": "2026-10-24T15:20:01Z",
+      "updatedAt": "2026-10-24T15:20:01Z"
+    },
+    {
+      "id": "hn:50223785",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dream-1",
+      "description": "Dream-1, a research project from Dream Labs, shared on Hacker News.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "GaggiX",
+      "url": "https://dreamlabs.ai/research/dream-1/",
+      "createdAt": "2026-10-24T18:23:24Z",
+      "updatedAt": "2026-10-24T18:23:24Z"
+    },
+    {
+      "id": "hn:50224074",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PHP Foundation 'under-funded' with one full-time staff member, director says",
+      "description": "Reuters reports the PHP Foundation is under-funded, with its director saying it has only one full-time staff member.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "firesteelrain",
+      "url": "https://www.reuters.com/technology/php-foundation-under-funded-with-one-full-time-staff-member-director-says-2026-10-23/",
+      "createdAt": "2026-10-24T19:03:59Z",
+      "updatedAt": "2026-10-24T19:03:59Z"
+    },
+    {
+      "id": "hn:50192975",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications",
+      "description": "TornadoVM 7 enables GPU-native workloads from Java applications.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "pjmlp",
+      "url": "https://www.infoq.com/news/2026/10/tornadovm-7-gpu/",
+      "createdAt": "2026-10-22T09:01:10Z",
+      "updatedAt": "2026-10-22T09:01:10Z"
+    },
+    {
+      "id": "hn:50222525",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Neural chip decodes interactions between brain regions",
+      "description": "A neural chip that decodes interactions between brain regions, as reported by EPFL News.",
+      "topics": [
+        "Neural Networks",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "giuliomagnifico",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "createdAt": "2026-10-24T15:57:17Z",
+      "updatedAt": "2026-10-24T15:57:17Z"
+    },
+    {
+      "id": "hn:50180251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tiling Noise – Procedural GPU Patterns",
+      "description": "A guide to tiling noise as a procedural GPU pattern.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://catlikecoding.com/godot/procedural-gpu-patterns/09-tiling-noise/",
+      "createdAt": "2026-10-21T13:04:07Z",
+      "updatedAt": "2026-10-21T13:04:07Z"
+    },
+    {
+      "id": "hn:50223777",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Bbtree: Fastest Ordered Map",
+      "description": "Bbtree is presented as the fastest ordered map.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "aoli-al",
+      "url": "https://bbtree.xiangpeng.systems/post/",
+      "createdAt": "2026-10-24T18:22:14Z",
+      "updatedAt": "2026-10-24T18:22:14Z"
+    },
+    {
+      "id": "hn:50225695",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We should be more ambitious with the software we build",
+      "description": "An essay arguing that developers should be more ambitious with the software they build.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ltratt",
+      "url": "https://danluu.com/ambitious/",
+      "createdAt": "2026-10-24T21:47:31Z",
+      "updatedAt": "2026-10-24T21:47:31Z"
     }
   ]
 }
