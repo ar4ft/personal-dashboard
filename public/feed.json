@@ -25559,6 +25559,170 @@
       "createdAt": "2026-10-23T12:00:00Z",
       "updatedAt": "2026-10-23T12:00:00Z",
       "content": "GitLab compiles user-supplied regular expressions, such as patterns in CI configuration, with `Regexp.new`. It found that specially crafted patterns could corrupt memory during compilation (a double free and several integer overflows) and lead to remote code execution, and published CVE-2026-89078, CVE-2026-93577, CVE-2026-97229 and CVE-2026-110264. GitLab patched the Ruby it ships, and Ruby 4.0.9, 3.4.12 and 3.3.13 now fix the underlying bugs for everyone. Upgrade if your app compiles untrusted regexes.\n\n[Ruby release notes](https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves/)"
+    },
+    {
+      "id": "hn:50218633",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "description": "A hacker reverse-engineered a Samsung TV and reports finding on-board AI listening, with an OpenAI account suspended in connection with the findings.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "testing22321",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "createdAt": "2026-10-24T05:49:57Z",
+      "updatedAt": "2026-10-24T05:49:57Z"
+    },
+    {
+      "id": "hn:50217495",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "description": "Around a dozen banking apps have begun specifically permitting GrapheneOS, a notable shift for users of the privacy-focused mobile OS.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "privacyishuman",
+      "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+      "createdAt": "2026-10-24T01:15:14Z",
+      "updatedAt": "2026-10-24T01:15:14Z"
+    },
+    {
+      "id": "hn:50218430",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OBS Studio 33",
+      "description": "OBS Studio 33 has been released, the latest version of the open-source streaming and recording software.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pentagrama",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "createdAt": "2026-10-24T04:49:58Z",
+      "updatedAt": "2026-10-24T04:49:58Z"
+    },
+    {
+      "id": "hn:50215530",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CVE Tracker",
+      "description": "CVE Tracker is a tool for tracking published vulnerabilities.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Group_B",
+      "url": "https://cve.0xosprey.com/",
+      "createdAt": "2026-10-23T21:21:47Z",
+      "updatedAt": "2026-10-23T21:21:47Z"
+    },
+    {
+      "id": "hn:50214373",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "description": "Corgi is a multiplexer designed to help agents and terminals work together.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "eiopa",
+      "url": "https://corgi.computer/",
+      "createdAt": "2026-10-23T19:46:38Z",
+      "updatedAt": "2026-10-23T19:46:38Z"
+    },
+    {
+      "id": "hn:50176544",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "C vs. C#: racing VLC's Gaussian blur",
+      "description": "A head-to-head race compares VLC's Gaussian blur implementations in C and C#.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "martz",
+      "url": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/",
+      "createdAt": "2026-10-21T05:48:12Z",
+      "updatedAt": "2026-10-21T05:48:12Z"
+    },
+    {
+      "id": "hn:50220364",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Amazon's Trainium Takes a Strike at the Training King",
+      "description": "SemiAnalysis examines how Amazon's Trainium chips are challenging the reigning leader in AI training hardware.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "admjs",
+      "url": "https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at",
+      "createdAt": "2026-10-24T11:45:06Z",
+      "updatedAt": "2026-10-24T11:45:06Z"
+    },
+    {
+      "id": "hn:50220605",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ReplaySSM: Cache SSM Inputs, Not State (Tri Dao)",
+      "description": "Tri Dao's ReplaySSM proposes caching state-space model inputs rather than state, a new approach to efficient sequence modeling.",
+      "topics": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "motownphilly",
+      "url": "https://tridao.me/blog/2026/replayssm/",
+      "createdAt": "2026-10-24T12:24:59Z",
+      "updatedAt": "2026-10-24T12:24:59Z"
+    },
+    {
+      "id": "hn:50220773",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Mantid, a Mac app that lets non-ML people train their own AI models",
+      "description": "Mantid is a Mac app that lets people without machine-learning experience train their own AI models.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "adiv_maimon",
+      "url": "https://mantid.dev",
+      "createdAt": "2026-10-24T12:49:06Z",
+      "updatedAt": "2026-10-24T12:49:06Z"
+    },
+    {
+      "id": "hn:50220694",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI gets more diagnoses right than generalist doctors in medical challenge",
+      "description": "In a medical challenge, AI systems got more diagnoses right than generalist doctors.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "geox",
+      "url": "https://medicalxpress.com/news/2026-10-ai-generalist-doctors-medical.html",
+      "createdAt": "2026-10-24T12:38:09Z",
+      "updatedAt": "2026-10-24T12:38:09Z"
     }
   ]
 }
