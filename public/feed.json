@@ -25347,6 +25347,218 @@
       "createdAt": "2026-10-23T20:04:28Z",
       "updatedAt": "2026-10-23T20:04:28Z",
       "content": "Natalia Panferova built Whio because traditional ebook readers mangle technical books.\n\n- **Code**: keeps syntax highlighting and indentation, scrolls horizontally instead of wrapping, has its own font, size and weight settings, and offers zoom and copy controls. Code blocks and images can open in separate sheets.\n- **PDFs**: turned into reflowable books, including scanned PDFs, with the same customization as EPUBs.\n- **Reading**: fonts, size, weight and line spacing, plus high-contrast, soft and tinted themes in light and dark. Text and code can have separate settings.\n- **Accessibility**: an adjustable letter-distinction feature (developed with feedback from Matt, who has dyslexia) and a reading guide that underlines or focuses the current lines.\n- **iPhone Duo**: when partially folded, it lays the book across both halves and keeps content clear of the fold.\n\nWhio is free and comes with three illustrated books. Whio Unlimited unlocks reading your own EPUBs and PDFs.\n\n[Introducing Whio: a reader built for technical books](https://nilcoalescing.com/blog/IntroducingWhio/)\n\n[Whio on the App Store](https://apps.apple.com/app/whio/id6813818431)\n\n[Post on X](https://x.com/NilCoalescing/status/2113723250618589443)"
+    },
+    {
+      "id": "reading:otoole-twelve-years-distributed-sqlite",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Twelve years of distributed SQLite",
+      "description": "rqlite's creator Philip O'Toole tells the history of distributed SQLite from rqlite's Raft-backed design in 2014 through dqlite, Litestream and the newer wave of projects.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Philip O'Toole",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "createdAt": "2026-10-24T01:16:58Z",
+      "updatedAt": "2026-10-24T01:16:58Z",
+      "content": "In 2014 Philip O'Toole put a Raft log in front of SQLite and released **rqlite**, which he believes was the first open-source system to combine the two. It is a CP system: writes go through the leader and need a majority, and a partitioned minority refuses writes. The post walks through what came next, including Expensify's Bedrock and ActorDB, Canonical's embeddable **dqlite** for LXD and MicroK8s, and Ben Johnson's **Litestream**, which skips consensus and streams the WAL to S3 for cheap disaster recovery, up to today's crowded and partly venture-funded category.\n\n[Read the post](https://philipotoole.com/twelve-years-of-distributed-sqlite/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50217500)"
+    },
+    {
+      "id": "reading:rtfeldman-fp-vs-c",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How close can pure functional programming get to C?",
+      "description": "Richard Feldman optimized roc-deflate, a pure functional DEFLATE library in Roc, until it ran within a few percent of the hand-tuned C library libdeflate on the Silesia corpus.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Richard Feldman",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "createdAt": "2026-10-24T03:43:54Z",
+      "updatedAt": "2026-10-24T03:43:54Z",
+      "content": "Prompted by a Lean 4 DEFLATE library beating Rust's miniz_oxide, Feldman took Roc's roc-deflate package and tuned it against **libdeflate**, the SIMD-heavy C benchmark leader. Across 144 non-streaming benchmarks on the Silesia corpus, with byte-identical output, the median slowdown versus libdeflate was 8.9% on a Ryzen 9 3900X and 2.6% on an M1 MacBook Pro. The post explains the techniques that got it there, such as constant lookup tables that avoid bounds checks and choosing wrapping arithmetic where overflow checks can't be proven away.\n\n[Read the post](https://rtfeldman.com/fp-vs-c)\n\n[HN discussion](https://news.ycombinator.com/item?id=50218195)"
+    },
+    {
+      "id": "hn:50219177",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HTTP2Shell: the Brotli RCE (CVE-2026-111497) reaches many HTTP libraries and apps",
+      "description": "Aikido reports that the Brotli decompression flaw first disclosed as Node2Shell in Node.js also affects Python packages and other languages and services that decompress attacker-controlled HTTP content.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "createdAt": "2026-10-24T08:06:39Z",
+      "updatedAt": "2026-10-24T08:06:39Z",
+      "content": "On October 21 Node.js disclosed CVE-2026-111497 (\"node2shell\"): a process that decompresses attacker-controlled Brotli data can be made to leak memory or run arbitrary code. Python followed on October 22, and by October 23 it was clear that other major languages and HTTP-facing applications that accept Brotli-encoded content are exposed too, which Aikido now calls **HTTP2Shell**. A related advisory says the same Brotli bug affects curl and Git. If you run services that accept compressed request bodies, check your Brotli versions.\n\n[Aikido write-up](https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497)\n\n[GitHub advisory: Brotli vulnerability affects curl and Git](https://github.com/advisories/GHSA-9v8h-qqgm-4m35)\n\n[HN discussion](https://news.ycombinator.com/item?id=50219177)"
+    },
+    {
+      "id": "hn:50217903",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple Security Research Device program is accepting applications until October 30",
+      "description": "Apple is taking applications for its Security Research Device program, a specially fused iPhone with shell access, custom entitlements and kernel customization for iOS security research.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "neom",
+      "url": "https://security.apple.com/research-device/",
+      "createdAt": "2026-10-24T02:36:38Z",
+      "updatedAt": "2026-10-24T02:36:38Z",
+      "content": "The Security Research Device (SRD) is an iPhone fused so researchers can study iOS without first bypassing its protections. Participants get shell access, can run any tools, choose their own entitlements and even customize the kernel, plus software previews, security beta projects and the SRD research community. Every iOS and iPhone component is in scope except Apple Pay and third-party apps. Applications are open through **October 30, 2026**.\n\n[Apple Security Research Device Program](https://security.apple.com/research-device/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50217903)"
+    },
+    {
+      "id": "reading:astral-uv-ty-integration",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Astral brings uv and ty together with a unified uv check",
+      "description": "Astral's experimental uv and ty integration adds first-class support for Python scripts on the CLI and in the editor, plus a single uv check command.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Sara Sklenka",
+      "url": "https://astral.sh/blog/uv-ty-integration",
+      "createdAt": "2026-10-20T21:30:56Z",
+      "updatedAt": "2026-10-20T21:30:56Z",
+      "content": "Astral builds uv (package manager), Ruff (linter and formatter) and ty (type checker and language server). The new experimental integration lets ty use uv's understanding of the project, so standalone Python scripts with inline dependencies get proper type checking and editor support, and `uv check` runs checks from one command. Astral describes it as a first step toward an integrated toolchain where the tools share project knowledge.\n\n[Read the announcement](https://astral.sh/blog/uv-ty-integration)\n\n[HN discussion](https://news.ycombinator.com/item?id=50172962)"
+    },
+    {
+      "id": "reading:danielball-ai-image-generation-guide",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A practical guide to AI image generation, from diffusion to agents",
+      "description": "Daniel Ball's hands-on guide explains how diffusion and multimodal image models work, what they cost, prompting that works, and how to call image providers from code and agents.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Daniel Ball",
+      "url": "https://danielball.com/notes/ai_image_generation.html",
+      "createdAt": "2026-10-20T19:22:39Z",
+      "updatedAt": "2026-10-20T19:22:39Z",
+      "content": "Built from his own experiments calling several image providers from Python (pixel-art sprites, photoreal card-table backgrounds, restaurant posters), the guide covers a short history of the field, how diffusion and multimodal models differ and whether the latter use diffusion under the hood, seeds, what ChatGPT actually gives you, the four ways providers bill and cost per usable image, and prompting rules of thumb such as describing the camera rather than the view.\n\n[Read the guide](https://danielball.com/notes/ai_image_generation.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50171379)"
+    },
+    {
+      "id": "reading:abakcus-penrose-triangle",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Penrose triangle: why the impossible triangle can't exist",
+      "description": "Abakcus traces the impossible triangle from Reutersvärd and the Penroses to Escher, gives a short proof that it cannot exist in 3D, and shows how to draw it.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/penrose-triangle",
+      "createdAt": "2026-10-14T00:00:00Z",
+      "updatedAt": "2026-10-14T00:00:00Z",
+      "content": "Three beams that seem to meet at right angles cannot close up in three-dimensional space, though a model of real cubes can be built that looks closed from exactly one viewpoint. The article covers Oscar Reutersvärd's cube drawings, Lionel and Roger Penrose's version, Escher's *Waterfall*, a five-line proof of impossibility, a higher-dimensional embedding, and a four-step way to draw it yourself.\n\n[Read the article](https://abakcus.com/articles/penrose-triangle)"
+    },
+    {
+      "id": "reading:abakcus-gaussian-integral",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The circle that isn't there: why the Gaussian integral equals √π",
+      "description": "Abakcus explains how squaring the integral of e^(−x²), moving to the plane and switching to polar coordinates makes π appear in a few lines.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/gaussian-integral",
+      "createdAt": "2026-08-07T00:00:00Z",
+      "updatedAt": "2026-08-07T00:00:00Z",
+      "content": "The bell curve e^(−x²) underlies exam scores and measurement errors, yet it has no elementary antiderivative, so its area can't be found the usual way. The trick: multiply the integral by itself to get a double integral over the whole plane, switch to polar coordinates where an extra factor of r makes the integral easy, and π falls out. Taking the square root gives √π, and the circle hidden in the problem turns out to come from the rotational symmetry of e^(−(x²+y²)).\n\n[Read the article](https://abakcus.com/articles/gaussian-integral)"
+    },
+    {
+      "id": "x:2113888278017425462",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Xcode 27's agent skills can be exported for use outside Xcode",
+      "description": "Sarun W. points out that Xcode 27 ships agent skills for modern best practices and new APIs, and one xcrun command exports them for other coding agents.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2113888278017425462",
+      "createdAt": "2026-10-24T07:00:14Z",
+      "updatedAt": "2026-10-24T07:00:14Z",
+      "content": "Xcode 27 includes agent skills covering modern best practices and new APIs. To use them with agents outside Xcode, run:\n\n```\nxcrun agent skills export --output-dir ~/Downloads/xcode-skills\n```\n\nStanislav Dvojčenko adds that in Xcode 27.1 the export gives you 10 skills while Xcode ships 12. The two String Catalog skills (translation and translation-coordinator) are left out, but you can copy them from `IDEXCStringsSupport.framework/Versions/A/Resources/Skills` and drop the `.packaged` suffix.\n\n[Post on X](https://x.com/sarunw/status/2113888278017425462)\n\n[Stanislav's tip on the missing skills](https://x.com/staninprague/status/2113931498093260897)"
+    },
+    {
+      "id": "x:2113956314837877086",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Infall: a Mac app that shows what's inside macOS System Data",
+      "description": "Facu launched Infall, which breaks down macOS System Data into Xcode leftovers, simulators, Docker, node_modules, old Claude Code and Codex sessions, and caches.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Facu (@faqdev)",
+      "url": "https://x.com/faqdev/status/2113956314837877086",
+      "createdAt": "2026-10-24T11:30:35Z",
+      "updatedAt": "2026-10-24T11:30:35Z",
+      "content": "macOS reports a huge System Data figure without saying what is in it. Infall shows where the space went, with developer-heavy categories like Xcode leftovers, simulators, Docker, node_modules, old Claude Code and Codex sessions, and caches. Items that are safe to delete come preselected, and anything riskier starts unticked.\n\n[Post on X](https://x.com/faqdev/status/2113956314837877086)"
+    },
+    {
+      "id": "x:2113965753372184996",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Open SwiftUI Animations: Apple-style animation examples, including Liquid Glass morphing",
+      "description": "An open-source collection of SwiftUI animation examples modeled on Apple's apps, including PhaseAnimator varying button spacing inside a GlassEffectContainer for Liquid Glass shape morphing.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Niko's Mobile Open Source Finds (@mobileossfinds)",
+      "url": "https://github.com/amosgyamfi/open-swiftui-animations",
+      "createdAt": "2026-10-24T12:08:05Z",
+      "updatedAt": "2026-10-24T12:08:05Z",
+      "content": "Amos Gyamfi's repo collects SwiftUI recreations of animations from Apple's apps. One highlighted example uses `PhaseAnimator` to vary button spacing inside a `GlassEffectContainer`, so the Liquid Glass shapes morph as they move apart and together.\n\n[Repo on GitHub](https://github.com/amosgyamfi/open-swiftui-animations)\n\n[Post on X](https://x.com/mobileossfinds/status/2113965753372184996)"
+    },
+    {
+      "id": "reading:ruby-regexp-fixes-gitlab-cves",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ruby 4.0.9, 3.4.12 and 3.3.13 fix regex engine bugs behind GitLab RCE CVEs",
+      "description": "Ruby released patch versions fixing memory-corruption bugs in its Onigmo regular expression engine that GitLab found could be turned into remote code execution through user-supplied patterns.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "k0kubun",
+      "url": "https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves/",
+      "createdAt": "2026-10-23T12:00:00Z",
+      "updatedAt": "2026-10-23T12:00:00Z",
+      "content": "GitLab compiles user-supplied regular expressions, such as patterns in CI configuration, with `Regexp.new`. It found that specially crafted patterns could corrupt memory during compilation (a double free and several integer overflows) and lead to remote code execution, and published CVE-2026-89078, CVE-2026-93577, CVE-2026-97229 and CVE-2026-110264. GitLab patched the Ruby it ships, and Ruby 4.0.9, 3.4.12 and 3.3.13 now fix the underlying bugs for everyone. Upgrade if your app compiles untrusted regexes.\n\n[Ruby release notes](https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves/)"
     }
   ]
 }
