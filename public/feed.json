@@ -25723,6 +25723,258 @@
       "url": "https://medicalxpress.com/news/2026-10-ai-generalist-doctors-medical.html",
       "createdAt": "2026-10-24T12:38:09Z",
       "updatedAt": "2026-10-24T12:38:09Z"
+    },
+    {
+      "id": "hn:50224100",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Goose: a memory-safe systems language with no heap, GC or lifetime annotations",
+      "description": "Wouter van Oortmerssen's Goose keeps every dynamic value inline on compiler-managed data stacks, and its own benchmarks show it beating idiomatic C++ and safe Rust on speed and memory.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "bobbydigitales",
+      "url": "https://aardappel.github.io/goose/",
+      "createdAt": "2026-10-24T19:06:55Z",
+      "updatedAt": "2026-10-24T19:06:55Z",
+      "content": "Goose looks like C or Rust, but it has no heap allocator, garbage collector, reference counting or destructors. Dynamic values live inline on a few data stacks that the compiler assigns statically, and memory is freed when a scope ends. The compiler infers what each reference is rooted in and rejects any reference that could outlive its owner, so you never write lifetime annotations. References into growing arrays stay valid, enums take only their own variant's size, and relative links can be 1-, 2- or 4-byte offsets. Across the repo's sixteen benchmarks the author reports 3.3x the speed of idiomatic C++, 1.16x hand-optimized C++ and 1.12x the best safe Rust, while using less memory.\n\n[Goose home and docs](https://aardappel.github.io/goose/)\n\n[John Carmack's post about it](https://twitter.com/ID_AA_Carmack/status/2113704269274636568)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50224100)"
+    },
+    {
+      "id": "hn:50171936",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PySR: high-performance symbolic regression in Python and Julia",
+      "description": "PySR searches for interpretable closed-form equations that fit your data, runs on the Julia engine SymbolicRegression.jl, and can distill trained neural networks into analytic formulas.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "alex_hirner",
+      "url": "https://github.com/astroautomata/PySR",
+      "createdAt": "2026-10-20T20:07:35Z",
+      "updatedAt": "2026-10-20T20:07:35Z",
+      "content": "Symbolic regression is an ML task where the model is an equation rather than a set of weights. PySR is built to be fast and very configurable: you pick operators, constraints and losses, and an evolutionary search in the Julia library SymbolicRegression.jl does the work. It is installed with `pip install pysr`. It does best on low-dimensional data, but its \"symbolic distillation\" approach fits a neural net first and then recovers an analytic equation from it, which is a practical way to interpret deep models. The project now also ships an agent skill so coding agents can use PySR inside larger loops.\n\n[PySR on GitHub](https://github.com/astroautomata/PySR)\n\n[PySR paper (arXiv:2305.01582)](https://arxiv.org/abs/2305.01582)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50171936)"
+    },
+    {
+      "id": "hn:50219700",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GPU-unlock doubles FP16/BF16 tensor issue rate on RTX 30-series cards",
+      "description": "A Linux kernel module unlocks Ampere GeForce cards before the stock NVIDIA driver loads, giving them the professional-tier FP16/BF16 issue rate. One reported RTX 3090 Ti BF16 GEMM went from 87.5 to 157.4 TFLOPS.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "fragebogen",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "createdAt": "2026-10-24T09:58:27Z",
+      "updatedAt": "2026-10-24T09:58:27Z",
+      "content": "GA102/103/104/106 GeForce cards issue FP16/BF16 FMA-into-FP32 instructions at half the rate of their professional counterparts. This kmod combines the CMP unlocker's V67/PLM technique with the early timing of a UEFI approach: it runs the unlock, writes the speed selectors and does a function-level reset, all before the unmodified NVIDIA driver binds. That means you don't have to re-patch the driver for every release. In the posted results, a 3090 Ti dense 8192³ GEMM went from 87.5 to 157.4 TFLOPS in BF16 and from 42.6 to 82.6 in TF32. User reports for other cards vary, roughly +25–80%. That matters for anyone doing local ML training or inference on used 3090s. It is a low-level hack, so read the compatibility reports before trying it.\n\n[gpu-unlock on GitHub](https://github.com/Zagitta/gpu-unlock)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50219700)"
+    },
+    {
+      "id": "hn:50223647",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why is AI-generated language so hard to understand?",
+      "description": "Researchers find that nine frontier models use more of the features that make text hard for people to process, such as long dependencies, stacked nouns and rare n-grams. They argue this comes from optimizing models for information density.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "canjobear",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "createdAt": "2026-10-24T18:04:57Z",
+      "updatedAt": "2026-10-24T18:04:57Z",
+      "content": "Thomas Hikaru Clark, Matias B. Martin and Kyle Mahowald built a corpus of AI-generated text and measured psycholinguistic features known to slow human readers. Compared with human writing, all nine frontier and near-frontier models use more inanimate subjects with animate verbs and more low-frequency n-grams. Most also use longer syntactic dependencies, more stacked nouns and more reduced object relatives, and the model families differ a lot. The authors' hypothesis is that training for math, code and reasoning rewards dense output over successful communication. As a proof of concept, fine-tuning a model under a length penalty pushed its language away from human-like patterns.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.29162)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50223647)"
+    },
+    {
+      "id": "hn:50222061",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DetectorScope: Google DeepMind's AI text detector that shows its work",
+      "description": "DetectorScope turns a black-box AI-text detector into one whose every prediction is a sum of named, validated features, and it highlights where in the text each feature fires.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://github.com/google-deepmind/detectorscope",
+      "createdAt": "2026-10-24T15:13:07Z",
+      "updatedAt": "2026-10-24T15:13:07Z",
+      "content": "The pipeline trains sparse autoencoders on a detector's residual stream, gives each feature a description and a validation score, keeps only features above a threshold, and fits a sparse head on them. The result is a concept-bottleneck detector. `pip install detectorscope` returns a label, p(AI) and ranked features such as \"the word about used as a preposition\" or \"repeated phrases\". The same pipeline can convert your own black-box detector, and you can use it to compare stylistic tendencies across LLMs. There is a Hugging Face demo, and the work is slated for EMNLP 2026.\n\n[DetectorScope on GitHub](https://github.com/google-deepmind/detectorscope)\n\n[Hugging Face demo](https://huggingface.co/spaces/liamdugan/detector-scope-demo)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50222061)"
+    },
+    {
+      "id": "hn:50211429",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Koala runs AI agents in isolated Linux VMs on Apple silicon Macs",
+      "description": "Koala is a Homebrew-installed tool that runs jobs, services, dev environments and AI agents in their own ARM64 Linux VMs on macOS 26. A broker keeps API keys in your Mac keychain so they never enter the VM.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kunalkushwaha",
+      "url": "https://kunalkushwaha.github.io/homebrew-koala/",
+      "createdAt": "2026-10-23T16:18:31Z",
+      "updatedAt": "2026-10-23T16:18:31Z",
+      "content": "Each Koala VM has its own kernel, disk and network and gets only the access you grant it. You can start a throwaway job with `koala run --image alpine:3 -- ...`, keep persistent environments with `create`/`start`/`exec`, or set up a sandboxed agent with no internet access. For agents, a policy broker injects the real key only into allowed API requests, so inside the VM `OPENAI_API_KEY` is just a placeholder. Templates (Hermes, an X agent, OpenClaw untested) set up the VM, policy and volume in one command after showing you the plan. It needs Apple silicon, macOS 26+ and linux/arm64 images, and it is still a preview (0.1.0-preview.11).\n\n[Koala docs](https://kunalkushwaha.github.io/homebrew-koala/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50211429)"
+    },
+    {
+      "id": "hn:50214427",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: apple-design-hig gives coding agents live Apple Human Interface Guidelines",
+      "description": "An open-source agent skill, CLI and MCP server that pulls Apple's HIG straight from Apple's public DocC JSON endpoints, so agents building or auditing Apple-platform UI work from current guidance instead of stale training data.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mr8lu",
+      "url": "https://github.com/mr8lu/apple-design-hig",
+      "createdAt": "2026-10-23T19:51:52Z",
+      "updatedAt": "2026-10-23T19:51:52Z",
+      "content": "Coding assistants often guess touch-target sizes, suggest deprecated navigation patterns, or ignore visionOS and Liquid Glass guidance. apple-design-hig queries Apple's unauthenticated DocC JSON for 172+ HIG topics and walks the document tree. It exposes the results through a FastMCP stdio server, a Python CLI (uv-managed, Python 3.12+) and a bundled agent skill, and a CI job keeps the cached references in sync with Apple's upstream. It could help SwiftUI/UIKit devs who want Claude Code, Codex or Xcode agents to check designs against the real HIG.\n\n[apple-design-hig on GitHub](https://github.com/mr8lu/apple-design-hig)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50214427)"
+    },
+    {
+      "id": "hn:50223559",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Linux 7.4 memblock patch cuts a boot-time memory scan from ~268 s to ~50 ms",
+      "description": "A Google engineer replaced linear searches with binary search in the kernel's early boot-time physical memory allocator, making the worst case under heavy fragmentation, such as Kernel Handover, dramatically faster.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Bender",
+      "url": "https://www.phoronix.com/news/Linux-7.4-memblock",
+      "createdAt": "2026-10-24T17:54:38Z",
+      "updatedAt": "2026-10-24T17:54:38Z",
+      "content": "memblock is the allocator the kernel uses before the full page allocator comes up. Tarun Sahu noticed that `memblock_add_range()` and `memblock_isolate_range()` scanned regions linearly. With Kernel Handover (KHO), used by the Live Update Orchestrator, there can be huge numbers of disjoint folios, and that scan became very slow. Switching to binary search brings the worst case down to O(N log N) (O(N) for sequential appends) and cuts KHO memory retrieval from about 268 seconds to about 50 milliseconds. It is a classic algorithms fix that sat in early-boot code for years, and it is queued among the memblock changes for Linux 7.4.\n\n[Phoronix report](https://www.phoronix.com/news/Linux-7.4-memblock)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50223559)"
+    },
+    {
+      "id": "reading:abakcus-garfield-pythagorean-theorem",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "James Garfield's trapezoid proof of the Pythagorean theorem",
+      "description": "Abakcus walks through the proof that future US president James Garfield published in 1876: compute a trapezoid's area two ways and a² + b² = c² falls out.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/garfield-pythagorean-theorem",
+      "createdAt": "2026-07-12T00:00:00Z",
+      "updatedAt": "2026-07-12T00:00:00Z",
+      "content": "In 1876 Congressman James A. Garfield published a new proof of the Pythagorean theorem in the *New England Journal of Education*, joking that it was something both parties could agree on. Place two copies of a right triangle with legs a and b so they form a trapezoid with an isosceles right triangle of legs c between them. Computing the trapezoid's area as ½(a+b)(a+b) and again as the sum of its three triangles gives a² + b² = c². The article covers Garfield's path from canal boy to Congress and steps through the figures one at a time.\n\n[Read the article](https://abakcus.com/articles/garfield-pythagorean-theorem)"
+    },
+    {
+      "id": "reading:abakcus-thomason-trobaugh",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The ghost who solved a theorem: Thomason, Trobaugh and algebraic K-theory",
+      "description": "How Robert Thomason dreamed the missing idea for a fifteen-year-old localization problem in algebraic K-theory 94 days after his friend Thomas Trobaugh died, and then listed Trobaugh as coauthor.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/thomason-trobaugh",
+      "createdAt": "2026-05-28T00:00:00Z",
+      "updatedAt": "2026-05-28T00:00:00Z",
+      "content": "By the mid-1980s Thomason had spent three years trying to prove a localization theorem for the K-theory of schemes without the regularity condition that earlier results, including Quillen's, required. One step stopped him: some perfect complexes carry a nonzero K₀ obstruction to extending from an open subscheme to the whole scheme. In January 1988, 94 days after Trobaugh's death, Thomason dreamed that his friend said perfect complexes extend \"just as one extends a coherent sheaf.\" Thomason was sure the idea was wrong, but working it through in the right derived category made the obstruction irrelevant, and the key results followed. The 189-page paper in *The Grothendieck Festschrift* (1990) lists Trobaugh as coauthor, and its introduction explains why. The article covers both the mathematics and the human story, and treats Trobaugh's death by suicide with care.\n\n[Read the article](https://abakcus.com/articles/thomason-trobaugh)"
+    },
+    {
+      "id": "x:2113801648816415182",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Building and running a SwiftUI app on an iPhone from Windows, with no Mac",
+      "description": "NeilXbt edited a SwiftUI app on a Windows PC and saw the change on his iPhone 9.3 seconds later, using WSL2, Swift 6.4.1, xtool, omarchy-apple-dev and usbipd-win.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "NeilXbt (@neil_xbt)",
+      "url": "https://x.com/neil_xbt/status/2113801648816415182",
+      "createdAt": "2026-10-24T01:16:00Z",
+      "updatedAt": "2026-10-24T01:16:00Z",
+      "content": "NeilXbt edited a SwiftUI app on a Windows PC and saw the change on his iPhone 9.3 seconds later, with no Mac involved. The stack, all open source except one piece:\n\n- WSL2 running Ubuntu 24.04\n- Swift 6.4.1 from swift.org\n- xtool, which builds, signs and installs the app\n- omarchy-apple-dev, Linux stand-ins for Apple's asset tools\n- usbipd-win, which hands the phone over to Linux\n\nGetting there took two days, three different login failures and a one-byte bug in the USB relay. There is still no Simulator, so he puts the real phone in a pane inside the editor instead. A build on Windows took 14 seconds the first time and now takes 4.\n\n[Post on X](https://x.com/neil_xbt/status/2113801648816415182)\n\n[Swift.org](https://www.swift.org/)\n\n[xtool on GitHub](https://github.com/xtool-org/xtool)"
+    },
+    {
+      "id": "x:2114071179946541087",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "More AI agents, more CI: cutting GitHub Actions costs and build time",
+      "description": "James Montemagno used GitHub Copilot to audit his cross-platform builds, move work to cheaper runners, and find caches that actually made builds slower.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "James Montemagno (@JamesMontemagno)",
+      "url": "https://x.com/JamesMontemagno/status/2114071179946541087",
+      "createdAt": "2026-10-24T19:07:01Z",
+      "updatedAt": "2026-10-24T19:07:01Z",
+      "content": "More AI agents mean more PRs, and more PRs mean more CI. In a new blog post James Montemagno describes how he used GitHub Copilot to audit his GitHub Actions usage for cross-platform builds, move work to cheaper runners, measure which caches helped (some actually made things slower), and cut redundant CI without quietly dropping coverage.\n\n[Blog post: More AI Agents, More CI](https://montemagno.com/reducing-github-actions-costs-ai-agents/)\n\n[Post on X](https://x.com/JamesMontemagno/status/2114071179946541087)"
+    },
+    {
+      "id": "x:2113752442982576533",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ClickHouse 26.10 can train an XGBoost model and predict with it in SQL",
+      "description": "In the ClickHouse 26.10 release webinar, Alexey Milovidov trains an XGBoost model on a million rows in about five seconds and then uses it for predictions in SQL; the release has 104 new features.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "ClickHouse (@ClickHouseDB)",
+      "url": "https://x.com/ClickHouseDB/status/2113752442982576533",
+      "createdAt": "2026-10-23T22:00:28Z",
+      "updatedAt": "2026-10-23T22:00:28Z",
+      "content": "The ClickHouse 26.10 release webinar is up. Alexey Milovidov trains an XGBoost model on a million rows in about five seconds, stores it as a dictionary, and then makes predictions with it in SQL.\n\nThe webinar page calls 26.10 the biggest release yet, with 104 new features (the first release to pass 100), 225 performance optimizations and 739 bug fixes. Other demos include:\n\n- the new `obfuscate` table function, which generates an endless stream of anonymized test data from a query\n- a new columns cache\n- LogsQL as a query dialect\n- reading an Elasticsearch index straight from ClickHouse\n- Robin Hood hashing for large hash tables, which halves memory for GROUP BY, uniqExact, DISTINCT and JOIN\n\n[Release webinar and slides](https://clickhouse.com/videos/clickhouse-release-26-10)\n\n[Post on X](https://x.com/ClickHouseDB/status/2113752442982576533)"
+    },
+    {
+      "id": "x:2112684873286861115",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Wall-metered power draw of running an 80B model at home on 3 Radeon AI PRO R9700s",
+      "description": "Sam measured his 3x Radeon AI PRO R9700 rig running Qwen3-Coder-Next 80B Q6_K on llama.cpp ROCm at about 55 tokens/s: 80 W idle, 425-440 W generating, up to 886 W reading long prompts.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Sam (@sultanminutes)",
+      "url": "https://x.com/sultanminutes/status/2112684873286861115",
+      "createdAt": "2026-10-20T23:18:20Z",
+      "updatedAt": "2026-10-20T23:18:20Z",
+      "content": "What does it actually cost to run an 80B model at home? Sam put a wall meter on his rig and posted the numbers.\n\n| Measure | Value |\n|---|---|\n| Hardware | 3x Radeon AI PRO R9700 |\n| Model | Qwen3-Coder-Next 80B, Q6_K |\n| Runtime | llama.cpp with ROCm |\n| Speed | about 55 tokens/s |\n| Idle | 80 W |\n| Generating | 425-440 W |\n| Reading long prompts | up to 886 W |\n\n[Post on X, with video](https://x.com/sultanminutes/status/2112684873286861115)"
     }
   ]
 }
