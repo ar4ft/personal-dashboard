@@ -26592,6 +26592,273 @@
       "url": "https://www.youtube.com/watch?v=BSPRV62axak",
       "createdAt": "2026-10-25T12:40:59Z",
       "updatedAt": "2026-10-25T12:40:59Z"
+    },
+    {
+      "id": "hn:50233779",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "description": "On 200 biopsy-proven lesions from the public MILK10k dataset, an Inception v3 CNN fine-tuned for about twenty minutes named the right diagnosis 62% of the time, versus about 42% for GPT-6 Astra and Claude Fable 5.1.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "sungam",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "createdAt": "2026-10-25T17:15:38Z",
+      "updatedAt": "2026-10-25T17:15:38Z",
+      "content": "Lynch Lab gave two frontier multimodal LLMs and a fine-tuned 2015-era Inception v3 the same clinical and dermoscopic photo pairs for 200 randomly drawn, histopathology-confirmed lesions. Half were lesions that must not be discharged (melanomas, basal and squamous cell carcinomas, actinic keratoses), and half were benign moles and seborrhoeic keratoses. The small specialised CNN picked the right one of six diagnoses for 125 lesions, against 84 and 85 for the LLMs. One example is a thin invasive melanoma that both LLMs called harmless and dischargeable. It's a sharp reminder that narrow supervised models still beat general-purpose ones on specialised vision tasks.\n\n[Read the write-up](https://lynchlab.net/llm-skin-cancer)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50233779)"
+    },
+    {
+      "id": "reading:kean-pocket-casts-unfolded",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pocket Casts Unfolded: shipping iPhone Duo support with agents",
+      "description": "Alexander Grebenyuk (kean) describes adapting the open-source Pocket Casts iOS app for iPhone Duo, using Apple's resizability agent skill, Xcode 27's MCP DeviceInteraction tools and parallel worktrees to sweep about 1,700 screenshots.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Alexander Grebenyuk (kean)",
+      "url": "https://kean.blog/post/pocket-casts-iphone-duo",
+      "createdAt": "2026-10-25T21:21:18Z",
+      "updatedAt": "2026-10-25T21:21:18Z",
+      "content": "Pocket Casts now uses the unfolded iPhone Duo screen for an expanded mini player with skip buttons and a scrubber, and a Now Playing view with transcript or chapters side by side with the controls. The more interesting part is the process. Apple's Xcode app resizability skill (exportable with `xcrun agent skills export`) was split into small reviewable PRs, for example screen-to-view scale, idiom-to-size-class and keyboard/safe-area fixes. Xcode 27's MCP server let agents screenshot, read the view hierarchy and tap through simulators. Agents then fixed issues one worktree and PR per bug, with before/after screenshots, across iPhone, Duo, iPad and Slide Over.\n\n[Read the post](https://kean.blog/post/pocket-casts-iphone-duo)\n\n[Pocket Casts iOS on GitHub](https://github.com/Automattic/pocket-casts-ios)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50236171)"
+    },
+    {
+      "id": "hn:50235651",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "nvALT 3.0 is back from the dead with Apple Silicon support",
+      "description": "Brett Terpstra modernized the classic nvALT notes app to run natively on Apple Silicon, with Apex Markdown rendering, Sparkle 2 updates, Marked Share publishing and plain-text note storage by default, while nvUltra stays in beta.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "fork-bomber",
+      "url": "https://brettterpstra.com/2026/10/24/nvalt-back-from-the-dead/",
+      "createdAt": "2026-10-25T20:18:05Z",
+      "updatedAt": "2026-10-25T20:18:05Z",
+      "content": "While nvUltra, the full rewrite, is still in beta, Brett Terpstra has revived nvALT so long-time users have a working app on current macOS. Version 3.0 requires macOS 12+ and compiles for Apple Silicon. It pulls in upstream Notational Velocity fixes and swaps MultiMarkdown for Apex. Peggd is replaced by one-off Marked Share publishing, Markdown shortcuts are on by default, and new databases are stored as plain-text files. Because of the rebuild, the old auto-updater won't work: download 3.0 directly once, and then updates resume via Sparkle 2.\n\n[Read the announcement](https://brettterpstra.com/2026/10/24/nvalt-back-from-the-dead/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50235651)"
+    },
+    {
+      "id": "hn:50235534",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Ledge, an open-source app that puts the MacBook notch to work",
+      "description": "Ledge is a free GPL-3.0 macOS 26 app that turns the MacBook notch into a Dynamic Island-style status area for now playing, timers, calendar, weather and notes, and replaces the volume and brightness pop-ups.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "egemertbalcik",
+      "url": "https://ledgeapp.dev/",
+      "createdAt": "2026-10-25T20:04:52Z",
+      "updatedAt": "2026-10-25T20:04:52Z",
+      "content": "Hover over the notch and a card opens with media controls for Music, Spotify or browser tabs (including AirPods output switching), the day's events beside a month view, weather, notes and a timer. Before a meeting, a small camera mirror on the Join button lets you check how you look, and nothing is recorded. The author says it also keeps agents working with the lid shut. It's signed and notarized, needs a notched MacBook on macOS 26 or later, and has no account or telemetry. Install with `brew install --cask egemertbalcik/tap/ledge`.\n\n[Ledge website](https://ledgeapp.dev/)\n\n[Repo on GitHub](https://github.com/egemertbalcik/Ledge)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50235534)"
+    },
+    {
+      "id": "hn:50236813",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: simdown, a SIMD CommonMark parser for Go at about 1 GB/s",
+      "description": "simdown is a CommonMark-compliant Markdown parser for Go that uses Go's experimental SIMD support on arm64, benchmarking about 960 MB/s on an Apple M4, ahead of pulldown-cmark, md4c and cmark.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "trevorah",
+      "url": "https://github.com/trevorah/simdown",
+      "createdAt": "2026-10-25T22:47:18Z",
+      "updatedAt": "2026-10-25T22:47:18Z",
+      "content": "The parser scans input in SIMD blocks on arm64 and is tested against the CommonMark spec, fuzzing and pathological inputs. On real documentation corpora (a book, Kubernetes docs and reference, and the spec) it averages about 959 MB/s on an M4. That compares with about 789 MB/s for ox-content (Rust), 531 for pulldown-cmark, 465 for md4c, 239 for cmark and 126 for goldmark. Without SIMD it still runs at about 300 MB/s. The bench directory has scripts to reproduce the numbers.\n\n[Repo on GitHub](https://github.com/trevorah/simdown)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50236813)"
+    },
+    {
+      "id": "reading:shraiwi-simd-fast-esp32s3",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SIMD-accelerated computer vision on a $2 microcontroller",
+      "description": "A hand-written FAST corner detector that uses the ESP32-S3's little-known 128-bit SIMD instructions runs about twice as fast as the reference implementation, processing a 320x240 frame in about 6 ms.",
+      "topics": [
+        "Programming",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "shraiwi",
+      "url": "https://shraiwi.com/blog/simd-fast-esp32s3/",
+      "createdAt": "2026-10-25T22:29:47Z",
+      "updatedAt": "2026-10-25T22:29:47Z",
+      "content": "The ESP32-S3 has a dual-core 240 MHz CPU with a sparsely documented set of 128-bit SIMD instructions. The author learned its Xtensa assembly from the few existing sources (Larry Bank's blog, esp-dsp and esp-dl) and wrote a vectorised FAST feature-detector pre-test and corner check. Along the way they built a small register allocator called basm to work around the ISA's quirks. The result is about 2x the reference implementation and about 6 ms per QVGA frame, which makes real-time on-device vision feasible on very cheap hardware.\n\n[Read the post](https://shraiwi.com/blog/simd-fast-esp32s3/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50236681)"
+    },
+    {
+      "id": "hn:50236278",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Health devices that sync to Apple Health and Health Connect with no subscription",
+      "description": "A sourced table of 31 scales, watches, rings and blood-pressure monitors showing which sync to Apple Health or Android Health Connect for free, built after Withings put syncing for new accounts behind Withings+.",
+      "topics": [
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "author": "ohthisandthat10",
+      "url": "https://subscription-free-health-devices.vercel.app/#table",
+      "createdAt": "2026-10-25T21:34:54Z",
+      "updatedAt": "2026-10-25T21:34:54Z",
+      "content": "The October 2026 table counts 19 devices with free Apple Health sync, 15 with free Health Connect sync, 11 free on both and 5 that need a subscription. 21 of the 31 rows are fully verified. Its quick picks are the Garmin Index S2 scale, Polar watches via Polar Flow and the RingConn Gen 3 ring, and no blood-pressure monitor is yet verified free on both platforms. The page also explains the Withings change: accounts created from Oct 13, 2026 need Withings+ (from $9.95/month) to sync automatically.\n\n[See the table](https://subscription-free-health-devices.vercel.app/#table)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50236278)"
+    },
+    {
+      "id": "reading:abakcus-coffer-illusion",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The coffer illusion: sixteen circles you can't see",
+      "description": "Anthony Norcia's 2006 coffer illusion hides sixteen circles in a grid of what looks like sunken rectangular panels, and the article explains why the brain's priors for closure and boxes win at first glance.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/coffer-illusion",
+      "createdAt": "2026-10-09T00:00:00Z",
+      "updatedAt": "2026-10-09T00:00:00Z",
+      "content": "Most viewers see only rectangular coffers, like door or ceiling panels, even though four rows of circles are drawn with exactly the same lines. Vision scientist Anthony Norcia, then at Smith-Kettlewell and now at Stanford, entered the picture in the 2006 Best Illusion of the Year contest, where it was a finalist. It grew out of an op-art pattern by Gianni Sarcone. The article walks through Norcia's explanation: local cues suggest sixteen separate regions, but a strong prior for closed-edged, sunken boxes keeps winning until you know what to look for.\n\n[Read the article](https://abakcus.com/articles/coffer-illusion)"
+    },
+    {
+      "id": "reading:abakcus-napiers-bones",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Napier's bones: the rods that outlived their inventor",
+      "description": "The story of John Napier, the Laird of Merchiston who invented logarithms, and the multiplication rods described in his 1617 Rabdologiae, which stayed in use for two centuries.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/napiers-bones",
+      "createdAt": "2026-07-18T00:00:00Z",
+      "updatedAt": "2026-07-18T00:00:00Z",
+      "content": "In 1617 a gout-stricken John Napier was proofing Rabdologiae (\"calculation with rods\"), the book that described the numbered rods later called Napier's bones. They turned multiplication and division into reading off and adding diagonals. The article covers Napier's odd reputation, from apocalyptic theology to neighbours who thought he was a wizard and the black-rooster trick to catch a thief. It then follows how the rods, and later cylindrical versions in fitted boxes, became one of the most practical calculating aids before slide rules.\n\n[Read the article](https://abakcus.com/articles/napiers-bones)"
+    },
+    {
+      "id": "x:2114382200703418420",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple confirms a macOS update will block compromised eMudhra CAs in command-line tools",
+      "description": "Apple says a future macOS update will block the compromised eMudhra intermediate CAs in tools that use /etc/ssl/cert.pem, with no file editing needed.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Aaron (@aaronp613)",
+      "url": "https://x.com/aaronp613/status/2114382200703418420",
+      "createdAt": "2026-10-25T15:42:54Z",
+      "updatedAt": "2026-10-25T15:42:54Z",
+      "content": "Aaron highlights Apple's support note on the compromised eMudhra intermediate CAs. Safari, Mail and apps using Apple's networking and security frameworks have blocked the 12 affected certificates automatically since October 19, and the emSign ECC Root CA - G3 since October 23. However, command-line tools that come with macOS or the Xcode Command Line Tools (curl, git, python3, ruby, perl, openssl) check /etc/ssl/cert.pem instead, so they can still accept the certificates. Apple says a future software update will fix this without anyone needing to edit files. Admins who don't want to wait can remove the affected roots from cert.pem themselves.\n\n[Apple Support: About the compromised eMudhra intermediate CAs](https://support.apple.com/en-us/149555)\n\n[Post on X](https://x.com/aaronp613/status/2114382200703418420)"
+    },
+    {
+      "id": "x:2114259163635146806",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iPhone Use: an open-source Codex plugin that drives a real iPhone over USB",
+      "description": "zhongerxin/iPhone-use lets Codex tap, swipe and type on a real iPhone over USB, with a live screen in the Codex sidebar, and it hands control back for passwords, codes and Face ID.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "溺心海·Aven (@NIxinhai0)",
+      "url": "https://x.com/NIxinhai0/status/2114259163635146806",
+      "createdAt": "2026-10-25T07:34:00Z",
+      "updatedAt": "2026-10-25T07:34:00Z",
+      "content": "Aven shares iPhone Use (MIT), a Codex plugin that drives a real iPhone over a USB cable. It works with apps that have no API, because it opens, scrolls and types like a person would. Codex shows the phone's live screen in its sidebar, and the plugin pauses and hands the phone back for passwords, verification codes and Face ID. Typing and sending are separate steps. It runs on WebDriverAgent with a local MCP server of 17 `pua_*` tools, and there are setup and usage skills plus AirDrop transfer back to the Mac. You need a Mac with Codex and full Xcode, plus an Apple account. Builds signed with a free account expire after 7 days and have to be rebuilt. The README says the Codex plugin sends anonymous usage analytics by default, and `IPHONE_USE_ANALYTICS=0` or `DO_NOT_TRACK=1` turns that off. There are also WorkBuddy and Doubao adapters.\n\n[GitHub: zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use)\n\n[Post on X (Chinese)](https://x.com/NIxinhai0/status/2114259163635146806)"
+    },
+    {
+      "id": "x:2114313618611220950",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Graphify maps a codebase into a persistent knowledge graph for coding agents",
+      "description": "Graphify uses tree-sitter to parse about 40 languages locally into a queryable graph, with no embeddings, that agents query over MCP instead of grepping.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Tech with Mak (@techNmak)",
+      "url": "https://x.com/techNmak/status/2114313618611220950",
+      "createdAt": "2026-10-25T11:10:23Z",
+      "updatedAt": "2026-10-25T11:10:23Z",
+      "content": "Tech with Mak breaks down Graphify (Apache-2.0, about 135K stars). It turns a project's code, SQL schemas, configs, docs, PDFs and media into a persistent knowledge graph that coding agents can query (\"trace the path from UserService to DatabasePool\") instead of grepping through files over and over. Code is parsed locally with tree-sitter across about 40 languages, and building the code graph needs no embeddings, vector store or LLM calls. Non-code content can optionally get a semantic pass from a model. Every edge is labeled EXTRACTED, INFERRED or AMBIGUOUS, and community detection surfaces subsystems. The graph updates incrementally, can be committed to git, and is exposed over MCP, with hooks for Claude Code, Codex, Cursor, Gemini CLI and others. Output is an interactive HTML graph, a Markdown architecture report and graph.json.\n\n[GitHub: Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)\n\n[Post on X](https://x.com/techNmak/status/2114313618611220950)"
+    },
+    {
+      "id": "x:2114161649183601012",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+      "description": "Given the same time budget and frontier LLM, state-of-the-art open-source MLE agent harnesses did no better than a single session of a minimal coding agent.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@BioAI_Neuro (@BioAI_NeuralNet)",
+      "url": "https://x.com/BioAI_NeuralNet/status/2114161649183601012",
+      "createdAt": "2026-10-25T01:06:31Z",
+      "updatedAt": "2026-10-25T01:06:31Z",
+      "content": "This arXiv paper (Brilliantov, Hernández-Cano and Abbé, September 30, 2026) compares elaborate machine-learning-engineering agent harnesses, such as multi-agent orchestrators and retrieval subagents, with a minimal coding agent that has only read, write and bash access. Given an equal time budget and the same frontier LLM backbone, the open-source state-of-the-art harnesses offered no advantage over a single minimal-harness session. Large-scale ablations suggest the extra machinery becomes redundant for coding agents and that the backbone model is the main driver of performance. The authors conclude that hand-crafting harnesses around strong models yields poor returns on current MLE benchmarks.\n\n[Paper on arXiv: 2609.40303](https://arxiv.org/abs/2609.40303)\n\n[Post on X](https://x.com/BioAI_NeuralNet/status/2114161649183601012)"
+    },
+    {
+      "id": "x:2114071630309740850",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Morten Just's UI rules skill for coding agents",
+      "description": "Every time his coding agent messes up his UI, Morten Just adds a rule to a skill. The list covers no unrequested labels, consistency, Occam's razor, no jargon and instant feedback.",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Morten Just (@mortenjust)",
+      "url": "https://x.com/mortenjust/status/2114071630309740850",
+      "createdAt": "2026-10-24T19:08:48Z",
+      "updatedAt": "2026-10-24T19:08:48Z",
+      "content": "Morten Just keeps an agent skill that grows each time his coding agent gets his UI wrong. Highlights from his list:\n\n- Never add labels or explanatory text that wasn't explicitly asked for.\n- Be consistent: look for similar controls, match style and layout, and reuse components.\n- Keep together the things that belong together, and animate only when it gives needed context.\n- Apply Occam's razor: keep removing elements until you can't anymore.\n- No jargon, as little language as possible (most users aren't native English speakers), and show, don't tell.\n- Respond to interactions in under 50 ms, or show that the request was received.\n- Make click targets larger than their visual footprint. In SwiftUI, background-less buttons need `contentShape`.\n\n[Thread on X](https://x.com/mortenjust/status/2114071630309740850)"
+    },
+    {
+      "id": "x:2114058288165970206",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kavsoft: Compact morphing photo picker in SwiftUI",
+      "description": "A Kavsoft video tutorial on building a compact photo picker that morphs, in SwiftUI for iOS 27 and Xcode 27.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Kavsoft (@_Kavsoft)",
+      "url": "https://x.com/_Kavsoft/status/2114058288165970206",
+      "createdAt": "2026-10-24T18:15:47Z",
+      "updatedAt": "2026-10-24T18:15:47Z",
+      "content": "Kavsoft's latest SwiftUI tutorial builds a compact photo picker with a morphing transition, targeting iOS 27 and Xcode 27. The post includes a short preview clip.\n\nhttps://youtu.be/IZUge9fPKOY\n\n[YouTube: Morphing Photo Picker using SwiftUI | iOS 27 | Xcode 27](https://youtu.be/IZUge9fPKOY)\n\n[Post on X](https://x.com/_Kavsoft/status/2114058288165970206)"
     }
   ]
 }
