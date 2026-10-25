@@ -26427,8 +26427,7 @@
       "createdAt": "2026-10-23T18:08:39Z",
       "updatedAt": "2026-10-23T18:08:39Z",
       "content": "Guilherme Rambo had always wondered whether Xcode could build and run an app on a virtualized HomePod. It can, and his 27-second video shows it working.\n\n[Post on X, with video](https://x.com/_inside/status/2113694101996806291)"
-    }
-,
+    },
     {
       "id": "hn:50226419",
       "section": "news",
@@ -26859,6 +26858,153 @@
       "createdAt": "2026-10-24T18:15:47Z",
       "updatedAt": "2026-10-24T18:15:47Z",
       "content": "Kavsoft's latest SwiftUI tutorial builds a compact photo picker with a morphing transition, targeting iOS 27 and Xcode 27. The post includes a short preview clip.\n\nhttps://youtu.be/IZUge9fPKOY\n\n[YouTube: Morphing Photo Picker using SwiftUI | iOS 27 | Xcode 27](https://youtu.be/IZUge9fPKOY)\n\n[Post on X](https://x.com/_Kavsoft/status/2114058288165970206)"
+    },
+    {
+      "id": "hn:50233304",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "description": "A UC Berkeley math professor says widespread AI use has left him seeing no point in grading homework.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "romanhn",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "createdAt": "2026-10-25T16:28:26Z",
+      "updatedAt": "2026-10-25T16:28:26Z"
+    },
+    {
+      "id": "hn:50233294",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "JetBrains Thinkrail",
+      "description": "JetBrains has released Thinkrail, a new tool shared on GitHub.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "hmokiguess",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "createdAt": "2026-10-25T16:27:12Z",
+      "updatedAt": "2026-10-25T16:27:12Z"
+    },
+    {
+      "id": "hn:50235010",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
+      "description": "A campaign dubbed Gheist reportedly planted secret-dumping workflows using stolen GitHub tokens.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+      "createdAt": "2026-10-25T19:10:36Z",
+      "updatedAt": "2026-10-25T19:10:36Z"
+    },
+    {
+      "id": "hn:50236102",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "description": "OpenAI and Anthropic have cut their LLM prices by up to 80% within a few months, prompting an analysis of why.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "minimaxir",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "createdAt": "2026-10-25T21:11:31Z",
+      "updatedAt": "2026-10-25T21:11:31Z"
+    },
+    {
+      "id": "hn:50235780",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The State of Context Engineering",
+      "description": "An overview of the current state of context engineering.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "pchristensen",
+      "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "createdAt": "2026-10-25T20:32:31Z",
+      "updatedAt": "2026-10-25T20:32:31Z"
+    },
+    {
+      "id": "hn:50227330",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "description": "Hurston-1 is a new open source text-to-speech model that speaks Southern American and Afro-English varieties.",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Gcarter08",
+      "url": "https://huggingface.co/destined/hurston-1",
+      "createdAt": "2026-10-25T01:30:13Z",
+      "updatedAt": "2026-10-25T01:30:13Z"
+    },
+    {
+      "id": "hn:50235017",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why I Am a Programmer",
+      "description": "A personal essay on why its author is a programmer.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jruohonen",
+      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "createdAt": "2026-10-25T19:11:31Z",
+      "updatedAt": "2026-10-25T19:11:31Z"
+    },
+    {
+      "id": "hn:50234329",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "All you need is Wide Events, not \"Metrics, Logs and Traces\"",
+      "description": "An argument that wide events alone can replace the separate pillars of metrics, logs, and traces.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "bootlegbilly",
+      "url": "https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics",
+      "createdAt": "2026-10-25T18:11:38Z",
+      "updatedAt": "2026-10-25T18:11:38Z"
+    },
+    {
+      "id": "hn:50236828",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apollo says AI has delivered 'zero financial payoff' outside the tech industry",
+      "description": "Apollo is reported to say AI has delivered zero financial payoff outside the tech industry.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "levzettelin",
+      "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+      "createdAt": "2026-10-25T22:49:06Z",
+      "updatedAt": "2026-10-25T22:49:06Z"
     }
   ]
 }
