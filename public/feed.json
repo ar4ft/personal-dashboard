@@ -26138,6 +26138,295 @@
       "url": "https://danluu.com/ambitious/",
       "createdAt": "2026-10-24T21:47:31Z",
       "updatedAt": "2026-10-24T21:47:31Z"
+    },
+    {
+      "id": "reading:reactive-optimizers-opal",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Reactive Optimizers: an agent rewrites the optimizer's code during training",
+      "description": "Researchers put an LLM agent inside the training loop; it watches training statistics and rewrites the optimizer and its own probes as a single run unfolds, matching or beating off-the-shelf recipes on language and image tasks.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Xingjian Bai, Jia-Hao Liang, Jayden Teoh, Vincent Sitzmann",
+      "url": "https://xingjianbai.com/reactive-optimizers/",
+      "createdAt": "2026-10-21T22:17:12Z",
+      "updatedAt": "2026-10-21T22:17:12Z",
+      "content": "OPAL (OPtimizer with an Agent in the Loop) gives an agent two files it can rewrite mid-run: `analysis.py`, which decides what training statistics to measure (per-group gradient norms, cosines between consecutive gradients, spike logs), and `updater.py`, the update rule itself. In one-shot settings with no tuned recipe it matched or beat leaderboard recipes on modded-nanogpt variants (other languages, quarter batch), improved Goldfish Amharic from 83.48 to 81.11 bits per sentence, and lowered LightningDiT-XL/1 FID-50K from 2.18 to 1.83 with guidance.\n\nThe agents invented per-module schedules, A-B-A learning-rate tests, gradual AdamW-to-Muon moves, float32 moments for a single embedding matrix, per-tensor clipping and a loss gate that shrugged off injected corrupt data. Letting training continue while the agent thinks keeps wall-clock overhead at 1.01-1.14x; one LightningDiT run cost about $6 of API calls next to roughly $510 of H100 time. Code is on PyPI as `opal-optimizer`.\n\n[Read the post](https://xingjianbai.com/reactive-optimizers/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50188440)"
+    },
+    {
+      "id": "reading:apple-core-advanced-on-device-model",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Exploring Apple's on-device model: twenty billion parameters in flash",
+      "description": "Julien Simon measures macOS 27's Core Advanced model from the outside and finds a 20B mixture-of-experts kept in flash, with experts picked per prompt and run on the Neural Engine in about 2 GiB of memory.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Julien Simon",
+      "url": "https://www.airealist.ai/p/exploring-apple-on-device-model",
+      "createdAt": "2026-10-25T08:23:50Z",
+      "updatedAt": "2026-10-25T08:23:50Z",
+      "content": "Without opening model files (Apple's license forbids reverse engineering), Simon traced file reads, memory and power on an M3 Max running `fm`, the new macOS 27 command. Core Advanced reads a 4.95 GB expert file in 294,912-byte blocks and appears to reselect experts about every 32 tokens, as Apple describes for its per-prompt routing built on Instruction-Following Pruning. After a long request it held about 2.0 GiB, against roughly 15 GiB for Gemma 4 26B A4B at 4 bits. On 20 GSM8K problems it used about a third of the energy of the best open build.\n\nThe costs: last of four models on math (78/100 vs 89-94), no version pinning, and no developer adapters in OS 27. Its token counts matched Gemma 3's tokenizer on all 429 test strings, the one measurable sign of Google's role. Takeaway for app developers: use it for summaries, extraction, classification and tags, not math or code, and rerun your own evals after every OS update.\n\n[Read the article](https://www.airealist.ai/p/exploring-apple-on-device-model)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50229394)"
+    },
+    {
+      "id": "hn:50229715",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Allocating off-heap memory is typically 6-18x faster in JDK 28",
+      "description": "JDK 28 serves small allocations in confined FFM arenas from per-thread 64-byte native pools, cutting allocation latency by up to 90% with no code changes and the same safety guarantees.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Per-Ake Minborg",
+      "url": "https://inside.java/2026/10/23/confined-pools/",
+      "createdAt": "2026-10-25T09:29:33Z",
+      "updatedAt": "2026-10-25T09:29:33Z",
+      "content": "Wrapping a native call in `Arena.ofConfined()` for a pointer, `int` or short string is a common Foreign Function & Memory pattern. Each platform thread now lazily caches up to four 64-byte pools. An arena acquires one only on its first small allocation, carves allocations sequentially from it, and zeroes it when returning it. Virtual threads borrow a pool from their carrier and are pinned only during the handoff. Benchmarks show 6.8x to 18.9x speedups for 5- and 20-byte allocations (about 1 ns vs 16 ns on an M4 Mac). Larger or oddly aligned allocations use the old path, and tools can no longer assume one `malloc`/`free` per arena allocation.\n\n[Article on Inside.java](https://inside.java/2026/10/23/confined-pools/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50229715)"
+    },
+    {
+      "id": "hn:50227356",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How Cerebras deploys trillion-parameter models across wafer-scale chips",
+      "description": "Cerebras walks through mapping the ~3T-parameter Kimi K3 across 59 WSE-3T wafers: 4-bit weights, two linear-attention layers or one dense layer per wafer, and a pipeline kept full of concurrent requests.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Sarah Chieng",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "createdAt": "2026-10-25T01:33:49Z",
+      "updatedAt": "2026-10-25T01:33:49Z",
+      "content": "Each WSE-3T wafer has 44 GB of on-chip SRAM. At 4 bits, Kimi K3's 93 layers come to about 16 GB each. The 69 linear-attention layers keep only a small fixed state per request, so two fit on a wafer. Each of the 24 dense layers gets its own wafer, with the rest of the SRAM for its 8-bit KV cache: 35 + 24 = 59 wafers. Weights stay put and only activations hop between wafers over RDMA (about 2 µs per hop). Many requests and micro-batches flow through the stages at once, so KV-cache space on the dense-layer wafers caps concurrency. The post argues tokens per second per megawatt is the metric that matters.\n\n[Cerebras blog post](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50227356)"
+    },
+    {
+      "id": "hn:50212292",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Searching for optimal strategies in Drop7, a puzzle game with chance",
+      "description": "An open research site comparing 116 Drop7-playing approaches, from expectimax and n-tuple networks to NNUE, MCTS and policy gradients; the best so far averages about 516k points against a one-million-point target.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "primitivesuave",
+      "url": "https://drop7.dev",
+      "createdAt": "2026-10-23T17:13:27Z",
+      "updatedAt": "2026-10-23T17:13:27Z",
+      "content": "Sixteen years after writing a Java bot for Drop7, the author picked the problem back up. Experienced humans can average a million points, and the bots are nowhere close. The site explains 14 families of techniques from the ground up and logs preregistered experiments with paired bootstrap bounds on a Rust engine. The current leader: n-tuple lookup tables trained by temporal-difference learning over four billion self-play moves, used as the leaf of a depth-4 fair expectimax search. It averaged 516,155 on 512 unseen games, against 382,567 for the hand-written leaf. A neat case study in classic game AI and careful evaluation, with a public leaderboard for anyone who wants to try.\n\n[Drop7 research site](https://drop7.dev)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50212292)"
+    },
+    {
+      "id": "hn:50230702",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: cargo-test-prune finds overlapping Rust tests with mutation testing",
+      "description": "A Cargo subcommand that runs cargo-mutants, records which deliberate bugs each test catches, and proposes a smaller test set with the same observed detection. It is a response to test suites that keep growing with AI-written code.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "yasuyuky",
+      "url": "https://github.com/yasuyuky/cargo-test-prune",
+      "createdAt": "2026-10-25T12:02:00Z",
+      "updatedAt": "2026-10-25T12:02:00Z",
+      "content": "The tool treats test pruning as set cover. It greedily picks the fewest tests that still catch every mutant the full suite caught, then writes a report for review and never deletes tests itself. You can `--keep` tests that document requirements and limit analysis to a package or a mutant budget. On an earlier revision of its own repo, 6 of 11 tests caught the same 73 of 108 mutants. The README warns that surviving the mutation check does not make a test's specification value dispensable.\n\n[cargo-test-prune on GitHub](https://github.com/yasuyuky/cargo-test-prune)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50230702)"
+    },
+    {
+      "id": "reading:polygonjs-rewrite-in-jai",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why I rewrote Polygon from scratch in Jai",
+      "description": "After eight years of a three.js/TypeScript procedural-geometry tool, the Polygonjs author rewrote the engine and a WebGPU/wgpu renderer in Jonathan Blow's Jai to control memory, avoid garbage-collector frame drops and ship natively.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Polygonjs (frading)",
+      "url": "https://polygonjs.com/blog/why-i-rewrote-polygon-from-scratch",
+      "createdAt": "2026-10-22T12:50:43Z",
+      "updatedAt": "2026-10-22T12:50:43Z",
+      "content": "JavaScript made it hard to prove that discarded geometries were really freed, GC pauses dropped frames, and wiring the Steam API through Electron felt too risky to ship. With beta access to Jai, the author spent a year relearning low-level programming and turning an object-oriented node graph into structs and functions. During that time, Wasm-generated geometry was still fed to three.js. In year two came a renderer on raw WebGPU/wgpu, with a thin Jai-to-JavaScript translation layer for the web build. Now every node, expression and attribute lives in recyclable arrays or a per-frame temp allocator, and CPU and GPU code nodes share one context. Polygon v2 (2.0.54) ships procedural geometry, custom materials, compute shaders and a render graph as an app or SDK.\n\n[Read the post](https://polygonjs.com/blog/why-i-rewrote-polygon-from-scratch)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50194645)"
+    },
+    {
+      "id": "reading:ratfactor-small-programs-and-languages",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Small programs and languages",
+      "description": "Dave Gauer of ratfactor on why tiny programs and small languages appeal: they are approachable, they set real lower bounds on complexity, and from Forth, Lisp and Tcl to Lua they trade size against expressiveness.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Dave Gauer",
+      "url": "https://ratfactor.com/cards/pl-small",
+      "createdAt": "2026-10-24T21:44:23Z",
+      "updatedAt": "2026-10-24T21:44:23Z",
+      "content": "The essay's examples include a 25-line DOM-diffing library, a 46-byte Forth, Arthur Whitney's one-page J interpreter fragment, the kOS bootable image and William Byrd's \"most beautiful program\", a Lisp interpreter in Lisp. Code golf, the author argues, records real facts about minimum complexity, as when Justine Tunney showed a garbage-collected Lisp fits in 436 bytes. He then compares small languages: assembly and SNOBOL, the index-card cores of Forth, Lisp and Tcl, Lua's 27-page manual, C, Zig and JavaScript. David Ungar's line that \"simplicity trumps expressiveness\" frames the trade-off, and the piece closes on why miniatures feel controllable and delightful.\n\n[Read the essay](https://ratfactor.com/cards/pl-small)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50225674)"
+    },
+    {
+      "id": "reading:abakcus-geometry-behind-pringles",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The geometry behind Pringles: hyperbolic paraboloids and why the stack holds",
+      "description": "Abakcus explains how a Pringle is a hyperbolic paraboloid, a saddle surface with negative Gaussian curvature whose opposing curvatures brace each other, which lets identical chips nest in a can without breaking.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/geometry-behind-pringles",
+      "createdAt": "2026-04-10T00:00:00Z",
+      "updatedAt": "2026-04-10T00:00:00Z",
+      "content": "Procter & Gamble chemist Fredric Baur was asked for a chip that would not break in transit. The shape he chose had long been familiar to architects: a doubly ruled saddle whose vertical slices are parabolas and horizontal slices hyperbolas, curving up along one axis and down along the other. The article covers why that geometry spreads load like an inverted catenary arch, the same principle used in the Saddledome roof, the London Velodrome and Félix Candela's thin concrete shells. Mold-pressed chips are congruent, so they nest at a constant offset with surface contact instead of point contact. That is what makes the stacked canister possible.\n\n[Read the article](https://abakcus.com/articles/geometry-behind-pringles)"
+    },
+    {
+      "id": "reading:abakcus-marilyn-vos-savant-was-right-all-along",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Marilyn vos Savant was right all along",
+      "description": "The story of the 1990 Monty Hall column: Marilyn vos Savant said switching doors wins two-thirds of the time, and nearly 10,000 readers, PhDs among them, wrote in to say she was wrong. She wasn't.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/marilyn-vos-savant-was-right-all-along",
+      "createdAt": "2026-04-19T00:00:00Z",
+      "updatedAt": "2026-04-19T00:00:00Z",
+      "content": "In September 1990, a Parade reader asked the three-doors-and-two-goats question, and vos Savant answered in two sentences: switch. The article traces the puzzle's history back through Bertrand's box paradox (1889), Martin Gardner's 1959 version and Steve Selvin's 1975 formulation. It then follows the flood of confident, credentialed letters that told her otherwise. Along the way it adds context on her famous IQ figure and why it is not comparable to modern scores. It explains why the switching argument holds and places the episode beside other cases of experts being publicly wrong about mathematics, such as the Indiana pi bill.\n\n[Read the article](https://abakcus.com/articles/marilyn-vos-savant-was-right-all-along)"
+    },
+    {
+      "id": "reading:artemnovichkov-xcode-projects-command-line-agents",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Xcode Projects for the Command Line and Coding Agents",
+      "description": "Artem Novichkov walks through Xcode 27.2's new JSON project format and its two CLIs, xcodeproj and xcprojformatter, and how to hand them to coding agents.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Artem Novichkov",
+      "url": "https://artemnovichkov.com/blog/xcode-projects-for-the-command-line-and-coding-agents",
+      "createdAt": "2026-10-15T00:00:00Z",
+      "updatedAt": "2026-10-15T00:00:00Z",
+      "content": "Xcode 27.2 beta 2 added an optional project format: `project.xcproj`, a JSON5 file with readable keys instead of `project.pbxproj` and its object IDs. Two tools come with it, both run through `xcrun`. **`xcprojformatter`** validates the file and rewrites it in canonical form. **`xcodeproj`** (beta 3) edits targets, build phases, synchronized groups, build settings, xcconfig files and Swift packages from the terminal, and it works on old `.pbxproj` projects too, with minimal diffs. `xcodebuild -convert-project xcproj` switches formats, and JSON projects still open in Xcode 27.0 and 27.1.\n\nThe post builds an iOS app from `xcodeproj init` and compares diffs: adding a package takes 12 readable JSON lines versus 24 lines and three generated IDs in the property list. It also covers gotchas:\n\n- the formatter silently drops unknown keys and duplicate keys, so diffing its output makes a good CI check and catches bad merge resolutions\n- add build phases before you include synchronized groups\n- test targets need `TEST_HOST` and `BUNDLE_LOADER` wired by hand\n\nThe CLI's detailed help and errors suit coding agents. Artem gives an `AGENTS.md` snippet (also packaged as an `xcproj` skill) and compares the CLI with Xcode's MCP server, which can't add packages or edit build phases.\n\n[Read the article](https://artemnovichkov.com/blog/xcode-projects-for-the-command-line-and-coding-agents)\n\n[Post on X by Antoine van der Lee](https://x.com/twannl/status/2113977563496284524)"
+    },
+    {
+      "id": "x:2114083806991016162",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Three weeks of iPhone Duo work, nine extra downloads on launch day",
+      "description": "Chad Etzel spent three weeks on the Duo simulator, SwiftUI bugs in iOS 27.1 and 27.2 and radars to get LETTERS ready for iPhone Duo; on launch day it got 9 downloads above its daily average.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Chad Etzel (@jazzychad)",
+      "url": "https://x.com/jazzychad/status/2114083806991016162",
+      "createdAt": "2026-10-24T19:57:12Z",
+      "updatedAt": "2026-10-24T19:57:12Z",
+      "content": "Chad Etzel shares a reality check for indie developers chasing new-hardware launches. He spent three weeks fighting the iPhone Duo simulator and SwiftUI bugs in 27.1 and 27.2 and filing radars so his app **LETTERS** would be ready. On Duo launch day the app got nine more downloads than its daily average.\n\n[Post on X](https://x.com/jazzychad/status/2114083806991016162)"
+    },
+    {
+      "id": "x:2113751801929633899",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iPhone Duo Dynamic Island gets extra padding when built with the Xcode 27 SDK",
+      "description": "Christian Selig sees Live Activities in the iPhone Duo's vertical Dynamic Island render much taller when compiled with the iOS 27 SDK than with 26, on device as well as in the simulator.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Christian Selig (@ChristianSelig)",
+      "url": "https://x.com/ChristianSelig/status/2113751801929633899",
+      "createdAt": "2026-10-23T21:57:55Z",
+      "updatedAt": "2026-10-23T21:57:55Z",
+      "content": "Christian Selig found that a Live Activity in the iPhone Duo's vertical Dynamic Island gets large extra padding when the app is built with the Xcode 27 SDK, even in a sample app that shows only an icon. In his side-by-side comparison, the SDK 27.1 build is 120.7 points tall and the SDK 26 build is 77.7 points. He first thought it was a simulator bug but sees it on device too, and asked whether other developers are seeing the same.\n\n[Post on X, with screenshot](https://x.com/ChristianSelig/status/2113751801929633899)"
+    },
+    {
+      "id": "x:2114315124605337909",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pedro Piñera: why Tuist should build the agent harness on top of compute",
+      "description": "Tuist's Pedro Piñera says using Amp changed his mind about remote, agent-driven development, and argues Tuist should build an agent harness on its compute instead of selling commodity sandboxes.",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Pedro Piñera (@pepicrft)",
+      "url": "https://x.com/pepicrft/status/2114315124605337909",
+      "createdAt": "2026-10-25T11:16:22Z",
+      "updatedAt": "2026-10-25T11:16:22Z",
+      "content": "In an X Article, Tuist co-founder Pedro Piñera says heavy use of **Amp** changed his mind about building remotely. If agents write and review code, mobile becomes a real place to work, with inputs like voice and system integrations such as Live Activities. He argues that selling compute as CI runners or sandboxes is quickly becoming a commodity, especially on Linux, and that most providers' answer is just a terminal in the browser. Tuist's next step after speed would be a native harness on top of its compute: proactively fixing flaky tests, talking through architecture changes and validating them, and building features on the go. Users would bring their own tokens (ChatGPT, Claude or an inference provider) and Tuist would supply the compute, starting with the AI runners it is finishing now.\n\n[Post on X (X Article)](https://x.com/pepicrft/status/2114315124605337909)"
+    },
+    {
+      "id": "x:2114311261697519715",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI: pair WebView with WebPage for titles, progress and back navigation",
+      "description": "Sarun W. shows how an observable WebPage driving SwiftUI's WebView gives you the page title, loading progress and back-forward navigation.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2114311261697519715",
+      "createdAt": "2026-10-25T11:01:01Z",
+      "updatedAt": "2026-10-25T11:01:01Z",
+      "content": "Displaying a page takes only `WebView`. For more control, keep a `WebPage` in `@State` and pass it in with `WebView(page)`. Sarun's three code cards show what that gives you:\n\n- **Title:** `.navigationTitle(page.title)` updates as the observable page changes.\n- **Progress:** while `page.isLoading`, show `ProgressView(value: page.estimatedProgress)` in a top `safeAreaInset`.\n- **Back button:** load `page.backForwardList.backList.last`, and disable the button when the back list is empty.\n\n[Post on X, with code](https://x.com/sarunw/status/2114311261697519715)"
+    },
+    {
+      "id": "x:2113694101996806291",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Xcode can build and run an app on a virtualized HomePod",
+      "description": "Guilherme Rambo shows Xcode building and running an app inside a virtualized HomePod.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Guilherme Rambo (@_inside)",
+      "url": "https://x.com/_inside/status/2113694101996806291",
+      "createdAt": "2026-10-23T18:08:39Z",
+      "updatedAt": "2026-10-23T18:08:39Z",
+      "content": "Guilherme Rambo had always wondered whether Xcode could build and run an app on a virtualized HomePod. It can, and his 27-second video shows it working.\n\n[Post on X, with video](https://x.com/_inside/status/2113694101996806291)"
     }
   ]
 }
