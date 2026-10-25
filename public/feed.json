@@ -26428,5 +26428,170 @@
       "updatedAt": "2026-10-23T18:08:39Z",
       "content": "Guilherme Rambo had always wondered whether Xcode could build and run an app on a virtualized HomePod. It can, and his 27-second video shows it working.\n\n[Post on X, with video](https://x.com/_inside/status/2113694101996806291)"
     }
+,
+    {
+      "id": "hn:50226419",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "description": "An analysis of how much of the loss of 200,000 jobs in media, film, and the arts can be attributed to AI.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gnabgib",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "createdAt": "2026-10-24T23:11:54Z",
+      "updatedAt": "2026-10-24T23:11:54Z"
+    },
+    {
+      "id": "hn:50224210",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SpeedCrunch 1.1",
+      "description": "SpeedCrunch 1.1 is out, a new release of the high-precision calculator app.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "LordNibbler",
+      "url": "https://www.speedcrunch.org/",
+      "createdAt": "2026-10-24T19:19:43Z",
+      "updatedAt": "2026-10-24T19:19:43Z"
+    },
+    {
+      "id": "hn:50230181",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+      "description": "A report that a Samsung device runs a TensorFlow Lite model on 960x540 images, raising questions about on-device tracking.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mashally",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "createdAt": "2026-10-25T10:42:01Z",
+      "updatedAt": "2026-10-25T10:42:01Z"
+    },
+    {
+      "id": "hn:50172432",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I Built a Stereo Vision Board for Hardware Hackers",
+      "description": "A hardware hacker built a stereo vision board for experimenting with depth sensing.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "machinehum",
+      "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
+      "createdAt": "2026-10-20T20:45:52Z",
+      "updatedAt": "2026-10-20T20:45:52Z"
+    },
+    {
+      "id": "hn:50222283",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+      "description": "A community hub where OpenAI's math write-ups can be revised and improved.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "tokepi",
+      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+      "createdAt": "2026-10-24T15:35:17Z",
+      "updatedAt": "2026-10-24T15:35:17Z"
+    },
+    {
+      "id": "hn:50230384",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "description": "fheroes2 is a recreation of the Heroes of Might and Magic II game engine.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tosh",
+      "url": "https://github.com/ihhub/fheroes2",
+      "createdAt": "2026-10-25T11:09:12Z",
+      "updatedAt": "2026-10-25T11:09:12Z"
+    },
+    {
+      "id": "hn:50229827",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "description": "A Nikon photography contest winner lost the title after scientists spotted signs of AI in the entry.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "thunderbong",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "createdAt": "2026-10-25T09:51:17Z",
+      "updatedAt": "2026-10-25T09:51:17Z"
+    },
+    {
+      "id": "hn:50176674",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pragtical v3.14 Lua-based text editor adds menus, floating views, and sessions",
+      "description": "Pragtical v3.14, a Lua-based text editor, adds menus, floating views, and sessions.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rd07",
+      "url": "https://pragtical.dev/blog/pragtical-v3140-release",
+      "createdAt": "2026-10-21T06:09:04Z",
+      "updatedAt": "2026-10-21T06:09:04Z"
+    },
+    {
+      "id": "hn:50230738",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MoltenVK (Vulkan on Metal) was deprecated in favor of KosmicKrisp",
+      "description": "MoltenVK, the Vulkan-on-Metal implementation, has been deprecated in favor of KosmicKrisp.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "qrobit",
+      "url": "https://github.com/KhronosGroup/MoltenVK",
+      "createdAt": "2026-10-25T12:08:41Z",
+      "updatedAt": "2026-10-25T12:08:41Z"
+    },
+    {
+      "id": "hn:50230939",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple is forcing app developers to no longer build for iOS <13.0 [video]",
+      "description": "Apple is now forcing app developers to stop building for iOS versions below 13.0.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "lurtbancaster",
+      "url": "https://www.youtube.com/watch?v=BSPRV62axak",
+      "createdAt": "2026-10-25T12:40:59Z",
+      "updatedAt": "2026-10-25T12:40:59Z"
+    }
   ]
 }
