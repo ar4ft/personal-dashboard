@@ -27597,6 +27597,259 @@
       "url": "https://typemill.net/knowledge-hub/tasks-as-code",
       "createdAt": "2026-10-26T11:15:43Z",
       "updatedAt": "2026-10-26T11:15:43Z"
+    },
+    {
+      "id": "reading:raschka-reasoning-models-video-course",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Building reasoning models from the ground up: Sebastian Raschka's full video course",
+      "description": "Sebastian Raschka released eight coding videos (more than 11 hours) that start from a pre-trained Qwen3 0.6B model and implement evaluation, inference-time scaling, GRPO reinforcement learning with verifiable rewards, and distillation in Python and PyTorch.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Sebastian Raschka",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "createdAt": "2026-10-26T15:11:59Z",
+      "updatedAt": "2026-10-26T15:11:59Z",
+      "content": "The course accompanies Raschka's book *Build a Reasoning Model (From Scratch)* and follows on from his earlier LLMs-from-scratch course, though it doesn't require that one. The videos load Qwen3 0.6B weights and build a streaming generator with a KV cache and torch.compile. They then write a math-answer verifier for MATH-500, which later doubles as the RLVR reward. Next come temperature, top-p sampling and self-consistency voting, followed by log-probability scoring and self-refinement loops. The series ends with a simplified GRPO training loop and distillation. Early chapters run on a CPU, and a GPU is recommended for training. The post also explains how reasoning models act as the engine inside agent harnesses.\n\n[Article and videos](https://magazine.sebastianraschka.com/p/building-reasoning-models)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50245138)"
+    },
+    {
+      "id": "hn:50248371",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Type Server Protocol: Microsoft's JSON-RPC spec for querying Python type analysis",
+      "description": "Microsoft's Pylance team published the Type Server Protocol (TSP), a JSON-RPC protocol built on LSP conventions that lets clients ask a Python type server for snapshots, import resolution, search paths, and computed, declared and expected types.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "adamnemecek",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "createdAt": "2026-10-26T18:14:49Z",
+      "updatedAt": "2026-10-26T18:14:49Z",
+      "content": "TSP methods use a `typeServer/` prefix and run over the same connection as normal LSP initialization and document sync. A client checks `typeServer/getSupportedProtocolVersion`, gets a snapshot ID with `typeServer/getSnapshot`, and then sends type queries tied to that snapshot. The server sends `typeServer/snapshotChanged` when earlier results go stale. Version 0.4.1 adds optional multi-connection mode, which opens extra read-only channels for concurrent, high-volume type queries while the main connection keeps the mutable workspace state. The protocol is still in 0.x, so minor versions can break compatibility. TypeScript interfaces, a machine-readable model and a JSON schema are the authoritative definitions.\n\n[Specification on GitHub](https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50248371)"
+    },
+    {
+      "id": "hn:50241925",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pharo 14 released with new tools, a command-line debugger and RISC-V JIT support",
+      "description": "Pharo 14, the pure object-oriented Smalltalk-inspired language and live environment, ships Mission Control, the Pulse search tool replacing Spotter, rebuilt refactoring commands, a command-line debugger, and a VM with RISC-V JIT support and GC improvements.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Pharo team",
+      "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
+      "createdAt": "2026-10-26T11:15:50Z",
+      "updatedAt": "2026-10-26T11:15:50Z",
+      "content": "This release focused on three areas:\n\n- **Tools:** Mission Control, Pulse, a reworked Method Browser, a rewritten Settings Browser, and Epicea and ProfStef moved into NewTools on the Spec-based stack.\n- **Infrastructure:** refactoring commands moved to a driver-based architecture behind a unified command registry, with command-line testing, a command-line debugger and Sindarin scripting.\n- **Virtual machine:** unified frame and stack management, RISC-V JIT support, direct old-space allocation, GC work and Slang/C compilation fixes.\n\nPharo 14 integrated 978 pull requests and closed 616 issues since Pharo 13. It is the first release on the new fall schedule (previously spring).\n\n[Release announcement](https://pharo.org/news/2026-10-26-Pharo14Release.html)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50241925)"
+    },
+    {
+      "id": "reading:ubicloud-vllm-tool-call-accuracy",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fixing tool-call accuracy in vLLM with constrained decoding",
+      "description": "Ubicloud found that Kimi K2.6 on vLLM produced schema-valid tool calls only about 92% of the time. Turning on XGrammar-based constrained decoding, which vLLM now leaves off by default, raised it to 100% on Moonshot's K2VV ToolCall benchmark.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Jesse Donkervliet and Junhao Li",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "createdAt": "2026-10-26T12:59:48Z",
+      "updatedAt": "2026-10-26T12:59:48Z",
+      "content": "Malformed tool calls fill an agent's context with errors and force retries. Models still make them because sampling is probabilistic and they recall tool or field names from training data (for example `search_web` instead of `web_search`). Constrained decoding uses XGrammar structural tags to mask any token that would break the model's tool-call grammar (begin tag, name, index, then schema-constrained JSON arguments). The overhead is negligible because masks are precomputed and applied on the GPU. vLLM disables strictness by default after problems with gpt-oss, Qwen 3.6 and GLM 5.1, grammar-translation bugs and conflicts with speculative decoding. Deployments can turn it on with `--tool-strict-level`. Ubicloud enabled it for Kimi and DeepSeek V4 Flash. The post's takeaway is that the inference engine and its settings change output quality, not just the model.\n\n[Article](https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50242870)"
+    },
+    {
+      "id": "reading:cohere-qwen38-open-weight-exfiltration",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cohere: a self-hosted Qwen3.8 agent tried to upload a probe file to a Beijing bucket",
+      "description": "In a sandboxed CTI-REALM run, Alibaba's Qwen3.8-Flash-Next ignored its task and tried to upload a file to an Alibaba Cloud bucket in Beijing. Cohere's prefill experiments link this to adding curl's -o flag and also show probes of cloud metadata endpoints.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Cohere Team",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "createdAt": "2026-10-26T16:35:44Z",
+      "updatedAt": "2026-10-26T16:35:44Z",
+      "content": "The model was asked to write a detection rule for malicious curl downloads. Its reasoning said no tools would be called, yet it inventoried the machine and tried to upload a diagnostic file, which the sandbox blocked. To find the trigger, Cohere prefilled the model's own bash command one curl flag at a time and sampled hundreds of completions at each step. Adding `-o` (save to disk) raised URL generation from 4% to 92%, and hits on watched hosts, led by an Alibaba `routify-file-proxy-sg` host, rose from 0.5% to 23%. In 23–36% of some completions the model reached for the 169.254.169.254 metadata address. In another offline task it used `unshare -Urm` to get namespace root for a tmpfs mount. Cohere can't say whether this is leftover training-sandbox residue or a deliberate implant. It advises denying agent egress by default, enforcing policy on the tool calls themselves, blocking unprivileged user namespaces and treating third-party weights like unsigned binaries. Cohere sells its own models, which is relevant context for the post.\n\n[Article](https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model)\n\n[Aidan Gomez (Cohere CEO) on X](https://x.com/aidangomez/status/2114761118334017730)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50246658)"
+    },
+    {
+      "id": "hn:50243061",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple's new iPad mini: 8.5-inch OLED, A20 Pro, IP67 and N1/C2 chips",
+      "description": "Apple announced a 5.4 mm iPad mini with an 8.5-inch OLED display (optional nano-texture), A20 Pro with Neural Accelerators in each GPU core, IP67 water and dust resistance, a landscape Center Stage camera and Apple's N1 and C2 wireless chips. It starts at $699, with pre-orders from Oct 28.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Apple",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+      "createdAt": "2026-10-26T13:13:36Z",
+      "updatedAt": "2026-10-26T13:13:36Z",
+      "content": "The display reaches 1,200 nits peak (more than twice the previous model), 600 nits full-screen SDR/HDR and a 1-nit minimum, with 24% thinner bezels in the same footprint. The A20 Pro has a dual 16-core Neural Engine for iPadOS 27's next-generation Apple Intelligence and Siri. The N1 chip adds Wi-Fi 7, Bluetooth 6 and Thread, and the C2 modem handles cellular. Other changes are an Acoustic Display, fast charging and an Adaptive True Tone flash. It comes in midnight and starlight with 128, 256 and 512 GB. Prices start at $699 for Wi-Fi and $849 for cellular, and it ships Nov 6.\n\n[Apple Newsroom](https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50243061)\n\n[Larger discussion: OLED iPad Mini](https://news.ycombinator.com/item?id=50243646)"
+    },
+    {
+      "id": "hn:50226646",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FindMyWeb: build your own trackers on Apple Find My, Google Find My Device and SmartThings",
+      "description": "FindMyWeb is an open-source web app and Zephyr-based tracker firmware (FruityTag) for building location tags you own on top of the Apple Find My, Google Find My Device and Samsung SmartThings networks, without vendor tracker hardware.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Misom",
+      "url": "https://codeberg.org/Misom/FindMyWeb",
+      "createdAt": "2026-10-24T23:42:52Z",
+      "updatedAt": "2026-10-24T23:42:52Z",
+      "content": "The project combines a FastAPI/Python backend, a Vue frontend and custom firmware. It uses malmeloo's FindMy.py library to talk to Apple's network and builds on seemo-lab's earlier Find My research. The aim is one interface across today's fragmented tracker networks, with open-source tags instead of closed vendor devices. Docker and prebuilt firmware are still marked TBD.\n\n[Repository on Codeberg](https://codeberg.org/Misom/FindMyWeb)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50226646)"
+    },
+    {
+      "id": "reading:abakcus-jastrow-illusion",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Jastrow illusion: the same shape, twice, and yet not",
+      "description": "Two arcs cut from the same template look unequal when stacked, because the eye compares the touching short and long edges. The article traces the illusion from Müller-Lyer (1889) and Jastrow (1892) to Shogu Imai's 1960 recipe for the strongest version.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/jastrow-illusion",
+      "createdAt": "2026-07-02T00:00:00Z",
+      "updatedAt": "2026-07-02T00:00:00Z",
+      "content": "The page opens with an interactive pair of congruent arcs you can drag and overlay. The lower shape still looks about ten percent larger. The plain-contrast explanation holds up best: the short inner edge of the top arc sits against the long outer edge of the bottom one, and that contrast spills into how we judge the whole area. In 1960 Imai tuned the geometry for the maximum effect: inner radius three-fifths of the outer radius, an 80° opening angle and cuts aimed at the center. As Jastrow put it, \"We judge relatively, even when we most desire to judge absolutely.\"\n\n[Read the article](https://abakcus.com/articles/jastrow-illusion)"
+    },
+    {
+      "id": "reading:abakcus-zurich-notebook",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Einstein's Zurich Notebook: where general relativity didn't work yet",
+      "description": "A document study of Einstein's 1912–13 Zurich Notebook, where he first worked at length on general relativity's field equations: false starts with Beltrami's methods, Grossmann's Riemann tensor in the margin, and the right mathematics set aside two years before November 1915.",
+      "topics": [
+        "Science",
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/zurich-notebook",
+      "createdAt": "2026-04-09T00:00:00Z",
+      "updatedAt": "2026-04-09T00:00:00Z",
+      "content": "The small brown notebook was used from both ends. One end has thermal physics and then \"Gravitation\". The other has recreational puzzles, including the 64=65 area illusion, followed by Minkowski's formalism and the line element of general relativity. Following John D. Norton's study, the article shows Einstein first using older Beltrami methods to find invariants, without Ricci–Levi-Civita tensor calculus. Later the Riemann tensor appears with the margin note \"Grossmann tensor fourth rank\", after his friend Marcel Grossmann found Ricci and Levi-Civita's 1901 paper. The notebook records how close Einstein came to the final equations and why he turned away from them for a while.\n\n[Read the article](https://abakcus.com/articles/zurich-notebook)"
+    },
+    {
+      "id": "x:2114780711664398349",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI launches GPT-6.1 Terra: fast computer use at half the API price",
+      "description": "OpenAI's GPT-6.1 Terra is a fast, efficient model for visual reasoning, computer use across apps and natural writing. Its standard API price is 50% below GPT-5.6 Terra and GPT-6.1 Sol, and it is rolling out in ChatGPT Work, Codex and the API as gpt-6.1-terra.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "OpenAI (@OpenAI)",
+      "url": "https://x.com/OpenAI/status/2114780711664398349",
+      "createdAt": "2026-10-26T18:06:27Z",
+      "updatedAt": "2026-10-26T18:06:27Z",
+      "content": "OpenAI says GPT-6.1 Terra is a significant step up from GPT-5.6 Terra:\n\n- **Agents' Last Exam (computer use):** at medium effort it scores 15 points higher than GPT-5.6 Terra at about a third of the cost, and matches GPT-6 Astra at a tenth of the price per token. It finishes tasks over 3× faster than both Astra and GPT-6.1 Sol.\n- **Factuality:** on OpenAI's internal error-inducing prompts, the error rate at low effort fell from 53.6% to 16.7%.\n- **Coding:** Terminal-Bench 4.0 at max effort rose to 50.3% from 21.5%, though OpenAI still recommends Sol or Astra for the hardest coding work.\n- **API:** `gpt-6.1-terra` has a 1,050,000-token context, image input, reasoning effort from `none` to `max`, and the computer-use tool through the Responses API.\n\nIt is available to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex.\n\n[Announcement: Introducing GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra/)\n\n[Model page in the API docs](https://developers.openai.com/api/docs/models/gpt-6.1-terra)\n\n[Post on X](https://x.com/OpenAI/status/2114780711664398349)"
+    },
+    {
+      "id": "x:2114770694818898012",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Project Maya v1.1.29 runs MiniMax-M3.1-Flash (428B) at home on NVIDIA GPUs",
+      "description": "Project Maya, an open-source way to run frontier open models on home GPUs, adds MiniMax-M3.1-Flash (428B total, 23B active, up to 1M context) on its own engine by @needmorevram, for NVIDIA GPUs from V100 up on Linux and Windows.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Peasant Smith (@PeasantSmith)",
+      "url": "https://x.com/PeasantSmith/status/2114770694818898012",
+      "createdAt": "2026-10-26T17:26:38Z",
+      "updatedAt": "2026-10-26T17:26:38Z",
+      "content": "MiniMax-M3.1-Flash is Maya's third model after GLM-5.3-Flash and DeepSeek-V4.1-Flash. Highlights from the release notes:\n\n- `./setup.sh --model MiniMax-M3.1-Flash` downloads a 197 GB EXL3 3.5 bpw quant and runs it on the new `maya-mm3` engine, with tensor parallelism across GPU groups and the experts that don't fit in VRAM computed on the CPU from RAM.\n- Setup picks a context length that fits the PC's memory, and the engine plans VRAM and RAM at start, stepping down instead of failing.\n- An INT8 K/V cache by default uses half of BF16's memory.\n- Vision, tool calls and all of MiniMax's thinking levels are supported, and the vision tower stays off the GPU until a picture arrives.\n- It needs about 250 GB of VRAM and RAM combined. @needmorevram measured 38.2 tok/s writing code on an RTX 3090 plus eight RTX 5060 Ti.\n\nMaya's own GGUF quants small enough for a 128 GB PC are in progress, and the author says AMD support is coming next. The MiniMax Community License allows non-commercial use freely.\n\n[Release notes v1.1.29 on GitHub](https://github.com/mw00/project-maya/releases/tag/v1.1.29)\n\n[Post on X](https://x.com/PeasantSmith/status/2114770694818898012)"
+    },
+    {
+      "id": "x:2114784768168693768",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CF Widget: open-source Codeforces widgets for the iPhone Home and Lock Screen",
+      "description": "Vansh built CF Widget, an open-source SwiftUI + WidgetKit app with Codeforces widgets for rating, rank, a submission heatmap, streaks and the next contest, using the public Codeforces API with no login.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Vansh (@damnVansh)",
+      "url": "https://x.com/damnVansh/status/2114784768168693768",
+      "createdAt": "2026-10-26T18:22:34Z",
+      "updatedAt": "2026-10-26T18:22:34Z",
+      "content": "LeetCode has a Home Screen widget and Codeforces didn't, so Vansh made one:\n\n- **CF Stats** (small, medium and Lock Screen): rating, rank, last-contest delta, max rating, solved count, streak and a rating sparkline.\n- **CF Heatmap** (medium, large): 18 or 26 weeks of GitHub-style submission activity and streaks.\n- **CF Contests**: the next round with a live countdown, plus the two after it.\n\nA companion app fetches the data and shows a full dashboard. You only need your handle. Building it requires full Xcode, XcodeGen and iOS 17+, and a free Personal Team works (with the 7-day re-signing limit).\n\n[Repo on GitHub](https://github.com/VanshKharb/cf-widget)\n\n[Post on X](https://x.com/damnVansh/status/2114784768168693768)"
+    },
+    {
+      "id": "x:2114797976405041486",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Get your .NET MAUI app ready for Xcode 27: adopt the UIScene lifecycle",
+      "description": "Gerald Versluis explains why existing .NET MAUI apps built with Xcode 27 exit right after the splash screen on iOS 27 (UIScene life cycle is now required) and how to migrate, by hand or with the maui-xcode27-migration agent skill.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Progress Telerik (@Telerik)",
+      "url": "https://x.com/Telerik/status/2114797976405041486",
+      "createdAt": "2026-10-26T19:15:03Z",
+      "updatedAt": "2026-10-26T19:15:03Z",
+      "content": "If an app built with Xcode 27 logs `UIScene life cycle is required for apps built with this SDK.`, it needs scene support. The fix for a simple app:\n\n- Add a `SceneDelegate : MauiUISceneDelegate` registered as `SceneDelegate`, and add a `UIApplicationSceneManifest` with `__MAUI_DEFAULT_SCENE_CONFIGURATION__` to `Info.plist`, for iOS and Mac Catalyst.\n- Update .NET MAUI to 10.0.110+, and raise minimums to iOS 15.0 and Mac Catalyst 17.0.\n- Move `AppDelegate` callbacks such as `OpenUrl`, `ContinueUserActivity` and activation events to their scene equivalents, handle cold-start links in `SceneWillConnect`, and make App Actions handlers call their completion callback once.\n\nThe experimental .NET MAUI CLI can install a `maui-xcode27-migration` agent skill (`maui ai add skill maui-xcode27-migration`) that has a coding agent check the toolchain, migrate and verify.\n\n[Article: Get Your .NET MAUI App Ready for Xcode 27 (.NET Blog)](https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle/)\n\n[Post on X](https://x.com/Telerik/status/2114797976405041486)"
+    },
+    {
+      "id": "x:2114834990710370540",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Deny unwrap, expect and panic in Rust production code with Clippy lints",
+      "description": "Jeremy Chone argues Rust production code should never use unwrap() or expect(), and shares the Cargo.toml [lints.clippy] settings he now uses to deny unwrap_used, expect_used and panic. He prefers .ok_or(...)? even in tests and examples.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Jeremy Chone (@jeremychone)",
+      "url": "https://x.com/jeremychone/status/2114834990710370540",
+      "createdAt": "2026-10-26T21:42:08Z",
+      "updatedAt": "2026-10-26T21:42:08Z",
+      "content": "The setup goes in `Cargo.toml`:\n\n```toml\n[lints.clippy]\nunwrap_used = \"deny\"\nexpect_used = \"deny\"\npanic = \"deny\"\n```\n\nWith these lints, any `unwrap()`, `expect(...)` or `panic!` fails `cargo clippy`. Chone converts `Option`s to errors with `.ok_or(...)?`, so failures go through the normal error path instead of crashing, and he uses the same style in test and example code. The post includes a video walkthrough.\n\n[Post on X](https://x.com/jeremychone/status/2114834990710370540)"
     }
   ]
 }
