@@ -27005,6 +27005,293 @@
       "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
       "createdAt": "2026-10-25T22:49:06Z",
       "updatedAt": "2026-10-25T22:49:06Z"
+    },
+    {
+      "id": "hn:50237224",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Attention Is Not What You Need: an attention-free model built on Grassmann flows",
+      "description": "A paper proposing a Causal Grassmann layer that replaces self-attention by encoding local token pairs as 2D subspaces via Plücker coordinates, scaling linearly with sequence length.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Zhang Chong",
+      "url": "https://arxiv.org/abs/2512.19428",
+      "createdAt": "2026-10-25T23:52:05Z",
+      "updatedAt": "2026-10-25T23:52:05Z",
+      "content": "The paper argues that multi-head attention works as a kind of tensor lifting into pairwise-interaction space, which is expressive but hard to interpret. Its alternative linearly reduces token states, encodes local token pairs as two-dimensional subspaces on a Grassmann manifold using Plücker coordinates, and mixes those geometric features back in with gating over multi-scale local windows. Small Grassmann-only models (13–18M parameters) land within about 10–15% of size-matched Transformers' validation perplexity on Wikitext-2, and a Grassmann–Plücker head on DistilBERT slightly beats a Transformer head on SNLI (0.8538 vs 0.8511 test accuracy). The paper is from December 2025.\n\n[Paper on arXiv](https://arxiv.org/abs/2512.19428)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50237224)"
+    },
+    {
+      "id": "hn:50238739",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PaperPilot: a pure-Rust PDF engine with CLI, WASM, MCP server and desktop app",
+      "description": "PaperPilot is a local-only PDF and document toolkit in Rust whose single core runs as an MCP server for AI agents, a CLI, an in-browser WASM tool, a Tauri desktop app and a local REST API.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "vardhan1237",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "createdAt": "2026-10-26T03:29:05Z",
+      "updatedAt": "2026-10-26T03:29:05Z",
+      "content": "Version 0.6 can merge, split, rotate, reorder and extract pages, compress PDFs, extract text, run OCR (pure-Rust PaddleOCR via rten), add watermarks, validate or remove signatures, scan for PII, sanitize files and convert Excel to JSON/CSV. Everything runs locally with no Chromium, C++ runtime or cloud calls; the browser version processes files in memory without uploading them. The MCP server lets Claude Desktop, Cursor and other clients drive the same operations. The roadmap adds PDF↔Markdown/HTML conversion, Office export, encryption, signing, redaction and forms.\n\n[Repo on GitHub](https://github.com/KrushnaVardhanReddy/PaperPilot)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50238739)"
+    },
+    {
+      "id": "hn:50237896",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iFixit's iPhone Duo teardown: most repairable foldable, but the inner screen is a problem",
+      "description": "iFixit calls Apple's folding iPhone Duo the most repairable foldable it has taken apart, while warning that inner-screen damage costs $999 out of warranty and the repair is slow and delicate.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "iFixit",
+      "url": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
+      "createdAt": "2026-10-26T01:23:24Z",
+      "updatedAt": "2026-10-26T01:23:24Z",
+      "content": "The teardown credits ordinary-iPhone repair tricks such as electrically released battery adhesive, an easy-to-remove outer screen and many components that can be reached without taking half the phone apart. It also looks closely at how Apple hides the crease. A bubble-wrap-like nano-texture layer scatters reflections, oddly oriented oval subpixels act as a kind of geometric dithering against diffraction artifacts (backed by Apple patents), and a geared, spring-loaded hinge of linked joints controls the bend. The cover layer can be replaced for $49 ($19 with AppleCare), but early owners are already reporting cracks and bright lines along the fold.\n\n[Article](https://www.ifixit.com/News/119895/iphone-duo-teardown)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50237896)"
+    },
+    {
+      "id": "reading:cpp26-dis-ballot-result",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "C++26 failed its ISO DIS ballot: the numbers and what comes next",
+      "description": "Mateusz Pusz explains that the C++26 draft, with reflection, std::execution and contracts, failed its ISO DIS ballot with 12 of 20 P-members in favour and 9 of 22 votes against, apparently a first for C++.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Mateusz Pusz",
+      "url": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
+      "createdAt": "2026-10-26T06:11:52Z",
+      "updatedAt": "2026-10-26T06:11:52Z",
+      "content": "This is the sixth post in a series on the dispute over C++26 contracts. The ballot closed on 23 October 2026 and missed both approval thresholds: 60% of voting P-members were in favour against the two-thirds required, and 41% of votes were negative against a 25% limit. That leaves reflection, std::execution, library hardening and contracts in an unapproved draft with no known delay yet. Having stayed neutral during the vote, the author now argues for keeping contracts, both as runtime checks and as documentation in the function signature that can't silently drift from the code.\n\n[Read the post](https://train-it.eu/blog/cpp26-contracts-the-ballot-result/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50239748)"
+    },
+    {
+      "id": "hn:50231349",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Farol, a risk map of a pull request for the person who approves it",
+      "description": "Farol is an open-source CLI and GitHub Action that uses static analysis to give each pull request a 0–100 risk score, show which pages, APIs and jobs the change reaches, and list the riskiest files first.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ericholiveira",
+      "url": "https://github.com/winnin/farol",
+      "createdAt": "2026-10-25T13:28:06Z",
+      "updatedAt": "2026-10-25T13:28:06Z",
+      "content": "Farol is meant to run after an AI code review and help the human approver decide where to spend attention. It uses the compilers' own view of the code (the TypeScript type checker, go/types and Python's ast) rather than a model, so the same PR always gets the same answer. It reports the reach of the change with call chains, a verdict (fast track, quick review or careful review), diff coverage, security findings, breaking contract changes and dependency changes. It supports TypeScript/React, Go and Python, is MIT licensed, runs locally or in CI via npx @winninjs/farol, comments on PRs and never blocks a merge.\n\n[Repo on GitHub](https://github.com/winnin/farol)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50231349)"
+    },
+    {
+      "id": "reading:fzero-x-3ds-agentic-port-postmortem",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "F-Zero X on Nintendo 3DS: a postmortem of an agent-built port",
+      "description": "A postmortem of porting the G-Diffuser F-Zero X decompilation to the 3DS with one long-running Claude session and 147 subagents, reaching about 60 fps in stereoscopic 3D on New 3DS and later supporting Old 3DS and the 64DD Expansion Kit.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "cruxxxxxx",
+      "url": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
+      "createdAt": "2026-10-25T23:27:30Z",
+      "updatedAt": "2026-10-25T23:27:30Z",
+      "content": "Most of the site was written by the agent that did the work. One human-written page explains the author's role as somewhere between product owner and QA tester. The first 24-day phase took the port from 12–20 fps in an emulator to a 59.6 fps median on hardware, using about 3.17B tokens (around $4,974 at list prices) and about 250 commits. A 43-day second phase added Old 3DS support, a native renderer and the 64DD Expansion Kit's course editor and machine creator, released as three builds from one source tree. The pages cover the agentic workflow, performance work and costs in detail.\n\n[Read the postmortem](https://hypnotize.works/gdx-3ds/postmortem/index.html)\n\n[Repo on GitHub](https://github.com/cruxxxxxx/gdx-3ds)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50237078)"
+    },
+    {
+      "id": "reading:ipinfo-mmdb-files-smaller",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How IPinfo made its MMDB files a third smaller without changing any data",
+      "description": "IPinfo cut its 89 MaxMind-format databases from 91.2 GB to 62.8 GB by deduplicating identical subtrees in the MMDB search trie, producing standard files that every reader opens with identical lookup results.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Tiago Martins and Silvano Cerza",
+      "url": "https://ipinfo.io/blog/how-made-mmdb-files-smaller",
+      "createdAt": "2026-10-25T17:33:02Z",
+      "updatedAt": "2026-10-25T17:33:02Z",
+      "content": "An MMDB file is a binary trie over IP address bits that points into a data section. Writers already deduplicate repeated records, but they emit every trie node even when large subtrees are identical. Hash-consing the tree bottom-up turns it into a DAG, which removed 41% of the nodes in the Lite database and up to 80% of the file size for the privacy database. There is no compression, no new format and no new reader, and lookups got slightly faster (797 to 757 ns) with less resident memory. The output was verified by full enumeration, random probes and MaxMind's mmdbverify. The tool ships as mmdbshrink and in mmdbctl.\n\n[Article](https://ipinfo.io/blog/how-made-mmdb-files-smaller)\n\n[mmdbctl releases on GitHub](https://github.com/ipinfo/mmdbctl/releases/latest)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50233948)"
+    },
+    {
+      "id": "hn:50239041",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: proc, an agent-friendly CLI for process and port management",
+      "description": "proc is a cross-platform CLI that finds, explains and stops processes by port, PID, name or path (for example proc why :3000 or proc free :3000), with --json output and stable exit codes for scripts and coding agents.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "yazeedaloyoun",
+      "url": "https://proc-cli.com/",
+      "createdAt": "2026-10-26T04:14:35Z",
+      "updatedAt": "2026-10-26T04:14:35Z",
+      "content": "proc replaces lsof/ps/kill pipelines with 19 commands, such as on, why, by, in, ports, tree, orphans, stuck, kill, stop, free, freeze, thaw, unstick, watch and wait. They all accept the same targets, and a leading colon means a port. Most commands take --in to scope to one project folder, --dry-run to preview changes, and --json to emit a single JSON document. Exit codes are fixed (0 success, 1 error, 2 not found, 3 permission denied, 4 invalid input). It ships an agent skill for Claude Code, Codex, Cursor and Gemini CLI, and installs via Homebrew, npm, cargo, Scoop, Nix or Docker on macOS, Linux and Windows.\n\n[Website](https://proc-cli.com/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50239041)"
+    },
+    {
+      "id": "reading:abakcus-bell-tetrahedral-kites",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Alexander Graham Bell's tetrahedral kites: the fractal he flew before it had a name",
+      "description": "How Bell beat the square-cube problem of giant kites by multiplying tetrahedral cells instead of enlarging them, building what is now called a Sierpiński tetrahedron years before Sierpiński.",
+      "topics": [
+        "Science",
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/bell-tetrahedral-kites",
+      "createdAt": "2026-08-01T00:00:00Z",
+      "updatedAt": "2026-08-01T00:00:00Z",
+      "content": "Scaling up a kite fails because weight grows with the cube of its size while wing area grows only with the square. Bell's fix was to tie four tetrahedral cells into a larger tetrahedron, then four of those, and so on, so that weight and lifting surface grew together. The article follows the work from single cells in 1902 to the 1,300-cell Frost King and the 3,393-cell Cygnet, which carried Thomas Selfridge 168 feet above the water in 1907. It links the self-similar structure to Sierpiński's 1915 triangle and to today's space frames.\n\n[Read the article](https://abakcus.com/articles/bell-tetrahedral-kites)"
+    },
+    {
+      "id": "reading:abakcus-sqrt2-irrational",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A number that cannot be the smallest: a proof that √2 is irrational",
+      "description": "A short proof that √2 is irrational using only the well-ordering principle and 1 < √2 < 2, without fractions in lowest terms or arguments about even numbers.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/sqrt2-irrational",
+      "createdAt": "2026-04-21T00:00:00Z",
+      "updatedAt": "2026-04-21T00:00:00Z",
+      "content": "Assume √2 is rational, so the set S of natural numbers N with N√2 an integer is nonempty, and take its smallest element k. Then k(√2 − 1) is also in S, because multiplying it by √2 gives 2k − k√2, an integer. But it is smaller than k, a contradiction. The article contrasts this with Euclid's even/odd proof and notes how well-ordering does the work that induction does elsewhere.\n\n[Read the article](https://abakcus.com/articles/sqrt2-irrational)"
+    },
+    {
+      "id": "x:2114644042772533747",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftFairy's custom Swift graph database: full SwiftUI audit drops from 30 minutes to 17 seconds",
+      "description": "Matthaus Woolard moved SwiftFairy off SQLite to his own graph-like database written in Swift and got about a 100x speedup on a full code audit of a huge SwiftUI project. He expects to ship it in the next few days.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Matthaus Woolard (@hishnash)",
+      "url": "https://x.com/hishnash/status/2114644042772533747",
+      "createdAt": "2026-10-26T09:03:22Z",
+      "updatedAt": "2026-10-26T09:03:22Z",
+      "content": "Matthaus Woolard didn't expect replacing SQLite with a custom graph-like database in Swift to give a 100x speedup. A full audit of a huge SwiftUI project in **SwiftFairy** went from 30 minutes to 17 seconds, and he expects to ship the change within days.\n\nIn replies he explains why:\n\n- An audit fans out into thousands of small child checks over a view or evaluation graph. Many lookups are cacheable but each record is tiny, so SQL's overhead dominates.\n- The engine is built entirely on atomics with no kernel-based thread synchronization, so spawning and unblocking tasks takes nanoseconds. It uses custom lock-free collections (about 20 ns within a core cluster, 50 ns between clusters) and a cache-locality-aware page allocator.\n- The biggest win was writing cached results for partial graph walks without any locking. That made it worth caching about 10k micro-results that would otherwise be recomputed hundreds of times, where an SQL write would cost about 1000x the recompute.\n- Cheap fan-out across all CPU cores also pays off for steps of around 100 ns, where kernel dispatch would normally cost more than the work. Type-resolution caches are invalidated when files in a target change, while results from packages, the standard library and file-local analysis can be cached per file.\n\n[SwiftFairy](https://tools.nilcoalescing.com/swiftfairy/)\n\n[Thread on X](https://x.com/hishnash/status/2114644042772533747)"
+    },
+    {
+      "id": "x:2114618384440857035",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tuist shards Once's portable test plans across CI workers",
+      "description": "Once now ships portable test plans, and a Tuist pull request adds commands that spread their batches across CI workers, with one consolidated report per shard on the same Shards dashboard used for Xcode, Gradle and Cargo.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Tuist (@tuistdev)",
+      "url": "https://x.com/tuistdev/status/2114618384440857035",
+      "createdAt": "2026-10-26T07:21:25Z",
+      "updatedAt": "2026-10-26T07:21:25Z",
+      "content": "Once 0.71.0 (@buildoncedev) added replayable portable test plans. Tuist PR #14732, \"feat(cli): add Once test sharding\", adds `tuist test once plan` and `tuist test once run`:\n\n- The planner uploads the portable plan as an artifact and assigns Once's opaque batch IDs to shards. Each worker downloads the exact plan and runs its batches in a single Once invocation.\n- Fresh CI machines don't need to restore the planner's `.once` directory first. They still need compatible sources, dependencies and toolchains, since only the plan is uploaded, not compiled test binaries.\n- Each worker submits one consolidated partition report. Once projects get the shared Shards dashboard with the same analytics, filters, history and drill-down as Xcode, Gradle and Cargo.\n- It requires Once 0.71.0+ and a server migration, and enrollment is explicit per account. Shard assignment uses default estimates for now, not measured batch durations.\n\nThe PR was still open when the post went out.\n\n[Pull request on GitHub](https://github.com/tuist/tuist/pull/14732)\n\n[Post on X](https://x.com/tuistdev/status/2114618384440857035)"
+    },
+    {
+      "id": "x:2114693432023077214",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftLee: Xcode 27's MCP reads about 7x more text than RocketSim when navigating the Simulator",
+      "description": "Antoine van der Lee benchmarks Xcode 27.1's device-interaction MCP tools against his RocketSim CLI on ten Simulator scenarios. Xcode's MCP needs fewer calls and builds the app, but has the agent read about seven times more text per action.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "iOS Dev Articles (@CocoaDevBlogs)",
+      "url": "https://x.com/CocoaDevBlogs/status/2114693432023077214",
+      "createdAt": "2026-10-26T12:19:37Z",
+      "updatedAt": "2026-10-26T12:19:37Z",
+      "content": "Xcode 27 added device interaction tools to its built-in MCP (`DeviceInteractionStartWorkspaceSession`, `DeviceInteractionInstallAndRun`, `DeviceInteractionSynthesize`, `DeviceInteractionEndSession`). Instead of flooding context with screenshots, `DeviceInteractionSynthesize` returns file paths, and the agent reads coordinates from a text hierarchy file. For a simple screen that file runs to about 121 lines and 10 KB, and the agent reads it after every action.\n\nAntoine van der Lee's benchmark covers ten scenarios × three rounds on an iPhone 17 Pro simulator. RocketSim is his own app, which he discloses.\n\n| | RocketSim CLI | Xcode 27.1 MCP |\n| --- | --- | --- |\n| Output the agent reads | 56 KB | 400 KB |\n| Estimated text tokens | ~14,000 | ~100,000 |\n| Tool calls | 88 | 41 |\n| Elapsed time | 94 s | 114 s |\n| Scenarios completed | 30/30 | 27/30 |\n\nXcode's MCP needs fewer calls because each action returns the new state and commands can be chained, and it also builds and launches the app. It can't activate a hidden accessibility element, and its 54 tool definitions come to roughly 20K tokens if loaded upfront. His tips: remove competing Simulator MCPs or filter their image tools, state your preferred tool in instructions, keep screenshots for visual checks, and use good accessibility labels.\n\n[Article on SwiftLee](https://www.avanderlee.com/ai-development/xcode-mcp-simulator-token-costs/)\n\n[Post on X](https://x.com/CocoaDevBlogs/status/2114693432023077214)"
+    },
+    {
+      "id": "x:2114545079088296128",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI data dependencies and their effect on view updates",
+      "description": "Natalia Panferova compares how stored inputs, closures, @State/@Binding, @Environment, @Observable models and ObservableObject become dependencies, and when each one makes a SwiftUI view's body run again.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Nil Coalescing (@NilCoalescing)",
+      "url": "https://x.com/NilCoalescing/status/2114545079088296128",
+      "createdAt": "2026-10-26T02:30:07Z",
+      "updatedAt": "2026-10-26T02:30:07Z",
+      "content": "A walkthrough of what actually triggers body reevaluation in SwiftUI, each case shown with a small bird-sightings example:\n\n- **Plain stored values** are compared on every new view instance, even if `body` never reads them. Unused inputs still cause updates, so pass only what the view needs.\n- **Reference types** are compared by identity. Mutating a plain class in place doesn't update the view.\n- **Closures** can't be compared reliably, so a closure recreated by the parent makes the child reevaluate. Avoid passing them when possible.\n- **@State / @Binding** become dependencies only once read in `body`, and stay dependencies for the view's identity even if later evaluations stop reading them.\n- **@Environment / @FocusedValue** subscribe on declaration. A changed value reruns `body` even if unused, so delete stale declarations after refactors.\n- **@Observable** tracks the specific properties read in each evaluation, and recomputes them every time, so skipped branches drop dependencies.\n- **ObservableObject** wrappers invalidate on any `@Published` change, which is why the post recommends the Observation APIs.\n\n[Read the article](https://nilcoalescing.com/blog/SwiftUIDataDependenciesAndTheirEffectOnViewUpdates/)\n\n[Post on X](https://x.com/NilCoalescing/status/2114545079088296128)"
+    },
+    {
+      "id": "x:2114680949472379256",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HermesOBD: an agent-built live OBD-II dashboard for macOS",
+      "description": "HermesOBD by trafalger1801 is an open-source SwiftUI Mac app, built with Hermes Agent for a 2005 Mustang, that reads live data and trouble codes from an ELM327-style Bluetooth OBD-II adapter, logs drives to CSV and can send readings to Hermes for commentary.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "witcheer (@witcheer)",
+      "url": "https://x.com/witcheer/status/2114680949472379256",
+      "createdAt": "2026-10-26T11:30:01Z",
+      "updatedAt": "2026-10-26T11:30:01Z",
+      "content": "A Hermes Agent user working on a neighbour's 2005 Mustang asked his agent to build a Mac app for watching the car live. The result, **HermesOBD**, is now an open-source community build:\n\n- It shows live engine data such as RPM, speed and coolant temperature, and reads stored and pending trouble codes.\n- It connects to ELM327 adapters over Bluetooth LE, serial or Wi-Fi, and logs drives to CSV. A clearly labeled simulator lets you try it without hardware.\n- Optionally, it sends a summary to your own Hermes Agent every 30 seconds for commentary and answers questions about the data in the app.\n- It is read-only by design. Commands go through an allowlist, with one opt-in, guarded exception for clearing trouble codes, and there is no tuning or reflashing.\n- Live data and code reading are verified on the Mustang with an Innova 3210RS adapter. It needs macOS 14+ and only the Command Line Tools, not full Xcode.\n\n[Repo on GitHub](https://github.com/trafalger1801/HermesOBD)\n\n[Post on X](https://x.com/witcheer/status/2114680949472379256)"
+    },
+    {
+      "id": "x:2114698306450600343",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Measured: Qwen3-32B vs Qwen3.8-27B decode speed as context grows",
+      "description": "Two Q4_K_M files of similar size start at the same ~72 tok/s in llama.cpp on one 32 GB card, but by 32K context Qwen3-32B is 27% slower while Qwen3.8-27B loses only 9%, because Qwen3-32B keeps a KV cache in all 64 layers versus 16 of 64.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "TensorQuay (@tensorquay)",
+      "url": "https://x.com/tensorquay/status/2114698306450600343",
+      "createdAt": "2026-10-26T12:39:00Z",
+      "updatedAt": "2026-10-26T12:39:00Z",
+      "content": "TensorQuay compared two Q4_K_M quantizations of similar size (19.8 GB and 19.0 GB) in llama.cpp on a single 32 GB GPU. Decode throughput in tok/s:\n\n| Model | 0 | 8K | 16K | 32K |\n| --- | --- | --- | --- | --- |\n| qwen3-32b | 72 | 66 | 61 | 52 |\n| qwen3.8-27b | 73 | 71 | 69 | 66 |\n\nAt 32K tokens of context, Qwen3-32B is down 27% and Qwen3.8-27B only 9%. The gap comes from the architecture: Qwen3-32B keeps a KV cache in all 64 layers, while the hybrid Qwen3.8-27B has full-attention KV cache in only 16 of its 64 layers, so there is far less cache to read per generated token.\n\n[Post on X](https://x.com/tensorquay/status/2114698306450600343)"
     }
   ]
 }
