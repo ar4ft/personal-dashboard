@@ -27850,6 +27850,171 @@
       "createdAt": "2026-10-26T21:42:08Z",
       "updatedAt": "2026-10-26T21:42:08Z",
       "content": "The setup goes in `Cargo.toml`:\n\n```toml\n[lints.clippy]\nunwrap_used = \"deny\"\nexpect_used = \"deny\"\npanic = \"deny\"\n```\n\nWith these lints, any `unwrap()`, `expect(...)` or `panic!` fails `cargo clippy`. Chone converts `Option`s to errors with `.ok_or(...)?`, so failures go through the normal error path instead of crashing, and he uses the same style in test and example code. The post includes a video walkthrough.\n\n[Post on X](https://x.com/jeremychone/status/2114834990710370540)"
+    },
+    {
+      "id": "hn:50242939",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic S-1",
+      "description": "Anthropic has filed its S-1 registration statement with the SEC, the public filing that precedes an initial public offering.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "SiNTEx",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "createdAt": "2026-10-26T13:04:50Z",
+      "updatedAt": "2026-10-26T13:04:50Z"
+    },
+    {
+      "id": "hn:50245524",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "description": "Microsoft is reportedly offering voluntary buyouts to roughly a quarter of its workforce.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "doctorzook",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "createdAt": "2026-10-26T15:35:12Z",
+      "updatedAt": "2026-10-26T15:35:12Z"
+    },
+    {
+      "id": "hn:50248124",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GPT-6.1 Terra",
+      "description": "OpenAI has introduced GPT-6.1 Terra, a new model release.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "meetpateltech",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "createdAt": "2026-10-26T18:01:17Z",
+      "updatedAt": "2026-10-26T18:01:17Z"
+    },
+    {
+      "id": "hn:50245831",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CSS-Tricks has a new owner",
+      "description": "CSS-Tricks, the long-running web design resource, has a new owner.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "edent",
+      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "createdAt": "2026-10-26T15:51:23Z",
+      "updatedAt": "2026-10-26T15:51:23Z"
+    },
+    {
+      "id": "hn:50241664",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Websites Should Be Printable",
+      "description": "An essay on why websites should be printable.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bagatelle",
+      "url": "https://brennenputh.me/blog/printable-websites/",
+      "createdAt": "2026-10-26T10:32:14Z",
+      "updatedAt": "2026-10-26T10:32:14Z"
+    },
+    {
+      "id": "hn:50248055",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Oldest GUI application that still runs on Windows 11",
+      "description": "A look at the oldest GUI application that still runs on Windows 11.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "enlyth",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "createdAt": "2026-10-26T17:56:55Z",
+      "updatedAt": "2026-10-26T17:56:55Z"
+    },
+    {
+      "id": "hn:50246238",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "description": "Hob is an open-source, on-device alternative to Claude Cowork and ChatGPT.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "pancomplex",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "createdAt": "2026-10-26T16:12:29Z",
+      "updatedAt": "2026-10-26T16:12:29Z"
+    },
+    {
+      "id": "hn:50222794",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An incremental approach to JIT construction",
+      "description": "An incremental approach to building just-in-time compilers.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "andsoitis",
+      "url": "https://dl.acm.org/doi/10.1145/3830440.3832304",
+      "createdAt": "2026-10-24T16:27:18Z",
+      "updatedAt": "2026-10-24T16:27:18Z"
+    },
+    {
+      "id": "hn:50251893",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Go 1.28 HTTP/2 Parking: Measuring Memory Savings",
+      "description": "Measurements of the memory savings from Go 1.28's HTTP/2 parking feature.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "atkrad",
+      "url": "https://abdolirad.me/articles/go-1-28-http2-parking-memory/",
+      "createdAt": "2026-10-26T22:17:08Z",
+      "updatedAt": "2026-10-26T22:17:08Z"
+    },
+    {
+      "id": "hn:50252159",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "description": "Cloudflare describes a cross-request KV cache exposure in the GLM-5.3 Workers AI model and its remediation.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "createdAt": "2026-10-26T22:41:48Z",
+      "updatedAt": "2026-10-26T22:41:48Z"
     }
   ]
 }
