@@ -2,6 +2,145 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2113676827114053892",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent open-sources Hy-Nomas, an interactive video world model",
+      "description": "Hy-Nomas generates long, explorable video worlds from a text prompt and a camera path, keeps a memory of the world, and can be adapted with LoRA for domains like robotics.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Tencent Hunyuan (@TencentHunyuan)",
+      "url": "https://x.com/TencentHunyuan/status/2113676827114053892",
+      "createdAt": "2026-10-23T17:00:00Z",
+      "updatedAt": "2026-10-23T17:00:00Z",
+      "content": "Tencent Hunyuan released Hy-Nomas as open source: a free-form interactive video world model driven by text prompts and camera trajectories. It supports long-horizon generation with a world memory so places stay consistent as you move, and the team shows LoRA adaptation for domains such as robotics. The post drew about 900 likes and 170 reposts.\n\n[Hy-Nomas on GitHub](https://github.com/Tencent-Hunyuan/Hy-Nomas) · [Weights on Hugging Face](https://huggingface.co/tencent/Hy-Nomas) · [Online demo](https://hy-nomas.hy.tencent.com/demo)\n\n[Post on X](https://x.com/TencentHunyuan/status/2113676827114053892)"
+    },
+    {
+      "id": "x:2114528194997145770",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Meta's JEM: patch-level self-supervised learning that rivals DINOv3",
+      "description": "A Meta paper introduces JEM, a scalable patch-level self-supervised vision method that beats DINOv2 on dense tasks in a controlled setting and the DINOv3 checkpoint with 12x less data.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Tanishq Mathew Abraham (@iScienceLuvr)",
+      "url": "https://x.com/iScienceLuvr/status/2114528194997145770",
+      "createdAt": "2026-10-26T01:23:02Z",
+      "updatedAt": "2026-10-26T01:23:02Z",
+      "content": "\"Scalable Patch-Level Self-Supervised Learning\" from Meta proposes JEM, which learns image features at the patch level rather than per image. In a controlled comparison it beats DINOv2 on dense tasks such as segmentation and depth, and it beats the released DINOv3 checkpoint despite training on about 12 times less data. The post had about 450 likes and 430 bookmarks.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.10013)\n\n[Post on X](https://x.com/iScienceLuvr/status/2114528194997145770)"
+    },
+    {
+      "id": "x:2113665077215625360",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agent S4 lifts open Qwen3.8-27B to 21.3% on OSWorld V2",
+      "description": "Simular's Agent S4 evolves the interfaces a computer-use agent works through, getting an open 27B model to 21.3% on OSWorld V2 at about $1.10 per task without touching its weights.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Simular (@SimularAI)",
+      "url": "https://x.com/SimularAI/status/2113665077215625360",
+      "createdAt": "2026-10-23T16:13:19Z",
+      "updatedAt": "2026-10-23T16:13:19Z",
+      "content": "Instead of fine-tuning, Simular's Agent S4 acts as an agent scientist that iterates on the tools and interfaces a computer-use agent works through. With the open Qwen3.8-27B model it reached 21.3% of 108 OSWorld V2 tasks, which Simular says tops GPT-5.5 and Claude Opus 4.8 runs, at roughly $1.10 per task versus $25.50 and $72.40. The post passed 590K views.\n\n[Agent S4 write-up](https://www.simular.ai/articles/agent-s4-evolving-the-interfaces-computer-use-agents-work-throughagen)\n\n[Post on X](https://x.com/SimularAI/status/2113665077215625360)"
+    },
+    {
+      "id": "x:2114573844858159372",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Trompe: texture an AI-built Blender blockout by projecting 128 generated views",
+      "description": "An open-source pipeline has Claude Opus 5.5 build a village blockout in Blender, then textures it by generating 128 views with FLUX 3 Klein and Fibo 2 and projecting them back onto the geometry.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@rehan_shei",
+      "url": "https://x.com/rehan_shei/status/2114573844858159372",
+      "createdAt": "2026-10-26T04:24:26Z",
+      "updatedAt": "2026-10-26T04:24:26Z",
+      "content": "The workflow starts with Claude Opus 5.5 scripting a gray village blockout in Blender. Trompe then picks 128 camera views around the map, has FLUX 3 Klein and Fibo 2 paint the untextured areas in each view, and projects the images back onto the mesh to get a fully textured scene. The demo video got about 900 likes and over 1,000 bookmarks.\n\n[Trompe on GitHub](https://github.com/Patch-gg/trompe)\n\n[Post on X](https://x.com/rehan_shei/status/2114573844858159372)"
+    },
+    {
+      "id": "x:2113728899528249588",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A free iOS jhana meditation app with Rob Burbea's recordings",
+      "description": "Jonny Miller released a free iOS app for jhana meditation practice that bundles the Rob Burbea retreat recordings with a meditation timer and a practice journal.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Jonny Miller (@jonnym1ller)",
+      "url": "https://x.com/jonnym1ller/status/2113728899528249588",
+      "createdAt": "2026-10-23T20:26:55Z",
+      "updatedAt": "2026-10-23T20:26:55Z",
+      "content": "The app packages Rob Burbea's jhana retreat recordings alongside a simple meditation timer and a journal for logging sits, and it is free with no paywall. The launch post got about 230 likes and 160 bookmarks.\n\n[Jhana app page](https://jhanaretreat.com/app)\n\n[Post on X](https://x.com/jonnym1ller/status/2113728899528249588)"
+    },
+    {
+      "id": "x:2113857959507980609",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MacWriteBuddy: rewrite selected text in any Mac app with a hotkey",
+      "description": "MacWriteBuddy is a small Mac utility: select text anywhere, press Control-Option-F, and pick a model to rewrite it, using your own API key or an offline model.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@helloshiva0801",
+      "url": "https://x.com/helloshiva0801/status/2113857959507980609",
+      "createdAt": "2026-10-24T04:59:45Z",
+      "updatedAt": "2026-10-24T04:59:45Z",
+      "content": "Select text in any Mac app, press `⌃⌥F`, and MacWriteBuddy rewrites it with the model you choose; the launch post compares four models rewriting the same Slack message. It works with your own API key or a fully offline model. It is a tiny launch so far, but a working product.\n\n[MacWriteBuddy site](https://macwritebuddy.com)\n\n[Post on X](https://x.com/helloshiva0801/status/2113857959507980609)"
+    },
+    {
+      "id": "ideas:local-scene-texture-projector",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Local multi-view texture projector for Blender blockouts",
+      "description": "Run Trompe-style texturing at home: render views of a gray Blender blockout, paint them with a local image model, and project the results back onto the mesh.",
+      "content": "## How it works\n\nTrompe showed that an AI-built Blender blockout can be textured by generating many camera views and projecting them back. This version runs fully local on a Mac: a Blender script places cameras, renders depth and normal passes per view, a local image model paints each view conditioned on those passes, and a bake step projects and blends the paintings into one texture atlas.\n\n```mermaid\nflowchart LR\n  Blockout[Gray Blender blockout] --> Views[Place cameras and render depth]\n  Views --> Paint[Local image model paints each view]\n  Paint --> Project[Project onto mesh]\n  Project --> Bake[Blend and bake texture atlas]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Scene | Blender with Python bpy scripts |\n| Image model | FLUX Klein-class model via MLX or ComfyUI |\n| Conditioning | Depth and normal ControlNet passes |\n| Output | Baked PBR texture atlas in glTF |\n\n## Hard parts\n\n- Keeping style and lighting consistent across dozens of independently generated views.\n- Blending seams where views overlap and filling surfaces no camera sees.\n- Render time for 100+ views on a laptop GPU.\n\n## Effort\n\nA weekend for a small scene with 16 views; a couple of weeks for clean seams and larger maps.\n\n## Inspired by\n\n- [Rehan's Trompe post on X](https://x.com/rehan_shei/status/2114573844858159372)\n- [Trompe on GitHub](https://github.com/Patch-gg/trompe)",
+      "nextStep": "Clone Trompe, swap its image call for a local FLUX Klein endpoint, and texture a simple four-building blockout from 16 views.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-26T14:30:00Z",
+      "updatedAt": "2026-10-26T14:30:00Z"
+    },
+    {
+      "id": "ideas:mac-agent-harness-evolver",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Self-improving tool harness for a local Mac computer-use agent",
+      "description": "Borrow Agent S4's idea at desktop scale: keep a local open model fixed and let a loop rewrite the tools and prompts it uses to drive Mac apps, scored on a small task suite.",
+      "content": "## How it works\n\nAgent S4 got an open 27B model far up OSWorld V2 by improving the interfaces the agent works through rather than the weights. Here a local model drives a handful of Mac apps through accessibility APIs. An outer loop runs a fixed suite of 20 everyday tasks, reads the failure traces, proposes edits to the tool definitions and prompts, and keeps only the edits that raise the score.\n\n```mermaid\nflowchart LR\n  Tasks[Mac task suite] --> Run[Local model runs tasks]\n  Run --> Traces[Failure traces]\n  Traces --> Propose[Propose tool and prompt edits]\n  Propose --> Score[Rescore and keep winners]\n  Score --> Run\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Model | Qwen-class 27B or smaller via llama.cpp or MLX |\n| Control | macOS Accessibility API through a small Swift CLI |\n| Loop | Python script with versioned tool specs in git |\n| Scoring | Scripted checks on app state after each task |\n\n## Hard parts\n\n- Writing reliable automatic checks for whether a desktop task succeeded.\n- Avoiding overfitting the harness to the 20 tasks.\n- Run time, since each scoring round replays every task.\n\n## Effort\n\nA week for the Swift control CLI and five tasks; a few weeks for a useful improvement loop.\n\n## Inspired by\n\n- [Simular's Agent S4 post on X](https://x.com/SimularAI/status/2113665077215625360)\n- [Agent S4 write-up](https://www.simular.ai/articles/agent-s4-evolving-the-interfaces-computer-use-agents-work-throughagen)",
+      "nextStep": "Write five scripted Mac tasks with automatic pass checks (Notes, Finder, Calendar) and run a local model through them once to get a baseline score.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-26T14:30:00Z",
+      "updatedAt": "2026-10-26T14:30:00Z"
+    },
+    {
       "id": "x:2113316017510191578",
       "section": "news",
       "type": "news",
