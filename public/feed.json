@@ -27292,6 +27292,172 @@
       "createdAt": "2026-10-26T12:39:00Z",
       "updatedAt": "2026-10-26T12:39:00Z",
       "content": "TensorQuay compared two Q4_K_M quantizations of similar size (19.8 GB and 19.0 GB) in llama.cpp on a single 32 GB GPU. Decode throughput in tok/s:\n\n| Model | 0 | 8K | 16K | 32K |\n| --- | --- | --- | --- | --- |\n| qwen3-32b | 72 | 66 | 61 | 52 |\n| qwen3.8-27b | 73 | 71 | 69 | 66 |\n\nAt 32K tokens of context, Qwen3-32B is down 27% and Qwen3.8-27B only 9%. The gap comes from the architecture: Qwen3-32B keeps a KV cache in all 64 layers, while the hybrid Qwen3.8-27B has full-attention KV cache in only 16 of its 64 layers, so there is far less cache to read per generated token.\n\n[Post on X](https://x.com/tensorquay/status/2114698306450600343)"
+    },
+    {
+      "id": "hn:50238088",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
+      "description": "IBM's CEO says open-weight models are now good and cheap enough to run on-premises, making local enterprise deployment practical.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Betelbuddy",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "createdAt": "2026-10-26T01:47:46Z",
+      "updatedAt": "2026-10-26T01:47:46Z"
+    },
+    {
+      "id": "hn:50197108",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Overgrown, when plants invade your abandoned tabs",
+      "description": "Overgrown is a browser extension that turns abandoned tabs into a growing virtual garden, playfully visualizing tab clutter.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://charliegerard.dev/blog/overgrown-extension/",
+      "createdAt": "2026-10-22T15:52:21Z",
+      "updatedAt": "2026-10-22T15:52:21Z"
+    },
+    {
+      "id": "hn:50238708",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "description": "TitleArt is a Show HN tool that styles text with a 1997-era aesthetic, recreating the look of early web typography.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "davidbarker",
+      "url": "https://titleart.dvy.io/",
+      "createdAt": "2026-10-26T03:23:57Z",
+      "updatedAt": "2026-10-26T03:23:57Z"
+    },
+    {
+      "id": "hn:50240922",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Switzerland. Block by block. At 1:1 scale",
+      "description": "A project recreating Switzerland block by block at 1:1 scale, mapping the whole country in miniature detail.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://blocks.manifold3d.ch/",
+      "createdAt": "2026-10-26T08:46:09Z",
+      "updatedAt": "2026-10-26T08:46:09Z"
+    },
+    {
+      "id": "hn:50228115",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: A Truly Modular Keyboard",
+      "description": "A Show HN project for a truly modular keyboard, letting users swap and reconfigure its components.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "NotARoomba",
+      "url": "https://github.com/notaroomba/keybytes",
+      "createdAt": "2026-10-25T03:47:56Z",
+      "updatedAt": "2026-10-25T03:47:56Z"
+    },
+    {
+      "id": "hn:50237712",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+      "description": "A developer reports reaching 100 on every Lighthouse category after removing Next.js from their blog in favor of a simpler setup.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "textlanes33",
+      "url": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
+      "createdAt": "2026-10-26T01:03:39Z",
+      "updatedAt": "2026-10-26T01:03:39Z"
+    },
+    {
+      "id": "hn:50234699",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
+      "description": "An analysis arguing AI did not cause the tech jobs downturn, but helps explain why hiring has not recovered.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "hacker_v_s",
+      "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+      "createdAt": "2026-10-25T18:42:23Z",
+      "updatedAt": "2026-10-25T18:42:23Z"
+    },
+    {
+      "id": "hn:50227041",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+      "description": "A Show HN proposal for ADRs for AI: versioned deliberation records documenting human-AI collaboration decisions in Git.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "lumbroso",
+      "url": "https://adrs.systems",
+      "createdAt": "2026-10-25T00:43:47Z",
+      "updatedAt": "2026-10-25T00:43:47Z"
+    },
+    {
+      "id": "hn:50237813",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Freehire, open-source search 3M+ tech jobs from company career boards",
+      "description": "Freehire is an open-source search tool indexing over three million tech jobs pulled directly from company career boards.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "i_strelov",
+      "url": "https://freehire.me/",
+      "createdAt": "2026-10-26T01:13:43Z",
+      "updatedAt": "2026-10-26T01:13:43Z"
+    },
+    {
+      "id": "hn:50241924",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tasks as Code: Move Your Tickets into the Repository",
+      "description": "Tasks as Code proposes moving tickets into the repository itself, managing work items alongside the code they describe.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "trendschau",
+      "url": "https://typemill.net/knowledge-hub/tasks-as-code",
+      "createdAt": "2026-10-26T11:15:43Z",
+      "updatedAt": "2026-10-26T11:15:43Z"
     }
   ]
 }
