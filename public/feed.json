@@ -28889,6 +28889,173 @@
       "createdAt": "2026-10-27T21:05:01Z",
       "updatedAt": "2026-10-27T21:05:01Z",
       "content": "The article's headline finding is that \"the distilled model wasn't just as good as the model+harness, it was noticeably better.\" Its argument is that general-purpose agent scaffolding is moving into the models themselves, so harnesses will shift toward task-specific tooling rather than disappear.\n\n[Post on X](https://x.com/OReillyMedia/status/2115188039651643521)"
+    },
+    {
+      "id": "hn:50260814",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "description": "Stanford Daily reports that Anthropic trained Claude on books by Stanford professors that were obtained illegally.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "car",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "createdAt": "2026-10-27T15:28:26Z",
+      "updatedAt": "2026-10-27T15:28:26Z"
+    },
+    {
+      "id": "hn:50261819",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+      "description": "Police are using AI to flag drivers for 'suspicious' behavior and pull them over.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gumby",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "createdAt": "2026-10-27T16:40:15Z",
+      "updatedAt": "2026-10-27T16:40:15Z"
+    },
+    {
+      "id": "hn:50261352",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "New 14‑inch MacBook Pro with M6",
+      "description": "Apple introduces a new 14-inch MacBook Pro powered by the M6 chip.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "beex",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "createdAt": "2026-10-27T16:08:32Z",
+      "updatedAt": "2026-10-27T16:08:32Z"
+    },
+    {
+      "id": "hn:50261589",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "description": "Amazon is gutting its AI division after sustained failure.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dpflan",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "createdAt": "2026-10-27T16:25:30Z",
+      "updatedAt": "2026-10-27T16:25:30Z"
+    },
+    {
+      "id": "hn:50259343",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PHP2Shell: Exploitation attempts and remediation trends",
+      "description": "A look at exploitation attempts and remediation trends around the PHP2Shell vulnerabilities.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+      "createdAt": "2026-10-27T13:52:12Z",
+      "updatedAt": "2026-10-27T13:52:12Z"
+    },
+    {
+      "id": "hn:50263854",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Discord will soon let anyone find public server messages through Google",
+      "description": "Discord will soon let anyone find messages from public servers through Google search.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "DeepLogin",
+      "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+      "createdAt": "2026-10-27T18:44:17Z",
+      "updatedAt": "2026-10-27T18:44:17Z"
+    },
+    {
+      "id": "hn:50256952",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gforth 1.0",
+      "description": "Gforth reaches version 1.0.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "joshcsimmons",
+      "url": "https://gforth.org/manual/1.0/NEWS.html",
+      "createdAt": "2026-10-27T10:23:21Z",
+      "updatedAt": "2026-10-27T10:23:21Z"
+    },
+    {
+      "id": "hn:50264857",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "description": "Tailscale shares an investigation and remediation update on Tailscale SSH.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "figmert",
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "createdAt": "2026-10-27T19:55:21Z",
+      "updatedAt": "2026-10-27T19:55:21Z"
+    },
+    {
+      "id": "hn:50258868",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Here be monsters: What do you still need to know when agents do the work?",
+      "description": "An essay on what you still need to know when AI agents do the work.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "adrq",
+      "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+      "createdAt": "2026-10-27T13:23:22Z",
+      "updatedAt": "2026-10-27T13:23:22Z"
+    },
+    {
+      "id": "hn:50245014",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Micron Is Suddenly Ditching 4F² DRAM as Rivals Double Down",
+      "description": "An explanation of why Micron is suddenly ditching 4F² DRAM while its rivals double down.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rbanffy",
+      "url": "https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram",
+      "createdAt": "2026-10-26T15:05:04Z",
+      "updatedAt": "2026-10-26T15:05:04Z"
     }
   ]
 }
