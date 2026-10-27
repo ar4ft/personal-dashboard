@@ -28639,6 +28639,256 @@
       "url": "https://oioannou.com/blog/ai-promised-less-work/",
       "createdAt": "2026-10-27T11:08:14Z",
       "updatedAt": "2026-10-27T11:08:14Z"
+    },
+    {
+      "id": "hn:50261319",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Genie 4: DeepMind's world model now generates sound, music and dialogue with the world",
+      "description": "Google DeepMind announced Genie 4, a natively multimodal world model built on Gemini that simulates interactive worlds in real time along with ambient audio, music and spoken dialogue.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "createdAt": "2026-10-27T16:06:01Z",
+      "updatedAt": "2026-10-27T16:06:01Z",
+      "content": "Genie 4 builds on the Gemini family: Gemini Omni grounds the simulation in real-world appearance and behavior, while other Gemini models supply the reasoning that keeps a scene coherent over time. You set an event in motion and the model simulates how the world responds, sounds, and how the people in it move and speak. DeepMind pitches it for robot and agent training environments as well as interactive experiences. It is rolling out as a research preview to trusted testers, then to Google AI Ultra subscribers in Project Genie and early-access Gemini API and AI Studio partners.\n\n[DeepMind announcement](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50261319)"
+    },
+    {
+      "id": "hn:50261998",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ghostty 1.4 ships full Kitty graphics, big performance and memory gains",
+      "description": "Ghostty 1.4.0 is a major release with large performance and memory improvements, a complete Kitty graphics implementation including animation, better SSH integration and two security fixes.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "deaux",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "createdAt": "2026-10-27T16:51:22Z",
+      "updatedAt": "2026-10-27T16:51:22Z",
+      "content": "The release covers seven months of work from 172 contributors over 2,889 commits. Ghostty says it is the first terminal other than Kitty to implement the Kitty graphics protocol completely, including animation and relative placements. It also fixes two advisories: paste protection that didn't treat carriage returns as line endings, and malicious Kitty graphics commands that could crash or hang the terminal or touch files outside its temp directories.\n\n[Release notes](https://ghostty.org/docs/install/release-notes/1-4-0)\n\n[HN discussion](https://news.ycombinator.com/item?id=50261998)"
+    },
+    {
+      "id": "hn:50260714",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "JetBrains IDEs' built-in terminal now runs on libghostty",
+      "description": "Starting with 2026.3, the terminal in JetBrains IDEs replaces its long-time JediTerm emulator with libghostty for parsing and terminal state, bringing modern protocols like the Kitty keyboard protocol.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "paaloeye",
+      "url": "https://blog.jetbrains.com/platform/2026/10/jetbrains-terminal-now-uses-ghostty/",
+      "createdAt": "2026-10-27T15:22:13Z",
+      "updatedAt": "2026-10-27T15:22:13Z",
+      "content": "JetBrains says AI coding agents such as Claude Code and Codex, plus full-screen apps like Neovim and tmux, depend on terminal protocols JediTerm never supported. libghostty now handles parsing and terminal state while the IDE keeps rendering and higher-level integrations. One practical result: apps can tell Enter, Shift+Enter and Ctrl+Enter apart, so multi-line prompts in CLI agents behave as documented.\n\n[JetBrains blog post](https://blog.jetbrains.com/platform/2026/10/jetbrains-terminal-now-uses-ghostty/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50260714)"
+    },
+    {
+      "id": "hn:50258521",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple introduces the 14-inch MacBook Pro with M6",
+      "description": "Apple's new 14-inch MacBook Pro uses the M6 chip with a 12-core CPU and 12-core GPU, which Apple says is up to 30% faster in graphics and 25% faster in AI workloads than M5, plus Wi-Fi 7 and up to 24 hours of battery.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "meetpateltech",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "createdAt": "2026-10-27T13:01:07Z",
+      "updatedAt": "2026-10-27T13:01:07Z",
+      "content": "Apple claims M6 has the world's fastest CPU core. The GPU adds more Neural Accelerators and the chip has a Dual 16-core Neural Engine, which Apple positions for Siri AI, Apple Intelligence and running LLMs locally. Compared with M1 machines, Apple quotes up to 11x faster graphics and 13x faster AI performance. The laptop also moves to Wi-Fi 7 and Bluetooth 6.\n\n[Apple Newsroom](https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50258521)"
+    },
+    {
+      "id": "hn:50258538",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iMac gets the M6 chip, with pre-orders opening October 28",
+      "description": "Apple refreshed the 24-inch iMac with the M6 chip, a Neural Accelerator in each GPU core, the first Dual 16-core Neural Engine and up to 32GB of unified memory, in seven colors.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "notfried",
+      "url": "https://www.apple.com/imac/",
+      "createdAt": "2026-10-27T13:02:02Z",
+      "updatedAt": "2026-10-27T13:02:02Z",
+      "content": "Pre-orders start at 10:10 a.m. PT on October 28, with availability from November 6. The iMac keeps its 4.5K Retina display and thin all-in-one design; the upgrade is mostly the chip, which Apple pitches for on-device AI and Siri AI.\n\n[iMac page](https://www.apple.com/imac/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50258538)"
+    },
+    {
+      "id": "hn:50261647",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Classification of Finite Simple Groups, fully formalized in Lean",
+      "description": "Axiom Math presents a complete Lean formalization of the first-generation proof of the classification of finite simple groups, about 43 million lines of Lean, and reports a flaw it found in a published argument.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "pfdietz",
+      "url": "https://cfsg.axiommath.ai/",
+      "createdAt": "2026-10-27T16:29:02Z",
+      "updatedAt": "2026-10-27T16:29:02Z",
+      "content": "The classification says every finite simple group is cyclic of prime order, alternating, of Lie type, or one of 26 sporadic groups, and its original proof spans thousands of journal pages. The project checks every step with Lean's kernel: 43.1M lines, 2.05M declarations, 100 milestones and 715 source papers and books. While formalizing, the team found counterexamples to a closure assertion in one published route to the Unbalanced Group Theorem and wrote a paper giving an alternative argument. They are also compiling errata found in the literature.\n\n[Project site](https://cfsg.axiommath.ai/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50261647)"
+    },
+    {
+      "id": "hn:50262229",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Liquid AI releases LFM3, open-weight 2B-class models across text, vision, audio and more",
+      "description": "LFM3 is Liquid AI's new family of small open-weight models on a shared tri-hybrid backbone; LFM3-1.7B beats the previous LFM2.5-2.6B with 35% fewer parameters and has a 256K context window.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Philpax",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "createdAt": "2026-10-27T17:04:50Z",
+      "updatedAt": "2026-10-27T17:04:50Z",
+      "content": "The first release has six 2B-class models (text, vision, audio, omni and decision) trained from LFM3-1.7B-Base on 22T tokens. The text model fits in about 1 GB at 4-bit, and every model can be fine-tuned on a single GPU, which is the point: Liquid pitches them as bases for specialized, on-device experts. Weights are on Hugging Face, and the models are also in Liquid's Playground and API.\n\n[Liquid AI blog post](https://www.liquid.ai/blog/lfm3)\n\n[HN discussion](https://news.ycombinator.com/item?id=50262229)"
+    },
+    {
+      "id": "hn:50265960",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "One year of Dioxus fullstack in production: the good and the painful",
+      "description": "A solo founder reviews a year of running a Dioxus 0.7 fullstack Rust app in production: shared types and one language end to end are the wins, while 90-minute release builds in CI are the pain.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "hauju",
+      "url": "https://oxidt.com/blog/one-year-of-dioxus-fullstack-in-production-the-good-the-painful",
+      "createdAt": "2026-10-27T21:19:15Z",
+      "updatedAt": "2026-10-27T21:19:15Z",
+      "content": "The app is SeggWat, an in-app feedback tool whose dashboard is a Cargo workspace with a server-function backend crate, an auth crate and about ten UI crates on PostgreSQL. Dioxus renders on the server, runs server functions as the backend and compiles the client to WebAssembly. The author's favorite part is defining a struct once and having `cargo check` flag every breakage after a rename; the worst part is a release build that takes 90 minutes on a GitHub-hosted runner.\n\n[Read the post](https://oxidt.com/blog/one-year-of-dioxus-fullstack-in-production-the-good-the-painful)\n\n[HN discussion](https://news.ycombinator.com/item?id=50265960)"
+    },
+    {
+      "id": "reading:abakcus-how-to-learn-mathematics",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How to learn mathematics on your own: a self-study roadmap",
+      "description": "Abakcus lays out a self-study path through nine undergraduate math courses with nearly 70 books, a prerequisite map, a calculus readiness check and a study planner.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/how-to-learn-mathematics",
+      "createdAt": "2026-10-16T00:00:00Z",
+      "updatedAt": "2026-10-16T00:00:00Z",
+      "content": "The guide is organized like an undergraduate curriculum: nine courses in order, with book recommendations for each and a map of which subjects depend on which. It includes a readiness check before calculus and a planner for pacing the work, aimed at adults learning mathematics without a classroom.\n\n[Read the article](https://abakcus.com/articles/how-to-learn-mathematics)"
+    },
+    {
+      "id": "reading:abakcus-sudoku-mathematics",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The mathematics of Sudoku: how many grids, and why 17 clues",
+      "description": "Abakcus explains the math behind Sudoku: the 6,670,903,752,021,072,936,960 valid grids, the 2012 proof that 16 clues are never enough, backtracking solvers, Crook's pencil method and the 810-edge Sudoku graph.",
+      "topics": [
+        "Math",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/sudoku-mathematics",
+      "createdAt": "2026-04-17T00:00:00Z",
+      "updatedAt": "2026-04-17T00:00:00Z",
+      "content": "The article covers how the number of completed grids was counted, the 2012 computer-assisted proof that no puzzle with only 16 givens has a unique solution (so 17 is the minimum), and how solving works both as backtracking search and by hand with Crook's pencil-and-paper algorithm. It also frames the puzzle as graph coloring on a graph with 81 vertices and 810 edges.\n\n[Read the article](https://abakcus.com/articles/sudoku-mathematics)"
+    },
+    {
+      "id": "x:2115150589349032329",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tuist brings its environments to Amp so agents can build and validate changes",
+      "description": "Tuist announced it is bringing Tuist environments to the Amp coding agent, giving agents a place to run their tools and validate their changes with quick builds.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Tuist (@tuistdev)",
+      "url": "https://x.com/tuistdev/status/2115150589349032329",
+      "createdAt": "2026-10-27T18:36:12Z",
+      "updatedAt": "2026-10-27T18:36:12Z",
+      "content": "Tuist, the Xcode project and build tooling company, says agents running in Amp will get Tuist environments to run tools and check their own changes, with fast builds. It's part of Tuist's push to become infrastructure for agent-driven app development.\n\n[Post on X](https://x.com/tuistdev/status/2115150589349032329)"
+    },
+    {
+      "id": "x:2115138534755467374",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tuist tries a shared Rust core with native Swift and Kotlin UIs for its apps",
+      "description": "Pedro Piñera says Tuist is building its native apps with business logic in a shared Rust core and Swift and Kotlin on top for UI and platform code, arguing web-backed cross-platform approaches aren't needed.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Pedro Piñera (@pepicrft)",
+      "url": "https://x.com/pepicrft/status/2115138534755467374",
+      "createdAt": "2026-10-27T17:48:18Z",
+      "updatedAt": "2026-10-27T17:48:18Z",
+      "content": "Quoting Tuist's own post about the experiment, Piñera argues that with the right infrastructure and tooling (and AI tokens), teams don't need web or JavaScript-based stacks to ship apps on several platforms. The shared core keeps logic in one place while each platform keeps a fully native interface.\n\n[Post on X](https://x.com/pepicrft/status/2115138534755467374)"
+    },
+    {
+      "id": "x:2115143399007502841",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paul Hudson on one-to-many relationships in SwiftData",
+      "description": "Paul Hudson notes that one-to-many is the most common SwiftData relationship and recommends declaring the inverse explicitly even when SwiftData could infer it.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Paul Hudson (@twostraws)",
+      "url": "https://x.com/twostraws/status/2115143399007502841",
+      "createdAt": "2026-10-27T18:07:38Z",
+      "updatedAt": "2026-10-27T18:07:38Z",
+      "content": "The post points to his Hacking with Swift quick-start chapter, which walks through modeling a one-to-many relationship in SwiftData and why spelling out the inverse relationship avoids surprises.\n\n[How to create one-to-many relationships](https://www.hackingwithswift.com/quick-start/swiftdata/how-to-create-one-to-many-relationships)\n\n[Post on X](https://x.com/twostraws/status/2115143399007502841)"
+    },
+    {
+      "id": "x:2115188039651643521",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Are agent harnesses dying? O'Reilly Radar on harness distillation",
+      "description": "An O'Reilly Radar piece looks at harness distillation, where a model trained on a model-plus-harness setup ends up noticeably better than the original combination, and what that means as models absorb general scaffolding.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "O'Reilly Media (@OReillyMedia)",
+      "url": "https://x.com/OReillyMedia/status/2115188039651643521",
+      "createdAt": "2026-10-27T21:05:01Z",
+      "updatedAt": "2026-10-27T21:05:01Z",
+      "content": "The article's headline finding is that \"the distilled model wasn't just as good as the model+harness, it was noticeably better.\" Its argument is that general-purpose agent scaffolding is moving into the models themselves, so harnesses will shift toward task-specific tooling rather than disappear.\n\n[Post on X](https://x.com/OReillyMedia/status/2115188039651643521)"
     }
   ]
 }
