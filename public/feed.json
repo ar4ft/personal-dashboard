@@ -28299,6 +28299,168 @@
       "createdAt": "2026-10-27T09:00:01Z",
       "updatedAt": "2026-10-27T09:00:01Z",
       "content": "DialogueSidon separates and restores full-duplex two-speaker audio such as phone calls. FastDialogueSidon retrains every module so that a single DiT step per window replaces 30 diffusion steps. A 30M-parameter WaveNeXt-style latent decoder replaces the DAC decoder. It takes up to 120 s windows of 16 kHz mono and outputs two 24 kHz speaker tracks. With fused GPU kernels it runs around 4,700x real time on an H100, at intelligibility matching the original. Apache-2.0.\n\n[FastDialogueSidon on GitHub](https://github.com/higurashi-ai/FastDialogueSidon)\n\n[Model on Hugging Face](https://huggingface.co/higurashi-ai/FastDialogueSidon)\n\n[DialogueSidon paper](https://arxiv.org/abs/2604.09344)\n\n[Post on X](https://x.com/HigurashiAI/status/2115005585233973722)"
+    },
+    {
+      "id": "hn:50251344",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "description": "OpenAI presents three new discoveries spanning mathematics, computer science, and physics.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jonluca",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "createdAt": "2026-10-26T21:35:28Z",
+      "updatedAt": "2026-10-26T21:35:28Z"
+    },
+    {
+      "id": "hn:50245385",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Solar power is becoming bigger than nuclear",
+      "description": "A look at how solar power has grown to become bigger than nuclear.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "geox",
+      "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "createdAt": "2026-10-26T15:26:17Z",
+      "updatedAt": "2026-10-26T15:26:17Z"
+    },
+    {
+      "id": "hn:50255298",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "description": "A reflection on the classic software-engineering lessons of The Mythical Man-Month, revisited in the age of AI.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "createdAt": "2026-10-27T06:25:37Z",
+      "updatedAt": "2026-10-27T06:25:37Z"
+    },
+    {
+      "id": "hn:50247493",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nietzschian Debugger",
+      "description": "A debugger project shared on GitHub under the name Nietzschian Debugger.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dilawargopang",
+      "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+      "createdAt": "2026-10-26T17:25:30Z",
+      "updatedAt": "2026-10-26T17:25:30Z"
+    },
+    {
+      "id": "hn:50247928",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+      "description": "An essay on why programmers keep abstracting, framed through a man from the future.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "aray07",
+      "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+      "createdAt": "2026-10-26T17:49:55Z",
+      "updatedAt": "2026-10-26T17:49:55Z"
+    },
+    {
+      "id": "hn:50256738",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I will no longer upload to NEW",
+      "description": "A post announcing that its author will no longer upload to NEW.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "edward",
+      "url": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
+      "createdAt": "2026-10-27T09:59:05Z",
+      "updatedAt": "2026-10-27T09:59:05Z"
+    },
+    {
+      "id": "hn:50257548",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Software may be getting worse, but it used to be horrible",
+      "description": "An argument that while software may feel worse today, it used to be horrible.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jakevoytko",
+      "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+      "createdAt": "2026-10-27T11:30:35Z",
+      "updatedAt": "2026-10-27T11:30:35Z"
+    },
+    {
+      "id": "hn:50253939",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I still teach OpenGL ES 3.0",
+      "description": "An educator explains why they still teach OpenGL ES 3.0.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "majorchord",
+      "url": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+      "createdAt": "2026-10-27T02:15:10Z",
+      "updatedAt": "2026-10-27T02:15:10Z"
+    },
+    {
+      "id": "hn:50257326",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "description": "Coverage of Wikipedia's efforts to clean up AI-generated content.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rbanffy",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "createdAt": "2026-10-27T11:08:15Z",
+      "updatedAt": "2026-10-27T11:08:15Z"
+    },
+    {
+      "id": "hn:50257325",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI promised less work. I've never worked more",
+      "description": "A reflection on how AI, despite promising less work, has left its author working more than ever.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "oorestisime",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "createdAt": "2026-10-27T11:08:14Z",
+      "updatedAt": "2026-10-27T11:08:14Z"
     }
   ]
 }
