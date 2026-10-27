@@ -2,6 +2,184 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2114769723879464983",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hermit evolves harness adapters so agents keep learning without retraining the model",
+      "description": "Infini-AI Lab open-sourced Hermit, a framework for continual learning and recursive self-improvement that trains an external harness adapter while leaving the model and agent harness unchanged.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@haizhong_zheng",
+      "url": "https://x.com/haizhong_zheng/status/2114769723879464983",
+      "createdAt": "2026-10-26T17:22:47Z",
+      "updatedAt": "2026-10-26T17:22:47Z",
+      "content": "Hermit treats the agent harness the way LoRA treats a model: a small, trainable external adapter carries what the agent learns about new tasks, while the base model and your existing harness stay as they are. The framework bundles several harness-evolution methods behind one interface for training, evaluating and deploying those adapters. Apache-2.0, Python 3.11+.\n\n[Hermit on GitHub](https://github.com/Infini-AI-Lab/hermit)\n\n[Hermit docs](https://infini-ai-lab.github.io/hermit/docs/)\n\n[Post on X](https://x.com/haizhong_zheng/status/2114769723879464983)"
+    },
+    {
+      "id": "x:2114716435050115306",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Papers with Code is now open source under Apache 2.0",
+      "description": "The code behind Papers with Code, which tracks trending AI research with code, datasets and leaderboards, is now public in the Hugging Face GitHub org under Apache 2.0.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@NielsRogge",
+      "url": "https://x.com/NielsRogge/status/2114716435050115306",
+      "createdAt": "2026-10-26T13:51:02Z",
+      "updatedAt": "2026-10-26T13:51:02Z",
+      "content": "Hugging Face published the Papers with Code codebase, the site that links ML papers to their implementations, datasets and benchmark leaderboards. Anyone can now self-host it or build on its leaderboard and trending-paper tracking. Apache-2.0.\n\n[Papers with Code on GitHub](https://github.com/huggingface/paperswithcode)\n\n[Post on X](https://x.com/NielsRogge/status/2114716435050115306)"
+    },
+    {
+      "id": "x:2115010493899502058",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "uzu runs Qwen3.5 9B at 92 tok/s on a base M5 MacBook Pro, about 4x MLX",
+      "description": "A benchmark of the uzu inference engine on a base M5 MacBook Pro running Qwen3.5 9B measured 92.1 tokens per second, against 25.1 for MLX and 22.0 for llama.cpp.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@_avichawla",
+      "url": "https://x.com/_avichawla/status/2115010493899502058",
+      "createdAt": "2026-10-27T09:19:31Z",
+      "updatedAt": "2026-10-27T09:19:31Z",
+      "content": "uzu is an MIT-licensed, Apple-Silicon-focused inference engine from Mirai. In this side-by-side on a base M5 MacBook Pro with Qwen3.5 9B, it generated 92.1 tok/s while MLX managed 25.1 and llama.cpp 22.0. These are one person's numbers, so worth rerunning on your own Mac before switching runtimes.\n\n[uzu on GitHub](https://github.com/trymirai/uzu)\n\n[Post on X](https://x.com/_avichawla/status/2115010493899502058)"
+    },
+    {
+      "id": "x:2114701815807947159",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent open-sources Hy-SimulMT, a real-time interpreting model with voice cloning",
+      "description": "Hy-SimulMT does simultaneous Chinese-English speech interpretation with about three seconds of latency and speaks the translation in a clone of the original speaker's voice.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Tencent Hunyuan (@TencentHunyuan)",
+      "url": "https://x.com/TencentHunyuan/status/2114701815807947159",
+      "createdAt": "2026-10-26T12:52:56Z",
+      "updatedAt": "2026-10-26T12:52:56Z",
+      "content": "Instead of waiting for a full sentence, Hy-SimulMT translates speech as it arrives, keeping latency around three seconds, and synthesizes the output in the speaker's own cloned voice. It currently covers Chinese and English in both directions. Weights are on Hugging Face and ModelScope.\n\n[Hy-SimulMT on GitHub](https://github.com/Tencent-Hunyuan/Hy-SimulMT)\n\n[Models on Hugging Face](https://huggingface.co/collections/tencent/hy-simulmt)\n\n[Post on X](https://x.com/TencentHunyuan/status/2114701815807947159)"
+    },
+    {
+      "id": "x:2115003471015588021",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AnyMove turns one AI video into motion capture for any creature",
+      "description": "AnyMove animates non-humanoid 3D assets by generating a video with front and side views in one frame, reading joints with a fine-tuned DINOv2, fitting the rig in both views and exporting a GLB.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Rehan (@rehan_shei)",
+      "url": "https://x.com/rehan_shei/status/2115003471015588021",
+      "createdAt": "2026-10-27T08:51:37Z",
+      "updatedAt": "2026-10-27T08:51:37Z",
+      "content": "Most motion-capture tools assume a human skeleton. AnyMove works for dragons, dogs or anything else: it asks a video model for a clip that shows the creature from two cameras at once, tracks joints in both views with a fine-tuned DINOv2, fits the asset's rig to those tracks and writes an animated GLB. Apache-2.0, from the same author as Trompe.\n\n[AnyMove on GitHub](https://github.com/patch-gg/anymove)\n\n[Post on X](https://x.com/rehan_shei/status/2115003471015588021)"
+    },
+    {
+      "id": "x:2114720297584574829",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NVIDIA releases MotionBricks weights for real-time robot and game-character motion",
+      "description": "NVIDIA put MotionBricks on the Hugging Face Hub, a motion-generation model for game characters and humanoid robots that runs at about 15,000 FPS with roughly 2 ms latency, trained on over 350,000 motion clips.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@alvarobartt",
+      "url": "https://x.com/alvarobartt/status/2114720297584574829",
+      "createdAt": "2026-10-26T14:06:23Z",
+      "updatedAt": "2026-10-26T14:06:23Z",
+      "content": "MotionBricks generates character and humanoid-robot motion fast enough to sit inside a control loop: about 15,000 frames per second at around 2 ms latency, according to the release. It was trained on more than 350,000 motion clips, and the weights are now downloadable from the Hub.\n\n[MotionBricks on Hugging Face](https://huggingface.co/nvidia/MotionBricks)\n\n[Post on X](https://x.com/alvarobartt/status/2114720297584574829)"
+    },
+    {
+      "id": "x:2114778095697662251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ghosthand lets AI agents drive a real iPhone plugged into your Mac",
+      "description": "ghosthand gives coding agents control of a physical iPhone: it reads the screen over USB and taps, swipes and types through Bluetooth, so it works with any app, not just your own builds.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@__morse",
+      "url": "https://x.com/__morse/status/2114778095697662251",
+      "createdAt": "2026-10-26T17:56:03Z",
+      "updatedAt": "2026-10-26T17:56:03Z",
+      "content": "Simulators can't run every app, and XCUITest only drives your own code. ghosthand takes a different route: the iPhone is plugged into a Mac, the agent sees the screen over USB, and input goes in as a Bluetooth keyboard and pointer, so the agent can use any app the way a person would. The site has agent-readable docs at /llms.txt.\n\n[ghosthand website](https://ghosthand.dev)\n\n[Post on X](https://x.com/__morse/status/2114778095697662251)"
+    },
+    {
+      "id": "x:2114825704168968257",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WindowGroup tiles and moves your agent windows on macOS as one group",
+      "description": "WindowGroup is a small open-source Mac app for people running several coding agents at once: pick existing windows, snap them into an even grid, and move or resize the whole group together.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Dustin Fraker (@dustin_fraker)",
+      "url": "https://x.com/dustin_fraker/status/2114825704168968257",
+      "createdAt": "2026-10-26T21:05:14Z",
+      "updatedAt": "2026-10-26T21:05:14Z",
+      "content": "Built for the many-agents-in-parallel workflow, WindowGroup lets you select windows you already have open, arrange them in an even grid and then drag or resize the group as one unit, so agents, editor and reference windows stay together. It's an early preview (v0.2.0) with a source build available.\n\n[WindowGroup on GitHub](https://github.com/drfraker/WindowGroup)\n\n[Post on X](https://x.com/dustin_fraker/status/2114825704168968257)"
+    },
+    {
+      "id": "ideas:mac-live-call-interpreter",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Mac menu bar live interpreter for Spanish and English calls",
+      "description": "Translate a call or meeting as it happens on your Mac, Hy-SimulMT style, with local speech recognition, a fast local model for translation, and live captions or spoken output.",
+      "content": "## How it works\n\nTencent's Hy-SimulMT showed that simultaneous interpretation at about three seconds of latency is now practical with open models. This version targets Spanish and English on a Mac: a menu bar app captures system and microphone audio, a streaming speech recognizer emits partial transcripts, a small local model translates each stable chunk, and the result appears as floating captions or, optionally, as speech through a local TTS voice.\n\n```mermaid\nflowchart LR\n  Audio[System and mic audio] --> ASR[Streaming speech recognition]\n  ASR --> Chunk[Stable chunk detector]\n  Chunk --> MT[Local translation model]\n  MT --> Captions[Floating captions]\n  MT --> TTS[Optional local voice]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Audio capture | ScreenCaptureKit audio plus AVAudioEngine |\n| Speech recognition | WhisperKit or Apple SpeechAnalyzer streaming |\n| Translation | Small Qwen-class model on uzu or MLX |\n| Speech out | AVSpeechSynthesizer or a local TTS model |\n| UI | SwiftUI menu bar app with a floating caption panel |\n\n## Hard parts\n\n- Deciding when a partial transcript is stable enough to translate without waiting for the full sentence.\n- Keeping latency low while two models share the same laptop GPU.\n- Handling speakers who switch languages mid-sentence.\n\n## Effort\n\nA weekend for captions only; one to two weeks with spoken output and per-speaker handling.\n\n## Inspired by\n\n- [Tencent Hunyuan's Hy-SimulMT post on X](https://x.com/TencentHunyuan/status/2114701815807947159)\n- [Hy-SimulMT on GitHub](https://github.com/Tencent-Hunyuan/Hy-SimulMT)\n- [uzu benchmark post on X](https://x.com/_avichawla/status/2115010493899502058)\n- [uzu on GitHub](https://github.com/trymirai/uzu)",
+      "nextStep": "Record ten minutes of a Spanish-English call, then time Whisper streaming plus a small local translator on uzu or MLX to see whether end-to-end latency stays under three seconds.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-27T14:45:00Z",
+      "updatedAt": "2026-10-27T14:45:00Z"
+    },
+    {
+      "id": "ideas:pet-video-to-rigged-model",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Turn a phone video of your pet into an animated 3D model",
+      "description": "Use AnyMove's approach on real footage: film a pet from two angles, track its joints, fit a rig, and export an animated GLB for a game, AR scene or desk-robot motion.",
+      "content": "## How it works\n\nAnyMove gets motion capture for any creature by generating a video with front and side views and reading joints with a fine-tuned DINOv2. This version starts from real footage instead: two phones film the pet from the front and side, the clips are synced by audio, the joint reader tracks keypoints in both views, a rig is fitted to a stock quadruped mesh and the motion is exported as GLB for Reality Composer, Blender or a small robot's gait.\n\n```mermaid\nflowchart LR\n  Clips[Two synced phone clips] --> Sync[Audio sync and crop]\n  Sync --> Joints[DINOv2 joint reader]\n  Joints --> Fit[Fit quadruped rig in both views]\n  Fit --> Export[Animated GLB]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Capture | Two iPhones, or one iPhone plus a mirror |\n| Tracking | AnyMove's fine-tuned DINOv2 joint reader |\n| Rig fitting | AnyMove fitting code with a stock quadruped rig |\n| Viewer | Blender or Reality Composer for the GLB |\n\n## Hard parts\n\n- Real fur, occlusion and lighting are much messier than clean generated video.\n- Keeping the two phone clips aligned in time and in camera geometry.\n- Mapping the tracked skeleton onto a mesh whose proportions differ from the pet.\n\n## Effort\n\nA weekend for a rough walk cycle; a couple of weeks for clean, reusable animations.\n\n## Inspired by\n\n- [Rehan's AnyMove post on X](https://x.com/rehan_shei/status/2115003471015588021)\n- [AnyMove on GitHub](https://github.com/patch-gg/anymove)\n- [NVIDIA MotionBricks on Hugging Face](https://huggingface.co/nvidia/MotionBricks)",
+      "nextStep": "Run AnyMove on one of its sample creatures, then swap its generated two-view video for two synced phone clips of a pet walking and check whether the joint tracker still holds up.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-27T14:45:00Z",
+      "updatedAt": "2026-10-27T14:45:00Z"
+    },
+    {
       "id": "x:2113676827114053892",
       "section": "news",
       "type": "news",
