@@ -28015,6 +28015,290 @@
       "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
       "createdAt": "2026-10-26T22:41:48Z",
       "updatedAt": "2026-10-26T22:41:48Z"
+    },
+    {
+      "id": "hn:50251661",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI preprint claims to refute the Exponential Time Hypothesis",
+      "description": "An OpenAI math preprint gives a deterministic, polynomial-space algorithm that counts satisfying assignments of any k-CNF formula in subexponential time, which would refute ETH. It is a claim awaiting expert verification.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "vok",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "createdAt": "2026-10-26T21:59:15Z",
+      "updatedAt": "2026-10-26T21:59:15Z",
+      "content": "The paper (dated Oct 17, revised Oct 25, 2026) describes a deterministic algorithm for exact #k-SAT. For every fixed k, on n variables and m clauses, it runs in time roughly (n+m)^O(1) · 2^(n/(log n)^(2-o(1))) using polynomial space. That is subexponential, so if it holds it refutes the Exponential Time Hypothesis, which says 3-SAT needs 2^Ω(n) time. It does not imply P = NP. The method builds shared linear summaries and low-degree replacement forms, then reduces #k-SAT to counting common zeros of sparse polynomial systems. OpenAI published it alongside a post about three AI-assisted results in math, computer science and physics. A simplified write-up of the proof is already circulating, and the claim still needs independent checking.\n\n[Preprints folder on GitHub](https://github.com/openai/math/tree/main/preprints)\n\n[OpenAI's post on the three discoveries](https://openai.com/index/building-scientific-understanding-with-academic-communities/)\n\n[A simplified proof (PDF)](https://shivakintali.github.io/papers/ETH.pdf)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50251661)"
+    },
+    {
+      "id": "hn:50257419",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Python's experimental JIT compiler is being removed from CPython",
+      "description": "LWN reports that the CPython JIT maintainers withdrew PEP 836 after the steering council paused JIT work pending an accepted PEP, so the experimental JIT added for 3.13 is on its way out.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "f311a",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "createdAt": "2026-10-27T11:17:57Z",
+      "updatedAt": "2026-10-27T11:17:57Z",
+      "content": "Brandt Bucher's copy-and-patch JIT landed in CPython in early 2024 for Python 3.13. In June 2026 the steering council paused JIT work on main until a PEP addressed maintenance, compatibility, success metrics and a timeline. The maintainers wrote PEP 836 (\"JIT Go Brrr: The Path to a Supported JIT Compiler for CPython\"). After months of discussion they withdrew it, so the experimental JIT is expected to be removed. Joe Brockmeier's LWN article covers how it got here and what remains of the performance work.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50257419)"
+    },
+    {
+      "id": "hn:50253512",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Linux 7.4 adds initial Apple M4 and A18 Pro support",
+      "description": "The Linux 7.4 SoC merges bring basic support for Apple's M4 and the A18 Pro used in the MacBook Neo, along with Google Tensor 5 and Pixel 10 and new Qualcomm SoCs.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "doener",
+      "url": "https://www.phoronix.com/news/Linux-7.4-SoCs",
+      "createdAt": "2026-10-27T01:13:03Z",
+      "updatedAt": "2026-10-27T01:13:03Z",
+      "content": "Phoronix rounds up the SoC and device-tree patches merged for Linux 7.4. Initial Apple M4 and A18 Pro support is now upstream, which matters for Asahi-style Linux on recent Apple silicon, including the A18 Pro-based MacBook Neo. The same merge window mainlines Google Tensor 5 and Pixel 10 devices. It also adds two unannounced Qualcomm SoCs, Hawi and Nord, with custom Oryon cores, and 22 Qualcomm boards, including seven handhelds on Dragonwing.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50253512)"
+    },
+    {
+      "id": "hn:50249872",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Neuron Explorer: steer and browse every MLP neuron in Qwen3.5-4B",
+      "description": "An open-source interpretability tool that pushes each MLP neuron in a Qwen3.5-4B layer up and down, keeps every steered rollout, and lays the results out in a 3D map with steer and logit lenses.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Schlagbohrer",
+      "url": "https://github.com/lyramakesmusic/neuron-explorer",
+      "createdAt": "2026-10-26T19:46:54Z",
+      "updatedAt": "2026-10-26T19:46:54Z",
+      "content": "The explorer is \"steering-first\": rather than only recording activations, a sweep (run on a vLLM steering fork) applies positive and negative doses to every MLP neuron on a few prompts. It ranks units by word-cluster mass against random-direction controls. The local UI loads the model on MPS, CUDA or CPU. It offers a perspective map of layers with one point per neuron, a ranked list, per-neuron steered rollouts and a three-column steered chat. It also has UMAP embeddings of rollouts and an optional Claude CLI agent wired in over MCP to run ablations and steering experiments. Precomputed caches ship with the repo.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50249872)"
+    },
+    {
+      "id": "hn:50248207",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Strix open-sources a machine-wide malicious-package firewall",
+      "description": "After last week's LiteLLM backdoor, Strix released a free, open-source dependency firewall that blocks known-malicious package versions system-wide on macOS and Windows, or per command on Linux.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "iacgm",
+      "url": "https://github.com/usestrix/firewall",
+      "createdAt": "2026-10-26T18:06:05Z",
+      "updatedAt": "2026-10-26T18:06:05Z",
+      "content": "Screening happens on the device. Downloads still go straight to the registry, and each package name and version is checked against Strix's public malicious-package blocklist before install, including transitive dependencies. On macOS 13+ it installs as a system extension (Apple silicon or T2). On Windows 10/11 it needs TPM 2.0. A prefix mode (`cargo install strix-firewall`) works on macOS, Windows and Linux. The launch post shows it stopping a bad install from inside a Claude Code session.\n\n[Strix announcement](https://www.strix.ai/blog/firewall-announcement)\n\n[Blocklist repo](https://github.com/usestrix/firewall-blocklist)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50248207)"
+    },
+    {
+      "id": "hn:50248422",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Retrieval's bottleneck is moving from finding to selecting",
+      "description": "Kapa.ai argues that modern RAG retrievers now usually surface the right chunks among their candidates, so the main failure mode has shifted to choosing which chunks to show the model.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "emil_sorensen",
+      "url": "https://www.kapa.ai/blog/retrieval-bottleneck",
+      "createdAt": "2026-10-26T18:18:15Z",
+      "updatedAt": "2026-10-26T18:18:15Z",
+      "content": "Retrievers typically work in two steps: they gather a candidate pool, for example with hybrid BM25 plus vector search, then select the top-k, often with a reranker. Matteo Bortoletto and Janis Fluri argue that the old main failure, the right chunks never making it into the candidate pool, is fading as retrievers improve. The harder problem now is choosing which of the good candidates to pass to the model.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50248422)"
+    },
+    {
+      "id": "hn:50255177",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Writing about Pratt parsing so I remember it",
+      "description": "A hands-on write-up of building a C expression parser with Pratt parsing, working from Vaughan Pratt's original paper and relating it back to the shunting-yard algorithm.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dverlaeckt80",
+      "url": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+      "createdAt": "2026-10-27T06:02:23Z",
+      "updatedAt": "2026-10-27T06:02:23Z",
+      "content": "Pratt (top-down operator precedence) parsing rarely shows up in standard compiler courses, which tend to teach LR or recursive descent. The author had built a shunting-yard calculator and wanted to start on a compiler. They worked through Crafting Interpreters and Pratt's original paper, and the recursion around binding power only made sense once they mapped it onto shunting yard. The post walks through those observations while parsing C expressions.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50255177)"
+    },
+    {
+      "id": "reading:abakcus-einstein-letter-to-roosevelt",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Einstein's letter to Roosevelt, read line by line",
+      "description": "A close reading of the August 2, 1939 letter that started America's atomic bomb program, and of Leo Szilard, who conceived, drafted and chased the letter Einstein signed.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/einstein-letter-to-roosevelt",
+      "createdAt": "2026-10-24T00:00:00Z",
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "content": "The two typed pages were signed at a rented summer house on Long Island and spent two months in economist Alexander Sachs's pocket before reaching the White House. The article starts in September 1933, when Rutherford dismissed atomic energy as \"moonshine\" and Szilard, waiting at a London traffic light, thought of the neutron chain reaction. It then goes through the letter line by line: who chose the recipient, why it speaks in Einstein's voice, and what each sentence about uranium, chain reactions and \"extremely powerful bombs\" claimed.\n\n[Read the article](https://abakcus.com/articles/einstein-letter-to-roosevelt)"
+    },
+    {
+      "id": "reading:abakcus-boogert-color-book-1692",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A. Boogert's 1692 color book, 271 years before Pantone",
+      "description": "The story of a one-of-a-kind, nearly 800-page handwritten Dutch watercolor guide from Delft, which mixes each pigment and dilutes it in measured steps with one, two and three parts water.",
+      "topics": [
+        "Science",
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/boogert-color-book-1692",
+      "createdAt": "2026-10-14T00:00:00Z",
+      "updatedAt": "2026-10-14T00:00:00Z",
+      "content": "Klaer Lightende Spiegel der Verfkonst (\"The Clearly Illuminating Mirror of the Painter's Craft\") was written and hand-painted in 1692 by someone who signed only as A. Boogert. Only one copy exists. Like a Pantone guide, it is a reference for matching colors rather than a book to read. The article explains how Boogert built systematic tint scales by diluting each pigment in fixed ratios, and how the manuscript ended up in a French library catalogue.\n\n[Read the article](https://abakcus.com/articles/boogert-color-book-1692)"
+    },
+    {
+      "id": "x:2114978036726776298",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Driving SwiftUI animations with the iPhone Duo hinge angle",
+      "description": "Natalia Panferova shows how iOS 27.1's onHingeChange(isEnabled:_:) modifier reports the hinge angle and status as iPhone Duo folds, and uses it to drive an animation that follows the folding motion.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Natalia Panferova (@natpanferova)",
+      "url": "https://x.com/natpanferova/status/2114978036726776298",
+      "createdAt": "2026-10-27T07:10:33Z",
+      "updatedAt": "2026-10-27T07:10:33Z",
+      "content": "Her earlier iPhone Duo posts covered how layouts adapt around the fold. This one treats the fold itself as input. `onHingeChange(isEnabled:_:)`, new in iOS 27.1, delivers the hinge's current angle and status whenever they change. The post maps that angle onto a simple flower graphic so it opens and closes along with the device.\n\n[Read the article on Nil Coalescing](https://nilcoalescing.com/blog/DrivingSwiftUIAnimationsWithTheHingeAngleOnIPhoneDuo)\n\n[Post on X](https://x.com/natpanferova/status/2114978036726776298)"
+    },
+    {
+      "id": "x:2114967833708732607",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "When to fold a subagent back into the main agent loop",
+      "description": "Addy Osmani's rule of thumb: keep a subagent only when the work is parallel, needs fresh context, or one agent can't pick the right tools. Otherwise turn its prompt into a skill, use tool search, and let evals decide.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Addy Osmani (@addyosmani)",
+      "url": "https://x.com/addyosmani/status/2114967833708732607",
+      "createdAt": "2026-10-27T06:30:00Z",
+      "updatedAt": "2026-10-27T06:30:00Z",
+      "content": "Osmani argues that a bloated system prompt is often the real reason teams add subagents. Skills and tool search can fix that without splitting context across agents. Before adding another subagent, ask what problem it solves. If none of the parallelism, fresh-context or tool-selection reasons apply, fold it into the main loop, run your evals, and keep whichever version wins. He points to Anthropic's write-up on the same question.\n\n[Building agents: when to fold subagents into your main agent loop](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)\n\n[Post on X](https://x.com/addyosmani/status/2114967833708732607)"
+    },
+    {
+      "id": "x:2115046718039306377",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Billion-query-per-second lookup tables in C++ with perfect hashing",
+      "description": "Daniel Lemire shows how to replace std::unordered_map for compile-time-known string keys with a gperf-style perfect hash, reaching around a billion lookups per second.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Daniel Lemire (@lemire)",
+      "url": "https://x.com/lemire/status/2115046718039306377",
+      "createdAt": "2026-10-27T11:43:27Z",
+      "updatedAt": "2026-10-27T11:43:27Z",
+      "content": "When the set of string keys is known at compile time, you don't need a general hash table. The slot is computed from the key length plus values from an association table indexed by a few chosen character positions, with a power-of-two table size, so a lookup is a few loads and adds. Lemire walks through the construction and benchmarks it against `std::unordered_map`.\n\n[perfect_hash library on GitHub](https://github.com/ConstexprCore/perfect_hash)\n\n[Benchmark code](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2026/10/perfect_hash)\n\nRelated talk:\n\nhttps://www.youtube.com/watch?v=_LG7ZeS5j5A\n\n[Post on X](https://x.com/lemire/status/2115046718039306377)"
+    },
+    {
+      "id": "x:2115015660292182353",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Bun starts replacing its C/C++ dependencies with safe Rust, beginning with libarchive",
+      "description": "After three security advisories last week (Brotli, TLS certificates and QUIC), Bun says it will replace most of its C/C++ dependencies with its own safe Rust code. A merged PR swaps libarchive for a Rust tar reader and writer.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Bun (@bunjavascript)",
+      "url": "https://x.com/bunjavascript/status/2115015660292182353",
+      "createdAt": "2026-10-27T09:40:03Z",
+      "updatedAt": "2026-10-27T09:40:03Z",
+      "content": "Bun's runtime has bundled many C and C++ libraries, and last week's three advisories prompted a hardening plan to rewrite most of them in safe Rust. The first one is done: Dylan Conway's PR replaces libarchive with a tar reader and writer in safe Rust, and it has been merged.\n\n[PR #46638 on GitHub](https://github.com/oven-sh/bun/pull/46638)\n\n[Post on X](https://x.com/bunjavascript/status/2115015660292182353)"
+    },
+    {
+      "id": "x:2115035083694555148",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sushi 1.4.0 runs a 1.75-bit DeepSeek V4.1 Flash quant on 96 GB Macs",
+      "description": "The Sushi local inference server for Apple Silicon adds a 1.75 bpw STQ quant of DeepSeek-V4.1-Flash with experts streamed. On a 96-128 GB Mac it reports about 1,000 tok/s prefill and 45-75 tok/s generation with 1M context.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Beamsters (@Beamsters1)",
+      "url": "https://x.com/Beamsters1/status/2115035083694555148",
+      "createdAt": "2026-10-27T10:57:14Z",
+      "updatedAt": "2026-10-27T10:57:14Z",
+      "content": "Sushi is a detached fork of mlx-serve that serves low-bit quants made with a custom EXL3-Affine hybrid converter on M1 and later Macs. Version 1.4.0 adds DeepSeek-V4.1-Flash-1017 at 1.75 bits per weight. It needs 96 GB or more, streams experts, and takes text and image input. The author says quality is comparable to existing ~2.5-bit quants. The README publishes KL-divergence charts against size for each supported model, which also include Qwen3.8-Flash-Next, MiMo and GLM-5.3 Flash quants.\n\n[Sushi on GitHub](https://github.com/beamivalice/sushi)\n\n[DeepSeek-V4.1-Flash 1.75 bpw on Hugging Face](https://huggingface.co/beamster/DeepSeek-V4.1-Flash-1017-Sushi-STQ-1.75bpw)\n\n[Post on X](https://x.com/Beamsters1/status/2115035083694555148)"
+    },
+    {
+      "id": "x:2115030148840038608",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "RGB MoCap: a local video-to-animation app built on FlowHMR, ExMR and GVHMR",
+      "description": "toyxyz released a free native Windows motion-capture app that turns ordinary video into editable human animation locally, with foot locking and retargeting to characters with different proportions.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "toyxyz (@toyxyz3)",
+      "url": "https://x.com/toyxyz3/status/2115030148840038608",
+      "createdAt": "2026-10-27T10:37:37Z",
+      "updatedAt": "2026-10-27T10:37:37Z",
+      "content": "The app combines three human mesh recovery models (FlowHMR, ExMR and GVHMR) to track a person in video and produce a 3D motion you can review and edit before export. It does basic foot locking to cut sliding, and retargets motion onto characters imported as Mixamo `.fbx`, `.pmx` or `.vrm`. All AI processing runs locally.\n\n[RGB MoCap on GitHub](https://github.com/toyxyz/toyxyz_RGBMocap)\n\n[Post on X](https://x.com/toyxyz3/status/2115030148840038608)"
+    },
+    {
+      "id": "x:2115005585233973722",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FastDialogueSidon separates two-speaker conversations about 100x faster",
+      "description": "A one-step distilled version of the DialogueSidon speech separation and restoration model turns a mono two-speaker recording into two clean 24 kHz tracks, about 100x faster than the official release with Triton or TensorRT backends.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "DubGuild (@HigurashiAI)",
+      "url": "https://x.com/HigurashiAI/status/2115005585233973722",
+      "createdAt": "2026-10-27T09:00:01Z",
+      "updatedAt": "2026-10-27T09:00:01Z",
+      "content": "DialogueSidon separates and restores full-duplex two-speaker audio such as phone calls. FastDialogueSidon retrains every module so that a single DiT step per window replaces 30 diffusion steps. A 30M-parameter WaveNeXt-style latent decoder replaces the DAC decoder. It takes up to 120 s windows of 16 kHz mono and outputs two 24 kHz speaker tracks. With fused GPU kernels it runs around 4,700x real time on an H100, at intelligibility matching the original. Apache-2.0.\n\n[FastDialogueSidon on GitHub](https://github.com/higurashi-ai/FastDialogueSidon)\n\n[Model on Hugging Face](https://huggingface.co/higurashi-ai/FastDialogueSidon)\n\n[DialogueSidon paper](https://arxiv.org/abs/2604.09344)\n\n[Post on X](https://x.com/HigurashiAI/status/2115005585233973722)"
     }
   ]
 }
