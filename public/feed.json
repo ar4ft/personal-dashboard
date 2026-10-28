@@ -29471,6 +29471,183 @@
       "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
       "createdAt": "2026-10-28T12:58:11Z",
       "updatedAt": "2026-10-28T12:58:11Z"
+    },
+    {
+      "id": "x:2115325052640284740",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NVlabs open-sources Open-H3-Regenerate-2K: 3-step video refinement up to 4K",
+      "description": "An open alternative to MiniMax's closed H3-Regenerate API that refines a low-resolution video draft into 768P, 1080P, 2K or 4K output in a three-step diffusion pass.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@HaoZhe65347",
+      "url": "https://x.com/HaoZhe65347/status/2115325052640284740",
+      "createdAt": "2026-10-28T06:09:28Z",
+      "updatedAt": "2026-10-28T06:09:28Z",
+      "content": "Open-H3-Regenerate-2K, from the NVlabs Sana team, takes a low-resolution draft from H3 or another video model (384P to 768P inputs) and refines it to 768P, 1080P, 2K or 4K output using a few-step (three-step) diffusion pass. It handles 5 to 15 second clips, and the Hugging Face release includes the base model, a latent upsampler and LoRA weights.\n\n[Project page](https://nvlabs.github.io/Sana/Open-H3-Regenerate-2K/)\n\n[Weights on Hugging Face](https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K)\n\n[Sana repo on GitHub](https://github.com/NVlabs/Sana)\n\n[Post on X](https://x.com/HaoZhe65347/status/2115325052640284740)"
+    },
+    {
+      "id": "x:2115124474882469955",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenBMB releases MiniCPM-OCR, an open document parsing suite with a quality checker",
+      "description": "MiniCPM-OCR 1.0 is a 1.3B document parsing model for Chinese and English PDFs and photos, paired with MiniCPM-OCR Jev, which flags regions of OCR output that need review. Apache 2.0.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@OpenBMB",
+      "url": "https://x.com/OpenBMB/status/2115124474882469955",
+      "createdAt": "2026-10-27T16:52:26Z",
+      "updatedAt": "2026-10-27T16:52:26Z",
+      "content": "MiniCPM-OCR 1.0 (1.3B, built on MiniCPM-V 4.6) parses scans, photos, curved and skewed pages into text, tables, formulas, charts and seals, and reports 93.68 on Real5-OmniDocBench. The second model, MiniCPM-OCR Jev, judges OCR output region by region so you can auto-accept clean pages and route problem areas to human review. It runs on vLLM, SGLang, llama.cpp and Ollama, with GGUF builds about 0.5 to 0.8 GB plus a vision projector, and ships a pip SDK (`minicpmvocr`) that turns a PDF into Markdown.\n\n[Repo on GitHub](https://github.com/OpenBMB/MiniCPM-OCR)\n\n[Model on Hugging Face](https://huggingface.co/openbmb/MiniCPM-OCR-1.0)\n\n[GGUF on Hugging Face](https://huggingface.co/openbmb/MiniCPM-OCR-1.0-gguf)\n\n[Post on X](https://x.com/OpenBMB/status/2115124474882469955)"
+    },
+    {
+      "id": "x:2115110716629987376",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kanvas v0.4: a task board you share with your AI coding agents",
+      "description": "Kanvas is an MIT-licensed board where agents propose, start and finish tasks through a small CLI while you approve and review them in the browser. The plan lives in one JSON file next to your code.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@XMihura",
+      "url": "https://x.com/XMihura/status/2115110716629987376",
+      "createdAt": "2026-10-27T15:57:46Z",
+      "updatedAt": "2026-10-27T15:57:46Z",
+      "content": "Kanvas keeps a project plan in `kanvas.json` in your repo. Agents (Claude Code, Codex, Cursor, Gemini CLI, OpenCode or anything that runs shell commands) change it only through a CLI that enforces the workflow: tasks go Proposed, To do, Doing, Review, Done, and dependencies block tasks until they're finished. You approve and review in a live browser board served by `kanvas serve`. Install it with `uv tool install kanvas-board`, or ask your agent to set it up from the repo.\n\n[Repo on GitHub](https://github.com/XMihura/Kanvas)\n\n[Package on PyPI](https://pypi.org/project/kanvas-board/)\n\n[Post on X](https://x.com/XMihura/status/2115110716629987376)"
+    },
+    {
+      "id": "x:2115037955480048100",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SuperPlane 1.0: an open-source software factory from ticket to merged PR",
+      "description": "SuperPlane 1.0 coordinates coding agents, CI and review to turn backlog issues into verified, review-ready pull requests. It's Apache 2.0, model-agnostic and self-hostable.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@darkofabijan",
+      "url": "https://x.com/darkofabijan/status/2115037955480048100",
+      "createdAt": "2026-10-27T11:08:38Z",
+      "updatedAt": "2026-10-27T11:08:38Z",
+      "content": "SuperPlane wraps your coding agents in a shared pipeline: a work order enters from the backlog, an Implement step runs the agent, and a Verify step addresses PR comments and failing checks and loops back until the pull request is ready for a human. Each change comes back with evidence (passing checks, UI screenshots, recordings). The team says 52% of its merged PRs last month were automated with it. v1.0.0 shipped October 27 and can run on a single VM with Docker Compose.\n\n[Repo on GitHub](https://github.com/superplanehq/superplane)\n\n[Launch post](https://superplane.com/blog/superplane-1-0-the-open-source-software-factory-for-teams/)\n\n[Self-hosting docs](https://docs.superplane.com/self-hosting/single-vm/)\n\n[Post on X](https://x.com/darkofabijan/status/2115037955480048100)"
+    },
+    {
+      "id": "x:2115346395817275869",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Locals for Mac adds LFM3 and Flint for running many local agents at once",
+      "description": "Locals, a local MLX server for coding agents on the Mac, adds LFM3 1.7B (claimed 620 tok/s on an M2 with 16 GB) and the 40B Flint coding model (claimed 319 tok/s on an M4 with 24 GB) with an 8-agent harness.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@machinestein",
+      "url": "https://x.com/machinestein/status/2115346395817275869",
+      "createdAt": "2026-10-28T07:34:16Z",
+      "updatedAt": "2026-10-28T07:34:16Z",
+      "content": "Locals is built for agents, not chat: tool calls, long conversations and many agents in parallel, behind OpenAI, Anthropic and Ollama-compatible endpoints for OpenCode, OpenHands, Cline, Aider, Claude Code and similar tools. The author says the new LFM3 and Flint support, run through a custom 8-agent harness, beats mlx-lm on speed. Those numbers are the author's own. Install with `uv tool install locals`, then run `locals code ~/project`.\n\n[Repo on GitHub](https://github.com/Generated-Computers/Locals)\n\n[Post on X](https://x.com/machinestein/status/2115346395817275869)"
+    },
+    {
+      "id": "x:2115076780285739258",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple Creator Studio adds AI assistants, MCP for external agents and an open Keynote format",
+      "description": "Keynote, Pages and Numbers get in-app assistants (beta) and MCP support so external AI agents can read and edit documents on macOS 27. Keynote adds .keyx, an open JSON-based file format. Arrives in November.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@bunchjesse",
+      "url": "https://x.com/bunchjesse/status/2115076780285739258",
+      "createdAt": "2026-10-27T13:42:55Z",
+      "updatedAt": "2026-10-27T13:42:55Z",
+      "content": "Per Apple's announcement, the assistants in Keynote, Pages and Numbers are built on Apple models and OpenAI and understand document context. New Model Context Protocol support on macOS 27 lets external agents read content, perform edits and run automated actions in the apps. Keynote also gets the Keynote Interchange Format (.keyx), an open JSON-based bundle designed for external tools, developer workflows and agents. The post also mentions a Python library for the format, which Apple's press release doesn't describe. The update is free for existing subscribers in November.\n\n[Apple Newsroom announcement](https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/)\n\n[Post on X](https://x.com/bunchjesse/status/2115076780285739258)"
+    },
+    {
+      "id": "x:2114978936966832554",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ESP32-S3 Bench Guide: a free interactive guide from first LED to Wi-Fi, BLE, NFC and audio",
+      "description": "An open-source web guide to the ESP32-S3 with 32 hands-on labs, browser simulators, a 3D DevKitC-1 board view, a live pinout and a line-by-line firmware code reader.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@hqmank",
+      "url": "https://x.com/hqmank/status/2114978936966832554",
+      "createdAt": "2026-10-27T07:14:07Z",
+      "updatedAt": "2026-10-27T07:14:07Z",
+      "content": "Each lab is one sheet: the goal, the pins on a live pinout, wiring, the flash command, steps to tick off and a simulator of what you should see, including a simulated serial monitor. Labs cover setup, displays and buttons, Wi-Fi, RFID/NFC, Bluetooth LE and sound. A parts checklist shows which labs you can build with what's on your bench. There's also a maker-friendly datasheet explorer. Progress is saved in the browser with no account.\n\n[Live guide](https://esp-labs-web.vercel.app/)\n\n[Repo on GitHub](https://github.com/agharsallah/esp-labs-web)\n\n[Post on X](https://x.com/hqmank/status/2114978936966832554)"
+    },
+    {
+      "id": "x:2115023050139738381",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Panevisa: a free tiling window manager for macOS with persistent tab groups",
+      "description": "Panevisa tiles Mac windows into six layouts from the menu bar, with per-monitor layouts, workspaces, tab groups and app placement rules. The 1.5.2 update keeps tab colors and names across relaunches and syncs them over iCloud.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@aarongxa",
+      "url": "https://x.com/aarongxa/status/2115023050139738381",
+      "createdAt": "2026-10-27T10:09:25Z",
+      "updatedAt": "2026-10-27T10:09:25Z",
+      "content": "The post covers 1.5.2, where tab colors and names persist across relaunches and sync via iCloud. The site now lists version 1.6.1 (macOS 14 or later). Features include columns, rows, grids and main-plus-stack layouts, per-display layouts, saved arrangements, workspaces, a command palette, Overview, rebindable keyboard and mouse shortcuts, Shortcuts app actions and URL commands. It's ad hoc signed rather than notarized, so the first launch needs approval in Privacy & Security.\n\n[Panevisa website](https://panevisa.com)\n\n[Post on X](https://x.com/aarongxa/status/2115023050139738381)"
+    },
+    {
+      "id": "ideas:mac-local-agent-task-board",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Local agent task board on the Mac",
+      "description": "A native Mac menu-bar board that reads a Kanvas-style JSON plan in your repo and sends approved tasks to local agents served by Locals, so a whole backlog can move overnight without cloud models.",
+      "content": "## How it works\n\nKanvas keeps a plan in `kanvas.json` that agents change only through a CLI. Locals serves many local agents in parallel on Apple silicon. This joins them: a small SwiftUI menu-bar app watches the board, and when you approve tasks it starts one local agent per ready task through Locals. Each agent works on its own git branch and reports back through the Kanvas CLI, and finished work lands in Review for you to accept in the morning.\n\n```mermaid\nflowchart LR\n  Board[kanvas.json plan] --> Watch[Menu-bar watcher]\n  Watch --> Dispatch[Start agent per ready task]\n  Dispatch --> Locals[Locals server with LFM3 or Flint]\n  Locals --> Review[Task moves to Review with notes]\n  Review --> You[You accept or send back]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Board | Kanvas JSON plus its CLI |\n| Models | Locals serving LFM3 or Flint via MLX |\n| Agent | OpenCode or Aider pointed at the local endpoint |\n| App | SwiftUI MenuBarExtra with a file watcher |\n| Isolation | One git worktree per task |\n\n## Hard parts\n\n- Keeping parallel agents from clashing on the same files.\n- Fitting several agents in memory on a 16 to 24 GB Mac.\n- Deciding when a small local model should give up and leave the task for you.\n\n## Effort\n\nA weekend for the watcher and dispatcher; another week to make worktrees and failure handling solid.\n\n## Inspired by\n\n- [Kanvas post on X](https://x.com/XMihura/status/2115110716629987376)\n- [Kanvas on GitHub](https://github.com/XMihura/Kanvas)\n- [Locals post on X](https://x.com/machinestein/status/2115346395817275869)\n- [Locals on GitHub](https://github.com/Generated-Computers/Locals)",
+      "nextStep": "Run `kanvas init` in a small side project, start Locals with LFM3, and write a script that starts one agent per approved To do task and moves it to Review when the agent finishes.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-28T14:21:48Z"
+    },
+    {
+      "id": "ideas:on-device-receipt-ocr-pipeline",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "On-device receipt and document OCR inbox",
+      "description": "Drop receipts, invoices and scanned letters into a Mac folder and have MiniCPM-OCR turn them into Markdown and structured fields locally, with MiniCPM-OCR Jev flagging low-confidence regions to check.",
+      "content": "## How it works\n\nMiniCPM-OCR 1.0 is small enough (about 0.8 GB at Q8) to run on a laptop and parses photos and scans into Markdown with tables, and it supports key information extraction. A folder watcher sends each new PDF or photo through it, pulls out fields like date, vendor, total and tax into a JSON sidecar, and appends a row to a local CSV. Pages where MiniCPM-OCR Jev flags problem regions go into a short review queue instead of being trusted blindly.\n\n```mermaid\nflowchart LR\n  Drop[Inbox folder] --> Parse[MiniCPM-OCR via llama.cpp]\n  Parse --> Fields[Extract date, vendor, total]\n  Fields --> Check[Jev quality check]\n  Check --> Ledger[CSV ledger and Markdown]\n  Check --> Queue[Review queue for flagged pages]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| OCR model | MiniCPM-OCR 1.0 GGUF on llama-server |\n| Parsing | minicpmvocr SDK with the llamacpp backend |\n| Quality | MiniCPM-OCR Jev |\n| Watcher | Swift FSEvents app or a Folder Action |\n| Output | Markdown files plus a CSV ledger |\n\n## Hard parts\n\n- Handling Spanish-language receipts, since the model targets Chinese and English.\n- Mapping messy receipt layouts to a fixed field schema.\n- Running the layout model well on Apple silicon without CUDA.\n\n## Effort\n\nAn evening for a script-based prototype; a weekend to wrap it in a Mac app with a review screen.\n\n## Inspired by\n\n- [OpenBMB post on X](https://x.com/OpenBMB/status/2115124474882469955)\n- [MiniCPM-OCR on GitHub](https://github.com/OpenBMB/MiniCPM-OCR)\n- [MiniCPM-OCR GGUF on Hugging Face](https://huggingface.co/openbmb/MiniCPM-OCR-1.0-gguf)",
+      "nextStep": "Download the MiniCPM-OCR 1.0 Q8_0 GGUF and projector, run llama-server, and use the minicpmvocr SDK to parse ten of your own receipts into Markdown to judge accuracy.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-28T14:21:48Z"
     }
   ]
 }
