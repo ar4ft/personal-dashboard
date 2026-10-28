@@ -29648,6 +29648,198 @@
       ],
       "source": "X digest",
       "createdAt": "2026-10-28T14:21:48Z"
+    },
+    {
+      "id": "hn:50276792",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gemini 4 Carbon: Google's new frontier model",
+      "description": "Google DeepMind introduced Gemini 4 Carbon, its strongest model so far, with big gains in coding, long-horizon agentic work and cybersecurity benchmarks.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "createdAt": "2026-10-28T17:01:23Z",
+      "updatedAt": "2026-10-28T17:01:23Z",
+      "content": "Two weeks after Gemini 4 Argon, Google announced Gemini 4 Carbon. It tops the new v5.0 Artificial Analysis Intelligence Index at 59 and leads security benchmarks such as SEC-bench Pro (88.2%) for finding vulnerabilities and CWE-bench (71.0%) for patching. Google says it is rolling it out deliberately and taking part in the US government's voluntary pre-release testing.\n\n[Announcement on the Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/) [Discussion on Hacker News](https://news.ycombinator.com/item?id=50276792)"
+    },
+    {
+      "id": "hn:50276940",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MacBook Pro gets a tandem OLED \"PROLED XDR\" display and touch",
+      "description": "Apple unveiled a new 14- and 16-inch MacBook Pro with a tandem OLED display, touch input on the Mac for the first time, a Dynamic Island, and M5 Pro and M5 Max chips.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "etothet",
+      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+      "createdAt": "2026-10-28T17:10:37Z",
+      "updatedAt": "2026-10-28T17:10:37Z",
+      "content": "The new MacBook Pro uses a tandem OLED panel with up to 2000 nits, a 120Hz variable refresh rate and P3 plus Adobe RGB coverage. It is also the first Mac with a touchscreen, and the Dynamic Island moves to the Mac as the home for Spotlight, Live Activities and Siri. Apple quotes up to 24 hours of battery life in lighter 3- and 4-pound designs. For Mac developers, touch and the Dynamic Island are new surfaces to design for.\n\n[Apple newsroom press release](https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/) [Discussion on Hacker News](https://news.ycombinator.com/item?id=50276940)"
+    },
+    {
+      "id": "hn:50275128",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NVIDIA Nemotron 3.5 Transcribe: open, promptable ASR for 40 languages",
+      "description": "NVIDIA released an open-weight speech model that does transcription, speaker attribution, translation and audio Q&A in one checkpoint, along with the Granary v2 data pipeline and fine-tuning recipes.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "createdAt": "2026-10-28T15:17:53Z",
+      "updatedAt": "2026-10-28T15:17:53Z",
+      "content": "Nemotron 3.5 Transcribe is a single promptable model that transcribes 40 languages, labels speakers, translates and answers questions about audio. NVIDIA also opened the Granary v2 data pipeline and recipes so you can adapt it to domain jargon like medical dictation. Weights are on Hugging Face and ModelScope.\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50275128)"
+    },
+    {
+      "id": "hn:50273731",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cursor releases the Agent SDK for defining agents in code",
+      "description": "Cursor opened the framework it uses for its own managed agents like Bugbot and Security Reviewer, letting teams define event-driven agents in code and deploy them with one command.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "torutofu",
+      "url": "https://cursor.com/blog/agent-sdk",
+      "createdAt": "2026-10-28T14:02:20Z",
+      "updatedAt": "2026-10-28T14:02:20Z",
+      "content": "The Agent SDK lets a team write agents that react to events such as pull requests on GitHub, GitLab or Bitbucket, compliance workflows or incidents, and follow policies the team can read and change. You start from a template, then run `agent-sdk deploy` to host it on Cursor's infrastructure.\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50273731)"
+    },
+    {
+      "id": "hn:50232101",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenLDK: a Java JIT and runtime written in Common Lisp",
+      "description": "OpenLDK translates JVM bytecode into Lisp that SBCL compiles to native code, so Java classes become CLOS classes and Java libraries run in the same heap as Lisp.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "atgreen",
+      "url": "https://atgreen.github.io/repl-yell/posts/openldk-java-in-common-lisp/",
+      "createdAt": "2026-10-25T14:45:13Z",
+      "updatedAt": "2026-10-25T14:45:13Z",
+      "content": "Anthony Green, who once worked on gcj, built OpenLDK to call Java libraries from SBCL in-process. It reads bytecode, emits Lisp, and lets SBCL compile it. The fun parts: Lisp methods can wrap Kotlin methods, Clojure functions can be passed to `funcall`, javac runs inside SBCL, and a saved, pre-initialized Spring Boot app launches in 84 ms.\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50232101)"
+    },
+    {
+      "id": "hn:50223739",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Decompiling Fast Food Tycoon 2 with an agentic loop and Ghidra",
+      "description": "Andrew Healey decompiled a 2001 business sim with an AI agent, Ghidra and a SQLite index of 4,046 functions to explain how it draws its isometric cities.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "healeycodes",
+      "url": "https://healeycodes.com/decompiling-fast-food-tycoon-2-drawing-the-world",
+      "createdAt": "2026-10-24T18:17:57Z",
+      "updatedAt": "2026-10-24T18:17:57Z",
+      "content": "The post walks through an agent-assisted reverse-engineering setup: Ghidra output (about 9.5 MB of C-like text) loaded into SQLite behind a small search script for callers, field writes and strings, plus reading the live game's memory to check hypotheses. It then explains the renderer behind the game's detailed isometric world.\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50223739)"
+    },
+    {
+      "id": "hn:50263967",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Popcorn 1.0 runs Elixir in the browser on the real OTP/BEAM VM",
+      "description": "Software Mansion's Popcorn library now runs Elixir in the browser on the full OTP/BEAM VM compiled to WebAssembly instead of AtomVM, for much broader OTP compatibility.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "plainOldText",
+      "url": "https://swmansion.com/blog/popcorn-1-0-moving-from-atom-vm-to-otp-beam/",
+      "createdAt": "2026-10-27T18:52:16Z",
+      "updatedAt": "2026-10-27T18:52:16Z",
+      "content": "Popcorn started on AtomVM, a small embedded VM that only implements a subset of OTP. Version 1.0 switches to the real BEAM in Wasm, which makes it much harder to crash or hang and supports far more of OTP. The post explains why they switched and how they made the full VM work in the browser.\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50263967)"
+    },
+    {
+      "id": "hn:50280722",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The case of the 9-bit AES key in PDF encryption",
+      "description": "Researchers found that several PDF tools advertise AES-256 but derive the file key from tiny or time-based random state; in MuPDF only 9 bits of randomness affect the key.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ledoge",
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "createdAt": "2026-10-28T20:51:44Z",
+      "updatedAt": "2026-10-28T20:51:44Z",
+      "content": "PDF revision 6 encryption wraps a random 32-byte file key with a password-derived key. V12 shows that MuPDF's file key depends on only 9 bits of random state, and that Foxit and others seed it from time, so encrypted PDFs can be decrypted without the password by enumerating keys. A good case study in how weak randomness undoes strong ciphers.\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50280722)"
+    },
+    {
+      "id": "hn:50267569",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Moxnox 1.0: a self-hosting NT-like, POSIX-compatible OS on btrfs",
+      "description": "Moxnox is a 130,000-line C++ hobby OS whose syscalls are modeled on Windows NT, yet it runs recompiled Unix software with a full GNU userland, boots from btrfs, and can build itself.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "SockThief",
+      "url": "https://github.com/maharmstone/moxnox",
+      "createdAt": "2026-10-27T23:53:41Z",
+      "updatedAt": "2026-10-27T23:53:41Z",
+      "content": "Mark Harmstone, known for the WinBtrfs driver, released Moxnox 1.0 for amd64 and aarch64. Its kernel design follows NT, it ships a GNU base system, and it is mature enough to build Moxnox on Moxnox. Release images can be booted in QEMU; the btrfs code is not battle-tested, so only throwaway filesystems are recommended.\n\n[Repo on GitHub](https://github.com/maharmstone/moxnox) [Discussion on Hacker News](https://news.ycombinator.com/item?id=50267569)"
+    },
+    {
+      "id": "reading:abakcus-overhanging-branch-problem",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Who owns the fruit on an overhanging branch?",
+      "description": "Roman law, an English court, the Turkish Civil Code and Sweden's right to roam give four different, internally consistent answers to who owns fruit hanging over a property line.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/overhanging-branch-problem",
+      "createdAt": "2026-09-08T00:00:00Z",
+      "updatedAt": "2026-09-08T00:00:00Z",
+      "content": "Starting from a stranger picking nectarines off a front-yard tree, Ali Kaya follows a 2,500-year-old legal argument through four legal systems, does the simple arithmetic of who loses what, and connects it to one of the most cited ideas in economics about how property rules allocate costs.\n\n[Read on Abakcus](https://abakcus.com/articles/overhanging-branch-problem)"
+    },
+    {
+      "id": "reading:abakcus-radium-atom-plate",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The famous radium atom drawing is not Bohr's sketch",
+      "description": "The red and black radium atom diagram often captioned as Niels Bohr's own drawing is actually a folded colour plate from a 1922 popular science book, and nobody knows who drew it.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/radium-atom-plate",
+      "createdAt": "2026-08-26T00:00:00Z",
+      "updatedAt": "2026-08-26T00:00:00Z",
+      "content": "The image of 88 nested ellipses has spread online since 2017 as \"Niels Bohr's original sketch.\" Abakcus traces it to an insert in the 1922 Copenhagen book *Bohrs Atomteori, almenfatteligt fremstillet* (\"Bohr's Atomic Theory, Explained for Everyone\"), corrects its own earlier caption, and explains what the plate actually shows about the Bohr model of a heavy atom.\n\n[Read on Abakcus](https://abakcus.com/articles/radium-atom-plate)"
     }
   ]
 }
