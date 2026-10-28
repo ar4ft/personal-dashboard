@@ -29056,6 +29056,291 @@
       "url": "https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram",
       "createdAt": "2026-10-26T15:05:04Z",
       "updatedAt": "2026-10-26T15:05:04Z"
+    },
+    {
+      "id": "hn:50272258",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A faster way to compute signed 64-bit floor division by constants",
+      "description": "Ben Joffe presents a new algorithm for floor division by compile-time constants that benchmarks 10-20% faster than existing methods on ARM and about 5-10% faster for most divisors on x86.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Ben Joffe",
+      "url": "https://www.benjoffe.com/fast-floordiv",
+      "createdAt": "2026-10-28T12:04:28Z",
+      "updatedAt": "2026-10-28T12:04:28Z",
+      "content": "Ben Joffe calls this \"the missing chapter of Hacker's Delight\": signed floor division (rounding toward negative infinity) by a divisor known at compile time. Mainstream languages such as C/C++, Go and Swift lack it natively, common implementations use slow formulas, and one prominent library shipped an overflowing version for years. His new approach beats Granlund-Montgomery and Robison on ARM64 (M4 Pro, Snapdragon X) and on most x86 divisors. It also covers positive modulus and Euclidean division. The post includes a code generator for 8 to 64-bit divisors and benchmarks for more than 40 divisors.\n\n[Read the article](https://www.benjoffe.com/fast-floordiv)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50272258)"
+    },
+    {
+      "id": "hn:50272479",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google's sleep framework lets LLMs consolidate new knowledge without catastrophic forgetting",
+      "description": "Google Research adds an offline sleep phase to continual learning: the model distills short-term context into expanded MoE memory blocks, then dreams up synthetic practice data to improve its reasoning.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Ali Behrouz and Vahab Mirrokni",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "createdAt": "2026-10-28T12:24:25Z",
+      "updatedAt": "2026-10-28T12:24:25Z",
+      "content": "Ali Behrouz and Vahab Mirrokni describe a wake/sleep lifecycle for deployed LLMs. During sleep, *memory consolidation* adds low-rank experts. It then distills fragile in-context memory into them through on-policy distillation and Levenshtein-rewarded imitation learning, and resets the temporary parameters afterwards. *Dreaming* routes synthetic generation through random experts, keeps the best samples using gradient-based selection, and refines the model with SFT and RL. They report near-zero forgetting when learning unseen languages such as Manchu and Kalamang in sequence, and near-perfect BABILong scaling to 10M tokens. It builds on their Titans/Hope architecture work.\n\n[Read the Google Research post](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50272479)"
+    },
+    {
+      "id": "hn:50272272",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Project Zero: fuzzing vs AI, Fuzzilli and BigSleep on V8",
+      "description": "Over six months, Google's LLM bug finder BigSleep found 45 V8 vulnerabilities and the Fuzzilli fuzzer found 37, with only 25% overlap (about 60% in controlled tests), so Project Zero recommends running both.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Samuel Groß",
+      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "createdAt": "2026-10-28T12:05:44Z",
+      "updatedAt": "2026-10-28T12:05:44Z",
+      "content": "Samuel Groß of Project Zero compares two production systems that review new V8 code. **Fuzzilli** is a generative JavaScript-engine fuzzer that runs continuously. **BigSleep** is an agentic LLM system that reviews new commits daily and writes proof-of-concept testcases. BigSleep reported more bugs, but much of each tool's output was found only by that tool. The post compares the kinds of bugs each one finds and concludes that fuzzing and agentic analysis complement each other.\n\n[Read the Project Zero post](https://projectzero.google/2026/10/fuzzing-v-AI.html)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50272272)"
+    },
+    {
+      "id": "hn:50271929",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TorchLean: build, train and verify neural networks in Lean 4",
+      "description": "TorchLean from LeanDojo brings shape-checked tensors, autodiff and neural-network training to Lean, with proofs about model behavior and floating-point rounding bounds in the same language.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "LeanDojo",
+      "url": "https://github.com/lean-dojo/TorchLean",
+      "createdAt": "2026-10-28T11:34:33Z",
+      "updatedAt": "2026-10-28T11:34:33Z",
+      "content": "Because Lean is both a programming language and a theorem prover, TorchLean uses one model definition for training, graph transformations, certificate checks and proofs. For example, it can prove that a classifier keeps its prediction across an input region. FloatLib lets you choose numerical precision and prove rounding-error bounds under explicit assumptions. TorchLean owns automatic differentiation and can call LibTorch ATen kernels on CUDA GPUs; that external GPU code is treated as a trust boundary. A quickstart trains a small MLP on CPU.\n\n[Repo on GitHub](https://github.com/lean-dojo/TorchLean)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50271929)"
+    },
+    {
+      "id": "hn:50259977",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "carmen: proving whether LLM-written Metal kernels actually speed up models on a Mac",
+      "description": "carmen has Claude write Apple Silicon Metal kernels and tests them hard. Its tests caught all 75 planted bugs where a typical one-input check caught 40, but faster kernels only added 2-3% to real model speed.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "utsav1033",
+      "url": "https://github.com/utsav1033/carmen",
+      "createdAt": "2026-10-27T14:30:45Z",
+      "updatedAt": "2026-10-27T14:30:45Z",
+      "content": "carmen runs a loop: Claude writes a Metal kernel, carmen checks it with mutation-tested correctness tests, and it keeps and refines the fastest correct version. Its winning kernels beat MLX in isolation: masked softmax ran 1.82x faster (one pass instead of three) and add + rmsnorm 1.41x faster. End to end, though, they gave only +2-3% on Qwen 0.5B and nothing on larger models, because MLX already reads weights about as fast as the Mac's memory bandwidth allows. Speculative decoding in mlx-lm, which carmen also measures, gave 1.48x on Qwen 3B. It ships a TUI for browsing measured results per model.\n\n[Repo on GitHub](https://github.com/utsav1033/carmen)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50259977)"
+    },
+    {
+      "id": "hn:50261223",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: MacID brings Face ID-style webcam unlock to the Mac",
+      "description": "MacID unlocks the macOS lock screen with on-device face recognition. It uses a PAM module, Apple Vision landmarks and a 6.6 MB InsightFace model converted to Core ML, with Touch ID and the password as fallbacks.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "akshithio",
+      "url": "https://akshith.io/notes/macid",
+      "createdAt": "2026-10-27T15:59:12Z",
+      "updatedAt": "2026-10-27T15:59:12Z",
+      "content": "Akshith's write-up shows how MacID hooks into macOS authentication through PAM stacks in /etc/pam.d. You reach the password field and press Return. If the face matches, you are logged in; otherwise it behaves like a wrong password. Apple's Vision API finds five facial landmarks, and a similarity transform aligns the face into a 112x112 crop. The w600k_mbf model then produces a 512-dimensional embedding, which reached 99.5% accuracy with 0% false acceptance on 767 LFW pairs. A webcam is not a depth sensor, so a good photo can fool it, and the author is upfront about that tradeoff.\n\n[Read the write-up](https://akshith.io/notes/macid)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50261223)"
+    },
+    {
+      "id": "hn:50253150",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: live open-vocabulary speech-to-text on an ESP32-P4, no cloud",
+      "description": "esp32-pie-asr runs a 65.7M-parameter streaming Zipformer2 transducer, quantized to 2 and 4 bits (26.65 MB), on the ESP32-P4's two RISC-V cores at 0.70x real time with 4.34% WER on LibriSpeech test-clean.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "BoumedineBillal",
+      "url": "https://github.com/BoumedineBillal/esp32-pie-asr",
+      "createdAt": "2026-10-27T00:25:08Z",
+      "updatedAt": "2026-10-27T00:25:08Z",
+      "content": "The project runs the Kroko streaming English ASR model on a microcontroller using only the ESP32-P4's PIE SIMD instructions, with no neural accelerator. Weights load from microSD into 32 MB of PSRAM. Words are finalized about 2 seconds after they are spoken, and the chip's output is bit-exact with the PC build of the engine. It supports on-screen hotwords without retraining, plus six voice-control demos. It compares favorably with Moonshine Tiny and Whisper tiny.en running on CPU.\n\n[Repo on GitHub](https://github.com/BoumedineBillal/esp32-pie-asr)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50253150)"
+    },
+    {
+      "id": "hn:50265128",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Four months of Zig, from a former Rust user",
+      "description": "A developer back on Zig after a few years compares it with Rust, praising explicit allocators and the new IO parameter, comptime, the build system and a minimal-dependency culture, while noting the built-in fuzzer still doesn't work.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "gracefulliberty",
+      "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
+      "createdAt": "2026-10-27T20:13:27Z",
+      "updatedAt": "2026-10-27T20:13:27Z",
+      "content": "The author built snurl (a curl-like library for Gemini, Gopher, Finger and other smallnet protocols), a TUI typing racer and a raylib n-body simulator. Along the way they attended Zig Day Seattle, where Andrew Kelley was present. Highlights: allocators passed explicitly instead of Rust's hidden, panicking allocations; an IO parameter that makes side effects visible and testing easy; comptime; anyzig for switching versions; incremental compilation with `zig build --watch -fincremental`; and error handling that makes `try` the lazy default instead of panics. A sore spot is that the fuzzer shown in `zig init` is not finished yet.\n\n[Read the article](https://gracefulliberty.com/articles/four-months-of-zig/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50265128)"
+    },
+    {
+      "id": "reading:abakcus-dirac-handwritten-thesis",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dirac's handwritten thesis: the first PhD on quantum mechanics",
+      "description": "In May 1926 Paul Dirac submitted a Cambridge thesis titled simply Quantum Mechanics, written entirely by hand. Abakcus walks through the scans: q-numbers, xy ≠ yx, and the crossings-out.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/dirac-handwritten-thesis",
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "content": "Ali Kaya traces the idea from a Sunday walk in September 1925. Dirac realized Heisenberg's commutators mirror classical Poisson brackets, then had to wait until Monday for the library to open to check. The article then goes through the thesis itself: §2 Algebraic Axioms with q-numbers versus c-numbers, the line xy ≠ yx, a nine-line preface, and the bridge {q, p} = 1 → qp − pq = iħ. The 72 pages scanned by Florida State University are draft pages and calculations rather than the bound copy, so you watch the theory being written.\n\n[Read on Abakcus](https://abakcus.com/articles/dirac-handwritten-thesis)\n\n[Scans on the Internet Archive](https://archive.org/details/353070-dirac-paul-dissertation-secured)\n\n[Paul A. M. Dirac collection at FSU](https://repository.lib.fsu.edu/islandora/object/fsu:641)"
+    },
+    {
+      "id": "reading:abakcus-0999-equals-1",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The proof that 0.999… is exactly equal to 1",
+      "description": "A five-step geometric series proof that 0.999… and 1 are two representations of the same real number, and why our intuition about a tiny gap is wrong.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/0999-equals-1",
+      "createdAt": "2026-04-27T00:00:00Z",
+      "updatedAt": "2026-04-27T00:00:00Z",
+      "content": "Ali Kaya writes 0.999… as 9/10 + 9/100 + 9/1000 + …, factors out 9/10, and sums the geometric series with ratio 1/10 to get (9/10) · (10/9) = 1. The difference between the two numbers is not infinitesimally small; it is exactly zero. The discomfort comes from confusing a number with its decimal expansion, just as 1/2 and 2/4 are the same number.\n\n[Read on Abakcus](https://abakcus.com/articles/0999-equals-1)"
+    },
+    {
+      "id": "x:2115367109366866233",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A custom Swift DSL that keeps coding agents using APIs correctly",
+      "description": "Matthaus Woolard says building a custom Swift DSL that structurally enforces correct API usage has been the best way to make agents use SwiftFairy's APIs correctly.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Matthaus Woolard (@hishnash)",
+      "url": "https://x.com/hishnash/status/2115367109366866233",
+      "createdAt": "2026-10-28T08:56:35Z",
+      "updatedAt": "2026-10-28T08:56:35Z",
+      "content": "His example is the map-reduction DSL in the upcoming engine of SwiftFairy's audit core, where the structure of the DSL itself is meant to keep memory and lock handling correct, so an agent can't easily write code that misuses the API.\n\n[Post on X](https://x.com/hishnash/status/2115367109366866233)"
+    },
+    {
+      "id": "x:2115357067422646650",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How we might operate Tuist: Pedro Piñera on Atlas",
+      "description": "In an X Article, Pedro Piñera describes Atlas, the operations platform Tuist is building, driven by his \"engineer's obsession with optimizing things, and not just builds and test runs.\"",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Pedro Piñera (@pepicrft)",
+      "url": "https://x.com/pepicrft/status/2115357067422646650",
+      "createdAt": "2026-10-28T08:16:40Z",
+      "updatedAt": "2026-10-28T08:16:40Z",
+      "content": "The article, \"How we might operate Tuist,\" applies the same optimization mindset Tuist brings to builds and test runs to how the company itself is run, with Atlas as the platform for those operations.\n\n[Post on X](https://x.com/pepicrft/status/2115357067422646650)"
+    },
+    {
+      "id": "x:2115326629488824753",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Addy Osmani's guide to getting started with Claude Code Mods",
+      "description": "Addy Osmani published an X Article guide to Claude Code Mods, released a few weeks ago: small JavaScript or TypeScript files that you run within Claude Code.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Addy Osmani (@addyosmani)",
+      "url": "https://x.com/addyosmani/status/2115326629488824753",
+      "createdAt": "2026-10-28T06:15:43Z",
+      "updatedAt": "2026-10-28T06:15:43Z",
+      "content": "\"Getting started with Claude Code Mods\" is meant to make the new extension mechanism easier to pick up. Mods are small JavaScript or TypeScript files that run inside Claude Code, and the guide walks through how to start using them.\n\n[Post on X](https://x.com/addyosmani/status/2115326629488824753)"
+    },
+    {
+      "id": "x:2115277286123704654",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Artificial Analysis moves to closed benchmarks and finds open-weights models further behind",
+      "description": "Ethan Mollick notes Artificial Analysis has switched to closed benchmarks (dropping GDPval-AA); the open-weights leader, Kimi K3.1 Pro, now scores 46, 12 points behind the top model, versus a 3-point gap in v4.3.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Ethan Mollick (@emollick)",
+      "url": "https://x.com/emollick/status/2115277286123704654",
+      "createdAt": "2026-10-28T02:59:39Z",
+      "updatedAt": "2026-10-28T02:59:39Z",
+      "content": "Mollick says to take it with a grain of salt, but that the result \"matches the general vibes that we haven't seen a Fable-class open model.\" The quoted Artificial Analysis post reports the gap between the best open-weights and best closed models widened from 3 points in v4.3 to 12 points under the new closed benchmarks.\n\n[Post on X](https://x.com/emollick/status/2115277286123704654)"
+    },
+    {
+      "id": "x:2115370232630083907",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MikeOSS 2.0: an open-source AI harness for legal work with a Cursor-style drafting interface",
+      "description": "MikeOSS 2.0 is a free, open-source AI harness for legal work that you can self-host, connect to any model, or run fully local. The headline addition is an Integrated Drafting Interface.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Will Chen (@willchen500)",
+      "url": "https://x.com/willchen500/status/2115370232630083907",
+      "createdAt": "2026-10-28T09:08:59Z",
+      "updatedAt": "2026-10-28T09:08:59Z",
+      "content": "The new Integrated Drafting Interface (IDE) is described as \"a Cursor for legal\": a file explorer, a document viewer/editor and chat side by side.\n\n[MikeOSS on GitHub](https://github.com/open-legal-products/mike)\n\n[mikeoss.com](https://mikeoss.com/)\n\n[Post on X](https://x.com/willchen500/status/2115370232630083907)"
+    },
+    {
+      "id": "x:2115279788344836145",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Spark-X2.6-1.7B: an open-source 1.7B model built for local agents",
+      "description": "ModelScope highlights Spark-X2.6-1.7B from SparkLLM, an open-source 1.7B model aimed at capable local agents, with switchable no-thinking, low-thinking and high-thinking modes.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "ModelScope (@ModelScope2022)",
+      "url": "https://x.com/ModelScope2022/status/2115279788344836145",
+      "createdAt": "2026-10-28T03:09:36Z",
+      "updatedAt": "2026-10-28T03:09:36Z",
+      "content": "The pitch is to \"think only as much as the task needs\": you switch between no-thinking, low-thinking and high-thinking modes to trade off answer quality, latency and inference cost.\n\n[Model on Hugging Face](https://huggingface.co/XHToken/Spark-X2.6-1.7B)\n\n[Model on ModelScope](https://modelscope.cn/models/XHToken/Spark-X2.6-1.7B)\n\n[Post on X](https://x.com/ModelScope2022/status/2115279788344836145)"
     }
   ]
 }
