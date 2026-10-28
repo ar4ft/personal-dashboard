@@ -29341,6 +29341,136 @@
       "createdAt": "2026-10-28T03:09:36Z",
       "updatedAt": "2026-10-28T03:09:36Z",
       "content": "The pitch is to \"think only as much as the task needs\": you switch between no-thinking, low-thinking and high-thinking modes to trade off answer quality, latency and inference cost.\n\n[Model on Hugging Face](https://huggingface.co/XHToken/Spark-X2.6-1.7B)\n\n[Model on ModelScope](https://modelscope.cn/models/XHToken/Spark-X2.6-1.7B)\n\n[Post on X](https://x.com/ModelScope2022/status/2115279788344836145)"
+    },
+    {
+      "id": "hn:50264853",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "description": "An AI assistant and emergency library designed to run locally on the user's own computer.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Luc",
+      "url": "https://www.brangus.io/survival-llm",
+      "createdAt": "2026-10-27T19:55:06Z",
+      "updatedAt": "2026-10-27T19:55:06Z"
+    },
+    {
+      "id": "hn:50268380",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Git for the US Code",
+      "description": "A look at using Git version control for the US Code.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "alansaber",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "createdAt": "2026-10-28T01:47:50Z",
+      "updatedAt": "2026-10-28T01:47:50Z"
+    },
+    {
+      "id": "hn:50265609",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Early progress on accelerating drug development with Claude",
+      "description": "Anthropic shares early progress on accelerating drug development with Claude.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dataking",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "createdAt": "2026-10-27T20:50:42Z",
+      "updatedAt": "2026-10-27T20:50:42Z"
+    },
+    {
+      "id": "hn:50271640",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "description": "Ten days on, Git on macOS still trusts the compromised eMudhra certificates.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "galadran",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "createdAt": "2026-10-28T11:03:40Z",
+      "updatedAt": "2026-10-28T11:03:40Z"
+    },
+    {
+      "id": "hn:50265393",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "description": "A code-execution flaw in UEFI firmware that threatens most servers.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "DamnInteresting",
+      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "createdAt": "2026-10-27T20:35:09Z",
+      "updatedAt": "2026-10-27T20:35:09Z"
+    },
+    {
+      "id": "hn:50265594",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "description": "A Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sthlmb",
+      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+      "createdAt": "2026-10-27T20:48:49Z",
+      "updatedAt": "2026-10-27T20:48:49Z"
+    },
+    {
+      "id": "hn:50271088",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Billion-query-per-second lookup tables in C++",
+      "description": "Billion-query-per-second lookup tables implemented in C++.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "signa11",
+      "url": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
+      "createdAt": "2026-10-28T09:43:44Z",
+      "updatedAt": "2026-10-28T09:43:44Z"
+    },
+    {
+      "id": "hn:50272835",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Python Typing Survey 2026 Results",
+      "description": "The results of the 2026 survey on Python typing, covering AI tools and the checker landscape.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ocamoss",
+      "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
+      "createdAt": "2026-10-28T12:58:11Z",
+      "updatedAt": "2026-10-28T12:58:11Z"
     }
   ]
 }
