@@ -29840,6 +29840,168 @@
       "createdAt": "2026-08-26T00:00:00Z",
       "updatedAt": "2026-08-26T00:00:00Z",
       "content": "The image of 88 nested ellipses has spread online since 2017 as \"Niels Bohr's original sketch.\" Abakcus traces it to an insert in the 1922 Copenhagen book *Bohrs Atomteori, almenfatteligt fremstillet* (\"Bohr's Atomic Theory, Explained for Everyone\"), corrects its own earlier caption, and explains what the plate actually shows about the Bohr model of a heavy atom.\n\n[Read on Abakcus](https://abakcus.com/articles/radium-atom-plate)"
+    },
+    {
+      "id": "hn:50276998",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "description": "A look at why a fingerprinting script is creating bioweapons.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "hazebooth",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "createdAt": "2026-10-28T17:13:29Z",
+      "updatedAt": "2026-10-28T17:13:29Z"
+    },
+    {
+      "id": "hn:50208960",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Start Doing Graph Theory",
+      "description": "An invitation to start doing graph theory.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://vertex.degree/",
+      "createdAt": "2026-10-23T13:49:50Z",
+      "updatedAt": "2026-10-23T13:49:50Z"
+    },
+    {
+      "id": "hn:50243060",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
+      "description": "CircuitHub unveils the Grid, a factory-scale robot in Massachusetts that builds PCBs on demand.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "seddona",
+      "url": "https://www.circuithub.com/post/unveiling-the-grid",
+      "createdAt": "2026-10-26T13:13:31Z",
+      "updatedAt": "2026-10-26T13:13:31Z"
+    },
+    {
+      "id": "hn:50273171",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Emacs Turns 50",
+      "description": "A look at Emacs as the long-lived editor turns 50.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "internet_points",
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "createdAt": "2026-10-28T13:25:11Z",
+      "updatedAt": "2026-10-28T13:25:11Z"
+    },
+    {
+      "id": "hn:50272145",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+      "description": "A US agency has approved Amazon Leo's $11.5 billion acquisition of Globalstar.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "noptd",
+      "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
+      "createdAt": "2026-10-28T11:54:23Z",
+      "updatedAt": "2026-10-28T11:54:23Z"
+    },
+    {
+      "id": "hn:50275626",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "description": "Dayjob: Tax evaluates AI agents on 50 professional tax assignments.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "landonxi",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "createdAt": "2026-10-28T15:46:30Z",
+      "updatedAt": "2026-10-28T15:46:30Z"
+    },
+    {
+      "id": "hn:50274251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AlpineBSD",
+      "description": "An introduction to AlpineBSD.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "bradley_taunt",
+      "url": "https://wiki.alpinebsd.org",
+      "createdAt": "2026-10-28T14:30:26Z",
+      "updatedAt": "2026-10-28T14:30:26Z"
+    },
+    {
+      "id": "hn:50278253",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Scaling Hierarchical Networks",
+      "description": "A post on scaling hierarchical networks.",
+      "topics": [
+        "AI",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "guybedo",
+      "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "createdAt": "2026-10-28T18:07:41Z",
+      "updatedAt": "2026-10-28T18:07:41Z"
+    },
+    {
+      "id": "hn:50281755",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Discovering and exploiting vulnerabilities in real-world software with Claude",
+      "description": "Research on discovering and exploiting vulnerabilities in real-world software with Claude.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "rzk",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "createdAt": "2026-10-28T22:21:18Z",
+      "updatedAt": "2026-10-28T22:21:18Z"
+    },
+    {
+      "id": "hn:50281902",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Code found 145K photos I deleted from my iPhone sitting in a hidden cache",
+      "description": "Claude Code reportedly found 145,000 photos deleted from an iPhone still sitting in a hidden cache.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "CGMthrowaway",
+      "url": "https://twitter.com/coolerwave/status/2114088769112477849",
+      "createdAt": "2026-10-28T22:34:30Z",
+      "updatedAt": "2026-10-28T22:34:30Z"
     }
   ]
 }
