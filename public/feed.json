@@ -30002,6 +30002,292 @@
       "url": "https://twitter.com/coolerwave/status/2114088769112477849",
       "createdAt": "2026-10-28T22:34:30Z",
       "updatedAt": "2026-10-28T22:34:30Z"
+    },
+    {
+      "id": "hn:50282838",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Qwenputer: a deterministic RISC-V CPU compiled inside Qwen3.5's weights",
+      "description": "Divyansh Agrawal embeds a RISC-V CPU into a stock Qwen3.5 4B, using its Gated DeltaNet layers as exact RAM so the model can run arithmetic, C and MicroPython in its own forward passes with no external tools.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Divyansh Agrawal",
+      "url": "https://divagr.com/blog/qwenputer",
+      "createdAt": "2026-10-29T00:25:45Z",
+      "updatedAt": "2026-10-29T00:25:45Z",
+      "content": "Qwen3.5 uses Gated DeltaNet (a linear RNN) in three of every four attention layers. Setting the gate and write strength to 1 and using one-hot keys turns each head's state into exact, addressable memory, so compiled layers can keep registers, memory and a program counter there. On DeepMind's big-number division and multiplication sets Qwenputer scores about 97.5% (base Qwen: 72.5% and 55%), matching a Python tool, and lifts NUPA long-integer arithmetic from 48.6% to 100%. The author reports zero mismatches across about 230,000 replayed outputs and normal text that stays within noise of base Qwen. An experimental in-state filesystem holds up to 512 files. Limits: an 18.8 GB checkpoint (mostly zero padding), a small driver to boot the firmware, and a few decoded tokens per CPU instruction.\n\n[Read the article](https://divagr.com/blog/qwenputer)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50282838)"
+    },
+    {
+      "id": "hn:50284255",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Code spends ~15-20% of tokens resending background-agent transcripts for status lines",
+      "description": "A gist shows Claude Code sends each background agent's full transcript to its model about every 30 seconds just to generate a 3-5 word status line, and shares a Bun preload hook that disables it.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Flamerix AI",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "createdAt": "2026-10-29T03:33:42Z",
+      "updatedAt": "2026-10-29T03:33:42Z",
+      "content": "Since Claude Code 2.1.232 (August 2026), every background agent periodically has its entire transcript sent, usually to Opus, with a request to \"describe your most recent action in 3-5 words\". The result only updates the agents panel. Grouping OpenTelemetry `claude_code.api_request` events by `query_source` showed `agent_summary` at 16.4% of Claude Code spend and about one in five API requests, more than the main conversation, with roughly 9,000 input tokens per output token. There is no setting to turn it off. The MIT-licensed workaround is an ~80-line `BUN_OPTIONS=--preload` script that neutralizes the summarizer timer without modifying the binary. Updates may silently undo it, so the gist includes verification steps.\n\n[Read the article](https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50284255)"
+    },
+    {
+      "id": "hn:50282454",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Stack Overflow now gets fewer than 1,000 questions a month",
+      "description": "A Stack Exchange Data Explorer query charting new Stack Overflow questions per month shows the volume has dropped below 1,000, prompting a large HN discussion about AI assistants and the site's decline.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "babelfish",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "createdAt": "2026-10-28T23:35:02Z",
+      "updatedAt": "2026-10-28T23:35:02Z",
+      "content": "The link is a public Stack Exchange Data Explorer query graphing monthly new questions on Stack Overflow, which once received hundreds of thousands per month. The HN thread (about 475 comments) debates how much of the collapse comes from coding assistants versus moderation culture, and what happens to the public Q&A data future models learn from.\n\n[View the query graph](https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50282454)"
+    },
+    {
+      "id": "hn:50285319",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Orange Tsai: a logic-bugs-only Microsoft Edge full chain from Pwn2Own Berlin 2026",
+      "description": "Orange Tsai of DEVCORE details his handmade Pwn2Own Berlin 2026 entry: a Microsoft Edge sandbox escape built from five logic bugs and two Windows features, with no memory corruption and no AI.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Orange Tsai",
+      "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
+      "createdAt": "2026-10-29T06:47:28Z",
+      "updatedAt": "2026-10-29T06:47:28Z",
+      "content": "The chain won $175,000 and 17.5 Master of Pwn points and won the Pwnie Award for Epic Achievement. It starts in Chromium's often-overlooked Navigation Throttles in the browser process, specifically Edge's enterprise `EdgeCAGuidanceNavigationThrottle` for Entra ID Conditional Access, which can be triggered from Microsoft-owned origins. The write-up walks through finding and chaining the bugs. Slides from HITCON and Hexacon are linked.\n\n[Read the article](https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50285319)"
+    },
+    {
+      "id": "hn:50283488",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Washable electronic fibers turn a shirt sleeve into a touchscreen",
+      "description": "NUS researchers wove 54 LED and touch-sensing fibers into a sleeve, making a 96x54-pixel, 30 fps flexible display that plays video, connects over Bluetooth and still works after 50 machine-wash cycles.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Thomai Tsimpou (designboom)",
+      "url": "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/",
+      "createdAt": "2026-10-29T01:40:52Z",
+      "updatedAt": "2026-10-29T01:40:52Z",
+      "content": "A team led by Assistant Professor Tural Khudiyev at the National University of Singapore puts display and touch functions inside the thread itself instead of attaching a rigid screen. A laser and controlled solder wetting connect more than 5,000 chips through over 20,000 connections along insulated wires. Thermal drawing turns them into 1 mm, 10 m multilayer fibers with LEDs above a touch layer. The 168 x 105 mm sleeve prototype supports 8-bit color, video, a calculator and a compass, and keeps nearly unchanged performance after 50 washes. The researchers see future uses in health monitoring and environmental sensing.\n\n[Read the article](https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50283488)"
+    },
+    {
+      "id": "hn:50259697",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MiniLake: a local Databricks API emulator with real SQL, Delta Lake and Spark",
+      "description": "MiniLake (MIT, Python) emulates 30+ Databricks API groups on localhost, running SQL on DuckDB, writing real Delta files and executing Spark jobs, so the SDK, CLI, Terraform and agents can be tested without a cloud account.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "dmux",
+      "url": "https://dmux.github.io/minilake/",
+      "createdAt": "2026-10-27T14:12:59Z",
+      "updatedAt": "2026-10-27T14:12:59Z",
+      "content": "Point `databricks-sdk`, the Databricks CLI, the Terraform provider, Asset Bundles or an MCP agent at `localhost:8000`. Unity Catalog catalogs map to DuckDB files. External Delta tables are genuine Parquet with a `_delta_log/`. `spark_python_task` runs `spark-submit` in a sibling container, with DAG scheduling. It also includes an Athena-style SQL workspace with embedded JupyterLab and 67 MCP tools. It installs with `pip install minilake` or Docker and works air-gapped. It has 378+ tests driven by the real Databricks SDK.\n\n[Project site](https://dmux.github.io/minilake/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50259697)"
+    },
+    {
+      "id": "hn:50287842",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Macvoice, a local voice agent for Apple Silicon in 1.4 GB without PyTorch",
+      "description": "Macvoice chains Silero VAD, Smart Turn, Parakeet speech-to-text on MLX and Phonon TTS into an offline voice-agent loop for Macs that starts speaking about 350 ms after you stop talking.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "John Robinson",
+      "url": "https://github.com/johnrobinsn/macvoice",
+      "createdAt": "2026-10-29T12:25:54Z",
+      "updatedAt": "2026-10-29T12:25:54Z",
+      "content": "On an M5 MacBook Pro the pipeline uses 1.4 GB including GPU memory. With local Qwen3-4B on `mlx_lm.server` as the brain, the first word arrives in 0.6-0.8 s. The brain can be any OpenAI-compatible server or a coding agent over ACP. Echo cancellation uses a single AVAudioEngine with Apple's voice processing (the same canceller FaceTime uses) via PyObjC, so you can talk over the agent to interrupt it. Setup uses `uv`, and the models are a 0.85 GB one-time download.\n\n[GitHub repository](https://github.com/johnrobinsn/macvoice)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50287842)"
+    },
+    {
+      "id": "hn:50286783",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Local Code by Draw Things: an open-source local AI agent app for Mac",
+      "description": "Draw Things released Local Code, an open-source Mac agent that runs locally quantized models such as DeepSeek 4.1 Flash for coding, media generation, documents and Apple-app tasks without cloud APIs or sign-ins.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Draw Things",
+      "url": "https://releases.drawthings.ai/p/local-code-by-draw-things-open-source",
+      "createdAt": "2026-10-29T10:13:44Z",
+      "updatedAt": "2026-10-29T10:13:44Z",
+      "content": "After a public beta, Local Code is available from getlocalcode.app, and a Mac App Store release is coming. The entire app is open source. It bundles Python and `draw-things-cli` for images, video, charts and slides, and it can browse websites, write and review code, and work with Photos, Messages, Mail, Notes, Calendar and Office files. Draw Things quantized the 763B DeepSeek 4.1 Flash 1017 to a 376 GiB package. It runs with as little as 36 GiB resident memory (about 18 tok/s generation) on Macs with 64 GiB+, with smaller options such as DeepSeek 4 Flash (89 GiB) and Qwen 3.8 27B (10 GiB). The format targets M5 Ultra Neural Accelerators.\n\n[Source code](https://github.com/drawthingsai/local-code-community)\n\n[Announcement](https://releases.drawthings.ai/p/local-code-by-draw-things-open-source)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50286783)"
+    },
+    {
+      "id": "hn:50274300",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Yavashark, a Rust JavaScript engine built every day for 950 days",
+      "description": "Yavashark is a small embeddable, easily extendable JavaScript engine in Rust that passes about 82% of test262 and supports Temporal, Intl, TypeScript and React.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sharktheone",
+      "url": "https://yavashark.dev/blog/announcing-yavashark/",
+      "createdAt": "2026-10-28T14:32:29Z",
+      "updatedAt": "2026-10-28T14:32:29Z",
+      "content": "A single developer has committed to it daily since March 2024, with more than 4,200 commits. It mostly uses a tree-walking interpreter, with bytecode for async/await. It has none of the usual optimizations yet, such as hidden classes, inline caches or NaN-boxing. Temporal comes from Boa's `temporal_rs` and Intl from `icu4x`. A macro binds Rust functions and objects to JavaScript, and experimental TCP/HTTP, filesystem and timer APIs exist. Planned work includes optimizations and a high-performance garbage collector usable by the rest of the Rust ecosystem. There is a browser playground at yavashark.dev.\n\n[Announcement](https://yavashark.dev/blog/announcing-yavashark/)\n\n[Discussion on Hacker News](https://news.ycombinator.com/item?id=50274300)"
+    },
+    {
+      "id": "reading:abakcus-fourier-transform-explained",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Fourier transform, explained in one color-coded sentence",
+      "description": "Abakcus walks through Stuart Riffle's color-coded discrete Fourier transform, explaining each symbol of the formula one color at a time and adding an interactive winding machine for finding frequencies.",
+      "topics": [
+        "Math",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/fourier-transform-explained",
+      "createdAt": "2026-10-28T00:00:00Z",
+      "updatedAt": "2026-10-28T00:00:00Z",
+      "content": "In 2011 game programmer Stuart Riffle painted each part of the DFT formula a different color and wrote one matching sentence: *to find the energy at a particular frequency, spin your signal around a circle at that frequency, and average a bunch of points along that path.* The article explains what the transform is for, like splitting a piano chord into notes or a heartbeat or row of pixels into frequencies. It covers Fourier's 1807 heat work that Lagrange and Laplace hesitated to approve, then takes the formula apart color by color, with a hands-on winding demo.\n\n[Read on Abakcus](https://abakcus.com/articles/fourier-transform-explained)"
+    },
+    {
+      "id": "reading:abakcus-indiana-pi-bill",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Indiana Pi Bill: when a legislature tried to vote on pi",
+      "description": "In 1897 Indiana's House passed House Bill 246 unanimously, implying pi equals 3.2, until Purdue mathematician C. A. Waldo happened to be at the statehouse and talked the Senate out of it.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/indiana-pi-bill",
+      "createdAt": "2026-04-08T00:00:00Z",
+      "updatedAt": "2026-04-08T00:00:00Z",
+      "content": "Physician Edward J. Goodwin believed he had squared the circle, 15 years after Lindemann proved pi transcendental and the problem impossible. His bill offered the \"new mathematical truth\" to Indiana royalty-free, and its incoherent geometry implied pi values of 3.2, 4 and even about 9.24. It passed the House 67-0 on February 6, 1897. Clarence Waldo, head of mathematics at Purdue and in town about the university's budget, briefed senators that evening. The Senate laughed it off and tabled it indefinitely, so technically it is still pending.\n\n[Read on Abakcus](https://abakcus.com/articles/indiana-pi-bill)"
+    },
+    {
+      "id": "x:2115633757030092963",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple's official SwiftUI Specialist skill helps coding agents write performant SwiftUI",
+      "description": "Apple's Luca Bernardi presents the SwiftUI Specialist, Apple's official agentic skill for coding agents, at the Apple Developer session \"Boost your app's speed and efficiency\".",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Luca Bernardi (@luka_bernardi)",
+      "url": "https://x.com/luka_bernardi/status/2115633757030092963",
+      "createdAt": "2026-10-29T02:36:08Z",
+      "updatedAt": "2026-10-29T02:36:08Z",
+      "content": "Luca Bernardi announced he'll be talking about the SwiftUI Specialist skill for coding agents at the Apple Developer session *Boost your app's speed and efficiency*. Sima Nerush quoted the post and framed it as a way to \"vibe code performant SwiftUI apps with the help of our official agentic skill\".\n\n[Sima Nerush's quote post](https://x.com/simanerush/status/2115647942979997707)\n\n[Post on X](https://x.com/luka_bernardi/status/2115633757030092963)"
+    },
+    {
+      "id": "x:2115666184888537433",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "kanzo: a self-hosted kanban board that doubles as an MCP server for coding agents",
+      "description": "From a thread of six open-source repos for AI coding agents: kanzo is a kanban board and MCP server in one 4 MB binary, so you and Claude Code or Codex agents share one task list, with no account and sync through a private git repo.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "0xMarioNawfal (@RoundtableSpace)",
+      "url": "https://x.com/RoundtableSpace/status/2115666184888537433",
+      "createdAt": "2026-10-29T04:45:00Z",
+      "updatedAt": "2026-10-29T04:45:00Z",
+      "content": "The thread rounds up six open-source repos for AI coding agents. The highlight is **kanzo**, a browser kanban board that is also an MCP server, so you and your agents work on the same tasks. It ships as a single ~4 MB binary for macOS and Linux and needs no account or server. The whole board is one folder, synced across machines through a private git repo (`kanzo sync`). Agents connect with `claude mcp add kanzo -- kanzo mcp` (Claude Code) or `codex mcp add kanzo -- kanzo mcp` (Codex). It's AGPL-3.0 and installs via a script or `cargo install kanzo`.\n\n[kanzo on GitHub](https://github.com/emanuele-em/kanzo)\n\n[Post on X](https://x.com/RoundtableSpace/status/2115666184888537433)"
+    },
+    {
+      "id": "x:2115760708579123411",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "5 ways to color SF Symbols in SwiftUI",
+      "description": "Sarun W. runs through the five SF Symbols rendering styles in SwiftUI: Monochrome, Multicolor, Hierarchical, Palette and Gradient, with Gradient new in iOS 26.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2115760708579123411",
+      "createdAt": "2026-10-29T11:00:36Z",
+      "updatedAt": "2026-10-29T11:00:36Z",
+      "content": "A quick visual reference for coloring SF Symbols in SwiftUI:\n\n- **Monochrome**\n- **Multicolor**\n- **Hierarchical**\n- **Palette**\n- **Gradient**, new in iOS 26\n\n[Post on X](https://x.com/sarunw/status/2115760708579123411)"
+    },
+    {
+      "id": "x:2115302787332641187",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mesh LLM spreads LLM inference across your own devices",
+      "description": "Mesh LLM pools your machines into one inference mesh. It runs a model locally if it fits, routes to a peer with more memory if needed, and splits model layers across devices with Skippy stage splits for 70B+ models.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Oliver Prompts (@oliviscusAI)",
+      "url": "https://x.com/oliviscusAI/status/2115302787332641187",
+      "createdAt": "2026-10-28T04:40:59Z",
+      "updatedAt": "2026-10-28T04:40:59Z",
+      "content": "Mesh LLM decides per model where to run it:\n\n- **Local first**: if the model fits on one node, it runs there.\n- **Peer routing**: if it needs more memory, the request goes to a capable peer.\n- **Skippy stage splits**: for models too large for any one device (70B+), contiguous layer ranges are loaded across several peers.\n\nThe project exposes the mesh as one OpenAI-compatible API at `http://localhost:9337/v1`.\n\n[Mesh LLM on GitHub](https://github.com/Mesh-LLM/mesh-llm)\n\n[Post on X](https://x.com/oliviscusAI/status/2115302787332641187)"
+    },
+    {
+      "id": "x:2115577859691499840",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Book of Debugging is coming soon from No Starch Press",
+      "description": "No Starch Press announced The Book of Debugging by game developer Johannes Kuhlmann, a systematic Reproduce, Probe, Examine, Fix workflow for finding and fixing bugs, due November 2026.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "No Starch Press (@nostarch)",
+      "url": "https://x.com/nostarch/status/2115577859691499840",
+      "createdAt": "2026-10-28T22:54:01Z",
+      "updatedAt": "2026-10-28T22:54:01Z",
+      "content": "Subtitled *A Systematic Workflow for Finding and Fixing Bugs*, the 272-page book is by Johannes Kuhlmann, Studio Technical Director at Fishlabs, who has worked on games like Valheim and Goat Simulator 3. It organizes debugging into four phases (Reproduce, Probe, Examine, Fix), each with numbered strategies that apply in any language, with worked examples from shipped software. Topics include reproducing intermittent bugs, writing useful bug reports, narrowing suspect code to the failure point and confirming the root cause before changing anything. A sample chapter (Part II: Probe) is available to download.\n\n[Book page at No Starch Press](https://nostarch.com/book-of-debugging)\n\n[Post on X](https://x.com/nostarch/status/2115577859691499840)"
     }
   ]
 }
