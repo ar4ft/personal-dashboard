@@ -30452,6 +30452,179 @@
       "url": "https://www.tigerdata.com/blog/adaptive-integer-compression-aic-in-timescaledb",
       "createdAt": "2026-10-29T12:48:10Z",
       "updatedAt": "2026-10-29T12:48:10Z"
+    },
+    {
+      "id": "x:2115488344050192584",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NanoDreamer: a 750K-parameter world-model agent trained on a MacBook",
+      "description": "Benjamin Bai built a tiny Dreamer-style world model and actor-critic from scratch, including his own autograd and tensor library, that learns all five MinAtar games and trains on an M5 Pro with no GPU.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@benbye",
+      "url": "https://x.com/benbye/status/2115488344050192584",
+      "createdAt": "2026-10-28T16:58:19Z",
+      "updatedAt": "2026-10-28T16:58:19Z",
+      "content": "With no GPU available, Benjamin Bai wrote every layer himself (autograd engine, tensor library, transformer, optimizers) and ended up with a 750K-parameter world model plus actor-critic. It learns to play all five MinAtar games from its own gameplay, with the actor trained entirely inside the model's imagination, and the write-up walks through what failed first and how he fixed it. The post has a demo video and about 400 likes.\n\n[NanoDreamer write-up](https://benjamin-bai.com/projects/nanodreamer)\n\n[Post on X](https://x.com/benbye/status/2115488344050192584)"
+    },
+    {
+      "id": "x:2115384081718583436",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeFM: a DINO-style foundation model for depth images in robotics",
+      "description": "ETH Zurich's Robotic Systems Lab released DeFM, one frozen depth-image encoder that works across robot navigation, manipulation and locomotion, with weights, code and a demo.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@patelm99",
+      "url": "https://x.com/patelm99/status/2115384081718583436",
+      "createdAt": "2026-10-28T10:04:01Z",
+      "updatedAt": "2026-10-28T10:04:01Z",
+      "content": "DeFM is to depth images what DINO is to RGB: a self-supervised backbone that robots can use frozen across navigation, manipulation and locomotion tasks. The paper is accepted to IEEE Transactions on Robotics, and the team (ETH Zurich, UC Berkeley, NVIDIA, Imperial) released models, code and an interactive explorer.\n\n[DeFM project page](https://de-fm.github.io)\n\n[Post on X](https://x.com/patelm99/status/2115384081718583436)"
+    },
+    {
+      "id": "x:2115466098174996715",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Infinity: a Rust agent runtime built for extreme concurrency",
+      "description": "The Hydro project open-sourced Infinity, an agent runtime and tool protocol in Rust designed for principled concurrency between many agents and tools.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@ShadajL",
+      "url": "https://x.com/ShadajL/status/2115466098174996715",
+      "createdAt": "2026-10-28T15:29:55Z",
+      "updatedAt": "2026-10-28T15:29:55Z",
+      "content": "Infinity comes from the Hydro distributed-programming group and treats agent orchestration as a concurrency problem: a runtime plus a tool protocol that lets many agents and tool calls run in parallel safely. The repo has around 350 stars so far.\n\n[Infinity on GitHub](https://github.com/hydro-project/infinity)\n\n[Post on X](https://x.com/ShadajL/status/2115466098174996715)"
+    },
+    {
+      "id": "x:2115453111208919472",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Unsloth now lets local LLMs control a browser",
+      "description": "Unsloth added browser control for local models, demoed with Qwen3.8-27B playing chess and painting in a web page without any cloud API.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@UnslothAI",
+      "url": "https://x.com/UnslothAI/status/2115453111208919472",
+      "createdAt": "2026-10-28T14:38:19Z",
+      "updatedAt": "2026-10-28T14:38:19Z",
+      "content": "Unsloth, best known for fast fine-tuning, now lets a locally running model drive a browser. The demo uses Qwen3.8-27B to play chess and paint on a canvas, showing that a mid-size open model can handle simple multi-step web tasks on your own machine.\n\n[Unsloth on GitHub](https://github.com/unslothai/unsloth)\n\n[Post on X](https://x.com/UnslothAI/status/2115453111208919472)"
+    },
+    {
+      "id": "x:2115760558058467623",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Reachy Mini gets wheels, a phone app and NFC personality hats",
+      "description": "Pollen Robotics' open-source Reachy Mini robot can now drive around on wheels, be controlled from a mobile app with no computer, and switch personalities by tapping NFC hats.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@pollenrobotics",
+      "url": "https://x.com/pollenrobotics/status/2115760558058467623",
+      "createdAt": "2026-10-29T11:00:00Z",
+      "updatedAt": "2026-10-29T11:00:00Z",
+      "content": "The open-source desk robot from Pollen Robotics and Hugging Face picked up three upgrades: a wheeled base, a mobile app so it runs without a computer, and NFC hats that unlock different AI personalities when you put them on. The post has a one-minute video.\n\n[Reachy Mini on GitHub](https://github.com/pollen-robotics/reachy_mini)\n\n[Post on X](https://x.com/pollenrobotics/status/2115760558058467623)"
+    },
+    {
+      "id": "x:2115477478101721282",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LightPost: a self-hosted social post scheduler light enough for a Pi Zero",
+      "description": "LightPost, now open source, automates posting to all your social accounts from one dashboard and is light enough to run on a Raspberry Pi Zero.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@brainstormity",
+      "url": "https://x.com/brainstormity/status/2115477478101721282",
+      "createdAt": "2026-10-28T16:15:09Z",
+      "updatedAt": "2026-10-28T16:15:09Z",
+      "content": "LightPost is a small self-hosted alternative to paid social schedulers: one dashboard to queue posts for several networks, with a footprint small enough for a Raspberry Pi Zero. It has about 255 stars on GitHub.\n\n[LightPost on GitHub](https://github.com/brainstormity/LightPost)\n\n[Post on X](https://x.com/brainstormity/status/2115477478101721282)"
+    },
+    {
+      "id": "x:2115424167977996336",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "f0lock: a free real-time pitch-tracking EQ plugin written in Rust",
+      "description": "f0lock is a free VST3/CLAP plugin that tracks pitch in real time and applies EQ automatically, built in Rust with nih-plug and egui.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@sout_Nantang",
+      "url": "https://x.com/sout_Nantang/status/2115424167977996336",
+      "createdAt": "2026-10-28T12:43:18Z",
+      "updatedAt": "2026-10-28T12:43:18Z",
+      "content": "f0lock follows the fundamental frequency of the incoming audio and moves its EQ with it, so you don't have to automate bands by hand. It's written in Rust on the nih-plug plugin framework with an egui interface and runs in any DAW that loads VST3 or CLAP, including on the Mac. The demo post has about 1,200 likes.\n\n[f0lock on GitHub](https://github.com/sout233/f0lock)\n\n[Post on X](https://x.com/sout_Nantang/status/2115424167977996336)"
+    },
+    {
+      "id": "x:2115482293825577192",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sailfish: an open-source Arc-style browser for Mac and iOS",
+      "description": "Sailfish is a Chromium-based, open-source alternative to Arc with sidebar tabs, spaces, a command bar and an iOS app, and it can import your settings.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@harunkanwalkhan",
+      "url": "https://x.com/harunkanwalkhan/status/2115482293825577192",
+      "createdAt": "2026-10-28T16:34:17Z",
+      "updatedAt": "2026-10-28T16:34:17Z",
+      "content": "With Arc no longer developed, Sailfish aims to keep its feel: tabs in a quiet sidebar, spaces for different parts of the day, split view and a command bar. It's built on Chromium so Chrome extensions work, keeps data on your Mac, and ships a companion iOS app.\n\n[Sailfish website](https://sail.fish)\n\n[Post on X](https://x.com/harunkanwalkhan/status/2115482293825577192)"
+    },
+    {
+      "id": "ideas:mac-tiny-world-model-lab",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Tiny world-model lab for training game agents on a Mac",
+      "description": "A small MLX app that trains a Dreamer-style world model on simple games like MinAtar and shows what the agent imagines next to what really happens, all on Apple silicon.",
+      "content": "## How it works\n\nStart from NanoDreamer's idea of a world model small enough for a laptop, but use MLX for speed. The app records gameplay, trains the world model and an actor-critic inside its imagined rollouts, and renders a side-by-side view of predicted frames against real frames so you can see where the model's picture of the game breaks down.\n\n```mermaid\nflowchart LR\n  Game[MinAtar game] --> Buffer[Replay buffer]\n  Buffer --> WM[World model in MLX]\n  WM --> Dream[Imagined rollouts]\n  Dream --> AC[Actor-critic]\n  AC --> Game\n  WM --> View[Predicted vs real view]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Environments | MinAtar via Python |\n| Training | MLX on Apple silicon |\n| Model | Small RSSM world model plus actor-critic |\n| UI | SwiftUI viewer reading saved rollouts |\n| Logging | Local SQLite of runs and scores |\n\n## Hard parts\n\n- Getting stable training, which NanoDreamer's write-up shows took several redesigns.\n- Keeping imagined rollouts honest so the actor doesn't exploit model errors.\n- Bridging the Python training loop and a native SwiftUI viewer.\n\n## Effort\n\nA weekend to port a minimal Dreamer to MLX on one game; another week for the viewer and all five games.\n\n## Inspired by\n\n- [Benjamin Bai's post on X](https://x.com/benbye/status/2115488344050192584)\n- [NanoDreamer write-up](https://benjamin-bai.com/projects/nanodreamer)",
+      "nextStep": "Read the NanoDreamer write-up, then train a tiny world model in MLX on MinAtar Breakout and plot real versus predicted frames after an hour of training.",
+      "topics": [
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-29T14:07:40Z"
+    },
+    {
+      "id": "ideas:local-browser-agent-chores",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "title": "Local browser agent for repetitive web chores",
+      "description": "A Mac menu-bar tool that hands small recurring web tasks, like checking a bill or filling a form, to a local open model driving a browser, with a step log you approve.",
+      "content": "## How it works\n\nUnsloth's demo shows a local Qwen model can drive a browser through simple multi-step tasks. Wrap that in a menu-bar app: you describe a chore once, the agent runs it in a separate browser profile with Playwright, and each run produces a screenshot log. Anything that submits a form or spends money pauses for a click to approve, and an Infinity-style runtime can run several chores in parallel.\n\n```mermaid\nflowchart LR\n  Task[Saved chore] --> Agent[Local Qwen model]\n  Agent --> Browser[Playwright browser profile]\n  Browser --> Shot[Screenshots and DOM]\n  Shot --> Agent\n  Agent --> Gate[Approve risky steps]\n  Gate --> Log[Run log]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Model | Qwen 27B class via Unsloth GGUF in llama.cpp |\n| Browser | Playwright with a dedicated profile |\n| Runtime | Simple async queue, or Infinity for many agents |\n| App | SwiftUI menu-bar app |\n| Storage | Local JSON chore definitions and logs |\n\n## Hard parts\n\n- Keeping a 27B model fast enough on a laptop for many steps.\n- Deciding reliably which actions count as risky and need approval.\n- Handling logins and two-factor prompts without storing secrets in prompts.\n\n## Effort\n\nA weekend for a single-chore prototype; one to two weeks for the menu-bar app with approvals and logs.\n\n## Inspired by\n\n- [Unsloth post on X](https://x.com/UnslothAI/status/2115453111208919472)\n- [Unsloth on GitHub](https://github.com/unslothai/unsloth)\n- [Infinity on GitHub](https://github.com/hydro-project/infinity)",
+      "nextStep": "Run a Qwen GGUF with Unsloth's browser control on one chore you do weekly, such as checking a utility balance, and log how many steps succeed without help.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "X digest",
+      "createdAt": "2026-10-29T14:07:40Z"
     }
   ]
 }
