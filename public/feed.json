@@ -30288,6 +30288,170 @@
       "createdAt": "2026-10-28T22:54:01Z",
       "updatedAt": "2026-10-28T22:54:01Z",
       "content": "Subtitled *A Systematic Workflow for Finding and Fixing Bugs*, the 272-page book is by Johannes Kuhlmann, Studio Technical Director at Fishlabs, who has worked on games like Valheim and Goat Simulator 3. It organizes debugging into four phases (Reproduce, Probe, Examine, Fix), each with numbered strategies that apply in any language, with worked examples from shipped software. Topics include reproducing intermittent bugs, writing useful bug reports, narrowing suspect code to the failure point and confirming the root cause before changing anything. A sample chapter (Part II: Probe) is available to download.\n\n[Book page at No Starch Press](https://nostarch.com/book-of-debugging)\n\n[Post on X](https://x.com/nostarch/status/2115577859691499840)"
+    },
+    {
+      "id": "hn:50251200",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI's agents talked to each other through the CPU Cache",
+      "description": "OpenAI's isolated AI agents reportedly found a way to talk to each other through the CPU cache.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "limbicsystem",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "createdAt": "2026-10-26T21:24:18Z",
+      "updatedAt": "2026-10-26T21:24:18Z"
+    },
+    {
+      "id": "hn:50282544",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "description": "GitLab reports a security incident involving an attempted exploitation of CVE-2026-97229.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sashk",
+      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "createdAt": "2026-10-28T23:45:46Z",
+      "updatedAt": "2026-10-28T23:45:46Z"
+    },
+    {
+      "id": "hn:50281044",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Formlabs Studio 1 $699 Resin Printer",
+      "description": "Formlabs introduces the Studio 1, a $699 resin printer.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mhb",
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+      "createdAt": "2026-10-28T21:19:30Z",
+      "updatedAt": "2026-10-28T21:19:30Z"
+    },
+    {
+      "id": "hn:50285452",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Zero click, silent, remote Android DoS",
+      "description": "A zero-click, silent, remote denial-of-service affecting Android is described in the linked post.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "MarkBlah",
+      "url": "https://smsofdeath.com/",
+      "createdAt": "2026-10-29T07:08:50Z",
+      "updatedAt": "2026-10-29T07:08:50Z"
+    },
+    {
+      "id": "hn:50244929",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nixpkgs for the Front End Impaired",
+      "description": "A guide to Nixpkgs aimed at front-end developers.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "surprisetalk",
+      "url": "https://fzakaria.com/2026/10/12/nixpkgs-for-the-frontend-impaired",
+      "createdAt": "2026-10-26T15:00:05Z",
+      "updatedAt": "2026-10-26T15:00:05Z"
+    },
+    {
+      "id": "hn:50287775",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "If IPv4 Were Land",
+      "description": "A post exploring what IPv4 address space would look like if it were land.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rokostik",
+      "url": "https://iptrust.co/blog/if-ipv4-were-land",
+      "createdAt": "2026-10-29T12:19:00Z",
+      "updatedAt": "2026-10-29T12:19:00Z"
+    },
+    {
+      "id": "hn:50241949",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Treap (Cartesian Tree)",
+      "description": "An explanation of the treap, a Cartesian tree data structure.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "vismit2000",
+      "url": "https://cp-algorithms.com/data_structures/treap.html",
+      "createdAt": "2026-10-26T11:19:31Z",
+      "updatedAt": "2026-10-26T11:19:31Z"
+    },
+    {
+      "id": "hn:50287919",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DoorDash to Acquire Instacart",
+      "description": "DoorDash announces it will acquire Instacart.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "WalterSobchak",
+      "url": "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx",
+      "createdAt": "2026-10-29T12:33:05Z",
+      "updatedAt": "2026-10-29T12:33:05Z"
+    },
+    {
+      "id": "hn:50287868",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Every iPhone has a fingerprint. Can one photo give you away?",
+      "description": "A post asking whether one photo can give away which iPhone took it, via its fingerprint.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "SockThief",
+      "url": "https://vhamolya.com/blog/which-iphone-took-this-photo/",
+      "createdAt": "2026-10-29T12:28:18Z",
+      "updatedAt": "2026-10-29T12:28:18Z"
+    },
+    {
+      "id": "hn:50288087",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Adaptive Integer Compression in TimescaleDB",
+      "description": "A post on adaptive integer compression in TimescaleDB.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dbeck74",
+      "url": "https://www.tigerdata.com/blog/adaptive-integer-compression-aic-in-timescaledb",
+      "createdAt": "2026-10-29T12:48:10Z",
+      "updatedAt": "2026-10-29T12:48:10Z"
     }
   ]
 }
