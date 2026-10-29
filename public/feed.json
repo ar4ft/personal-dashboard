@@ -30625,6 +30625,173 @@
       ],
       "source": "X digest",
       "createdAt": "2026-10-29T14:07:40Z"
+    },
+    {
+      "id": "hn:50289418",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "description": "Mistral releases the weights of Mistral Large 4.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "kuberwastaken",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "createdAt": "2026-10-29T14:13:21Z",
+      "updatedAt": "2026-10-29T14:13:21Z"
+    },
+    {
+      "id": "hn:50290177",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LLM Voice",
+      "description": "A post on LLM voice, from Martin Fowler's site.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "createdAt": "2026-10-29T14:57:55Z",
+      "updatedAt": "2026-10-29T14:57:55Z"
+    },
+    {
+      "id": "hn:50291054",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "H.264 Is Magic (2016)",
+      "description": "A 2016 post explaining why H.264 is magic.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ea016",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "createdAt": "2026-10-29T15:53:03Z",
+      "updatedAt": "2026-10-29T15:53:03Z"
+    },
+    {
+      "id": "hn:50286987",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+      "description": "A report on a chained PHP2Shell exploit that rooted 25 servers, including US government servers.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "882542F3884314B",
+      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+      "createdAt": "2026-10-29T10:42:41Z",
+      "updatedAt": "2026-10-29T10:42:41Z"
+    },
+    {
+      "id": "hn:50233059",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "If-then-else had to be invented (2020)",
+      "description": "A 2020 post on how if-then-else had to be invented.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://github.com/e-n-f/if-then-else/blob/master/if-then-else.md",
+      "createdAt": "2026-10-25T16:05:56Z",
+      "updatedAt": "2026-10-25T16:05:56Z"
+    },
+    {
+      "id": "hn:50292233",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tomáš Mikolov awarded the Medal of Merit by the President of the Czech Republic",
+      "description": "Tomáš Mikolov is awarded the Medal of Merit by the President of the Czech Republic.",
+      "topics": [
+        "AI",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "armcat",
+      "url": "https://www.vut.cz/en/but/news-f19528/two-but-graduates-received-state-honors-from-the-president-of-the-republic-d378468",
+      "createdAt": "2026-10-29T16:56:54Z",
+      "updatedAt": "2026-10-29T16:56:54Z"
+    },
+    {
+      "id": "hn:50290912",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+      "description": "A post on a new scheduler for Grace Blackwell racks, claiming 27% more usable GPUs from the same racks.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+      "createdAt": "2026-10-29T15:45:05Z",
+      "updatedAt": "2026-10-29T15:45:05Z"
+    },
+    {
+      "id": "hn:50289590",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Keplearn: Extract Equations from Data in Seconds",
+      "description": "Keplearn, a tool to extract equations from data in seconds.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "owls-on-wires",
+      "url": "https://github.com/owls-on-wires/keplearn",
+      "createdAt": "2026-10-29T14:22:53Z",
+      "updatedAt": "2026-10-29T14:22:53Z"
+    },
+    {
+      "id": "hn:50294506",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+      "description": "A Mac tool that automatically dismisses the local-network permission prompt for apps.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "johncassil",
+      "url": "https://github.com/johncassil/dontallow",
+      "createdAt": "2026-10-29T19:27:44Z",
+      "updatedAt": "2026-10-29T19:27:44Z"
+    },
+    {
+      "id": "hn:50255161",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Edit an SQLite database in your browser",
+      "description": "A tool to edit an SQLite database in the browser.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "chmaynard",
+      "url": "https://editsqlite.com/",
+      "createdAt": "2026-10-27T05:59:07Z",
+      "updatedAt": "2026-10-27T05:59:07Z"
     }
   ]
 }
