@@ -30792,6 +30792,260 @@
       "url": "https://editsqlite.com/",
       "createdAt": "2026-10-27T05:59:07Z",
       "updatedAt": "2026-10-27T05:59:07Z"
+    },
+    {
+      "id": "hn:50295450",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "tinyworldformer: a looped-transformer world model dreams and plays games on a Raspberry Pi Pico 2 W",
+      "description": "Two tiny neural networks run on an RP2350: an int8 looped transformer world model generates each next frame and reward, while a small MLP actor plays the generated game.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "SheepSeb",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "createdAt": "2026-10-29T20:32:28Z",
+      "updatedAt": "2026-10-29T20:32:28Z",
+      "content": "The world model (26k to 131k parameters, 2 to 8M multiply-adds per frame) reuses one transformer block several times to save memory. It was trained on recorded Breakout, Pong, Flappy and Doom-lite games written in numpy. The actor (9k to 16k parameters) was trained with stream-x and can be swapped for a fresh agent that learns on the board inside its own dream. Both run on core 1 of the RP2350 while core 0 handles USB and the display, and pressing any button hands control to you.\n\n[Repo on GitHub](https://github.com/SheepSeb/tinyworldformer)\n\n[HN discussion](https://news.ycombinator.com/item?id=50295450)"
+    },
+    {
+      "id": "hn:50295821",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ElementaryUI: SwiftUI-style Swift apps running in the browser via WebAssembly",
+      "description": "ElementaryUI is an open-source Swift frontend framework with SwiftUI-inspired APIs, @State/@Environment reactivity and Embedded Swift builds that produce kilobyte-sized wasm bundles.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "frizlab",
+      "url": "https://elementary.codes",
+      "createdAt": "2026-10-29T20:56:39Z",
+      "updatedAt": "2026-10-29T20:56:39Z",
+      "content": "It lets Swift developers write declarative web UIs with familiar view structs, `@State`, `@Environment` and `@Reactive`. Full Embedded Swift support keeps bundles in the kB range instead of MB. It also has a CSS-based animation system with automatic FLIP transitions and a Vite-powered dev server with hot reload.\n\n[ElementaryUI site](https://elementary.codes)\n\n[HN discussion](https://news.ycombinator.com/item?id=50295821)"
+    },
+    {
+      "id": "hn:50278645",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "noalloc: enforce zero heap allocations across a Go call tree",
+      "description": "noalloc lets you mark Go functions with //noalloc:root and reports every line in their whole call tree that allocates, and it adds zero-allocation data structures including a JSON encoder and decoder.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "g0xA52A2A",
+      "url": "https://github.com/theconsensuslabs/noalloc",
+      "createdAt": "2026-10-28T18:29:25Z",
+      "updatedAt": "2026-10-28T18:29:25Z",
+      "content": "Writing allocation-free Go once is easy, but keeping it that way as the code changes is hard. The noalloc CLI (Go 1.27+) walks the call tree from annotated roots and flags map writes, string concatenation, escapes and calls that allocate. Directives such as `//noalloc:exempt`, `//noalloc:fixed` and `//noalloc:append` handle reused buffers and intentional exceptions, and the exit codes suit CI. The README says the repo was written entirely by AI under human guidance and is used in production at The Consensus.\n\n[Repo on GitHub](https://github.com/theconsensuslabs/noalloc)\n\n[HN discussion](https://news.ycombinator.com/item?id=50278645)"
+    },
+    {
+      "id": "hn:50293025",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI contributions to GHC: what the Haskell compiler's new LLM policy requires",
+      "description": "Serokell walks through GHC's new policy for LLM-assisted contributions, which has four policy points and one preference, plus the ghc-devs debate that shaped it.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "alexandersechin",
+      "url": "https://serokell.io/blog/ai-contributions-to-ghc",
+      "createdAt": "2026-10-29T17:42:30Z",
+      "updatedAt": "2026-10-29T17:42:30Z",
+      "content": "The policy follows the document Simon Peyton Jones developed on ghc-devs rather than the competing \"shared statement\" from July. P1 is prioritising people and community, then come keeping merge requests easy to review, taking full responsibility for the contribution, and declaring direct LLM use. Writing the final version yourself (P5) remains a strong preference, not a requirement. Maintainers are already citing it in reviews. Serokell, whose engineers work on GHC, explains why it considers the policy reasonable.\n\n[Serokell article](https://serokell.io/blog/ai-contributions-to-ghc)\n\n[HN discussion](https://news.ycombinator.com/item?id=50293025)"
+    },
+    {
+      "id": "hn:50281226",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Small Python, a QuickJS-style Python 3.15 engine in about 25k lines of C11",
+      "description": "Small Python is an embeddable interpreter that covers nearly all Python 3.15 language features and builtins with only a C compiler and the C standard library. Its author built it with coding agents for about $500.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "soasme",
+      "url": "https://github.com/soasme/small-python",
+      "createdAt": "2026-10-28T21:35:19Z",
+      "updatedAt": "2026-10-28T21:35:19Z",
+      "content": "Like QuickJS, it is a few C files, one header (`spy.h`) and one library (`libspy.a`) built with a plain Makefile. Each context is independent with no global state. It supports arbitrary-precision integers, Unicode, metaclasses, generators, async/await, pattern matching, f-strings and template strings, but not CPython's `Lib/`. The author says an initial Codex proof of concept was followed by three days in a single Claude Code session.\n\n[Repo on GitHub](https://github.com/soasme/small-python)\n\n[HN discussion](https://news.ycombinator.com/item?id=50281226)"
+    },
+    {
+      "id": "hn:50282538",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "XREAL AURA launches as the first wired Android XR glasses",
+      "description": "Google and XREAL opened orders for AURA, wired XR glasses with a 70-degree field of view, a portable compute puck and Gemini built in, in the U.S., Canada and Korea, with Japan following November 2.",
+      "topics": [
+        "Wearables",
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "yincrash",
+      "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+      "createdAt": "2026-10-28T23:45:19Z",
+      "updatedAt": "2026-10-28T23:45:19Z",
+      "content": "The glasses project Android apps onto a private, unbounded canvas while you can still see your surroundings. The tethered puck does the processing, and Gemini can help with your apps, documents and surroundings in real time. Orders are open at xreal.com and Best Buy. This is the launch that followed the October reservation news.\n\n[Google announcement](https://blog.google/products-and-platforms/platforms/android/xreal-aura/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50282538)"
+    },
+    {
+      "id": "reading:abakcus-melencolia-i-durer",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Melencolia I: the mathematics hidden in Dürer's engraving",
+      "description": "Albrecht Dürer's 1514 engraving hides one of the most brilliant magic squares in European art: rows, columns and more sum to 34, and the bottom row spells out the date 1514.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/melencolia-i-durer",
+      "createdAt": "2026-07-04T00:00:00Z",
+      "updatedAt": "2026-07-04T00:00:00Z",
+      "content": "Abakcus inventories the riddles in Dürer's copper plate, including the idle compass, the unused tools, the hourglass, scales and bell, and reads them through the Renaissance doctrine of melancholy. It then focuses on the 4x4 magic square on the wall, whose sixteen numbers sum to 34 in every direction. The article covers the square's extra symmetries, the date 1514 hidden in its bottom row, and its link to the Jupiter talisman meant to counter melancholy.\n\n[Read on Abakcus](https://abakcus.com/articles/melencolia-i-durer)"
+    },
+    {
+      "id": "reading:abakcus-marie-curie-notebooks",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Marie Curie's radioactive notebooks: pages you must sign a waiver to touch",
+      "description": "Marie Curie's 1890s laboratory notebooks are still radioactive and kept in lead-lined boxes at the Bibliothèque nationale de France, where researchers sign a liability form before turning the pages.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Abakcus",
+      "url": "https://abakcus.com/articles/marie-curie-radioactive-notebooks",
+      "createdAt": "2026-07-16T00:00:00Z",
+      "updatedAt": "2026-07-16T00:00:00Z",
+      "content": "Radium-226 soaked into the pages has a half-life of 1,601 years, so by a rough count the notebooks stay hazardous until about the year 3500. The piece goes back to the leaky shed at the Paris School of Physics and Chemistry where the Curies worked from 1896 to 1898, which Wilhelm Ostwald likened to a stable.\n\n[Read on Abakcus](https://abakcus.com/articles/marie-curie-radioactive-notebooks)"
+    },
+    {
+      "id": "x:2115319359497285986",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Quick Resizer 2.0: Jeff Geerling's 12-year-old Mac image resizer ported to Swift with Claude",
+      "description": "Jeff Geerling shipped Quick Resizer 2.0, his first update in 12 years. Claude fixed three bugs and ported the app to Swift under his guidance, and it is much faster on Apple Silicon while still running on Intel Macs with macOS 13+.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Jeff Geerling (@geerlingguy)",
+      "url": "https://x.com/geerlingguy/status/2115319359497285986",
+      "createdAt": "2026-10-28T05:46:50Z",
+      "updatedAt": "2026-10-28T05:46:50Z",
+      "content": "Geerling built Quick Resizer because he hated waiting about 10 seconds for Photoshop to launch just to scale an image for his blog. The app batch-resizes JPEG and PNG files: drag images onto it, set a size and constraint, and press Enter. Preferences cover JPEG quality, sharpening when downsizing and quitting automatically after processing. Version 2.0 is the Swift port, and it still costs $0.99 on the Mac App Store.\n\n[Quick Resizer on the Mac App Store](https://apps.apple.com/us/app/quick-resizer/id498486288?mt=12)\n\n[Quick Resizer project page](https://www.midwesternmac.com/projects/quick-resizer/)\n\n[Post on X](https://x.com/geerlingguy/status/2115319359497285986)"
+    },
+    {
+      "id": "x:2115791491586986432",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Deepgram is acquiring Daily, makers of Pipecat, and an independent Pipecat Foundation is being set up",
+      "description": "Daily co-founder Kwindla Hultman Kramer announced that the Daily team is joining Deepgram. Pipecat stays open source under its BSD license and vendor neutral, with an independent Pipecat Foundation run by a steering committee that includes Deepgram's competitors.",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "kwindla (@kwindla)",
+      "url": "https://x.com/kwindla/status/2115791491586986432",
+      "createdAt": "2026-10-29T13:02:55Z",
+      "updatedAt": "2026-10-29T13:02:55Z",
+      "content": "Deepgram says Pipecat, the open-source voice agent framework, will be the core of its new Voice Agent Platform, together with Daily's real-time network (75 points of presence) and Deepgram's speech models. Daily says nothing changes for its customers: Deepgram will sell, support and develop all of Daily's current products, including WebRTC, telephony and cross-platform libraries. Kramer becomes Deepgram's Head of Open Source. The deal amount was not disclosed. TechCrunch reports that Deepgram is also launching the Real-Time Context Standard (RCS), an open protocol for voice agents co-developed with the Pipecat team.\n\n[Daily announcement](https://www.daily.co/blog/deepgram-is-acquiring-daily-and-establishing-an-independent-pipecat-foundation/)\n\n[Deepgram press release](https://deepgram.com/blog/daily-pipecat-deepgram)\n\n[TechCrunch coverage](https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/)\n\n[Post on X](https://x.com/kwindla/status/2115791491586986432)"
+    },
+    {
+      "id": "x:2115879048606044324",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "tiny-llm: a course for building a tiny vLLM-style inference engine for Qwen3 on Apple Silicon",
+      "description": "skyzh's tiny-llm is an open-source, four-week course for systems engineers. You build Qwen3 inference from MLX array operations, then add a KV cache, 4-bit matvec, Metal kernels, continuous batching and paged KV, all on a Mac.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Tech with Mak (@techNmak)",
+      "url": "https://x.com/techNmak/status/2115879048606044324",
+      "createdAt": "2026-10-29T18:50:50Z",
+      "updatedAt": "2026-10-29T18:50:50Z",
+      "content": "Week 1 builds attention, RoPE, GQA, RMSNorm, the MLP, sampling and the decode loop directly from `mlx.core`. Week 2 speeds up a single request with a KV cache, packed 4-bit weights, SIMD matmul prefill, fused RMSNorm/RoPE/SwiGLU and tiled prefill. Week 3 builds a mini vLLM with continuous batching, chunked admission, paged KV and attention that reads cache pages directly. Week 4 builds a small coding-agent harness and is still being published one checkpoint at a time. Solutions implement each operator in Python, C++ or Metal, and MLX serves as the correctness oracle and performance baseline. The post says the intro path runs Qwen3-0.6B on an 8 GB Mac. The repo has about 4,800 stars.\n\n[tiny-llm on GitHub](https://github.com/skyzh/tiny-llm)\n\n[Course book](https://skyzh.github.io/tiny-llm/)\n\n[Post on X](https://x.com/techNmak/status/2115879048606044324)"
+    },
+    {
+      "id": "x:2115868447834042415",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Switch: a harness framework that gives decision models like Jev an agent loop over finite choices",
+      "description": "Onur Solmaz released switch, an MIT-licensed TypeScript framework. Your code turns a task's state into typed bool, choice or score questions such as the legal next steps, and a decision model that can't write tool calls picks one answer per step.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Onur Solmaz (@onusoz)",
+      "url": "https://x.com/onusoz/status/2115868447834042415",
+      "createdAt": "2026-10-29T18:08:43Z",
+      "updatedAt": "2026-10-29T18:08:43Z",
+      "content": "A decision model answers typed questions with probabilities and writes no text, so it can't drive a coding harness like Pi. In switch you implement a *domain*: a state, a question function that derives questions from the state, and a transition function that maps answers to the next state. Every run is saved as a replayable trace. Chess is one example domain. The main use is a rubric judge for evals that moves through large document sets, reading parts of files, page images and search results one step at a time instead of loading 200 pages into context. Solmaz admits Jev is weak at chess and not yet good enough to replace a frontier judge. Switch works with any decision model that pi-ai lists, so the idea is to fine-tune an open decision model for a single domain.\n\n[switch on GitHub](https://github.com/osolmaz/switch)\n\n[Post on X](https://x.com/onusoz/status/2115868447834042415)"
+    },
+    {
+      "id": "x:2115911404771549409",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Whio update: better code highlighting, language detection and PDF loading",
+      "description": "Natalia Panferova released an update to Whio, her EPUB and PDF reader for technical books on iPhone and iPad. It improves code highlighting and language detection, book importing and PDF loading, and adjusts pricing based on feedback.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Natalia Panferova (@natpanferova)",
+      "url": "https://x.com/natpanferova/status/2115911404771549409",
+      "createdAt": "2026-10-29T20:59:25Z",
+      "updatedAt": "2026-10-29T20:59:25Z",
+      "content": "The update covers:\n\n- Better code highlighting and language detection\n- Improvements to book importing\n- Better PDF loading\n- Pricing adjustments based on feedback\n\nWhio is built for technical books, with syntax-highlighted code, separate typography and themes for text and code, reading aids like letter distinction and a reading guide, and a Notebook for highlights and notes.\n\n[Whio on Nil Coalescing](https://nilcoalescing.com/apps/whio/)\n\n[Post on X](https://x.com/natpanferova/status/2115911404771549409)"
+    },
+    {
+      "id": "x:2115769897443852604",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Quiver Launcher turns GitHub and GitLab releases into an app library",
+      "description": "Quiver Launcher is an open-source launcher that discovers, installs, updates and launches apps from GitHub and GitLab release assets. It adds a personal library, a community catalog, tag filters, mod management and SHA-256 release verification.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Techjunkie Aman (@Techjunkie_Aman)",
+      "url": "https://x.com/Techjunkie_Aman/status/2115769897443852604",
+      "createdAt": "2026-10-29T11:37:07Z",
+      "updatedAt": "2026-10-29T11:37:07Z",
+      "content": "Quiver is a fork of GithubLauncher, built on .NET 10. Catalog apps from quiverlauncher.com update only to releases Quiver has verified. Each download is checked against the SHA-256 Quiver recorded when the release came out, and it is refused if the file has changed. Other apps are checked against GitHub's published checksum when one exists. It also manages game mods from Thunderstore and GameBanana, supports manually managed apps, kiosk mode and library backups, and keeps your library in a local `apps.json`. The catalog leans toward community PC ports and recompilations of classic games. Builds are available for Windows, Linux and Android, and the post calls macOS support a work in progress.\n\n[Quiver Launcher on GitHub](https://github.com/tgeorgiadis/quiver-launcher)\n\n[quiverlauncher.com](https://quiverlauncher.com/)\n\n[Post on X](https://x.com/Techjunkie_Aman/status/2115769897443852604)"
     }
   ]
 }
