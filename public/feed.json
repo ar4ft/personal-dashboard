@@ -31350,6 +31350,25 @@
       "createdAt": "2026-10-28T12:00:53Z",
       "updatedAt": "2026-10-28T12:00:53Z",
       "content": "The `ronny` stack covers deciding whether a task should go to a subagent, splitting work into small PRs, auditing tool and context costs and their effect on the prompt cache, long-session and long-command checks, hand-off docs, clean-context independent review, code review comments, small harness experiments and trajectory review. The `jiachen` stack adds `lifting-loops`, for steps where you keep acting as a manual step for your agents, and a content skill for Xiaohongshu posts. In Claude Code: `claude plugin install ronny --marketplace MiniMax-AI/mcode-stack`.\n\n[Repo on GitHub](https://github.com/MiniMax-AI/mcode-stack)\n\n[Post on X](https://x.com/Ronny_MiniMax/status/2115413492941652299)"
+    },
+    {
+      "id": "hn:50300683",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Official Claude Code for VS Code extension 2.1.313 shipped with an SSH backdoor",
+      "description": "Phorion found that the official Claude Code for VS Code extension, version 2.1.313 on the Cursor Marketplace, carried an injected payload that adds an attacker SSH key and installs persistence on macOS, Linux and Windows.",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "_chall",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "createdAt": "2026-10-30T07:09:12Z",
+      "updatedAt": "2026-10-30T07:09:12Z",
+      "content": "Code added to the top of `extension.js` runs as soon as Node loads the file, before `activate`. It appends an attacker Ed25519 key to `~/.ssh/authorized_keys`, sets up persistence and sends host reconnaissance to the operator. On macOS a bug in its Remote Login check means it often fails to turn on SSH, but the keys and persistence are still installed. Cursor removed the release, and the 2.1.313 builds on npm and the VS Code marketplace were pulled. Phorion advises checking for 2.1.313 and starting incident response if it was installed.\n\n[Phorion advisory](https://phorion.io/blog/offical-claude-code-vsx-compromise/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50300683)"
     }
   ]
 }
