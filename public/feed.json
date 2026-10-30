@@ -31948,6 +31948,174 @@
       "createdAt": "2026-10-30T10:11:38Z",
       "updatedAt": "2026-10-30T10:11:38Z",
       "content": "According to the README, the engine loads an OWL/RDFS ontology, `plan`s a proposed change, reports its blast radius and newly derived consequences, then applies or rolls back the change. Inferences come with a certificate that a separate checker written in core Lean 4 can verify, so a reviewer doesn't have to trust the engine. The README's example shows 259 derived facts certified and a forged one rejected. It can also check that a retrieval slice used for RAG still entails each claim. A `serve` command runs it as an MCP server for Claude Code, Cursor and similar tools. It ships as one binary, and storage is in-memory unless you set persistent mode.\n\n- [Repo on GitHub](https://github.com/fabio-rovai/open-ontologies)\n- [Post on X](https://x.com/DataChaz/status/2116110773521113187)"
+    },
+    {
+      "id": "hn:50305693",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "description": "An essay arguing that AI tools are changing site reliability work by eroding skills rather than replacing SREs outright.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dorianniemiec",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "createdAt": "2026-10-30T15:52:18Z",
+      "updatedAt": "2026-10-30T15:52:18Z"
+    },
+    {
+      "id": "hn:50303172",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "description": "A report on how a $6.3B Binance hack was carried out in just 20 minutes.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "domhudson",
+      "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "createdAt": "2026-10-30T12:50:01Z",
+      "updatedAt": "2026-10-30T12:50:01Z"
+    },
+    {
+      "id": "hn:50307219",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "description": "A report that Blackstone says Anthropic may not secure an investment-grade rating after its IPO.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "petethomas",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "createdAt": "2026-10-30T17:27:25Z",
+      "updatedAt": "2026-10-30T17:27:25Z"
+    },
+    {
+      "id": "hn:50305573",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The federated code forge",
+      "description": "An introduction to a federated code forge.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "zlliang",
+      "url": "https://tangled.org/blog/forge/",
+      "createdAt": "2026-10-30T15:44:29Z",
+      "updatedAt": "2026-10-30T15:44:29Z"
+    },
+    {
+      "id": "hn:50306442",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "description": "A Show HN project presenting a working Nintendo system distilled into about 1GB of Qwen model weights.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "dbreunig",
+      "url": "https://github.com/dbreunig/nesformer",
+      "createdAt": "2026-10-30T16:40:22Z",
+      "updatedAt": "2026-10-30T16:40:22Z"
+    },
+    {
+      "id": "hn:50263837",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Breaking the open web won't stop the bad bots",
+      "description": "An argument that breaking the open web will not stop bad bots.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "raybb",
+      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+      "createdAt": "2026-10-27T18:42:55Z",
+      "updatedAt": "2026-10-27T18:42:55Z"
+    },
+    {
+      "id": "hn:50309029",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Infinite Mac: BeOS",
+      "description": "Infinite Mac adds BeOS, bringing the classic operating system to the browser-based emulator.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ecliptik",
+      "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
+      "createdAt": "2026-10-30T19:30:09Z",
+      "updatedAt": "2026-10-30T19:30:09Z"
+    },
+    {
+      "id": "hn:50304122",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite 98% of the company's code",
+      "description": "A report that Cisco has given an engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "taubek",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+      "createdAt": "2026-10-30T14:08:20Z",
+      "updatedAt": "2026-10-30T14:08:20Z"
+    },
+    {
+      "id": "hn:50246538",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Compile-Time Dependent Types",
+      "description": "An introduction to compile-time dependent types.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://thenumb.at/Syl-Intro/",
+      "createdAt": "2026-10-26T16:28:06Z",
+      "updatedAt": "2026-10-26T16:28:06Z"
+    },
+    {
+      "id": "hn:50271120",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hey linker, can you spare a meg?",
+      "description": "A post on the Go linker and saving binary size.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "luu",
+      "url": "https://tailscale.com/blog/go-linker",
+      "createdAt": "2026-10-28T09:49:04Z",
+      "updatedAt": "2026-10-28T09:49:04Z"
     }
   ]
 }
