@@ -31046,6 +31046,310 @@
       "createdAt": "2026-10-29T11:37:07Z",
       "updatedAt": "2026-10-29T11:37:07Z",
       "content": "Quiver is a fork of GithubLauncher, built on .NET 10. Catalog apps from quiverlauncher.com update only to releases Quiver has verified. Each download is checked against the SHA-256 Quiver recorded when the release came out, and it is refused if the file has changed. Other apps are checked against GitHub's published checksum when one exists. It also manages game mods from Thunderstore and GameBanana, supports manually managed apps, kiosk mode and library backups, and keeps your library in a local `apps.json`. The catalog leans toward community PC ports and recompilations of classic games. Builds are available for Windows, Linux and Android, and the post calls macOS support a work in progress.\n\n[Quiver Launcher on GitHub](https://github.com/tgeorgiadis/quiver-launcher)\n\n[quiverlauncher.com](https://quiverlauncher.com/)\n\n[Post on X](https://x.com/Techjunkie_Aman/status/2115769897443852604)"
+    },
+    {
+      "id": "hn:50255573",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Python on my wrist: reviving wasp-os, a MicroPython OS for the $25 PineTime smartwatch",
+      "description": "Michiel Beijen got the dormant MicroPython-based wasp-os building again on Pine64's PineTime and ported it from a 2019 MicroPython fork to mainline MicroPython.",
+      "topics": [
+        "Wearables",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "roywashere",
+      "url": "https://tildeweb.nl/~michiel/python-on-my-wrist.html",
+      "createdAt": "2026-10-27T07:10:45Z",
+      "updatedAt": "2026-10-27T07:10:45Z",
+      "content": "The PineTime has a 64 MHz Cortex-M4 and 64 KB of RAM, which leaves about 12 KB for apps once Bluetooth and MicroPython are loaded. Fixes in the revival: uv-managed tooling, Bluetooth firmware updates through bleak that take about 3.5 minutes instead of more than 8, free RAM at boot raised from 7.1 KB to 12.4 KB by using the flash chip's real 4 KB blocks, a hang watchdog, reliable swipes, and recovery from an I2C bus stuck after a flat battery.\n\n[Read the post](https://tildeweb.nl/~michiel/python-on-my-wrist.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50255573)"
+    },
+    {
+      "id": "hn:50249598",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Iterating backwards in C: for (size_t i = count; i--; )",
+      "description": "David Priver explains why the usual reverse loops over a size_t index are wrong or fragile, and recommends the post-decrement idiom for (size_t i = count; i--; ).",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "cremno",
+      "url": "https://www.davidpriver.com/Iterating-backwards-in-C.html",
+      "createdAt": "2026-10-26T19:28:19Z",
+      "updatedAt": "2026-10-26T19:28:19Z",
+      "content": "Starting at `count - 1` with `i >= 0` never ends, because an unsigned index is always >= 0, and it wraps to SIZE_MAX when count is 0. Switching to a signed `ssize_t` adds conversion and truncation problems and isn't portable to Windows. With the post-decrement in the condition, the index stays in bounds inside the body and the loop stops after index 0 via well-defined unsigned wrap-around. Priver notes he sees the mistake even more often in LLM-generated code.\n\n[Read the post](https://www.davidpriver.com/Iterating-backwards-in-C.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50249598)"
+    },
+    {
+      "id": "hn:50242509",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Java's new AOT cache feature is in a rough state",
+      "description": "XPipe's Christopher Schnick covers the pitfalls they hit shipping the JDK's AOT cache (JEP 483/514/515/516) in a real desktop app: caches that are silently not applied, and JVM crashes.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://xpipe.io/blog/java-aot-cache",
+      "createdAt": "2026-10-26T12:27:44Z",
+      "updatedAt": "2026-10-26T12:27:44Z",
+      "content": "The AOT cache records a training run so later launches start with classes already loaded and linked. It grew out of class-data sharing and was extended from JDK 24 to JDK 26, with AOT code compilation (JEP 544) planned for JDK 28. For an app distributed to users, any mismatch between the training and production environments can quietly disable the cache, and careless setups can crash the JVM. The post ends with the build scripts XPipe uses now.\n\n[Read the post](https://xpipe.io/blog/java-aot-cache)\n\n[HN discussion](https://news.ycombinator.com/item?id=50242509)"
+    },
+    {
+      "id": "hn:50297697",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Doomformer compiles integer neural networks into DOOM maps",
+      "description": "Doomformer compiles integer neural networks, including an MNIST classifier and transformer pieces, into DOOM levels where voodoo dolls do the arithmetic, and checks every value against NumPy with zero tolerance.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "falperc",
+      "url": "https://github.com/mottopanikeiku/doomformer",
+      "createdAt": "2026-10-29T23:25:46Z",
+      "updatedAt": "2026-10-29T23:25:46Z",
+      "content": "Light levels and floor heights store the values, and voodoo-doll mechanics do the math. One MNIST map uses 1,355 dolls and reads a digit the marine draws on the floor; the project reports 10,000 of 10,000 MNIST test digits exact and zero mismatches across 20,000 fuzzed networks. The Python CLI (`doomformer hello`, `doomformer draw --digit 7`) builds the ACS compiler if needed, and there is a Colab notebook.\n\n[Repo on GitHub](https://github.com/mottopanikeiku/doomformer)\n\n[Project site](https://mottopanikeiku.github.io/doomformer/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50297697)"
+    },
+    {
+      "id": "hn:50300011",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How curl was accidentally Turing-complete for nine months",
+      "description": "Nicolas Seriot shows that curl 8.12 through 8.16 config files could simulate any two-counter Minsky machine, using variable byte-range slicing and config includes with no depth cap. Curl 8.17's five-level include cap broke the trick.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "beefburger",
+      "url": "https://seriot.ch/computation/curl.html",
+      "createdAt": "2026-10-30T04:59:30Z",
+      "updatedAt": "2026-10-30T04:59:30Z",
+      "content": "A counter is a string of `x` bytes. INC appends an x, DEC slices off the first byte, and jump-if-zero picks the next config file by name from the first byte. A proof of concept computes 2 + 3 with four config files. In practice the C stack limits how far it runs (922 steps on an 8 MB stack), and the author rates the security impact as none.\n\n[Read the post](https://seriot.ch/computation/curl.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50300011)"
+    },
+    {
+      "id": "hn:50302585",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "matklad: avoid public functions calling other public functions",
+      "description": "Alex Kladov's rule of thumb: when two public functions share logic, move it into a private helper instead of having one public API call the other, so public signatures don't pick up internal-only options.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+      "createdAt": "2026-10-30T11:38:01Z",
+      "updatedAt": "2026-10-30T11:38:01Z",
+      "content": "When public APIs are reused internally, they tend to grow optional parameters that outside callers should never set. A private helper keeps those changes cheap and local. The exception is genuine \"shortcut\" APIs, which should call only public functions. He also argues you should mock IO rather than methods, and test functionality rather than individual methods.\n\n[Read the post](https://matklad.github.io/2026/10/29/pub-calls-pub.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50302585)"
+    },
+    {
+      "id": "hn:50302660",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vicki Boykis on how she would learn machine learning in 2026",
+      "description": "A lightly edited transcript of Vicki Boykis's interview on Deep Learning with Yacine about getting into ML in 2026, based on her self-taught path from economics and Excel through data science to ML engineering.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "mooreds",
+      "url": "https://vickiboykis.com/2026/10/17/how-to-learn-ml-in-2026-interview/",
+      "createdAt": "2026-10-30T11:46:55Z",
+      "updatedAt": "2026-10-30T11:46:55Z",
+      "content": "Boykis has built recommendations at Tumblr, worked on the ML platform at Duo, worked on LLMs at Mozilla.ai, and is now a founding ML engineer at Malachyte, which does real-time search and personalization for e-commerce. She talks about ML becoming a set of tools every engineer needs as model APIs spread, while large ML systems still need classic engineering depth, and about learning by repeatedly asking \"how do I do that too?\"\n\n[Read the transcript](https://vickiboykis.com/2026/10/17/how-to-learn-ml-in-2026-interview/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50302660)"
+    },
+    {
+      "id": "hn:50296793",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: InputConfig, a free open-source controller mapper for macOS",
+      "description": "InputConfig is an MIT-licensed SwiftUI app that maps PS5, Xbox, Switch, 8BitDo, MIDI and other HID devices to keyboard, mouse, macros and system actions in any Mac app, with no drivers or account.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ryleighnewman",
+      "url": "https://github.com/ryleighnewman/InputConfig",
+      "createdAt": "2026-10-29T22:02:49Z",
+      "updatedAt": "2026-10-29T22:02:49Z",
+      "content": "Every button, stick, trigger, key, knob or pad can send keys, clicks, mouse motion, scroll, macros, MIDI, spoken phrases, or system functions such as volume, brightness and Siri Shortcuts. The keyboard, extra mouse buttons, Force Touch trackpad pressure and screen regions also work as inputs. The app is built with accessibility in mind, including the PlayStation Access and Xbox Adaptive controllers, and has presets for more than 450 games and apps.\n\n[Repo on GitHub](https://github.com/ryleighnewman/InputConfig)\n\n[Website](https://inputconfig.com)\n\n[HN discussion](https://news.ycombinator.com/item?id=50296793)"
+    },
+    {
+      "id": "reading:abakcus-mobius-strip",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Möbius strip: how a one-sided surface is possible",
+      "description": "Abakcus on the Möbius strip, the surface with one side and one edge that Möbius and Listing each found independently in 1858, and where it turns up in culture.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/mobius-strip",
+      "createdAt": "2026-06-22T00:00:00Z",
+      "updatedAt": "2026-06-22T00:00:00Z",
+      "content": "A pencil line drawn along the strip covers both \"faces\" and returns to its start without crossing an edge. Listing found it a few months before Möbius and published in 1861, Möbius only in 1865, yet the strip carries Möbius's name while Listing coined the word \"topology.\" The piece also covers Gary Anderson's recycling symbol, Tim Hawkinson's Möbius Ship and the Mobius Arch.\n\n[Read on Abakcus](https://abakcus.com/articles/mobius-strip)"
+    },
+    {
+      "id": "reading:abakcus-centennial-light",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Centennial Light: a bulb that has burned since 1901",
+      "description": "A hand-blown carbon-filament Shelby bulb in a Livermore, California fire station has been lit almost continuously since June 1901, more than 1,090,000 hours.",
+      "topics": [
+        "Science",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/centennial-light-bulb",
+      "createdAt": "2026-07-11T00:00:00Z",
+      "updatedAt": "2026-07-11T00:00:00Z",
+      "content": "Adolphe Chaillet designed the bulb for the Shelby Electric Company in the late 1890s. It originally ran at 30 to 60 watts and now glows at about a 4-watt level, roughly 22 times the 50,000-hour rating on a modern LED box. It went unnoticed until a 1972 Tri-Valley Herald story led Guinness, Ripley's and GE to confirm it. The article also covers the Phoebus cartel and why staying on all the time may explain its long life.\n\n[Read on Abakcus](https://abakcus.com/articles/centennial-light-bulb)"
+    },
+    {
+      "id": "x:2116027400949760053",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Xcode 27.2 ships an Instruments skill for coding agents and updates the SwiftUI specialist skill",
+      "description": "Tim Sneath points out that Xcode 27.2 includes a new agent skill for working with Instruments, plus an update to Apple's SwiftUI specialist skill.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Tim Sneath (@timsneath)",
+      "url": "https://x.com/timsneath/status/2116027400949760053",
+      "createdAt": "2026-10-30T04:40:20Z",
+      "updatedAt": "2026-10-30T04:40:20Z",
+      "content": "According to Sneath, an Xcode upgrade is enough to make apps better, since the agent skills ship with Xcode itself. His screenshot shows Claude Code loading an `xctrace` skill to analyze a trace file. It finds a 350 ms microhang where the main thread is stuck in `WindowRequestRouter.open(_:)` calling `OpenWindowAction`, then queries the trace with `xctrace show ... --format markdown` to find the frames on the app's side.\n\n[Post on X](https://x.com/timsneath/status/2116027400949760053)"
+    },
+    {
+      "id": "x:2115971524448645406",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "App Store Connect CLI 6.0.0: purchasing-power-parity pricing, metadata in files, StoreKit commands and review digests",
+      "description": "Rudrank Riyam released version 6.0.0 of asc, the open-source scriptable CLI for the App Store Connect API, with new pricing tools, more metadata managed as files, StoreKit commands and customer review digests.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Rudrank Riyam (@rudrank)",
+      "url": "https://x.com/rudrank/status/2115971524448645406",
+      "createdAt": "2026-10-30T00:58:18Z",
+      "updatedAt": "2026-10-30T00:58:18Z",
+      "content": "Highlights from the release notes:\n\n- Purchasing-power-parity pricing for apps, in-app purchases and subscriptions\n- App categories, age ratings and App Review information managed through `pull`, `plan` and `apply`\n- StoreKit commands for app transaction lookup, consumption reporting, finishing transactions and subscription renewal extensions\n- A customer review digest that picks up from a cursor\n- A phased-release guard, validation that flags common App Review rejection wording, and screenshot sets uploaded in one round\n\nBreaking changes: `asc ads` v5, macOS IPA publishing, the `asc migrate metadata` aliases and `web apps create --password` are gone. Version 6.1.0 followed on Oct 30.\n\n[Repo on GitHub](https://github.com/rorkai/App-Store-Connect-CLI)\n\n[6.0.0 release notes](https://github.com/rorkai/App-Store-Connect-CLI/releases/tag/6.0.0)\n\n[Post on X](https://x.com/rudrank/status/2115971524448645406)"
+    },
+    {
+      "id": "x:2116083190855356514",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ucx_dist: Erlang distribution over InfiniBand for FLAME machine learning workflows",
+      "description": "José Valim highlights an open pull request to flame_slurm_backend that adds ucx_dist, an Erlang distribution carrier that sends node-to-node traffic over InfiniBand verbs via UCX instead of TCP over IP-over-InfiniBand.",
+      "topics": [
+        "Machine Learning",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "José Valim (@josevalim)",
+      "url": "https://x.com/josevalim/status/2116083190855356514",
+      "createdAt": "2026-10-30T08:22:02Z",
+      "updatedAt": "2026-10-30T08:22:02Z",
+      "content": "FLAME runners use the carrier without any change to the backend; you start the nodes with `-proto_dist ucx`. Connection setup and the handshake still go over TCP, and after that the nodes swap UCX addresses and send all distribution data as UCX tagged messages, with zero-copy rendezvous for large payloads. On a Slurm cluster with ConnectX-3 QDR InfiniBand, the author measured:\n\n| | TCP over IPoIB | ucx_dist |\n|---|---|---|\n| Ping-pong 32 KB | 231 µs | 89 µs |\n| Ping-pong 1 MB | 2.35 ms | 0.77 ms |\n| `erpc` with 1 MB argument | 1.12 ms | 0.44 ms |\n| Ping-pong 64 MB | 169 ms | 128 ms |\n\nThat is about 2.5 to 3x faster for 32 KB to 1 MB messages and 1.3 to 1.9x for 8 to 64 MB. Small messages are no faster. In an end-to-end FLAME run, a stream of 256 KB messages reached 3.48 GB/s, 93% of the link.\n\n[Pull request on GitHub](https://github.com/marcnnn/flame_slurm_backend/pull/5)\n\n[Post on X](https://x.com/josevalim/status/2116083190855356514)"
+    },
+    {
+      "id": "x:2116062680121540611",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "pixelfx: 232 code-only pixel art effects made by Claude, plus the skill that makes them",
+      "description": "patch-gg open-sourced pixelfx, a library of 232 pixel art effects and animations that are each a small piece of code, along with a Claude Code skill that drafts, renders, looks at the frames and refines new ones.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Rehan Sheikh (@rehan_shei)",
+      "url": "https://x.com/rehan_shei/status/2116062680121540611",
+      "createdAt": "2026-10-30T07:00:32Z",
+      "updatedAt": "2026-10-30T07:00:32Z",
+      "content": "Rehan Sheikh says Opus 5.5 wrote each effect, rendered it and checked the frames, fixing problems until the effect held up, with no image assets involved. The categories include fire, explosions, water, ice, lightning, sci-fi, melee, impacts, projectiles, arcane, holy, shadow, status and nature. You can play the effects live, recolor and mirror them, drop them into a browser game, or export sprite sheets for any engine. The method comes from Hugo Duprez's Sprite Fusion guide to making pixel art effects with Claude.\n\n[Repo on GitHub](https://github.com/patch-gg/pixelfx)\n\n[Gallery](https://patch-gg.github.io/pixelfx/)\n\n[Post on X](https://x.com/rehan_shei/status/2116062680121540611)"
+    },
+    {
+      "id": "x:2115792006819512747",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI-powered wikis revisited: how agents are maintaining knowledge, seven months after Karpathy's LLM Wiki",
+      "description": "In an X Article, Josh Rosen surveys how far wiki maintenance has moved from people to agents since Andrej Karpathy's LLM Wiki idea in April: AI-assisted wikis, self-maintaining knowledge bases, agent-written wikis, and Google's Open Knowledge Format.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Josh Rosen (@JoshARosen)",
+      "url": "https://x.com/JoshARosen/status/2115792006819512747",
+      "createdAt": "2026-10-29T13:04:58Z",
+      "updatedAt": "2026-10-29T13:04:58Z",
+      "content": "Rosen describes a progression:\n\n- **AI-assisted:** Notion AI and Atlassian Rovo help people write and query wikis that people still own.\n- **Agent maintenance:** Guru verifies and unverifies content, Slite flags pages that have drifted from connected sources, and Document360 runs specialized agents for duplicates, broken links and stale pages. People still approve the changes.\n- **Agent-written:** in Karpathy's pattern, an agent compiles a raw directory into a wiki directory following an AGENTS.md, and lints it periodically. Tools like OpenKnowledge are built around this.\n\nGoogle's Open Knowledge Format (June) packages this kind of knowledge as Markdown with YAML frontmatter, and OKF 0.2 adds metadata for provenance, trust and freshness. GitBook found agents made up 51.8% of intentional docs reads. Rosen warns that an agent can write a bad interpretation that other agents then consume, so errors compound.\n\n[Karpathy's LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)\n\n[Post on X](https://x.com/JoshARosen/status/2115792006819512747)"
+    },
+    {
+      "id": "x:2115796857511444717",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Inference Engineering from first principles, part 6: KV cache management",
+      "description": "Navaneeth Krishnan published part 6 of his implementation-first series on building an LLM inference runtime. It covers KV cache memory allocation, growth and release, plus capacity-aware scheduling, using real model inference and Hugging Face's DynamicCache.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Navaneeth Krishnan (@navaneethvb)",
+      "url": "https://x.com/navaneethvb/status/2115796857511444717",
+      "createdAt": "2026-10-29T13:24:15Z",
+      "updatedAt": "2026-10-29T13:24:15Z",
+      "content": "The repo works up from tokenization, prefill and decode through KV cache, sampling, request state, scheduling, continuous batching and memory management. Earlier parts cover manual LLM inference, sampling (temperature, top-k and top-p), multi-request state and a simple scheduler. Paged/block KV cache, prefix caching and benchmarking are planned next. It is a learning implementation, not a production serving system, and assumes you already know PyTorch and Transformers.\n\n[Repo on GitHub](https://github.com/navaneethkrishnansuresh/Inference-Engineering)\n\n[Post on X](https://x.com/navaneethvb/status/2115796857511444717)"
+    },
+    {
+      "id": "x:2115413492941652299",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MiniMax open-sources MCode Stack, the skills and workflows its team uses to build MiniMax Code",
+      "description": "MiniMax published MCode Stack, an MIT-licensed set of SKILL.md skills, checklists and workflows that the MiniMax Code team uses every day. It installs into MiniMax Code, Claude Code (as a plugin marketplace) or Codex.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "RonnyHe (@Ronny_MiniMax)",
+      "url": "https://x.com/Ronny_MiniMax/status/2115413492941652299",
+      "createdAt": "2026-10-28T12:00:53Z",
+      "updatedAt": "2026-10-28T12:00:53Z",
+      "content": "The `ronny` stack covers deciding whether a task should go to a subagent, splitting work into small PRs, auditing tool and context costs and their effect on the prompt cache, long-session and long-command checks, hand-off docs, clean-context independent review, code review comments, small harness experiments and trajectory review. The `jiachen` stack adds `lifting-loops`, for steps where you keep acting as a manual step for your agents, and a content skill for Xiaohongshu posts. In Claude Code: `claude plugin install ronny --marketplace MiniMax-AI/mcode-stack`.\n\n[Repo on GitHub](https://github.com/MiniMax-AI/mcode-stack)\n\n[Post on X](https://x.com/Ronny_MiniMax/status/2115413492941652299)"
     }
   ]
 }
