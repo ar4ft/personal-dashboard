@@ -31369,6 +31369,170 @@
       "createdAt": "2026-10-30T07:09:12Z",
       "updatedAt": "2026-10-30T07:09:12Z",
       "content": "Code added to the top of `extension.js` runs as soon as Node loads the file, before `activate`. It appends an attacker Ed25519 key to `~/.ssh/authorized_keys`, sets up persistence and sends host reconnaissance to the operator. On macOS a bug in its Remote Login check means it often fails to turn on SSH, but the keys and persistence are still installed. Cursor removed the release, and the 2.1.313 builds on npm and the VS Code marketplace were pulled. Phorion advises checking for 2.1.313 and starting incident response if it was installed.\n\n[Phorion advisory](https://phorion.io/blog/offical-claude-code-vsx-compromise/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50300683)"
+    },
+    {
+      "id": "hn:50296486",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "description": "Researchers ran swarms of AI agents inside the games Minecraft and Mindustry.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "sandslash",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "createdAt": "2026-10-29T21:40:28Z",
+      "updatedAt": "2026-10-29T21:40:28Z"
+    },
+    {
+      "id": "hn:50287599",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NetBSD adds a new text editor called atto",
+      "description": "NetBSD has added a new text editor called atto.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "luke8086",
+      "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+      "createdAt": "2026-10-29T11:59:01Z",
+      "updatedAt": "2026-10-29T11:59:01Z"
+    },
+    {
+      "id": "hn:50270651",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Astroterm: A Planetarium for Your Terminal",
+      "description": "Astroterm is a planetarium that runs in the terminal.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nvmdbljstm",
+      "url": "https://github.com/da-luce/astroterm",
+      "createdAt": "2026-10-28T08:29:55Z",
+      "updatedAt": "2026-10-28T08:29:55Z"
+    },
+    {
+      "id": "hn:50290283",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "description": "An article traces where the numbers that AI systems quote actually come from.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "mektrik",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "createdAt": "2026-10-29T15:06:17Z",
+      "updatedAt": "2026-10-29T15:06:17Z"
+    },
+    {
+      "id": "hn:50298964",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pico CSS is no longer maintained",
+      "description": "Pico CSS is no longer maintained.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "henrid",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "createdAt": "2026-10-30T01:58:44Z",
+      "updatedAt": "2026-10-30T01:58:44Z"
+    },
+    {
+      "id": "hn:50255343",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cuis: The Modern Smalltalk-80",
+      "description": "Cuis is presented as a modern version of Smalltalk-80.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://cuis.st/",
+      "createdAt": "2026-10-27T06:33:16Z",
+      "updatedAt": "2026-10-27T06:33:16Z"
+    },
+    {
+      "id": "hn:50291116",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "description": "Simantic, a YC F26 company, offers firmware simulation for AI agents.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "shong0504",
+      "url": "https://news.ycombinator.com/item?id=50291116",
+      "createdAt": "2026-10-29T15:56:32Z",
+      "updatedAt": "2026-10-29T15:56:32Z"
+    },
+    {
+      "id": "hn:50301854",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "description": "A write-up details five full cross-tenant compromises in Azure.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "swq115",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "createdAt": "2026-10-30T10:06:15Z",
+      "updatedAt": "2026-10-30T10:06:15Z"
+    },
+    {
+      "id": "hn:50273340",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "description": "Artificial Analysis v5 raises a dilemma for AI benchmarking.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "6thbit",
+      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "createdAt": "2026-10-28T13:38:04Z",
+      "updatedAt": "2026-10-28T13:38:04Z"
+    },
+    {
+      "id": "hn:50251070",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why a program doesn't work when run from a batch file, but works when clicked",
+      "description": "An article explains why a program may fail when run from a batch file but work when clicked.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261026-00/?p=112797/",
+      "createdAt": "2026-10-26T21:14:43Z",
+      "updatedAt": "2026-10-26T21:14:43Z"
     }
   ]
 }
