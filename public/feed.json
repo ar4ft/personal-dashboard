@@ -31533,6 +31533,142 @@
       "url": "https://devblogs.microsoft.com/oldnewthing/20261026-00/?p=112797/",
       "createdAt": "2026-10-26T21:14:43Z",
       "updatedAt": "2026-10-26T21:14:43Z"
+    },
+    {
+      "id": "x:2115860474533466477",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pika open-sources H3 Flex, a six-step video and audio model",
+      "description": "Pika H3 Flex is a post-trained MiniMax H3 that generates video with synchronized stereo audio in six sampling steps, with weights on Hugging Face and inference code on GitHub.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@pika_labs",
+      "url": "https://x.com/pika_labs/status/2115860474533466477",
+      "createdAt": "2026-10-29T17:37:02Z",
+      "updatedAt": "2026-10-29T17:37:02Z",
+      "content": "Pika distilled MiniMax H3's 50-step generator down to six steps, then tuned it with reward feedback. The open release covers text-to-video, first- and last-frame generation and reference-to-video with up to 12 references, at native 480p and 768p with mixed stereo audio. Higher resolutions, audio stems and the fast serving stack stay on Pika's hosted API, and ComfyUI already has workflows for it.\n\n[Pika H3 Flex on GitHub](https://github.com/Pika-Labs/Pika-H3-Flex)\n\n[Weights on Hugging Face](https://huggingface.co/Pika-Labs/Pika-H3-Flex)\n\n[Pika H3 Flex page](https://pika.art/pika-h3-flex)\n\n[Post on X](https://x.com/pika_labs/status/2115860474533466477)"
+    },
+    {
+      "id": "x:2115837725719048535",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FineART: Scale AI and Hugging Face release a 1,718-hour robot dataset with subtask labels",
+      "description": "FineART has 40,543 bimanual teleoperation episodes across 151 tasks with 533,913 human-written subtask labels, plus an open vision-language-action model that predicts its own next step.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@ScaleAILabs",
+      "url": "https://x.com/ScaleAILabs/status/2115837725719048535",
+      "createdAt": "2026-10-29T16:06:38Z",
+      "updatedAt": "2026-10-29T16:06:38Z",
+      "content": "Most open robot datasets label an episode with one instruction. FineART labels every step: episodes average about 2.5 minutes and 13 subtasks, recorded on a Trossen ALOHA-style two-arm robot with four cameras. The companion FineART-VLA model, built on π0.5 in LeRobot, plans its next subtask before acting; the paper reports spatial-instruction success rising from 32% to 100% after mid-training on the labels.\n\n[FineART dataset on Hugging Face](https://huggingface.co/datasets/lerobot/FineART)\n\n[FineART-VLA model](https://huggingface.co/lerobot/FineART-VLA-subtask-midtrained)\n\n[Scale Labs write-up](https://labs.scale.com/blog/fineart)\n\n[Post on X](https://x.com/ScaleAILabs/status/2115837725719048535)"
+    },
+    {
+      "id": "x:2115812656099782679",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TencentDB Agent Memory: open-source layered long-term memory for agents that runs locally",
+      "description": "Tencent open-sourced an MIT-licensed memory system that distills agent conversations into facts, scenarios and a user profile, stored locally in SQLite with BM25 search.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@Arindam_1729",
+      "url": "https://x.com/Arindam_1729/status/2115812656099782679",
+      "createdAt": "2026-10-29T14:27:01Z",
+      "updatedAt": "2026-10-29T14:27:01Z",
+      "content": "TencentDB Agent Memory builds a four-level pyramid: raw conversations, atomic facts, scenario blocks and a persona profile, and recalls from the right level before each turn. It runs on SQLite with sqlite-vec, needs only an LLM API (embeddings are optional), and ships plugins for OpenClaw and Hermes plus TypeScript and Python SDKs. Tencent claims up to 61% fewer tokens as an OpenClaw plugin.\n\n[TencentDB Agent Memory on GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory)\n\n[Post on X](https://x.com/Arindam_1729/status/2115812656099782679)"
+    },
+    {
+      "id": "x:2115913237916950575",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hermes turns a cheap ESP32 into a push-to-talk voice assistant",
+      "description": "An MIT-licensed project pairs an ESP32 with an I2S microphone and amplifier, sending speech over Wi-Fi to a PC that handles transcription, the AI reply and Tamil or English speech.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@adafruit",
+      "url": "https://x.com/adafruit/status/2115913237916950575",
+      "createdAt": "2026-10-29T21:06:42Z",
+      "updatedAt": "2026-10-29T21:06:42Z",
+      "content": "The ESP32 is only the ears and mouth: an INMP441 microphone, a push-to-talk button and an optional MAX98357A amplifier and speaker. A Python app on a Windows PC runs Groq-hosted Whisper and an LLM, then speaks back with Microsoft neural voices, and can run web searches, timers, music and smart-plug actions. The parts cost roughly ₹1,500 to ₹3,000.\n\n[Adafruit blog post](https://blog.adafruit.com/2026/10/29/open-source-hermes-turns-esp32-into-voice-assistant/)\n\n[Project write-up](https://www.opensourceforu.com/2026/10/open-source-hermes-turns-esp32-into-voice-assistant/)\n\n[Post on X](https://x.com/adafruit/status/2115913237916950575)"
+    },
+    {
+      "id": "x:2115889876155732229",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "heypcb.ai collects more than 15,000 open-source PCB designs in one searchable place",
+      "description": "heypcb.ai is a browsable catalog of over 15,000 open-source circuit board designs, aimed at makers looking for a starting point instead of a blank schematic.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@justinplaygame",
+      "url": "https://x.com/justinplaygame/status/2115889876155732229",
+      "createdAt": "2026-10-29T19:33:52Z",
+      "updatedAt": "2026-10-29T19:33:52Z",
+      "content": "The post introduces heypcb.ai's explore page as a single index of open-source PCBs, drawing well over a thousand likes from hardware folks. It's handy for finding an existing ESP32, sensor or power board to fork before designing your own.\n\n[heypcb.ai explore page](https://heypcb.ai/explore)\n\n[Post on X](https://x.com/justinplaygame/status/2115889876155732229)"
+    },
+    {
+      "id": "x:2115953904718614721",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vikey: a free, open-source keyboard that switches between English and Vietnamese as you type",
+      "description": "Vikey is a Vietnamese input method that detects whether you are typing English or Vietnamese and switches automatically, claiming 99.73% accuracy, on five platforms with iOS awaiting review.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@tdinh_me",
+      "url": "https://x.com/tdinh_me/status/2115953904718614721",
+      "createdAt": "2026-10-29T23:48:18Z",
+      "updatedAt": "2026-10-29T23:48:18Z",
+      "content": "Bilingual typists usually toggle input modes by hand; Vikey guesses the language word by word so English words don't get mangled into Vietnamese diacritics. It's free and open source, runs on five platforms including Mac, and the iOS version is waiting on App Store review.\n\n[Vikey website](https://vikey.app)\n\n[Post on X](https://x.com/tdinh_me/status/2115953904718614721)"
+    },
+    {
+      "id": "ideas:esp32-voice-assistant-with-memory",
+      "title": "ESP32 desk voice assistant with local long-term memory",
+      "description": "A push-to-talk ESP32 gadget on the desk that talks to a Mac running local speech models and a layered memory store, so it remembers your projects and preferences between chats.",
+      "nextStep": "Wire an ESP32-S3 with an INMP441 mic and a button, stream one push-to-talk clip over Wi-Fi to a Python server on the Mac, and print the local Whisper transcript.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "createdAt": "2026-10-30T14:18:17Z",
+      "content": "## How it works\n\nHermes shows an ESP32 only needs to capture and play audio while a computer does the thinking. Swap the cloud services for local ones on a Mac: whisper.cpp for speech-to-text, a small local LLM for replies and a local voice for speech. Before each reply, recall facts and a short profile from a TencentDB Agent Memory store, and write the finished exchange back so it builds up over weeks.\n\n```mermaid\nflowchart LR\n  Button[Push to talk on ESP32] --> Audio[Wi-Fi audio stream]\n  Audio --> STT[whisper.cpp on Mac]\n  STT --> Recall[Agent memory recall]\n  Recall --> LLM[Local LLM]\n  LLM --> TTS[Local voice]\n  TTS --> Speaker[ESP32 speaker]\n  LLM --> Store[Write back to memory]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Device | ESP32-S3, INMP441 mic, MAX98357A amp, button |\n| Speech to text | whisper.cpp or Qwen3-ASR via MLX |\n| Model | Small Qwen or Llama in llama.cpp |\n| Memory | TencentDB Agent Memory with SQLite and BM25 |\n| Voice | Piper or macOS system voices |\n\n## Hard parts\n\n- Keeping round-trip latency under about two seconds end to end.\n- Deciding what is worth remembering so the memory doesn't fill with noise.\n- Clean audio from a cheap MEMS mic in a noisy room.\n\n## Effort\n\nA weekend for a push-to-talk prototype with local speech; another week to add memory recall and a tidy enclosure.\n\n## Inspired by\n\n- [Adafruit post on X](https://x.com/adafruit/status/2115913237916950575)\n- [Hermes write-up](https://www.opensourceforu.com/2026/10/open-source-hermes-turns-esp32-into-voice-assistant/)\n- [TencentDB Agent Memory post on X](https://x.com/Arindam_1729/status/2115812656099782679)\n- [TencentDB Agent Memory on GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory)",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest"
+    },
+    {
+      "id": "ideas:spanish-english-auto-switch-keyboard",
+      "title": "Spanish and English keyboard that switches language as you type",
+      "description": "An iOS and Mac keyboard that detects word by word whether you are writing Spanish or English and applies the right autocorrect, accents and suggestions without toggling.",
+      "nextStep": "Train a tiny character n-gram language classifier on Spanish and English word lists and measure per-word accuracy on a sample of your own mixed messages.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "createdAt": "2026-10-30T14:18:17Z",
+      "content": "## How it works\n\nVikey does this for Vietnamese and English. For Spanish, a small on-device classifier looks at the current word and the last few words, decides the language, and routes the word to the matching spellchecker and accent rules, so typing \"manana\" becomes \"mañana\" while \"main\" stays alone. A custom keyboard extension on iOS and an input method on Mac share the same Swift core.\n\n```mermaid\nflowchart LR\n  Keys[Keystrokes] --> Word[Current word and context]\n  Word --> Classify[Tiny language classifier]\n  Classify --> ES[Spanish accents and spellcheck]\n  Classify --> EN[English spellcheck]\n  ES --> Out[Inserted text]\n  EN --> Out\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Classifier | Character n-gram model or tiny Core ML model |\n| Dictionaries | Hunspell es and en word lists |\n| iOS | Custom keyboard extension in SwiftUI |\n| Mac | InputMethodKit input method |\n| Shared core | Swift package |\n\n## Hard parts\n\n- Words valid in both languages, like \"no\", \"me\" or \"real\".\n- Keyboard extension memory limits and full-access permission on iOS.\n- Matching the feel of Apple's own autocorrect.\n\n## Effort\n\nA weekend for the classifier and an accuracy test; three to four weeks for a usable iOS keyboard and Mac input method.\n\n## Inspired by\n\n- [Vikey post on X](https://x.com/tdinh_me/status/2115953904718614721)\n- [Vikey website](https://vikey.app)",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest"
     }
   ]
 }
