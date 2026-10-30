@@ -31669,6 +31669,285 @@
       "type": "idea",
       "status": "explore",
       "source": "X digest"
+    },
+    {
+      "id": "hn:50298436",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Herdr releases a native desktop app for terminals and coding agents",
+      "description": "Herdr's new desktop app organizes terminals and coding agents into spaces, shows which agents need attention, and keeps sessions running after the window closes. Builds are available for Apple Silicon Macs and Linux.",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "herdrdev",
+      "url": "https://github.com/herdrdev/herdr-app",
+      "createdAt": "2026-10-30T00:42:41Z",
+      "content": "Herdr is now a native desktop app (Rust, with a Ghostty-based terminal core) for juggling terminals and AI coding agents. Work is grouped into spaces, the app flags which agents are waiting on you, and terminals keep running when you close the window. macOS builds target Apple Silicon; Linux builds cover x86-64 and ARM64.\n\n- [Repo on GitHub](https://github.com/herdrdev/herdr-app)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50298436)"
+    },
+    {
+      "id": "hn:50305637",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Florilegium: procedural Delft-blue floral margins for LuaLaTeX",
+      "description": "Florilegium is a LuaLaTeX package that draws procedurally generated Delft-blue floral page margins in Lua. It started from a Reddit question about making decorative flowers in LaTeX.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Kevin Raymond",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "createdAt": "2026-10-30T15:48:12Z",
+      "content": "Florilegium generates ornamental, Delft-blue flower borders for LaTeX documents, with all the drawing done in Lua inside LuaLaTeX. The repo includes a style file, specimen and showcase PDFs, a growth animation and write-ups of the methods used.\n\n- [Repo on GitHub](https://github.com/kevinraymond/florilegium)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50305637)"
+    },
+    {
+      "id": "hn:50307190",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Classic Mac OS boots to the desktop on a Nintendo Wii",
+      "description": "In a guest post on Virtually Fun, Rairii describes porting classic Mac OS 7.6 through 9.2.2 to the Wii's ArtX-derived PowerPC hardware. It may be the first time since the CHRP clone era that someone outside Apple has brought classic Mac OS up on new hardware.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Rairii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "createdAt": "2026-10-30T17:25:15Z",
+      "content": "Rairii, who previously ported Windows NT to the GameCube, Wii and PowerPC Macs, has gotten classic Mac OS (7.6 up to 9.2.2) to boot to the desktop on a Nintendo Wii. The post covers why the ArtX chipsets (GameCube Flipper, Wii Hollywood, eventually Wii U Latte) are a target and goes through the low-level challenges of the port so far. A public release isn't ready yet.\n\n- [Article on Virtually Fun](https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50307190)"
+    },
+    {
+      "id": "hn:50310398",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Firezone introduces sanstun, a sans-IO WireGuard implementation in Rust",
+      "description": "Firezone released sanstun, a sans-IO Rust implementation of the WireGuard state machine that keeps network IO, time and randomness separate from protocol logic, with a parallel-friendly API. It replaces their heavily patched boringtun fork.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Firezone",
+      "url": "https://www.firezone.dev/blog/introducing-sanstun",
+      "createdAt": "2026-10-30T21:30:00Z",
+      "content": "sanstun implements the WireGuard state machine with the sans-IO approach: IO, timers and randomness stay outside the core logic, which makes it easy to compose and test, avoids function coloring and works well with Rust's ownership model. Firezone built it after years of patching a boringtun fork whose API no longer fit their needs.\n\n- [Firezone blog post](https://www.firezone.dev/blog/introducing-sanstun)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50310398)"
+    },
+    {
+      "id": "hn:50309571",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "pgrust's Gravity query compiler beats ClickHouse on ClickBench while speaking full Postgres SQL",
+      "description": "pgrust v0.4-beta ships Gravity, a query compiler that generates machine code for SQL queries. The team reports it running up to 3x faster than ClickHouse on ClickBench while supporting the full Postgres dialect and type system.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pgrust",
+      "url": "https://pgrust.com/blog/programming-at-light-speed/",
+      "createdAt": "2026-10-30T20:18:10Z",
+      "content": "This post explains how pgrust went from batching, operator fusion, SIMD and a copy-and-patch JIT to Gravity, a full query compiler with a real intermediate representation and register allocation across whole loops. Rather than profiling hotspots from the bottom up, the team started from the theoretical performance ceiling and worked down. They report up to 3x ClickHouse's speed on ClickBench.\n\n- [pgrust blog post](https://pgrust.com/blog/programming-at-light-speed/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50309571)"
+    },
+    {
+      "id": "hn:50309479",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Deducing a FlashAttention kernel from about 25 lines of SQL",
+      "description": "A demo from xarray-sql derives a FlashAttention-style kernel automatically from roughly 25 lines of SQL that express plain attention. It relies on SQL extensions for array data, JAX-style automatic differentiation and tensor contraction planning.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "alxmrs",
+      "url": "https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py",
+      "createdAt": "2026-10-30T20:09:47Z",
+      "content": "The authors write vanilla attention in about 25 lines of SQL and let the planner deduce a FlashAttention kernel. Three portable SQL extensions make this work: **xarray-sql** (petabyte-scale array datasets as tables), **ddx** (JAX-style automatic differentiation in SQL) and **einfold** (a query planner for fast tensor contractions). Their argument is that separating the logical and physical layers of tensor programs through relational algebra is more correct and more scalable.\n\n- [Benchmark code on GitHub](https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py)\n- [xarray-sql repo](https://github.com/xqlsystems/xarray-sql)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50309479)"
+    },
+    {
+      "id": "hn:50299004",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Lasm, formally verified web apps in Lean 4 for Node, serverless and edge",
+      "description": "Lasm compiles ordinary Lean 4 programs ahead of time to WebAssembly, so one formally verifiable Lean codebase can become a Node server, a serverless or edge function, a WASI/Fastly module or a browser app.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "lastmjs",
+      "url": "https://github.com/Millillion/lasm",
+      "createdAt": "2026-10-30T02:05:41Z",
+      "content": "Lasm brings Lean 4, a general-purpose language with built-in formal verification, to JavaScript and WebAssembly runtimes through ahead-of-time compilation to Wasm. The author wants frontend-to-backend web apps written and verified in Lean, and expects LLMs that understand formal methods to make that practical. The repo documents its fundamental and IO limitations.\n\n- [Repo on GitHub](https://github.com/Millillion/lasm)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50299004)"
+    },
+    {
+      "id": "hn:50304399",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Tinycap, a tiny Mac screen recorder for PR-sized GIFs and MP4s",
+      "description": "Tinycap is a free, open-source macOS menu bar app that records a window, screen or area and exports small MP4, WebM or GIF files sized for pull requests and bug reports. It also takes screenshots you can annotate.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "soleo",
+      "url": "https://soleo.github.io/tinycap/",
+      "createdAt": "2026-10-30T14:26:07Z",
+      "content": "Tinycap (MIT, 6.5 MB, macOS 15+) records windows, displays or dragged areas, optionally with system audio and microphone. Window recordings follow the window, and there are click highlights and a countdown. After recording you can trim in a preview and export H.264/HEVC MP4, VP9 WebM or GIF presets. Screenshots can be marked up with arrows, highlights, numbered steps and pixelation. It's signed and notarized and installable via Homebrew.\n\n- [Tinycap website](https://soleo.github.io/tinycap/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50304399)"
+    },
+    {
+      "id": "reading:abakcus-billingsley-euclid",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Henry Billingsley's 1570 English Euclid: paper that stands up",
+      "description": "The first English translation of Euclid's Elements, published in 1570 with a preface by John Dee, attached fold-up paper flaps to its solid geometry books so readers could build the solids being proved.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/billingsley-euclid",
+      "createdAt": "2026-04-05T00:00:00Z",
+      "content": "Henry Billingsley's 928-page *Elements of Geometrie* (1570) was the first English Euclid. For Books XI to XIII, where solid geometry lives and flat diagrams fail first, he attached folded paper flaps that readers could lift into actual tetrahedra and other solids. The essay reads it as an early lesson in mathematical teaching: put the shape in the reader's hands.\n\n- [Read on Abakcus](https://abakcus.com/articles/billingsley-euclid)"
+    },
+    {
+      "id": "reading:abakcus-maxwell-warsaw",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Maxwell's equations on the walls of Warsaw University",
+      "description": "Warsaw University's physics library has the four integral-form Maxwell's equations carved in relief into its concrete facade, large enough to read from the street. They have been there since the 1970s.",
+      "topics": [
+        "Science",
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/maxwell-warsaw",
+      "createdAt": "2026-04-07T00:00:00Z",
+      "content": "Since the building went up in the 1970s, the exterior of Warsaw University's physics library has carried the full integral form of Maxwell's equations in concrete relief: Gauss's laws for electricity and magnetism, Faraday's law and the Ampère–Maxwell law. The essay explains what each equation says and why the integral form makes sense in architecture.\n\n- [Read on Abakcus](https://abakcus.com/articles/maxwell-warsaw)"
+    },
+    {
+      "id": "x:2116154468358316380",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Xiaomi open-sources Xiaomi-OCR-0, a 0.8B document understanding model",
+      "description": "Xiaomi released Xiaomi-OCR-0, a 0.8B-parameter model that handles document parsing, key information extraction and OCR-style visual question answering. Weights, inference code, a demo, an MCP service and an Agent Skill are all open.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Xiaomi Tech (@XiaomiTech_)",
+      "url": "https://x.com/XiaomiTech_/status/2116154468358316380",
+      "createdAt": "2026-10-30T13:05:16Z",
+      "updatedAt": "2026-10-30T13:05:16Z",
+      "content": "Xiaomi-OCR-0 puts document parsing, key information extraction and OCR-oriented VQA into one small model. Xiaomi reports 95.24 on Real5-OmniDocBench, an 83.2 average across five OCR VQA benchmarks, and first place in document parsing among sub-1B models on OmniDocBench v1.6. Along with the model weights and inference code, the release includes an interactive demo, an MCP service and an Agent Skill, so agents can call it directly.\n\n- [Model on Hugging Face](https://huggingface.co/xiaomi-research/Xiaomi-OCR-0)\n- [Repo on GitHub](https://github.com/xiaomi-research/Xiaomi-OCR-0)\n- [Demo on Hugging Face Spaces](https://huggingface.co/spaces/loongwayX/Xiaomi-OCR-0-demo)\n- [Post on X](https://x.com/XiaomiTech_/status/2116154468358316380)"
+    },
+    {
+      "id": "x:2116151078219858346",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SenseTime open-sources SenseNova Loop-9B-Preview, a 9B looped transformer",
+      "description": "SenseNova Loop-9B-Preview scales compute depth instead of parameter count: it reuses shared-parameter loops and adds Manifold-Constrained Hyper-Connections (mHC). SenseTime says it performs like a 27B-class model on agent and office tasks.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "SenseTime (@SenseTime_AI)",
+      "url": "https://x.com/SenseTime_AI/status/2116151078219858346",
+      "createdAt": "2026-10-30T12:51:47Z",
+      "updatedAt": "2026-10-30T12:51:47Z",
+      "content": "The model runs its layers in parameter-shared loops, and mHC (Manifold-Constrained Hyper-Connections) is meant to improve information flow between them. SenseTime reports it beating Qwen3.5-27B on WorkBuddy Bench, RaccoonPPT Bench and AutomationBench, and says mHC alone adds 4.42 points on GPQA Diamond and 13.34 on TeamBench. These are the vendor's numbers. Next on their list are larger models and adaptive fast/slow thinking.\n\n- [Model on Hugging Face](https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview)\n- [Repo on GitHub](https://github.com/OpenSenseNova/SenseNova-Loop)\n- [Post on X](https://x.com/SenseTime_AI/status/2116151078219858346)"
+    },
+    {
+      "id": "x:2116261373693112482",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Building adaptive SwiftUI layouts with containerRelativeFrame()",
+      "description": "Natalia Panferova explains how SwiftUI's containerRelativeFrame() sizes views from their nearest container, which keeps full-width views, horizontal card layouts and custom proportions working as windows resize.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Nil Coalescing (@NilCoalescing)",
+      "url": "https://x.com/NilCoalescing/status/2116261373693112482",
+      "createdAt": "2026-10-30T20:10:04Z",
+      "updatedAt": "2026-10-30T20:10:04Z",
+      "content": "With iOS 27 making resizable apps more important, this Nil Coalescing article covers the three `containerRelativeFrame()` overloads: filling the container's width or height, taking a number of equal portions (for example, cards in a horizontal scroll view), and computing a custom length from the container's size. SwiftUI uses the nearest supported container, such as a window, navigation or tab container, or scroll view. Unlike `onGeometryChange()`, you don't need to observe geometry or store measurements in state.\n\n- [Article on Nil Coalescing](https://nilcoalescing.com/blog/BuildingAdaptiveSwiftUILayoutsWithContainerRelativeFrame/)\n- [Post on X](https://x.com/NilCoalescing/status/2116261373693112482)"
+    },
+    {
+      "id": "x:2116144892619772158",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Azume One: a 2.8 mm sensor that turns any regular wristwatch into a health tracker",
+      "description": "Azume One, from a Munich startup, is a 30 mm, 2.8 mm-thick, 5 g disc that sits under a regular watch. Its optical PPG and motion sensors track heart rate, sleep, stress and activity without a smartwatch.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "CNX Software (@cnxsoft)",
+      "url": "https://x.com/cnxsoft/status/2116144892619772158",
+      "createdAt": "2026-10-30T12:27:13Z",
+      "updatedAt": "2026-10-30T12:27:13Z",
+      "content": "The disc attaches to the back of an ordinary wristwatch and is almost invisible once fitted. A companion app shows heart rate trends, sleep stages, workouts and stress levels, along with Recovery, Sleep and Stress scores. CNX Software notes that it's a crowdfunding project.\n\n- [Article on CNX Software](https://www.cnx-software.com/2026/10/30/azume-one-a-2-8mm-sensor-that-turns-any-regular-wristwatch-into-a-health-tracker/)\n- [Post on X](https://x.com/cnxsoft/status/2116144892619772158)"
+    },
+    {
+      "id": "x:2116294751444160929",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google publishes a guide to building generative UI apps with A2UI and CopilotKit",
+      "description": "Google's developer blog shows how to have agents build interactive UI at runtime with A2UI, an open standard that describes interfaces as data your app renders with trusted components, connected to agents through CopilotKit.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "長沢 翼 (@nagasawatsubasa)",
+      "url": "https://x.com/nagasawatsubasa/status/2116294751444160929",
+      "createdAt": "2026-10-30T22:22:42Z",
+      "updatedAt": "2026-10-30T22:22:42Z",
+      "content": "In A2UI (Agent-to-UI), the agent sends a UI description as data, not executable code. The app renders it with components it already trusts. There's a basic catalog of 18 components and renderers for React, Angular, SwiftUI, Flutter and more. CopilotKit handles A2UI over AG-UI and connects to agents built with Google ADK, LangChain or AWS Strands. You can start with `npx copilotkit@latest create --name my-app --framework a2ui`. Nagasawa's take: chat replies that come back as usable UI rather than text could fit a lot of business apps.\n\n- [Google Developers Blog post](https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/)\n- [Post on X](https://x.com/nagasawatsubasa/status/2116294751444160929)"
+    },
+    {
+      "id": "x:2116110773521113187",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Open Ontologies: plan and verify changes to OWL/RDF ontologies, with an MCP server",
+      "description": "Open Ontologies is an MIT-licensed Rust tool by Fabio Rovai. It previews the consequences of an ontology change before you apply it, issues derivation certificates checked by a Lean 4 checker, and exposes everything as an MCP server.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Charly Wargnier (@DataChaz)",
+      "url": "https://x.com/DataChaz/status/2116110773521113187",
+      "createdAt": "2026-10-30T10:11:38Z",
+      "updatedAt": "2026-10-30T10:11:38Z",
+      "content": "According to the README, the engine loads an OWL/RDFS ontology, `plan`s a proposed change, reports its blast radius and newly derived consequences, then applies or rolls back the change. Inferences come with a certificate that a separate checker written in core Lean 4 can verify, so a reviewer doesn't have to trust the engine. The README's example shows 259 derived facts certified and a forged one rejected. It can also check that a retrieval slice used for RAG still entails each claim. A `serve` command runs it as an MCP server for Claude Code, Cursor and similar tools. It ships as one binary, and storage is in-memory unless you set persistent mode.\n\n- [Repo on GitHub](https://github.com/fabio-rovai/open-ontologies)\n- [Post on X](https://x.com/DataChaz/status/2116110773521113187)"
     }
   ]
 }
