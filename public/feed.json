@@ -32423,6 +32423,169 @@
       "createdAt": "2026-10-31T06:17:40Z",
       "updatedAt": "2026-10-31T06:17:40Z",
       "content": "Details from CIQ's announcement and docs:\n\n- One roughly 610 MB binary carries Kubernetes, etcd, containerd, runc, kube-vip, Cilium and CoreDNS, built from upstream source, and installs a node with `stratum up`. The same file handles joins, rolling upgrades with rollback, etcd snapshots and certificate renewal, and it is air-gapped by default\n- `stratum mcp` exposes 37 tools in three tiers. Read-only is the default, while `--allow-write` and `--allow-destructive` are separate flags, and tools above the enabled tier are never registered\n- Kubernetes RBAC still bounds every call, and Secrets stay off limits at every tier\n- It ships an AGENTS.md for agent-driven installs, docs in llms.txt format and a built-in web dashboard\n- SKE is in technical preview, with general availability expected November 5. CIQ Stratum Pro adds paid fleet management\n\n[CIQ press release](https://ciq.com/press/ciq-introduces-ciq-stratum-open-source-kubernetes-for-the-ai-era)\n\n[Stratum MCP server docs](https://docs.ciq.com/stratum/cluster-admin/mcp)\n\n[Stratum docs](https://docs.ciq.com/stratum)\n\n[Post on X](https://x.com/twtayaan/status/2116414283273949511)"
+    },
+    {
+      "id": "hn:50305025",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Northflank Breached",
+      "description": "A report that Northflank has been breached, linked from the company's status page.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "js4ever",
+      "url": "https://status.northflank.com",
+      "createdAt": "2026-10-30T15:10:31Z",
+      "updatedAt": "2026-10-30T15:10:31Z"
+    },
+    {
+      "id": "hn:50277379",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cloudflare Turnstile solver library (no headless browser required)",
+      "description": "A library for solving Cloudflare Turnstile challenges without needing a headless browser.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "costco",
+      "url": "https://github.com/chris124567/cfsolve",
+      "createdAt": "2026-10-28T17:29:23Z",
+      "updatedAt": "2026-10-28T17:29:23Z"
+    },
+    {
+      "id": "hn:50301717",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How do you take a picture of a black hole?",
+      "description": "An explainer on how astronomers capture images of black holes.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dverlaeckt80",
+      "url": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
+      "createdAt": "2026-10-30T09:49:02Z",
+      "updatedAt": "2026-10-30T09:49:02Z"
+    },
+    {
+      "id": "hn:50290652",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
+      "description": "A conversation with Lean creator Leo de Moura on AI, Lean, and the future of formal verification.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "datascientist",
+      "url": "https://thedataexchange.media/leo-de-moura-lean-aws/",
+      "createdAt": "2026-10-29T15:29:48Z",
+      "updatedAt": "2026-10-29T15:29:48Z"
+    },
+    {
+      "id": "hn:50314666",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+      "description": "A report that Molly, a Signal fork, has gone three months without an update and is vulnerable as a result.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "DeepLogin",
+      "url": "https://piefed.world/post/1503394",
+      "createdAt": "2026-10-31T10:23:41Z",
+      "updatedAt": "2026-10-31T10:23:41Z"
+    },
+    {
+      "id": "hn:50293437",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Turning a solar power system into its own backup",
+      "description": "How a solar power system can be turned into its own backup power source.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "PaulHoule",
+      "url": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
+      "createdAt": "2026-10-29T18:10:33Z",
+      "updatedAt": "2026-10-29T18:10:33Z"
+    },
+    {
+      "id": "hn:50314699",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We Took over ChatGPT Accounts",
+      "description": "A report on taking over ChatGPT accounts through a gap found at OpenAI.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "armcat",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "createdAt": "2026-10-31T10:30:11Z",
+      "updatedAt": "2026-10-31T10:30:11Z"
+    },
+    {
+      "id": "hn:50276355",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Trapped in the Technologist Factory",
+      "description": "An essay on being trapped in the technologist factory.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "luu",
+      "url": "https://ideolalia.com/essays/trapped-in-the-technologist-factory.html",
+      "createdAt": "2026-10-28T16:30:38Z",
+      "updatedAt": "2026-10-28T16:30:38Z"
+    },
+    {
+      "id": "hn:50276613",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Double Buffering with Cloudflare Queues",
+      "description": "A technical write-up on double buffering using Cloudflare Queues.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "b_llc",
+      "url": "https://bellone.com/technical/double-buffering-with-cloudflare-queues",
+      "createdAt": "2026-10-28T16:48:23Z",
+      "updatedAt": "2026-10-28T16:48:23Z"
+    },
+    {
+      "id": "hn:50289081",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Brief History of PDP Computers",
+      "description": "A brief history of PDP computers.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://entropicthoughts.com/history-of-pdp-computers",
+      "createdAt": "2026-10-29T13:53:33Z",
+      "updatedAt": "2026-10-29T13:53:33Z"
     }
   ]
 }
