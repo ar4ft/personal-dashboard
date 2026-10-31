@@ -32586,6 +32586,263 @@
       "url": "https://entropicthoughts.com/history-of-pdp-computers",
       "createdAt": "2026-10-29T13:53:33Z",
       "updatedAt": "2026-10-29T13:53:33Z"
+    },
+    {
+      "id": "hn:50319510",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HackerTube: Karpathy's YouTube clone built from videos recommended on Hacker News",
+      "description": "Andrej Karpathy had Claude filter every Hacker News comment down to about 40K that recommend a YouTube video, then wrapped the resulting 6,454 videos across 150 topics in a YouTube-style UI.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Andrej Karpathy",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "createdAt": "2026-10-31T19:56:53Z",
+      "content": "Frustrated with YouTube's recommendations, Karpathy spent a Saturday morning having an AI agent download all HN comments, run a model over them to drop spam and low-grade content, and keep only comments recommending videos (2007 to 2026). HackerTube shows them with the 50% frame as the thumbnail, a For You feed that keeps state only in the browser session (no accounts), keyboard shortcuts, and a data export so you can have your own agent build a variant. He says the whole thing took about two hours.\n\n[HackerTube](https://hackertube.org)\n\n[Karpathy's write-up](https://karpathy.bearblog.dev/hacker-tube/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50319510)"
+    },
+    {
+      "id": "hn:50315226",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Prospero: Chris Wellons' lightweight native coding harness for local LLMs",
+      "description": "Chris Wellons (nullprogram) built Prospero, a C++ coding-agent harness with a Dear ImGui interface that he says uses about two orders of magnitude fewer resources than web-stack harnesses.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Chris Wellons",
+      "url": "https://nullprogram.com/blog/2026/10/31/",
+      "createdAt": "2026-10-31T11:54:59Z",
+      "content": "Wellons argues a coding harness is essentially curl glued to popen() and shouldn't need gigabytes of RAM, so he wrote his own in his C++ style with a docking Dear ImGui UI. Prospero ships with no built-in model providers: you point it at llama.cpp, an on-prem model, OpenRouter, or the Anthropic or OpenAI APIs (not a Claude subscription). The post walks through how harness tools work and why open-weight models are now good enough for simpler programming tasks.\n\n[Read the post](https://nullprogram.com/blog/2026/10/31/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50315226)"
+    },
+    {
+      "id": "hn:50316100",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jepsen: ParticleDB 1.1.4 lost committed writes despite 'Full ACID' claims",
+      "description": "Kyle Kingsbury's Jepsen analysis of ParticleDB, a multi-model database for AI workloads, found 96 issues; most were fixed by later release candidates, but committed writes were still lost in the default mode.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Kyle Kingsbury",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "createdAt": "2026-10-31T13:39:52Z",
+      "content": "Testing versions 1.1.4 through 1.1.18.11.rc-22, Jepsen found problems ranging from crashes, deadlocks and data loss to partially invisible rows that couldn't be deleted, dropped tables re-emerging, and strings turning into integers, most reproducible with a single server and client and no faults. Even at the end, ParticleDB lost committed writes with its default `occ` transaction mode and allowed Lost Update under `serializable`. The vendor says 1.1.19-rc.13 fixes the rest; the work was funded by the vendor under Jepsen's ethics policy.\n\n[Jepsen analysis](https://jepsen.io/analyses/particledb-1.1.4)\n\n[HN discussion](https://news.ycombinator.com/item?id=50316100)"
+    },
+    {
+      "id": "hn:50318720",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "It's the memory latency, stupid: making GROUP BY faster by doing more CPU work",
+      "description": "A Pivot engineering post explains why a CPU at 100% can be mostly stalled on RAM, and how restructuring GROUP BY to do more computation but fewer cache misses made it faster.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Maor Kern",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "createdAt": "2026-10-31T18:38:16Z",
+      "content": "The post starts from the numbers: a modern core retires roughly 4 to 8 instructions per nanosecond while a RAM access costs 50 to 100 ns, so one cache miss can cost hundreds of instructions. It then walks through the cache hierarchy and shows how hash-aggregation code can be reshaped to hide memory latency, trading extra CPU work for better cache behavior. A good, hands-on read on performance engineering in database engines.\n\n[Read the post](https://pivotlake.io/blog/its-the-memory-latency-stupid/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50318720)"
+    },
+    {
+      "id": "hn:50315782",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "bootgpt: a tiny language model that runs from a 512-byte boot sector",
+      "description": "bootgpt is a 512-byte hand-written x86 MBR that loads an 11.5 KB int8 neural network from the next disk sectors and runs it in 16-bit real mode, with no operating system.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kerlenton",
+      "url": "https://github.com/kerlenton/bootgpt",
+      "createdAt": "2026-10-31T12:58:29Z",
+      "content": "The repo includes the assembly boot loader, a Python training script and corpus generator, and QEMU scripts to try it. The model is quantized to int8 so it fits in 23 sectors and can run on a 386-class CPU. It's a fun piece of sizecoding that shows how small an end-to-end text model can get.\n\n[bootgpt on GitHub](https://github.com/kerlenton/bootgpt)\n\n[HN discussion](https://news.ycombinator.com/item?id=50315782)"
+    },
+    {
+      "id": "hn:50318442",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Post-training a model to explore demoscene code",
+      "description": "A write-up on post-training a language model on tiny demoscene programs, starting from Dwitter's 140-character JavaScript demos and their remixes, to generate new variations on visual effects.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "datavorous",
+      "url": "https://datavorous.com/writing/demoscener/",
+      "createdAt": "2026-10-31T18:08:24Z",
+      "content": "Inspired by HellMood's 256-byte MS-DOS demo Memories, the author noticed that many Dwitter remixes differ from each other by only a few characters while others reach the same effect with completely different code. The post looks at the grammar of these demos and how a post-trained model can explore nearby, unfinished variations of an effect.\n\n[Read the post](https://datavorous.com/writing/demoscener/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50318442)"
+    },
+    {
+      "id": "hn:50316531",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Volta infostealer uses an AI model to rank victims by how much they're worth",
+      "description": "Cisco Talos reports that the Volta infostealer uses an AI model to appraise stolen data and prioritize the most valuable victims.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "createdAt": "2026-10-31T14:29:03Z",
+      "content": "Talos describes Volta as using model-driven victim prioritization: instead of treating every infected machine the same, the malware's operators use an AI model to score victims so they can focus on the most valuable ones. It's a concrete example of attackers using LLMs to triage at scale.\n\n[Talos write-up](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50316531)"
+    },
+    {
+      "id": "hn:50319143",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CVE-2026-98432: a remote, unauthenticated use-after-free in Linux's IPv4 TCP handshake",
+      "description": "A CVSS 9.8 use-after-free in the Linux kernel's IPv4 TCP handshake was fixed in stable kernels on Oct 11 and 15, but some major distros had not yet shipped fixed kernels when this write-up was published.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Atlas Security",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "createdAt": "2026-10-31T19:16:30Z",
+      "content": "The fixed stable releases include 5.10.272, 5.15.223, 6.1.190, 6.6.159 and 6.12.113. The advisory, updated Oct 31, says Red Hat raised its rating to Critical with a mitigation, AlmaLinux has fixed kernels in testing and Amazon Linux has fixed all of its kernels. It also notes the Go Security Team's point that Go programs open multipath TCP listeners by default, which makes the exploit's required setup more common than first thought.\n\n[Advisory](https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf)\n\n[HN discussion](https://news.ycombinator.com/item?id=50319143)"
+    },
+    {
+      "id": "hn:50317363",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Casio watches of the 1980s, from Casio's 50th anniversary heritage archive",
+      "description": "Casio's watch heritage site walks through its 1980s models, the decade of digital, calculator and multifunction watches.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Casio",
+      "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
+      "createdAt": "2026-10-31T16:00:48Z",
+      "content": "Part of Casio's 50th anniversary of watchmaking, this page collects the company's 1980s watches, the era when wrist computers like calculator and databank models went mainstream. A nice look back at early wearables.\n\n[Casio 1980s heritage page](https://www.casio.com/us/watches/50th/Heritage/1980s/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50317363)"
+    },
+    {
+      "id": "reading:abakcus-budassi-universe-map",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pablo Carlos Budassi's logarithmic map of the universe",
+      "description": "How musician Pablo Carlos Budassi fit the whole 93-billion-light-year observable universe into one circular image, an idea that came from folding hexaflexagons for his son's birthday.",
+      "topics": [
+        "Science",
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/budassi-universe-map",
+      "createdAt": "2026-05-20T00:00:00Z",
+      "content": "Logarithmic maps of the cosmos already existed: in 2005 Princeton astronomers J. Richard Gott and Mario Jurić used Sloan Digital Sky Survey data to publish one in the Astrophysical Journal, accurate but ugly. Budassi's 2013 version added the aesthetics, using concentric rings so the solar system, the galaxy, galaxy clusters and finally the Big Bang's afterglow all fit in sequence. He built it in Photoshop from NASA imagery and his own textures within a few days.\n\n- [Read on Abakcus](https://abakcus.com/articles/budassi-universe-map)"
+    },
+    {
+      "id": "reading:abakcus-17-equations",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "17 equations that changed the world, from Pythagoras to chaos theory",
+      "description": "A tour of the seventeen equations from Ian Stewart's book, explaining what each one says, why it matters, and where it shows up in everyday life.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/17-equations-that-changed-the-world",
+      "createdAt": "2026-07-05T00:00:00Z",
+      "content": "Starting with Robert Recorde inventing the equals sign in 1557, the piece goes through Stewart's list from *In Pursuit of the Unknown* one equation at a time: the formula, a plain explanation, and where it lives today, from phones to satellites. The list opens with the Pythagorean theorem and closes with the Black-Scholes equation.\n\n- [Read on Abakcus](https://abakcus.com/articles/17-equations-that-changed-the-world)"
+    },
+    {
+      "id": "x:2116480338906284437",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Factory releases Droid 1.0 with programmatic tool calling for its coding agent",
+      "description": "Factory's Droid 1.0 harness has the model write JavaScript that runs in a sandbox and calls tools, so raw files and logs stay out of the context. Factory reports higher self-run Terminal-Bench 4 scores than Claude Code and Codex on the same models.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Marktechpost AI (@Marktechpost)",
+      "url": "https://x.com/Marktechpost/status/2116480338906284437",
+      "createdAt": "2026-10-31T10:40:09Z",
+      "updatedAt": "2026-10-31T10:40:09Z",
+      "content": "With programmatic tool calling on by default, only printed output from the sandboxed program goes back to the model. Factory's self-reported numbers: 65.2% on Terminal-Bench 4 with Claude Opus 5.5 versus 57.6% for Claude Code, and 57.6% versus 54.0% for Codex on GPT-6.1 Sol at 12% lower cost, though about 10% slower per passed task. Droid 1.0 ships as a macOS and Windows desktop app, a terminal UI, and a Node SDK.\n\n[Factory announcement](https://factory.com/news/frontier-harness)\n\n[Droid SDK on GitHub](https://github.com/Factory-AI/droid-sdk-typescript)\n\n[Marktechpost analysis](https://marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/)\n\n[Post on X](https://x.com/Marktechpost/status/2116480338906284437)"
+    },
+    {
+      "id": "x:2116499275584835600",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "About 1 in 17 public agent skills tell agents to skip human checks, a study finds",
+      "description": "Researchers scanned 1.53 million SKILL.md files on GitHub and found about 88,000 with lines like \"push without confirmation\" that remove human oversight; existing skill scanners caught at most 46% of them.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Rohan Paul (@rohanpaul_ai)",
+      "url": "https://x.com/rohanpaul_ai/status/2116499275584835600",
+      "createdAt": "2026-10-31T11:55:24Z",
+      "updatedAt": "2026-10-31T11:55:24Z",
+      "content": "According to the summary, 70.1% of these \"don't ask\" lines apply in every context rather than only in cases like CI. Two open-source scanners from Cisco and NVIDIA caught at most 46% with under 0.4 precision, while the same LLM prompted to look for oversight removal instead of malice caught 61% at 0.71 precision. The takeaway: scope any no-confirmation instruction in a skill to a specific context and screen skills for oversight, not just malware. The post doesn't link the paper.\n\n[Post on X](https://x.com/rohanpaul_ai/status/2116499275584835600)"
+    },
+    {
+      "id": "x:2116576832254513356",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OldOS gets a big update: Clock, Calculator, passcode unlock, folders and more",
+      "description": "Zane's OldOS, a SwiftUI recreation of classic iOS, got an update he says was five years in the making, adding Clock, Calculator and Scientific Calculator, passcode unlock, home screen rearranging, dock customization and folders.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Zane (@zzanehip)",
+      "url": "https://x.com/zzanehip/status/2116576832254513356",
+      "createdAt": "2026-10-31T17:03:35Z",
+      "updatedAt": "2026-10-31T17:03:35Z",
+      "content": "OldOS rebuilds the look and feel of early iPhone software as a working app. This update fills in many of the home screen behaviors people remember: simple and complex passcode unlock, rearranging icons, customizing the dock, and creating and organizing folders, plus new Clock and Calculator apps.\n\n[Post on X](https://x.com/zzanehip/status/2116576832254513356)"
+    },
+    {
+      "id": "x:2116534501299884193",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jacob Bartlett on why documentation matters most in SwiftUI design systems",
+      "description": "Jacob Bartlett argues that whatever implementation you pick, a SwiftUI design system needs to be well documented, searchable and kept current, with doc comments on strongly typed customization enums.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Jacob Bartlett (@jacobtechtavern)",
+      "url": "https://x.com/jacobtechtavern/status/2116534501299884193",
+      "createdAt": "2026-10-31T14:15:23Z",
+      "updatedAt": "2026-10-31T14:15:23Z",
+      "content": "He suggests keeping branding and components in one easy-to-find place, often a large Figma file or a design library built into an app, and notes you can now code out much of a design system through Figma MCP with Codex or Claude Code. The post points to his longer article comparing composition and progressive disclosure approaches.\n\n[The SwiftUI Design System War](https://blog.jacobstechtavern.com/p/the-design-system-war)\n\n[Post on X](https://x.com/jacobtechtavern/status/2116534501299884193)"
     }
   ]
 }
