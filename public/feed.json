@@ -32116,6 +32116,313 @@
       "url": "https://tailscale.com/blog/go-linker",
       "createdAt": "2026-10-28T09:49:04Z",
       "updatedAt": "2026-10-28T09:49:04Z"
+    },
+    {
+      "id": "hn:50314085",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Switch lowering in GCC",
+      "description": "A deep dive into how GCC turns C switch statements into jump tables, bit tests and decision trees, with the compiler source and generated x86 assembly for each case. The post dates from January 2024.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "signa11",
+      "url": "https://xoranth.net/gcc-switch/",
+      "createdAt": "2026-10-31T08:02:26Z",
+      "content": "Xoranth walks through GCC's switch-lowering pass at -O3: dense cases become jump tables (offset when the case values don't start at zero), clustered cases with at most three distinct targets become bit tests, and the rest fall back to a binary decision tree that can use profile data or __builtin_expect probabilities. Each step shows the input C, the generated assembly and trimmed excerpts of GCC's own code. Apart from the bitset lowering, the same optimizations apply in Clang.\n\n- [Read the post](https://xoranth.net/gcc-switch/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50314085)"
+    },
+    {
+      "id": "hn:50273504",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Finding panics in Rust with Call Graph Analyzer",
+      "description": "Tweede golf and Microsoft's Open Device Partnership released Call Graph Analyzer (CGA), which extracts the call graph from monomorphized MIR so that `cargo cga check` can flag which functions in a Rust binary can panic.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ndr",
+      "url": "https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/",
+      "createdAt": "2026-10-28T13:48:26Z",
+      "content": "Embedded Rust teams often want panic-free code. CGA, built by Tweede golf under the Open Device Partnership with Microsoft, builds a call graph from monomorphized MIR and reports calls that can reach a panic, such as `strict_sub`, as compiler-style errors with source locations. The post compares this approach with earlier ones (linker-based checks like no-panic, ELF debug-info analysis, HIR and rust-analyzer exporters), and explains where it is more precise and where it falls short.\n\n- [Read the post](https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/)\n- [CGA on GitHub](https://github.com/OpenDevicePartnership/cga)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50273504)"
+    },
+    {
+      "id": "hn:50274885",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Wearable data showed a step-change months before a sudden cardiac death",
+      "description": "A JACC: Case Reports paper describes a 76-year-old with structural heart disease whose consumer-wearable data showed coordinated changes 4–6 months before his sudden cardiac death: heart rate variability halved, resting and nocturnal heart rate rose, and deep sleep fell.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "brandonb",
+      "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2026.110397",
+      "createdAt": "2026-10-28T15:04:12Z",
+      "content": "The authors, including Stanford's Michael Snyder, ran change-point analysis on wearable-captured physiology from a man who died minutes after high-intensity indoor cycling. Most changes clustered 4–6 months earlier: HRV roughly halved, resting and nighttime heart rate rose, and deep sleep and 6-minute-walk distance dropped. These changes came before the echocardiogram that revealed severe left ventricular dilation and mitral regurgitation. The authors argue that the signal was a sustained shift from the patient's own baseline rather than any single abnormal value, and that continuous wearable data could complement episodic cardiology checkups.\n\n- [Case report in JACC: Case Reports](https://www.jacc.org/doi/10.1016/j.jaccas.2026.110397)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50274885)"
+    },
+    {
+      "id": "hn:50260753",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Marelleo, an open-source ESP32 story box for kids",
+      "description": "A parent who knew no electronics built a Toniebox-style story player: a child puts a figurine with an NFC tag on the box and a story plays. It runs on an ESP32 with a custom JLCPCB board, and the firmware and hardware files are MIT-licensed.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "foOg",
+      "url": "https://zebra.rodeo/en/blog/marelleo/",
+      "createdAt": "2026-10-27T15:24:36Z",
+      "content": "Annoyed that boxes like the Toniebox, Yoto and Lunii lock content behind their own stores, Arnaud Aubry learned electronics from scratch to build his own. Marelleo plays an audio track when a tagged figurine is placed on top. The write-up covers the breadboard prototype with an ESP32 and NFC reader, the lessons that literally went up in smoke (kid-proof knobs, lithium charge controllers), and ordering assembled boards from JLCPCB (five for about 160 euros). The repo includes firmware, the board files and a breadboard path that needs no soldering.\n\n- [Build notes](https://zebra.rodeo/en/blog/marelleo/)\n- [Repo on GitHub](https://github.com/Zebra-Rodeo/marelleo)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50260753)"
+    },
+    {
+      "id": "hn:50291812",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: kube32, a Kubernetes-compatible control plane for ESP32 microcontrollers",
+      "description": "kube32 lets kubectl and k9s manage a cluster of ESP32-S3 boards over Wi-Fi or USB serial. Its pods are WebAssembly modules run by the wasm3 interpreter, and it includes a host simulator for macOS and Linux.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Arterialist",
+      "url": "https://github.com/arterialist/kube32",
+      "createdAt": "2026-10-29T16:35:14Z",
+      "content": "One firmware image runs on every board: an ESP32-S3 with PSRAM becomes the control plane, and boards without PSRAM join as workers. kube32 serves a real slice of the Kubernetes API (Pods, Deployments, Services, Ingress, ConfigMaps, Secrets and watch streams), so standard tools work. Pods are Wasm modules written in Rust, C or AssemblyScript, with memory limits, gas budgets and a per-pod capability firewall over GPIO, I2C, UART, display and SD access. It also offers CrashLoopBackOff, persistent volumes on flash or microSD, and rolling firmware updates with bootloader rollback.\n\n- [Repo on GitHub](https://github.com/arterialist/kube32)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50291812)"
+    },
+    {
+      "id": "hn:50237019",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Glider 4.0 Unofficial Web Edition, a source port of the 1991 Mac game",
+      "description": "A browser port of John Calhoun's classic Macintosh game Glider 4.0, including the Room Editor. The original THINK Pascal source was ported unit by unit to TypeScript, with enough of the Macintosh Toolbox reimplemented to run it pixel- and clock-accurately.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "networked",
+      "url": "https://dbohdan.github.io/glider/",
+      "createdAt": "2026-10-25T23:18:42Z",
+      "content": "The project simulates Glider 4.0 on a Mac II or Mac Plus running System 6, but it is a source port rather than an emulator, so no Mac ROM is needed. It was directed by a human and implemented by Claude Opus 5.5, and includes the houses, art and sounds from the open-source Glider 4.05 release. It adds gamepad and on-screen touch controls, so it works on phones too.\n\n- [Play in the browser](https://dbohdan.github.io/glider/)\n- [Repo on GitHub](https://github.com/dbohdan/glider)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50237019)"
+    },
+    {
+      "id": "hn:50269668",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ParadeDB makes COUNT and filtered search queries much faster in Postgres",
+      "description": "Part II of ParadeDB's search performance series explains how segment partitioning and other optimizations doubled BM25 COUNT throughput over the TIN baseline. It also shows ParadeDB running up to 66 times faster on filtered and sorted search queries.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "philippemnoel",
+      "url": "https://www.paradedb.com/blog/opening-a-closed-tin-part-2",
+      "createdAt": "2026-10-28T05:34:16Z",
+      "content": "Profiling a simple `SELECT COUNT(*) ... WHERE text === 'database'` showed that visibility checks and stored ctid lookups accounted for over 80% of page accesses. ParadeDB tackled this with an upcoming segment-partitioning feature and further optimizations, reaching about 5,350 QPS against TIN's 2,650 on a Wikipedia benchmark. The second half compares filtered and sorted search workloads and explains how to read search-engine benchmarks.\n\n- [Read the post](https://www.paradedb.com/blog/opening-a-closed-tin-part-2)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50269668)"
+    },
+    {
+      "id": "hn:50290042",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "React.lazy, Suspense and the hidden 300 ms startup delay",
+      "description": "Tab Widgets found that its React 19 new-tab dashboard loaded widget code in about 100 ms, but showed the widgets only at about 380 ms. Lazy components always suspend once, and React holds suspended content back for 300 ms. Rendering their own placeholders brought content on screen about 240 ms sooner.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ctrlt",
+      "url": "https://tabwidgets.com/blog/react-lazy-suspense-delay",
+      "createdAt": "2026-10-29T14:50:17Z",
+      "content": "The team first assumed the bundle was too big. They trimmed about 100 KB of modals from the startup path and moved luxon out of the main chunk, but neither made a measurable difference. The real cost was React's Suspense throttling: every `React.lazy` widget suspends at least once, and React batches the reveal with a 300 ms delay. The post explains the fix, a version they had to rethink, and how they measured it in headless Chromium.\n\n- [Read the post](https://tabwidgets.com/blog/react-lazy-suspense-delay)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50290042)"
+    },
+    {
+      "id": "hn:50306815",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: spinf-serve, an inference server for bulk classification and decision scoring",
+      "description": "spinf-serve reads a piece of content once and answers many questions about it in a single pass, returning a probability over the given options instead of generated text. It runs on one 24 GB NVIDIA GPU behind an OpenAI-compatible API and is Apache-2.0 licensed.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "giarec",
+      "url": "https://github.com/spinfinc/spinf-serve",
+      "createdAt": "2026-10-30T17:03:12Z",
+      "content": "The team built spinf-serve for a daily market index scored from millions of news articles, where each article gets dozens of narrow, calibrated questions. Instead of re-reading the text for each prompt like a chat server, it lays every question out as a branch of a single read and packs many documents into one forward pass. Any open instruction model can then act as a decision model with calibrated label probabilities. It needs an fp8-capable GPU such as an RTX 4090/5090, L4 or H100; Ampere cards run with int8 weights.\n\n- [Repo on GitHub](https://github.com/spinfinc/spinf-serve)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50306815)"
+    },
+    {
+      "id": "reading:abakcus-britney-gallivan-paper-folding",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How many times can you fold paper? Britney Gallivan's 12 folds",
+      "description": "Why a sheet of A4 gives up at about seven folds, how 42 doublings would reach the Moon, and how high-school student Britney Gallivan derived the folding-loss formula and folded a 1.2 km strip of paper in half twelve times in 2002.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/britney-gallivan-paper-folding",
+      "createdAt": "2026-10-30T00:00:00Z",
+      "content": "An interactive essay on exponential growth. Each fold doubles the thickness and halves the length: fold 30 crosses the edge of space, and by fold 31 the width of an A4 page is down to one atom. Gallivan worked out how much paper each bend consumes, giving separate formulas for folding the same way every time and for alternating directions. Those formulas show why seven is a real limit for A4. To beat it, she bought a 4,000-foot roll of industrial toilet paper and spent eight hours in a shopping-mall corridor completing twelve folds. A calculator lets you try other sheets.\n\n- [Read on Abakcus](https://abakcus.com/articles/britney-gallivan-paper-folding)"
+    },
+    {
+      "id": "reading:abakcus-vasa-ship-two-rulers",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why did the Vasa sink? The ship built with two rulers",
+      "description": "Sweden's warship Vasa sank 1,300 m into her maiden voyage in 1628. Rulers found in the wreck, marked in Swedish feet of 12 inches and Amsterdam feet of 11, may help explain why her hull is built more heavily on one side.",
+      "topics": [
+        "Science",
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/vasa-ship-two-rulers",
+      "createdAt": "2026-10-30T00:00:00Z",
+      "content": "Vasa was top-heavy after the king demanded a second gun deck, and she failed a pre-launch stability test in which thirty sailors ran across the deck. The less familiar clue: surveys show the port side is built more heavily than the starboard side. Among the carpenters' tools were rulers in two different 'feet', 29.7 cm Swedish and 28.3 cm Amsterdam. Museum researcher Fred Hocker suggests that Dutch and Swedish gangs each built a half with their own unit. That would not have sunk the ship alone, but it may have cost the last few degrees of margin she had. Interactive diagrams replay the voyage and the heel test.\n\n- [Read on Abakcus](https://abakcus.com/articles/vasa-ship-two-rulers)"
+    },
+    {
+      "id": "x:2116287303731515842",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kickstart's free App Store keyword checker shows which searches an app ranks for",
+      "description": "Paul Hudson released a free web tool for indie developers that lists the App Store search terms any app ranks for, for your own apps or competitors, with no email signup.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Paul Hudson (@twostraws)",
+      "url": "https://x.com/twostraws/status/2116287303731515842",
+      "createdAt": "2026-10-30T21:53:06Z",
+      "updatedAt": "2026-10-30T21:53:06Z",
+      "content": "Paste any app's App Store link and the free report shows up to twenty of its highest-ranking US search terms for the chosen platform, each with popularity, difficulty and the change over the last 30 days, plus a worldwide count of distinct search terms across countries. Hudson stresses there is no \"give us your email address\" or \"book a call\" step. The checker is a front door to Kickstart, his Mac app for keyword tracking, competitor research and other App Store marketing work.\n\n[Free keyword checker](https://www.kickstart.tools/check)\n\n[Post on X](https://x.com/twostraws/status/2116287303731515842)"
+    },
+    {
+      "id": "x:2116269197973930483",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "pi-rs: a Rust port of the pi coding-agent harness as a single native binary",
+      "description": "pi-rs ports pi, the minimal, extensible coding-agent harness, to Rust. It builds one native `pi` binary with the same CLI, terminal UI, session formats, RPC protocol and extension API, and runs TypeScript extensions on an embedded JavaScript engine without Node.js or Bun.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "rustaceans_rs (@rustaceans_rs)",
+      "url": "https://x.com/rustaceans_rs/status/2116269197973930483",
+      "createdAt": "2026-10-30T20:41:09Z",
+      "updatedAt": "2026-10-30T20:41:09Z",
+      "content": "According to the README, the port aims at behavioral parity with the TypeScript version, down to error messages and byte-compatible JSON, so both can share the same `~/.pi/agent` directory. Highlights:\n\n- Crates mirror the TypeScript packages: providers (Anthropic, OpenAI, Gemini, Bedrock, Mistral, OpenRouter and more), the agent loop, a differential terminal renderer, an MCP client and sandboxed code mode\n- Extensions run on the Boa engine, with oxc stripping TypeScript types and Node API shims for `fs`, `path`, `child_process`, `fetch` and more\n- HTTP goes through `reqwest` with rustls, so there is no OpenSSL dependency\n- UI components are checked line by line against renders of the TypeScript reference\n\nKnown gaps include missing decorators and no heap limit for code mode, since Boa has none.\n\n[pi-rs on GitHub](https://github.com/lassejlv/pi-rs)\n\n[Post on X](https://x.com/rustaceans_rs/status/2116269197973930483)"
+    },
+    {
+      "id": "x:2116359141966893249",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Burrow: a free, native SwiftUI Mac cleaner built on Mole",
+      "description": "Burrow is an open-source SwiftUI front end for the Mole command-line cleaner. It clears caches, uninstalls apps along with their leftovers, maps disk usage and monitors system health, as a free alternative to CleanMyMac.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "小弟调调 (@jaywcjlove)",
+      "url": "https://x.com/jaywcjlove/status/2116359141966893249",
+      "createdAt": "2026-10-31T02:38:34Z",
+      "updatedAt": "2026-10-31T02:38:34Z",
+      "content": "The repository is new (it had no stars when checked), and the post includes a short demo video. Burrow wraps Mole's cleanup engine in a native Mac interface for four jobs: cleaning caches, uninstalling apps with their leftover files, mapping the disk, and monitoring the Mac.\n\n[Burrow (Mole-GUI) on GitHub](https://github.com/khan-umirzakoff/Mole-GUI)\n\n[Post on X](https://x.com/jaywcjlove/status/2116359141966893249)"
+    },
+    {
+      "id": "x:2116203529253847165",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ContainerDesk: a native macOS workspace for Apple's container runtime",
+      "description": "ContainerDesk is a SwiftUI app for Apple's `container` runtime that lets you browse, run, build and clean up Linux containers on a Mac, with live resource gauges and a built-in terminal.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "小弟调调 (@jaywcjlove)",
+      "url": "https://x.com/jaywcjlove/status/2116203529253847165",
+      "createdAt": "2026-10-30T16:20:13Z",
+      "updatedAt": "2026-10-30T16:20:13Z",
+      "content": "Besides container management, the repository description lists a local MLX chat playground. It gives Apple's command-line `container` tool, which runs Linux containers in lightweight VMs on Apple silicon, a Docker Desktop-style GUI. The project is new and had no stars when checked.\n\n[ContainerDesk on GitHub](https://github.com/MacHatter1/ContainerDesk)\n\n[Post on X](https://x.com/jaywcjlove/status/2116203529253847165)"
+    },
+    {
+      "id": "x:2116334500552802386",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AerioTV: an open-source native IPTV player with nine-channel multiview on iPhone, iPad and Apple TV",
+      "description": "AerioTV is a GPL-3.0 native IPTV client for iPhone, iPad, Apple TV and Macs (as the iPad app). It supports M3U playlists, Xtream Codes and Dispatcharr servers, and its Multiview mode plays up to nine live channels at once.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Melooo (@BlackMelooo)",
+      "url": "https://x.com/BlackMelooo/status/2116334500552802386",
+      "createdAt": "2026-10-31T01:00:39Z",
+      "updatedAt": "2026-10-31T01:00:39Z",
+      "content": "From the README:\n\n- Live TV with an EPG grid or list, movies and series browsing, and recordings either to a Dispatcharr server or locally on the device\n- MPV-powered GPU-accelerated playback with a Stream Info overlay (codec, resolution, bitrate, dropped frames), PiP, AirPlay and a sleep timer\n- Server setups and preferences sync over iCloud, plus a Top Shelf extension on Apple TV\n- Bring your own source: the app ships no streams or playlists\n\nThere are sibling ports for Android and Roku, and the app is also on the App Store.\n\n[AerioTV on GitHub](https://github.com/jonzey231/AerioTV)\n\n[AerioTV on the App Store](https://apps.apple.com/us/app/aeriotv/id6760727974)\n\n[Post on X](https://x.com/BlackMelooo/status/2116334500552802386)"
+    },
+    {
+      "id": "x:2116354046579953940",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The physics that keeps less-invasive brain-computer interfaces from high-bandwidth I/O",
+      "description": "Leo Dobler runs through non-invasive and less-invasive BCI approaches and the physical limit each one hits. For example, fMRI can never be wearable because of its B0 magnetic field, and it is slow because it measures blood flow.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Leo Dobler (@leo_dobler)",
+      "url": "https://x.com/leo_dobler/status/2116354046579953940",
+      "createdAt": "2026-10-31T02:18:19Z",
+      "updatedAt": "2026-10-31T02:18:19Z",
+      "content": "His summary, approach by approach:\n\n| Approach | Limit |\n| --- | --- |\n| fMRI | Great for research, but never wearable because of the B0 field. Slow, since it tracks blood flow |\n| Ultrasound | Some decoding results, mostly in non-human primates plus humans with skull windows. Skull attenuation and coupling make an intact-skull wearable hard. Also tracks blood flow |\n| EEG | Volume conduction and the skull's low-pass filtering average over huge neuron populations and kill high-frequency content. Fine for demos, not for high bandwidth |\n| ECoG | Already invasive, and still mostly population LFPs. For spikes, go a layer deeper |\n| Optogenetics (\"photogenetics\" in the post) | Needs genetic modification that won't be approved soon, and still needs light delivery |\n\n[Post on X](https://x.com/leo_dobler/status/2116354046579953940)"
+    },
+    {
+      "id": "x:2116414283273949511",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CIQ's Stratum Kubernetes Engine ships Kubernetes as one signed binary with a built-in MCP server",
+      "description": "CIQ, the company behind Rocky Linux, introduced Stratum Kubernetes Engine (SKE), an Apache 2.0 Kubernetes distribution delivered as one signed file. Its built-in MCP server lets AI agents inspect clusters and, if the operator allows, change them.",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Ayaan (@twtayaan)",
+      "url": "https://x.com/twtayaan/status/2116414283273949511",
+      "createdAt": "2026-10-31T06:17:40Z",
+      "updatedAt": "2026-10-31T06:17:40Z",
+      "content": "Details from CIQ's announcement and docs:\n\n- One roughly 610 MB binary carries Kubernetes, etcd, containerd, runc, kube-vip, Cilium and CoreDNS, built from upstream source, and installs a node with `stratum up`. The same file handles joins, rolling upgrades with rollback, etcd snapshots and certificate renewal, and it is air-gapped by default\n- `stratum mcp` exposes 37 tools in three tiers. Read-only is the default, while `--allow-write` and `--allow-destructive` are separate flags, and tools above the enabled tier are never registered\n- Kubernetes RBAC still bounds every call, and Secrets stay off limits at every tier\n- It ships an AGENTS.md for agent-driven installs, docs in llms.txt format and a built-in web dashboard\n- SKE is in technical preview, with general availability expected November 5. CIQ Stratum Pro adds paid fleet management\n\n[CIQ press release](https://ciq.com/press/ciq-introduces-ciq-stratum-open-source-kubernetes-for-the-ai-era)\n\n[Stratum MCP server docs](https://docs.ciq.com/stratum/cluster-admin/mcp)\n\n[Stratum docs](https://docs.ciq.com/stratum)\n\n[Post on X](https://x.com/twtayaan/status/2116414283273949511)"
     }
   ]
 }
