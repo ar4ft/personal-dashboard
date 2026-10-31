@@ -32843,6 +32843,57 @@
       "createdAt": "2026-10-31T14:15:23Z",
       "updatedAt": "2026-10-31T14:15:23Z",
       "content": "He suggests keeping branding and components in one easy-to-find place, often a large Figma file or a design library built into an app, and notes you can now code out much of a design system through Figma MCP with Codex or Claude Code. The post points to his longer article comparing composition and progressive disclosure approaches.\n\n[The SwiftUI Design System War](https://blog.jacobstechtavern.com/p/the-design-system-war)\n\n[Post on X](https://x.com/jacobtechtavern/status/2116534501299884193)"
+    },
+    {
+      "id": "hn:50318871",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "description": "A report that GPT-5.6 Sol can complete Factorio in peaceful mode.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ryanmadden",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "createdAt": "2026-10-31T18:50:34Z",
+      "updatedAt": "2026-10-31T18:50:34Z"
+    },
+    {
+      "id": "hn:50318401",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "description": "A 2025 study on the self-reported impact of generative AI on critical thinking.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "the-mitr",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "createdAt": "2026-10-31T18:02:29Z",
+      "updatedAt": "2026-10-31T18:02:29Z"
+    },
+    {
+      "id": "hn:50320983",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Hushkey – Silent dictation hotkey for macOS",
+      "description": "Hushkey, a silent dictation hotkey tool for macOS.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "amirsyed",
+      "url": "https://github.com/amirrsyed/hushkey",
+      "createdAt": "2026-10-31T22:44:57Z",
+      "updatedAt": "2026-10-31T22:44:57Z"
     }
   ]
 }
