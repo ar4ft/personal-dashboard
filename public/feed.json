@@ -33379,6 +33379,258 @@
       "url": "https://gist.github.com/skorotkiewicz/c59e591c26661cb52b06afc42d8ac546",
       "createdAt": "2026-10-30T11:50:24Z",
       "updatedAt": "2026-10-30T11:50:24Z"
+    },
+    {
+      "id": "hn:50325454",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+      "description": "Randall Balestriero and Yann LeCun turn the Platonic Representation Hypothesis into a theorem for JEPAs: separately trained models on different modalities learn the same embedding up to a rotation when they share the same kind of positive pairs.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Randall Balestriero, Yann LeCun",
+      "url": "https://arxiv.org/abs/2610.39302",
+      "createdAt": "2026-11-01T13:24:49Z",
+      "content": "A new arXiv paper by Randall Balestriero and Yann LeCun argues that the right choice of *positive views* matters more than scale for cross-modal alignment. They prove that whitened JEPAs whose positives are two observations of the same scene (\"good views\") learn the same representation up to a rotation. They also frame next-token prediction as a \"bad-view\" JEPA.\n\n- A good-view text JEPA reaches the alignment next-token prediction gets with **42x fewer samples**\n- A 109M-parameter text JEPA beats language models up to Qwen2.5-72B on the PRH benchmark's alignment with DINOv2\n- One fitted rotation joins frozen DINOv2/DINOv3 image encoders to a text-only decoder, so images can be captioned without training a network on image-caption pairs\n- An empirical scaling law for alignment predicted 85 unseen runs about as accurately as rerunning one with another seed\n\n[Paper on arXiv](https://arxiv.org/abs/2610.39302) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50325454)"
+    },
+    {
+      "id": "hn:50328251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mathematics has changed. Let's act like it",
+      "description": "On Terence Tao's blog, Frank Calegari says mathematicians should respond to OpenAI's release of 700+ AI-generated research papers by changing how they hire, publish and train students, not by mourning.",
+      "topics": [
+        "AI",
+        "Math"
+      ],
+      "source": "Hacker News",
+      "author": "Frank Calegari (guest post on Terence Tao's blog)",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "createdAt": "2026-11-01T18:28:42Z",
+      "content": "A guest post by Frank Calegari on Terence Tao's blog, written after OpenAI's October 6 release of over 700 AI-produced research papers. Calegari calls those papers poorly written and sometimes wrong, but argues that AI now makes groundbreaking contributions. In his view, the community should take ownership of the results and get more ambitious.\n\nHis concrete proposals:\n\n1. Evaluate all work as if it were AI-assisted\n2. Make hiring about in-person interviews, not paper files\n3. Demand more from journals and abandon those that don't adapt\n4. Emphasize breadth in graduate education while keeping technical skills\n5. Give better seminars, framed around the big questions\n6. Take ownership of what AI produces\n\n[Read the post](https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50328251)"
+    },
+    {
+      "id": "hn:50299811",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "description": "Raph Levien's nibnib is a 4-bits-per-pixel image format built for DVI output on an RP2350 microcontroller. It decodes two RGB565 pixels from each input byte with a single palette lookup and add.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Raph Levien",
+      "url": "https://github.com/raphlinus/nibnib",
+      "createdAt": "2026-10-30T04:17:06Z",
+      "content": "nibnib came out of an experiment to drive DVI video from an **RP2350** microcontroller, which leaves a budget of about 6 cycles per pixel. Like a palette image, each byte indexes a palette. The difference is that the palette stores a *delta* that gets added to the doubled previous pixel, which yields two 16-bit RGB565 pixels at a time. Soft gradients come out much better than with an absolute palette.\n\nEncoding is a deliberately asymmetric search. The encoder tries all 256 palette entries for each pixel pair and spreads the error with Floyd-Steinberg dithering. The palette mixes a cube of small deltas with Gaussian-random entries to avoid overflow artifacts. The repo includes the Rust inner loop and notes on improving the encoder, such as adaptive palettes.\n\n[Repo on GitHub](https://github.com/raphlinus/nibnib) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50299811)"
+    },
+    {
+      "id": "hn:50325253",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: OmniDiff, an open-source content-aware Git difftool in Rust",
+      "description": "OmniDiff is an AGPL Rust difftool with content-specific diffing for code in 25 languages and for configs, images, PDFs, archives, cursors and fonts. Its pipelines were tuned on 2,000 hand-solved diffs from Gentoo-packaged repos.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ivankovic",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "createdAt": "2026-11-01T13:02:30Z",
+      "content": "OmniDiff aims to be a better `git difftool`. Rather than diffing whole lines, it highlights only the parts that changed and shows moved code as moved. It also diffs non-text content (images, still and animated, PDFs, archives, fonts, cursors, message catalogs) with type-specific algorithms.\n\n- The author reports C++ files of tens of thousands of lines diffed in under 100 ms on a ThinkPad T14s\n- He sampled 2,000 diffs from the 7,400 repos packaged in Gentoo and solved them by hand; that corpus also drives CI\n- The README reports 99.95% of code changes diffed, 98.8% with content-specific algorithms\n- Two-pane terminal UI with light and dark themes; v0.3.0, AGPL-3.0\n\n[Repo on GitHub](https://github.com/ivankovic/omnidiff) · [Browser showcase](https://ivankovic.github.io/omnidiff/showcase/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50325253)"
+    },
+    {
+      "id": "hn:50308754",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Copper: a minimal low-level programming language with OOP and generics",
+      "description": "Copper is a personal C replacement with type inheritance, generics, multiple return values, defer, option types, Ruby-style syntax and fast compilation, designed above all for minimalism.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tibleiz.net",
+      "url": "https://tibleiz.net/copper/",
+      "createdAt": "2026-10-30T19:09:33Z",
+      "content": "Copper's author uses it as a replacement for C. The language keeps things small and explicit so one person can understand all of it. Over C it adds:\n\n- Type inheritance for any type, plus generics\n- Multiple return values and option types\n- Out-of-order definitions and a simple import system with no headers\n- Deferred statements and simple iterators\n- Ruby-style `class ... end` syntax and fast compilation\n\n[Copper homepage](https://tibleiz.net/copper/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50308754)"
+    },
+    {
+      "id": "hn:50297068",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Much Ado About None: Sentinel Values in Python",
+      "description": "Florian Wilhelm explains why overloading None causes bugs and how sentinel values fix it, including PEP 661's sentinel built-in in Python 3.15 that type checkers can narrow like None.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Florian Wilhelm",
+      "url": "https://florianwilhelm.info/2026/10/sentinel_values/",
+      "createdAt": "2026-10-29T22:24:56Z",
+      "content": "`None` gets used for \"missing\", \"unset\", \"error\" and as a real value. That ambiguity bites in caches, config updates and functions that swallow exceptions. Based on Florian Wilhelm's talk at PyConDE, EuroPython and the Swiss Python Summit, this post covers:\n\n- Sentinels already in Python: `Ellipsis`, `NotImplemented` (double dispatch via `__rsub__`) and Pydantic's `MISSING`, now out of experimental in Pydantic 2.14\n- Why `MISSING = object()` breaks static type narrowing, and the trade-offs of `TypeIs`, `Literal` and single-member `Enum` workarounds\n- PEP 661, accepted after all: `sentinel(\"MISSING\")` is a built-in since Python 3.15, with a `typing_extensions` backport\n\n```python\nMISSING = sentinel(\"MISSING\")\n\ndef update_email(user_id: int, email: str | None | MISSING = MISSING) -> None:\n    if email is MISSING:\n        return\n```\n\n[Read the article](https://florianwilhelm.info/2026/10/sentinel_values/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50297068)"
+    },
+    {
+      "id": "hn:50274186",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Redox OS: Ring Buffers project summary",
+      "description": "Redox OS wrapped up its NLnet-funded work on io_uring-style ring buffers between applications and userspace drivers. The project reports 14-15x faster I/O than synchronous syscalls and IPC round trips cut from about 5,800 to 2,700 cycles.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Ibuki Omatsu, Anhad Singh, Jacob Lorentzon, Ron Williams",
+      "url": "https://www.redox-os.org/news/nlnet-rb-summary/",
+      "createdAt": "2026-10-28T14:27:12Z",
+      "content": "The Rust microkernel OS Redox has finished an NLnet-funded phase adding **Redox Rings**, an io_uring/liburing-like interface. Unlike Linux, the submission and completion queues are shared directly between an application and the userspace \"scheme\" daemon, never the kernel, with a zero-copy shared buffer pool.\n\n- A `redox-ring` API in relibc modeled on liburing, already used by RamFS, NVMed and RedoxFS\n- An async executor for drivers, with the NVMe driver ported to it\n- Kernel IPC work: direct context switching (15-20% lower IPC latency), skipping XSAVE/XRSTOR on syscall-driven switches, and 2M huge pages for the kernel physmap\n- IPC round-trip latency down from about 5,800 to about 2,700 cycles, still behind seL4\n\n[Read the summary](https://www.redox-os.org/news/nlnet-rb-summary/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50274186)"
+    },
+    {
+      "id": "hn:50326025",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pi is the last harness",
+      "description": "An opinion piece arguing that Pi, an open-source, vendor-agnostic and minimal coding-agent harness, could become the last widespread agentic coding harness, and that \"harness engine\" is a better term.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Destiner",
+      "url": "https://destiner.io/blog/post/pi-is-the-last-harness/",
+      "createdAt": "2026-11-01T14:27:29Z",
+      "content": "With AI coding workflows changing every few months, the author argues that what lasts is a stable, unopinionated foundation. In their view Pi is the only harness that is open source, vendor-agnostic, extensible and minimal at once. They call it a major leap over Claude Code or Codex and can't picture a 10x improvement on it.\n\nThey propose calling these tools **engines**: the substrate that unifies providers, handles compaction and retries, and marshals transcripts, which users then customize. Things to watch: Orbs/Amp per-workload VMs, the everything-is-a-plugin DeepSeek Harness, and omp's harness design breakdown.\n\n[Read the post](https://destiner.io/blog/post/pi-is-the-last-harness/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50326025)"
+    },
+    {
+      "id": "hn:50300902",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Ghostman, a keyboard-driven TUI API client and webhook inspector",
+      "description": "Ghostman is a local-first terminal alternative to Postman, built in Python with Textual. It stores collections as plain JSON/YAML, has a built-in webhook listener, and is designed for keyboard shortcuts.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "4yk5",
+      "url": "https://github.com/4yk5/Ghostman",
+      "createdAt": "2026-10-30T07:48:40Z",
+      "content": "Ghostman takes on Postman and Insomnia from the terminal. The README claims about 30 MB of RAM and roughly 150 ms cold boots. There are no accounts or cloud sync: requests and collections live as plain JSON/YAML in `~/.ghostman/`.\n\n- Response view with latency, status badges, payload size and syntax-highlighted JSON\n- Built-in webhook listener on port 9090 (`Ctrl+W`) for catching Stripe/GitHub callbacks without ngrok\n- Keyboard workflow: `Ctrl+S` send, `Ctrl+K` save, `Ctrl+N` new request\n- Installs from PyPI (Python 3.10+, MIT)\n\n[Repo on GitHub](https://github.com/4yk5/Ghostman) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50300902)"
+    },
+    {
+      "id": "reading:abakcus-heres-looking-at-euclid",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Here's Looking at Euclid: Helen Friel folds Oliver Byrne's proofs into paper",
+      "description": "Oliver Byrne's 1847 Euclid replaced letters with red, blue and yellow figures. In 2012, paper engineer Helen Friel turned those diagrams into 3D paper models, including a free Pythagorean theorem template.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/heres-looking-at-euclid",
+      "createdAt": "2026-07-28T00:00:00Z",
+      "content": "Abakcus tells the story of Oliver Byrne's 1847 *The First Six Books of the Elements of Euclid*. Byrne dropped the A-B-C labels and painted every angle and edge in primary colours. Printing each colour from its own plate made the book a commercial disaster: of 1,000 copies, 75% went unsold, and it helped bankrupt publisher William Pickering. It has since become a design classic.\n\nIn 2012 the London paper engineer Helen Friel lifted Byrne's flat diagrams into three dimensions with *Here's Looking at Euclid*, folded paper models of the proofs. One of them is a printable Pythagorean theorem template.\n\n[Read on Abakcus](https://abakcus.com/articles/heres-looking-at-euclid)"
+    },
+    {
+      "id": "reading:abakcus-einstein-emc2",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "When did Einstein first write E = mc² in his own hand?",
+      "description": "Einstein's 1905 paper never wrote E = mc². It stated that a body emitting energy L loses mass L/V². This piece traces the formula through his 1912 manuscript to a 1946 letter that sold for $1.2 million.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/einstein-emc2",
+      "createdAt": "2026-05-19T00:00:00Z",
+      "content": "Abakcus follows the paper trail of the world's most famous equation. In Einstein's September 1905 *Annalen der Physik* paper, \"Does the inertia of a body depend on its energy content?\", the result appears as a sentence: if a body gives off energy *L* as radiation, its mass diminishes by *L/V²*. Here *V* is the speed of light.\n\nThe familiar symbols arrived in his 1912 lecture notes on special relativity, where *E* replaced *L*, though he still wrote *q* for velocity. That manuscript is published as Document 1 in Volume 4 of the *Collected Papers of Albert Einstein*. The article ends with a 1946 handwritten letter containing the formula, which later sold at auction for $1.2 million.\n\n[Read on Abakcus](https://abakcus.com/articles/einstein-emc2)"
+    },
+    {
+      "id": "x:2116895016249434134",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Armin Ronacher: you don't need an existing test suite to rebuild software with an agent",
+      "description": "Armin Ronacher argues that rebuilding software with an agent doesn't require an existing test suite; it's better to have the agent build its own test suite specifically for the rebuild.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Armin Ronacher (@mitsuhiko)",
+      "url": "https://x.com/mitsuhiko/status/2116895016249434134",
+      "createdAt": "2026-11-01T14:07:56Z",
+      "updatedAt": "2026-11-01T14:07:56Z",
+      "content": "Armin Ronacher pushes back on the idea that an existing test suite is a prerequisite for rebuilding software with a coding agent. His view: it's better to have the agent build its own test suite, made specifically for the rebuild.\n\n[Post on X](https://x.com/mitsuhiko/status/2116895016249434134)"
+    },
+    {
+      "id": "x:2116876975302472003",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Before GPU Engineering: a free notebook on GPU architecture from the ground up",
+      "description": "Tech with Mak recommends Before GPU Engineering, a free, open-source structured notebook that explains GPU architecture and performance engineering from the ground up, across 56 chapters in four phases.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Tech with Mak (@techNmak)",
+      "url": "https://x.com/techNmak/status/2116876975302472003",
+      "createdAt": "2026-11-01T12:56:15Z",
+      "updatedAt": "2026-11-01T12:56:15Z",
+      "content": "Tech with Mak points to **Before GPU Engineering**, a free and open-source notebook that teaches GPU architecture and performance engineering from first principles. It is structured as a sequence of 56 chapters across four phases.\n\n[Post on X](https://x.com/techNmak/status/2116876975302472003)\n\n[Before GPU Engineering on GitHub](https://github.com/BEFORE-GPU-ENGINEERING/BEFORE-GPU-ENGINEERING)"
+    },
+    {
+      "id": "x:2116861920682860761",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LLM serving puzzle: evicting 90% of the KV cache doesn't free VRAM on vLLM",
+      "description": "Avi Chawla poses an LLM serving puzzle: on vLLM, KV cache compression evicts 90% of cached tokens, yet VRAM use doesn't drop and the GPU still runs out of memory. Why?",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Avi Chawla (@_avichawla)",
+      "url": "https://x.com/_avichawla/status/2116861920682860761",
+      "createdAt": "2026-11-01T11:56:25Z",
+      "updatedAt": "2026-11-01T11:56:25Z",
+      "content": "Avi Chawla's puzzle: you run KV cache compression on vLLM and it evicts 90% of the cached tokens, but VRAM doesn't go down and the GPU still OOMs. He gives the answer in the thread. The post quotes his article \"KV Caching in LLMs, Clearly Explained\".\n\n[Post on X](https://x.com/_avichawla/status/2116861920682860761)"
+    },
+    {
+      "id": "x:2117010797578658215",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Federico Kereki: Quotient Filters, creating and searching (Part 7)",
+      "description": "No Starch Press shares Part 7 of Federico Kereki's dev.to series, on Quotient Filters: sizing the structure, generating fingerprints and finding values, in JavaScript.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "No Starch Press (@nostarch)",
+      "url": "https://x.com/nostarch/status/2117010797578658215",
+      "createdAt": "2026-11-01T21:48:00Z",
+      "updatedAt": "2026-11-01T21:48:00Z",
+      "content": "Part 7 of Federico Kereki's (@FKereki) dev.to series covers creating and searching a Quotient Filter: how to size the structure, how to generate fingerprints and how to find values, with code in JavaScript.\n\n[Post on X](https://x.com/nostarch/status/2117010797578658215)\n\n[Part 7: Quotient Filters - Creating and Searching on DEV](https://dev.to/fkereki/part-7-quotient-filters-creating-and-searching-3of8)"
     }
   ]
 }
