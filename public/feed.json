@@ -33631,6 +33631,169 @@
       "createdAt": "2026-11-01T21:48:00Z",
       "updatedAt": "2026-11-01T21:48:00Z",
       "content": "Part 7 of Federico Kereki's (@FKereki) dev.to series covers creating and searching a Quotient Filter: how to size the structure, how to generate fingerprints and how to find values, with code in JavaScript.\n\n[Post on X](https://x.com/nostarch/status/2117010797578658215)\n\n[Part 7: Quotient Filters - Creating and Searching on DEV](https://dev.to/fkereki/part-7-quotient-filters-creating-and-searching-3of8)"
+    },
+    {
+      "id": "hn:50326821",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "description": "HackerBooks collects books mentioned on Hacker News, in the style of HackerTube for YouTube videos.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "roansh",
+      "url": "https://hackerbooks.org",
+      "createdAt": "2026-11-01T15:58:28Z",
+      "updatedAt": "2026-11-01T15:58:28Z"
+    },
+    {
+      "id": "hn:50326118",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Police chief unplugs cameras after Flock ignores contract cancellation",
+      "description": "After a city canceled its Flock contract and Flock ignored the cancellation, the police chief unplugged the cameras.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "entryleveljobsc",
+      "url": "https://www.thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras",
+      "createdAt": "2026-11-01T14:36:13Z",
+      "updatedAt": "2026-11-01T14:36:13Z"
+    },
+    {
+      "id": "hn:50326099",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "description": "Lenovo's fingerprint-secured USB drive turns out to be an ordinary unencrypted SD card inside a case.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "entryleveljobsc",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "createdAt": "2026-11-01T14:34:43Z",
+      "updatedAt": "2026-11-01T14:34:43Z"
+    },
+    {
+      "id": "hn:50325662",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "description": "Teams of AI agents set loose in Minecraft failed to build a working civilization, getting bogged down in bureaucracy.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "entryleveljobsc",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "createdAt": "2026-11-01T13:47:24Z",
+      "updatedAt": "2026-11-01T13:47:24Z"
+    },
+    {
+      "id": "hn:50321048",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Altoids Project",
+      "description": "The Altoids Project is a small hardware project housed in an Altoids tin.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "uvdn7",
+      "url": "https://uvdn7.github.io/altoids-project/",
+      "createdAt": "2026-10-31T22:54:55Z",
+      "updatedAt": "2026-10-31T22:54:55Z"
+    },
+    {
+      "id": "hn:50310038",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Understanding Email Encryption (2025)",
+      "description": "An explainer on how email encryption works.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "nmjenkins",
+      "url": "https://www.fastmail.com/blog/email-encryption/",
+      "createdAt": "2026-10-30T20:55:56Z",
+      "updatedAt": "2026-10-30T20:55:56Z"
+    },
+    {
+      "id": "hn:50314508",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: I rebuilt my old canvas 3D library as a small WebGL 2 library – phoria2",
+      "description": "Phoria2 is a small WebGL 2 library rebuilt from the author's old canvas 3D library.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kevs3d",
+      "url": "https://kevs3d.co.uk/phoria2/",
+      "createdAt": "2026-10-31T09:49:42Z",
+      "updatedAt": "2026-10-31T09:49:42Z"
+    },
+    {
+      "id": "hn:50330592",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Database Indexing Isn't Magic. Understand It from Scratch",
+      "description": "A from-scratch explainer of how database indexing works.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "birdculture",
+      "url": "https://sushantdhiman.dev/blog/database-index-from-scratch/",
+      "createdAt": "2026-11-01T22:28:50Z",
+      "updatedAt": "2026-11-01T22:28:50Z"
+    },
+    {
+      "id": "hn:50330353",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Proton's AI manifesto for software engineering",
+      "description": "Proton's manifesto sets out its stance on AI in software engineering.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jonbaer",
+      "url": "https://proton.me/blog/ai-manifesto",
+      "createdAt": "2026-11-01T21:58:17Z",
+      "updatedAt": "2026-11-01T21:58:17Z"
+    },
+    {
+      "id": "hn:50330585",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Avartha: Fastest open-weight frontier voice AI beats OpenAI, Google, and xAI",
+      "description": "Avartha is presented as a fast open-weight frontier voice AI that beats offerings from OpenAI, Google, and xAI.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "rajveerb",
+      "url": "https://avartha.ai/blog/introducing-avartha/",
+      "createdAt": "2026-11-01T22:28:27Z",
+      "updatedAt": "2026-11-01T22:28:27Z"
     }
   ]
 }
