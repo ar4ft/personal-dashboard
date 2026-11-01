@@ -33217,6 +33217,168 @@
       "createdAt": "2026-10-30T20:59:27Z",
       "updatedAt": "2026-10-30T20:59:27Z",
       "content": "Aimed at readers who saw Jev and wonder how decision models work, Barrow's article \"A Deep Dive into Decision Models\" explains how Perplexity Decider works, along with considerations for when and how to use decision models, with many Excalidraw figures.\n\n[Post on X](https://x.com/barrowjoseph/status/2116273803491995985)"
+    },
+    {
+      "id": "hn:50319358",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "description": "Anthropic is reportedly blocking users for activity related to training larger models, raising questions about how AI labs police model-training work.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "pretext",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "createdAt": "2026-10-31T19:39:19Z",
+      "updatedAt": "2026-10-31T19:39:19Z"
+    },
+    {
+      "id": "hn:50261253",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Simple circuits can create complex behaviors",
+      "description": "Aatish Bhatia explores how simple circuits can give rise to complex behaviors, building toward an intuition for how brains work.",
+      "topics": [
+        "Neural Networks",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "aatish",
+      "url": "https://aatishb.com/myriad/lets-build-a-brain/",
+      "createdAt": "2026-10-27T16:01:06Z",
+      "updatedAt": "2026-10-27T16:01:06Z"
+    },
+    {
+      "id": "hn:50320588",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ChatGPT and Codex usage limits merging",
+      "description": "OpenAI documents how ChatGPT and Codex usage limits are merging, explaining what the combined limits mean for users.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Zariel",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "createdAt": "2026-10-31T21:49:07Z",
+      "updatedAt": "2026-10-31T21:49:07Z"
+    },
+    {
+      "id": "hn:50322173",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "description": "A Brazilian court sanctioned lawyers after a court filing contained prompt-injection text, a cautionary case for AI-assisted legal work.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "doodlesdev",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "createdAt": "2026-11-01T02:19:53Z",
+      "updatedAt": "2026-11-01T02:19:53Z"
+    },
+    {
+      "id": "hn:50319110",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Electrification Could Cut Global Energy Use in Half",
+      "description": "A podcast episode argues that electrification could cut global energy use in half, making the case for electrifying energy systems.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "toomuchtodo",
+      "url": "https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/",
+      "createdAt": "2026-10-31T19:13:34Z",
+      "updatedAt": "2026-10-31T19:13:34Z"
+    },
+    {
+      "id": "hn:50303984",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Running a bootstrapped SaaS for 20 years with my brother",
+      "description": "The founders of Zamzar reflect on running a bootstrapped SaaS for 20 years with a sibling, processing 766 million files along the way.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "whyleyc",
+      "url": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
+      "createdAt": "2026-10-30T13:58:42Z",
+      "updatedAt": "2026-10-30T13:58:42Z"
+    },
+    {
+      "id": "hn:50290480",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "No AI, 52 min. Build all Linux Files utils in C by Hand [video]",
+      "description": "A 52-minute video walks through building all the Linux file utilities in C by hand, without AI assistance.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "surprisetalk",
+      "url": "https://www.youtube.com/watch?v=gQRmSlcTq9c",
+      "createdAt": "2026-10-29T15:20:04Z",
+      "updatedAt": "2026-10-29T15:20:04Z"
+    },
+    {
+      "id": "hn:50322022",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "description": "A 2024 paper describes leaking secrets from air-gapped computers by spelling out radio signals emitted from RAM.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "hapax_legomena",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "createdAt": "2026-11-01T01:46:29Z",
+      "updatedAt": "2026-11-01T01:46:29Z"
+    },
+    {
+      "id": "hn:50321522",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+      "description": "BBRouter simulates Ben Eater's 8-bit computer on 3D breadboards, bringing the classic breadboard computer project into an interactive simulation.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "creack",
+      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+      "createdAt": "2026-11-01T00:10:30Z",
+      "updatedAt": "2026-11-01T00:10:30Z"
+    },
+    {
+      "id": "hn:50302686",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Decode kernel panic from QR Code photo",
+      "description": "A gist shows how to decode a kernel panic from a photo of its QR code, turning a crash screen into readable diagnostic information.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "modinfo",
+      "url": "https://gist.github.com/skorotkiewicz/c59e591c26661cb52b06afc42d8ac546",
+      "createdAt": "2026-10-30T11:50:24Z",
+      "updatedAt": "2026-10-30T11:50:24Z"
     }
   ]
 }
