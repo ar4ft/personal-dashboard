@@ -32894,6 +32894,329 @@
       "url": "https://github.com/amirrsyed/hushkey",
       "createdAt": "2026-10-31T22:44:57Z",
       "updatedAt": "2026-10-31T22:44:57Z"
+    },
+    {
+      "id": "hn:50323088",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The AI cost of JavaScript frameworks: a benchmark of coding agents building the same app",
+      "description": "Nolan Lawson had Claude Code build the same Pokémon app five times in each of 13 frameworks and compared cost, time, code size and Lighthouse scores.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Nolan Lawson",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "createdAt": "2026-11-01T06:06:19Z",
+      "updatedAt": "2026-11-01T06:06:19Z",
+      "content": "Nolan Lawson wanted evidence instead of vibes for claims that some frameworks are \"better for agents\", so he specced a small PokéAPI app, had Opus 5.5 build it with Next.js, Nuxt, SvelteKit, Astro, Angular, Qwik, Hono+htmx, vanilla Vite and others (each with its official MCP or skills), and graded the output against an accessibility-tree conformance suite. Medians of five runs show SvelteKit, Gracile+Lit and Angular costing noticeably more to build, partly because agents had to read migration guides or framework source for tools newer than their training data, while results overall are very stochastic. The benchmark is on GitHub for others to fork.\n\n- [Read the post](https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50323088)"
+    },
+    {
+      "id": "hn:50320995",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Memdoor: a team of five Qwen3.8-27B models matches a paper's LiveCodeBench Hard harness, ahead of a single Fable 5 call",
+      "description": "A Memdoor workflow example recreates a multi-agent problem-solving method with five small Qwen models talking only through files, scoring 9.8/10 on ten LiveCodeBench Hard problems.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "guregodevo",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "createdAt": "2026-10-31T22:46:12Z",
+      "updatedAt": "2026-10-31T22:46:12Z",
+      "content": "The team-solve example splits a programming problem across a planner, two ideators, a solver, a manager and a repair worker, each starting from a fresh context and communicating only through files on disk; a script running the samples, not a model, decides success. Rebuilt as eight YAML files on Qwen3.8-27B, it averaged 9.8 of 10 on the first ten LiveCodeBench Hard problems (five passes each) versus 9.6 for the original authors' harness and 8.0 for one Fable 5 call, at a median of 40 minutes and $0.39 per run. The README is candid about limits: the sample is tiny, the claim is parity rather than a gain, and the 2025 contests may be in the model's training data.\n\n- [View the team-solve workflow](https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50320995)"
+    },
+    {
+      "id": "hn:50320599",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI text watermarking and quality loss",
+      "description": "Keyvan argues that SynthID-style text watermarking does reduce quality, because its own paper admits watermarked responses are less diverse across repeated samples.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Keyvan",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "createdAt": "2026-10-31T21:50:13Z",
+      "updatedAt": "2026-10-31T21:50:13Z",
+      "content": "With major labs set to watermark text output under the EU AI Act, the post digs into the claim that watermarking doesn't hurt quality. Google's SynthID-Text paper guarantees non-distortion only for single responses and acknowledges a diversity/detectability trade-off: repeated samples of the same prompt look more alike. That matters for hitting retry on a sentence, for creative writing, and for self-consistency tricks that sample several answers to gauge confidence, and the post cites a reproduction where four of five watermarked answers opened almost identically.\n\n- [Read the essay](https://blog.keyvan.net/p/ai-text-watermarking-and-quality)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50320599)"
+    },
+    {
+      "id": "hn:50320734",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Beating the compiler at signed 32-bit division",
+      "description": "Daniel Lemire shows that on 64-bit CPUs you can divide signed 32-bit integers by constants with fewer instructions than GCC and LLVM emit.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Daniel Lemire",
+      "url": "https://lemire.me/blog/2026/10/31/beating-the-compiler-at-signed-32-bit-division/",
+      "createdAt": "2026-10-31T22:08:04Z",
+      "updatedAt": "2026-10-31T22:08:04Z",
+      "content": "Hardware division costs 7 to 13 cycles while multiplication costs about 3, so compilers turn division by a constant into a multiply and shift. For 38% of divisors between 3 and 1000 the ideal multiplier needs 33 bits, and GCC and LLVM add a correction step. Lemire observes that for signed 32-bit inputs on a 64-bit machine the 33-bit multiplier still fits as an unsigned 32-bit value and the product fits in 64 bits, allowing shorter code sequences than the compiler's Hacker's Delight approach.\n\n- [Read the post](https://lemire.me/blog/2026/10/31/beating-the-compiler-at-signed-32-bit-division/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50320734)"
+    },
+    {
+      "id": "hn:50318748",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How MariaDB 11.8 became about 3x faster on some in-memory workloads",
+      "description": "A post-mortem of a MariaDB performance regression from 10.5, where a single buffer-pool mutex on LRU page promotion throttled in-memory read workloads.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Alessandro Vetere (MariaDB)",
+      "url": "https://mariadb.org/how-mariadb-11-8-became-about-3x-faster-on-some-in-memory-workloads-fixing-a-regression-dating-back-to-10-5/",
+      "createdAt": "2026-10-31T18:40:52Z",
+      "updatedAt": "2026-10-31T18:40:52Z",
+      "content": "After MariaDB 10.5 merged InnoDB's multiple buffer pool instances into one, a clock meant to signal that eviction had started began ticking much earlier, so even workloads that fit in memory paid for LRU management under a global buf_pool.mutex. Mark Callaghan's public sysbench runs flagged the regression (MDEV-33966). The merged fix takes the mutex out of LRU promotion on page access; on one test 11.8 went from 20,326 to 57,052 QPS, and with the fix it is about 7-9% faster than 10.4.\n\n- [Read the write-up](https://mariadb.org/how-mariadb-11-8-became-about-3x-faster-on-some-in-memory-workloads-fixing-a-regression-dating-back-to-10-5/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50318748)"
+    },
+    {
+      "id": "hn:50317580",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Maclet, a native macOS container runtime written from scratch in Rust",
+      "description": "Maclet runs Linux containers on Apple Silicon without Docker Desktop, Colima or containerd, using Apple's Virtualization framework and its own Rust runtime.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sumant1122",
+      "url": "https://github.com/sumant1122/maclet",
+      "createdAt": "2026-10-31T16:28:58Z",
+      "updatedAt": "2026-10-31T16:28:58Z",
+      "content": "Maclet is a single roughly 3.6 MB Rust binary that drives Apple's Virtualization framework through a Swift FFI bridge and implements Linux isolation itself: namespaces, cgroups v2, OverlayFS and bridge networking. The project claims sub-second boot and under 150 MB idle memory, compared with several gigabytes for Docker Desktop. These are the author's figures, and it is an early Show HN project.\n\n- [View on GitHub](https://github.com/sumant1122/maclet)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50317580)"
+    },
+    {
+      "id": "hn:50322603",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How Figma is training a Figma-fluent design editing model",
+      "description": "Figma explains how it post-trains models to make edits on the canvas, moving from supervised fine-tuning on synthetic edits to reinforcement learning with design-specific rewards.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Josh Clemm (Figma)",
+      "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+      "createdAt": "2026-11-01T04:05:23Z",
+      "updatedAt": "2026-11-01T04:05:23Z",
+      "content": "To power its design agent, Figma started with supervised fine-tuning: synthetic edit requests paired with successful changes in Figma's native format, generated by larger teacher models and filtered by deterministic validators and visual judges. That got an early Llama 3.3 70B model trained on more than 250,000 examples competitive with top models, but imitation learning generalized poorly and needed many samples, so Figma is now investing in RL environments, reward models and expert-written criteria. Evals score structure, alignment, contrast and component use separately, not as one quality number.\n\n- [Read on the Figma blog](https://www.figma.com/blog/training-a-figma-fluent-editing-model/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50322603)"
+    },
+    {
+      "id": "hn:50323353",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FineDNA: open data to train LLMs to read DNA",
+      "description": "Hugging Face released FineDNA, the full mid-training, SFT and RL data used to make Carbon-X, which taught Qwen3-14B to reason about DNA sequences.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Hugging Face",
+      "url": "https://huggingface.co/datasets/HuggingFaceBio/FineDNA",
+      "createdAt": "2026-11-01T07:13:15Z",
+      "updatedAt": "2026-11-01T07:13:15Z",
+      "content": "FineDNA covers all three training stages of Carbon-X: about 514B tokens of mid-training data across 23 sources (genomes from prokaryotes to mammals, mRNA and splicing, plus biology text from PubMed, bioRxiv and the web), 204K SFT conversations in 8 domains, and 98K RL prompts. Samples show the model annotating sequences step by step, for example spotting TATA boxes, splice sites and microRNA targets. It is released under Apache 2.0, with training code in the companion huggingface/carbon repository.\n\n- [Dataset on Hugging Face](https://huggingface.co/datasets/HuggingFaceBio/FineDNA)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50323353)"
+    },
+    {
+      "id": "hn:50319802",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "macOS 27 Golden Gate does not actually support CoreStorage or HFS+ volumes",
+      "description": "Wade Tregaskis reports that macOS 27 cannot mount, convert or even erase CoreStorage and HFS+ volumes, despite a dialog saying support ends in macOS 28.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Wade Tregaskis",
+      "url": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+      "createdAt": "2026-10-31T20:26:56Z",
+      "updatedAt": "2026-10-31T20:26:56Z",
+      "content": "macOS 15 deprecated CoreStorage and HFS+ but still let users reach their data. In macOS 27, Disk Utility fails with a cryptic disenter error and diskutil wrongly claims the volume is locked, which leaves older encrypted external drives unusable. Meanwhile a boot-time warning says the formats will lose support in macOS 28. The post documents the errors, describes a workaround and asks readers for better ones.\n\n- [Read the post](https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/)\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50319802)"
+    },
+    {
+      "id": "reading:abakcus-original-math-papers",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "22 original math papers you can read for free, from Euler to Perelman",
+      "description": "Abakcus collects 22 landmark mathematics papers with free links to the originals, noting each one's journal, language and page count.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/original-math-papers",
+      "createdAt": "2026-10-02T00:00:00Z",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "content": "Original papers are often surprisingly short: Nash's equilibrium paper is two pages, Riemann's hypothesis paper nine, and Cook's paper that started P versus NP eight, while Shannon's theory of communication is the longest at 79. The list is grouped into shelves from Euler's Basel problem (1740) to Maynard's prime gaps (2013), with English translations linked for German papers and interactive touches like a slider for Euler's π²/6 series. The suggested way in: read the introduction and the last page first.\n\n- [Read on Abakcus](https://abakcus.com/articles/original-math-papers)"
+    },
+    {
+      "id": "reading:abakcus-humans-since-1982",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Humans since 1982: the studio whose analog clocks write the time together",
+      "description": "A profile of the Stockholm studio Humans since 1982 and ClockClock 24, where 24 software-driven analog clocks line up their hands to spell the time once a minute.",
+      "topics": [
+        "Technology",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/humans-since-1982-a-million-times",
+      "createdAt": "2026-10-11T00:00:00Z",
+      "updatedAt": "2026-10-11T00:00:00Z",
+      "content": "Per Emanuelsson and Bastian Bischoff have spent 18 years on one idea: rows of analog clocks whose hands are driven by software. In ClockClock 24, each digit is a block of clocks 2 wide by 3 tall, so four digits take exactly 24 clocks. For most of the minute they spin on their own, then line up to read like a digital display. The piece covers the math of the layouts, the larger A Million Times walls (one with 576 motors), museum collections and prices.\n\n- [Read on Abakcus](https://abakcus.com/articles/humans-since-1982-a-million-times)"
+    },
+    {
+      "id": "x:2116316228046500348",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "agent-desktop: computer use for agents via the accessibility tree",
+      "description": "Lahfir introduced agent-desktop, a tool that lets agents end-to-end test desktop apps by reading them through the accessibility tree, on macOS, Windows and Linux.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Lahfir (@mdlahfir)",
+      "url": "https://x.com/mdlahfir/status/2116316228046500348",
+      "createdAt": "2026-10-30T23:48:02Z",
+      "updatedAt": "2026-10-30T23:48:02Z",
+      "content": "agent-desktop gives agents computer use on the desktop: they can E2E test desktop apps, read apps through the accessibility tree instead of pixels, drill into just part of a window to save tokens, and run many agents on one app at once. It works on macOS, Windows and Linux and installs with `npm i -g agent-desktop`. The project is published on GitHub under vercel-labs.\n\n[Post on X](https://x.com/mdlahfir/status/2116316228046500348)\n\n[agent-desktop on GitHub](https://github.com/vercel-labs/agent-desktop)\n\n[agent-desktop on npm](https://www.npmjs.com/package/agent-desktop)"
+    },
+    {
+      "id": "x:2116718037491687765",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Comparing top progressive blur implementations in iOS 27",
+      "description": "Shiro researched ways to build a progressive blur at the top of the screen in iOS 27, including native .topEdgeEffect(.hard), native .topEdgeEffect(.soft) and other approaches.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Shiro (@pakashiro)",
+      "url": "https://x.com/pakashiro/status/2116718037491687765",
+      "createdAt": "2026-11-01T02:24:41Z",
+      "updatedAt": "2026-11-01T02:24:41Z",
+      "content": "In a post (in Chinese) Shiro compares implementations of a top progressive blur in iOS 27. The native `.topEdgeEffect(.hard)` shows a clear dividing line after iOS 27's visual adjustments; the native `.topEdgeEffect(.soft)` and other approaches are also covered.\n\n[Post on X](https://x.com/pakashiro/status/2116718037491687765)"
+    },
+    {
+      "id": "x:2116793947435552946",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ai-design-check now works on mobile apps",
+      "description": "Sinan Yorulmaz ran ai-design-check on Cebbin, his team's live iOS app, applying 16 design fixes one at a time on the real app in the simulator.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Sinan Yorulmaz (@sinanyorulmazz)",
+      "url": "https://x.com/sinanyorulmazz/status/2116793947435552946",
+      "createdAt": "2026-11-01T07:26:19Z",
+      "updatedAt": "2026-11-01T07:26:19Z",
+      "content": "ai-design-check now supports mobile apps. The team ran it on Cebbin, their iOS app that is live on the App Store, and applied 16 fixes one at a time: spacing, a single accent color, less decoration, copy, hierarchy and layout. Every frame in the accompanying video is the real app running on the simulator.\n\n[Post on X](https://x.com/sinanyorulmazz/status/2116793947435552946)"
+    },
+    {
+      "id": "x:2116705214531018810",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paul Solt's agent skills for building iOS apps with Codex",
+      "description": "Paul Solt lists the agent skills he uses to build apps: Paul Hudson's SwiftUI skills, concurrency and testing skills from Antoine van der Lee, and AppCreator for Makefile workflows.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Paul Solt (@PaulSolt)",
+      "url": "https://x.com/PaulSolt/status/2116705214531018810",
+      "createdAt": "2026-11-01T01:33:44Z",
+      "updatedAt": "2026-11-01T01:33:44Z",
+      "content": "Paul Solt shares the skills he installs for agent-driven app development:\n\n1. Paul Hudson's (@twostraws) SwiftUI skills\n2. Concurrency and testing skills from @twannl\n3. AppCreator for Makefile workflows\n\nThe post quotes his article \"Install These Skills Before Codex Touches Your Xcode Project\".\n\n[Post on X](https://x.com/PaulSolt/status/2116705214531018810)"
+    },
+    {
+      "id": "x:2116846950272139559",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Temple on accurate heart-rate tracking in zones 4 and 5",
+      "description": "Deepinder Goyal says Temple wants to be the ultimate wearable for elite performance athletes, starting with heart rate, which he argues is not a solved problem, especially in zones 4 and 5.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Deepinder Goyal (@deepigoyal)",
+      "url": "https://x.com/deepigoyal/status/2116846950272139559",
+      "createdAt": "2026-11-01T10:56:56Z",
+      "updatedAt": "2026-11-01T10:56:56Z",
+      "content": "Goyal opens a thread on Temple's mission to become the ultimate wearable for elite performance athletes, beginning with the basics: heart rate. He argues accurate HR tracking is not a solved problem, especially at high intensity in zones 4 and 5.\n\n[Post on X](https://x.com/deepigoyal/status/2116846950272139559)"
+    },
+    {
+      "id": "x:2115918744308658325",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "RL with Neural Feedback: training AI models on preferences from brain signals",
+      "description": "Rahul Chhabra introduced RL with Neural Feedback (RLNF), which his team says reliably trains AI models to respond to human preferences purely from brain signals.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Rahul Chhabra (@rahulchhabra07)",
+      "url": "https://x.com/rahulchhabra07/status/2115918744308658325",
+      "createdAt": "2026-10-29T21:28:35Z",
+      "updatedAt": "2026-10-29T21:28:35Z",
+      "content": "Chhabra's team says it has found reliable ways to train AI models on human preferences using only brain signals, an approach it calls RL with Neural Feedback (RLNF). The demo shows a picture of a face that transforms itself into a version the subject finds more attractive while they look at it. These claims are the company's own.\n\n[Post on X](https://x.com/rahulchhabra07/status/2115918744308658325)"
+    },
+    {
+      "id": "x:2116273803491995985",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A deep dive into decision models and how Perplexity Decider works",
+      "description": "Joe Barrow wrote an X Article explaining how Perplexity Decider works and when and how to use decision models, illustrated with Excalidraw figures.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Joe Barrow (@barrowjoseph)",
+      "url": "https://x.com/barrowjoseph/status/2116273803491995985",
+      "createdAt": "2026-10-30T20:59:27Z",
+      "updatedAt": "2026-10-30T20:59:27Z",
+      "content": "Aimed at readers who saw Jev and wonder how decision models work, Barrow's article \"A Deep Dive into Decision Models\" explains how Perplexity Decider works, along with considerations for when and how to use decision models, with many Excalidraw figures.\n\n[Post on X](https://x.com/barrowjoseph/status/2116273803491995985)"
     }
   ]
 }
