@@ -34375,6 +34375,225 @@
       "type": "idea",
       "status": "explore",
       "source": "X digest"
+    },
+    {
+      "id": "hn:50341174",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MIT researchers find frontier LLMs can natively read and write neural network weights",
+      "description": "An MIT CSAIL study shows GPT-6 Astra can tell what a network was trained to do from raw weights, and fixed a reasoning-loop bug in Qwen3.5-0.8B by editing 0.016% of its weights, lifting MATH-500 from 7.9% to 48.1%.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "dbreunig",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "createdAt": "2026-11-02T18:21:28Z",
+      "content": "Rikiya Takehi, Jayden Teoh, Alex Zhang and Omar Khattab report \"sparks of weight-space programming\": just by looking at raw weights, GPT-6 Astra can identify a network's task, write small game-playing networks from scratch that beat PPO-trained ones, and repair a known reasoning-loop issue in **Qwen3.5-0.8B** with no gradients, raising MATH-500 from 7.9% to 48.1%.\n\n[Read the blog post](https://rikiyat.github.io/blog/weight-space-programming/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50341174)"
+    },
+    {
+      "id": "hn:50340088",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Subvocal, smart glasses that decode silently mouthed words into text",
+      "description": "YC startup The Subvocal Company is building smart glasses that let you talk to your computer without making noise by mouthing words, decoded to text at the speed of speech.",
+      "topics": [
+        "Wearables",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "aarushyadav",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "createdAt": "2026-11-02T17:16:17Z",
+      "content": "The Subvocal Company (YC F26) launched on HN with glasses that read silently mouthed words and turn them into text, so you can dictate to your computer discreetly in public. The launch post includes a video of a YC partner trying it.\n\n[Subvocal website](https://subvocal.company/)\n\n[Demo video on YouTube](https://www.youtube.com/watch?v=9QdX1eObVYI)\n\n[HN discussion](https://news.ycombinator.com/item?id=50340088)"
+    },
+    {
+      "id": "hn:50338747",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PostHog is moving its data warehouse off DuckDB to Trino",
+      "description": "Five months after rebuilding its warehouse on per-customer DuckDB, PostHog explains why DuckDB and DuckLake struggled at trillion-row cloud scale and why it is rebuilding on Trino with \"HogLake\".",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "emschwartz",
+      "url": "https://posthog.com/blog/moving-off-duckdb",
+      "createdAt": "2026-11-02T16:02:26Z",
+      "content": "PostHog praises DuckDB as probably the best single-node analytics engine, but says the same traits caused trouble in a multi-tenant cloud: complex customer queries, DuckLake built for compatibility rather than scale, a 1-trillion-row workload, and the difficulty of speaking the Postgres wire protocol. Its new warehouse runs on **Trino** with a lake layer called HogLake.\n\n[Read the post](https://posthog.com/blog/moving-off-duckdb)\n\n[HN discussion](https://news.ycombinator.com/item?id=50338747)"
+    },
+    {
+      "id": "hn:50337558",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cloudflare halved DNS build delay and cut memory use by 85%",
+      "description": "Cloudflare explains how its DNS Zone Builder moved from full rebuilds to targeted builds for zone setting changes, as zones grow past 20 million records.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "createdAt": "2026-11-02T14:47:28Z",
+      "content": "Cloudflare's Zone Builder now handles about 700 DNS record changes per second plus other zone events, with some zones holding more than 20 million records. The post walks through how they proved it was safe to rebuild only the zone setting that changed instead of the whole zone, halving build delay and cutting memory use by 85%.\n\n[Read on the Cloudflare blog](https://blog.cloudflare.com/dns-targeted-zone-builds/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50337558)"
+    },
+    {
+      "id": "hn:50341736",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Egoless Mathematics in the AI Era, a guest post on Terence Tao's blog",
+      "description": "Karthik C. S., Amit Sahai and Jie Xue argue that AI forces mathematicians to rethink what gives mathematical work its worth beyond producing results and showing individual ability.",
+      "topics": [
+        "AI",
+        "Math"
+      ],
+      "source": "Hacker News",
+      "author": "smilelamp",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "createdAt": "2026-11-02T18:54:44Z",
+      "content": "In a guest post on Terence Tao's blog, Karthik C. S., Amit Sahai and Jie Xue ask what mathematical work is for now that AI can do more of it, contrasting math as invention with math as discovery and arguing for a less ego-driven view of the field.\n\n[Read on Terence Tao's blog](https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50341736)"
+    },
+    {
+      "id": "hn:50341334",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agentic backdoors via pretraining poisoning: 0.1% poisoned data plants an RCE backdoor in a CLI agent",
+      "description": "Researchers including Nicholas Carlini pretrained Qwen3 models from scratch and show that poisoning 0.1% of the corpus makes the resulting CLI agent run attacker-chosen commands when a trigger appears, with about 92% success at 4B.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://arxiv.org/abs/2610.37741",
+      "createdAt": "2026-11-02T18:30:58Z",
+      "content": "The paper pretrains Qwen3 models at 0.6B, 1.7B and 4B and post-trains them into CLI agents with a clean pipeline. Poisoned pretraining data alone implants a remote-code-execution backdoor that fires on a trigger while the agent behaves normally otherwise; attack success grows with model size and stays positive even at a 0.0005% poison rate.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.37741)\n\n[HN discussion](https://news.ycombinator.com/item?id=50341334)"
+    },
+    {
+      "id": "hn:50341502",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SOML, a new config format for humans",
+      "description": "SOML (\"Sindre's Objectively Marvelous Language\") is a config format with no top-level braces, unquoted keys, syntax-determined types, and real date, instant and duration values.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "microflash",
+      "url": "https://github.com/soml-lang/soml",
+      "createdAt": "2026-11-02T18:42:04Z",
+      "content": "SOML aims to be pleasant to write and easy to read: line breaks replace commas, comments go almost anywhere, `'123'` is a string and `123` is an int, and values like `2026-09-19T14:00:00Z` and `30s` are first-class. It ships a spec, a canonical form, a shared conformance suite and comparisons with other formats.\n\n[Repo on GitHub](https://github.com/soml-lang/soml)\n\n[HN discussion](https://news.ycombinator.com/item?id=50341502)"
+    },
+    {
+      "id": "hn:50336405",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Trail of Bits uses Codex to backport security fixes into stable Linux releases",
+      "description": "Trail of Bits cut backport prep from days to hours per fix with a Codex workflow, helping land fixes for 149 CVEs in stable Linux kernels plus Fedora and Ubuntu packages by October 29.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ingve",
+      "url": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/",
+      "createdAt": "2026-11-02T13:13:12Z",
+      "content": "Agents find missing fixes, adapt patches to older code, gather validation evidence, run tests and prepare submission packets, while engineers review and submit to maintainers. A straightforward backport now takes about 30 minutes of human attention, and an involved one around three hours.\n\n[Read on the Trail of Bits blog](https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50336405)"
+    },
+    {
+      "id": "hn:50336379",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A $48 TRMNL e-paper display kit you can make show anything",
+      "description": "Ars Technica reviews Seeed Studio's $48 DIY e-paper kit built with TRMNL, an always-on, subscription-free display that works with whatever software ecosystem you prefer.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "evolve2k",
+      "url": "https://arstechnica.com/gadgets/2026/11/this-48-e-paper-display-can-be-whatever-you-want-it-to-be/",
+      "createdAt": "2026-11-02T13:11:20Z",
+      "content": "The Seeed Studio kit, made in collaboration with TRMNL, is pitched as the opposite of a $299 smart home hub: a quiet e-paper screen that refreshes itself with the information you choose and never asks for interaction.\n\n[Read on Ars Technica](https://arstechnica.com/gadgets/2026/11/this-48-e-paper-display-can-be-whatever-you-want-it-to-be/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50336379)"
+    },
+    {
+      "id": "x:2117135134881357832",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CaPtain: an open recipe for post-training a 4B code-as-policy robot agent",
+      "description": "CaPtain post-trains Qwen3.5-4B to drive a robot arm by writing code against low-level IK only, raising LIBERO success from 0 to 73.8 with SFT plus RL, and releases weights, harness and training code.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Yijia Fan (@YijiaFanCSAI)",
+      "url": "https://x.com/YijiaFanCSAI/status/2117135134881357832",
+      "createdAt": "2026-11-02T06:02:05Z",
+      "content": "The harness gives the model no pick-and-place primitives, so it has to decompose tasks into code in a ReAct loop with self-correction. Training is SFT on distilled GPT-6 Astra trajectories, then on-policy RL in simulation with a privileged critic; LIBERO success goes 0.0, 55.4, then 73.8, and it deploys zero-shot on a real robot.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.40799)\n\n[Hugging Face paper page](https://huggingface.co/papers/2610.40799)\n\n[Code on GitHub](https://github.com/waltstephen/CaPtain)"
+    },
+    {
+      "id": "x:2117187588008419459",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent AI-Infra-Guard 4.6.8 splits its AI security scanners into pip packages",
+      "description": "Tencent's open-source AI red-teaming platform now ships each scanner as its own CLI: AI infra CVE scanning, LLM jailbreak evals, MCP server audits, Agent Skill audits and agent red teaming.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Tencent AI (@TencentAI_News)",
+      "url": "https://x.com/TencentAI_News/status/2117187588008419459",
+      "createdAt": "2026-11-02T09:30:31Z",
+      "content": "With v4.6.8 you no longer need the web service: `pip install aig-mcp-scan` audits MCP servers, `aig-skill-scan` audits Agent Skills, `aig-model-scan` runs LLM security and jailbreak evals, `aig-infra-scan` fingerprints AI infrastructure for CVEs, and `aig-agent-scan` red-teams agents.\n\n[Repo on GitHub](https://github.com/Tencent/AI-Infra-Guard)"
+    },
+    {
+      "id": "x:2117065639646879980",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "aimux: a Rust LLM access layer with Swift, Python, Go and other bindings",
+      "description": "aimux puts model calls behind one LanguageModel interface across hosted and local providers, with fallback routing and record-and-replay for offline regression tests; MIT licensed.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Dan Kornas (@DanKornas)",
+      "url": "https://x.com/DanKornas/status/2117065639646879980",
+      "createdAt": "2026-11-02T01:25:56Z",
+      "content": "aimux handles provider access only, not agent loops or RAG. Its Rust core has bindings for Python, Node.js, Go, Swift, Kotlin, Java, Flutter and C, presets for local engines like Ollama and vLLM, per-call routing with fallback, and JSONL record and replay of request/response pairs.\n\n[Original post on X](https://x.com/DanKornas/status/2117065639646879980)"
+    },
+    {
+      "id": "reading:abakcus-mathematics-in-movies",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mathematics in Movies: 30 scenes where math steals the show",
+      "description": "Abakcus fact-checks the math in thirty film scenes, from Good Will Hunting to Mean Girls, with five playable and a catalog of 168 more math movies.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/mathematics-in-movies",
+      "createdAt": "2026-10-31T00:00:00Z",
+      "content": "Ali Kaya goes through thirty movie scenes where the mathematics on screen is real, explaining and fact-checking each one, from *Good Will Hunting* to *Mean Girls*. Five of the scenes are playable on the page, and it ends with a catalog of 168 more films with math in them.\n\n[Read on Abakcus](https://abakcus.com/articles/mathematics-in-movies)"
     }
   ]
 }
