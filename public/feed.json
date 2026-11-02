@@ -34075,6 +34075,172 @@
       "url": "https://x.com/TelecomTalk/status/2117230931958464570",
       "createdAt": "2026-11-02T12:22:45Z",
       "content": "**Temple**, the head-mounted health wearable from Deepinder Goyal, is now open for pre-order in India. According to TelecomTalk:\n\n- Price: Rs 85,000, in multiple colours\n- Up to 25 days of battery life\n- 24/7 health tracking\n- Deliveries expected within 3 months, made to order\n\n[Post on X](https://x.com/TelecomTalk/status/2117230931958464570)"
+    },
+    {
+      "id": "hn:50312408",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "description": "PostgreSQL 19 is running late, with the post attributing the delay to a surge in bugs being found.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "soheilpro",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "createdAt": "2026-10-31T01:38:56Z",
+      "updatedAt": "2026-10-31T01:38:56Z"
+    },
+    {
+      "id": "hn:50333339",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "description": "A Show HN project that surfaces Wikipedia articles mentioned on Hacker News, in the spirit of HackerTube.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "aizk",
+      "url": "https://wikihack.netlify.app",
+      "createdAt": "2026-11-02T05:06:30Z",
+      "updatedAt": "2026-11-02T05:06:30Z"
+    },
+    {
+      "id": "hn:50290533",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Point your camera at a landscape to learn about its geology",
+      "description": "A Show HN app that lets you point your camera at a landscape to learn about its geology.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "headsupernova",
+      "url": "https://outcrop.rocks/",
+      "createdAt": "2026-10-29T15:22:41Z",
+      "updatedAt": "2026-10-29T15:22:41Z"
+    },
+    {
+      "id": "hn:50280131",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Radiation Map of the World",
+      "description": "An interactive map showing radiation levels around the world.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "slater",
+      "url": "https://radiaverse.com/",
+      "createdAt": "2026-10-28T20:06:27Z",
+      "updatedAt": "2026-10-28T20:06:27Z"
+    },
+    {
+      "id": "hn:50327058",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+      "description": "Seoul Viosys has begun production of a white light emitter that does not use rare earths.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+      "createdAt": "2026-11-01T16:23:26Z",
+      "updatedAt": "2026-11-01T16:23:26Z"
+    },
+    {
+      "id": "hn:50332163",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+      "description": "The latest F/OSS Comics installment covers the beginning of BSD Unix, part three of its BSD Unix series.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "joonehur",
+      "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+      "createdAt": "2026-11-02T01:59:38Z",
+      "updatedAt": "2026-11-02T01:59:38Z"
+    },
+    {
+      "id": "hn:50271106",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tips for more effective fuzz testing with AFL++",
+      "description": "Tips for getting more effective results from fuzz testing with AFL++.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "luu",
+      "url": "https://nullprogram.com/blog/2025/02/05/",
+      "createdAt": "2026-10-28T09:46:12Z",
+      "updatedAt": "2026-10-28T09:46:12Z"
+    },
+    {
+      "id": "hn:50331784",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Trigger.dev customer environment variables exposed",
+      "description": "Trigger.dev reports that customer environment variables were exposed in a security incident.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "anurag",
+      "url": "https://trigger.dev/blog/security-incident-nov-2026",
+      "createdAt": "2026-11-02T01:09:16Z",
+      "updatedAt": "2026-11-02T01:09:16Z"
+    },
+    {
+      "id": "hn:50334038",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "description": "A research note on China's first frontier AI export controls under Mofcom Announcement No. 48.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jonnybgood",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "createdAt": "2026-11-02T07:27:28Z",
+      "updatedAt": "2026-11-02T07:27:28Z"
+    },
+    {
+      "id": "hn:50336134",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The AI Agent Memory Stack: Building Blocks, Patterns, and Frameworks",
+      "description": "An overview of the building blocks, patterns, and frameworks behind the AI agent memory stack.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "eigenBasis",
+      "url": "https://machinelearningmastery.com/the-ai-agent-memory-stack-building-blocks-patterns-and-frameworks/",
+      "createdAt": "2026-11-02T12:50:38Z",
+      "updatedAt": "2026-11-02T12:50:38Z"
     }
   ]
 }
