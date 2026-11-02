@@ -34241,6 +34241,140 @@
       "url": "https://machinelearningmastery.com/the-ai-agent-memory-stack-building-blocks-patterns-and-frameworks/",
       "createdAt": "2026-11-02T12:50:38Z",
       "updatedAt": "2026-11-02T12:50:38Z"
+    },
+    {
+      "id": "x:2116184130459205933",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "UMI-Live open-sources a two-handed robot data rig with 40 hours of data",
+      "description": "A fully open-source bimanual handheld gripper rig with its own camera, LiDAR, compute and battery per hand that turns demonstrations into LeRobot datasets on Hugging Face.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Amish Sethi (@amish_sethi04)",
+      "url": "https://x.com/amish_sethi04/status/2116184130459205933",
+      "createdAt": "2026-10-30T15:03:08Z",
+      "content": "**UMI-Live** is a handheld, two-gripper data collection rig for robot learning. Each gripper carries its own camera, LiDAR, compute and battery, so there are no base stations or scene calibration: press one button and both hands record. A pipeline runs SLAM on finished episodes in parallel and publishes validated LeRobot datasets to Hugging Face.\n\nThe team says VLAs fine-tuned mostly on this data hit 10/10 (π0.5) and 8/10 (MolmoAct2) on a real bimanual pick-and-place task. They released about 40 hours (3,255 episodes) across orange placing, water pouring and towel folding, plus hardware designs and build guides.\n\n- [UMI-Live project site](https://umi-live.github.io/)\n- [Hardware build guide](https://umi-live.github.io/hardware.html)\n- [Paper on arXiv](https://arxiv.org/abs/2610.39385)\n\n[Post on X](https://x.com/amish_sethi04/status/2116184130459205933)"
+    },
+    {
+      "id": "x:2116857257245987236",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepSeek open-sources Super-agent, a proactive coding agent that answers with pull requests",
+      "description": "DeepSeek's harness team released dsh-superagent-prototype, an MIT-licensed research prototype that watches one GitHub repo and team chat, routes work to isolated workers and replies with PRs.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "DeepSeek Harness (@DeepSeekHarness)",
+      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+      "createdAt": "2026-11-01T11:37:54Z",
+      "content": "DeepSeek's harness team published a design article, *Exploring Super-agent Design: Towards a More Autonomous Agent System*, alongside an open-source prototype. The agent listens to a GitHub repo (and optionally Feishu team chats), acts only when asked or when a team rule allows, hands each task to an isolated worker session through a router, and replies in the original thread with a pull request. Its stated goal is to take as little human attention as possible.\n\nIt is MIT-licensed and explicitly labeled a research prototype, not a product. The article post drew over 11,000 likes.\n\n- [dsh-superagent-prototype on GitHub](https://github.com/deepseek-ai/dsh-superagent-prototype)\n\n[Post on X](https://x.com/DeepSeekHarness/status/2116857257245987236)"
+    },
+    {
+      "id": "x:2116822853316485445",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ESP-FLUTTER: an ESP32-C3 robotic butterfly that actually flies by flapping",
+      "description": "A 70 g servo-driven ornithopter built on a Seeed XIAO ESP32-C3, flown from a phone web app or an RC transmitter, with free firmware, Gerbers and wing blueprints.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Praveen Kumar Verma (@Alacritic_Super)",
+      "url": "https://x.com/Alacritic_Super/status/2116822853316485445",
+      "createdAt": "2026-11-01T09:21:11Z",
+      "content": "**ESP-FLUTTER** by maker Max Imagination is a bionic RC butterfly. Two fast 7.4 V servos flap carbon-rod wings covered in thin plastic film, and it turns by flapping one wing harder than the other, with no rudder or propeller. Control is through a phone web app over ESP-NOW or a standard ELRS transmitter, and LEDs line the wings for night flying. It weighs 70 g with battery and took about four months of crashes to tune.\n\nThe firmware, PCB Gerbers, wing blueprints and wiring diagrams are free through the build video; firmware is under a noncommercial license and the 3D-printed frame files are sold separately.\n\nhttps://youtu.be/5Le4I-1Pf9I\n\n- [Frame files on Cults3D](https://cults3d.com/en/3d-model/game/esp-flutter-an-esp32-bionic-rc-butterfly-that-flies-3d-design-files-max_imagination)\n\n[Post on X](https://x.com/Alacritic_Super/status/2116822853316485445)"
+    },
+    {
+      "id": "x:2116994976584253697",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Glisse brings Universal Control to the iPhone with a $5 ESP32 dongle",
+      "description": "An open-source macOS menu bar app plus ESP32 firmware that lets your Mac's mouse and keyboard slide onto an iPhone by posing as a Bluetooth mouse, with no iPhone app.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "testostercode (@snouzy_biceps)",
+      "url": "https://x.com/snouzy_biceps/status/2116994976584253697",
+      "createdAt": "2026-11-01T20:45:08Z",
+      "content": "**Glisse** fills a gap Apple's Universal Control leaves: push the Mac cursor past the edge of the screen and it lands on your iPhone. A menu bar app forwards mouse and keyboard input to a $5 ESP32 that presents itself to the phone as a Bluetooth mouse and keyboard, so nothing needs to be installed on the iPhone.\n\n- [Glisse on GitHub](https://github.com/Snouzy/glisse)\n\n[Post on X](https://x.com/snouzy_biceps/status/2116994976584253697)"
+    },
+    {
+      "id": "x:2116878227335778610",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EdgeBar turns MacBook trackpad edges into volume and brightness sliders",
+      "description": "A first Mac app that took 200+ orders on its launch day: slide along the trackpad edges to change volume and brightness, with music control and haptic feedback.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Shashank Bhardwaj (@bhardwajshash)",
+      "url": "https://x.com/bhardwajshash/status/2116878227335778610",
+      "createdAt": "2026-11-01T13:01:13Z",
+      "content": "**EdgeBar** maps the edges of the MacBook trackpad to sliders: run a finger along an edge to change volume or brightness, with music controls and haptic feedback. The developer says a Reddit launch brought in more than 200 orders on day one, and the launch post passed 1,100 likes and 100,000 views.\n\n- [EdgeBar website](https://edgebar.xyz)\n\n[Post on X](https://x.com/bhardwajshash/status/2116878227335778610)"
+    },
+    {
+      "id": "x:2116984285185941976",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "diffreview gives local Claude Code changes a GitHub-style PR review on Mac",
+      "description": "An open-source native macOS app: run diffreview in a repo, leave inline, range and file comments on the local diff, and the submitted review prints as Markdown for Claude Code to address.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Cezar Halmagean (@chalmagean)",
+      "url": "https://x.com/chalmagean/status/2116984285185941976",
+      "createdAt": "2026-11-01T20:02:39Z",
+      "content": "**diffreview** is a small native macOS tool for reviewing what a coding agent wrote before it lands. Run `diffreview` (or `diffreview --base main`) in a git repo and a window opens with the diff. Comment on lines, ranges or whole files, add a summary and submit: the review goes to stdout as Markdown and the process exits, so the bundled `/diffreview` Claude Code command feeds it straight back to the agent. Drafts autosave in `.git/diffreview/`.\n\nIt needs macOS 14+ and a Swift 6 toolchain, and the README notes you must raise Claude Code's 2-minute Bash timeout for longer reviews.\n\n- [diffreview on GitHub](https://github.com/chalmagean/diffreview)\n\n[Post on X](https://x.com/chalmagean/status/2116984285185941976)"
+    },
+    {
+      "id": "ideas:xcode-agent-review-loop",
+      "title": "Xcode review loop for coding agent changes",
+      "description": "For iOS and Mac developers who use Claude Code or Codex: a native Mac tool that shows an agent's branch as a PR-style diff, collects inline comments, and sends them back to the agent along with failing xcodebuild test results.",
+      "nextStep": "Write a Swift CLI that runs git diff against the merge base plus xcodebuild test, and prints changed files and failing tests as one Markdown prompt; try it on one of your own app repos.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "createdAt": "2026-11-02T14:30:00Z",
+      "content": "## How it works\n\ndiffreview proved that reviewing agent output like a pull request and piping the comments back works. For Apple developers the missing half is the build: this tool runs `xcodebuild test` on the agent's branch, pins failing tests and compiler errors next to the lines that changed, lets you add your own inline comments, then hands everything to the agent as one prompt. Like DeepSeek's Super-agent, it only acts when you submit, so the agent is not nagging you.\n\n```mermaid\nflowchart LR\n  Agent[Coding agent branch] --> Diff[Diff vs merge base]\n  Agent --> Build[xcodebuild test]\n  Build --> Errors[Failing tests and errors]\n  Diff --> Review[PR-style review window]\n  Errors --> Review\n  Review --> Prompt[Markdown review prompt]\n  Prompt --> Agent\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Diff | git CLI with merge-base |\n| Build and tests | xcodebuild plus xcresulttool JSON |\n| Review UI | SwiftUI Mac app |\n| Agent hand-off | stdout Markdown and a Claude Code slash command |\n| Storage | JSON drafts in .git |\n\n## Hard parts\n\n- Mapping xcresult failures and compiler diagnostics back to exact diff lines.\n- Keeping builds fast enough to run on every review round.\n- A readable diff view for SwiftUI and project.pbxproj changes.\n\n## Effort\n\nA weekend for the CLI prompt builder; two to three weeks for a polished review window.\n\n## Inspired by\n\n- [diffreview post on X](https://x.com/chalmagean/status/2116984285185941976)\n- [diffreview on GitHub](https://github.com/chalmagean/diffreview)\n- [DeepSeek Super-agent post on X](https://x.com/DeepSeekHarness/status/2116857257245987236)\n- [dsh-superagent-prototype on GitHub](https://github.com/deepseek-ai/dsh-superagent-prototype)",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest"
+    },
+    {
+      "id": "ideas:iphone-robot-demo-recorder",
+      "title": "iPhone app that records robot training demos like a handheld UMI",
+      "description": "An iPhone app that uses the camera, LiDAR and motion tracking to record your hand demonstrations of a task and exports them as LeRobot datasets for training small robot policies.",
+      "nextStep": "Build a SwiftUI prototype that records ARKit camera poses and video at 30 Hz during a one-button session and writes them to a folder in LeRobot's episode layout.",
+      "topics": [
+        "Machine Learning",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "createdAt": "2026-11-02T14:30:00Z",
+      "content": "## How it works\n\nUMI-Live shows that handheld demos with their own camera and LiDAR can train real robot policies without base stations. An iPhone Pro already has both, plus ARKit's visual-inertial tracking. Mount the phone on a simple 3D-printed gripper, press record, and the app logs synchronized video, 6-DoF pose and gripper opening, then converts episodes to LeRobot format and uploads them to Hugging Face.\n\n```mermaid\nflowchart LR\n  Phone[iPhone on printed gripper] --> Track[ARKit pose and LiDAR depth]\n  Phone --> Video[Wrist camera video]\n  Track --> Episode[Synced episode]\n  Video --> Episode\n  Episode --> Convert[LeRobot dataset]\n  Convert --> Hub[Hugging Face upload]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Tracking | ARKit world tracking and scene depth |\n| Recording | AVFoundation at 30 Hz |\n| Gripper opening | Hall sensor over Bluetooth or a visual marker |\n| Conversion | Python LeRobot scripts on the Mac |\n| Upload | Hugging Face Hub CLI |\n\n## Hard parts\n\n- Measuring gripper jaw opening reliably from a phone.\n- ARKit drift during fast hand motion.\n- Matching the camera viewpoint to the real robot's wrist camera.\n\n## Effort\n\nOne to two weekends for recording and export; a month to train and test a policy on a cheap arm.\n\n## Inspired by\n\n- [UMI-Live post on X](https://x.com/amish_sethi04/status/2116184130459205933)\n- [UMI-Live project site](https://umi-live.github.io/)",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest"
     }
   ]
 }
