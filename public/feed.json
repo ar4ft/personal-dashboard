@@ -34594,6 +34594,107 @@
       "url": "https://abakcus.com/articles/mathematics-in-movies",
       "createdAt": "2026-10-31T00:00:00Z",
       "content": "Ali Kaya goes through thirty movie scenes where the mathematics on screen is real, explaining and fact-checking each one, from *Good Will Hunting* to *Mean Girls*. Five of the scenes are playable on the page, and it ends with a catalog of 168 more films with math in them.\n\n[Read on Abakcus](https://abakcus.com/articles/mathematics-in-movies)"
+    },
+    {
+      "id": "hn:50337608",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WTF Ubuntu?",
+      "description": "A post on the author's experience with Ubuntu.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "chalmovsky",
+      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "createdAt": "2026-11-02T14:52:00Z",
+      "updatedAt": "2026-11-02T14:52:00Z"
+    },
+    {
+      "id": "hn:50336518",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "If you love a website, back it up",
+      "description": "A post urging readers to back up websites they love.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ingve",
+      "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "createdAt": "2026-11-02T13:25:35Z",
+      "updatedAt": "2026-11-02T13:25:35Z"
+    },
+    {
+      "id": "hn:50339494",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "description": "A report that Anthropic's internal AI use, priced at retail rates, now exceeds its employee pay.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "entryleveljobsc",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "createdAt": "2026-11-02T16:40:29Z",
+      "updatedAt": "2026-11-02T16:40:29Z"
+    },
+    {
+      "id": "hn:50339913",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "description": "A Launch HN post for Momentic, agents that catch bugs by using your app.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "wuweiweiwu",
+      "url": "https://momentic.ai/",
+      "createdAt": "2026-11-02T17:05:25Z",
+      "updatedAt": "2026-11-02T17:05:25Z"
+    },
+    {
+      "id": "hn:50344670",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple reports fourth quarter results",
+      "description": "Apple's report of its fourth quarter results.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mfiguiere",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+      "createdAt": "2026-11-02T22:13:42Z",
+      "updatedAt": "2026-11-02T22:13:42Z"
+    },
+    {
+      "id": "hn:50339815",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "My Favourite Laptop",
+      "description": "A post about the author's favourite laptop.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://blog.jsbarretto.com/post/laptop",
+      "createdAt": "2026-11-02T16:59:57Z",
+      "updatedAt": "2026-11-02T16:59:57Z"
     }
   ]
 }
