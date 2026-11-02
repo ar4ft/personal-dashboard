@@ -33794,6 +33794,287 @@
       "url": "https://avartha.ai/blog/introducing-avartha/",
       "createdAt": "2026-11-01T22:28:27Z",
       "updatedAt": "2026-11-01T22:28:27Z"
+    },
+    {
+      "id": "hn:50335658",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CheerpJ 5.0 runs Java 21 and 25 in the browser with a full OpenJDK",
+      "description": "Leaning Technologies' CheerpJ 5.0 brings Java 21 and 25, a complete OpenJDK build, and an experimental WasmGC execution engine to running unmodified Java in the browser.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Leaning Technologies",
+      "url": "https://labs.leaningtech.com/blog/cheerpj-5.0",
+      "createdAt": "2026-11-02T11:55:38Z",
+      "content": "Leaning Technologies released **CheerpJ 5.0**, its WebAssembly-based JVM for running unmodified Java apps and applets in the browser. The release adds Java 21 and Java 25 support, ships a complete OpenJDK build, and introduces an experimental execution engine built on WasmGC, the WebAssembly garbage-collection proposal.\n\n[CheerpJ 5.0 announcement](https://labs.leaningtech.com/blog/cheerpj-5.0) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50335658)"
+    },
+    {
+      "id": "hn:50334704",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: syscall.sh, Linux system call tables for 27 architectures",
+      "description": "syscall.sh lists every Linux system call number, argument and register for 27 architectures from Linux 3.3 to 7.3, now with a kernel selector, descriptions and a JSON API.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "guitmz",
+      "url": "https://syscall.sh/",
+      "createdAt": "2026-11-02T09:29:16Z",
+      "content": "**syscall.sh** by guitmz, first released in 2020, got a big update: syscall tables for 27 architectures (x86_64, i386, arm64, ARM EABI, RISC-V and more), a kernel version selector covering Linux 3.3 to 7.3, per-syscall descriptions with arguments and registers, and better mobile layout. Everything is also available through a public API.\n\n[syscall.sh](https://syscall.sh/) · [syscall.sh API](https://api.syscall.sh) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50334704)"
+    },
+    {
+      "id": "hn:50323848",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenIDEA: an IntelliJ-style IDE rebuilt in Rust",
+      "description": "OpenIDEA is an open-source native IDE written in Rust that copies IntelliJ IDEA's keymap, tool windows and search-everywhere, with code insight, a debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "l0ng-ai",
+      "url": "https://github.com/l0ng-ai/openidea",
+      "createdAt": "2026-11-01T09:15:26Z",
+      "content": "**OpenIDEA** aims to give JetBrains users a familiar IDE without the JVM. It's a fast native Rust app with the IntelliJ IDEA keymap, tool windows and search-everywhere. It bundles an editor with code insight, a debugger, Git integration, a terminal, and database and HTTP clients, covering 60+ languages.\n\n[OpenIDEA on GitHub](https://github.com/l0ng-ai/openidea) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50323848)"
+    },
+    {
+      "id": "hn:50324114",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Introducing Kwi, a new KDE terminal emulator",
+      "description": "KDE developer Eike Hein has started Kwi, a new modern and fast terminal for KDE Plasma and other free desktops that follows the latest KDE HIG and UI conventions.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Eike Hein",
+      "url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+      "createdAt": "2026-11-01T10:04:22Z",
+      "content": "Eike Hein announced **Kwi** (pronounced \"kwee\"), a new KDE terminal emulator. The goal is a modern, fast terminal on a robust tech stack that follows KDE's current Human Interface Guidelines, with a deliberately \"unexciting\" product vision: just what you'd expect from a Plasma terminal, done well.\n\n[Introducing Kwi on KDE Blogs](https://blogs.kde.org/2026/11/01/introducing-kwi/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50324114)"
+    },
+    {
+      "id": "hn:50321436",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Constructing a quine from Kleene's second recursion theorem",
+      "description": "A walkthrough that derives a working quine directly from Kleene's second recursion theorem, first in classical computability terms and then in untyped lambda calculus.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "emarzion",
+      "url": "https://emarzion.github.io/KSRT/",
+      "createdAt": "2026-10-31T23:55:21Z",
+      "content": "Quines (programs that print their own source) are known to follow from **Kleene's second recursion theorem**. This post on the Normal Form blog checks how directly you can turn the proof into a real quine. It covers the classical computability view, a functional-programming reading of the theorem, some logical digressions, and finally builds a quine step by step in untyped lambda calculus.\n\n[Read the post](https://emarzion.github.io/KSRT/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50321436)"
+    },
+    {
+      "id": "hn:50317331",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: a USB-C LTE modem that gives a computer a phone line",
+      "description": "An open-hardware USB-C board that provides LTE data, SMS and voice calls with call audio over USB; the 4-layer KiCad design was generated by the Koppar AI tool from a one-page spec.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Koppar",
+      "url": "https://github.com/Koppar-AI/koppar-lte-modem",
+      "createdAt": "2026-10-31T15:56:41Z",
+      "content": "This open-source **USB-C LTE modem** plugs into a computer and exposes LTE data, SMS and full voice calls, with the call audio carried over USB so the computer acts as the phone. The 4-layer KiCad board was designed by **Koppar**, an AI hardware-design tool, from a one-page specification, and the schematics and layout are on GitHub.\n\n[Project on GitHub](https://github.com/Koppar-AI/koppar-lte-modem) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50317331)"
+    },
+    {
+      "id": "hn:50320255",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic restricts Claude from reverse-engineering and cloning video games",
+      "description": "Anthropic added safeguards that stop Claude from helping recreate or reverse-engineer video games, and developers report the blocks also catch legitimate game work and basic troubleshooting.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Mashable",
+      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "createdAt": "2026-10-31T21:07:58Z",
+      "content": "Mashable reports that Anthropic now blocks Claude from helping clone or reverse-engineer video games. Users say the restrictions are broad enough to hit legitimate game developers and even generic reverse-engineering or debugging tasks, which sparked a long debate about how AI coding tools should handle copyright-sensitive work.\n\n[Mashable article](https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering) · [Tom's Hardware coverage](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50320255)"
+    },
+    {
+      "id": "hn:50331998",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI can write more of the code, but we still have to engineer the system",
+      "description": "Armando Picón argues that AI-assisted development still depends on durable decisions, relevant context and small verifiable increments to keep engineering judgment in the loop.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Armando Picón",
+      "url": "https://picon.dev/en/publications/ai-assisted-engineering/",
+      "createdAt": "2026-11-02T01:35:02Z",
+      "content": "Armando Picón's essay lays out a pragmatic loop for AI-assisted development: **intent, generation, verification and decision**. Code generation got cheaper, he argues, but architecture decisions, curated context for the model, and small verifiable increments are still the engineer's job, and they're what keeps a codebase coherent. Also available in Spanish.\n\n[Read the essay](https://picon.dev/en/publications/ai-assisted-engineering/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50331998)"
+    },
+    {
+      "id": "hn:50330005",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Asymco: Apple is the last consumer company",
+      "description": "Asymco finds Apple captures about 50% of the consumer revenue among the top half of the S&P 500, leaving the market almost no other exposure to consumers.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Asymco",
+      "url": "https://asymco.com/2026/11/01/the-last-consumer-company/",
+      "createdAt": "2026-11-01T21:20:20Z",
+      "content": "In \"The Last Consumer Company\", Asymco looks at where consumer spending shows up among the largest US public companies. Apple takes about **half of the consumer revenue** in the top half of the S&P 500, so the market offers almost no other way to invest in consumers directly. He ties that to Apple's focus, as CEO John Ternus put it, on building products that make users' lives better.\n\n[Read on Asymco](https://asymco.com/2026/11/01/the-last-consumer-company/) · [Discussion on Hacker News](https://news.ycombinator.com/item?id=50330005)"
+    },
+    {
+      "id": "reading:abakcus-why-leaves-change-color",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why leaves change color: the chemistry of autumn",
+      "description": "Abakcus explains autumn colour as chemistry: chlorophyll breaks down, yellow carotenoids hidden all summer show through, and red anthocyanins are newly built from sugar, with six interactive models.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/why-leaves-change-color",
+      "createdAt": "2026-11-01T00:00:00Z",
+      "content": "Ali Kaya walks through the molecular story behind fall foliage. A deciduous tree can't keep its leaves through a freezing winter, so it stops making **chlorophyll**, salvages what it can from the leaf, and lets it go. The yellows and oranges were there all along as **carotenoids**, masked by green, while the reds are **anthocyanins** the leaf makes from scratch out of sugar. The article includes six interactive models of four molecule families appearing and fading on different schedules.\n\n[Read on Abakcus](https://abakcus.com/articles/why-leaves-change-color)"
+    },
+    {
+      "id": "reading:abakcus-how-realistic-is-interstellar",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How realistic is Interstellar? The science behind the film",
+      "description": "A mathematician rates the physics of Interstellar, from Kip Thorne's Gargantua black hole and Miller's planet time dilation to the wormhole and tesseract, with a black hole ray-traced live in the browser.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/how-realistic-is-interstellar",
+      "createdAt": "2026-10-31T00:00:00Z",
+      "content": "Kip Thorne made Christopher Nolan promise nothing in *Interstellar* would break the laws of physics. Ali Kaya checks how close they came, rating each idea as established physics or speculation: the **Gargantua** black hole, the extreme **time dilation** on Miller's planet, the wormhole, and the tesseract. The page opens with a black hole that is ray-traced live in your browser and can be tilted by dragging.\n\n[Read on Abakcus](https://abakcus.com/articles/how-realistic-is-interstellar)"
+    },
+    {
+      "id": "x:2117213386928968007",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anatomy of a chess board in SwiftUI: layers, animations and TCA",
+      "description": "A new post in NSStudent's Swift Chess series explains how MindChess draws its board in SwiftUI with 8 ZStack layers grouped by what changes them, and why dragging lives outside the TCA store.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "NSStudent (@NSStudent)",
+      "url": "https://x.com/NSStudent/status/2117213386928968007",
+      "createdAt": "2026-11-02T11:13:02Z",
+      "content": "The latest article in NSStudent's **Swift Chess** series breaks down how the MindChess app renders its board in SwiftUI:\n\n- 8 layers in a `ZStack`, grouped by what makes each one change\n- Drag handling moved out of the store, since a mouse can send around 1,200 events per second\n- How `State` and `Action` are modeled with The Composable Architecture (TCA)\n\nThe full write-up is on nsstudent.dev, linked from the post.\n\n[Post on X](https://x.com/NSStudent/status/2117213386928968007)"
+    },
+    {
+      "id": "x:2117193545094422576",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI private SPI merges text selection across multiple Text views",
+      "description": "Vistar found a new private SwiftUI SPI, TextSelectionGroupModifier, that merges selection across several Text views, plus SPIs that customize selection order and copied text.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "ビスター (Vistar) (@vistar941)",
+      "url": "https://x.com/vistar941/status/2117193545094422576",
+      "createdAt": "2026-11-02T09:54:11Z",
+      "content": "Vistar spotted a new **private SPI** in SwiftUI: `TextSelectionGroupModifier`, which lets a selection span multiple `Text` views. `.textSelection` can exclude parts of the group, and related SPIs customize the selection order and the text that gets copied. The post includes a short demo video. Since it's private API, it's a hint of where SwiftUI is going rather than something to ship today.\n\n[Post on X](https://x.com/vistar941/status/2117193545094422576)"
+    },
+    {
+      "id": "x:2117184941872091475",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tip: wrap newer SwiftUI modifiers once instead of #available at every call site",
+      "description": "Robert shows a pattern for supporting older iOS: a softScrollingEdges(for:) extension that applies scrollEdgeEffectStyle on iOS 26 and does nothing earlier, keeping #available checks out of views.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Robert (@Developer__Rob)",
+      "url": "https://x.com/Developer__Rob/status/2117184941872091475",
+      "createdAt": "2026-11-02T09:20:00Z",
+      "content": "A small but useful SwiftUI pattern from the developer of **ComingUp**: when you need a newer modifier but still support older iOS versions, wrap it in one `View` extension. Their `softScrollingEdges(for:)` applies `scrollEdgeEffectStyle` on iOS 26 and is a no-op before that, so views don't need `#available` checks at every call site.\n\n[Post on X](https://x.com/Developer__Rob/status/2117184941872091475)"
+    },
+    {
+      "id": "x:2117186995545931816",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Adapting SwiftUI layouts for iPhone Duo",
+      "description": "A new tutorial from tanaschita.com on adapting SwiftUI layouts to the foldable iPhone Duo, shared by iOS Dev Articles.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "iOS Dev Articles (@CocoaDevBlogs)",
+      "url": "https://x.com/CocoaDevBlogs/status/2117186995545931816",
+      "createdAt": "2026-11-02T09:28:09Z",
+      "content": "tanaschita.com has a new guide on **adapting SwiftUI layouts for iPhone Duo**, Apple's foldable, shared by the iOS Dev Articles feed. Sarun W. also posted a short video showing the position and size of the device's `ReservedRegion`, which is useful context for the same layout work.\n\n[Sarun's ReservedRegion video on X](https://x.com/sarunw/status/2117210162750464429)\n\n[Post on X](https://x.com/CocoaDevBlogs/status/2117186995545931816)"
+    },
+    {
+      "id": "x:2117209483776770157",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SwiftUI's .rounded font design barely affects Japanese text",
+      "description": "Indie developer Atsushi found that SwiftUI's .rounded font design renders Japanese pixel-for-pixel the same as the default, so his widget now uses a slightly heavier weight for the rounded option.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Atsushi (@atsushi_apps)",
+      "url": "https://x.com/atsushi_apps/status/2117209483776770157",
+      "createdAt": "2026-11-02T10:57:31Z",
+      "content": "A user told indie developer Atsushi that choosing the \"rounded gothic\" font in his widget didn't change anything. He rendered both to images and found the Japanese text was **identical pixel for pixel**: SwiftUI's `.rounded` design has almost no effect on Japanese glyphs. His workaround is to make the text slightly bolder when the rounded option is selected so users can see a difference. (Post is in Japanese.)\n\n[Post on X](https://x.com/atsushi_apps/status/2117209483776770157)"
+    },
+    {
+      "id": "x:2117230931958464570",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Temple head-mounted health wearable opens pre-orders in India at Rs 85,000",
+      "description": "Deepinder Goyal's Temple wearable is now up for pre-order in India at Rs 85,000, with up to 25 days of battery, 24/7 health tracking and deliveries expected within three months.",
+      "topics": [
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "TelecomTalk (@TelecomTalk)",
+      "url": "https://x.com/TelecomTalk/status/2117230931958464570",
+      "createdAt": "2026-11-02T12:22:45Z",
+      "content": "**Temple**, the head-mounted health wearable from Deepinder Goyal, is now open for pre-order in India. According to TelecomTalk:\n\n- Price: Rs 85,000, in multiple colours\n- Up to 25 days of battery life\n- 24/7 health tracking\n- Deliveries expected within 3 months, made to order\n\n[Post on X](https://x.com/TelecomTalk/status/2117230931958464570)"
     }
   ]
 }
