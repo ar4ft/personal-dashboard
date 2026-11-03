@@ -2,6 +2,259 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50351111",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Matthew Honnibal: the 'Astra can read and write weights to improve Qwen' post is misleading",
+      "description": "Honnibal argues the weight-space programming post mixes several different experiments, so its headline claim that GPT-6 Astra improved Qwen 'just by looking at the raw weights' overstates what was actually shown.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "syllogism",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "createdAt": "2026-11-03T12:21:17Z",
+      "updatedAt": "2026-11-03T12:21:17Z",
+      "content": "Using a stage-magician analogy, Honnibal (spaCy, Explosion) walks through how the raw-weight reading, game-network writing and Qwen3.5-0.8B MATH-500 repair (7.9% to 48.1%) experiments each rely on different setups, and argues the abstract invites readers to assume one technique did all three. A useful counterpoint to the MIT weight-space programming paper already in the feed; Shauli Ravfogel has a separate thread on whether Astra is mostly reading the first and last layers.\n\n[Shauli Ravfogel's thread on X](https://x.com/ravfogel/status/2117642301442752692)\n\n[Honnibal's post](https://honnibal.dev/blog/astra-read-write-misleading) · [Hacker News discussion](https://news.ycombinator.com/item?id=50351111)"
+    },
+    {
+      "id": "hn:50352758",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mac at any scale: how Namespace racks hundreds of MacBook Pros for iOS CI",
+      "description": "Namespace explains why it fills datacenter racks with MacBook Pros instead of Mac minis, and how it boots macOS instances from scratch in seconds and ships new Xcode versions hours after Apple releases them.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "anner_",
+      "url": "https://namespace.so/blog/mac-at-any-scale",
+      "createdAt": "2026-11-03T14:53:42Z",
+      "updatedAt": "2026-11-03T14:53:42Z",
+      "content": "iOS builds, the Simulator and App Store submission all require recent Xcode on a Mac, and coding agents now need Macs too. Namespace covers Mac mini supply problems, remote-management and cooling hacks for custom Mac racks, and the provisioning pipeline behind fast macOS CI runners.\n\n[Namespace blog post](https://namespace.so/blog/mac-at-any-scale) · [Hacker News discussion](https://news.ycombinator.com/item?id=50352758)"
+    },
+    {
+      "id": "hn:50358562",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WebKit introduces Adaptive Dark Mode in Safari 27.3 beta",
+      "description": "Safari 27.3 beta can render light websites as dark when the user opts in, analysing the page and adapting it while leaving sites that declare color-scheme support untouched.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "paddingtone",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "createdAt": "2026-11-03T21:39:05Z",
+      "updatedAt": "2026-11-03T21:39:05Z",
+      "content": "WebKit says about 40% of page loads come from users in dark mode but only 10% of pages support it. Sites that declare `color-scheme: light dark` (meta tag or CSS) are left alone; otherwise Safari estimates whether a page is predominantly light and adapts it. It targets WCAG 4.5:1 text contrast, recolours SVGs and simple bitmap logos, leaves canvas untouched, and sites can opt out with `color-scheme: light only` or ship their own dark styles.\n\n[WebKit blog post](https://webkit.org/blog/18541/introducing-adaptive-dark-mode/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50358562)"
+    },
+    {
+      "id": "hn:50357782",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dumping the hidden vulgarity and topic flags in Apple's macOS system dictionary",
+      "description": "Helge Sverre used private Lexicon.framework C functions to read the per-word vulgar, offensive and sensitive tiers and topic flags Apple attaches to its system dictionary, with sample code in C and Swift.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://helgesver.re/articles/macos-vulgar-word-flags",
+      "createdAt": "2026-11-03T20:33:23Z",
+      "updatedAt": "2026-11-03T20:33:23Z",
+      "content": "Apple's dictionary tags words with one of three tiers and up to eleven topic flags (sex, drugs, religion, politics, violence and more), with no public API. The article also looks at `~/Library/Keyboard/VulgarWordUsage.db`, shows the private-API code, and links full dumps for 15 languages (content warning: uncensored word lists and some surprising classifications).\n\n[Article](https://helgesver.re/articles/macos-vulgar-word-flags) · [Hacker News discussion](https://news.ycombinator.com/item?id=50357782)"
+    },
+    {
+      "id": "hn:50358582",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Little Book of Generative AI Foundations: an intuitive mathematical primer",
+      "description": "A free 195-page derivation-oriented primer by Tianhua Chen that connects PCA, probabilistic PCA, VAEs, diffusion, normalising flows, autoregressive models, GANs, Wasserstein GANs and energy-based models.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "createdAt": "2026-11-03T21:40:53Z",
+      "updatedAt": "2026-11-03T21:40:53Z",
+      "content": "Rather than surveying every architecture, the book builds one coherent mathematical route through the major families of generative models, keeping the derivations while adding visual explanations in the revised v2. Aimed at mathematically curious researchers, practitioners and students.\n\n[Book on arXiv](https://arxiv.org/abs/2605.29713) · [Hacker News discussion](https://news.ycombinator.com/item?id=50358582)"
+    },
+    {
+      "id": "hn:50347766",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The shelf life of LLM findings: most of 50 cited claims expired or weakened within 15 months",
+      "description": "Stanford's Zou group re-ran 50 widely cited LLM findings across 20 models released from July 2024 to September 2026 and found most no longer held or had substantially weaker effects within 15 months.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "zirkonit",
+      "url": "https://zou-group.github.io/llm-claims-shelf-life/",
+      "createdAt": "2026-11-03T03:41:29Z",
+      "updatedAt": "2026-11-03T03:41:29Z",
+      "content": "Claims span sycophancy, jailbreaks, hallucinated citations, long-context ability and cultural bias. Each is classified as expired, weakened, persists or strengthened by fitting trend lines of effect size against model release date; for example, GPT-3.5's 55% fabricated-citation rate barely reproduces on current models.\n\n[Interactive report](https://zou-group.github.io/llm-claims-shelf-life/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50347766)"
+    },
+    {
+      "id": "hn:50354358",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Stringman: a $795 open-source, air-gappable room-scale cable gripper robot",
+      "description": "Neufangled Robotics' Stringman hangs a gripper from four lines anchored in the ceiling corners, reaching an entire room with four motors and about 1.9 kg average payload.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "nharada",
+      "url": "https://neufangled.com/",
+      "createdAt": "2026-11-03T16:47:29Z",
+      "updatedAt": "2026-11-03T16:47:29Z",
+      "content": "Because the load is shared by all four motors, payload scales with their combined torque instead of a single arm joint's, and working from above lets it reach cluttered floors wheeled robots can't. Specs: rooms of 3-10 m diagonal, ~0.4 m/s traverse, two 1080p anchor cameras plus a gripper camera, with control running on your own PC.\n\n[Stringman site](https://neufangled.com/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50354358)"
+    },
+    {
+      "id": "hn:50357457",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pratt parsing is a black box",
+      "description": "An essay arguing that Pratt parsing tutorials over-explain the nine-line algorithm and under-explain the mindset that matters: attaching semantic actions to tokens as nuds and leds instead of to grammar rules.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+      "createdAt": "2026-11-03T20:07:41Z",
+      "updatedAt": "2026-11-03T20:07:41Z",
+      "content": "Building on Douglas Crockford's framing (what do we expect to see to the left of a token?), the author shows nud/led dispatch tables from their own compiler and covers right-to-left associative operators, macros interleaving with lexing and parsing, and why the lexer matters again. The Pratt loop itself is treated like quicksort: an abstraction you can use without re-deriving it.\n\n[Blog post](https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50357457)"
+    },
+    {
+      "id": "hn:50354250",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "USDB: how ByteDance scales storage for long user histories in recommender systems",
+      "description": "ByteDance's USDB paper describes unified sequence storage for streaming and batch recommender workloads, reporting 85.8% lower mean write latency and 42.1% lower infrastructure cost after migration.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "1equalsequals1",
+      "url": "https://arxiv.org/abs/2611.02618",
+      "createdAt": "2026-11-03T16:40:02Z",
+      "updatedAt": "2026-11-03T16:40:02Z",
+      "content": "Recommendation models now consume long, attribute-rich user histories, creating an asymmetry between small continuous updates and big repeated reads. USDB combines CascadeLSM time-based compaction, replicas that share persistent files, partial dumps that rebuild inference inputs, and a hybrid columnar format, reusing work across ingestion, inference and training.\n\n[Paper on arXiv](https://arxiv.org/abs/2611.02618) · [Hacker News discussion](https://news.ycombinator.com/item?id=50354250)"
+    },
+    {
+      "id": "hn:50353383",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Bear turns 10: a timeline of the indie Markdown notes app",
+      "description": "Shiny Frog's Bear marks ten years since its 2016 App Store launch, tracing its path from a side project to Mac App of the Year, an Apple Design Award and the from-scratch Bear 2 editor rewrite.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "psxuaw",
+      "url": "https://blog.bear.app/2026/11/bear-turns-10-and-it-still-feels-like-day-one/",
+      "createdAt": "2026-11-03T15:41:46Z",
+      "updatedAt": "2026-11-03T15:41:46Z",
+      "content": "The anniversary post covers the 2013 idea, the 2014 prototype, the 2016 launch, the multi-year 'Project Panda' editor rewrite that also required writing their own Markdown parser, and Bear 2 in 2023.\n\n[Bear blog post](https://blog.bear.app/2026/11/bear-turns-10-and-it-still-feels-like-day-one/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50353383)"
+    },
+    {
+      "id": "x:2117667400485048364",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ZapFast 0.21: a free, open-source native WhatsApp client for macOS, Linux and Windows",
+      "description": "Carmine Paolino released ZapFast 0.21, a native WhatsApp desktop app that idles around 200 MB with no browser tab, adding link previews, chat export, disappearing messages and voice and video calls (video in alpha).",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Carmine Paolino (@paolino)",
+      "url": "https://x.com/paolino/status/2117667400485048364",
+      "createdAt": "2026-11-03T17:17:07Z",
+      "updatedAt": "2026-11-03T17:17:07Z",
+      "content": "ZapFast is a native alternative to the web-wrapper WhatsApp desktop apps. Version 0.21 adds link previews, photo review before sending, chat export, disappearing messages and calls.\n\n[ZapFast website](https://zapfast.rocks)\n\n[Post on X](https://x.com/paolino/status/2117667400485048364)"
+    },
+    {
+      "id": "x:2117620657148059858",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Featherview 0.13 opens a 4.6 GB Hubble image in about two seconds on the Mac",
+      "description": "Featherview, a free open-source Mac image viewer, now opens Hubble's 4.6 GB Andromeda mosaic about 2 seconds after double-clicking, decoding only the visible region at 100% zoom.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Joachim Rütter (@mynetx)",
+      "url": "https://x.com/mynetx/status/2117620657148059858",
+      "createdAt": "2026-11-03T14:11:22Z",
+      "updatedAt": "2026-11-03T14:11:22Z",
+      "content": "The 0.13 release shows the viewer's tiled, on-demand decoding handling gigapixel astronomy images without loading the whole file into memory.\n\n[Featherview website](https://featherview.mynetx.net)\n\n[Post on X](https://x.com/mynetx/status/2117620657148059858)"
+    },
+    {
+      "id": "x:2117657916128018486",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Neurolume: fine-tune an LLM on your Mac with MLX and watch what changed layer by layer",
+      "description": "Neurolume is an open-source Apple Silicon app that fine-tunes a local LLM with MLX in a few clicks and then visualises how training changed the model inside, layer by layer. A browser demo needs no install.",
+      "topics": [
+        "Machine Learning",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Eaton (@Yiteng_CHEN)",
+      "url": "https://x.com/Yiteng_CHEN/status/2117657916128018486",
+      "createdAt": "2026-11-03T16:39:26Z",
+      "updatedAt": "2026-11-03T16:39:26Z",
+      "content": "A hands-on way to see where fine-tuning actually moves the weights, running entirely locally on Apple Silicon.\n\n[Neurolume site and browser demo](https://yiteng-chen.github.io/neurolume/)\n\n[Post on X](https://x.com/Yiteng_CHEN/status/2117657916128018486)"
+    },
+    {
+      "id": "x:2117590320300851563",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SDR# beta adds a neural-network Hybrid Intelligence Noise Reduction plugin",
+      "description": "Airspy's SDR# software-defined radio app has a beta Hybrid Intelligence Noise Reduction plugin that pairs its classic NINR filter with a low-complexity neural network for SSB, NFM and AM speech up to 3.2 kHz.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "prog (@lambdaprog)",
+      "url": "https://x.com/lambdaprog/status/2117590320300851563",
+      "createdAt": "2026-11-03T12:10:49Z",
+      "updatedAt": "2026-11-03T12:10:49Z",
+      "content": "A practical example of a small neural network running in real time for signal-processing denoising. The author says it works best with the Airspy HF+ Discovery receiver.\n\n[SDR# download](https://airspy.com/download)\n\n[Post on X](https://x.com/lambdaprog/status/2117590320300851563)"
+    },
+    {
       "id": "x:2114769723879464983",
       "section": "news",
       "type": "news",
