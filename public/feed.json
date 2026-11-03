@@ -35081,6 +35081,157 @@
       "url": "https://www.argmin.net/p/galactus-the-devourer",
       "createdAt": "2026-10-31T22:31:49Z",
       "updatedAt": "2026-10-31T22:31:49Z"
+    },
+    {
+      "id": "x:2117266732830081516",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Beacon gives coding agents a shared memory of past sessions",
+      "description": "Asymptote Labs' open-source Beacon captures sessions from Claude Code, Cursor, Codex, OpenCode and 20+ other harnesses and turns fixes and debugging patterns into reusable skills.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "0xMarioNawfal (@RoundtableSpace)",
+      "url": "https://x.com/RoundtableSpace/status/2117266732830081516",
+      "createdAt": "2026-11-02T14:45:00Z",
+      "content": "Beacon records every coding-agent session locally (JSONL), then turns the corrections and debugging patterns you keep repeating into skills that future runs can pull in over MCP or Agent Skills. It's MIT licensed, installs with Homebrew, and can forward logs to Splunk, Datadog or S3.\n\n- [agent-beacon on GitHub](https://github.com/Asymptote-Labs/agent-beacon)\n\n[Post on X](https://x.com/RoundtableSpace/status/2117266732830081516)"
+    },
+    {
+      "id": "x:2117315809500680468",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "improvemyagent mines old agent chats for the mistakes you keep correcting",
+      "description": "A free, open-source tool that scans your Claude Code or Codex history locally, finds the corrections you repeat, and makes sure the agent remembers them next time.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "shubham (@ShubhamInTech)",
+      "url": "https://x.com/ShubhamInTech/status/2117315809500680468",
+      "createdAt": "2026-11-02T18:00:01Z",
+      "content": "improvemyagent reads your past coding-agent conversations on your own machine, spots the things you correct again and again, and writes them into the agent's memory. The authors say a run takes about 8 seconds.\n\n- [improvemyagent website](https://improvemyagent.com)\n\n[Post on X](https://x.com/ShubhamInTech/status/2117315809500680468)"
+    },
+    {
+      "id": "x:2117449183577936310",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Campfire runs several coding agents side by side with permission voting",
+      "description": "An open-source browser workspace that races Claude Code, Codex, Goose, Aider and OpenHands on the same task in separate worktrees, with majority-vote approvals and a cost dashboard.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Prasenjit Sarkar (@stretchcloud)",
+      "url": "https://x.com/stretchcloud/status/2117449183577936310",
+      "createdAt": "2026-11-03T02:50:00Z",
+      "content": "Campfire opens in one browser tab with a Monaco editor, terminal, side-by-side diffs and a kanban board built from the agents' own tool calls. Its twist is letting agents check each other: a majority approves an action, any single deny blocks it, and a 30-second timer stops things stalling. Install is `bunx the-campfire`.\n\n- [Campfire on GitHub](https://github.com/stretchcloud/campfire)\n\n[Post on X](https://x.com/stretchcloud/status/2117449183577936310)"
+    },
+    {
+      "id": "x:2117595809663566246",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kronos candlestick foundation model tops this week's fastest-growing finance + AI repos",
+      "description": "Kronos, an open model trained on candlestick data from 45+ exchanges that predicts the next bars from price history, gained about 2,650 GitHub stars this week, ahead of TradingAgents.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Oliver (@oliviscusAI)",
+      "url": "https://x.com/oliviscusAI/status/2117595809663566246",
+      "createdAt": "2026-11-03T12:32:38Z",
+      "content": "The weekly list of fast-growing finance and AI repos is led by Kronos, a time-series model for OHLC candlesticks that forecasts the next bars, followed by TradingAgents, a multi-agent framework where analyst, researcher, trader and risk roles debate each trade. Worth a look as a ready-made time-series model to experiment with, not as trading advice.\n\n- [Kronos on GitHub](https://github.com/shiyu-coder/Kronos)\n- [TradingAgents on GitHub](https://github.com/TauricResearch/TradingAgents)\n\n[Post on X](https://x.com/oliviscusAI/status/2117595809663566246)"
+    },
+    {
+      "id": "x:2117537360829386834",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI Caller lets an AI voice agent use your real phone over Bluetooth",
+      "description": "An open-source project where a Mac or Raspberry Pi pretends to be a Bluetooth car kit (hands-free profile), so an AI agent can place and answer calls through your own SIM and number, with no Twilio.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Anchorage (@lzsnolimit)",
+      "url": "https://x.com/lzsnolimit/status/2117537360829386834",
+      "createdAt": "2026-11-03T08:40:23Z",
+      "content": "Instead of renting a phone number from a telephony API, AI Caller pairs with your phone as a hands-free device, so call audio flows to an AI voice agent running on a Mac or Raspberry Pi. It ships with a bilingual web console for placing and answering calls.\n\n- [ai-caller on GitHub](https://github.com/lzsnolimit/ai-caller)\n\n[Post on X](https://x.com/lzsnolimit/status/2117537360829386834)"
+    },
+    {
+      "id": "x:2117276999974818172",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OOMWOO: an open-source, cloud-free robot vacuum you build yourself",
+      "description": "Maker's Pet's OOMWOO is a 3D-printable robot vacuum with 2D LiDAR, ROS 2 / Nav2 navigation, a Raspberry Pi or old Android phone as the brain, and native Home Assistant support, targeting about $200 in parts.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Circuits 24x7 (@circuits24x7)",
+      "url": "https://x.com/circuits24x7/status/2117276999974818172",
+      "createdAt": "2026-11-02T15:25:48Z",
+      "content": "Everything is open (Apache 2.0): CAD, KiCad schematics, firmware and software. It's still being built in public, with simulation about 90% done and the I/O board and mechanical design in progress, and you can already drive it in Gazebo or run the stack on a Proscenic M6 Pro or Roborock S5 Max.\n\n- [OOMWOO on GitHub](https://github.com/makerspet/oomwoo)\n- [OOMWOO website](https://oomwoo.com/)\n\n[Post on X](https://x.com/circuits24x7/status/2117276999974818172)"
+    },
+    {
+      "id": "x:2117533086275743768",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kill9: a free macOS menu bar app to see and kill busy dev ports",
+      "description": "A small open-source menu bar tool that lists which ports are in use by dev servers and kills the process holding one with a click.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Aditya Mali (@theadityamali)",
+      "url": "https://x.com/theadityamali/status/2117533086275743768",
+      "createdAt": "2026-11-03T08:23:24Z",
+      "content": "Handy when a stray dev server is still sitting on port 3000: Kill9 shows the ports in use from the menu bar and lets you end the process instantly.\n\n- [Kill9 page](https://adityamali.com/cafe/kill9)\n\n[Post on X](https://x.com/theadityamali/status/2117533086275743768)"
+    },
+    {
+      "id": "ideas:agent-corrections-to-rules-cli",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "CLI that turns repeated agent corrections into project rules",
+      "description": "For developers who use Claude Code, Codex or Cursor every day, especially iOS and Mac developers: a local CLI that reads past agent sessions, clusters the corrections you keep typing, and proposes diff-ready AGENTS.md rules and skills per repo.",
+      "nextStep": "Write a script that parses your local Claude Code session JSONL files, extracts your messages that follow an agent edit, and prints the 20 most repeated corrections for one repo.",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "createdAt": "2026-11-03T14:30:00Z",
+      "content": "## How it works\n\nBeacon and improvemyagent both showed that the memory gap in coding agents is mostly the same few corrections repeated. This tool stays boring and reviewable: it reads local session logs from Claude Code, Codex and Cursor, finds the user messages that undo or redirect an agent edit, clusters similar ones with a small local embedding model, and writes a proposed patch to the repo's AGENTS.md (or a skill file) that you approve like any other diff. Repo-specific presets for Xcode projects catch things like \"don't touch project.pbxproj\" or \"use Swift Testing, not XCTest\".\n\n```mermaid\nflowchart LR\n  Logs[Local agent session logs] --> Extract[Find corrections after edits]\n  Extract --> Cluster[Cluster with local embeddings]\n  Cluster --> Rank[Rank by repeats per repo]\n  Rank --> Patch[Proposed AGENTS.md patch]\n  Patch --> Review[You review the diff]\n  Review --> Repo[Commit rules to repo]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| CLI | Swift ArgumentParser or Go single binary |\n| Log readers | Claude Code and Codex JSONL, Cursor SQLite |\n| Clustering | Small local embedding model via Ollama or MLX |\n| Output | Unified diff for AGENTS.md and skills folders |\n| Storage | SQLite cache in ~/.config |\n\n## Hard parts\n\n- Telling a real correction apart from a normal follow-up request.\n- Log formats that change between agent versions.\n- Keeping rules short so they don't bloat every agent's context window.\n\n## Effort\n\nA weekend for a Claude Code-only prototype; two to three weeks for multiple agents, clustering and a polished diff flow.\n\n## Inspired by\n\n- [Beacon post on X](https://x.com/RoundtableSpace/status/2117266732830081516)\n- [agent-beacon on GitHub](https://github.com/Asymptote-Labs/agent-beacon)\n- [improvemyagent post on X](https://x.com/ShubhamInTech/status/2117315809500680468)\n- [improvemyagent website](https://improvemyagent.com)"
+    },
+    {
+      "id": "ideas:ai-phone-errand-runner",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "AI phone errand runner that calls businesses from your own number",
+      "description": "A Mac or Raspberry Pi box paired to your phone over Bluetooth that makes short bilingual errand calls for you, like booking a haircut or checking store hours, then sends you a transcript and the result.",
+      "nextStep": "Clone ai-caller, pair it with a spare phone, and try one scripted Spanish call to your own second number to measure audio quality and latency.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "createdAt": "2026-11-03T14:30:00Z",
+      "content": "## How it works\n\nAI Caller proved a computer can act as a Bluetooth car kit so an AI talks through your real SIM. On top of that, you type a short errand (\"book a cut Friday after 5\"), the agent places the call in Spanish or English, follows a tight script with allowed answers, and hangs up when it has a result or gets stuck. You get a transcript and a one-line outcome, and it never agrees to pay or share details beyond what you allowed.\n\n```mermaid\nflowchart LR\n  Errand[Typed errand and limits] --> Plan[Call script with allowed answers]\n  Plan --> Phone[Bluetooth hands-free to your phone]\n  Phone --> Voice[Speech to text and voice agent]\n  Voice --> Phone\n  Voice --> Result[Transcript and outcome]\n  Result --> You[Notification to you]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Phone link | ai-caller Bluetooth HFP on a Raspberry Pi 5 or Mac |\n| Speech to text | whisper.cpp locally |\n| Voice | Local TTS such as Piper, or a cheap realtime voice API |\n| Agent | Small LLM with a strict call script |\n| UI | Simple web page or Telegram bot |\n\n## Hard parts\n\n- Low enough latency that the person on the other end doesn't hang up.\n- Telling callers it's an assistant and staying inside local call-recording rules.\n- Handling hold music, phone menus and people talking over the agent.\n\n## Effort\n\nA weekend to get one scripted call working; three to four weeks for reliable bilingual errands.\n\n## Inspired by\n\n- [AI Caller post on X](https://x.com/lzsnolimit/status/2117537360829386834)\n- [ai-caller on GitHub](https://github.com/lzsnolimit/ai-caller)"
     }
   ]
 }
