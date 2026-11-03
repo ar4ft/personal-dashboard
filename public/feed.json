@@ -35485,6 +35485,73 @@
       ],
       "createdAt": "2026-11-03T14:30:00Z",
       "content": "## How it works\n\nAI Caller proved a computer can act as a Bluetooth car kit so an AI talks through your real SIM. On top of that, you type a short errand (\"book a cut Friday after 5\"), the agent places the call in Spanish or English, follows a tight script with allowed answers, and hangs up when it has a result or gets stuck. You get a transcript and a one-line outcome, and it never agrees to pay or share details beyond what you allowed.\n\n```mermaid\nflowchart LR\n  Errand[Typed errand and limits] --> Plan[Call script with allowed answers]\n  Plan --> Phone[Bluetooth hands-free to your phone]\n  Phone --> Voice[Speech to text and voice agent]\n  Voice --> Phone\n  Voice --> Result[Transcript and outcome]\n  Result --> You[Notification to you]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Phone link | ai-caller Bluetooth HFP on a Raspberry Pi 5 or Mac |\n| Speech to text | whisper.cpp locally |\n| Voice | Local TTS such as Piper, or a cheap realtime voice API |\n| Agent | Small LLM with a strict call script |\n| UI | Simple web page or Telegram bot |\n\n## Hard parts\n\n- Low enough latency that the person on the other end doesn't hang up.\n- Telling callers it's an assistant and staying inside local call-recording rules.\n- Handling hold music, phone menus and people talking over the agent.\n\n## Effort\n\nA weekend to get one scripted call working; three to four weeks for reliable bilingual errands.\n\n## Inspired by\n\n- [AI Caller post on X](https://x.com/lzsnolimit/status/2117537360829386834)\n- [ai-caller on GitHub](https://github.com/lzsnolimit/ai-caller)"
+    },
+    {
+      "id": "hn:50354960",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "description": "A report that Postman silently auto-installs AI plugins and attempts to share all API data.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sidgarimella",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "createdAt": "2026-11-03T17:22:37Z",
+      "updatedAt": "2026-11-03T17:22:37Z"
+    },
+    {
+      "id": "hn:50355251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "description": "A look at Qwen 3.8 27B running on a laptop and its ability to interpret model weights.",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "createdAt": "2026-11-03T17:40:00Z",
+      "updatedAt": "2026-11-03T17:40:00Z"
+    },
+    {
+      "id": "hn:50336918",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "description": "Fujifilm plans to boost tape production fivefold as AI drives demand for archiving.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "bookofjoe",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "createdAt": "2026-11-02T14:02:42Z",
+      "updatedAt": "2026-11-02T14:02:42Z"
+    },
+    {
+      "id": "hn:50356994",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Preparing for the Flipper One Kickstarter and opening pre-orders",
+      "description": "Flipper prepares for the Flipper One Kickstarter and opens pre-orders.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "user_7832",
+      "url": "https://flipper.net/pages/flipper-one",
+      "createdAt": "2026-11-03T19:32:13Z",
+      "updatedAt": "2026-11-03T19:32:13Z"
     }
   ]
 }
