@@ -34695,6 +34695,226 @@
       "url": "https://blog.jsbarretto.com/post/laptop",
       "createdAt": "2026-11-02T16:59:57Z",
       "updatedAt": "2026-11-02T16:59:57Z"
+    },
+    {
+      "id": "hn:50345924",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Scaling Git at OpenAI: Pando, a Git-compatible backend built for agent-scale pushes",
+      "description": "OpenAI built Pando, a Rust Git backend with per-branch causal consistency and reusable packfiles, cutting median push latency by nearly 80% and serving nearly a petabyte of Git data per day.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "makeramen",
+      "url": "https://openai.com/index/scaling-git-at-openai/",
+      "createdAt": "2026-11-02T23:47:56Z",
+      "content": "Codex-driven parallel work pushed OpenAI's monorepo past what its source control could handle, so a team built **Pando** in about 10 weeks with agents. It coordinates updates to each branch independently, stores pushed packfiles in blob storage and reuses them for fetches via `packfile-uri`, and compacts packs in LSM-tree-style levels. The post compares it with three-phase-commit and write-ahead-log designs, and covers Lean/TLA+ formalization and the fixes contributed back to upstream Git.\n\n[Read the OpenAI post](https://openai.com/index/scaling-git-at-openai/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50345924)"
+    },
+    {
+      "id": "hn:50349276",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Carlini: could a modern chess engine on a 1996 Pentium Pro have beaten Kasparov?",
+      "description": "Nicholas Carlini back-ports 30 years of chess-engine algorithmic improvements to a 200 MHz Pentium Pro and argues commodity 1996 hardware could easily have beaten Kasparov without Deep Blue.",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "markusw",
+      "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "createdAt": "2026-11-03T07:56:21Z",
+      "content": "Deep Blue used 30 processors and 480 custom chess chips to search 200 million positions per second. Carlini runs a modern engine's ideas on an actual 200 MHz Pentium Pro to measure how much of the progress since then came from algorithms rather than hardware.\n\n[Read the essay](https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50349276)"
+    },
+    {
+      "id": "hn:50344861",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sean Goedecke: LLMs are not superhuman at reading and writing neural network weights",
+      "description": "A rebuttal to the weight-space programming paper, arguing a competent ML researcher could do the same tasks, such as inferring a small network's game from its labeled input weights.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "agrm",
+      "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+      "createdAt": "2026-11-02T22:26:53Z",
+      "content": "Goedecke walks through why identifying what a small game-playing network was trained on is fairly easy when its input channels are labeled, showing the first-layer weight heatmap in a few lines of NumPy, and argues the results do not yet point to superhuman self-improvement.\n\n[Read the post](https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50344861)"
+    },
+    {
+      "id": "hn:50348962",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NVIDIA open-sources Auto Ontology for graph-based reasoning layers over data",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data, aimed at deterministic query generation, better retrieval and more explainable LLM and agent workflows.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "campervans",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "createdAt": "2026-11-03T07:04:50Z",
+      "content": "NVIDIA's new open-source framework builds an ontology layer over your data so LLMs and agents can generate deterministic queries and retrieve better context, with more explainable results than plain RAG.\n\n[Repo on GitHub](https://github.com/NVIDIA/auto-ontology)\n\n[HN discussion](https://news.ycombinator.com/item?id=50348962)"
+    },
+    {
+      "id": "hn:50321605",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Toit v2.0.0 ships after four years of alpha",
+      "description": "The Toit language for ESP32 and other microcontrollers reaches v2.0.0 after 200+ alpha releases, with broader hardware support and a unified toit command that also works for desktop scripting.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "floitsch",
+      "url": "https://toit.io/blog/toit-v2-0-0/",
+      "createdAt": "2026-11-01T00:25:04Z",
+      "content": "Toit started as closed-source software at Toitware and is now maintained by volunteers after the company shut down in 2024. v2.0.0 lands the last planned breaking change (peripheral APIs accept pin numbers directly) and highlights support for almost all ESP32 variants and the Arm-based EC618.\n\n[Read the release post](https://toit.io/blog/toit-v2-0-0/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50321605)"
+    },
+    {
+      "id": "hn:50340159",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Polyend publishes the Tracker firmware source code and a Community Edition",
+      "description": "Polyend released the firmware source for the Tracker, Tracker+ and Tracker Mini on GitHub, plus Tracker Community Edition 1.0, with a recovery system so custom builds can't brick the device.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "austinallegro",
+      "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
+      "createdAt": "2026-11-02T17:20:13Z",
+      "content": "Owners of the hardware music tracker can now modify and share their own firmware builds. Community Edition 1.0 also adds a batch of new features and improvements on all three instruments.\n\n[Read Polyend's announcement](https://polyend.com/whats-up/tracker-the-biggest-update-yet/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50340159)"
+    },
+    {
+      "id": "hn:50337716",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LongCat-2.5: Meituan's multimodal model for agentic tasks",
+      "description": "LongCat-2.5 is a natively multimodal model aimed at agentic tasks; its announcement says the 1.6-trillion-parameter model was trained entirely on domestic Chinese chips.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "pretext",
+      "url": "https://longcat.ai/blog/longcat-2.5/",
+      "createdAt": "2026-11-02T15:00:26Z",
+      "content": "The LongCat team's new release targets agent workflows with native multimodality. The blog's summary says it has 1.6T total parameters and that its whole training run used Chinese-made accelerators.\n\n[Read the LongCat-2.5 blog](https://longcat.ai/blog/longcat-2.5/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50337716)"
+    },
+    {
+      "id": "hn:50348361",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: office-engine views and edits DOCX, XLSX and PPTX in the browser",
+      "description": "An MIT-licensed browser engine that progressively loads Office files (a 300k-row sheet in about 300 ms), supports formulas and real-time collaboration, and saves back to the original format.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "pierreneter",
+      "url": "https://github.com/p10node/office-engine",
+      "createdAt": "2026-11-03T05:13:30Z",
+      "content": "`@p10node/office-engine` is a one-line React embed with no server needed. The live demo includes heavy samples such as a 300k-row spreadsheet and a 305-slide deck.\n\n[Repo on GitHub](https://github.com/p10node/office-engine)\n\n[Live demo](https://p10node.github.io/office-engine/demo/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50348361)"
+    },
+    {
+      "id": "hn:50347524",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Rustable, an open-source native database client written in Rust",
+      "description": "Rustable is a native database client for macOS, Windows and Linux with SSH tunnels, schema browsing, SQL tabs and reviewable edits; its site runs the real app compiled to WASM.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "JaTochNietDan",
+      "url": "https://rustable.app",
+      "createdAt": "2026-11-03T03:06:53Z",
+      "content": "The landing page embeds the actual Rust workspace compiled to WebAssembly with a SQLite and an in-memory Redis demo. The desktop app (v0.4.8, signed and notarized on macOS) adds server connections.\n\n[Rustable site](https://rustable.app)\n\n[HN discussion](https://news.ycombinator.com/item?id=50347524)"
+    },
+    {
+      "id": "x:2117550356389613966",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic releases FlashProve, open-source zkSNARKs for provable LLM inference",
+      "description": "Anthropic's FlashProve prototype attaches a cryptographic proof that a response came from a specific model without revealing its weights, at about 110 tokens/s on one H100 for a 400B MoE.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "isa sertkaya (@isa_sertkaya)",
+      "url": "https://x.com/isa_sertkaya/status/2117550356389613966",
+      "createdAt": "2026-11-03T09:32:01Z",
+      "content": "Anthropic shared progress on **provable inference**: zkSNARK proofs that anyone can check on an ordinary computer to confirm which model produced an answer. Posts about it cite Llama 4 Maverick (400B MoE, 4-bit) proving at about 110 tok/s on a single H100, with Lean-verified components under Apache 2.0.\n\n[Read Anthropic's research post](https://www.anthropic.com/research/provable-inference)\n\n[Post on X](https://x.com/isa_sertkaya/status/2117550356389613966)"
+    },
+    {
+      "id": "x:2117541532827848972",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hugging Face reproduces the weight-space programming paper with ML Intern",
+      "description": "Hugging Face reproduced the weight-edited Qwen3.5-0.8B result using ML Intern, its open-source harness for AI research and model training, and published the model and a side-by-side demo.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Niels Rogge (@NielsRogge)",
+      "url": "https://x.com/NielsRogge/status/2117541532827848972",
+      "createdAt": "2026-11-03T08:56:58Z",
+      "content": "The demo Space runs the original Qwen3.5-0.8B and its weight-edited version on the same math problem so you can compare answers.\n\n[Model on Hugging Face](https://huggingface.co/ML-Intern-lab/Qwen3.5-0.8B-weight-space-programming)\n\n[Demo Space](https://huggingface.co/spaces/ML-Intern-lab/weight-space-programming-demo)\n\n[Post on X](https://x.com/NielsRogge/status/2117541532827848972)"
+    },
+    {
+      "id": "x:2117435722223263981",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tolaria: a free Mac Markdown knowledge base where every vault is a Git repo",
+      "description": "Tolaria by @lucaronin is an AGPL-3.0 Mac app that stores each note as a plain Markdown file and each vault as a Git repository, so nothing is locked in a private database.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "OpenNavo — macOS Apps (@OpenNavo)",
+      "url": "https://x.com/OpenNavo/status/2117435722223263981",
+      "createdAt": "2026-11-03T01:56:30Z",
+      "content": "A local-first alternative to notes apps that own your data: plain files you can edit anywhere, with Git history underneath.\n\n[Post on X](https://x.com/OpenNavo/status/2117435722223263981)"
+    },
+    {
+      "id": "x:2117317861698105720",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iOS tip: make sure Sentry actually receives your dSYMs",
+      "description": "A developer found their iOS app had uploaded no dSYMs to Sentry, so first-launch hangs arrived as raw addresses that can never be symbolicated; the fix is a post-build upload script.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Debayan (@noobiethe13)",
+      "url": "https://x.com/noobiethe13/status/2117317861698105720",
+      "createdAt": "2026-11-02T18:08:10Z",
+      "content": "Once the archive for a version is gone, crashes from it stay unreadable. Check your Sentry project for dSYMs now and add a post-build step that uploads them for release builds.\n\n[Post on X](https://x.com/noobiethe13/status/2117317861698105720)"
     }
   ]
 }
