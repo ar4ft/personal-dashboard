@@ -34915,6 +34915,172 @@
       "url": "https://x.com/noobiethe13/status/2117317861698105720",
       "createdAt": "2026-11-02T18:08:10Z",
       "content": "Once the archive for a version is gone, crashes from it stay unreadable. Check your Sentry project for dSYMs now and add a post-build step that uploads them for release builds.\n\n[Post on X](https://x.com/noobiethe13/status/2117317861698105720)"
+    },
+    {
+      "id": "hn:50341462",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "description": "Ubuntu has reportedly not yet released a patch for a critical Linux remote code execution vulnerability, almost three weeks on.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "majorchord",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "createdAt": "2026-11-02T18:39:38Z",
+      "updatedAt": "2026-11-02T18:39:38Z"
+    },
+    {
+      "id": "hn:50344919",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "description": "An opinion piece argues that the SEC should block Anthropic's IPO in order to protect the public.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "cdrnsf",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "createdAt": "2026-11-02T22:30:47Z",
+      "updatedAt": "2026-11-02T22:30:47Z"
+    },
+    {
+      "id": "hn:50346981",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "description": "Hacker Times presents Hacker News in a style inspired by the New York Times.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "polpenn",
+      "url": "https://hackertimes.ca/",
+      "createdAt": "2026-11-03T01:53:34Z",
+      "updatedAt": "2026-11-03T01:53:34Z"
+    },
+    {
+      "id": "hn:50339221",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+      "description": "An interactive 3D map of central Warsaw rendered in voxels.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "stared",
+      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+      "createdAt": "2026-11-02T16:25:26Z",
+      "updatedAt": "2026-11-02T16:25:26Z"
+    },
+    {
+      "id": "hn:50346849",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "description": "DiscImageStudio burns visible artwork onto CDs, DVDs and Blu-ray discs.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "bpierre",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "createdAt": "2026-11-03T01:33:43Z",
+      "updatedAt": "2026-11-03T01:33:43Z"
+    },
+    {
+      "id": "hn:50340619",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "description": "NIST has published a cybersecurity guide aimed at self-employed people and solopreneurs.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tomrod",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "createdAt": "2026-11-02T17:47:40Z",
+      "updatedAt": "2026-11-02T17:47:40Z"
+    },
+    {
+      "id": "hn:50334523",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "European RISC-V Industrial Computing Initiative",
+      "description": "A European initiative focused on RISC-V industrial computing.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ymz5",
+      "url": "https://erici.eu",
+      "createdAt": "2026-11-02T08:58:33Z",
+      "updatedAt": "2026-11-02T08:58:33Z"
+    },
+    {
+      "id": "hn:50341028",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
+      "description": "A first-hand account of sneaking into the auditorium for the Windows 2000 launch rehearsal.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/",
+      "createdAt": "2026-11-02T18:12:48Z",
+      "updatedAt": "2026-11-02T18:12:48Z"
+    },
+    {
+      "id": "hn:50350004",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Revolut moves to self-hosted GLM",
+      "description": "Revolut has reportedly moved to a self-hosted GLM.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pretext",
+      "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "createdAt": "2026-11-03T09:53:59Z",
+      "updatedAt": "2026-11-03T09:53:59Z"
+    },
+    {
+      "id": "hn:50320904",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Efficient algorithms, the Exponential Time Hypothesis, and losing the plot",
+      "description": "An essay on efficient algorithms, the Exponential Time Hypothesis, and losing the plot.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sebg",
+      "url": "https://www.argmin.net/p/galactus-the-devourer",
+      "createdAt": "2026-10-31T22:31:49Z",
+      "updatedAt": "2026-10-31T22:31:49Z"
     }
   ]
 }
