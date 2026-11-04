@@ -35979,6 +35979,156 @@
       "url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
       "createdAt": "2026-11-03T19:25:18Z",
       "updatedAt": "2026-11-03T19:25:18Z"
+    },
+    {
+      "id": "x:2117690255931277505",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Opus 5.5 writes a tiny network's weights directly and beats training",
+      "description": "Vuk Rosić had Claude Opus 5.5 read a toy task's training data and write all 8,751 weights of a small network as literal numbers, then compared it with ordinary training on held-out data.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Vuk Rosić (@VukRosic99)",
+      "url": "https://x.com/VukRosic99/status/2117690255931277505",
+      "createdAt": "2026-11-03T18:47:56Z",
+      "content": "Across 16 toy tasks the hand-written weights scored 92% on unseen validation data versus 83% for normal gradient training, and with 25% of training labels corrupted it still reached 79% versus 58%. It's a tiny network and toy rules, so treat it as a fun probe of what models can infer, not a replacement for training. The environment, code and results are open.\n\n- [llm-weight-editing on GitHub](https://github.com/vukrosic/llm-weight-editing)\n\n[Post on X](https://x.com/VukRosic99/status/2117690255931277505)"
+    },
+    {
+      "id": "x:2117617809257550079",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Alibaba open-sources Open Code Review, its internal AI code-review CLI",
+      "description": "Alibaba released the AI code reviewer used by its own engineers as an Apache-2.0 CLI, plus AACR-Bench, a code-review benchmark built from 200 real pull requests.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "CuteGuy (@cutetoxicguy)",
+      "url": "https://x.com/cutetoxicguy/status/2117617809257550079",
+      "createdAt": "2026-11-03T14:00:03Z",
+      "content": "Instead of letting one agent roam, Open Code Review runs a fixed pipeline: git-aware change detection, grouping related files, targeted rule checks (null pointers, concurrency, SQL injection, XSS), isolated review units, and a reflection pass that filters weak findings before posting line-mapped comments. Alibaba reports better precision and F1 than a general Claude Code review with the same model at about a ninth of the tokens, with the trade-off of lower recall. It runs as a CLI, in GitHub Actions or GitLab CI, and with Gerrit.\n\n- [open-code-review on GitHub](https://github.com/alibaba/open-code-review)\n- [AACR-Bench on GitHub](https://github.com/alibaba/aacr-bench)\n\n[Post on X](https://x.com/cutetoxicguy/status/2117617809257550079)"
+    },
+    {
+      "id": "x:2117926316578079141",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "agentplay replays Claude Code, Codex and Cursor sessions as a map and timeline",
+      "description": "A local, open-source viewer that turns existing coding-agent transcripts into an interactive session map and scrubbable timeline, so you can see what an agent did before an edit or failure.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Dan Kornas (@DanKornas)",
+      "url": "https://x.com/DanKornas/status/2117926316578079141",
+      "createdAt": "2026-11-04T10:25:57Z",
+      "content": "The session map shows which files, tools, MCP servers and models an agent touched, the replay plays events at 1x to 16x, and an error explorer jumps to repeated failing commands. It reads sessions from Claude Code, Codex, Cursor, Copilot, OpenCode and Kiro, needs no account, and starts with `uvx agentplay@latest`. Apache 2.0.\n\n- [agentplay on GitHub](https://github.com/Entelligence-AI/agentplay)\n\n[Post on X](https://x.com/DanKornas/status/2117926316578079141)"
+    },
+    {
+      "id": "x:2117675715726356880",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenMoat 0.12 blocks dangerous commands from AI coding agents before they run",
+      "description": "A local Rust tool that checks every command, file read, web request and MCP call a coding agent makes and blocks risky ones, working with Claude Code, Codex, Cursor, Copilot CLI and Gemini CLI.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "openmoat (@openmoat)",
+      "url": "https://x.com/openmoat/status/2117675715726356880",
+      "createdAt": "2026-11-03T17:50:09Z",
+      "content": "OpenMoat sits between the agent and your machine as a policy layer, aimed at keeping secrets and destructive commands out of reach without giving up autonomous runs. Version 0.12 just shipped, and it is free and open source.\n\n- [OpenMoat site](https://openmoat.dev)\n\n[Post on X](https://x.com/openmoat/status/2117675715726356880)"
+    },
+    {
+      "id": "x:2117968840642740554",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "pacr: a local Claude Code usage tracker with limit warnings in your editor status bar",
+      "description": "A free, open-source tracker that shows Claude Code tokens per hour, day, week and session, counts down the 5-hour and weekly limits, and warns you before you hit one.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Aditya (@byadityaraj)",
+      "url": "https://x.com/byadityaraj/status/2117968840642740554",
+      "createdAt": "2026-11-04T13:14:56Z",
+      "content": "pacr also suggests what to do when you're close, like running /compact or switching to a smaller model, and puts the numbers in the VS Code, Cursor or Windsurf status bar. It is fully local with no login or network calls.\n\n- [pacr on GitHub](https://github.com/byadityaraj/pacr)\n\n[Post on X](https://x.com/byadityaraj/status/2117968840642740554)"
+    },
+    {
+      "id": "x:2117654888121598370",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Berkeley Humanoid Lite: an open-source humanoid you can 3D print for about $4,300",
+      "description": "UC Berkeley's Hybrid Robotics lab open-sourced a 0.8 m, 16 kg humanoid whose custom parts all fit a 200 mm desktop printer, with a US parts list of about $4,312.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "superintel robots (@superintel_xyz)",
+      "url": "https://x.com/superintel_xyz/status/2117654888121598370",
+      "createdAt": "2026-11-03T16:27:24Z",
+      "content": "Each of its 22 joints is a drone motor driving a 3D-printed cycloidal gearbox, it assembles in about three days, and its walking policy was trained in simulation and ran on the real robot without extra tuning. Hardware design, code and training tools are open source.\n\n- [Berkeley Humanoid Lite on GitHub](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite)\n\nhttps://video.twimg.com/amplify_video/2117654746479939584/vid/avc1/720x1280/8m6IDXFYsgl0yTfo.mp4\n\n[Post on X](https://x.com/superintel_xyz/status/2117654888121598370)"
+    },
+    {
+      "id": "x:2117659725059780707",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kadr: an open-source Mac menu-bar app for screenshots, OCR, a file shelf and encrypted clipboard",
+      "description": "A free MIT-licensed menu bar utility that bundles screenshots with markup and pinning, OCR, a shake-to-open file shelf and an encrypted clipboard history, with no network calls.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Lunative (@Hazratisinfdosh)",
+      "url": "https://x.com/Hazratisinfdosh/status/2117659725059780707",
+      "createdAt": "2026-11-03T16:46:37Z",
+      "content": "Kadr's clipboard history opens with a three-finger press, and everything stays on the Mac. It's a niche all-in-one alternative to stacking several paid screenshot and clipboard utilities.\n\n- [Kadr on GitHub](https://github.com/Lutfulla01/kadr)\n\n[Post on X](https://x.com/Hazratisinfdosh/status/2117659725059780707)"
+    },
+    {
+      "id": "ideas:agent-session-pr-receipt",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Agent session receipts attached to every pull request",
+      "description": "A developer tool for teams using Claude Code, Codex or Cursor: a CLI and GitHub Action that turns the coding-agent session behind a branch into a short, reviewable receipt on the pull request, listing commands run, files touched, risky actions and failures.",
+      "nextStep": "Use agentplay's transcript parsers on three of your own Claude Code sessions and print a Markdown summary of commands, files and failed steps for one branch.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "createdAt": "2026-11-04T14:30:00Z",
+      "content": "## How it works\n\nReviewers see the diff but not how the agent got there. This tool finds the local agent sessions that produced a branch, matches them to its commits, and writes a compact receipt: the prompts in one line each, every shell command, files read and written, network or MCP calls, and anything a policy like OpenMoat would flag. A CI step posts it as a collapsible pull request comment, and the reviewer can open the full replay locally if something looks off.\n\n```mermaid\nflowchart LR\n  Sessions[Local agent transcripts] --> Match[Match sessions to branch commits]\n  Match --> Extract[Extract commands files and calls]\n  Extract --> Flag[Flag risky or failed steps]\n  Flag --> Receipt[Markdown receipt]\n  Receipt --> PR[Pull request comment]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Transcript parsing | agentplay parsers or a small Python reader per agent |\n| Commit matching | git log timestamps and file overlap |\n| Risk rules | YAML rules, or OpenMoat policy output |\n| Delivery | CLI plus a GitHub Action using gh |\n| Storage | Nothing hosted; receipt lives in the PR |\n\n## Hard parts\n\n- Keeping secrets and private prompts out of the posted receipt.\n- Reliably matching sessions to commits when several agents worked on one branch.\n- Keeping up with transcript formats that change between agent releases.\n\n## Effort\n\nA weekend for a CLI that summarizes Claude Code sessions; two to three weeks for multi-agent support and the GitHub Action.\n\n## Inspired by\n\n- [agentplay post on X](https://x.com/DanKornas/status/2117926316578079141)\n- [agentplay on GitHub](https://github.com/Entelligence-AI/agentplay)\n- [OpenMoat post on X](https://x.com/openmoat/status/2117675715726356880)\n- [Open Code Review on GitHub](https://github.com/alibaba/open-code-review)"
+    },
+    {
+      "id": "ideas:mac-screenshot-auto-redactor",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Mac screenshot tool that blurs secrets before you paste into a chat",
+      "description": "A menu-bar screenshot app that runs on-device OCR on every capture and automatically blurs emails, API keys, phone numbers and names before the image hits the clipboard, so screenshots are safe to share with AI chats or coworkers.",
+      "nextStep": "Fork Kadr or write a tiny Swift app that captures a region, runs Apple's Vision text recognition, and draws blur boxes over anything matching an email or API-key regex.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "createdAt": "2026-11-04T14:30:00Z",
+      "content": "## How it works\n\nYou take a screenshot as usual. Before it lands on the clipboard, the app reads all text with on-device OCR, finds sensitive spans with patterns plus a small on-device entity model, and blurs them. A quick preview lets you tap to unblur or blur more, and the choices teach it your own sensitive terms like client names.\n\n```mermaid\nflowchart LR\n  Capture[Screenshot] --> OCR[On-device text recognition]\n  OCR --> Detect[Patterns and entity detection]\n  Detect --> Blur[Blur boxes]\n  Blur --> Preview[Quick preview and fixes]\n  Preview --> Clip[Clipboard]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| App | SwiftUI menu bar app with ScreenCaptureKit |\n| OCR | Apple Vision text recognition |\n| Detection | Regex for keys and emails plus NaturalLanguage name tagging |\n| Learning | Local list of user-marked terms |\n| Base | Kadr's open-source capture and markup code |\n\n## Hard parts\n\n- Catching secrets OCR misreads, like long tokens in small monospace fonts.\n- Staying fast enough that the capture still feels instant.\n- Avoiding over-blurring that makes the screenshot useless.\n\n## Effort\n\nA weekend for a working prototype; two to three weeks for a polished App Store-ready app.\n\n## Inspired by\n\n- [Kadr post on X](https://x.com/Hazratisinfdosh/status/2117659725059780707)\n- [Kadr on GitHub](https://github.com/Lutfulla01/kadr)"
     }
   ]
 }
