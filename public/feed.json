@@ -2,6 +2,270 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50358702",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Internals of PostgreSQL, Hironobu Suzuki's free deep-dive book, adds async I/O and logical replication chapters",
+      "description": "The long-running free online book on how PostgreSQL works inside now covers PostgreSQL's asynchronous I/O and a new chapter on logical replication.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://www.interdb.jp/pg/index.html",
+      "createdAt": "2026-11-03T21:51:06Z",
+      "updatedAt": "2026-11-03T21:51:06Z",
+      "content": "A classic reference on PostgreSQL internals (storage, MVCC, WAL, vacuum, query processing) that turned 11 this year. Recent updates add a section on asynchronous I/O and a beta chapter on logical replication, including parallel apply workers.\n\n- [Read The Internals of PostgreSQL](https://www.interdb.jp/pg/index.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50358702)"
+    },
+    {
+      "id": "hn:50362905",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Linux on Nvidia RTX Spark laptops runs inference at about a third of Windows speed",
+      "description": "On RTX Spark laptops, a Windows-only Nvidia power-management component leaves the GPU locked near 780 MHz on Linux, cutting local LLM throughput from about 65 to 14 tokens per second.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "novaRom",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "createdAt": "2026-11-04T08:46:29Z",
+      "updatedAt": "2026-11-04T08:46:29Z",
+      "content": "A hands-on report on dual-booting Linux on an MSI Prestige RTX Spark laptop: the desktop, GPU acceleration via Nvidia's open driver, and 4K output work, but on wall power the GPU is clocked around 780 MHz instead of 2 GHz+, because power delivery is managed by Windows-only Nvidia firmware/software with no Linux equivalent.\n\n- [Full write-up on MindStudio](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop)\n\n[HN discussion](https://news.ycombinator.com/item?id=50362905)"
+    },
+    {
+      "id": "hn:50326545",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Embedding boolean circuits in a neural network",
+      "description": "Edward Benson thinks through how to build exact boolean logic out of neurons and how such a circuit could be wired as a sidecar into an already trained network.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "eob",
+      "url": "https://edwardbenson.com/2026/10/embedding-boolean-circuits-in-a-neural-network",
+      "createdAt": "2026-11-01T15:27:44Z",
+      "updatedAt": "2026-11-01T15:27:44Z",
+      "content": "Gates like AND, OR and NOT map directly onto threshold neurons (for example AND(A,B) = A + B - 1.5 > 0); the harder problem the post explores is connecting such a symbolic circuit to the messy real-valued activations of a trained LLM.\n\n- [Read the post](https://edwardbenson.com/2026/10/embedding-boolean-circuits-in-a-neural-network)\n\n[HN discussion](https://news.ycombinator.com/item?id=50326545)"
+    },
+    {
+      "id": "hn:50352641",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "There is no posttraining data commons",
+      "description": "Open Athena's David Hall argues that while open LLM pretraining relied on a public web commons, there is no equivalent commons of tasks and environments for posttraining and agentic RL.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "lukasschwab",
+      "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+      "createdAt": "2026-11-03T14:45:47Z",
+      "updatedAt": "2026-11-03T14:45:47Z",
+      "content": "Pretraining consumes documents, which were lying around thanks to Common Crawl, Wikipedia, arXiv and open source code. Posttraining consumes tasks, and the essay explains why those are situated and ephemeral, and what that means for truly open models.\n\n- [Read the essay](https://openathena.ai/blog/there-is-no-posttraining-data-commons/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50352641)"
+    },
+    {
+      "id": "hn:50352898",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Octomind: an open-source coding agent harness in a single Rust binary",
+      "description": "Octomind gives any LLM repo tools over MCP and runs as an interactive CLI, stdin pipe, daemon, WebSocket server or ACP editor agent, with a supervising model and TOML guardrails instead of approval prompts.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "donk8r",
+      "url": "https://github.com/Muvon/octomind",
+      "createdAt": "2026-11-03T15:02:58Z",
+      "updatedAt": "2026-11-03T15:02:58Z",
+      "content": "Model-agnostic and MCP-native, Octomind can read and edit files, run shells, search code and delegate to sub-agents, with policy expressed as TOML guardrails.\n\n- [Repo on GitHub](https://github.com/Muvon/octomind)\n- [Website and docs](https://octomind.run)\n\n[HN discussion](https://news.ycombinator.com/item?id=50352898)"
+    },
+    {
+      "id": "hn:50363193",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Osewa: an open-source terminal protocol meant to replace SSH and Mosh for long-running agent sessions",
+      "description": "Osewa keeps the terminal session on the host using Ghostty's engine, survives network changes like Mosh, and runs over QUIC or TCP with TLS 1.3 and Ed25519 keys.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dkpk",
+      "url": "https://osewa.dev/",
+      "createdAt": "2026-11-04T09:34:44Z",
+      "updatedAt": "2026-11-04T09:34:44Z",
+      "content": "Pitched as 'the terminal protocol for the age of agents': attach from a laptop or phone to a session that keeps running on the host. Its benchmarks claim keystroke echo 8 to over 100 times faster than SSH on lossy or congested networks, with port forwards and exec sharing one connection.\n\n- [Osewa site](https://osewa.dev/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50363193)"
+    },
+    {
+      "id": "hn:50362466",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The lost malloc(): how Unix V4 managed memory in 1973",
+      "description": "A tour of the memory allocator in the recently recovered Fourth Edition Unix sources, one of the first versions with most of the kernel written in C.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "matt_d",
+      "url": "https://napcakes.nekoweb.org/posts/malloc/",
+      "createdAt": "2026-11-04T07:37:30Z",
+      "updatedAt": "2026-11-04T07:37:30Z",
+      "content": "Some Unix archaeology: the author reads the original V4 sources (a tape of which was only found last year) and walks through how early C handled allocating and freeing memory.\n\n- [Read the post](https://napcakes.nekoweb.org/posts/malloc/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50362466)"
+    },
+    {
+      "id": "hn:50352757",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ask HN: Codex users report OpenAI's model-training data setting being silently re-enabled",
+      "description": "An HN user says their team found the 'Improve the model for everyone' setting turned back on in Codex after they had disabled it, prompting others to check theirs.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "user052919",
+      "url": "https://news.ycombinator.com/item?id=50352757",
+      "createdAt": "2026-11-03T14:53:41Z",
+      "updatedAt": "2026-11-03T14:53:41Z",
+      "content": "Worth checking if you use Codex with company code: the setting lives in ChatGPT's data controls, and OpenAI's privacy portal also offers an opt-out. Commenters discuss whether this is isolated or widespread.\n\n- [ChatGPT data controls](https://chatgpt.com/settings/data-controls)\n\n[HN discussion](https://news.ycombinator.com/item?id=50352757)"
+    },
+    {
+      "id": "hn:50328567",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Heretic 2.0 grows from LLM censorship removal into general training-free model modification",
+      "description": "The open-source Heretic tool, which modifies model weights without retraining, now also targets things like slop, sycophancy and emotional alignment, alongside improved refusal suppression.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "razster",
+      "url": "https://github.com/p-e-w/heretic",
+      "createdAt": "2026-11-01T19:01:42Z",
+      "updatedAt": "2026-11-01T19:01:42Z",
+      "content": "Heretic uses abliteration-style weight edits optimized with Optuna, with no extra training. Its author says 2.0 is the biggest release yet after about five months of work, and the project has 37k GitHub stars and 8,500+ derived models on Hugging Face.\n\n- [Heretic on GitHub](https://github.com/p-e-w/heretic)\n\n[HN discussion](https://news.ycombinator.com/item?id=50328567)"
+    },
+    {
+      "id": "hn:50363717",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Codex CLI bug report: asked to reboot a server, the agent broke systemd and containers",
+      "description": "A Codex CLI issue describes an agent that, told to reboot a server, instead destroyed systemd and containers and ran random scripts, at a claimed cost of over $10,000.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jstanley",
+      "url": "https://github.com/openai/codex/issues/59060",
+      "createdAt": "2026-11-04T10:43:51Z",
+      "updatedAt": "2026-11-04T10:43:51Z",
+      "content": "A cautionary GitHub issue (Codex CLI v0.166.0, Business plan) about giving coding agents shell access to production machines, and a reminder to sandbox and scope agent permissions.\n\n- [Issue on GitHub](https://github.com/openai/codex/issues/59060)\n\n[HN discussion](https://news.ycombinator.com/item?id=50363717)"
+    },
+    {
+      "id": "x:2117561120886333870",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Latent Sparse Attention speeds up 10M-token attention by 22x on GLM and 72x on Qwen",
+      "description": "A new open-source method from Kubicek, Hoefler and Whittington targets the key-search step that dominates sparse attention at very long contexts.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "GitGem.org (@GitGem)",
+      "url": "https://x.com/GitGem/status/2117561120886333870",
+      "createdAt": "2026-11-03T10:14:48Z",
+      "content": "At 10 million tokens, sparse attention reportedly spends about 98% of its time just finding the right keys. Latent Sparse Attention attacks that search step, with reported speedups of 22.7x on GLM and 72.4x on Qwen. GitGem's thread links to a deep-dive article on X.\n\n[Post on X](https://x.com/GitGem/status/2117561120886333870)"
+    },
+    {
+      "id": "x:2117535394782707860",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HKUST's HarnessSQL lifts an 8B model past 32B baselines on Spider 2.0 text-to-SQL",
+      "description": "Trained inside DeepSeek Harness, HarnessSQL raised Qwen3-8B from 15.5% to 45.2% on Spider 2.0-SQLite, while 32B baselines scored under 17%.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Pandaily (@thePandaily)",
+      "url": "https://x.com/thePandaily/status/2117535394782707860",
+      "createdAt": "2026-11-03T08:32:34Z",
+      "content": "A good example of agentic training environments beating raw model size on real database queries. Pandaily's post links to a longer write-up on X.\n\n[Post on X](https://x.com/thePandaily/status/2117535394782707860)"
+    },
+    {
+      "id": "x:2117849669523157123",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DJustify: an open-source LLM-based AI DJ that builds story-driven pop DJ sets",
+      "description": "A research system that jointly picks tracks, cue points and mixing techniques, using lyrics and emotion to shape the arc of a DJ set.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Yi-Hsuan Yang (@affige_yang)",
+      "url": "https://x.com/affige_yang/status/2117849669523157123",
+      "createdAt": "2026-11-04T05:21:23Z",
+      "content": "Built by PhD student Wei-Han in Yi-Hsuan Yang's lab, with a paper and listenable demos.\n\n- [Paper on arXiv](https://arxiv.org/abs/2610.33434)\n- [Demo page](https://jamie930625.github.io/djustify/)\n\n[Post on X](https://x.com/affige_yang/status/2117849669523157123)"
+    },
+    {
+      "id": "x:2117911293596450938",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tidemark: a free macOS app that docks at the screen edge to show Claude Code and Codex quota",
+      "description": "A native, open-source Mac app that shows remaining Claude Code and Codex usage when you hover the screen edge, with a full dashboard on click.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Samuel He (@SamuelHe89)",
+      "url": "https://x.com/SamuelHe89/status/2117911293596450938",
+      "createdAt": "2026-11-04T09:26:15Z",
+      "content": "Made by a developer tired of opening another app just to check how much agent quota was left.\n\n- [Tidemark on GitHub](https://github.com/samuelhe52/Tidemark)\n\n[Post on X](https://x.com/SamuelHe89/status/2117911293596450938)"
+    },
+    {
+      "id": "x:2117816599713620273",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A 1,590-node 3D network graph drawn in a single SwiftUI Canvas, no SceneKit",
+      "description": "An open-source SwiftUI component renders 3,221 edges with a golden-angle funnel layout, a one-line perspective projection and painter's-algorithm depth sorting.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "John Wayne (@DevJohnWayne)",
+      "url": "https://x.com/DevJohnWayne/status/2117816599713620273",
+      "createdAt": "2026-11-04T03:09:59Z",
+      "content": "Tapping a node runs a BFS that highlights everything it builds on. A nice reference for pushing SwiftUI Canvas further than usual.\n\n- [SWNetworkGraph.swift in ShipSwift](https://github.com/signerlabs/ShipSwift/blob/main/ShipSwift/SWPackage/SWChart/SWNetworkGraph.swift)\n\n[Post on X](https://x.com/DevJohnWayne/status/2117816599713620273)"
+    },
+    {
       "id": "hn:50351111",
       "section": "news",
       "type": "news",
