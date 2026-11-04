@@ -2,6 +2,250 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50366999",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Moonshot releases open weights for Kimi K3.1 Pro, a 2.8T-parameter multimodal agentic MoE",
+      "description": "Kimi K3.1 Pro is an open-weight, natively multimodal Mixture-of-Experts model with 2.8T total and 104B active parameters and a 1M-token context window, post-trained from Kimi K3 with large-scale RL.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "abrarthought",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "createdAt": "2026-11-04T15:30:30Z",
+      "content": "Moonshot AI says Kimi K3.1 Pro is its most capable 3T-class model, with gains in coding, 3D creation, financial research and factual accuracy. The model card details 896 experts (16 selected per token), a hybrid of KDA and gated DSA attention layers, and a MoonViT-V2 vision encoder.\n\n- [Model card on Hugging Face](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50366999)",
+      "updatedAt": "2026-11-04T15:30:30Z"
+    },
+    {
+      "id": "hn:50369106",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Go 1.27 makes encoding/json/v2 and jsontext stable",
+      "description": "The Go team's new JSON packages, encoding/json/v2 and encoding/json/jsontext, graduate from experiment to generally available in Go 1.27, fixing long-standing problems with encoding/json.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "olexsmir",
+      "url": "https://go.dev/blog/jsonv2",
+      "createdAt": "2026-11-04T17:52:11Z",
+      "content": "An updated version of last year's post introducing the experiment: it walks through what's wrong with the original encoding/json, how the split between the syntactic jsontext package and the semantic v2 package works, and how to migrate.\n\n- [Go blog post](https://go.dev/blog/jsonv2)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50369106)",
+      "updatedAt": "2026-11-04T17:52:11Z"
+    },
+    {
+      "id": "hn:50369925",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ripple-65B Preview: an open-weight model trained from scratch for agentic coding",
+      "description": "Ricursive Intelligence released Ripple-65B Preview, pretrained on 12T tokens with 1M context, claiming a US open-weight best of 80.52 on TerminalBench 2.1.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Philpax",
+      "url": "https://www.ricursive.com/ripple",
+      "createdAt": "2026-11-04T18:53:29Z",
+      "content": "Ripple-65B Preview is a general-purpose variant of the model behind Ricursive's AI chip-design platform. The lab says its architecture was co-optimized for its training and serving stack, and that it beats much larger US open-weight models on agentic coding benchmarks.\n\n- [Ripple announcement](https://www.ricursive.com/ripple)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50369925)",
+      "updatedAt": "2026-11-04T18:53:29Z"
+    },
+    {
+      "id": "hn:50366919",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Evergreen: a systems language with compiler-checked contracts and invariants",
+      "description": "Evergreen puts preconditions, postconditions and data invariants next to the code and has the compiler prove them, while giving explicit control over memory layout and ownership.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jordan_bonecut",
+      "url": "https://evergreenlang.net",
+      "createdAt": "2026-11-04T15:25:04Z",
+      "content": "Evergreen pitches itself as more powerful than C and safer than Rust: refinement types like `NonZero`, `where`/`ensures` clauses, lemmas by induction, and a compiler that tracks when memory is live, with proofs erased so they don't cost performance. There's an in-browser playground.\n\n- [Evergreen site and playground](https://evergreenlang.net)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50366919)",
+      "updatedAt": "2026-11-04T15:25:04Z"
+    },
+    {
+      "id": "hn:50367576",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How Zig's libc rewrite made SQLite inserts 12,000x slower",
+      "description": "Dennis Forbes traced minutes of CPU time inserting JSON into SQLite back to a quadratic strspn in Zig's pure-Zig libc, pulled in via zig cc and cargo-zigbuild cross-compilation of a Rust service.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/",
+      "createdAt": "2026-11-04T16:06:45Z",
+      "content": "A modern case of Joel Spolsky's \"Shlemiel the painter\" trap: the Rust project never used Zig directly, but cross-compiling sqlite with zig cc swapped musl's strspn for a new libzigc version that measured the whole string on every call.\n\n- [Dennis Forbes' write-up](https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50367576)",
+      "updatedAt": "2026-11-04T16:06:45Z"
+    },
+    {
+      "id": "hn:50369462",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "benchfmt.rs brings Go's benchmark and benchstat workflow to Rust",
+      "description": "Bartek Płotka built benchfmt.rs, a zero-dependency Rust benchmark runner and Criterion converter for Go's benchstat, with key=value projections, B/op and allocs/op tracking, and pprof profiling.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "witcher",
+      "url": "https://www.bwplotka.dev/2026/rust-microbenchmarks-benchstat/",
+      "createdAt": "2026-11-04T18:20:06Z",
+      "content": "The Prometheus/Thanos maintainer and Efficient Go author shows A/B microbenchmarking in Rust the way Go developers are used to, benchmarking varint and Prometheus Remote Write 2.0 decoding across Go and Rust along the way.\n\n- [Blog post](https://www.bwplotka.dev/2026/rust-microbenchmarks-benchstat/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50369462)",
+      "updatedAt": "2026-11-04T18:20:06Z"
+    },
+    {
+      "id": "hn:50370245",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple will scan 'Anyone with the Link' iCloud shares for harmful content starting in iOS 27.3",
+      "description": "From iOS, iPadOS, macOS and visionOS 27.3, items shared via iCloud with 'Anyone with the Link' become accessible to Apple for harmful-content checks and are no longer end-to-end encrypted, even with Advanced Data Protection.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "7777777phil",
+      "url": "https://support.apple.com/en-us/149168",
+      "createdAt": "2026-11-04T19:18:03Z",
+      "content": "Apple's support note explains that link-shared iCloud Photos and iCloud Drive items will be checked by Apple, while sharing with \"People you choose\" keeps its current behavior.\n\n- [Apple support article](https://support.apple.com/en-us/149168)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50370245)",
+      "updatedAt": "2026-11-04T19:18:03Z"
+    },
+    {
+      "id": "hn:50370084",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Enough Phone opens preorders for a 5.3-inch small Android phone",
+      "description": "Enough Phone is betting people really want small phones: a $399 (launch price) 5.3-inch device with a MediaTek Dimensity 7500, 8GB RAM, microSD and a single 50MP camera.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Jtsummers",
+      "url": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
+      "createdAt": "2026-11-04T19:06:42Z",
+      "content": "Ars Technica looks at the deliberately mid-range design (polycarbonate body, fingerprint sensor in the power button, 1520x720 LCD) and whether demand for compact phones translates into sales. It ships with Android 17 or an alternative OS option.\n\n- [Ars Technica article](https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50370084)",
+      "updatedAt": "2026-11-04T19:06:42Z"
+    },
+    {
+      "id": "hn:50369194",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ladybird in October: off-main-thread layout, a JavaScript JIT and a new Wasm engine",
+      "description": "The independent Ladybird browser moved style and layout off the main thread, built a JS JIT, replaced its WebAssembly engine, redesigned its UI and passed Safari Technology Preview on Web Platform Tests.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "BitPirate",
+      "url": "https://ladybird.org/newsletter/2026-10-31/",
+      "createdAt": "2026-11-04T17:59:35Z",
+      "content": "The monthly newsletter explains how style, layout and paint recording now run on separate threads alongside JavaScript, so CSS animations keep going during long scripts, plus details on the JIT and other October work.\n\n- [October newsletter](https://ladybird.org/newsletter/2026-10-31/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50369194)",
+      "updatedAt": "2026-11-04T17:59:35Z"
+    },
+    {
+      "id": "x:2118016189993525668",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ycode: an open-source IDE for Apple-platform projects on macOS and Linux",
+      "description": "Ycode opens real .xcodeproj files, workspaces and Swift packages, builds them, and saves project files Xcode reads back unchanged; it's written from scratch in Swift and in public beta.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "MarcoDotIO (@marcodotio)",
+      "url": "https://x.com/marcodotio/status/2118016189993525668",
+      "createdAt": "2026-11-04T16:23:05Z",
+      "content": "The author says Ycode contains no Apple code and aims to let you work on Apple-platform projects outside Xcode, including on Linux.\n\n[Post on X](https://x.com/marcodotio/status/2118016189993525668)"
+    },
+    {
+      "id": "x:2118078358894309565",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GitHub Copilot now works inside Xcode's built-in coding assistant",
+      "description": "With the Xcode 27.3 beta, GitHub Copilot is available in public preview directly in Xcode's coding assistant; it requires macOS Tahoe 26.6 or later.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "GitHub Changelog (@GHchangelog)",
+      "url": "https://x.com/GHchangelog/status/2118078358894309565",
+      "createdAt": "2026-11-04T20:30:07Z",
+      "content": "Copilot joins the other agents already selectable in Xcode Intelligence. The existing Copilot for Xcode extension remains available.\n\n- [GitHub changelog entry](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/)\n- [Xcode 27.3 beta release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_3-release-notes)\n\n[Post on X](https://x.com/GHchangelog/status/2118078358894309565)"
+    },
+    {
+      "id": "x:2118008854558728399",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The declutter-inator: a free, open-source Mac cleaner aimed at developer junk",
+      "description": "A Mac storage cleaner that shows every gigabyte it finds, such as node_modules, Rust target/ folders and .venv directories, and deletes only what you pick.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Kunal Bagaria (@kunalbagaria)",
+      "url": "https://x.com/kunalbagaria/status/2118008854558728399",
+      "createdAt": "2026-11-04T15:53:56Z",
+      "content": "Built after the author's Mac ran out of storage, it focuses on transparency: it lists what it found and never deletes anything you didn't select.\n\n[Post on X](https://x.com/kunalbagaria/status/2118008854558728399)"
+    },
+    {
+      "id": "x:2118007217647726704",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SentinelOne Labs releases VerifiedIDA for inspectable LLM-driven reverse engineering",
+      "description": "VerifiedIDA is an open-source harness and standard that keeps LLM-driven reverse engineering in IDA inspectable, continuable and reusable.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Ryan Naraine (@ryanaraine)",
+      "url": "https://x.com/ryanaraine/status/2118007217647726704",
+      "createdAt": "2026-11-04T15:47:26Z",
+      "content": "SentinelOne Labs' write-up explains how the harness records an agent's reverse-engineering work so analysts can check its claims and pick up where it left off.\n\n- [SentinelOne Labs write-up](https://www.sentinelone.com/labs/verifiedida-making-llm-driven-reverse-engineering-inspectable-continuable-and-reusable/)\n\n[Post on X](https://x.com/ryanaraine/status/2118007217647726704)"
+    },
+    {
+      "id": "x:2118093755505095063",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "taw: an open-source terminal audio workstation with MCP support",
+      "description": "taw is a keyboard-first, recording-first terminal DAW for Windows and macOS driven by a command language that people and AI agents share; with MCP, Claude can build sessions from your own samples and plugins.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Kris Crawford (@kris_craw)",
+      "url": "https://x.com/kris_craw/status/2118093755505095063",
+      "createdAt": "2026-11-04T21:31:18Z",
+      "content": "No audio is generated by the LLM; the agent only arranges sessions using existing samples and plugins.\n\n- [taw on GitHub](https://github.com/krismakesstuff/taw)\n\n[Post on X](https://x.com/kris_craw/status/2118093755505095063)"
+    },
+    {
       "id": "hn:50358702",
       "section": "news",
       "type": "news",
