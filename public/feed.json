@@ -36373,6 +36373,170 @@
       ],
       "createdAt": "2026-11-04T14:30:00Z",
       "content": "## How it works\n\nYou take a screenshot as usual. Before it lands on the clipboard, the app reads all text with on-device OCR, finds sensitive spans with patterns plus a small on-device entity model, and blurs them. A quick preview lets you tap to unblur or blur more, and the choices teach it your own sensitive terms like client names.\n\n```mermaid\nflowchart LR\n  Capture[Screenshot] --> OCR[On-device text recognition]\n  OCR --> Detect[Patterns and entity detection]\n  Detect --> Blur[Blur boxes]\n  Blur --> Preview[Quick preview and fixes]\n  Preview --> Clip[Clipboard]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| App | SwiftUI menu bar app with ScreenCaptureKit |\n| OCR | Apple Vision text recognition |\n| Detection | Regex for keys and emails plus NaturalLanguage name tagging |\n| Learning | Local list of user-marked terms |\n| Base | Kadr's open-source capture and markup code |\n\n## Hard parts\n\n- Catching secrets OCR misreads, like long tokens in small monospace fonts.\n- Staying fast enough that the capture still feels instant.\n- Avoiding over-blurring that makes the screenshot useless.\n\n## Effort\n\nA weekend for a working prototype; two to three weeks for a polished App Store-ready app.\n\n## Inspired by\n\n- [Kadr post on X](https://x.com/Hazratisinfdosh/status/2117659725059780707)\n- [Kadr on GitHub](https://github.com/Lutfulla01/kadr)"
+    },
+    {
+      "id": "hn:50365755",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "North Korean fake job interview led to $6.3B Binance heist",
+      "description": "A report on a North Korean fake job interview that led to a $6.3B Binance heist.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "smalltech",
+      "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+      "createdAt": "2026-11-04T14:09:55Z",
+      "updatedAt": "2026-11-04T14:09:55Z"
+    },
+    {
+      "id": "hn:50367125",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AMD expects to outsell Intel in Q4 for the first time in history",
+      "description": "AMD expects to outsell Intel in the fourth quarter for the first time in history.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rbanffy",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
+      "createdAt": "2026-11-04T15:38:34Z",
+      "updatedAt": "2026-11-04T15:38:34Z"
+    },
+    {
+      "id": "hn:50371246",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Residential proxies detected on White House network",
+      "description": "Residential proxies were detected on the White House network.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Rasbora",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "createdAt": "2026-11-04T20:45:18Z",
+      "updatedAt": "2026-11-04T20:45:18Z"
+    },
+    {
+      "id": "hn:50365780",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent Hy4",
+      "description": "Tencent's Hy4 release.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Philpax",
+      "url": "https://hy.tencent.ai/research/hy4",
+      "createdAt": "2026-11-04T14:11:26Z",
+      "updatedAt": "2026-11-04T14:11:26Z"
+    },
+    {
+      "id": "hn:50368626",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Progress on provable inference for large language models",
+      "description": "Research progress on provable inference for large language models.",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "ltononro",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "createdAt": "2026-11-04T17:17:46Z",
+      "updatedAt": "2026-11-04T17:17:46Z"
+    },
+    {
+      "id": "hn:50366863",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI to acquire Pierre Computer Company",
+      "description": "OpenAI plans to acquire the Pierre Computer Company.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "itunpredictable",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "createdAt": "2026-11-04T15:21:21Z",
+      "updatedAt": "2026-11-04T15:21:21Z"
+    },
+    {
+      "id": "hn:50366575",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Debian apt security update (man-in-the-middle)",
+      "description": "A Debian security update for apt addressing a man-in-the-middle issue.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "SG-",
+      "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
+      "createdAt": "2026-11-04T15:04:14Z",
+      "updatedAt": "2026-11-04T15:04:14Z"
+    },
+    {
+      "id": "hn:50370654",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "description": "Qualcomm's Cloud AI 100 Ultra, a 150W AI accelerator card with 128GB of memory at 548GB/s.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "peter_d_sherman",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "createdAt": "2026-11-04T19:55:14Z",
+      "updatedAt": "2026-11-04T19:55:14Z"
+    },
+    {
+      "id": "hn:50372402",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Zig 0.17.1 Released",
+      "description": "Version 0.17.1 of the Zig programming language has been released.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "birdculture",
+      "url": "https://ziglang.org/news/0.17.1-released/",
+      "createdAt": "2026-11-04T22:31:35Z",
+      "updatedAt": "2026-11-04T22:31:35Z"
+    },
+    {
+      "id": "hn:50372297",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Control your Mac by knocking on the desk (iPhone accelerometer)",
+      "description": "A way to control a Mac by knocking on the desk, using an iPhone's accelerometer.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "babdelhadi",
+      "url": "https://twitter.com/BourAbdelhadi/status/2118098820441465232",
+      "createdAt": "2026-11-04T22:18:41Z",
+      "updatedAt": "2026-11-04T22:18:41Z"
     }
   ]
 }
