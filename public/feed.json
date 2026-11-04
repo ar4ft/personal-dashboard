@@ -35816,6 +35816,169 @@
       "url": "https://flipper.net/pages/flipper-one",
       "createdAt": "2026-11-03T19:32:13Z",
       "updatedAt": "2026-11-03T19:32:13Z"
+    },
+    {
+      "id": "hn:50339288",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "description": "The author jailbreaks a car's navigation system just to be able to change the time.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "xx_ns",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "createdAt": "2026-11-02T16:29:19Z",
+      "updatedAt": "2026-11-02T16:29:19Z"
+    },
+    {
+      "id": "hn:50346755",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+      "description": "HackerTV turns Hacker News' most-recommended YouTube videos into 24/7 TV channels.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dsalzman",
+      "url": "https://hackertv.org",
+      "createdAt": "2026-11-03T01:18:09Z",
+      "updatedAt": "2026-11-03T01:18:09Z"
+    },
+    {
+      "id": "hn:50360164",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "C++26 Disapproved",
+      "description": "C++26 was disapproved, raising questions about how the C++ standard survives.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "thatxliner",
+      "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+      "createdAt": "2026-11-04T00:33:22Z",
+      "updatedAt": "2026-11-04T00:33:22Z"
+    },
+    {
+      "id": "hn:50362980",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kitty 0.50",
+      "description": "Kitty 0.50, a new release of the Kitty terminal emulator, is out.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "porridgeraisin",
+      "url": "https://sw.kovidgoyal.net/kitty/changelog/#",
+      "createdAt": "2026-11-04T08:57:10Z",
+      "updatedAt": "2026-11-04T08:57:10Z"
+    },
+    {
+      "id": "hn:50355767",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How I use AI (Oct 2026)",
+      "description": "The author describes how they use AI as of October 2026.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "citelao",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "createdAt": "2026-11-03T18:11:11Z",
+      "updatedAt": "2026-11-03T18:11:11Z"
+    },
+    {
+      "id": "hn:50364336",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "description": "AI is forcing the payoff of 40 years of technical debt, illustrated by a PHP-to-shell vulnerability.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "pseudolus",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "createdAt": "2026-11-04T11:52:17Z",
+      "updatedAt": "2026-11-04T11:52:17Z"
+    },
+    {
+      "id": "hn:50363461",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "description": "A Hacker News poster reports that Gemini trains on chat history, even for subscribers on personal accounts.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jameslk",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "createdAt": "2026-11-04T10:10:27Z",
+      "updatedAt": "2026-11-04T10:10:27Z"
+    },
+    {
+      "id": "hn:50363554",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "description": "Geoffrey Hinton says it might turn out we were better off without AI.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "alkyon",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "createdAt": "2026-11-04T10:23:34Z",
+      "updatedAt": "2026-11-04T10:23:34Z"
+    },
+    {
+      "id": "hn:50358314",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "description": "Kairos is an open-source risk and fraud decisioning platform.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ayanb9440",
+      "url": "https://github.com/finic-ai/kairos",
+      "createdAt": "2026-11-03T21:16:48Z",
+      "updatedAt": "2026-11-03T21:16:48Z"
+    },
+    {
+      "id": "hn:50356913",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Introduction to Programming in ATS",
+      "description": "An introduction to programming in ATS, a programming language.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+      "createdAt": "2026-11-03T19:25:18Z",
+      "updatedAt": "2026-11-03T19:25:18Z"
     }
   ]
 }
