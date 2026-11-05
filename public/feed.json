@@ -36965,6 +36965,173 @@
       "createdAt": "2026-11-05T12:28:05Z",
       "updatedAt": "2026-11-05T12:28:05Z",
       "content": "Computer use is now generally available in the Gemini API.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50378298)"
+    },
+    {
+      "id": "x:2118335055726805215",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "esp32-eye tells four cats apart and logs every drink with local MiniCPM-V",
+      "description": "An open-source water-bowl monitor that uses an ESP32-S3 camera and MiniCPM-V models running on a MacBook to recognize individual cats and count their daily drinking events.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "OpenBMB (@OpenBMB)",
+      "url": "https://x.com/OpenBMB/status/2118335055726805215",
+      "createdAt": "2026-11-05T13:30:08Z",
+      "content": "An ESP32-S3 camera streams from beside the bowl to a MacBook. A small MiniCPM-V 4.7 1B model filters frames for a cat in view, then the 35B-A3B model compares the scene against reference photos to say which cat it is. A second ESP32-S3 with an AMOLED screen shows live video and each cat's count, and event clips are saved with audio. The builder reports 89 hand-checked drinking events over three days in a four-cat home.\n\n- [esp32-eye on GitHub](https://github.com/emwstudio/esp32-eye)\n- [MiniCPM-V on GitHub](https://github.com/OpenBMB/MiniCPM-V)\n\n[Post on X](https://x.com/OpenBMB/status/2118335055726805215)"
+    },
+    {
+      "id": "x:2118270227221766403",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Solo-built open-source biped walks on a policy trained only in simulation",
+      "description": "A small biped robot designed, built and trained by one person, driven by a reinforcement learning policy trained entirely in simulation with a custom RL library, with hardware and code open.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Asteris Robotics (@AsterisRobotics)",
+      "url": "https://x.com/AsterisRobotics/status/2118270227221766403",
+      "createdAt": "2026-11-05T09:12:32Z",
+      "content": "The policy transfers from simulation to the real robot with full command control: forward, sideways and turning. The repo covers Isaac Lab and MuJoCo training, the author's own PPO, SAC, DDPG, D4PG and MPO implementations, MLP, LSTM and Transformer policies, motion imitation and sim-to-real.\n\n- [BipedRobot on GitHub](https://github.com/AsterisCrack/BipedRobot)\n\n[Post on X](https://x.com/AsterisRobotics/status/2118270227221766403)"
+    },
+    {
+      "id": "x:2118295443000164443",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "StreamEval benchmarks interactive streaming video generation models",
+      "description": "A new open benchmark, leaderboard and dataset for five interactive streaming video generation tasks, with code on GitHub and data on Hugging Face.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "liam. (@liambraus)",
+      "url": "https://x.com/liambraus/status/2118295443000164443",
+      "createdAt": "2026-11-05T10:52:44Z",
+      "content": "StreamEval scores models that generate video continuously while reacting to user input, rather than rendering one clip at a time. The release includes a public leaderboard, a paper, open evaluation code and a 1.32k-row audio, image and text dataset.\n\n- [StreamEval leaderboard](https://streameval.ai)\n- [StreamEval on GitHub](https://github.com/StreamEval/StreamEval)\n- [StreamEval dataset on Hugging Face](https://huggingface.co/datasets/StreamEval/StreamEval)\n- [Paper on arXiv](https://arxiv.org/pdf/2610.28402)\n\n[Post on X](https://x.com/liambraus/status/2118295443000164443)"
+    },
+    {
+      "id": "x:2117980190840127637",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MABEL is a fully open-source 56-DOF mobile bimanual robot for about $8K in parts",
+      "description": "NYU and University of Toronto researchers open-sourced MABEL, a wheeled two-armed robot with dexterous hands, Vision Pro teleoperation and a full learning pipeline, buildable in about two weeks.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Jerry Chéng (@thejerrycheng)",
+      "url": "https://x.com/thejerrycheng/status/2117980190840127637",
+      "createdAt": "2026-11-04T14:00:02Z",
+      "content": "MABEL combines two 7-DOF arms with 17-DOF ORCA hands, a pitching torso, a lift, a 3-DOF head and a holonomic swerve base, for 56 degrees of freedom and an $8,056 parts list with no machine shop. An Apple Vision Pro drives the whole body from head and hand tracking. Hardware, firmware, ROS 2 control, teleoperation, a digital twin and an ACT imitation-learning pipeline are all released.\n\n- [MABEL project site](https://robotmabel.github.io/website/)\n- [MABEL paper on arXiv](https://arxiv.org/abs/2611.04083)\n\n[Post on X](https://x.com/thejerrycheng/status/2117980190840127637)"
+    },
+    {
+      "id": "x:2118194730496639008",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Amnesia shows and clears what Claude Code and Codex keep on your Mac",
+      "description": "A free, open-source macOS menu bar app that finds the transcripts and prompts coding agents store on disk and lets you delete them.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@ieuforu",
+      "url": "https://x.com/ieuforu/status/2118194730496639008",
+      "createdAt": "2026-11-05T04:12:32Z",
+      "content": "Coding agents keep every session transcript and typed prompt locally. Amnesia lists what Claude Code and Codex have stored and clears selected sessions from the menu bar, a small privacy tool for developers who paste sensitive material into agents.\n\n- [Amnesia on GitHub](https://github.com/ieuforu/Amnesia)\n\n[Post on X](https://x.com/ieuforu/status/2118194730496639008)"
+    },
+    {
+      "id": "x:2118208672639984045",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FrameDoctor finds and rebuilds dropped or repeated video frames on the Mac",
+      "description": "A free, open-source drag-and-drop Mac app that uses optical flow to detect stutters in AI video, screen recordings and bad transcodes and regenerates only the broken frames.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Gump Pasaganon (@gumparnat)",
+      "url": "https://x.com/gumparnat/status/2118208672639984045",
+      "createdAt": "2026-11-05T05:07:56Z",
+      "content": "FrameDoctor scans a clip for dropped and duplicated frames, then rebuilds just those frames with optical-flow interpolation while leaving good frames untouched.\n\n- [FrameDoctor on GitHub](https://github.com/Geeroz/framedoctor)\n\n[Post on X](https://x.com/gumparnat/status/2118208672639984045)"
+    },
+    {
+      "id": "x:2118283805148799376",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "openhoy pins iMessage contacts in your Mac menu bar",
+      "description": "An open-source, Hoy-style menu bar messenger for macOS built on iMessage, with pinned people, voice notes, files and screen recordings.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "farhan srambiyan (@frsrambiyan)",
+      "url": "https://x.com/frsrambiyan/status/2118283805148799376",
+      "createdAt": "2026-11-05T10:06:29Z",
+      "content": "Inspired by the Hoy app, openhoy puts favorite people in the menu bar so you can send a voice note, a file or a quick screen recording through Messages without opening the full app.\n\n- [openhoy on GitHub](https://github.com/farhansrambiyan/openhoy)\n\n[Post on X](https://x.com/frsrambiyan/status/2118283805148799376)"
+    },
+    {
+      "id": "x:2117983959967494458",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Murmury is an open-source Mac call assistant that stays hidden from screen share",
+      "description": "An open-source Cluely alternative for Mac that transcribes calls locally with Whisper on MLX and shows short answers from your own documents in a window screen sharing does not capture.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Run It (@BAVEXXX)",
+      "url": "https://x.com/BAVEXXX/status/2117983959967494458",
+      "createdAt": "2026-11-04T14:15:00Z",
+      "content": "Murmury listens to the call on your Mac, transcribes it with Whisper on MLX, retrieves from documents you load, and shows short suggested answers using your own AI key. GPL-3.0 and free.\n\n- [Murmury on GitHub](https://github.com/GianlucaBave/murmury)\n\n[Post on X](https://x.com/BAVEXXX/status/2117983959967494458)"
+    },
+    {
+      "id": "ideas:agent-transcript-secret-scanner",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Secret scanner and cleaner for coding-agent transcripts",
+      "description": "A developer tool for people using Claude Code, Codex or Cursor: a CLI and optional menu bar app that scans the transcripts, caches and logs coding agents leave on disk for API keys, tokens and private data, then redacts or deletes them on a schedule.",
+      "nextStep": "Write a Python script that walks ~/.claude and ~/.codex session files, runs gitleaks-style regexes over them, and prints each hit with the file, session date and a masked preview.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "createdAt": "2026-11-05T14:30:00Z",
+      "content": "## How it works\n\nCoding agents keep full transcripts of everything you pasted or they read, including .env files and tokens printed by commands. This tool finds every agent's local storage, scans it with secret patterns and entropy checks, and shows a report grouped by session. You can redact matches in place, delete whole sessions older than a set age, or run it as a pre-commit or nightly job so secrets never sit in plain text for long. Nothing leaves the machine.\n\n```mermaid\nflowchart LR\n  Stores[Agent transcript folders] --> Scan[Secret patterns and entropy]\n  Scan --> Report[Findings by session]\n  Report --> Redact[Redact in place]\n  Report --> Purge[Delete old sessions]\n  Purge --> Log[Local audit log]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Scanner | Rust or Go CLI using gitleaks rules |\n| Agent formats | Small readers for Claude Code, Codex, Cursor and OpenCode |\n| Schedule | launchd job or git pre-commit hook |\n| UI | Optional SwiftUI menu bar app like Amnesia |\n| Storage | Local JSON audit log, no server |\n\n## Hard parts\n\n- Redacting inside transcripts without breaking the agent's ability to resume a session.\n- Keeping up with storage paths and formats that change between agent releases.\n- Keeping false positives low enough that people trust the report.\n\n## Effort\n\nA weekend for a CLI that scans Claude Code and Codex; two to three weeks for redaction, scheduling and a menu bar app.\n\n## Inspired by\n\n- [Amnesia post on X](https://x.com/ieuforu/status/2118194730496639008)\n- [Amnesia on GitHub](https://github.com/ieuforu/Amnesia)"
+    },
+    {
+      "id": "ideas:pet-hydration-health-tracker",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Per-pet water and food tracker that flags health changes early",
+      "description": "A cheap camera by the bowl plus a local vision model that recognizes each pet, logs drinking and eating, and alerts you when a pet's habits shift, since sudden extra drinking in cats can be an early sign of kidney disease or diabetes.",
+      "nextStep": "Build emwstudio's esp32-eye with one ESP32-S3 camera and log a week of drinking events for your own pets to see how stable the daily baseline is.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "createdAt": "2026-11-05T14:30:00Z",
+      "content": "## How it works\n\nAn ESP32 camera beside the water and food bowls sends frames to a Mac or mini PC. A tiny model filters frames for an animal, a larger local vision model identifies which pet it is, and each visit is logged with duration. The app learns each pet's normal baseline and sends a phone notification when drinking or eating moves well outside it for a few days, with clips you can show a vet.\n\n```mermaid\nflowchart LR\n  Cam[ESP32 camera at bowl] --> Filter[Small model checks for a pet]\n  Filter --> ID[Vision model identifies the pet]\n  ID --> Log[Visit log per pet]\n  Log --> Baseline[Baseline and change detection]\n  Baseline --> Alert[Phone alert with clips]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Camera | ESP32-S3 camera board, about $10 |\n| Detection | MiniCPM-V small model or YOLO locally |\n| Identification | MiniCPM-V on a Mac mini, or embeddings plus reference photos |\n| Change detection | Rolling median and z-score per pet |\n| App | iOS app with push via ntfy or a simple web dashboard |\n\n## Hard parts\n\n- Telling look-alike pets apart in poor light.\n- Measuring how much was drunk, not just visit count.\n- Avoiding alert fatigue while still catching real changes.\n\n## Effort\n\nA weekend to log visits for one pet; three to four weeks for multi-pet identification, baselines and a phone app.\n\n## Inspired by\n\n- [esp32-eye post on X](https://x.com/OpenBMB/status/2118335055726805215)\n- [esp32-eye on GitHub](https://github.com/emwstudio/esp32-eye)"
     }
   ]
 }
