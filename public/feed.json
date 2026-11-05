@@ -2,6 +2,252 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50378625",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Discord is ditching Electron; its new Rust-based app uses less RAM",
+      "description": "Discord is moving its desktop clients fully to Rust, leaving Electron behind, and says the rebuilt app uses less memory while keeping the same features.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "archb",
+      "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+      "createdAt": "2026-11-05T13:05:28Z",
+      "content": "The Verge reports Discord is rewriting its apps in Rust and dropping Electron. Early builds are said to cut RAM use while Discord continues rolling the change out to users.\n\n- [The Verge](https://www.theverge.com/news/1027379/discord-ditching-electron-web-app)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50378625)",
+      "updatedAt": "2026-11-05T13:05:28Z"
+    },
+    {
+      "id": "hn:50380810",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Motorola Signature 27 ships with official GrapheneOS support",
+      "description": "Motorola's Signature 27 flagship is being presented with next-gen AI features and, notably for privacy-minded users, official GrapheneOS support.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "monneyboi",
+      "url": "https://motorolanews.com/motorola-signature-27-2/",
+      "createdAt": "2026-11-05T16:01:34Z",
+      "content": "Motorola News covers the Signature 27 as Motorola's newest flagship, highlighting design and AI features alongside GrapheneOS support that would let owners run a hardened Android build on official hardware.\n\n- [Motorola News](https://motorolanews.com/motorola-signature-27-2/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50380810)",
+      "updatedAt": "2026-11-05T16:01:34Z"
+    },
+    {
+      "id": "hn:50377821",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Awesome repositories are no longer awesome",
+      "description": "Erik Gahner Larsen argues that many GitHub \"awesome\" lists have become outdated, spammy, or SEO-driven, and are no longer reliable maps of a domain.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "erikgahner",
+      "url": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+      "createdAt": "2026-11-05T11:16:51Z",
+      "content": "The post explains how curated awesome-* repositories once felt like goldmines and why the author now treats most of them with skepticism—stale links, promotional entries, and weak maintenance.\n\n- [Article](https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50377821)",
+      "updatedAt": "2026-11-05T11:16:51Z"
+    },
+    {
+      "id": "hn:50379249",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MCP Explained: an interactive guide to the Model Context Protocol",
+      "description": "MCP Explained walks through every JSON-RPC message on the wire for the Model Context Protocol, covering transports, OAuth, tools, resources, sampling and more.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rwilinski",
+      "url": "https://mcp-explained.com/",
+      "createdAt": "2026-11-05T14:08:35Z",
+      "content": "The site is an interactive deep dive into how hosts, servers and models exchange MCP messages, including tools, resources, elicitation, tasks and tool search.\n\n- [MCP Explained](https://mcp-explained.com/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50379249)",
+      "updatedAt": "2026-11-05T14:08:35Z"
+    },
+    {
+      "id": "hn:50378508",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An obscure audio codec turns out to be a near-perfect fit for the N64",
+      "description": "PhobosLab describes getting 44.1 kHz stereo on the Nintendo 64 at near-Opus bitrates while using roughly 4% of the CPU, after surveying the console's grim historical audio options.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "frostbyte7",
+      "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+      "createdAt": "2026-11-05T12:51:48Z",
+      "content": "The write-up contrasts N64 cartridge audio limits with the PlayStation's CD streaming, then shows how a lesser-known codec delivers high-quality stereo without burning the scarce CPU budget.\n\n- [PhobosLab](https://phoboslab.org/log/2026/11/n64-ulc-codec)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50378508)",
+      "updatedAt": "2026-11-05T12:51:48Z"
+    },
+    {
+      "id": "hn:50379576",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "September in Servo: progress element, rounded rectangles, and more",
+      "description": "Servo's September update adds HTML progress rendering, rounded rectangles, new CSS functions and WebGL2 improvements for the independent browser engine.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "iamnothere",
+      "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
+      "createdAt": "2026-11-05T14:34:18Z",
+      "content": "The Servo project summarizes September work: better form control painting, CSS geometry features, and graphics stack progress aimed at making the engine more usable for real pages.\n\n- [Servo blog](https://servo.org/blog/2026/11/05/september-in-servo/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50379576)",
+      "updatedAt": "2026-11-05T14:34:18Z"
+    },
+    {
+      "id": "hn:50383057",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Hackintosh reborn—with AI",
+      "description": "A longtime Hackintosh guide author revisits running macOS on non-Apple hardware and explores how AI tooling changes the once-painful VM and passthrough setup path.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rubatuga",
+      "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+      "createdAt": "2026-11-05T19:08:22Z",
+      "content": "The post looks back at an earlier KVM/PCI-passthrough Hackintosh guide and argues that modern AI assistants make rebuilding and debugging those setups far more approachable than a decade ago.\n\n- [Article](https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50383057)",
+      "updatedAt": "2026-11-05T19:08:22Z"
+    },
+    {
+      "id": "hn:50368208",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: A decent text-to-image model trained for about $21K (Apache 2.0)",
+      "description": "Linum's P-JiT is a 2B-parameter text-to-image model trained under a Pyramid-JiT regime for roughly $21K, with Apache 2.0 weights and a public field-notes write-up.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "schopra909",
+      "url": "https://www.linum.ai/field-notes/pjit-21k",
+      "createdAt": "2026-11-04T16:45:11Z",
+      "content": "Sahil and Manu Chopra document training settings, limitations and what a low five-figure budget buys for a competitive open text-to-image baseline under the P-JiT recipe.\n\n- [Linum field notes](https://www.linum.ai/field-notes/pjit-21k)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50368208)",
+      "updatedAt": "2026-11-04T16:45:11Z"
+    },
+    {
+      "id": "hn:50385272",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Code reportedly sends the user's email address to websites",
+      "description": "A GitHub issue claims Claude Code put the user's email into the User-Agent header during web searches, exposing it to third-party sites without consent.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "motoroco",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "createdAt": "2026-11-05T22:17:15Z",
+      "content": "The reporter says scam email volume spiked after Claude Code leaked their address via User-Agent while fetching pages, and asks Anthropic to treat the behavior as a privacy bug rather than an optional setting.\n\n- [GitHub issue](https://github.com/anthropics/claude-code/issues/107757)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50385272)",
+      "updatedAt": "2026-11-05T22:17:15Z"
+    },
+    {
+      "id": "hn:50380704",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Stroq — locally audit what your coding agent did and why",
+      "description": "Stroq scans Claude Code, Codex and Cursor sessions for known secrets and installs local hooks that tie risky commands back to the prompt content that caused them, with no telemetry.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "agybay_07",
+      "url": "https://github.com/AGGIB/Stroq",
+      "createdAt": "2026-11-05T15:54:41Z",
+      "content": "The open-source tool is aimed at developers who want an offline trail of agent sessions: find secrets that already leaked into transcripts, then guard the next run with hooks that explain which instructions drove dangerous shell actions.\n\n- [GitHub repository](https://github.com/AGGIB/Stroq)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50380704)",
+      "updatedAt": "2026-11-05T15:54:41Z"
+    },
+    {
+      "id": "x:2118307879279046972",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple Frames and Frames CLI add iPad mini (A20 Pro) and Apple Watch Ultra 4",
+      "description": "Federico Viticci updated the free, open-source Apple Frames shortcut and Frames CLI with device frames for the new iPad mini and Apple Watch Ultra 4.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "Federico Viticci (@viticci)",
+      "url": "https://x.com/viticci/status/2118307879279046972",
+      "createdAt": "2026-11-05T11:42:09Z",
+      "content": "MacStories notes this follows an earlier Frames update for iPhone Duo and 18 Pro; the tools remain free for screenshot framing workflows.\n\n- [Post on X](https://x.com/viticci/status/2118307879279046972)\n- [MacStories write-up](https://www.macstories.net/linked/apple-frames-and-frames-cli-updated-with-ipad-mini-a20-pro-apple-watch-ultra-4-support/)",
+      "updatedAt": "2026-11-05T11:42:09Z"
+    },
+    {
+      "id": "x:2118290637128880272",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Clipstack: a free, open-source native SwiftUI clipboard manager for Mac",
+      "description": "Chiranjeeb Jena built Clipstack after finding other Mac clipboard managers too heavy, subscription-locked, or unclear about data handling; it is MIT-licensed with optional private iCloud sync.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Chiranjeeb Jena (@ichiranjeeb)",
+      "url": "https://x.com/ichiranjeeb/status/2118290637128880272",
+      "createdAt": "2026-11-05T10:33:38Z",
+      "content": "Clipstack keeps searchable clipboard history on-device, opens with ⇧⌘V, filters by type, pins items, and never saves password-manager copies. No account or analytics by default.\n\n- [Post on X](https://x.com/ichiranjeeb/status/2118290637128880272)\n- [GitHub repository](https://github.com/chiranjeebhub/ClipStack)",
+      "updatedAt": "2026-11-05T10:33:38Z"
+    },
+    {
+      "id": "x:2118471835289637375",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "chdb-rust v2.1.0 adds zero-copy query results and buffered inserts",
+      "description": "chDB's Rust bindings 2.1.0 let QueryResult::data_str() borrow results as &str without copying and buffer InsertStream writes so per-row writeln! is no longer an FFI call per row.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "chDB (@chdb_io)",
+      "url": "https://x.com/chdb_io/status/2118471835289637375",
+      "createdAt": "2026-11-05T22:33:39Z",
+      "content": "The release is built on chDB core 26.11.0-rc.2 and targets lower overhead when embedding ClickHouse-style queries inside Rust apps.\n\n- [Post on X](https://x.com/chdb_io/status/2118471835289637375)\n- [GitHub release](https://github.com/chdb-io/chdb-rust/releases/tag/v2.1.0)",
+      "updatedAt": "2026-11-05T22:33:39Z"
+    },
+    {
+      "id": "x:2118475976124330194",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vibeworks: agent-first CAD where multiple AIs build parts in parallel",
+      "description": "Farzin Nasiri open-sourced Vibeworks, an agent-first mechanical CAD workspace where multiple AI agents (and their subagents) can design different parts or assemblies concurrently and then combine them.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Farzin (@FarzinNasirii)",
+      "url": "https://x.com/FarzinNasirii/status/2118475976124330194",
+      "createdAt": "2026-11-05T22:50:06Z",
+      "content": "The GitHub project frames Vibeworks as CAD for coding agents: humans review and direct exact geometry while agents fan out across assemblies.\n\n- [Post on X](https://x.com/FarzinNasirii/status/2118475976124330194)\n- [GitHub repository](https://github.com/farzinnasiri/vibeworks)",
+      "updatedAt": "2026-11-05T22:50:06Z"
+    },
+    {
       "id": "hn:50366999",
       "section": "news",
       "type": "news",
