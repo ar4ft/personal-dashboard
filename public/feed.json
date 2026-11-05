@@ -36787,6 +36787,184 @@
       "createdAt": "2026-11-05T05:18:35Z",
       "updatedAt": "2026-11-05T05:18:35Z",
       "content": "Development build 0.6 stores books as local JSON with export and import backups, and offers function-key shortcuts for vouchers and Gateway navigation. The README says it is not notarized and is an independent work in progress, not a full TallyPrime replacement. It's a sizable real-world SwiftUI desktop codebase to learn from.\n\n- [Repo on GitHub](https://github.com/jaykumargori/ledgerdesk)\n\n[Post on X](https://x.com/jaykumar_gori/status/2118211351877497333)"
+    },
+    {
+      "id": "hn:50366117",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "description": "An Ask HN thread inviting readers to share their current agentic AI setups — the tools, models, and workflows they actually use.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "eggbrain",
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "createdAt": "2026-11-04T14:37:22Z",
+      "updatedAt": "2026-11-04T14:37:22Z",
+      "content": "An Ask HN thread inviting readers to share their current agentic AI setups — the tools, models, and workflows they actually use.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50366117)"
+    },
+    {
+      "id": "hn:50338474",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "description": "DoorDash says outside AI agents have produced only hundreds of orders so far, suggesting consumer AI agents have barely taken off for food delivery.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "PaulHoule",
+      "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+      "createdAt": "2026-11-02T15:48:45Z",
+      "updatedAt": "2026-11-02T15:48:45Z",
+      "content": "DoorDash says outside AI agents have produced only hundreds of orders so far, suggesting consumer AI agents have barely taken off for food delivery.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50338474)"
+    },
+    {
+      "id": "hn:50369895",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
+      "description": "After a decade of reverse engineering, the author got cooperative multiplayer working in the original DOS version of Wing Commander.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "daniel_rh",
+      "url": "https://fireflyk64.github.io/wcmulti/",
+      "createdAt": "2026-11-04T18:51:27Z",
+      "updatedAt": "2026-11-04T18:51:27Z",
+      "content": "After a decade of reverse engineering, the author got cooperative multiplayer working in the original DOS version of Wing Commander.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50369895)"
+    },
+    {
+      "id": "hn:50372164",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+      "description": "The third part of a series on hacking the Xbox 360 hypervisor, covering improvements around bad updates.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "muricula",
+      "url": "https://icode4.coffee/?p=1746",
+      "createdAt": "2026-11-04T22:01:49Z",
+      "updatedAt": "2026-11-04T22:01:49Z",
+      "content": "The third part of a series on hacking the Xbox 360 hypervisor, covering improvements around bad updates.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50372164)"
+    },
+    {
+      "id": "hn:50378228",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sshole",
+      "description": "A Hacker News post introducing Sshole.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "josemrb",
+      "url": "https://sshhole.com",
+      "createdAt": "2026-11-05T12:19:02Z",
+      "updatedAt": "2026-11-05T12:19:02Z",
+      "content": "A Hacker News post introducing Sshole.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50378228)"
+    },
+    {
+      "id": "hn:50341576",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Spreading Liquid with Three.js",
+      "description": "A post demonstrating how to create spreading liquid effects using Three.js.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mooreds",
+      "url": "https://mofu-dev.com/en/blog/fluid-foundation/",
+      "createdAt": "2026-11-02T18:45:54Z",
+      "updatedAt": "2026-11-02T18:45:54Z",
+      "content": "A post demonstrating how to create spreading liquid effects using Three.js.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50341576)"
+    },
+    {
+      "id": "hn:50349165",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Future Maintenance of Mbed TLS",
+      "description": "A mailing-list post discussing the future maintenance of Mbed TLS.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jonesjohnson",
+      "url": "https://lists.trustedfirmware.org/archives/list/mbed-tls@lists.trustedfirmware.org/thread/YPIGCB7WN6GCHOGEGKOJXUYAP7OK527W/",
+      "createdAt": "2026-11-03T07:39:05Z",
+      "updatedAt": "2026-11-03T07:39:05Z",
+      "content": "A mailing-list post discussing the future maintenance of Mbed TLS.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50349165)"
+    },
+    {
+      "id": "hn:50368804",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "description": "Kino AI, a Y Combinator S23 startup, launches an AI media manager and video editor.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "lukeigel",
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "createdAt": "2026-11-04T17:31:53Z",
+      "updatedAt": "2026-11-04T17:31:53Z",
+      "content": "Kino AI, a Y Combinator S23 startup, launches an AI media manager and video editor.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50368804)"
+    },
+    {
+      "id": "hn:50378085",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "All 5 genetic letters of DNA and RNA discovered in 4.5B-year-old asteroid",
+      "description": "Amazon has told engineers to stop 'tokenmaxxing' to appear productive, saying AI will be central to software development but usage is not the goal, according to new guidelines.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "MrBuddyCasino",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+      "createdAt": "2026-11-05T11:54:50Z",
+      "updatedAt": "2026-11-05T11:54:50Z",
+      "content": "Amazon has told engineers to stop 'tokenmaxxing' to appear productive, saying AI will be central to software development but usage is not the goal, according to new guidelines.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50378085)"
+    },
+    {
+      "id": "hn:50378298",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Computer use is GA in Gemini API",
+      "description": "Computer use is now generally available in the Gemini API.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "devhouse",
+      "url": "https://aistudio.google.com/docs/computer-use",
+      "createdAt": "2026-11-05T12:28:05Z",
+      "updatedAt": "2026-11-05T12:28:05Z",
+      "content": "Computer use is now generally available in the Gemini API.\n\n- [Discussion on Hacker News](https://news.ycombinator.com/item?id=50378298)"
     }
   ]
 }
