@@ -37378,6 +37378,92 @@
       ],
       "createdAt": "2026-11-05T14:30:00Z",
       "content": "## How it works\n\nAn ESP32 camera beside the water and food bowls sends frames to a Mac or mini PC. A tiny model filters frames for an animal, a larger local vision model identifies which pet it is, and each visit is logged with duration. The app learns each pet's normal baseline and sends a phone notification when drinking or eating moves well outside it for a few days, with clips you can show a vet.\n\n```mermaid\nflowchart LR\n  Cam[ESP32 camera at bowl] --> Filter[Small model checks for a pet]\n  Filter --> ID[Vision model identifies the pet]\n  ID --> Log[Visit log per pet]\n  Log --> Baseline[Baseline and change detection]\n  Baseline --> Alert[Phone alert with clips]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Camera | ESP32-S3 camera board, about $10 |\n| Detection | MiniCPM-V small model or YOLO locally |\n| Identification | MiniCPM-V on a Mac mini, or embeddings plus reference photos |\n| Change detection | Rolling median and z-score per pet |\n| App | iOS app with push via ntfy or a simple web dashboard |\n\n## Hard parts\n\n- Telling look-alike pets apart in poor light.\n- Measuring how much was drunk, not just visit count.\n- Avoiding alert fatigue while still catching real changes.\n\n## Effort\n\nA weekend to log visits for one pet; three to four weeks for multi-pet identification, baselines and a phone app.\n\n## Inspired by\n\n- [esp32-eye post on X](https://x.com/OpenBMB/status/2118335055726805215)\n- [esp32-eye on GitHub](https://github.com/emwstudio/esp32-eye)"
+    },
+    {
+      "id": "hn:50379704",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "description": "An Alpine Linux security advisory about an OpenSSH-server password authentication bypass.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pantalaimon",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "createdAt": "2026-11-05T14:44:20Z",
+      "updatedAt": "2026-11-05T14:44:20Z"
+    },
+    {
+      "id": "hn:50383740",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kagi Search for Everyone",
+      "description": "Kagi Search is now available to everyone.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "elashri",
+      "url": "https://kagi.com/changelog",
+      "createdAt": "2026-11-05T20:03:34Z",
+      "updatedAt": "2026-11-05T20:03:34Z"
+    },
+    {
+      "id": "hn:50383963",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+      "description": "Tencent launches Hy4, an open-source AI model positioned among the world's leading models.",
+      "topics": [
+        "AI",
+        "Deep Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+      "createdAt": "2026-11-05T20:21:43Z",
+      "updatedAt": "2026-11-05T20:21:43Z"
+    },
+    {
+      "id": "hn:50380658",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Building a Multi-Agent System from Scratch: Architecture Patterns",
+      "description": "Architecture patterns for building a multi-agent system from scratch.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kadharmfn",
+      "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+      "createdAt": "2026-11-05T15:51:57Z",
+      "updatedAt": "2026-11-05T15:51:57Z"
+    },
+    {
+      "id": "hn:50364860",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "So my ISP was hijacking my DNS",
+      "description": "A first-hand account of an ISP hijacking DNS traffic.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "frostbyte7",
+      "url": "https://www.karthihegde.dev/posts/dns_tampering",
+      "createdAt": "2026-11-04T12:51:51Z",
+      "updatedAt": "2026-11-04T12:51:51Z"
     }
   ]
 }
