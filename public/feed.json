@@ -2,6 +2,274 @@
   "version": 1,
   "items": [
     {
+      "id": "reading:abakcus-historic-math-books",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "29 historic math books you can read for free",
+      "description": "From the Rhind Papyrus to Principia Mathematica, Abakcus lists scanned historic math books that libraries have opened to the public.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/historic-math-books",
+      "createdAt": "2026-11-06T12:51:00Z",
+      "updatedAt": "2026-11-06T12:51:00Z",
+      "content": "A curated list of twenty-nine historic mathematics texts available as free scans, spanning ancient problem books through early modern foundations.\n\n- [Article on Abakcus](https://abakcus.com/articles/historic-math-books)"
+    },
+    {
+      "id": "reading:abakcus-math-symbols",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Math symbols: meaning, how to read them, and LaTeX code",
+      "description": "Abakcus catalogs 62 math symbols with spoken readings, LaTeX, Unicode points, and historical first uses in a searchable reference.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/math-symbols",
+      "createdAt": "2026-11-06T12:50:00Z",
+      "updatedAt": "2026-11-06T12:50:00Z",
+      "content": "A practical reference for sixty-two common math symbols: how to say them aloud, the LaTeX and Unicode forms, and who introduced each one.\n\n- [Article on Abakcus](https://abakcus.com/articles/math-symbols)"
+    },
+    {
+      "id": "hn:50390124",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dutch bank ASN blocks non-Google Android, including GrapheneOS",
+      "description": "ASN Bank’s Android app refuses devices without Google Play services, shutting out GrapheneOS and similar hardened phones.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "microtonal",
+      "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+      "createdAt": "2026-11-06T09:27:12Z",
+      "content": "A banking-apps compatibility report issue tracks ASN Bank rejecting non-Google Android builds such as GrapheneOS, raising privacy and access concerns.\n\n- [GitHub issue](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50390124)",
+      "updatedAt": "2026-11-06T09:27:12Z"
+    },
+    {
+      "id": "hn:50387796",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "pwn.college: learn offensive security by doing",
+      "description": "pwn.college is a free hands-on platform for binary exploitation and security research practice, built around progressive challenges.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "tripdout",
+      "url": "https://pwn.college/",
+      "createdAt": "2026-11-06T03:27:14Z",
+      "content": "A free curriculum and challenge platform for learning offensive security through actual pwnable labs rather than slide decks.\n\n- [Site](https://pwn.college/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50387796)",
+      "updatedAt": "2026-11-06T03:27:14Z"
+    },
+    {
+      "id": "hn:50387738",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nvidia Kubernetes Engine (NVKE)",
+      "description": "NVKE is an open project for running GPU workloads on Kubernetes with Nvidia-oriented scheduling and cluster plumbing.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "gkapur",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "createdAt": "2026-11-06T03:16:26Z",
+      "content": "An open Nvidia-focused Kubernetes stack for standing up GPU clusters without reinventing device plugins and scheduling each time.\n\n- [Repo on GitHub](https://github.com/dsx-ai-factory/nvke)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50387738)",
+      "updatedAt": "2026-11-06T03:16:26Z"
+    },
+    {
+      "id": "hn:50386789",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MoofTCP: a modern MacTCP replacement for 68k Macs",
+      "description": "MoofTCP is an open-source TCP/IP stack meant to replace aging MacTCP on classic 68k Macintosh systems.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "marcusbasant",
+      "url": "https://github.com/matthewmrichter/mooftcp",
+      "createdAt": "2026-11-06T00:54:15Z",
+      "content": "Classic Mac networking gets a fresh open-source TCP stack aimed at 68k machines that still depend on MacTCP-era APIs.\n\n- [Repo on GitHub](https://github.com/matthewmrichter/mooftcp)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50386789)",
+      "updatedAt": "2026-11-06T00:54:15Z"
+    },
+    {
+      "id": "hn:50381687",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Launch HN: Rivet – scale and orchestrate agents on S3",
+      "description": "Rivet is an open-source runtime for running and scaling AI agents with durable state on S3, aimed at long-running multi-agent workloads.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "NathanFlurry",
+      "url": "https://github.com/rivet-dev/rivet",
+      "createdAt": "2026-11-05T17:17:42Z",
+      "content": "Rivet (YC W23) open-sources an agent orchestration runtime that keeps durable state on S3 so agents can scale without a traditional database bottleneck.\n\n- [Repo on GitHub](https://github.com/rivet-dev/rivet)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50381687)",
+      "updatedAt": "2026-11-05T17:17:42Z"
+    },
+    {
+      "id": "hn:50380979",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Stacks Project, formalized in Lean",
+      "description": "Axiom Math reports formalizing large parts of the Stacks Project algebraic geometry reference in Lean, turning informal proofs into machine-checked ones.",
+      "topics": [
+        "Programming",
+        "Math"
+      ],
+      "source": "Hacker News",
+      "author": "namanbnsl",
+      "url": "https://axiommath.ai/research/the-stacks-project-formalized/",
+      "createdAt": "2026-11-05T16:16:59Z",
+      "content": "A research write-up on translating the Stacks Project into Lean, so algebraic geometry results can be checked by a proof assistant instead of only by humans.\n\n- [Article](https://axiommath.ai/research/the-stacks-project-formalized/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50380979)",
+      "updatedAt": "2026-11-05T16:16:59Z"
+    },
+    {
+      "id": "hn:50380268",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We can do better than line-buffered output",
+      "description": "A systems post argues that classic line buffering is a poor default for interactive and piped programs, and sketches clearer buffering strategies.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zdw",
+      "url": "https://nullprogram.com/blog/2026/11/05/",
+      "createdAt": "2026-11-05T15:25:22Z",
+      "content": "null program looks at how stdio line buffering behaves across pipes and terminals, and proposes more predictable alternatives for modern CLI tools.\n\n- [Article](https://nullprogram.com/blog/2026/11/05/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50380268)",
+      "updatedAt": "2026-11-05T15:25:22Z"
+    },
+    {
+      "id": "x:2118281908698374374",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Uber open-sources ADR to watch AI coding agents on employee machines",
+      "description": "Uber released Agentic AI Detection and Response (ADR), an Apache-2.0 system that inventories coding agents and MCP servers and traces what they do.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Brady Long (@thisguyknowsai)",
+      "url": "https://x.com/thisguyknowsai/status/2118281908698374374",
+      "createdAt": "2026-11-05T09:58:57Z",
+      "updatedAt": "2026-11-05T09:58:57Z",
+      "content": "Uber open-sourced ADR (Agentic AI Detection and Response), which inventories AI apps, CLI agents, IDE extensions, local model runtimes, and MCP servers, then captures intent and tool traces. It ran for months across thousands of Uber hosts and ships ADR-Bench for agent-attack coverage.\n\n- [Post on X](https://x.com/thisguyknowsai/status/2118281908698374374)\n- [Repo on GitHub](https://github.com/uber/ADR)"
+    },
+    {
+      "id": "x:2118220792655687878",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Orbit: open-source iPhone remote for Windows PCs hits the App Store",
+      "description": "Orbit is a SwiftUI app that wakes, remotes, streams, and monitors a Windows PC from iPhone, iPad, Apple Watch, and Apple TV without a cloud account.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Dimitrie Pîrvănescu (@Dimitrie2005)",
+      "url": "https://x.com/Dimitrie2005/status/2118220792655687878",
+      "createdAt": "2026-11-05T05:56:06Z",
+      "updatedAt": "2026-11-05T05:56:06Z",
+      "content": "Indie developer Dimitrie Pîrvănescu shipped Orbit, an open-source Apple-device remote for Windows PCs with live hardware stats, Wake-on-LAN, file transfer, Sunshine game streaming, and Watch/TV clients.\n\n- [Post on X](https://x.com/Dimitrie2005/status/2118220792655687878)\n- [App Store](https://apps.apple.com/app/id6823919198)\n- [Repo on GitHub](https://github.com/AceDimi2005/Orbit)"
+    },
+    {
+      "id": "x:2118021671647064385",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agent HUD: drive Codex from Apple Watch to your Mac",
+      "description": "Agent HUD is an open-source HUD for Claude Code, Codex, and other coding agents, with iPhone and Apple Watch clients that can send prompts to your Mac.",
+      "topics": [
+        "Wearables",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Jazzen Chen (@Jazzen_Chen)",
+      "url": "https://x.com/Jazzen_Chen/status/2118021671647064385",
+      "createdAt": "2026-11-04T16:44:52Z",
+      "updatedAt": "2026-11-04T16:44:52Z",
+      "content": "Jazzen Chen shows prompting Codex from an Apple Watch and hearing the result read back, via Agent HUD—an open-source desktop plus App Store companion for coding-agent quotas and sessions.\n\n- [Post on X](https://x.com/Jazzen_Chen/status/2118021671647064385)\n- [Website](https://agenthud.app)\n- [Repo on GitHub](https://github.com/jazzenchen/agent-hud-open)\n- [App Store](https://apps.apple.com/us/app/agent-hud/id6812113619)\n\n[Watch demo](https://video.twimg.com/amplify_video/2118021509008732161/vid/avc1/1280x720/9IOIbz4ubQ9_JHnp.mp4)"
+    },
+    {
+      "id": "x:2117966035336798627",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Spotify cut Claude Code token use ~90% and open-sourced the pattern",
+      "description": "Spotify’s Portal shunt plugin blocks huge file reads and routes them to a cheap worker model, cutting agent token spend dramatically on large repos.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Luke Mostert (@lukemostert)",
+      "url": "https://x.com/lukemostert/status/2117966035336798627",
+      "createdAt": "2026-11-04T13:03:47Z",
+      "updatedAt": "2026-11-04T13:03:47Z",
+      "content": "Spotify explains how a hook that blocks full reads of large files, plus a cheap subagent for those reads, cut Claude Code tokens by roughly 82–94% on a big Java monorepo—and open-sourced the plugin pattern.\n\n- [Post on X](https://x.com/lukemostert/status/2117966035336798627)\n- [Engineering write-up](https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90)\n- [Plugin on GitHub](https://github.com/spotify/portal-ai-plugins)"
+    },
+    {
+      "id": "x:2117799233332146505",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ATTUNE: Amazon’s agent that tunes LLM training throughput",
+      "description": "Amazon Science open-sourced ATTUNE, a Claude Code skill that autonomously tunes training recipes and reports up to multi-x GPU throughput gains.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Leo Fan (@leofan_cc)",
+      "url": "https://x.com/leofan_cc/status/2117799233332146505",
+      "createdAt": "2026-11-04T02:00:58Z",
+      "updatedAt": "2026-11-04T02:00:58Z",
+      "content": "ATTUNE is a self-evolving throughput tuner used on Amazon post-training jobs: give it a recipe and GPU budget, and it changes framework flags under a correctness gate. Amazon also released tuned OpenRecipes for many models.\n\n- [Post on X](https://x.com/leofan_cc/status/2117799233332146505)\n- [Paper on arXiv](https://arxiv.org/abs/2610.17528)\n- [Code on GitHub](https://github.com/amazon-science/attune)\n- [OpenRecipes](https://openrecipes.ai)"
+    },
+    {
+      "id": "hn:50349667",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Lisp curse, now coming to your ecosystem",
+      "description": "An essay maps the old Lisp curse—endless incompatible abstractions—onto today’s LLM-accelerated language and tooling ecosystems.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "marcolinux",
+      "url": "https://javahippie.net/programming/llm/2026/03/05/the-lisp-curse-coming-to-your-ecosystem.html",
+      "createdAt": "2026-11-03T08:59:31Z",
+      "content": "The classic argument that expressive languages fragment into incompatible dialects is reframed for an era when LLMs make new abstractions cheap to invent.\n\n- [Essay](https://javahippie.net/programming/llm/2026/03/05/the-lisp-curse-coming-to-your-ecosystem/)\n- [Hacker News discussion](https://news.ycombinator.com/item?id=50349667)",
+      "updatedAt": "2026-11-03T08:59:31Z"
+    },
+    {
       "id": "hn:50378625",
       "section": "news",
       "type": "news",
