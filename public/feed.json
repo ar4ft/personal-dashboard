@@ -38334,6 +38334,169 @@
       ],
       "createdAt": "2026-11-06T14:15:00Z",
       "content": "## How it works\n\nKits ship an ESP32 board with a CH390 SPI Ethernet module already wired, a PoE or wall adapter option, and ready ESPHome YAML for common sensors. You flash over USB or OTA, plug into a switch, and the node appears in Home Assistant without hunting for Wi-Fi dropouts on cameras or critical sensors.\n\n```mermaid\nflowchart LR\n  Kit[ESP32 + CH390 kit] --> Switch[Ethernet switch]\n  Switch --> HA[Home Assistant]\n  Kit --> Sensors[Temp / door / cam]\n  Sensors --> Kit\n  Docs[ESPHome YAML + HA docs] --> Kit\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| MCU | ESP32 / ESP32-S3 board with SPI free |\n| Ethernet | Olimex-style UEXT-CH390 or equivalent |\n| Firmware | ESPHome ethernet component |\n| Power | USB-C or PoE splitter |\n| Docs | One-page BOM, enclosure STL, HA dashboard |\n\n## Hard parts\n\n- Enclosure that fits board + module + cable strain relief.\n- PoE vs separate PSU SKUs without exploding SKU count.\n- Clear ESPHome pin maps so buyers do not short SPI lines.\n- Competing on price with DIY module + bare board.\n\n## Effort\n\n1–2 weekends for a working prototype BOM, ESPHome config, and enclosure sketch; longer for a sellable kit with packaging.\n\n## Inspired by\n\n- [CNX post](https://x.com/cnxsoft/status/2118562435233952088)\n- [article](https://www.cnx-software.com/2026/11/06/olimex-uext-ch390-spi-to-ethernet-module-targets-raspberry-pi-and-esp32-mcu-boards-running-esphome/)"
+    },
+    {
+      "id": "hn:50391456",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tesla to wind down Cybertruck production",
+      "description": "Tesla is winding down production of the Cybertruck after years of poor sales.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "PLenz",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "createdAt": "2026-11-06T12:13:51Z",
+      "updatedAt": "2026-11-06T12:13:51Z"
+    },
+    {
+      "id": "hn:50388122",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
+      "description": "A look at how volunteers built the internet, from Linux to Wikipedia.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jonbaer",
+      "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
+      "createdAt": "2026-11-06T04:17:49Z",
+      "updatedAt": "2026-11-06T04:17:49Z"
+    },
+    {
+      "id": "hn:50388001",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "description": "The US FAA says it will phase out floppy disks from air traffic control by 2028.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ChrisArchitect",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "createdAt": "2026-11-06T04:00:28Z",
+      "updatedAt": "2026-11-06T04:00:28Z"
+    },
+    {
+      "id": "hn:50394906",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "description": "Buyers in Anthropic's IPO see the company's valuation as low as $1.1 trillion.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dgellow",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "createdAt": "2026-11-06T16:54:36Z",
+      "updatedAt": "2026-11-06T16:54:36Z"
+    },
+    {
+      "id": "hn:50391145",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We've built an open-source feature flag server for 11 years",
+      "description": "The team behind the open-source feature flag server Unleash reflects on 11 years of building it.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ivarconr",
+      "url": "https://github.com/Unleash/unleash",
+      "createdAt": "2026-11-06T11:40:06Z",
+      "updatedAt": "2026-11-06T11:40:06Z"
+    },
+    {
+      "id": "hn:50397994",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI is dramatically accelerating AI research",
+      "description": "AI is dramatically accelerating AI research itself.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "yurivish",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "createdAt": "2026-11-06T20:27:23Z",
+      "updatedAt": "2026-11-06T20:27:23Z"
+    },
+    {
+      "id": "hn:50389570",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Chomsky and the two cultures of statistical learning (2011)",
+      "description": "A classic piece on Chomsky and the two cultures of statistical learning.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "andsoitis",
+      "url": "https://www.norvig.com/chomsky.html",
+      "createdAt": "2026-11-06T08:18:36Z",
+      "updatedAt": "2026-11-06T08:18:36Z"
+    },
+    {
+      "id": "hn:50395450",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Devvm.dev: One VM for every project",
+      "description": "Devvm.dev offers one virtual machine for every project.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "luispa",
+      "url": "https://devvm.dev/",
+      "createdAt": "2026-11-06T17:30:22Z",
+      "updatedAt": "2026-11-06T17:30:22Z"
+    },
+    {
+      "id": "hn:50396834",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Replit rebuilt its sandbox engine with microVMs",
+      "description": "Replit rebuilt its sandbox engine with microVMs.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "gaplong",
+      "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/",
+      "createdAt": "2026-11-06T19:06:10Z",
+      "updatedAt": "2026-11-06T19:06:10Z"
+    },
+    {
+      "id": "hn:50354308",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
+      "description": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
+      "createdAt": "2026-11-03T16:43:54Z",
+      "updatedAt": "2026-11-03T16:43:54Z"
     }
   ]
 }
