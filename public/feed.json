@@ -37464,6 +37464,189 @@
       "url": "https://www.karthihegde.dev/posts/dns_tampering",
       "createdAt": "2026-11-04T12:51:51Z",
       "updatedAt": "2026-11-04T12:51:51Z"
+    },
+    {
+      "id": "hn:50383739",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Goodbye from Salon",
+      "description": "Salon, the pioneering digital news outlet founded in 1995, announces its shutdown.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mkeeter",
+      "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+      "createdAt": "2026-11-05T20:03:29Z",
+      "updatedAt": "2026-11-05T20:03:29Z"
+    },
+    {
+      "id": "hn:50384233",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "description": "A remote code execution vulnerability is disclosed in Microsoft Paint.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kuberwastaken",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "createdAt": "2026-11-05T20:43:42Z",
+      "updatedAt": "2026-11-05T20:43:42Z"
+    },
+    {
+      "id": "hn:50378942",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I wish tech companies knew more about me",
+      "description": "An essay on how tech companies could serve users better if they understood their actual needs and context.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "freetonik",
+      "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+      "createdAt": "2026-11-05T13:40:52Z",
+      "updatedAt": "2026-11-05T13:40:52Z"
+    },
+    {
+      "id": "hn:50385870",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "description": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads, with documents pointing to $16B in fraud revenue.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "randycupertino",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "createdAt": "2026-11-05T23:09:57Z",
+      "updatedAt": "2026-11-05T23:09:57Z"
+    },
+    {
+      "id": "hn:50381383",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Window Sweaters",
+      "description": "A project that adds cozy knitted sweaters to windows on your desktop.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nickswalker",
+      "url": "https://github.com/saragordic/window-sweaters",
+      "createdAt": "2026-11-05T16:50:14Z",
+      "updatedAt": "2026-11-05T16:50:14Z"
+    },
+    {
+      "id": "hn:50389333",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "description": "A look at Blender's user interface and runtime performance, comparing it favorably against GPUI.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ppmpreetham",
+      "url": "https://github.com/ppmpreetham/BUI",
+      "createdAt": "2026-11-06T07:40:35Z",
+      "updatedAt": "2026-11-06T07:40:35Z"
+    },
+    {
+      "id": "hn:50386338",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Inkling 2 Small",
+      "description": "Thinking Machines introduces Inkling 2 Small, a new compact AI model.",
+      "topics": [
+        "AI",
+        "Deep Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "Philpax",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "createdAt": "2026-11-06T00:00:24Z",
+      "updatedAt": "2026-11-06T00:00:24Z"
+    },
+    {
+      "id": "hn:50378643",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+      "description": "Firenook reimplements Firebase emulators in Rust, claiming 40× faster writes and 10× less RAM.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sanjevirau",
+      "url": "https://firenook.dev/",
+      "createdAt": "2026-11-05T13:07:29Z",
+      "updatedAt": "2026-11-05T13:07:29Z"
+    },
+    {
+      "id": "hn:50383294",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pangram Image 1.0",
+      "description": "Pangram releases Image 1.0, its image generation model.",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+      "createdAt": "2026-11-05T19:27:52Z",
+      "updatedAt": "2026-11-05T19:27:52Z"
+    },
+    {
+      "id": "hn:50389370",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kugelblitz – Mac-Native Google Earth Alternative",
+      "description": "Kugelblitz is a Mac-native alternative to Google Earth.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "luoc",
+      "url": "https://apps.metaebene.me/en/kugelblitz",
+      "createdAt": "2026-11-06T07:47:38Z",
+      "updatedAt": "2026-11-06T07:47:38Z"
+    },
+    {
+      "id": "hn:50389448",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
+      "description": "A data-driven look at the App Store in 2026, covering AI apps, pricing trends, and abandoned apps.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Peter216",
+      "url": "https://obelisk.club/research/app-store-2026",
+      "createdAt": "2026-11-06T07:59:19Z",
+      "updatedAt": "2026-11-06T07:59:19Z"
     }
   ]
 }
