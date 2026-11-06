@@ -37915,6 +37915,173 @@
       "url": "https://obelisk.club/research/app-store-2026",
       "createdAt": "2026-11-06T07:59:19Z",
       "updatedAt": "2026-11-06T07:59:19Z"
+    },
+    {
+      "id": "x:2118430862949945612",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hugging Face ML Intern is now an installable Slack bot",
+      "description": "Open-source ML Intern can evaluate models, build datasets, and fine-tune from your own Slack workspace with a $0 default compute budget until you approve jobs.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Hugging Face (@huggingface)",
+      "url": "https://x.com/huggingface/status/2118430862949945612",
+      "createdAt": "2026-11-05T19:50:50Z",
+      "content": "Hugging Face shipped ML Intern as an installable Slack bot so teams can evaluate models, build datasets, and kick off fine-tunes from the workspace chat. Compute defaults to a $0 budget until someone explicitly approves a job.\n\n- [ML Intern Slack docs](https://huggingface.co/docs/chat-ui/ml-intern/slack-bot)\n- [Getting started](https://huggingface.co/docs/chat-ui/ml-intern/getting-started)\n\n[Post on X](https://x.com/huggingface/status/2118430862949945612)"
+    },
+    {
+      "id": "x:2118349990368362864",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SenseNova 6.8 Code2Video writes editable code that becomes the video",
+      "description": "SenseTime's open 27B model generates motion graphics and explainers as source you can edit turn by turn, with weights and skills on GitHub and Hugging Face.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Nelly; (@nrqa__)",
+      "url": "https://x.com/nrqa__/status/2118349990368362864",
+      "createdAt": "2026-11-05T14:29:29Z",
+      "content": "SenseTime open-sourced SenseNova 6.8 Code2Video, a 27B model that generates motion graphics and explainer videos as editable source code you can revise turn by turn instead of a locked render.\n\n- [Repo on GitHub](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video)\n- [Model on Hugging Face](https://huggingface.co/sensenova/SenseNova-6.8-Code2Video)\n\n[Post on X](https://x.com/nrqa__/status/2118349990368362864)"
+    },
+    {
+      "id": "x:2118206881399242791",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "RoboColosseum benchmarks robot policies on real hardware in the wild",
+      "description": "An open evaluation arena runs policies blind across 100+ robots and 140+ scenes, publishes every rollout including failures on Hugging Face, and offers free academic eval hours.",
+      "topics": [
+        "Technology",
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "The Humanoid Hub (@TheHumanoidHub)",
+      "url": "https://x.com/TheHumanoidHub/status/2118206881399242791",
+      "createdAt": "2026-11-05T05:00:49Z",
+      "content": "RoboColosseum is an open evaluation arena that runs robot policies blind across 100+ robots and 140+ scenes, then publishes every rollout — including failures — on Hugging Face. Academic teams can get free eval hours.\n\n- [RoboColosseum site](https://robocolosseum.ai/)\n- [GitHub](https://github.com/RoboColosseum/RoboColosseum)\n- [Hugging Face org](https://huggingface.co/RoboColosseum)\n\n[Post on X](https://x.com/TheHumanoidHub/status/2118206881399242791)"
+    },
+    {
+      "id": "x:2118562435233952088",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Olimex UEXT-CH390 adds SPI Ethernet for Pi and ESP32 boards",
+      "description": "Open-source hardware module with a WCH CH390 brings 10/100 Mbps wired Ethernet over SPI to RP2040/RP2350 and ESP32 boards, with ESPHome and Arduino support.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "CNX Software (@cnxsoft)",
+      "url": "https://x.com/cnxsoft/status/2118562435233952088",
+      "createdAt": "2026-11-06T04:33:40Z",
+      "content": "Olimex's open-source UEXT-CH390 module uses a WCH CH390 to add 10/100 Mbps wired Ethernet over SPI to Raspberry Pi Pico (RP2040/RP2350) and ESP32 boards, with ESPHome and Arduino support for makers who want reliable wired links instead of flaky Wi-Fi.\n\n- [CNX Software article](https://www.cnx-software.com/2026/11/06/olimex-uext-ch390-spi-to-ethernet-module-targets-raspberry-pi-and-esp32-mcu-boards-running-esphome/)\n\n[Post on X](https://x.com/cnxsoft/status/2118562435233952088)"
+    },
+    {
+      "id": "x:2118394629804441773",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Stanford Pupper V3 open-sources a teachable robot dog build",
+      "description": "Education-focused quadruped with Pi 5, brushless motors, RL locomotion, ROS 2, MuJoCo sim, and full BOM plus course materials for about a $2K DIY build.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Techniahqrobot | humanoid robots (@techniahqrobot)",
+      "url": "https://x.com/techniahqrobot/status/2118394629804441773",
+      "createdAt": "2026-11-05T17:26:52Z",
+      "content": "Stanford Pupper V3 is an education-focused open-source quadruped built around a Raspberry Pi 5, brushless motors, RL locomotion, ROS 2, and MuJoCo sim, with a full BOM and course materials for a DIY build around $2K.\n\n- [Docs](https://pupper-v3-documentation.readthedocs.io/en/latest/)\n- [Monorepo on GitHub](https://github.com/Nate711/pupperv3-monorepo)\n\n[Post on X](https://x.com/techniahqrobot/status/2118394629804441773)"
+    },
+    {
+      "id": "x:2118432621114040688",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "super.engineering iOS app leaves private beta for agent control",
+      "description": "Native iOS companion for the agent control plane shows chats, repos, PR/CI status, diffs, terminals and subagents, pairs to Mac by QR with end-to-end encryption, and sends push alerts.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "super.engineering (@superdoteng)",
+      "url": "https://x.com/superdoteng/status/2118432621114040688",
+      "createdAt": "2026-11-05T19:57:50Z",
+      "content": "super.engineering's native iOS companion left private beta. It shows agent chats, repos, PR/CI status, diffs, terminals and subagents, pairs to a Mac by QR with end-to-end encryption, and sends push alerts when jobs need attention.\n\n- [super.engineering](https://super.engineering)\n\n[Post on X](https://x.com/superdoteng/status/2118432621114040688)"
+    },
+    {
+      "id": "x:2118152816178975223",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Electron Debug MCP lets coding agents see and drive running Electron apps",
+      "description": "An ISC-licensed MCP server attaches over Chrome DevTools Protocol so Cursor or Claude can screenshot, click, assert UI, and inspect main-process IPC instead of guessing from source alone.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Dan Kornas (@DanKornas)",
+      "url": "https://x.com/DanKornas/status/2118152816178975223",
+      "createdAt": "2026-11-05T01:25:59Z",
+      "content": "Electron Debug MCP is an ISC-licensed MCP server that attaches to running Electron apps over the Chrome DevTools Protocol. Cursor or Claude can screenshot, click, assert UI, and inspect main-process IPC instead of guessing from source alone.\n\n- [Repo on GitHub](https://github.com/amafjarkasi/electron-mcp-server)\n- [npm electron-debug-mcp](https://www.npmjs.com/package/electron-debug-mcp)\n\n[Post on X](https://x.com/DanKornas/status/2118152816178975223)"
+    },
+    {
+      "id": "x:2118257366273872021",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WOW Keywords launches ASO research with an MCP for coding agents",
+      "description": "Mac and Windows desktop tool for App Store and Google Play keyword research, listing optimization and screenshot localization, with a local MCP so agents can run ASO workflows.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Dan Kulkov (@DanKulkov)",
+      "url": "https://x.com/DanKulkov/status/2118257366273872021",
+      "createdAt": "2026-11-05T08:21:26Z",
+      "content": "WOW Keywords is a Mac and Windows desktop tool for App Store and Google Play keyword research, listing optimization, and screenshot localization. It also ships a local MCP so coding agents can run ASO workflows directly.\n\n- [WOW Keywords](https://wowkeywords.com/)\n- [MCP docs](https://wowkeywords.com/docs/mcp)\n\n[Post on X](https://x.com/DanKulkov/status/2118257366273872021)"
+    },
+    {
+      "id": "ideas:swiftui-agent-debugger",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Agent debugger for SwiftUI and native Mac apps",
+      "description": "A developer tool for Mac and iOS engineers who use Cursor, Claude Code or Codex: an MCP server plus small helper that exposes Accessibility trees, screenshots and UI actions for native SwiftUI/AppKit apps (not only Electron), so agents can verify the running UI the way Electron Debug MCP does for Chromium shells.",
+      "nextStep": "Prototype an MCP tool that launches a sample SwiftUI app, returns its AX tree via macOS Accessibility APIs, and can click a button by accessibility label.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "createdAt": "2026-11-06T14:15:00Z",
+      "content": "## How it works\n\nAn MCP server on the Mac talks to a tiny helper that uses Accessibility APIs and ScreenCaptureKit. Coding agents call tools to dump the AX tree, take a screenshot of a window or control, and click or type by accessibility label — the same loop Electron Debug MCP gives Chromium apps, but for native SwiftUI and AppKit.\n\n```mermaid\nflowchart LR\n  Agent[Cursor / Claude / Codex] --> MCP[SwiftUI Agent Debugger MCP]\n  MCP --> Helper[AX + screenshot helper]\n  Helper --> App[Running SwiftUI / AppKit app]\n  Helper --> Tree[Accessibility tree]\n  Helper --> Shot[Window screenshot]\n  Tree --> Agent\n  Shot --> Agent\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| MCP server | TypeScript or Swift CLI over stdio |\n| Tree access | macOS Accessibility APIs / AXUIElement |\n| Screenshots | ScreenCaptureKit or CGWindowListCreateImage |\n| Actions | AXPress / AXSetValue by label or role |\n| Sample target | Tiny SwiftUI demo with labeled buttons |\n\n## Hard parts\n\n- Permission prompts and TCC for Accessibility and screen recording.\n- Mapping SwiftUI view identity to stable accessibility labels.\n- Driving iOS Simulator vs real Mac windows with one API surface.\n- Keeping latency low enough for agent turn loops.\n\n## Effort\n\n2–3 weekends for an MVP that dumps AX trees and clicks one labeled control in a sample Mac app.\n\n## Inspired by\n\n- [Electron Debug MCP post](https://x.com/DanKornas/status/2118152816178975223)\n- [Repo](https://github.com/amafjarkasi/electron-mcp-server)\n- [super.engineering iOS](https://x.com/superdoteng/status/2118432621114040688)"
+    },
+    {
+      "id": "ideas:wired-esphome-ethernet-kit",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Plug-and-play wired Ethernet kits for ESPHome sensors",
+      "description": "A small product line of ESP32 boards and sensor nodes that ship with the Olimex-style CH390 SPI Ethernet module pre-wired, ESPHome configs, and Home Assistant docs, aimed at makers tired of flaky Wi-Fi for cameras and critical sensors.",
+      "nextStep": "Order a CH390 UEXT module and an ESP32 board, flash a minimal ESPHome ethernet sensor, and write a one-page BOM plus enclosure sketch.",
+      "topics": [
+        "Technology"
+      ],
+      "createdAt": "2026-11-06T14:15:00Z",
+      "content": "## How it works\n\nKits ship an ESP32 board with a CH390 SPI Ethernet module already wired, a PoE or wall adapter option, and ready ESPHome YAML for common sensors. You flash over USB or OTA, plug into a switch, and the node appears in Home Assistant without hunting for Wi-Fi dropouts on cameras or critical sensors.\n\n```mermaid\nflowchart LR\n  Kit[ESP32 + CH390 kit] --> Switch[Ethernet switch]\n  Switch --> HA[Home Assistant]\n  Kit --> Sensors[Temp / door / cam]\n  Sensors --> Kit\n  Docs[ESPHome YAML + HA docs] --> Kit\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| MCU | ESP32 / ESP32-S3 board with SPI free |\n| Ethernet | Olimex-style UEXT-CH390 or equivalent |\n| Firmware | ESPHome ethernet component |\n| Power | USB-C or PoE splitter |\n| Docs | One-page BOM, enclosure STL, HA dashboard |\n\n## Hard parts\n\n- Enclosure that fits board + module + cable strain relief.\n- PoE vs separate PSU SKUs without exploding SKU count.\n- Clear ESPHome pin maps so buyers do not short SPI lines.\n- Competing on price with DIY module + bare board.\n\n## Effort\n\n1–2 weekends for a working prototype BOM, ESPHome config, and enclosure sketch; longer for a sellable kit with packaging.\n\n## Inspired by\n\n- [CNX post](https://x.com/cnxsoft/status/2118562435233952088)\n- [article](https://www.cnx-software.com/2026/11/06/olimex-uext-ch390-spi-to-ethernet-module-targets-raspberry-pi-and-esp32-mcu-boards-running-esphome/)"
     }
   ]
 }
