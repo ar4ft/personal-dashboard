@@ -2,6 +2,258 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50394569",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rune: a native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+      "description": "Anomaly’s Rune is an open-source Rust UI framework that renders on the GPU natively across desktop and the web, aimed at high-performance app UIs.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "mik3y",
+      "url": "https://github.com/anomalyco/rune",
+      "createdAt": "2026-11-06T16:31:32Z",
+      "content": "Rune is a native GPU-rendered Rust UI framework targeting macOS, Windows, Linux and the web, offering an open-source path for building high-performance cross-platform interfaces without a traditional retained-mode toolkit stack.\n\n- [Repo on GitHub](https://github.com/anomalyco/rune)\n- [Discussion on HN](https://news.ycombinator.com/item?id=50394569)"
+    },
+    {
+      "id": "hn:50392118",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gemini Omni 1.2 Flash arrives for developers",
+      "description": "Google’s Gemini Omni 1.2 Flash update targets developers with a faster multimodal model path for tools and apps.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "thisisauserid",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "createdAt": "2026-11-06T13:35:27Z",
+      "content": "Google introduced Gemini Omni 1.2 Flash for developers, positioning a faster multimodal model option for tooling and product integrations.\n\n- [Google blog post](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/)\n- [Discussion on HN](https://news.ycombinator.com/item?id=50392118)"
+    },
+    {
+      "id": "hn:50394855",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "First steps in bare-metal programming using UEFI",
+      "description": "A hands-on tutorial walks through writing and running bare-metal programs with UEFI instead of a conventional OS boot path.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "LaSombra",
+      "url": "https://kevinboone.me/efitest_index.html",
+      "createdAt": "2026-11-06T16:50:29Z",
+      "content": "Kevin Boone’s guide covers early bare-metal programming with UEFI: toolchain setup, simple firmware apps, and what differs from writing userspace code on a normal OS.\n\n- [Tutorial](https://kevinboone.me/efitest_index.html)\n- [Discussion on HN](https://news.ycombinator.com/item?id=50394855)"
+    },
+    {
+      "id": "hn:50397429",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An LLM judge that can ask Opus for help matches Opus accuracy at ~4× lower cost",
+      "description": "Hightouch describes a cheaper LLM-as-judge setup that escalates hard identity-resolution cases to Opus and still hits Opus-level accuracy.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "theanomaly",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "createdAt": "2026-11-06T19:48:51Z",
+      "content": "Hightouch’s write-up on identity resolution shows a lighter LLM judge that can call Opus only when unsure, approaching Opus accuracy while cutting judge cost about fourfold.\n\n- [Hightouch blog post](https://hightouch.com/blog/llm-judges-identity-resolution)\n- [Discussion on HN](https://news.ycombinator.com/item?id=50397429)"
+    },
+    {
+      "id": "hn:50397219",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Firecracker VM escape: PwnEscape part 2",
+      "description": "A technical write-up continues the PwnEscape series with a Firecracker microVM escape path and exploitation notes.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "SerCe",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "createdAt": "2026-11-06T19:33:38Z",
+      "content": "PwnEscape part 2 digs into escaping a Firecracker microVM, documenting the vulnerability chain and what it means for agent and serverless isolation that rely on Firecracker.\n\n- [pwn.ai write-up](https://pwn.ai/blog/firecracker-escape)\n- [Discussion on HN](https://news.ycombinator.com/item?id=50397219)"
+    },
+    {
+      "id": "hn:50396064",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We know ~15k websites are infected — how do we tell them?",
+      "description": "Scott Helme explains finding tens of thousands of compromised sites and the practical problem of notifying owners at scale.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
+      "createdAt": "2026-11-06T18:13:35Z",
+      "content": "Scott Helme reports identifying about 15,579 infected websites and walks through why notifying owners is harder than detecting the compromise—and what channels might work.\n\n- [Scott Helme’s post](https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/)\n- [Discussion on HN](https://news.ycombinator.com/item?id=50396064)"
+    },
+    {
+      "id": "hn:50395919",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Memorilla: latent semantic memory for LLMs",
+      "description": "An arXiv paper proposes Memorilla, a latent semantic memory approach intended to improve how LLMs store and retrieve information.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "handfuloflight",
+      "url": "https://arxiv.org/abs/2610.21375",
+      "createdAt": "2026-11-06T18:03:33Z",
+      "content": "Memorilla explores latent semantic memory for large language models, aiming at more structured long-term recall than raw context windows alone.\n\n- [Paper on arXiv](https://arxiv.org/abs/2610.21375)\n- [Discussion on HN](https://news.ycombinator.com/item?id=50395919)"
+    },
+    {
+      "id": "hn:50394070",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Swipeblocked: phrases your iPhone won’t suggest",
+      "description": "A small site catalogs text your iPhone’s keyboard prediction refuses to suggest, highlighting quirks in Apple’s swipe/autocomplete filters.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "lladnar",
+      "url": "https://swipeblocked.com/",
+      "createdAt": "2026-11-06T16:01:54Z",
+      "content": "Swipeblocked collects phrases that iPhone keyboard suggestions will not offer, a playful look at how Apple’s autocomplete and swipe filters behave in practice.\n\n- [Swipeblocked](https://swipeblocked.com/)\n- [Discussion on HN](https://news.ycombinator.com/item?id=50394070)"
+    },
+    {
+      "id": "reading:abakcus-history-of-mathematics",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The history of mathematics, written in the margins",
+      "description": "A long Abakcus tour of four thousand years of mathematics—from Babylonian homework tablets and Euclid to Gödel, Perelman and machine-checked proofs.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Abakcus",
+      "url": "https://abakcus.com/articles/history-of-mathematics",
+      "createdAt": "2026-11-06T22:55:00Z",
+      "content": "Abakcus retells the history of mathematics through margins and side notes: clay tablets, papyrus, Fermat’s scrap, proof assistants and Olympiad-solving models—eleven chapters spanning roughly four thousand years.\n\n- [Read on Abakcus](https://abakcus.com/articles/history-of-mathematics)"
+    },
+    {
+      "id": "reading:abakcus-what-is-mathematics-good-for",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What is mathematics good for? A manifesto by Ali Nesin",
+      "description": "Ali Nesin argues mathematics is “good for nothing” in the narrow sense—and therefore good for everything—as a practice of shared reason and democracy.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Nesin",
+      "url": "https://abakcus.com/articles/what-is-mathematics-good-for",
+      "createdAt": "2026-11-06T22:54:00Z",
+      "content": "Ali Nesin’s manifesto rejects the idea that students will love math once they see its “real-life uses,” and instead frames mathematics as common reason: good for nothing in particular, and for that reason good for everything.\n\n- [Read on Abakcus](https://abakcus.com/articles/what-is-mathematics-good-for)"
+    },
+    {
+      "id": "x:2118718299320308041",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Poki iOS app runs standalone: open-source iPhone agent without a Mac",
+      "description": "JosephZhou announces that the open-source, no-jailbreak Poki iPhone agent now runs fully on-device so agents can automate a phone even when the Mac is off.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "JosephZhou (@openmys)",
+      "url": "https://x.com/openmys/status/2118718299320308041",
+      "createdAt": "2026-11-06T14:53:01Z",
+      "content": "Poki’s native iOS app cuts the Mac dependency: the open-source, no-jailbreak iPhone agent can take over and automate the device on command even when a companion Mac is powered down. The team also says the iOS app itself will be open-sourced.\n\n- [Repo on GitHub](https://github.com/JosssphZhou/poki)\n- [Post on X](https://x.com/openmys/status/2118718299320308041)"
+    },
+    {
+      "id": "x:2118792762493706486",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Taki: native Mac app that groups AI coding agents with their project servers",
+      "description": "Abiodun Osagie open-sourced Taki, a macOS app that finds Claude Code, Codex and Cursor sessions and pairs each with that project’s servers, logs and Docker.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Abiodun Osagie (@abiodunosagie1)",
+      "url": "https://x.com/abiodunosagie1/status/2118792762493706486",
+      "createdAt": "2026-11-06T19:48:54Z",
+      "content": "Taki is a native Mac app for developers juggling several AI coding agents: it discovers Claude Code, Codex and Cursor sessions and places each next to the matching project’s dev servers, logs and Docker containers. MIT-licensed.\n\n- [Repo on GitHub](https://github.com/abiodunosagie/taki)\n- [Post on X](https://x.com/abiodunosagie1/status/2118792762493706486)"
+    },
+    {
+      "id": "x:2118595235953676641",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "BAS Guard scans Claude Code skills, MCP servers and hooks for malice",
+      "description": "BAS released a free open-source local scanner that reviews Claude Code skills, MCP servers, hooks, plugins and CLAUDE.md before they inherit your shell and keys.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "BAS (@basdotio)",
+      "url": "https://x.com/basdotio/status/2118595235953676641",
+      "createdAt": "2026-11-06T06:44:00Z",
+      "content": "BAS Guard is a free, open-source security scanner for Claude Code setups. Skills and MCP servers can run markdown-plus-scripts with your shell access; the tool aims to catch malice, overbroad permissions and junk before install-time trust becomes default.\n\n- [Repo on GitHub](https://github.com/basdotio/bas-guard)\n- [Post on X](https://x.com/basdotio/status/2118595235953676641)"
+    },
+    {
+      "id": "x:2118657196707733823",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hunkdory: Mac app that narrates an agent’s PR as a story before you merge",
+      "description": "Elio Struyf shipped Hunkdory, an open-source local Mac app that turns an agent branch or pull request into a plain-language story you can question, then merge or send back.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Elio Struyf (@eliostruyf)",
+      "url": "https://x.com/eliostruyf/status/2118657196707733823",
+      "createdAt": "2026-11-06T10:50:13Z",
+      "content": "Hunkdory’s first version is a local Mac app for reviewing code you did not write: it tells an agent’s branch or pull request as a plain-language story, lets you ask an assistant about any step, and ends in a merge or a send-back.\n\n- [Repo on GitHub](https://github.com/estruyf/hunkdory)\n- [Post on X](https://x.com/eliostruyf/status/2118657196707733823)"
+    },
+    {
+      "id": "x:2118717540923035948",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LiveShortly puts a coding agent session on a shareable live link",
+      "description": "Rohit launched LiveShortly: watch prompts, tool calls and diffs live, pair-prompt with others, approve risky commands from your phone, then replay or fork the session.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Rohit (@who_rsehgal)",
+      "url": "https://x.com/who_rsehgal/status/2118717540923035948",
+      "createdAt": "2026-11-06T14:50:00Z",
+      "content": "LiveShortly launches as a free, open-source, self-hostable way to put a coding agent on a link: watch every prompt, tool call and diff live, pair-prompt with other developers, approve risky commands from your phone, and replay or fork the session in another agent.\n\n- [LiveShortly site](https://liveshortly.com)\n- [Product Hunt](https://www.producthunt.com/products/liveshortly/)\n- [Post on X](https://x.com/who_rsehgal/status/2118717540923035948)"
+    },
+    {
       "id": "reading:abakcus-historic-math-books",
       "section": "news",
       "type": "news",
