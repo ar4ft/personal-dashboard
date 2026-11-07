@@ -2,6 +2,202 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50407882",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Code \"Don't Ask Again\" approvals leak secrets in 1,122 public GitHub files",
+      "description": "Apiiro found committed .claude/settings.local.json files whose saved permission rules contain passwords and API keys from approved shell commands.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "shmulc",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "createdAt": "2026-11-07T20:45:32Z",
+      "updatedAt": "2026-11-07T20:45:32Z",
+      "content": "Apiiro scanned public GitHub repositories for committed Claude Code local settings and found 1,122 files where \"Don't Ask Again\" permission rules had stored commands containing credentials. HN commenters, including a Claude Code team member, point out that settings.local.json is meant to stay local and is auto-gitignored when Claude creates it, so the exposure comes from committing it. The team says it is looking at secret scrubbing.\n\n[Apiiro blog post](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again)\n\n[HN discussion](https://news.ycombinator.com/item?id=50407882)"
+    },
+    {
+      "id": "hn:50405263",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: HyperFlow H3 Flash compresses a 31B video+audio diffusion model to 14B",
+      "description": "Video Rebirth distilled MiniMax-H3 into a 13.7B model that generates video with synchronized stereo audio in 4-8 steps without CFG, with INT8 and GGUF builds (Q4_K_M is 9.1 GB).",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jiant",
+      "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "createdAt": "2026-11-07T15:16:01Z",
+      "updatedAt": "2026-11-07T15:16:01Z",
+      "content": "HyperFlow H3 Flash is a compressed, few-step version of MiniMax-H3 that is less than half the size of the ~31B transformer. It produces 5.2-15 s of 24 fps video with 32 kHz stereo audio. A 5.2 s clip with 6 steps takes about 36 s on one H200 or 92 s on an RTX 5090. Q4_K_M GGUF builds run on 24-32 GB GPUs, and ComfyUI nodes are available.\n\n[Repo on GitHub](https://github.com/Video-Rebirth/hyperflow-h3-flash)\n\n[Weights on Hugging Face](https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash)\n\n[HN discussion](https://news.ycombinator.com/item?id=50405263)"
+    },
+    {
+      "id": "hn:50392219",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Wand, an open-source iOS browser with WebBluetooth and WebNFC",
+      "description": "Wand Browser lets developers test JavaScript web apps on a real iPhone against BLE/GATT devices and NDEF NFC tags, plus camera getUserMedia, which Safari does not offer.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "hito",
+      "url": "https://github.com/hito-dev/wand-browser",
+      "createdAt": "2026-11-06T13:45:07Z",
+      "updatedAt": "2026-11-06T13:45:07Z",
+      "content": "Wand is an open-source iOS browser for developers. It bridges a subset of navigator.bluetooth (connect to GATT services, read and write characteristics, notifications) and NDEFReader for NFC tags, with per-site device permissions that reset on reload or backgrounding. It is available on the App Store and through TestFlight. Hardware access requires a top-level HTTPS page and a physical iPhone.\n\n[Repo on GitHub](https://github.com/hito-dev/wand-browser)\n\n[App Store](https://apps.apple.com/app/wand-browser/id6826445524)\n\n[HN discussion](https://news.ycombinator.com/item?id=50392219)"
+    },
+    {
+      "id": "hn:50399569",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ChatGPT silently routed a tool call to a different connector than the user confirmed",
+      "description": "A developer reports ChatGPT took a one-time confirmation code from one MCP connector's widget and sent the follow-up call through a second connector, with separate OAuth grants and no notice to the user.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Aldipower",
+      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+      "createdAt": "2026-11-06T22:50:43Z",
+      "updatedAt": "2026-11-06T22:50:43Z",
+      "content": "With two connectors enabled that point to the same MCP server (a developer-mode custom connector and the published app), a confirmation flow began in connector A's MCP Apps widget, but the model redeemed the one-time code through connector B. The server's per-OAuth-client binding blocked the call. The reporter argues that against different providers this would pass data between apps without consent, and complains that the bug bounty demanded ID verification.\n\n[Report on the OpenAI community forum](https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053)\n\n[HN discussion](https://news.ycombinator.com/item?id=50399569)"
+    },
+    {
+      "id": "hn:50358094",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tasfer: a web text editor drawn entirely on a 2D canvas",
+      "description": "Hamza explains building Tasfer without contentEditable: every glyph, cursor, selection, line break and right-to-left Arabic run is measured and painted on an HTML5 canvas.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "hamza512b",
+      "url": "https://www.hamza.se/blog/tasfer",
+      "createdAt": "2026-11-03T20:58:40Z",
+      "updatedAt": "2026-11-03T20:58:40Z",
+      "content": "Frustrated by contentEditable quirks (browser-specific HTML on Enter, jumpy selection, messy paste), the author drew the whole editor himself on a canvas, including bidirectional text. Keyboard input is the one thing he could not replace: typing, autocorrect and Arabic or Chinese IMEs only work if the browser believes a real text field has focus, and the post explains how he handles that.\n\n[Blog post](https://www.hamza.se/blog/tasfer)\n\n[HN discussion](https://news.ycombinator.com/item?id=50358094)"
+    },
+    {
+      "id": "reading:abakcus-integral-house",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The house that calculus paid for: Integral House, Toronto",
+      "description": "Abakcus tells how James Stewart, author of the best-selling Calculus textbook, used its earnings to build Integral House, a concert-hall home in a Toronto ravine with integral-sign door handles.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/integral-house",
+      "createdAt": "2026-07-14T00:00:00Z",
+      "updatedAt": "2026-07-14T00:00:00Z",
+      "content": "A 7-minute Abakcus piece on James Drewry Stewart, a harmonic analyst at McMaster whose Calculus (1987) became the dominant university textbook for nearly thirty years. A violinist and orchestra concertmaster, he spent the proceeds on Integral House, a five-storey home and concert space with a curved glass and white-oak facade, built into a Toronto ravine, with door handles shaped like the integral sign.\n\n[Read on Abakcus](https://abakcus.com/articles/integral-house)"
+    },
+    {
+      "id": "x:2118922371268747702",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vigie: a readable Activity Monitor for macOS that knows your dev servers",
+      "description": "Vigie is a free, open-source macOS menu bar app that groups processes by app, explains them in plain words, and shows dev servers, ports, Claude Code and MCP processes with safe two-click stop.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "GK (@0xG00dKat)",
+      "url": "https://github.com/0xG00dKat/vigie",
+      "createdAt": "2026-11-07T04:23:55Z",
+      "updatedAt": "2026-11-07T04:23:55Z",
+      "content": "Activity Monitor lists over a thousand cryptic rows. Vigie collapses them into a few dozen app-level rows with plain-language explanations. A developer view lists running projects with their ports, Claude Code sessions and MCP servers, and it asks for confirmation before stopping anything. English and French docs.\n\n[Repo on GitHub](https://github.com/0xG00dKat/vigie)\n\n[Original post on X](https://x.com/0xG00dKat/status/2118922371268747702)"
+    },
+    {
+      "id": "x:2118920793442718050",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sysly: a native Apple Silicon system monitor built with Rust and GPUI",
+      "description": "Sysly is a free, open-source macOS 14+ monitor written in Rust with Zed's GPUI that puts CPU, GPU, memory and network on one rewindable timeline and names the app behind a spike.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Darsh Mahadevia (@dmhadit)",
+      "url": "https://github.com/darshmahadevia/sysly",
+      "createdAt": "2026-11-07T04:17:39Z",
+      "updatedAt": "2026-11-07T04:17:39Z",
+      "content": "Described as a GUI take on btop, Sysly sums up your Mac's state in one sentence and lets you hover anywhere on a shared timeline to see what every resource was doing at that moment. A summary stays in the menu bar when the window closes. A prebuilt v0.1.0 download is available for Apple Silicon; the newer design builds from source.\n\n[Repo on GitHub](https://github.com/darshmahadevia/sysly)\n\n[Original post on X](https://x.com/dmhadit/status/2118920793442718050)"
+    },
+    {
+      "id": "x:2118585139391590780",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Reverse engineering a $40 smart ring exposed a platform shared by 90+ wearable brands",
+      "description": "A red-team whitepaper on the QRing app finds hidden modules, backend-controlled feature activation, persistent identifiers and unauthenticated BLE access to historical health data on a platform reused by more than 90 brands.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Mrvar0x (@mrvar0x)",
+      "url": "https://mrvar0x.com/wp-content/uploads/2026/07/Reverse-Engineering-Hidden-Capabilities-in-Smart-Ring-Ecosystems-WhitePaper.pdf",
+      "createdAt": "2026-11-06T06:03:53Z",
+      "updatedAt": "2026-11-06T06:03:53Z",
+      "content": "Yehia Elghaly examined a low-cost QRing smart ring (heart rate, SpO2, temperature, sleep) with APK reverse engineering, HTTPS interception, Frida instrumentation, SQLite forensics and packet capture. The main concern is not cloud sync itself. It is the architecture: dormant features the backend can switch on, hardware-permanent identifiers, and BLE access to stored health history without authentication, all on infrastructure shared across 90+ wearable brands.\n\n[Whitepaper (PDF)](https://mrvar0x.com/wp-content/uploads/2026/07/Reverse-Engineering-Hidden-Capabilities-in-Smart-Ring-Ecosystems-WhitePaper.pdf)\n\n[Original post on X](https://x.com/mrvar0x/status/2118585139391590780)"
+    },
+    {
+      "id": "x:2119052847580946434",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Muon's pretraining advantage over AdamW reverses after fine-tuning at large data scale",
+      "description": "An arXiv paper finds that past a large enough pretraining token budget, AdamW-pretrained models beat Muon-pretrained ones after fine-tuning, explained by a margin-to-spread ratio of the logits.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Machine Learning (ML) Papers (@Memoirs)",
+      "url": "https://arxiv.org/abs/2611.03633",
+      "createdAt": "2026-11-07T13:02:23Z",
+      "updatedAt": "2026-11-07T13:02:23Z",
+      "content": "Catherine Li, Jingchu Gai, Andrej Risteski, Jacob Mitchell Springer and Aditi Raghunathan show that Muon's pretraining-loss speedup does not always carry over after fine-tuning. AdamW wins beyond a data budget that shrinks as models grow. They treat fine-tuning as a perturbation of the outputs and introduce the margin-to-spread ratio: how far the correct logit sits above the wrong ones relative to how widely the wrong ones spread. They back this with a proof in a linear associative memory model and with simulations.\n\n[Paper on arXiv](https://arxiv.org/abs/2611.03633)\n\n[Original post on X](https://x.com/Memoirs/status/2119052847580946434)"
+    },
+    {
+      "id": "x:2118991558556991842",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "StrongList: an on-device SwiftUI workout log for iPhone and iPad",
+      "description": "Indie developer Roberto Vázquez released StrongList, a SwiftUI workout planner and log that keeps data on-device or in your own iCloud Drive and is a one-time purchase.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Roberto (@robertovg24)",
+      "url": "https://robertovg.com/blog/stronglist/",
+      "createdAt": "2026-11-07T08:58:51Z",
+      "updatedAt": "2026-11-07T08:58:51Z",
+      "content": "StrongList has two tabs, Train and Progress, with a notebook-like interface. You build plans from a catalog or custom exercises, log sets, reps and weight (or time and distance for cardio), keep per-gym machine numbers, edit plans mid-workout, and import a trainer's paper routine from a photo. There is no subscription; it costs $0.99 through Nov 20.\n\n[Launch blog post](https://robertovg.com/blog/stronglist/)\n\n[Original post on X](https://x.com/robertovg24/status/2118991558556991842)"
+    },
+    {
       "id": "hn:50399933",
       "section": "news",
       "type": "news",
