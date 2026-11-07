@@ -2,6 +2,261 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50399933",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "libghostty 1.0: Ghostty's terminal emulation core ships a stable C ABI",
+      "description": "Mitchell Hashimoto announces libghostty-vt 1.0, the portable C library extracted from Ghostty, now with a stable library and C ABI and production users like JetBrains IDEs.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mfiguiere",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "createdAt": "2026-11-06T23:30:52Z",
+      "content": "libghostty-vt 1.0 is the terminal emulation core of Ghostty packaged as a portable, high-performance C library, and with this release both the library and its C ABI are declared stable under an enforced compatibility policy. Mitchell Hashimoto notes it already powers the terminal in JetBrains IDEs (over 12.5 million users), and Neovim has an approved PR to replace libvterm with it, waiting on this tagged release.\n\n- [Announcement post](https://mitchellh.com/writing/libghostty-1-0)\n- [HN discussion](https://news.ycombinator.com/item?id=50399933)"
+    },
+    {
+      "id": "hn:50401867",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Asahi Linux progress report for Linux 7.3: Apple audio and AVD drivers go upstream",
+      "description": "The Asahi team submitted the macaudio driver and the ~13,000-line AVD video decoder driver for upstream review, plus initial M4 Pro/Max and M5 Devicetrees.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ackyshake",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "createdAt": "2026-11-07T05:20:18Z",
+      "content": "Asahi Linux's Linux 7.3 report covers its upstreaming push: the Apple Silicon audio driver (macaudio, which needed many core ALSA changes) and the AVD hardware video decoder driver are now on the kernel mailing lists, with AVD reaching review after only about three months downstream. Barebones Devicetrees for M4 Pro/Max and M5 machines were also submitted, enough to boot to a TTY.\n\n- [Progress report](https://asahilinux.org/2026/11/progress-report-7-3/)\n- [HN discussion](https://news.ycombinator.com/item?id=50401867)"
+    },
+    {
+      "id": "hn:50403097",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anatomy of Apple's Personal Knowledge Graph: the on-device daemons that map your relationships",
+      "description": "A privacy write-up on the macOS 13+ daemons that cross-reference Contacts, Calendar, Photos, Messages and Mail to build a graph of who you know and how they relate to you, plus a tool to inspect your own graph.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "infwhispers",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "createdAt": "2026-11-07T09:46:03Z",
+      "content": "Researcher Dario Pasquini (Eighth Rank) digs into a pair of largely undocumented daemons that ship on every Mac since macOS 13. They build an on-device graph about the user, inferring family members and other relationships, communication patterns, places and routines by cross-referencing Contacts, Calendar, Photos, Messages, Mail and more. The post explains how the graph is stored and released a tool so you can look at what your own Mac has inferred.\n\n- [Article](https://8rank.ai/game/apple-intelligence-personal-knowledge-graph)\n- [HN discussion](https://news.ycombinator.com/item?id=50403097)"
+    },
+    {
+      "id": "hn:50397099",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Inside GitHub's new Git storage architecture for agent-scale write loads",
+      "description": "GitHub engineers detail the storage redesign that only orders reference updates, decouples storage from compute, and was tested at 5,000 concurrent agents and 7,200 pushes per second to one repo.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "DAlperin",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "createdAt": "2026-11-06T19:24:21Z",
+      "content": "The latest post in GitHub's storage series explains the core idea of its rebuild: Git objects are immutable and content-addressed, so only the small reference update in a push needs agreement. Building on that, plus virtual replicas backed by Azure Blob Storage, GitHub says internal tests sustained 5,000 concurrent agents and 7,200 pushes per second against a single repository while keeping read latency low.\n\n- [GitHub Engineering blog](https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/)\n- [HN discussion](https://news.ycombinator.com/item?id=50397099)"
+    },
+    {
+      "id": "hn:50402212",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic: the components of agent memory, and what 'dreaming' adds",
+      "description": "Anthropic research post breaking agent memory into components and reporting evaluations of offline 'dreaming', where an agent reflects on its logs to fix mistakes and write better notes.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "geoffbp",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "createdAt": "2026-11-07T06:39:04Z",
+      "content": "Drawing an analogy to memory consolidation during sleep, Anthropic describes how agents can capture work in logs and transcripts, then use idle time (building on Letta and UC Berkeley's sleep-time compute idea) to reorganize it into durable memory. The post walks through several evaluations of agent memory, including dreaming, and what each component contributes to how memory gets organized.\n\n- [Anthropic research post](https://www.anthropic.com/research/components-of-agent-memory)\n- [HN discussion](https://news.ycombinator.com/item?id=50402212)"
+    },
+    {
+      "id": "hn:50379221",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Waymark, a Postgres-only durable workflow engine that compiles jobs instead of replaying",
+      "description": "Waymark is an open-source library for durable background workflows that survive restarts, crashes and long-running jobs, built only on Postgres with Python as the first supported language.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "icyfox",
+      "url": "https://github.com/piercefreeman/waymark",
+      "createdAt": "2026-11-05T14:06:31Z",
+      "content": "Waymark lets you write durable background tasks that withstand server restarts, task crashes and long-running jobs, without extra infrastructure beyond Postgres. Unlike replay-based engines, it compiles workflows ahead of execution. It is written largely in Rust with Python bindings first, and more languages are planned.\n\n- [Repo on GitHub](https://github.com/piercefreeman/waymark)\n- [Documentation](https://waymark.sh)\n- [HN discussion](https://news.ycombinator.com/item?id=50379221)"
+    },
+    {
+      "id": "hn:50397435",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: CloneGuard scans a repo for credential-stealing tricks before you run it",
+      "description": "A dependency-free, read-only Go CLI that flags install hooks, editor auto-run tasks, hidden network calls and obfuscated code, built after a fake-recruiter demo app tried to steal SSH and AWS keys.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "tharun208",
+      "url": "https://github.com/tharun208/cloneguard",
+      "createdAt": "2026-11-06T19:49:27Z",
+      "content": "CloneGuard targets the fake take-home or demo-app attack, where cloning a project and running npm install or opening it in an editor quietly exfiltrates SSH keys, cloud credentials or browser data. The tool only reads files and never runs, installs or imports anything, giving a quick first look at whether a repository is safe to touch.\n\n- [Repo on GitHub](https://github.com/tharun208/cloneguard)\n- [HN discussion](https://news.ycombinator.com/item?id=50397435)"
+    },
+    {
+      "id": "hn:50403932",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cloudflare on the post-quantum future of Privacy Pass and anonymous rate limiting",
+      "description": "Cloudflare explains its work on post-quantum versions of Privacy Pass, the unlinkable-token protocol behind privacy proxies like iCloud Private Relay, including tools for managing agent traffic.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "AIWithLucas",
+      "url": "https://blog.cloudflare.com/vole-mole/",
+      "createdAt": "2026-11-07T12:22:22Z",
+      "content": "Beyond TLS, much web privacy infrastructure still relies on quantum-vulnerable cryptography. Cloudflare describes next-generation, post-quantum Privacy Pass constructions (VOLE-based) that let sites rate-limit clients with unlinkable tokens instead of CAPTCHAs or fingerprinting, with goals including handling agentic traffic and opening the ecosystem to more client types.\n\n- [Cloudflare blog](https://blog.cloudflare.com/vole-mole/)\n- [HN discussion](https://news.ycombinator.com/item?id=50403932)"
+    },
+    {
+      "id": "x:2118867780745179490",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kiln: a Swift interpreter that renders native SwiftUI from source at runtime",
+      "description": "A Swift package for iOS and macOS that parses and runs Swift source as live SwiftUI views without compiling; demoed with an on-device LLM writing a ~550-line chess game.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "JC Builds (@JC_builds)",
+      "url": "https://x.com/JC_builds/status/2118867780745179490",
+      "createdAt": "2026-11-07T00:47:00Z",
+      "content": "JC Builds shows Kiln, a Swift/SwiftUI interpreter you embed with one line (`KilnView(code: source)`). It evaluates Swift source at runtime and renders real native SwiftUI views with no compile step, Xcode or app update. To test it, a small LLM running on the iPhone generated a ~550-line chess game with legal moves, castling, promotion and spring animations. The author says it's free and open source; the link goes through Haplo, which asks you to paste the post link to claim it. Repliers raised App Store review rules on running downloaded code.\n\n- [Kiln on Haplo](https://haploapp.com/r/kiln)\n\n[Post on X by @JC_builds](https://x.com/JC_builds/status/2118867780745179490)"
+    },
+    {
+      "id": "x:2118717789422911567",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paper: How do AI agents waste your money? About 18% of output tokens are removable",
+      "description": "An arXiv preprint uses an LLM judge to measure token waste in agent trajectories; pruning flagged reasoning cut 41% of it on SWE-bench Verified with no loss in success.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Arky Yang (@arkyyang)",
+      "url": "https://x.com/arkyyang/status/2118717789422911567",
+      "createdAt": "2026-11-06T14:50:59Z",
+      "content": "\"How Do AI Agents Waste Your Money?\" (Zeng, Lu, Cai, Jiang et al.) records full agent trajectories through a LiteLLM proxy and has an LLM judge label removable spans (restating context, duplicate tool fetches, padding, detours). Findings summarized in the thread: roughly 18% of output tokens were waste; waste varies more by task and harness than by model; and going from High to Max reasoning effort cost more tokens with no measurable gain. Code and labeled runs are open-sourced.\n\n- [Paper on arXiv](https://arxiv.org/abs/2611.07238)\n\n[Post on X by @arkyyang](https://x.com/arkyyang/status/2118717789422911567)"
+    },
+    {
+      "id": "x:2118785945566924968",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DodoLicense: an open-source Swift package for Mac app license keys via Dodo Payments",
+      "description": "Unofficial Swift package that handles activation limits, offline use, refunds, moving to a new Mac, free trials and mock test keys for indie Mac apps sold through Dodo Payments, with no server needed.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Lohith (@xLohith)",
+      "url": "https://x.com/xLohith/status/2118785945566924968",
+      "createdAt": "2026-11-06T19:21:49Z",
+      "content": "Dodo Payments supports license keys but has no Swift SDK, so Lohith built one. DodoLicense activates and frees keys per Mac, works offline without a lockout grace period, rechecks daily and only disables on a clear refund or revoked key, stores keys in the Keychain, and offers a reinstall-resistant free trial. It is unofficial and not affiliated with Dodo Payments.\n\n- [Repo on GitHub](https://github.com/lohith2406/dodo-license)\n\n[Post on X by @xLohith](https://x.com/xLohith/status/2118785945566924968)"
+    },
+    {
+      "id": "x:2119024687758057850",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MacSweep: a 4 MB open-source SwiftUI Mac cleaner with no network access",
+      "description": "A free SwiftUI cleaner for macOS 13+ that scans caches, logs, Xcode and package-manager junk, finds large files and uninstalls apps with their leftovers, moving everything to the Trash.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Deepsleep (@Deepchiil)",
+      "url": "https://x.com/Deepchiil/status/2119024687758057850",
+      "createdAt": "2026-11-07T11:10:29Z",
+      "content": "MacSweep is a dependency-free SwiftUI app under 4 MB that scans before deleting: Smart Clean across eight categories (caches, logs, developer junk, old installers), a large-file finder, and an uninstaller that matches leftovers by exact bundle ID. Scans are read-only, nothing is deleted without confirmation, files go to the Trash, and the app makes no network calls. It isn't notarized yet, so first launch needs Open Anyway in Privacy & Security.\n\n- [Repo on GitHub](https://github.com/DevX-star/MacSweep)\n\n[Post on X by @Deepchiil](https://x.com/Deepchiil/status/2119024687758057850)"
+    },
+    {
+      "id": "x:2118460403160322321",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "dotbble: talk to your ChatGPT dot through a Pebble Index 01 ring",
+      "description": "Open-source Pebble plugin that sends transcribed voice notes from the Pebble Index 01 ring straight to a ChatGPT dot over signed HTTPS, with no always-on Mac or relay after a one-time pairing.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Maddie D. Reese (@maddiedreese)",
+      "url": "https://x.com/maddiedreese/status/2118460403160322321",
+      "createdAt": "2026-11-05T21:48:13Z",
+      "content": "Hold the ring's button, speak and release: Pebble transcribes the recording on the iPhone, and the dotbble plugin sends the text directly to your ChatGPT dot, which acts on it in its existing conversation. A Mac is only needed once for pairing; daily use is just the ring, an iPhone and internet.\n\n- [Repo on GitHub](https://github.com/maddiedreese/dotbble)\n- [Pebble Index 01](https://repebble.com/index)\n\n[Post on X by @maddiedreese](https://x.com/maddiedreese/status/2118460403160322321)"
+    },
+    {
+      "id": "reading:abakcus-feynman-math-education",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Feynman on how math should be taught to children",
+      "description": "Abakcus revisits Richard Feynman's 1965 critique of the 'new math' textbooks he read for California's curriculum commission, and why his point about mindset over rules still applies.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/feynman-math-education",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "content": "In 1964 Richard Feynman joined California's State Curriculum Commission, read through about 500 pounds of proposed elementary math textbooks, and published \"New Textbooks for the 'New' Mathematics\". Ali Kaya walks through the essay: Feynman's complaint was not wrong content but that the books taught math as rules to memorize rather than as free, inventive problem solving, a problem the article argues is still unsolved.\n\n[Read on Abakcus](https://abakcus.com/articles/feynman-math-education)"
+    },
+    {
+      "id": "reading:abakcus-penrose-notebook",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Inside Roger Penrose's notebook",
+      "description": "A look at photographed pages from Roger Penrose's personal notebooks, with spinor algebra, twistor diagrams, early Penrose tiling sketches and programs for a 1978 calculator, plus an open question about their source.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/penrose-journal",
+      "createdAt": "2026-04-15T00:00:00Z",
+      "content": "Ali Kaya goes through widely shared photographs of Roger Penrose's handwritten notebooks, showing him working rather than publishing: spinor algebra, twistor diagrams, Penrose tiling prototypes and Cayley algebra next to programs for a 1978 calculator. The article is upfront that the images' original archive is unknown and asks readers to help identify it.\n\n[Read on Abakcus](https://abakcus.com/articles/penrose-journal)"
+    },
+    {
       "id": "hn:50394569",
       "section": "news",
       "type": "news",
