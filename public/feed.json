@@ -38912,6 +38912,173 @@
       "url": "https://developers.googleblog.com/en/agent-distraction/",
       "createdAt": "2026-11-07T12:08:24Z",
       "updatedAt": "2026-11-07T12:08:24Z"
+    },
+    {
+      "id": "hn:50406563",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "description": "Microsoft Research's AI Frontiers group is ending, closing a chapter for one of the company's prominent AI research efforts.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "srean",
+      "url": "https://hunch.net/?p=13764006",
+      "createdAt": "2026-11-07T18:02:17Z",
+      "updatedAt": "2026-11-07T18:02:17Z"
+    },
+    {
+      "id": "hn:50406111",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "description": "The Guardian reports on the words and phrases Apple's iPhone autocorrect and spelling assistance will not help with.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "user_7832",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "createdAt": "2026-11-07T17:06:36Z",
+      "updatedAt": "2026-11-07T17:06:36Z"
+    },
+    {
+      "id": "hn:50406670",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "description": "A look at what runs on a $10 OpenStick single-board computer used as a homelab.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "LaurensBER",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "createdAt": "2026-11-07T18:12:12Z",
+      "updatedAt": "2026-11-07T18:12:12Z"
+    },
+    {
+      "id": "hn:50403066",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Running a law firm on Free software",
+      "description": "A law firm describes running its practice entirely on free software.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "DeepLogin",
+      "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+      "createdAt": "2026-11-07T09:39:06Z",
+      "updatedAt": "2026-11-07T09:39:06Z"
+    },
+    {
+      "id": "hn:50405678",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "They don't make 'em like that any more: Borland Turbo Pascal 7",
+      "description": "A retrospective on Borland Turbo Pascal 7 and the era when software was built to last.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "andsoitis",
+      "url": "https://kevinboone.me/tpwin.html",
+      "createdAt": "2026-11-07T16:06:27Z",
+      "updatedAt": "2026-11-07T16:06:27Z"
+    },
+    {
+      "id": "hn:50406292",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "description": "Coldframe is a honeypot that pretends to be a supermarket fridge controller.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "hedgerow-dev",
+      "url": "https://github.com/hedgerow-dev/coldframe",
+      "createdAt": "2026-11-07T17:27:30Z",
+      "updatedAt": "2026-11-07T17:27:30Z"
+    },
+    {
+      "id": "hn:50406222",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "description": "MaxxBench questions whether a strong DeepSWE benchmark score tells the whole story.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "antiuniverse",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "createdAt": "2026-11-07T17:19:00Z",
+      "updatedAt": "2026-11-07T17:19:00Z"
+    },
+    {
+      "id": "hn:50404747",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf] (2016)",
+      "description": "A 31B video and audio diffusion model compressed down to 14B with 6 steps and INT8 quantization.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "tylerdane",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
+      "createdAt": "2026-11-07T14:18:45Z",
+      "updatedAt": "2026-11-07T14:18:45Z"
+    },
+    {
+      "id": "hn:50406319",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Five memorable books about programming (2008)",
+      "description": "Five memorable books about programming, from a 2008 list.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "andsoitis",
+      "url": "https://prog21.dadgum.com/19.html",
+      "createdAt": "2026-11-07T17:30:49Z",
+      "updatedAt": "2026-11-07T17:30:49Z"
+    },
+    {
+      "id": "hn:50405782",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Every processor die anyone has photographed and given away",
+      "description": "A collection of every processor die anyone has photographed and given away.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "user_7832",
+      "url": "https://sheets.works/data-viz/cpu-dies",
+      "createdAt": "2026-11-07T16:21:36Z",
+      "updatedAt": "2026-11-07T16:21:36Z"
     }
   ]
 }
