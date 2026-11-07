@@ -38752,6 +38752,166 @@
       "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
       "createdAt": "2026-11-03T16:43:54Z",
       "updatedAt": "2026-11-03T16:43:54Z"
+    },
+    {
+      "id": "hn:50399991",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "description": "RealPage's rent-pricing case ends with nearly $360M going back to renters.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "raybb",
+      "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+      "createdAt": "2026-11-06T23:37:19Z",
+      "updatedAt": "2026-11-06T23:37:19Z"
+    },
+    {
+      "id": "hn:50397017",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Restaurant Delivery Payment-Skimming Campaign",
+      "description": "A payment-skimming campaign is targeting restaurant delivery orders.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "fiej",
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "createdAt": "2026-11-06T19:19:27Z",
+      "updatedAt": "2026-11-06T19:19:27Z"
+    },
+    {
+      "id": "hn:50403052",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Need for Speed Underground 2 online in the browser",
+      "description": "Need for Speed Underground 2 is now playable online, right in the browser.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "fluxusars",
+      "url": "https://nfsu2.xyz/",
+      "createdAt": "2026-11-07T09:36:36Z",
+      "updatedAt": "2026-11-07T09:36:36Z"
+    },
+    {
+      "id": "hn:50354097",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Can GROUP BY still be optimized after all these years?",
+      "description": "A look at whether GROUP BY queries can still be optimized after all these years.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ntur1337",
+      "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/",
+      "createdAt": "2026-11-03T16:30:23Z",
+      "updatedAt": "2026-11-03T16:30:23Z"
+    },
+    {
+      "id": "hn:50352701",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Flash C Compiler",
+      "description": "A C compiler targeting Adobe Flash, bringing native code to the Flash runtime.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "AlexeyBrin",
+      "url": "https://blog.adafruit.com/2026/10/31/flash-c-compiler/",
+      "createdAt": "2026-11-03T14:49:42Z",
+      "updatedAt": "2026-11-03T14:49:42Z"
+    },
+    {
+      "id": "hn:50361765",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PostgreSQL Internals [pdf]",
+      "description": "A detailed PDF guide to PostgreSQL internals.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Foe",
+      "url": "https://edu.postgrespro.com/postgresql_internals-14_en.pdf",
+      "createdAt": "2026-11-04T05:22:43Z",
+      "updatedAt": "2026-11-04T05:22:43Z"
+    },
+    {
+      "id": "hn:50403507",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "description": "Discord's move away from Electron shows why Windows 11 apps should ditch it too.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "thunderbong",
+      "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+      "createdAt": "2026-11-07T11:11:15Z",
+      "updatedAt": "2026-11-07T11:11:15Z"
+    },
+    {
+      "id": "hn:50404131",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Meridian – a web browser for macOS built on GPUI and Servo",
+      "description": "Meridian is a new web browser for macOS built on GPUI and the Servo engine.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "frostbyte7",
+      "url": "https://op.tngl.io/meridian/",
+      "createdAt": "2026-11-07T12:51:34Z",
+      "updatedAt": "2026-11-07T12:51:34Z"
+    },
+    {
+      "id": "hn:50404075",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AirPods 3 head tracking on Linux, and first documentation of Apple RemoteHID",
+      "description": "AirPods 3 head tracking now works on Linux, with the first documentation of Apple RemoteHID.",
+      "topics": [
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://github.com/starman-tech/mousepods",
+      "createdAt": "2026-11-07T12:44:13Z",
+      "updatedAt": "2026-11-07T12:44:13Z"
+    },
+    {
+      "id": "hn:50403839",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google: Old TODO comments send coding agents chasing bugs fixed years ago",
+      "description": "Google finds old TODO comments send coding agents chasing bugs that were fixed years ago.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "khalidkhair",
+      "url": "https://developers.googleblog.com/en/agent-distraction/",
+      "createdAt": "2026-11-07T12:08:24Z",
+      "updatedAt": "2026-11-07T12:08:24Z"
     }
   ]
 }
