@@ -39523,6 +39523,168 @@
       "url": "https://sheets.works/data-viz/cpu-dies",
       "createdAt": "2026-11-07T16:21:36Z",
       "updatedAt": "2026-11-07T16:21:36Z"
+    },
+    {
+      "id": "hn:50410107",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Goodbye Claude, Hello Pi",
+      "description": "The author says goodbye to Claude and hello to Pi, the open-source personal AI assistant.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "karagenit",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "createdAt": "2026-11-08T03:11:48Z",
+      "updatedAt": "2026-11-08T03:11:48Z"
+    },
+    {
+      "id": "hn:50366902",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Clj.rs – a Clojure dialect implemented in Rust",
+      "description": "Clj.rs is a Clojure dialect implemented in Rust.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "simonpure",
+      "url": "https://clj.rs/",
+      "createdAt": "2026-11-04T15:23:16Z",
+      "updatedAt": "2026-11-04T15:23:16Z"
+    },
+    {
+      "id": "hn:50410249",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+      "description": "ISponsorBlockTV brings SponsorBlock's sponsor-skipping to YouTube TV clients.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "xnx",
+      "url": "https://github.com/dmunozv04/isponsorblocktv",
+      "createdAt": "2026-11-08T03:47:19Z",
+      "updatedAt": "2026-11-08T03:47:19Z"
+    },
+    {
+      "id": "hn:50408961",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Commodore PET – The Worlds First Personal Computer",
+      "description": "A look back at the Commodore PET, presented as the world's first personal computer.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "andsoitis",
+      "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+      "createdAt": "2026-11-07T23:15:34Z",
+      "updatedAt": "2026-11-07T23:15:34Z"
+    },
+    {
+      "id": "hn:50406502",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
+      "description": "A 2016 retrospective on GeoWorks, the 1990s operating system that competed with Microsoft Windows.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "andsoitis",
+      "url": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
+      "createdAt": "2026-11-07T17:54:56Z",
+      "updatedAt": "2026-11-07T17:54:56Z"
+    },
+    {
+      "id": "hn:50411083",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WaveDudeNext 2D Wave Simulator",
+      "description": "WaveDudeNext is a 2D wave simulator.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sweetdingoes",
+      "url": "https://github.com/graealex/WaveDudeNext",
+      "createdAt": "2026-11-08T07:09:02Z",
+      "updatedAt": "2026-11-08T07:09:02Z"
+    },
+    {
+      "id": "hn:50378974",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Finding Xanadu: Inside a JRPG classic translation 15 years in the making",
+      "description": "An interview about the fan translation of a classic JRPG, fifteen years in the making.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://readonlymemo.com/legend-of-xanadu-pc-engine-fan-translation-interview-making-of/",
+      "createdAt": "2026-11-05T13:44:07Z",
+      "updatedAt": "2026-11-05T13:44:07Z"
+    },
+    {
+      "id": "hn:50412760",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
+      "description": "Anthropic has struck a $3.4B deal to generate gas-fired power for its data centres.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mraniki",
+      "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+      "createdAt": "2026-11-08T12:41:25Z",
+      "updatedAt": "2026-11-08T12:41:25Z"
+    },
+    {
+      "id": "hn:50366821",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Porting Android 16 to my blind mother's keypad phone",
+      "description": "The author describes porting Android 16 to a keypad phone for their blind mother.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "z1xus",
+      "url": "https://z1x.us/blog/four-hundred-bucks-of-e-waste",
+      "createdAt": "2026-11-04T15:18:59Z",
+      "updatedAt": "2026-11-04T15:18:59Z"
+    },
+    {
+      "id": "hn:50412719",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The price of the Raspberry Pi has gone over $350. This is insane",
+      "description": "The author notes the price of the Raspberry Pi has gone over $350.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "haebom",
+      "url": "https://news.ycombinator.com/item?id=50412719",
+      "createdAt": "2026-11-08T12:34:55Z",
+      "updatedAt": "2026-11-08T12:34:55Z"
     }
   ]
 }
