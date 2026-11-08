@@ -2,6 +2,254 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50409856",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Consumer brain-wave headsets are quietly feeding AI brain models",
+      "description": "A yearlong Science investigation of 57 consumer EEG companies found makers like Interaxon (Muse) and Emotiv training \"brain foundation models\" on user data without explicit consent in their privacy policies.",
+      "topics": [
+        "Wearables",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "maxall4",
+      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+      "createdAt": "2026-11-08T02:02:38Z",
+      "updatedAt": "2026-11-08T02:02:38Z",
+      "content": "Science reviewed the privacy policies of 57 consumer neurotech companies that collect EEG data. Interaxon says it has trained a brain foundation model on about 50,000 hours of EEG from Muse headband users, and only updated its policy to disclose that after Science asked; Emotiv did the same. Four companies had no privacy policy at all, only six explicitly promised not to sell brain data, and all allow sharing with authorities on request or don't say. The piece also covers Chile's constitutional neurorights and new US state laws treating neural data as sensitive.\n\n[Science investigation](https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users)\n\n[HN discussion](https://news.ycombinator.com/item?id=50409856)"
+    },
+    {
+      "id": "hn:50412072",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "JIT bitmap text rendering for microcontrollers",
+      "description": "Raph Levien describes generating optimized machine code on the fly to render proportional, kerned bitmap fonts at high speed on the RP2350 microcontroller.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dmit",
+      "url": "https://linebender.org/blog/jit-bitmap-text/",
+      "createdAt": "2026-11-08T10:42:15Z",
+      "updatedAt": "2026-11-08T10:42:15Z",
+      "content": "Raph Levien is building vic-2350, a re-imagined 80s home computer on an RP2350 board, and wanted early-Macintosh-style proportional bitmap text with kerning instead of fixed character cells. His technique JIT-compiles a small routine per string that writes the glyph pixels directly, which fits his race-the-beam renderer but would also work for a regular framebuffer.\n\n[Linebender blog post](https://linebender.org/blog/jit-bitmap-text/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50412072)"
+    },
+    {
+      "id": "hn:50411961",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Llama-modchip runs the 284B DeepSeek-V4-Flash on a 64GB CPU-only machine",
+      "description": "An open-source llama.cpp-style fork claims to run DeepSeek-V4-Flash in under 59 GiB of RAM at 9 to 15 tokens/s with 256K context and no GPU.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "joshcsimmons",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "createdAt": "2026-11-08T10:22:04Z",
+      "updatedAt": "2026-11-08T10:22:04Z",
+      "content": "The llama-modchip project targets pure-CPU inference on 64 GB machines. Its README reports the 284B-parameter DeepSeek-V4-Flash mixture-of-experts model running in under 59 GiB at about 44 tok/s prompt processing and 9.1 to 14.7 tok/s generation at 256K context, plus 30B MoE models at 25 to 111 tok/s. These are the author's own numbers; the HN thread digs into how they were measured.\n\n[Repo on GitHub](https://github.com/synchopate/llama-modchip)\n\n[HN discussion](https://news.ycombinator.com/item?id=50411961)"
+    },
+    {
+      "id": "hn:50411467",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "description": "LoreKit's Mads Thines surveys the incompatible ways coding agents store memory (AGENTS.md, rules files, memory tools, MCP knowledge graphs) and sketches what a shared open format could look like.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mthines",
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "createdAt": "2026-11-08T08:40:23Z",
+      "updatedAt": "2026-11-08T08:40:23Z",
+      "content": "A typical developer machine already has four or more agent memory formats that can't read each other: AGENTS.md or CLAUDE.md files, .cursor/rules, Anthropic's memory-tool directories, Copilot's server-side repo facts and JSONL knowledge graphs from memory MCP servers. The post compares them to observability before OpenTelemetry, reviews existing proposals, and outlines a common data model plus the skeptics' objections and open questions.\n\n[LoreKit blog post](https://www.lorekit.io/blog/open-agent-memory-format)\n\n[HN discussion](https://news.ycombinator.com/item?id=50411467)"
+    },
+    {
+      "id": "hn:50408713",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Making any integer with four 2s",
+      "description": "Eli Bendersky revisits the puzzle of building any natural number from exactly four 2s, up to the classic trick using nested square roots and logarithms that works for every integer.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "germanrabbit",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+      "createdAt": "2026-11-07T22:38:58Z",
+      "updatedAt": "2026-11-07T22:38:58Z",
+      "content": "The puzzle starts at elementary arithmetic (5 = 2·2 + 2/2), grows with exponents and factorials ((2+2)^(2+2) = 256), and gets stuck around numbers like 7. Bendersky walks through the escalating tricks and the general solution using repeated square roots inside logarithms that works for any integer.\n\n[Article on Eli Bendersky's site](https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50408713)"
+    },
+    {
+      "id": "hn:50409855",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ZapFast: a native WhatsApp desktop client in Rust and egui",
+      "description": "ZapFast is an MIT-licensed WhatsApp app for Linux, macOS and Windows with no browser engine, opening in under a second and idling around 200 MB of RAM.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "handfuloflight",
+      "url": "https://github.com/crmne/zapfast",
+      "createdAt": "2026-11-08T02:02:27Z",
+      "updatedAt": "2026-11-08T02:02:27Z",
+      "content": "ZapFast links to your phone as a companion device through the whatsapp-rust library and draws its UI with egui and the fastframe framework. In the authors' Linux test it used about 200 MB at idle versus 1.13 GB for WhatsApp Web.\n\n[Repo on GitHub](https://github.com/crmne/zapfast)\n\n[Benchmarks](https://zapfast.rocks/benchmarks/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50409855)"
+    },
+    {
+      "id": "hn:50380051",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mizu: zero-copy parallel Python and R over shared memory",
+      "description": "pymizu cuts task round trips from about 100 microseconds over sockets to under 1 microsecond and shares lists, dicts, NumPy arrays and Arrow tables between Python and R as zero-copy views.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "cscheid",
+      "url": "https://github.com/shikokuchuo/pymizu",
+      "createdAt": "2026-11-05T15:09:04Z",
+      "updatedAt": "2026-11-05T15:09:04Z",
+      "content": "Because the default CPython GIL keeps CPU-bound threads on one core, Python parallelism usually means multiprocessing with serialization overhead. Mizu runs workers over shared memory so work can be split as finely as threads would allow, and common data science structures can be passed between Python and R without copying.\n\n[pymizu on GitHub](https://github.com/shikokuchuo/pymizu)\n\n[HN discussion](https://news.ycombinator.com/item?id=50380051)"
+    },
+    {
+      "id": "hn:50408931",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GitHub previews a new pull request Overview page",
+      "description": "GitHub's opt-in Overview page distills the merge box so reviewers can see what is blocking a long pull request and what to do next without scrolling the timeline.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "xiaoyu2006",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "createdAt": "2026-11-07T23:09:40Z",
+      "updatedAt": "2026-11-07T23:09:40Z",
+      "content": "On long pull requests, finding what blocks a merge means scrolling past dozens of comments and timeline events. The new Overview page, an opt-in public preview, distills the merge box so you can see what is blocking progress and what to do next, while keeping your place in the pull request.\n\n[GitHub changelog](https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50408931)"
+    },
+    {
+      "id": "reading:abakcus-people-who-walked-on-the-moon",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "List of people who have walked on the Moon",
+      "description": "Abakcus profiles all twelve Apollo moonwalkers from Neil Armstrong to Eugene Cernan, with their missions, landing sites, ages and the four still living.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/people-who-walked-on-the-moon",
+      "createdAt": "2026-11-07T00:00:00Z",
+      "content": "Between July 1969 and December 1972, twelve men on six Apollo landings walked on the Moon, together spending about 80 hours outside and bringing home 382 kg of samples. Ali Kaya lays out the full list in landing order, maps the six near-side landing sites, and notes that four of the twelve (Buzz Aldrin, David Scott, Charles Duke and Harrison Schmitt) are still living in 2026.\n\n[Read on Abakcus](https://abakcus.com/articles/people-who-walked-on-the-moon)"
+    },
+    {
+      "id": "x:2119271191965769900",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Edith: an open-source Mac control center with 41 extensions and an MCP server",
+      "description": "Edith V1 is a free native macOS app that replaces a dozen utilities with installable extensions, uses about 0% CPU at idle and exposes its tools to coding agents over MCP.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Pulkit (@puulkit)",
+      "url": "https://edith.pulkit.page",
+      "createdAt": "2026-11-08T03:30:00Z",
+      "updatedAt": "2026-11-08T03:30:00Z",
+      "content": "Pulkit launched Edith V1, a 7.3 MB native Mac app where you install only the extensions you need out of 41. It needs no account, keeps everything on your Mac, and lets coding agents use its tools through an MCP server.\n\n[Edith website](https://edith.pulkit.page)\n\n[Original post on X](https://x.com/puulkit/status/2119271191965769900)"
+    },
+    {
+      "id": "x:2119392357858906440",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ports finds forgotten dev servers from your Mac menu bar",
+      "description": "Open Dev Society released Ports 0.1.0, an open-source macOS menu bar app that lists running dev servers, shows their memory use and stops them.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Ravi (@ravixalgorithm)",
+      "url": "https://github.com/Open-Dev-Society/ports/releases/tag/v0.1.0",
+      "createdAt": "2026-11-08T11:31:29Z",
+      "updatedAt": "2026-11-08T11:31:29Z",
+      "content": "Aimed at the dev servers coding agents leave behind, Ports adds a menu bar memory meter (about 12 MB itself) and a panel with a memory budget and one tile per server, so you can see what is still running and kill it.\n\n[Ports 0.1.0 release on GitHub](https://github.com/Open-Dev-Society/ports/releases/tag/v0.1.0)\n\n[Original post on X](https://x.com/ravixalgorithm/status/2119392357858906440)"
+    },
+    {
+      "id": "x:2119346331999429102",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "roomy: open-source Mac app that shows where your disk space went",
+      "description": "roomy maps what is taking space on your Mac and what is safe to delete, and can keep the Mac awake for long builds, all locally.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Mohd Anas (@mdanassaif)",
+      "url": "https://github.com/mdanassaif/roomy",
+      "createdAt": "2026-11-08T08:28:35Z",
+      "updatedAt": "2026-11-08T08:28:35Z",
+      "content": "Mohd Anas built roomy for himself and open-sourced it: it shows where storage went, flags what is actually safe to remove, and includes a keep-awake toggle for long builds. Nothing leaves the Mac.\n\n[Repo on GitHub](https://github.com/mdanassaif/roomy)\n\n[Original post on X](https://x.com/mdanassaif/status/2119346331999429102)"
+    },
+    {
+      "id": "x:2119255142180765831",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "honest-ml: agent skills that catch data leakage and inflated ML results",
+      "description": "After an agent reported 1.000 AUC on a dataset with hidden leaks (about 0.65 when evaluated honestly), Mohamed Elsaka built open-source skills that make Claude Code, Codex and Cursor check for leakage and bad evals.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Mohamed Elsaka (@moelsaka01)",
+      "url": "https://github.com/moelsaka01/honest-ml",
+      "createdAt": "2026-11-08T02:26:14Z",
+      "updatedAt": "2026-11-08T02:26:14Z",
+      "content": "Coding agents happily train models and report spectacular metrics without noticing target leakage or flawed validation. honest-ml packages agent skills that push the model to look for leaks, use proper splits and avoid overclaiming before it reports a number.\n\n[Repo on GitHub](https://github.com/moelsaka01/honest-ml)\n\n[Original post on X](https://x.com/moelsaka01/status/2119255142180765831)"
+    },
+    {
+      "id": "x:2119366533789184479",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EasyColab: open-source Mac app for Google Colab GPUs",
+      "description": "EasyColab gives Mac users one-click model setup on Colab GPUs, live compute-credit tracking and automatic release of idle runtimes, without juggling notebooks.",
+      "topics": [
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Garry Yuan (@ziqinyuan)",
+      "url": "https://github.com/wy51ai/easycolab",
+      "createdAt": "2026-11-08T09:48:52Z",
+      "updatedAt": "2026-11-08T09:48:52Z",
+      "content": "EasyColab wraps Colab GPU sessions in a native Mac app: set up a model in one click, watch your compute credits drain in real time, and let it release idle runtimes automatically so you don't waste credits. A Windows version is in development.\n\n[Repo on GitHub](https://github.com/wy51ai/easycolab)\n\n[Original post on X](https://x.com/ziqinyuan/status/2119366533789184479)"
+    },
+    {
       "id": "hn:50407882",
       "section": "news",
       "type": "news",
