@@ -39685,6 +39685,239 @@
       "url": "https://news.ycombinator.com/item?id=50412719",
       "createdAt": "2026-11-08T12:34:55Z",
       "updatedAt": "2026-11-08T12:34:55Z"
+    },
+    {
+      "id": "hn:50415628",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "description": "New internal guidance at Goldman Sachs hands AI coding agents back to engineers, months after its tech chief praised tools traders built with them.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "TheWiggles",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "createdAt": "2026-11-08T18:16:07Z",
+      "content": "According to State of AI, Goldman Sachs has issued internal guidance that takes Claude Code away from bankers and traders and limits AI coding agents to engineering staff. In July the bank's tech chief had been praising the tools non-engineers built with these agents.\n\n- [HN discussion](https://news.ycombinator.com/item?id=50415628)"
+    },
+    {
+      "id": "hn:50368481",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Declarative Dragging: make a diagram draggable by saying what it can become",
+      "description": "A UIST 2026 Best Paper by Horowitz, Blinn and Heer: authors declare which future states dragging an element can reach, and the system builds the drag interaction.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "smusamashah",
+      "url": "https://declarative-dragging.github.io/",
+      "createdAt": "2026-11-04T17:05:07Z",
+      "content": "Instead of hand-coding geometry, feedback and animation for drag-and-drop, declarative dragging lets an interface author list the future model states an element can lead to. The system speculatively renders those states and blends them into a smooth, responsive drag. The project page has the paper, a video, demos and an explorable supplement.\n\n- [HN discussion](https://news.ycombinator.com/item?id=50368481)"
+    },
+    {
+      "id": "hn:50412830",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How to prove equations using diagrams, part 1: initial functors",
+      "description": "Evan Patterson starts a series connecting e-graphs and equality saturation to category theory, using initial functors to represent and prove equations with diagrams.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "frostbyte7",
+      "url": "https://www.epatters.org/post/e-graphs-1/",
+      "createdAt": "2026-11-08T12:51:38Z",
+      "content": "An e-graph is a data structure that keeps track of which expressions are equal, and it powers equality-saturation tools like egg. This post (cross-posted from the Topos Institute blog) shows how equations can be represented and proved with commutative diagrams via initial functors, with worked examples and a monoid presentation.\n\n- [HN discussion](https://news.ycombinator.com/item?id=50412830)"
+    },
+    {
+      "id": "hn:50352518",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Quadrillion-parameter transformers and how to train them",
+      "description": "Q Labs fits a scaling law suggesting compute-optimal models on repeated data should be far larger than Chinchilla, needing much more weight decay, with ensembling as another scaling axis.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "frozenseven",
+      "url": "https://qlabs.sh/research/parameters",
+      "createdAt": "2026-11-03T14:37:17Z",
+      "content": "Q Labs argues that when training data is fixed and repeated for many epochs, the optimal parameter count keeps growing with compute; extrapolated to 5T tokens at 10^29 FLOPs, their law prescribes about 7,000 times Chinchilla's parameter count. They report that bigger models on repeated data need much more weight decay, that their hyperparameter law stays near-optimal at 16 times the fitted compute, and that fast ensembling keeps loss falling on fixed data.\n\n- [HN discussion](https://news.ycombinator.com/item?id=50352518)"
+    },
+    {
+      "id": "hn:50400576",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Implementing GPT-2 entirely in CSS",
+      "description": "Shubham Patil got the 124M-parameter GPT-2 small running in a web page using only CSS and variable fonts, with no JavaScript or WASM, at about 15 seconds per token.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zapt02",
+      "url": "https://shubhampatil.dev/blog/gpt2-css",
+      "createdAt": "2026-11-07T01:01:10Z",
+      "content": "A deep dive into running real GPT-2 small inference in a stylesheet. Python generates the CSS and font files ahead of time, but nothing but CSS runs in the browser, and the post walks through the tricks that make matrix math possible there.\n\n- [HN discussion](https://news.ycombinator.com/item?id=50400576)"
+    },
+    {
+      "id": "hn:50410253",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Maple: sub-2-bit MoE pruning runs Gemma 4 26B at 45 tok/s on a 6GB GPU",
+      "description": "MAPLE (Manifold-Activated Pruning of Latent Experts) is an open-source method for pruning and compressing mixture-of-experts LLMs below two bits per weight.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "AmSach",
+      "url": "https://github.com/AmSach/maple",
+      "createdAt": "2026-11-08T03:48:04Z",
+      "content": "A Show HN project that prunes latent experts in mixture-of-experts models to get under two bits per weight, which the author says lets Gemma 4 26B run at about 45 tokens per second on a 6GB GPU.\n\n- [Repo on GitHub](https://github.com/AmSach/maple)\n- [HN discussion](https://news.ycombinator.com/item?id=50410253)"
+    },
+    {
+      "id": "hn:50416158",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Outlook.com is quietly rejecting email from domains without DMARC",
+      "description": "Since November 5, Outlook.com and Hotmail have been bouncing mail from domains that have no DMARC record, small senders included.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "xmddmx",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "createdAt": "2026-11-08T19:20:32Z",
+      "content": "MailRoute explains what changed at Microsoft's consumer mail service, who is affected, and the single DNS record that fixes it. Worth checking if you send mail from a personal or side-project domain.\n\n- [HN discussion](https://news.ycombinator.com/item?id=50416158)"
+    },
+    {
+      "id": "hn:50355009",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "tmux-restore brings back tmux sessions and coding-agent conversations after a reboot",
+      "description": "Show HN: an open-source tool that restores every tmux session, layout and scrollback, and reopens Claude Code, Codex, Gemini CLI, opencode and pi in the conversations they were in.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "boldi",
+      "url": "https://github.com/andrewboldi/tmux-restore",
+      "createdAt": "2026-11-03T17:25:21Z",
+      "content": "tmux-restore aims to make tmux reboot-proof: sessions, window layouts and scrollback come back, and supported coding agents are relaunched into their previous conversations.\n\n- [HN discussion](https://news.ycombinator.com/item?id=50355009)"
+    },
+    {
+      "id": "reading:abakcus-al-jaghmini-astronomy-manuscript",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The astronomy textbook that outlived an empire",
+      "description": "Al-Jaghmini's Al-Mulakhkhas, written in Khwarazm just before the Mongol conquest, became the most widely copied Arabic astronomy textbook; Abakcus follows a copy made in Anatolia in 1383.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/al-jaghmini-astronomy-manuscript",
+      "createdAt": "2026-04-30T00:00:00Z",
+      "content": "Ali Kaya tells the story of al-Jaghmini's astronomical treatise, written around 1220 in a city the Mongols destroyed the following year. It went on to be studied across the Islamic world for six centuries, and the article walks through a hand-copied manuscript made 162 years later in Ayasoluk, Anatolia.\n\n[Read on Abakcus](https://abakcus.com/articles/al-jaghmini-astronomy-manuscript)"
+    },
+    {
+      "id": "reading:abakcus-snelson-needle-tower",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kenneth Snelson's Needle Tower: 60 feet, zero contact",
+      "description": "How Snelson's 1968 tensegrity sculpture stands 60 feet tall with no aluminum tube touching another, held up entirely by tension in cables.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/snelson-needle-tower",
+      "createdAt": "2026-04-21T00:00:00Z",
+      "content": "The Needle Tower outside the Hirshhorn Museum stands on 14 inches of ground contact, and none of its aluminum tubes touch each other. Ali Kaya explains tensegrity, the term Buckminster Fuller coined from \"tensional integrity\", and the geometry that keeps the tower standing.\n\n[Read on Abakcus](https://abakcus.com/articles/snelson-needle-tower)"
+    },
+    {
+      "id": "x:2119390458698924463",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Coolant: open-source fan control for Apple Silicon MacBooks",
+      "description": "A free, MIT-licensed Mac app that replaces macOS's conservative fan policy with temperature curves, triggers, an Autopilot mode and notch notifications.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Andrew (@Arterialist)",
+      "url": "https://x.com/Arterialist/status/2119390458698924463",
+      "createdAt": "2026-11-08T11:23:56Z",
+      "content": "The developer built Coolant because macOS keeps fans quiet even when CPU, GPU and battery run hot. It adds custom temperature curves, triggers and an Autopilot mode to keep a MacBook healthier long term.\n\n- [Coolant on GitHub](https://github.com/arterialist/coolant)\n\n[Post on X](https://x.com/Arterialist/status/2119390458698924463)"
+    },
+    {
+      "id": "x:2119497289563517331",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FolderServe: drop a folder, get a live-reloading localhost URL from the Mac menu bar",
+      "description": "A free, open-source macOS menu bar app that serves a folder on localhost with live reload and a dev-tools style request log.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "fatihsenel (@fatihsenel)",
+      "url": "https://x.com/fatihsenel/status/2119497289563517331",
+      "createdAt": "2026-11-08T18:28:26Z",
+      "content": "FolderServe turns any folder into a local web server with live reload. Its request log shows timings and headers, and can replay requests, copy them as cURL or export HAR. Install with `brew install --cask fatihsenel/tap/folderserve`.\n\n- [FolderServe on GitHub](https://github.com/fatihsenel/FolderServe)\n\n[Post on X](https://x.com/fatihsenel/status/2119497289563517331)"
+    },
+    {
+      "id": "x:2119556736533066097",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "VRHub turns a phone VR headset into a mixed-reality headset",
+      "description": "An experimental open-source iPhone app built with SwiftUI and ARKit, with camera passthrough, immersive photos, YouTube, a floating VR keyboard and PS4 controller support.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "Aluinn (@notaluinn)",
+      "url": "https://x.com/notaluinn/status/2119556736533066097",
+      "createdAt": "2026-11-08T22:24:40Z",
+      "content": "VRHub is an experimental mixed-reality and phone-VR hub for iPhone. Slotted into a cheap phone VR headset, it uses ARKit camera passthrough and adds immersive photos, YouTube, a floating keyboard and DualShock 4 controls.\n\n- [VRHub on GitHub](https://github.com/aluinn/VRHub)\n\n[Post on X](https://x.com/notaluinn/status/2119556736533066097)"
+    },
+    {
+      "id": "x:2119475211930345624",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Local LLM for iPhone adds the 0.3B MNN-Pocket model for offline chat",
+      "description": "The Local LLM iOS app now runs Alibaba MNN's tiny open-source MNN-Pocket 0.3B model on-device, and this week also added App Intents, Shortcuts and bring-your-own-key web search.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "LocalLLM (@TonyZ278264)",
+      "url": "https://x.com/TonyZ278264/status/2119475211930345624",
+      "createdAt": "2026-11-08T17:00:43Z",
+      "content": "Local LLM runs language models entirely on iPhone, even offline. The team added the 0.3B MNN-Pocket model, and the same week's update brought App Intents and Shortcuts actions (translate, summarize, polish text) plus configurable web search through Tavily, Brave or Firecrawl with your own API key.\n\n- [Local LLM on the App Store](https://apps.apple.com/app/id6804004948)\n\n[Post on X](https://x.com/TonyZ278264/status/2119475211930345624)"
     }
   ]
 }
