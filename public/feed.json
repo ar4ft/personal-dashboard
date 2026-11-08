@@ -39918,6 +39918,171 @@
       "url": "https://x.com/TonyZ278264/status/2119475211930345624",
       "createdAt": "2026-11-08T17:00:43Z",
       "content": "Local LLM runs language models entirely on iPhone, even offline. The team added the 0.3B MNN-Pocket model, and the same week's update brought App Intents and Shortcuts actions (translate, summarize, polish text) plus configurable web search through Tavily, Brave or Firecrawl with your own API key.\n\n- [Local LLM on the App Store](https://apps.apple.com/app/id6804004948)\n\n[Post on X](https://x.com/TonyZ278264/status/2119475211930345624)"
+    },
+    {
+      "id": "hn:50416801",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "description": "Nvidia's board of directors is investigating CEO Jensen Huang.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "vincentchau",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "createdAt": "2026-11-08T20:26:43Z",
+      "updatedAt": "2026-11-08T20:26:43Z"
+    },
+    {
+      "id": "hn:50412067",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Writing as a thinking tool",
+      "description": "An essay on writing as a tool for thinking.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jruohonen",
+      "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+      "createdAt": "2026-11-08T10:41:52Z",
+      "updatedAt": "2026-11-08T10:41:52Z"
+    },
+    {
+      "id": "hn:50416053",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "description": "Dux is a free, open-source Wayland desktop shell with a file manager and theming.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "indigodaddy",
+      "url": "https://duxlabs.dev/",
+      "createdAt": "2026-11-08T19:08:51Z",
+      "updatedAt": "2026-11-08T19:08:51Z"
+    },
+    {
+      "id": "hn:50416363",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How I Fight AI Brain Fry",
+      "description": "A personal account of fighting 'AI brain fry' — the mental fatigue of working with AI tools.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "kyunez",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "createdAt": "2026-11-08T19:37:42Z",
+      "updatedAt": "2026-11-08T19:37:42Z"
+    },
+    {
+      "id": "hn:50415281",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users",
+      "description": "Advertising in popular apps gives police a powerful tool to track and spy on users.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mgh2",
+      "url": "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/",
+      "createdAt": "2026-11-08T17:32:55Z",
+      "updatedAt": "2026-11-08T17:32:55Z"
+    },
+    {
+      "id": "hn:50415135",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Little Snitch for Windows",
+      "description": "A Little Snitch-style firewall and network monitor for Windows.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "BadBoyBubby",
+      "url": "https://packethound.app/",
+      "createdAt": "2026-11-08T17:16:07Z",
+      "updatedAt": "2026-11-08T17:16:07Z"
+    },
+    {
+      "id": "hn:50413769",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I'm not a fan of Deno's security model (2024)",
+      "description": "A critique of Deno's security model, originally published in 2024.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "maxloh",
+      "url": "https://goldstein.lol/posts/deno-security/",
+      "createdAt": "2026-11-08T14:42:38Z",
+      "updatedAt": "2026-11-08T14:42:38Z"
+    },
+    {
+      "id": "hn:50416471",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Starship Flight 15 on 11/13 plans to catch both booster and ship",
+      "description": "SpaceX's Starship Flight 15, planned for November 13, aims to catch both the booster and the ship.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "spikels",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "createdAt": "2026-11-08T19:49:46Z",
+      "updatedAt": "2026-11-08T19:49:46Z"
+    },
+    {
+      "id": "hn:50415078",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A field guide to CAPTCHA types and how they break",
+      "description": "A field guide to CAPTCHA types and how they break.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "vasylsmutok",
+      "url": "https://github.com/vsmutok/FuckCaptcha",
+      "createdAt": "2026-11-08T17:09:55Z",
+      "updatedAt": "2026-11-08T17:09:55Z"
+    },
+    {
+      "id": "hn:50416456",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "description": "Paul Ford argues that the web is more than enough.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "edward",
+      "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+      "createdAt": "2026-11-08T19:48:32Z",
+      "updatedAt": "2026-11-08T19:48:32Z"
     }
   ]
 }
