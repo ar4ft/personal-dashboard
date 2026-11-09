@@ -40654,6 +40654,226 @@
       ],
       "createdAt": "2026-11-09T14:30:00Z",
       "content": "## How it works\n\nA tiny USB stick with a few NeoPixels and touch pads sits in a laptop port or a hub. A menu-bar app maps any source to a light pattern: red when you're in a meeting, amber while a build or agent runs, green when something finishes, a slow pulse during focus time. The board only reads a program file, so there's no driver, and the touch pads snooze or acknowledge. A family mode can also mirror the state to a second stick on the office door.\n\n```mermaid\nflowchart LR\n  Sources[Calendar / CI / agents / focus timer] --> Host[Mac menu-bar host]\n  Host --> File[Write program file]\n  File --> Board[$7 NeoPixel USB board]\n  Board --> Light[Color and pulse]\n  Board --> Touch[Touch pad snooze]\n  Touch --> Host\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Hardware | Adafruit Neo Trinkey or any CircuitPython NeoPixel board |\n| Firmware | Fork of NeoPulse CircuitPython firmware |\n| Host app | SwiftUI menu-bar app with EventKit and Focus filters |\n| Integrations | GitHub Actions webhook, Shortcuts actions, agent hooks |\n| Door mirror | ESP32 with Wi-Fi receiving state over local network |\n\n## Hard parts\n\n- Keeping integrations simple enough that non-developers can set rules.\n- Supply of cheap boards; the Neo Trinkey sells out quickly.\n- Making the second door light pair reliably on home Wi-Fi.\n- Competing with free DIY builds, so the value must be the app and the polish.\n\n## Effort\n\nOne weekend for a calendar-driven prototype on NeoPulse; three to four weeks for a polished menu-bar app with rules, Shortcuts and a door mirror.\n\n## Inspired by\n\n- [NeoPulse build write-up on X](https://x.com/gopikori/status/2119553703657214099)\n- [NeoPulse on GitHub](https://github.com/gopikori/neopulse)\n- [Hermes menu-bar utility on X](https://x.com/iamdanduke/status/2119440416722534443)"
+    },
+    {
+      "id": "hn:50429734",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "e-means: Meta FAIR's k-means replacement reaches lower loss in a tenth of the epochs",
+      "description": "Meta FAIR open-sourced e-means, a drop-in alternative to Lloyd's k-means algorithm that reports roughly 10x faster convergence in epochs and wall-clock time at equal or lower loss, now shipped in faiss.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "porridgeraisin",
+      "url": "https://e-means.github.io/",
+      "createdAt": "2026-11-09T18:45:43Z",
+      "content": "Researchers at Meta FAIR (including Matthijs Douze and Hervé Jégou of faiss) released **e-means**, a modern, robust replacement for Lloyd's k-means. They report about a 10x speedup in both epochs and wall-clock time while reaching lower clustering loss, which matters for vector-index training and any large-scale clustering job. The code lives in faiss under `faiss/contrib/e_means`, and the project page has an in-browser playground.\n\n- [Project page and playground](https://e-means.github.io/)\n- [Paper on arXiv](https://arxiv.org/abs/2611.09501)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50429734)"
+    },
+    {
+      "id": "hn:50424199",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "samir-vllm: build a small LLM inference engine in C++ and CUDA, with 6+ hours of videos and 80 pages of notes",
+      "description": "An open-source teaching project that follows a prompt through a transformer by building a small Llama inference engine from scratch in C++ and CUDA, backed by a YouTube build series and handwritten notes.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "samirswr",
+      "url": "https://github.com/samir-sarwar/samir-vllm",
+      "createdAt": "2026-11-09T11:36:55Z",
+      "content": "**samir-vllm** teaches LLM inference from first principles: loading SafeTensors weights onto the GPU, writing an embedding gather kernel, and implementing each part of the transformer in CUDA until it generates tokens. The repo comes with a 6+ hour YouTube build series and an 80+ page PDF of handwritten notes and diagrams the author wrote without AI.\n\n- [Repo on GitHub](https://github.com/samir-sarwar/samir-vllm)\n- [Part 0: AI inference explained (video)](https://youtu.be/ef0mOukUE6U)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50424199)"
+    },
+    {
+      "id": "hn:50430323",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Running 120B MoE models on a 32 GB M1 Max with a hard 16 GiB memory budget",
+      "description": "A write-up of a prototype engine that streams mixture-of-experts weights from SSD so gpt-oss-120b and Qwen3.5-122B-A10B run on a MacBook Pro under a 16 GiB process-memory cap, including the mistakes along the way.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "tarassenkov",
+      "url": "https://mitln.github.io/moe-inference-engine/",
+      "createdAt": "2026-11-09T19:20:34Z",
+      "content": "The author keeps most of a mixture-of-experts model on the Mac's SSD, pages in only the experts each token needs, and enforces a real memory limit checked against macOS's own memory counters. The prototype runs gpt-oss-120b and Qwen3.5-122B-A10B within a 16 GiB budget on a 32 GB M1 Max, with a small browser chat and an OpenAI-compatible local API. The engine code isn't released yet, but the post walks through results and lessons learned.\n\n- [Read the write-up](https://mitln.github.io/moe-inference-engine/)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50430323)"
+    },
+    {
+      "id": "hn:50429952",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic tests Claude on real-world electronics design, from datasheets to manufacturable boards",
+      "description": "Anthropic and Diode Computers describe how Claude went from failing at basic circuit layout to designing electronic prototypes end to end, covering geometry, revisions, tool use, constraints and manufacturing, plus current limitations.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rbinv",
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "createdAt": "2026-11-09T18:58:48Z",
+      "content": "Anthropic's science team has been working with circuit-board maker Diode Computers for over a year on whether Claude can design electronics. The report walks through reasoning about board geometry, revising designs, using EDA software and datasheets, tracking constraints and downstream effects, and designing for real manufacturing, and it closes with the limitations that remain.\n\n- [Read Anthropic's research post](https://www.anthropic.com/research/claude-electronics-design)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50429952)"
+    },
+    {
+      "id": "hn:50430621",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CUI: about 190 native UI components for C in a 240 KB, dependency-free C99 library",
+      "description": "CUI is an MIT-licensed C99 UI toolkit with roughly 190 components, spring motion and full keyboard support that runs on Windows, macOS and Linux from one codebase with no dependencies.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "hilti",
+      "url": "https://yappologistic.github.io/CUI/",
+      "createdAt": "2026-11-09T19:35:16Z",
+      "content": "**CUI** gives C programs a modern component set (forms, metric cards, calendars, charts, settings panes and more) with spring animations and keyboard navigation. It's a single C99 codebase of about 240 KB with no dependencies, targeting Windows, macOS and Linux.\n\n- [Live docs and showcase](https://yappologistic.github.io/CUI/)\n- [Repo on GitHub](https://github.com/yappologistic/CUI)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50430621)"
+    },
+    {
+      "id": "hn:50426207",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Zebkit packages Chromium's engine as one embeddable library for C, Rust, Python, Go and JS",
+      "description": "Zebkit links Blink, V8, PDFium, FFmpeg and the rest of Chrome's engine into your own app as a single library, without Chrome's browser UI or Electron's runtime, on Linux, macOS and Windows.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Riiiiichard",
+      "url": "https://github.com/ikey4u/zebkit",
+      "createdAt": "2026-11-09T14:34:00Z",
+      "content": "Instead of shipping an Electron app, **zebkit** lets an existing native application add a web view or call Chromium's PDF, media, compression and crypto APIs from C, with bindings for Rust (crates.io), Python (PyPI), Go and JavaScript. The app keeps its own windows and toolkit while pages run inside its process.\n\n- [Repo on GitHub](https://github.com/ikey4u/zebkit)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50426207)"
+    },
+    {
+      "id": "hn:50429636",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MeowDisplay: open-source app that turns an iPhone, iPad or another Mac into a Mac display",
+      "description": "MeowDisplay is a free, open-source take on reverse iPhone mirroring: it mirrors or extends your Mac onto an iPhone, iPad, Android device or second Mac, with touch, Apple Pencil, trackpad and clipboard support.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "raiseCatError",
+      "url": "https://meowdisplay.app/",
+      "createdAt": "2026-11-09T18:39:22Z",
+      "content": "**MeowDisplay** (started as a fork of an earlier open-source display project) lets you use an iPhone or iPad as a mirrored or extended Mac display over USB or Wi-Fi. It adds direct touch and trackpad control, Apple Pencil input, a unified clipboard, audio, picture-in-picture and remote access. It's free on Mac, iPhone and iPad, with Android in closed testing.\n\n- [MeowDisplay website](https://meowdisplay.app/)\n- [Repo on GitHub](https://github.com/raiseCatError/meowdisplay)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50429636)"
+    },
+    {
+      "id": "hn:50429812",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Someone Was Here: a Mac app that photographs whoever uses your Mac while you're away",
+      "description": "A new Mac App Store menu-bar app takes a photo of anyone who uses or tries to unlock your idle Mac, checks the face on-device, and alerts your iPhone if it isn't you.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "4onthefloor124",
+      "url": "https://someonewashere.app/",
+      "createdAt": "2026-11-09T18:50:56Z",
+      "content": "**Someone Was Here** captures a photo when someone uses your Mac after it's been idle, tries the lock screen, or unlocks it, and records the time, how they got in and how long they stayed. It learns your face in a short setup and does the matching on the Mac, so you don't get alerts about yourself. The Mac app and companion iPhone app are free; instant phone alerts are a $4.99 one-time purchase.\n\n- [Someone Was Here website](https://someonewashere.app/)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50429812)"
+    },
+    {
+      "id": "x:2119797701655048267",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kinetiq brings Compiz-style wobbly windows and 30+ GPU effects to macOS",
+      "description": "Kinetiq is a free, GPL-licensed macOS 14+ app with physics-based wobbly windows, more than 30 GPU close effects, and liquid and 3D window layouts, built on the earlier Wobbly app.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@invernomuto0",
+      "url": "https://x.com/invernomuto0/status/2119797701655048267",
+      "createdAt": "2026-11-09T14:22:10Z",
+      "content": "**Kinetiq** recreates the Linux Compiz desktop effects on the Mac: wobbly windows driven by physics, 30+ GPU-powered close and destroy effects, liquid simulations and 3D desktop layouts. It's open source under GPL-3.0, requires macOS 14 or later, and builds on José Gurruchaga's Wobbly.\n\n- [Kinetiq on GitHub](https://github.com/Invernomut0/Kinetiq)\n- [Original post on X](https://x.com/invernomuto0/status/2119797701655048267)"
+    },
+    {
+      "id": "x:2119909125966667983",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeskLand: a living macOS wallpaper that reshapes its scenery around your desktop icons",
+      "description": "Khoa Pham released DeskLand, an open-source macOS port of a Windows app whose beach or meadow wallpaper quietly reshapes itself whenever you move, add or remove desktop icons.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@onmyway133",
+      "url": "https://x.com/onmyway133/status/2119909125966667983",
+      "createdAt": "2026-11-09T21:44:56Z",
+      "content": "**DeskLand** watches your desktop icon positions and regrows its animated beach or meadow scenery around them. It's an independent macOS port of the GPL-3.0 Windows app Deskland Preview, signed and notarized, and needs Accessibility permission to read icon positions.\n\n- [DeskLand on GitHub](https://github.com/onmyway133/DeskLand)\n- [Original post on X](https://x.com/onmyway133/status/2119909125966667983)"
+    },
+    {
+      "id": "x:2119891723165851840",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Scan: an open-source native macOS app for ScanSnap scanners losing official support",
+      "description": "Holger Krupp's open-source Scan app talks directly over USB to Fujitsu ScanSnap and fi-series scanners, including legacy models that Fujitsu's own software won't support from macOS 28 on.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@jy",
+      "url": "https://x.com/jy/status/2119891723165851840",
+      "createdAt": "2026-11-09T20:35:47Z",
+      "content": "With Fujitsu's ScanSnap software dropping support for older scanners on future macOS versions, **Scan** is a native Mac app that drives ScanSnap and fi-series scanners directly over USB, including the iX1300 to iX1600 and legacy models, with a community compatibility list. J-Y shared it and forked it to add Wi-Fi support for his model.\n\n- [Scan on GitHub](https://github.com/holgerkrupp/Scan)\n- [Original post on X](https://x.com/jy/status/2119891723165851840)"
+    },
+    {
+      "id": "x:2119786057025622455",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SeekPop: Option+Space full-text search for hidden folders like ~/.codex/plans on macOS",
+      "description": "SeekPop is a small open-source Hammerspoon and ripgrep tool for macOS that searches the text inside local files, including hidden agent folders, from a global shortcut with no index to build.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@yeum0227",
+      "url": "https://x.com/yeum0227/status/2119786057025622455",
+      "createdAt": "2026-11-09T13:35:54Z",
+      "content": "The author kept forgetting which Markdown file in `~/.codex/plans` held a Codex plan, so **SeekPop** pops up a search box on Option+Space, searches file contents with ripgrep in folders you choose (including `~/.config` and project notes), previews matches, and copies the file or its path.\n\n- [SeekPop on GitHub](https://github.com/duarbdhks/seekpop)\n- [Original post on X](https://x.com/yeum0227/status/2119786057025622455)"
+    },
+    {
+      "id": "x:2119807343710097623",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FanEar turns Apple Watch recordings of your day into text and to-dos",
+      "description": "FanEar is a free Apple Watch app that records until you stop it, transcribes your day, and pulls out promises you and others made as to-dos, with no subscription or in-app purchases.",
+      "topics": [
+        "Wearables",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@FanEarApp",
+      "url": "https://x.com/FanEarApp/status/2119807343710097623",
+      "createdAt": "2026-11-09T15:00:29Z",
+      "content": "**FanEar** launched in English on the App Store: start it on your Apple Watch, let it record, and it turns the audio into text and extracts commitments (yours and other people's) as to-dos. The developer says it's free with no subscription or in-app purchases.\n\n- [FanEar on the App Store](https://apps.apple.com/app/id6822574853)\n- [Original post on X](https://x.com/FanEarApp/status/2119807343710097623)"
     }
   ]
 }
