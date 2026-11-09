@@ -40083,6 +40083,244 @@
       "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
       "createdAt": "2026-11-08T19:48:32Z",
       "updatedAt": "2026-11-08T19:48:32Z"
+    },
+    {
+      "id": "hn:50422168",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Next-Concept Modeling: coarse-to-fine parallel text generation, 21x faster than diffusion LMs",
+      "description": "The authors encode text into a hierarchy of discrete codes with a multiscale residual VQ-VAE, then generate one level at a time with all codes in a level predicted in parallel.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://arxiv.org/abs/2610.14162",
+      "createdAt": "2026-11-09T07:20:37Z",
+      "content": "Next-Concept Modeling (NCM) is a two-stage alternative to diffusion language models: a multiscale residual VQ-VAE turns text into a hierarchy of discrete codes, and a transformer fills in one level at a time, predicting every code in that level in parallel. At matched parameter scale it beats the strongest diffusion-LM baseline on LM1B generative perplexity while running about 21x faster, and stays competitive on OpenWebText. Authors include Simran Arora, Azalia Mirhoseini and Christopher Ré.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.14162)\n\n[HN discussion](https://news.ycombinator.com/item?id=50422168)"
+    },
+    {
+      "id": "hn:50420857",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Critique of GPUI: why GPUI's and egui's state models may be dead ends",
+      "description": "A Rust developer argues that complex desktop apps need a framework that knows what changed and who depends on it, and that GPUI's notify model and egui's immediate mode push that bookkeeping onto the app.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ByteAtATime",
+      "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+      "createdAt": "2026-11-09T03:51:10Z",
+      "content": "With Discord rewriting its desktop app on GPUI and many new Rust apps choosing egui, this post makes the case that both state models stop scaling for large desktop apps. The author compares GPUI's `notify` to Angular's zone.js, walks through Elm-style architectures and immediate mode, and argues for components that run once with fine-grained signals, while noting signals alone don't make an app fast.\n\n[Read the post](https://blog.zortax.de/posts/a-critique-of-gpui)\n\n[HN discussion](https://news.ycombinator.com/item?id=50420857)"
+    },
+    {
+      "id": "hn:50422628",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ChatGPT Desktop forwards your local SSH agent to remote machines",
+      "description": "A user reports that agents ChatGPT Desktop runs on remote hosts can authenticate with the user's local SSH keys, for example to push to private GitHub repos.",
+      "topics": [
+        "AI",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "DenGorbachev",
+      "url": "https://news.ycombinator.com/item?id=50422628",
+      "createdAt": "2026-11-09T08:17:49Z",
+      "content": "According to this Ask-style HN post, when ChatGPT Desktop connects its agent to a remote machine it forwards your local SSH agent, so code running remotely can use your SSH credentials, including pushing to private GitHub repositories. The poster points to a review discussion on the Codex repository as evidence. Worth checking your SSH agent forwarding settings if you use remote agent sessions.\n\n[Referenced Codex PR discussion](https://github.com/openai/codex/pull/28131#discussion_r3410013180)\n\n[HN discussion](https://news.ycombinator.com/item?id=50422628)"
+    },
+    {
+      "id": "hn:50420532",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Asahi Linux moves all its code from MIT to GPL after AI-assisted code laundering",
+      "description": "Asahi Linux is relicensing every repository to GPLv2-or-later after people took unreleased code from developers' forks and rewrote it with LLMs to hide its origin.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "majorchord",
+      "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/",
+      "createdAt": "2026-11-09T03:06:55Z",
+      "content": "The project that makes Linux run on Apple Silicon Macs long used the permissive MIT license so the BSDs and others could reuse its code. It is now switching to strong copyleft only, because in-development code was lifted from personal forks, republished without credit or passed through AI tools to disguise it, by people aiming to replace the project and monetize Linux on Apple Silicon.\n\n[Article on It's FOSS](https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50420532)"
+    },
+    {
+      "id": "hn:50401844",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Uniform: cross-platform web apps with WASM layout and GPU rendering in 280 KB",
+      "description": "Show HN: a C core with a no-build JavaScript API that replaces native text, layout and rendering, compiling to WASM on the web and rendering via Metal on iOS and macOS.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "rkaehn",
+      "url": "https://github.com/rkaehn/uniform",
+      "createdAt": "2026-11-07T05:16:31Z",
+      "content": "Uniform is a UI toolkit that does its own text, layout and rendering so apps look and behave identically everywhere. The core is C (compiled to WASM on the web, native elsewhere), with a JavaScript API that needs no build step and a C API for performance-sensitive apps; a full web app ships in under 280 KB compressed. It's in preview, supporting iOS and macOS via Metal plus the web.\n\n[Repo on GitHub](https://github.com/rkaehn/uniform)\n\n[HN discussion](https://news.ycombinator.com/item?id=50401844)"
+    },
+    {
+      "id": "hn:50411522",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "StatCraft: an open-source SPSS Statistics alternative in 100% safe Rust",
+      "description": "A solo developer is building a clean-room SPSS-style statistics package with zero unsafe code, undoable engine commands that serialize to .sps syntax, and a built-in MCP server for agents.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "kobaltGIT",
+      "url": "https://github.com/kobaltgit/StatCraft",
+      "createdAt": "2026-11-08T08:53:43Z",
+      "content": "StatCraft aims to replace proprietary suites like IBM SPSS for research and teaching. Every analysis is an engine command with undo/redo that maps to standard SPSS syntax and can run headless, errors are typed results instead of panics, and a local IPC socket plus MCP mode let AI agents drive analyses. The UI mirrors SPSS's Variable View and Output Viewer pivot tables.\n\n[Repo on GitHub](https://github.com/kobaltgit/StatCraft)\n\n[HN discussion](https://news.ycombinator.com/item?id=50411522)"
+    },
+    {
+      "id": "hn:50416014",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Playing with the STM32MP2, and finding a silicon bug along the way",
+      "description": "A long serd.es write-up on pairing ST's STM32MP2 with an FPGA, including a security-relevant silicon bug he found and held until ST published an advisory.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dverlaeckt80",
+      "url": "https://serd.es/2026/11/08/playing-with-stm32mp2.html",
+      "createdAt": "2026-11-08T19:04:07Z",
+      "content": "A deep hardware post from serd.es about moving beyond the STM32H7's pin-hungry FMC bus for MCU-to-FPGA links and trying the STM32MP2 instead. Along the way the author hit a silicon bug with security impact that stayed under wraps until ST reviewed it and issued an advisory.\n\n[Read the post](https://serd.es/2026/11/08/playing-with-stm32mp2.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50416014)"
+    },
+    {
+      "id": "hn:50419215",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Unlocking any car from one automaker in most of the world",
+      "description": "A security researcher and Sam Curry describe how reverse-engineering a major automaker's connected-car app led to web API flaws that allowed remote unlocking across many countries.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "infosecau",
+      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "createdAt": "2026-11-09T00:10:50Z",
+      "content": "Starting from his own SUV, the author decompiled the automaker's Android app, rebuilt the telematics API calls behind remote unlock, and with Sam Curry worked through the internet-facing services behind them. The write-up explains how web application weaknesses, not hardware hacks, exposed remote car control at a global scale.\n\n[Read the write-up](https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50419215)"
+    },
+    {
+      "id": "x:2119472348499763278",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An Apple Watch turned into a Mac air mouse and duck-hunt pointer",
+      "description": "A developer had Claude Opus 5.5 build an app where raising and aiming your wrist moves the Mac cursor like a Wii remote, with tap to click and a shooting game on top.",
+      "topics": [
+        "Wearables",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Cooler (@coolerwave)",
+      "url": "https://x.com/coolerwave/status/2119472348499763278",
+      "createdAt": "2026-11-08T16:49:20Z",
+      "content": "The watch's motion sensors drive the cursor: point your arm at the screen and the pointer follows, tap to fire or click, and the same app works as a plain Mac mouse with tap and scroll. It talks over Bluetooth with no servers, and followers describe it as free and open source. A fun example of using the Apple Watch as an input device.\n\n[Post on X](https://x.com/coolerwave/status/2119472348499763278)"
+    },
+    {
+      "id": "x:2119718603477942766",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nommo for Mac: an open-source menu-bar app for Razer Nommo V2 Pro speakers",
+      "description": "Razer's Synapse for Mac didn't recognize the Nommo V2 Pro, so a developer wrote a free menu-bar app for lighting, EQ, spatial audio and a screen-following Movie mode.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Ade Risidore (@aderiz)",
+      "url": "https://x.com/aderiz/status/2119718603477942766",
+      "createdAt": "2026-11-09T09:07:52Z",
+      "content": "An unofficial native macOS menu-bar app that unlocks the Nommo V2 Pro's lighting, EQ and spatial audio on Mac, plus a new Movie mode where the speaker lights follow the left and right sides of your screen. Not affiliated with Razer.\n\n- [Repo on GitHub](https://github.com/aderiz/nommo-mac)\n\n[Post on X](https://x.com/aderiz/status/2119718603477942766)"
+    },
+    {
+      "id": "x:2119439800302497812",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Open course notes: Equivariant Graph Neural Networks with e3nn",
+      "description": "Andriy Burkov shares Mohammad Mostafanejad's 2026 course notes on building E(3)-equivariant neural networks with the open-source e3nn framework, now in ChapterPal's collection.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "BURKOV (@burkov)",
+      "url": "https://x.com/burkov/status/2119439800302497812",
+      "createdAt": "2026-11-08T14:40:00Z",
+      "content": "e3nn is a modular PyTorch framework (with JAX support) for neural networks that respect 3D rotations, translations and reflections. These open notes walk through equivariant graph neural networks built with it.\n\n[Post on X](https://x.com/burkov/status/2119439800302497812)"
+    },
+    {
+      "id": "x:2119737300565528892",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tape and Needle: open-source Mac apps that fill the empty corners beside the Dock",
+      "description": "A developer built two native SwiftUI/AppKit apps: Tape, a stock ticker that measures the Dock and sits in the left gap, and Needle, a now-playing display with the album art on the right.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Yvsleyen (@SleyenVander)",
+      "url": "https://x.com/SleyenVander/status/2119737300565528892",
+      "createdAt": "2026-11-09T10:22:09Z",
+      "content": "A centered macOS Dock leaves dead space on both sides. Tape measures the Dock dynamically and shows one ticker at a time in its logo's colour, while Needle shows what's playing as a vinyl cover with the title in the artwork's dominant colour. Both are native SwiftUI and AppKit and open source.\n\n- [Developer's app page](https://yorben.me/)\n\n[Post on X](https://x.com/SleyenVander/status/2119737300565528892)"
+    },
+    {
+      "id": "x:2119750255352881565",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agent Hub: one local board for all your coding agents on Mac",
+      "description": "An open-source, signed Mac app that collects Codex, Claude, Cursor and other agent conversations on one local board with notch alerts when an agent is waiting on you.",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Sage (@SageSoloCreates)",
+      "url": "https://x.com/SageSoloCreates/status/2119750255352881565",
+      "createdAt": "2026-11-09T11:13:38Z",
+      "content": "Built for people juggling several coding agents at once: Agent Hub lists conversations from Codex, Claude, Cursor and others as cards on a local board, alerts you in the Mac notch when one needs input, and clicking a card jumps back into that conversation. It runs locally and is open source.\n\n- [Agent Hub site](https://sagezhzhz.github.io/agent-hub/?lang=en)\n\n[Post on X](https://x.com/SageSoloCreates/status/2119750255352881565)"
+    },
+    {
+      "id": "reading:abakcus-usda-pomological-watercolors",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The USDA Pomological Watercolor Collection",
+      "description": "From 1887 to 1942 the USDA hired painters instead of photographers to record America's fruit, leaving 7,497 watercolours that still help identify lost apple varieties.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/usda-pomological-watercolor-collection",
+      "createdAt": "2026-09-27T00:00:00Z",
+      "content": "When photography couldn't capture colour, the US Department of Agriculture's pomology division hired artists to paint the apples, pears and grapes farmers shipped in. Over 56 years they produced 7,497 watercolours, 87 line drawings and 79 wax models. Abakcus explains how the collection worked as a scientific record and how it is still used today to rediscover lost fruit varieties.\n\n[Read on Abakcus](https://abakcus.com/articles/usda-pomological-watercolor-collection)"
     }
   ]
 }
