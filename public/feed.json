@@ -40486,6 +40486,174 @@
       "url": "https://institute.deepmind.com/essays/consider-the-agent/",
       "createdAt": "2026-11-09T12:25:34Z",
       "updatedAt": "2026-11-09T12:25:34Z"
+    },
+    {
+      "id": "x:2118708454378402266",
+      "section": "news",
+      "type": "news",
+      "title": "Ai2 releases ToyBlocks, an open simulated tabletop for robot-learning experiments",
+      "description": "Ai2 open-sourced ToyBlocks, a simulated tabletop where robotics researchers control the training data and models, run targeted evals and trace failures to their causes.",
+      "content": "Ai2 released **ToyBlocks**, an open simulated tabletop built for controlled robot-learning experiments. Instead of training on messy real-world data, researchers can control exactly what data and models go in, run targeted evaluations, and trace a failure back to its cause. The launch post drew 200+ likes and a 2-minute demo video.\n\n- [ToyBlocks on GitHub](https://github.com/allenai/ToyBlocks)\n- [Launch post on X](https://x.com/allen_ai/status/2118708454378402266)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@allen_ai",
+      "url": "https://x.com/allen_ai/status/2118708454378402266",
+      "createdAt": "2026-11-06T14:13:53Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2118754032017662284",
+      "section": "news",
+      "type": "news",
+      "title": "NitroFusion2: a 6B open image model that renders sharp text in one diffusion step",
+      "description": "NitroFusion2 distills Z-Image-Turbo to one or two steps by letting the discriminator judge text tokens that already absorbed image information, with big gains on long-text rendering benchmarks. Weights, ComfyUI workflows and GGUFs are Apache 2.0.",
+      "content": "**NitroFusion2** is a 6B-parameter image model distilled from Alibaba's Z-Image-Turbo for one- or two-step generation. Its trick, Text-Stream Adversarial Distillation, lets the adversarial discriminator look at intermediate *text* tokens in the MMDiT (which have already absorbed visual information through joint attention), plus aspect-specific cues for typography, objects and layout.\n\nAuthor-reported results: LongText-Bench English one-step score of 43.34 versus 11.72 for Z-Image-Turbo, and OneIG one-step 47.63 versus 32.43. It ships with ComfyUI workflows, Diffusers code, GGUF quantizations from 2.0 to 7.2 GB, and an Apache 2.0 license.\n\n- [Project page](https://chendaryen.github.io/NitroFusion2.github.io/)\n- [Code on GitHub](https://github.com/ChenDarYen/NitroFusion2)\n- [Weights on Hugging Face](https://huggingface.co/ChenDY/NitroFusion2)\n- [Paper on arXiv](https://arxiv.org/abs/2611.05648)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@cutetoxicguy",
+      "url": "https://x.com/cutetoxicguy/status/2118754032017662284",
+      "createdAt": "2026-11-06T17:15:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2118766173986955771",
+      "section": "news",
+      "type": "news",
+      "title": "Standard Physics open-sources Reynolds, an agent that runs real OpenFOAM simulations",
+      "description": "YC-backed Standard Physics open-sourced Reynolds, an MIT-licensed agent that turns a plain-language flow description into an OpenFOAM case, meshes it, runs the solver and returns rerunnable files. Its Archimedes design search used it to improve a data-center cooling design and a turbine blade.",
+      "content": "Standard Physics (formerly Inviscid AI, YC-backed) introduced an AI engineer that searches physical designs and scores each one with a real physics simulation, and open-sourced **Reynolds**, the simulation agent underneath. You describe a flow in plain words; Reynolds writes the OpenFOAM case, meshes it, launches the solver, watches the residuals, looks at its own renders and hands back figures plus an ordinary case an expert can rerun. It's a tool-use loop with nine tools (bash, file I/O, detached jobs, a CAD-to-mesh helper and an independent mesh reviewer), MIT licensed, and installable with `pip install openreynolds`.\n\nThe company says its Archimedes design search used it to cut a data-center cooling design's electricity use and find a turbine blade that beat a published design. The launch post got about 700 likes.\n\n- [OpenReynolds on GitHub](https://github.com/InviscidAI/OpenReynolds)\n- [Reynolds product page](https://standardphysics.com/reynolds)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@StandardPhys",
+      "url": "https://x.com/StandardPhys/status/2118766173986955771",
+      "createdAt": "2026-11-06T18:03:15Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2119013087806095434",
+      "section": "news",
+      "type": "news",
+      "title": "29 popular npm packages silently write into your coding agent's config on install",
+      "description": "A study of 6,401 npm packages for Claude Code, Codex, Cursor and MCP found 29 widely used ones that add files to ~/.claude, register MCP servers, install hooks or append to CLAUDE.md at install time, 19 even as transitive dependencies. Zero of 17,313 top general npm packages do this.",
+      "content": "Konstantinos Gkolias checked 6,401 npm packages built for Claude Code, Codex, Cursor, Gemini CLI and MCP, read the install-time code of the most-downloaded ones that touch agent config, and installed some into an empty test home. **29** of the most-used agent packages change your agent's setup the moment you install them: adding files to `~/.claude`, registering MCP servers, editing settings, installing hooks or appending lines to `CLAUDE.md`. 19 do it even when pulled in as a dependency, 20 offer no opt-out, and 3 grant themselves permissions or trust. In a control set of 17,313 high-impact npm packages, the number was zero.\n\nThe trigger was Postman's desktop app installing Claude Code and Codex plugins (including a pre-trusted Codex hook) without asking, which Postman said it is reverting; its `postman-cli` npm package still appends to `CLAUDE.md` and `AGENTS.md`. The write-up also names a package that forwards Claude Code session prompts to its team's server via OpenTelemetry settings.\n\n- [Full article on X](https://x.com/con_golias/status/2119013087806095434)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@con_golias",
+      "url": "https://x.com/con_golias/status/2119013087806095434",
+      "createdAt": "2026-11-07T10:24:24Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2118984298732671216",
+      "section": "news",
+      "type": "news",
+      "title": "piBrick Pocket-CM5: an open-source pocket Linux PC with AMOLED, keyboard and trackpad",
+      "description": "piBrick Pocket-CM5 is an open-hardware handheld built around a Raspberry Pi CM5 with a 3.92-inch AMOLED screen, a QWERTY keyboard and a trackpad, with the design published on OSHWLab.",
+      "content": "**piBrick Pocket-CM5** is a pocket-sized Linux computer built around the Raspberry Pi Compute Module 5, with a 3.92-inch AMOLED display, a thumb QWERTY keyboard and a trackpad. The board design is published openly on OSHWLab (EasyEDA). JLCPCB's showcase post got 250+ likes and about 160 bookmarks.\n\n- [Project on OSHWLab](https://oshwlab.com/amarullz/pibrick-pocketcm5)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@JLCPCB",
+      "url": "https://x.com/JLCPCB/status/2118984298732671216",
+      "createdAt": "2026-11-07T08:30:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2119020127878525053",
+      "section": "news",
+      "type": "news",
+      "title": "Lamina: an open-source PCB tool that AI coding agents drive end to end",
+      "description": "Lamina lets a coding agent pick parts, place them, route tracks and export Gerbers while you watch the board in 3D and take over the mouse at any point. Open source and experimental.",
+      "content": "**Lamina** is an experimental, open-source PCB design tool built for AI coding agents. The agent picks components, places them, routes the tracks and exports Gerbers, while you watch the board in a 3D view and can grab the mouse to correct it whenever you want.\n\n- [Lamina on GitHub](https://github.com/meraworks/lamina)",
+      "topics": [
+        "Technology",
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@rabbitfart13",
+      "url": "https://x.com/rabbitfart13/status/2119020127878525053",
+      "createdAt": "2026-11-07T10:52:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2119553703657214099",
+      "section": "news",
+      "type": "news",
+      "title": "NeoPulse: a $7 USB status light that shows what your coding agents are doing",
+      "description": "Inspired by the $29 SidePulse, a developer built an open-source agent status light on a $6.99 Adafruit Neo Trinkey in an afternoon, with CircuitPython firmware, a CLI, Claude Code and Codex hooks, and a Mac menu-bar app.",
+      "content": "After seeing the $29 SidePulse LED that shows whether coding agents are working, waiting or done, Gopi built **NeoPulse** on a $6.99 Adafruit Neo Trinkey (4 NeoPixels, 2 touch pads) in an afternoon. The board runs CircuitPython and mounts as a USB drive; any script or agent changes the light by writing a short program to one file, using the same format as SidePulse so its animations run unchanged.\n\nThe repo includes the firmware (which parses line by line to fit in about 5 KB of free RAM), a Python CLI, Claude Code and Codex hooks, a Mac menu-bar app that lists agent sessions and notifies you when one needs you, and a browser simulator. Any CircuitPython NeoPixel board works. MIT licensed.\n\n- [NeoPulse on GitHub](https://github.com/gopikori/neopulse)\n- [Build write-up on X](https://x.com/gopikori/status/2119553703657214099)",
+      "topics": [
+        "Technology",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@gopikori",
+      "url": "https://x.com/gopikori/status/2119553703657214099",
+      "createdAt": "2026-11-08T22:12:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2119440416722534443",
+      "section": "news",
+      "type": "news",
+      "title": "Hermes: a menu-bar app to hop Bluetooth headphones between your Macs",
+      "description": "Hermes is a new Mac App Store menu-bar utility that switches cheap Bluetooth headphones between a work Mac and a personal Mac without opening Control Center.",
+      "content": "Daniel Duke shipped **Hermes: Headphone Switcher** on the Mac App Store, a tiny menu-bar utility for people who share one pair of non-Apple Bluetooth headphones between a work Mac and a personal Mac. Instead of digging through Control Center and Bluetooth settings on both machines, you switch from the menu bar.\n\n- [Hermes on the Mac App Store](https://apps.apple.com/us/app/hermes-headphone-switcher/id6828997036)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@iamdanduke",
+      "url": "https://x.com/iamdanduke/status/2119440416722534443",
+      "createdAt": "2026-11-08T14:42:27Z",
+      "status": "inbox"
+    },
+    {
+      "id": "ideas:agent-config-install-guard",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Agent config install guard: catch packages that rewrite your coding agent setup",
+      "description": "A developer tool for people using Claude Code, Codex, Cursor or MCP: a CLI and Mac menu-bar watcher that snapshots agent config before npm installs and app launches, shows exactly what changed (hooks, MCP servers, CLAUDE.md lines, trust grants) and reverts it in one step.",
+      "nextStep": "Write a 100-line Node CLI that hashes ~/.claude, ~/.codex, ~/.cursor, ~/.gemini, .mcp.json, CLAUDE.md and AGENTS.md, then run it around `npm install postman-cli` in a throwaway HOME and print the diff.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "createdAt": "2026-11-09T14:30:00Z",
+      "content": "## How it works\n\nRun `guard npm install <pkg>` (or let a shell alias do it) and the tool snapshots every known agent config path, runs the install in place, then diffs the result. It explains each change in plain words: a new MCP server, a hook marked as trusted, an appended CLAUDE.md line, a telemetry endpoint. You keep or revert per change, and an optional menu-bar watcher catches desktop apps that write config on launch, like the Postman case. A pre-install mode can also scan a package's install scripts for agent paths before running anything.\n\n```mermaid\nflowchart LR\n  Install[npm install / app launch] --> Snap[Before and after snapshot]\n  Snap --> Diff[Diff agent config paths]\n  Diff --> Report[Report hooks, MCP, CLAUDE.md edits]\n  Report --> Choice{Keep?}\n  Choice -->|No| Revert[Restore snapshot]\n  Choice -->|Yes| Allow[Allowlist package]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| CLI | Node or Bun, distributed via npx |\n| Snapshot | Hash plus copy of known config files into a local git repo |\n| Static scan | Parse package.json install scripts and follow imports for agent paths |\n| Watcher | Swift menu-bar app using FSEvents on config folders |\n| Rules | Community-maintained JSON list of agent config paths and risky keys |\n\n## Hard parts\n\n- Keeping the list of agent config locations current as tools change formats.\n- Telling a legitimate setup step apart from an unwanted one without crying wolf.\n- Catching writes from transitive dependencies and from postinstall scripts that download code at runtime.\n- Reverting cleanly when the user also edited the same file.\n\n## Effort\n\nA weekend for the snapshot-and-diff CLI; one to two more weeks for the static scanner, menu-bar watcher and a shareable report format.\n\n## Inspired by\n\n- [Install-time agent config study on X](https://x.com/con_golias/status/2119013087806095434)\n- [NeoPulse hooks into Claude Code and Codex](https://github.com/gopikori/neopulse)"
+    },
+    {
+      "id": "ideas:desk-ambient-status-light",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Desk ambient status light for meetings, focus and builds on a $7 USB board",
+      "description": "A cheap plug-in USB light plus a Mac menu-bar app that turns calendar, focus mode, CI, deliveries or agent status into a glanceable color, sold as a flash-it-yourself kit or a preassembled stick for remote workers and families.",
+      "nextStep": "Buy an Adafruit Neo Trinkey, flash the NeoPulse firmware, and prototype a menu-bar rule that turns it red five minutes before each calendar meeting.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "createdAt": "2026-11-09T14:30:00Z",
+      "content": "## How it works\n\nA tiny USB stick with a few NeoPixels and touch pads sits in a laptop port or a hub. A menu-bar app maps any source to a light pattern: red when you're in a meeting, amber while a build or agent runs, green when something finishes, a slow pulse during focus time. The board only reads a program file, so there's no driver, and the touch pads snooze or acknowledge. A family mode can also mirror the state to a second stick on the office door.\n\n```mermaid\nflowchart LR\n  Sources[Calendar / CI / agents / focus timer] --> Host[Mac menu-bar host]\n  Host --> File[Write program file]\n  File --> Board[$7 NeoPixel USB board]\n  Board --> Light[Color and pulse]\n  Board --> Touch[Touch pad snooze]\n  Touch --> Host\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Hardware | Adafruit Neo Trinkey or any CircuitPython NeoPixel board |\n| Firmware | Fork of NeoPulse CircuitPython firmware |\n| Host app | SwiftUI menu-bar app with EventKit and Focus filters |\n| Integrations | GitHub Actions webhook, Shortcuts actions, agent hooks |\n| Door mirror | ESP32 with Wi-Fi receiving state over local network |\n\n## Hard parts\n\n- Keeping integrations simple enough that non-developers can set rules.\n- Supply of cheap boards; the Neo Trinkey sells out quickly.\n- Making the second door light pair reliably on home Wi-Fi.\n- Competing with free DIY builds, so the value must be the app and the polish.\n\n## Effort\n\nOne weekend for a calendar-driven prototype on NeoPulse; three to four weeks for a polished menu-bar app with rules, Shortcuts and a door mirror.\n\n## Inspired by\n\n- [NeoPulse build write-up on X](https://x.com/gopikori/status/2119553703657214099)\n- [NeoPulse on GitHub](https://github.com/gopikori/neopulse)\n- [Hermes menu-bar utility on X](https://x.com/iamdanduke/status/2119440416722534443)"
     }
   ]
 }
