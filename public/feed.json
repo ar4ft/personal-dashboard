@@ -40874,6 +40874,169 @@
       "url": "https://x.com/FanEarApp/status/2119807343710097623",
       "createdAt": "2026-11-09T15:00:29Z",
       "content": "**FanEar** launched in English on the App Store: start it on your Apple Watch, let it record, and it turns the audio into text and extracts commitments (yours and other people's) as to-dos. The developer says it's free with no subscription or in-app purchases.\n\n- [FanEar on the App Store](https://apps.apple.com/app/id6822574853)\n- [Original post on X](https://x.com/FanEarApp/status/2119807343710097623)"
+    },
+    {
+      "id": "hn:50429906",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "description": "Anthropic has announced Claude Fable 5.2 and Mythos 5.2, new versions of its Claude models.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "meetpateltech",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "createdAt": "2026-11-09T18:56:29Z",
+      "updatedAt": "2026-11-09T18:56:29Z"
+    },
+    {
+      "id": "hn:50427362",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "description": "Payments Canada has launched the Real-Time Rail, a national payment system designed to move money in real time, around the clock.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ocd",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "createdAt": "2026-11-09T16:00:45Z",
+      "updatedAt": "2026-11-09T16:00:45Z"
+    },
+    {
+      "id": "hn:50431058",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "description": "The US Postal Service now publishes official ZIP Code boundary polygons through its PostalPro service.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "munro",
+      "url": "https://postalpro.usps.com/zcb",
+      "createdAt": "2026-11-09T19:58:59Z",
+      "updatedAt": "2026-11-09T19:58:59Z"
+    },
+    {
+      "id": "hn:50428801",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
+      "description": "The Raspberry Pi 5 with 16GB of RAM is now selling for $385, a steep rise from the board's original pricing.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pera",
+      "url": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
+      "createdAt": "2026-11-09T17:42:55Z",
+      "updatedAt": "2026-11-09T17:42:55Z"
+    },
+    {
+      "id": "hn:50429426",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "description": "A report claims Google Gemini routes some personal Drive files and emails to human annotators for review.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gf74918",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "createdAt": "2026-11-09T18:24:38Z",
+      "updatedAt": "2026-11-09T18:24:38Z"
+    },
+    {
+      "id": "hn:50429024",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Our Smallest, Most Efficient Model: Muse Ember",
+      "description": "Meta has introduced Muse Ember, described as its smallest and most efficient model yet.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dvaplima",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "createdAt": "2026-11-09T17:58:46Z",
+      "updatedAt": "2026-11-09T17:58:46Z"
+    },
+    {
+      "id": "hn:50429545",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+      "description": "Chip startup DeepX claims its second-generation chip can run inference on models up to 100 billion parameters at under 5 watts.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "giuliomagnifico",
+      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+      "createdAt": "2026-11-09T18:33:58Z",
+      "updatedAt": "2026-11-09T18:33:58Z"
+    },
+    {
+      "id": "hn:50424366",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Try Gleam",
+      "description": "A case for trying Gleam, the type-safe functional language that runs on the Erlang VM and compiles to JavaScript.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nchagnet",
+      "url": "https://nchagnet.eu/blog/you-should-try-gleam",
+      "createdAt": "2026-11-09T11:55:14Z",
+      "updatedAt": "2026-11-09T11:55:14Z"
+    },
+    {
+      "id": "hn:50427934",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI",
+      "description": "DBDelve is a new open-source database client built with Rust and the GPUI framework.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "shayan_abbas",
+      "url": "https://news.ycombinator.com/item?id=50427934",
+      "createdAt": "2026-11-09T16:36:38Z",
+      "updatedAt": "2026-11-09T16:36:38Z"
+    },
+    {
+      "id": "hn:50386246",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A primer on GPUs and kernel optimization",
+      "description": "A primer explaining how GPUs work and how kernel optimization makes machine learning workloads run faster.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nomi_uw",
+      "url": "https://www.nabo.dev/blogs/kernel-primer",
+      "createdAt": "2026-11-05T23:48:04Z",
+      "updatedAt": "2026-11-05T23:48:04Z"
     }
   ]
 }
