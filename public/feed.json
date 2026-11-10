@@ -41304,6 +41304,166 @@
       "url": "https://www.nabo.dev/blogs/kernel-primer",
       "createdAt": "2026-11-05T23:48:04Z",
       "updatedAt": "2026-11-05T23:48:04Z"
+    },
+    {
+      "id": "hn:50433659",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "description": "A developer used Claude Fable 5.2 to build his nephew's dream game in a single session.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "lexandstuff",
+      "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+      "createdAt": "2026-11-09T23:08:13Z",
+      "updatedAt": "2026-11-09T23:08:13Z"
+    },
+    {
+      "id": "hn:50436640",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+      "description": "Amazon reports saving millions by replacing Sonnet 4.6 with its Strands Decider agent framework.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "aloukissas",
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "createdAt": "2026-11-10T06:01:08Z",
+      "updatedAt": "2026-11-10T06:01:08Z"
+    },
+    {
+      "id": "hn:50428907",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+      "description": "A site that shows every satellite that passed over any location this week, along with its photos.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "a585gupt",
+      "url": "https://www.watched.earth",
+      "createdAt": "2026-11-09T17:51:31Z",
+      "updatedAt": "2026-11-09T17:51:31Z"
+    },
+    {
+      "id": "hn:50431144",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "description": "Claude Fable 5.2 scores 65 on Artificial Analysis, the highest score recorded so far.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "createdAt": "2026-11-09T20:04:55Z",
+      "updatedAt": "2026-11-09T20:04:55Z"
+    },
+    {
+      "id": "hn:50434310",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Locating the source of a mysterious beep",
+      "description": "Tracking down the source of a mysterious beeping sound.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bigwheels",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "createdAt": "2026-11-10T00:10:46Z",
+      "updatedAt": "2026-11-10T00:10:46Z"
+    },
+    {
+      "id": "hn:50435660",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "description": "CoreWeave's bond yield tops 16% as stress rises in AI-related credit markets.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "lxm",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "createdAt": "2026-11-10T03:20:06Z",
+      "updatedAt": "2026-11-10T03:20:06Z"
+    },
+    {
+      "id": "hn:50429430",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The first 300-millimeter power silicon carbide (SiC) wafer",
+      "description": "Infineon announces the first 300-millimeter power silicon carbide wafer.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sshah03",
+      "url": "https://www.infineon.com/press-release/2026/infpr202611-028",
+      "createdAt": "2026-11-09T18:25:01Z",
+      "updatedAt": "2026-11-09T18:25:01Z"
+    },
+    {
+      "id": "hn:50426681",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "On Being an Engineer in 2026",
+      "description": "Reflections on what it means to be an engineer in 2026.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "talboren",
+      "url": "https://twitter.com/shaharglazner/status/2119796029256032278",
+      "createdAt": "2026-11-09T15:07:23Z",
+      "updatedAt": "2026-11-09T15:07:23Z"
+    },
+    {
+      "id": "hn:50437106",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "description": "A security breach at Fireworks AI impacts Notion and its customers.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "werrett",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "createdAt": "2026-11-10T07:19:38Z",
+      "updatedAt": "2026-11-10T07:19:38Z"
+    },
+    {
+      "id": "hn:50436706",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ClickHouse Acquires Xata",
+      "description": "ClickHouse acquires Xata.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mebcitto",
+      "url": "https://xata.io/blog/xata-is-joining-clickhouse",
+      "createdAt": "2026-11-10T06:14:51Z",
+      "updatedAt": "2026-11-10T06:14:51Z"
     }
   ]
 }
