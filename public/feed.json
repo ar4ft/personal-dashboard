@@ -2,6 +2,273 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50439193",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AlphaProof Code: DeepMind agents formally verify Signal's protocol implementation",
+      "description": "Google DeepMind's multi-agent AlphaProof Code framework proved key security properties of the actual compiled code behind the Signal protocol, generating over six million lines of Lean.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "createdAt": "2026-11-10T12:11:12Z",
+      "updatedAt": "2026-11-10T12:11:12Z",
+      "content": "AlphaProof Code splits formal verification like a research team: human experts work with models to turn Signal's security goals into formal specifications (each reviewed by a person), then Gemini-powered agents write the proofs in Lean, more than six million lines. The agents also audit their own proofs and flag roughly 1% of the codebase for human review, while Lean checks the rest. DeepMind says it is the first time a widely deployed protocol's implementation, not just its design, has been formally verified this deeply.\n\n[DeepMind blog post](https://deepmind.google/blog/introducing-alphaproof-code/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50439193)"
+    },
+    {
+      "id": "hn:50435105",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Formalizing CPython: 613,318 lines of agent-written Lean and 418 bug reports",
+      "description": "Researchers had AI agents copy CPython functions line by line into Lean, test them against real Python, and prove properties, finding 418 bugs, about 55 of which can crash the interpreter or corrupt memory.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "carnevalem",
+      "url": "https://broyojo.com/python-formalization/",
+      "createdAt": "2026-11-10T01:56:48Z",
+      "updatedAt": "2026-11-10T01:56:48Z",
+      "content": "David Andrews and Chao Zhang pointed Opus 5.5 at CPython 3.15.2. Each C function is rewritten in Lean as a line-by-line copy, tested against real Python on tens of thousands of inputs, and only counted once a second agent reviews and accepts it. So far 4,071 functions have passed, giving 613,318 lines of Lean across 1,539 files with 18,898 theorems, all machine-checked on every build. About 16% of CPython is covered overall (35% of built-in types, all grammar rules).\n\n[Write-up with code and data](https://broyojo.com/python-formalization/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50435105)"
+    },
+    {
+      "id": "hn:50433541",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Exact: Expo's agent-native cross-platform UI runtime for web, macOS, iOS and Linux",
+      "description": "Expo's pre-1.0 Exact compiles a declarative Contract UI language into a plan that drives the real DOM on the web and native AppKit/UIKit views via a Rust runner, with no webview.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "vmg12",
+      "url": "https://github.com/expo/exact",
+      "createdAt": "2026-11-09T22:59:13Z",
+      "updatedAt": "2026-11-09T22:59:13Z",
+      "content": "You describe the interface in Contract and write data logic in TypeScript or Rust. On the web the compiled plan becomes one ES module over a ~20 KB runtime; on macOS, iOS and Linux a Rust runner executes the same plan with a Rust layout kernel using CSS rules, and draws with AppKit, UIKit or a GPU painter. It is designed for coding agents: ten operations (tree, screenshot, tap, type, state, layout, logs, clock, prefer, perf) let an agent build, run, see and test the app on every host. The project warns there is no API stability yet.\n\n[Repo on GitHub](https://github.com/expo/exact)\n\n[HN discussion](https://news.ycombinator.com/item?id=50433541)"
+    },
+    {
+      "id": "hn:50432831",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google adds TPU 8tx and TPU 8i Max to its eighth-generation TPU lineup",
+      "description": "Google announced TPU 8tx for secure, confidential inference and TPU 8i Max for massive context windows and maximum rack density, making four TPU systems in one year.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "_benx_",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "createdAt": "2026-11-09T21:56:57Z",
+      "updatedAt": "2026-11-09T21:56:57Z",
+      "content": "The new systems join TPU 8t (training) and TPU 8i (reasoning/inference) announced in April. TPU 8tx uses the same silicon as 8t paired with 5th-gen AMD EPYC hosts and keeps data protected while in use, aimed at regulated enterprises and governments; it also handles small-scale training. TPU 8i Max targets million-token context and the highest compute density per rack. Google frames them as new systems built around existing chips, and pairs them with its PyTorch support push.\n\n[Google blog post](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50432831)"
+    },
+    {
+      "id": "hn:50427085",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The same H100 costs $2.69 or $12.29 an hour depending on where you rent it",
+      "description": "A data-receipts analysis normalizes on-demand GPU prices across AWS, Azure and neoclouds, finding a 4.57x spread for the identical H100 SXM 80GB, and explains what the premium actually buys.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "datareceipts",
+      "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+      "createdAt": "2026-11-09T15:39:01Z",
+      "updatedAt": "2026-11-09T15:39:01Z",
+      "content": "Comparing only identical GPU and memory configurations, an H100 SXM 80GB runs $2.69/hr on RunPod Community, $3.99 on RunPod Secure, $6.88 on AWS p5 and $12.29 on Azure ND, or $1,964 vs $8,972 for a month. The write-up stresses the gap is not pure margin: Azure's ND series includes 400 Gbps per GPU InfiniBand with GPUDirect RDMA, datacenter SLAs and enterprise compliance, which matter for multi-node training but not for single-node fine-tuning.\n\n[Analysis on GitHub](https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing)\n\n[HN discussion](https://news.ycombinator.com/item?id=50427085)"
+    },
+    {
+      "id": "hn:50434264",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Horrible public key tricks: a TLS certificate with a message in its public key",
+      "description": "Maurycy builds a 'protest certificate' for his site whose RSA public key visibly spells out a message in base64, while still being issued by Let's Encrypt.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Curiositry",
+      "url": "https://maurycyz.com/projects/badcert/",
+      "createdAt": "2026-11-10T00:07:17Z",
+      "updatedAt": "2026-11-10T00:07:17Z",
+      "content": "Annoyed by ACME renewals and certificate authority quirks, the author still wanted to encrypt traffic, so he crafted a public key whose base64 encoding contains readable text, visible in the PEM output of openssl s_client against his domain. The embedded text itself makes the point that no one checks what is inside public keys, and the post explains how the trick works.\n\n[Blog post](https://maurycyz.com/projects/badcert/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50434264)"
+    },
+    {
+      "id": "hn:50436410",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Your TV can see through walls: motion sensing with broadcast TV signals",
+      "description": "Using a software-defined radio, Maurycy shows how selective fading in an ATSC TV signal makes it extremely sensitive to people moving nearby, even in another room, and estimates walking speed from it.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Curiositry",
+      "url": "https://maurycyz.com/projects/fading/",
+      "createdAt": "2026-11-10T05:24:45Z",
+      "updatedAt": "2026-11-10T05:24:45Z",
+      "content": "Moving the antenna a few centimeters puts the receiver in a state where the direct signal is nearly canceled by a reflection. In that state, walking in a neighboring room produces stripes in the waterfall each time the path length changes by one wavelength; from the stripe spacing he computes a speed of about 1.3 m/s. He notes any wideband signal such as WiFi or LTE can be used the same way.\n\n[Blog post](https://maurycyz.com/projects/fading/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50436410)"
+    },
+    {
+      "id": "hn:50420069",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Jot – select text anywhere on macOS, tap Shift twice, get Markdown",
+      "description": "Jot is a local-first Mac notes inbox: double-tapping Shift captures the current selection, image or clipboard screenshot as a plain Markdown file in a folder you own, with no account or sync.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "mohakbajaj",
+      "url": "https://sayjot.xyz/",
+      "createdAt": "2026-11-09T02:04:31Z",
+      "updatedAt": "2026-11-09T02:04:31Z",
+      "content": "Besides Shift-Shift capture, Jot supports hold-fn dictation that pastes into the front app (with optional filler cleanup), annotation, and sending notes to agents. It runs on Intel and Apple silicon with macOS 12 or later, keeps analytics off by default, and is a one-time purchase ($29 regular, $9 launch price) with a 3-day free trial.\n\n[Jot website](https://sayjot.xyz/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50420069)"
+    },
+    {
+      "id": "reading:abakcus-specimens-fancy-turning",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The patterns no hand could have drawn: Specimens of Fancy Turning",
+      "description": "Abakcus looks at a Victorian catalog of geometric chuck lathe patterns, spirograph-like epicyclic forms that were calculated by a machine rather than drawn.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/specimens-fancy-turning",
+      "createdAt": "2026-04-21T00:00:00Z",
+      "updatedAt": "2026-04-21T00:00:00Z",
+      "content": "Specimens of Fancy Turning documents what an ornamental turning lathe with a geometric chuck could produce: the chuck made the workpiece trace compound epicyclic paths, yielding exact radial, recursive symmetry that looks like the plot of a parametric equation. Ali Kaya places the plates in the Victorian overlap of mathematical recreation and craft, from rose engines to the societies of practitioners who exchanged specimens.\n\n[Read on Abakcus](https://abakcus.com/articles/specimens-fancy-turning)"
+    },
+    {
+      "id": "reading:abakcus-unit-circle",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How to memorize the unit circle by understanding its pattern",
+      "description": "An interactive Abakcus guide showing how the whole unit circle can be rebuilt from five angles, one denominator and the numbers 0 to 4 instead of memorizing sixteen points.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/unit-circle",
+      "createdAt": "2026-02-01T00:00:00Z",
+      "updatedAt": "2026-11-08T00:00:00Z",
+      "content": "Ali Kaya takes the unit circle chart apart: every point is (cos θ, sin θ), the first-quadrant values follow 'sin counts up, cos counts down, everything over 2' using the square roots of 0 to 4, and one sign rule handles the other quadrants. The roughly 25-minute guide has nine interactive pieces, a seven-day practice plan and a quiz.\n\n[Read on Abakcus](https://abakcus.com/articles/unit-circle)"
+    },
+    {
+      "id": "x:2120126629397864626",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Xcode Preview: SwiftUI previews in VS Code via Xcode 27's headless MCP server",
+      "description": "A free, open-source VS Code extension asks Xcode 27, running headless, to render the #Preview in the current Swift file and shows it beside the editor, re-rendering on save.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Michal (@haXis)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=kos-codes.xcode-preview",
+      "createdAt": "2026-11-10T12:09:13Z",
+      "updatedAt": "2026-11-10T12:09:13Z",
+      "content": "Xcode 27 can run headless and exposes tools over MCP, including RenderPreview, so the output matches Xcode's canvas without opening the Xcode window. The extension adds a Preview link above each #Preview or PreviewProvider, a tab per preview, device/language/color scheme/Dynamic Type variants, #Preview(arguments:) and widget timeline support, and short build error output.\n\n[Extension on the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kos-codes.xcode-preview)\n\n[Original post on X](https://x.com/haXis/status/2120126629397864626)"
+    },
+    {
+      "id": "x:2119803549442101424",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An LLM inference engine in ARM64 assembly beats llama.cpp on a Raspberry Pi 4",
+      "description": "A hobby engine written in AArch64 assembly with Codex runs Liquid AI's LFM3-1.7B Q4_K_M on a Pi 4 with about 9.8% faster decode and 76 MiB less peak RAM than pinned llama.cpp.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Tamal Hansda (@T_Hansda)",
+      "url": "https://github.com/DarvinX/lfm3-pi4-asm",
+      "createdAt": "2026-11-09T14:45:24Z",
+      "updatedAt": "2026-11-09T14:45:24Z",
+      "content": "The model loader, tokenizer, inference graph, worker pool and greedy sampling are all in assembly, tuned with an autoresearch loop that tested changes on the physical board. Decode went from about 2.92 to 3.21 tok/s, peak RSS from 1,128 to about 1,051 MiB, and first-token latency dropped too, while a six-prompt correctness corpus matched all 768 greedy token IDs against the reference.\n\n[Repo on GitHub](https://github.com/DarvinX/lfm3-pi4-asm)\n\n[Medium write-up](https://tamalhansda.medium.com/i-used-codex-to-write-an-arm64-inference-engine-for-my-raspberry-pi-4-57f1cbd468c3)\n\n[Original post on X](https://x.com/T_Hansda/status/2119803549442101424)"
+    },
+    {
+      "id": "x:2119778735650181448",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TensorRT Edge-LLM vs llama.cpp CUDA on an RTX 5080 laptop",
+      "description": "Independent build notes for NVIDIA TensorRT Edge-LLM v0.11.1 from source on Windows, with Qwen3-0.6B decoding at a median 369 vs 322 tok/s compared with llama.cpp CUDA at fp16.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Daisuke Majima (MLBoy) (@JackdeS11)",
+      "url": "https://github.com/john-rocky/tensorrt-edge-llm-windows-notes",
+      "createdAt": "2026-11-09T13:06:48Z",
+      "updatedAt": "2026-11-09T13:06:48Z",
+      "content": "The repo gives step-by-step PowerShell blocks to build Edge-LLM with TensorRT for RTX, export Qwen3-0.6B to ONNX, build the engine and generate text, and checks that greedy outputs match Hugging Face transformers token for token on all eight test prompts. It is not sponsored or endorsed by NVIDIA.\n\n[Build notes on GitHub](https://github.com/john-rocky/tensorrt-edge-llm-windows-notes)\n\n[Original post on X](https://x.com/JackdeS11/status/2119778735650181448)"
+    },
+    {
+      "id": "x:2119810622187544844",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google Research and UCLA: coachable health age from consumer wearables",
+      "description": "A new arXiv paper introduces Coachable Health Age, an interpretable metric from modifiable wearable signals, plus counterfactual wearable trajectories for personalized coaching.",
+      "topics": [
+        "Wearables",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Xinyi Li (@thisislxy)",
+      "url": "https://arxiv.org/abs/2611.08568",
+      "createdAt": "2026-11-09T15:13:31Z",
+      "updatedAt": "2026-11-09T15:13:31Z",
+      "content": "The paper (Simon A. Lee et al., Google Research and UCLA) builds Coachable Health Age from physiological and behavioral signals passively captured by consumer wearables and validates it across the WEAR-ME (N=2,780), All of Us (N=22,748) and longitudinal Fitbit (N=1,464) cohorts, where it aligns with established cardiometabolic health measures. The goal is moving from retrospective summaries to quantitative, actionable behavior prescriptions.\n\n[Paper on arXiv](https://arxiv.org/abs/2611.08568)\n\n[Original post on X](https://x.com/thisislxy/status/2119810622187544844)"
+    },
+    {
+      "id": "x:2119589469431181456",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ShipBench: an open benchmark of coding models on real App Store app tasks",
+      "description": "ShipBench scores LLMs inside their own vendors' coding agents on tasks from real App Store projects; its latest round has Opus 5.5 at 94.5 quality vs GPT-6 Astra at 88.7, but slower and pricier.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "John Wayne (@DevJohnWayne)",
+      "url": "https://github.com/signerlabs/shipbench",
+      "createdAt": "2026-11-09T00:34:44Z",
+      "updatedAt": "2026-11-09T00:34:44Z",
+      "content": "In the posted round of 8 app-building tasks, Opus 5.5 took 3h 6m and $52 versus 1h 19m and $23 for GPT-6 Astra, with the gap mostly in how rebuilt iOS screens move. The repo from SignerLabs includes a 31-task bank, per-round reports with diffs, rationales and Simulator replay videos, and a runner to reproduce results; code is MIT, tasks CC BY-NC 4.0.\n\n[Repo on GitHub](https://github.com/signerlabs/shipbench)\n\n[Original post on X](https://x.com/DevJohnWayne/status/2119589469431181456)"
+    },
+    {
       "id": "hn:50409856",
       "section": "news",
       "type": "news",
