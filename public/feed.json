@@ -41876,6 +41876,171 @@
       "url": "https://abakcus.com/articles/mit-1869",
       "createdAt": "2026-04-13T00:00:00Z",
       "content": "Taken from MIT's Institute Archives, the one-page exam asks students to evaluate expressions, simplify fractions and solve a two-variable system. Abakcus covers the context: MIT opened in 1865 with 15 students and almost open admission, then added formal exams in English, geometry, arithmetic and algebra in 1869. The exam was meant as a floor to make sure students could handle the coursework, not as a filter.\n\n[Read on Abakcus](https://abakcus.com/articles/mit-1869)"
+    },
+    {
+      "id": "hn:50441707",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Smart home devices should work without the internet",
+      "description": "Smart home devices should keep working even when the internet goes down, argues the author, making the case for local-first home automation.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "skittleson",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "createdAt": "2026-11-10T15:25:20Z",
+      "updatedAt": "2026-11-10T15:25:20Z"
+    },
+    {
+      "id": "hn:50442736",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": ".name Grandfathered",
+      "description": "Neil Fraser writes about grandfathered .name domain registrations.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "p4bl0",
+      "url": "https://neil.fraser.name/news/2026/11/10/",
+      "createdAt": "2026-11-10T16:37:44Z",
+      "updatedAt": "2026-11-10T16:37:44Z"
+    },
+    {
+      "id": "hn:50438318",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI usage generates a fragile codebase",
+      "description": "The author argues that heavy AI usage in coding produces a codebase that is fragile and hard to maintain.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "plun9",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "createdAt": "2026-11-10T10:25:58Z",
+      "updatedAt": "2026-11-10T10:25:58Z"
+    },
+    {
+      "id": "hn:50443427",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Val Town is winding down",
+      "description": "Val Town, the platform for running small JavaScript and TypeScript snippets as hosted services, is winding down.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "tosh",
+      "url": "https://blog.val.town/winding-down",
+      "createdAt": "2026-11-10T17:31:14Z",
+      "updatedAt": "2026-11-10T17:31:14Z"
+    },
+    {
+      "id": "hn:50443824",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "description": "Synaptics patent claims have halted work on DisplayLink drivers, according to an LWN report.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "createdAt": "2026-11-10T18:02:02Z",
+      "updatedAt": "2026-11-10T18:02:02Z"
+    },
+    {
+      "id": "hn:50439284",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What's new in the .NET 11 runtime",
+      "description": "Microsoft outlines what's new in the .NET 11 runtime.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "stevefan1999",
+      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+      "createdAt": "2026-11-10T12:20:07Z",
+      "updatedAt": "2026-11-10T12:20:07Z"
+    },
+    {
+      "id": "hn:50382401",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I deleted all my SSH keys",
+      "description": "The author describes deleting all of their SSH keys and what that entailed.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
+      "createdAt": "2026-11-05T18:17:51Z",
+      "updatedAt": "2026-11-05T18:17:51Z"
+    },
+    {
+      "id": "hn:50444129",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Starlink Mini 2",
+      "description": "SpaceX introduces Starlink Mini 2, a new version of its portable satellite internet terminal.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "robertjfclarke",
+      "url": "https://starlink.com/mini-2",
+      "createdAt": "2026-11-10T18:22:32Z",
+      "updatedAt": "2026-11-10T18:22:32Z"
+    },
+    {
+      "id": "hn:50443090",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AMD's Zen 6 Family: Feeding the Beast",
+      "description": "Chips and Cheese examines AMD's Zen 6 processor family in depth.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "pixelpoet",
+      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+      "createdAt": "2026-11-10T17:02:32Z",
+      "updatedAt": "2026-11-10T17:02:32Z"
+    },
+    {
+      "id": "hn:50443716",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "description": "Anthropic introduces Claude Whiteboards, Claude Sheets, and Claude Data, new collaborative and data features for Claude.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Yorothegoat",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "createdAt": "2026-11-10T17:55:07Z",
+      "updatedAt": "2026-11-10T17:55:07Z"
     }
   ]
 }
