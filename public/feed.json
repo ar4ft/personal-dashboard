@@ -41614,6 +41614,268 @@
       ],
       "createdAt": "2026-11-10T14:30:00Z",
       "content": "## How it works\n\nThe kit is a small PCB shaped to fit a specific shell (start with the Google Home Mini), carrying an ESP32-S3, an I2S amplifier and connectors for the original buttons, LEDs and power jack. It ships with open firmware (ESPHome or Squeezelite-ESP32). An iPhone app pairs over Bluetooth, sets up Wi-Fi, maps buttons and picks a mode: Snapcast or DLNA music, Home Assistant voice/announcement satellite, or a simple timer and alarm clock. Everything stays local.\n\n```mermaid\nflowchart LR\n  Shell[Old speaker shell] --> Board[ESP32-S3 + I2S amp board]\n  App[iPhone setup app] -->|BLE pairing| Board\n  Board --> Wifi[Home Wi-Fi]\n  Wifi --> HA[Home Assistant / Snapcast]\n  HA -->|audio + announcements| Board\n  Board --> Speaker[Original speaker and LEDs]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Board | ESP32-S3 + MAX98357A, KiCad design, JLCPCB assembly |\n| Firmware | ESPHome or Squeezelite-ESP32 |\n| Setup app | SwiftUI with CoreBluetooth provisioning |\n| Integrations | Home Assistant, Snapcast, DLNA |\n| Docs | Teardown guides per shell model |\n\n## Hard parts\n\n- Every shell model has different mounting holes, button matrices and LED rings.\n- Getting good sound and low hiss from cheap I2S amps on the original drivers.\n- Opening shells without breaking clips; guides must be very clear.\n- Small market, so the kit must stay cheap to assemble and ship.\n\n## Effort\n\nA weekend to get one shell playing audio with a dev board; four to six weeks for a custom PCB, firmware presets and the iOS setup app.\n\n## Inspired by\n\n- [Google Home Mini to ESP32 build on X](https://x.com/brainstormity/status/2119947699336237320)\n- [KiCad in the browser post on X](https://x.com/cnxsoft/status/2120063775974002913)\n- [ZiroEDA Designer on GitHub](https://github.com/ZiroEDA/ziro-designer)"
+    },
+    {
+      "id": "hn:50433216",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft open-sources Sysinternals Process Explorer for macOS",
+      "description": "A native Swift/SwiftUI/AppKit port of Process Explorer with a live process tree, per-process modules, file descriptors and threads, code-signing inspection and system performance graphs.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ingve",
+      "url": "https://github.com/microsoft/Procexp-Mac",
+      "createdAt": "2026-11-09T22:30:41Z",
+      "updatedAt": "2026-11-09T22:30:41Z",
+      "content": "Microsoft's Sysinternals team published a native macOS implementation of the core Process Explorer experience. It shows a colour-coded live process tree (services, sandboxed, suspended and new/deleted processes), a lower pane for loaded images, handles/file descriptors and threads, rich per-process properties, code-signing details and system-wide CPU/GPU/memory graphs. Sampling uses public macOS APIs such as libproc, sysctl, Mach host statistics, Security.framework, IOKit and Metal, with an optional privileged helper.\n\n[Repo on GitHub](https://github.com/microsoft/Procexp-Mac)\n\n[HN discussion](https://news.ycombinator.com/item?id=50433216)"
+    },
+    {
+      "id": "hn:50446520",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple is reportedly building Harbor, a Mac app for running local AI models",
+      "description": "Leaked details describe Harbor as a private AI inference server for Apple silicon that downloads open-weight models and pools unified memory across Thunderbolt 5-connected Macs.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "linolevan",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "createdAt": "2026-11-10T21:25:03Z",
+      "updatedAt": "2026-11-10T21:25:03Z",
+      "content": "9to5Mac reports on a leak from Aaron Perris: an unreleased Apple app called Harbor that \"turns your Mac into a private AI inference server\". Per the leaked copy, it browses, downloads and loads open-weight models inside the app, auto-detects other Thunderbolt 5 Macs to form a cluster, and pools their unified memory to run larger models with higher concurrency, all without cloud access. Apple has not announced it.\n\n[9to5Mac article](https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/)\n\n[Original leak on X](https://twitter.com/aaronp613/status/2120229190477992162)\n\n[HN discussion](https://news.ycombinator.com/item?id=50446520)"
+    },
+    {
+      "id": "hn:50443812",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Modern Web Guidance: browser-vendor skills that steer coding agents to modern web APIs",
+      "description": "Stewarded by the Chrome, Edge, Firefox and MDN teams, this skill pack feeds coding agents current web-platform best practices and compatibility data and can scan a codebase for legacy patterns.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "paulirish",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "createdAt": "2026-11-10T18:01:15Z",
+      "updatedAt": "2026-11-10T18:01:15Z",
+      "content": "Coding agents tend to write ~2019-era JavaScript because their training data is full of legacy code. Modern Web Guidance packages web-platform expertise and browser-compatibility data as agent skills/plugins (Claude, Codex, Cursor, Gemini and others). `npx modern-web-guidance@latest install` runs a setup wizard; there are also `search`, `retrieve` and `legacy-scan` commands, plus a public eval dashboard.\n\n[Repo on GitHub](https://github.com/GoogleChrome/modern-web-guidance)\n\n[HN discussion](https://news.ycombinator.com/item?id=50443812)"
+    },
+    {
+      "id": "hn:50442426",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Blender 5.3 released with native 3D Gaussian Splat support",
+      "description": "Blender can now import Gaussian splats from PLY, SPZ and glTF as a new point-cloud type, process them with Geometry Nodes and render them in EEVEE, Cycles and Workbench; the release also adds DLSS denoising and light dispersion.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "amlib",
+      "url": "https://www.blender.org/download/releases/5-3/",
+      "createdAt": "2026-11-10T16:15:43Z",
+      "updatedAt": "2026-11-10T16:15:43Z",
+      "content": "Blender 5.3 treats 3D Gaussian Splats as first-class point clouds with scale, rotation and spherical-harmonics radiance attributes, so photo-reconstructed scenes can be edited with Geometry Nodes and rendered natively (emissive by default, with rudimentary relighting via a BSDF). Other headline features: DLSS denoising, light dispersion, an EEVEE fisheye camera, Outliner sorting and ripple editing in the video editor.\n\n[Blender 5.3 release notes](https://www.blender.org/download/releases/5-3/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50442426)"
+    },
+    {
+      "id": "hn:50443714",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An Open Field Guide to Inference Engineering",
+      "description": "Modelplane's guide for platform engineers new to inference explains how models and GPUs fit together, how to run LLM inference in production, which tools to use and how to grow into the role.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "d-ramdass",
+      "url": "https://docs.modelplane.ai/guides/inference-guide",
+      "createdAt": "2026-11-10T17:55:07Z",
+      "updatedAt": "2026-11-10T17:55:07Z",
+      "content": "A long-form, openly published guide (numbers and prices as of October 2026) arguing that platform teams in AI-forward companies are becoming inference teams, for privacy and cost reasons. It walks through the fundamentals of serving models on GPUs, production concerns and tooling, and links to other inference-engineering resources for further study.\n\n[Read the guide](https://docs.modelplane.ai/guides/inference-guide)\n\n[HN discussion](https://news.ycombinator.com/item?id=50443714)"
+    },
+    {
+      "id": "hn:50445013",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What objective is reasoning solving? Reasoning as pathfinding in token space",
+      "description": "Alex Wang argues that RL maximizes the probability that a sampled chain of thought reaches a correct answer, not that any single chain converges, which helps explain overthinking, unfaithful chains of thought and reward hacking.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+      "createdAt": "2026-11-10T19:25:14Z",
+      "updatedAt": "2026-11-10T19:25:14Z",
+      "content": "Why does RL training make models write longer, more accurate chains of thought, while forcing one chain to run longer stops helping and can even hurt? This post models each sample as a path from the prompt to a set of correct answers and walks through best-of-k sampling, training to produce better samples, amortization and generalization. It then uses that view to explain unfaithful chains of thought and reward hacking as coming from both the verifier and the sampler.\n\n[Read the post](https://alexwang.ai/posts/reasoning-as-pathfinding/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50445013)"
+    },
+    {
+      "id": "hn:50405274",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An ode to liveness analysis: from SSA to registers",
+      "description": "A hands-on walkthrough of liveness analysis as the first step of register allocation for the purple-garden language's register-based bytecode VM and x86 JIT, written in Rust.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "xnacly",
+      "url": "https://xnacly.me/posts/2026/an-ode-to-livelyness-analysis/",
+      "createdAt": "2026-11-07T15:17:31Z",
+      "updatedAt": "2026-11-07T15:17:31Z",
+      "content": "xnacly is building register allocation for both a register VM and an x86 JIT. The post takes a small tail-recursive function through the compiler's SSA IR and shows, block by block, how to compute which virtual registers are live where, the input to a linear-scan allocator that maps unlimited virtual registers onto general-purpose registers, floating-point registers and the stack. It builds on Max Bernstein's article on linear scan register allocation on SSA.\n\n[Read the post](https://xnacly.me/posts/2026/an-ode-to-livelyness-analysis/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50405274)"
+    },
+    {
+      "id": "hn:50441338",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The hardest tarball? One archive that extracts eight different ways",
+      "description": "A single GNU tar command builds a pax archive whose hard link carries a 512-byte size record, and popular tar tools and libraries extract it in eight different ways.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "thatslast",
+      "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
+      "createdAt": "2026-11-10T15:00:39Z",
+      "updatedAt": "2026-11-10T15:00:39Z",
+      "content": "By repeating a file so GNU tar stores a hard link, renaming it to a UTF-8 name to force a pax header, and adding `size=512` (exactly one tar header), the author makes the next header ambiguous: is it file data for the hard link or a new entry? POSIX says hard-link data \"may be included\"; GNU tar, BusyBox, Python, Go and Perl ignore the size, while bsdtar and other tools read the archive differently. A neat case study in format ambiguity and parser differentials.\n\n[Read the post](https://stoppels.ch/2026/11/07/the-hardest-tarball.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50441338)"
+    },
+    {
+      "id": "x:2120157747803296137",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LabWired: open-source MCU simulator that runs compiled firmware in CI",
+      "description": "Andrii Shylenko's MIT-licensed LabWired runs real firmware binaries against modeled CPUs and peripherals, capturing UART/bus output and register state for repeatable tests.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@cnxsoft",
+      "url": "https://x.com/cnxsoft/status/2120157747803296137",
+      "createdAt": "2026-11-10T14:12:52Z",
+      "updatedAt": "2026-11-10T14:12:52Z",
+      "content": "LabWired is a firmware simulation core for testing compiled MCU firmware without hardware. It models Arm Cortex-M0+/M3/M4/M7/M33, RISC-V and Xtensa LX6/LX7 (some ESP32 parts) cores plus peripherals, records UART and bus traffic and register state, and supports repeatable checks in CI. It is mostly a CLI; a hosted browser playground is closed-source.\n\n[CNX Software article](https://www.cnx-software.com/2026/11/10/labwired-allows-engineers-to-test-compiled-firmware-on-simulated-mcu-boards-cpu-and-peripherals/)\n\n[Post on X](https://x.com/cnxsoft/status/2120157747803296137)"
+    },
+    {
+      "id": "x:2120147272348418464",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Frozen embeddings + scikit-learn head vs. QLoRA fine-tuning: when each wins",
+      "description": "On ag_news, a frozen LLM embedding with a scikit-learn classifier reached about 82% accuracy, while QLoRA fine-tuning scored higher at roughly three times the training time.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@kdnuggets",
+      "url": "https://x.com/kdnuggets/status/2120147272348418464",
+      "createdAt": "2026-11-10T13:31:14Z",
+      "updatedAt": "2026-11-10T13:31:14Z",
+      "content": "A practical comparison for text classification: extract frozen embeddings from an LLM and train a classic scikit-learn classifier on top, or adapt the model itself with QLoRA. The cheap route gets you most of the way; the article discusses when the extra accuracy from fine-tuning is worth the cost.\n\n[Machine Learning Mastery article](https://machinelearningmastery.com/fine-tuning-vs-frozen-embeddings-when-to-adapt-the-llm-vs-the-sklearn-head/)\n\n[Post on X](https://x.com/kdnuggets/status/2120147272348418464)"
+    },
+    {
+      "id": "x:2120124432244998499",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LingBot-Touch: an open tactile foundation model for robot hands",
+      "description": "Apache-2.0 model pretrained on 4,983 hours of tactile recordings across piezoresistive, magnetic and visuotactile sensors, with a shared Haptic Transformer that transfers touch skills to unseen sensors and hands.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2120124432244998499",
+      "createdAt": "2026-11-10T12:00:29Z",
+      "updatedAt": "2026-11-10T12:00:29Z",
+      "content": "LingBot-Touch learns from 1.33B tactile frames and 464K interaction episodes. A shared Haptic Transformer maps different tactile signals into one reusable representation. It was evaluated on 26 real-world and 12 simulated RL manipulation tasks, including fragile objects, deformable objects and bimanual work. The HaT-Tiny encoder has only 5.46M parameters. Tiny and Small checkpoints, inference code, sensor interfaces and sample data are released.\n\n[LingBot-Touch on ModelScope](https://modelscope.ai/collections/Robbyant/LingBot-Touch)\n\n[Post on X](https://x.com/ModelScope2022/status/2120124432244998499)"
+    },
+    {
+      "id": "x:2119966503022088602",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OShot: a free, MIT-licensed CleanShot X-style screenshot app for macOS",
+      "description": "A new open-source macOS screenshot tool in beta: capture, annotate, blur secrets, grab text with OCR and copy, all in a few keystrokes.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@selzer25",
+      "url": "https://x.com/selzer25/status/2119966503022088602",
+      "createdAt": "2026-11-10T01:32:56Z",
+      "updatedAt": "2026-11-10T01:32:56Z",
+      "content": "Max released OShot as an open-source alternative to CleanShot X. It covers capture, annotation, blurring sensitive info, OCR text grabbing and quick copy. It is in beta, and the author is asking for feedback.\n\n[Repo on GitHub](https://github.com/selzer25/OShot)\n\n[Post on X](https://x.com/selzer25/status/2119966503022088602)"
+    },
+    {
+      "id": "x:2120283376489804141",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GIFT-Eval-CTX: a benchmark for forecasting with textual context",
+      "description": "Salesforce AI Research's open benchmark has 10,000 tasks from 20 real-world datasets and measures how well LLMs and agents turn forward-looking text, such as a coming heatwave or launch, into numerical forecasts.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@SFResearch",
+      "url": "https://x.com/SFResearch/status/2120283376489804141",
+      "createdAt": "2026-11-10T22:32:04Z",
+      "updatedAt": "2026-11-10T22:32:04Z",
+      "content": "Classic time-series models learn only from historical numbers. GIFT-Eval-CTX tests whether models can use textual context about upcoming events. Structured context cut forecasting error by 40.7% for GPT-5.6 Sol and 29.6% for Claude Opus 4.8. MoiraiAgent, which pairs an LLM with Moirai-2 and code execution, had 36.3% lower error than the best history-only model. The benchmark, dataset and leaderboard are open.\n\n[Salesforce blog post](https://www.salesforce.com/blog/gift-eval-ctx/)\n\n[Paper on arXiv](https://arxiv.org/abs/2610.17794)\n\n[Post on X](https://x.com/SFResearch/status/2120283376489804141)"
+    },
+    {
+      "id": "reading:abakcus-inkala-sudoku",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Arto Inkala's world's hardest Sudoku: 23 clues, one solution",
+      "description": "Why the Finnish mathematician's 2012 puzzle defeats most human and algorithmic solvers: it isn't the clue count but which cells are given, which forces chains of inference about ten moves deep.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Abakcus",
+      "url": "https://abakcus.com/articles/inkala-sudoku",
+      "createdAt": "2026-04-14T00:00:00Z",
+      "content": "Minimum-clue Sudokus exist with only 17 givens, so 23 isn't remarkable by itself. What makes Inkala's 2012 puzzle hard is where those clues sit. Solving it without guessing needs advanced techniques like Death Blossom and Digit Forcing Chains. Abakcus explains the unique-solution constraint, how Sudoku difficulty is actually measured, and includes the grid so you can try it.\n\n[Read on Abakcus](https://abakcus.com/articles/inkala-sudoku)"
+    },
+    {
+      "id": "reading:abakcus-mit-1869",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MIT's 1869 algebra entrance exam: seven questions that haven't changed",
+      "description": "The first formal qualifying test at MIT, dated June 7, 1869, covers algebra that looks much like today's high-school math. The article explains why the four-year-old school introduced it.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/mit-1869",
+      "createdAt": "2026-04-13T00:00:00Z",
+      "content": "Taken from MIT's Institute Archives, the one-page exam asks students to evaluate expressions, simplify fractions and solve a two-variable system. Abakcus covers the context: MIT opened in 1865 with 15 students and almost open admission, then added formal exams in English, geometry, arithmetic and algebra in 1869. The exam was meant as a floor to make sure students could handle the coursework, not as a filter.\n\n[Read on Abakcus](https://abakcus.com/articles/mit-1869)"
     }
   ]
 }
