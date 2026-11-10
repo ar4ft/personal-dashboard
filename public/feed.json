@@ -41464,6 +41464,156 @@
       "url": "https://xata.io/blog/xata-is-joining-clickhouse",
       "createdAt": "2026-11-10T06:14:51Z",
       "updatedAt": "2026-11-10T06:14:51Z"
+    },
+    {
+      "id": "x:2120003736735285467",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I have no diffusion head: post-training vanilla Qwen transformers to speak",
+      "description": "A two-year write-up on teaching plain transformer LLMs to generate speech by adding audio-codec tokens to the vocabulary, with the exact two-phase recipe, hyperparameters, failures and an MMLU cost.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@yaboilyrical",
+      "url": "https://x.com/yaboilyrical/status/2120003736735285467",
+      "createdAt": "2026-11-10T04:00:53Z",
+      "content": "An X Article on getting a **vanilla transformer** (no diffusion head, no architecture changes) to do text-to-speech. Early tries with the SNAC codec on Qwen2.5 never produced coherent speech, even with Sequential Monte Carlo constrained decoding to keep codebook layers valid. Switching to the MOSS-Audio-Tokenizer worked: add about 8,000 audio tokens to the vocabulary, train only the embeddings first (about 500 steps until loss plateaus), then unfreeze everything for an epoch. Full hyperparameters are listed for Qwen2.5-1.5B (LR 5e-7 then 1e-6, max grad norm 0.1, cosine schedule) and the recipe was scaled to 7B and a 30B-A3B MoE. The author notes audio post-training noticeably hurts MMLU, so it is not a free bolt-on.\n\n- [Read the article on X](https://x.com/yaboilyrical/status/2120003736735285467)\n- [Earlier kandinsky multimodal project on GitHub](https://github.com/samherring99/kandinsky)\n- [SNAC audio codec paper on arXiv](https://arxiv.org/abs/2410.14411)"
+    },
+    {
+      "id": "x:2119871020618465772",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Terminus Teams: an open-source Slack replacement your Claude Code or Codex can read and reply in",
+      "description": "Terminus launched Teams, a free, open-source Slack-style app with channels, threads and calls that drops the Slack bot so your own coding agent can read messages and reply, with data export at any time.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@WinstonGu_",
+      "url": "https://x.com/WinstonGu_/status/2119871020618465772",
+      "createdAt": "2026-11-09T19:13:31Z",
+      "content": "**Terminus Teams** keeps the parts people like about Slack (channels, threads, calls and meetings) but has no built-in bot. Instead, the existing Claude Code or Codex you already use can read the messages and reply. It is free, the source is linked from the app's profile page in the Terminus catalog, and you can export your data at any time. The launch post passed 500 likes and nearly 700 bookmarks in under a day.\n\n- [Terminus Teams app page and source](https://www.terminus.build/apps/teams)\n- [Original post on X](https://x.com/WinstonGu_/status/2119871020618465772)"
+    },
+    {
+      "id": "x:2119937977426338283",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Fable 5.2 built a 220 KB sandworm game in 10 prompts, every mesh made in code",
+      "description": "A one-scene three.js game where you ride a giant sandworm and eat a convoy, produced with Claude Fable 5.2 in Claude Code: 3,400 lines, 10 prompts, every model and texture generated in code, with the source on GitHub.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@AmirMushich",
+      "url": "https://x.com/AmirMushich/status/2119937977426338283",
+      "createdAt": "2026-11-09T23:39:35Z",
+      "content": "A concrete test of the new **Claude Fable 5.2** model: a playable three.js prototype where you ride a sandworm and eat a convoy. The author says it took 10 prompts in Claude Code, came to about 3,400 lines and 220 KB, and every mesh and texture is procedurally generated in code (no asset files). The repo is public, so you can read exactly what the model wrote.\n\n- [worm-rider on GitHub](https://github.com/amirmushichge/worm-rider)\n- [Demo video and post on X](https://x.com/AmirMushich/status/2119937977426338283)"
+    },
+    {
+      "id": "x:2119947699336237320",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Turning a Google Home Mini into a cloud-free ESP32 speaker for about $3",
+      "description": "A maker is swapping the Google Home Mini's motherboard for a ~$2 ESP32 and a $0.99 I2S amplifier, keeping the case, buttons and power port, to make a programmable Wi-Fi/Bluetooth speaker, with wiring and code to be open-sourced.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@brainstormity",
+      "url": "https://x.com/brainstormity/status/2119947699336237320",
+      "createdAt": "2026-11-10T00:18:12Z",
+      "content": "A hardware hack with real traction (nearly 300 likes, 200 bookmarks): reuse a dust-collecting **Google Home Mini** shell, its buttons and power port, and replace only the stock board with an **ESP32** (about $2) plus an **I2S mono amplifier** ($0.99). The result is a fully programmable, cloud-free Wi-Fi/Bluetooth speaker. The author plans to publish the wiring diagram and code once the amplifier arrives, so there's no repo yet.\n\n- [Build post with teardown photo on X](https://x.com/brainstormity/status/2119947699336237320)"
+    },
+    {
+      "id": "x:2120063775974002913",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "KiCad 10 now runs unofficially in a browser (ZiroEDA) and on Android tablets",
+      "description": "CNX Software tested two unofficial open-source ports: ZiroEDA Designer, a file-for-file TypeScript translation of KiCad 10 that opens GitHub projects in a browser, and KiCad Android with Vulkan, an autorouter and a built-in MCP server.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@cnxsoft",
+      "url": "https://x.com/cnxsoft/status/2120063775974002913",
+      "createdAt": "2026-11-10T07:59:27Z",
+      "content": "CNX Software tried two community ports of **KiCad 10**, both GPL-3.0 and both built with Claude's help:\n\n- **ZiroEDA Designer** translates KiCad's C++ to TypeScript file by file, so the real schematic editor, PCB editor, router and ERC/DRC run in a browser tab. You can open any public GitHub KiCad project via `designer.ziroeda.com/gh/<owner>/<repo>/...`. It refuses to run on phones, and the author suggests desktop KiCad for big designs.\n- **KiCad Android** is the full 10.99 suite for tablets and foldables, with Vulkan rendering, a Freerouting autorouter and a built-in MCP server that lets Claude Code edit, route and DRC a board.\n\n- [CNX Software hands-on](https://www.cnx-software.com/2026/11/10/kicad-10-now-unofficially-runs-in-a-web-browser-or-android/)\n- [ZiroEDA Designer on GitHub](https://github.com/ZiroEDA/ziro-designer)\n- [Try ZiroEDA in the browser](https://designer.ziroeda.com/)\n- [Original post on X](https://x.com/cnxsoft/status/2120063775974002913)"
+    },
+    {
+      "id": "x:2120125403436306707",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DiskPilot: a free, open-source Mac app that finds what Docker, Xcode and node_modules left behind",
+      "description": "DiskPilot scans a Mac for developer leftovers (Docker images, DerivedData, simulators, stale node_modules, Cargo and Python caches, AI tool files) and cleans them only after review; signed, notarized, MIT licensed, v0.6.3 out today.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@0xgoel",
+      "url": "https://x.com/0xgoel/status/2120125403436306707",
+      "createdAt": "2026-11-10T12:04:20Z",
+      "content": "**DiskPilot** is a niche Mac utility for developers: it sizes Docker Desktop images and build cache (also OrbStack and Colima), Xcode DerivedData matched to its workspace, archives and simulator runtimes, `node_modules` in projects untouched for months, npm/pnpm/Yarn/Bun caches, Rust `target/`, virtualenvs and more. Nothing is deleted until you review a single-use plan that expires after ten minutes, and Docker volumes need you to type the name to confirm. It is MIT licensed, signed and notarized, and installs via Homebrew. The author reports 320 downloads in its first five days.\n\n- [DiskPilot website](https://diskpilot.live/)\n- [DiskPilot on GitHub](https://github.com/Devanshgoel-123/diskpilot)\n- [Original post on X](https://x.com/0xgoel/status/2120125403436306707)"
+    },
+    {
+      "id": "x:2120110583144124662",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ribbon: a $12 scrolling window manager for Mac that keeps SIP on",
+      "description": "Ribbon puts Mac windows on one horizontal strip at full height so new windows open beside you and nothing shrinks, Niri/PaperWM style, without disabling System Integrity Protection; $12 once, macOS 14+ on Apple silicon.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@abhijitwt",
+      "url": "https://x.com/abhijitwt/status/2120110583144124662",
+      "createdAt": "2026-11-10T11:05:27Z",
+      "content": "**Ribbon** brings the scrolling-tiling model (as in Niri or PaperWM) to macOS: windows sit full height on one strip, new ones open next to the focused one, and you scroll instead of shrinking. Unlike yabai's advanced features it keeps SIP on. It's built on the open-source Paneru, costs $12 once (or $39 for three Macs), and needs macOS 14+ on Apple silicon. It launched on the MacPip directory.\n\n- [Ribbon website](https://meetribbon.app/)\n- [Ribbon on MacPip](https://macpip.com/apps/ribbon-mac)\n- [Original post on X](https://x.com/abhijitwt/status/2120110583144124662)"
+    },
+    {
+      "id": "ideas:finetune-run-sentinel",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Fine-tune run sentinel: a CLI that catches grad-norm spikes and dead runs before you waste a night",
+      "description": "A developer tool for ML engineers and indie researchers fine-tuning small open models on one GPU or a rented box: a CLI wrapper that tails training metrics, flags warmup grad-norm spikes, loss plateaus and NaNs, snapshots the last good checkpoint, and pings your phone with a verdict instead of making you watch the loss curve.",
+      "nextStep": "Write a Python CLI that tails a Hugging Face Trainer or plain JSONL log, detects a grad-norm spike right after warmup using a rolling median, and sends a push via ntfy.sh; test it on a small Qwen2.5-0.5B LoRA run.",
+      "topics": [
+        "Programming",
+        "Machine Learning",
+        "AI"
+      ],
+      "createdAt": "2026-11-10T14:30:00Z",
+      "content": "## How it works\n\nYou launch training through the CLI (`sentinel run -- python train.py`) or point it at an existing log file, TensorBoard directory or W&B-style JSONL. It parses loss, learning rate and grad norm per step and runs simple, explainable rules: grad norm jumping several times above its rolling median at the end of warmup, loss flat for N steps, NaN or Inf, throughput collapse, or disk filling up from checkpoints. On a trigger it copies the last healthy checkpoint aside, optionally kills or pauses the run, and sends a short verdict to your phone or a menu-bar app (\"run died at step 512: grad spike 14x after warmup, last good ckpt saved\"). A morning report summarises every run overnight.\n\n```mermaid\nflowchart LR\n  Train[Training process] --> Log[Metrics log / stdout]\n  Log --> Parser[Sentinel parser]\n  Parser --> Rules[Spike / plateau / NaN rules]\n  Rules -->|healthy| Report[Morning report]\n  Rules -->|trigger| Snap[Save last good checkpoint]\n  Snap --> Notify[Phone / menu-bar alert]\n  Notify --> Decide[Resume, kill or tweak LR]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| CLI | Python with Typer, single pip install |\n| Log readers | HF Trainer state, JSONL, TensorBoard event files |\n| Detection | Rolling median and z-score rules, no ML needed |\n| Alerts | ntfy.sh or Pushover; optional SwiftUI menu-bar viewer |\n| Storage | Local SQLite of runs and incidents |\n\n## Hard parts\n\n- Avoiding false alarms on noisy small-batch runs, so thresholds must adapt per run.\n- Supporting many log formats without becoming yet another experiment tracker.\n- Safely snapshotting large checkpoints without filling the disk.\n- Deciding when auto-kill is welcome and when it ruins a run that would recover.\n\n## Effort\n\nA weekend for a log-tailing CLI with three rules and ntfy alerts; two to three weeks for multiple formats, checkpoint snapshots and a morning report.\n\n## Inspired by\n\n- [\"I have no diffusion head\" training write-up on X](https://x.com/yaboilyrical/status/2120003736735285467)\n- [kandinsky project on GitHub](https://github.com/samherring99/kandinsky)\n- [DiskPilot developer cleanup app on X](https://x.com/0xgoel/status/2120125403436306707)"
+    },
+    {
+      "id": "ideas:smart-speaker-revival-kit",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Smart speaker revival kit: an ESP32 drop-in board and iPhone app for old Google Home and Echo shells",
+      "description": "A cheap replacement board plus an iOS setup app that turns abandoned Google Home Mini or Echo Dot shells into local, cloud-free speakers for AirPlay-style music, Home Assistant announcements and timers, sold as a kit to tinkerers and people who hate e-waste.",
+      "nextStep": "Order an ESP32-S3 and a MAX98357A I2S amp, fit them in a Google Home Mini shell following the brainstormity build, and get ESPHome playing a Home Assistant TTS announcement through the original speaker.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "createdAt": "2026-11-10T14:30:00Z",
+      "content": "## How it works\n\nThe kit is a small PCB shaped to fit a specific shell (start with the Google Home Mini), carrying an ESP32-S3, an I2S amplifier and connectors for the original buttons, LEDs and power jack. It ships with open firmware (ESPHome or Squeezelite-ESP32). An iPhone app pairs over Bluetooth, sets up Wi-Fi, maps buttons and picks a mode: Snapcast or DLNA music, Home Assistant voice/announcement satellite, or a simple timer and alarm clock. Everything stays local.\n\n```mermaid\nflowchart LR\n  Shell[Old speaker shell] --> Board[ESP32-S3 + I2S amp board]\n  App[iPhone setup app] -->|BLE pairing| Board\n  Board --> Wifi[Home Wi-Fi]\n  Wifi --> HA[Home Assistant / Snapcast]\n  HA -->|audio + announcements| Board\n  Board --> Speaker[Original speaker and LEDs]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Board | ESP32-S3 + MAX98357A, KiCad design, JLCPCB assembly |\n| Firmware | ESPHome or Squeezelite-ESP32 |\n| Setup app | SwiftUI with CoreBluetooth provisioning |\n| Integrations | Home Assistant, Snapcast, DLNA |\n| Docs | Teardown guides per shell model |\n\n## Hard parts\n\n- Every shell model has different mounting holes, button matrices and LED rings.\n- Getting good sound and low hiss from cheap I2S amps on the original drivers.\n- Opening shells without breaking clips; guides must be very clear.\n- Small market, so the kit must stay cheap to assemble and ship.\n\n## Effort\n\nA weekend to get one shell playing audio with a dev board; four to six weeks for a custom PCB, firmware presets and the iOS setup app.\n\n## Inspired by\n\n- [Google Home Mini to ESP32 build on X](https://x.com/brainstormity/status/2119947699336237320)\n- [KiCad in the browser post on X](https://x.com/cnxsoft/status/2120063775974002913)\n- [ZiroEDA Designer on GitHub](https://github.com/ZiroEDA/ziro-designer)"
     }
   ]
 }
