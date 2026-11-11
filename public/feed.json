@@ -42041,6 +42041,273 @@
       "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
       "createdAt": "2026-11-10T17:55:07Z",
       "updatedAt": "2026-11-10T17:55:07Z"
+    },
+    {
+      "id": "hn:50449748",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Protecting SSH keys with the macOS Secure Enclave",
+      "description": "A walkthrough of keeping SSH keys inside the Mac's Secure Enclave with Touch ID on every use, using only built-in macOS tooling and no third-party apps.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "js2",
+      "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+      "content": "Serge Gatezh explains how to move SSH keys out of plain files in `~/.ssh` and into the macOS Secure Enclave, so every use requires Touch ID and malicious scripts can't simply copy the private key. The native approach avoids third-party agents.\n\n[HN discussion](https://news.ycombinator.com/item?id=50449748)",
+      "createdAt": "2026-11-11T04:28:57Z",
+      "updatedAt": "2026-11-11T04:28:57Z"
+    },
+    {
+      "id": "hn:50447074",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "VulnCheck: seven months of Anthropic Glasswing vulnerability findings",
+      "description": "VulnCheck tracked 442 CVEs attributable to Anthropic's Project Glasswing, about 0.5% of 2026 CVEs; of 37,966 reported findings only 19.4% are public and 217 are marked fixed.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "panic",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "content": "VulnCheck's November update on Anthropic's AI-driven vulnerability discovery program: 442 CVEs so far, only two known exploited in the wild, and a growing gap between findings reported (nearly 12,000 added since September) and fixes recorded (15). The post argues the volume is overwhelming maintainers with low-impact findings.\n\n[HN discussion](https://news.ycombinator.com/item?id=50447074)",
+      "createdAt": "2026-11-10T22:17:56Z",
+      "updatedAt": "2026-11-10T22:17:56Z"
+    },
+    {
+      "id": "hn:50442303",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gemini 4 Carbon is now available",
+      "description": "Google is making Gemini 4 Carbon available to developers, enterprises, scientists and consumers.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "meetpateltech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "content": "Google's announcement of general availability for Gemini 4 Carbon across its developer, enterprise and consumer products.\n\n[HN discussion](https://news.ycombinator.com/item?id=50442303)",
+      "createdAt": "2026-11-10T16:07:15Z",
+      "updatedAt": "2026-11-10T16:07:15Z"
+    },
+    {
+      "id": "hn:50448340",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TIS-100 Bench: 16 LLMs push the frontier on a programming puzzle game",
+      "description": "Given Zachtronics' TIS-100 and its manual but not the leaderboard, 16 LLMs found 133 new Pareto frontier points on 18 of 55 puzzles, including 3 outright cycle records.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "fairestvalue",
+      "url": "https://tis-100.wincon.dev/",
+      "content": "A benchmark where LLMs write assembly-like programs for TIS-100's tiny 12-node machine and keep iterating. Models beat a decade of human leaderboard optimization on several puzzles, and players then improved on the models' programs; the site includes a Pareto explorer and per-puzzle breakdowns.\n\n[HN discussion](https://news.ycombinator.com/item?id=50448340)",
+      "createdAt": "2026-11-11T00:37:05Z",
+      "updatedAt": "2026-11-11T00:37:05Z"
+    },
+    {
+      "id": "hn:50447363",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The surprising effectiveness of deleting weights in LLM post-training",
+      "description": "An arXiv paper finds that zeroing fewer than 0.05% of a pretrained LLM's weights, with no other change, can match full fine-tuning across three post-training regimes.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://arxiv.org/abs/2611.10866",
+      "content": "Lu, Yang, Lasby, Pote, Ioannou and Ren ask how little of a pretrained model must change to gain new capabilities, and show that selectively deleting a tiny fraction of weights rivals full fine-tuning at scale, including in reinforcement learning post-training.\n\n[HN discussion](https://news.ycombinator.com/item?id=50447363)",
+      "createdAt": "2026-11-10T22:44:49Z",
+      "updatedAt": "2026-11-10T22:44:49Z"
+    },
+    {
+      "id": "hn:50444761",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: 15 blood glucose forecasting models trained on one person's data",
+      "description": "T1DMAI is a model zoo of blood glucose forecasters that the author trained and tested on their own type 1 diabetes data.",
+      "topics": [
+        "Machine Learning",
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "author": "0xdeadf1sh",
+      "url": "https://github.com/0xdeadf1sh/T1DMAI",
+      "content": "An open-source comparison of 15 forecasting models for continuous glucose monitor data, trained and evaluated on a single person's history: a practical look at time-series ML on personal health-sensor data.\n\n[Repo on GitHub](https://github.com/0xdeadf1sh/T1DMAI) · [HN discussion](https://news.ycombinator.com/item?id=50444761)",
+      "createdAt": "2026-11-10T19:07:53Z",
+      "updatedAt": "2026-11-10T19:07:53Z"
+    },
+    {
+      "id": "hn:50449891",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+      "description": "Call of Duty: Black Ops II recompiled from 32-bit x86 Windows to native ARM64 macOS via Remill and LLVM IR, with a hand-written Win32 runtime and Direct3D 11 drawn through Metal.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "adrbn",
+      "url": "https://github.com/adrbn/bo2-mac",
+      "content": "A static recompilation project: x86 machine code is lifted with Remill into LLVM IR and recompiled for Apple Silicon, with a custom Win32 runtime and a D3D11-to-Metal layer. No Wine, and no game files are shipped.\n\n[Repo on GitHub](https://github.com/adrbn/bo2-mac) · [HN discussion](https://news.ycombinator.com/item?id=50449891)",
+      "createdAt": "2026-11-11T04:56:47Z",
+      "updatedAt": "2026-11-11T04:56:47Z"
+    },
+    {
+      "id": "hn:50451903",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Using voltage glitching to unlock the A100 inside a mining card",
+      "description": "Kate used voltage fault injection on an Nvidia CMP 170HX mining card to unlock GA100 hardware features that are fused off.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "lae",
+      "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+      "content": "A deep hardware-security writeup on the CMP 170HX: how GA100 fuses and floorsweeping restrict the chip, and how carefully timed voltage glitches disrupted fuse sensing to unlock framebuffer, compute, PCIe generation and NVLink capabilities.\n\n[HN discussion](https://news.ycombinator.com/item?id=50451903)",
+      "createdAt": "2026-11-11T10:48:40Z",
+      "updatedAt": "2026-11-11T10:48:40Z"
+    },
+    {
+      "id": "hn:50450488",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "In memoriam: Tim Peters (1952–2026)",
+      "description": "Guido van Rossum announced that Tim Peters, author of the Zen of Python and a longtime Python co-designer, died on July 15.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ayhanfuat",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "content": "Guido van Rossum's tribute on the Python forum to Tim Peters, best known for the Zen of Python (PEP 20), and remembered by Guido as a mentor and language co-designer since Python's earliest days.\n\n[HN discussion](https://news.ycombinator.com/item?id=50450488)",
+      "createdAt": "2026-11-11T07:03:17Z",
+      "updatedAt": "2026-11-11T07:03:17Z"
+    },
+    {
+      "id": "reading:abakcus-binomial-cube",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Binomial Cube: a proof without words for (a + b)³",
+      "description": "Abakcus shows how eight blocks forming a cube prove at a glance why (a + b)³ = a³ + 3a²b + 3ab² + b³.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/binomial-cube",
+      "content": "Proofs without words are pictures that prove a theorem at a glance. This Abakcus piece starts with the binomial cube: split a cube of side a + b into eight blocks and the expansion of (a + b)³ falls out visually.\n\n[Read on Abakcus](https://abakcus.com/articles/binomial-cube)",
+      "createdAt": "2026-11-11T12:00:00Z",
+      "updatedAt": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "x:2120445999051420152",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GitBell: open-source SwiftUI Mac app for what's waiting on you in GitHub",
+      "description": "A free, native SwiftUI Mac app that gathers reviews, failing checks, requested changes and merge-ready PRs into one list and explains why each needs you.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Tiago (@tiagobabo)",
+      "url": "https://x.com/tiagobabo/status/2120445999051420152",
+      "content": "Tiago released GitBell, an open-source menu-style Mac app that turns GitHub's scattered notifications into one actionable queue, with a reason shown for every item.\n\n[Post on X](https://x.com/tiagobabo/status/2120445999051420152)",
+      "createdAt": "2026-11-11T09:18:16Z",
+      "updatedAt": "2026-11-11T09:18:16Z"
+    },
+    {
+      "id": "x:2120422378874495153",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Allyfix: synthetic users test your iOS app's accessibility in the Simulator",
+      "description": "An open-source tool that sends six synthetic people, each limited to what they can perceive, through an iOS app in the Simulator, then fixes the code when one gets stuck.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Vladislav Baranov (@vlad_mobi)",
+      "url": "https://x.com/vlad_mobi/status/2120422378874495153",
+      "content": "Allyfix automates accessibility testing for iOS: simulated users with different disabilities try to complete tasks, and when they fail the agent patches the code and retries.\n\n[Post on X](https://x.com/vlad_mobi/status/2120422378874495153)",
+      "createdAt": "2026-11-11T07:44:25Z",
+      "updatedAt": "2026-11-11T07:44:25Z"
+    },
+    {
+      "id": "x:2120489368565535217",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Even Realities launches an Enterprise SDK for its G2 smart glasses",
+      "description": "The Even G2 Enterprise SDK, in alpha by application, offers a Flutter package plus native iOS and Android SDKs so businesses can push their own app data to the glasses.",
+      "topics": [
+        "Wearables",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Jobs in Flutter (@jobsinflutter)",
+      "url": "https://x.com/jobsinflutter/status/2120489368565535217",
+      "content": "Even Realities opened enterprise partnerships for its G2 smart glasses with an SDK that connects the glasses directly to a company's own mobile apps while keeping workflows and data in-house.\n\n[Even Realities announcement](https://www.evenrealities.com/blogs/news/introducing-the-even-g2-enterprise-sdk) · [Post on X](https://x.com/jobsinflutter/status/2120489368565535217)",
+      "createdAt": "2026-11-11T12:10:36Z",
+      "updatedAt": "2026-11-11T12:10:36Z"
+    },
+    {
+      "id": "x:2120490995435659642",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HeyWalkie: an indie replacement for Apple Watch Walkie-Talkie",
+      "description": "After Apple discontinued Walkie-Talkie in watchOS 27, an indie developer built HeyWalkie, now on the App Store for Apple Watch and iPhone.",
+      "topics": [
+        "Wearables",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Reg Crampton (@RDCrampton)",
+      "url": "https://x.com/RDCrampton/status/2120490995435659642",
+      "content": "Reg Crampton built an independent push-to-talk intercom app for people who relied on Apple's Walkie-Talkie feature, which was removed in watchOS 27.\n\n[HeyWalkie on the App Store](https://apps.apple.com/us/app/heywalkie/id6816368232) · [Post on X](https://x.com/RDCrampton/status/2120490995435659642)",
+      "createdAt": "2026-11-11T12:17:04Z",
+      "updatedAt": "2026-11-11T12:17:04Z"
+    },
+    {
+      "id": "x:2120448756634317054",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Building an AI phone from an Apple Watch Ultra and a 3D printer",
+      "description": "Tommaso Nervegna turned an Apple Watch Ultra into a Rabbit R1-inspired AI device with a custom 3D-printed enclosure, Claude Code, Codex and animated agents.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Tommaso Nervegna (@Nervo)",
+      "url": "https://x.com/Nervo/status/2120448756634317054",
+      "content": "A build log of repurposing an Apple Watch Ultra as a dedicated AI gadget, covering the printed enclosure and the agent software running on it.\n\n[Full write-up on Substack](https://nervegna.substack.com/p/i-built-my-own-ai-phone-with-an-apple) · [Post on X](https://x.com/Nervo/status/2120448756634317054)",
+      "createdAt": "2026-11-11T09:29:14Z",
+      "updatedAt": "2026-11-11T09:29:14Z"
     }
   ]
 }
