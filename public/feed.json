@@ -42617,6 +42617,272 @@
       ],
       "createdAt": "2026-11-11T14:30:00Z",
       "content": "## How it works\n\nOn a schedule, the app picks files to test (recently changed documents, photos, a few old ones), restores them from the newest snapshot into a sandboxed temp folder, and checks hashes and sizes against the live copies. It also checks snapshot age and destination reachability. The menu bar shows a green, yellow or red badge, and a report lists what failed and why (stale snapshot, missing file, corrupt data, unreachable NAS).\n\n```mermaid\nflowchart LR\n  Sched[Weekly schedule] --> Pick[Pick sample files]\n  Pick --> Restore[Restore from snapshot]\n  Restore --> Compare[Hash and size check]\n  Compare --> Score[Health score]\n  Score --> Menu[Menu bar badge and report]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| App | SwiftUI MenuBarExtra |\n| Backends | restic CLI, tmutil for Time Machine |\n| Hashing | CryptoKit SHA-256 |\n| Scheduling | SMAppService launch agent |\n| Storage | Local JSON history of drills |\n\n## Hard parts\n\n- Time Machine restores need Full Disk Access and tmutil quirks.\n- Files that changed after the snapshot must not count as failures.\n- Restoring large files without filling the disk or slowing the Mac.\n- Explaining failures in plain language for non-technical users.\n\n## Effort\n\nA weekend for a restic-only prototype; three to four weeks for Time Machine support, scheduling and a polished menu bar UI.\n\n## Inspired by\n\n- [MacRest post on X](https://x.com/nchourrout/status/2120419622834815441)\n- [MacRest on GitHub](https://github.com/nchourrout/macrest)"
+    },
+    {
+      "id": "hn:50456631",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AWS releases AWS Emulator, a local emulator of the AWS APIs",
+      "description": "An official, free local program that serves AWS API endpoints so you can test code against emulated resources on your machine or in CI without an AWS account.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "super_linear",
+      "url": "https://github.com/aws/aws-emulator",
+      "createdAt": "2026-11-11T18:21:38Z",
+      "updatedAt": "2026-11-11T18:21:38Z",
+      "content": "AWS Emulator runs locally (on a laptop, dev server or CI runner) and serves an AWS API endpoint. You point the AWS CLI or an SDK at it with environment variables and your requests hit emulated resources instead of real ones, with no AWS account and no service fee. It has no GUI, and an embedded mode lets you pass the emulator's HTTP client straight to your SDK. The repo is written in Rust.\n\n[Repo on GitHub](https://github.com/aws/aws-emulator)\n\n[HN discussion](https://news.ycombinator.com/item?id=50456631)"
+    },
+    {
+      "id": "hn:50452655",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Can a linear program do weight-space programming?",
+      "description": "A follow-up to MIT CSAIL's weight-space programming work shows that the model's 8-hour weight edit fixing Qwen3.5-0.8B's thinking loops is essentially a linear program, solvable in minutes with 8x fewer changed weights.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "emschwartz",
+      "url": "https://nathan.rs/posts/weight-space-lp/",
+      "createdAt": "2026-11-11T12:30:17Z",
+      "updatedAt": "2026-11-11T12:30:17Z",
+      "content": "MIT CSAIL had a frontier model edit 0.016% of Qwen3.5-0.8B's weights, lifting MATH-500 from 7.9% to 48.1% by curing the small model's tendency to get stuck in thinking loops (IFEval also jumped from 21% to 62%). This post looks at what the edit actually does, argues most of the model's trial-and-error search was solving an LP, and reproduces the fix with a couple of roughly one-minute LP solves.\n\n[HN discussion](https://news.ycombinator.com/item?id=50452655)"
+    },
+    {
+      "id": "hn:50455633",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple ML Research: faster maximum inner product search for RAG",
+      "description": "Apple researchers show that approximate nearest-neighbour indexes for RAG can be made faster by accounting for the query distribution, since short user questions look very different from long curated documents.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "zerop",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "createdAt": "2026-11-11T16:57:45Z",
+      "updatedAt": "2026-11-11T16:57:45Z",
+      "content": "Maximum inner product search (MIPS) underpins recommendation, search and retrieval-augmented generation. Most approximate MIPS methods build indexes from the geometry of the keys alone and implicitly assume queries resemble keys. Apple's work argues that in RAG this is wrong (queries are short questions, keys are long documents) and that production systems usually have a stable, known query distribution worth exploiting for speed and accuracy.\n\n[HN discussion](https://news.ycombinator.com/item?id=50455633)"
+    },
+    {
+      "id": "hn:50453171",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Attention to Mamba: Apple's recipe for distilling Transformers into SSMs",
+      "description": "A TMLR paper proposing a two-stage, principled-initialization approach to distill an attention-based model into a pure Mamba-like architecture without falling back to hybrid attention/SSM blocks.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "zerop",
+      "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
+      "createdAt": "2026-11-11T13:29:46Z",
+      "updatedAt": "2026-11-11T13:29:46Z",
+      "content": "State space models like Mamba use less memory and generate faster than Transformers, but most pretrained knowledge lives in Transformer checkpoints. Naive Transformer-to-Mamba distillation loses teacher quality, which past work patched with hybrids. Apple researchers show that giving Mamba a principled initialization yields a better cross-architecture distillation recipe.\n\n[HN discussion](https://news.ycombinator.com/item?id=50453171)"
+    },
+    {
+      "id": "hn:50453637",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Atuin Threads: synced, searchable history of every coding-agent session",
+      "description": "The Atuin shell-history tool now syncs agent sessions across machines and tools, letting you start a task in Claude Code and resume it in Codex elsewhere with `atuin resume`.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "linsomniac",
+      "url": "https://blog.atuin.sh/threads-agent-sessions/",
+      "createdAt": "2026-11-11T14:10:46Z",
+      "updatedAt": "2026-11-11T14:10:46Z",
+      "content": "Atuin's author notes that more than half the commands on his machines are now written by agents, yet agent sessions are scattered across tools and hosts and quickly forgotten. Threads extends Atuin's synced history to agent sessions: one searchable record of every session on every machine, with context-preserving resume across agents.\n\n[HN discussion](https://news.ycombinator.com/item?id=50453637)"
+    },
+    {
+      "id": "hn:50456791",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google launches the Gemini Decisions API for fast, calibrated multimodal judgments",
+      "description": "Powered by a new Gemini Decision 1 model, it scores up to 1,000 yes/no, multiple-choice or rubric questions in one pass over text, images, audio, video or PDFs, returning confidence scores.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "iamdelirium",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "createdAt": "2026-11-11T18:32:42Z",
+      "updatedAt": "2026-11-11T18:32:42Z",
+      "content": "Google DeepMind pitches the Decisions API as a cheap, fast way to route queries, grade content or check policy rules: instead of generating text, it computes calibrated probabilities for many questions at once across modalities. It is available through Google AI Studio with Python, JavaScript and REST docs.\n\n[HN discussion](https://news.ycombinator.com/item?id=50456791)"
+    },
+    {
+      "id": "hn:50453555",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple is shutting down its Support Community forums on November 20",
+      "description": "Apple's Support Community platform is now read-only and will close permanently on November 20, 2026, ending one of the largest troubleshooting archives for Apple devices.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "saikatsg",
+      "url": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+      "createdAt": "2026-11-11T14:02:11Z",
+      "updatedAt": "2026-11-11T14:02:11Z",
+      "content": "The Verge reports that Apple has frozen discussions.apple.com and will take it down next week. For years the forum has been a go-to place for fixes to obscure iPhone and Mac problems, so a lot of hard-won troubleshooting knowledge may disappear with it.\n\n[Apple's closure notice](https://discussions.apple.com/welcome)\n\n[HN discussion](https://news.ycombinator.com/item?id=50453555)"
+    },
+    {
+      "id": "hn:50452313",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Zellij 0.46 adds a built-in terminal, attention inbox and session previews",
+      "description": "The Rust terminal multiplexer can now run as its own terminal, adds an inbox for panes needing attention, session previews, a settings screen, theme editor and library-style distributions.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "worble",
+      "url": "https://zellij.dev/news/terminal-inbox-session-previews/",
+      "createdAt": "2026-11-11T11:50:52Z",
+      "updatedAt": "2026-11-11T11:50:52Z",
+      "content": "Zellij 0.46 introduces `zellij terminal`, a built-in terminal that uses Zellij as its UI (no GUI tabs or splits), while staying a multiplexer first. Other highlights: an attention inbox, session previews, right-click menus and better mouse handling, a theme editor, horizontal stacks, temporarily hidden UI, and distributions that let you run Zellij as a library.\n\n[HN discussion](https://news.ycombinator.com/item?id=50452313)"
+    },
+    {
+      "id": "hn:50459485",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lock your GitHub Actions with the new workflow lockfiles",
+      "description": "GitHub Actions now supports workflow lockfiles, so you can keep readable version tags in workflows while the lockfile pins exact commits, replacing manual SHA pinning against tag-hijack supply-chain attacks.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "gslin",
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "createdAt": "2026-11-11T22:16:41Z",
+      "updatedAt": "2026-11-11T22:16:41Z",
+      "content": "Hugo van Kemenade walks through the setup: install the `github/gh-actions-lock` gh extension, run `gh actions-lock` in your repo, and workflows go back to `vX.Y.Z` tags while the generated lockfile records the resolved commits. Previously the advice was to pin every action to a full SHA by hand because tags are mutable.\n\n[gh-actions-lock extension](https://github.com/github/gh-actions-lock)\n\n[HN discussion](https://news.ycombinator.com/item?id=50459485)"
+    },
+    {
+      "id": "hn:50458166",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Huawei open-sources MACaQ, its model-agnostic quantizer for local inference",
+      "description": "MACaQ produces high-quality GGUF and other quantized checkpoints for text, image, video and audio models, running with llama.cpp, vLLM, Diffusers and PyTorch.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "thefox96",
+      "url": "https://github.com/huawei-csl/MACaQ",
+      "createdAt": "2026-11-11T20:23:57Z",
+      "updatedAt": "2026-11-11T20:23:57Z",
+      "content": "Huawei's CSL team says MACaQ can quantize a 122B-parameter model in 64 minutes using 32.5 GB of device memory, beat MR-GPTQ and DuQuant++ on perplexity, or match their best Llama-3-8B perplexity with 11x less quantization time. Backends include standard llama.cpp, vLLM, Diffusers, PyTorch and Ascend.\n\n[Repo on GitHub](https://github.com/huawei-csl/MACaQ)\n\n[HN discussion](https://news.ycombinator.com/item?id=50458166)"
+    },
+    {
+      "id": "x:2120550463271551472",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Runway releases Praxis-1, an open-weight world action model for robots",
+      "description": "A 27B mixture-of-experts diffusion transformer that predicts video and actions together, released under Apache 2.0 and topping NVIDIA's RoboLab-120 leaderboard for open models.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@AndyChenML",
+      "url": "https://x.com/AndyChenML/status/2120550463271551472",
+      "createdAt": "2026-11-11T16:13:23Z",
+      "updatedAt": "2026-11-11T16:13:23Z",
+      "content": "Runway's first robotics release turns video pretraining into robot control. Runway says Praxis-1 is 15.6x faster and 51x cheaper per completed task than a frontier LLM agent driving the same robot. Weights are on LeRobot and vLLM-Omni, with hosted inference on Reactor.\n\n[Runway research post](https://runway.com/research/praxis-1-video-pretraining-to-robot-control)\n\n[Runway announcement on X](https://x.com/runwayml/status/2120533081182577116)\n\n[Post on X](https://x.com/AndyChenML/status/2120550463271551472)"
+    },
+    {
+      "id": "x:2120524499015848411",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Silica: a free, open-source glassy code editor for macOS",
+      "description": "A lightweight native SwiftUI/AppKit editor for macOS 26+ with fast file finding, syntax highlighting, nine themes and Markdown preview.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@hieudinh_",
+      "url": "https://x.com/hieudinh_/status/2120524499015848411",
+      "createdAt": "2026-11-11T14:30:12Z",
+      "updatedAt": "2026-11-11T14:30:12Z",
+      "content": "Hieu Dinh's Silica is a small native editor built around macOS 26's Liquid Glass look: open a folder, jump to files quickly and edit with syntax highlighting and live Markdown preview. Free and open source.\n\n[Repo on GitHub](https://github.com/dqhieu/Silica)\n\n[Post on X](https://x.com/hieudinh_/status/2120524499015848411)"
+    },
+    {
+      "id": "x:2120551075464040779",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nothing X for macOS: open-source menu bar app for Nothing and CMF earbuds",
+      "description": "A native SwiftUI app that brings Nothing's earbud controls to the Mac: live battery ring in the menu bar, ANC and EQ control, low-latency mode and Find My Buds.",
+      "topics": [
+        "Wearables",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@BalshaanS",
+      "url": "https://x.com/BalshaanS/status/2120551075464040779",
+      "createdAt": "2026-11-11T16:15:48Z",
+      "updatedAt": "2026-11-11T16:15:48Z",
+      "content": "Nothing only ships its companion app for phones; this free, open-source project fills the gap on macOS with battery status, noise-cancelling and EQ controls, low-latency toggles and a find-my-buds feature from the menu bar.\n\n[Repo on GitHub](https://github.com/balshaansingh29/NothingX-macOS)\n\n[Post on X](https://x.com/BalshaanS/status/2120551075464040779)"
+    },
+    {
+      "id": "x:2120546308003893610",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gradient boosting for rank discovery in tensor network kernel machines",
+      "description": "Saiapin and Batselier use a gradient-boosting scheme to pick the CP rank of tensor network kernel machines efficiently instead of tuning it by expensive search.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@Memoirs",
+      "url": "https://x.com/Memoirs/status/2120546308003893610",
+      "createdAt": "2026-11-11T15:56:52Z",
+      "updatedAt": "2026-11-11T15:56:52Z",
+      "content": "Tensor network kernel machines combine nonlinear features with low-rank tensor representations, but choosing the tensor rank is costly. This paper builds the model up additively with gradient boosting, discovering an appropriate rank as it goes. Code is available.\n\n[Paper on arXiv](https://arxiv.org/abs/2611.08093)\n\n[Code on GitHub](https://github.com/AlbMLpy/boosting-tnkm)\n\n[Post on X](https://x.com/Memoirs/status/2120546308003893610)"
+    },
+    {
+      "id": "reading:abakcus-geometric-series-proof-without-words",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "1/2 + 1/4 + 1/8 + ... = 1: a proof without words",
+      "description": "Abakcus explains why an infinite geometric series sums to exactly 1 by repeatedly halving a square, with notes on Zeno, Archimedes and an interactive demo.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/geometric-series-proof-without-words",
+      "createdAt": "2026-11-11T12:00:00Z",
+      "updatedAt": "2026-11-11T12:00:00Z",
+      "content": "Cut a square of area 1 in half, then halve what is left, again and again. The coloured pieces (1/2, 1/4, 1/8, ...) never overlap or spill outside the square, so they total at most 1, and no part of the square stays uncovered forever, so they total at least 1. This illustrated piece walks through the visual argument, the history from Zeno to Archimedes, and a live demo.\n\n[Read on Abakcus](https://abakcus.com/articles/geometric-series-proof-without-words)"
     }
   ]
 }
