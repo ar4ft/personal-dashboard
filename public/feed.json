@@ -42308,6 +42308,176 @@
       "content": "A build log of repurposing an Apple Watch Ultra as a dedicated AI gadget, covering the printed enclosure and the agent software running on it.\n\n[Full write-up on Substack](https://nervegna.substack.com/p/i-built-my-own-ai-phone-with-an-apple) · [Post on X](https://x.com/Nervo/status/2120448756634317054)",
       "createdAt": "2026-11-11T09:29:14Z",
       "updatedAt": "2026-11-11T09:29:14Z"
+    },
+    {
+      "id": "hn:50442225",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Announcing .NET 11",
+      "description": "Microsoft announced .NET 11.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "runesoerensen",
+      "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+      "content": "Microsoft announced .NET 11.\n\n[HN discussion](https://news.ycombinator.com/item?id=50442225)",
+      "createdAt": "2026-11-10T16:01:27Z",
+      "updatedAt": "2026-11-10T16:01:27Z"
+    },
+    {
+      "id": "hn:50448921",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A great old-timey game-programming hack (2013)",
+      "description": "A look back at a clever game-programming hack from 2013.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "palsecam",
+      "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+      "content": "A look back at a clever game-programming hack from 2013.\n\n[HN discussion](https://news.ycombinator.com/item?id=50448921)",
+      "createdAt": "2026-11-11T01:56:31Z",
+      "updatedAt": "2026-11-11T01:56:31Z"
+    },
+    {
+      "id": "hn:50406224",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hacking the Meta Ray-Ban smartglasses",
+      "description": "A write-up on hacking the Meta Ray-Ban smartglasses.",
+      "topics": [
+        "Wearables"
+      ],
+      "source": "Hacker News",
+      "author": "moooooky",
+      "url": "https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses/",
+      "content": "A write-up on hacking the Meta Ray-Ban smartglasses.\n\n[HN discussion](https://news.ycombinator.com/item?id=50406224)",
+      "createdAt": "2026-11-07T17:19:02Z",
+      "updatedAt": "2026-11-07T17:19:02Z"
+    },
+    {
+      "id": "hn:50444684",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A comprehensive study of how fingerprintable users are",
+      "description": "A comprehensive study measuring how fingerprintable users are.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "tomrittervg",
+      "url": "https://fingerprinting.study/",
+      "content": "A comprehensive study measuring how fingerprintable users are.\n\n[HN discussion](https://news.ycombinator.com/item?id=50444684)",
+      "createdAt": "2026-11-10T19:03:54Z",
+      "updatedAt": "2026-11-10T19:03:54Z"
+    },
+    {
+      "id": "hn:50427107",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why I wrote the BEAM book (2025)",
+      "description": "The author explains why he wrote a book about the BEAM virtual machine.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zenincognito",
+      "url": "https://happihacking.com/blog/posts/2025/why_I_wrote_theBEAMBook/",
+      "content": "The author explains why he wrote a book about the BEAM virtual machine.\n\n[HN discussion](https://news.ycombinator.com/item?id=50427107)",
+      "createdAt": "2026-11-09T15:41:35Z",
+      "updatedAt": "2026-11-09T15:41:35Z"
+    },
+    {
+      "id": "hn:50447036",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "$30M Raised to Redo the CPU",
+      "description": "A startup raised $30M to redo the CPU.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "shioyama",
+      "url": "https://tendrils.co/blog/2026-11-10/30m-raised",
+      "content": "A startup raised $30M to redo the CPU.\n\n[HN discussion](https://news.ycombinator.com/item?id=50447036)",
+      "createdAt": "2026-11-10T22:14:03Z",
+      "updatedAt": "2026-11-10T22:14:03Z"
+    },
+    {
+      "id": "hn:50450007",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Greg Kurtzer's Ginux is now a userspace kernel",
+      "description": "Greg Kurtzer's Ginux is now a userspace kernel.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "d3Xt3r",
+      "url": "https://github.com/gmkurtzer/ginux",
+      "content": "Greg Kurtzer's Ginux is now a userspace kernel.\n\n[HN discussion](https://news.ycombinator.com/item?id=50450007)",
+      "createdAt": "2026-11-11T05:25:54Z",
+      "updatedAt": "2026-11-11T05:25:54Z"
+    },
+    {
+      "id": "hn:50452455",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "description": "A Google software engineer pointed 48 AI agents at NASA Lidar data and found an unmapped Maya pyramid in 72 hours.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "eyvindn",
+      "url": "https://pietromiotti.com/latest/maya-site/?maya",
+      "content": "A Google software engineer pointed 48 AI agents at NASA Lidar data and found an unmapped Maya pyramid in 72 hours.\n\n[HN discussion](https://news.ycombinator.com/item?id=50452455)",
+      "createdAt": "2026-11-11T12:05:22Z",
+      "updatedAt": "2026-11-11T12:05:22Z"
+    },
+    {
+      "id": "hn:50452496",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Next-Level Benchmarking Overfitting – Thomas Neumann",
+      "description": "Thomas Neumann on next-level benchmarking overfitting.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "artrax",
+      "url": "http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html",
+      "content": "Thomas Neumann on next-level benchmarking overfitting.\n\n[HN discussion](https://news.ycombinator.com/item?id=50452496)",
+      "createdAt": "2026-11-11T12:09:49Z",
+      "updatedAt": "2026-11-11T12:09:49Z"
+    },
+    {
+      "id": "hn:50452742",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Open research, stronger privacy: Making Firefox users harder to fingerprint",
+      "description": "Mozilla describes open research aimed at making Firefox users harder to fingerprint.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Vinnl",
+      "url": "https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/",
+      "content": "Mozilla describes open research aimed at making Firefox users harder to fingerprint.\n\n[HN discussion](https://news.ycombinator.com/item?id=50452742)",
+      "createdAt": "2026-11-11T12:44:06Z",
+      "updatedAt": "2026-11-11T12:44:06Z"
     }
   ]
 }
