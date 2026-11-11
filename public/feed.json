@@ -42883,6 +42883,174 @@
       "createdAt": "2026-11-11T12:00:00Z",
       "updatedAt": "2026-11-11T12:00:00Z",
       "content": "Cut a square of area 1 in half, then halve what is left, again and again. The coloured pieces (1/2, 1/4, 1/8, ...) never overlap or spill outside the square, so they total at most 1, and no part of the square stays uncovered forever, so they total at least 1. This illustrated piece walks through the visual argument, the history from Zeno to Archimedes, and a live demo.\n\n[Read on Abakcus](https://abakcus.com/articles/geometric-series-proof-without-words)"
+    },
+    {
+      "id": "hn:50455394",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "description": "A false smoke alarm nearly flooded Jane Street's only New York City datacenter, a close call for one of the world's largest trading firms.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mbac32768",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "createdAt": "2026-11-11T16:38:44Z",
+      "updatedAt": "2026-11-11T16:38:44Z"
+    },
+    {
+      "id": "hn:50453474",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+      "description": "The author asked every major TV manufacturer 17 questions about how their sets track viewers, and reports what they would — and would not — answer.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Brajeshwar",
+      "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+      "createdAt": "2026-11-11T13:56:05Z",
+      "updatedAt": "2026-11-11T13:56:05Z"
+    },
+    {
+      "id": "hn:50453288",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hyper-Realistic Sand with WebGL2",
+      "description": "A hyper-realistic sand simulation rendered in the browser with WebGL2.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "everlier",
+      "url": "https://av.github.io/safe-sand/",
+      "createdAt": "2026-11-11T13:39:29Z",
+      "updatedAt": "2026-11-11T13:39:29Z"
+    },
+    {
+      "id": "hn:50458900",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "description": "United Airlines has banned AI agents from booking flights on behalf of travelers.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "herpderperator",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "createdAt": "2026-11-11T21:24:35Z",
+      "updatedAt": "2026-11-11T21:24:35Z"
+    },
+    {
+      "id": "hn:50454625",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "description": "Yogurt is a free, private, open-source alternative to Granola for meeting notes.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "brownrout",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "createdAt": "2026-11-11T15:33:06Z",
+      "updatedAt": "2026-11-11T15:33:06Z"
+    },
+    {
+      "id": "hn:50457164",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Retirement Savings Are Fueling the AI Bubble",
+      "description": "An argument that retirement savings flowing into AI stocks are helping inflate an AI bubble.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+      "createdAt": "2026-11-11T19:06:43Z",
+      "updatedAt": "2026-11-11T19:06:43Z"
+    },
+    {
+      "id": "hn:50455332",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI, activity, and outcomes in software engineering",
+      "description": "A talk on AI, developer activity, and outcomes in software engineering — what faster shipping actually delivers.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "azhenley",
+      "url": "https://cabird.com/talks/shipping-faster/",
+      "createdAt": "2026-11-11T16:33:28Z",
+      "updatedAt": "2026-11-11T16:33:28Z"
+    },
+    {
+      "id": "hn:50453229",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
+      "description": "A Neovim plugin that puts a Compiler Explorer (Godbolt) window in a floating window for C, C++, and Rust.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "0xdeadf1sh",
+      "url": "https://github.com/0xdeadf1sh/AssemblyForNeovim",
+      "createdAt": "2026-11-11T13:34:24Z",
+      "updatedAt": "2026-11-11T13:34:24Z"
+    },
+    {
+      "id": "hn:50449440",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Apple Support Community will permanently close on November 20, 2026",
+      "description": "The Apple Support Community will permanently close on November 20, 2026.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "tech234a",
+      "url": "https://discussions.apple.com/welcome",
+      "createdAt": "2026-11-11T03:26:51Z",
+      "updatedAt": "2026-11-11T03:26:51Z"
+    },
+    {
+      "id": "hn:50458532",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GitHub Incident with Webhooks, Actions, etc.",
+      "description": "GitHub is investigating an incident affecting webhooks, Actions, and other services.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jbredeche",
+      "url": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
+      "createdAt": "2026-11-11T20:54:37Z",
+      "updatedAt": "2026-11-11T20:54:37Z"
     }
   ]
 }
