@@ -42478,6 +42478,145 @@
       "content": "Mozilla describes open research aimed at making Firefox users harder to fingerprint.\n\n[HN discussion](https://news.ycombinator.com/item?id=50452742)",
       "createdAt": "2026-11-11T12:44:06Z",
       "updatedAt": "2026-11-11T12:44:06Z"
+    },
+    {
+      "id": "x:2120179737695826420",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MiniMax H3-Image: open-weights 4K image model that renders in about 10 seconds",
+      "description": "MiniMax released H3-Image, a 33.1B diffusion transformer for text-to-image, reference-based generation and editing at native 16 MP, with open weights on Hugging Face.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "MiniMax (@MiniMax_AI)",
+      "url": "https://x.com/MiniMax_AI/status/2120179737695826420",
+      "content": "MiniMax's new image model generates and edits at native 4096x4096 without an upscaler, takes up to 16 reference images and runs in about 6 steps without CFG. The weights are roughly 68 GB plus a 67 GB text encoder, and SGLang Diffusion supported it on day 0 (about 18.5 s for a 4K image on one RTX PRO 6000).\n\n[Weights on Hugging Face](https://huggingface.co/MiniMaxAI/MiniMax-H3-Image) · [API docs](https://platform.minimax.io/docs/guides/image-generation) · [SGLang day-0 post](https://x.com/sgl_project/status/2120180851724140901) · [Post on X](https://x.com/MiniMax_AI/status/2120179737695826420)",
+      "createdAt": "2026-11-10T15:40:15Z",
+      "updatedAt": "2026-11-10T15:40:15Z"
+    },
+    {
+      "id": "x:2120365432330952759",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PAN 2: MBZUAI's open world model with weights and training code",
+      "description": "MBZUAI's Institute of Foundation Models released PAN 2, an Apache-2.0 world model where a language model plans what happens and a 29B diffusion model renders it, aimed at simulation and agent learning.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Hongyi Xu (@hongyixu37)",
+      "url": "https://x.com/hongyixu37/status/2120365432330952759",
+      "content": "PAN 2 predicts the next state of a world after each action: a language backbone writes the events and their timing, and a separate 29B diffusion model draws how it looks. The release includes weights plus training and inference code, and the tech report covers simulator evaluation and agent learning inside the simulation.\n\n[Code and weights on GitHub](https://github.com/ifm-ai/pan2) · [Technical blog](https://ifm.ai/blog/pan2/) · [Post on X](https://x.com/hongyixu37/status/2120365432330952759)",
+      "createdAt": "2026-11-11T03:58:08Z",
+      "updatedAt": "2026-11-11T03:58:08Z"
+    },
+    {
+      "id": "x:2120475625672892511",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "deja-vu: shared memory for 43 coding agents, built from session history already on disk",
+      "description": "deja-vu by @vshulcz indexes local Claude Code, Codex, Cursor and other agent transcripts and feeds relevant past fixes back to agents through MCP and hooks, with credentials stripped at index time.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "EveryDev.ai (@EveryDevAi)",
+      "url": "https://x.com/EveryDevAi/status/2120475625672892511",
+      "content": "A single Go binary with no LLM: it parses the JSONL and SQLite session stores agents already write, builds an incremental index, and exposes one MCP tool with modes like recall, fix (what ran after the same error last time), how, handoff and remember. `deja install --auto` wires it into every agent it finds, including session-start hooks.\n\n[Repo on GitHub](https://github.com/vshulcz/deja-vu) · [Project site](https://vshulcz.github.io/deja-vu/) · [Post on X](https://x.com/EveryDevAi/status/2120475625672892511)",
+      "createdAt": "2026-11-11T11:16:00Z",
+      "updatedAt": "2026-11-11T11:16:00Z"
+    },
+    {
+      "id": "x:2120433124714697128",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Clepso: open-source Mac menu bar monitor for coding-agent limits",
+      "description": "Clepso is a native menu bar app that tracks Claude Code and Codex usage windows, pace, history and alerts across agents and sub-agents.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Elvis Obi (@TheObiLeonard)",
+      "url": "https://x.com/TheObiLeonard/status/2120433124714697128",
+      "content": "The menu bar ring rotates through each agent's 5-hour and 7-day windows, flags stale readings, and opens into detail views for limits, sessions and model stats. It is open source and was designed with help from coding agents.\n\n[Repo on GitHub](https://github.com/obileonardo/clepso) · [Docs and design system](https://clepso-app.vercel.app/design-system/)\n\nhttps://video.twimg.com/amplify_video/2120432668726702080/vid/avc1/1280x720/mNrN2vm2g6DihAIH.mp4 · [Post on X](https://x.com/TheObiLeonard/status/2120433124714697128)",
+      "createdAt": "2026-11-11T08:27:07Z",
+      "updatedAt": "2026-11-11T08:27:07Z"
+    },
+    {
+      "id": "x:2120467848627945772",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PAL9000: an old Android phone becomes the face and brain of a desktop robot",
+      "description": "SpaceMonkeyAlfa's open-source PAL9000 uses a phone's camera and mic for face tracking and voice, talking over Wi-Fi to a Raspberry Pi Pico W that drives a 2-DOF servo gimbal.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Praveen Kumar Verma (@Alacritic_Super)",
+      "url": "https://x.com/Alacritic_Super/status/2120467848627945772",
+      "content": "The phone runs a local web app in Termux that draws animated eyes, tracks faces and sends servo angles to the Pico W's `/set` endpoint; a Mac-side server handles speech and tool calls. There is a printable phone mount and a build-log blog series.\n\n[Repo on GitHub](https://github.com/SpaceMonkeyAlfa/PAL9000-Desktop-Robot) · [Build blog](https://spacemonkeyalfa.com/post/2026/11/09/making-my-robot-speak/)\n\nhttps://video.twimg.com/amplify_video/2120467782026588160/vid/avc1/1280x720/-qmbhr1LCFAehOO5.mp4 · [Post on X](https://x.com/Alacritic_Super/status/2120467848627945772)",
+      "createdAt": "2026-11-11T10:45:06Z",
+      "updatedAt": "2026-11-11T10:45:06Z"
+    },
+    {
+      "id": "x:2120419622834815441",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MacRest: an open-source Time Machine alternative built on restic",
+      "description": "MacRest is a native Mac app that makes encrypted restic backups to a disk, NAS, S3 or B2 and lets you browse old versions like Time Machine.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Nicolas Chourrout (@nchourrout)",
+      "url": "https://x.com/nchourrout/status/2120419622834815441",
+      "content": "It targets two Time Machine gaps: no cloud destinations and backups only a Mac can read. Restic handles the encryption and deduplication, and MacRest adds a simple UI on top.\n\n[Repo on GitHub](https://github.com/nchourrout/macrest) · [Post on X](https://x.com/nchourrout/status/2120419622834815441)",
+      "createdAt": "2026-11-11T07:33:28Z",
+      "updatedAt": "2026-11-11T07:33:28Z"
+    },
+    {
+      "id": "ideas:xcode-build-error-recall",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Xcode build-error recall: a CLI and MCP server that remembers how each Swift build failure was fixed",
+      "description": "A developer tool for iOS and Mac developers who use coding agents: it captures xcodebuild and Swift compiler failures, links each one to the diff that fixed it, and serves past fixes to Claude Code, Codex or Cursor when the same error comes back.",
+      "nextStep": "Write a small Swift CLI that wraps xcodebuild, parses the .xcresult bundle with xcresulttool into normalized error signatures, and stores them in SQLite with the next commit's diff.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "createdAt": "2026-11-11T14:30:00Z",
+      "content": "## How it works\n\nA wrapper (`xfix build`) runs xcodebuild, reads the result bundle, and normalizes each error into a signature (diagnostic id, symbol, file pattern) with paths and line numbers stripped. When a later build turns green, it stores the diff between the failing and passing tree against those signatures. An MCP server exposes `recall_fix(error)` so an agent that hits a Swift concurrency, SPM resolution or signing error first gets the fixes that worked in this repo before. A git hook can also record fixes made by hand.\n\n```mermaid\nflowchart LR\n  Build[xcodebuild via wrapper] --> Parse[xcresult parser]\n  Parse --> Sig[Error signatures]\n  Sig --> DB[(Local SQLite)]\n  Green[Next green build] -->|diff| DB\n  Agent[Coding agent] -->|MCP recall_fix| DB\n  DB --> Agent\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| CLI | Swift Argument Parser |\n| Parsing | xcrun xcresulttool JSON output |\n| Storage | SQLite with FTS5 |\n| Agent bridge | stdio MCP server |\n| Hooks | git post-commit, Claude Code PostToolUse |\n\n## Hard parts\n\n- Normalizing errors so the same root cause matches across files and Xcode versions.\n- Deciding which part of a diff actually fixed the error versus unrelated edits.\n- Keeping recall short enough that it helps an agent instead of flooding context.\n- xcresult format changes between Xcode releases.\n\n## Effort\n\nA weekend for the wrapper, signatures and SQLite store; two to three weeks for the MCP server, hooks and decent diff attribution.\n\n## Inspired by\n\n- [deja-vu post on X](https://x.com/EveryDevAi/status/2120475625672892511)\n- [deja-vu on GitHub](https://github.com/vshulcz/deja-vu)\n- [Clepso post on X](https://x.com/TheObiLeonard/status/2120433124714697128)"
+    },
+    {
+      "id": "ideas:mac-backup-restore-drill",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Backup restore drill: a Mac menu bar app that proves your backups can actually be restored",
+      "description": "A small Mac app that regularly restores a random sample of files from Time Machine or restic snapshots into a sandbox, compares checksums with the originals, and shows a simple backup health score so people find broken backups before they need them.",
+      "nextStep": "Script a weekly drill with restic: pick 20 random files changed in the last month, run restic restore into a temp folder, compare SHA-256 hashes, and print a pass or fail report.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "createdAt": "2026-11-11T14:30:00Z",
+      "content": "## How it works\n\nOn a schedule, the app picks files to test (recently changed documents, photos, a few old ones), restores them from the newest snapshot into a sandboxed temp folder, and checks hashes and sizes against the live copies. It also checks snapshot age and destination reachability. The menu bar shows a green, yellow or red badge, and a report lists what failed and why (stale snapshot, missing file, corrupt data, unreachable NAS).\n\n```mermaid\nflowchart LR\n  Sched[Weekly schedule] --> Pick[Pick sample files]\n  Pick --> Restore[Restore from snapshot]\n  Restore --> Compare[Hash and size check]\n  Compare --> Score[Health score]\n  Score --> Menu[Menu bar badge and report]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| App | SwiftUI MenuBarExtra |\n| Backends | restic CLI, tmutil for Time Machine |\n| Hashing | CryptoKit SHA-256 |\n| Scheduling | SMAppService launch agent |\n| Storage | Local JSON history of drills |\n\n## Hard parts\n\n- Time Machine restores need Full Disk Access and tmutil quirks.\n- Files that changed after the snapshot must not count as failures.\n- Restoring large files without filling the disk or slowing the Mac.\n- Explaining failures in plain language for non-technical users.\n\n## Effort\n\nA weekend for a restic-only prototype; three to four weeks for Time Machine support, scheduling and a polished menu bar UI.\n\n## Inspired by\n\n- [MacRest post on X](https://x.com/nchourrout/status/2120419622834815441)\n- [MacRest on GitHub](https://github.com/nchourrout/macrest)"
     }
   ]
 }
