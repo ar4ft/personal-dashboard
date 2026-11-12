@@ -43322,6 +43322,173 @@
       "createdAt": "2026-11-10T20:00:52Z",
       "updatedAt": "2026-11-10T20:00:52Z",
       "content": "STAT reports that the deal moves Oura beyond sleep and activity tracking toward AI-assisted clinical care built on its wearable data. Counsel Health was founded by physicians and AI researchers. The acquisition comes shortly after Oura delayed its public listing, citing market uncertainty.\n\n[STAT article](https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/)\n\n[Post on X](https://x.com/statnews/status/2120245324606243061)"
+    },
+    {
+      "id": "hn:50459703",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "description": "The Wall Street Journal reports that Nvidia's board is preparing to remove CEO Jensen Huang.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jbredeche",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "createdAt": "2026-11-11T22:31:06Z",
+      "updatedAt": "2026-11-11T22:31:06Z"
+    },
+    {
+      "id": "hn:50462177",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "description": "Researchers disclosed a critical remote code execution vulnerability in Apache HTTP Server.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "soheilpro",
+      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "createdAt": "2026-11-12T02:11:11Z",
+      "updatedAt": "2026-11-12T02:11:11Z"
+    },
+    {
+      "id": "hn:50465829",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic IPO",
+      "description": "Anthropic has opened a page for its initial public offering.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "josephljohnston",
+      "url": "https://ipo.anthropic.com/us/",
+      "createdAt": "2026-11-12T11:46:41Z",
+      "updatedAt": "2026-11-12T11:46:41Z"
+    },
+    {
+      "id": "hn:50459745",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "description": "A 2019 SIGBOVIK paper shows that 93% of paint splatters are valid Perl programs.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zenincognito",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "createdAt": "2026-11-11T22:34:23Z",
+      "updatedAt": "2026-11-11T22:34:23Z"
+    },
+    {
+      "id": "hn:50458208",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Emacs in the Age of Magic",
+      "description": "An essay on using Emacs in an era of AI-assisted coding tools.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ggcr",
+      "url": "https://commandlinesystems.com/magic.txt",
+      "createdAt": "2026-11-11T20:26:32Z",
+      "updatedAt": "2026-11-11T20:26:32Z"
+    },
+    {
+      "id": "hn:50457230",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+      "description": "A Show HN recreation of Papers Please in which the player decides which YC startups to fund.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bolau",
+      "url": "https://termsheetplease.com/",
+      "createdAt": "2026-11-11T19:12:16Z",
+      "updatedAt": "2026-11-11T19:12:16Z"
+    },
+    {
+      "id": "hn:50457618",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Utah Teapot",
+      "description": "A look at the Utah Teapot, the classic 3D graphics test model.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "cobbal",
+      "url": "https://graphics.cs.utah.edu/teapot/",
+      "createdAt": "2026-11-11T19:45:10Z",
+      "updatedAt": "2026-11-11T19:45:10Z"
+    },
+    {
+      "id": "hn:50465352",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Writing Correct Software Is Hard",
+      "description": "An essay on why writing correct software is so difficult.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "AriFordsham",
+      "url": "https://pron.github.io/posts/correctness-and-complexity",
+      "createdAt": "2026-11-12T10:28:26Z",
+      "updatedAt": "2026-11-12T10:28:26Z"
+    },
+    {
+      "id": "hn:50441350",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Aircad – Professional drafting and 3D modeling in the browser",
+      "description": "Show HN: Aircad, a professional drafting and 3D modeling tool that runs in the browser.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "peetle",
+      "url": "https://aircad.com",
+      "createdAt": "2026-11-10T15:01:19Z",
+      "updatedAt": "2026-11-10T15:01:19Z"
+    },
+    {
+      "id": "hn:50415162",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I gave an agent a lakehouse and control of my garden",
+      "description": "An engineer describes giving an AI agent a lakehouse and control of their garden.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jatorre",
+      "url": "https://jatorre.github.io/garden/",
+      "createdAt": "2026-11-08T17:19:06Z",
+      "updatedAt": "2026-11-08T17:19:06Z"
     }
   ]
 }
