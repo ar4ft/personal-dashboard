@@ -43916,6 +43916,188 @@
       "createdAt": "2026-11-12T12:01:55Z",
       "updatedAt": "2026-11-12T12:01:55Z",
       "content": "The developer's pitch: in full screen a 14-inch MacBook Pro effectively becomes a 14.06-inch screen; ProMax gives apps the full 14.2 inches. A short demo video is attached to the post.\n\n[Post on X](https://x.com/ProMaxDisplay/status/2120849568879305028)"
+    },
+    {
+      "id": "hn:50467087",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jensen Huang resigns",
+      "description": "Nvidia CEO Jensen Huang has resigned, according to AP News, in a major leadership change at the world's most valuable chipmaker.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "lldb",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "createdAt": "2026-11-12T13:52:29Z",
+      "updatedAt": "2026-11-12T13:52:29Z"
+    },
+    {
+      "id": "hn:50471731",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Service degradation on Microsoft 365",
+      "description": "Microsoft reports a service degradation affecting Microsoft 365, with users experiencing problems across its cloud productivity services.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dkpk",
+      "url": "https://status.cloud.microsoft/",
+      "createdAt": "2026-11-12T18:20:48Z",
+      "updatedAt": "2026-11-12T18:20:48Z"
+    },
+    {
+      "id": "hn:50469994",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
+      "description": "Nintendo has issued a large GitHub DMCA sweep taking down Switch emulators, firmware, and mod-chip related projects.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "CharlesW",
+      "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
+      "createdAt": "2026-11-12T16:29:13Z",
+      "updatedAt": "2026-11-12T16:29:13Z"
+    },
+    {
+      "id": "hn:50472260",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "description": "Google introduces Gemini 4 Hydrogen and Orchestrator in Antigravity, its new model and agentic coding experience.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jonbaer",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "createdAt": "2026-11-12T18:52:01Z",
+      "updatedAt": "2026-11-12T18:52:01Z"
+    },
+    {
+      "id": "hn:50467460",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+      "description": "Chips and Cheese talks Zen 6 with AMD's Mike Clark in an in-depth interview about the next-generation CPU architecture.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dverlaeckt80",
+      "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+      "createdAt": "2026-11-12T14:12:37Z",
+      "updatedAt": "2026-11-12T14:12:37Z"
+    },
+    {
+      "id": "hn:50467297",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Our software engineering interviews are changing a little",
+      "description": "Jane Street explains how its software engineering interviews are changing a little, and why.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "maitland",
+      "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/",
+      "createdAt": "2026-11-12T14:05:28Z",
+      "updatedAt": "2026-11-12T14:05:28Z"
+    },
+    {
+      "id": "hn:50467439",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Libreagi – Save OSS Models",
+      "description": "Libreagi is a tool for saving open-source models, making it easier to keep track of the models you use.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "satuke",
+      "url": "https://libreagi.com/",
+      "createdAt": "2026-11-12T14:11:58Z",
+      "updatedAt": "2026-11-12T14:11:58Z"
+    },
+    {
+      "id": "hn:50468720",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fitting Four 32 GB Resizable Bars Behind a PCIe Switch on Linux",
+      "description": "A detailed write-up on fitting four 32 GB resizable BARs behind a PCIe switch on Linux.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dougcalobrisi",
+      "url": "https://doug.sh/posts/gpu-bars-behind-a-pcie-switch/",
+      "createdAt": "2026-11-12T15:14:52Z",
+      "updatedAt": "2026-11-12T15:14:52Z"
+    },
+    {
+      "id": "hn:50471650",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+      "description": "AgentRun is an open-source, self-improving managed agent framework, introduced on Hacker News.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "miguelrios",
+      "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "createdAt": "2026-11-12T18:15:48Z",
+      "updatedAt": "2026-11-12T18:15:48Z"
+    },
+    {
+      "id": "hn:50470445",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AWS Lambda Web Functions keep billing memory ~7 minutes after the last request",
+      "description": "AWS Lambda Web Functions keep billing for memory for around seven minutes after the last request, according to this analysis.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "seanw265",
+      "url": "https://www.easel.sh/blog/lambda-web-functions-idle-memory",
+      "createdAt": "2026-11-12T16:59:26Z",
+      "updatedAt": "2026-11-12T16:59:26Z"
+    },
+    {
+      "id": "hn:50474311",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "description": "AI-generated apps are turning Apple's app review process into a nightmare for synth developers, according to this report.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "anigbrowl",
+      "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "createdAt": "2026-11-12T21:09:49Z",
+      "updatedAt": "2026-11-12T21:09:49Z"
     }
   ]
 }
