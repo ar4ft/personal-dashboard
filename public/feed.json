@@ -43051,6 +43051,277 @@
       "url": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
       "createdAt": "2026-11-11T20:54:37Z",
       "updatedAt": "2026-11-11T20:54:37Z"
+    },
+    {
+      "id": "hn:50438261",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jane Street publishes a Socratic Tutor skill for coding agents",
+      "description": "Jane Street's open agent_skills repo includes a Socratic tutoring skill that teaches a topic through questions, with diagnostic placement, a 0-5 skill map, spaced review and a final assessment.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tosh",
+      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "createdAt": "2026-11-10T10:18:22Z",
+      "updatedAt": "2026-11-10T10:18:22Z",
+      "content": "The SKILL.md turns an agent into a tutor that uses the maieutic method: it asks questions that force you to reason, predict and explain rather than lecturing. It only triggers on explicit requests like \"teach me\" or \"drill me\", confirms intent before starting, places you with a diagnostic, tracks a skill map with levels 0-5, schedules spaced review and ends with an assessment. It's a compact example of how to write a well-scoped agent skill.\n\n[SKILL.md on GitHub](https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md)\n\n[HN discussion](https://news.ycombinator.com/item?id=50438261)"
+    },
+    {
+      "id": "hn:50458434",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TinyGPT Visualizer: an open-source X-ray for a small GPT's internals",
+      "description": "A blog post introducing TinyGPT Visualizer, an open-source tool for watching a real but small GPT model work, so you can try mechanistic interpretability techniques yourself.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "r00tanon",
+      "url": "https://oshea00.github.io/posts/tinygpt-visualizer/",
+      "createdAt": "2026-11-11T20:45:50Z",
+      "updatedAt": "2026-11-11T20:45:50Z",
+      "content": "Mike O'Shea wanted a tool to survey interpretability research and try the actual techniques. The result is an \"X-ray machine\" for a real model that is small enough to show all its working parts on screen. The post includes a video walkthrough of the network and links the code, setup instructions and docs.\n\n[Repo on GitHub](https://github.com/oshea00/tinygpt-viz)\n\n[HN discussion](https://news.ycombinator.com/item?id=50458434)"
+    },
+    {
+      "id": "hn:50443264",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TimeNet: one format and API for time-series datasets for temporal foundation models",
+      "description": "OpenTSLM's TimeNet (pre-release) defines a shared TimeF storage format and a single API to find, build, download and load time-series datasets, leaving training and evaluation to your framework.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rjakob",
+      "url": "https://github.com/OpenTSLM/TimeNet",
+      "createdAt": "2026-11-10T17:16:09Z",
+      "updatedAt": "2026-11-10T17:16:09Z",
+      "content": "Time-series datasets come in many incompatible layouts. TimeNet gives them one storage format (TimeF) and one Python API for discovering, building and loading them, aimed at training temporal foundation models such as OpenTSLM. The API and format may still change before 1.0, and an online hackathon invites people to onboard datasets and fine-tune models on them.\n\n[Repo on GitHub](https://github.com/OpenTSLM/TimeNet)\n\n[HN discussion](https://news.ycombinator.com/item?id=50443264)"
+    },
+    {
+      "id": "hn:50460154",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Stela: boot macOS on x86-64 PCs with an arm64 translator and a Metal driver for NVIDIA",
+      "description": "Stela is a UEFI boot program that models an M2 Mac mini, translates arm64e code to x86-64 and compiles Metal shaders for NVIDIA GPUs to run macOS 27 on PCs. It's early, slow and may not boot yet.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "iceboundrock",
+      "url": "https://github.com/tylertms/Stela",
+      "createdAt": "2026-11-11T23:02:38Z",
+      "updatedAt": "2026-11-11T23:02:38Z",
+      "content": "Written mostly in Rust, Stela combines an ahead-of-time and just-in-time arm64e-to-x86-64 translator (covering more than 3,000 AArch64 encodings, with register mapping and a code cache), a model of Apple silicon hardware, and a Metal driver that compiles AIR (Metal's shader IR) to Mesa's NIR for NVIDIA GPUs, supporting the Metal3 and Apple7 GPU families. The README warns it is still in development and asks for boot logs.\n\n[Repo on GitHub](https://github.com/tylertms/Stela)\n\n[HN discussion](https://news.ycombinator.com/item?id=50460154)"
+    },
+    {
+      "id": "hn:50462375",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Terence Tao's Lean Grimoire: a logic crafting game that shows the Lean proof",
+      "description": "Terence Tao used a coding agent to rebuild his 2018 QED logic textbook as Lean Grimoire, a proof crafting game that can show the in-progress Lean proof, and he's asking for playtesters.",
+      "topics": [
+        "Math",
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "smilelamp",
+      "url": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/",
+      "createdAt": "2026-11-12T02:36:48Z",
+      "updatedAt": "2026-11-12T02:36:48Z",
+      "content": "QED taught propositional and first-order logic as a crafting game in which you apply rules of inference to reach a conclusion from hypotheses. The new version adds features such as an optional view of the in-progress Lean proof for your game state, plus a playful fantasy mode in which statements become potions and expressions become scrolls. Tao wants feedback on whether it works for teaching proofs and Lean.\n\n[Terence Tao's post](https://terrytao.wordpress.com/2026/11/11/lean-grimoire/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50462375)"
+    },
+    {
+      "id": "hn:50436788",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "blqsort: a C++ quicksort faster than std::sort",
+      "description": "An MIT-licensed quicksort that sorts 50M random doubles in 0.68 s on an M1, vs 1.33 s for std::sort and 1.00 s for an ipnsort port. Single-header C versions, including multithreaded ones, are also available.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "signa11",
+      "url": "https://tiki.li/blog/about_blqsort",
+      "createdAt": "2026-11-10T06:28:15Z",
+      "updatedAt": "2026-11-10T06:28:15Z",
+      "content": "The author benchmarks blqsort against std::sort and ClickHouse's C++ port of ipnsort on an Apple M1 (Clang) and an Intel i5-9300H (GCC) with random data, 90%-sorted input and custom structs, and it wins in every case. It detects already sorted and reverse-sorted input and handles many duplicate keys efficiently. The page explains the key ideas behind the speedup.\n\n[Article](https://tiki.li/blog/about_blqsort)\n\n[HN discussion](https://news.ycombinator.com/item?id=50436788)"
+    },
+    {
+      "id": "hn:50461919",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google releases A2UI 1.0, an open protocol for agent-generated native UI",
+      "description": "A2UI 1.0 lets AI agents answer with interactive screens like forms and charts that each app renders with its own native components, with renderer SDKs for web, Android and iOS.",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "zeroasterisk",
+      "url": "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/",
+      "createdAt": "2026-11-12T01:42:01Z",
+      "updatedAt": "2026-11-12T01:42:01Z",
+      "content": "With A2UI the agent describes what to show and the host app draws it with its own components, so output stays native and safe whether the agent runs in its own app or inside an MCP-apps host such as Gemini or Claude. Version 1.0 is the first stable release, with open-source renderers for web, Android and iOS and agent SDKs for Python, TypeScript and Dart. Atlassian, Bloomberg and ByteDance are among the early adopters.\n\n[Google Developers Blog](https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50461919)"
+    },
+    {
+      "id": "hn:50463103",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Darling Q4 2026 update: an AI-assisted contribution policy and initial ARM64 support",
+      "description": "The macOS-on-Linux translation layer Darling reports its biggest changes of the year: rules for AI-assisted contributions, initial ARM64 support and plans for what comes next.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tech234a",
+      "url": "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/",
+      "createdAt": "2026-11-12T04:32:31Z",
+      "updatedAt": "2026-11-12T04:32:31Z",
+      "content": "Darling's founder explains why the small volunteer project now accepts LLM-assisted work from contributors who know its internals, while guarding against low-quality \"slop\". He frames this against Apple's pace and the lack of the kind of commercial backing Wine gets. The update also covers initial ARM64 support, progress on running real-world macOS apps on Linux and the roadmap.\n\n[Darling blog post](https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50463103)"
+    },
+    {
+      "id": "hn:50460887",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Porting a Mac app from Electron to Rust: 675 MB down to 91 MB",
+      "description": "The developer of Jot, a Mac capture app, rewrote it from Electron in Rust on the Rune GPU UI framework, shrinking it from 675 MB to 91 MB and dropping the IPC-heavy architecture.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mohakbajaj",
+      "url": "https://sayjot.xyz/blog/rust-port",
+      "createdAt": "2026-11-12T00:03:20Z",
+      "updatedAt": "2026-11-12T00:03:20Z",
+      "content": "Jot 2.0 keeps the same vault, settings, Keychain items and bundle ID, so users update in place, while the download shrinks from a 302 MB DMG to 44 MB. Beyond size, the post argues Electron was only glue around Swift helpers for speech and Apple Intelligence. The Rust version is a single process in which the view and state are one struct, with no message passing to define or version.\n\n[Blog post](https://sayjot.xyz/blog/rust-port)\n\n[HN discussion](https://news.ycombinator.com/item?id=50460887)"
+    },
+    {
+      "id": "reading:abakcus-fibonacci-shelf",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fibonacci Shelf: six boxes that tile and nest because of a Fibonacci identity",
+      "description": "Abakcus looks at Peng Wang's Fibonacci Shelf, whose square boxes have Fibonacci side lengths, so a classic identity makes them tile a rectangle with no gaps.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/fibonacci-shelf",
+      "createdAt": "2026-11-09T00:00:00Z",
+      "updatedAt": "2026-11-09T00:00:00Z",
+      "content": "Most math-inspired furniture borrows a mood. Peng Wang's shelf borrows a fact: its boxes are squares with Fibonacci side lengths, and because the sum of the squares of the first n Fibonacci numbers equals F(n)·F(n+1), they fit together into a rectangle with nothing left over. The article walks through the design and the math behind it.\n\n[Read on Abakcus](https://abakcus.com/articles/fibonacci-shelf)"
+    },
+    {
+      "id": "x:2120651324815814712",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Yeet Machine: Simon Støvring's whimsical Mac app for trashing files",
+      "description": "Simon Støvring released Yeet Machine, a menu bar app that crumples a dragged file into a paper ball that you flick into the Dock's Trash to delete it.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Simon B. Støvring (@simonbs)",
+      "url": "https://x.com/simonbs/status/2120651324815814712",
+      "createdAt": "2026-11-11T22:54:10Z",
+      "updatedAt": "2026-11-11T22:54:10Z",
+      "content": "Drag a file or folder to the menu bar icon, feed it to the YM-01 crumpler, then flick the paper ball at the Trash in the Dock (with a cursor or by touch). The original is only moved to Trash if you land the shot. It needs macOS 14 or later and accessibility-style permission to find the Trash, and costs €4.\n\n[Yeet Machine website](https://yeetmachine.app)\n\n[Post on X](https://x.com/simonbs/status/2120651324815814712)"
+    },
+    {
+      "id": "x:2120177153983827993",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HermesEnabler 2 unlocks Hermès watch faces on any Apple Watch",
+      "description": "An open-source watchOS project, installed by sideloading, that enables the Hermès-exclusive watch faces on regular Apple Watch models. It supports watchOS 27.0 through 27.3 beta 1.",
+      "topics": [
+        "Wearables",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "awful (@itsawful911)",
+      "url": "https://x.com/itsawful911/status/2120177153983827993",
+      "createdAt": "2026-11-10T15:29:59Z",
+      "updatedAt": "2026-11-10T15:29:59Z",
+      "content": "HermesEnabler 2 by pookjw ships as an IPA that you sideload (for example with Sideloadly), then install on the watch from the Watch app, or you can build it from the Xcode project. The repo includes research notes and scripts. It's a niche but interesting look at how watchOS gates watch faces by device edition.\n\n[Repo on GitHub](https://github.com/pookjw/HermesEnabler)\n\n[Post on X](https://x.com/itsawful911/status/2120177153983827993)"
+    },
+    {
+      "id": "x:2120414682544796129",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agent Hive: an open-source Mac app showing all your Claude Code sessions",
+      "description": "Agent Hive is a free Swift Mac app that lists every local AI coding-agent session: which ones are waiting on you, what each is doing, their subagents and recent messages. It reads only local files.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Zeus Olivar (@zeusqolivar)",
+      "url": "https://x.com/zeusqolivar/status/2120414682544796129",
+      "createdAt": "2026-11-11T07:13:50Z",
+      "updatedAt": "2026-11-11T07:13:50Z",
+      "content": "Built for Claude Code, it can also show Google Antigravity conversations and OpenClaw automations. A playful Classroom view draws each session as a character: hands raised means it needs input, and props show whether it is reading files, browsing or running a command. The README says it never reads logins, tokens or the Keychain and sends nothing over the network.\n\n[Repo on GitHub](https://github.com/zeusqolivar/agent-hive)\n\n[Post on X](https://x.com/zeusqolivar/status/2120414682544796129)"
+    },
+    {
+      "id": "x:2120688330442465563",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How LoRA updates differ in SFT vs RL: spectral and subspace dynamics",
+      "description": "A new arXiv paper tracks the singular spectrum of LoRA updates and finds that RL concentrates it while SFT expands it, tracing both effects to group-mean baseline subtraction.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Machine Learning (ML) Papers (@Memoirs)",
+      "url": "https://x.com/Memoirs/status/2120688330442465563",
+      "createdAt": "2026-11-12T01:21:13Z",
+      "updatedAt": "2026-11-12T01:21:13Z",
+      "content": "Liu, Wang, Dong and Lei follow LoRA updates on math-reasoning tasks. RL concentrates the singular spectrum at every learning rate, SFT expands it at moderate rates, and at small learning rates RL rotates the singular subspaces much faster. Interpolating between the two setups one ingredient at a time isolates group-mean baseline subtraction as the cause, and a quadratic multi-index model explains the mechanism.\n\n[Paper on arXiv](https://arxiv.org/abs/2611.08414)\n\n[Post on X](https://x.com/Memoirs/status/2120688330442465563)"
+    },
+    {
+      "id": "x:2120245324606243061",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Oura to acquire clinical AI startup Counsel Health for $625 million",
+      "description": "Smart ring maker Oura, which postponed its IPO about a month ago, is buying Counsel Health, a physician-founded clinical AI startup, in a $625M bet on AI-driven care.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "STAT (@statnews)",
+      "url": "https://x.com/statnews/status/2120245324606243061",
+      "createdAt": "2026-11-10T20:00:52Z",
+      "updatedAt": "2026-11-10T20:00:52Z",
+      "content": "STAT reports that the deal moves Oura beyond sleep and activity tracking toward AI-assisted clinical care built on its wearable data. Counsel Health was founded by physicians and AI researchers. The acquisition comes shortly after Oura delayed its public listing, citing market uncertainty.\n\n[STAT article](https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/)\n\n[Post on X](https://x.com/statnews/status/2120245324606243061)"
     }
   ]
 }
