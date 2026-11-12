@@ -43489,6 +43489,182 @@
       "url": "https://jatorre.github.io/garden/",
       "createdAt": "2026-11-08T17:19:06Z",
       "updatedAt": "2026-11-08T17:19:06Z"
+    },
+    {
+      "id": "x:2120595713939648600",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Outerloop: open-source research agents that only open PRs when the benchmark improves",
+      "description": "NYU CDS assistant professor Mengye Ren and his lab released Outerloop, where AI agents propose ML experiments, run them on your cluster, and open a pull request only when a verified benchmark run improves.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@NYUDataScience",
+      "url": "https://x.com/NYUDataScience/status/2120595713939648600",
+      "createdAt": "2026-11-11T19:13:11Z",
+      "updatedAt": "2026-11-11T19:13:11Z",
+      "content": "Outerloop attaches autonomous \"author\" agents to a repo and a Slurm cluster. Each agent proposes a change, runs it as a job, and a separate verifier re-measures it against the base at the same seed before anything becomes a PR; every attempt, including negative results, is logged. NYU says the agents got a GPT model to its target in 77% fewer training steps, and the accompanying paper argues that published autoresearch gains shrink when rerun on new seeds.\n\n[Outerloop site and paper](https://outerloop.science/)\n\n[Post on X](https://x.com/NYUDataScience/status/2120595713939648600)"
+    },
+    {
+      "id": "x:2120599323214045202",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SkillScreen: a 2B open-weights model that screens agent skills for malicious behavior",
+      "description": "SkillScreen is a small open-weights classifier that reads a SKILL.md plus its package files and flags malicious agent skills, reporting 99.01% recall at a 0.35% false positive rate.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@huang_jerrold",
+      "url": "https://x.com/huang_jerrold/status/2120599323214045202",
+      "createdAt": "2026-11-11T19:27:32Z",
+      "updatedAt": "2026-11-11T19:27:32Z",
+      "content": "With agent skills spreading through shared repos, SkillScreen offers a dedicated decision model (2B parameters, 32K context) to check them before an agent loads them. The author reports 99.01% recall and 0.35% false positives in 3-fold out-of-fold evaluation and is asking for tricky skills and more training data.\n\n[SkillScreen on GitHub](https://github.com/JerroldH/SkillScreen)\n\n[Post on X](https://x.com/huang_jerrold/status/2120599323214045202)"
+    },
+    {
+      "id": "x:2120810609541300332",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "turri: an open-source harness where you review the spec and agents regenerate the code",
+      "description": "Zan Jonke explains why he built turri, an MIT-licensed harness on the pi coding agent that keeps intent in a plain-language spec, regenerates only the changed parts, and enforces review gates in code rather than prompts.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@JonkeZan",
+      "url": "https://x.com/JonkeZan/status/2120810609541300332",
+      "createdAt": "2026-11-12T09:27:06Z",
+      "updatedAt": "2026-11-12T09:27:06Z",
+      "content": "The post argues that reviewing thousands of agent-written lines per hour is impossible, so turri moves review to a ***plain spec. It diffs the spec the code was built from against the new one, prompts a cheaper coding sub-agent with just the changed functionalities, runs conformance tests, and offers a /regenerate command that rebuilds the whole codebase as a test of whether the spec really captures intent.\n\n[Why I built turri (blog)](https://turri.dev/blog/why-i-built-turri/)\n\n[turri on GitHub](https://github.com/turri-oss/turri)\n\n[Post on X](https://x.com/JonkeZan/status/2120810609541300332)"
+    },
+    {
+      "id": "x:2120877926292070507",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Boubou turns a computer into a local voice AI server for Reachy Mini",
+      "description": "Bella Chai showed a Reachy Mini robot holding a conversation powered by a local Qwen model through Boubou, an open-source tool that runs voice AI on open models and serves it to devices with one command.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@Jinyu_Chai",
+      "url": "https://x.com/Jinyu_Chai/status/2120877926292070507",
+      "createdAt": "2026-11-12T13:54:36Z",
+      "updatedAt": "2026-11-12T13:54:36Z",
+      "content": "Instead of a cloud voice API, Boubou runs speech and a local LLM on your own machine and exposes it to robots or apps, with Reachy Mini as the first demo. The project pitches one-command setup for any device that can talk to its endpoint.\n\n[Boubou on GitHub](https://github.com/runboubou/boubou)\n\n[Post on X](https://x.com/Jinyu_Chai/status/2120877926292070507)"
+    },
+    {
+      "id": "x:2120602547643941326",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "pcbbench: an open benchmark for how well AI agents design PCBs",
+      "description": "A 16-year-old founder shared a preview of pcbbench, an open-source benchmark that scores AI agents and models on printed circuit board design tasks; early results rank Sprocket and Claude Fable 5.2 highest.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@amronos",
+      "url": "https://x.com/amronos/status/2120602547643941326",
+      "createdAt": "2026-11-11T19:40:20Z",
+      "updatedAt": "2026-11-11T19:40:20Z",
+      "content": "As more people use agents with KiCad to lay out boards from a prompt, pcbbench aims to measure the results consistently. The repo is an early sneak peek, with a proper website promised soon.\n\n[pcbbench on GitHub](https://github.com/Amronos/pcbbench)\n\n[Post on X](https://x.com/amronos/status/2120602547643941326)"
+    },
+    {
+      "id": "x:2120517513956237386",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sydedock: an always-on side dock for widgets and stickies on the Mac",
+      "description": "Sydedock is a small macOS dock that sits on any screen edge with a task countdown, clock, battery and Wi-Fi ring, a water timer, a streak grid and sticky notes, sold as a one-time purchase.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@hivinz_",
+      "url": "https://x.com/hivinz_/status/2120517513956237386",
+      "createdAt": "2026-11-11T14:02:27Z",
+      "updatedAt": "2026-11-11T14:02:27Z",
+      "content": "The app keeps glanceable things at the edge of the screen instead of behind windows. Widgets are dragged in from Settings, the dock can live on any edge of any display or hide until needed, and it supports macOS 14+ on Apple silicon and Intel with no subscription.\n\n[Sydedock website](https://sydedock.com)\n\n[Post on X](https://x.com/hivinz_/status/2120517513956237386)"
+    },
+    {
+      "id": "x:2120589919492169767",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenFlow: a free 4 MB open-source Mac dictation app as a Wispr Flow alternative",
+      "description": "OpenFlow is an MIT-licensed native macOS AI dictation app that uses the Gemini API, built as a much cheaper alternative to the $15 per month Wispr Flow.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@LogWendito",
+      "url": "https://x.com/LogWendito/status/2120589919492169767",
+      "createdAt": "2026-11-11T18:50:10Z",
+      "updatedAt": "2026-11-11T18:50:10Z",
+      "content": "The author says it costs about 95% less to run than a Wispr Flow subscription because you pay only for your own Gemini API usage. It is a small native app with the source on GitHub.\n\n[OpenFlow on GitHub](https://github.com/loganwenzel/OpenFlow)\n\n[Post on X](https://x.com/LogWendito/status/2120589919492169767)"
+    },
+    {
+      "id": "x:2120561563056959650",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FlightDeck: a local Mac MCP server that lets coding agents ship iOS builds to TestFlight",
+      "description": "Kip Lawrence built FlightDeck, a local Mac MCP server so Cursor or Claude can upload builds, manage TestFlight and prepare App Store releases from chat, plus a free step-by-step publishing guide.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@mightykip",
+      "url": "https://x.com/mightykip/status/2120561563056959650",
+      "createdAt": "2026-11-11T16:57:29Z",
+      "updatedAt": "2026-11-11T16:57:29Z",
+      "content": "FlightDeck targets the wall vibe-coders hit at App Store Connect: archiving, IPA upload, TestFlight testers, localized metadata and review submission. The free guide walks from an agent-built app to a live App Store listing.\n\n[From vibe coding to App Store guide](https://kip.quest/flightdeck/guides/from-vibe-coding-to-app-store-guide)\n\n[Post on X](https://x.com/mightykip/status/2120561563056959650)"
+    },
+    {
+      "id": "ideas:app-store-preflight-cli",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "App Store preflight: a CLI and MCP server that catches rejection reasons before you submit",
+      "description": "A developer tool for indie iOS and Mac developers (and anyone shipping agent-built apps) that audits an Xcode archive and its App Store metadata locally and reports likely rejection reasons before upload, usable from the terminal, CI or a coding agent.",
+      "nextStep": "Write a Swift script that unzips an .xcarchive, checks for PrivacyInfo.xcprivacy and required-reason API usage with nm, validates the app icon set and Info.plist usage strings, and prints a pass or fail list.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "createdAt": "2026-11-12T14:30:00Z",
+      "content": "## How it works\n\nPoint the tool at an .xcarchive or .ipa plus a metadata folder. It inspects the binary and bundle (privacy manifest, required-reason API symbols, entitlements, usage-description strings, icons, minimum OS, embedded frameworks), then checks metadata (title and subtitle lengths, screenshot sizes per device, missing localizations, support and privacy URLs that return 200). Each finding links to the matching App Review guideline. The same checks run as a CLI, a GitHub Action, or MCP tools a coding agent can call before it uploads.\n\n```mermaid\nflowchart LR\n  Archive[xcarchive or ipa] --> Inspect[Bundle and binary checks]\n  Meta[Metadata folder] --> MetaCheck[Metadata checks]\n  Inspect --> Report[Findings with guideline links]\n  MetaCheck --> Report\n  Report --> CLI[CLI and CI exit code]\n  Report --> MCP[MCP tools for agents]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Core | Swift Package with ArgumentParser |\n| Binary scan | nm, otool, codesign output parsing |\n| Images | ImageIO for icon and screenshot sizes |\n| Agent access | MCP server over stdio |\n| CI | GitHub Action wrapping the CLI |\n\n## Hard parts\n\n- Keeping the rule set current as Apple changes privacy and review requirements.\n- Avoiding false alarms on required-reason APIs pulled in by third-party SDKs.\n- Reading metadata from fastlane, Xcode Cloud or App Store Connect API formats.\n- Explaining guideline risks without pretending to predict reviewer decisions.\n\n## Effort\n\nA weekend for a CLI with ten core bundle checks; three to four weeks for metadata checks, the MCP server, a CI action and a maintained rule catalog.\n\n## Inspired by\n\n- [FlightDeck post on X](https://x.com/mightykip/status/2120561563056959650)\n- [FlightDeck publishing guide](https://kip.quest/flightdeck/guides/from-vibe-coding-to-app-store-guide)"
+    },
+    {
+      "id": "ideas:prompt-to-pcb-sensor-kit",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Prompt to PCB: describe a home sensor and get a checked KiCad board with a priced BOM",
+      "description": "A Mac app for makers that turns a plain-language request like \"PoE air quality sensor\" into a KiCad project, runs design rule checks, prices the parts at a board house, and keeps a scorecard of how each AI model did.",
+      "nextStep": "Pick one small board (ESP32-C3 plus a temperature sensor), have an agent generate the KiCad files through kicad-cli, and record how many DRC and ERC errors appear before and after one fix loop.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "createdAt": "2026-11-12T14:31:00Z",
+      "content": "## How it works\n\nThe user describes the sensor, power source and enclosure size. An agent picks parts from a curated library of in-stock components, writes the schematic and layout through KiCad scripting, and loops on ERC and DRC results until the board is clean. The app then exports Gerbers, builds a BOM with live prices, and shows a 3D preview. Every run is logged so the app can compare models on the same prompts, like a small personal pcbbench.\n\n```mermaid\nflowchart LR\n  Ask[Plain-language request] --> Parts[Pick in-stock parts]\n  Parts --> Design[Agent writes schematic and layout]\n  Design --> Check[ERC and DRC loop]\n  Check --> Export[Gerbers, BOM, 3D preview]\n  Check --> Score[Model scorecard]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| App | SwiftUI Mac app |\n| CAD | KiCad 10 with kicad-cli and Python scripting |\n| Agent | Any coding model through a local harness |\n| Parts data | Curated JSON library plus a board house price API |\n| Preview | KiCad 3D export rendered in SceneKit |\n\n## Hard parts\n\n- Getting routed layouts that are manufacturable, not just DRC clean.\n- Keeping footprints and part availability accurate.\n- Power and RF parts, such as PoE and antennas, need expert rules.\n- Making failures clear to people who cannot read a schematic.\n\n## Effort\n\nTwo weekends for a single-template prototype; one to two months for a general parts library, the fix loop, ordering export and model scoring.\n\n## Inspired by\n\n- [pcbbench post on X](https://x.com/amronos/status/2120602547643941326)\n- [pcbbench on GitHub](https://github.com/Amronos/pcbbench)"
     }
   ]
 }
