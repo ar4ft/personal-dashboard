@@ -43665,6 +43665,257 @@
       ],
       "createdAt": "2026-11-12T14:31:00Z",
       "content": "## How it works\n\nThe user describes the sensor, power source and enclosure size. An agent picks parts from a curated library of in-stock components, writes the schematic and layout through KiCad scripting, and loops on ERC and DRC results until the board is clean. The app then exports Gerbers, builds a BOM with live prices, and shows a 3D preview. Every run is logged so the app can compare models on the same prompts, like a small personal pcbbench.\n\n```mermaid\nflowchart LR\n  Ask[Plain-language request] --> Parts[Pick in-stock parts]\n  Parts --> Design[Agent writes schematic and layout]\n  Design --> Check[ERC and DRC loop]\n  Check --> Export[Gerbers, BOM, 3D preview]\n  Check --> Score[Model scorecard]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| App | SwiftUI Mac app |\n| CAD | KiCad 10 with kicad-cli and Python scripting |\n| Agent | Any coding model through a local harness |\n| Parts data | Curated JSON library plus a board house price API |\n| Preview | KiCad 3D export rendered in SceneKit |\n\n## Hard parts\n\n- Getting routed layouts that are manufacturable, not just DRC clean.\n- Keeping footprints and part availability accurate.\n- Power and RF parts, such as PoE and antennas, need expert rules.\n- Making failures clear to people who cannot read a schematic.\n\n## Effort\n\nTwo weekends for a single-template prototype; one to two months for a general parts library, the fix loop, ordering export and model scoring.\n\n## Inspired by\n\n- [pcbbench post on X](https://x.com/amronos/status/2120602547643941326)\n- [pcbbench on GitHub](https://github.com/Amronos/pcbbench)"
+    },
+    {
+      "id": "hn:50472038",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rust 1.100 stabilizes the never type, the Allocator API and DropGuard",
+      "description": "The Rust 1.100.0 release, out November 12, headlines stable support for the never type (!), the long-awaited Allocator API and a new DropGuard API.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mbStavola",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "createdAt": "2026-11-12T18:39:05Z",
+      "updatedAt": "2026-11-12T18:39:05Z",
+      "content": "Rust hits release 1.100.0. The headline stabilizations are the never type `!`, the Allocator API for custom allocators in standard collections, and the DropGuard API. Update with `rustup update stable`.\n\n[Rust 1.100.0 announcement](https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/)\n\n[GitHub release notes](https://github.com/rust-lang/rust/releases/tag/1.100.0)\n\n[HN discussion](https://news.ycombinator.com/item?id=50472038)"
+    },
+    {
+      "id": "hn:50471431",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google releases Gemini 4 Hydrogen, a fast agentic model, plus Orchestrator in Antigravity",
+      "description": "Gemini 4 Hydrogen is Google's fast, cheaper execution model for coding and agent work, priced at $1.50/$7.50 per million tokens across a 1M context; Antigravity's new Orchestrator switches between Hydrogen and Carbon mid-session.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dvaplima",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "createdAt": "2026-11-12T18:01:48Z",
+      "updatedAt": "2026-11-12T18:01:48Z",
+      "content": "Google pitches Hydrogen as the everyday execution model next to its frontier Carbon and Argon. It scores 51 on the Artificial Analysis Intelligence Index at default thinking (54 at xhigh), slightly above Argon, and is available across AI Studio, the Gemini API, the Gemini app and Search. The new **Orchestrator** in Google Antigravity routes work between Carbon for design and Hydrogen for writing code and running tests within one session.\n\n[Google announcement](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)\n\n[Hydrogen and Orchestrator in Antigravity](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity)\n\n[HN discussion](https://news.ycombinator.com/item?id=50471431)"
+    },
+    {
+      "id": "hn:50468888",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "smolmaxxing: running 16B MoE LLMs on a TV box and a 2013 iPad with about 1 GB of RAM",
+      "description": "An open-source llama.cpp patch set that squeezes the biggest possible models onto old hardware using custom 1-bit and 2-bit kernels and weights streamed from flash.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "mrashad74",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "createdAt": "2026-11-12T15:23:10Z",
+      "updatedAt": "2026-11-12T15:23:10Z",
+      "content": "Measured on-device: a Xiaomi TV Box S runs Qwen3.5-2B at 7.7 tok/s and the 16B Ling-mini-2.0 MoE at 5.1 tok/s; a jailbroken 2013 iPad Air (A7, ~700 MB usable RAM) runs a 1-bit Bonsai-1.7B at 24-26 tok/s. Tricks include chip-specific lookup-table kernels (even for the A7 without dot-product instructions), trimming rarely used vocabulary, and keeping only part of the model in RAM while streaming the rest from flash.\n\n[smolmaxxing on GitHub](https://github.com/hyperionaidev/smolmaxxing/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50468888)"
+    },
+    {
+      "id": "hn:50470488",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Zigzag, open-source embroidery software built to replace a subscription app",
+      "description": "After a $300 embroidery machine required a subscription, a developer built Zigzag: free Mac and Windows software that turns SVGs into machine embroidery, with visual stitch editing and MCP support for AI agents.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "simpsoka",
+      "url": "https://github.com/simpsoka/zigzag",
+      "createdAt": "2026-11-12T17:02:42Z",
+      "updatedAt": "2026-11-12T17:02:42Z",
+      "content": "Zigzag converts SVG artwork into stitch files, lets you edit stitches visually, and exposes an MCP server so coding agents can generate designs. A nice example of reclaiming hardware from a subscription lock-in.\n\n[Zigzag on GitHub](https://github.com/simpsoka/zigzag)\n\n[HN discussion](https://news.ycombinator.com/item?id=50470488)"
+    },
+    {
+      "id": "hn:50468944",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ExcalidrawZ: a native SwiftUI Excalidraw client for Mac, iPad and iPhone",
+      "description": "ExcalidrawZ wraps the familiar Excalidraw canvas in a native SwiftUI app with real file management, iCloud sync, version history, export, AI assistance and MCP integration.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "Qision",
+      "url": "https://github.com/chocoford/ExcalidrawZ",
+      "createdAt": "2026-11-12T15:25:52Z",
+      "updatedAt": "2026-11-12T15:25:52Z",
+      "content": "Drawings live as real app documents (including `.excalidraw.png` and `.excalidraw.svg`), sync across macOS, iPadOS and iOS via iCloud, and keep history checkpoints you can restore. It's on the App Store, with a DMG on GitHub releases.\n\n[ExcalidrawZ on GitHub](https://github.com/chocoford/ExcalidrawZ)\n\n[App Store](https://apps.apple.com/app/excalidrawz/id6636493997)\n\n[HN discussion](https://news.ycombinator.com/item?id=50468944)"
+    },
+    {
+      "id": "hn:50474361",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple's Foundation Models framework now targets any LLM, including Claude and Gemini",
+      "description": "Apple's developer page describes the Foundation Models framework as a native Swift API for any large language model: the on-device Apple model, Private Cloud Compute, and now server models like Claude and Gemini, with image understanding built in.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kermatt",
+      "url": "https://developer.apple.com/foundation-models-framework/",
+      "createdAt": "2026-11-12T21:13:26Z",
+      "updatedAt": "2026-11-12T21:13:26Z",
+      "content": "Guided generation, tool calling, multimodal image prompts with integrated Vision tools (OCR, barcodes) and Dynamic Profiles are all part of the same API. The notable change is that the framework now extends beyond Apple's own models to third-party server models through the same Swift interface.\n\n[Foundation Models framework on Apple Developer](https://developer.apple.com/foundation-models-framework/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50474361)"
+    },
+    {
+      "id": "hn:50458849",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Relax: a live compiler and JIT runtime for Rust with no rustc or LLVM in the loop",
+      "description": "Makepad's experimental Relax runs a Cargo package straight from source, compiling each function on first call, optimizing hot ones and patching edits into the running process.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "adamnemecek",
+      "url": "https://makepad.github.io/relax/",
+      "createdAt": "2026-11-11T21:20:01Z",
+      "updatedAt": "2026-11-11T21:20:01Z",
+      "content": "Relax is meant for development iteration, not release builds. The project's example: a large 3D game that takes about 3 minutes to build with cargo starts in 11 seconds on an M4 MacBook under Relax, straight from a clean checkout.\n\n[Relax project page](https://makepad.github.io/relax/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50458849)"
+    },
+    {
+      "id": "hn:50471761",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How a 22-year-old PostgreSQL type-confusion bug became remote code execution (CVE-2026-6460)",
+      "description": "Mehmet Ince's write-up, part 3 of a six-part series, explains how probing managed PostgreSQL led to a new class of type-confusion vulnerabilities in PostgreSQL core.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ozirus",
+      "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+      "createdAt": "2026-11-12T18:22:22Z",
+      "updatedAt": "2026-11-12T18:22:22Z",
+      "content": "A deep vulnerability-research story: what started as a question about using managed PostgreSQL ended in a zero-day that had been in the core for 22 years, turned into RCE. PostgreSQL has just shipped fresh minor releases (18.7, 17.12, 16.16, 15.20, 14.25).\n\n[Write-up by Mehmet Ince](https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/)\n\n[PostgreSQL release announcement](https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50471761)"
+    },
+    {
+      "id": "hn:50474883",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Checkpoint forensics: Chinese frontier model weights carry fingerprints of Blackwell GPUs",
+      "description": "Unemployment Labs analyzed published weights and found numerical patterns matching NVIDIA Blackwell hardware in six models from DeepSeek, Moonshot AI, MiniMax and Ant Group released since April 2026.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "firloop",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "createdAt": "2026-11-12T21:56:11Z",
+      "updatedAt": "2026-11-12T21:56:11Z",
+      "content": "The technique recovers traces of the models' initial values from released weights, then searches for hardware and init configurations that reproduce them; earlier models from the same labs match Hopper. For DeepSeek-V4-Flash and Kimi K3 the match was confirmed on physical Blackwell chips. The authors stress this shows how the weights were created, not where chips were or whether export controls were broken.\n\n[Report by Will DePue](https://unemploymentlabs.com/checkpoint-forensics)\n\n[HN discussion](https://news.ycombinator.com/item?id=50474883)"
+    },
+    {
+      "id": "hn:50471310",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Expo Simulators: cloud iOS simulators and Android emulators built for coding agents",
+      "description": "Expo launched cloud simulators that agents can use to install builds, drive the app and return screen recordings as proof of work, so iOS testing no longer needs a local Mac.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "szdziedzic",
+      "url": "https://expo.dev/blog/introducing-expo-simulators-cloud-simulators-built-for-agents",
+      "createdAt": "2026-11-12T17:53:54Z",
+      "updatedAt": "2026-11-12T17:53:54Z",
+      "content": "Agents running on Windows or Linux can now spin up a cloud iOS simulator, install an Expo build, interact with it and send back screenshots and recordings.\n\n[Expo blog announcement](https://expo.dev/blog/introducing-expo-simulators-cloud-simulators-built-for-agents)\n\n[HN discussion](https://news.ycombinator.com/item?id=50471310)"
+    },
+    {
+      "id": "hn:50425017",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "bootvine: a live tree of systemd jobs on the boot console",
+      "description": "bootvine is a Rust and ratatui boot animation that shows systemd's startup stages as a live, growing tree using D-Bus.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "orhunp_",
+      "url": "https://codeberg.org/wvhulle/bootvine",
+      "createdAt": "2026-11-09T13:02:44Z",
+      "updatedAt": "2026-11-09T13:02:44Z",
+      "content": "Instead of a splash screen or scrolling log, bootvine renders systemd units as a tree while the machine boots, making dependencies and slow units visible at a glance. It's written mostly in Rust, with Nix packaging.\n\n[bootvine on Codeberg](https://codeberg.org/wvhulle/bootvine)\n\n[HN discussion](https://news.ycombinator.com/item?id=50425017)"
+    },
+    {
+      "id": "x:2120939739431972922",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Edge0-145B and 120B: open-weight 100B-class models built to run on a laptop",
+      "description": "Edge0 AI released Edge0-145B and Edge0-120B with open weights, claiming 86.5% on Terminal-Bench 2.1, about 29 GB of memory, and 75+ tok/s decode on RTX Spark and Mac.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "@SamuelZengML",
+      "url": "https://x.com/SamuelZengML/status/2120939739431972922",
+      "createdAt": "2026-11-12T18:00:13Z",
+      "updatedAt": "2026-11-12T18:00:13Z",
+      "content": "Samuel Zeng announced Edge0's first device-native models, aimed at offline agentic coding with 128K-256K context. Commenters note Edge0-145B is built on Qwen3.8-Flash-Next and runs on a fork of the Strata engine, with weights on Hugging Face and hardware guides included. Benchmark claims are the company's own.\n\n[Analysis by @superalesha](https://x.com/superalesha/status/2120976649978323163)\n\n[Post on X](https://x.com/SamuelZengML/status/2120939739431972922)"
+    },
+    {
+      "id": "x:2120871776385487284",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "esp32-intake: an iOS food logger with MiniCPM-V and a round ESP32 calorie display",
+      "description": "An open-source demo by @emwstudio pairs an iOS app that estimates meal calories with MiniCPM-V 4.7 and a circular ESP32-S3 AMOLED display showing a daily intake ring.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "@OpenBMB",
+      "url": "https://x.com/OpenBMB/status/2120871776385487284",
+      "createdAt": "2026-11-12T13:30:10Z",
+      "updatedAt": "2026-11-12T13:30:10Z",
+      "content": "Snap a meal, review the model's estimate, then the app stores the day's total locally and pushes it over Wi-Fi to the ESP32 display with a color-coded progress ring. The model runs online via API; estimates are approximate.\n\n[esp32-intake on GitHub](https://github.com/emwstudio/esp32-intake)\n\n[MiniCPM-V on GitHub](https://github.com/OpenBMB/MiniCPM-V)\n\n[Post on X](https://x.com/OpenBMB/status/2120871776385487284)"
+    },
+    {
+      "id": "x:2120849568879305028",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ProMax Display lets full-screen Mac apps use the space beside the notch",
+      "description": "A new Mac app reclaims the black strip macOS leaves beside the MacBook notch in full-screen mode, with Dynamic Island-style features in beta.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@ProMaxDisplay",
+      "url": "https://x.com/ProMaxDisplay/status/2120849568879305028",
+      "createdAt": "2026-11-12T12:01:55Z",
+      "updatedAt": "2026-11-12T12:01:55Z",
+      "content": "The developer's pitch: in full screen a 14-inch MacBook Pro effectively becomes a 14.06-inch screen; ProMax gives apps the full 14.2 inches. A short demo video is attached to the post.\n\n[Post on X](https://x.com/ProMaxDisplay/status/2120849568879305028)"
     }
   ]
 }
