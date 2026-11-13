@@ -44670,6 +44670,253 @@
       ],
       "createdAt": "2026-11-13T14:30:00Z",
       "content": "## How it works\n\nScenes are small rules: when Zoom or a calendar meeting starts, switch to the headset mic, raise volume and turn on noise cancelling; when a music app is in front, switch to speakers with an EQ preset; when Focus is on, mute notifications audio. The app watches the frontmost app, Focus state and EventKit, applies the scene's changes, and on exit restores only what it changed. Device-specific features like ANC modes come from per-vendor plug-ins, starting with headphones whose protocol is already documented by open-source projects.\n\n```mermaid\nflowchart LR\n  Front[Frontmost app] --> Rules[Scene rules]\n  Cal[Calendar and Focus] --> Rules\n  Rules --> Core[Core Audio device and volume]\n  Rules --> Plug[Headphone plug-ins]\n  Core --> Restore[Restore on exit]\n  Plug --> Restore\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| UI | SwiftUI MenuBarExtra |\n| Audio | Core Audio HAL for devices, volume and input |\n| Triggers | NSWorkspace notifications, EventKit, Shortcuts intents |\n| Headphones | IOBluetooth or CoreBluetooth plug-ins per vendor |\n| Config | Local JSON, no account |\n\n## Hard parts\n\n- Undocumented vendor Bluetooth protocols for noise control and EQ.\n- Restoring state cleanly when the user changes something mid-scene.\n- Core Audio quirks with aggregate devices and AirPods auto-switching.\n- Avoiding flapping when you alt-tab quickly between apps.\n\n## Effort\n\nA weekend for app-based output and volume scenes; two to four weeks for calendar triggers, Shortcuts actions and one vendor headphone plug-in.\n\n## Inspired by\n\n- [Sennsei post on X](https://x.com/onlyilkr/status/2120892363136450840)\n- [Sennsei on GitHub](https://github.com/onlyilkr/sennsei)"
+    },
+    {
+      "id": "hn:50474959",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Reverse engineering a Coway air purifier to ditch the cloud",
+      "description": "Scott J. Goldman reverse engineers his Wi-Fi Coway Airmega so it can be controlled without the cloud and tied into Apple Home scenes instead of going through Coway's cloud app.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "scottjg",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "createdAt": "2026-11-12T22:03:09Z",
+      "updatedAt": "2026-11-12T22:03:09Z",
+      "content": "Scott wanted his bedtime \"Good Night\" Apple Home scene to also crank the air purifier up to white-noise speed. The 16-minute write-up covers his Wi-Fi Airmega IconS and how he reverse engineered it to control it without Coway's cloud app, a good case study in freeing a cloud-tethered home appliance.\n\n[Blog post](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50474959)"
+    },
+    {
+      "id": "hn:50487185",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "After 600 experiments: what works for JEPA world models",
+      "description": "Haddy Alchaer reports on ~600 experiments with LeCun's LeWM JEPA world model, showing that a memory graph generating on-the-fly subgoals lets it solve long-horizon Push-T tasks on out-of-distribution goals without extra training.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "halcdev",
+      "url": "https://haddyalchaer.com/jepa",
+      "createdAt": "2026-11-13T17:55:28Z",
+      "updatedAt": "2026-11-13T17:55:28Z",
+      "content": "JEPA world models encode frames into embeddings, predict the next embedding given an action, and plan in that latent space instead of generating pixels. The post explains the encoder/predictor/planner loop with interactive figures, then shows how transformations on a memory graph produce subgoals that let vanilla LeWM handle much longer-horizon physics tasks than its planner reaches alone.\n\n[Article](https://haddyalchaer.com/jepa)\n\n[HN discussion](https://news.ycombinator.com/item?id=50487185)"
+    },
+    {
+      "id": "hn:50487762",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Weight Space Misfolding: one model editing another's weights to plant behaviour",
+      "description": "An HCLTech paper on alphaXiv lays out a threat model for frontier models that directly edit another network's weights to inject false facts, deny capabilities or selectively omit knowledge.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "mkglees",
+      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "createdAt": "2026-11-13T18:33:35Z",
+      "updatedAt": "2026-11-13T18:33:35Z",
+      "content": "The authors call it \"weight space misfolding\", by analogy with prion disease: weight-space programming lets a model alter another model's knowledge without gradients, and the defender has to find a needle in a haystack of weights. Using the IWIBench interface they demonstrate factual substitution, capability denial and selective omission in three case studies. Targeted disruption works, but reliability and preservation of other functions are still limited, and no self-propagation was shown.\n\n[Paper on alphaXiv](https://www.alphaxiv.org/abs/2611.weight-space-misfolding)\n\n[HN discussion](https://news.ycombinator.com/item?id=50487762)"
+    },
+    {
+      "id": "hn:50483611",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why Zig over C for systems programming",
+      "description": "Mihalis Tsoukalos walks through the parts of C that cost him time, such as error handling, memory management and build tooling, and how Zig 0.17 handles each one.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "torutofu",
+      "url": "https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/",
+      "createdAt": "2026-11-13T14:01:13Z",
+      "updatedAt": "2026-11-13T14:01:13Z",
+      "content": "This follows his earlier \"Why Zig over Rust\" post. Since Zig and C share goals (small, no GC, close to the machine), the comparison is about the details, with side-by-side code examples compiled on a Mac with Zig 0.17 and clang.\n\n[Article](https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50483611)"
+    },
+    {
+      "id": "hn:50484235",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A technical vision for the Haskell ecosystem",
+      "description": "The Haskell Foundation's newly formed technical leadership committee published its vision and strategy for the language's tooling and ecosystem.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "cosmic_quanta",
+      "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+      "createdAt": "2026-11-13T14:43:12Z",
+      "updatedAt": "2026-11-13T14:43:12Z",
+      "content": "Now that it is operational, the committee lays out its priorities for the Haskell ecosystem and asks the community for feedback on Haskell Discourse.\n\n[Post on Haskell Discourse](https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078)\n\n[HN discussion](https://news.ycombinator.com/item?id=50484235)"
+    },
+    {
+      "id": "hn:50486748",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI helps decode Kurt Gödel's shorthand notebooks, said to hold hundreds of proved theorems",
+      "description": "The Guardian reports that AI is helping researchers transcribe the 1,009 pages Gödel left in an obsolete shorthand, which are said to contain hundreds of proved theorems.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bookofjoe",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "createdAt": "2026-11-13T17:30:10Z",
+      "updatedAt": "2026-11-13T17:30:10Z",
+      "content": "Much of what Gödel left behind is written in an obsolete shorthand that few people can read today. AI-assisted transcription is now opening it up, and researchers call him \"ahead of his time\". Gödel's work inspired Alan Turing and helped pave the way for the digital age.\n\n[Article in The Guardian](https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths)\n\n[HN discussion](https://news.ycombinator.com/item?id=50486748)"
+    },
+    {
+      "id": "hn:50487861",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lightreason: 6-11x faster Qwen decoding on a single RTX 4090",
+      "description": "An open-source local inference lab documents how CUDA graphs, compact KV caches, speculative drafting and expert offloading sped up Qwen2.5-3B and Qwen3.6-35B-A3B on one RTX 4090.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "AI4Science",
+      "url": "https://github.com/me-farza/lightreason/tree/main",
+      "createdAt": "2026-11-13T18:40:37Z",
+      "updatedAt": "2026-11-13T18:40:37Z",
+      "content": "For Qwen2.5-3B, throughput went from 63 to about 140 tok/s across six prompts, and up to 525-724 tok/s on matching responses with a PARD2 draft runner. For the 35B MoE, whose BF16 text weights are 64.56 GiB, the runner keeps most experts in system RAM and moves only the ones in use, reaching 7.9 to 51 tok/s on a capped Python prompt. The repo includes performance docs, output-match checks and an interactive Studio.\n\n[Repo on GitHub](https://github.com/me-farza/lightreason/tree/main)\n\n[HN discussion](https://news.ycombinator.com/item?id=50487861)"
+    },
+    {
+      "id": "hn:50452257",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Aq: an attention queue TUI for juggling Claude Code sessions in tmux",
+      "description": "Aq watches all your Claude Code sessions in tmux and puts whatever needs you (diffs to review, edits to allow, permission prompts, questions) into one queue, shown one card at a time.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "orbis-tertius",
+      "url": "https://github.com/nodo-labs-uk/attention-queue",
+      "createdAt": "2026-11-11T11:43:35Z",
+      "updatedAt": "2026-11-11T11:43:35Z",
+      "content": "Cards that arrive while you're busy wait their turn instead of stealing the screen, and a card answered in its own window gets marked \"answered elsewhere\". It's written in Rust for Linux and tmux under the MIT license, and hooks into Claude Code's PreToolUse, PostToolUse and PermissionRequest hooks.\n\n[Repo on GitHub](https://github.com/nodo-labs-uk/attention-queue)\n\n[HN discussion](https://news.ycombinator.com/item?id=50452257)"
+    },
+    {
+      "id": "hn:50488835",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Live migration for bhyve VMs is coming to FreeBSD",
+      "description": "An RFC write-up explores live VM migration for FreeBSD 15.1's bhyve hypervisor, covering pre-copy memory transfer, dirty-page tracking, testing and current limitations.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "JohnDohnBohn",
+      "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
+      "createdAt": "2026-11-13T19:58:42Z",
+      "updatedAt": "2026-11-13T19:58:42Z",
+      "content": "Live migration, moving a running VM between hosts with minimal downtime, has been one of bhyve's biggest gaps compared with KVM and Xen. The post explains how the proposed implementation copies memory while the guest runs, tracks dirtied pages for later passes, and what still doesn't work.\n\n[Blog post](https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50488835)"
+    },
+    {
+      "id": "hn:50472505",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A distributed Rust ray tracer running on Cloudflare Workers",
+      "description": "Describe a scene and every tile is traced in parallel on Cloudflare Workers, orchestrated by Hatchet; the demo shows the image filling in as tiles complete.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "juliusgeo",
+      "url": "https://ray.hatchet.run",
+      "createdAt": "2026-11-12T19:06:23Z",
+      "updatedAt": "2026-11-12T19:06:23Z",
+      "content": "It's a compact example of fanning a CPU-heavy job out across serverless workers: a Rust ray tracer compiled for Workers, with a durable task queue scheduling tiles and gathering the results.\n\n[Live demo](https://ray.hatchet.run)\n\n[HN discussion](https://news.ycombinator.com/item?id=50472505)"
+    },
+    {
+      "id": "x:2121317231204442618",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MacRemote: bridging your Mac's local CLIs and MCP servers to any cloud AI agent",
+      "description": "Federico Viticci introduced MacRemote, a Mac app that exposes chosen local CLIs and MCP servers to Claude, ChatGPT and other cloud agents through a secure tunnel; it's in beta for Club MacStories members and will be open-sourced.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Federico Viticci (@viticci)",
+      "url": "https://x.com/viticci/status/2121317231204442618",
+      "createdAt": "2026-11-13T19:00:14Z",
+      "updatedAt": "2026-11-13T19:00:14Z",
+      "content": "Viticci has used the tool himself for about six months. Cloud and sandboxed agents can't reach the tools on your Mac, so MacRemote acts as the bridge, and you decide exactly which commands and MCP servers are shared. It's in beta today for Club members, and he says it will be open source soon.\n\n[Announcement on MacStories](https://www.macstories.net/club/macstories-weekly-issue-537/introducing-macremote-bridge-your-local-macs-tools-and-mcps-to-any-ai-agent/)\n\n[Post on X](https://x.com/viticci/status/2121317231204442618)"
+    },
+    {
+      "id": "x:2121238880808829385",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ThreeRT: a native JS runtime with a real-time path tracer for Three.js scenes",
+      "description": "ThreeRT is an open-source native JavaScript runtime that renders Three.js scenes with a hardware-accelerated real-time path tracer on macOS, Windows, iOS, Android and Steam Deck.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "ThreeRT (@ThreeRT3D)",
+      "url": "https://x.com/ThreeRT3D/status/2121238880808829385",
+      "createdAt": "2026-11-13T13:48:54Z",
+      "updatedAt": "2026-11-13T13:48:54Z",
+      "content": "Instead of running Three.js scenes in a browser's WebGL/WebGPU limits, ThreeRT runs them in its own runtime and path-traces them for physically based lighting. The launch post includes a video demo and a thread with details. It's fully open source.\n\n[Post on X](https://x.com/ThreeRT3D/status/2121238880808829385)"
+    },
+    {
+      "id": "x:2121285972071756242",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Squish 0.3: a free open-source SwiftUI Mac app for compressing video",
+      "description": "Squish, a native Apple silicon Mac app for compressing and converting video with ffmpeg, shipped version 0.3, with an app half the size, lower-CPU default encodes and roughly 2x faster previews.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Devin Fountain (@devinsfountain)",
+      "url": "https://x.com/devinsfountain/status/2121285972071756242",
+      "createdAt": "2026-11-13T16:56:01Z",
+      "updatedAt": "2026-11-13T16:56:01Z",
+      "content": "Squish wraps ffmpeg in a SwiftUI interface for shrinking and converting video. Version 0.3 cuts the app from 42 MB to 20 MB, uses far less CPU for default encodes, makes previews about twice as fast and adds new sounds. It's free and open source, for Apple silicon.\n\n[Repo on GitHub](https://github.com/devinscottfountain/squish)\n\n[Post on X](https://x.com/devinsfountain/status/2121285972071756242)"
+    },
+    {
+      "id": "x:2121278053045469319",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Adversarial training along the top Fisher eigenvector to avoid pseudo-attacks",
+      "description": "A new arXiv paper (2611.14046) argues that many adversarial-training perturbations raise loss without changing the model's confidence structure, and instead perturbs inputs along the top Fisher-information eigenvector.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Chevy Phillip (@chevonphillip)",
+      "url": "https://x.com/chevonphillip/status/2121278053045469319",
+      "createdAt": "2026-11-13T16:24:33Z",
+      "updatedAt": "2026-11-13T16:24:33Z",
+      "content": "\"Structured Confidence Perturbation via Fisher Geometry\" targets \"pseudo-attacks\": perturbations that increase loss but never flip the prediction, wasting training steps. Pushing inputs along the leading Fisher eigenvector reportedly reaches 72.50% AutoAttack robust accuracy on CIFAR-10 with ResNet-50, with weaker results on ViTs.\n\n[Paper on arXiv](https://arxiv.org/abs/2611.14046)\n\n[Post on X](https://x.com/chevonphillip/status/2121278053045469319)"
     }
   ]
 }
