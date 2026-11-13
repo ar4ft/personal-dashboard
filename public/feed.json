@@ -44494,6 +44494,182 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
       "createdAt": "2026-11-13T12:15:03Z",
       "updatedAt": "2026-11-13T12:15:03Z"
+    },
+    {
+      "id": "x:2120974977251832231",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Schelling Atlas: where do two independent LLM agents meet on the web?",
+      "description": "Maksym Andriushchenko and collaborators released Schelling Atlas, an experiment where two separate LLM agents must find each other online; they coordinate within minutes, most often via ntfy.sh.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Maksym Andriushchenko (@maksym_andr)",
+      "url": "https://x.com/maksym_andr/status/2120974977251832231",
+      "createdAt": "2026-11-12T20:20:15Z",
+      "updatedAt": "2026-11-12T20:20:15Z",
+      "content": "Two agents that can't talk directly are told to find each other on the open web. Per the release thread, frontier models manage it in minutes; across *different* model families the most common meeting point is the ntfy.sh push-notification service, with more exotic spots like maps, web shops and open text canvases. Agents sometimes visit dead domains an attacker could register, which the authors flag as a way to steal data from agents or to monitor rogue ones. They argue this makes swarm-style coordination especially easy for copies of the same model.\n\n[Schelling Atlas website](https://schelling-atlas.com/)\n\n[Post on X](https://x.com/maksym_andr/status/2120974977251832231)"
+    },
+    {
+      "id": "x:2120972166191796343",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Voice Code Bench adds 8 speech models; ElevenLabs Scribe V3 takes the lead",
+      "description": "Voice Code Bench, a speech-recognition leaderboard for the exact strings software depends on (emails, file paths, commands, dates), added eight models from ElevenLabs, Salesforce, Google, Fish Audio, Mistral, Deepgram and OpenAI.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Yi Zhong (@yiz_be_building)",
+      "url": "https://x.com/yiz_be_building/status/2120972166191796343",
+      "createdAt": "2026-11-12T20:09:04Z",
+      "updatedAt": "2026-11-12T20:09:04Z",
+      "content": "Most ASR benchmarks score everyday prose; this one scores whether dictated technical values come out character-exact, which is what matters for voice coding and dictation into terminals. The update adds eight new models, and ElevenLabs Scribe V3 replaces Scribe V2 at the top. The site publishes private-set results with evaluation dates and methodology.\n\n[Voice Code Bench leaderboard](https://besimple.ai/leaderboards/voice-code-bench)\n\n[Post on X](https://x.com/yiz_be_building/status/2120972166191796343)"
+    },
+    {
+      "id": "x:2121006618976342287",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agent Cockpit: a local whiteboard and MCP server that flags stale research claims when code changes",
+      "description": "Agent Cockpit links each claim on a research board to the recorded run and code that produced it, and flags dependent claims when that code changes; it works with Claude Code, Codex, Cursor and Gemini CLI over MCP.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Dan Kornas (@DanKornas)",
+      "url": "https://x.com/DanKornas/status/2121006618976342287",
+      "createdAt": "2026-11-12T22:25:59Z",
+      "updatedAt": "2026-11-12T22:25:59Z",
+      "content": "Each claim cites a specific value in an output file written by a recorded run. Content hashes mark runs and claims as stale when the code they depended on changes, and reverting the code restores them. Agents can pause for a human decision when an evidence chain breaks, and an append-only event log lets you scrub back through the board's history. Open source under AGPL-3.0-or-later.\n\n[Agent Cockpit on GitHub](https://github.com/chutingyean/Agent-Cockpit)\n\n[Post on X](https://x.com/DanKornas/status/2121006618976342287)"
+    },
+    {
+      "id": "x:2121188968423121231",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NVIDIA SkillSpector: an open-source security scanner for agent skills",
+      "description": "NVIDIA open-sourced SkillSpector, which scans Claude Code, Codex, Gemini CLI and MCP skills for prompt injection, key leaks, data exfiltration and supply-chain risks before you install them.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Asha AI (@asha_aiii)",
+      "url": "https://x.com/asha_aiii/status/2121188968423121231",
+      "createdAt": "2026-11-13T10:30:34Z",
+      "updatedAt": "2026-11-13T10:30:34Z",
+      "content": "According to the post, NVIDIA scanned more than 31,000 agent skills and found vulnerabilities in 26.1% and malicious behaviour in 5.2%. SkillSpector combines pattern checks with LLM analysis so you can vet a skill folder before adding it to an agent.\n\n[SkillSpector on GitHub](https://github.com/NVIDIA/SkillSpector)\n\n[Post on X](https://x.com/asha_aiii/status/2121188968423121231)"
+    },
+    {
+      "id": "x:2120925768658321647",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Panthera-HT: a fully open-source, torque-controlled 6-axis robot arm",
+      "description": "HighTorque's Panthera-HT is a desk-sized 6-axis arm with position, velocity, torque and impedance control, gravity compensation and leader-follower teleoperation; CAD, electronics and software are MIT licensed.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Praveen Kumar Verma (@Alacritic_Super)",
+      "url": "https://x.com/Alacritic_Super/status/2120925768658321647",
+      "createdAt": "2026-11-12T17:04:42Z",
+      "updatedAt": "2026-11-12T17:04:42Z",
+      "content": "It sits between hobby-servo arms like the SO-101 and larger research platforms: planetary quasi-direct-drive joints use motor-current sensing for impedance control. It ships C++/Python SDKs, ROS 2 and MoveIt 2 support, and integrations with LeRobot for imitation-learning data collection and RoboTwin for simulation, plus SolidWorks files and a BOM.\n\n[Panthera-HT on GitHub](https://github.com/HighTorque-Robotics/Panthera-HT_Main)\n\n[Product page](https://hightorquerobotics.com/Panthera-HT_Hub/index_en.html)\n\n[Post on X](https://x.com/Alacritic_Super/status/2120925768658321647)"
+    },
+    {
+      "id": "x:2120933839942123621",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FACEGOOD Aurora A7X: a lifelike robot face with open-source hardware and motion library",
+      "description": "FACEGOOD opened pre-orders for Aurora A7X, an expressive robot face that tracks you, blinks and reacts, and says its hardware and motion library are open source.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "FACEGOOD (@facegood2018)",
+      "url": "https://x.com/facegood2018/status/2120933839942123621",
+      "createdAt": "2026-11-12T17:36:47Z",
+      "updatedAt": "2026-11-12T17:36:47Z",
+      "content": "The launch video drew more than 130,000 views. FACEGOOD builds facial capture and animation tech and is pitching Aurora as an expressive head for robots, tagging the LeRobot and Pollen Robotics communities. Pricing and repo details are in the launch thread and on the site.\n\n[FACEGOOD Aurora](https://facegood.ai)\n\n[Post on X](https://x.com/facegood2018/status/2120933839942123621)"
+    },
+    {
+      "id": "x:2120892363136450840",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sennsei: an open-source Mac menu bar app for Sennheiser ACCENTUM headphones",
+      "description": "Sennheiser only ships phone apps for the ACCENTUM, so ilker güldalı built Sennsei, an unofficial macOS menu bar app for noise control, EQ presets and per-app scenes, with a CLI, hotkeys and Shortcuts actions.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "ilker güldalı (@onlyilkr)",
+      "url": "https://x.com/onlyilkr/status/2120892363136450840",
+      "createdAt": "2026-11-12T14:51:58Z",
+      "updatedAt": "2026-11-12T14:51:58Z",
+      "content": "Scenes are tied to trigger apps in a small scenes.json: when one comes to the front, the scene applies after a short delay, and leaving restores only what it changed. Local stats show listening time per app and time in calls, and nothing leaves the Mac. Built in Swift with Claude Code, MIT licensed. Install with `brew install --cask onlyilkr/tap/sennsei`.\n\n[Sennsei on GitHub](https://github.com/onlyilkr/sennsei)\n\n[Post on X](https://x.com/onlyilkr/status/2120892363136450840)"
+    },
+    {
+      "id": "x:2121210463258034541",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "omux: a native Mac terminal for running Claude Code and Codex sessions side by side",
+      "description": "omux keeps parallel coding-agent sessions in one Mac window, shows which ones need input, handles approvals from the sidebar and gives each task its own Git worktree.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Dan Kornas (@DanKornas)",
+      "url": "https://x.com/DanKornas/status/2121210463258034541",
+      "createdAt": "2026-11-13T11:55:59Z",
+      "updatedAt": "2026-11-13T11:55:59Z",
+      "content": "Features include live session status with a Dock badge, sidebar approve or deny for Claude Code permissions and Codex approvals, worktree-backed sessions, resumable conversations after restart, and diff review where line notes are sent to the agent as one message. Requires Apple Silicon and macOS 14+. MIT licensed.\n\n[omux on GitHub](https://github.com/onurozcan/omux)\n\n[Post on X](https://x.com/DanKornas/status/2121210463258034541)"
+    },
+    {
+      "id": "ideas:stale-claims-cli",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Stale claims: a CLI that flags benchmark numbers in PRs and READMEs when the code behind them changes",
+      "description": "A developer tool for Swift/iOS and backend developers (and teams whose coding agents report performance or accuracy numbers) that records benchmark and test runs with hashes of the code they depended on, then fails CI when a quoted number in a PR, README or changelog no longer matches current code.",
+      "nextStep": "Write a small Swift CLI that runs a command, stores its stdout metrics plus a hash of the git tree for a given path glob in .claims/runs.json, and a check command that greps README.md for claim markers and reports any whose run hash no longer matches.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "createdAt": "2026-11-13T14:30:00Z",
+      "content": "## How it works\n\nYou mark a number in Markdown with a tiny tag, such as `1.2 s {claim:launch-time}`, and register the command that produces it plus the source paths it depends on. `claims run` executes the command, parses the metric, and stores the value with a content hash of those paths. `claims check` (in CI, a pre-push hook or as an MCP tool an agent calls before opening a PR) recomputes the hashes, marks claims stale when code changed, and fails when the quoted number drifts from the latest recorded run.\n\n```mermaid\nflowchart LR\n  Docs[README and PR text] --> Parse[Find claim markers]\n  Cmd[Benchmark or test command] --> Run[Record value and code hash]\n  Parse --> Check[Compare hashes and values]\n  Run --> Check\n  Check --> CI[CI status and PR comment]\n  Check --> MCP[MCP tool for agents]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Core | Swift Package with ArgumentParser, or Go for a single static binary |\n| Hashing | git ls-files plus SHA-256 of matched paths |\n| Metric parsing | Regex or JSON path per claim, XCTest metrics from xcresult |\n| Store | .claims/runs.json committed to the repo |\n| Agent access | MCP server over stdio |\n| CI | GitHub Action wrapping the CLI |\n\n## Hard parts\n\n- Choosing dependency paths that are wide enough to catch real changes but not so wide every commit invalidates everything.\n- Noisy benchmarks: needing tolerances and repeat runs instead of exact matching.\n- Parsing xcresult bundles and other test outputs reliably.\n- Keeping the marker syntax invisible in rendered Markdown.\n\n## Effort\n\nA weekend for run, check and README markers; two to three weeks for xcresult parsing, tolerances, PR comments and the MCP server.\n\n## Inspired by\n\n- [Agent Cockpit post on X](https://x.com/DanKornas/status/2121006618976342287)\n- [Agent Cockpit on GitHub](https://github.com/chutingyean/Agent-Cockpit)\n- [omux on GitHub](https://github.com/onurozcan/omux)"
+    },
+    {
+      "id": "ideas:mac-audio-scenes",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Audio scenes for Mac: switch output, volume and headphone modes automatically by app and meeting",
+      "description": "A Mac menu bar app that applies audio scenes (output device, volume, input mic, and noise-control or EQ where the headphones allow it) based on the frontmost app, Focus mode and calendar meetings, and restores your settings afterwards.",
+      "nextStep": "Build a SwiftUI MenuBarExtra prototype that watches NSWorkspace frontmost-app notifications and switches the default output device and volume through Core Audio per a scenes.json file.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "createdAt": "2026-11-13T14:30:00Z",
+      "content": "## How it works\n\nScenes are small rules: when Zoom or a calendar meeting starts, switch to the headset mic, raise volume and turn on noise cancelling; when a music app is in front, switch to speakers with an EQ preset; when Focus is on, mute notifications audio. The app watches the frontmost app, Focus state and EventKit, applies the scene's changes, and on exit restores only what it changed. Device-specific features like ANC modes come from per-vendor plug-ins, starting with headphones whose protocol is already documented by open-source projects.\n\n```mermaid\nflowchart LR\n  Front[Frontmost app] --> Rules[Scene rules]\n  Cal[Calendar and Focus] --> Rules\n  Rules --> Core[Core Audio device and volume]\n  Rules --> Plug[Headphone plug-ins]\n  Core --> Restore[Restore on exit]\n  Plug --> Restore\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| UI | SwiftUI MenuBarExtra |\n| Audio | Core Audio HAL for devices, volume and input |\n| Triggers | NSWorkspace notifications, EventKit, Shortcuts intents |\n| Headphones | IOBluetooth or CoreBluetooth plug-ins per vendor |\n| Config | Local JSON, no account |\n\n## Hard parts\n\n- Undocumented vendor Bluetooth protocols for noise control and EQ.\n- Restoring state cleanly when the user changes something mid-scene.\n- Core Audio quirks with aggregate devices and AirPods auto-switching.\n- Avoiding flapping when you alt-tab quickly between apps.\n\n## Effort\n\nA weekend for app-based output and volume scenes; two to four weeks for calendar triggers, Shortcuts actions and one vendor headphone plug-in.\n\n## Inspired by\n\n- [Sennsei post on X](https://x.com/onlyilkr/status/2120892363136450840)\n- [Sennsei on GitHub](https://github.com/onlyilkr/sennsei)"
     }
   ]
 }
