@@ -44098,6 +44098,235 @@
       "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
       "createdAt": "2026-11-12T21:09:49Z",
       "updatedAt": "2026-11-12T21:09:49Z"
+    },
+    {
+      "id": "hn:50466410",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Adapting CPython for yk: a meta-tracing JIT from about 450 lines of changes",
+      "description": "Laurence Tratt shows how yk, which automatically adds JIT compilers to C interpreters, was applied to CPython; the resulting ykcpython beats stock CPython 3.15.1 on 12 of 13 benchmarks and its experimental JIT on 8 of 13.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "frostbyte7",
+      "url": "https://tratt.net/laurie/blog/2026/adapting_cpython_for_yk.html",
+      "createdAt": "2026-11-12T12:51:38Z",
+      "updatedAt": "2026-11-12T12:51:38Z",
+      "content": "After yklua reached 2x the speed of PUC Lua, the open question was whether yk scales to much larger interpreters. Tratt walks through the stages of adapting CPython, where just under 450 added lines were enough for meaningful gains. The benchmark table compares CPython 3.15.1, CPython with its experimental JIT and ykcpython; Tratt stresses that ykcpython is not ready for use and that wider programs won't do as well.\n\n[Blog post](https://tratt.net/laurie/blog/2026/adapting_cpython_for_yk.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50466410)"
+    },
+    {
+      "id": "hn:50454951",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Klad: a painting and animation app you share with your coding agent",
+      "description": "Klad is a source-available 2D painting and animation app where you paint with a pen and an agent like Claude Code or Codex paints on the same drawing through a command line, with every stroke kept as editable data.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ambewas",
+      "url": "https://github.com/klad-app/klad",
+      "createdAt": "2026-11-11T16:00:50Z",
+      "updatedAt": "2026-11-11T16:00:50Z",
+      "content": "There is no image model inside: the agent decides what to draw and paints stroke by stroke with the same brushes you use, and you can point at regions or pin notes for it. Strokes keep path, pressure, brush and colour, so anything can be recoloured or moved later. It includes layers, masks, a timeline with onion skins, bones with IK, pixel art and exports to PNG, sprite sheets, GIF or Godot. It runs on macOS with pen pressure and tilt (it also builds on Linux and Windows), is early and build-it-yourself, and is free for personal use and small companies.\n\n[Repo on GitHub](https://github.com/klad-app/klad)\n\n[klad.studio](https://klad.studio)\n\n[HN discussion](https://news.ycombinator.com/item?id=50454951)"
+    },
+    {
+      "id": "hn:50460263",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sift: a formatter, linter and language server for Scheme, Emacs Lisp and Common Lisp",
+      "description": "Sift is an idempotent formatter, rule-based linter and LSP server for Lisp dialects, built so that formatting an already formatted file returns it unchanged.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jjba23",
+      "url": "https://github.com/jjba23/sift",
+      "createdAt": "2026-11-11T23:09:27Z",
+      "updatedAt": "2026-11-11T23:09:27Z",
+      "content": "Sift reads a Lisp source file, reports what is ill-formed and rewrites only its whitespace. The rewrite is a total function on text and a fixed point, and comments, blank lines, `#;` datum comments and read-time forms keep their place in the output. The repo includes editor integrations, a pre-commit hook and a GitHub Action.\n\n[Repo on GitHub](https://github.com/jjba23/sift)\n\n[HN discussion](https://news.ycombinator.com/item?id=50460263)"
+    },
+    {
+      "id": "hn:50413266",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Micron: a systems language with Oberon's simplicity and the reach of C",
+      "description": "Rochus Keller's Micron (MicroOberon) is a compiler, interpreter and IDE for a statically typed modular systems language that calls C without wrappers and uses \"language levels\" from bare-metal boot code to garbage collection.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Rochus",
+      "url": "https://github.com/rochus-keller/Micron",
+      "createdAt": "2026-11-08T13:40:08Z",
+      "updatedAt": "2026-11-08T13:40:08Z",
+      "content": "A module declares the level it needs: level 0 has no stack (hardware init), level 1 adds stack frames and extern C, level 3 heap, pointers and exceptions, level 4 dynamic dispatch, and level 5 garbage collection. A module can only import modules at the same or lower level, so a kernel can't depend on the heap by accident. The preprocessor is replaced by generics, inlining and compile-time procedures. A free textbook walks through porting Project Oberon to Micron on an emulated RISC-V machine, and about 130 kSLOC of examples include Smalltalk-80, the P4 Pascal compiler and the Scheme 9 VM.\n\n[Repo on GitHub](https://github.com/rochus-keller/Micron)\n\n[HN discussion](https://news.ycombinator.com/item?id=50413266)"
+    },
+    {
+      "id": "hn:50453763",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pharo Smalltalk running in the browser with WebAssembly",
+      "description": "A browser build of a Pharo world runs the Smalltalk environment through WebAssembly; you can drop in .st files, Pharo zips or an image with its changes and sources, and clone or push with Iceberg via a configurable CORS proxy.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "xkriva11",
+      "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
+      "createdAt": "2026-11-11T14:21:27Z",
+      "updatedAt": "2026-11-11T14:21:27Z",
+      "content": "The page loads a full Pharo world in the tab. Its git settings explain that Iceberg clones, pulls and pushes, and Metacello github:// loads, need either a host that allows the page (CORS) or a proxy you trust, since a proxy sees the code and any credentials that pass through it.\n\n[Try Pharo in the browser](https://massimo-nocentini.github.io/pharo-vm/world.html)\n\n[pharo-vm fork on GitHub](https://github.com/massimo-nocentini/pharo-vm)\n\n[HN discussion](https://news.ycombinator.com/item?id=50453763)"
+    },
+    {
+      "id": "hn:50438958",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "legocam: a 2000 LEGO webcam working on a modern Mac with 400 lines of C",
+      "description": "Benjamin Kelly wrote a userspace driver so the Logitech QuickCam inside the LEGO & Steven Spielberg MovieMaker set works on macOS again, showing up in Zoom, FaceTime and the browser.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "benkelly",
+      "url": "https://blog.benjamin.ie/legocam",
+      "createdAt": "2026-11-10T11:46:09Z",
+      "updatedAt": "2026-11-10T11:46:09Z",
+      "content": "No macOS driver has supported the camera for years. legocam uses libusb instead of a kernel extension, copies the wake-up and streaming protocol from Linux's gspca_stv06xx driver (an STV0610 USB bridge in front of a VV6410 sensor), stitches isochronous USB packets into raw 356x292 Bayer frames and pipes them on. It's a neat walkthrough of reviving old USB hardware on modern macOS.\n\n[Blog post](https://blog.benjamin.ie/legocam)\n\n[HN discussion](https://news.ycombinator.com/item?id=50438958)"
+    },
+    {
+      "id": "hn:50474586",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "RealtimeVAD: detecting end of speech about 100 ms sooner than Silero alone",
+      "description": "An alpha Python library for voice assistants that keeps Silero VAD for speech detection but adds a 10 ms energy check against room noise, so pipelines can start speculative ASR and LLM work earlier.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "koljab",
+      "url": "https://github.com/KoljaB/RealtimeVAD",
+      "createdAt": "2026-11-12T21:30:57Z",
+      "updatedAt": "2026-11-12T21:30:57Z",
+      "content": "The author reports a median 100 ms earlier speech-off signal on real voice-assistant turns, with the end event ahead of Silero in 82% of turns. The trade-off is explicit: it fires on short gaps between words about ten times as often as Silero, and loses its lead for quiet speakers on noisy lines. It needs only numpy and onnxruntime, runs on one CPU thread, emits start, pause and end events, and ships a LiveKit plugin.\n\n[Repo on GitHub](https://github.com/KoljaB/RealtimeVAD)\n\n[HN discussion](https://news.ycombinator.com/item?id=50474586)"
+    },
+    {
+      "id": "hn:50427153",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "flatpoints: flattening 3D point clouds into images with geometry images",
+      "description": "flatpoints applies the idea of geometry images directly to raw point clouds, giving each 3D point its own pixel on a square grid so neighbouring pixels hold neighbouring surface points.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "adec314",
+      "url": "https://github.com/Neighborhood-Grid/flatpoints",
+      "createdAt": "2026-11-09T15:44:59Z",
+      "updatedAt": "2026-11-09T15:44:59Z",
+      "content": "Given an (N, 3) cloud sampled from an unknown surface, the library arranges the points on an (n, n) grid so the result is a continuous picture of the surface, and any per-point data becomes an image too. Demos flatten the Stanford bunny, a dragon and an elephant; the method is documented in the repo.\n\n[Repo on GitHub](https://github.com/Neighborhood-Grid/flatpoints)\n\n[Geometry images (Hoppe)](https://hhoppe.com/proj/gim/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50427153)"
+    },
+    {
+      "id": "hn:50470762",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paths in pieces: why grepping a binary for build paths can miss them",
+      "description": "Harmen Stoppels shows that GCC on x86-64 can split string constants copied into buffers into overlapping 16-byte pieces, so audits that grep or run strings for absolute build paths in binaries can silently miss them.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://stoppels.ch/2026/11/12/paths-in-pieces.html",
+      "createdAt": "2026-11-12T17:19:39Z",
+      "updatedAt": "2026-11-12T17:19:39Z",
+      "content": "A std::string built from \"/home/linuxbrew/.linuxbrew\" appears zero times in the compiled binary; strings instead shows a made-up \"/home/linuxbrew/xbrew/.linuxbrew\" because two overlapping vector constants happen to sit next to each other. Padded prefixes used by Conda and Spack for relocation get deduplicated even further. This matters for every package manager that audits binaries for non-relocatable paths.\n\n[Blog post](https://stoppels.ch/2026/11/12/paths-in-pieces.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50470762)"
+    },
+    {
+      "id": "hn:50477714",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Switcher: how Andy Hertzfeld gave the Mac its first multitasking environment",
+      "description": "A Folklore.org story by Andy Hertzfeld about building Switcher in 1984, the original Macintosh's first way to keep several applications running and flip between them.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sammatilda",
+      "url": "https://folklore.org/Switcher.html",
+      "createdAt": "2026-11-13T03:14:59Z",
+      "updatedAt": "2026-11-13T03:14:59Z",
+      "content": "Hertzfeld, on leave from Apple, got the idea while demoing Thunderscan to John Markoff, who switched apps on his IBM PC with a key combination. The story follows how he built Switcher, with Bill Gates, Steve Jobs and Steve Capps among the people involved.\n\n[Folklore.org story](https://folklore.org/Switcher.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50477714)"
+    },
+    {
+      "id": "x:2120885368417333468",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google opens pre-orders for Gemini intelligent eyewear with Samsung, Gentle Monster and Warby Parker",
+      "description": "Google announced intelligent eyewear built with Samsung and designed by Gentle Monster and Warby Parker, with Gemini built in, now available to pre-order.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Android (@Android)",
+      "url": "https://x.com/Android/status/2120885368417333468",
+      "createdAt": "2026-11-12T14:24:10Z",
+      "updatedAt": "2026-11-12T14:24:10Z",
+      "content": "Google's product page lists an ultra-wide 12 MP camera with up to 3K video, open-ear audio, Look and Ask with Gemini, hands-free capture, navigation, translation and up to 9 hours of battery. The glasses pair with Pixel, Samsung Galaxy and iOS devices, and the launch is limited to the United States and South Korea.\n\n[Intelligent Eyewear on Google](https://glasses.google/)\n\n[Gentle Monster designs](https://x.com/Android/status/2120924568072184071)\n\n[Post on X](https://x.com/Android/status/2120885368417333468)"
+    },
+    {
+      "id": "x:2120982625582195011",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Thinking Machines releases Inkling 2 Small open weights under Apache 2.0",
+      "description": "Thinking Machines published Inkling 2 Small on Hugging Face under Apache 2.0, a multimodal mixture-of-experts model with 594B total and 17B active parameters and a 1M-token context.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Thinking Machines (@thinkymachines)",
+      "url": "https://x.com/thinkymachines/status/2120982625582195011",
+      "createdAt": "2026-11-12T20:50:38Z",
+      "updatedAt": "2026-11-12T20:50:38Z",
+      "content": "According to the model card, Inkling 2 Small is a 48-layer decoder-only transformer that routes each token to 8 of 384 experts, mixes local and global attention, and takes text and images in and produces text out. Weights come in NVFP4 and MXFP8. It has recipes for SGLang, vLLM, TokenSpeed and Unsloth, can be post-trained with Tinker and other tools, and is offered by several inference providers.\n\n[Model card on Hugging Face](https://huggingface.co/thinkingmachines/Inkling-2-Small)\n\n[Tinker Cookbook](https://github.com/thinking-machines-lab/tinker-cookbook)\n\n[Post on X](https://x.com/thinkymachines/status/2120982625582195011)"
+    },
+    {
+      "id": "x:2121215276741980636",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jellytone: an open-source native SwiftUI music player for Jellyfin",
+      "description": "Rory Standley open-sourced Jellytone, a native iPhone and iPad music client for a self-hosted Jellyfin server with offline downloads, line-by-line lyrics and Lock Screen controls.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Rory Standley (@RoryStandley)",
+      "url": "https://x.com/RoryStandley/status/2121215276741980636",
+      "createdAt": "2026-11-13T12:15:06Z",
+      "updatedAt": "2026-11-13T12:15:06Z",
+      "content": "Jellytone targets iOS 18.4 or later and covers albums, artists, songs, playlists, genres, favourites and downloads, with an editable queue, background playback and a library cache so screens open before the network responds. Downloads are verified against a manifest, and the access token is stored in the Keychain. There's no App Store build yet; you generate the project with XcodeGen and build it in Xcode.\n\n[Repo on GitHub](https://github.com/rorystandley/jellytone)\n\n[Post on X](https://x.com/RoryStandley/status/2121215276741980636)"
     }
   ]
 }
