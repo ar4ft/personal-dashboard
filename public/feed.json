@@ -44917,6 +44917,173 @@
       "createdAt": "2026-11-13T16:24:33Z",
       "updatedAt": "2026-11-13T16:24:33Z",
       "content": "\"Structured Confidence Perturbation via Fisher Geometry\" targets \"pseudo-attacks\": perturbations that increase loss but never flip the prediction, wasting training steps. Pushing inputs along the leading Fisher eigenvector reportedly reaches 72.50% AutoAttack robust accuracy on CIFAR-10 with ResNet-50, with weaker results on ViTs.\n\n[Paper on arXiv](https://arxiv.org/abs/2611.14046)\n\n[Post on X](https://x.com/chevonphillip/status/2121278053045469319)"
+    },
+    {
+      "id": "hn:50489641",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FAA Issues National Ground Stop",
+      "description": "The FAA has issued a nationwide ground stop, halting departures across US airports.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "zulln",
+      "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
+      "createdAt": "2026-11-13T21:05:53Z",
+      "updatedAt": "2026-11-13T21:05:53Z"
+    },
+    {
+      "id": "hn:50487864",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "description": "$11.4M worth of Nvidia hardware disappeared while being shipped from California to Texas.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "crescit_eundo",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "createdAt": "2026-11-13T18:40:44Z",
+      "updatedAt": "2026-11-13T18:40:44Z"
+    },
+    {
+      "id": "hn:50487522",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "description": "A student needs 16 taps to open a PowerPoint file on an iPad, highlighting how clunky tablet workflows can be.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "BobaFloutist",
+      "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+      "createdAt": "2026-11-13T18:18:37Z",
+      "updatedAt": "2026-11-13T18:18:37Z"
+    },
+    {
+      "id": "hn:50487184",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI disbands its robotics team as its general models start running robots",
+      "description": "OpenAI has disbanded its robotics team as its general-purpose models begin powering robots directly.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "sshah03",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "createdAt": "2026-11-13T17:55:23Z",
+      "updatedAt": "2026-11-13T17:55:23Z"
+    },
+    {
+      "id": "hn:50490618",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "End‑to‑End 4‑Bit Training",
+      "description": "Thinking Machines describes end-to-end 4-bit training for AI models.",
+      "topics": [
+        "AI",
+        "Deep Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "stokedmartin",
+      "url": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "createdAt": "2026-11-13T22:06:35Z",
+      "updatedAt": "2026-11-13T22:06:35Z"
+    },
+    {
+      "id": "hn:50488464",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "description": "Perplexity explains the training, evaluation, and use cases behind Decider v1.3.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "createdAt": "2026-11-13T19:24:47Z",
+      "updatedAt": "2026-11-13T19:24:47Z"
+    },
+    {
+      "id": "hn:50484007",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lonewolf 0.3 – A standalone XMPP server written in Rust",
+      "description": "Lonewolf 0.3 is a standalone XMPP server written in Rust.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ortuman",
+      "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0",
+      "createdAt": "2026-11-13T14:28:40Z",
+      "updatedAt": "2026-11-13T14:28:40Z"
+    },
+    {
+      "id": "hn:50487688",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft outage gives customers a crash course in dependence on Redmond",
+      "description": "A Microsoft outage left customers with a stark lesson in how much they depend on Redmond.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "nephihaha",
+      "url": "https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805",
+      "createdAt": "2026-11-13T18:29:16Z",
+      "updatedAt": "2026-11-13T18:29:16Z"
+    },
+    {
+      "id": "hn:50484960",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "description": "Google is cutting off Search access for AI-free schools, and the story explores theories for why.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "kamaraju",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "createdAt": "2026-11-13T15:29:10Z",
+      "updatedAt": "2026-11-13T15:29:10Z"
+    },
+    {
+      "id": "hn:50487605",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+      "description": "A write-up on bypassing Android's clipboard read protections via a CVE.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dethmasque",
+      "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
+      "createdAt": "2026-11-13T18:23:49Z",
+      "updatedAt": "2026-11-13T18:23:49Z"
     }
   ]
 }
