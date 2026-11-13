@@ -44327,6 +44327,173 @@
       "createdAt": "2026-11-13T12:15:06Z",
       "updatedAt": "2026-11-13T12:15:06Z",
       "content": "Jellytone targets iOS 18.4 or later and covers albums, artists, songs, playlists, genres, favourites and downloads, with an editable queue, background playback and a library cache so screens open before the network responds. Downloads are verified against a manifest, and the access token is stored in the Keychain. There's no App Store build yet; you generate the project with XcodeGen and build it in Xcode.\n\n[Repo on GitHub](https://github.com/rorystandley/jellytone)\n\n[Post on X](https://x.com/RoryStandley/status/2121215276741980636)"
+    },
+    {
+      "id": "hn:50477231",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "description": "Nvidia employees are petitioning for the return of Jensen Huang as CEO, according to Wired.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "lavendermon",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "createdAt": "2026-11-13T02:16:24Z",
+      "updatedAt": "2026-11-13T02:16:24Z"
+    },
+    {
+      "id": "hn:50478609",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft Outlook/365 still down after 12 hours",
+      "description": "Microsoft Outlook and Microsoft 365 services remain down after more than 12 hours, according to Microsoft's status account.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "player85",
+      "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+      "createdAt": "2026-11-13T05:08:23Z",
+      "updatedAt": "2026-11-13T05:08:23Z"
+    },
+    {
+      "id": "hn:50481187",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "description": "Anthropic reports elevated errors across claude.ai, Claude Code, and platform.claude.com.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "__vivek",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "createdAt": "2026-11-13T10:18:13Z",
+      "updatedAt": "2026-11-13T10:18:13Z"
+    },
+    {
+      "id": "hn:50475713",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "description": "Edge0 introduces a 145B-parameter model aimed at bringing frontier-level AI capabilities to a local computer.",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "sroussey",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "createdAt": "2026-11-12T23:06:17Z",
+      "updatedAt": "2026-11-12T23:06:17Z"
+    },
+    {
+      "id": "hn:50477649",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "description": "Brave's Search API now accepts agentic payments through the x402 protocol.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sjdh76",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "createdAt": "2026-11-13T03:08:08Z",
+      "updatedAt": "2026-11-13T03:08:08Z"
+    },
+    {
+      "id": "hn:50472506",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vibes Don't Maintain",
+      "description": "An essay on why software built by vibe coding still needs real maintenance and engineering care.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dxs",
+      "url": "https://roll.bybacon.com/2026/10/14/vibes-dont-maintain.html",
+      "createdAt": "2026-11-12T19:06:29Z",
+      "updatedAt": "2026-11-12T19:06:29Z"
+    },
+    {
+      "id": "hn:50480480",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Dawn of the Data Intelligence Engineer",
+      "description": "A look at the emerging data intelligence engineer role.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "jonbaer",
+      "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+      "createdAt": "2026-11-13T09:08:18Z",
+      "updatedAt": "2026-11-13T09:08:18Z"
+    },
+    {
+      "id": "hn:50482843",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Training a 1T-Parameter MoE on EU public infrastructure",
+      "description": "PyTorch describes training a 1-trillion-parameter mixture-of-experts model on European public infrastructure.",
+      "topics": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "amunozo",
+      "url": "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/",
+      "createdAt": "2026-11-13T12:56:08Z",
+      "updatedAt": "2026-11-13T12:56:08Z"
+    },
+    {
+      "id": "hn:50482693",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tests as data: Ensuring AI-generated code does what we want",
+      "description": "Martin Fowler on using tests as data to ensure AI-generated code does what is intended.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "BerislavLopac",
+      "url": "https://martinfowler.com/articles/tests-as-data.html",
+      "createdAt": "2026-11-13T12:41:43Z",
+      "updatedAt": "2026-11-13T12:41:43Z"
+    },
+    {
+      "id": "hn:50482427",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lessons from 59 Linux Kernel Bug Reports",
+      "description": "Microsoft Security shares lessons drawn from 59 Linux kernel bug reports.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "satirr",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+      "createdAt": "2026-11-13T12:15:03Z",
+      "updatedAt": "2026-11-13T12:15:03Z"
     }
   ]
 }
