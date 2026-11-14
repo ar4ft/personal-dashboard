@@ -45354,6 +45354,172 @@
       "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
       "createdAt": "2026-11-13T18:23:49Z",
       "updatedAt": "2026-11-13T18:23:49Z"
+    },
+    {
+      "id": "hn:50493251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "description": "A report alleges Nvidia engineered GPU scarcity by funding AI startups to buy its chips.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "createdAt": "2026-11-14T02:52:59Z",
+      "updatedAt": "2026-11-14T02:52:59Z"
+    },
+    {
+      "id": "hn:50484658",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "description": "Jonathan Blow asks why software feels unchanged if AI has solved coding, in a video talk.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "helloplanets",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "createdAt": "2026-11-13T15:08:44Z",
+      "updatedAt": "2026-11-13T15:08:44Z"
+    },
+    {
+      "id": "hn:50493062",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ggml v1.0.0",
+      "description": "The ggml tensor library reaches version 1.0.0.",
+      "topics": [
+        "Programming",
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "cobychapple",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "createdAt": "2026-11-14T02:28:29Z",
+      "updatedAt": "2026-11-14T02:28:29Z"
+    },
+    {
+      "id": "hn:50487228",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+      "description": "A pixel-art isometric map of the San Francisco Bay Area, built as a Show HN project.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "juscha1",
+      "url": "https://isometricsf.com/",
+      "createdAt": "2026-11-13T17:58:37Z",
+      "updatedAt": "2026-11-13T17:58:37Z"
+    },
+    {
+      "id": "hn:50491830",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What happened to 3Com?",
+      "description": "A look back at what happened to networking company 3Com.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gvieri",
+      "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+      "createdAt": "2026-11-13T23:48:59Z",
+      "updatedAt": "2026-11-13T23:48:59Z"
+    },
+    {
+      "id": "hn:50491545",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+      "description": "A live map of U.S. flights during the FAA's nationwide ground stop.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gvsi",
+      "url": "https://grounds.top/",
+      "createdAt": "2026-11-13T23:17:39Z",
+      "updatedAt": "2026-11-13T23:17:39Z"
+    },
+    {
+      "id": "hn:50440709",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "description": "An argument for repurposing an old phone instead of buying an expensive Raspberry Pi.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "casi",
+      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+      "createdAt": "2026-11-10T14:16:05Z",
+      "updatedAt": "2026-11-10T14:16:05Z"
+    },
+    {
+      "id": "hn:50491400",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How Not to Build a Music Player",
+      "description": "Lessons from building a music player the hard way.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "vinhnx",
+      "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
+      "createdAt": "2026-11-13T23:04:30Z",
+      "updatedAt": "2026-11-13T23:04:30Z"
+    },
+    {
+      "id": "hn:50492950",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+      "description": "Security agencies worldwide were found to use an ad-based surveillance system, according to Citizen Lab research.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "billybuckwheat",
+      "url": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
+      "createdAt": "2026-11-14T02:15:41Z",
+      "updatedAt": "2026-11-14T02:15:41Z"
+    },
+    {
+      "id": "hn:50483959",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CERN Built the Large Hadron Collider's Next-Gen Magnets",
+      "description": "CERN built next-generation superconducting magnets for the Large Hadron Collider.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "marc__1",
+      "url": "https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets",
+      "createdAt": "2026-11-13T14:25:46Z",
+      "updatedAt": "2026-11-13T14:25:46Z"
     }
   ]
 }
