@@ -45789,6 +45789,171 @@
       "url": "https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets",
       "createdAt": "2026-11-13T14:25:46Z",
       "updatedAt": "2026-11-13T14:25:46Z"
+    },
+    {
+      "id": "hn:50499017",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "description": "Research finds apps built with Lovable exposing passport details and more than 200,000 private messages.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "armcat",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "createdAt": "2026-11-14T17:43:10Z",
+      "updatedAt": "2026-11-14T17:43:10Z"
+    },
+    {
+      "id": "hn:50493904",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Monkey Island: all 13 versions side by side",
+      "description": "A side-by-side comparison of all 13 versions of Monkey Island.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "maximilianburke",
+      "url": "https://monkeyisland.pages.dev/",
+      "createdAt": "2026-11-14T04:23:30Z",
+      "updatedAt": "2026-11-14T04:23:30Z"
+    },
+    {
+      "id": "hn:50496602",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+      "description": "An EFF piece arguing that tech companies are once again trying to redefine the concept of privacy.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gslin",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "createdAt": "2026-11-14T12:45:45Z",
+      "updatedAt": "2026-11-14T12:45:45Z"
+    },
+    {
+      "id": "hn:50500963",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SpaceX Catches the Starship to end Flight 15",
+      "description": "SpaceX caught the Starship booster to close out Flight 15.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ls612",
+      "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+      "createdAt": "2026-11-14T21:22:24Z",
+      "updatedAt": "2026-11-14T21:22:24Z"
+    },
+    {
+      "id": "hn:50496976",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "KDE: The documentary [video]",
+      "description": "A documentary video about KDE.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mrkn1",
+      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+      "createdAt": "2026-11-14T13:43:28Z",
+      "updatedAt": "2026-11-14T13:43:28Z"
+    },
+    {
+      "id": "hn:50497009",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Italy fines Meta $887M over Android users' data access",
+      "description": "Italy has fined Meta $887 million over Android users' data access.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "giuliomagnifico",
+      "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+      "createdAt": "2026-11-14T13:48:06Z",
+      "updatedAt": "2026-11-14T13:48:06Z"
+    },
+    {
+      "id": "hn:50441444",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Generative AI uses more energy on non-English text",
+      "description": "Generative AI consumes more energy when processing non-English text, according to new research.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "DeepLogin",
+      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+      "createdAt": "2026-11-10T15:07:28Z",
+      "updatedAt": "2026-11-10T15:07:28Z"
+    },
+    {
+      "id": "hn:50499038",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Family Tree of Software Job Titles",
+      "description": "A visual family tree tracing how software job titles relate to one another.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "umerf",
+      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+      "createdAt": "2026-11-14T17:45:19Z",
+      "updatedAt": "2026-11-14T17:45:19Z"
+    },
+    {
+      "id": "hn:50496051",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+      "description": "Google's Project Zero will disclose vulnerabilities 90 days after reporting them.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "hacb",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "createdAt": "2026-11-14T11:13:17Z",
+      "updatedAt": "2026-11-14T11:13:17Z"
+    },
+    {
+      "id": "hn:50478632",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Let's Write a PostScript Interpreter",
+      "description": "A walkthrough of writing a PostScript interpreter from scratch.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "RebelPotato",
+      "url": "https://beyondloom.com/blog/postscript.html",
+      "createdAt": "2026-11-13T05:12:56Z",
+      "updatedAt": "2026-11-13T05:12:56Z"
     }
   ]
 }
