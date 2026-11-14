@@ -2,6 +2,275 @@
   "version": 1,
   "items": [
     {
+      "id": "x:2121732041490489612",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "tilewall: tiling a dozen terminal windows of coding agents",
+      "description": "Sergey Nes built tilewall after terminal tabs stopped scaling past about six agents: every window becomes a tile, and the one you click grows to a quarter of the screen while the rest shrink.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Sergey Nes (@sergenes)",
+      "url": "https://x.com/sergenes/status/2121732041490489612",
+      "createdAt": "2026-11-14T22:28:33Z",
+      "updatedAt": "2026-11-14T22:28:33Z",
+      "content": "A small developer tool for running many coding agents side by side, shown in a demo video in the post. It started as one terminal window with one agent and grew as he added more.\n\n[Post on X](https://x.com/sergenes/status/2121732041490489612)"
+    },
+    {
+      "id": "hn:50497900",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Formalizing the US tax code in Lean finds 138 drafting mistakes",
+      "description": "Lexifina translated the Internal Revenue Code into Lean and checked every cross-reference; of 257 findings, 138 were real faults such as citations to repealed or moved provisions, typos and duplicated section numbers.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dnw",
+      "url": "https://lexifina.com/blog/formalizing-the-us-tax-code",
+      "createdAt": "2026-11-14T15:41:20Z",
+      "updatedAt": "2026-11-14T15:41:20Z",
+      "content": "A parser reads every cross-reference in Title 26, including ones written in words, and Lean checks that the target exists and is in force, run as a test suite against versioned legislation in the CC0 global-law repository. AI agents triaged each finding against the official text: 98 were intended, 21 were editorial hyperlink false alarms. The sections are also tested against IRS worked examples, as a step toward hunting unknown loopholes.\n\n[Blog post](https://lexifina.com/blog/formalizing-the-us-tax-code)\n\n[HN discussion](https://news.ycombinator.com/item?id=50497900)"
+    },
+    {
+      "id": "hn:50497892",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "description": "PyPI finished its UI update: project pages now have a Security tab that shows each release's provenance state, plus a redesigned project detail page and release history.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rbanffy",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "createdAt": "2026-11-14T15:40:52Z",
+      "updatedAt": "2026-11-14T15:40:52Z",
+      "content": "Shaped by user research, the new Security tab distinguishes full provenance, no provenance and warnings such as incomplete, inconsistent, changed or lost provenance, so users can spot suspicious releases. The post also covers the reworked release files and history views and builds on PyPI's earlier digital attestations work.\n\n[PyPI blog post](https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50497892)"
+    },
+    {
+      "id": "hn:50497589",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepSeek V3 in about 190 lines of pure JAX, trained on a MacBook Air",
+      "description": "A from-scratch JAX implementation of the DeepSeek-V3 architecture (MLA, DeepSeekMoE, auxiliary-loss-free balancing, multi-token prediction) with no Flax or PyTorch, pretrained on public-domain detective fiction.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "VaibhaavTiwari",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "createdAt": "2026-11-14T15:04:15Z",
+      "updatedAt": "2026-11-14T15:04:15Z",
+      "content": "Parameters are plain dicts of arrays and every component is a readable function: Multi-head Latent Attention caching one small latent per token (480 → 144 numbers per token per layer), decoupled RoPE, one shared plus 16 routed experts with top-4 routing, a per-expert bias for aux-loss-free load balancing, the small sequence-wise balance loss and an MTP head. The 36.2M-parameter model (13.6M active per token) was trained on a MacBook Air, with a write-up explaining each piece.\n\n[Repo on GitHub](https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax)\n\n[Write-up](https://vaibhaav.in/writing/deepseek-v3-jax/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50497589)"
+    },
+    {
+      "id": "hn:50497155",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX Stations with vLLM",
+      "description": "NVIDIA shows how to serve the 753B-parameter GLM-5.3 NVFP4 mixture-of-experts model, which needs about 464 GB of GPU memory, across two GB300 DGX Stations linked by ConnectX-8 RDMA.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "wondersky",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "createdAt": "2026-11-14T14:09:25Z",
+      "updatedAt": "2026-11-14T14:09:25Z",
+      "content": "The model (40B active parameters per token) doesn't fit in one station's 252 GB of HBM3e, so vLLM runs tensor parallelism (TP=2) behind a single OpenAI-compatible endpoint, with multi-token prediction, FP8 KV cache and prefix caching. On the SPEED-Bench coding set, output throughput peaked at 607.8 tok/s at concurrency 16 and dropped to 385 tok/s at concurrency 32.\n\n[NVIDIA technical blog](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50497155)"
+    },
+    {
+      "id": "hn:50497132",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Terminactory, a terminal-native idle factory game in Rust and Ratatui",
+      "description": "A cozy factory game that runs in the terminal, meant to play while coding agents work, with Claude Code hooks that deliver the agent's responses in-game as telegrams.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "snipedbywifi",
+      "url": "https://gitlab.com/snipedbywifi/terminactory",
+      "createdAt": "2026-11-14T14:05:54Z",
+      "updatedAt": "2026-11-14T14:05:54Z",
+      "content": "Built with heavy AI assistance, it has the usual factory basics (building, deleting, income tracking, selection tools) plus a fake in-game browser with a wiki, forums and lore, and a research graph showing what each unlock costs.\n\n[Repo on GitLab](https://gitlab.com/snipedbywifi/terminactory)\n\n[HN discussion](https://news.ycombinator.com/item?id=50497132)"
+    },
+    {
+      "id": "hn:50496885",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Watch a brain learn: a visual explanation of reinforcement learning",
+      "description": "Aatish Bhatia and Arkarup Banerjee build a four-neuron creature that steers toward light and let readers wire its brain by hand before showing how trial-and-error learning finds the weights on its own.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "aatish",
+      "url": "https://aatishb.com/myriad/how-brains-learn/",
+      "createdAt": "2026-11-14T13:31:06Z",
+      "updatedAt": "2026-11-14T13:31:06Z",
+      "content": "An interactive explainer from the Myriad series: the spark's brain comes down to three numbers (straight connections, crossed connections and drive), and sliders let you try to make it love the light. The piece then shows how reward-driven updates explore those parameters, building intuition for reinforcement learning in brains and neural networks.\n\n[Interactive article](https://aatishb.com/myriad/how-brains-learn/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50496885)"
+    },
+    {
+      "id": "hn:50496870",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Probabilistic data structures in Go",
+      "description": "Anton Zhiyanov explains Bloom filters, count-min sketch, HyperLogLog, t-digest and top-k, and introduces unsure, a dependency-free Go package implementing them.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mfrw",
+      "url": "https://antonz.org/probabilistic-data-structures/",
+      "createdAt": "2026-11-14T13:29:36Z",
+      "updatedAt": "2026-11-14T13:29:36Z",
+      "content": "Each structure trades exact answers for far less memory, for example a Bloom filter for a million 8-byte strings at a 1% false-positive rate takes about 1.24 MB instead of roughly 64 MB for a set. The post covers how each works and what guarantees it gives, with interactive examples; the core of each implementation is 100–300 lines and usually several times faster than alternatives.\n\n[Article](https://antonz.org/probabilistic-data-structures/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50496870)"
+    },
+    {
+      "id": "hn:50496811",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google Research: advancing science and engineering with Antigravity's /teamwork",
+      "description": "Google Research reports results from Antigravity's /teamwork multi-agent workflows on open problems in mathematics, chemistry, systems software and ML engineering, and is opening the tools to outside researchers.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "createdAt": "2026-11-14T13:20:43Z",
+      "updatedAt": "2026-11-14T13:20:43Z",
+      "content": "Working with human experts and Gemini 4 Argon, Carbon and Hydrogen models, the agents contributed to results in information theory, formal verification, molecular structure discovery and kernel optimization, plus production infrastructure gains at Google. /teamwork is available in Antigravity alongside /boost, with a researcher access program.\n\n[Google Research blog](https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50496811)"
+    },
+    {
+      "id": "x:2121543749021147234",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "HermesBot: an open-source Mac app for a whole team of Hermes agent bots",
+      "description": "Wecko AI released HermesBot, an MIT-licensed macOS app that shows all your Hermes Agent bots in one window, running locally with your choice of model and your own keys.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Wecko AI | HermesBot (@wecko_ai)",
+      "url": "https://x.com/wecko_ai/status/2121543749021147234",
+      "createdAt": "2026-11-14T10:00:20Z",
+      "updatedAt": "2026-11-14T10:00:20Z",
+      "content": "HermesBot is a client for NousResearch's Hermes Agent: see which bot is working, what each is doing and who is waiting on you, chat with one bot or put 2–6 in a room where they mention each other. Each bot is a Hermes profile whose memory, skills and files stay on your disk; any configured model (Claude, GPT, Gemini or local) can be picked per conversation. v0.2.0, Apple silicon, Node 22+.\n\n[Repo on GitHub](https://github.com/Wecko-ai/hermes-bot)\n\n[Hermes Agent](https://github.com/NousResearch/hermes-agent)\n\n[Post on X](https://x.com/wecko_ai/status/2121543749021147234)"
+    },
+    {
+      "id": "x:2121447185191473190",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Higurashi releases Haru-4B, an open full-duplex spoken dialogue model",
+      "description": "Haru-4B is an Apache 2.0 base model built on Qwen3.5-4B that listens and speaks at the same time, with about 65 ms end-to-end latency on a MacBook.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Klaus (@KlauseSchip)",
+      "url": "https://x.com/KlauseSchip/status/2121447185191473190",
+      "createdAt": "2026-11-14T03:36:38Z",
+      "updatedAt": "2026-11-14T03:36:38Z",
+      "content": "Higurashi trained it on 40 million hours of real multilingual speech (160+ languages) instead of synthetic turn-based dialogue, so it learns backchannels, interruptions and turn-taking. It processes incoming and outgoing audio every 133 ms and uses a one-step MeanFlow MLP head instead of an extra acoustic Transformer. It is a pretrained research base, not a finished assistant.\n\n[Higurashi blog post](https://blog.higurashi.ai/melte/haru4b/)\n\n[Model on Hugging Face](https://huggingface.co/higurashi-ai/Haru-4B)\n\n[Post on X](https://x.com/KlauseSchip/status/2121447185191473190)"
+    },
+    {
+      "id": "hn:50493246",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Antithesis: beating the frontier on NetHack with a fuzzer",
+      "description": "Antithesis describes how its deterministic-simulation fuzzer, guided by a short partial specification, reliably ascends in NetHack, and the game bug it uncovered along the way.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nwjsmith",
+      "url": "https://antithesis.com/blog/2026/nethack/",
+      "createdAt": "2026-11-14T02:51:57Z",
+      "updatedAt": "2026-11-14T02:51:57Z",
+      "content": "NetHack's permadeath, scarce information and long horizons have defeated most bots and AI agents. The long write-up argues that search plus a little strategy beats hand-coded bots and huge models, adapts when the game changes, and finds unknown unknowns, such as a del_light_source bug triggered when a polymorphed Valkyrie is blasted by her own quest artifact.\n\n[Antithesis blog](https://antithesis.com/blog/2026/nethack/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50493246)"
+    },
+    {
+      "id": "x:2121391650148585690",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gantry: a native macOS app for managing Docker containers locally and over SSH",
+      "description": "Dan Kornas highlights Gantry, a native Mac app for managing and monitoring Docker containers on the local machine and on remote hosts over SSH.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Dan Kornas (@DanKornas)",
+      "url": "https://x.com/DanKornas/status/2121391650148585690",
+      "createdAt": "2026-11-13T23:55:57Z",
+      "updatedAt": "2026-11-13T23:55:57Z",
+      "content": "Gantry is pitched as a way to stop juggling terminal tabs to check containers. It requires macOS 26 or later and an existing container runtime.\n\n[Post on X](https://x.com/DanKornas/status/2121391650148585690)"
+    },
+    {
+      "id": "x:2121380186021150999",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "UNA Watch: a modular GPS smartwatch with an STM32 MCU and open-source SDK",
+      "description": "Pimoroni now sells the UNA Watch, a modular, repairable GPS smartwatch whose firmware, hardware designs and C++ SDK are public on GitHub.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Rick Lehrbaum (@RLehrbaum37632)",
+      "url": "https://x.com/RLehrbaum37632/status/2121380186021150999",
+      "createdAt": "2026-11-13T23:10:24Z",
+      "updatedAt": "2026-11-13T23:10:24Z",
+      "content": "It uses an STM32U595 Cortex-M33 with 2.5 MB RAM and 4 GB eMMC, a 1.2-inch 240×240 memory-in-pixel display, multi-constellation GNSS, an optical heart-rate sensor, IMU, barometer and BLE 5.2. Apps are native C++ ELF binaries running on FreeRTOS, and the Android/iOS companion app syncs activity with Strava.\n\n[LinuxGizmos article](https://linuxgizmos.com/modular-gps-smartwatch-with-stm32-mcu-and-open-source-sdk/)\n\n[Post on X](https://x.com/RLehrbaum37632/status/2121380186021150999)"
+    },
+    {
+      "id": "reading:abakcus-interesting-prime-numbers",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Interesting Prime Numbers",
+      "description": "Abakcus collects primes with odd properties, starting with 73,939,133, the largest of exactly 83 right-truncatable primes, which stays prime as you chop off its digits one by one.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/interesting-prime-numbers",
+      "content": "A running collection of curious primes: ones that read the same backwards, ones made only of ones, and ones that stay prime however you cut them. The first entry shows why right-truncatable primes have to end: only 1, 3, 7 and 9 can be appended, primes thin out, and the tree of survivors stops at eight digits, a rare prime question with a complete, finished answer (OEIS A024770).\n\n[Read on Abakcus](https://abakcus.com/articles/interesting-prime-numbers)",
+      "createdAt": "2026-11-13T12:00:00Z",
+      "updatedAt": "2026-11-13T12:00:00Z"
+    },
+    {
       "id": "hn:50492877",
       "section": "news",
       "type": "news",
