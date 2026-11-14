@@ -2,6 +2,276 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50492877",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "llama.cpp and ggml reach v1.0.0 with semantic versioning",
+      "description": "The ggml-org team released llama.cpp v1.0.0 and ggml v1.0.0, committing to major-version bumps for any breaking change to their public C APIs and ABIs.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "shubham0204",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "createdAt": "2026-11-14T02:05:37Z",
+      "updatedAt": "2026-11-14T02:05:37Z",
+      "content": "After 3.5 years, llama.cpp and ggml now follow semantic versioning: MAJOR for breaking changes to the public headers, MINOR for backward-compatible features, backends and model support, PATCH for fixes. The post lists distribution channels (Homebrew, conda-forge, MacPorts, Winget, Docker, an XCFramework for iOS/macOS), notes support for more than 150 architecture variants and mainstream speculative decoding methods, and points to Llama desktop apps for macOS and Windows from the same team.\n\n[Announcement on Hugging Face](https://huggingface.co/blog/ggml-org/llama-cpp-v1)\n\n[ggml v1.0.0 release](https://github.com/ggml-org/ggml/releases/tag/v1.0.0)\n\n[HN discussion](https://news.ycombinator.com/item?id=50492877)"
+    },
+    {
+      "id": "hn:50491423",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Terminal borders that don't cost a cell",
+      "description": "Ratatui maintainer Josh McKinney proposes a terminal protocol that draws thin lines on cell edges, so borders, rounded buttons and underlined fields don't use up rows or columns.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "vinhnx",
+      "url": "https://www.joshka.net/cell-borders/",
+      "createdAt": "2026-11-13T23:06:40Z",
+      "updatedAt": "2026-11-13T23:06:40Z",
+      "content": "Box-drawing characters make every pane lose a row and a column on each side. The proposed protocol instead draws lines on the edges of cells; it works today as a patch to Ghostty (an earlier version ran in Rio), with Ratatui demo apps that fall back to box-drawing characters in other terminals. He's asking terminal and TUI authors for feedback.\n\n[Blog post](https://www.joshka.net/cell-borders/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50491423)"
+    },
+    {
+      "id": "hn:50486914",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepSeek Ultrafast: Baseten's open inference engine hits ~2,000 tok/s on DeepSeek-V4.1-Flash",
+      "description": "Baseten open-sourced a Rust/CUDA inference engine for DeepSeek-V4.1-Flash on Blackwell GPUs, reporting 1,740 tok/s decode on 4x GB300 and 1M-token prefill in about 12-13 seconds.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "neo2006",
+      "url": "https://github.com/basetenlabs/deepseek-ultrafast",
+      "createdAt": "2026-11-13T17:39:03Z",
+      "updatedAt": "2026-11-13T17:39:03Z",
+      "content": "The engine targets sm_100a/sm_103a (B200, B300, GB300), supports 1M context and shares KV cache across servers using Redis for coordination and RDMA. Each decode step drafts a block of tokens and verifies it, averaging 5.6 accepted tokens per step; 8x B300 reaches 2,060 tok/s. The README includes reproduction instructions and an OpenAI-compatible server.\n\n[Repo on GitHub](https://github.com/basetenlabs/deepseek-ultrafast)\n\n[HN discussion](https://news.ycombinator.com/item?id=50486914)"
+    },
+    {
+      "id": "hn:50492269",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ember: an open-source Mac app that turns off the MagSafe charging light",
+      "description": "Ember is a menu bar app that switches off the MagSafe 3 charging LED during Focus modes, schedules or snoozes, and hands it back to macOS otherwise.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "toppa33",
+      "url": "https://github.com/Getterbetter/ember/releases/tag/v1.0.1",
+      "createdAt": "2026-11-14T00:44:58Z",
+      "updatedAt": "2026-11-14T00:44:58Z",
+      "content": "It adds a Focus filter (Sleep, Do Not Disturb, Work...), has Auto/Always off/Always on modes, a lights-out schedule, a low-battery guard that keeps the light on, Shortcuts actions, and a Wave button that blinks the light so you can find the cable in the dark. A tiny privileged helper writes only light states to one SMC key. Requires an Apple silicon MacBook with MagSafe 3 and macOS 26.\n\n[Repo on GitHub](https://github.com/Getterbetter/ember/releases/tag/v1.0.1)\n\n[HN discussion](https://news.ycombinator.com/item?id=50492269)"
+    },
+    {
+      "id": "hn:50491295",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lying to Zed to get its remote server running on FreeBSD",
+      "description": "How to use Zed's remote development with a FreeBSD box by running Zed's Linux server under FreeBSD's Linux compatibility layer, with a small uname wrapper that reports Linux.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "arch1e",
+      "url": "https://hayzam.com/blog/03-lying-to-zeds-remote-editor/",
+      "createdAt": "2026-11-13T22:54:47Z",
+      "updatedAt": "2026-11-13T22:54:47Z",
+      "content": "Zed has no FreeBSD remote server yet, so the author enables linux64 compat, installs linux_base-rl9 and puts a wrapper script on PATH that answers Zed's platform probe with Linux x86_64 while passing every other uname call through. The post also covers the remaining issues and asks the Zed team for native FreeBSD support.\n\n[Blog post](https://hayzam.com/blog/03-lying-to-zeds-remote-editor/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50491295)"
+    },
+    {
+      "id": "hn:50493731",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenOrange runs Cloudflare Workers, Durable Objects and KV on your own cloud",
+      "description": "Rivet's OpenOrange runs Cloudflare Workers, Durable Objects, KV, Queues and Workflows unchanged on AWS, GCP, Azure or your own servers; it is open source under Apache 2.0.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "madars",
+      "url": "https://openorange.dev/",
+      "createdAt": "2026-11-14T03:58:32Z",
+      "updatedAt": "2026-11-14T03:58:32Z",
+      "content": "Options are a managed Rivet Cloud cluster, bring-your-own-cloud operated by Rivet, or fully self-hosted. Storage like Durable Object SQLite, D1 and KV lands in S3, and the site compares Cloudflare list prices with AWS Graviton costs, claiming about 4.8x cheaper Durable Object compute and 8.7x cheaper storage.\n\n[OpenOrange site](https://openorange.dev/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50493731)"
+    },
+    {
+      "id": "hn:50491980",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Unsloth updates Qwen3.8-27B GGUFs with Dynamic V3.1 quantization",
+      "description": "Unsloth re-released its 2- to 6-bit Qwen3.8-27B GGUFs using its Dynamic V3.1 algorithm, reporting 5-10% better accuracy at comparable sizes on agentic and general benchmarks.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Retro_Dev",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "createdAt": "2026-11-14T00:06:04Z",
+      "updatedAt": "2026-11-14T00:06:04Z",
+      "content": "Qwen3.8-27B is a dense vision and reasoning model with a 256K context that runs in about 17 GB of RAM/VRAM. Unsloth benchmarked the new quants on Terminal Bench 2.1, DeepSWE, LiveCodeBench v6, GPQA Diamond and MMLU-Pro, compares them with Exllama-v3, and notes its 3-bit quants were left unchanged because V3.1 didn't improve them.\n\n[Unsloth guide](https://unsloth.ai/docs/models/qwen3.8)\n\n[HN discussion](https://news.ycombinator.com/item?id=50491980)"
+    },
+    {
+      "id": "hn:50453176",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "litesql: a Go library for using SQLite correctly",
+      "description": "litesql wraps SQLite3 in Go with sensible defaults and separate read and write transactions: a pool of read connections and a single dedicated write connection.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sethops1",
+      "url": "https://github.com/cattlecloud/litesql",
+      "createdAt": "2026-11-11T13:30:26Z",
+      "updatedAt": "2026-11-11T13:30:26Z",
+      "content": "The library ships a TypicalConfiguration for web apps and StartRead/StartWrite helpers. Reads run concurrently and cannot write; writes are serialized through one connection, avoiding the usual SQLITE_BUSY surprises when Go's database/sql pool is used naively with SQLite.\n\n[Repo on GitHub](https://github.com/cattlecloud/litesql)\n\n[HN discussion](https://news.ycombinator.com/item?id=50453176)"
+    },
+    {
+      "id": "x:2121470049315934569",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hielo: SwiftUI keyboard utilities, including a Liquid Glass popover above the keyboard",
+      "description": "Laura Sandoval released Hielo, a Swift package that can present a Liquid Glass popover over the iOS system keyboard, like the Messages attachment picker, and report the live keyboard height.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Laura Sandoval (@laurasideral)",
+      "url": "https://x.com/laurasideral/status/2121470049315934569",
+      "createdAt": "2026-11-14T05:07:29Z",
+      "updatedAt": "2026-11-14T05:07:29Z",
+      "content": "The API mirrors SwiftUI's .popover and .sheet: add .hieloHost() to a parent view and .hieloPopover to the source view. It works by freezing a copy of the system keyboard and drawing above it (hence the name), which relies on lightly obfuscated private APIs, so use with care; the keyboard-height helper is public API only. Requires iOS 26 and Swift 6.2.\n\n[Repo on GitHub](https://github.com/laurasandoval/Hielo)\n\n[Post on X](https://x.com/laurasideral/status/2121470049315934569)"
+    },
+    {
+      "id": "x:2121236979883102300",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AuralKit 3.0 can transcribe a chosen audio track from a video on iOS and macOS 27",
+      "description": "AuralKit, a Swift wrapper around Apple's SpeechTranscriber and SpeechAnalyzer for on-device transcription, can now transcribe a specific audio track from a local video while keeping its timestamps.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Rudrank Riyam (@rudrank)",
+      "url": "https://x.com/rudrank/status/2121236979883102300",
+      "createdAt": "2026-11-13T13:41:21Z",
+      "updatedAt": "2026-11-13T13:41:21Z",
+      "content": "AuralKit handles microphone capture, buffer conversion, locale model downloads and cancellation behind a session-based API. Version 3.0 adds media-file track selection on iOS and macOS 27 (for example a commentary track) plus Xcode 27-ready file transcription and analyzer preheating. MIT licensed.\n\n[Repo on GitHub](https://github.com/rryam/AuralKit)\n\n[Post on X](https://x.com/rudrank/status/2121236979883102300)"
+    },
+    {
+      "id": "x:2121502992067342661",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "QuotaPilot: an open-source Mac menu bar app for Codex and Claude Code quotas",
+      "description": "QuotaPilot is a free, MIT-licensed native macOS app and CLI that shows how much of your Codex and Claude Code 5-hour and weekly quota is used, your burn rate and the reset time.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "AI Quota Watch (@aiquotawatch)",
+      "url": "https://x.com/aiquotawatch/status/2121502992067342661",
+      "createdAt": "2026-11-14T07:18:23Z",
+      "updatedAt": "2026-11-14T07:18:23Z",
+      "content": "It's a small AppKit/Swift card and menu bar item installed via Homebrew, with a quotapilot command-line tool for macOS, Linux and Windows. The companion AI Quota Watch site tracks plan limits and reset history for ChatGPT, Claude, Gemini and Grok with sources. Unofficial community project.\n\n[Repo on GitHub](https://github.com/dwagwd/quotapilot)\n\n[Post on X](https://x.com/aiquotawatch/status/2121502992067342661)"
+    },
+    {
+      "id": "x:2121252998626390473",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NextLat: next-latent prediction gives transformers compact world models",
+      "description": "A new revision of the NextLat paper extends next-token training with self-supervised prediction of the next latent state, pushing transformer latents toward belief states without changing architecture or inference.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Jayden Teoh (@jayden_teoh_)",
+      "url": "https://x.com/jayden_teoh_/status/2121252998626390473",
+      "createdAt": "2026-11-13T14:45:00Z",
+      "updatedAt": "2026-11-13T14:45:00Z",
+      "content": "Teoh and coauthors (including John Langford and Alex Lamb) argue standard transformers lack an incentive to compress history into consistent latent states. NextLat adds an auxiliary objective that injects a recurrent inductive bias while keeping parallel training; the v5 revision adds multi-token belief states and insights for scaling NextLat to large-scale pretraining, with gains reported on world modeling, reasoning, planning and language modeling.\n\n[Paper on arXiv](https://arxiv.org/abs/2511.05963)\n\n[Post on X](https://x.com/jayden_teoh_/status/2121252998626390473)"
+    },
+    {
+      "id": "x:2121288792837660803",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "dspy-wsp: a DSPy optimizer that lets a frontier model edit another model's weights",
+      "description": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming; for about $5-10 of GPT-6-Astra per model it improved every open decision model tested on the Typed Decisions benchmark.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Drew Breunig (@dbreunig)",
+      "url": "https://x.com/dbreunig/status/2121288792837660803",
+      "createdAt": "2026-11-13T17:07:14Z",
+      "updatedAt": "2026-11-13T17:07:14Z",
+      "content": "Building on last week's weight-space programming paper, the WeightSpace optimizer has a frontier model observe and directly edit a smaller model's weights with no gradients. Across five decision models from 0.6B to 9B, it added 1.9 to 16.1 points of held-out accuracy, and 6.5 to 20.0 points combined with the ReAnchor threshold optimizer.\n\n[Blog post](https://www.cmpnd.ai/blog/weight-space-programming-dspy.html)\n\n[Post on X](https://x.com/dbreunig/status/2121288792837660803)"
+    },
+    {
+      "id": "reading:abakcus-brachistochrone",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Brachistochrone Problem: the curve of fastest descent",
+      "description": "Abakcus retells Johann Bernoulli's 1696 challenge to find the fastest slide between two points, why the answer is a cycloid rather than a straight line, and how Newton solved it overnight.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/brachistochrone-problem",
+      "content": "An illustrated history of the problem that helped give birth to the calculus of variations: Bernoulli's notice in Acta Eruditorum, Leibniz's request for more time, the handful of correct solutions (Newton's reportedly in about 12 hours), and an interactive race showing the straight line is about a third slower.\n\n[Read on Abakcus](https://abakcus.com/articles/brachistochrone-problem)",
+      "createdAt": "2026-11-13T12:00:00Z",
+      "updatedAt": "2026-11-13T12:00:00Z"
+    },
+    {
+      "id": "reading:abakcus-rainbows",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How rainbows work: the 42° physics behind every bow",
+      "description": "An interactive Abakcus explainer that derives rainbows from one ray of sunlight in one water drop: why the bow is always about 42°, why red is outside, and where the second bow and dark band come from.",
+      "topics": [
+        "Science",
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/how-rainbows-work",
+      "content": "It opens with a six-question quiz most people get wrong, then builds the answer from refraction, reflection and a little trigonometry, following the work of a medieval monk, a Persian scholar, Descartes and Newton, and explains the brighter sky inside the bow, the reversed secondary bow and Alexander's dark band.\n\n[Read on Abakcus](https://abakcus.com/articles/how-rainbows-work)",
+      "createdAt": "2026-11-13T12:00:00Z",
+      "updatedAt": "2026-11-13T12:00:00Z"
+    },
+    {
       "id": "hn:50439193",
       "section": "news",
       "type": "news",
