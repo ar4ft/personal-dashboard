@@ -46375,6 +46375,254 @@
       "url": "https://arxiv.org/abs/2605.26298",
       "createdAt": "2026-11-15T12:23:24Z",
       "updatedAt": "2026-11-15T12:23:24Z"
+    },
+    {
+      "id": "hn:50506719",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The MacBook Pro's tandem OLED display and PWM flicker complaints",
+      "description": "Mac Anorak looks at reports from owners of the new OLED MacBook Pro who describe headaches, eye strain and nausea, and at how PWM dimming on the tandem OLED panel may affect flicker-sensitive users.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "MacAnorak",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "createdAt": "2026-11-15T13:15:22Z",
+      "updatedAt": "2026-11-15T13:15:22Z",
+      "content": "Apple's first OLED MacBook Pro (\"PROLED XDR\", with touch input) won praise for contrast and HDR, but MacRumors and Reddit threads collect reports of discomfort from people sensitive to pulse-width-modulation dimming. Some have already returned their machines. The article covers why OLED panels flicker at low brightness, and why the Mini-LED model Apple still sells may be the safer choice for some buyers.\n\n[Article on Mac Anorak](https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50506719)"
+    },
+    {
+      "id": "hn:50508715",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "clice v1.0: a new C/C++ language server written in modern C++",
+      "description": "clice, a Clang-based C/C++ language server and command-line tool, reaches its first stable release after about four months of nightly alpha builds and testing against real open-source projects.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "molenzwiebel",
+      "url": "https://ykiko.me/en/articles/2105384023094834022/",
+      "createdAt": "2026-11-15T17:22:32Z",
+      "updatedAt": "2026-11-15T17:22:32Z",
+      "content": "The author has spent two and a half years building clice as an alternative to clangd. It is still built on LLVM/Clang but has its own architecture. The release post explains why clangd wasn't simply patched, how the project got here, and how clice serves coding agents as well as editors.\n\n[Release post](https://ykiko.me/en/articles/2105384023094834022/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50508715)"
+    },
+    {
+      "id": "hn:50506588",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "lucyNES: a NES emulator written in Odin",
+      "description": "A solo developer's write-up of a seven-month project building an accurate NES emulator in the Odin language, with a debugger view, save states, a CRT shader and support for the common mappers.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "frostbyte7",
+      "url": "https://lucypero.com/lucynes.html",
+      "createdAt": "2026-11-15T12:51:47Z",
+      "updatedAt": "2026-11-15T12:51:47Z",
+      "content": "lucyNES is accurate enough to run Battletoads and hundreds of other games. It supports the NROM, MMC1, UxROM, CNROM, MMC3, GxROM and AxROM mappers, plus controllers and partial sound. The post pushes back on the idea that a NES emulator is a weekend project and lists what the author learned about the hardware, cycles and Odin along the way.\n\n[Project page](https://lucypero.com/lucynes.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50506588)"
+    },
+    {
+      "id": "hn:50509837",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Protomaps: self-hosting map tiles has gotten cheap and easy",
+      "description": "A practical guide to serving your own vector map tiles with Protomaps' single-file PMTiles format over HTTP Range requests, including extracting a region with the CLI and deploying on Bunny.net.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "bcye",
+      "url": "https://bruceroettgers.eu/blog/protomaps/",
+      "createdAt": "2026-11-15T19:26:22Z",
+      "updatedAt": "2026-11-15T19:26:22Z",
+      "content": "Commercial map APIs get expensive if a side project goes viral; Mapbox charges about $5 per 1,000 loads after the free tier. PMTiles packs a whole tileset into one file that a CDN can serve with Range requests. The CLI can cut the daily world build down to a bounding box or set of zoom levels, and on Cloudflare an edge function can translate z/x/y URLs.\n\n[Blog post](https://bruceroettgers.eu/blog/protomaps/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50509837)"
+    },
+    {
+      "id": "hn:50506940",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "db-branch: instant copy-on-write database branches on ZFS for agents and CI",
+      "description": "db-branch is a self-hosted, Apache-2.0 tool that uses ZFS clones to create copy-on-write branches of large MySQL and PostgreSQL databases in seconds, so a migration test, a pull request or an AI agent gets its own disposable copy.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "nu_nu11",
+      "url": "https://github.com/db-branch/db-branch",
+      "createdAt": "2026-11-15T13:50:51Z",
+      "updatedAt": "2026-11-15T13:50:51Z",
+      "content": "Branches are created without copying data: you can break one, reset it and throw it away. It can be clustered across VMs with ProxySQL routing the connections. The project is in beta, so APIs and command-line details may still change.\n\n[Repo on GitHub](https://github.com/db-branch/db-branch)\n\n[HN discussion](https://news.ycombinator.com/item?id=50506940)"
+    },
+    {
+      "id": "hn:50506255",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "nano-edge-tts: a 1.75M-parameter decoder that makes Kokoro TTS 11x faster on CPU",
+      "description": "nano-edge-tts replaces Kokoro-82M's 53M-parameter waveform decoder with a harmonic-plus-noise decoder of 1.75M parameters that runs no neural network at audio rate, with near-identical word error rate and UTMOS scores.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "drmhse",
+      "url": "https://huggingface.co/drmhse/nano-edge-tts",
+      "createdAt": "2026-11-15T11:53:37Z",
+      "updatedAt": "2026-11-15T11:53:37Z",
+      "content": "Kokoro's text side (pronunciation, timing, pitch, voices) is kept. Two tiny networks run 80 and 160 times per second and set per-frequency gains on a pulse train and white noise, then inverse STFTs produce the audio. On one Apple M4 CPU thread the decoder is 33x faster and the whole phonemes-to-audio path is 11x faster. Decoder weights shrink from 213 MB to 7 MB and peak memory drops to 0.75 GB. An accompanying paper covers the method, listening tests and negative results.\n\n[Model on Hugging Face](https://huggingface.co/drmhse/nano-edge-tts)\n\n[HN discussion](https://news.ycombinator.com/item?id=50506255)"
+    },
+    {
+      "id": "hn:50509251",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Memory management in 40 major C projects, a survey",
+      "description": "Phil Eaton surveys how 40 well-known C codebases, from SQLite and PostgreSQL to Linux, Redis and llama.cpp, actually allocate memory: plain malloc/free, regions/arenas, reference counting or garbage collection.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://theconsensus.dev/p/2026/11/08/c-memory-management-survey.html",
+      "createdAt": "2026-11-15T18:16:54Z",
+      "updatedAt": "2026-11-15T18:16:54Z",
+      "content": "Only 8 of the 40 projects allocate solely with malloc/free, and only 2 never use malloc/free. 15 use regions somewhere, 7 rely mainly on regions, 5 mainly on garbage collection and 3 mainly on reference counting. That makes it a useful map of real-world C allocation patterns.\n\n[Survey on The Consensus](https://theconsensus.dev/p/2026/11/08/c-memory-management-survey.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50509251)"
+    },
+    {
+      "id": "hn:50510366",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NoisyTCP: pre-auth remote memory corruption in the Linux kernel TCP stack (CVE-2026-99288)",
+      "description": "Hyunwoo Kim's advisory for a patched Linux kernel race in TCP request-socket handling that can be triggered remotely and without authentication against ordinary TCP listeners on multi-queue servers.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "emilfihlman",
+      "url": "https://github.com/V4bel/NoisyTCP",
+      "createdAt": "2026-11-15T20:28:20Z",
+      "updatedAt": "2026-11-15T20:28:20Z",
+      "content": "The bug needs a stale ehash lookup to race with a request socket being freed and reallocated in another RX context. It is reached by exploiting the different receive hashes of IPv4 fragments and normal TCP packets. Servers with two or more RX queues, or with RPS spreading packets across CPUs, are exposed, including default Nginx, Apache and SSH setups.\n\n[Advisory on GitHub](https://github.com/V4bel/NoisyTCP)\n\n[HN discussion](https://news.ycombinator.com/item?id=50510366)"
+    },
+    {
+      "id": "hn:50510504",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "nvALT is back: Brett Terpstra revives the classic Mac notes app",
+      "description": "Brett Terpstra has released a new version of the free nvALT notes app that runs on modern macOS, and Bicycle For Your Mind explains why its single search-or-create bar still beats heavier note apps.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "millspore",
+      "url": "https://bicycleforyourmind.com/revival-of-nvalt",
+      "createdAt": "2026-11-15T20:43:06Z",
+      "updatedAt": "2026-11-15T20:43:06Z",
+      "content": "nvALT was a popular plain-text notes app before Obsidian: you type in one bar to search existing notes or create a new one. The review contrasts that frictionless simplicity with Electron-based, plugin-heavy tools.\n\n[Review on Bicycle For Your Mind](https://bicycleforyourmind.com/revival-of-nvalt)\n\n[HN discussion](https://news.ycombinator.com/item?id=50510504)"
+    },
+    {
+      "id": "hn:50497071",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Aris: an open-source AI agent that lives in the MacBook notch",
+      "description": "Aris is an open-source macOS app that puts an assistant in the MacBook notch: hold a key and talk or type, and it can read and act on your Mac, asking before anything that writes, sends or deletes.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "lumenjs",
+      "url": "https://github.com/LumenJSN/Aris",
+      "createdAt": "2026-11-14T13:57:43Z",
+      "updatedAt": "2026-11-14T13:57:43Z",
+      "content": "It is a native Xcode project with separate agent, tools, skills and XPC helper targets, and it uses the AI provider you already have. The author warns it is a personal project with no warranty, since it can access messages, mail, files, calendar and other apps' windows.\n\n[Repo on GitHub](https://github.com/LumenJSN/Aris)\n\n[Website](https://arismac.app)\n\n[HN discussion](https://news.ycombinator.com/item?id=50497071)"
+    },
+    {
+      "id": "x:2122038496399671736",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tinycast: a free, open-source native macOS launcher with Raycast extension support",
+      "description": "Tinycast is a lightweight macOS launcher built with SwiftUI and AppKit, with hotkeys, clipboard history and Raycast extension support, no third-party dependencies, no Electron and under 100 MB of RAM.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "kuro (@abue_ammar)",
+      "url": "https://x.com/abue_ammar/status/2122038496399671736",
+      "createdAt": "2026-11-15T18:46:17Z",
+      "updatedAt": "2026-11-15T18:46:17Z",
+      "content": "A fully native alternative to Raycast/Alfred-style launchers for everyday productivity, installable through a Homebrew tap. The repo has already been forked into variants like Pipcast.\n\n[Repo on GitHub](https://github.com/abue-ammar/tinycast)\n\n[Post on X](https://x.com/abue_ammar/status/2122038496399671736)"
+    },
+    {
+      "id": "x:2121996934093169029",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Salesforce releases SOV-Transcribe-1, an instruction-following open-weights speech recognizer",
+      "description": "SOV-Transcribe-1 is an Apache-2.0, non-streaming speech recognition model fine-tuned from Gemma 4 26B-A4B that takes plain-English instructions: verbatim or cleaned-up transcripts, numbers as digits, and custom domain vocabulary.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "PapersWithCode (@paperswithcodee)",
+      "url": "https://x.com/paperswithcodee/status/2121996934093169029",
+      "createdAt": "2026-11-15T16:01:08Z",
+      "updatedAt": "2026-11-15T16:01:08Z",
+      "content": "The release shows how to turn an LLM into a steerable transcriber, with formatting and vocabulary controlled through the prompt instead of post-processing. It supports English, French, German, Spanish, Italian, Portuguese and Dutch.\n\n[Model on Hugging Face](https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1)\n\n[Post on X](https://x.com/paperswithcodee/status/2121996934093169029)"
+    },
+    {
+      "id": "x:2122025842217816457",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Threadbear: a Mac app that runs Claude Code and Codex threads in the background",
+      "description": "Threadbear is an open-source Mac app with an iPhone companion for managing Claude Code and Codex threads on your existing subscriptions and CLI logins. A background runner is separated from the interface, so agents keep working when the app is closed.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Dan Kornas (@DanKornas)",
+      "url": "https://x.com/DanKornas/status/2122025842217816457",
+      "createdAt": "2026-11-15T17:56:00Z",
+      "updatedAt": "2026-11-15T17:56:00Z",
+      "content": "Because the runner is decoupled from the UI, you can start and monitor agent threads from the Mac or your phone, and all the source is included.\n\n[Repo on GitHub](https://github.com/mikecann/threadbear)\n\n[Post on X](https://x.com/DanKornas/status/2122025842217816457)"
+    },
+    {
+      "id": "x:2122052986612674880",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SpaceSaver: a free, open-source Mac app that clears developer junk safely",
+      "description": "SpaceSaver is a free, open-source Mac app that finds and safely removes developer clutter such as old node_modules folders, Xcode DerivedData, Docker caches, downloaded AI models and stale Claude Code worktrees.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Rushabh.env (@YeoleRushabh)",
+      "url": "https://x.com/YeoleRushabh/status/2122052986612674880",
+      "createdAt": "2026-11-15T19:43:52Z",
+      "updatedAt": "2026-11-15T19:43:52Z",
+      "content": "It came out of a \"disk almost full\" warning that turned out to be mostly build and tooling caches. The launch thread walks through what it detects and how it decides what is safe to delete.\n\n[Post on X](https://x.com/YeoleRushabh/status/2122052986612674880)"
     }
   ]
 }
