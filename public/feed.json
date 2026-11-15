@@ -2,6 +2,243 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50501594",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How Woz wrote the Apple 1 BASIC before the computer existed",
+      "description": "A Retrocomputing Stack Exchange thread explains that Steve Wozniak wrote Integer BASIC by hand on paper and assembled it himself into 6502 machine code, because he could not afford time-share assembler tools.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Skyfall106",
+      "url": "https://retrocomputing.stackexchange.com/questions/17957",
+      "createdAt": "2026-11-14T22:22:49Z",
+      "updatedAt": "2026-11-14T22:22:49Z",
+      "content": "The top answer quotes Wozniak's 1986 Apple World speech: the BASIC shipped with the first Apple IIs was \"never assembled – ever\", existing only as one handwritten, hand-assembled copy. Another answer recounts Bill Atkinson watching Woz type 6502 machine code directly in hex, pausing only to compute forward branch offsets.\n\n[Question on Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/17957)\n\n[HN discussion](https://news.ycombinator.com/item?id=50501594)"
+    },
+    {
+      "id": "hn:50497147",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: agweb, a WebKit browser for coding agents that never steals focus",
+      "description": "agweb is a macOS browser built on WebKit for running several coding agents at once: agents drive it from the shell with a playwright-cli-style command while one window shows every agent's tabs live, without ever taking keyboard focus.",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "paul_nameless",
+      "url": "https://github.com/paul-nameless/agweb",
+      "createdAt": "2026-11-14T14:08:12Z",
+      "updatedAt": "2026-11-14T14:08:12Z",
+      "content": "Each agent gets its own workspace and tabs, a dashboard (⌘D) shows all of them with each agent's last command, and named profiles share logins across agents. Idle tabs are throttled and suspended; the author measured five idle pages at 590 MB versus 730 MB for headless Chrome and 1.6 GB for Playwright Chrome. Dialogs, file pickers and downloads are answered in code.\n\n[Repo on GitHub](https://github.com/paul-nameless/agweb)\n\n[HN discussion](https://news.ycombinator.com/item?id=50497147)"
+    },
+    {
+      "id": "hn:50497137",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fursoy: an out-of-order RV64 core in SystemVerilog that boots Linux 6.6",
+      "description": "Fursoy Slice-1 is a clean-slate 2-wide superscalar out-of-order RISC-V processor (RV64IMAFDV plus Zba/Zbb) in SystemVerilog that boots Linux 6.6.50 and BusyBox under Sv39 virtual memory and meets 500 MHz timing in Nangate 45nm.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "fursoy",
+      "url": "https://github.com/FURSOY/fursoy-cpu",
+      "createdAt": "2026-11-14T14:06:34Z",
+      "updatedAt": "2026-11-14T14:06:34Z",
+      "content": "The README details a 128-entry reorder buffer, a 160-entry physical integer register file with 8 branch checkpoints for single-cycle rename rollback, dedicated integer, memory and FP issue queues, an RVV vector queue, M/S/U privilege modes and hardware performance telemetry.\n\n[Repo on GitHub](https://github.com/FURSOY/fursoy-cpu)\n\n[HN discussion](https://news.ycombinator.com/item?id=50497137)"
+    },
+    {
+      "id": "hn:50498295",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Creating a self-booting ZIP archive",
+      "description": "A blog post builds boot.zip, a completely normal ZIP archive that also boots a PC and contains its own source code needed to rebuild itself, exploiting how the ZIP format lends itself to polyglot tricks.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "goliath32.com",
+      "url": "https://goliath32.com/blog/ziphead.html",
+      "createdAt": "2026-11-14T16:29:05Z",
+      "updatedAt": "2026-11-14T16:29:05Z",
+      "content": "Inspired by Linux initramfs using CPIO and old DOS self-extracting EXE/ZIP polyglots, the author walks through the boot code (ZIPHEAD.COM, real-mode setup, A20, a Multiboot loader) and the small C utilities that glue and fix up the archive so `unzip -t` still passes.\n\n[Blog post](https://goliath32.com/blog/ziphead.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50498295)"
+    },
+    {
+      "id": "hn:50504077",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kiri: a Docker-compatible container runtime claiming 8x faster docker run",
+      "description": "Kiri is a free beta container runtime for Mac, Windows and Linux that keeps the docker CLI, Compose and Docker API working, and reports docker run at 22 ms versus 178 ms on Docker Desktop in its own benchmark.",
+      "topics": [
+        "Programming",
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "nikolay",
+      "url": "https://runkiri.com/",
+      "createdAt": "2026-11-15T04:40:41Z",
+      "updatedAt": "2026-11-15T04:40:41Z",
+      "content": "Its benchmark puts Colima at 152 ms and OrbStack at 279 ms, all engines on 2 CPUs and 8 GB. The app adds per-container logs, shells and files, BuildKit builds with vulnerability scans, amd64 images through Rosetta on Apple silicon, a k3s cluster via `kiri k8s start`, and Linux machines with your Mac folders mounted at the same paths.\n\n[Kiri website](https://runkiri.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50504077)"
+    },
+    {
+      "id": "hn:50504072",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Gawain requires type hints on every Python variable",
+      "description": "Gawain is a Rust-built checker that demands annotations on Python variables, parameters, returns and class attributes, then runs ty or pyrefly to verify the types, going beyond ruff's ANN rules which only cover functions.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "MarinhoD",
+      "url": "https://github.com/matheuzgomes/gawain",
+      "createdAt": "2026-11-15T04:39:25Z",
+      "updatedAt": "2026-11-15T04:39:25Z",
+      "content": "The author says he built it because he hates `dict[str, Any]`; unlike mypy, Pyright, ty or pyrefly, it does not accept inferred types for unannotated variables. It ships with a pre-commit hook.\n\n[Repo on GitHub](https://github.com/matheuzgomes/gawain)\n\n[HN discussion](https://news.ycombinator.com/item?id=50504072)"
+    },
+    {
+      "id": "hn:50503097",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Umbrella records audio from any single app on macOS",
+      "description": "Umbrella is a Mac app that captures per-app audio, such as Spotify, Zoom, Safari or Discord, straight to MP3 or AAC files without bleed from other apps, with all processing done locally.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "threcius",
+      "url": "https://umbrella.pixelegg.me/",
+      "createdAt": "2026-11-15T01:35:20Z",
+      "updatedAt": "2026-11-15T01:35:20Z",
+      "content": "Builds are offered for Apple silicon and Intel Macs, with configurable bitrates; timed and scheduled recordings are listed as coming soon.\n\n[Umbrella website](https://umbrella.pixelegg.me/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50503097)"
+    },
+    {
+      "id": "hn:50496642",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Cyberviber, a small touch screen showing which Claude Code session needs you",
+      "description": "Cyberviber is an ESP32 touch display fed by Claude Code hooks through a small Go daemon that sorts every session by urgency: needs you, ready, working or idle; tapping a session focuses its terminal pane.",
+      "topics": [
+        "Programming",
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "d1351r43",
+      "url": "https://cyberviber.de/",
+      "createdAt": "2026-11-14T12:54:07Z",
+      "updatedAt": "2026-11-14T12:54:07Z",
+      "content": "Hook events go to localhost, the daemon tracks state, idle timers and context usage, and sends JSON lines over USB serial to a stateless LVGL renderer, with no Wi-Fi. It works on macOS and on Linux with Hyprland, supports terminals such as Ghostty, kitty and zellij, and also lists Mistral Vibe sessions; the HN title prices the screen at $15.\n\n[Project website](https://cyberviber.de/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50496642)"
+    },
+    {
+      "id": "hn:50504277",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Disk encryption on NetBSD: achieving secrecy",
+      "description": "A NetBSD guide works through threat models for disk encryption and how to keep user data secret on a stolen or lost device, given that the system must still load some files to boot.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "nia (NetBSD)",
+      "url": "https://netbsd.org/~nia/disk-encrypt/",
+      "createdAt": "2026-11-15T05:29:54Z",
+      "updatedAt": "2026-11-15T05:29:54Z",
+      "content": "It separates unmodified base-system files from user-modified data that is worth protecting, and discusses the practical limits of true full-disk encryption without special hardware, such as encryption metadata on disk and shared libraries needed at boot.\n\n[Guide on netbsd.org](https://netbsd.org/~nia/disk-encrypt/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50504277)"
+    },
+    {
+      "id": "x:2121886705087070437",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Unified Dev: a native macOS app running coding agents in parallel git worktrees",
+      "description": "Unified Dev runs Claude Code, Codex and Grok side by side, each on its own git branch and worktree, with transcript, terminal and diff in one window; free and open source under AGPL-3.0.",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Kidiatoliny Gonçalves (@kidiatoliny)",
+      "url": "https://x.com/kidiatoliny/status/2121886705087070437",
+      "createdAt": "2026-11-15T08:43:07Z",
+      "updatedAt": "2026-11-15T08:43:07Z",
+      "content": "The author posted a one-minute demo video of the SwiftUI app.\n\n[Unified Dev website](https://www.unifieddev.app)\n\n[Post on X](https://x.com/kidiatoliny/status/2121886705087070437)"
+    },
+    {
+      "id": "x:2121709043245093118",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Debloat: open-source Mac app to see and fix what eats memory and disk",
+      "description": "Debloat shows where your Mac's memory goes, stops leftovers from closed apps and Claude Code background tasks, moves big files to an SSD and blocks startup items from coming back.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Vaibhav Krishali (@getaway_kr)",
+      "url": "https://x.com/getaway_kr/status/2121709043245093118",
+      "createdAt": "2026-11-14T20:57:10Z",
+      "updatedAt": "2026-11-14T20:57:10Z",
+      "content": "A free, MIT-licensed macOS utility, shown in a demo video in the post.\n\n[Repo on GitHub](https://github.com/krishalivaibhav/Debloat)\n\n[Post on X](https://x.com/getaway_kr/status/2121709043245093118)"
+    },
+    {
+      "id": "x:2121574429893546293",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TimeScroll: a local Mac app to scroll back and search through your day",
+      "description": "TimeScroll records your Mac screen so you can scroll back and search anything you saw; the author says it is 100% local and open source, using about 1% CPU and 2 GB per month.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Muzhen J (@muzhen_j)",
+      "url": "https://x.com/muzhen_j/status/2121574429893546293",
+      "createdAt": "2026-11-14T12:02:15Z",
+      "updatedAt": "2026-11-14T12:02:15Z",
+      "content": "The post thanks users for 150 GitHub stars and promises technical breakdowns and a big new feature soon.\n\n\n\n[Post on X](https://x.com/muzhen_j/status/2121574429893546293)"
+    },
+    {
+      "id": "x:2121923036068872215",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rise of Nations engine rebuilt as a native Mac app from Ghidra specs with Claude Code",
+      "description": "Ben Wright reverse engineered Rise of Nations: Extended Edition in Ghidra, wrote a spec per subsystem, and had Claude Code write roughly 70k lines of C++ for OpenRiseOfNations, an early but playable native macOS engine.",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "whyamas (@whyamas)",
+      "url": "https://x.com/whyamas/status/2121923036068872215",
+      "createdAt": "2026-11-15T11:07:29Z",
+      "updatedAt": "2026-11-15T11:07:29Z",
+      "content": "Per the write-up, the specs cite original functions by name and address, and small JavaScript reference tools read the game's data; the C++17 code is checked against them, with the damage table matching on all 169,312 attacker and target pairs. The alpha runs on Apple silicon and Intel Macs with Metal and needs your own copy of the game.\n\n[Write-up on Reversed with AI](https://reversedwithai.com/p/open-rise-of-nations-macos-engine-claude-code)\n\n[Post on X](https://x.com/whyamas/status/2121923036068872215)"
+    },
+    {
       "id": "x:2121732041490489612",
       "section": "news",
       "type": "news",
