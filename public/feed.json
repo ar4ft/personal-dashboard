@@ -46623,6 +46623,169 @@
       "createdAt": "2026-11-15T19:43:52Z",
       "updatedAt": "2026-11-15T19:43:52Z",
       "content": "It came out of a \"disk almost full\" warning that turned out to be mostly build and tooling caches. The launch thread walks through what it detects and how it decides what is safe to delete.\n\n[Post on X](https://x.com/YeoleRushabh/status/2122052986612674880)"
+    },
+    {
+      "id": "hn:50507303",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "All AI-generated code should be Open Source",
+      "description": "The post argues that code produced by AI should be released as open source.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jcubic",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "createdAt": "2026-11-15T14:46:58Z",
+      "updatedAt": "2026-11-15T14:46:58Z"
+    },
+    {
+      "id": "hn:50506180",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+      "description": "The Commerce Secretary reportedly pushed to weaken chip rules that overlap with his family's business interests.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "JumpCrisscross",
+      "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+      "createdAt": "2026-11-15T11:40:51Z",
+      "updatedAt": "2026-11-15T11:40:51Z"
+    },
+    {
+      "id": "hn:50463399",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "description": "Claude Code and Codex reverse engineered a 1994 Jeep's engine control unit using a $3 Arduino, shown in a video.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "envoked",
+      "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "createdAt": "2026-11-12T05:29:24Z",
+      "updatedAt": "2026-11-12T05:29:24Z"
+    },
+    {
+      "id": "hn:50509411",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "description": "A Microsoft 365 outage reportedly led to chlorine gas poisoning of 15 hotel guests.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "DeepLogin",
+      "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "createdAt": "2026-11-15T18:36:10Z",
+      "updatedAt": "2026-11-15T18:36:10Z"
+    },
+    {
+      "id": "hn:50467539",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "20 Years of Pyrolog",
+      "description": "PyPy marks 20 years of Pyrolog, its logging project.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "lumpa",
+      "url": "https://pypy.org/posts/2026/11/20-years-of-pyrolog.html",
+      "createdAt": "2026-11-12T14:15:28Z",
+      "updatedAt": "2026-11-12T14:15:28Z"
+    },
+    {
+      "id": "hn:50510442",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
+      "description": "ULA's Vulcan rocket failed during its return-to-flight launch, and 40 Amazon satellites were lost.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jonbaer",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+      "createdAt": "2026-11-15T20:37:28Z",
+      "updatedAt": "2026-11-15T20:37:28Z"
+    },
+    {
+      "id": "hn:50509416",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Eclipse Mosquitto – An open source MQTT broker",
+      "description": "Eclipse Mosquitto is an open source MQTT broker.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "gregsadetsky",
+      "url": "https://github.com/eclipse-mosquitto/mosquitto",
+      "createdAt": "2026-11-15T18:36:40Z",
+      "updatedAt": "2026-11-15T18:36:40Z"
+    },
+    {
+      "id": "hn:50510799",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Your Agent Will Pick the Hackable One",
+      "description": "The post warns that AI agents tend to pick the hackable option when given a choice.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "tensafefrogs",
+      "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+      "createdAt": "2026-11-15T21:10:39Z",
+      "updatedAt": "2026-11-15T21:10:39Z"
+    },
+    {
+      "id": "hn:50465676",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Eval Awareness vs. Eval Paranoia",
+      "description": "The post contrasts eval awareness with eval paranoia in AI evaluation.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "ezrasu",
+      "url": "https://www.lesswrong.com/posts/mepsi7JNKYejq9wry/eval-awareness-vs-eval-paranoia",
+      "createdAt": "2026-11-12T11:23:02Z",
+      "updatedAt": "2026-11-12T11:23:02Z"
+    },
+    {
+      "id": "hn:50511395",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Old Bitly Links Are Being Hijacked",
+      "description": "Old Bitly links are reportedly being hijacked.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "hspeiser",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "createdAt": "2026-11-15T22:11:43Z",
+      "updatedAt": "2026-11-15T22:11:43Z"
     }
   ]
 }
