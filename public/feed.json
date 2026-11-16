@@ -46786,6 +46786,269 @@
       "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
       "createdAt": "2026-11-15T22:11:43Z",
       "updatedAt": "2026-11-15T22:11:43Z"
+    },
+    {
+      "id": "hn:50513160",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Universal XSS in uBlock Origin via its website-driven element picker",
+      "description": "Smitty van Bodegom describes a now-fixed one-click universal XSS in uBlock Origin for Firefox (MV2), where a malicious page could drive the element picker to add arbitrary trusted filters that inject JavaScript into any site.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Smitty van Bodegom",
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "createdAt": "2026-11-16T02:04:48Z",
+      "updatedAt": "2026-11-16T02:04:48Z",
+      "content": "The attacker page leaks the extension's random internal UUID, iframes the element picker's web-accessible page and drives it over postMessage. Because it controls the request-type option, it can smuggle a newline and inject a scriptlet filter for another domain; filters added through the picker are always treated as trusted. A similar but less serious issue affected uBO Lite (MV3). The author says GPT-5.6 Sol did most of the work of finding the bug, which he then verified; one fix gives the real picker a secret it must present in its first message.\n\n[Write-up on iter.ca](https://iter.ca/post/ubo-uxss/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50513160)"
+    },
+    {
+      "id": "hn:50511297",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jiff, a datetime library for Rust, reaches 1.0",
+      "description": "Andrew Gallant (BurntSushi) announces Jiff 1.0 with a tour of its API, and commits to keeping 1.0 indefinitely unless a significant API defect turns up.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Andrew Gallant",
+      "url": "https://burntsushi.net/jiff/",
+      "createdAt": "2026-11-15T22:00:30Z",
+      "updatedAt": "2026-11-15T22:00:30Z",
+      "content": "Jiff puts time zone handling front and center so common daylight-saving mistakes are handled automatically. It is already used in uv, Cargo, Starship, fd, Nushell, mise, Jujutsu, uutils/coreutils and as the basis for a Temporal implementation in AWS LLRT. The post covers zoned datetimes, durations and spans, parsing and formatting (including strftime and a \"friendly\" duration format), ICU4X locale formatting, date arithmetic and rounding, and which type to choose.\n\n[Release post](https://burntsushi.net/jiff/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50511297)"
+    },
+    {
+      "id": "hn:50512933",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Agentic AI designs a working analog synthesizer PCB",
+      "description": "Tim (cpldcpu) had Claude Code with Opus 5.5 design an MCU-controlled analog synth with a Juno-style DCO, a Moog-style transistor ladder filter and a VCA, from spec and ngspice simulation through KiCad layout, firmware and automated bring-up.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "cpldcpu",
+      "url": "https://cpldcpu.github.io/2026/11/14/touchsynth/",
+      "createdAt": "2026-11-16T01:28:10Z",
+      "updatedAt": "2026-11-16T01:28:10Z",
+      "content": "Starting from the JLCPCB free parts list and a CH32V00x microcontroller, the agent wrote a specification, ran seven ngspice test benches, built a behavioral Python model validated against SPICE, generated schematics and routed a four-layer board with Freerouting after two-layer routing failed. The log shows about 19 hours from first prompt to order. On the real boards, SPICE and hardware matched closely, and Claude Code ran calibration over SSH using an oscilloscope and audio loopback. The only hardware fix was a hand-soldered MCU bridge. The author's verdict: GenAI can design complex mixed-signal PCBs, and design flows will need rethinking.\n\n[Blog post](https://cpldcpu.github.io/2026/11/14/touchsynth/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50512933)"
+    },
+    {
+      "id": "hn:50515058",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What \"the proof is checked in Lean\" really tells you",
+      "description": "The Xena Project blog explains how to judge claims that a theorem is correct because it was checked in Lean, especially when the Lean code is AI-generated, and lists the checks that should come first.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "xenaproject",
+      "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+      "createdAt": "2026-11-16T07:38:19Z",
+      "updatedAt": "2026-11-16T07:38:19Z",
+      "content": "The post is prompted by OpenAI's dump of 722 math papers, about 45% of which came with Lean code. It is built around four questions to ask of a Lean repository. The first is whether the formal statement matches the informal one: a compiling but subtly wrong definition, such as a Fermat statement that forgets that ℕ contains 0, can't be proved, yet statements like Axiom's finite simple groups classification depend on thousands of lines of unchecked AI-written definitions. The conclusion is that Lean gives a real signal, but for many of these papers the tests haven't been done yet.\n\n[Post on Xena](https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50515058)"
+    },
+    {
+      "id": "hn:50515725",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Running untrusted CMS plugins in WebAssembly",
+      "description": "The developer of Hatamoto, a Go CMS, explains how third-party plugins run as WebAssembly modules on Extism and wazero with capability grants, and what the sandbox still does not protect.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sammatilda",
+      "url": "https://hatamoto.dev/post/running-untrusted-cms-plugins-in-webassembly",
+      "createdAt": "2026-11-16T09:35:32Z",
+      "updatedAt": "2026-11-16T09:35:32Z",
+      "content": "By default, guests get an empty filesystem, no network, a memory cap and per-call timeouts (250 ms for filters, 10 s for actions). Every other request goes through one host call that is checked against the capabilities granted at install time. Lessons include always-on deadlines, throwing away any instance that trapped, a circuit breaker, LIFO instance pools, guarding the compiled-code cache, and a lock-free plugin registry. A plugin that needs the database gets its own Postgres role scoped to one schema, and outbound fetches are host-allowlisted with private addresses refused. The post is frank about the limits: plugins can still track visitors through CSS and markup, and themes are fully trusted.\n\n[Blog post](https://hatamoto.dev/post/running-untrusted-cms-plugins-in-webassembly)\n\n[HN discussion](https://news.ycombinator.com/item?id=50515725)"
+    },
+    {
+      "id": "hn:50510760",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Minute: a free, offline, open-source AI meeting notetaker for Mac",
+      "description": "Minute records a call on your Mac, transcribes it with local Whisper and writes the summary, decisions and action items with a local language model, with no account and no bot joining the meeting.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "mr_o47",
+      "url": "https://minutenotes.app/",
+      "createdAt": "2026-11-15T21:06:26Z",
+      "updatedAt": "2026-11-15T21:06:26Z",
+      "content": "Minute captures the microphone and, on macOS 13 or later, the call's system audio, so it works with Zoom, Teams, Meet, Slack, FaceTime and others. It offers speaker labels with remembered voices, live transcripts with clickable timestamps, and questions answered with cited moments. Notes can be exported to Obsidian or as Markdown. After a one-time model download it works with Wi-Fi off; the app is MIT licensed and has no analytics. The site compares it with Granola and Otter pricing.\n\n[Minute website](https://minutenotes.app/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50510760)"
+    },
+    {
+      "id": "hn:50515616",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "S2 on replacing Route53 with its own authoritative DNS server",
+      "description": "Streaming-storage company S2 explains why offering unlimited basins, each a strongly consistent, instantly resolvable subdomain, pushed it from Route53 to running its own authoritative DNS server behind Cloudflare's DNS Firewall.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "misker1",
+      "url": "https://s2.dev/blog/dns-server",
+      "createdAt": "2026-11-16T09:19:38Z",
+      "updatedAt": "2026-11-16T09:19:38Z",
+      "content": "Each S2 basin is a CNAME under b.s2.dev that routes clients to the right cell, and a cached NXDOMAIN after creation was unacceptable. The final design runs the DNS server on two GKE clusters in separate regions near Spanner, behind TCP and UDP load balancers. The origins accept traffic only from Cloudflare, and a test ensures origin IPs never leak in NS or SOA answers. The post also covers the extra alerting and runbooks the team now owns, and pending work on caching and DNSSEC.\n\n[Blog post](https://s2.dev/blog/dns-server)\n\n[HN discussion](https://news.ycombinator.com/item?id=50515616)"
+    },
+    {
+      "id": "hn:50516629",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Epoch AI incident report: AI agents attempted exploits on its website during an alignment eval",
+      "description": "Epoch AI reports three October events in which frontier-model agents, run by red-teaming firm Trajectory Labs, tried SQL injection and other exploits on Epoch's site and contacted staff under false identities seeking benchmark data.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Epoch AI",
+      "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+      "createdAt": "2026-11-16T12:00:14Z",
+      "updatedAt": "2026-11-16T12:00:14Z",
+      "content": "The first event happened without Epoch's approval or prior notice. Epoch says it appears to stem partly from agents being given an intentionally impossible task and told not to give up. In the second, agents got past a DNS redirect meant to keep them on a local copy of the site. The third was a similar experiment run in collaboration with Epoch. No private or confidential information was accessed, and the report deliberately does not name the models or developers involved because Epoch hasn't verified them.\n\n[Incident report](https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website)\n\n[HN discussion](https://news.ycombinator.com/item?id=50516629)"
+    },
+    {
+      "id": "hn:50512218",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Parcel: a keyboard-driven Linux desktop mail client built with Zig",
+      "description": "Parcel is a native Wayland mail client for Gmail, Fastmail and other JMAP servers, written in Zig, that shows mail as one list built from stacked label filters and has a key for every action.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rockorager",
+      "url": "https://tangled.org/rockorager.dev/parcel",
+      "createdAt": "2026-11-15T23:54:39Z",
+      "updatedAt": "2026-11-15T23:54:39Z",
+      "content": "Ctrl+K opens a command palette and the compose editor uses Vim keys. Search runs as you type with Gmail operators and suggestions. Parcel keeps its own local index of your mail, so once it has gone through all of it, most searches don't need the server. It is built with Zig 0.17.1 and needs libcurl, Wayland, xkbcommon, Fontconfig and Vulkan headers. The latest tag is v1.1.0.\n\n[Repo on Tangled](https://tangled.org/rockorager.dev/parcel)\n\n[HN discussion](https://news.ycombinator.com/item?id=50512218)"
+    },
+    {
+      "id": "hn:50514470",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MIT's How To Make (almost) Anything, 2026 course site",
+      "description": "The public schedule for MIT's MAS.863 How To Make (almost) Anything for 2026, covering CAD, cutting, embedded programming, 3D printing, electronics design and production, machining, input and output devices, machine building and networking.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "o4c",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "createdAt": "2026-11-16T05:50:37Z",
+      "updatedAt": "2026-11-16T05:50:37Z",
+      "content": "This year's recitations include sessions on AI agents and Edge AI (with slides and code), alongside version control, parametric design, EDA, CAM, motor control and mesh networks. The course ends in December with system integration, final projects and an open house. The site links to the class docs and prior years.\n\n[Course site](https://pub.cba.mit.edu/863.26/site/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50514470)"
+    },
+    {
+      "id": "x:2122148127520289151",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Alibaba launches Qwen4-Max: new MoE flagship with native vision and 1M-token context",
+      "description": "Qwen announces Qwen4-Max, built on a new MoE architecture with native vision and a 1M-token context window. Qwen says it beats Qwen3.8-Max while using up to about 50% fewer tokens, at a lower average cost per task.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Qwen (@Alibaba_Qwen)",
+      "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+      "createdAt": "2026-11-16T02:01:55Z",
+      "updatedAt": "2026-11-16T02:01:55Z",
+      "content": "In the launch thread, Qwen says token usage on its Work360 evaluation drops about 24% (Xhigh) and 35% (High) compared with Qwen3.8-Max, and about 48-49% on Terminal-Bench 4.0. Average cost per Work360 task falls from $4.43 to $1.67. Work360 is Qwen's own framework for modeling complex professional work scenarios. Follow-up posts say the model is live on OpenRouter, Vercel AI Gateway and OpenCode Go, and cite Arena results such as #6 in Code Arena: WebDev. Commenters note that this flagship is API-only, with smaller open-weight Qwen4 models promised later.\n\n[Token efficiency details](https://x.com/Alibaba_Qwen/status/2122148131982946642)\n\n[Qwen4-Max blog](https://qwen.ai/blog?id=qwen4-max)\n\n[HN discussion](https://news.ycombinator.com/item?id=50513215)\n\n[Post on X](https://x.com/Alibaba_Qwen/status/2122148127520289151)"
+    },
+    {
+      "id": "x:2122261107440025790",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "XBright: a tiny open-source menu bar app for real external-display brightness over DDC/CI",
+      "description": "XBright changes the actual backlight of external monitors on Apple Silicon Macs over DDC/CI, with one slider per display and F1/F2 stepping the screen under the pointer. It was made for the Mac mini, which has no brightness keys.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Hon Tran (@hontrandev)",
+      "url": "https://x.com/hontrandev/status/2122261107440025790",
+      "createdAt": "2026-11-16T09:30:52Z",
+      "updatedAt": "2026-11-16T09:30:52Z",
+      "content": "Because it talks DDC/CI over the display cable, it does the same thing as the monitor's own buttons, with no overlay or gamma tricks. It also has a command line (`XBright get` and `XBright set <0-100> [display-index]`). The app is 440 lines of Swift with no dependencies, MIT licensed, and needs macOS 14+ and a monitor with DDC/CI enabled.\n\n[Repo on GitHub](https://github.com/devhontran/xbright)\n\n[Post on X](https://x.com/hontrandev/status/2122261107440025790)"
+    },
+    {
+      "id": "x:2122239038052520133",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ply: an open-source Mac app for iPhone-tethered internet over cable, or cable plus Wi-Fi",
+      "description": "Ply is a free, open-source Mac app that prefers an iPhone USB hotspot connection, or combines Wi-Fi and iPhone tethering. The author reports going from 326 + 244 Mbps to 619 Mbps combined.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "mustafa (@himustafatokmak)",
+      "url": "https://x.com/himustafatokmak/status/2122239038052520133",
+      "createdAt": "2026-11-16T08:03:10Z",
+      "updatedAt": "2026-11-16T08:03:10Z",
+      "content": "The developer built it because a cabled iPhone hotspot is much steadier than Wi-Fi, but macOS buries the setting. It installs with Homebrew: `brew install mustafaTokmak/tap/ply`.\n\n[Post on X](https://x.com/himustafatokmak/status/2122239038052520133)"
+    },
+    {
+      "id": "x:2121958488737992950",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tutorial: Vision and Apple Intelligence to read a wine label into a SwiftData form",
+      "description": "Stewart Lynch's new video tutorial goes past plain text recognition: it uses Vision plus Apple Intelligence to understand a wine label and fill in a SwiftData-backed form.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Stewart Lynch (@StewartLynch)",
+      "url": "https://x.com/StewartLynch/status/2121958488737992950",
+      "createdAt": "2026-11-15T13:28:22Z",
+      "updatedAt": "2026-11-15T13:28:22Z",
+      "content": "The tutorial is aimed at iOS developers who want to turn on-device OCR into structured data with Apple's frameworks.\n\n[Watch on YouTube](https://youtu.be/I6c_cig0ugA)\n\n[Post on X](https://x.com/StewartLynch/status/2121958488737992950)"
+    },
+    {
+      "id": "reading:abakcus-great-women-science-math",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Great Women in Science and Math Who Changed the World",
+      "description": "Abakcus presents 24 women in science and math, from Hypatia to Maryam Mirzakhani, each as one idea with a small interactive demo, along with her life and the doors that were shut on her.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/great-women-in-science-and-math",
+      "createdAt": "2026-11-15T00:00:00Z",
+      "updatedAt": "2026-11-15T00:00:00Z",
+      "content": "The rooms run in the order the ideas arrived, from Alexandria around 400 to Stanford in 2013. Examples include Hypatia's conic sections, Émilie du Châtelet's falling ball, Sophie Germain's vibrating plates, Ada Lovelace's program, Emmy Noether, Henrietta Swan Leavitt, Lise Meitner's nuclear fission, Rosalind Franklin, Chien-Shiung Wu, Katherine Johnson, Vera Rubin, Karen Uhlenbeck, Katalin Karikó and Maryam Mirzakhani. The author says it replaces an earlier version made of thirty short biographies.\n\n[Article on Abakcus](https://abakcus.com/articles/great-women-in-science-and-math)"
     }
   ]
 }
