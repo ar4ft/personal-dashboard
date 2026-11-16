@@ -47526,6 +47526,240 @@
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
       "createdAt": "2026-11-16T16:07:20Z",
       "updatedAt": "2026-11-16T16:07:20Z"
+    },
+    {
+      "id": "hn:50522776",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Launch HN: Axonnic, forearm sleeves that read muscle signals to track fingers and force",
+      "description": "Axonnic's 64-channel surface EMG sleeve decodes finger joint angles and fingertip force while leaving the hands bare, to collect training data for dexterous robots.",
+      "topics": [
+        "Wearables",
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "arshpatankar",
+      "url": "https://axonnic.com",
+      "createdAt": "2026-11-16T20:29:48Z",
+      "updatedAt": "2026-11-16T20:29:48Z",
+      "content": "The founders say EMG captures the effort behind a grip that video alone misses, which matters for delicate work like sewing. They train a decoder against hand tracking, then run it from EMG alone; in one test four days after training, with no recalibration, it stayed within 6.9° across 20 joint angles compared with Apple Vision Pro hand tracking. They are now building wired electronics to avoid the wireless interference they hit in factories.\n\n- [Axonnic website](https://axonnic.com)\n- [Published benchmarks](https://axonnic.com/benchmarks)\n- [Demo video on YouTube](https://youtube.com/shorts/xBrocTc9cfA)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50522776)"
+    },
+    {
+      "id": "hn:50520270",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Harmonic's Aristotle can now formally verify Rust code",
+      "description": "Harmonic extends its Aristotle verifier from C and Verilog to Rust, aiming to prove code has no undefined behavior and matches its spec, including inside unsafe blocks.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "maufl",
+      "url": "https://www.harmonic.fun/news/aristotle-rust-verification/",
+      "createdAt": "2026-11-16T17:34:41Z",
+      "updatedAt": "2026-11-16T17:34:41Z",
+      "content": "Harmonic pitches this for teams rewriting C in Rust: Aristotle can also prove that new Rust code behaves the same as the original C. The company frames it as a check on code that AI increasingly writes, replacing reliance on tests with proofs.\n\n- [Announcement from Harmonic](https://www.harmonic.fun/news/aristotle-rust-verification/)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50520270)"
+    },
+    {
+      "id": "hn:50519345",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jolt: a Clojure that compiles to Scheme and calls C directly",
+      "description": "Jolt is a self-hosted Clojure implementation on Chez Scheme with a native C FFI and ahead-of-time builds to a single static executable, no JVM needed.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "michaelsbradley",
+      "url": "https://jolt-lang.net/",
+      "createdAt": "2026-11-16T16:23:01Z",
+      "updatedAt": "2026-11-16T16:23:01Z",
+      "content": "It keeps Clojure semantics (persistent data structures, lazy seqs, transducers, protocols, core.async) and runs futures and agents on real OS threads. C libraries are wrapped with `defcfn`; its database and HTTP libraries bind SQLite, Postgres, OpenSSL and zlib that way. The compiler is written in Clojure and can also target JavaScript through Gambit.\n\n- [Jolt website](https://jolt-lang.net/)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50519345)"
+    },
+    {
+      "id": "hn:50456548",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Making Atuin sync 32x faster with packfiles",
+      "description": "Atuin 18.20 bundles end-to-end encrypted shell-history records into encrypted packfiles in object storage, making hosted sync 32x faster and self-hosted sync 16x faster.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ossusermivami",
+      "url": "https://blog.atuin.sh/making-atuin-sync-32x-faster-with-packfiles/",
+      "createdAt": "2026-11-11T18:14:36Z",
+      "updatedAt": "2026-11-11T18:14:36Z",
+      "content": "Because the server can't read or compress encrypted records, the client now builds packfiles itself. Pipelined downloads and batched SQL inserts add to the gain, all without bumping the sync protocol version. The post walks through the numbers for median and power users.\n\n- [Atuin blog post](https://blog.atuin.sh/making-atuin-sync-32x-faster-with-packfiles/)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50456548)"
+    },
+    {
+      "id": "hn:50518690",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Psychic: a fzf-style file browser that learns from what you open",
+      "description": "Psychic is a terminal file browser that tracks the directories you visit and files you open, trains a lightweight ML model on that history, and ranks results within one frame.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "articulatepang",
+      "url": "https://klauria.tech/psychic/",
+      "createdAt": "2026-11-16T15:33:34Z",
+      "updatedAt": "2026-11-16T15:33:34Z",
+      "content": "The author designed it to update in under 16 ms per keypress. After more than 1,450 uses, he typed 1.6 characters on average before finding the file, and 29% of the time the right file was already the top result before typing anything.\n\n- [Psychic write-up](https://klauria.tech/psychic/)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50518690)"
+    },
+    {
+      "id": "hn:50523599",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "On leaving Swift for Rust",
+      "description": "Marc Prud'hommeaux, behind Skip, explains why he resigned from the Swift Android workgroup: Swift is excellent but tied to Apple's platforms, and AI-written code favors languages like Rust.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "roflcopter69",
+      "url": "https://www.prux.org/posts/goodbye-swift-hello-rust/",
+      "createdAt": "2026-11-16T21:32:14Z",
+      "updatedAt": "2026-11-16T21:32:14Z",
+      "content": "He stresses there was no conflict, and he still calls Swift a delightful language. He argues that corporate-directed languages get rough off their home platforms, Swift for Android included. His other point: now that developers mostly direct AI to write code, 'computery' languages beat developer-friendly 'humany' ones.\n\n- [Blog post](https://www.prux.org/posts/goodbye-swift-hello-rust/)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50523599)"
+    },
+    {
+      "id": "hn:50515151",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Squircles: the math behind shapes between a square and a circle",
+      "description": "A Linebender wiki page compares squircle curves, from Piet Hein's superellipse to flat-sided variants, with an interactive tester and a common 'gauge' measure.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "raphlinus",
+      "url": "https://linebender.org/wiki/curves/squircle/",
+      "createdAt": "2026-11-16T07:55:10Z",
+      "updatedAt": "2026-11-16T07:55:10Z",
+      "content": "It defines the superellipse |x|^n + |y|^n = 1 and proposes measuring any squircle by where it crosses the quadrant's diagonal, so different constructions can be compared. It also covers the trade-offs in curvature continuity that matter for UI shapes such as rounded app icons.\n\n- [Squircles on the Linebender wiki](https://linebender.org/wiki/curves/squircle/)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50515151)"
+    },
+    {
+      "id": "hn:50517803",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Coral, an open-source gateway where agents save their own tools",
+      "description": "Coral sits between agents and the systems they use. Agents call tools by writing short TypeScript programs and can save working ones as reusable custom tools for a team.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jcs",
+      "url": "https://github.com/withcoral/coral",
+      "createdAt": "2026-11-16T14:14:51Z",
+      "updatedAt": "2026-11-16T14:14:51Z",
+      "content": "It started as plumbing for an AI SRE that kept rediscovering the same route through telemetry. Saved tools show up in the same search as provider tools like Datadog or Slack and give finer-grained permissions. The team reports 29% faster and 31% cheaper runs on GitHub, Linear and Slack tasks.\n\n- [Repo on GitHub](https://github.com/withcoral/coral)\n- [Demo video on YouTube](https://www.youtube.com/watch?v=p0PKOlHLyVI)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50517803)"
+    },
+    {
+      "id": "hn:50487628",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Exact gradients through a BRep CAD kernel",
+      "description": "Municipal Robotics shows how to differentiate CAD objectives with respect to parameters like hole or fillet radius through a boundary-representation kernel, using dual numbers and implicit differentiation on a frozen tessellation.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ecto",
+      "url": "https://muni.works/research/vcad",
+      "createdAt": "2026-11-13T18:24:54Z",
+      "updatedAt": "2026-11-13T18:24:54Z",
+      "content": "The method gives exact derivatives for the frozen mesh, supports reverse-mode passes and second derivatives, and feeds mass properties and a rigid-body adjoint. Topology changes are reported as errors. The paper is candid about its limits: the frozen mesh differs from the true continuum by the polygonization error, 6.7% for a fillet at 16 segments per circle and 0.11% at 128.\n\n- [Paper](https://muni.works/research/vcad)\n\n- [HN discussion](https://news.ycombinator.com/item?id=50487628)"
+    },
+    {
+      "id": "x:2122260581474501107",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Meta open-sources Astryx, its internal design system built for agents too",
+      "description": "Astryx, which Meta says grew over eight years to power 13,000+ internal apps, is now open source under MIT, with 150+ accessible React components, themes and a CLI coding agents can read.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Avyukt Shetty (@ShettyAvyukt)",
+      "url": "https://x.com/ShettyAvyukt/status/2122260581474501107",
+      "createdAt": "2026-11-16T09:28:46Z",
+      "updatedAt": "2026-11-16T09:28:46Z",
+      "content": "It's built on React 19 and StyleX and is in beta, with docs, Storybook and a sandbox. The pitch is to give coding agents a real component library instead of having them invent UI from scratch.\n\n- [Astryx on GitHub](https://github.com/meta/astryx)\n- [Astryx docs](https://astryx.atmeta.com)\n\n- [Post on X](https://x.com/ShettyAvyukt/status/2122260581474501107)"
+    },
+    {
+      "id": "x:2122456536882491721",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft's TokenEconomizer cuts coding-agent costs by learning from past sessions",
+      "description": "TokenEconomizer, from Microsoft Research and UC Berkeley, is an open-source black-box cost controller for coding agents that reports 18-31% lower mean cost on SWE-Bench tasks.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "The Shiplog (@shiplognews)",
+      "url": "https://x.com/shiplognews/status/2122456536882491721",
+      "createdAt": "2026-11-16T22:27:26Z",
+      "updatedAt": "2026-11-16T22:27:26Z",
+      "content": "It learns from earlier sessions to drop redundant tool definitions and other waste without changing the underlying model. Apache-2.0, Python 3.10+, with an arXiv paper and project page.\n\n- [TokenEconomizer on GitHub](https://github.com/microsoft/TokenEconomizer)\n- [Paper on arXiv](https://arxiv.org/abs/2610.22732)\n- [Project page](https://tokeneconomizer.github.io)\n\n- [Post on X](https://x.com/shiplognews/status/2122456536882491721)"
+    },
+    {
+      "id": "x:2122360239475269811",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "neatly: a free open-source Mac app that names your files with Apple Intelligence",
+      "description": "neatly suggests clear names and folders for new downloads, screenshots and photos, running on-device with Apple Intelligence. It's free and MIT-licensed.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Mehmet Alp Özaydın (@AlpOzaydin)",
+      "url": "https://x.com/AlpOzaydin/status/2122360239475269811",
+      "createdAt": "2026-11-16T16:04:47Z",
+      "updatedAt": "2026-11-16T16:04:47Z",
+      "content": "It lives in the menu bar and turns names like doc_8f3a2c.pdf into something like 'Water Bill Nov 2026' in the right folder. Requires macOS 26 on Apple silicon; signed and notarized, with a Homebrew tap.\n\n- [neatly website](https://alpozaydin.github.io/neatly/)\n- [Repo on GitHub](https://github.com/alpozaydin/neatly)\n\n- [Post on X](https://x.com/AlpOzaydin/status/2122360239475269811)"
+    },
+    {
+      "id": "x:2122223143859245525",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Seeed's reGoggles devlog: choosing the chip for open industrial AI smart goggles",
+      "description": "Seeed Studio explains why its reGoggles smart glasses use Allwinner's vision-focused V881 SoC, which fits a 13 × 67 mm mainboard that streams 1080p continuously.",
+      "topics": [
+        "Wearables",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Seeed Studio (@seeedstudio)",
+      "url": "https://x.com/seeedstudio/status/2122223143859245525",
+      "createdAt": "2026-11-16T07:00:01Z",
+      "updatedAt": "2026-11-16T07:00:01Z",
+      "content": "The chip handles multiple video inputs and pre-encode processing, keeps 4K for stills, and leaves two MIPI lanes free for a ToF sensor or a second camera. Seeed says the SDK, firmware and docs will be open-sourced on GitHub soon.\n\n- [Seeed blog post](https://www.seeedstudio.com/blog/2026/11/13/building-ai-goggles-what-its-brain-should-look-like/)\n- [reGoggles page](https://www.seeedstudio.com/regoggles)\n\n- [Post on X](https://x.com/seeedstudio/status/2122223143859245525)"
     }
   ]
 }
