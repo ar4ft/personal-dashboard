@@ -47213,6 +47213,158 @@
       "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
       "createdAt": "2026-11-13T17:29:49Z",
       "updatedAt": "2026-11-13T17:29:49Z"
+    },
+    {
+      "id": "x:2121710572152787427",
+      "section": "news",
+      "type": "news",
+      "title": "Fluid Speech Pro: a 0.6B open speech-to-text model that tops the Open ASR board under 1B",
+      "description": "FluidVoice released Fluid Speech Pro, a 0.63B Parakeet-based ASR model with open CC BY 4.0 weights. It averages 6.06% WER on Hugging Face's Open ASR Leaderboard (#1 open model under 1B, #2 open overall at launch), covers 25 languages and ships ONNX, MLX and GGUF builds.",
+      "content": "**Fluid Speech Pro** is a small speech-to-text model built for dictation on your own device. It's a fine-tune of NVIDIA Parakeet TDT 0.6B v3 (FastConformer encoder, TDT decoder) and averages **6.06% word error rate** across the Open ASR Leaderboard's nine test sets. FluidVoice says that makes it the most accurate open model at 1B parameters or under and #2 among all open models at launch, ahead of models up to 50x its size. It also scores 9.83% on the noisy URGENT 2024 set and runs at about 3,690x real time on one GPU.\n\nIt detects 25 European languages automatically and has an optional *clean mode* that drops fillers and repetitions. The weights are CC BY 4.0, with NeMo/Transformers, ONNX (CPU), MLX (Apple Silicon) and GGUF (parakeet.cpp) builds. It's already the default dictation model in the FluidVoice Mac app. The launch thread got about 750 likes and 800 bookmarks.\n\n- [Launch blog post](https://fluidvoice.com/fluid/blog/fluidspeech-pro)\n- [Weights on Hugging Face](https://huggingface.co/FluidVoice-Labs/fluid-speech-pro)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@FluidVoiceApp",
+      "url": "https://x.com/FluidVoiceApp/status/2121710572152787427",
+      "createdAt": "2026-11-14T21:03:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2121319866712076769",
+      "section": "news",
+      "type": "news",
+      "title": "NVIDIA unveils GR00T 2, a world action model that learns robot skills from human video",
+      "description": "At CoRL 2026 NVIDIA introduced GR00T 2, an open world action model built on Cosmos that predicts future video and robot actions together. It reached 71% average success across 50 tasks from a single demo (95% with five). Weights and the cross-embodiment recipe are due in December; 100,000 hours of egocentric human video are on Hugging Face now.",
+      "content": "**GR00T 2** is NVIDIA's new robot foundation model. Earlier GR00T models were vision-language-action models. This one is a *world action model*: it predicts the next few frames of video along with the robot's next actions, then carries out the actions it just imagined. It was pretrained on about 400,000 hours of egocentric human video, 10,000 hours of handheld UMI-gripper demos and 23,500 hours of robot teleoperation across grippers, dexterous hands and a Unitree G1 humanoid.\n\nNVIDIA's reported results: it completed 40 of 50 tasks at least once with no task-specific demos, and averaged 71% success with one demo per task and 95% with five. NVIDIA's own paper notes those tasks were picked from ones the model could already learn well. A 2B-parameter **GR00T 2 Turbo** runs onboard the G1's Jetson Thor at 124 ms per prediction for whole-body tasks. The announcement post drew about 3,200 likes.\n\nWhat's open: the first 100,000 hours of the Human-1M egocentric dataset are on Hugging Face now. GR00T 2 and Turbo weights plus the training recipe are promised for December 2026, with the license not yet published.\n\n- [GR00T 2 research page](https://research.nvidia.com/labs/gear/gr00t-2/)\n- [NVIDIA blog: GR00T 2, Isaac Lab 3.0 and new benchmarks at CoRL](https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/)\n- [Humanoids Daily: what is open and when](https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026)",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@nvidia",
+      "url": "https://x.com/nvidia/status/2121319866712076769",
+      "createdAt": "2026-11-13T19:10:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2121671411119059034",
+      "section": "news",
+      "type": "news",
+      "title": "Obsidian Skills grows to seven agent skills for operating vaults, Bases, Canvas and the CLI",
+      "description": "Obsidian CEO Steph Ango announced that the official Obsidian Skills repo now has seven Agent Skills: Obsidian Markdown, Bases, JSON Canvas, the Obsidian CLI, headless use and web-to-Markdown extraction. They let Claude Code, Codex, Cursor and OpenCode work directly in your vault. MIT licensed, about 53k GitHub stars.",
+      "content": "**Obsidian Skills** is Obsidian's official set of Agent Skills that teach coding agents to operate a vault the way you would. The repo now ships seven skills: `obsidian-markdown` (wikilinks, embeds, callouts, properties), `obsidian-bases` (editing `.base` database views), `json-canvas`, `obsidian-cli`, `obsidian-headless`, `defuddle` (clean web pages into Markdown) and `knap`.\n\nThe skills follow the open Agent Skills spec. Install them in Claude Code with `claude plugin marketplace add obsidianmd/obsidian-skills`, through the Codex or Cursor marketplaces, or with `npx skills add`. Steph Ango's announcement got about 2,300 likes and 2,600 bookmarks, and the MIT-licensed repo is near 53k stars.\n\n- [Obsidian Skills on GitHub](https://github.com/obsidianmd/obsidian-skills)\n- [Agent Skills specification](https://agentskills.io/specification)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "@kepano",
+      "url": "https://x.com/kepano/status/2121671411119059034",
+      "createdAt": "2026-11-14T18:27:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2121787604215664891",
+      "section": "news",
+      "type": "news",
+      "title": "How coding agents implement Code Mode: node:vm in Claude Code, V8 in Codex, QuickJS in Pi",
+      "description": "Claude Code 2.1.323 added an experimental Code Mode, where Claude writes JavaScript that batches its tool calls instead of calling tools one by one. Rhys Sullivan dug into the implementation (node:vm running in-process in Bun) and compared it with Codex (V8), OpenCode (a custom interpreter) and Pi (QuickJS).",
+      "content": "**Code Mode** shipped in Claude Code 2.1.323 on November 12 as an opt-in experiment. Without it, Claude asks for each Bash, Read or Edit call separately and reads every result. With it, Claude writes a short JavaScript program that runs several tool calls (in parallel or chained) and returns only the output it needs. That suits repetitive edits across many files, searches that need filtering, and independent commands. Early users report noticeably less token use in long sessions.\n\nRhys Sullivan's post (about 770 likes) looks under the hood. Claude Code runs the generated code with `node:vm` in-process inside Bun, Codex uses V8, OpenCode uses its own interpreter, and Pi uses QuickJS. That matters for anyone building agent harnesses: the choice decides isolation, heap limits and startup cost. Turn it on with `CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1`.\n\n- [Code Mode docs](https://code.claude.com/docs/en/code-mode)\n- [Claude Code v2.1.323 release notes](https://github.com/anthropics/claude-code/releases/tag/v2.1.323)\n- [Original Code Mode explainer by @pggalaviz](https://x.com/pggalaviz/status/2121652838447169783)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@RhysSullivan",
+      "url": "https://x.com/RhysSullivan/status/2121787604215664891",
+      "createdAt": "2026-11-15T02:09:20Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2121263298473779655",
+      "section": "news",
+      "type": "news",
+      "title": "Antimattr (YC F26) unveils voice-isolating AI earbuds plus a ring for controlling agents",
+      "description": "Antimattr's Project Mnemosyne pairs earbuds with six microphones plus bone conduction, which the company says cut AirPods' roughly 30% word error rate in noise to under 5%, with a smart ring for capturing thoughts and triggering agents like Claude Code and Codex. It ships in Q4 2026 with 2,000+ pre-orders claimed.",
+      "content": "**Project Mnemosyne** from YC Fall 2026 startup **antimattr** is a voice-first hardware interface for working with AI agents. The earbuds combine six microphones with a bone-conduction sensor and a voice processor to isolate the wearer's voice. The company claims about 90 dB of background noise rejected and word error rate dropping from ~30% on AirPods to under 5% in loud places. The ring (about 6 g, IP54) is a discreet controller: tap to capture a thought, record and summarise a conversation, trigger a workflow, or check on remote agents such as Claude Code and Codex.\n\nThe founders shut down a $250k/year software business, met about 150 factories in China, sold out a first batch in June and moved to San Francisco with under three months of runway. The launch post got about 780 likes. Prices start at ₹6,999 in India, with shipping planned for Q4 2026. All accuracy numbers are the company's own.\n\n- [Project Mnemosyne product page](https://www.antimattr.one/project-mnemosyne)\n- [Launch YC write-up](https://www.ycombinator.com/launches/XSv-antimattr-voice-first-hardware-interface-for-human-agent-interaction)",
+      "topics": [
+        "Wearables",
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "@sridipto_ghosh",
+      "url": "https://x.com/sridipto_ghosh/status/2121263298473779655",
+      "createdAt": "2026-11-13T15:25:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2121407436947144899",
+      "section": "news",
+      "type": "news",
+      "title": "OpenAMRobot: an open-source autonomous mobile robot with ROS 2, micro-ROS and full CAD",
+      "description": "OpenAMRobot is an open differential-drive mobile robot whose hardware, firmware and software are all published: CERN-OHL-P CAD, wiring and BOM, Teensy 4.0 micro-ROS motor firmware, and a ROS 2 Jazzy stack with Gazebo simulation, Nav2, SLAM and AprilTag auto-docking on a Raspberry Pi 5.",
+      "content": "**OpenAMRobot** is an open-source autonomous mobile robot for logistics-style navigation, split into versioned repos. The **hardware** repo has the chassis CAD, electrical wiring and pinouts, BOM and manufacturing files under CERN-OHL-P-2.0. The reference build uses a Raspberry Pi 5, two 24 V BLDC motors with drivers, magnetic encoders, an IMU, an RPLIDAR and a Pi Camera 3 NoIR. The **firmware** runs micro-ROS on a Teensy 4.0 for motor control and odometry. The **software** is a ROS 2 Jazzy stack with Gazebo Harmonic simulation, Nav2, SLAM and AprilTag-bundle auto-docking, runnable in Docker in about five minutes.\n\nThe project calls itself experimental: the docking simulation is tuned end to end, while real-robot bring-up is still landing. A v0.0.1 release bundles everything into one source archive, and a 2.0 mobile manipulator with a lift column and two OpenArm arms is being designed. The post got about 200 likes and 160 bookmarks.\n\n- [Hardware repo (CAD, BOM, wiring)](https://github.com/openAMRobot/openamr-platform-hw)\n- [ROS 2 software repo](https://github.com/openAMRobot/openamr-platform-sw)\n- [Documentation](https://docs.openamrobot.ai/)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "@Alacritic_Super",
+      "url": "https://x.com/Alacritic_Super/status/2121407436947144899",
+      "createdAt": "2026-11-14T00:58:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "x:2122005101472858167",
+      "section": "news",
+      "type": "news",
+      "title": "Henge runs full macOS on an iPhone or iPad with its own ARM64 JIT emulator",
+      "description": "Henge is an open-source iOS and iPadOS app that downloads Apple's restore image and runs macOS (Sequoia, Sonoma, Ventura, Tahoe, macOS 27) on device through its own JIT, MMU and Metal-backed virtual GPU, with no QEMU or Virtualization.framework. Version 0.3 added Sonoma and Ventura; it's sideloaded and needs JIT.",
+      "content": "**Henge** by Leviidev emulates a Mac on iPhone and iPad. iOS gives apps no hypervisor, so Henge runs the Mac's arm64 code through its own JIT with its own MMU and virtual devices, without QEMU or Apple's Virtualization.framework. It downloads Apple's macOS restore image and restores it the way a Mac does, with nothing decrypted or patched. Graphics go through a virtual GPU that Henge replays with Metal, so Safari, Chrome, VS Code and Discord draw.\n\nThe touchscreen acts as a Magic Trackpad (volume buttons click), iPads take a keyboard and mouse, USB-C external displays work, and there's a shared clipboard and folder. On an iPhone 17 Pro, Sequoia reaches the lock screen in about 15 seconds. Version 0.3 added Sonoma 14.6.1 and Ventura 13.6 as smaller downloads. Limits: it's sideload-only (SideStore, AltStore or TrollStore), needs JIT and an A14/M1 or newer, takes ~43 GB for Sequoia, Apple Account sign-in inside macOS fails, and it's still slow, especially on macOS 27. GPL-2.0, about 2,300 stars two weeks after launch.\n\n- [Henge on GitHub](https://github.com/Leviidev/Henge)\n- [Henge 0.3 release notes](https://github.com/Leviidev/Henge/releases/tag/0.3)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@Techjunkie_Aman",
+      "url": "https://x.com/Techjunkie_Aman/status/2122005101472858167",
+      "createdAt": "2026-11-15T16:33:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "ideas:agent-skill-eval-cli",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "skillcheck: a CLI that lints and evals Agent Skills before you publish them",
+      "description": "A developer tool for people who write Agent Skills and plugins for Claude Code, Codex, Cursor and OpenCode. It validates SKILL.md files against the spec, measures token cost, flags trigger overlap and risky instructions, and runs small prompt evals to show whether the skill actually fires and helps.",
+      "nextStep": "Write a Node CLI that parses every SKILL.md in a repo against the Agent Skills spec, prints frontmatter errors, token counts and description-overlap warnings, and test it on obsidianmd/obsidian-skills.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "createdAt": "2026-11-16T14:30:00Z",
+      "content": "## How it works\n\nRun `skillcheck` in a skills repo. It parses each `SKILL.md` and its bundled files, then checks them against the Agent Skills spec: required frontmatter, name rules, description length and referenced files that actually exist. Next it estimates the tokens each skill adds when loaded, and flags pairs of skills whose descriptions overlap enough to trigger on the same request. It also scans the instructions for risky patterns such as piping curl to a shell, writing to agent config folders or broad permission grants. An optional `eval` command runs a small YAML suite of prompts through a local or cheap model, with and without the skill, and records whether it was selected and whether the output passed simple assertions. Results print as a table and as JSON for CI.\n\n```mermaid\nflowchart LR\n  Repo[Skills repo] --> Parse[Parse SKILL.md files]\n  Parse --> Spec[Spec and file checks]\n  Parse --> Cost[Token cost]\n  Parse --> Overlap[Trigger overlap]\n  Parse --> Risk[Risky instruction scan]\n  Parse --> Eval[Prompt evals]\n  Spec --> Report[Report and CI exit code]\n  Cost --> Report\n  Overlap --> Report\n  Risk --> Report\n  Eval --> Report\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| CLI | Node with TypeScript, published to npm |\n| Parsing | gray-matter for frontmatter, remark for Markdown |\n| Tokens | js-tiktoken as an approximation |\n| Overlap | Local embeddings via Ollama or a TF-IDF fallback |\n| Evals | YAML suites run against Ollama or any OpenAI-compatible endpoint |\n| CI | GitHub Action wrapper with JSON and SARIF output |\n\n## Hard parts\n\n- Skill selection behaves differently in each agent, so evals can only approximate it.\n- Keeping up with spec changes and each marketplace's plugin manifest format.\n- Keeping the risky-instruction scan from crying wolf on legitimate setup steps.\n- Making evals cheap and deterministic enough to run on every pull request.\n\n## Effort\n\nA weekend for spec checks, token counts and overlap warnings; two to three weeks for the eval runner, GitHub Action and SARIF output.\n\n## Inspired by\n\n- [Obsidian Skills announcement on X](https://x.com/kepano/status/2121671411119059034)\n- [Obsidian Skills on GitHub](https://github.com/obsidianmd/obsidian-skills)\n- [Agent Skills specification](https://agentskills.io/specification)\n- [Code Mode implementations post on X](https://x.com/RhysSullivan/status/2121787604215664891)"
+    },
+    {
+      "id": "ideas:mac-personal-asr-bench",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Personal ASR bench: find the best local dictation model for your own voice and rooms",
+      "description": "A Mac app that records short reading passages in the places you actually dictate (desk, café, car, with your earbuds), runs local speech models such as Fluid Speech Pro, Parakeet and Whisper on them, and ranks them by word error rate and speed for you instead of for a leaderboard.",
+      "nextStep": "Build a SwiftUI prototype that records five scripted sentences, transcribes them with Fluid Speech Pro through MLX and with whisper.cpp, and shows word error rate and latency side by side.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Machine Learning",
+        "Wearables"
+      ],
+      "createdAt": "2026-11-16T14:31:00Z",
+      "content": "## How it works\n\nThe app gives you a set of short scripted passages, including names, numbers, code terms and your second language, and you read them in each environment you care about with each mic you own. Recordings stay on the Mac. It then runs every installed local model on the same clips: Fluid Speech Pro (MLX or GGUF), Parakeet, Whisper variants through whisper.cpp, and optionally Apple's on-device speech. For each model it computes word error rate against the script, plus real-time factor and memory. The result is a per-environment leaderboard and a recommendation, such as Fluid Speech Pro with clean mode at your desk and a bigger Whisper model in the car. It can export the winning settings for dictation apps that accept a custom model.\n\n```mermaid\nflowchart LR\n  Script[Scripted passages] --> Record[Record per room and mic]\n  Record --> Models[Run local ASR models]\n  Models --> Score[WER, speed, memory]\n  Score --> Board[Personal leaderboard]\n  Board --> Export[Recommended model settings]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| UI | SwiftUI Mac app |\n| Audio | AVAudioEngine with device picker for AirPods, USB and built-in mics |\n| Models | MLX Swift, whisper.cpp, parakeet.cpp GGUF, SFSpeechRecognizer |\n| Scoring | Simple WER with normalisation for numbers and punctuation |\n| Storage | Local folder of WAV files and a JSON results log |\n\n## Hard parts\n\n- Text normalisation, so 'twenty five' and '25' aren't counted as errors.\n- Packaging several inference runtimes without a huge app bundle.\n- Fair comparisons when models output punctuation, casing and fillers differently.\n- Getting people to record enough samples per environment for the results to mean anything.\n\n## Effort\n\nA weekend for recording, two models and WER; two to three weeks for multiple runtimes, per-environment leaderboards and export.\n\n## Inspired by\n\n- [Fluid Speech Pro launch on X](https://x.com/FluidVoiceApp/status/2121710572152787427)\n- [Fluid Speech Pro weights on Hugging Face](https://huggingface.co/FluidVoice-Labs/fluid-speech-pro)\n- [Antimattr voice-isolating earbuds on X](https://x.com/sridipto_ghosh/status/2121263298473779655)"
     }
   ]
 }
