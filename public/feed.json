@@ -47049,6 +47049,170 @@
       "createdAt": "2026-11-15T00:00:00Z",
       "updatedAt": "2026-11-15T00:00:00Z",
       "content": "The rooms run in the order the ideas arrived, from Alexandria around 400 to Stanford in 2013. Examples include Hypatia's conic sections, Émilie du Châtelet's falling ball, Sophie Germain's vibrating plates, Ada Lovelace's program, Emmy Noether, Henrietta Swan Leavitt, Lise Meitner's nuclear fission, Rosalind Franklin, Chien-Shiung Wu, Katherine Johnson, Vera Rubin, Karen Uhlenbeck, Katalin Karikó and Maryam Mirzakhani. The author says it replaces an earlier version made of thirty short biographies.\n\n[Article on Abakcus](https://abakcus.com/articles/great-women-in-science-and-math)"
+    },
+    {
+      "id": "hn:50513215",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Qwen4-Max",
+      "description": "Qwen introduces Qwen4-Max, its latest flagship model.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "ilreb",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "createdAt": "2026-11-16T02:14:44Z",
+      "updatedAt": "2026-11-16T02:14:44Z"
+    },
+    {
+      "id": "hn:50509972",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Handwriting, as a Font",
+      "description": "A project that turns your own handwriting into a usable font.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "coinfused",
+      "url": "https://ductus.sorenblank.com",
+      "createdAt": "2026-11-15T19:42:13Z",
+      "updatedAt": "2026-11-15T19:42:13Z"
+    },
+    {
+      "id": "hn:50512235",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What's Next for Nvidia?",
+      "description": "Steve Blank looks at what comes next for Nvidia.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "zdw",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+      "createdAt": "2026-11-15T23:55:55Z",
+      "updatedAt": "2026-11-15T23:55:55Z"
+    },
+    {
+      "id": "hn:50507553",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Emacs Is My Browser",
+      "description": "One developer's setup for using Emacs as a web browser.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nyc111",
+      "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+      "createdAt": "2026-11-15T15:21:21Z",
+      "updatedAt": "2026-11-15T15:21:21Z"
+    },
+    {
+      "id": "hn:50512441",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "description": "The Tor Project ships a rapid-response security release to defend against a sustained DDoS attack.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "aillia",
+      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "createdAt": "2026-11-16T00:21:54Z",
+      "updatedAt": "2026-11-16T00:21:54Z"
+    },
+    {
+      "id": "hn:50511806",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Preserving 30 years of Salon journalism",
+      "description": "The Internet Archive preserves three decades of Salon journalism.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "CharlesW",
+      "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+      "createdAt": "2026-11-15T23:00:11Z",
+      "updatedAt": "2026-11-15T23:00:11Z"
+    },
+    {
+      "id": "hn:50510296",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "description": "A WebGL flight simulator that generates its terrain from a seed.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ranger_danger",
+      "url": "https://baron.by.dai.studio/",
+      "createdAt": "2026-11-15T20:20:05Z",
+      "updatedAt": "2026-11-15T20:20:05Z"
+    },
+    {
+      "id": "hn:50514180",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Debian Becomes Unresponsive after 6.1.0-55 Kernel Update",
+      "description": "A Debian bug report on systems becoming unresponsive after the 6.1.0-55 kernel update.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "artooro",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+      "createdAt": "2026-11-16T04:53:06Z",
+      "updatedAt": "2026-11-16T04:53:06Z"
+    },
+    {
+      "id": "hn:50484998",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Do we still have to denormalize? Have your schema and search it too",
+      "description": "An argument for searching your schema as it is instead of denormalizing it.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "philippemnoel",
+      "url": "https://www.paradedb.com/blog/joins",
+      "createdAt": "2026-11-13T15:31:50Z",
+      "updatedAt": "2026-11-13T15:31:50Z"
+    },
+    {
+      "id": "hn:50486745",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Researchers track whole body movement with just a smartwatch",
+      "description": "Researchers track whole-body movement using only a smartwatch.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "PaulHoule",
+      "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
+      "createdAt": "2026-11-13T17:29:49Z",
+      "updatedAt": "2026-11-13T17:29:49Z"
     }
   ]
 }
