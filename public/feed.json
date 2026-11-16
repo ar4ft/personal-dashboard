@@ -47365,6 +47365,167 @@
       ],
       "createdAt": "2026-11-16T14:31:00Z",
       "content": "## How it works\n\nThe app gives you a set of short scripted passages, including names, numbers, code terms and your second language, and you read them in each environment you care about with each mic you own. Recordings stay on the Mac. It then runs every installed local model on the same clips: Fluid Speech Pro (MLX or GGUF), Parakeet, Whisper variants through whisper.cpp, and optionally Apple's on-device speech. For each model it computes word error rate against the script, plus real-time factor and memory. The result is a per-environment leaderboard and a recommendation, such as Fluid Speech Pro with clean mode at your desk and a bigger Whisper model in the car. It can export the winning settings for dictation apps that accept a custom model.\n\n```mermaid\nflowchart LR\n  Script[Scripted passages] --> Record[Record per room and mic]\n  Record --> Models[Run local ASR models]\n  Models --> Score[WER, speed, memory]\n  Score --> Board[Personal leaderboard]\n  Board --> Export[Recommended model settings]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| UI | SwiftUI Mac app |\n| Audio | AVAudioEngine with device picker for AirPods, USB and built-in mics |\n| Models | MLX Swift, whisper.cpp, parakeet.cpp GGUF, SFSpeechRecognizer |\n| Scoring | Simple WER with normalisation for numbers and punctuation |\n| Storage | Local folder of WAV files and a JSON results log |\n\n## Hard parts\n\n- Text normalisation, so 'twenty five' and '25' aren't counted as errors.\n- Packaging several inference runtimes without a huge app bundle.\n- Fair comparisons when models output punctuation, casing and fillers differently.\n- Getting people to record enough samples per environment for the results to mean anything.\n\n## Effort\n\nA weekend for recording, two models and WER; two to three weeks for multiple runtimes, per-environment leaderboards and export.\n\n## Inspired by\n\n- [Fluid Speech Pro launch on X](https://x.com/FluidVoiceApp/status/2121710572152787427)\n- [Fluid Speech Pro weights on Hugging Face](https://huggingface.co/FluidVoice-Labs/fluid-speech-pro)\n- [Antimattr voice-isolating earbuds on X](https://x.com/sridipto_ghosh/status/2121263298473779655)"
+    },
+    {
+      "id": "hn:50517488",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+      "description": "An investigation finds many of Amazon's advertised Black Friday and Cyber Monday deals offered shoppers no savings at all.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "DeepLogin",
+      "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+      "createdAt": "2026-11-16T13:39:07Z",
+      "updatedAt": "2026-11-16T13:39:07Z"
+    },
+    {
+      "id": "hn:50521045",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+      "description": "A technical issue at JPMorgan Chase caused online banking delays affecting customers at several US banks.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "samk3nny",
+      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "createdAt": "2026-11-16T18:31:30Z",
+      "updatedAt": "2026-11-16T18:31:30Z"
+    },
+    {
+      "id": "hn:50520866",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Software is breaking down at a systemic level",
+      "description": "An essay argues that software is breaking down at a systemic level, not just in isolated incidents.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zero_shift",
+      "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+      "createdAt": "2026-11-16T18:17:17Z",
+      "updatedAt": "2026-11-16T18:17:17Z"
+    },
+    {
+      "id": "hn:50516473",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+      "description": "A hidden power-button code from 2007 can reportedly bring dead ThinkPad laptops back to life.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sammatilda",
+      "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+      "createdAt": "2026-11-16T11:39:31Z",
+      "updatedAt": "2026-11-16T11:39:31Z"
+    },
+    {
+      "id": "hn:50519354",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Frame – 31.5\" color ePaper display",
+      "description": "Frame is a new 31.5-inch color ePaper display aimed at desks and always-on information.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "geerlingguy",
+      "url": "https://trmnl.com/blog/introducing-frame",
+      "createdAt": "2026-11-16T16:23:22Z",
+      "updatedAt": "2026-11-16T16:23:22Z"
+    },
+    {
+      "id": "hn:50518567",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nvidia was in trouble before the Jensen Huang mess",
+      "description": "Nvidia was already facing serious trouble before the upheaval around Jensen Huang, according to this analysis.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Brajeshwar",
+      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+      "createdAt": "2026-11-16T15:24:09Z",
+      "updatedAt": "2026-11-16T15:24:09Z"
+    },
+    {
+      "id": "hn:50522980",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "description": "Carnegie Mellon is putting its computer science courses on YouTube for free.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "pcompeau",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "createdAt": "2026-11-16T20:43:36Z",
+      "updatedAt": "2026-11-16T20:43:36Z"
+    },
+    {
+      "id": "hn:50517321",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "description": "Microsoft blames a major email outage on a software defect introduced in a July fix.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Bender",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "createdAt": "2026-11-16T13:18:22Z",
+      "updatedAt": "2026-11-16T13:18:22Z"
+    },
+    {
+      "id": "hn:50522563",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rust changed me as a developer",
+      "description": "A developer reflects on how learning Rust changed the way they write software.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "speckx",
+      "url": "https://blog.startifact.com/posts/how-rust-changed-me/",
+      "createdAt": "2026-11-16T20:16:50Z",
+      "updatedAt": "2026-11-16T20:16:50Z"
+    },
+    {
+      "id": "hn:50519153",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "First phase of embedded assessments at OpenAI",
+      "description": "OpenAI describes the first phase of its embedded assessments, a new way of evaluating its models in real use.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dvaplima",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+      "createdAt": "2026-11-16T16:07:20Z",
+      "updatedAt": "2026-11-16T16:07:20Z"
     }
   ]
 }
