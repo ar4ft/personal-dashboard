@@ -48028,6 +48028,186 @@
       "createdAt": "2026-11-15T00:00:00Z",
       "updatedAt": "2026-11-15T00:00:00Z",
       "content": "Blackburn defines a perfect park as reversing at full lock until the car is parallel, then rolling forward, with no shuffling. Using the turning-circle radius, the fact that the rear axle points at the circle's centre, and the corner of the car in front that must be cleared, the article derives the two-square-root formula for the extra length you need beyond your own car. An interactive diagram lets you drive the car yourself.\n\n[Article on Abakcus](https://abakcus.com/articles/geometry-of-perfect-parking)"
+    },
+    {
+      "id": "hn:50524736",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+      "description": "Windows 11 is reportedly collecting data on which coding agents and developer tools people use, raising questions about what telemetry the OS gathers from developers' workflows.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "cwaffles",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "createdAt": "2026-11-16T22:58:20Z",
+      "updatedAt": "2026-11-16T22:58:20Z"
+    },
+    {
+      "id": "hn:50523601",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "BugMeNot has closed",
+      "description": "BugMeNot, the long-running service for sharing logins to bypass registration walls, has closed.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "lode",
+      "url": "https://www.bugmenot.com/",
+      "createdAt": "2026-11-16T21:32:17Z",
+      "updatedAt": "2026-11-16T21:32:17Z"
+    },
+    {
+      "id": "hn:50524767",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "description": "A compromise of Optimizely served malware through the sites of major brands, including Zoom and GitLab.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "kristjansson",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "createdAt": "2026-11-16T23:00:34Z",
+      "updatedAt": "2026-11-16T23:00:34Z"
+    },
+    {
+      "id": "hn:50517602",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What is w2rt6byl5nf1opmc-a.com?",
+      "description": "An investigation into a strange-looking domain name and what sits behind it.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dverlaeckt80",
+      "url": "https://jack.cab/blog/siterate",
+      "createdAt": "2026-11-16T13:51:38Z",
+      "updatedAt": "2026-11-16T13:51:38Z"
+    },
+    {
+      "id": "hn:50523025",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
+      "description": "AT&T argues in a false advertising case that Comcast's 'fiber-powered Wi-Fi' is really cable internet, not fiber.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jaredwiener",
+      "url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+      "createdAt": "2026-11-16T20:48:08Z",
+      "updatedAt": "2026-11-16T20:48:08Z"
+    },
+    {
+      "id": "hn:50523784",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Spamhaus new email sender requirements in November",
+      "description": "Spamhaus has published new requirements for email senders taking effect in November.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "computer23",
+      "url": "https://www.spamhaus.org/sender-guidelines/",
+      "createdAt": "2026-11-16T21:47:19Z",
+      "updatedAt": "2026-11-16T21:47:19Z"
+    },
+    {
+      "id": "hn:50516689",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Do Repeat Yourself",
+      "description": "A case for repeating yourself deliberately in code and communication, rather than always reaching for abstraction.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "max_sendfeld",
+      "url": "https://arcentry.com/blog/do-repeat-yourself/",
+      "createdAt": "2026-11-16T12:06:46Z",
+      "updatedAt": "2026-11-16T12:06:46Z"
+    },
+    {
+      "id": "hn:50497621",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Formal Verification Is Not Verifiable",
+      "description": "An argument that formal verification does not itself make a system verifiable in the way its advocates claim.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "zdw",
+      "url": "https://alperenkeles.com/posts/formal-verification-is-not-verifiable/",
+      "createdAt": "2026-11-14T15:07:48Z",
+      "updatedAt": "2026-11-14T15:07:48Z"
+    },
+    {
+      "id": "hn:50526537",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mem Is Shutting Down",
+      "description": "Mem, the AI-powered note-taking app, is shutting down.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "qainsights",
+      "url": "https://get.mem.ai/blog/mem-is-shutting-down",
+      "createdAt": "2026-11-17T02:13:41Z",
+      "updatedAt": "2026-11-17T02:13:41Z"
+    },
+    {
+      "id": "hn:50525575",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why 3dfx 1 cards had such a washed out color output?",
+      "description": "John Carmack weighs in on why 3dfx's first graphics cards produced such washed-out colors.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mfiguiere",
+      "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+      "createdAt": "2026-11-17T00:16:24Z",
+      "updatedAt": "2026-11-17T00:16:24Z"
+    },
+    {
+      "id": "hn:50470523",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rows vs. Columns: How different are they, really?",
+      "description": "A look at how different row-oriented and column-oriented data layouts really are in practice.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "eatonphil",
+      "url": "https://spiraldb.com/blog/rows-vs-columns",
+      "createdAt": "2026-11-12T17:04:41Z",
+      "updatedAt": "2026-11-12T17:04:41Z"
     }
   ]
 }
