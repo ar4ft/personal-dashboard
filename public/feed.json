@@ -48383,6 +48383,253 @@
       ],
       "createdAt": "2026-11-17T14:31:00Z",
       "content": "## How it works\n\nDuring a short calibration you sit well, then slump, lean and reach, while the watch emits near-ultrasonic chirps and records echoes off your body and desk. A tiny model trained on your own data maps echo spectrograms to posture classes, combined with the watch's motion sensors to know when you're typing. During work it samples every few seconds, smooths the predictions, and only taps your wrist after a sustained bad posture. A companion Mac menu bar app shows a daily posture timeline and lets you recalibrate when you change chair or desk.\n\n```mermaid\nflowchart LR\n  Chirp[Near-ultrasonic chirp] --> Echo[Echo recording]\n  Echo --> Spec[Spectrogram]\n  Spec --> Model[On-device posture model]\n  Model --> Nudge[Haptic nudge]\n  Model --> Timeline[Mac menu bar timeline]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Prototype | iPhone or Android phone recording chirps, Python notebook |\n| Model | Small CNN on spectrograms, exported with Core ML or TFLite |\n| Watch | watchOS app with AVAudioEngine, or Wear OS on a Galaxy Watch |\n| Companion | SwiftUI menu bar app syncing a daily summary |\n| Storage | On-device only, per-user calibration data |\n\n## Hard parts\n\n- Watch speakers and mics may filter out near-ultrasonic frequencies, and watchOS limits background audio.\n- Battery cost of regular chirping on a wrist device.\n- Echoes change with desk, chair and clothing, so recalibration must be quick.\n- Avoiding annoying false nudges when you simply move.\n\n## Effort\n\nA weekend for the phone-based feasibility test; three to four weeks for a watch app, personal calibration and the Mac companion, if the hardware passes the frequencies.\n\n## Inspired by\n\n- [EchoMotion post by Hackster.io on X](https://x.com/Hacksterio/status/2122681611116310691)\n- [EchoMotion article on Hackster.io](https://www.hackster.io/news/echomotion-turns-an-off-the-shelf-smartwatch-into-a-full-body-motion-tracker-for-ar-vr-and-more-8b9ce7f567be)"
+    },
+    {
+      "id": "hn:50535230",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI introduces GPT-6.2 Astra and GPT-6.2 Sol",
+      "description": "OpenAI's new frontier model GPT-6.2 Astra and everyday model GPT-6.2 Sol aim to get better results on demanding work with fewer output tokens; Astra's API prices drop 20% versus GPT-6 Astra.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jasondavies",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "createdAt": "2026-11-17T17:46:43Z",
+      "updatedAt": "2026-11-17T17:46:43Z",
+      "content": "OpenAI says GPT-6.2 Astra sets new highs on Agents' Last Exam (5.2 points above GPT-6 Astra at under a third of the cost) and on Terminal-Bench-Science, and writes cleaner code and better-looking frontends. API pricing is $8 per million input tokens, $0.40 cached and $40 output. GPT-6.2 Sol keeps GPT-6.1 Sol's prices and comes within 0.5 points of Astra on Cognition's FrontierCode 2.0 at about a fifth of the cost.\n\n[OpenAI announcement](https://openai.com/index/introducing-gpt-6-2-astra-sol/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50535230)"
+    },
+    {
+      "id": "hn:50535885",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft AI releases MAI Code 2 and MAI Code 2 Flash coding models",
+      "description": "Microsoft's two new coding models target everyday enterprise coding at lower cost and are available now in GitHub Copilot, with Code 2 Flash in limited preview in Microsoft Foundry.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "lemonish97",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "createdAt": "2026-11-17T18:25:13Z",
+      "updatedAt": "2026-11-17T18:25:13Z",
+      "content": "Averaged over DeepSWE 1.1, Terminal Bench 2.1, SWE-Atlas and FrontierCode v1.1, Microsoft says MAI Code 2 reaches 98% of GPT-6.1 Sol's performance at 40% of the cost. It is tuned for multi-file changes, debugging, dashboards and visual coding, and is explicitly not yet tuned for very long-horizon agentic work. Code 2 Flash targets high-volume edits and routine fixes, and a sibling model, MAI Work Flash, now serves Excel, PowerPoint, Word, Teams and Fabric IQ. OpenRouter, Vercel and OpenCode availability is planned.\n\n[Microsoft AI announcement](https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50535885)"
+    },
+    {
+      "id": "hn:50538240",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Java4Shell: memory corruption in OpenJDK's Base64 decoder leads to RCE",
+      "description": "Calif disclosed CVE-2026-114938, a bug in OpenJDK's AVX-512 Base64 decoding intrinsic that lets malformed input overwrite heap memory; they demonstrated pre-auth RCE in Keycloak, Jira, Confluence, Artifactory, Jenkins and PingFederate.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "werrett",
+      "url": "https://calif.io/java4shell/",
+      "createdAt": "2026-11-17T21:11:28Z",
+      "updatedAt": "2026-11-17T21:11:28Z",
+      "content": "The flaw sits in hand-written x86-64 assembly that handles the last few characters of Base64 input on CPUs with AVX-512 VBMI; 64 `A` characters followed by `=` are enough to trigger it (128 on older OpenJDK 17). It scores 9.2 under CVSS 4.0. Beyond the listed pre-auth targets, the researchers showed post-auth RCE in Kafka, Solr, Elasticsearch, Gerrit and Spinnaker, sample Struts and Spring Boot apps, and a client-side exploit against Java programs that connect to a malicious TLS server. The write-up includes a server check and recommendations.\n\n[Java4Shell write-up](https://calif.io/java4shell/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50538240)"
+    },
+    {
+      "id": "hn:50536387",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Solid 2.0 is stable: async in the reactive graph and diagnostics built for agents",
+      "description": "Five years after 1.0, SolidJS 2.0 brings async values into the fine-grained reactive graph, moves server functions (including streaming ones) into core, and adds dev-time diagnostics with fix guides aimed at coding agents.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "pier25",
+      "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+      "createdAt": "2026-11-17T18:56:17Z",
+      "updatedAt": "2026-11-17T18:56:17Z",
+      "content": "Computations can now return Promises and the graph handles race conditions and rolls back speculative state. Server functions from SolidStart move into core and can stream values over Server-Sent Events. Because the framework knows exactly which reactive values were read and where, development builds report mistakes such as untracked reads in effects with a stable code, source location, docs link and an agent repair guide shipped as a SKILL.md in the package, and can flag waterfalls and badly shaped graphs.\n\n[Solid 2.0 announcement](https://www.solidjs.com/blog/solid-2-0-the-long-hold/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50536387)"
+    },
+    {
+      "id": "hn:50532191",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FrontierHarness Eval v1.1: the best coding-agent harness depends on the model",
+      "description": "Runta and Baseten ran 22 agent harnesses across 5 models and 62 tasks (27,280 runs, 83B tokens) and found that the best-value harness changes with the model, so switching models should mean reconsidering the harness.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Edward40",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+      "createdAt": "2026-11-17T14:53:43Z",
+      "updatedAt": "2026-11-17T14:53:43Z",
+      "content": "The best pass-rate-for-cost pairings were Codex CLI with GLM-5.3, Pi with GLM-5.3 Flash, ZCode with DeepSeek V4.1 Flash, Oh My Pi with Muse and Alma with Kimi-K3. Rankings moved a lot: by cost per task the median harness moved 11 of 22 places, and Codex CLI went from 1st with GLM-5.3 to 16th with Kimi-K3. Across all models, OpenCode v2, Pi, Codex CLI and ZCode were on the cost/pass-rate frontier.\n\n[FrontierHarness Eval v1.1](https://runta.com/blog/introducing-frontierharness-eval-v1-1/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50532191)"
+    },
+    {
+      "id": "hn:50535740",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PostHog: not everything needs an LLM, how they use decision models in production",
+      "description": "Jina Yoon explains how PostHog uses small decision models, which return a typed answer with a calibrated probability, to gate expensive LLM calls and handle simple classification steps.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Jina Yoon",
+      "url": "https://newsletter.posthog.com/p/decision-models",
+      "createdAt": "2026-11-17T18:16:18Z",
+      "updatedAt": "2026-11-17T18:16:18Z",
+      "content": "Instead of free-form prose, a decision model answers a structured question (yes/no, choice or score) with a probability; in a calibrated model, 0.8 answers are right about 80% of the time. PostHog uses them as a cheap first pass, for example to decide whether a session summary even needs the LLM-based personal-info scrubbing step in Replay Vision, and the post collects when to use them, how to set thresholds, and mistakes to avoid.\n\n[Post on PostHog's newsletter](https://newsletter.posthog.com/p/decision-models)\n\n[HN discussion](https://news.ycombinator.com/item?id=50535740)"
+    },
+    {
+      "id": "hn:50533270",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TrnRT: an open-source LLM inference engine for AWS Trainium",
+      "description": "RunAnywhere's TrnRT serves an OpenAI-compatible API from one trn2.48xlarge, runs decode as NKI megakernels (about one fused kernel per layer half) and supports 1M-token context.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "sanchitmonga22",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "createdAt": "2026-11-17T16:01:04Z",
+      "updatedAt": "2026-11-17T16:01:04Z",
+      "content": "Long context comes from sparse attention (top 2,048) plus linear attention with fixed-size state, and there is a radix-tree prefix cache over FP8 KV pages with a host-memory tier. Each box runs two tensor-parallel engines behind a session-affine router, and all graphs are compiled offline on an ordinary x86_64 host, so the serving box compiles nothing. The quickstart serves GLM-5.3-Flash with streaming, tool calls and reasoning output.\n\n[TrnRT on GitHub](https://github.com/RunanywhereAI/trnrt)\n\n[HN discussion](https://news.ycombinator.com/item?id=50533270)"
+    },
+    {
+      "id": "hn:50536031",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Purism opens crowdfunding for the Librem 5 v2, a RISC-V phone running PureOS",
+      "description": "Purism's second-generation Librem 5 moves to an eight-core RISC-V processor, keeps hardware kill switches and runs the free PureOS instead of Android or iOS; the phone-only reward is $1,599.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gnufx",
+      "url": "https://puri.sm/posts/purism-launches-librem-5-v2-a-risc-v-phone-to-empower-people/",
+      "createdAt": "2026-11-17T18:34:10Z",
+      "updatedAt": "2026-11-17T18:34:10Z",
+      "content": "Physical switches cut the camera, microphone and wireless radios, and the phone's core operation needs no Apple, Google or other big-platform account. Purism expects delivery about 14 to 15 months after the campaign ends and notes that rewards and timelines aren't guaranteed while development continues.\n\n[Purism announcement](https://puri.sm/posts/purism-launches-librem-5-v2-a-risc-v-phone-to-empower-people/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50536031)"
+    },
+    {
+      "id": "x:2122759065524670963",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cloudflare open-sources Kitesurf, a non-Chromium browser engine for AI agents",
+      "description": "Kitesurf is an experimental Rust/Wasm browser engine that runs on Cloudflare Workers, speaks the Chrome DevTools Protocol so Puppeteer can drive it, and is Apache 2.0 licensed.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Farhan (@sfsajid91)",
+      "url": "https://x.com/sfsajid91/status/2122759065524670963",
+      "createdAt": "2026-11-17T18:29:34Z",
+      "updatedAt": "2026-11-17T18:29:34Z",
+      "content": "Kitesurf parses HTML, applies CSS, runs page JavaScript and renders screenshots without Chrome or a browser container. Cloudflare's numbers versus warm Chromium for HTML extraction: about 7x less memory and 3.8x less CPU, but 1.7x slower. Running it on Cloudflare needs Dynamic Workers on the Workers Paid plan, and the README warns not to open untrusted sites with a local instance because workerd isn't a hardened sandbox.\n\n[Kitesurf on GitHub](https://github.com/cloudflare/kitesurf)\n\n[Post on X](https://x.com/sfsajid91/status/2122759065524670963)"
+    },
+    {
+      "id": "x:2122770379915805067",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GitHub and Microsoft pilot AI vulnerability scanning that delivers verified fixes, not raw reports",
+      "description": "Microsoft's MDASH agentic scanner, GitHub Security Lab triage and hand review by FORGE Lab researchers sent 99 private reports with suggested fixes to six open-source projects; 55 were fixed by November 15.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Microsoft Threat Intelligence (@MsftSecIntel)",
+      "url": "https://x.com/MsftSecIntel/status/2122770379915805067",
+      "createdAt": "2026-11-17T19:14:32Z",
+      "updatedAt": "2026-11-17T19:14:32Z",
+      "content": "MDASH, using Microsoft's MAI Cyber model, flagged thousands of possible issues in AutoGPT, Caddy, Express, FastMCP, ImageMagick and Netty. A Copilot-based triage agent removed duplicates and invalid findings, researchers verified every remaining one, and each report arrived via private vulnerability reporting with a proof of concept and a patch. Caddy fixed all 22 of its reports within a week. The authors' main point is that maintainers need fixes, not more AI-generated findings.\n\n[GitHub blog post](https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/)\n\n[Post on X](https://x.com/MsftSecIntel/status/2122770379915805067)"
+    },
+    {
+      "id": "x:2122722322268185033",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OVHcloud announces Olala mini 7A1B, its first open-weight LLM",
+      "description": "OVH's first in-house model is a 7B-parameter MoE with 1B active parameters that runs on an 8 GB GPU or at about 50 tokens/s on a plain CPU, coming to Hugging Face under Apache 2.0.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "序帧 (@xuzhenai)",
+      "url": "https://x.com/xuzhenai/status/2122722322268185033",
+      "createdAt": "2026-11-17T16:03:34Z",
+      "updatedAt": "2026-11-17T16:03:34Z",
+      "content": "Olala mini spreads its active parameters across 256 experts per layer and uses hybrid attention that combines Differential-TPA and Mamba-3. It has a 32K context window now, with 128K planned for v1.1. It was trained on the Jupiter, MeluXina and Jean Zay supercomputers, ships with its base model, technical report and AI Act documentation, and already powers Qwant's flash answers. Official launch is November 19.\n\n[OVH press release](https://corporate.ovhcloud.com/en/newsroom/news/ovh-olala-mini/)\n\n[Post on X](https://x.com/xuzhenai/status/2122722322268185033)"
+    },
+    {
+      "id": "x:2122723964959048102",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ReeStack, a native focus stacking app for macOS, launches on the Mac App Store",
+      "description": "Reeflex's ReeStack develops RAW frames, aligns and stacks them with three algorithms, and lets you retouch from source frames and edit in one workspace; it is free to try, with Pro export a one-time purchase.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "REEFLEX (@ReeflexCamera)",
+      "url": "https://x.com/ReeflexCamera/status/2122723964959048102",
+      "createdAt": "2026-11-17T16:10:06Z",
+      "updatedAt": "2026-11-17T16:10:06Z",
+      "content": "The site shows a 10-frame, 20 MP RAW stack on an M3 Pro finishing in 6.1 s, versus 12.1 s for Helicon Focus and 30.4 s for Zerene Stacker. Export goes to JPEG, HEIF, TIFF or DNG in sRGB to ProPhoto, and you can paint sharp areas back from a chosen frame. ReeStack Pro is $39.99 at launch (regular $79.99), with no subscription.\n\n[ReeStack website](https://reestack.web.app)\n\n[Post on X](https://x.com/ReeflexCamera/status/2122723964959048102)"
+    },
+    {
+      "id": "x:2122724078431748229",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TOP75 for macOS: an open-source Mac app for the Darmoshark TOP75 keyboard",
+      "description": "A free SwiftPM-built Mac app that configures the Darmoshark TOP75's RGB lighting, key remaps, macros and lights-off schedule over USB or Bluetooth, and uploads images or GIFs to its display.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Bedirhan Skywalker (@bedirhansamsa)",
+      "url": "https://x.com/bedirhansamsa/status/2122724078431748229",
+      "createdAt": "2026-11-17T16:10:33Z",
+      "updatedAt": "2026-11-17T16:10:33Z",
+      "content": "It runs on macOS 14 or later on Apple Silicon and Intel Macs. Bluetooth handles lighting, profiles, key assignments, macros and JSON backup and restore, while display artwork uploads need USB. A key test view shows the codes the keyboard sends, a good reference if you want to write a native Mac utility for vendor hardware that only ships Windows software.\n\n[TOP75 macOS on GitHub](https://github.com/kreativecenter/top75-macos)\n\n[Post on X](https://x.com/bedirhansamsa/status/2122724078431748229)"
+    },
+    {
+      "id": "reading:abakcus-graph-of-love-heart-equation",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Graph of Love: the equation that draws a heart",
+      "description": "Abakcus takes apart the two-line \"graph of love\": two semicircles on top and a nested square root below form a heart whose area is exactly π + 32/5.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/graph-of-love-heart-equation",
+      "createdAt": "2026-11-17T00:00:00Z",
+      "updatedAt": "2026-11-17T00:00:00Z",
+      "content": "The top, y = √(1 − (|x| − 1)²), is a unit semicircle shifted right and mirrored by the absolute value, which creates the cleft at the origin. The bottom, y = −3√(1 − √(|x|/2)), uses a nested square root so the sides meet the shoulders without visible corners and still come to a sharp tip. An interactive plot lets you change the depth factor, and the article explains why many plots wrongly show the cleft stopping above the axis.\n\n[Article on Abakcus](https://abakcus.com/articles/graph-of-love-heart-equation)"
     }
   ]
 }
