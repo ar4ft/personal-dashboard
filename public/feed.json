@@ -48208,6 +48208,181 @@
       "url": "https://spiraldb.com/blog/rows-vs-columns",
       "createdAt": "2026-11-12T17:04:41Z",
       "updatedAt": "2026-11-12T17:04:41Z"
+    },
+    {
+      "id": "x:2122681611116310691",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EchoMotion turns an off-the-shelf smartwatch into a full-body motion tracker",
+      "description": "Cornell and KAIST researchers use a smartwatch's own speaker and microphone as an ultrasonic sonar, with an on-watch ML model estimating 12 body joints for AR and VR.",
+      "topics": [
+        "Wearables",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Hackster.io (@Hacksterio)",
+      "url": "https://x.com/Hacksterio/status/2122681611116310691",
+      "createdAt": "2026-11-17T13:21:48Z",
+      "updatedAt": "2026-11-17T13:21:48Z",
+      "content": "EchoMotion emits inaudible ultrasonic chirps from the watch speaker and listens to the echoes with its microphone; a lightweight model running on the watch turns those echoes into a 12-joint full-body pose. On an unmodified Samsung Galaxy Watch 6 the team reports under four inches of position error in the lab, around 2.4 inches after a 12-minute calibration, and similar accuracy outdoors. A prototype watch with speaker and mic pairs on both sides improved accuracy further.\n\n[Article on Hackster.io](https://www.hackster.io/news/echomotion-turns-an-off-the-shelf-smartwatch-into-a-full-body-motion-tracker-for-ar-vr-and-more-8b9ce7f567be)\n\n[Post on X](https://x.com/Hacksterio/status/2122681611116310691)"
+    },
+    {
+      "id": "x:2122331536150114728",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "llama.cpp moves its CI cache to Hugging Face Buckets and extra runners to HF Jobs",
+      "description": "The llama.cpp team explains how it keeps a 100+ job CI fast at about 35 PRs a day by storing ccache in Hugging Face Buckets and running Linux x64 jobs on Hugging Face Jobs.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Georgi Gerganov (@ggerganov)",
+      "url": "https://x.com/ggerganov/status/2122331536150114728",
+      "createdAt": "2026-11-16T14:10:43Z",
+      "updatedAt": "2026-11-16T14:10:43Z",
+      "content": "Between August and October 2026 llama.cpp received 3,181 pull requests and merged 1,802. A full CI run is 100+ jobs across hardware backends, many taking up to 30 minutes, which outgrew GitHub Actions cache and runner limits. The write-up covers separate PR and master workflows, compiler caches in HF Buckets, and enrolling extra runners through HF Jobs, with the workflow changes in a public PR.\n\n[Blog post on Hugging Face](https://huggingface.co/blog/ggml-org/llama-cpp-ci-buckets)\n\n[Workflow PR on GitHub](https://github.com/ggml-org/llama.cpp/pull/27699)\n\n[jobs-actions on GitHub](https://github.com/huggingface/jobs-actions)\n\n[Post on X](https://x.com/ggerganov/status/2122331536150114728)"
+    },
+    {
+      "id": "x:2122393775314264519",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hugging Face switches Inference Providers to OpenRouter's router",
+      "description": "Every open-weight model on the Hub that a provider serves can now be called with a Hugging Face token through one API, with OpenRouter picking the provider by live price, speed and reliability and retrying on failure.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Hugging Face (@huggingface)",
+      "url": "https://x.com/huggingface/status/2122393775314264519",
+      "createdAt": "2026-11-16T18:18:02Z",
+      "updatedAt": "2026-11-16T18:18:02Z",
+      "content": "Hugging Face replaced its own custom router with OpenRouter's: language-model requests now go through OpenRouter, which routes across 80+ providers and fails over automatically, while existing code keeps working. The router speaks OpenAI Chat Completions and Responses plus Anthropic Messages, with setup guides for Claude Code, Codex, OpenCode, Pi and Hermes Agent. The Hub also gets live model stats and a redesigned inference widget. Note the post flags a breaking change for custom provider keys.\n\n[Announcement on the Hugging Face blog](https://huggingface.co/blog/openrouter)\n\n[Post on X](https://x.com/huggingface/status/2122393775314264519)"
+    },
+    {
+      "id": "x:2122500307557265651",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "External sandboxes: run Claude Code, Codex or Pi on your Mac but execute every command in a Linux sandbox",
+      "description": "Simon Willison and Prime Radiant released three compatible sandbox servers (v86 WebAssembly, Apple Containers, Quicksand QEMU) that agents send commands to, with folder mounts, no network by default and a credential-injecting proxy.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Simon Willison (@simonw)",
+      "url": "https://x.com/simonw/status/2122500307557265651",
+      "createdAt": "2026-11-17T01:21:22Z",
+      "updatedAt": "2026-11-17T01:21:22Z",
+      "content": "The agent stays on the host; its commands go to an isolated Linux guest that only sees the folders you mount, read-only or read-write. Network access is off unless you start an allow-listed proxy, which can also inject API keys so the agent never sees them. A browser UI shows a terminal, the proxy rules and a request log. Claude Code routes its Bash tool, Codex its process and filesystem operations including apply_patch, and Pi all its tools. Try it with `uvx external-sandbox-container --preserve-paths --mount-rw \"project=$PWD\"`.\n\n[Write-up on the Prime Radiant blog](https://blog.primeradiant.com/external-sandboxes-for-coding-agents/)\n\n[Protocol and integrations on GitHub](https://github.com/prime-radiant-inc/external-sandbox)\n\n[Apple Container backend on GitHub](https://github.com/prime-radiant-inc/external-sandbox-container)\n\n[Post on X](https://x.com/simonw/status/2122500307557265651)"
+    },
+    {
+      "id": "x:2122440338753069391",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LM Studio adds Agent Remote Control over its encrypted LM Link",
+      "description": "LM Studio's Bionic app can now turn any laptop, PC, dev box or cloud VM into an agent host whose projects and sessions you create and continue from your other devices, end-to-end encrypted over LM Link.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "LM Studio (@lmstudio)",
+      "url": "https://x.com/lmstudio/status/2122440338753069391",
+      "createdAt": "2026-11-16T21:23:04Z",
+      "updatedAt": "2026-11-16T21:23:04Z",
+      "content": "Each machine opts in with an Allow remote agent control switch; headless boxes use the llmster daemon. Remote machines then appear in the sidebar of your other devices, and remote sessions update live like local ones. LM Studio pitches it for building on another OS from your Mac, long tasks that keep running after you close the laptop, and giving heavy agent work its own machine. LM Link is built with Tailscale.\n\n[Announcement on the LM Studio blog](https://lmstudio.ai/blog/agent-remote-control)\n\n[Post on X](https://x.com/lmstudio/status/2122440338753069391)"
+    },
+    {
+      "id": "x:2122531964154712541",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ollama and Together on keeping coding agents fast: don't break the prefix cache",
+      "description": "Coding agents resend the whole conversation every turn, so prefix caching matters; Ollama and Together found a timestamp in the system prompt or a reasoning-effort change can wipe the cache.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Ollama (@ollama)",
+      "url": "https://x.com/ollama/status/2122531964154712541",
+      "createdAt": "2026-11-17T03:27:09Z",
+      "updatedAt": "2026-11-17T03:27:09Z",
+      "content": "The guide, written by Zain Hasan of Together and Parth Sareen of Ollama, splits the work between the agent harness and the inference engine. Lessons highlighted: a single timestamp in the system prompt can break the cache, changing reasoning effort can invalidate everything, and telling the agent its output was truncated gets it to re-read what it missed. Useful for anyone running Claude Code, Codex or Pi against open models.\n\n[Guide on the Together AI blog](https://www.together.ai/blog/making-open-models-work-for-long-horizon-agentic-workloads)\n\n[Post on X](https://x.com/ollama/status/2122531964154712541)"
+    },
+    {
+      "id": "x:2122575269181722778",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AtomDog: a tiny open-source 3D-printed robot dog on an M5Stack Atom Lite",
+      "description": "se kino's AtomDog uses an ESP32 Atom Lite, the Atomic Motion base and four micro servos to walk, sit, wave and bark, with calibration and gait tuning from a browser, no app needed.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "M5Stack (@M5Stack)",
+      "url": "https://x.com/M5Stack/status/2122575269181722778",
+      "createdAt": "2026-11-17T06:19:14Z",
+      "updatedAt": "2026-11-17T06:19:14Z",
+      "content": "Firmware (PlatformIO, Arduino framework), 3D models and PCB data are MIT-licensed on Hackster. The robot serves a WebUI at dogrobot.local over WebSocket for per-leg servo trim, centre-of-gravity and gait period sliders, and saves its settings to flash. The UI is in English, Japanese and Chinese, and the build is listed at about three hours.\n\n[Build guide on Hackster.io](https://www.hackster.io/kinosei/atomdog-open-source-quadruped-robot-with-m5atommotion-aa540d)\n\n[Post on X](https://x.com/M5Stack/status/2122575269181722778)"
+    },
+    {
+      "id": "x:2122336278977052898",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Codenotch: an open-source Mac notch that shows how much of your coding-agent limits you've burned",
+      "description": "Codenotch pins a small black notch to any screen edge with rings for each coding assistant's usage window and whether it's working, done or waiting on you; contributors just added glass or solid styles and any size.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Vinz (@hivinz_)",
+      "url": "https://x.com/hivinz_/status/2122336278977052898",
+      "createdAt": "2026-11-16T14:29:34Z",
+      "updatedAt": "2026-11-16T14:29:34Z",
+      "content": "Hovering a ring shows each limit window and when it resets, and the Claude ring matches the current session window Claude Code's own `/usage` shows. It's MIT-licensed, signed, notarized and self-updating, with a preview build rebuilt from every commit. The new appearance settings let you put it on any edge in glass or black at any size.\n\n[Codenotch on GitHub](https://github.com/vinzdg/codenotch)\n\n[Download the latest release](https://github.com/vinzdg/codenotch/releases/latest)\n\n[Post on X](https://x.com/hivinz_/status/2122336278977052898)"
+    },
+    {
+      "id": "ideas:agent-prefix-cache-doctor",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Prefix cache doctor: a local proxy that shows why your coding agent keeps missing the cache",
+      "description": "A developer tool for people who run Claude Code, Codex, Pi or their own agent harness against Ollama, llama.cpp or a hosted OpenAI-compatible endpoint: a small proxy that diffs every request against the previous one and points at the exact bytes that broke prefix caching, plus the tokens and seconds it cost.",
+      "nextStep": "Write a 150-line Python proxy that forwards /v1/chat/completions to a local Ollama, stores each request body, and prints the first differing character offset and its surrounding text versus the previous request in the same session.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "createdAt": "2026-11-17T14:30:00Z",
+      "content": "## How it works\n\nPoint the agent's base URL at the proxy instead of the model server. For each session it keeps the last request, serialises messages, tools and settings in the same order the engine tokenises them, and finds the longest common prefix with the next request. When the shared prefix shrinks, it flags the cause in plain words: a timestamp or random ID in the system prompt, reordered tool definitions, a changed reasoning-effort or temperature setting, an edited earlier message, or a truncated tool result being re-sent differently. It also reads cache fields from responses where engines expose them and draws a per-session timeline of cache hits, wasted prompt tokens and extra latency. A `--ci` mode replays a recorded session against a harness change and fails if cache reuse drops.\n\n```mermaid\nflowchart LR\n  Agent[Coding agent] --> Proxy[Cache doctor proxy]\n  Proxy --> Engine[Ollama or llama.cpp]\n  Proxy --> Diff[Prefix diff per turn]\n  Diff --> Causes[Named cache breakers]\n  Causes --> Report[Timeline and CI check]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Proxy | Python with httpx and Starlette, or a single Go binary |\n| Engines | Ollama, llama.cpp server, any OpenAI-compatible endpoint |\n| Diffing | Canonical JSON plus character-level longest common prefix |\n| Storage | SQLite file of request bodies per session, redacted |\n| UI | Terminal summary plus a static HTML timeline |\n\n## Hard parts\n\n- Matching the engine's real token boundaries so a reported break is where the cache actually stops.\n- Streaming responses and tool calls without adding noticeable latency.\n- Redacting secrets and source code in stored requests by default.\n- Each harness formats system prompts and tools differently, so cause detection needs per-agent rules.\n\n## Effort\n\nA weekend for the proxy and prefix diff with Ollama; one to two weeks for cause detection, cache-field parsing across engines and the CI replay mode.\n\n## Inspired by\n\n- [Ollama's coding-agent cache lessons on X](https://x.com/ollama/status/2122531964154712541)\n- [Together and Ollama guide on long-horizon agentic workloads](https://www.together.ai/blog/making-open-models-work-for-long-horizon-agentic-workloads)\n- [External sandboxes for coding agents](https://blog.primeradiant.com/external-sandboxes-for-coding-agents/)"
+    },
+    {
+      "id": "ideas:watch-sonar-posture-coach",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Watch sonar posture coach: use your smartwatch's speaker and mic to nudge you when you slump",
+      "description": "An EchoMotion-style experiment for a desk worker: the watch plays inaudible chirps and an on-device model learns from the echoes whether your arms, shoulders and torso are in your good typing posture, nudging you with a tap after a few minutes of slouching. No camera and no extra sensors.",
+      "nextStep": "Record 18 to 20 kHz chirps and echoes with a phone's speaker and mic (as a stand-in for the watch) in three postures at a desk, then check whether a small classifier on the spectrograms can tell them apart.",
+      "topics": [
+        "Wearables",
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "createdAt": "2026-11-17T14:31:00Z",
+      "content": "## How it works\n\nDuring a short calibration you sit well, then slump, lean and reach, while the watch emits near-ultrasonic chirps and records echoes off your body and desk. A tiny model trained on your own data maps echo spectrograms to posture classes, combined with the watch's motion sensors to know when you're typing. During work it samples every few seconds, smooths the predictions, and only taps your wrist after a sustained bad posture. A companion Mac menu bar app shows a daily posture timeline and lets you recalibrate when you change chair or desk.\n\n```mermaid\nflowchart LR\n  Chirp[Near-ultrasonic chirp] --> Echo[Echo recording]\n  Echo --> Spec[Spectrogram]\n  Spec --> Model[On-device posture model]\n  Model --> Nudge[Haptic nudge]\n  Model --> Timeline[Mac menu bar timeline]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Prototype | iPhone or Android phone recording chirps, Python notebook |\n| Model | Small CNN on spectrograms, exported with Core ML or TFLite |\n| Watch | watchOS app with AVAudioEngine, or Wear OS on a Galaxy Watch |\n| Companion | SwiftUI menu bar app syncing a daily summary |\n| Storage | On-device only, per-user calibration data |\n\n## Hard parts\n\n- Watch speakers and mics may filter out near-ultrasonic frequencies, and watchOS limits background audio.\n- Battery cost of regular chirping on a wrist device.\n- Echoes change with desk, chair and clothing, so recalibration must be quick.\n- Avoiding annoying false nudges when you simply move.\n\n## Effort\n\nA weekend for the phone-based feasibility test; three to four weeks for a watch app, personal calibration and the Mac companion, if the hardware passes the frequencies.\n\n## Inspired by\n\n- [EchoMotion post by Hackster.io on X](https://x.com/Hacksterio/status/2122681611116310691)\n- [EchoMotion article on Hackster.io](https://www.hackster.io/news/echomotion-turns-an-off-the-shelf-smartwatch-into-a-full-body-motion-tracker-for-ar-vr-and-more-8b9ce7f567be)"
     }
   ]
 }
