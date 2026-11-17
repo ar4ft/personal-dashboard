@@ -47760,6 +47760,274 @@
       "createdAt": "2026-11-16T07:00:01Z",
       "updatedAt": "2026-11-16T07:00:01Z",
       "content": "The chip handles multiple video inputs and pre-encode processing, keeps 4K for stills, and leaves two MIPI lanes free for a ToF sensor or a second camera. Seeed says the SDK, firmware and docs will be open-sourced on GitHub soon.\n\n- [Seeed blog post](https://www.seeedstudio.com/blog/2026/11/13/building-ai-goggles-what-its-brain-should-look-like/)\n- [reGoggles page](https://www.seeedstudio.com/regoggles)\n\n- [Post on X](https://x.com/seeedstudio/status/2122223143859245525)"
+    },
+    {
+      "id": "hn:50512779",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nimony, a new compiler for Nim and home of the Nim 3 language",
+      "description": "Nimony is a new Nim compiler built around Nim 3: borrow checking, explicit nilability, sum types, checked generics, and incremental and parallel builds, with nightly toolchains for Linux, macOS and Windows.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Fervicus",
+      "url": "https://nimony.org/",
+      "createdAt": "2026-11-16T01:05:22Z",
+      "updatedAt": "2026-11-16T01:05:22Z",
+      "content": "Nimony generates native code for x86_64, ARM64, ARM32, AVR and RISC-V without depending on LLVM or GCC, and can run without a C compiler. It pairs optimized reference counting with an easy-to-follow form of borrow checking. Array, seq and string indexing is a contract checked at the call site, so provably out-of-range indexes are compile-time errors, and the runtime treats heap exhaustion as a condition you can handle rather than a crash. The site also has a FAQ on how it relates to Nim 2.\n\n[Nimony website](https://nimony.org/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50512779)"
+    },
+    {
+      "id": "hn:50515035",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dan Luu: how well coding agents use test and verification techniques, re-run with GPT-6 Astra",
+      "description": "Dan Luu re-runs his eval of agents implementing Zstd from the RFC under different testing regimes (TDD, QuickCheck, fuzzing, Lean and more) and finds Astra both far more capable and much better at actually applying the techniques.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Dan Luu",
+      "url": "https://danluu.com/astra-testing/",
+      "createdAt": "2026-11-16T07:33:51Z",
+      "updatedAt": "2026-11-16T07:33:51Z",
+      "content": "With GPT-5.6 Sol, asking for a specific technique mostly made agents worse, and the default often produced many worthless unit tests. With Astra, nearly every condition reaches 100% holdout correctness on medium effort: about $1 per run for over 99% full correctness, compared with $3.50 to $5.50 for 63-77% before. That forces a harder benchmark. The post shows examples such as fuzzing that now generates useful inputs instead of random noise.\n\n[Post on danluu.com](https://danluu.com/astra-testing/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50515035)"
+    },
+    {
+      "id": "hn:50525713",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Daniel Stenberg on the AI-written curl rewrites in Rust",
+      "description": "curl's maintainer looks at two recent AI-generated Rust rewrites of curl and libcurl, one claiming an $8,600 cost, and argues that writing the code once was never the hard part of maintaining software.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Daniel Stenberg",
+      "url": "https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/",
+      "createdAt": "2026-11-17T00:27:51Z",
+      "updatedAt": "2026-11-17T00:27:51Z",
+      "content": "After urlx, a memory-safe reimplementation, a second project called simply \"curl, rewritten in Rust\" appeared this month, turning 185,000 lines of C into 340,000 lines of Rust. Over those same three-plus weeks, curl merged more than 300 commits, including about 200 bug fixes and some vulnerability fixes, none of which the clones have. Stenberg notes that only 14 of curl's 81 confirmed 2026 vulnerabilities (17.3%) would likely have been prevented by a memory-safe language. He argues that what makes curl hard to replace is its community, development pace and decades of API/ABI stability, not the language.\n\n[Post on daniel.haxx.se](https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50525713)"
+    },
+    {
+      "id": "hn:50529612",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How the Claude Code team thinks about verification",
+      "description": "Addy Osmani explains how the Claude Code team, where Claude writes and reviews roughly 90% of the code, uses end-to-end, property and differential tests so agents can show evidence that their work is correct.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Addy Osmani",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "createdAt": "2026-11-17T10:20:40Z",
+      "updatedAt": "2026-11-17T10:20:40Z",
+      "content": "The argument is that verification loops are what let you delegate: without them you can only supervise one or two agents because you check everything yourself, and with them you can run dozens in parallel. The post covers which three kinds of test are worth the investment and what the team does to keep its verifiers honest so agents can't just game the checks.\n\n[Post on claude.dev](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50529612)"
+    },
+    {
+      "id": "hn:50526152",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "lend: running remote coding agents without handing them your credentials",
+      "description": "Antonio Mika describes lend, a tool that lets coding agents on disposable VMs use SSH keys, 1Password secrets and logged-in CLIs on his laptop only with his approval, without the secrets ever reaching the agent.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Antonio Mika",
+      "url": "https://blog.antonio.cx/running-agents-with-lend",
+      "createdAt": "2026-11-17T01:18:56Z",
+      "updatedAt": "2026-11-17T01:18:56Z",
+      "content": "He runs Claude Code, Codex and other agents in parallel on a pico.sh VM using herdr and Ovis, while his laptop keeps his keys and authenticated gh and cloud CLIs. lend forwards a stable socket across reconnects, grants time-limited leases, logs what happened, and lets him answer agent prompts from the laptop. The post also covers what lend does not protect against, plus prior art.\n\n[Post on blog.antonio.cx](https://blog.antonio.cx/running-agents-with-lend)\n\n[HN discussion](https://news.ycombinator.com/item?id=50526152)"
+    },
+    {
+      "id": "hn:50526560",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "macOS 27.3 lets you limit Full Disk Access to specific folders and apps",
+      "description": "A new Apple Support article explains that from macOS 27.3, when an app asks for Full Disk Access or System & App Protection Override, you can grant access to only specific protected folders or apps.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Apple",
+      "url": "https://support.apple.com/en-us/149699",
+      "createdAt": "2026-11-17T02:17:04Z",
+      "updatedAt": "2026-11-17T02:17:04Z",
+      "content": "Backup apps, disk cleaners, file indexers and security tools often request these permissions, and some ask for full access even when they don't need it. Apple warns that Full Disk Access lets an app bypass system protections to read, change, delete and export everything, including messages, mail, photos and other users' data, without asking. The new scoped option keeps users in control and matters for Mac developers who currently request blanket access.\n\n[Apple Support article](https://support.apple.com/en-us/149699)\n\n[HN discussion](https://news.ycombinator.com/item?id=50526560)"
+    },
+    {
+      "id": "hn:50526023",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dettato: an open 20M-parameter audio-to-MIDI transcription model",
+      "description": "kobimusic introduces Dettato, an open-source audio-to-MIDI model that beats the 1.3B-parameter MuScriptor and slightly edges the closed Mirelo A2M v1.1 Pro on published benchmarks, at about 65x fewer parameters than MuScriptor.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "hidude562",
+      "url": "https://kobi.music/research/dettato",
+      "createdAt": "2026-11-17T01:03:05Z",
+      "updatedAt": "2026-11-17T01:03:05Z",
+      "content": "Dettato scores a composite 60.8 compared with 56.1 for Mirelo A2M v1.1 Pro, 47.4 for MuScriptor and 45.7 for YourMT3+, averaging onset, frame, offset and drum F1 across PHENICX and RWC sets. The model was trained without any copyrighted recordings, and its outputs can be used commercially.\n\n[Announcement](https://kobi.music/research/dettato)\n\n[HN discussion](https://news.ycombinator.com/item?id=50526023)"
+    },
+    {
+      "id": "hn:50523291",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Measuring Three.js against a AAA game lighting pipeline",
+      "description": "Ben Houston goes stage by stage through an indoor AAA lighting pipeline (lightmaps, light probes, reflection probes, SSR, SSGI and AO) and maps what Three.js's new WebGPU renderer already has, what's in review, and what is still missing.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Ben Houston",
+      "url": "https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs",
+      "createdAt": "2026-11-16T21:07:43Z",
+      "updatedAt": "2026-11-16T21:07:43Z",
+      "content": "Part of a five-article series. The setup fills three caches: lightmaps for static meshes, a light-probe grid for moving objects and reflection probes per room. Each frame then reads those caches and adds screen-space effects on top. The status table covers the G-buffer prepass, octahedral normals, a lightmap unwrapper, baker and denoiser, seam stitching, and draft glTF extensions such as KHR_lightmap and JPEG XL/UltraHDR textures.\n\n[Article on ben3d.ca](https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs)\n\n[HN discussion](https://news.ycombinator.com/item?id=50523291)"
+    },
+    {
+      "id": "hn:50523459",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenCode Browse: let coding agents drive your real browser",
+      "description": "OpenCode Browse is an MCP server plus Chromium extension that lets agents use your actual browser, with your tabs, logins and extensions, in background tab groups, handing tabs back to you for logins, 2FA or payments.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mfiguiere",
+      "url": "https://opencode.ai/product/browse",
+      "createdAt": "2026-11-16T21:20:37Z",
+      "updatedAt": "2026-11-16T21:20:37Z",
+      "content": "Agents can open tabs, read pages, click, type, take screenshots, record tabs and capture network traffic. A toolbar button lends an agent a tab you already have open, and agents resume after you click Continue on a handoff. It works with Chrome, Edge, Brave, Arc, Helium, Vivaldi, Opera and Chromium, and with any MCP client, including OpenCode, Claude Code and Cursor. The source is public.\n\n[Product page](https://opencode.ai/product/browse)\n\n[HN discussion](https://news.ycombinator.com/item?id=50523459)"
+    },
+    {
+      "id": "x:2122592325935436272",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "StageFit: a tiny open-source macOS utility that maximizes windows beside Stage Manager",
+      "description": "Erez Korn released StageFit, an MIT-licensed menu-bar app that fits the focused window next to Stage Manager's recent-app thumbnails instead of covering them, triggered by title-bar double-click, the green button or a shortcut.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Erez Korn (@aerezk)",
+      "url": "https://x.com/aerezk/status/2122592325935436272",
+      "createdAt": "2026-11-17T07:27:01Z",
+      "updatedAt": "2026-11-17T07:27:01Z",
+      "content": "StageFit is a small native utility, not a full window manager. It needs macOS 13+ and the Command Line Tools, has no third-party dependencies, builds with `make`, and needs Accessibility permission.\n\n[Repo on GitHub](https://github.com/erezak/stagefit)\n\n[Post on X](https://x.com/aerezk/status/2122592325935436272)"
+    },
+    {
+      "id": "x:2122372904595894404",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "tqLLM Control Center: a native SwiftUI panel for running local LLMs on Apple Silicon",
+      "description": "An open-source (Apache-2.0) SwiftUI app wraps the tqLLM C++/MLX inference engine, adding service control, model management, QSA acceleration and speculative decoding toggles, live tok/s and TTFT monitoring, and built-in A/B benchmarks.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Xingh (@Xingh2349721)",
+      "url": "https://x.com/Xingh2349721/status/2122372904595894404",
+      "createdAt": "2026-11-16T16:55:06Z",
+      "updatedAt": "2026-11-16T16:55:06Z",
+      "content": "tqLLM serves open-weight models through an OpenAI-compatible API but is normally driven by its CLI. The Control Center gives it a GUI, demoed running Qwen3.8-27B-TQ_L-QSA on Apple Silicon with QSA switched on and off.\n\n[Repo on GitHub](https://github.com/fhekg/tqllm-control-center)\n\n[Post on X](https://x.com/Xingh2349721/status/2122372904595894404)"
+    },
+    {
+      "id": "x:2122315349593055603",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Garlic LLM runs a 9B-parameter model on a jailbroken PS4's GPU",
+      "description": "Leonardo Alegría's open-source Garlic LLM runs Qwen3.5-9B offline on a jailbroken PS4 at a claimed 31-39 tokens per second (up to 43 in the headline), using hand-written OpenCL kernels compiled for AMD GCN with no driver layer.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Tom's Hardware (@tomshardware)",
+      "url": "https://x.com/tomshardware/status/2122315349593055603",
+      "createdAt": "2026-11-16T13:06:24Z",
+      "updatedAt": "2026-11-16T13:06:24Z",
+      "content": "Because PS4 homebrew has no Vulkan driver, the app builds its own PM4 command buffers, runs 4-bit matmul kernels compiled with LLVM for GCN, and keeps the roughly 4.5 GiB of weights in the GPU's directly-read \"Garlic\" memory. The tokenizer, UI and audio run in plain C on the CPU. It supports voice chat with Chatterbox TTS in seven languages and dictation with NVIDIA Parakeet TDT 0.6B v3. It's a 5.66 GB package on Hugging Face and needs GoldHEN.\n\n[Article on Tom's Hardware](https://www.tomshardware.com/video-games/playstation/jailbroken-ps4-runs-9-billion-parameter-ai-model-at-up-to-43-tokens-per-second-open-source-garlic-llm-bypasses-drivers-to-talk-directly-to-the-2013-era-gpu)\n\n[Post on X](https://x.com/tomshardware/status/2122315349593055603)"
+    },
+    {
+      "id": "x:2122658265897038227",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Wearable-derived sleep regularity tracks depression, anxiety and loneliness in 22,894 people",
+      "description": "A Scientific Reports paper from the TemPredict cohort computes the Sleep Regularity Index from wearable data and finds lower regularity linked, in a graded pattern, to more severe depression, anxiety and loneliness.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Fradi Frad Dreizehn (@frad_fradi)",
+      "url": "https://x.com/frad_fradi/status/2122658265897038227",
+      "createdAt": "2026-11-17T11:49:02Z",
+      "updatedAt": "2026-11-17T11:49:02Z",
+      "content": "The researchers (Soltani, Hartogensis, Dilchert, Hecht, Smarr and Mason) computed SRI over all days with enough data and over a typical week before COVID restrictions, then compared it across symptom-severity categories using t-tests and logistic regression, before and after covariate adjustment. The study is cross-sectional, so it shows association, not cause.\n\n[Paper in Scientific Reports](https://www.nature.com/articles/s41598-026-77545-y)\n\n[Post on X](https://x.com/frad_fradi/status/2122658265897038227)"
+    },
+    {
+      "id": "reading:abakcus-sherlock-holmes-bicycle-tracks",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sherlock Holmes and the bicycle tracks: which way did it go?",
+      "description": "Ali Kaya revisits Holmes's famous deduction in The Adventure of the Priory School, shows why his reasoning about the deeper rear-wheel track does not prove the direction, and explains the tangent-line test that really does.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/sherlock-holmes-bicycle-tracks",
+      "createdAt": "2026-11-16T00:00:00Z",
+      "updatedAt": "2026-11-16T00:00:00Z",
+      "content": "Both of Holmes's facts are true: the rear tyre presses deeper and rolls over the front track. But neither tells you which way the bike was going. The real answer uses geometry: the frame always lies along the tangent to the rear track, with the front wheel exactly one wheelbase ahead. Draw tangents from the rear track and only in the true direction do they all reach the front track after the same length. The piece connects this to the tractrix and includes interactive figures.\n\n[Article on Abakcus](https://abakcus.com/articles/sherlock-holmes-bicycle-tracks)"
+    },
+    {
+      "id": "reading:abakcus-geometry-of-perfect-parking",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The geometry of perfect parking: the parallel parking formula",
+      "description": "An interactive walk-through of Simon Blackburn's 2009 formula for the shortest gap you can parallel park into in one clean move, rebuilt from three right triangles, a turning circle and Pythagoras.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/geometry-of-perfect-parking",
+      "createdAt": "2026-11-15T00:00:00Z",
+      "updatedAt": "2026-11-15T00:00:00Z",
+      "content": "Blackburn defines a perfect park as reversing at full lock until the car is parallel, then rolling forward, with no shuffling. Using the turning-circle radius, the fact that the rear axle points at the circle's centre, and the corner of the car in front that must be cleared, the article derives the two-square-root formula for the extra length you need beyond your own car. An interactive diagram lets you drive the car yourself.\n\n[Article on Abakcus](https://abakcus.com/articles/geometry-of-perfect-parking)"
     }
   ]
 }
