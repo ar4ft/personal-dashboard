@@ -49056,6 +49056,192 @@
       "createdAt": "2026-11-17T00:00:00Z",
       "updatedAt": "2026-11-17T00:00:00Z",
       "content": "A companion to Abakcus's piece on great women in science and math. Each of 24 rooms picks one idea per mathematician and gives you something to handle: cut a rectangle into Euclid's squares, fire Newton's cannon until it orbits, add Fourier's waves, step a Turing machine along its tape, and watch Conway's Game of Life rules build a factory. It runs in order from Samos around 530 BC to 1980.\n\n[Article on Abakcus](https://abakcus.com/articles/great-mathematicians-who-changed-the-world)"
+    },
+    {
+      "id": "hn:50540178",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "description": "Google's AI answers are cutting search traffic to publishers by about 40%, according to a new analysis of search and referral data.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "slashdev",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "createdAt": "2026-11-18T00:17:58Z",
+      "updatedAt": "2026-11-18T00:17:58Z"
+    },
+    {
+      "id": "hn:50542705",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI is killing All About Berlin",
+      "description": "A Berlin expat guide's traffic has collapsed as AI answers replace search clicks, a case study in how AI summaries are reshaping independent publishing.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "grey-area",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "createdAt": "2026-11-18T06:47:26Z",
+      "updatedAt": "2026-11-18T06:47:26Z"
+    },
+    {
+      "id": "hn:50538303",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "description": "Harvard researchers found that AI coding agents have moved the bottleneck in software development from writing code to reviewing it.",
+      "topics": [
+        "AI",
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "judahmeek",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "createdAt": "2026-11-17T21:16:12Z",
+      "updatedAt": "2026-11-17T21:16:12Z"
+    },
+    {
+      "id": "hn:50541790",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "description": "An analysis of why Google's Gemini 4 Carbon model has taken so long to arrive, and what the delay signals about the company's AI roadmap.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "deenadz",
+      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "createdAt": "2026-11-18T04:14:04Z",
+      "updatedAt": "2026-11-18T04:14:04Z"
+    },
+    {
+      "id": "hn:50538184",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent Hy4 Flash",
+      "description": "Tencent has released Hy4 Flash, its latest AI model, with details on its architecture and performance.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "lyra1337",
+      "url": "https://hy.tencent.ai/research/hy4-flash",
+      "createdAt": "2026-11-17T21:06:08Z",
+      "updatedAt": "2026-11-17T21:06:08Z"
+    },
+    {
+      "id": "hn:50540472",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Cerebras Disaggregated Inference",
+      "description": "Cerebras has launched disaggregated inference, separating parts of the inference pipeline to run large AI models more efficiently.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "emschwartz",
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "createdAt": "2026-11-18T00:56:23Z",
+      "updatedAt": "2026-11-18T00:56:23Z"
+    },
+    {
+      "id": "hn:50539747",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Archive Team is archiving the Apple Support Community",
+      "description": "The Archive Team is archiving the Apple Support Community, preserving years of user discussions and troubleshooting threads.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "digitaldragon",
+      "url": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
+      "createdAt": "2026-11-17T23:32:58Z",
+      "updatedAt": "2026-11-17T23:32:58Z"
+    },
+    {
+      "id": "hn:50541619",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude was trained on protein sequences at scale",
+      "description": "Claude was reportedly trained on protein sequences at scale, extending the model's training data into biology.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+      "createdAt": "2026-11-18T03:47:43Z",
+      "updatedAt": "2026-11-18T03:47:43Z"
+    },
+    {
+      "id": "hn:50517410",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Unref – A Python dead code finder built on Ruff's parser",
+      "description": "Unref is a new Python dead-code finder built on Ruff's parser, presented as a Show HN project.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "McAvey",
+      "url": "https://github.com/Apakottur/unref",
+      "createdAt": "2026-11-16T13:30:30Z",
+      "updatedAt": "2026-11-16T13:30:30Z"
+    },
+    {
+      "id": "hn:50543343",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Talos Linux",
+      "description": "Talos Linux is a minimal, immutable Linux distribution designed for running Kubernetes.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "SweetSoftPillow",
+      "url": "https://www.siderolabs.com/talos-linux",
+      "createdAt": "2026-11-18T08:17:44Z",
+      "updatedAt": "2026-11-18T08:17:44Z"
+    },
+    {
+      "id": "hn:50545558",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Official Microsoft agent-framework PyPI package compromised",
+      "description": "Microsoft's official agent-framework package on PyPI was compromised, raising supply-chain security concerns for AI agent developers.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rbanffy",
+      "url": "https://opensourcemalware.com/blog/agent-framework-pypi-compromised",
+      "createdAt": "2026-11-18T12:36:08Z",
+      "updatedAt": "2026-11-18T12:36:08Z"
     }
   ]
 }
