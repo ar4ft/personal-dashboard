@@ -49242,6 +49242,165 @@
       "url": "https://opensourcemalware.com/blog/agent-framework-pypi-compromised",
       "createdAt": "2026-11-18T12:36:08Z",
       "updatedAt": "2026-11-18T12:36:08Z"
+    },
+    {
+      "id": "x:2122877291445600303",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Heavy Metal Gym: four tiny RL policies balance a 5-tonne loader on two wheels, live in the browser",
+      "description": "Tatra Labs reimplemented the Heavy Metal Acrobatics paper from scratch (no official code existed): a planar simulator with laggy hydraulics, four small PPO policies for swing-up, catch, balance and landing, and an interactive browser demo.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Tatra Labs (@TatraLabs)",
+      "url": "https://x.com/TatraLabs/status/2122877291445600303",
+      "createdAt": "2026-11-18T02:19:22Z",
+      "updatedAt": "2026-11-18T02:19:22Z",
+      "content": "Tatra Labs rebuilt **Heavy Metal Acrobatics** (Science Robotics, 2026), where RL policies rock a skid-steer loader onto its front wheels and hold it there, entirely from scratch. Four networks with two 128-unit hidden layers, trained with PPO on a laptop, handle swing-up, catch, balance and landing, with rule-based hand-offs and roughly a third of a second of hydraulic dead time. You can drive it, add bumps, and flip the balancer to a classical LQR controller to compare: LQR wobbles less, but only RL can do the swing-up and landing.\n\n- [Interactive demo](https://tatra-labs.github.io/heavy-metal-gym/)\n- [Code on GitHub](https://github.com/tatra-labs/heavy-metal-gym)\n\n[Post on X](https://x.com/TatraLabs/status/2122877291445600303)"
+    },
+    {
+      "id": "x:2122824108425494632",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Qwen3.8-27B plus Hugging Face's pi LoRA matches Opus 5.5 on a real bug fix",
+      "description": "A developer pitted self-hosted Qwen3.8-27B with Hugging Face's RL-trained pi harness adapter against Opus 5.5 on the same real bug in an inference proxy; both passed in about 90 seconds.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Marco Franzon (@mfranz_on)",
+      "url": "https://x.com/mfranz_on/status/2122824108425494632",
+      "createdAt": "2026-11-17T22:48:02Z",
+      "updatedAt": "2026-11-17T22:48:02Z",
+      "content": "Hugging Face's harness-hub released **Qwen3.8-27B-pi-adapted**, a rank-32 LoRA (about 640 MB) trained with reinforcement learning inside the pi coding agent. On its model card (corrected numbers) SWE-bench Pro hard-51 rises from 39.2% to 64.7% and Terminal-Bench 2.1 from 39.5% to 55.8%, with thinking off and roughly 4.5 times fewer generated tokens. Marco Franzon ran it on 4×A6000 against Opus 5.5 on a real fix (lost request logs after logrotate in their inference proxy): both green in about 90 seconds. One anecdote, and the checkpoint was partly chosen on SWE-bench Pro, but it is a strong signal that harness-specific adapters can make local coding agents practical.\n\n- [Adapter on Hugging Face](https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted)\n- [GGUF version for llama.cpp](https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted-GGUF)\n\n[Post on X](https://x.com/mfranz_on/status/2122824108425494632)"
+    },
+    {
+      "id": "x:2122673947409858730",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PyBot: 1,000 agents wrote a 640,000-line pure-Python chatbot with no weights",
+      "description": "Hugging Face's Thomas Wolf on the story behind PyBot: a swarm of 1,000 DeepSeek-V4.1-Flash agents built a rule-based chatbot that scores like SmolLM-360M on SmolTalkBench.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Thomas Wolf (@Thom_Wolf)",
+      "url": "https://x.com/Thom_Wolf/status/2122673947409858730",
+      "createdAt": "2026-11-17T12:51:21Z",
+      "updatedAt": "2026-11-17T12:51:21Z",
+      "content": "**PyBot** is a chatbot with no model at all: if-else branches, regexes and lookup tables. Hugging Face ran a swarm of 1,000 DeepSeek-V4.1-Flash agents for a week, coordinating through a Slack-like message board (about 175,000 messages) and merging thousands of PRs. The result is about 640,000 lines of Python across 528 files plus 550,000 lines of agent-written tests, which reached a 26% win rate on SmolTalkBench, on par with SmolLM-360M-Instruct, on one CPU core with no dependencies. Thomas Wolf's thread focuses on what they learned scaling agent swarms in the open. Note the benchmark is LLM-judged against reference answers.\n\n- [PyBot on GitHub](https://github.com/huggingface/pybot)\n- [SmolTalkBench dataset](https://huggingface.co/datasets/HuggingFaceSwarms/SmolTalkBench)\n\n[Post on X](https://x.com/Thom_Wolf/status/2122673947409858730)"
+    },
+    {
+      "id": "x:2122728535403938032",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Flipper One is live on Kickstarter at $399: a pocket Linux networking multi-tool",
+      "description": "The Flipper Zero makers launched Flipper One on Kickstarter: an open Linux computer with an 8-core Rockchip RK3576, 8 GB RAM, two Gigabit Ethernet ports, Wi-Fi 6E and M.2 modules for 5G, LoRa and SDR.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "sysxplore (@sysxplore)",
+      "url": "https://x.com/sysxplore/status/2122728535403938032",
+      "createdAt": "2026-11-17T16:28:15Z",
+      "updatedAt": "2026-11-17T16:28:15Z",
+      "content": "Flipper One drops the Zero's NFC, RFID and sub-GHz radios for an Arm Linux computer built around networking: a Rockchip RK3576 with NPU, 8 GB LPDDR5, 64 GB UFS, an RP2350 co-processor that runs the 256x144 display even when Linux is off, two Gigabit Ethernet ports, Wi-Fi 6E, HDMI 2.1 and a 24 Wh battery. It runs Debian-based Flipper OS on a mainline kernel with no binary blobs, and expands through M.2 and GPIO (5G modem, LoRa for Meshtastic/MeshCore, SDR). The campaign runs to December 17 with shipping estimated for July 2027; Flipper says the $399 price has no margin because of DRAM costs. CNX Software reported about $10 million raised within hours.\n\n- [Flipper One product page](https://flipper.net/pages/flipper-one)\n- [The Verge coverage](https://www.theverge.com/tech/1034392/flipper-devices-one-zero-pocket-linux-computer-multi-tool-preorder-kickstarte)\n\n[Post on X](https://x.com/sysxplore/status/2122728535403938032)"
+    },
+    {
+      "id": "x:2122990292798456203",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "de:volt: a browser breadboard simulator where LEDs burn out and a scope shows the 555 timing",
+      "description": "de:volt lets you wire 105 parts on a virtual breadboard that simulates live at 60 Hz, with failure physics, an oscilloscope and multimeter, MicroPython on Arduino, micro:bit and RP2040 boards, and SPICE import.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "CNX Software (@cnxsoft)",
+      "url": "https://x.com/cnxsoft/status/2122990292798456203",
+      "createdAt": "2026-11-18T09:48:23Z",
+      "updatedAt": "2026-11-18T09:48:23Z",
+      "content": "Dev Kapadia's **de:volt** simulates a breadboard circuit continuously while you build it. Skip a resistor and the LED fails, overload a resistor and diagnostics flag the dissipation, and a 4-channel scope shows signals like a 555's capacitor charging. It includes 105 parts (logic families, EEPROMs, motor drivers, sensors) and MCU boards you can program in MicroPython, and imports SPICE netlists. The free tier works without signing in; saving is cloud-based, and some analysis features are premium. Its mixed-signal engine, Brownout (TypeScript, with AVR and RP2040 co-simulation), is open source.\n\n- [Try de:volt](https://sim.devoltapp.com)\n- [CNX Software hands-on](https://www.cnx-software.com/2026/11/18/web-based-breadboard-simulator-lets-you-build-circuits-fix-errors-and-monitor-designs-with-a-built-in-oscilloscope/)\n\n[Post on X](https://x.com/cnxsoft/status/2122990292798456203)"
+    },
+    {
+      "id": "x:2122880478437085491",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Waku: an open-source native Mac app for local coding agents, built in Rust with GPUI",
+      "description": "Waku is a native app for running Claude Code, Codex CLI, OpenCode and other agents, keeping projects, sessions and transcripts on your machine, with queued follow-ups and Git checkpoints you can rewind.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "AlternativeTo (@AlternativeTo)",
+      "url": "https://x.com/AlternativeTo/status/2122880478437085491",
+      "createdAt": "2026-11-18T02:32:01Z",
+      "updatedAt": "2026-11-18T02:32:01Z",
+      "content": "**Waku** (GPL-3.0, about 1,600 GitHub stars) puts local coding-agent sessions in one fast native window built with Zed's GPUI. You can switch models, reasoning effort and access modes, queue or steer follow-up messages while an agent works, and rewind Git-backed tasks with conversation-aware checkpoints. State stays local with no account. On macOS it ships as a signed, self-updating DMG; the embedded browser and experimental computer use are Mac-only, while sessions, diffs, file editing and the terminal also run on Linux and Windows.\n\n- [Waku website](https://waku.sh)\n- [Repo on GitHub](https://github.com/egoist/waku)\n\n[Post on X](https://x.com/AlternativeTo/status/2122880478437085491)"
+    },
+    {
+      "id": "x:2122897029089067369",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SheikahVision: Breath of the Wild in first-person VR, running natively on Apple Vision Pro, is now open source",
+      "description": "A one-person fan project statically recompiles the Wii U game to native ARM64 on your Mac and installs it on Vision Pro, with stereo rendering, a first-person body and PS VR2 Sense motion controls. No PC or streaming.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Oliver (@zlinoliver)",
+      "url": "https://x.com/zlinoliver/status/2122897029089067369",
+      "createdAt": "2026-11-18T03:37:47Z",
+      "updatedAt": "2026-11-18T03:37:47Z",
+      "content": "**SheikahVision** builds Breath of the Wild as a visionOS app from your own legally dumped Wii U files (v208): BotWRecomp turns the executable into C++, Cemu's Latte renderer runs on Metal, and a VR layer modeled on BetterVR adds per-eye rendering (about 1540×1345 at 45 fps, reprojected to 90 Hz), Link's arms following your hands, and sword, shield and bow motion controls with PS VR2 Sense controllers. A Mac installer builds and signs it with a free Apple Account; no game code or assets are distributed. It's a playable beta tested on the M5 Vision Pro and MIT-licensed (Cemu-derived parts under MPL 2.0).\n\n- [Repo on GitHub](https://github.com/zlinoliver/BotW-SheikahVision)\n- [Project site](https://sheikahvision.com/)\n\n[Post on X](https://x.com/zlinoliver/status/2122897029089067369)"
+    },
+    {
+      "id": "ideas:git-history-agent-bakeoff",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "bakeoff: a CLI that replays your own past bug fixes to compare local and frontier coding agents",
+      "description": "A developer tool for engineers and small teams deciding whether a self-hosted model (like Qwen3.8-27B with a harness LoRA) can replace a paid frontier model in their coding agent. It mines fixed bugs from your git history, resets the repo to before each fix, runs each agent and model on the same task, and reports pass rate, time, tool calls and cost on your real code instead of public benchmarks.",
+      "nextStep": "Write a script that finds 10 commits in one of your repos that both change source and add or fix a test, checks out each parent commit with the new test applied, and confirms the test fails there. That gives the first task set to run pi or Claude Code against.",
+      "topics": [
+        "Programming",
+        "AI",
+        "Machine Learning"
+      ],
+      "createdAt": "2026-11-18T14:17:00Z",
+      "content": "## How it works\n\nbakeoff scans a repository's history for commits that fixed something verifiably: they touch source code and add or change a test that fails on the parent commit and passes afterwards. Each one becomes a task: a clean git worktree at the parent commit, the commit message or linked issue as the prompt, and the new test as the hidden grader. The CLI then runs each configured agent (pi, Claude Code, Codex, OpenCode) with each model (a local vLLM or llama.cpp endpoint, a cloud API) in a sandbox with a step and time budget, runs the hidden tests, and writes a Markdown and JSON report comparing pass rate, wall time, tool calls, tokens and estimated cost, with links to every transcript.\n\n```mermaid\nflowchart LR\n  Git[Git history] --> Mine[Mine verifiable fixes]\n  Mine --> Tasks[Task worktrees with hidden tests]\n  Tasks --> Run[Run agents and models in sandbox]\n  Run --> Grade[Apply hidden tests]\n  Grade --> Report[Report: pass, time, tool calls, cost]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| CLI | Python with Typer, or Go for a single binary |\n| Task mining | git log plus pytest, go test or swift test to confirm fail then pass |\n| Sandbox | Docker or git worktrees with a network allowlist |\n| Local models | vLLM or llama.cpp server with the pi-adapted LoRA (GGUF) |\n| Agents | pi, Claude Code and Codex in non-interactive mode |\n| Report | Markdown and JSON, optional static HTML page |\n\n## Hard parts\n\n- Finding enough fixes with reliable tests, and avoiding leaking the answer through the commit message.\n- Models may have seen public repositories during training, so private repos give the fairest signal.\n- Flaky tests and slow builds make runs noisy; repeat runs and report variance.\n- Keeping agents from reading the future commit or the hidden test.\n\n## Effort\n\nA weekend for mining tasks and a single-agent runner; two to three weeks for multiple agents, sandboxing and a polished comparison report.\n\n## Inspired by\n\n- [Marco Franzon's local vs Opus bug-fix test on X](https://x.com/mfranz_on/status/2122824108425494632)\n- [Qwen3.8-27B-pi-adapted on Hugging Face](https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted)"
+    },
+    {
+      "id": "ideas:browser-rl-to-microcontroller",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Tiny RL in the browser for your own robot, then flash the policy to a microcontroller",
+      "description": "A Heavy Metal Gym-style workbench for hobby hardware: describe a small machine like a self-balancing robot or a reaction wheel, train a tiny PPO policy against a simple physics model with randomized motor lag in the browser, test it live, then export the network as C for an RP2040 or ESP32.",
+      "nextStep": "Model a two-wheeled self-balancing robot as a planar body with a motor dead time in a small Python or TypeScript simulator, train a 2x64 PPO policy on a laptop, and check it still balances when the dead time is doubled.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "createdAt": "2026-11-18T14:17:00Z",
+      "content": "## How it works\n\nYou pick a template (self-balancing robot, cart-pole, reaction-wheel pendulum) and enter measured parameters: mass, wheel size, motor torque, and a rough delay you time with your phone camera. A simple simulator randomizes those values and the actuator lag during training, and PPO learns a small policy, as Tatra Labs did for the loader. The page runs the policy live so you can push it and see where it fails, and compares it with a classical LQR or PID controller. When you're happy, it exports the weights as a C header with a fixed-point forward pass for an RP2040 or ESP32, plus a logging sketch so real-world data can refine the model.\n\n```mermaid\nflowchart LR\n  Params[Measured robot parameters] --> Sim[Randomized physics sim]\n  Sim --> PPO[PPO training]\n  PPO --> Demo[Live browser test vs LQR]\n  Demo --> Export[C header export]\n  Export --> MCU[RP2040 or ESP32]\n  MCU --> Logs[Real logs refine the model]\n  Logs --> Sim\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Simulator | TypeScript or Python planar rigid-body model |\n| Training | PPO in PyTorch or CleanRL on a laptop CPU |\n| Browser demo | ONNX Runtime Web or a hand-written forward pass |\n| Export | Script that writes weights to a fixed-point C header |\n| Hardware | RP2040 or ESP32, IMU, two geared DC motors |\n\n## Hard parts\n\n- The sim-to-real gap: motor dead time, backlash and sensor noise need honest randomization.\n- Making the policy fast and small enough for a microcontroller control loop.\n- Safe testing on real hardware without damage.\n- Knowing when a classical controller is simply the better choice.\n\n## Effort\n\nA weekend for the simulator and a policy that balances in sim; two to four weeks for the browser workbench, C export and a robot that balances for real.\n\n## Inspired by\n\n- [Tatra Labs' Heavy Metal Gym post on X](https://x.com/TatraLabs/status/2122877291445600303)\n- [Heavy Metal Gym code on GitHub](https://github.com/tatra-labs/heavy-metal-gym)\n- [de:volt breadboard simulator](https://sim.devoltapp.com)"
     }
   ]
 }
