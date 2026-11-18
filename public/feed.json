@@ -48807,6 +48807,255 @@
       "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
       "createdAt": "2026-11-17T22:13:34Z",
       "updatedAt": "2026-11-17T22:13:34Z"
+    },
+    {
+      "id": "hn:50539610",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft's ONNX Runtime repository has disappeared from GitHub",
+      "description": "The microsoft/onnxruntime repo, with roughly 22k stars, now returns a 404 with no advance notice, breaking pipelines that pull from it.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "nvader",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "createdAt": "2026-11-17T23:18:49Z",
+      "updatedAt": "2026-11-17T23:18:49Z",
+      "content": "The GitHub repository for **ONNX Runtime**, Microsoft's widely used cross-platform inference engine for ONNX models, started returning a 404. Commenters report CI and eval pipelines failing without any announcement and are discussing soft forks from local clones; the separate ONNX spec repo (onnx/onnx) is still up.\n\n[Repo on GitHub (currently 404)](https://github.com/microsoft/onnxruntime)\n\n[ONNX spec repo](https://github.com/onnx/onnx)\n\n[HN discussion](https://news.ycombinator.com/item?id=50539610)"
+    },
+    {
+      "id": "hn:50543989",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Energy-Based Reasoners: looped reasoning as gradient descent on a learned energy",
+      "description": "EBRs learn an energy function over latent reasoning states, giving looped models a progress signal and a stopping rule; they hit 99.9% on Sudoku-Extreme with 345x less inference compute.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "frenchmajesty",
+      "url": "https://energy-based-reasoners.github.io/",
+      "createdAt": "2026-11-18T09:29:32Z",
+      "updatedAt": "2026-11-18T09:29:32Z",
+      "content": "Looped (recurrent-depth) models iterate a block to reason in latent space but have no explicit measure of progress. **Energy-Based Reasoners** learn an energy over latent states and frame each loop step as gradient descent on it, so the energy scores states, its gradient refines them and it tells the model when to stop. Exploration-based training shapes the landscape. Across four algorithmic benchmarks EBRs match or beat prior recurrent reasoners, reaching 99.9% on Sudoku-Extreme with 345x less inference compute than the next-best model, and they cover more distinct valid solutions on multi-solution tasks.\n\n[Project page](https://energy-based-reasoners.github.io/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50543989)"
+    },
+    {
+      "id": "hn:50539039",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Latent Lattice Language Models: recurrent per-layer latent streams beside the residual stream",
+      "description": "A Lattice of Latents adds horizontal latent streams that persist across tokens; a 406M model cuts FineWeb-Edu validation perplexity from 15.41 to 14.40 vs a parameter-matched Transformer.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "E-Reverance",
+      "url": "https://shivamduggal4.github.io/latent-lattice-language-models/",
+      "createdAt": "2026-11-17T22:17:18Z",
+      "updatedAt": "2026-11-17T22:17:18Z",
+      "content": "Instead of adding depth or loops, this work increases a model's *computational capacity*: the number of active states it maintains. Each layer gets horizontal latent streams that run recurrently along time and directly condition attention, KV-cache writes and MLPs of the vertical residual stream. Unlike hybrid Transformer–SSM memory, these latents act as companion compute states. Trained on 20B FineWeb-Edu tokens, a 406M Lattice model lowers validation perplexity from 15.41 to 14.40, and it composes with hyper-connections and other residual-stream enhancements.\n\n[Project page](https://shivamduggal4.github.io/latent-lattice-language-models/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50539039)"
+    },
+    {
+      "id": "hn:50541897",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hex: local hold-to-talk voice dictation for Mac, Windows and Linux",
+      "description": "Hex runs speech-to-text locally: hold Option, speak, and the text is pasted where your cursor is. Available for Apple silicon via Homebrew cask.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "handfuloflight",
+      "url": "https://anoma.ly/hex/",
+      "createdAt": "2026-11-18T04:30:22Z",
+      "updatedAt": "2026-11-18T04:30:22Z",
+      "content": "**Hex** is a local voice dictation app: hold Option, speak, and it pastes the transcription into whatever app has focus. It targets Apple silicon on macOS 15+ (`brew install --cask anomalyco/tap/hex`) and also ships Windows and Linux builds. HN commenters praise the demo and note the depth of settings, including opt-in labs features like meeting notes.\n\n[Hex website](https://anoma.ly/hex/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50541897)"
+    },
+    {
+      "id": "hn:50539947",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Can a formally verified C compiler be as fast as gcc -O2? Speeding up CompCert",
+      "description": "Researchers found most of CompCert's gap to gcc -O2 comes from missing optimizations its semantics already allow, then proved new passes that closed 60% of the gap on its benchmarks.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "matt_d",
+      "url": "https://ut-infraai.github.io/2026/11/13/trying-to-make-compcert-as-fast-as-gcc-o2/",
+      "createdAt": "2026-11-17T23:53:16Z",
+      "updatedAt": "2026-11-17T23:53:16Z",
+      "content": "CompCert is a C compiler written in Rocq and OCaml whose optimizations are machine-checked to preserve behavior. Even with gcc restricted to CompCert's semantics (`-fwrapv`, `-fno-strict-aliasing`, no FMA contraction, no vectorization), CompCert stayed 26% slower on its own benchmarks and 54% slower on PolyBench, so the semantics aren't the bottleneck. The team hand-edited assembly to find which missing transforms matter (e.g. loop-carried reloads that CSE forgets at loop headers), then implemented and proved them with help from coding agents. Result: 0.871x baseline runtime, closing 60% of the gap to restricted gcc -O2, with smaller gains on held-out suites.\n\n[Article](https://ut-infraai.github.io/2026/11/13/trying-to-make-compcert-as-fast-as-gcc-o2/)\n\n[CompCert on GitHub](https://github.com/AbsInt/CompCert)\n\n[HN discussion](https://news.ycombinator.com/item?id=50539947)"
+    },
+    {
+      "id": "hn:50542084",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft's agent-framework PyPI package compromised with a credential stealer",
+      "description": "Versions 1.26.1 and 1.26.2 of agent-framework install .pth startup hooks that exfiltrate Azure, GitHub Actions and CI/CD credentials; remove them and rotate secrets.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "roseway4",
+      "url": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer",
+      "createdAt": "2026-11-18T05:02:34Z",
+      "updatedAt": "2026-11-18T05:02:34Z",
+      "content": "Socket reports that Microsoft's **agent-framework** package on PyPI was compromised on November 17. Versions 1.26.1 and 1.26.2 ship `.pth` files that run on every Python startup and launch background collection of credentials, environment data and cloud identity tokens, sending them to a webhook endpoint. Avoid both versions; if installed, remove them and rotate any Azure, GitHub Actions or CI secrets that may have been exposed.\n\n[Socket analysis](https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer)\n\n[HN discussion](https://news.ycombinator.com/item?id=50542084)"
+    },
+    {
+      "id": "hn:50544168",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "C's designated initializers give us named, defaultable arguments",
+      "description": "Arthur O'Dwyer shows a C idiom: a variadic macro wraps a compound literal so calls like ideal_volume(.kelvin = 373.15) get named arguments with defaults.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "joshcsimmons",
+      "url": "https://quuxplusone.github.io/blog/2026/11/16/named-arguments-in-c/",
+      "createdAt": "2026-11-18T09:49:49Z",
+      "updatedAt": "2026-11-18T09:49:49Z",
+      "content": "Following his post on C++'s weaker designated initializers, Arthur O'Dwyer demonstrates a trick from *21st Century C*: define `#define f(...) f_impl((struct Args){ .a=1, .b=2, __VA_ARGS__ })` so callers write `f(.b = 5)` and unspecified fields keep their defaults. It relies on two C features C++20 lacks: out-of-order designators and later designators overriding earlier ones.\n\n[Blog post](https://quuxplusone.github.io/blog/2026/11/16/named-arguments-in-c/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50544168)"
+    },
+    {
+      "id": "hn:50542657",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Murmur: faster long-context ASR with hierarchical chunking",
+      "description": "UW's SyFI Lab speeds up hour-long-audio ASR models by 2.5x on average including diarization, while cutting speaker-attributed error versus WhisperX.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "matt_d",
+      "url": "https://syfi.cs.washington.edu/blog/2026-11-13-murmur/",
+      "createdAt": "2026-11-18T06:40:34Z",
+      "updatedAt": "2026-11-18T06:40:34Z",
+      "content": "Long-context ASR models like VibeVoice-ASR transcribe an hour of audio with timestamps and speaker labels in one pass, but that's tens of thousands of audio tokens: slow and prone to repetition loops. **Murmur** chunks audio hierarchically and stitches results, running up to 2.9x faster (2.5x average) end to end, and it lowers speaker-attributed error (tcpWER) vs WhisperX by 7–17 points on English meetings and 10–51 on Mandarin. Paper and code are open.\n\n[Blog post](https://syfi.cs.washington.edu/blog/2026-11-13-murmur/)\n\n[Paper on arXiv](https://arxiv.org/abs/2606.01483)\n\n[Repo on GitHub](https://github.com/uw-syfi/Murmur)\n\n[HN discussion](https://news.ycombinator.com/item?id=50542657)"
+    },
+    {
+      "id": "x:2122912575302119554",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent releases Hy4 flash as open weights",
+      "description": "Hy4 flash (224B total, 12B active, 1M context, natively multimodal) is now open-weight, with FP8 and Base variants; the full Hy4 is promised next.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Tencent Hy (@TencentHunyuan)",
+      "url": "https://x.com/TencentHunyuan/status/2122912575302119554",
+      "createdAt": "2026-11-18T04:39:34Z",
+      "updatedAt": "2026-11-18T04:39:34Z",
+      "content": "Two days after announcing it, Tencent published open weights for **Hy4 flash**, its most cost-efficient Hy model: a MoE with about 12B active parameters per token, text+image input and up to 1M tokens of context. The release includes instruct, FP8 and Base checkpoints, with vLLM/SGLang support and GGUFs listed on the model card.\n\n[Model on Hugging Face](https://huggingface.co/tencent/Hy4-flash)\n\n[Announcement on HN](https://news.ycombinator.com/item?id=50538184)\n\n[Post on X](https://x.com/TencentHunyuan/status/2122912575302119554)"
+    },
+    {
+      "id": "x:2122861852610965707",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple releases FastFrames: open-weights video generation at interactive latency",
+      "description": "Apple published FastFrames-S (1.3B) and FastFrames-L (14B), autoregressive two-step video diffusion models that generate 480p video at interactive latency.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Tech Friend AJ (@techfren)",
+      "url": "https://x.com/techfren/status/2122861852610965707",
+      "createdAt": "2026-11-18T01:18:01Z",
+      "updatedAt": "2026-11-18T01:18:01Z",
+      "content": "Apple's **FastFrames** release includes two autoregressive, two-step video diffusion models (1.3B and 14B) that produce 480p video fast enough for interactive use, plus an optimized LingBot 1.3B that runs 16x faster with fluid camera-conditioned control. The repo includes latency profiling, an interactive demo, VBench evaluation and training code (Linux + NVIDIA GPU).\n\n[Model on Hugging Face](https://huggingface.co/apple/FastFrames-L)\n\n[Post on X](https://x.com/techfren/status/2122861852610965707)"
+    },
+    {
+      "id": "x:2122789373330575626",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Shader Lab: open-source SwiftUI + Metal shader playground for Apple platforms",
+      "description": "Shader Lab offers 15 live Metal effects (rain on glass, waves, a fractal, gradients) with live parameters, running on iPhone, iPad, Apple TV, Vision Pro and Apple Watch.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sadra Majidi (@SadraMajidi04)",
+      "url": "https://x.com/SadraMajidi04/status/2122789373330575626",
+      "createdAt": "2026-11-17T20:30:00Z",
+      "updatedAt": "2026-11-17T20:30:00Z",
+      "content": "**Shader Lab** is an Xcode project showing live Metal shaders driven from SwiftUI, with 15 effects whose parameters you can tweak in real time, and any shader can be saved as a wallpaper. It includes a Watch app target. The code is MIT-licensed, except the Rain effect (CC BY-NC-SA).\n\n[Repo on GitHub](https://github.com/fedesanchez0/shader-lab)\n\n[Post on X](https://x.com/SadraMajidi04/status/2122789373330575626)"
+    },
+    {
+      "id": "x:2122691602590413105",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sunstill: a Mac live wallpaper of sunlight moving across a wall, synced to the real sun",
+      "description": "Sunstill renders a wall with sunlight and blinds that follow the actual sun position at your location from first light to night; launch price $1.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Dom (@dominikmartn)",
+      "url": "https://x.com/dominikmartn/status/2122691602590413105",
+      "createdAt": "2026-11-17T14:01:30Z",
+      "updatedAt": "2026-11-17T14:01:30Z",
+      "content": "**Sunstill** is a small Mac app that turns the desktop into a sunlit wall whose light and shadows track the real sun where you are, including sunrise/sunset times and weather like overcast skies. It costs $1 at launch, then $2.50. The launch post was one of the most-liked Mac app posts of the day.\n\n[Sunstill website](https://sunstill.app)\n\n[Post on X](https://x.com/dominikmartn/status/2122691602590413105)"
+    },
+    {
+      "id": "x:2122942391342575651",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "dot-on-wrist: an open-source push-to-talk ChatGPT wearable for M5Stack StopWatch and Apple Watch",
+      "description": "A community project that turns an M5Stack StopWatch (or Apple Watch) into a ChatGPT voice gadget: hold to record and send a message, or tap for a live conversation.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "反方向的钟 (@SamyeeiYu)",
+      "url": "https://x.com/SamyeeiYu/status/2122942391342575651",
+      "createdAt": "2026-11-18T06:38:03Z",
+      "updatedAt": "2026-11-18T06:38:03Z",
+      "content": "**dot-on-wrist** is an open-source community project that makes a wearable ChatGPT voice device from an M5Stack StopWatch, which can be clipped to a bag with a magnet or worn on a lanyard, and also runs on Apple Watch. Hold the button to record and send one message, or tap to start a live session.\n\n[Post on X](https://x.com/SamyeeiYu/status/2122942391342575651)"
+    },
+    {
+      "id": "reading:abakcus-great-mathematicians-who-changed-the-world",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Great Mathematicians Who Changed the World",
+      "description": "Twenty-four 'rooms' from Pythagoras to an IBM lab in 1980, each pairing one mathematician with one key idea and an interactive demo.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/great-mathematicians-who-changed-the-world",
+      "createdAt": "2026-11-17T00:00:00Z",
+      "updatedAt": "2026-11-17T00:00:00Z",
+      "content": "A companion to Abakcus's piece on great women in science and math. Each of 24 rooms picks one idea per mathematician and gives you something to handle: cut a rectangle into Euclid's squares, fire Newton's cannon until it orbits, add Fourier's waves, step a Turing machine along its tape, and watch Conway's Game of Life rules build a factory. It runs in order from Samos around 530 BC to 1980.\n\n[Article on Abakcus](https://abakcus.com/articles/great-mathematicians-who-changed-the-world)"
     }
   ]
 }
