@@ -49401,6 +49401,219 @@
       ],
       "createdAt": "2026-11-18T14:17:00Z",
       "content": "## How it works\n\nYou pick a template (self-balancing robot, cart-pole, reaction-wheel pendulum) and enter measured parameters: mass, wheel size, motor torque, and a rough delay you time with your phone camera. A simple simulator randomizes those values and the actuator lag during training, and PPO learns a small policy, as Tatra Labs did for the loader. The page runs the policy live so you can push it and see where it fails, and compares it with a classical LQR or PID controller. When you're happy, it exports the weights as a C header with a fixed-point forward pass for an RP2040 or ESP32, plus a logging sketch so real-world data can refine the model.\n\n```mermaid\nflowchart LR\n  Params[Measured robot parameters] --> Sim[Randomized physics sim]\n  Sim --> PPO[PPO training]\n  PPO --> Demo[Live browser test vs LQR]\n  Demo --> Export[C header export]\n  Export --> MCU[RP2040 or ESP32]\n  MCU --> Logs[Real logs refine the model]\n  Logs --> Sim\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Simulator | TypeScript or Python planar rigid-body model |\n| Training | PPO in PyTorch or CleanRL on a laptop CPU |\n| Browser demo | ONNX Runtime Web or a hand-written forward pass |\n| Export | Script that writes weights to a fixed-point C header |\n| Hardware | RP2040 or ESP32, IMU, two geared DC motors |\n\n## Hard parts\n\n- The sim-to-real gap: motor dead time, backlash and sensor noise need honest randomization.\n- Making the policy fast and small enough for a microcontroller control loop.\n- Safe testing on real hardware without damage.\n- Knowing when a classical controller is simply the better choice.\n\n## Effort\n\nA weekend for the simulator and a policy that balances in sim; two to four weeks for the browser workbench, C export and a robot that balances for real.\n\n## Inspired by\n\n- [Tatra Labs' Heavy Metal Gym post on X](https://x.com/TatraLabs/status/2122877291445600303)\n- [Heavy Metal Gym code on GitHub](https://github.com/tatra-labs/heavy-metal-gym)\n- [de:volt breadboard simulator](https://sim.devoltapp.com)"
+    },
+    {
+      "id": "hn:50547374",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Unauthenticated remote code execution in NGINX via HTTP/2 (CVE-2026-123633, CVE-2026-123007)",
+      "description": "Wiz and several other teams independently found two critical HTTP/2 memory-safety bugs in NGINX that allow unauthenticated remote code execution; F5 shipped fixes in a November 18 security release.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "speedping",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "createdAt": "2026-11-18T15:19:55Z",
+      "updatedAt": "2026-11-18T15:19:55Z",
+      "content": "Wiz Research, Ikotas Labs, Metnir, Rapid7 and Xint independently reported a use-after-free (CVE-2026-123633) and an integer underflow (CVE-2026-123007) in NGINX's HTTP/2 handling, both rated CVSS 4.0 9.2. Both require HTTP/2 to be enabled; the integer underflow dates back to NGINX 1.9.5 (2015), and Wiz demonstrated code execution against NGINX serving plain static files with no backend or third-party modules. Wiz says it found the bugs with its AI code-scanning harness, and recommends updating to the latest NGINX release.\n\n[Wiz write-up](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities)\n\n[CVE-2026-123633](https://www.cve.org/CVERecord?id=CVE-2026-123633)\n\n[CVE-2026-123007](https://www.cve.org/CVERecord?id=CVE-2026-123007)\n\n[HN discussion](https://news.ycombinator.com/item?id=50547374)"
+    },
+    {
+      "id": "hn:50552424",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google introduces Gemini 4 Neon",
+      "description": "Google DeepMind's Gemini 4 Neon targets fast end-to-end task completion for software engineering, knowledge work and science, priced at $3/$15 per million input/output tokens with a 1M-token context.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "yigitdemirag",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "createdAt": "2026-11-18T21:34:07Z",
+      "updatedAt": "2026-11-18T21:34:07Z",
+      "content": "Google says Neon scores 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level (#3 overall), ranks #2 on the Vals Index and #2 on steerability in the new Agent Arena Index, and has its lowest fabrication rate yet in internal Antigravity testing. Pricing is $3 per million input tokens ($0.15 cached) and $15 per million output tokens, with a 1 million-token context window; it is rolling out in the Gemini API via Google AI Studio, Gemini for business and paid Gemini app tiers.\n\n[Google announcement](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)\n\n[Gemini 4 Neon docs in AI Studio](https://aistudio.google.com/docs/models/gemini-4-neon)\n\n[HN discussion](https://news.ycombinator.com/item?id=50552424)"
+    },
+    {
+      "id": "hn:50548038",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SuperEMeans: making e-means clustering 3x faster",
+      "description": "The SuperKMeans authors fused their dimension-pruning trick with the new 2-epoch e-means algorithm, clustering high-dimensional embeddings for IVF vector indexes much faster without losing quality.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "lkuffo2",
+      "url": "https://www.lkuffo.com/superemeans/",
+      "createdAt": "2026-11-18T16:09:50Z",
+      "updatedAt": "2026-11-18T16:09:50Z",
+      "content": "Clustering is the slow step when building IVF-style vector indexes. **e-means** claims Lloyd's k-means quality in just 2 epochs, and **SuperKMeans** speeds up Lloyd's by skipping vector dimensions; the two ideas are orthogonal. On 5M 1536-d OpenAI embeddings (about 20K centroids, one 16-core Zen 5 box), SuperEMeans took 128 s versus 203 s for e-means, 232 s for SuperKMeans and 985 s for 10-iteration Lloyd's, with the same recall@100 as e-means. It is open source in the SuperKMeans library.\n\n[SuperKMeans on GitHub](https://github.com/cwida/SuperKMeans)\n\n[e-means project page](https://e-means.github.io/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50548038)"
+    },
+    {
+      "id": "hn:50550096",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The magic of partial evaluation",
+      "description": "Jimmy Miller walks through partial evaluation from hand-expanded JavaScript to the Futamura projections, showing how specializing an interpreter on a program yields a compiler for free.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "aray07",
+      "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
+      "createdAt": "2026-11-18T18:29:03Z",
+      "updatedAt": "2026-11-18T18:29:03Z",
+      "content": "The essay starts with simple examples (unrolling `power(x, 5)`, evaluating a tiny arithmetic interpreter) and builds up to the three **Futamura projections**: partially evaluating an interpreter with a program gives a compiled program, specializing the partial evaluator on an interpreter gives a compiler, and going one level further gives a compiler generator. It was prompted by the revival of Meta's Prepack and comes with the author's own partial evaluator to play with, plus pointers to weval and Truffle.\n\n[Essay](https://jimmyhmiller.com/magic-of-partial-evaluation)\n\n[weval, the WebAssembly partial evaluator](https://github.com/bytecodealliance/weval)\n\n[HN discussion](https://news.ycombinator.com/item?id=50550096)"
+    },
+    {
+      "id": "hn:50551046",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DaisyRose-27B: RL on 1,200 tasks doubles Qwen3.8-27B on Terminal-Bench 4.1",
+      "description": "RadixArk's first model is Qwen3.8-27B post-trained with reinforcement learning on 1,200 curated long-horizon agent tasks, raising Terminal-Bench 4.1 pass@1 from 5.6% to 12.0%.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "de_sty",
+      "url": "https://www.radixark.com/blog/daisyrose-27b",
+      "createdAt": "2026-11-18T19:39:16Z",
+      "updatedAt": "2026-11-18T19:39:16Z",
+      "content": "RadixArk trained DaisyRose-27B with its Miles RL framework on sessions up to 1M tokens, using just 1,200 tasks built with Eigent AI, in 18 days on 144 H200 GPUs. Each task was designed to trigger a mistake the base model makes and tuned to a useful solve rate. The model beats the base on every reported benchmark, and BF16, FP8 and NVFP4 checkpoints are released.\n\n[Model on Hugging Face](https://huggingface.co/RadixArk/DaisyRose-27B)\n\n[HN discussion](https://news.ycombinator.com/item?id=50551046)"
+    },
+    {
+      "id": "hn:50547122",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "tiny-voca: a 4.5M-parameter TTS model that runs 70x real time on CPU",
+      "description": "tiny-voca is an Apache-2.0 English text-to-speech model with two voices, trained from scratch on about 18 hours of synthetic speech, small enough to run on a phone or in a browser.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "mrkn1",
+      "url": "https://huggingface.co/n4ze3m/tiny-voca",
+      "createdAt": "2026-11-18T15:01:14Z",
+      "updatedAt": "2026-11-18T15:01:14Z",
+      "content": "The whole model, including the waveform generator, has 4,537,291 parameters (an 18 MB PyTorch file, with an ONNX export), outputs 24 kHz mono audio, and runs about 70x faster than real time on four CPU threads. Text is converted to phonemes by the author's dizione phonemizer; the training dataset and a browser demo are also published. The HN title says it cost about $10 to train.\n\n[Code on GitHub](https://github.com/n4ze3m/tiny-voca)\n\n[Try it in the browser](https://huggingface.co/spaces/n4ze3m/tiny-voca-studio)\n\n[HN discussion](https://news.ycombinator.com/item?id=50547122)"
+    },
+    {
+      "id": "hn:50546344",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SiliconForest: an open Darwin-based OS booting natively on an M1 MacBook Pro",
+      "description": "SiliconForest is a PureDarwin fork brought up on Apple silicon with Asahi-ported drivers and a GPU desktop, and it runs a few unmodified Mac binaries such as Firefox, Terminal and Activity Monitor.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "agazso",
+      "url": "https://github.com/chriskearney/siliconforest",
+      "createdAt": "2026-11-18T13:54:28Z",
+      "updatedAt": "2026-11-18T13:54:28Z",
+      "content": "Built on Apple's open-source XNU kernel with an open userland, SiliconForest boots natively (no hypervisor) from its own partition on one 13-inch M1 MacBook Pro. The Asahi GPU driver is ported to XNU with Mesa, so it gets a Wayland desktop at 2560x1600 60 Hz, hardware video decode, Wi-Fi, audio and the Touch Bar. Mac app support so far is exactly three unmodified binaries on reimplemented frameworks. It is early, unreleased and cannot yet be built by others, and the filesystem driver has open data-safety defects.\n\n[Repo on GitHub](https://github.com/chriskearney/siliconforest)\n\n[HN discussion](https://news.ycombinator.com/item?id=50546344)"
+    },
+    {
+      "id": "hn:50551398",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Search: a tiny open-source WebKit browser for the Mac with Chrome extension support",
+      "description": "Search is a free, open-source, about 7 MB macOS browser built on the system WebKit, with Chrome Web Store extensions, spaces, a reading mode and network-level ad blocking.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "rsaz",
+      "url": "https://searchbrowser.app/",
+      "createdAt": "2026-11-18T20:04:31Z",
+      "updatedAt": "2026-11-18T20:04:31Z",
+      "content": "Made by the Paris design studio Office Commun, Search uses the WebKit engine that ships with macOS rather than bundling Chromium. The site claims about 51 MB of memory before the first page versus far more for Safari and Chrome. Features include pinned tabs, spaces, floating video, Touch ID-protected passwords in the keychain, import from Chrome/Arc/Firefox and others, optional sync through iCloud Drive or Dropbox, and Chrome extensions on macOS 15.4+. It needs macOS 14 or later and is also on Homebrew.\n\n[Website](https://searchbrowser.app/)\n\n[Source on GitHub](https://github.com/driceroland/Search)\n\n[HN discussion](https://news.ycombinator.com/item?id=50551398)"
+    },
+    {
+      "id": "x:2123015252749230453",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "3Blue1Brown explains why compression is close to intelligence",
+      "description": "Marcus Hutter recommends 3Blue1Brown's new information theory video on compression and neural-network-based arithmetic coding, the approach behind nearly every Hutter Prize winner.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Marcus Hutter (@mhutter42)",
+      "url": "https://x.com/mhutter42/status/2123015252749230453",
+      "createdAt": "2026-11-18T11:27:34Z",
+      "updatedAt": "2026-11-18T11:27:34Z",
+      "content": "Hutter calls the video a superb animated explanation of why **compression ≈ intelligence** (the motivation behind his Hutter Prize) and of online, neural-network-based arithmetic coding, which all but one recent prize winner use. The video is part 3 of 3Blue1Brown's information theory series: \"This algorithm changed how I think about compression\".\n\n[3Blue1Brown video on YouTube](https://www.youtube.com/watch?v=qbsb9DpdZ6s)\n\n[Post on X](https://x.com/mhutter42/status/2123015252749230453)"
+    },
+    {
+      "id": "x:2123156830964810116",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "nnterp 2.0: one NNsight interpretability API across hundreds of transformers",
+      "description": "The NDIF team released nnterp 2.0, which hides per-architecture quirks so the same NNsight interpretability experiment runs unchanged across hundreds of transformer models.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Jaden Fiotto-Kaufman (@jadenfk23)",
+      "url": "https://x.com/jadenfk23/status/2123156830964810116",
+      "createdAt": "2026-11-18T20:50:09Z",
+      "updatedAt": "2026-11-18T20:50:09Z",
+      "content": "**nnterp** gives a standardized interface to LLM internals (layers, attention and MLP outputs, logit lens, patchscopes) on top of NNsight. Version 2.0 adds remote execution through NDIF, vLLM compatibility and steering fixes, a text-only mode for multimodal checkpoints, and many per-model fixes.\n\n[Repo on GitHub](https://github.com/ndif-team/nnterp)\n\n[v2.0.0 release notes](https://github.com/ndif-team/nnterp/releases/tag/v2.0.0)\n\n[Post on X](https://x.com/jadenfk23/status/2123156830964810116)"
+    },
+    {
+      "id": "x:2123074523067261340",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LLaVA-OneVision-2.5: a fully open 4B model for offline and streaming video",
+      "description": "lmms-lab and Glint Lab released LLaVA-OneVision-2.5-4B-Instruct with training code, reporting that codec-based video input beats uniform frame sampling on general video tasks.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "lmms-lab (@lmmslab)",
+      "url": "https://x.com/lmmslab/status/2123074523067261340",
+      "createdAt": "2026-11-18T15:23:05Z",
+      "updatedAt": "2026-11-18T15:23:05Z",
+      "content": "The team says this is the first time it sees clear signals that feeding video through a **codec** view beats uniform frame sampling on general video understanding. The release is one 4B model that handles both offline and streaming video, in a fully open training framework; a technical report is listed as coming soon.\n\n[Repo on GitHub](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2.5)\n\n[Model on Hugging Face](https://huggingface.co/lmms-lab-encoder/LLaVA-OneVision-2.5-4B-Instruct)\n\n[Post on X](https://x.com/lmmslab/status/2123074523067261340)"
+    },
+    {
+      "id": "x:2123083823436955987",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Swift Evolution accepts SE-0564: Split Continuations",
+      "description": "SE-0564 adds an async withContinuation form that hands out separate resume and wait halves, so cancellation and priority-escalation handlers are active only while a task is suspended.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Ivan Tokar (@ivatokar)",
+      "url": "https://x.com/ivatokar/status/2123083823436955987",
+      "createdAt": "2026-11-18T16:00:03Z",
+      "updatedAt": "2026-11-18T16:00:03Z",
+      "content": "Proposed by Franz Busch, SE-0564 builds on SE-0528's noncopyable `Continuation`: the new body is `async` and receives both a `Continuation` and a `ContinuationWaiter`, closing races where cancellation or escalation handlers fire before the continuation exists. It also adds `resumeSynchronously` so an executor can run the resumed task inline, and makes `withTaskPriorityEscalationHandler` always fire once with the current priority when installed.\n\n[SE-0564 proposal](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0564-split-continuations.md)\n\n[Acceptance on Swift Forums](https://forums.swift.org/t/accepted-se-0564-split-continuations/90846)\n\n[Post on X](https://x.com/ivatokar/status/2123083823436955987)"
     }
   ]
 }
