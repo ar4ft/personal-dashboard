@@ -50356,6 +50356,205 @@
       "url": "https://macanorak.com/a-wolf-at-the-door-apple-is-rethinking-mac-permissions-for-the-age-of-ai-agents/",
       "createdAt": "2026-11-19T22:51:10Z",
       "updatedAt": "2026-11-19T22:51:10Z"
+    },
+    {
+      "id": "hn:50560357",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PostgreSQL 19 released",
+      "description": "PostgreSQL 19 adds REPACK (CONCURRENTLY) for online table reorganization, pg_plan_advice for plan stability, parallel index vacuuming in autovacuum, and easier logical replication setup.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jkatz05",
+      "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+      "createdAt": "2026-11-19T14:11:37Z",
+      "updatedAt": "2026-11-19T14:11:37Z",
+      "content": "The PostgreSQL Global Development Group shipped PostgreSQL 19. Highlights include the REPACK (CONCURRENTLY) command for reorganizing tables without blocking traffic, the pg_plan_advice and pg_stash_advice extensions for pinning and experimenting with query plans, parallel index vacuuming and a new table-priority scoring system for autovacuum, and new monitoring views such as pg_stat_lock and pg_stat_autovacuum_scores. Logical replication no longer needs a restart to enable (the effective WAL level rises automatically when the first slot is created) and can now replicate sequence values. Developers also get read-your-writes consistency on standbys and get-or-create behavior that saves a round trip.\n\n[Release announcement](https://www.postgresql.org/about/news/postgresql-19-released-3449/)\n\n[Release notes](https://www.postgresql.org/docs/19/release-19.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50560357)"
+    },
+    {
+      "id": "hn:50561436",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Watch weight-space programming in action with WebGPU",
+      "description": "An interactive WebGPU walkthrough from TabbyML in which an LLM edits 0.016% of Qwen3.5-0.8B's weights, with no gradient descent, to stop reasoning loops, raising MATH-500 accuracy from 7.9% to 48.1%.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "wsxiaoys",
+      "url": "https://tabbyml.github.io/weight-space-playground/",
+      "createdAt": "2026-11-19T15:32:47Z",
+      "updatedAt": "2026-11-19T15:32:47Z",
+      "content": "The playground replays recorded llama.cpp runs of the base and edited models side by side on the same prompts and seeds. The edit subtracts a single direction from the ffn_down output weights of 64 neurons in layers 15 and 19, which is 131,072 of roughly 800M weights. On the MATH-500 batch, the share of runs hitting the 32k-token limit fell from 93.0% to 33.1%. The author wanted to run the whole inspect, edit and evaluate loop in the browser, but it needed too much VRAM. It is based on experiment 8 of the \"Sparks of Weight-Space Programming\" paper.\n\n[Interactive playground](https://tabbyml.github.io/weight-space-playground/)\n\n[Earlier HN thread on the paper](https://news.ycombinator.com/item?id=50341174)\n\n[HN discussion](https://news.ycombinator.com/item?id=50561436)"
+    },
+    {
+      "id": "hn:50546967",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The history behind the x86 CPU: from 4004 to 486",
+      "description": "Pikuma's Gustavo Pezzi explains how x86 quirks such as little-endianness, the AX/BX/CX/DX register names and segment:offset addressing came from decisions made to keep old software running on each new Intel chip.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://pikuma.com/blog/history-of-x86-4004-to-486",
+      "createdAt": "2026-11-18T14:47:53Z",
+      "updatedAt": "2026-11-18T14:47:53Z",
+      "content": "This long-form history follows the line from the 4004 and 8008 through the 8080, 8086, 286, 386 and 486. It shows that seemingly arbitrary parts of the instruction set (a favored accumulator, BX as the only register allowed to point at memory, the parity flag, 16-bit segment arithmetic) were compatibility compromises made under pressure. It builds on Pikuma's earlier post on real mode and protected mode, and is aimed at people learning x86 assembly.\n\n[Article on Pikuma](https://pikuma.com/blog/history-of-x86-4004-to-486)\n\n[HN discussion](https://news.ycombinator.com/item?id=50546967)"
+    },
+    {
+      "id": "hn:50564563",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Making BAML 34x faster by compiling to Rust",
+      "description": "Boundary wrote a new BAML compiler backend that turns BAML programs into Rust, making them about 3.5x faster than the interpreter on average and up to 34x faster on tight loops.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "aaronvg",
+      "url": "https://boundaryml.com/blog/compiling-baml-to-rust",
+      "createdAt": "2026-11-19T18:58:57Z",
+      "updatedAt": "2026-11-19T18:58:57Z",
+      "content": "BAML is Boundary's language for LLM functions. It reads like TypeScript, is concurrent like Go, and profiles every call down to the nanosecond. The team compiles from its mid-level IR (one level above bytecode) so it can reuse the existing lowering while keeping runtime guarantees such as pausable functions and error provenance. Published benchmarks range from 33.6x on nested loops and 24.9x on a 262k-node tree walk down to 1.5x on an agent loop over 300 recorded conversations.\n\n[Boundary blog post](https://boundaryml.com/blog/compiling-baml-to-rust)\n\n[HN discussion](https://news.ycombinator.com/item?id=50564563)"
+    },
+    {
+      "id": "hn:50554941",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FailTrace: reproduce a failed GitHub Actions run locally from its URL",
+      "description": "FailTrace is an open-source Go CLI: you paste a failed GitHub Actions run URL and it finds the failing job and step, matches them to the workflow at that commit, extracts the error from the logs, and can replay the step in Docker.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ri4dh",
+      "url": "https://github.com/Ri4dH/failtrace",
+      "createdAt": "2026-11-19T01:30:43Z",
+      "updatedAt": "2026-11-19T01:30:43Z",
+      "content": "It has three commands: `inspect` explains why the run failed, `plan` shows what reproducing it would need, and `repro` replays it in Docker. Unlike act, which runs whole workflows from a workflow file, FailTrace starts from a specific failed run and pins the exact commit, attempt, job and matrix combination, aiming to replay only what the failing step needs. It is in early development; `repro` currently covers Linux jobs whose failing step is a `run:` script.\n\n[Repo on GitHub](https://github.com/Ri4dH/failtrace)\n\n[HN discussion](https://news.ycombinator.com/item?id=50554941)"
+    },
+    {
+      "id": "hn:50560461",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI still has a WebRTC problem",
+      "description": "Luke Curley (kixelated) of the Media over QUIC project argues that WebRTC, built for real-time human calls, is the wrong transport for voice AI because it drops late audio packets that an LLM could afford to wait for.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "surprisetalk",
+      "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
+      "createdAt": "2026-11-19T14:20:08Z",
+      "updatedAt": "2026-11-19T14:20:08Z",
+      "content": "A follow-up to his earlier viral post. Curley's argument is that voice agents are blocked on full context, so what matters is when the last packet arrives, not low latency for every packet. Retransmitting lost audio for up to a few seconds is cheap (a second of 64 Kbps Opus is about 8 KB, or around 6 QUIC packets), and the agent can process faster than real time to catch up. He also criticizes WebRTC for rendering media on arrival instead of by timestamp, which breaks faster-than-real-time TTS, and pitches MoQ as an alternative.\n\n[Blog post on moq.dev](https://moq.dev/blog/webrtc-is-still-the-problem/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50560461)"
+    },
+    {
+      "id": "x:2123385776201162898",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kinetic: a Rust inference engine for GGUF models that claims up to 4.5x llama.cpp's speed",
+      "description": "Velocity Research's Kinetic is a new open-source Rust engine that runs GGUF models on CPUs and NVIDIA, AMD and Intel GPUs, and promises that its speed-ups never change the output. One posted benchmark shows 1,033 tok/s against llama.cpp's 230 tok/s on a laptop RTX 3060.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Swarogan (@swarogan)",
+      "url": "https://x.com/swarogan/status/2123385776201162898",
+      "createdAt": "2026-11-19T11:59:54Z",
+      "updatedAt": "2026-11-19T11:59:54Z",
+      "content": "The headline benchmark is a repeated edit/transcription task with LFM3 1.7B on a Ryzen 5 6600H laptop with a 6 GB RTX 3060. The project notes the first-run gains are smaller: up to 2.5x on edits and 1.4x on plain generation. Kinetic is a single binary with an OpenAI-compatible API and a `kinetic bench` exactness check, released under Apache-2.0. It is at 0.1.0 Beta 1 (Windows and Linux on x86-64, one GPU per model) and lists its known issues openly.\n\n[Repo on GitHub](https://github.com/Veloresearch/kinetic)\n\n[Technical report](https://veloresearch.com/research/kinetic)\n\n[Post on X](https://x.com/swarogan/status/2123385776201162898)"
+    },
+    {
+      "id": "x:2123392699818729599",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "RecoATLAS: training small shopping-agent orchestrators with RL on bandit feedback",
+      "description": "Criteo AI Lab released RecoATLAS, an open environment, paper and RecSys '26 tutorial that turn logged bandit feedback from real purchases into tasks for training recommendation agents with reinforcement learning.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "flavianv (@flavianv)",
+      "url": "https://x.com/flavianv/status/2123392699818729599",
+      "createdAt": "2026-11-19T12:27:25Z",
+      "updatedAt": "2026-11-19T12:27:25Z",
+      "content": "Each task is built from a real purchased bundle, and the agent searches a catalog with recommendation tools and is scored on sales. The authors report two findings: LLM judges can't tell useful item sets from merely plausible ones, while purchase data can; and with RL a small orchestrator beats models many times its size. The Apache-2.0 code loads a catalog, tools and tasks in one call (for example `recoatlas.load(\"hm-clothing\")`) and ships adapters for TRL, OpenEnv and Miles, plus an example GRPO run.\n\n[Paper on arXiv](https://arxiv.org/abs/2605.18805)\n\n[Repo on GitHub](https://github.com/criteo-research/recoatlas)\n\n[Criteo blog post](https://tech.criteo.com/blog/shopping-agent-reinforcement-learning/)\n\n[RecSys '26 tutorial video](https://www.youtube.com/watch?v=VgFCqGnPDwE)\n\n[Post on X](https://x.com/flavianv/status/2123392699818729599)"
+    },
+    {
+      "id": "x:2123398506048032991",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "lmdeck: a Rust CLI and dashboard for managing local LLM serving recipes",
+      "description": "lmdeck takes a model repo, writes a run recipe, checks whether it fits your hardware (Macs, one or more DGX Sparks), pulls the weights, launches the server and connects it to your agent harness.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Javier Bits (@javierbits)",
+      "url": "https://x.com/javierbits/status/2123398506048032991",
+      "createdAt": "2026-11-19T12:50:29Z",
+      "updatedAt": "2026-11-19T12:50:29Z",
+      "content": "Features include a TUI and web dashboard (deck, hosts, topology, stats, doctor), hardware and engine detection that refuses configurations that won't run, and multi-node placement for DGX Spark clusters. It also syncs with agent harnesses such as opencode, pi and hermes, and alerts you to upstream recipe updates. Supported backends include llama.cpp, vLLM, SGLang, EXL3, MLX and LM Studio. It ships as a single MIT-licensed Rust binary via brew, cargo or prebuilt Linux/macOS builds.\n\n[Repo on GitHub](https://github.com/javierbits/lmdeck)\n\n[Post on X](https://x.com/javierbits/status/2123398506048032991)"
+    },
+    {
+      "id": "x:2123423774649507889",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple Watch gotcha: arm64_32 makes Swift Int 32-bit on older watches",
+      "description": "An indie watchOS developer explains why an app that ran fine in the simulator failed to build for real watches: on older Apple Watch models (arm64_32), Swift's Int is 32 bits.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Pikomofu (@pikomofu_app)",
+      "url": "https://x.com/pikomofu_app/status/2123423774649507889",
+      "createdAt": "2026-11-19T14:30:53Z",
+      "updatedAt": "2026-11-19T14:30:53Z",
+      "content": "In their case, a hash constant didn't fit in Int, and 27 places that converted milliseconds to Int would have crashed at launch on 32-bit watch hardware. The takeaway for watchOS work: use explicitly sized types such as Int64 for timestamps and hashes, and always build and test on real hardware, not just the simulator.\n\n[Post on X](https://x.com/pikomofu_app/status/2123423774649507889)"
+    },
+    {
+      "id": "x:2123461302995894488",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hinokoe: tap your Apple Watch to record your day, transcribed on iPhone with speaker labels",
+      "description": "Hinokoe is a new iOS and watchOS app that records conversations from the Apple Watch and transcribes them on the iPhone, with labels for who said what. Audio is never uploaded to the developer's servers.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Hinokoe (@hinokoeapp)",
+      "url": "https://x.com/hinokoeapp/status/2123461302995894488",
+      "createdAt": "2026-11-19T17:00:01Z",
+      "updatedAt": "2026-11-19T17:00:01Z",
+      "content": "It supports Mandarin, Cantonese, English and Japanese, including a mix within one sentence, and runs on any Apple Watch that supports watchOS 26. Recording and transcription stay free after a 7-day trial, and AI organization of recordings is a one-time purchase.\n\n[Hinokoe on the App Store](https://apps.apple.com/us/app/hinokoe-every-word-kept/id6824444380)\n\n[Post on X](https://x.com/hinokoeapp/status/2123461302995894488)"
     }
   ]
 }
