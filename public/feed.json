@@ -49866,8 +49866,7 @@
       "createdAt": "2026-11-19T00:00:00Z",
       "updatedAt": "2026-11-19T00:00:00Z",
       "content": "Chamillard fills thrift-store accounting ledgers with solids built from thousands of short slanted strokes: a herringbone for light, a crossed diamond lattice for mid-tone and nearly closed diamonds for dark, each row sitting on the ledger's printed lines. Because an isometric cube shows exactly three face orientations, three tones are enough to make shapes read as solid with no outlines, and some cubes flip inside out like the Penrose triangle. The article ties the technique to Dürer's shaded polyhedron in Melencolia I and includes a demo where you move the light and watch the tones swap.\n\n[Article on Abakcus](https://abakcus.com/articles/albert-chamillard-geometric-drawings)"
-    }
-,
+    },
     {
       "id": "hn:50548021",
       "section": "news",
@@ -50034,6 +50033,164 @@
       "url": "https://github.com/aryamandarda/tamserve",
       "createdAt": "2026-11-16T21:14:39Z",
       "updatedAt": "2026-11-16T21:14:39Z"
+    },
+    {
+      "id": "x:2123270249344565377",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Clover-35B-A3B: DiffuSpace publishes the tech report and SFT code for its agentic diffusion LLM",
+      "description": "DiffuSpace released the technical report and supervised fine-tuning code for Clover-35B-A3B-Preview, a mixture-of-experts diffusion language model (35B total, about 3B active) built on Qwen3.6-35B-A3B and aimed at agentic tasks.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "DiffuSpace (@DiffuSpace_Labs)",
+      "url": "https://x.com/DiffuSpace_Labs/status/2123270249344565377",
+      "createdAt": "2026-11-19T04:20:50Z",
+      "updatedAt": "2026-11-19T04:20:50Z",
+      "content": "Clover generates text with **block diffusion** instead of strictly left to right: attention is bidirectional inside each block while a causal prefix is kept, on a hybrid Gated DeltaNet / full-attention MoE backbone with 128K context. The new report covers the architecture, the training recipe and inference experiments, and the SFT code is now in the repo so you can fine-tune it yourself. It's one of the few open diffusion LMs targeting tool use and agent work rather than plain text benchmarks.\n\n- [Technical report on arXiv](https://arxiv.org/abs/2611.24636)\n- [SFT code on GitHub](https://github.com/DiffuSpace/Clover-35B-A3B-Preview/tree/main/sft)\n- [Launch blog with benchmarks](https://diffuspace.ai/blog/clover-35b/)\n\n[Post on X](https://x.com/DiffuSpace_Labs/status/2123270249344565377)"
+    },
+    {
+      "id": "x:2123150202932429079",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Datadog fine-tuned Qwen 3.5 9B on its own traces: topic clustering 50x faster, and open-sourced the workflow",
+      "description": "Datadog and Baseten fine-tuned a small open model on production LLM traces for the Patterns topic-clustering feature, going from 44.7 s to 0.89 s and from a 45% to a 93% judge pass rate, and released pup-finetune so others can repeat it.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Datadog Developers (@datadogdevs)",
+      "url": "https://x.com/datadogdevs/status/2123150202932429079",
+      "createdAt": "2026-11-18T20:23:49Z",
+      "updatedAt": "2026-11-18T20:23:49Z",
+      "content": "It's a concrete case for task-specific small models: a LoRA on Qwen 3.5 9B, trained on the agent's own recorded runs, beat the general model it replaced on both speed and quality for one narrow job. **pup-finetune** packages the loop as `pup finetune`: pull LLM spans from Agent Observability, review the rows, push a dataset, train a LoRA on Baseten or Fireworks, evaluate against the base model, then deploy. It's Apache-2.0, and Datadog says a coding agent can drive the whole workflow.\n\n- [pup-finetune on GitHub](https://github.com/DataDog/pup-finetune)\n- [Datadog blog post on the Patterns fine-tune](https://www.datadoghq.com/blog/fine-tuning-patterns-baseten/)\n\n[Post on X](https://x.com/datadogdevs/status/2123150202932429079)"
+    },
+    {
+      "id": "x:2123212999607611426",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "openRocode: an open harness that lets multimodal LLMs drive robots like computer use",
+      "description": "openRocode turns robot control into 3D computer use: the model looks at camera pictures, clicks where the gripper should go or writes short Python policies, and the harness runs them as guarded motion and records every step. Works with Claude, GPT or any OpenAI-compatible model.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "NoaX (@noahatwhere)",
+      "url": "https://x.com/noahatwhere/status/2123212999607611426",
+      "createdAt": "2026-11-19T00:33:21Z",
+      "updatedAt": "2026-11-19T00:33:21Z",
+      "content": "The key design choice is that **the model never sees a world coordinate**: depth, calibration and frames stay inside the harness, and tools speak in pixels, centimetres and directions like \"left in the front camera\". A dashboard shows each step with the model's own words, code and pictures, so you can watch and steer a run. Apache-2.0.\n\n- [openRocode on GitHub](https://github.com/wrencanfly/openRocode)\n\n[Post on X](https://x.com/noahatwhere/status/2123212999607611426)"
+    },
+    {
+      "id": "x:2123191289420390467",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Magic Trick beta adds a full-speed Atari Lynx FPGA core to the ModRetro Chromatic",
+      "description": "Magic Trick, an open-source community firmware for the FPGA-based ModRetro Chromatic handheld, now runs Atari Lynx games at full speed with save states and box art and without a BIOS, next to its Game Boy, Game Boy Color and Game Gear cores.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "ryansag (@ryansagdotcom)",
+      "url": "https://x.com/ryansagdotcom/status/2123191289420390467",
+      "createdAt": "2026-11-18T23:07:05Z",
+      "updatedAt": "2026-11-18T23:07:05Z",
+      "content": "Built on CursedToast's ChroMagic, Magic Trick swaps FPGA cores automatically depending on the game you pick from the SD card, and adds cover art, previews, Game Genie and save states. Beta 10 added the Lynx as a third core; beta 11 followed hours later with fixes, including sideways Lynx games. The installer runs on Mac, Windows and Linux. It rewrites the MCU and FPGA firmware, so read the recovery guide first.\n\n- [Magic Trick on GitHub](https://github.com/agentichunter-blip/magic-trick)\n- [Project page](https://ryansag.com/magic-trick/)\n\n[Post on X](https://x.com/ryansagdotcom/status/2123191289420390467)"
+    },
+    {
+      "id": "x:2123352378552598676",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "n56-patcher boots iOS 15.8.8 on a 2014 iPhone 6 Plus that Apple stopped at iOS 12",
+      "description": "Celestial紗雪's open-source n56-patcher now installs iOS 15.8.8 as a second system on the iPhone 6 Plus, after iOS 13.7 and 14.8, with Wi-Fi, audio, camera, Bluetooth, cellular and Health reported working.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "拓跋鼠 (@qwerty__cs)",
+      "url": "https://x.com/qwerty__cs/status/2123352378552598676",
+      "createdAt": "2026-11-19T09:47:11Z",
+      "updatedAt": "2026-11-19T09:47:11Z",
+      "content": "The trick is a Frankenstein build: kernel and system from the iPad mini 4, drivers from the iPhone 6s Plus, rebuilt for the 6 Plus's N56 board and installed on separate volumes next to the original iOS 12. On real hardware it boots, activates, encrypts its data partition and is jailbroken with palera1n rootless; the rest is still being tested. You need a Mac with Xcode, and the phone is booted over DFU from the computer.\n\n- [n56-patcher on GitHub](https://github.com/CelestialSayuki/n56-patcher)\n\n[Post on X](https://x.com/qwerty__cs/status/2123352378552598676)"
+    },
+    {
+      "id": "x:2123159712510382166",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TraySense: a 100 KB open-source taskbar monitor for CPU, GPU, RAM, VRAM and temps",
+      "description": "DM TWEAKS launched TraySense, a tiny Windows taskbar monitor that shows CPU, GPU, RAM and VRAM usage plus CPU, GPU and SSD temperatures while using 1-3 MB of RAM. The launch post passed 2,000 likes.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "DM TWEAKS | Yousef (@DMQ8_2)",
+      "url": "https://x.com/DMQ8_2/status/2123159712510382166",
+      "createdAt": "2026-11-18T21:01:36Z",
+      "updatedAt": "2026-11-18T21:01:36Z",
+      "content": "TraySense is a single C file using plain Win32, so the exe is around 100 KB. It only redraws when a number changes, stops polling when the screen is off, and colours temps orange or red past set thresholds. CPU temperature needs the PawnIO driver, which it installs on demand. Windows 10 and 11, AGPL-3.0.\n\n- [TraySense on GitHub](https://github.com/DMTWEAKS/traysense)\n\n[Post on X](https://x.com/DMQ8_2/status/2123159712510382166)"
+    },
+    {
+      "id": "x:2123081507350704181",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Switchyard: a native macOS link router that opens every link in the right browser and profile",
+      "description": "Donald Silveira built Switchyard, a free, open-source menu bar app you set as your default browser; rules for apps and URL patterns send each link to the browser, profile or Firefox container you chose.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Donald (@donaldsilveira)",
+      "url": "https://x.com/donaldsilveira/status/2123081507350704181",
+      "createdAt": "2026-11-18T15:50:50Z",
+      "updatedAt": "2026-11-18T15:50:50Z",
+      "content": "Rules live in `~/.config/switchyard/config.json`, reload as soon as the file changes, and are checked top to bottom by source app and URL, so Mail links can go to a work profile and chat links to a personal one. A \"try a link\" view shows where a link would go without opening it. It idles at about 13 MB and hands links off in 22-30 ms. Needs macOS 26; signed and notarized builds for Apple silicon, MIT licensed.\n\n- [Switchyard on GitHub](https://github.com/donnes/switchyard)\n\n[Post on X](https://x.com/donaldsilveira/status/2123081507350704181)"
+    },
+    {
+      "id": "ideas:agent-trace-distill-cli",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Distill one narrow job from your coding-agent logs into a small local model",
+      "description": "A developer tool for engineers who run Claude Code, Codex or their own agents every day: a CLI that finds a repetitive subtask in local agent transcripts, like commit messages or test-failure triage, builds a reviewed dataset and held-out eval from it, trains a LoRA on a small open model with MLX, and reports whether it matches the frontier model on cost, latency and quality.",
+      "nextStep": "Parse a week of local Claude Code or Codex JSONL sessions, pull every commit-message generation into prompt/response pairs, hold out 20%, and LoRA-tune a 3-4B model with mlx-lm to compare against the original outputs with a simple judge.",
+      "topics": [
+        "Programming",
+        "Machine Learning",
+        "AI"
+      ],
+      "createdAt": "2026-11-19T14:30:00Z",
+      "content": "## How it works\n\nThe CLI scans agent session logs on your machine and clusters the tool calls and prompts into recurring jobs: writing commit messages, summarizing a failing test, renaming symbols, drafting PR descriptions. You pick one, and it extracts the inputs and accepted outputs into JSONL, redacting secrets and paths. A review screen lets you drop bad rows before anything trains. Then it fine-tunes a small open model locally with MLX (or sends it to a cheap hosted trainer), runs a held-out eval with a judge and exact checks, and prints a scorecard: pass rate, latency and estimated cost per thousand calls versus the frontier model. If the small model wins, it can serve it behind an OpenAI-compatible endpoint so the agent routes that one job there. This is the pup-finetune loop, without needing an observability vendor.\n\n```mermaid\nflowchart LR\n  Logs[Local agent transcripts] --> Mine[Cluster recurring jobs]\n  Mine --> Data[Redacted JSONL dataset]\n  Data --> Review[Human review]\n  Review --> Train[LoRA on small model]\n  Train --> Eval[Held-out eval vs frontier]\n  Eval --> Serve[Local endpoint for that job]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Log parsing | Python CLI reading Claude Code and Codex JSONL sessions |\n| Redaction | detect-secrets plus path and email regexes |\n| Training | mlx-lm LoRA on a 3-4B open model on Apple silicon |\n| Eval | Held-out split, exact checks, small LLM judge |\n| Serving | Rapid-MLX or llama.cpp server with an OpenAI-compatible API |\n\n## Hard parts\n\n- Finding jobs that are narrow and frequent enough to be worth a model.\n- Labels: an output the agent produced isn't always one you accepted.\n- Keeping secrets and private code out of datasets.\n- An honest eval that doesn't just reward copying the frontier model's style.\n\n## Effort\n\nA weekend for log parsing and one hand-picked job with an MLX LoRA; two to three weeks for job clustering, review UI, scorecards and serving.\n\n## Inspired by\n\n- [Datadog Developers' post on X](https://x.com/datadogdevs/status/2123150202932429079)\n- [pup-finetune on GitHub](https://github.com/DataDog/pup-finetune)\n- [bot-inator's local MLX fine-tune on approval clicks](https://github.com/Bforsyth1234/bot-inator)"
+    },
+    {
+      "id": "ideas:agent-approval-memory",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "A Mac agent that learns which actions you'd approve from your own approve and deny clicks",
+      "description": "For people who run a local Mac agent that asks before every action: log each approve or deny with its context, train a tiny local model on that history, and let it pre-approve only the boring, repeated actions you always accept, while anything new or risky still asks.",
+      "nextStep": "Log a week of approve/deny decisions from an existing agent (action type, app, file path pattern, time) to SQLite, then train a gradient-boosted classifier and measure how many prompts it could have skipped at 99% precision.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "createdAt": "2026-11-19T14:31:00Z",
+      "content": "## How it works\n\nEvery time the agent asks \"may I move this PDF to Taxes?\" or \"may I reply to this calendar invite?\", the decision and its context are stored locally: action type, target app, path or domain pattern, time of day and how long you took to decide. A small model, starting with XGBoost on hand-made features and later a LoRA on a tiny local LLM as bot-inator does with MLX, predicts approval probability. Only actions in an allow-listed low-risk class and above a strict confidence bar are pre-approved, shown afterwards in a menu bar log you can undo. Anything new, destructive or touching money or messages always asks. Each deny lowers trust for that pattern.\n\n```mermaid\nflowchart LR\n  Ask[Agent proposes action] --> Feat[Context features]\n  Feat --> Model[Local approval model]\n  Model -->|Low risk, high confidence| Auto[Pre-approve and log]\n  Model -->|Otherwise| Prompt[Ask the user]\n  Prompt --> Hist[Decision history]\n  Auto --> Undo[Undo in menu bar]\n  Undo --> Hist\n  Hist --> Model\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Agent hook | bot-inator or any agent with an approval callback |\n| Storage | SQLite on the Mac |\n| First model | XGBoost on hand-made features |\n| Later model | MLX LoRA on a small local LLM, trained while idle |\n| UI | SwiftUI menu bar log with undo |\n\n## Hard parts\n\n- Never auto-approving irreversible actions, whatever the score.\n- Too little data at first; needs a conservative cold start.\n- Habits drift, so old decisions must decay.\n- Explaining why something was pre-approved.\n\n## Effort\n\nA weekend for logging and an offline classifier experiment; two to three weeks for a menu bar app with live pre-approval and undo.\n\n## Inspired by\n\n- [Brooks Forsyth's bot-inator post on X](https://x.com/BrooksForsyth/status/2123157361514746163)\n- [bot-inator on GitHub](https://github.com/Bforsyth1234/bot-inator)"
     }
   ]
 }
