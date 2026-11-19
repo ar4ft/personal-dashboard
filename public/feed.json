@@ -50191,6 +50191,171 @@
       ],
       "createdAt": "2026-11-19T14:31:00Z",
       "content": "## How it works\n\nEvery time the agent asks \"may I move this PDF to Taxes?\" or \"may I reply to this calendar invite?\", the decision and its context are stored locally: action type, target app, path or domain pattern, time of day and how long you took to decide. A small model, starting with XGBoost on hand-made features and later a LoRA on a tiny local LLM as bot-inator does with MLX, predicts approval probability. Only actions in an allow-listed low-risk class and above a strict confidence bar are pre-approved, shown afterwards in a menu bar log you can undo. Anything new, destructive or touching money or messages always asks. Each deny lowers trust for that pattern.\n\n```mermaid\nflowchart LR\n  Ask[Agent proposes action] --> Feat[Context features]\n  Feat --> Model[Local approval model]\n  Model -->|Low risk, high confidence| Auto[Pre-approve and log]\n  Model -->|Otherwise| Prompt[Ask the user]\n  Prompt --> Hist[Decision history]\n  Auto --> Undo[Undo in menu bar]\n  Undo --> Hist\n  Hist --> Model\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Agent hook | bot-inator or any agent with an approval callback |\n| Storage | SQLite on the Mac |\n| First model | XGBoost on hand-made features |\n| Later model | MLX LoRA on a small local LLM, trained while idle |\n| UI | SwiftUI menu bar log with undo |\n\n## Hard parts\n\n- Never auto-approving irreversible actions, whatever the score.\n- Too little data at first; needs a conservative cold start.\n- Habits drift, so old decisions must decay.\n- Explaining why something was pre-approved.\n\n## Effort\n\nA weekend for logging and an offline classifier experiment; two to three weeks for a menu bar app with live pre-approval and undo.\n\n## Inspired by\n\n- [Brooks Forsyth's bot-inator post on X](https://x.com/BrooksForsyth/status/2123157361514746163)\n- [bot-inator on GitHub](https://github.com/Bforsyth1234/bot-inator)"
+    },
+    {
+      "id": "hn:50562754",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic hits $2T in Nasdaq debut",
+      "description": "Anthropic's shares debuted on Nasdaq at a valuation of about $2 trillion, a landmark listing that puts the AI company's market promise to a Wall Street test.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "wslh",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "createdAt": "2026-11-19T17:02:40Z",
+      "updatedAt": "2026-11-19T17:02:40Z"
+    },
+    {
+      "id": "hn:50562113",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "UK government forced to admit it issued Apple a secret encryption order",
+      "description": "The UK government has been forced to admit it secretly ordered Apple to weaken encryption, a disclosure with major implications for user privacy.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "Terretta",
+      "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+      "createdAt": "2026-11-19T16:21:03Z",
+      "updatedAt": "2026-11-19T16:21:03Z"
+    },
+    {
+      "id": "hn:50563148",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "description": "Anthropic reports that Claude solved two open problems in the physics of black holes, a new showcase for AI in scientific research.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "cybermango",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "createdAt": "2026-11-19T17:30:44Z",
+      "updatedAt": "2026-11-19T17:30:44Z"
+    },
+    {
+      "id": "hn:50558906",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Someone reported java4shell bug in September 2026",
+      "description": "A java4shell bug was reportedly filed against OpenJDK in September 2026, with the linked pull request documenting the issue.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "notmine1337",
+      "url": "https://github.com/openjdk/jdk/pull/32781",
+      "createdAt": "2026-11-19T11:47:03Z",
+      "updatedAt": "2026-11-19T11:47:03Z"
+    },
+    {
+      "id": "hn:50557716",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SSD prices may begin to decline in the latter half of 2027",
+      "description": "SSD prices may start to decline in the latter half of 2027, according to an analysis of storage pricing trends.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "illidan1000",
+      "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
+      "createdAt": "2026-11-19T09:05:34Z",
+      "updatedAt": "2026-11-19T09:05:34Z"
+    },
+    {
+      "id": "hn:50557661",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Do not buy RAM, compress",
+      "description": "A post argues that compressing RAM is a better answer than buying more memory, explaining how compression can stretch available memory.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Ecno92",
+      "url": "https://curiousbits.nl/blog/do-not-buy-ram-compress/",
+      "createdAt": "2026-11-19T08:56:47Z",
+      "updatedAt": "2026-11-19T08:56:47Z"
+    },
+    {
+      "id": "hn:50561508",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "description": "Pete Warden discusses local AI, open models, voice interfaces, and the future of hardware in an interview.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "datascientist",
+      "url": "https://thedataexchange.media/pete-warden-moonshine/",
+      "createdAt": "2026-11-19T15:38:12Z",
+      "updatedAt": "2026-11-19T15:38:12Z"
+    },
+    {
+      "id": "hn:50548660",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "description": "Mastra Factory is an open-source software factory the Mastra team uses to build Mastra, shared as a Show HN post.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "codekarate",
+      "url": "https://news.ycombinator.com/item?id=50548660",
+      "createdAt": "2026-11-18T16:53:42Z",
+      "updatedAt": "2026-11-18T16:53:42Z"
+    },
+    {
+      "id": "hn:50567138",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding",
+      "description": "Apple is reportedly working on an AI agent for device control, apps, browsing, and coding.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "mfiguiere",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
+      "createdAt": "2026-11-19T22:08:22Z",
+      "updatedAt": "2026-11-19T22:08:22Z"
+    },
+    {
+      "id": "hn:50567665",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Wolf at the Door: Apple Rethinking Mac Permissions in the Age of AI",
+      "description": "Apple is rethinking Mac permissions in the age of AI agents, weighing how much access automated agents should have.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "barbariangrunge",
+      "url": "https://macanorak.com/a-wolf-at-the-door-apple-is-rethinking-mac-permissions-for-the-age-of-ai-agents/",
+      "createdAt": "2026-11-19T22:51:10Z",
+      "updatedAt": "2026-11-19T22:51:10Z"
     }
   ]
 }
