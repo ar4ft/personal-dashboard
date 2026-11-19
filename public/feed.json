@@ -49614,6 +49614,258 @@
       "createdAt": "2026-11-18T16:00:03Z",
       "updatedAt": "2026-11-18T16:00:03Z",
       "content": "Proposed by Franz Busch, SE-0564 builds on SE-0528's noncopyable `Continuation`: the new body is `async` and receives both a `Continuation` and a `ContinuationWaiter`, closing races where cancellation or escalation handlers fire before the continuation exists. It also adds `resumeSynchronously` so an executor can run the resumed task inline, and makes `withTaskPriorityEscalationHandler` always fire once with the current priority when installed.\n\n[SE-0564 proposal](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0564-split-continuations.md)\n\n[Acceptance on Swift Forums](https://forums.swift.org/t/accepted-se-0564-split-continuations/90846)\n\n[Post on X](https://x.com/ivatokar/status/2123083823436955987)"
+    },
+    {
+      "id": "hn:50556287",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ruby2ßhell: pre-authentication RCE on stock Rails via a one-byte heap overflow",
+      "description": "Veria Labs disclosed a heap overflow in Ruby's case conversion for single-byte encodings, reachable from default Rails and Sinatra apps; Ruby 3.3.14, 3.4.13 and 4.0.10 fix it.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jdns",
+      "url": "https://verialabs.com/ruby2shell/",
+      "createdAt": "2026-11-19T05:09:11Z",
+      "updatedAt": "2026-11-19T05:09:11Z",
+      "content": "Most of Ruby's single-byte encodings (several ISO-8859 and Windows-125x) have no capital ß, so upcasing it writes two bytes, \"SS\", while the loop only bounds-checks one. The output buffer is the input length plus 20 bytes, so 21 ß characters overflow it by one byte. The bug dates back to Ruby 2.4.0 and is reached by `upcase`, `swapcase`, `downcase(:fold)` and `casecmp?`; UTF-8 strings are not affected. Veria Labs says default Rails and classic Sinatra apps expose it, lists bundled Ruby in GitLab, GitHub Enterprise Server and Chatwoot as affected at the time of writing, and plans to publish a proof of concept in a week. Upgrade to Ruby 3.3.14, 3.4.13 or 4.0.10.\n\n[Veria Labs write-up](https://verialabs.com/ruby2shell/)\n\n[Ruby security announcement](https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50556287)"
+    },
+    {
+      "id": "hn:50554076",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Pushing WireGuard on macOS to 5 Gbit/s",
+      "description": "Firezone explains how it took its macOS WireGuard client from about 1 Gbit/s to over 5 Gbit/s by digging through XNU's TUN and UDP code, including batched syscalls and handling backpressure.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "wh33zle",
+      "url": "https://www.firezone.dev/blog/apple-client-performance",
+      "createdAt": "2026-11-18T23:57:01Z",
+      "updatedAt": "2026-11-18T23:57:01Z",
+      "content": "Firezone's macOS and iOS clients topped out around 1 Gbit/s down, with uploads often a few hundred Mbit/s, and got worse with higher latency, a sign of lost packets. The post walks through congestion control basics and then the Darwin internals behind TUN devices and UDP sockets, including the batched `sendmsg_x`/`recvmsg_x` calls and why backpressure on XNU needs special handling. On two M1 Macs linked by Thunderbolt the client now reaches 5.87 Gbit/s up and 5.76 Gbit/s down (about 600k packets per second at MTU 1280). The UDP thread now spends most of its time in the kernel, and the authors argue that if Apple exposed UDP segmentation offload in the BSD socket API, throughput could rise 2-3x for any UDP-heavy macOS workload, including userspace QUIC.\n\n[Firezone blog post](https://www.firezone.dev/blog/apple-client-performance)\n\n[HN discussion](https://news.ycombinator.com/item?id=50554076)"
+    },
+    {
+      "id": "hn:50556533",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "15 million web servers on one VM with smoltcp, DPDK and AF_XDP",
+      "description": "A tongue-in-cheek but technical walkthrough of running over 15 million tiny web servers on one 1-core, 10 GB VM by moving the network stack into userspace with smoltcp plus DPDK or AF_XDP.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "fessguid",
+      "url": "https://kapteko.com/15-million-webservers/",
+      "createdAt": "2026-11-19T05:56:36Z",
+      "updatedAt": "2026-11-19T05:56:36Z",
+      "content": "Starting from a 10-line C server, the author hits limits one by one: ephemeral port ranges, kernel socket memory and the cost of syscalls. The fix is a custom runtime that loads millions of guest servers, intercepts their socket syscalls and routes them through the Rust smoltcp network stack, with DPDK or AF_XDP adapters for zero-copy packet I/O. The kernel stack ran out of RAM at about 2.5 million servers; with smoltcp an idle server costs about 620 bytes (about 1 KB when active) and the run reached 16 million, with DPDK fastest and AF_XDP close behind.\n\n[Article on kapteko](https://kapteko.com/15-million-webservers/)\n\n[Proof-of-concept code on GitHub](https://github.com/artemyarulin/AI10M/tree/main/poc/ten-million-webservers)\n\n[HN discussion](https://news.ycombinator.com/item?id=50556533)"
+    },
+    {
+      "id": "hn:50553225",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LLM-assisted reverse engineering: a practitioner's workflow",
+      "description": "A hardware and software hacker describes how he now reverse engineers binaries and firmware by pointing a coding agent at Ghidra via an MCP bridge, with agent skills and running Markdown notes.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ioma8",
+      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "createdAt": "2026-11-18T22:29:13Z",
+      "updatedAt": "2026-11-18T22:29:13Z",
+      "content": "The setup is a DeepSeek-based agent harness (occasionally Codex), Ghidra with an MCP bridge, and radare2 for fast CLI disassembly. The agent identifies the binary type and platform, maps main functions, branching and imports, and writes every finding to Markdown files, which act as the human's notes and keep the agent on track across context compaction or handoffs. When static analysis isn't enough, he has the agent set breakpoints, enable or inject logging probes, or drive the program through computer use or a scriptable emulator.\n\n[Post on Slow Chronicle](https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering)\n\n[HN discussion](https://news.ycombinator.com/item?id=50553225)"
+    },
+    {
+      "id": "hn:50557537",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Zerodha's Blobasaur: distributed, high-performance blob storage on SQLite",
+      "description": "Zerodha built Blobasaur, an open-source sharded blob server in Rust that speaks the Redis protocol and stores data in SQLite, serving thousands of multi-KB-to-MB JSON blob reads and writes per second.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ghostfoxgod",
+      "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+      "createdAt": "2026-11-19T08:39:45Z",
+      "updatedAt": "2026-11-19T08:39:45Z",
+      "content": "Kite, Zerodha's trading platform with about 20 million customers, stores chart layouts, indicator templates and workspace preferences as opaque blobs from a few KB to several MB. After CouchDB and the now-unmaintained SSDB, the team evaluated ScyllaDB, Postgres, YugabyteDB, RocksDB, Ceph, SeaweedFS, S3/MinIO and plain files, then built its own on SQLite. Blobasaur is a single binary with Redis-protocol compatibility (so existing clients keep working), built-in compression, per-key TTLs and multi-node sharding, and keeps single-digit millisecond latency on commodity hardware.\n\n[Zerodha Tech blog post](https://zerodha.tech/blog/high-performance-distributed-blob-storage/)\n\n[Blobasaur on GitHub](https://github.com/iamd3vil/blobasaur)\n\n[HN discussion](https://news.ycombinator.com/item?id=50557537)"
+    },
+    {
+      "id": "hn:50549493",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI: frontier models improved its Jalapeño chip and AMD GPU designs",
+      "description": "OpenAI says model-proposed RTL changes cut standard-cell area about 13% and 10% in its Jalapeño inference chip's vector and matrix units, and found up to 14% PPA gains on AMD's flagship GPU IP.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "vighneshiyer",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "createdAt": "2026-11-18T17:45:47Z",
+      "updatedAt": "2026-11-18T17:45:47Z",
+      "content": "Examples include a multiplier redesign with about 15% less cell area and one fewer cycle of latency. With AMD, the model rewrote SystemVerilog RTL and verified each change with Synopsys tools; some changes went into a design AMD sent for manufacturing, and AMD verified single-digit PPA gains on blocks of an upcoming CPU. OpenAI also benchmarked model generations on boosting throughput of the open PicoRV32 and Ibex RISC-V cores (9,881 scored runs), where GPT-6.2 Astra scored highest, and notes the limits of designing from a spec, which lets models drop features. It is partnering with Synopsys on a GPT-Synopsys model for EDA tools.\n\n[OpenAI post](https://openai.com/index/advancing-chip-design-with-our-models/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50549493)"
+    },
+    {
+      "id": "hn:50554908",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PTP: previous-token prediction for black-box LLM prompt reconstruction",
+      "description": "A paper trains an inverse language model from scratch, using previous-token prediction on data generated by the target LLM, to reconstruct prompts from responses without weights or logits.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "dalmo3",
+      "url": "https://arxiv.org/abs/2607.29378",
+      "createdAt": "2026-11-19T01:27:02Z",
+      "updatedAt": "2026-11-19T01:27:02Z",
+      "content": "Prior LLM inversion work treats prompt recovery as semantic reconstruction, fine-tuning seq2seq models on large external datasets and often needing weights or logits. PTP instead mirrors next-token prediction: the inverse model learns to generate the prompt backwards from the response, trained only on synthetic prompt/response pairs from the target model. Sampling gives diverse candidate prompts that all induce similar responses; the authors report it beats prior methods on token-level metrics and transfers to responses from other LLMs. Relevant to anyone assuming system prompts stay hidden.\n\n[Paper on arXiv](https://arxiv.org/abs/2607.29378)\n\n[HN discussion](https://news.ycombinator.com/item?id=50554908)"
+    },
+    {
+      "id": "hn:50552140",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: springrep, an exact B-rep CAD kernel in safe Rust, plus a 3,487-case conformance suite",
+      "description": "Springcraft open-sourced springrep, a dependency-free B-rep CAD kernel in safe Rust that compiles to WebAssembly, along with brep-conformance, a kernel-agnostic test suite for CAD modeling operations.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "atomarch",
+      "url": "https://springcraft-ai.github.io/springrep/",
+      "createdAt": "2026-11-18T21:08:47Z",
+      "updatedAt": "2026-11-18T21:08:47Z",
+      "content": "Built for robot-part CAD, springrep handles booleans, fillets, chamfers, sweeps, lofts, shells, offsets, STEP and exact measurements on analytic and NURBS surfaces, accurate to 1e-7 mm, and returns an error instead of an invalid solid. The MIT-licensed brep-conformance suite takes expected answers from closed forms and exact geometry; the author says it caught hundreds of bugs his own tests missed, and it can be run against other open-source kernels. He credits Claude Code with making the project feasible.\n\n[springrep site](https://springcraft-ai.github.io/springrep/)\n\n[springrep on GitHub](https://github.com/springcraft-ai/springrep)\n\n[brep-conformance suite](https://springcraft-ai.github.io/brep-conformance/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50552140)"
+    },
+    {
+      "id": "x:2123133742063706343",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Inferact plans an autonomous inference system built around vLLM",
+      "description": "vLLM co-creator Simon Mo explains that Inferact is building a system that tunes vLLM for new models, chips and workloads on its own, while vLLM stays open and engine improvements go back upstream.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Simon Mo (@simon_mo_)",
+      "url": "https://x.com/simon_mo_/status/2123133742063706343",
+      "createdAt": "2026-11-18T19:18:24Z",
+      "updatedAt": "2026-11-18T19:18:24Z",
+      "content": "In an X article, \"Building an Autonomous Inference System\", Mo argues that the model × hardware × workload space (5,000+ models, 1,000+ chip architectures) can't be tuned by hand. The planned system watches workloads it is authorized to see, adapts to new architectures and hardware, and runs \"hillclimb\" rounds where agents write or fuse kernels for unsupported ops and test candidates against each workload's targets. He says vLLM stays open-source and every engine optimization flows back to the community project.\n\n[Post on X](https://x.com/simon_mo_/status/2123133742063706343)"
+    },
+    {
+      "id": "x:2123330783465390270",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Natalia Panferova compares SwiftUI's scroll-driven effect APIs",
+      "description": "A Nil Coalescing guide to when to use scrollTransition(), visualEffect(), onScrollGeometryChange() and onScrollVisibilityChange() for effects tied to scroll position in SwiftUI.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Natalia Panferova (@natpanferova)",
+      "url": "https://x.com/natpanferova/status/2123330783465390270",
+      "createdAt": "2026-11-19T08:21:23Z",
+      "updatedAt": "2026-11-19T08:21:23Z",
+      "content": "`scrollTransition()` and `visualEffect()` change only the view they're attached to and don't affect layout, which makes them cheap for fades, scales and rotations as views enter and leave the visible region. `onScrollGeometryChange()` and `onScrollVisibilityChange()` update state, so they can drive any part of the interface but add work every time their values change. The post shows examples of each and how to choose between them.\n\n[Article on Nil Coalescing](https://nilcoalescing.com/blog/ScrollDrivenEffectsInSwiftUI/)\n\n[Post on X](https://x.com/natpanferova/status/2123330783465390270)"
+    },
+    {
+      "id": "x:2123275572453294150",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "agenterm: an open-source macOS workspace for running coding agents side by side",
+      "description": "agenterm is a free, MIT-licensed macOS app that groups Claude Code, Codex, Gemini and other agent CLI sessions by project, with one git worktree per agent and notifications when an agent needs you.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Jonathan Contreras (@elionaz)",
+      "url": "https://x.com/elionaz/status/2123275572453294150",
+      "createdAt": "2026-11-19T04:41:59Z",
+      "updatedAt": "2026-11-19T04:41:59Z",
+      "content": "Each project is a folder and each session a terminal running an agent or shell, labeled with its model and branch, with split panes saved per project. Sessions survive closing the app, and approvals, questions, finished turns and errors raise native macOS notifications, a Dock badge and sidebar markers via agent hooks or plain terminal signals.\n\n[agenterm website](https://www.elionaz.com/agenterm/)\n\n[Post on X](https://x.com/elionaz/status/2123275572453294150)"
+    },
+    {
+      "id": "x:2123098924063875203",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "WHOOP becomes Formula 1's official wearable, with WHOOP Live coming in 2027",
+      "description": "WHOOP announced a multi-year deal as Formula 1's Official Health & Fitness Wearable; selected driver data will appear in F1 broadcasts through WHOOP Live starting in 2027.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "WHOOP (@WHOOP)",
+      "url": "https://x.com/WHOOP/status/2123098924063875203",
+      "createdAt": "2026-11-18T17:00:03Z",
+      "updatedAt": "2026-11-18T17:00:03Z",
+      "content": "WHOOP's pitch: an F1 car carries thousands of sensors, and the team behind it will wear WHOOP. According to F1 coverage of the deal, selected physiological data on how racing affects drivers' bodies and minds will be integrated into broadcasts, alongside new storytelling with the sport. The rollout, branded WHOOP Live, is slated for 2027.\n\n[Post on X](https://x.com/WHOOP/status/2123098924063875203)"
+    },
+    {
+      "id": "x:2123132624415740274",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Camper: an indie mobile Bandcamp client built on Bandcamp's Subsonic API",
+      "description": "Iheanyi Ekechukwu released Camper for iOS and Android, a Bandcamp app for streaming and offline listening to your collection, discovery via Bandcamp Radio and Daily, wishlists and purchases.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Iheanyi Ekechukwu (@kwuchu)",
+      "url": "https://x.com/kwuchu/status/2123132624415740274",
+      "createdAt": "2026-11-18T19:13:58Z",
+      "updatedAt": "2026-11-18T19:13:58Z",
+      "content": "Frustrated with Bandcamp's official app after more than a decade of buying music there, he built Camper on top of Bandcamp's Subsonic API. Besides online and offline playback of your collection, search and wishlisting, it adds Last.fm scrobbling and reminders for Bandcamp Fridays and Listening Parties. The announcement is an X article with App Store and Google Play links.\n\n[Post on X](https://x.com/kwuchu/status/2123132624415740274)"
+    },
+    {
+      "id": "reading:abakcus-albert-chamillard-geometric-drawings",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Albert Chamillard: geometric pen drawings on old ledgers",
+      "description": "An Abakcus gallery of a Tucson artist's isometric cubes, cylinders and ribbons drawn on vintage ledger paper using only three hatching densities from one pen, with an interactive three-tone cube.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/albert-chamillard-geometric-drawings",
+      "createdAt": "2026-11-19T00:00:00Z",
+      "updatedAt": "2026-11-19T00:00:00Z",
+      "content": "Chamillard fills thrift-store accounting ledgers with solids built from thousands of short slanted strokes: a herringbone for light, a crossed diamond lattice for mid-tone and nearly closed diamonds for dark, each row sitting on the ledger's printed lines. Because an isometric cube shows exactly three face orientations, three tones are enough to make shapes read as solid with no outlines, and some cubes flip inside out like the Penrose triangle. The article ties the technique to Dürer's shaded polyhedron in Melencolia I and includes a demo where you move the light and watch the tones swap.\n\n[Article on Abakcus](https://abakcus.com/articles/albert-chamillard-geometric-drawings)"
     }
   ]
 }
