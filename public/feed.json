@@ -49867,5 +49867,173 @@
       "updatedAt": "2026-11-19T00:00:00Z",
       "content": "Chamillard fills thrift-store accounting ledgers with solids built from thousands of short slanted strokes: a herringbone for light, a crossed diamond lattice for mid-tone and nearly closed diamonds for dark, each row sitting on the ledger's printed lines. Because an isometric cube shows exactly three face orientations, three tones are enough to make shapes read as solid with no outlines, and some cubes flip inside out like the Penrose triangle. The article ties the technique to Dürer's shaded polyhedron in Melencolia I and includes a demo where you move the light and watch the tones swap.\n\n[Article on Abakcus](https://abakcus.com/articles/albert-chamillard-geometric-drawings)"
     }
+,
+    {
+      "id": "hn:50548021",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Seven new models at scalable price-performance",
+      "description": "Microsoft announced seven new AI models at Ignite 2026, positioned around scalable price-performance.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gmays",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "createdAt": "2026-11-18T16:08:24Z",
+      "updatedAt": "2026-11-18T16:08:24Z"
+    },
+    {
+      "id": "hn:50547777",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "description": "In an audit trial, AI agents reportedly asked better questions than KPMG accountants.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Betelbuddy",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "createdAt": "2026-11-18T15:49:34Z",
+      "updatedAt": "2026-11-18T15:49:34Z"
+    },
+    {
+      "id": "hn:50553843",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic prices initial public offering",
+      "description": "Anthropic has priced its initial public offering.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "surprisetalk",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "createdAt": "2026-11-18T23:30:09Z",
+      "updatedAt": "2026-11-18T23:30:09Z"
+    },
+    {
+      "id": "hn:50550415",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Genie 4 is now available",
+      "description": "Google DeepMind's Genie 4 world model is now available.",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "source": "Hacker News",
+      "author": "leumon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "createdAt": "2026-11-18T18:49:51Z",
+      "updatedAt": "2026-11-18T18:49:51Z"
+    },
+    {
+      "id": "hn:50547980",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+      "description": "ExitPath is an open-source tool for migrating data out of Slack, Notion, and Microsoft 365.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "zerocool0101",
+      "url": "https://exitpath-ruddy.vercel.app/",
+      "createdAt": "2026-11-18T16:04:43Z",
+      "updatedAt": "2026-11-18T16:04:43Z"
+    },
+    {
+      "id": "hn:50548161",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+      "description": "An interactive teardown of Voyager 1, down to a single memory chip.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "raj-shekhar",
+      "url": "https://rshekhar.com/voyager/",
+      "createdAt": "2026-11-18T16:18:51Z",
+      "updatedAt": "2026-11-18T16:18:51Z"
+    },
+    {
+      "id": "hn:50558533",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How the European Commission rolled out Matrix to more than 40k staff",
+      "description": "The European Commission rolled out Matrix messaging to more than 40,000 staff.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "liotier",
+      "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+      "createdAt": "2026-11-19T10:58:29Z",
+      "updatedAt": "2026-11-19T10:58:29Z"
+    },
+    {
+      "id": "hn:50525260",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dumping an AES key from a MyQ garage opener to stop rebooting when offline",
+      "description": "A teardown of a MyQ garage opener extracts its AES key to stop the device rebooting when offline.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "kusha",
+      "url": "https://kusha.me/blog/stop_myq_homebridge_819lmb_rebooting/",
+      "createdAt": "2026-11-16T23:47:26Z",
+      "updatedAt": "2026-11-16T23:47:26Z"
+    },
+    {
+      "id": "hn:50557870",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What's New in PHP 8.6",
+      "description": "PHP 8.6 is out, with the release notes covering what's new in the release.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "netol",
+      "url": "https://www.php.net/releases/8.6/en.php",
+      "createdAt": "2026-11-19T09:27:15Z",
+      "updatedAt": "2026-11-19T09:27:15Z"
+    },
+    {
+      "id": "hn:50523377",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Open-source, real-time object tracking for live video feeds",
+      "description": "An open-source system for real-time object tracking on live video feeds.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "aryaman_darda",
+      "url": "https://github.com/aryamandarda/tamserve",
+      "createdAt": "2026-11-16T21:14:39Z",
+      "updatedAt": "2026-11-16T21:14:39Z"
+    }
   ]
 }
