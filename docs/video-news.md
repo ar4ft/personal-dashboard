@@ -58,6 +58,9 @@ Policy: **one video per new news story**, kept 60 days, pinned videos forever.
 - Retention: when a video is older than 60 days and not pinned, its manifest entry, poster and captions are deleted. Day
   branches older than 61 days are deleted as whole refs (no history rewrite; GitHub reclaims the space), but first every
   pinned video on them is copied to a `pinned-N` branch and its `src` switched to the new commit.
+- Index: the media repo's `main` README is generated from `public/videos.json` (grouped by day, newest first, with
+  branch file link, jsDelivr link, story link, date and pinned flag). Every `--host jsdelivr` run regenerates it and
+  pushes one commit only when it changed; an index failure never fails the run.
 - Code: `video/host_jsdelivr.py` (`Host`), used by `make.py --host jsdelivr`. The media clone is
   `/workspace/dashboard/videos-repo`; pushes use the gh credential helper (no tokens in either repo).
 - Videos from before external hosting were moved with `make.py --host jsdelivr --migrate` (uploads every local MP4 still

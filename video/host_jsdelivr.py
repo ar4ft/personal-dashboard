@@ -141,3 +141,71 @@ def warm(url: str, timeout=60) -> None:
             pass
         if r.status != 200 or not ctype.startswith("video/mp4"):
             raise RuntimeError(f"jsDelivr warm failed: {r.status} {ctype} {url}")
+
+
+README_HEAD = """# dashboard-videos
+
+Video News MP4s (720×1280, H.264/AAC) for [ar4ft/personal-dashboard](https://github.com/ar4ft/personal-dashboard)
+([Video News page](https://ar4ft.github.io/personal-dashboard/videos/)). **This README is generated** by
+`video/make.py --host jsdelivr` from the dashboard's `public/videos.json`; do not edit by hand.
+
+## Where the videos are
+
+The `main` branch only holds this index. The MP4s live on other branches:
+
+- `v-YYYYMMDD-N`: orphan **day branches** with the videos made that day. A new `-N` starts whenever a branch would
+  pass ~40 MB (jsDelivr's whole-branch fallback limit is 50 MB).
+- `pinned-N`: videos marked *keep forever*, copied out of a day branch before it expires.
+- Each video is served by jsDelivr from the exact commit that added it
+  (`https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@<commit>/<file>.mp4`), so links never change.
+- Retention: videos are kept **60 days**; then the whole day branch is deleted (pinned videos are kept forever).
+
+Use the branch picker above, or the **File** links below.
+"""
+
+
+def _cell(text: str) -> str:
+    return re.sub(r"\s+", " ", str(text or "")).replace("|", "\\|").replace("[", "\\[").replace("]", "\\]").strip()
+
+
+def build_readme(host: "Host", videos: list[dict]) -> str:
+    rows: dict[str, list[str]] = {}
+    hosted = [v for v in videos if URL_RE.match(v.get("src") or "")]
+    for v in sorted(hosted, key=lambda v: v.get("createdAt", ""), reverse=True):
+        m = URL_RE.match(v["src"])
+        name = m.group(3)
+        branch = host.branch_of(v["src"]) or m.group(2)
+        created = datetime.fromisoformat(v["createdAt"].replace("Z", "+00:00")).astimezone()
+        day = created.strftime("%Y-%m-%d")
+        story = v.get("url") or ""
+        story_cell = f"[story]({story})" if story.startswith(("https://", "http://")) else ""
+        rows.setdefault(day, []).append(
+            f"| {_cell(v.get('title'))} | [{name}](https://github.com/{host.repo}/blob/{branch}/{name}) "
+            f"| [jsDelivr]({v['src']}) | {story_cell} | {created.strftime('%Y-%m-%d %H:%M')} "
+            f"| {'📌 yes' if v.get('pinned') else ''} |")
+    out = [README_HEAD, f"\n## Videos ({len(hosted)})\n"]
+    if not hosted:
+        out.append("\n_No videos yet._\n")
+    for day, lines in rows.items():
+        out.append(f"\n### {day} ({len(lines)})\n\n| Title | File | CDN | Story | Created | Pinned |\n|---|---|---|---|---|---|\n")
+        out.append("\n".join(lines) + "\n")
+    return "".join(out)
+
+
+def update_readme(host: "Host", videos: list[dict]) -> str | None:
+    """Commit the generated index to main if it changed. Returns the commit sha, or None when unchanged."""
+    text = build_readme(host, videos)
+    try:
+        current = host.git("show", "refs/remotes/origin/main:README.md")
+    except RuntimeError:
+        current = None
+    if current is not None and current.strip() == text.strip():
+        return None
+    blob = host.git("hash-object", "-w", "--stdin", input=text.encode())
+    try:
+        files = {n: s for n, (s, _) in host.tree("main").items()}
+        new = False
+    except RuntimeError:
+        files, new = {}, True
+    files["README.md"] = blob
+    return host._commit("main", files, new, f"index: {len(videos)} videos")

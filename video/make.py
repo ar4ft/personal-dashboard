@@ -233,6 +233,13 @@ def main():
                     print(f"retention: deleted media branch {b}")
     if not a.ingest_only:
         save_manifest()
+    if host:  # regenerate the media repo's README index (one commit per run, skipped when unchanged)
+        try:
+            from host_jsdelivr import update_readme
+            sha = update_readme(host, manifest["videos"])
+            print(f"media index: {'updated ' + sha[:7] if sha else 'unchanged'}")
+        except Exception as e:  # never fail a run over the index
+            print(f"media index skipped: {type(e).__name__}: {str(e)[:200]}")
 
 
 def issue_pins(owner: str) -> set[str]:
