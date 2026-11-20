@@ -2,6 +2,42 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2123212999607611426",
+      "feedId": "x:2123212999607611426",
+      "title": "openRocode: an open harness that lets multimodal LLMs drive robots like computer use",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://x.com/noahatwhere/status/2123212999607611426",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@beaee41ce96b0f6ead593ce76f5ee5083f122064/x-2123212999607611426.mp4",
+      "poster": "media/videos/x-2123212999607611426.jpg",
+      "captions": "media/videos/x-2123212999607611426.vtt",
+      "duration": 38.8,
+      "transcript": "openRocode: an open harness Works with Claude, GPT or any OpenAI-compatible model. I built openRocode, the open harness for LLM-driven robots, so LLM can drive robots. A dashboard shows each step with the model's own words, code and pictures, so you can watch and steer a run. One sentence in, the model writes code, the harness runs it as guarded motion and records every step. Watch it in full quality. openRocode is an open agent harness that turns robot control into 3D computer use. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:00:38Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50557537",
+      "feedId": "hn:50557537",
+      "title": "Zerodha's Blobasaur: distributed, high-performance blob storage on SQLite",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@04d1cc63397fc169ff17113a7a259dfd93484a5e/hn-50557537.mp4",
+      "poster": "media/videos/hn-50557537.jpg",
+      "captions": "media/videos/hn-50557537.vtt",
+      "duration": 49.31,
+      "transcript": "Zerodha's Blobasaur: distributed, high-performance blob storage on SQLite Zerodha built Blobasaur, an open-source sharded blob server in Rust that speaks the Redis protocol and stores data in SQLite, serving thousands of multi-KB-to-MB JSON blob reads and writes per second. Kite, Zerodha's trading platform with about 20 million customers, stores chart layouts, indicator templates and workspace preferences as opaque blobs from a few KB to several MB. At 25,324 HSET operations per second, each carrying a 64 KiB payload, Blobasaur processes roughly 1.66 GB/s of uncompressed JSON through zstd. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:00:02Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2123350647273631907",
       "feedId": "x:2123350647273631907",
       "title": "tufazip compresses 1 GB of Wikipedia to 105.39 MB with a pure Transformer predictor",
