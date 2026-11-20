@@ -50822,6 +50822,170 @@
       "createdAt": "2026-11-20T00:00:00Z",
       "updatedAt": "2026-11-20T00:00:00Z",
       "content": "The installation survives as three photographs. The article uses it to explain Euler's formula e^(iθ) = cos θ + i sin θ, published in 1748: raising e to an imaginary power rotates rather than grows, so θ = π lands on −1, linking e, i, π, 1 and 0.\n\n[Article on Abakcus](https://abakcus.com/articles/eulers-identity-garden-fence)"
+    },
+    {
+      "id": "hn:50569890",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PostgreSQL 19",
+      "description": "PostgreSQL 19 is out, with the release notes covering what's new in the latest major version of the open-source database.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "linzhangrun",
+      "url": "https://www.postgresql.org/docs/release/19.0/",
+      "createdAt": "2026-11-20T03:45:45Z",
+      "updatedAt": "2026-11-20T03:45:45Z"
+    },
+    {
+      "id": "hn:50569998",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FFmpeg 9.1 'Gauss'",
+      "description": "FFmpeg 9.1, codenamed 'Gauss', is the latest release of the open-source multimedia framework.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gyan",
+      "url": "https://ffmpeg.org/download.html#release_9.1",
+      "createdAt": "2026-11-20T04:02:39Z",
+      "updatedAt": "2026-11-20T04:02:39Z"
+    },
+    {
+      "id": "hn:50571189",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "\"I can tell you wrote this yourself\"",
+      "description": "A reflection on writing that is recognizably your own, and what makes human-written text stand out.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "BrunoBernardino",
+      "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+      "createdAt": "2026-11-20T07:13:21Z",
+      "updatedAt": "2026-11-20T07:13:21Z"
+    },
+    {
+      "id": "hn:50559719",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+      "description": "A browser-based approach to making 8-page foldable zines from a single A4 sheet of paper.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "krthr",
+      "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+      "createdAt": "2026-11-19T13:18:11Z",
+      "updatedAt": "2026-11-19T13:18:11Z"
+    },
+    {
+      "id": "hn:50538977",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
+      "description": "Weight-Space Programming takes a 1990s-style approach to building neural networks.",
+      "topics": [
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      "source": "Hacker News",
+      "author": "lexandstuff",
+      "url": "https://notesbylex.com/weight-space-programming-1990s",
+      "createdAt": "2026-11-17T22:11:46Z",
+      "updatedAt": "2026-11-17T22:11:46Z"
+    },
+    {
+      "id": "hn:50564366",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "description": "Jacob Coxon and Robin Hanson debate whether governments should slow down frontier AI, in video form.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "sandslash",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "createdAt": "2026-11-19T18:47:16Z",
+      "updatedAt": "2026-11-19T18:47:16Z"
+    },
+    {
+      "id": "hn:50569519",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What Comes After AGI?",
+      "description": "A DeepMind essay on what comes after artificial general intelligence.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jdkee",
+      "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+      "createdAt": "2026-11-20T02:44:13Z",
+      "updatedAt": "2026-11-20T02:44:13Z"
+    },
+    {
+      "id": "hn:50562320",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+      "description": "Onlook (YC W25) is an open-source developer tool for designers, launched on Hacker News.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "D_R_Farrell",
+      "url": "https://github.com/onlook-dev/onlook/",
+      "createdAt": "2026-11-19T16:34:04Z",
+      "updatedAt": "2026-11-19T16:34:04Z"
+    },
+    {
+      "id": "hn:50568861",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vint Cerf on why TCP/IP was never patented",
+      "description": "Vint Cerf explains why TCP/IP was never patented.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "emot",
+      "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+      "createdAt": "2026-11-20T01:06:12Z",
+      "updatedAt": "2026-11-20T01:06:12Z"
+    },
+    {
+      "id": "hn:50573606",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "description": "Apple may be developing its own AI agent that runs on the Mac.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ohmydwn",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "createdAt": "2026-11-20T12:08:32Z",
+      "updatedAt": "2026-11-20T12:08:32Z"
     }
   ]
 }
