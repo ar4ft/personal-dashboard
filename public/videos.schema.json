@@ -19,7 +19,7 @@
           "source": { "type": "string" },
           "topics": { "type": "array", "items": { "type": "string", "maxLength": 80 } },
           "url": { "type": "string", "pattern": "^(https?://|$)" },
-          "src": { "type": "string", "pattern": "^(?:https://.*|(?:[a-zA-Z0-9_-]+/)+[a-zA-Z0-9_.-]+)\\.mp4$" },
+          "src": { "type": "string", "pattern": "^(?:https://cdn\\.jsdelivr\\.net/gh/ar4ft/dashboard-videos@[0-9a-f]{40}/[a-z0-9-]+|(?:[a-zA-Z0-9_-]+/)+[a-zA-Z0-9_.-]+)\\.mp4$", "description": "Local media/videos/<slug>.mp4, or (external hosting) https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@<commit sha>/<slug>.mp4" },
           "poster": { "type": "string" },
           "captions": { "type": "string", "description": "WebVTT captions path" },
           "duration": { "type": "number", "minimum": 0 },

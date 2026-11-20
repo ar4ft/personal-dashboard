@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync, statSync } from 'node:fs';
-import { parseVideoManifest, retainedVideos, itemHref, videoLinksByFeedId, VIDEO_MANIFEST_MAX_BYTES } from '../src/lib/videos.mjs';
+import { VIDEO_CDN_SRC, parseVideoManifest, retainedVideos, itemHref, videoLinksByFeedId, VIDEO_MANIFEST_MAX_BYTES } from '../src/lib/videos.mjs';
 
 const raw = readFileSync(new URL('../public/videos.json', import.meta.url), 'utf8');
 const manifest = JSON.parse(raw);
@@ -13,7 +13,7 @@ test('Video News manifest is valid and small', () => {
   const feed = JSON.parse(readFileSync(new URL('../public/feed.json', import.meta.url), 'utf8'));
   const ids = new Set(feed.items.map(i => i.id));
   for (const v of videos) assert.ok(ids.has(v.feedId) && v.url, `${v.id}: needs a feedId in feed.json and an article url`);
-  for (const v of videos) assert.match(v.src, /^\/personal-dashboard\/media\/videos\/[a-z0-9-]+\.mp4$|^https:\/\//);
+  for (const v of videos) assert.ok(/^\/personal-dashboard\/media\/videos\/[a-z0-9-]+\.mp4$/.test(v.src) || VIDEO_CDN_SRC.test(v.src), `${v.id}: bad src ${v.src}`);
 });
 
 test('Local video files exist and stay under 6 MB', () => {
@@ -30,7 +30,11 @@ test('Local video files exist and stay under 6 MB', () => {
 test('Video manifest rejects unsafe media and links', () => {
   const ok = { id: 'video:a', feedId: 'hn:1', title: 'A', src: 'media/videos/a.mp4' };
   assert.equal(parseVideoManifest({ version: 1, videos: [ok] }, '/')[0].src, '/media/videos/a.mp4');
-  for (const src of ['javascript:alert(1).mp4', '../secret.mp4', 'http://x.com/a.mp4', 'media/videos/a.html'])
+  const cdn = 'https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@' + 'a'.repeat(40) + '/hn-1.mp4';
+  assert.equal(parseVideoManifest({ version: 1, videos: [{ ...ok, src: cdn }] }, '/')[0].src, cdn);
+  for (const src of ['javascript:alert(1).mp4', '../secret.mp4', 'http://x.com/a.mp4', 'media/videos/a.html',
+    'https://evil.example/a.mp4', 'https://cdn.jsdelivr.net/gh/someone/else@' + 'a'.repeat(40) + '/a.mp4',
+    'https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@main/a.mp4'])
     assert.throws(() => parseVideoManifest({ version: 1, videos: [{ ...ok, src }] }));
   assert.equal(parseVideoManifest({ version: 1, videos: [{ ...ok, url: 'javascript:alert(1)' }] })[0].url, '');
   assert.throws(() => parseVideoManifest({ version: 1, videos: [ok, ok] }));

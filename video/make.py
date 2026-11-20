@@ -60,6 +60,12 @@ def main():
     ap.add_argument("--social-dir", default=None, help="also keep 1080x1920 copies here (outside the repo), e.g. /workspace/video-social/2026-11-20")
     ap.add_argument("--ingest-only", action="store_true")
     ap.add_argument("--story-timeout", type=int, default=300, help="seconds per story attempt before giving up on it (0 = none)")
+    ap.add_argument("--host", choices=["local", "jsdelivr"], default="local",
+                    help="local: MP4 in public/media/videos; jsdelivr: MP4 in the media repo, SHA-pinned jsDelivr URL in src")
+    ap.add_argument("--media-repo", default="ar4ft/dashboard-videos")
+    ap.add_argument("--media-clone", default="/workspace/dashboard/videos-repo")
+    ap.add_argument("--media-remote", default=None, help=argparse.SUPPRESS)  # tests: a local bare repo
+    ap.add_argument("--migrate", action="store_true", help="with --host jsdelivr: move existing local MP4s to the media repo")
     ap.add_argument("--refresh", action="store_true", help="re-fetch stories even if cached in --work")
     a = ap.parse_args()
     # Never let child processes (ffmpeg, gh, browsers) consume the caller's stdin: in a
@@ -81,6 +87,22 @@ def main():
                       key=lambda i: i.get("createdAt", ""), reverse=True)
         chosen = news[: a.latest]
     out_dir = Path(a.out); out_dir.mkdir(parents=True, exist_ok=True)
+    host = None
+    if a.host == "jsdelivr" and not a.ingest_only:
+        from host_jsdelivr import Host, warm
+        host = Host(Path(a.media_clone), a.media_repo, a.media_remote)
+
+    def publish(mp4: Path, day: str | None = None) -> str:
+        """Upload to the media repo, warm jsDelivr, drop the local copy. Returns the src URL."""
+        url = host.upload(mp4, day=day)
+        for i in range(3):
+            try:
+                warm(url); break
+            except Exception:
+                if i == 2: raise
+                time.sleep(5)
+        mp4.unlink(missing_ok=True)
+        return url
 
     def save_manifest():
         Path(a.manifest).write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
@@ -118,9 +140,10 @@ def main():
         else:
             info = render(story, script, mp4, poster, size=a.size, music=music)
         prefix = a.public_prefix
+        src = publish(mp4) if host else f"{prefix}{mp4.name}"
         entry = {"id": f"video:{s}", "feedId": item["id"], "title": item["title"], "source": item.get("source"),
                  "topics": item.get("topics", []), "url": item.get("url"),
-                 "src": f"{prefix}{mp4.name}", "poster": f"{prefix}{poster.name}", "captions": f"{prefix}{mp4.with_suffix('.vtt').name}",
+                 "src": src, "poster": f"{prefix}{poster.name}", "captions": f"{prefix}{mp4.with_suffix('.vtt').name}",
                  "duration": info["duration"], "transcript": info["captions"][:1200],
                  "createdAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                  "pinned": f"video:{s}" in pinned_before}
@@ -157,6 +180,20 @@ def main():
                             (out_dir / f"{s}{ext}").unlink(missing_ok=True)
                 else:
                     time.sleep(5)
+    if host and a.migrate:  # move existing local MP4s to the media repo, oldest first, saving after each
+        for v in sorted(manifest["videos"], key=lambda v: v["createdAt"]):
+            src = v.get("src") or ""
+            local = out_dir / Path(src).name
+            if src.startswith("http") or not local.exists():
+                continue
+            try:
+                day = datetime.fromisoformat(v["createdAt"].replace("Z", "+00:00")).astimezone().strftime("%Y%m%d")
+                v["src"] = publish(local, day=day)
+                save_manifest()
+                print(f"migrated {v['id']} -> {v['src']}", flush=True)
+            except Exception as e:
+                failed.append(v["id"])
+                print(f"error migrating {v['id']}: {type(e).__name__}: {str(e)[:200]}", flush=True)
     if failed:
         print(f"failed ({len(failed)}): {' '.join(failed)}", flush=True)
 
@@ -183,6 +220,17 @@ def main():
                     f.unlink()
             print(f"retention: removed {old['id']} (created {old['createdAt']}, not pinned)")
         manifest["videos"] = keep
+        if host:  # media repo: pinned videos leave expiring day branches, then expired branches are deleted
+            expired = set(host.expired_branches(a.retain_days))
+            if expired:
+                for v in keep:
+                    if v.get("pinned") and host.branch_of(v.get("src", "")) in expired:
+                        v["src"] = host.copy_to_pinned(v["src"])
+                        print(f"pinned copy: {v['id']} -> {v['src']}")
+                still_used = {host.branch_of(v.get("src", "")) for v in keep}
+                for b in sorted(expired - still_used):
+                    host.delete_branch(b)
+                    print(f"retention: deleted media branch {b}")
     if not a.ingest_only:
         save_manifest()
 

@@ -2,6 +2,8 @@ import { safeUrl, safeImageUrl } from "./workspace.mjs";
 
 /** Video News manifest (public/videos.json). Separate from the v1 feed so feed backups stay unchanged. */
 export const VIDEO_MANIFEST_MAX_BYTES = 2_000_000;
+/** External MP4 hosting: the media repo served by jsDelivr, pinned to a commit SHA (see docs/video-news.md). */
+export const VIDEO_CDN_SRC = /^https:\/\/cdn\.jsdelivr\.net\/gh\/ar4ft\/dashboard-videos@[0-9a-f]{40}\/[a-z0-9-]+\.mp4$/;
 const MEDIA_PATH = /^(?:https:\/\/.*|(?:[a-zA-Z0-9_-]+\/)+[a-zA-Z0-9_.-]+)$/;
 
 function mediaUrl(value, base, ext) {
@@ -25,6 +27,8 @@ export function parseVideoManifest(data, base = "/") {
     if (typeof v.feedId !== "string" && typeof v.itemId !== "string") throw new Error(`Video ${v.id} needs the feedId of its feed item.`);
     const src = mediaUrl(v.src, base, "mp4");
     if (!src) throw new Error(`Video ${v.id} needs an MP4 src path or https URL.`);
+    if (/^https:/i.test(v.src) && !VIDEO_CDN_SRC.test(v.src))
+      throw new Error(`Video ${v.id}: external src must be a SHA-pinned jsDelivr URL from ar4ft/dashboard-videos.`);
     out.push({
       id: v.id,
       feedId: typeof v.feedId === "string" ? v.feedId : typeof v.itemId === "string" ? v.itemId : "",

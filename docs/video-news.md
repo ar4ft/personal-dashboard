@@ -32,15 +32,41 @@
 - `ticks: true` (optional, legacy) marks videos rendered before 2026-11-20, which still have Stories-style white progress
   ticks painted at y≈22–28. The Video news reader crops the top 32 px only for those (`video.has-ticks` in
   `src/styles/video-news.css`). New renders have no ticks and no flag; re-rendering a legacy video drops the flag.
-- `id` is `video:` plus a lowercase slug; `src` must be an `.mp4` dashboard path or an `https://` URL.
-- Keep each MP4 under 6 MB (H.264 + AAC, `+faststart`). `npm test` checks files exist and sizes.
-- Video media under `media/videos/` is not precached by the service worker; `videos.json` is network-first.
+- `id` is `video:` plus a lowercase slug; `src` must be either a local `media/videos/<slug>.mp4` path or a SHA-pinned
+  jsDelivr URL `https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@<40-hex commit>/<slug>.mp4` (any other https host is
+  rejected by `src/lib/videos.mjs` and the schema). Posters and VTT captions always stay local in `media/videos/`.
+- Keep each MP4 under 6 MB (H.264 + AAC, `+faststart`); jsDelivr's per-file limit is 20 MB. `npm test` checks local files.
+- MP4s are never precached by the service worker: local `media/videos/` is excluded from the precache, and the worker
+  ignores cross-origin requests, so jsDelivr URLs always go to the network. `videos.json` is network-first.
 - Generate entries with `video/make.py` (see `video/README.md`).
+
+## External hosting (live since 2026-11-20)
+
+**External hosting is live.** MP4s are no longer stored in this repo or on the Pages site; they live in the public repo
+[ar4ft/dashboard-videos](https://github.com/ar4ft/dashboard-videos) (not a Pages site) and are served by jsDelivr.
+Policy: **one video per new news story**, kept 60 days, pinned videos forever.
+
+- Why not GitHub Release assets: GitHub serves them as `application/octet-stream` with no CORS, and Chrome blocks them
+  from `ar4ft.github.io` (`ERR_BLOCKED_BY_ORB`). jsDelivr serves `video/mp4`, `Access-Control-Allow-Origin: *`,
+  `Cross-Origin-Resource-Policy: cross-origin`, byte ranges (206) and `immutable` caching for SHA URLs.
+- jsDelivr limits: 20 MB per file from any GitHub ref regardless of repo size; if a single-file fetch fails it falls back
+  to fetching the whole ref, which is limited to 50 MB. So each ref is kept under 40 MB.
+- Layout: `main` (README), orphan **day branches** `v-YYYYMMDD-N` (a new `-N` whenever the next video would push the
+  branch over 40 MB) and `pinned-N` branches. Each upload is one commit built with git plumbing; `src` is pinned to that
+  commit SHA, so URLs never change and jsDelivr caches them as immutable. `make.py` warms each new URL (GET, must be
+  200 `video/mp4`) and then deletes the local MP4.
+- Retention: when a video is older than 60 days and not pinned, its manifest entry, poster and captions are deleted. Day
+  branches older than 61 days are deleted as whole refs (no history rewrite; GitHub reclaims the space), but first every
+  pinned video on them is copied to a `pinned-N` branch and its `src` switched to the new commit.
+- Code: `video/host_jsdelivr.py` (`Host`), used by `make.py --host jsdelivr`. The media clone is
+  `/workspace/dashboard/videos-repo`; pushes use the gh credential helper (no tokens in either repo).
+- Videos from before external hosting were moved with `make.py --host jsdelivr --migrate` (uploads every local MP4 still
+  referenced by `videos.json`, oldest first, saving after each). Run it again any time a local MP4 sneaks in.
 
 ## Retention and keeping videos forever
 
 - Every run keeps each video at least **60 days** after `createdAt` (`video/make.py --retain-days 60`, the default).
-  Older videos are deleted (manifest entry plus MP4, poster and captions) **unless `"pinned": true`**. Re-rendering keeps the original `createdAt`.
+  Older videos are deleted (manifest entry plus poster and captions; the MP4 goes with its expired day branch) **unless `"pinned": true`**. Re-rendering keeps the original `createdAt`.
 - `pinned: true` means keep forever. The manifest in the repo is the only source of truth for retention.
 - Ways to pin:
   1. **Keep forever** on the Video news page opens a prefilled GitHub issue titled `Keep video: <id>` (label `keep-video`).
@@ -63,11 +89,19 @@ News swipe reels also play the matching video inline when one exists, and still 
 
 ```sh
 cd /workspace/dashboard/repo && PY=/workspace/video-venv/bin/python
-$PY -W ignore video/make.py --ids <feed ids…> --ingest-only --work /workspace/video-work
-# write video/scripts/<slug>.json for each fetched story, then:
-$PY -W ignore video/make.py --ids <feed ids…> --scripts video/scripts --work /workspace/video-work \
-    --social-dir /workspace/video-social/$(date +%F) --retain-days 60 --sync-pins --story-timeout 300 < /dev/null
+# one video per new news story: IDS = every news item added this run that has no video yet
+$PY -W ignore video/make.py --ids $IDS --ingest-only --work /workspace/video-work < /dev/null
+# write video/scripts/<slug>.json for each fetched story (skip stories that could not be fetched), then:
+$PY -W ignore video/make.py --ids $IDS --scripts video/scripts --work /workspace/video-work \
+    --social-dir /workspace/video-social/$(date +%F) --host jsdelivr --retain-days 60 --sync-pins \
+    --story-timeout 300 < /dev/null
+git add public/videos.json public/media/videos video/scripts && git commit -m "Video News: …" && git pull --rebase && git push
 ```
+
+- Budget: ingest ~5 s/story; render + upload + warm ~50–75 s/story. For 12–15 new stories allow **30 minutes** for
+  the whole video step (about 15–20 min of rendering plus script writing). Stories without a script get an automatic
+  extractive script, so write scripts first.
+- `--latest N` instead of `--ids` picks the N newest news items without a video.
 
 - Pass all IDs to one invocation. Each story is rendered in its own try/except with one retry, and `public/videos.json`
   is saved after every successful video, so one failure never loses earlier renders. Failures are listed at the end

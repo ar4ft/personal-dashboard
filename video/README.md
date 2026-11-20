@@ -34,7 +34,9 @@ $PY video/make.py --ids hn:50572503 x:2123708574790553715 --scripts video/script
     --social-dir /workspace/video-social/$(date +%F) --sync-pins
 ```
 
-Outputs `public/media/videos/<slug>.mp4|.jpg|.vtt` (720×1280, ~2–3 MB per 30 s) and upserts `public/videos.json`
+Outputs `public/media/videos/<slug>.mp4|.jpg|.vtt` (720×1280, ~2–3 MB per 30 s). With `--host jsdelivr` (the live setup)
+the MP4 is uploaded to ar4ft/dashboard-videos, `src` becomes a SHA-pinned jsDelivr URL and the local MP4 is removed —
+see `docs/video-news.md` › External hosting and upserts `public/videos.json`
 with `feedId` and the article `url`. With `--social-dir`, it renders once at 1080×1920 into that folder (for
 Reels/TikTok/Shorts, kept **out of the repo**) and downscales the site copy from it.
 
