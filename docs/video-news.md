@@ -105,7 +105,9 @@ involved. Agents only add news (and optionally `video/scripts/<slug>.json`); see
   `make.py --ingest-only` → `autoscript.py` (writes scripts only where none exist) →
   `make.py --host jsdelivr --retain-days 60 --sync-pins --story-timeout 300` (also runs with no stories, for retention,
   pins and the media README) → `npm test` → commit `public/videos.json`, `public/media/videos`, `video/scripts` and push
-  with up to 5 `pull --rebase` retries. Timeout 45 min.
+  (if `main` moved meanwhile, `video/merge_manifest.py` re-applies this run's videos onto the latest `main` by id instead
+  of a textual rebase; a story that got a hand-written script on `main` while Actions used an auto script is left for
+  the next run), up to 5 attempts. Push runs wait 60 s first so a follow-up script push lands. Timeout 45 min.
 - **Scripts:** a hand-written `video/scripts/<slug>.json` always wins. Otherwise `video/autoscript.py` builds a
   deterministic, LLM-free extractive script: hook from the title (≤ 10 words) + 3 beats picked from the story text,
   70–90 words, no URLs/emoji/code, `"auto": true`. Stories without enough clean text get no video.

@@ -83,6 +83,9 @@ jobs:
           IN_IDS: ${{ inputs.ids }}
           IN_MAX: ${{ inputs.max }}
         run: |
+          # agents often push the news and then its scripts a few seconds later; let that settle, then use latest main
+          if [ "${{ github.event_name }}" = push ]; then sleep 60; fi
+          git pull -q --ff-only origin main
           ids="$IN_IDS"
           [ -n "$ids" ] || ids=$(python video/pick_ids.py --days 3 --max "${IN_MAX:-20}")
           echo "ids=$ids" >> "$GITHUB_OUTPUT"
@@ -98,16 +101,23 @@ jobs:
           python -W ignore video/make.py --ids ${{ steps.pick.outputs.ids }} --scripts video/scripts --work "$WORK" \
             --host jsdelivr --media-clone /tmp/dashboard-videos --retain-days 60 --sync-pins --story-timeout 300 < /dev/null 2>&1 | tee "/tmp/render.log"
           exit ${PIPESTATUS[0]}
-      - name: Test and commit
+      - name: Test and commit (3-way merge of videos.json if main moved)
         if: success() || failure()
         run: |
-          git add public/videos.json public/media/videos video/scripts
-          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
-          npm test
-          n=$(grep -c '^rendered ' "/tmp/render.log" || true)
-          git commit -q -m "Video News: ${n} new video(s) (Actions)"
+          S=/tmp/ours; rm -rf $S; mkdir -p $S
+          git show HEAD:public/videos.json > $S/base.json
+          cp public/videos.json $S/ours.json
+          cp -r public/media/videos $S/media
+          cp -r video/scripts $S/scripts
           for i in 1 2 3 4 5; do
-            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            git fetch -q origin main && git reset -q --hard origin/main
+            n=$(python video/merge_manifest.py --base $S/base.json --ours $S/ours.json --ours-media $S/media \
+                  --ours-scripts $S/scripts | tee /dev/stderr | tail -1)
+            git add public/videos.json public/media/videos video/scripts
+            if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+            npm test
+            git commit -q -m "Video News: ${n} new video(s) (Actions)"
+            git push -q origin HEAD:main && exit 0
             echo "push attempt $i failed; retrying"; sleep $((i * 10))
           done
           exit 1
