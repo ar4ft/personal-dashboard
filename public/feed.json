@@ -51391,6 +51391,167 @@
       "createdAt": "2026-11-20T16:53:25Z",
       "updatedAt": "2026-11-20T16:53:25Z",
       "content": "The glasses cost from under 100 euros to over 500 euros, but the AP did not name the brands or call for a sales ban. It acknowledged the devices can help people with visual impairments, but said that makes reliability even more important; the report also comes amid privacy worries about covert filming.\n\n[BBC News report](https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o)\n\n[Post on X](https://x.com/bigmic2504/status/2123822032122982822)"
+    },
+    {
+      "id": "hn:50579568",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "description": "Mathematician Alessandro Masullo posted a hurried announcement about the Generalized Riemann Hypothesis, adding another claim to the fast-moving story around the purported proof.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jasondavies",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "createdAt": "2026-11-20T18:33:14Z",
+      "updatedAt": "2026-11-20T18:33:14Z"
+    },
+    {
+      "id": "hn:50572348",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Signal Is Serious About Protecting Your Privacy",
+      "description": "Signal explains how it protects user privacy, from sealed-sender metadata protections to its nonprofit, no-ads funding model.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dotcoma",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "createdAt": "2026-11-20T09:42:16Z",
+      "updatedAt": "2026-11-20T09:42:16Z"
+    },
+    {
+      "id": "hn:50578358",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "description": "Terence Tao writes about an unforced singularity result for the Euler and Navier-Stokes equations and its connection to the Generalized Riemann Hypothesis.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "archon1410",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "createdAt": "2026-11-20T17:21:36Z",
+      "updatedAt": "2026-11-20T17:21:36Z"
+    },
+    {
+      "id": "hn:50579331",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "We promoted developers into architects without informing them",
+      "description": "A developer argues that promoting engineers into architect roles without telling them \u2014 or changing expectations and support \u2014 sets both the person and the team up to fail.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "QueensGambit",
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "createdAt": "2026-11-20T18:17:51Z",
+      "updatedAt": "2026-11-20T18:17:51Z"
+    },
+    {
+      "id": "hn:50581438",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nvidia accounting under SEC investigation, sources say",
+      "description": "Nvidia is reportedly under SEC investigation over its accounting, according to sources cited by Yahoo Finance, as the stock extends a sharp sell-off.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ftchd",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+      "createdAt": "2026-11-20T20:22:41Z",
+      "updatedAt": "2026-11-20T20:22:41Z"
+    },
+    {
+      "id": "hn:50581084",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+      "description": "Scott Aaronson reacts to the claim that the Riemann Hypothesis has been proved with AI assistance, weighing what the purported Lean formalization would and would not establish.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "stratos123",
+      "url": "https://scottaaronson.blog/?p=10344",
+      "createdAt": "2026-11-20T20:03:07Z",
+      "updatedAt": "2026-11-20T20:03:07Z"
+    },
+    {
+      "id": "hn:50560595",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",
+      "description": "Floppy3.5 is a portable 3.5-inch floppy drive turned into a Wi-Fi NAS, letting old disks be read and shared over a network.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "fortran77",
+      "url": "https://github.com/bigcrimping/floppy3.5",
+      "createdAt": "2026-11-19T14:29:49Z",
+      "updatedAt": "2026-11-19T14:29:49Z"
+    },
+    {
+      "id": "hn:50561199",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+      "description": "A Show HN project offers fast, deterministic natural-language search over OpenStreetMap data, turning plain queries like cafes near a lake into map results.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "vihren",
+      "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+      "createdAt": "2026-11-19T15:16:02Z",
+      "updatedAt": "2026-11-19T15:16:02Z"
+    },
+    {
+      "id": "hn:50578117",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PostgreSQL 19: A hands-on tour with runnable browser examples",
+      "description": "A hands-on tour of PostgreSQL 19 with runnable examples in the browser, walking through what's new in the release.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "petrpravda",
+      "url": "https://certuvia.com/blog/postgres-19",
+      "createdAt": "2026-11-20T17:08:56Z",
+      "updatedAt": "2026-11-20T17:08:56Z"
+    },
+    {
+      "id": "hn:50582629",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A few hours ago Google DeepMind created a math horizon repo",
+      "description": "Google DeepMind created a public math-horizon repository, a new benchmark-style resource for mathematical problem solving.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "RubenLtke",
+      "url": "https://github.com/google-deepmind/math-horizon",
+      "createdAt": "2026-11-20T21:42:21Z",
+      "updatedAt": "2026-11-20T21:42:21Z"
     }
   ]
 }
