@@ -66,12 +66,14 @@ cd /workspace/dashboard/repo && PY=/workspace/video-venv/bin/python
 $PY -W ignore video/make.py --ids <feed ids…> --ingest-only --work /workspace/video-work
 # write video/scripts/<slug>.json for each fetched story, then:
 $PY -W ignore video/make.py --ids <feed ids…> --scripts video/scripts --work /workspace/video-work \
-    --social-dir /workspace/video-social/$(date +%F) --retain-days 60 --sync-pins < /dev/null
+    --social-dir /workspace/video-social/$(date +%F) --retain-days 60 --sync-pins --story-timeout 300 < /dev/null
 ```
 
 - Pass all IDs to one invocation. Each story is rendered in its own try/except with one retry, and `public/videos.json`
   is saved after every successful video, so one failure never loses earlier renders. Failures are listed at the end
   (`failed (n): …`) and leave no half-written media.
+- `--story-timeout` (default 300 s) caps each story attempt; a timed-out render kills its ffmpeg encoder and is
+  retried once, then skipped. Typical render is ~45–70 s per story (1080p + 720p copy).
 - TTS (edge-tts) has a per-voice timeout (`VIDEO_TTS_TIMEOUT`, default 60 s) and one retry per segment.
 - `make.py` detaches its children from stdin (and `--sync-pins` calls `gh` with `stdin=DEVNULL`), so it is safe inside
   `while read …` loops; `< /dev/null` is still recommended.

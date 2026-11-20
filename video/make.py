@@ -10,7 +10,7 @@ Retention (every run): videos are kept at least --retain-days (60) by createdAt;
 deleted unless "pinned": true.
 """
 from __future__ import annotations
-import argparse, json, os, re, shutil, subprocess, sys, time
+import argparse, json, os, re, shutil, signal, subprocess, sys, time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -59,6 +59,7 @@ def main():
     ap.add_argument("--owner", default="ar4ft", help="only this GitHub account's issues can pin videos")
     ap.add_argument("--social-dir", default=None, help="also keep 1080x1920 copies here (outside the repo), e.g. /workspace/video-social/2026-11-20")
     ap.add_argument("--ingest-only", action="store_true")
+    ap.add_argument("--story-timeout", type=int, default=300, help="seconds per story attempt before giving up on it (0 = none)")
     ap.add_argument("--refresh", action="store_true", help="re-fetch stories even if cached in --work")
     a = ap.parse_args()
     # Never let child processes (ffmpeg, gh, browsers) consume the caller's stdin: in a
@@ -132,11 +133,19 @@ def main():
         if not a.ingest_only:
             save_manifest()  # incremental: a later failure can't lose this render
 
+    def _timeout(signum, frame):
+        raise TimeoutError(f"story took longer than {a.story_timeout}s")
+    signal.signal(signal.SIGALRM, _timeout)
+
     failed = []
     for item in chosen:
         for attempt in (1, 2):
             try:
-                process(item)
+                signal.alarm(max(0, a.story_timeout))
+                try:
+                    process(item)
+                finally:
+                    signal.alarm(0)
                 break
             except Exception as e:  # keep going: one bad story must not stop the batch
                 print(f"error {item['id']} (attempt {attempt}): {type(e).__name__}: {str(e)[:200]}", flush=True)

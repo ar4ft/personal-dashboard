@@ -297,106 +297,110 @@ def render(story: dict, script: dict, out_mp4: Path, poster: Path, size=720, mus
     title_font = font(int(84 * k), "ExtraBold")
     hook_lines = wrap(script.get("hookText", hook).upper(), title_font, W * 0.86)
 
-    for fi in range(n_frames):
-        t = fi / FPS
-        si = next((i for i, (a, b) in enumerate(seg_bounds) if a <= t < b), len(seg_bounds) - 1)
-        a, b = seg_bounds[si]
-        frame = plates[si].frame((t - a) / max(0.1, b - a))
-        if si > 0 and t - a < fade:  # crossfade + slight punch from previous plate
-            prev = plates[si - 1].frame(1.0)
-            frame = Image.blend(prev, frame, (t - a) / fade)
-        frame = frame.convert("RGBA")
-        frame.alpha_composite(overlay)
-        if si > 0 and plates[si].mode == "scroll":
-            frame.alpha_composite(scrim_rgba)
-        d = ImageDraw.Draw(frame)
+    try:
+        for fi in range(n_frames):
+            t = fi / FPS
+            si = next((i for i, (a, b) in enumerate(seg_bounds) if a <= t < b), len(seg_bounds) - 1)
+            a, b = seg_bounds[si]
+            frame = plates[si].frame((t - a) / max(0.1, b - a))
+            if si > 0 and t - a < fade:  # crossfade + slight punch from previous plate
+                prev = plates[si - 1].frame(1.0)
+                frame = Image.blend(prev, frame, (t - a) / fade)
+            frame = frame.convert("RGBA")
+            frame.alpha_composite(overlay)
+            if si > 0 and plates[si].mode == "scroll":
+                frame.alpha_composite(scrim_rgba)
+            d = ImageDraw.Draw(frame)
 
-        # source/topic badges top-left (no Stories-style progress ticks since 2026-11-20)
-        gx, gy = int(24 * k), int(22 * k)
-        bx = gx
-        for bimg in badges:
-            frame.alpha_composite(bimg, (bx, gy + int(22 * k)))
-            bx += bimg.width + int(10 * k)
+            # source/topic badges top-left (no Stories-style progress ticks since 2026-11-20)
+            gx, gy = int(24 * k), int(22 * k)
+            bx = gx
+            for bimg in badges:
+                frame.alpha_composite(bimg, (bx, gy + int(22 * k)))
+                bx += bimg.width + int(10 * k)
 
-        if si == 0:
-            # HOOK: big title words slam in during the first ~2 s
-            lh = int(88 * k)
-            y0 = int(H * 0.70) - (lh * len(hook_lines)) // 2
-            idx = 0
-            nwords = sum(len(l.split()) for l in hook_lines)
-            for li, line in enumerate(hook_lines):
-                x = (W - title_font.getlength(line)) / 2
-                for w in line.split():
-                    appear = 0.08 + idx * min(0.16, 1.6 / max(1, nwords))
-                    p = (t - appear) / 0.18
-                    if p > 0:
-                        s = ease_out_back(p)
-                        wimg = Image.new("RGBA", (int(title_font.getlength(w)) + 20, lh + 20), (0, 0, 0, 0))
-                        ImageDraw.Draw(wimg).text((10, 6), w, font=title_font, fill=ACCENT if idx == 0 else (255, 255, 255), stroke_width=int(5 * k), stroke_fill=(0, 0, 0))
-                        if abs(s - 1) > 0.01:
-                            wimg = wimg.resize((max(1, int(wimg.width * s)), max(1, int(wimg.height * s))), Image.BILINEAR)
-                        alpha = min(1, p * 2)
-                        if alpha < 1:
-                            wimg.putalpha(wimg.getchannel("A").point(lambda v: int(v * alpha)))
-                        frame.alpha_composite(wimg, (int(x + (title_font.getlength(w) + 20) / 2 - wimg.width / 2 - 10), int(y0 + li * lh + (lh + 20) / 2 - wimg.height / 2)))
-                    x += title_font.getlength(w + " ")
-                    idx += 1
-        else:
-            # stat callout
-            beat = beats[si - 1] if si - 1 < len(beats) else None
-            if beat and beat.get("stat"):
-                p = min(1, (t - a) / 0.35)
-                sfont = font(int(120 * k), "ExtraBold")
-                stat = beat["stat"]
-                m = re.match(r"^([^\d]*)([\d,]*\.?\d+)(.*)$", stat)
-                if m and p < 1:
-                    num = float(m.group(2).replace(",", ""))
-                    dec = len(m.group(2).split(".")[1]) if "." in m.group(2) else 0
-                    val = num * (1 - (1 - p) ** 3)
-                    shown = f"{m.group(1)}{val:,.{dec}f}{m.group(3)}" if "," in m.group(2) else f"{m.group(1)}{val:.{dec}f}{m.group(3)}"
-                else:
-                    shown = stat
-                sw_ = sfont.getlength(shown)
-                sy = int(H * 0.575)
-                d.text(((W - sw_) / 2, sy - int(30 * k) * (1 - p)), shown, font=sfont, fill=ACCENT + (int(255 * p),), stroke_width=int(6 * k), stroke_fill=(0, 0, 0, int(255 * p)))
-                if beat.get("statLabel"):
-                    lf = font(int(30 * k), "Bold")
-                    lbl = beat["statLabel"].upper()
-                    d.text(((W - lf.getlength(lbl)) / 2, sy + int(132 * k)), lbl, font=lf, fill=(255, 255, 255, int(255 * p)), stroke_width=int(3 * k), stroke_fill=(0, 0, 0, int(200 * p)))
-            if si == len(seg_bounds) - 1:
-                # outro card
-                p = min(1, (t - a) / 0.4)
-                cf = font(int(46 * k), "ExtraBold")
-                lines = ["FULL STORY", "ON THE DASHBOARD"]
-                for li, ln in enumerate(lines):
-                    d.text(((W - cf.getlength(ln)) / 2, int(H * 0.66) + li * int(56 * k)), ln, font=cf, fill=(255, 255, 255, int(255 * p)), stroke_width=int(4 * k), stroke_fill=(0, 0, 0, int(255 * p)))
-                if domain:
-                    dp = pill(domain, int(24 * k), (255, 255, 255, int(235 * p)), fg=(20, 20, 20))
-                    frame.alpha_composite(dp, ((W - dp.width) // 2, int(H * 0.66) + int(130 * k)))
+            if si == 0:
+                # HOOK: big title words slam in during the first ~2 s
+                lh = int(88 * k)
+                y0 = int(H * 0.70) - (lh * len(hook_lines)) // 2
+                idx = 0
+                nwords = sum(len(l.split()) for l in hook_lines)
+                for li, line in enumerate(hook_lines):
+                    x = (W - title_font.getlength(line)) / 2
+                    for w in line.split():
+                        appear = 0.08 + idx * min(0.16, 1.6 / max(1, nwords))
+                        p = (t - appear) / 0.18
+                        if p > 0:
+                            s = ease_out_back(p)
+                            wimg = Image.new("RGBA", (int(title_font.getlength(w)) + 20, lh + 20), (0, 0, 0, 0))
+                            ImageDraw.Draw(wimg).text((10, 6), w, font=title_font, fill=ACCENT if idx == 0 else (255, 255, 255), stroke_width=int(5 * k), stroke_fill=(0, 0, 0))
+                            if abs(s - 1) > 0.01:
+                                wimg = wimg.resize((max(1, int(wimg.width * s)), max(1, int(wimg.height * s))), Image.BILINEAR)
+                            alpha = min(1, p * 2)
+                            if alpha < 1:
+                                wimg.putalpha(wimg.getchannel("A").point(lambda v: int(v * alpha)))
+                            frame.alpha_composite(wimg, (int(x + (title_font.getlength(w) + 20) / 2 - wimg.width / 2 - 10), int(y0 + li * lh + (lh + 20) / 2 - wimg.height / 2)))
+                        x += title_font.getlength(w + " ")
+                        idx += 1
+            else:
+                # stat callout
+                beat = beats[si - 1] if si - 1 < len(beats) else None
+                if beat and beat.get("stat"):
+                    p = min(1, (t - a) / 0.35)
+                    sfont = font(int(120 * k), "ExtraBold")
+                    stat = beat["stat"]
+                    m = re.match(r"^([^\d]*)([\d,]*\.?\d+)(.*)$", stat)
+                    if m and p < 1:
+                        num = float(m.group(2).replace(",", ""))
+                        dec = len(m.group(2).split(".")[1]) if "." in m.group(2) else 0
+                        val = num * (1 - (1 - p) ** 3)
+                        shown = f"{m.group(1)}{val:,.{dec}f}{m.group(3)}" if "," in m.group(2) else f"{m.group(1)}{val:.{dec}f}{m.group(3)}"
+                    else:
+                        shown = stat
+                    sw_ = sfont.getlength(shown)
+                    sy = int(H * 0.575)
+                    d.text(((W - sw_) / 2, sy - int(30 * k) * (1 - p)), shown, font=sfont, fill=ACCENT + (int(255 * p),), stroke_width=int(6 * k), stroke_fill=(0, 0, 0, int(255 * p)))
+                    if beat.get("statLabel"):
+                        lf = font(int(30 * k), "Bold")
+                        lbl = beat["statLabel"].upper()
+                        d.text(((W - lf.getlength(lbl)) / 2, sy + int(132 * k)), lbl, font=lf, fill=(255, 255, 255, int(255 * p)), stroke_width=int(3 * k), stroke_fill=(0, 0, 0, int(200 * p)))
+                if si == len(seg_bounds) - 1:
+                    # outro card
+                    p = min(1, (t - a) / 0.4)
+                    cf = font(int(46 * k), "ExtraBold")
+                    lines = ["FULL STORY", "ON THE DASHBOARD"]
+                    for li, ln in enumerate(lines):
+                        d.text(((W - cf.getlength(ln)) / 2, int(H * 0.66) + li * int(56 * k)), ln, font=cf, fill=(255, 255, 255, int(255 * p)), stroke_width=int(4 * k), stroke_fill=(0, 0, 0, int(255 * p)))
+                    if domain:
+                        dp = pill(domain, int(24 * k), (255, 255, 255, int(235 * p)), fg=(20, 20, 20))
+                        frame.alpha_composite(dp, ((W - dp.width) // 2, int(H * 0.66) + int(130 * k)))
 
-        # kinetic captions (skip during hook: the title already carries those words)
-        if si > 0:
-            cur = next((c for c in reversed(chunks) if c[0][0] - 0.05 <= t <= c[-1][1] + 0.25 and c[0][0] >= spans[1][0] - 0.05), None)
-            if cur:
-                active = max([i for i, w in enumerate(cur) if w[0] <= t] or [0])
-                cimg = caption_image(tuple(w[2] for w in cur), active, int(64 * k), int(W * 0.84))
-                p = (t - cur[0][0]) / 0.12
-                if p < 1:
-                    s = 0.85 + 0.15 * ease_out_back(max(0, p))
-                    cimg = cimg.resize((max(1, int(cimg.width * s)), max(1, int(cimg.height * s))), Image.BILINEAR)
-                frame.alpha_composite(cimg, ((W - cimg.width) // 2, int(H * 0.775) - cimg.height // 2))
+            # kinetic captions (skip during hook: the title already carries those words)
+            if si > 0:
+                cur = next((c for c in reversed(chunks) if c[0][0] - 0.05 <= t <= c[-1][1] + 0.25 and c[0][0] >= spans[1][0] - 0.05), None)
+                if cur:
+                    active = max([i for i, w in enumerate(cur) if w[0] <= t] or [0])
+                    cimg = caption_image(tuple(w[2] for w in cur), active, int(64 * k), int(W * 0.84))
+                    p = (t - cur[0][0]) / 0.12
+                    if p < 1:
+                        s = 0.85 + 0.15 * ease_out_back(max(0, p))
+                        cimg = cimg.resize((max(1, int(cimg.width * s)), max(1, int(cimg.height * s))), Image.BILINEAR)
+                    frame.alpha_composite(cimg, ((W - cimg.width) // 2, int(H * 0.775) - cimg.height // 2))
 
-        # handle/credit footer
-        if story.get("credit"):
-            cf2 = font(int(20 * k), "Medium", ui=True)
-            d.text((gx, H - int(44 * k)), story["credit"], font=cf2, fill=(255, 255, 255, 190))
+            # handle/credit footer
+            if story.get("credit"):
+                cf2 = font(int(20 * k), "Medium", ui=True)
+                d.text((gx, H - int(44 * k)), story["credit"], font=cf2, fill=(255, 255, 255, 190))
 
-        rgb = frame.convert("RGB")
-        if not poster_saved and t >= 1.9:
-            rgb.save(poster, quality=82)
-            poster_saved = True
-        enc.stdin.write(rgb.tobytes())
-    enc.stdin.close()
+            rgb = frame.convert("RGB")
+            if not poster_saved and t >= 1.9:
+                rgb.save(poster, quality=82)
+                poster_saved = True
+            enc.stdin.write(rgb.tobytes())
+        enc.stdin.close()
+    except BaseException:  # timeout/interrupt: never leave an orphaned encoder writing files
+        enc.kill(); enc.wait()
+        raise
     if enc.wait() != 0:
         raise RuntimeError("ffmpeg failed")
     out_mp4.with_suffix(".vtt").write_text(vtt(chunks))
