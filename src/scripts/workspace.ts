@@ -20,6 +20,7 @@ import {
   safeImageUrl,
 } from "../lib/workspace.mjs";
 import type { Item, State, Section } from "../lib/workspace.mjs";
+import { parseVideoManifest, videoLinksByFeedId, VIDEO_MANIFEST_MAX_BYTES } from "../lib/videos.mjs";
 const host = document.querySelector<HTMLElement>("#interactive-workspace");
 if (host) initialize(host);
 function initialize(host: HTMLElement) {
@@ -29,6 +30,18 @@ function initialize(host: HTMLElement) {
     base = host.dataset.base!.replace(/\/$/, "") + "/";
   const $ = <T extends HTMLElement = HTMLElement>(selector: string) =>
     host.querySelector<T>(selector)!;
+  // "Watch video" links come from videos.json by feed ID; feed.json stays v1.
+  let videoLinks = new Map<string, string>();
+  const watchLink = (item: Item, cls: string) => {
+    const href = videoLinks.get(item.id);
+    if (!href) return null;
+    const a = document.createElement("a");
+    a.className = cls + " watch-video";
+    a.textContent = "▶ Watch video";
+    a.href = href;
+    a.setAttribute("aria-label", `Watch the video about ${item.title}`);
+    return a;
+  };
   const content = $("#workspace-content");
   // Keep administrative actions reachable without occupying a row above phone stories.
   const phoneLayout = matchMedia("(max-width: 900px)");
@@ -337,6 +350,8 @@ function initialize(host: HTMLElement) {
         link.rel = "noopener noreferrer";
         caption.append(link);
       }
+      const watch = watchLink(item, "post-source");
+      if (watch) caption.append(watch);
       n.append(caption);
     }
     n.append(chips(item));
@@ -872,6 +887,8 @@ function initialize(host: HTMLElement) {
       link.rel = "noopener noreferrer";
       actions.append(link);
     }
+    const watch = watchLink(item, "source-link");
+    if (watch) actions.append(watch);
     actions.append(
       btn("Delete", () => {
         if (confirm(`Delete “${item.title}” from this workspace?`)) {
@@ -1371,6 +1388,38 @@ function initialize(host: HTMLElement) {
     }
   });
   render();
+  if (section !== "planning")
+    void fetch(base + "videos.json", { credentials: "omit", cache: "no-cache" })
+      .then((r) => (r.ok ? r.text() : ""))
+      .then((text) => {
+        if (!text || text.length > VIDEO_MANIFEST_MAX_BYTES) return;
+        videoLinks = videoLinksByFeedId(parseVideoManifest(JSON.parse(text), base), base);
+        if (videoLinks.size) {
+          render();
+          if (currentDetail) renderDetail();
+          decorateReels();
+          const scroller = host.querySelector("#news-swipe-scroller");
+          if (scroller) new MutationObserver(decorateReels).observe(scroller, { childList: true });
+        }
+      })
+      .catch(() => {});
+  // Swipe reels get a "Video" action next to Source when the story has a video.
+  function decorateReels() {
+    host.querySelectorAll<HTMLElement>(".news-reel[data-id]").forEach((reel) => {
+      const actions = reel.querySelector(".reel-actions");
+      const item = find(reel.dataset.id!);
+      if (!actions || !item || actions.querySelector(".reel-video")) return;
+      const link = watchLink(item, "reel-source reel-video");
+      if (!link) return;
+      link.textContent = "▶";
+      const wrap = document.createElement("div");
+      wrap.className = "reel-action";
+      const label = document.createElement("span");
+      label.textContent = "Video";
+      wrap.append(link, label);
+      actions.prepend(wrap);
+    });
+  }
   const deepLink = new URL(location.href).searchParams.get("item");
   const openedInitially = !!(deepLink && find(deepLink));
   if (openedInitially) openDetail(deepLink!);

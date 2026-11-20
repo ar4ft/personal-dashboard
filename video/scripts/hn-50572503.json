@@ -1,0 +1,10 @@
+{
+  "hook": "AI just designed an entire CPU by itself.",
+  "hookText": "AI just designed a whole CPU",
+  "beats": [
+    {"say": "Architect Labs calls it Frostbite: a general-purpose processor with a brand-new instruction set, discovered, designed and verified end to end by their AI systems.", "visual": 1},
+    {"say": "Across 25 workloads, 15 of them held back until the final test, it delivered 4.59 times the performance per watt of a modern, silicon-proven CPU core.", "visual": 2, "stat": "4.59×", "statLabel": "performance per watt"},
+    {"say": "A swarm of agents tried 58 design ideas and kept 37, using a chip simulator that runs 660 times faster than the real hardware model.", "visual": 3, "stat": "58 → 37", "statLabel": "ideas tried → kept"}
+  ],
+  "outro": "Full story on the dashboard."
+}

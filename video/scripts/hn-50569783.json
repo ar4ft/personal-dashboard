@@ -1,0 +1,10 @@
+{
+  "hook": "Change one neuron, and this AI becomes a pirate.",
+  "hookText": "One neuron turns this AI into a pirate",
+  "beats": [
+    {"say": "Fermion Research mapped every neuron in Qwen3 8B. Nudge neuron 7,601 in layer 9, and the model starts talking like a pirate. No prompt, no fine-tuning.", "visual": 1, "stat": "#7,601", "statLabel": "of 442,368 neurons"},
+    {"say": "They estimate about 5,000 real switches like this, roughly one neuron in a hundred, for language, persona and tone.", "visual": 2, "stat": "~5,000", "statLabel": "single-neuron switches"},
+    {"say": "And whenever the model reasons, through maths, code or a plan, the same group of about 140 neurons lights up.", "visual": 3, "stat": "140", "statLabel": "reasoning neurons"}
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video News manifest",
+  "type": "object",
+  "required": ["version", "videos"],
+  "properties": {
+    "version": { "const": 1 },
+    "videos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "feedId", "title", "src"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^video:[a-z0-9-]{1,120}$" },
+          "feedId": { "type": "string", "description": "ID of the feed.json item the video is about, e.g. hn:50572503" },
+          "pinned": { "type": "boolean", "description": "Keep forever: never removed by the 60-day retention step" },
+          "title": { "type": "string", "minLength": 1, "maxLength": 500 },
+          "source": { "type": "string" },
+          "topics": { "type": "array", "items": { "type": "string", "maxLength": 80 } },
+          "url": { "type": "string", "pattern": "^(https?://|$)" },
+          "src": { "type": "string", "pattern": "^(?:https://.*|(?:[a-zA-Z0-9_-]+/)+[a-zA-Z0-9_.-]+)\\.mp4$" },
+          "poster": { "type": "string" },
+          "captions": { "type": "string", "description": "WebVTT captions path" },
+          "duration": { "type": "number", "minimum": 0 },
+          "transcript": { "type": "string", "description": "Narration text, for search and screen readers" },
+          "createdAt": { "type": "string", "format": "date-time" }
+        }
+      }
+    }
+  }
+}

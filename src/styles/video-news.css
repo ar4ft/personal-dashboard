@@ -1,0 +1,27 @@
+.video-news { display: grid; grid-template-rows: auto 1fr; gap: 12px; height: calc(100dvh - 150px); min-height: 480px; }
+.video-news-top { display: flex; align-items: center; gap: 12px; }
+.video-news-top h1 { font-size: 1.6rem; margin: 0; }
+.video-news-top span { opacity: .75; font-variant-numeric: tabular-nums; }
+.video-news-top button { margin-left: auto; }
+.video-news-scroller { height: 100%; overflow-y: auto; scroll-snap-type: y mandatory; overscroll-behavior: contain; border-radius: 18px; background: #0d1d21; max-width: min(100%, calc((100dvh - 190px) * 9 / 16)); width: 100%; margin: 0 auto; scrollbar-width: none; }
+.video-news-scroller::-webkit-scrollbar { display: none; }
+.video-reel { position: relative; height: 100%; scroll-snap-align: start; scroll-snap-stop: always; display: grid; place-items: center; overflow: hidden; }
+.video-reel-player { width: 100%; height: 100%; object-fit: contain; background: #000; cursor: pointer; }
+.video-reel-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: #ffffff33; }
+.video-reel-progress span { display: block; height: 100%; width: 0; background: #ffd65c; }
+.video-reel-info { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px 14px 12px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; background: linear-gradient(transparent, #000c); color: #fff; pointer-events: none; }
+.video-reel-info a { pointer-events: auto; color: #ffd65c; font-weight: 600; }
+.video-reel-meta { margin: 0; font-size: .75rem; opacity: .85; }
+.video-reel-links { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-top: 4px; pointer-events: auto; }
+.video-reel-links a { font-size: .85rem; }
+.video-reel-keep { margin-left: auto; font-size: .8rem; padding: 4px 10px; border-radius: 999px; border: 1px solid #ffffff55; background: #0006; color: #fff; min-height: 32px; }
+.video-reel-keep:disabled { opacity: 1; border-color: #ffd65c; color: #ffd65c; }
+.video-reel-title { order: 3; flex-basis: 100%; margin: 0; font-size: .85rem; line-height: 1.25; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#video-news-status:empty { display: none; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 760px) {
+  .video-news { height: calc(100dvh - 150px); min-height: 420px; }
+  .video-news-top h1 { font-size: 1.3rem; }
+  .video-news-scroller { max-width: 100%; border-radius: 12px; }
+}
+.watch-video { display: inline-flex; align-items: center; gap: 4px; font-weight: 600; }

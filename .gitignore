@@ -11,3 +11,4 @@ playwright-report/
 
 # Raw 3× design-review frames are generated locally; final sheets are retained.
 design/app-designer/shots/
+__pycache__/
