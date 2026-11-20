@@ -50555,6 +50555,273 @@
       "createdAt": "2026-11-19T17:00:01Z",
       "updatedAt": "2026-11-19T17:00:01Z",
       "content": "It supports Mandarin, Cantonese, English and Japanese, including a mix within one sentence, and runs on any Apple Watch that supports watchOS 26. Recording and transcription stay free after a 7-day trial, and AI organization of recordings is a one-time purchase.\n\n[Hinokoe on the App Store](https://apps.apple.com/us/app/hinokoe-every-word-kept/id6824444380)\n\n[Post on X](https://x.com/hinokoeapp/status/2123461302995894488)"
+    },
+    {
+      "id": "hn:50569226",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenSSL fixes CVE-2026-121481, a CVSS 9.8 buffer overflow in EVP_EncodeBlock()",
+      "description": "A public OpenSSL pull request fixes a buffer overflow in the EVP_EncodeBlock() base64 encoder by rejecting NULL buffers, negative lengths and inputs whose encoded size would not fit in an int.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "JacobHenner",
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "createdAt": "2026-11-20T02:01:09Z",
+      "updatedAt": "2026-11-20T02:01:09Z",
+      "content": "The OpenSSL security team asked for the fix to be made publicly while the formal advisory is still pending. The author shows the bug can be reached from the command line by passing a very large -proxy_pass to openssl s_client (via an env: variable), notes the pattern mirrors CVE-2021-23840, and adds matching guards to EVP_DecodeBlock() and a corrected length check in the HTTP client's base64encode(), with new tests.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50569226)"
+    },
+    {
+      "id": "hn:50572503",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Frostbite: a CPU architecture discovered, designed and verified end-to-end by AI",
+      "description": "Architect Labs says its AI systems co-designed a new general-purpose CPU, ISA, compiler and RTL through to final GDS, built around interaction nets, reaching 4.59x the performance per watt of a dual-issue in-order core on 25 workloads.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "shioyama",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "createdAt": "2026-11-20T10:01:41Z",
+      "updatedAt": "2026-11-20T10:01:41Z",
+      "content": "Frostbite exploits properties of interaction nets (every step is local, every dependency explicit, every value has exactly one owner) to get around the long stagnation in CPU core performance. Fifteen of the 25 benchmark workloads were held out until the final evaluation. The team says the AI autonomously iterated over the compiler, ISA, microarchitecture, RTL, verification and physical design, and surfaced hardware primitives that would have been hard for humans to architect. It follows their earlier Redwood inference-accelerator work.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50572503)"
+    },
+    {
+      "id": "hn:50570628",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jujutsu Primer: a brief introduction to jj for Git users",
+      "description": "Ethan Lowman's guide introduces the Jujutsu (jj) version control system to people who know Git, covering installation, core concepts, automatic rebasing, native undo and stacked-diff workflows.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "renehsz",
+      "url": "https://ethanlowman.com/posts/jj-primer/",
+      "createdAt": "2026-11-20T05:46:01Z",
+      "updatedAt": "2026-11-20T05:46:01Z",
+      "content": "jj can be used side by side with Git in the same repository, so you can try it on an existing repo without abandoning git. The primer argues that its simple primitives (automatic rebase, operation log with undo) compose into workflows that would be too cumbersome in Git, and that keeping VCS bookkeeping out of working memory makes stacked diffs easy.\n\n[Jujutsu on GitHub](https://github.com/jj-vcs/jj)\n\n[HN discussion](https://news.ycombinator.com/item?id=50570628)"
+    },
+    {
+      "id": "hn:50569783",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mapping every neuron in Qwen3-8B: single-neuron switches for language, persona and tone",
+      "description": "Fermion Research pushed each of Qwen3-8B's 442,368 MLP neurons and found a small set that reliably flip one behaviour, such as replying in German, talking like a pirate or a child, validated against random-neuron controls.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "sheepscreek",
+      "url": "https://www.fermionresearch.com/research/mapping-every-neuron-in-qwen3-8b/",
+      "createdAt": "2026-11-20T03:26:51Z",
+      "updatedAt": "2026-11-20T03:26:51Z",
+      "content": "A push adds a constant to one feed-forward intermediate activation (gated projection times up projection) at every token under greedy decoding; Qwen3-32B judges each reply for the behaviour and for fluency. A neuron only counts as a switch if it moves its behaviour by at least 40 points out of 100 across 30 questions and beats 30 random neurons from the same layer pushed equally hard (which move it about 1.4 points on average). Each switch has a sweet spot before the model starts to babble. The map also covers Qwen3.5-4B, Qwen3.5-9B and OLMo-3-7B, and roughly one neuron in a hundred does one clear thing.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50569783)"
+    },
+    {
+      "id": "hn:50571812",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A TPM that BitLocker trusts, on Apple's Virtualization framework",
+      "description": "How the MacVisor VM app gives Windows 11 guests on Apple's Virtualization framework UEFI Secure Boot and a TPM 2.0 that BitLocker seals to, even though the framework exposes no TPM device.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "onzr",
+      "url": "https://scaleninja.com/blog/bitlocker-tpm-virtualization-framework/",
+      "createdAt": "2026-11-20T08:34:37Z",
+      "updatedAt": "2026-11-20T08:34:37Z",
+      "content": "The post walks through measured boot, binding the disk key to PCR 7, and sealing the virtual TPM's state with the Mac's Secure Enclave, so a Windows 11 VM created with MacVisor 27.2.1 or later unlocks BitLocker at each start. It also explains where the approach falls short of a physical TPM.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50571812)"
+    },
+    {
+      "id": "hn:50571449",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Longshore: a 36 GB/s zero-allocation I/O and object storage layer in Rust",
+      "description": "ServiceRadar describes Longshore, about 25,000 lines of Rust that run one io_uring ring per core on a plain thread, take no locks on the data path and allocate only at startup, uploading to S3 at 36.4 GB/s from one thread.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "marvin-hansen",
+      "url": "https://serviceradar.cloud/blog/ring-per-core-io-in-longshore",
+      "createdAt": "2026-11-20T07:48:34Z",
+      "updatedAt": "2026-11-20T07:48:34Z",
+      "content": "The authors argue off-the-shelf cloud storage SDKs leave an order of magnitude of NIC and NVMe throughput unused through blocking DNS, hidden thread pools, per-request heap allocation and extra copies. On a Graviton4 instance with a 300 Gbit/s card, one Longshore thread uploads at 36.4 GB/s (16.7 GB/s with CRC-64/NVME on every body), and plain GETs reach 7.9 GB/s on AMD Zen 5. The same ring-per-core design also covers direct-I/O NVMe chains, a deterministic power-loss disk simulator, registered-ring networking and lock-free mailboxes between cores.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50571449)"
+    },
+    {
+      "id": "hn:50572507",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Our S3 cache is full of holes, and we put them there",
+      "description": "Berserk explains how its query nodes cache S3 data in sparse files, punching holes to reclaim disk space as pieces fall out of use and coordinating reads across processes so workers can read the cache directly.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "borlum",
+      "url": "https://www.bzrk.dev/blog/sparse-files/",
+      "createdAt": "2026-11-20T10:01:59Z",
+      "updatedAt": "2026-11-20T10:01:59Z",
+      "content": "Kresten Krab Thorup starts with how Unix files can look huge while using little disk, then shows how Berserk, a data store for logs, metrics, traces and evals, uses hole punching to evict cached ranges without rewriting files, and how it keeps cache readers and the eviction process from stepping on each other.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50572507)"
+    },
+    {
+      "id": "hn:50566261",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rebuilding my voice assistant pipeline with microWakeWord in Platypush",
+      "description": "Fabio Manganiello swaps openWakeWord for microWakeWord, the engine used by ESPHome and Home Assistant Voice, and reworks speech detection in his self-hosted Platypush voice assistant to cut false triggers with cheap microphones.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "todsacerdoti",
+      "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+      "createdAt": "2026-11-19T20:57:14Z",
+      "updatedAt": "2026-11-19T20:57:14Z",
+      "content": "The new pipeline uses a local assistant.microwakeword plugin for hotword detection, OpenAI or local Vosk for speech-to-text, OpenAI-compatible models for responses and OpenAI or local Piper for text-to-speech. The plugin keeps the same API as the old openwakeword one, uses each model's validated probability cutoff by default, and supports custom microWakeWord models.\n\n[microWakeWord on GitHub](https://github.com/kahrendt/microWakeWord)\n\n[HN discussion](https://news.ycombinator.com/item?id=50566261)"
+    },
+    {
+      "id": "x:2123350647273631907",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "tufazip compresses 1 GB of Wikipedia to 105.39 MB with a pure Transformer predictor",
+      "description": "Tufa Labs' tufazip took second place on Matt Mahoney's Large Text Compression Benchmark and is the best entry that uses a neural network as its sole predictor; everything above it mixes a transformer with hand-built models.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Tufa Labs (@tufalabs)",
+      "url": "https://x.com/tufalabs/status/2123350647273631907",
+      "createdAt": "2026-11-19T09:40:18Z",
+      "updatedAt": "2026-11-19T09:40:18Z",
+      "content": "The total of 105,388,353 bytes for enwik9 includes the decoder and offline weights. A 34M-parameter offline model quantized to 4.33 MB initializes a 12-layer, 163M-parameter Transformer that keeps learning as the file is compressed, and the decoder repeats the same learning so the full weights never need to be sent; arithmetic coding turns its predictions into bits. The catch is compute: compression and decompression each took over a week on two NVIDIA B200 GPUs.\n\n[Write-up by Tufa Labs](https://tufalabs.ai/research/tufazip/)\n\n[Repo on GitHub](https://github.com/Tufalabs/tufazip)\n\n[Large Text Compression Benchmark](https://www.mattmahoney.net/dc/text.html)\n\n[Post on X](https://x.com/tufalabs/status/2123350647273631907)"
+    },
+    {
+      "id": "x:2123735704740225093",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hangar runs Claude Code and Codex in disposable VMs on your Mac",
+      "description": "Hangar is a free, open-source (Apache 2.0) Mac app and CLI that runs AI coding agents inside macOS, Linux or Windows virtual machines, so they can only see a shared folder, reach allowed sites, and be rolled back with one command.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Hangar (@hangar_bot)",
+      "url": "https://x.com/hangar_bot/status/2123735704740225093",
+      "createdAt": "2026-11-20T11:10:23Z",
+      "updatedAt": "2026-11-20T11:10:23Z",
+      "content": "The pitch is running agents with approvals off without exposing your Mac's files, SSH and cloud keys or API tokens: tokens are injected from outside the VM only for the sites you choose, every connection is shown in one window, and snapshots undo anything the agent breaks. It requires Apple silicon and macOS 27 or later and installs with Homebrew.\n\n[Hangar website](https://hangar.bot)\n\n[Repo on GitHub](https://github.com/baseguard/hangar)\n\n[Post on X](https://x.com/hangar_bot/status/2123735704740225093)"
+    },
+    {
+      "id": "x:2123725978036015295",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "mardp: an open-source RDP server for macOS written in Go",
+      "description": "mardp lets you use a Mac from Linux with Remmina or FreeRDP, streaming the desktop as H.264 with sound smoothly enough to watch video, using its own RDP server library written from scratch in Go.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Manos Ragiadakos (@Rm4n0s)",
+      "url": "https://x.com/Rm4n0s/status/2123725978036015295",
+      "createdAt": "2026-11-20T10:31:44Z",
+      "updatedAt": "2026-11-20T10:31:44Z",
+      "content": "Because it speaks standard RDP, the client machine needs nothing special. The project is BSD-licensed, builds its window with Glutter, and ships a step-by-step tutorial plus a section on what it does not protect against on a home network.\n\n[Repo on GitHub](https://github.com/rm4n0s/mardp)\n\n[Post on X](https://x.com/Rm4n0s/status/2123725978036015295)"
+    },
+    {
+      "id": "x:2123569298891538838",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Analyze Anything: evidence-backed static reports for IPA, APK, DMG and installers",
+      "description": "Analyze Anything is an open-source Rust CLI and macOS app that reads an app package, installer or any file without running it and produces a report where every finding cites the file, offset and bytes it came from.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Everett (@everettjf)",
+      "url": "https://x.com/everettjf/status/2123569298891538838",
+      "createdAt": "2026-11-20T00:09:09Z",
+      "updatedAt": "2026-11-20T00:09:09Z",
+      "content": "It works offline and is deterministic (same input, same report). The site shows sample PDF reports for real downloads such as the iSH IPA, the F-Droid APK, a Rectangle DMG and a Notepad++ installer, covering signing certificates, embedded files and flagged findings by severity.\n\n[Analyze Anything website](https://atomsprout.com/analyze-anything/)\n\n[Repo on GitHub](https://github.com/atomsprout/analyze-anything)\n\n[Post on X](https://x.com/everettjf/status/2123569298891538838)"
+    },
+    {
+      "id": "x:2123708574790553715",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Smorza gives every Mac app its own volume slider and output device",
+      "description": "Smorza is a free, open-source menu bar app that adds a per-app volume mixer to macOS, with mute buttons and a separate output device per app, built on Core Audio process taps without any audio driver.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Roko (@rokoodev)",
+      "url": "https://x.com/rokoodev/status/2123708574790553715",
+      "createdAt": "2026-11-20T09:22:35Z",
+      "updatedAt": "2026-11-20T09:22:35Z",
+      "content": "It relies on the process taps introduced in macOS 14.4, so there is no kernel extension or virtual audio device to install. You can send a call to your headphones while music plays on the speakers by picking a device on each app's row. It was previously called Volume Mixer.\n\n[Smorza website](https://smorza.app)\n\n[Repo on GitHub](https://github.com/rokoov/smorza)\n\n[Post on X](https://x.com/rokoodev/status/2123708574790553715)"
+    },
+    {
+      "id": "reading:abakcus-wilson-bentley-snowflake-photographs",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Wilson Bentley: the farmer who photographed 5,000 snowflakes",
+      "description": "An Abakcus gallery of 36 of Wilson Bentley's lantern slides of snow crystals, frost and dew, with the story of the first snowflake photograph in 1885 and why snow crystals have six sides.",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/wilson-bentley-snowflake-photographs",
+      "createdAt": "2026-11-20T00:00:00Z",
+      "updatedAt": "2026-11-20T00:00:00Z",
+      "content": "Bentley, a Vermont farmer, bolted a bellows camera to his mother's microscope and on 15 January 1885 made the first photograph of a single snow crystal, then photographed more than 5,000 over 46 years. He caught flakes on a black tray in an unheated shed, moved them with a splinter and a turkey feather while holding his breath, and scraped the emulsion around each crystal on his negatives by hand so the flakes appear against black.\n\n[Article on Abakcus](https://abakcus.com/articles/wilson-bentley-snowflake-photographs)"
+    },
+    {
+      "id": "reading:abakcus-eulers-identity-garden-fence",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Identität: Euler's identity built on a garden fence",
+      "description": "Abakcus looks at Aldo Tolino's 2016 piece that hangs e^iπ = −1 in wooden letters on a rusty garden fence, and explains why the identity is half a turn around the unit circle.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/eulers-identity-garden-fence",
+      "createdAt": "2026-11-20T00:00:00Z",
+      "updatedAt": "2026-11-20T00:00:00Z",
+      "content": "The installation survives as three photographs. The article uses it to explain Euler's formula e^(iθ) = cos θ + i sin θ, published in 1748: raising e to an imaginary power rotates rather than grows, so θ = π lands on −1, linking e, i, π, 1 and 0.\n\n[Article on Abakcus](https://abakcus.com/articles/eulers-identity-garden-fence)"
     }
   ]
 }
