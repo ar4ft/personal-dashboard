@@ -226,7 +226,7 @@ async function init(root: HTMLElement) {
         el(
           "p",
           "reel-date",
-          `${sourceName} · ${new Date(v.createdAt).toLocaleDateString(undefined, { month: "short", day: "numeric" })}`,
+          `${sourceName} · ${new Date(v.createdAt).toLocaleDateString(undefined, { month: "short", day: "numeric" })} · ${i + 1} / ${videos.length}`,
         ),
         el("h2", "reel-title", v.title),
       );

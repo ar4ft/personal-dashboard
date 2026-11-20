@@ -90,6 +90,11 @@ const fs = require("node:fs");
     "1 / 3",
   );
   const first = page.locator(".news-reel").first();
+  assert.match(
+    await first.locator(".reel-date").innerText(),
+    /1 \/ 3/,
+    "The counter sits in the bottom meta, next to the source and date",
+  );
   assert.equal(await first.locator("video").count(), 1);
   assert.equal(await first.locator(".video-reel-link").count(), 0);
   assert.equal(await first.locator(".reel-topics").count(), 0);

@@ -115,10 +115,21 @@
 }
 #video-news #news-swipe-dialog .reels-topbar {
   background: transparent;
+  justify-content: flex-end;
+  pointer-events: none;
 }
-#video-news #news-swipe-dialog .reels-topbar h2,
-#video-news #news-swipe-dialog .reels-topbar span {
-  text-shadow: 0 1px 4px #000c;
+/* Keep the heading and live counter for assistive tech; show the count in the bottom meta. */
+#video-news #news-swipe-dialog .reels-topbar > div:first-of-type {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  pointer-events: none;
+}
+#video-news #news-swipe-dialog .reader-tools {
+  pointer-events: auto;
 }
 /* Fade only in the reserved bottom strip, not over captions. */
 #video-news #news-swipe-dialog .news-reel::after {
