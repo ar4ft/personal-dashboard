@@ -73,6 +73,7 @@
 #video-news #news-swipe-dialog[hidden],
 #video-news-feed[hidden] { display: none !important; }
 
+/* News swipe reels can still play a story's video under the text overlay. */
 .news-reel .reel-media video,
 .news-reel .reel-inline-video {
   position: absolute;
@@ -85,35 +86,94 @@
   z-index: 1;
   cursor: pointer;
 }
-.news-reel .video-reel-progress {
+
+/* Video News reader: the clip is primary; no gray scrim over burned-in captions. */
+#video-news #news-swipe-dialog,
+#video-news #news-swipe-dialog .news-reel,
+#video-news #news-swipe-dialog .reel-media {
+  background: #000;
+}
+#video-news #news-swipe-dialog .reel-media {
+  z-index: 0;
+}
+#video-news #news-swipe-dialog .reel-media video,
+#video-news #news-swipe-dialog .reel-inline-video {
+  background: #000;
+  object-fit: contain;
+  object-position: center;
+}
+#video-news #news-swipe-dialog .reel-shade,
+#video-news #news-swipe-dialog .reel-backdrop,
+#video-news #news-swipe-dialog .reel-source-clipping,
+#video-news #news-swipe-dialog .reel-topics,
+#video-news #news-swipe-dialog .video-reel-links {
+  display: none;
+}
+#video-news #news-swipe-dialog .reels-topbar {
+  background: transparent;
+}
+#video-news #news-swipe-dialog .reels-topbar h2,
+#video-news #news-swipe-dialog .reels-topbar span {
+  text-shadow: 0 1px 4px #000c;
+}
+/* Thin fade only at the very bottom edge, below the caption block. */
+#video-news #news-swipe-dialog .news-reel::after {
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
+  height: 56px;
+  background: linear-gradient(transparent, #0008);
+  pointer-events: none;
+  z-index: 2;
+}
+#video-news #news-swipe-dialog .reel-body {
+  left: 16px;
+  right: 88px;
+  bottom: 10px;
+  top: auto;
+  max-height: none;
+  overflow: hidden;
   z-index: 3;
+  text-shadow: none;
+}
+#video-news #news-swipe-dialog .reel-date {
+  font-size: 0.6875rem;
+  line-height: 1.3;
+  margin: 0 0 3px;
+  color: #fbfcf5;
+  text-shadow: 0 1px 2px #000, 0 0 8px #000c;
+}
+#video-news #news-swipe-dialog .reel-title {
+  font-size: 0.9375rem;
+  line-height: 1.25;
+  font-weight: 650;
+  letter-spacing: 0;
+  margin: 0;
+  -webkit-line-clamp: 2;
+  color: #fbfcf5;
+  text-shadow: 0 1px 2px #000, 0 0 8px #000c;
+}
+#video-news #news-swipe-dialog .video-reel-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
   height: 3px;
   background: #ffffff33;
   pointer-events: none;
 }
-.news-reel .video-reel-progress span {
+#video-news #news-swipe-dialog .video-reel-progress span {
   display: block;
   height: 100%;
   width: 0;
   background: #ffd65c;
 }
-#news-swipe-dialog .video-reel-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 14px;
-  margin-top: 12px;
-  pointer-events: auto;
-}
-#news-swipe-dialog .video-reel-link {
-  color: #ffd65c;
-  font-weight: 700;
-  font-size: 0.875rem;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+#video-news #news-swipe-dialog .reel-actions {
+  z-index: 3;
+  bottom: 22px;
 }
 .visually-hidden {
   position: absolute !important;

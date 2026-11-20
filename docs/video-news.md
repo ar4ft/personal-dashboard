@@ -52,6 +52,6 @@
 
 The Video news page lists poster cards with a **Full screen** button. Opening full screen, tapping a card, or following a `videos/#<id>` link (including **▶ Watch video** on News) uses the same swipe reader as News and Ideas: one video per screen, swipe up or down, arrow keys, and Esc to close.
 
-In the reader, the current video autoplays muted; tap the video or the sound control to unmute. Only the current video and the next one are preloaded. Swiping away pauses playback. Each reel keeps **Read the story ↗**, **In dashboard**, and **📌 Keep forever**.
+In the reader, the video fills the screen (contained on black) with no gray overlay, so burned-in captions stay readable. A compact title and source sit at the bottom-left; Story, Dashboard, and Keep forever stay on the right. The current video autoplays muted; tap the video or the sound control to unmute. Only the current video and the next one are preloaded. Swiping away pauses playback.
 
 News swipe reels also play the matching video inline when one exists, and still offer **Watch video** to open this reader at that story.

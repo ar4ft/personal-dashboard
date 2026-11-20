@@ -91,15 +91,25 @@ const fs = require("node:fs");
   );
   const first = page.locator(".news-reel").first();
   assert.equal(await first.locator("video").count(), 1);
-  assert.match(
-    await first.locator(".video-reel-link").first().innerText(),
-    /Read the story/,
+  assert.equal(await first.locator(".video-reel-link").count(), 0);
+  assert.equal(await first.locator(".reel-topics").count(), 0);
+  assert.equal(await first.locator(".reel-shade").count(), 0);
+  assert.equal(await first.locator(".reel-source-clipping").count(), 0);
+  assert.equal(
+    await first.locator("a.reel-source").first().getAttribute("href"),
+    "https://example.com/one",
   );
   assert.equal(
-    await first.locator("a.video-reel-link", { hasText: "In dashboard" }).getAttribute("href"),
+    await first.locator("a.reel-dash").getAttribute("href"),
     "/personal-dashboard/news/?item=hn%3Areader-one",
   );
   assert.ok(await first.locator(".reel-keep").isVisible());
+  const titleSize = await first.locator(".reel-title").evaluate((n) =>
+    parseFloat(getComputedStyle(n).fontSize),
+  );
+  assert.ok(titleSize >= 13 && titleSize <= 16, `Title should be ~14–15px, got ${titleSize}`);
+  const videoFit = await first.locator("video").evaluate((n) => getComputedStyle(n).objectFit);
+  assert.equal(videoFit, "contain");
   const preloads = await page.evaluate(() =>
     [...document.querySelectorAll("#news-swipe-scroller video")].map((v) => v.preload),
   );

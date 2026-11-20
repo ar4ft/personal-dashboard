@@ -187,17 +187,10 @@ async function init(root: HTMLElement) {
     const end = Math.min(videos.length, rendered + count);
     for (let i = rendered; i < end; i++) {
       const v = videos[i];
-      const reel = el("article", "news-reel");
+      const reel = el("article", "news-reel video-reel");
       reel.dataset.id = v.id;
       reel.setAttribute("aria-label", `Video ${i + 1}: ${v.title}`);
       const media = el("figure", "reel-media");
-      if (v.poster) {
-        const backdrop = el("img", "reel-backdrop");
-        backdrop.src = v.poster;
-        backdrop.alt = "";
-        backdrop.setAttribute("aria-hidden", "true");
-        media.append(backdrop);
-      }
       const video = el("video", "reel-cover reel-inline-video");
       video.src = v.src;
       if (v.poster) video.poster = v.poster;
@@ -227,32 +220,16 @@ async function init(root: HTMLElement) {
         bar.style.width = `${(video.currentTime / (video.duration || 1)) * 100}%`;
       });
       const sourceName = v.source === "Twitter / X" ? "X" : v.source || "Video";
-      const body = el("div", "reel-body");
-      const topics = el("div", "reel-topics");
-      v.topics.forEach((topic) =>
-        topics.append(el("span", "", `#${topic.replace(/\s+/g, "")}`)),
-      );
-      const stamp = el(
-        "p",
-        "reel-date",
-        `${sourceName} · ${new Date(v.createdAt).toLocaleDateString(undefined, { month: "short", day: "numeric" })}`,
-      );
-      body.append(topics, stamp, el("h2", "reel-title", v.title));
-      const links = el("div", "video-reel-links");
-      if (v.url) {
-        const a = el("a", "video-reel-link", "Read the story ↗");
-        a.href = v.url;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
-        links.append(a);
-      }
       const inDash = itemHref(v.feedId, base);
-      if (inDash) {
-        const d = el("a", "video-reel-link", "In dashboard");
-        d.href = inDash;
-        links.append(d);
-      }
-      body.append(links);
+      const body = el("div", "reel-body");
+      body.append(
+        el(
+          "p",
+          "reel-date",
+          `${sourceName} · ${new Date(v.createdAt).toLocaleDateString(undefined, { month: "short", day: "numeric" })}`,
+        ),
+        el("h2", "reel-title", v.title),
+      );
       if (v.transcript) body.append(el("p", "visually-hidden", v.transcript));
 
       const actions = el("div", "reel-actions");
@@ -285,14 +262,7 @@ async function init(root: HTMLElement) {
       paintKeep(keep, v);
       actions.append(keepWrap);
 
-      reel.append(
-        media,
-        el("div", "reel-shade"),
-        el("span", "reel-source-clipping", sourceName),
-        progress,
-        body,
-        actions,
-      );
+      reel.append(media, progress, body, actions);
       scroller.append(reel);
       players.push(video);
     }
