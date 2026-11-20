@@ -40,6 +40,8 @@
   ignores cross-origin requests, so jsDelivr URLs always go to the network. `videos.json` is network-first.
 - Generate entries with `video/make.py` (see `video/README.md`).
 
+Agents adding news: follow the step-by-step prompt in [`docs/video-agents.md`](video-agents.md).
+
 ## External hosting (live since 2026-11-20)
 
 **External hosting is live.** MP4s are no longer stored in this repo or on the Pages site; they live in the public repo

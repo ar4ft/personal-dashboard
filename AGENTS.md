@@ -15,3 +15,5 @@ Use the branch/PR or main publishing workflow authorized by the owner; respect r
 Validate content with `npm test`. For code changes, also run `npm run check` and `npm run build`, plus relevant browser checks (`npm run test:browser` against a local preview; see README). Static paths must respect Astro's `BASE_URL` because this project deploys under a repository path. Source/media URLs must pass the helpers in `src/lib/workspace.mjs`; render titles and summaries as text. News/Ideas Markdown must pass the safe renderer in `src/lib/markdown.ts`; never insert raw feed HTML or execute scripts/configuration from content.
 
 Keep `public/llms.txt` and its compatibility alias `public/llm.txt` synchronized. If changing the feed format, update the validator, TypeScript declarations, JSON Schema, editor, backups, tests, and agent/content documentation together. Existing browser backups must remain readable when adding optional fields.
+
+Agents that add news should also make one Video News video per new story: follow `docs/video-agents.md`.
