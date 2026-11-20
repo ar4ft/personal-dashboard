@@ -18,7 +18,7 @@ MIN_WORDS, TARGET, MAX_WORDS = 70, 80, 90
 HOOK_MAX = 10
 STOP = set("a an the and or but of to in on for with at by from as is are was were be been it its this that these those "
            "into over than then so via about after before just more most new now how why what who your you we our".split())
-BOILER = re.compile(r"cookie|subscribe|sign up|sign in|log in|newsletter|javascript|click|this file contains|bidirectional|"
+BOILER = re.compile(r"cookie|full quality|subscribe|sign up|sign in|log in|newsletter|javascript|click|this file contains|bidirectional|"
                     r"unicode|all rights reserved|privacy policy|terms of|advertis|share this|follow us|read more|"
                     r"comments?\b|loading|download (the )?app|accept|copyright|©|discussion\b|thread 🧵|\bRT\b|repo on github|"
                     r"post on x\b|website\b|hn discussion|via @|full post|link in|👇", re.I)
@@ -192,6 +192,8 @@ def stat_of(s: str) -> tuple[str, str] | None:
             if cutl and x.lower() in STOP:
                 break
             cutl.append(x)
+        while cutl and cutl[-1].lower() in STOP | {"per", "of", "to", "for", "with", "in", "on", "at", "by", "from"}:
+            cutl.pop()
         lab = cutl
         if lab and all(re.fullmatch(r"[A-Za-z][\w'/-]*", x) for x in lab):
             return tok, " ".join(lab).lower()
