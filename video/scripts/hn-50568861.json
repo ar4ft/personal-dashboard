@@ -1,0 +1,23 @@
+{
+  "hook": "Why the internet's core protocol was never patented.",
+  "hookText": "Why TCP/IP was never patented",
+  "beats": [
+    {
+      "say": "Vint Cerf co-designed TCP/IP with Bob Kahn in the 1970s. Their paper came out in May 1974.",
+      "visual": 1,
+      "stat": "1974",
+      "statLabel": "the TCP paper"
+    },
+    {
+      "say": "Why no patent? They didn't know who their allies would be twenty-five years later, so the only way to guarantee access was to open it up.",
+      "visual": 3
+    },
+    {
+      "say": "Now 83, Cerf left Google after more than twenty years and is helping start Tolero, building software for an internet between planets.",
+      "visual": 4,
+      "stat": "83",
+      "statLabel": "and building an interplanetary internet"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

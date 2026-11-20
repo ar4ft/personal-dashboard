@@ -1,0 +1,21 @@
+{
+  "hook": "A Rust engine claiming 4.5x llama.cpp's speed.",
+  "hookText": "Kinetic: up to 4.5× llama.cpp",
+  "beats": [
+    {
+      "say": "Velocity Research released Kinetic, an open-source Rust engine that runs GGUF models on CPUs and on NVIDIA, AMD and Intel GPUs.",
+      "visual": 0
+    },
+    {
+      "say": "One posted benchmark, on a laptop with a Ryzen 5 6600H and an RTX 3060 with six gigabytes, shows 1,033 tokens per second against llama.cpp's 230.",
+      "visual": 0,
+      "stat": "1,033 vs 230",
+      "statLabel": "tokens per second"
+    },
+    {
+      "say": "The authors promise its speed-ups never change the output. These are the authors' own published numbers.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

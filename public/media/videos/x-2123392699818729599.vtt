@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.706
+Teaching small shopping
+
+00:00:01.517 --> 00:00:02.708
+agents with real
+
+00:00:02.520 --> 00:00:03.510
+purchase data
+
+00:00:04.038 --> 00:00:05.582
+Criteo AI Lab
+
+00:00:05.406 --> 00:00:06.773
+released RecoATLAS
+
+00:00:06.927 --> 00:00:08.106
+an open environment
+
+00:00:08.236 --> 00:00:09.250
+a paper and
+
+00:00:09.097 --> 00:00:10.724
+a RecSys 2026
+
+00:00:10.536 --> 00:00:11.420
+tutorial
+
+00:00:11.597 --> 00:00:12.681
+after six months
+
+00:00:12.493 --> 00:00:13.247
+of work
+
+00:00:13.774 --> 00:00:14.870
+It turns logged
+
+00:00:14.682 --> 00:00:16.049
+bandit feedback from
+
+00:00:15.861 --> 00:00:17.052
+real purchases into
+
+00:00:16.864 --> 00:00:18.196
+tasks for training
+
+00:00:18.008 --> 00:00:19.340
+recommendation agents
+
+00:00:19.399 --> 00:00:20.554
+with reinforcement
+
+00:00:20.366 --> 00:00:20.991
+learning
+
+00:00:21.518 --> 00:00:22.579
+The release covers
+
+00:00:22.391 --> 00:00:23.263
+the design
+
+00:00:23.299 --> 00:00:24.489
+benchmarks and their
+
+00:00:24.301 --> 00:00:25.727
+results training small
+
+00:00:25.928 --> 00:00:27.532
+specialized orchestrators
+
+00:00:27.343 --> 00:00:29.183
+to coordinate recommendations
+
+00:00:29.322 --> 00:00:30.477
+The environment code
+
+00:00:30.289 --> 00:00:31.090
+is open
+
+00:00:31.150 --> 00:00:32.199
+so others can
+
+00:00:32.010 --> 00:00:33.036
+train their own
+
+00:00:33.558 --> 00:00:34.572
+Full story on
+
+00:00:34.383 --> 00:00:35.279
+the dashboard

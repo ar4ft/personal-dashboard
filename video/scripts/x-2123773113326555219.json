@@ -1,0 +1,21 @@
+{
+  "hook": "Where did this Mac app even come from?",
+  "hookText": "Mimoto: where your Mac apps came from",
+  "beats": [
+    {
+      "say": "Mimoto is a free, open-source Mac app, in beta, that groups your apps by source: App Store, Homebrew, website, built by you, or Apple.",
+      "visual": 1
+    },
+    {
+      "say": "It shows who made each app and what it does, and removes apps with their related files, the right way for where they came from.",
+      "visual": 3
+    },
+    {
+      "say": "Homebrew apps go through brew uninstall, so no leftover records. The name is Japanese for identity, or background.",
+      "visual": 2,
+      "stat": "身元",
+      "statLabel": "mimoto: identity"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

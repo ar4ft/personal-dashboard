@@ -1,0 +1,25 @@
+{
+  "hook": "Forty thousand EU staff now chat on Matrix.",
+  "hookText": "The EU Commission moved 40,000 staff to Matrix",
+  "beats": [
+    {
+      "say": "The European Commission went from a Matrix proof of concept in December 2025 to a tool on every Commission laptop by September 2026.",
+      "visual": 1,
+      "stat": "9 months",
+      "statLabel": "pilot to every laptop"
+    },
+    {
+      "say": "Built on Matrix by Element and run by the Commission itself, it now serves more than forty thousand users today.",
+      "visual": 3,
+      "stat": "40,000+",
+      "statLabel": "users"
+    },
+    {
+      "say": "For them, sovereignty meant five things: resilience, vendor diversity, control of data, owning the platform, and leverage in procurement.",
+      "visual": 2,
+      "stat": "5",
+      "statLabel": "dimensions of sovereignty"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

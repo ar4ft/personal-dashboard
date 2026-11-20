@@ -1,0 +1,23 @@
+{
+  "hook": "A 2014 iPhone 6 Plus now boots iOS 15.",
+  "hookText": "iPhone 6 Plus boots iOS 15",
+  "beats": [
+    {
+      "say": "Apple stopped the iPhone 6 Plus at iOS 12. Celestial's open-source n56-patcher already got it running iOS 13.7 and 14.8.",
+      "visual": 1,
+      "stat": "iOS 12",
+      "statLabel": "Apple's last update"
+    },
+    {
+      "say": "Now it reaches iOS 15.8.8, installed on its own separate volumes right next to the original system, so the old iOS stays put.",
+      "visual": 2,
+      "stat": "15.8.8",
+      "statLabel": "now booting"
+    },
+    {
+      "say": "On real hardware, Wi-Fi, audio, camera, Bluetooth, cellular and Health are reported working, on a phone that's twelve years old.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

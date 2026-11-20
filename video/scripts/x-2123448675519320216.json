@@ -1,0 +1,23 @@
+{
+  "hook": "Make AI videos on your own PC, no credits.",
+  "hookText": "Free local AI video, 8 GB VRAM",
+  "beats": [
+    {
+      "say": "FreeVideo is an open-source, Apache 2.0 desktop app for Windows, Mac and Linux that generates AI videos on your own GPU.",
+      "visual": 1
+    },
+    {
+      "say": "It runs MiniMax H3 video generation in as little as eight gigabytes of video memory, with no subscription and no credits.",
+      "visual": 2,
+      "stat": "8 GB",
+      "statLabel": "VRAM minimum"
+    },
+    {
+      "say": "It takes text, image, video and audio inputs, makes videos up to a minute long, and has a built-in timeline editor, plus H3 images up to sixteen megapixels.",
+      "visual": 1,
+      "stat": "1 min",
+      "statLabel": "max video length"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

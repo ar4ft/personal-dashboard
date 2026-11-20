@@ -1,0 +1,21 @@
+{
+  "hook": "Why AI increasingly wants to run on your laptop.",
+  "hookText": "Pete Warden on local AI",
+  "beats": [
+    {
+      "say": "Pete Warden, co-creator of Moonshine Voice and a longtime deep learning engineer, explains why AI wants to run locally rather than in the cloud.",
+      "visual": 1
+    },
+    {
+      "say": "He covers the fast progress of open-weight models, and what it takes to run AI on laptops and in browsers. Apple's M5 Studio can have 256 gigabytes of memory.",
+      "visual": 2,
+      "stat": "256 GB",
+      "statLabel": "M5 Studio memory option"
+    },
+    {
+      "say": "Plus how low-latency speech models could make voice a natural interface, and hardware that could challenge GPUs.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

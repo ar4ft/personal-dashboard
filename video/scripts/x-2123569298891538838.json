@@ -1,0 +1,21 @@
+{
+  "hook": "Know what's inside an app before you run it.",
+  "hookText": "Analyze Anything: proof for every finding",
+  "beats": [
+    {
+      "say": "Analyze Anything is an open-source Rust CLI and macOS app. Give it an IPA, APK, DMG, pkg, Windows installer, or any file.",
+      "visual": 0
+    },
+    {
+      "say": "It only reads, never runs. It unpacks containers layer by layer, relates files to one another, and works offline: same input, same report.",
+      "visual": 1,
+      "stat": "0",
+      "statLabel": "code executed"
+    },
+    {
+      "say": "Every finding cites its evidence: which file, where in it, and what bytes were read. On Notepad plus plus, it verified the installer's signature.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

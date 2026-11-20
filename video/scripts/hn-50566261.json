@@ -1,0 +1,23 @@
+{
+  "hook": "Fewer false wake-ups for a self-hosted voice assistant.",
+  "hookText": "A smarter self-hosted voice assistant",
+  "beats": [
+    {
+      "say": "Fabio Manganiello swapped openWakeWord for microWakeWord, the engine used by ESPHome and Home Assistant Voice, in his Platypush assistant.",
+      "visual": 1
+    },
+    {
+      "say": "openWakeWord's pre-trained models were version 0.1 files from 2023, mostly trained on synthetic speech, and false triggers were high with cheap mics.",
+      "visual": 2,
+      "stat": "2023",
+      "statLabel": "old v0.1 models"
+    },
+    {
+      "say": "Now an adaptive noise floor ignores any frame that isn't at least twice as loud as the tracked background level, roughly six decibels.",
+      "visual": 1,
+      "stat": "~6 dB",
+      "statLabel": "above the noise floor"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,23 @@
+{
+  "hook": "Windows 11 with BitLocker, running on Apple's virtualization.",
+  "hookText": "A TPM BitLocker trusts, on a Mac",
+  "beats": [
+    {
+      "say": "Windows 11 expects Secure Boot and a TPM 2.0, but Apple's Virtualization framework has no TPM device at all, and its firmware logs no boot measurements.",
+      "visual": 1
+    },
+    {
+      "say": "From MacVisor 27.2.1, new Windows 11 VMs get Secure Boot and a TPM 2.0 anyway. BitLocker seals to it and unlocks at each start.",
+      "visual": 3,
+      "stat": "27.2.1",
+      "statLabel": "MacVisor version"
+    },
+    {
+      "say": "To move a VM to another Mac, you export the TPM sealed with a passphrase: 600,000 rounds of PBKDF2, then AES-256.",
+      "visual": 2,
+      "stat": "600,000",
+      "statLabel": "PBKDF2 rounds"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

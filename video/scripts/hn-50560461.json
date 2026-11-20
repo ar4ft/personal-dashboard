@@ -1,0 +1,21 @@
+{
+  "hook": "Why voice AI keeps saying 'you broke up'.",
+  "hookText": "OpenAI still has a WebRTC problem",
+  "beats": [
+    {
+      "say": "Luke Curley, known as kixelated, argues WebRTC is the wrong transport for voice AI, and he says OpenAI's WebRTC experts reached out after his last post.",
+      "visual": 1
+    },
+    {
+      "say": "WebRTC drops late audio to keep calls real-time, but a language model can afford to wait for the missing words.",
+      "visual": 2
+    },
+    {
+      "say": "One second of Opus at 64 kilobits is just 8 kilobytes. Resent over QUIC, that's about six packets instead of fifty.",
+      "visual": 3,
+      "stat": "8 KB",
+      "statLabel": "per second of audio"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

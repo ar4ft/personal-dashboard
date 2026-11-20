@@ -1,0 +1,23 @@
+{
+  "hook": "Claude just solved two open black hole problems.",
+  "hookText": "Claude solved two black hole problems",
+  "beats": [
+    {
+      "say": "Anthropic says Claude completed a calculation physicists set up more than twenty years ago but never solved.",
+      "visual": 1,
+      "stat": "20+ years",
+      "statLabel": "unsolved"
+    },
+    {
+      "say": "It showed the sudden transition linked to black hole formation, a phase transition Hawking and Page described in 1983, persists even where spacetime has no definite shape.",
+      "visual": 3,
+      "stat": "1983",
+      "statLabel": "Hawking–Page transition"
+    },
+    {
+      "say": "Second, it found the exact limit of the simplest version of a technique used to test theories of quantum gravity.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

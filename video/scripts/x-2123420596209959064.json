@@ -1,0 +1,23 @@
+{
+  "hook": "A free, open-source TablePlus alternative, written in Rust.",
+  "hookText": "Tabletist: a free TablePlus alternative",
+  "beats": [
+    {
+      "say": "Tabletist is a free, MIT-licensed database client for PostgreSQL, MySQL and SQLite, on macOS, Linux and Windows.",
+      "visual": 1,
+      "stat": "MIT",
+      "statLabel": "free & open source"
+    },
+    {
+      "say": "It's written in Rust with egui, with no Electron and no web view. The universal Mac download is just thirty-seven megabytes.",
+      "visual": 3,
+      "stat": "37 MB",
+      "statLabel": "universal DMG"
+    },
+    {
+      "say": "It's careful with production: those connections open read-only, edits wait until you save, you can read the exact SQL first, and a save never overwrites a row someone else changed.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

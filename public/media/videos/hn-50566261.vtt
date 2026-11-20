@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.800
+Fewer false wake-ups
+
+00:00:01.612 --> 00:00:02.696
+for a self-hosted
+
+00:00:02.508 --> 00:00:03.510
+voice assistant
+
+00:00:04.038 --> 00:00:05.889
+Fabio Manganiello swapped
+
+00:00:05.713 --> 00:00:07.587
+openWakeWord for microWakeWord
+
+00:00:07.776 --> 00:00:08.802
+the engine used
+
+00:00:08.613 --> 00:00:09.922
+by ESPHome
+
+00:00:09.946 --> 00:00:10.971
+and Home Assistant
+
+00:00:10.783 --> 00:00:11.325
+Voice
+
+00:00:11.432 --> 00:00:12.516
+in his Platypush
+
+00:00:12.328 --> 00:00:13.165
+assistant
+
+00:00:13.702 --> 00:00:15.258
+openWakeWord's pre-trained
+
+00:00:15.070 --> 00:00:17.133
+models were version 0.1
+
+00:00:16.945 --> 00:00:18.737
+files from 2023
+
+00:00:18.997 --> 00:00:20.199
+mostly trained on
+
+00:00:20.011 --> 00:00:21.084
+synthetic speech
+
+00:00:21.249 --> 00:00:22.510
+and false triggers
+
+00:00:22.322 --> 00:00:23.053
+were high with
+
+00:00:22.865 --> 00:00:23.760
+cheap mics
+
+00:00:24.278 --> 00:00:25.362
+Now an adaptive
+
+00:00:25.174 --> 00:00:26.542
+noise floor ignores
+
+00:00:26.389 --> 00:00:27.402
+any frame that
+
+00:00:27.297 --> 00:00:28.039
+isn't at least
+
+00:00:27.851 --> 00:00:29.077
+twice as loud
+
+00:00:28.889 --> 00:00:29.761
+as the tracked
+
+00:00:29.573 --> 00:00:30.575
+background level
+
+00:00:30.705 --> 00:00:32.308
+roughly six decibels
+
+00:00:32.838 --> 00:00:33.852
+Full story on
+
+00:00:33.663 --> 00:00:34.559
+the dashboard

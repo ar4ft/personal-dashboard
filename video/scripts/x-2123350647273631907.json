@@ -1,0 +1,25 @@
+{
+  "hook": "One gigabyte of Wikipedia squeezed into 105 megabytes.",
+  "hookText": "1 GB of Wikipedia → 105 MB",
+  "beats": [
+    {
+      "say": "Tufa Labs' tufazip losslessly compressed one billion bytes of Wikipedia to 105.39 megabytes, including its weights and decoder.",
+      "visual": 1,
+      "stat": "105.39 MB",
+      "statLabel": "from 1 GB, lossless"
+    },
+    {
+      "say": "It took second place on Matt Mahoney's Large Text Compression Benchmark, the best entry using a neural network as its only predictor. Everything above it mixes a transformer with hand-built models.",
+      "visual": 2,
+      "stat": "#2",
+      "statLabel": "20-year-old benchmark"
+    },
+    {
+      "say": "A 163-million-parameter Transformer keeps learning while it compresses, and the decoder repeats that learning, so learned weights never ship.",
+      "visual": 1,
+      "stat": "163M",
+      "statLabel": "parameters"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

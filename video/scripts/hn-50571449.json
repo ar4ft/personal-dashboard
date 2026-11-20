@@ -1,0 +1,23 @@
+{
+  "hook": "One Rust thread uploading 36 gigabytes per second.",
+  "hookText": "Longshore: 36 GB/s from one thread",
+  "beats": [
+    {
+      "say": "ServiceRadar's Longshore is about twenty-five thousand lines of Rust: one io_uring ring per core, no locks on the data path, all allocation at startup.",
+      "visual": 1,
+      "stat": "25,000",
+      "statLabel": "lines of Rust"
+    },
+    {
+      "say": "One thread on a Graviton4 with a 300 gigabit card uploads to S3 at 36.4 gigabytes per second, or 16.7 with a checksum on every body.",
+      "visual": 2,
+      "stat": "36.4 GB/s",
+      "statLabel": "S3 upload, one thread"
+    },
+    {
+      "say": "On a Samsung PCIe 5 drive it writes at 13.1 and reads at 14.9 gigabytes per second, the drive's rated speed.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.059
+PostgreSQL 19 is
+
+00:00:01.871 --> 00:00:02.390
+here
+
+00:00:02.520 --> 00:00:03.416
+and it fixes
+
+00:00:03.227 --> 00:00:04.064
+old pain
+
+00:00:04.590 --> 00:00:05.592
+The new REPACK
+
+00:00:05.404 --> 00:00:06.630
+CONCURRENTLY command
+
+00:00:06.441 --> 00:00:07.691
+reorganizes tables
+
+00:00:07.503 --> 00:00:08.257
+for your current
+
+00:00:08.069 --> 00:00:09.731
+workload without disrupting
+
+00:00:09.543 --> 00:00:10.816
+ongoing operations
+
+00:00:11.017 --> 00:00:11.842
+so no more
+
+00:00:11.654 --> 00:00:12.691
+downtime just to
+
+00:00:12.503 --> 00:00:13.469
+tidy a bloated
+
+00:00:13.281 --> 00:00:13.965
+table
+
+00:00:14.494 --> 00:00:15.449
+A new pg
+
+00:00:15.261 --> 00:00:16.604
+plan advice extension
+
+00:00:16.463 --> 00:00:17.713
+gives better control
+
+00:00:17.525 --> 00:00:18.786
+over plan stability
+
+00:00:19.022 --> 00:00:20.519
+standbys now support
+
+00:00:20.343 --> 00:00:21.899
+read-your-writes consistency
+
+00:00:22.029 --> 00:00:23.126
+and a get-or-create
+
+00:00:22.937 --> 00:00:24.152
+behavior saves a
+
+00:00:23.963 --> 00:00:25.390
+network round trip
+
+00:00:25.910 --> 00:00:26.782
+Also new
+
+00:00:26.842 --> 00:00:28.516
+md5 passwords now
+
+00:00:28.327 --> 00:00:29.388
+trigger a warning
+
+00:00:29.200 --> 00:00:30.178
+ahead of removal
+
+00:00:30.309 --> 00:00:31.735
+and LZ4 builds
+
+00:00:31.547 --> 00:00:33.068
+use lz4 as
+
+00:00:32.879 --> 00:00:33.846
+the default TOAST
+
+00:00:33.658 --> 00:00:34.459
+compression
+
+00:00:34.998 --> 00:00:36.012
+Full story on
+
+00:00:35.823 --> 00:00:36.719
+the dashboard

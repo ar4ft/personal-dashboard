@@ -2,6 +2,767 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2123350647273631907",
+      "feedId": "x:2123350647273631907",
+      "title": "tufazip compresses 1 GB of Wikipedia to 105.39 MB with a pure Transformer predictor",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/tufalabs/status/2123350647273631907",
+      "src": "media/videos/x-2123350647273631907.mp4",
+      "poster": "media/videos/x-2123350647273631907.jpg",
+      "captions": "media/videos/x-2123350647273631907.vtt",
+      "duration": 38.49,
+      "transcript": "One gigabyte of Wikipedia squeezed into 105 megabytes. Tufa Labs' tufazip losslessly compressed one billion bytes of Wikipedia to 105.39 megabytes, including its weights and decoder. It took second place on Matt Mahoney's Large Text Compression Benchmark, the best entry using a neural network as its only predictor. Everything above it mixes a transformer with hand-built models. A 163-million-parameter Transformer keeps learning while it compresses, and the decoder repeats that learning, so learned weights never ship. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:48:21Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123352378552598676",
+      "feedId": "x:2123352378552598676",
+      "title": "n56-patcher boots iOS 15.8.8 on a 2014 iPhone 6 Plus that Apple stopped at iOS 12",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/qwerty__cs/status/2123352378552598676",
+      "src": "media/videos/x-2123352378552598676.mp4",
+      "poster": "media/videos/x-2123352378552598676.jpg",
+      "captions": "media/videos/x-2123352378552598676.vtt",
+      "duration": 37.12,
+      "transcript": "A 2014 iPhone 6 Plus now boots iOS 15. Apple stopped the iPhone 6 Plus at iOS 12. Celestial's open-source n56-patcher already got it running iOS 13.7 and 14.8. Now it reaches iOS 15.8.8, installed on its own separate volumes right next to the original system, so the old iOS stays put. On real hardware, Wi-Fi, audio, camera, Bluetooth, cellular and Health are reported working, on a phone that's twelve years old. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:47:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50558533",
+      "feedId": "hn:50558533",
+      "title": "How the European Commission rolled out Matrix to more than 40k staff",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+      "src": "media/videos/hn-50558533.mp4",
+      "poster": "media/videos/hn-50558533.jpg",
+      "captions": "media/videos/hn-50558533.vtt",
+      "duration": 31.96,
+      "transcript": "Forty thousand EU staff now chat on Matrix. The European Commission went from a Matrix proof of concept in December 2025 to a tool on every Commission laptop by September 2026. Built on Matrix by Element and run by the Commission itself, it now serves more than forty thousand users today. For them, sovereignty meant five things: resilience, vendor diversity, control of data, owning the platform, and leverage in procurement. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:46:41Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50558906",
+      "feedId": "hn:50558906",
+      "title": "Someone reported java4shell bug in September 2026",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://github.com/openjdk/jdk/pull/32781",
+      "src": "media/videos/hn-50558906.mp4",
+      "poster": "media/videos/hn-50558906.jpg",
+      "captions": "media/videos/hn-50558906.vtt",
+      "duration": 40.58,
+      "transcript": "A bug in Java's fastest Base64 decoder. An OpenJDK pull request, number 32781, fixes issue 8392044: the AVX-512 Base64 decoder overwrites its output buffer on a short padded tail. The bug sits in the x86-64 AVX-512 VBMI path of generate base64 decode block, the hand-tuned stub behind fast decoding. Leftover tails of one to sixty-three bytes use a masked vector sequence that computes the output size as length over four, times three. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:45:58Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123392699818729599",
+      "feedId": "x:2123392699818729599",
+      "title": "RecoATLAS: training small shopping-agent orchestrators with RL on bandit feedback",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/flavianv/status/2123392699818729599",
+      "src": "media/videos/x-2123392699818729599.mp4",
+      "poster": "media/videos/x-2123392699818729599.jpg",
+      "captions": "media/videos/x-2123392699818729599.vtt",
+      "duration": 36.31,
+      "transcript": "Teaching small shopping agents with real purchase data. Criteo AI Lab released RecoATLAS: an open environment, a paper, and a RecSys 2026 tutorial, after six months of work. It turns logged bandit feedback from real purchases into tasks for training recommendation agents with reinforcement learning. The release covers the design, benchmarks, and their results training small, specialized orchestrators to coordinate recommendations. The environment code is open, so others can train their own. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:45:04Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50559719",
+      "feedId": "hn:50559719",
+      "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+      "src": "media/videos/hn-50559719.mp4",
+      "poster": "media/videos/hn-50559719.jpg",
+      "captions": "media/videos/hn-50559719.vtt",
+      "duration": 34.24,
+      "transcript": "One sheet of paper, eight pages, zero staples. Fold an A4 sheet in half three times, cut the center crease, fold it into a cross, and you get an eight-page booklet with no glue. fanzines dot app lets you lay out each page right-side up, then places all eight panels on the sheet, top row rotated, as a 300 DPI PDF. Everything stays in your browser. And a safe margin scales the layout to about 95 percent, so home printers don't clip the covers. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:44:17Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123420596209959064",
+      "feedId": "x:2123420596209959064",
+      "title": "Tabletist is a free, open-source TablePlus alternative for Postgres, MySQL and SQLite",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/igor_alexandrov/status/2123420596209959064",
+      "src": "media/videos/x-2123420596209959064.mp4",
+      "poster": "media/videos/x-2123420596209959064.jpg",
+      "captions": "media/videos/x-2123420596209959064.vtt",
+      "duration": 37.1,
+      "transcript": "A free, open-source TablePlus alternative, written in Rust. Tabletist is a free, MIT-licensed database client for PostgreSQL, MySQL and SQLite, on macOS, Linux and Windows. It's written in Rust with egui, with no Electron and no web view. The universal Mac download is just thirty-seven megabytes. It's careful with production: those connections open read-only, edits wait until you save, you can read the exact SQL first, and a save never overwrites a row someone else changed. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:43:28Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123423774649507889",
+      "feedId": "x:2123423774649507889",
+      "title": "Apple Watch gotcha: arm64_32 makes Swift Int 32-bit on older watches",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables",
+        "Programming"
+      ],
+      "url": "https://x.com/pikomofu_app/status/2123423774649507889",
+      "src": "media/videos/x-2123423774649507889.mp4",
+      "poster": "media/videos/x-2123423774649507889.jpg",
+      "captions": "media/videos/x-2123423774649507889.vtt",
+      "duration": 32.2,
+      "transcript": "Your Apple Watch app works in the simulator. Then crashes. An indie developer's Apple Watch app ran fine in the simulator, but wouldn't even build for real watches. The reason: older Apple Watch models use arm64 underscore 32, where Swift's Int is only thirty-two bits. A hash constant simply didn't fit. Worse, twenty-seven spots turned milliseconds into an Int that would crash on launch. The lesson: always build for real hardware. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:42:32Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50561508",
+      "feedId": "hn:50561508",
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://thedataexchange.media/pete-warden-moonshine/",
+      "src": "media/videos/hn-50561508.mp4",
+      "poster": "media/videos/hn-50561508.jpg",
+      "captions": "media/videos/hn-50561508.vtt",
+      "duration": 34.63,
+      "transcript": "Why AI increasingly wants to run on your laptop. Pete Warden, co-creator of Moonshine Voice and a longtime deep learning engineer, explains why AI wants to run locally rather than in the cloud. He covers the fast progress of open-weight models, and what it takes to run AI on laptops and in browsers. Apple's M5 Studio can have 256 gigabytes of memory. Plus how low-latency speech models could make voice a natural interface, and hardware that could challenge GPUs. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:41:40Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50562113",
+      "feedId": "hn:50562113",
+      "title": "UK government forced to admit it issued Apple a secret encryption order",
+      "source": "Hacker News",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+      "src": "media/videos/hn-50562113.mp4",
+      "poster": "media/videos/hn-50562113.jpg",
+      "captions": "media/videos/hn-50562113.vtt",
+      "duration": 35.56,
+      "transcript": "The UK must admit its secret order to Apple. For years the UK would neither confirm nor deny issuing Apple a Technical Capability Notice over encrypted iCloud data. These secret orders come under Section 253 of the Investigatory Powers Act 2016, which let the government require tech companies to change their services, while keeping the order itself secret. Now the Investigatory Powers Tribunal has ruled the government must acknowledge it, after Liberty and Privacy International challenged the secrecy. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:40:53Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123461302995894488",
+      "feedId": "x:2123461302995894488",
+      "title": "Hinokoe: tap your Apple Watch to record your day, transcribed on iPhone with speaker labels",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables",
+        "AI"
+      ],
+      "url": "https://x.com/hinokoeapp/status/2123461302995894488",
+      "src": "media/videos/x-2123461302995894488.mp4",
+      "poster": "media/videos/x-2123461302995894488.jpg",
+      "captions": "media/videos/x-2123461302995894488.vtt",
+      "duration": 34.29,
+      "transcript": "Tap your Apple Watch, and keep every word. Hinokoe, now on the App Store, records conversations from your Apple Watch. Your iPhone transcribes them and labels who said what. Audio is never uploaded to the developer's servers. Your text records back up to your own encrypted iCloud, and you can keep the last thirty days of audio. Recording and transcription stay free after a seven-day trial. AI organizing is a one-time 9.99 dollar unlock. It needs iOS 26. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:39:57Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50563148",
+      "feedId": "hn:50563148",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "src": "media/videos/hn-50563148.mp4",
+      "poster": "media/videos/hn-50563148.jpg",
+      "captions": "media/videos/hn-50563148.vtt",
+      "duration": 31.27,
+      "transcript": "Claude just solved two open black hole problems. Anthropic says Claude completed a calculation physicists set up more than twenty years ago but never solved. It showed the sudden transition linked to black hole formation, a phase transition Hawking and Page described in 1983, persists even where spacetime has no definite shape. Second, it found the exact limit of the simplest version of a technique used to test theories of quantum gravity. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:39:09Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50566261",
+      "feedId": "hn:50566261",
+      "title": "Rebuilding my voice assistant pipeline with microWakeWord in Platypush",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+      "src": "media/videos/hn-50566261.mp4",
+      "poster": "media/videos/hn-50566261.jpg",
+      "captions": "media/videos/hn-50566261.vtt",
+      "duration": 35.59,
+      "transcript": "Fewer false wake-ups for a self-hosted voice assistant. Fabio Manganiello swapped openWakeWord for microWakeWord, the engine used by ESPHome and Home Assistant Voice, in his Platypush assistant. openWakeWord's pre-trained models were version 0.1 files from 2023, mostly trained on synthetic speech, and false triggers were high with cheap mics. Now an adaptive noise floor ignores any frame that isn't at least twice as loud as the tracked background level, roughly six decibels. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:38:22Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-eulers-identity-garden-fence",
+      "feedId": "reading:abakcus-eulers-identity-garden-fence",
+      "title": "Identität: Euler's identity built on a garden fence",
+      "source": "Reading",
+      "topics": [
+        "Math"
+      ],
+      "url": "https://abakcus.com/articles/eulers-identity-garden-fence",
+      "src": "media/videos/reading-abakcus-eulers-identity-garden-fence.mp4",
+      "poster": "media/videos/reading-abakcus-eulers-identity-garden-fence.jpg",
+      "captions": "media/videos/reading-abakcus-eulers-identity-garden-fence.vtt",
+      "duration": 33.95,
+      "transcript": "Math's most admired equation, hung on a garden fence. In 2016, Austrian artist Aldo Tolino cut e to the i pi equals minus one out of wood and hung it on a rusty chain-link fence between two gardens. Euler's identity is usually written e to the i pi plus one equals zero, putting five famous constants in one line. Geometrically, it's half a turn around the unit circle. The piece survives as three photographs, each about 80 by 100 centimetres. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:37:30Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123569298891538838",
+      "feedId": "x:2123569298891538838",
+      "title": "Analyze Anything: evidence-backed static reports for IPA, APK, DMG and installers",
+      "source": "Twitter / X",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/everettjf/status/2123569298891538838",
+      "src": "media/videos/x-2123569298891538838.mp4",
+      "poster": "media/videos/x-2123569298891538838.jpg",
+      "captions": "media/videos/x-2123569298891538838.vtt",
+      "duration": 36.07,
+      "transcript": "Know what's inside an app before you run it. Analyze Anything is an open-source Rust CLI and macOS app. Give it an IPA, APK, DMG, pkg, Windows installer, or any file. It only reads, never runs. It unpacks containers layer by layer, relates files to one another, and works offline: same input, same report. Every finding cites its evidence: which file, where in it, and what bytes were read. On Notepad plus plus, it verified the installer's signature. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:36:37Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50569226",
+      "feedId": "hn:50569226",
+      "title": "OpenSSL fixes CVE-2026-121481, a CVSS 9.8 buffer overflow in EVP_EncodeBlock()",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "src": "media/videos/hn-50569226.mp4",
+      "poster": "media/videos/hn-50569226.jpg",
+      "captions": "media/videos/hn-50569226.vtt",
+      "duration": 39.88,
+      "transcript": "OpenSSL patches a critical base64 buffer overflow. A public OpenSSL pull request fixes CVE-2026-121481, a buffer overflow in the EVP Encode Block base64 encoder, rated 9.8 out of 10. The fix rejects NULL buffers, negative lengths, and inputs whose encoded size would not fit in an int. It adds a similar guard to EVP Decode Block, fixes a bad length check in the HTTP client's base64 encoder, and adds new tests, across branches 4.0 and 4.1. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:35:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50569890",
+      "feedId": "hn:50569890",
+      "title": "PostgreSQL 19",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://www.postgresql.org/docs/release/19.0/",
+      "src": "media/videos/hn-50569890.mp4",
+      "poster": "media/videos/hn-50569890.jpg",
+      "captions": "media/videos/hn-50569890.vtt",
+      "duration": 36.23,
+      "transcript": "Inside the PostgreSQL 19 release notes. The new REPACK command reclaims disk space and reorganizes tables, and its concurrent mode doesn't block reads or writes. Logical replication can now be turned on without a restart, sequence values replicate too, and a new WAIT command enables read-your-writes on standbys. Heads up: max locks per transaction now defaults to 128 instead of 64, and a new 64-bit unsigned oid8 data type arrives, plus more jsonpath string methods. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:34:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123663631136993554",
+      "feedId": "x:2123663631136993554",
+      "title": "SkyRoads runs on the Analogue Pocket via a RISC-V computer inside the FPGA",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://x.com/PixelCNinja/status/2123663631136993554",
+      "src": "media/videos/x-2123663631136993554.mp4",
+      "poster": "media/videos/x-2123663631136993554.jpg",
+      "captions": "media/videos/x-2123663631136993554.vtt",
+      "duration": 34.24,
+      "transcript": "A 1993 DOS game, rebuilt for a RISC-V FPGA. Bertrand Fan released an openFPGA core that plays the 1993 game SkyRoads on the Analogue Pocket. It isn't an emulator. The FPGA hosts a small RISC-V system running the game's decompiled C code. The listing says the game is freeware. Version 0.2.2 fixes music voices that went missing because sound-chip register writes were spaced too closely at the Pocket's 49 megahertz clock. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:33:45Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50571189",
+      "feedId": "hn:50571189",
+      "title": "\"I can tell you wrote this yourself\"",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+      "src": "media/videos/hn-50571189.mp4",
+      "poster": "media/videos/hn-50571189.jpg",
+      "captions": "media/videos/hn-50571189.vtt",
+      "duration": 33.02,
+      "transcript": "'I can tell you wrote this yourself.' That's what an honours student's project supervisor said about a ten-page midway progress report on controlling flapping-wing micro aerial vehicles. A compliment, or an insult? The student had set the deadline a week early by accident, then spent forty-eight stressed hours writing five thousand words, references and diagrams. The takeaway: write it yourself, and treat everything you consume like the school English lesson on spotting persuasive techniques. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:32:36Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123685758058058190",
+      "feedId": "x:2123685758058058190",
+      "title": "MOSS is an open-source, mostly 3D-printed tracked rover that picks up litter",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://x.com/PCBWayOfficial/status/2123685758058058190",
+      "src": "media/videos/x-2123685758058058190.mp4",
+      "poster": "media/videos/x-2123685758058058190.jpg",
+      "captions": "media/videos/x-2123685758058058190.vtt",
+      "duration": 30.95,
+      "transcript": "A 3D-printed rover that picks up litter. Meet MOSS, an open-source, mostly 3D-printed rover built by metrox to collect litter. It rolls on tracks, grabs trash with a robotic arm, and drops it into a rear bin. The idea started while picking up trash in Thailand. It went from concept to working prototype in just two months, with help from Codex, and the build is being shared openly so others can make one. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:31:48Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50572507",
+      "feedId": "hn:50572507",
+      "title": "Our S3 cache is full of holes, and we put them there",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://www.bzrk.dev/blog/sparse-files/",
+      "src": "media/videos/hn-50572507.mp4",
+      "poster": "media/videos/hn-50572507.jpg",
+      "captions": "media/videos/hn-50572507.vtt",
+      "duration": 36.28,
+      "transcript": "This S3 cache is full of holes, on purpose. Berserk, a data store for logs, metrics, traces and evals, caches S3 data on query nodes in sparse files. Each node stores only the pieces it needs, and punches holes to reclaim disk space as pieces fall out of use. A file can look huge while using little disk. Workers keep several S3 requests in flight, read ahead, and read directly from the shared cache. It's a trick the author first learned as a sysadmin in 1990. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:31:11Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123725978036015295",
+      "feedId": "x:2123725978036015295",
+      "title": "mardp: an open-source RDP server for macOS written in Go",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/Rm4n0s/status/2123725978036015295",
+      "src": "media/videos/x-2123725978036015295.mp4",
+      "poster": "media/videos/x-2123725978036015295.jpg",
+      "captions": "media/videos/x-2123725978036015295.vtt",
+      "duration": 34.82,
+      "transcript": "Use your Mac from Linux, smooth enough for video. mardp is an open-source, BSD-licensed RDP server for macOS, with its own RDP library written from scratch in Go. Connect from Linux with Remmina or FreeRDP and get your Mac's desktop as H.264 video with sound, smooth enough to watch films. You need macOS 14 or newer on Apple silicon and about fifteen minutes. After five failed logins, that computer must wait, from one minute up to an hour. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:30:21Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50573606",
+      "feedId": "hn:50573606",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "src": "media/videos/hn-50573606.mp4",
+      "poster": "media/videos/hn-50573606.jpg",
+      "captions": "media/videos/hn-50573606.vtt",
+      "duration": 32.39,
+      "transcript": "Apple wants an AI agent that uses your Mac. Bloomberg spotted an Apple job listing for a senior engineering manager to build an AI agent that can use a computer. The posting says it browses the web, works across apps, runs commands, writes and debugs code, and does it all privately. Meanwhile, macOS 27.3 will warn users against granting full access to third-party agents, as Anthropic, OpenAI and Meta's Muse push into the space. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:29:32Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123385776201162898",
+      "feedId": "x:2123385776201162898",
+      "title": "Kinetic: a Rust inference engine for GGUF models that claims up to 4.5x llama.cpp's speed",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/swarogan/status/2123385776201162898",
+      "src": "media/videos/x-2123385776201162898.mp4",
+      "poster": "media/videos/x-2123385776201162898.jpg",
+      "captions": "media/videos/x-2123385776201162898.vtt",
+      "duration": 38.47,
+      "transcript": "A Rust engine claiming 4.5x llama.cpp's speed. Velocity Research released Kinetic, an open-source Rust engine that runs GGUF models on CPUs and on NVIDIA, AMD and Intel GPUs. One posted benchmark, on a laptop with a Ryzen 5 6600H and an RTX 3060 with six gigabytes, shows 1,033 tokens per second against llama.cpp's 230. The authors promise its speed-ups never change the output. These are the authors' own published numbers. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:15:17Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123398506048032991",
+      "feedId": "x:2123398506048032991",
+      "title": "lmdeck: a Rust CLI and dashboard for managing local LLM serving recipes",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/javierbits/status/2123398506048032991",
+      "src": "media/videos/x-2123398506048032991.mp4",
+      "poster": "media/videos/x-2123398506048032991.jpg",
+      "captions": "media/videos/x-2123398506048032991.vtt",
+      "duration": 29.39,
+      "transcript": "Give it a model repo, get a running server. lmdeck is a Rust command-line tool and dashboard for managing local LLM serving recipes. Give it a model repo and it detects how to run it, writes the recipe, and checks whether it fits your hardware, from Macs to one or more DGX Sparks. Then it pulls the weights, launches the server, and hands it straight to your agent harness, with no manual setup in between. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:14:16Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50560357",
+      "feedId": "hn:50560357",
+      "title": "PostgreSQL 19 released",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+      "src": "media/videos/hn-50560357.mp4",
+      "poster": "media/videos/hn-50560357.jpg",
+      "captions": "media/videos/hn-50560357.vtt",
+      "duration": 37.75,
+      "transcript": "PostgreSQL 19 is here, and it fixes old pain. The new REPACK CONCURRENTLY command reorganizes tables for your current workload without disrupting ongoing operations, so no more downtime just to tidy a bloated table. A new pg plan advice extension gives better control over plan stability, standbys now support read-your-writes consistency, and a get-or-create behavior saves a network round trip. Also new: md5 passwords now trigger a warning ahead of removal, and LZ4 builds use lz4 as the default TOAST compression. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:13:33Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50560461",
+      "feedId": "hn:50560461",
+      "title": "OpenAI still has a WebRTC problem",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
+      "src": "media/videos/hn-50560461.mp4",
+      "poster": "media/videos/hn-50560461.jpg",
+      "captions": "media/videos/hn-50560461.vtt",
+      "duration": 32.71,
+      "transcript": "Why voice AI keeps saying 'you broke up'. Luke Curley, known as kixelated, argues WebRTC is the wrong transport for voice AI, and he says OpenAI's WebRTC experts reached out after his last post. WebRTC drops late audio to keep calls real-time, but a language model can afford to wait for the missing words. One second of Opus at 64 kilobits is just 8 kilobytes. Resent over QUIC, that's about six packets instead of fifty. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:12:41Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50561436",
+      "feedId": "hn:50561436",
+      "title": "Show HN: Watch weight-space programming in action with WebGPU",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://tabbyml.github.io/weight-space-playground/",
+      "src": "media/videos/hn-50561436.mp4",
+      "poster": "media/videos/hn-50561436.jpg",
+      "captions": "media/videos/hn-50561436.vtt",
+      "duration": 39.43,
+      "transcript": "Edit 0.016 percent of weights, fix the reasoning. Qwen 3.5 0.8B often repeated its reasoning until it hit the token limit, before ever reaching an answer. The fix, with no gradient descent: subtract one direction from 64 neurons' output weights in layers 15 and 19. That's 131,072 of about 800 million weights. TabbyML's WebGPU demo lets you watch it. The original experiment raised MATH-500 accuracy from 7.9 to 48.1 percent. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:11:51Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123448675519320216",
+      "feedId": "x:2123448675519320216",
+      "title": "FreeVideo runs MiniMax H3 video generation locally in as little as 8 GB of VRAM",
+      "source": "Twitter / X",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://x.com/27_bishal/status/2123448675519320216",
+      "src": "media/videos/x-2123448675519320216.mp4",
+      "poster": "media/videos/x-2123448675519320216.jpg",
+      "captions": "media/videos/x-2123448675519320216.vtt",
+      "duration": 34.63,
+      "transcript": "Make AI videos on your own PC, no credits. FreeVideo is an open-source, Apache 2.0 desktop app for Windows, Mac and Linux that generates AI videos on your own GPU. It runs MiniMax H3 video generation in as little as eight gigabytes of video memory, with no subscription and no credits. It takes text, image, video and audio inputs, makes videos up to a minute long, and has a built-in timeline editor, plus H3 images up to sixteen megapixels. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:10:53Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50562320",
+      "feedId": "hn:50562320",
+      "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://github.com/onlook-dev/onlook/",
+      "src": "media/videos/hn-50562320.mp4",
+      "poster": "media/videos/hn-50562320.jpg",
+      "captions": "media/videos/hn-50562320.vtt",
+      "duration": 31.99,
+      "transcript": "An open-source Figma alternative that writes real code. Onlook, from Y Combinator's Winter 2025 batch, is a free, local-first editor where designers craft experiences in code. You see your real app running live on a canvas, shape it visually, and let your own agent write the code. They don't ship a model. It pitches itself as an open-source alternative to Figma, V0, Replit Agent and Webflow, under the Apache 2.0 license. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:09:57Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123461832656781320",
+      "feedId": "x:2123461832656781320",
+      "title": "Airbnb's fine-tuned 2B Gemma classifier matches frontier APIs at about 1% of the cost",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/googlegemma/status/2123461832656781320",
+      "src": "media/videos/x-2123461832656781320.mp4",
+      "poster": "media/videos/x-2123461832656781320.jpg",
+      "captions": "media/videos/x-2123461832656781320.vtt",
+      "duration": 37.1,
+      "transcript": "A tiny open model matched frontier APIs at Airbnb. Airbnb Engineering fine-tuned Google's small Gemma 4 E2B model for policy classification, served on a single NVIDIA RTX Pro 6000. Its max F1 score jumped from 0.563 to 0.902, on par with the best frontier APIs. That's open weights plus careful fine-tuning. Median latency was just 35 milliseconds versus about 900 for the APIs, at roughly one percent of the cost, on one GPU. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:08:03Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50564563",
+      "feedId": "hn:50564563",
+      "title": "Making BAML 34x faster by compiling to Rust",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://boundaryml.com/blog/compiling-baml-to-rust",
+      "src": "media/videos/hn-50564563.mp4",
+      "poster": "media/videos/hn-50564563.jpg",
+      "captions": "media/videos/hn-50564563.vtt",
+      "duration": 31.05,
+      "transcript": "BAML now compiles to Rust, up to 34x faster. Boundary wrote a new backend for the BAML compiler that turns every BAML program into native Rust code. On average the compiled code runs about three and a half times faster than their interpreter, and up to thirty-four times faster on tight loops. BAML reads like TypeScript, is concurrent like Go, has no async keyword, and profiles every function call down to the nanosecond. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:07:09Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50567665",
+      "feedId": "hn:50567665",
+      "title": "Wolf at the Door: Apple Rethinking Mac Permissions in the Age of AI",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://macanorak.com/a-wolf-at-the-door-apple-is-rethinking-mac-permissions-for-the-age-of-ai-agents/",
+      "src": "media/videos/hn-50567665.mp4",
+      "poster": "media/videos/hn-50567665.jpg",
+      "captions": "media/videos/hn-50567665.vtt",
+      "duration": 35.03,
+      "transcript": "Apple is rethinking Mac permissions for AI agents. AI agents like Meta's Muse request extraordinary access: messages, email, photos, browsing history, and then act on your behalf. One user, Matt Robb, found Muse had been given permission to send messages containing his home address to strangers. On November 16, Apple announced macOS 27.3 beta 2: where supported, you can pick exactly which protected folders an app may access, instead of all or nothing. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:06:22Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-wilson-bentley-snowflake-photographs",
+      "feedId": "reading:abakcus-wilson-bentley-snowflake-photographs",
+      "title": "Wilson Bentley: the farmer who photographed 5,000 snowflakes",
+      "source": "Reading",
+      "topics": [
+        "Science"
+      ],
+      "url": "https://abakcus.com/articles/wilson-bentley-snowflake-photographs",
+      "src": "media/videos/reading-abakcus-wilson-bentley-snowflake-photographs.mp4",
+      "poster": "media/videos/reading-abakcus-wilson-bentley-snowflake-photographs.jpg",
+      "captions": "media/videos/reading-abakcus-wilson-bentley-snowflake-photographs.vtt",
+      "duration": 37.17,
+      "transcript": "The farmer who photographed five thousand snowflakes. In 1885, Vermont farm boy Wilson Bentley bolted a camera to his mother's microscope and caught the first photograph of a snow crystal. He spent the next forty-six winters doing it again, photographing more than five thousand crystals. Every one had six-fold symmetry. In November 1931, McGraw-Hill published Snow Crystals, with more than 2,400 of his photographs. His father had thought the camera a waste of money, and bought it anyway. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:05:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50568861",
+      "feedId": "hn:50568861",
+      "title": "Vint Cerf on why TCP/IP was never patented",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+      "src": "media/videos/hn-50568861.mp4",
+      "poster": "media/videos/hn-50568861.jpg",
+      "captions": "media/videos/hn-50568861.vtt",
+      "duration": 30.81,
+      "transcript": "Why the internet's core protocol was never patented. Vint Cerf co-designed TCP/IP with Bob Kahn in the 1970s. Their paper came out in May 1974. Why no patent? They didn't know who their allies would be twenty-five years later, so the only way to guarantee access was to open it up. Now 83, Cerf left Google after more than twenty years and is helping start Tolero, building software for an internet between planets. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:04:20Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50569519",
+      "feedId": "hn:50569519",
+      "title": "What Comes After AGI?",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+      "src": "media/videos/hn-50569519.mp4",
+      "poster": "media/videos/hn-50569519.jpg",
+      "captions": "media/videos/hn-50569519.vtt",
+      "duration": 32.03,
+      "transcript": "DeepMind asks: what comes after AGI? A DeepMind essay argues that with AGI within reach, AI could keep advancing toward artificial superintelligence, or ASI. Training compute needed for a fixed performance level has fallen roughly three to six times per year. Combined, effective compute grows at least ten times a year. At that rate, work costing a billion dollars in compute today would cost just a thousand dollars in ten years. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:03:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50570628",
+      "feedId": "hn:50570628",
+      "title": "Jujutsu Primer: a brief introduction to jj for Git users",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://ethanlowman.com/posts/jj-primer/",
+      "src": "media/videos/hn-50570628.mp4",
+      "poster": "media/videos/hn-50570628.jpg",
+      "captions": "media/videos/hn-50570628.vtt",
+      "duration": 30.43,
+      "transcript": "Jujutsu: version control without Git's sharp edges. Ethan Lowman's primer introduces jj to Git users. It works side by side with Git in the same repository, so you can try it today. Automatic rebasing and native undo soften Git's sharp edges, and make stacked-diff workflows easy. Each change keeps a stable change ID even as its commit hash changes, so rewriting or editing history never loses track of your work. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:02:30Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123675279210242167",
+      "feedId": "x:2123675279210242167",
+      "title": "Ilias Ism open-sources 30 SEO skills and 4 MCP servers for Claude Code and Cursor",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/illyism/status/2123675279210242167",
+      "src": "media/videos/x-2123675279210242167.mp4",
+      "poster": "media/videos/x-2123675279210242167.jpg",
+      "captions": "media/videos/x-2123675279210242167.vtt",
+      "duration": 34.7,
+      "transcript": "Thirty open-source SEO skills for your coding agent. Ilias Ism open-sourced his daily SEO and AI-search stack for Claude Code and Cursor: thirty skills plus four live MCP servers. Each skill is one SKILL.md file. The agent reads only its name and description at startup, and opens the full file when your prompt matches. Instead of audit PDFs, they end in things you can ship: rewritten titles, refreshed posts, robots rules and verified redirect maps. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:01:44Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50571449",
+      "feedId": "hn:50571449",
+      "title": "Longshore: a 36 GB/s zero-allocation I/O and object storage layer in Rust",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://serviceradar.cloud/blog/ring-per-core-io-in-longshore",
+      "src": "media/videos/hn-50571449.mp4",
+      "poster": "media/videos/hn-50571449.jpg",
+      "captions": "media/videos/hn-50571449.vtt",
+      "duration": 37.29,
+      "transcript": "One Rust thread uploading 36 gigabytes per second. ServiceRadar's Longshore is about twenty-five thousand lines of Rust: one io_uring ring per core, no locks on the data path, all allocation at startup. One thread on a Graviton4 with a 300 gigabit card uploads to S3 at 36.4 gigabytes per second, or 16.7 with a checksum on every body. On a Samsung PCIe 5 drive it writes at 13.1 and reads at 14.9 gigabytes per second, the drive's rated speed. Full story on the dashboard.",
+      "createdAt": "2026-11-20T21:00:44Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50571812",
+      "feedId": "hn:50571812",
+      "title": "A TPM that BitLocker trusts, on Apple's Virtualization framework",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "url": "https://scaleninja.com/blog/bitlocker-tpm-virtualization-framework/",
+      "src": "media/videos/hn-50571812.mp4",
+      "poster": "media/videos/hn-50571812.jpg",
+      "captions": "media/videos/hn-50571812.vtt",
+      "duration": 40.31,
+      "transcript": "Windows 11 with BitLocker, running on Apple's virtualization. Windows 11 expects Secure Boot and a TPM 2.0, but Apple's Virtualization framework has no TPM device at all, and its firmware logs no boot measurements. From MacVisor 27.2.1, new Windows 11 VMs get Secure Boot and a TPM 2.0 anyway. BitLocker seals to it and unlocks at each start. To move a VM to another Mac, you export the TPM sealed with a passphrase: 600,000 rounds of PBKDF2, then AES-256. Full story on the dashboard.",
+      "createdAt": "2026-11-20T20:59:46Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123722450940928092",
+      "feedId": "x:2123722450940928092",
+      "title": "Asuka-FM trains a 206M text-to-image model from scratch on one RTX 4090 for under $55",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/aipracticecafe/status/2123722450940928092",
+      "src": "media/videos/x-2123722450940928092.mp4",
+      "poster": "media/videos/x-2123722450940928092.jpg",
+      "captions": "media/videos/x-2123722450940928092.vtt",
+      "duration": 42.26,
+      "transcript": "A text-to-image model trained for under 55 dollars. A new arXiv paper, Asuka-FM, trains a 206-million-parameter diffusion transformer from scratch on a single RTX 4090. Training took about 160 hours at 512 pixels, for under fifty-five dollars. The author calls it a micro-budget baseline for foundation models, with the best DPG score for its compute. It reaches 0.609 on GenEval and 78.51 on DPG, by tackling attention costs, compilation graph breaks and the autoencoder bottleneck on consumer hardware. Full story on the dashboard.",
+      "createdAt": "2026-11-20T20:58:40Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123735704740225093",
+      "feedId": "x:2123735704740225093",
+      "title": "Hangar runs Claude Code and Codex in disposable VMs on your Mac",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/hangar_bot/status/2123735704740225093",
+      "src": "media/videos/x-2123735704740225093.mp4",
+      "poster": "media/videos/x-2123735704740225093.jpg",
+      "captions": "media/videos/x-2123735704740225093.vtt",
+      "duration": 32.44,
+      "transcript": "Let AI coding agents loose, safely, in a VM. Hangar is a free, open-source Mac app and CLI that runs Claude Code and Codex inside a macOS, Linux or Windows virtual machine. With approvals off, agents can't touch your Mac's files, your SSH or cloud keys. They see only the folder you share and reach only the sites you allow. And if one breaks something, one command undoes everything it did. Install it with Homebrew. Full story on the dashboard.",
+      "createdAt": "2026-11-20T20:57:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123773113326555219",
+      "feedId": "x:2123773113326555219",
+      "title": "Mimoto shows where each Mac app came from and removes it the right way",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/synchrium_dev/status/2123773113326555219",
+      "src": "media/videos/x-2123773113326555219.mp4",
+      "poster": "media/videos/x-2123773113326555219.jpg",
+      "captions": "media/videos/x-2123773113326555219.vtt",
+      "duration": 29.75,
+      "transcript": "Where did this Mac app even come from? Mimoto is a free, open-source Mac app, in beta, that groups your apps by source: App Store, Homebrew, website, built by you, or Apple. It shows who made each app and what it does, and removes apps with their related files, the right way for where they came from. Homebrew apps go through brew uninstall, so no leftover records. The name is Japanese for identity, or background. Full story on the dashboard.",
+      "createdAt": "2026-11-20T20:56:33Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2123708574790553715",
       "feedId": "x:2123708574790553715",
       "title": "Smorza gives every Mac app its own volume slider and output device",

@@ -1,0 +1,23 @@
+{
+  "hook": "DeepMind asks: what comes after AGI?",
+  "hookText": "What comes after AGI?",
+  "beats": [
+    {
+      "say": "A DeepMind essay argues that with AGI within reach, AI could keep advancing toward artificial superintelligence, or ASI.",
+      "visual": 1
+    },
+    {
+      "say": "Training compute needed for a fixed performance level has fallen roughly three to six times per year. Combined, effective compute grows at least ten times a year.",
+      "visual": 3,
+      "stat": "10×",
+      "statLabel": "effective compute per year"
+    },
+    {
+      "say": "At that rate, work costing a billion dollars in compute today would cost just a thousand dollars in ten years.",
+      "visual": 4,
+      "stat": "$1B → $1K",
+      "statLabel": "in ten years"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

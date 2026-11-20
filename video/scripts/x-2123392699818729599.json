@@ -1,0 +1,21 @@
+{
+  "hook": "Teaching small shopping agents with real purchase data.",
+  "hookText": "RL for shopping agents: RecoATLAS",
+  "beats": [
+    {
+      "say": "Criteo AI Lab released RecoATLAS: an open environment, a paper, and a RecSys 2026 tutorial, after six months of work.",
+      "visual": 1,
+      "stat": "6 months",
+      "statLabel": "of work"
+    },
+    {
+      "say": "It turns logged bandit feedback from real purchases into tasks for training recommendation agents with reinforcement learning.",
+      "visual": 2
+    },
+    {
+      "say": "The release covers the design, benchmarks, and their results training small, specialized orchestrators to coordinate recommendations. The environment code is open, so others can train their own.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

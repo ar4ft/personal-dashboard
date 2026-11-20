@@ -1,0 +1,23 @@
+{
+  "hook": "PostgreSQL 19 is here, and it fixes old pain.",
+  "hookText": "PostgreSQL 19 is out",
+  "beats": [
+    {
+      "say": "The new REPACK CONCURRENTLY command reorganizes tables for your current workload without disrupting ongoing operations, so no more downtime just to tidy a bloated table.",
+      "visual": 1,
+      "stat": "REPACK",
+      "statLabel": "online table rewrite"
+    },
+    {
+      "say": "A new pg plan advice extension gives better control over plan stability, standbys now support read-your-writes consistency, and a get-or-create behavior saves a network round trip.",
+      "visual": 2
+    },
+    {
+      "say": "Also new: md5 passwords now trigger a warning ahead of removal, and LZ4 builds use lz4 as the default TOAST compression.",
+      "visual": 1,
+      "stat": "md5",
+      "statLabel": "deprecated, now warns"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

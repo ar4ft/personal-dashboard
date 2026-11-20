@@ -1,0 +1,23 @@
+{
+  "hook": "A 3D-printed rover that picks up litter.",
+  "hookText": "MOSS, the litter-picking rover",
+  "beats": [
+    {
+      "say": "Meet MOSS, an open-source, mostly 3D-printed rover built by metrox to collect litter.",
+      "visual": 0
+    },
+    {
+      "say": "It rolls on tracks, grabs trash with a robotic arm, and drops it into a rear bin. The idea started while picking up trash in Thailand.",
+      "visual": 0,
+      "stat": "3",
+      "statLabel": "tracks · arm · bin"
+    },
+    {
+      "say": "It went from concept to working prototype in just two months, with help from Codex, and the build is being shared openly so others can make one.",
+      "visual": 0,
+      "stat": "2 months",
+      "statLabel": "concept to prototype"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

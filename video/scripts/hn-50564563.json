@@ -1,0 +1,23 @@
+{
+  "hook": "BAML now compiles to Rust, up to 34x faster.",
+  "hookText": "BAML got 34x faster with Rust",
+  "beats": [
+    {
+      "say": "Boundary wrote a new backend for the BAML compiler that turns every BAML program into native Rust code.",
+      "visual": 1,
+      "stat": "100%",
+      "statLabel": "of BAML compiles to Rust"
+    },
+    {
+      "say": "On average the compiled code runs about three and a half times faster than their interpreter, and up to thirty-four times faster on tight loops.",
+      "visual": 2,
+      "stat": "34×",
+      "statLabel": "faster on tight loops"
+    },
+    {
+      "say": "BAML reads like TypeScript, is concurrent like Go, has no async keyword, and profiles every function call down to the nanosecond.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

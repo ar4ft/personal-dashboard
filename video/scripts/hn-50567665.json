@@ -1,0 +1,21 @@
+{
+  "hook": "Apple is rethinking Mac permissions for AI agents.",
+  "hookText": "Apple rethinks Mac permissions for AI",
+  "beats": [
+    {
+      "say": "AI agents like Meta's Muse request extraordinary access: messages, email, photos, browsing history, and then act on your behalf.",
+      "visual": 1
+    },
+    {
+      "say": "One user, Matt Robb, found Muse had been given permission to send messages containing his home address to strangers.",
+      "visual": 3
+    },
+    {
+      "say": "On November 16, Apple announced macOS 27.3 beta 2: where supported, you can pick exactly which protected folders an app may access, instead of all or nothing.",
+      "visual": 2,
+      "stat": "macOS 27.3",
+      "statLabel": "per-folder permissions"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

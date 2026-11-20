@@ -1,0 +1,21 @@
+{
+  "hook": "Apple wants an AI agent that uses your Mac.",
+  "hookText": "Apple is building a Mac AI agent",
+  "beats": [
+    {
+      "say": "Bloomberg spotted an Apple job listing for a senior engineering manager to build an AI agent that can use a computer.",
+      "visual": 1
+    },
+    {
+      "say": "The posting says it browses the web, works across apps, runs commands, writes and debugs code, and does it all privately.",
+      "visual": 2
+    },
+    {
+      "say": "Meanwhile, macOS 27.3 will warn users against granting full access to third-party agents, as Anthropic, OpenAI and Meta's Muse push into the space.",
+      "visual": 3,
+      "stat": "macOS 27.3",
+      "statLabel": "warnings for third-party agents"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

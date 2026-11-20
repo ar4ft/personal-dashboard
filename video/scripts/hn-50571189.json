@@ -1,0 +1,23 @@
+{
+  "hook": "'I can tell you wrote this yourself.'",
+  "hookText": "I can tell you wrote this yourself",
+  "beats": [
+    {
+      "say": "That's what an honours student's project supervisor said about a ten-page midway progress report on controlling flapping-wing micro aerial vehicles. A compliment, or an insult?",
+      "visual": 1,
+      "stat": "10 pages",
+      "statLabel": "written by hand"
+    },
+    {
+      "say": "The student had set the deadline a week early by accident, then spent forty-eight stressed hours writing five thousand words, references and diagrams.",
+      "visual": 2,
+      "stat": "5,000",
+      "statLabel": "words in 48 hours"
+    },
+    {
+      "say": "The takeaway: write it yourself, and treat everything you consume like the school English lesson on spotting persuasive techniques.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

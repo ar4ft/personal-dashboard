@@ -1,0 +1,23 @@
+{
+  "hook": "Let AI coding agents loose, safely, in a VM.",
+  "hookText": "Hangar: coding agents in disposable VMs",
+  "beats": [
+    {
+      "say": "Hangar is a free, open-source Mac app and CLI that runs Claude Code and Codex inside a macOS, Linux or Windows virtual machine.",
+      "visual": 1,
+      "stat": "Apache 2.0",
+      "statLabel": "free & open source"
+    },
+    {
+      "say": "With approvals off, agents can't touch your Mac's files, your SSH or cloud keys. They see only the folder you share and reach only the sites you allow.",
+      "visual": 3
+    },
+    {
+      "say": "And if one breaks something, one command undoes everything it did. Install it with Homebrew.",
+      "visual": 2,
+      "stat": "1 command",
+      "statLabel": "undoes everything"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

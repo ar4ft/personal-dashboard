@@ -1,0 +1,21 @@
+{
+  "hook": "Tap your Apple Watch, and keep every word.",
+  "hookText": "Hinokoe: tap your watch to record",
+  "beats": [
+    {
+      "say": "Hinokoe, now on the App Store, records conversations from your Apple Watch. Your iPhone transcribes them and labels who said what.",
+      "visual": 1
+    },
+    {
+      "say": "Audio is never uploaded to the developer's servers. Your text records back up to your own encrypted iCloud, and you can keep the last thirty days of audio.",
+      "visual": 2
+    },
+    {
+      "say": "Recording and transcription stay free after a seven-day trial. AI organizing is a one-time 9.99 dollar unlock. It needs iOS 26.",
+      "visual": 1,
+      "stat": "$9.99",
+      "statLabel": "one-time unlock"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

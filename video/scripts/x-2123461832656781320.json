@@ -1,0 +1,23 @@
+{
+  "hook": "A tiny open model matched frontier APIs at Airbnb.",
+  "hookText": "Airbnb's 2B model matches frontier APIs",
+  "beats": [
+    {
+      "say": "Airbnb Engineering fine-tuned Google's small Gemma 4 E2B model for policy classification, served on a single NVIDIA RTX Pro 6000.",
+      "visual": 1
+    },
+    {
+      "say": "Its max F1 score jumped from 0.563 to 0.902, on par with the best frontier APIs. That's open weights plus careful fine-tuning.",
+      "visual": 2,
+      "stat": "0.563 → 0.902",
+      "statLabel": "max F1"
+    },
+    {
+      "say": "Median latency was just 35 milliseconds versus about 900 for the APIs, at roughly one percent of the cost, on one GPU.",
+      "visual": 1,
+      "stat": "35 ms",
+      "statLabel": "vs ~900 ms"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

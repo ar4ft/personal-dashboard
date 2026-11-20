@@ -1,0 +1,23 @@
+{
+  "hook": "Inside the PostgreSQL 19 release notes.",
+  "hookText": "PostgreSQL 19: the release notes",
+  "beats": [
+    {
+      "say": "The new REPACK command reclaims disk space and reorganizes tables, and its concurrent mode doesn't block reads or writes.",
+      "visual": 0,
+      "stat": "REPACK",
+      "statLabel": "no blocking"
+    },
+    {
+      "say": "Logical replication can now be turned on without a restart, sequence values replicate too, and a new WAIT command enables read-your-writes on standbys.",
+      "visual": 0
+    },
+    {
+      "say": "Heads up: max locks per transaction now defaults to 128 instead of 64, and a new 64-bit unsigned oid8 data type arrives, plus more jsonpath string methods.",
+      "visual": 0,
+      "stat": "64 → 128",
+      "statLabel": "max_locks_per_transaction"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

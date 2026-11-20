@@ -1,0 +1,23 @@
+{
+  "hook": "A 1993 DOS game, rebuilt for a RISC-V FPGA.",
+  "hookText": "SkyRoads on the Analogue Pocket",
+  "beats": [
+    {
+      "say": "Bertrand Fan released an openFPGA core that plays the 1993 game SkyRoads on the Analogue Pocket.",
+      "visual": 0,
+      "stat": "1993",
+      "statLabel": "DOS classic"
+    },
+    {
+      "say": "It isn't an emulator. The FPGA hosts a small RISC-V system running the game's decompiled C code. The listing says the game is freeware.",
+      "visual": 1
+    },
+    {
+      "say": "Version 0.2.2 fixes music voices that went missing because sound-chip register writes were spaced too closely at the Pocket's 49 megahertz clock.",
+      "visual": 0,
+      "stat": "49 MHz",
+      "statLabel": "Pocket clock"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

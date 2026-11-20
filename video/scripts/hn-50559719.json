@@ -1,0 +1,25 @@
+{
+  "hook": "One sheet of paper, eight pages, zero staples.",
+  "hookText": "An 8-page zine from one A4 sheet",
+  "beats": [
+    {
+      "say": "Fold an A4 sheet in half three times, cut the center crease, fold it into a cross, and you get an eight-page booklet with no glue.",
+      "visual": 3,
+      "stat": "8",
+      "statLabel": "pages, no staples"
+    },
+    {
+      "say": "fanzines dot app lets you lay out each page right-side up, then places all eight panels on the sheet, top row rotated, as a 300 DPI PDF.",
+      "visual": 1,
+      "stat": "300 DPI",
+      "statLabel": "print-ready PDF"
+    },
+    {
+      "say": "Everything stays in your browser. And a safe margin scales the layout to about 95 percent, so home printers don't clip the covers.",
+      "visual": 4,
+      "stat": "95%",
+      "statLabel": "safe margin"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

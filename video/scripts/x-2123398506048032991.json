@@ -1,0 +1,21 @@
+{
+  "hook": "Give it a model repo, get a running server.",
+  "hookText": "lmdeck runs local LLMs for you",
+  "beats": [
+    {
+      "say": "lmdeck is a Rust command-line tool and dashboard for managing local LLM serving recipes.",
+      "visual": 1
+    },
+    {
+      "say": "Give it a model repo and it detects how to run it, writes the recipe, and checks whether it fits your hardware, from Macs to one or more DGX Sparks.",
+      "visual": 2,
+      "stat": "1 repo",
+      "statLabel": "→ running server"
+    },
+    {
+      "say": "Then it pulls the weights, launches the server, and hands it straight to your agent harness, with no manual setup in between.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

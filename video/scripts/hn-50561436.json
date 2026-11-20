@@ -1,0 +1,23 @@
+{
+  "hook": "Edit 0.016 percent of weights, fix the reasoning.",
+  "hookText": "A tiny weight edit stops reasoning loops",
+  "beats": [
+    {
+      "say": "Qwen 3.5 0.8B often repeated its reasoning until it hit the token limit, before ever reaching an answer.",
+      "visual": 1
+    },
+    {
+      "say": "The fix, with no gradient descent: subtract one direction from 64 neurons' output weights in layers 15 and 19. That's 131,072 of about 800 million weights.",
+      "visual": 2,
+      "stat": "131,072",
+      "statLabel": "of ~800M weights edited"
+    },
+    {
+      "say": "TabbyML's WebGPU demo lets you watch it. The original experiment raised MATH-500 accuracy from 7.9 to 48.1 percent.",
+      "visual": 1,
+      "stat": "7.9% → 48.1%",
+      "statLabel": "MATH-500 accuracy"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

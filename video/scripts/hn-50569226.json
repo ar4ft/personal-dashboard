@@ -1,0 +1,21 @@
+{
+  "hook": "OpenSSL patches a critical base64 buffer overflow.",
+  "hookText": "OpenSSL fixes a CVSS 9.8 overflow",
+  "beats": [
+    {
+      "say": "A public OpenSSL pull request fixes CVE-2026-121481, a buffer overflow in the EVP Encode Block base64 encoder, rated 9.8 out of 10.",
+      "visual": 1,
+      "stat": "9.8",
+      "statLabel": "CVSS score"
+    },
+    {
+      "say": "The fix rejects NULL buffers, negative lengths, and inputs whose encoded size would not fit in an int.",
+      "visual": 2
+    },
+    {
+      "say": "It adds a similar guard to EVP Decode Block, fixes a bad length check in the HTTP client's base64 encoder, and adds new tests, across branches 4.0 and 4.1.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

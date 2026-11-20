@@ -1,0 +1,21 @@
+{
+  "hook": "Jujutsu: version control without Git's sharp edges.",
+  "hookText": "Jujutsu, a gentler Git",
+  "beats": [
+    {
+      "say": "Ethan Lowman's primer introduces jj to Git users. It works side by side with Git in the same repository, so you can try it today.",
+      "visual": 1
+    },
+    {
+      "say": "Automatic rebasing and native undo soften Git's sharp edges, and make stacked-diff workflows easy.",
+      "visual": 2,
+      "stat": "undo",
+      "statLabel": "built in"
+    },
+    {
+      "say": "Each change keeps a stable change ID even as its commit hash changes, so rewriting or editing history never loses track of your work.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

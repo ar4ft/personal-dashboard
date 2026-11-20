@@ -1,0 +1,23 @@
+{
+  "hook": "Your Apple Watch app works in the simulator. Then crashes.",
+  "hookText": "Apple Watch gotcha: 32-bit Int",
+  "beats": [
+    {
+      "say": "An indie developer's Apple Watch app ran fine in the simulator, but wouldn't even build for real watches.",
+      "visual": 0
+    },
+    {
+      "say": "The reason: older Apple Watch models use arm64 underscore 32, where Swift's Int is only thirty-two bits. A hash constant simply didn't fit.",
+      "visual": 0,
+      "stat": "32-bit",
+      "statLabel": "Int on arm64_32"
+    },
+    {
+      "say": "Worse, twenty-seven spots turned milliseconds into an Int that would crash on launch. The lesson: always build for real hardware.",
+      "visual": 0,
+      "stat": "27",
+      "statLabel": "crash-on-launch spots"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

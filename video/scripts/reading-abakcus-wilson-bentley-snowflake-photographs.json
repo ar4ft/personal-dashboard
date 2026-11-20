@@ -1,0 +1,25 @@
+{
+  "hook": "The farmer who photographed five thousand snowflakes.",
+  "hookText": "He photographed 5,000 snowflakes",
+  "beats": [
+    {
+      "say": "In 1885, Vermont farm boy Wilson Bentley bolted a camera to his mother's microscope and caught the first photograph of a snow crystal.",
+      "visual": 1,
+      "stat": "1885",
+      "statLabel": "first snowflake photo"
+    },
+    {
+      "say": "He spent the next forty-six winters doing it again, photographing more than five thousand crystals. Every one had six-fold symmetry.",
+      "visual": 3,
+      "stat": "5,000+",
+      "statLabel": "crystals photographed"
+    },
+    {
+      "say": "In November 1931, McGraw-Hill published Snow Crystals, with more than 2,400 of his photographs. His father had thought the camera a waste of money, and bought it anyway.",
+      "visual": 4,
+      "stat": "2,400+",
+      "statLabel": "photos in Snow Crystals"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

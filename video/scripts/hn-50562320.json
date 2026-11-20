@@ -1,0 +1,23 @@
+{
+  "hook": "An open-source Figma alternative that writes real code.",
+  "hookText": "Onlook: design in code, visually",
+  "beats": [
+    {
+      "say": "Onlook, from Y Combinator's Winter 2025 batch, is a free, local-first editor where designers craft experiences in code.",
+      "visual": 1,
+      "stat": "YC W25",
+      "statLabel": "launch"
+    },
+    {
+      "say": "You see your real app running live on a canvas, shape it visually, and let your own agent write the code. They don't ship a model.",
+      "visual": 2
+    },
+    {
+      "say": "It pitches itself as an open-source alternative to Figma, V0, Replit Agent and Webflow, under the Apache 2.0 license.",
+      "visual": 3,
+      "stat": "Apache 2.0",
+      "statLabel": "open source"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

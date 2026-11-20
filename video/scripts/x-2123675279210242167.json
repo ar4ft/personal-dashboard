@@ -1,0 +1,21 @@
+{
+  "hook": "Thirty open-source SEO skills for your coding agent.",
+  "hookText": "30 SEO skills for Claude Code and Cursor",
+  "beats": [
+    {
+      "say": "Ilias Ism open-sourced his daily SEO and AI-search stack for Claude Code and Cursor: thirty skills plus four live MCP servers.",
+      "visual": 1,
+      "stat": "30 + 4",
+      "statLabel": "skills + MCP servers"
+    },
+    {
+      "say": "Each skill is one SKILL.md file. The agent reads only its name and description at startup, and opens the full file when your prompt matches.",
+      "visual": 2
+    },
+    {
+      "say": "Instead of audit PDFs, they end in things you can ship: rewritten titles, refreshed posts, robots rules and verified redirect maps.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

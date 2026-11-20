@@ -1,0 +1,21 @@
+{
+  "hook": "The UK must admit its secret order to Apple.",
+  "hookText": "UK forced to admit secret Apple order",
+  "beats": [
+    {
+      "say": "For years the UK would neither confirm nor deny issuing Apple a Technical Capability Notice over encrypted iCloud data.",
+      "visual": 1
+    },
+    {
+      "say": "These secret orders come under Section 253 of the Investigatory Powers Act 2016, which let the government require tech companies to change their services, while keeping the order itself secret.",
+      "visual": 3,
+      "stat": "Section 253",
+      "statLabel": "Investigatory Powers Act"
+    },
+    {
+      "say": "Now the Investigatory Powers Tribunal has ruled the government must acknowledge it, after Liberty and Privacy International challenged the secrecy.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

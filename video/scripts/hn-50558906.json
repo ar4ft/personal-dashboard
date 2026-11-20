@@ -1,0 +1,23 @@
+{
+  "hook": "A bug in Java's fastest Base64 decoder.",
+  "hookText": "Java's fast Base64 decoder had a memory bug",
+  "beats": [
+    {
+      "say": "An OpenJDK pull request, number 32781, fixes issue 8392044: the AVX-512 Base64 decoder overwrites its output buffer on a short padded tail.",
+      "visual": 1,
+      "stat": "8392044",
+      "statLabel": "OpenJDK issue"
+    },
+    {
+      "say": "The bug sits in the x86-64 AVX-512 VBMI path of generate base64 decode block, the hand-tuned stub behind fast decoding.",
+      "visual": 2
+    },
+    {
+      "say": "Leftover tails of one to sixty-three bytes use a masked vector sequence that computes the output size as length over four, times three.",
+      "visual": 1,
+      "stat": "1–63",
+      "statLabel": "leftover bytes"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

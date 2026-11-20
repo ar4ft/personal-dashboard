@@ -1,0 +1,23 @@
+{
+  "hook": "Use your Mac from Linux, smooth enough for video.",
+  "hookText": "mardp: an RDP server for macOS",
+  "beats": [
+    {
+      "say": "mardp is an open-source, BSD-licensed RDP server for macOS, with its own RDP library written from scratch in Go.",
+      "visual": 0
+    },
+    {
+      "say": "Connect from Linux with Remmina or FreeRDP and get your Mac's desktop as H.264 video with sound, smooth enough to watch films.",
+      "visual": 1,
+      "stat": "H.264",
+      "statLabel": "video + sound"
+    },
+    {
+      "say": "You need macOS 14 or newer on Apple silicon and about fifteen minutes. After five failed logins, that computer must wait, from one minute up to an hour.",
+      "visual": 0,
+      "stat": "15 min",
+      "statLabel": "setup"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

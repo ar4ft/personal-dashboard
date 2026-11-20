@@ -1,0 +1,21 @@
+{
+  "hook": "This S3 cache is full of holes, on purpose.",
+  "hookText": "An S3 cache full of deliberate holes",
+  "beats": [
+    {
+      "say": "Berserk, a data store for logs, metrics, traces and evals, caches S3 data on query nodes in sparse files.",
+      "visual": 1
+    },
+    {
+      "say": "Each node stores only the pieces it needs, and punches holes to reclaim disk space as pieces fall out of use. A file can look huge while using little disk.",
+      "visual": 2
+    },
+    {
+      "say": "Workers keep several S3 requests in flight, read ahead, and read directly from the shared cache. It's a trick the author first learned as a sysadmin in 1990.",
+      "visual": 1,
+      "stat": "1990",
+      "statLabel": "same old Unix trick"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

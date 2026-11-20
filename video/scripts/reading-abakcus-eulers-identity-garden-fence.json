@@ -1,0 +1,23 @@
+{
+  "hook": "Math's most admired equation, hung on a garden fence.",
+  "hookText": "Euler's identity on a garden fence",
+  "beats": [
+    {
+      "say": "In 2016, Austrian artist Aldo Tolino cut e to the i pi equals minus one out of wood and hung it on a rusty chain-link fence between two gardens.",
+      "visual": 1,
+      "stat": "2016",
+      "statLabel": "Identität"
+    },
+    {
+      "say": "Euler's identity is usually written e to the i pi plus one equals zero, putting five famous constants in one line.",
+      "visual": 3,
+      "stat": "5",
+      "statLabel": "famous constants"
+    },
+    {
+      "say": "Geometrically, it's half a turn around the unit circle. The piece survives as three photographs, each about 80 by 100 centimetres.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
