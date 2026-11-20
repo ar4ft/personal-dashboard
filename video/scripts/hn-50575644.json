@@ -1,20 +1,21 @@
 {
-  "hook": "Mozilla: why there are still no non-WebKit browsers on iOS",
-  "hookText": "Mozilla: why there are still no non-WebKit browsers on iOS",
+  "hook": "Three years on, still no non-WebKit iPhone browser.",
+  "hookText": "Still no Gecko on iPhone",
   "beats": [
     {
-      "say": "Mozilla says that nearly three years after Apple allowed alternative browser engines in the EU, and almost a year after Japan.",
-      "visual": 1
+      "say": "Mozilla says Firefox daily use on iOS has doubled since Europe's Digital Markets Act forced a browser choice screen.",
+      "visual": 0
     },
     {
-      "say": "As one example, Mozilla says it could not simply update the existing Firefox app to use Gecko.",
-      "visual": 2
+      "say": "But nearly three years after Apple allowed other engines in the EU, and almost a year in Japan, nobody has shipped one.",
+      "visual": 1,
+      "stat": "0",
+      "statLabel": "non-WebKit browsers shipped"
     },
     {
-      "say": "Firefox daily use on iOS has doubled since the DMA browser choice screen, but Mozilla calls Apple's open door \"more like a trap door\" and says it will keep pushing.",
+      "say": "To use Gecko, Mozilla would have to ship a second Firefox app and ask users to move everything over by hand. It calls it a trap door.",
       "visual": 3
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

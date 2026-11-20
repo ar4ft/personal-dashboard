@@ -1,0 +1,21 @@
+{
+  "hook": "A thirty-five megabyte Mac browser for Arc refugees.",
+  "hookText": "Zigzag: a light Mac browser",
+  "beats": [
+    {
+      "say": "Zigzag is a free, open-source Mac browser, written in Swift on WebKit, for people leaving Arc.",
+      "visual": 0
+    },
+    {
+      "say": "Your tabs live in a sidebar, grouped into spaces. It's about thirty-five megabytes installed, with no account and no telemetry.",
+      "visual": 3,
+      "stat": "35 MB",
+      "statLabel": "installed"
+    },
+    {
+      "say": "It was built by a high school student in Shanghai, and needs macOS fifteen point four or later.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

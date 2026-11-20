@@ -1,22 +1,19 @@
 {
-  "hook": "Levent Alpöge says he and Claude proved",
-  "hookText": "Levent Alpöge says he and Claude proved",
+  "hook": "A mathematician says Claude helped prove Riemann.",
+  "hookText": "Claude and a proof of Riemann?",
   "beats": [
     {
-      "say": "Mathematician Levent Alpöge posted a short note claiming that, working with Anthropic's Claude, he found a proof of the Riemann Hypothesis that extends to the Generalized Riemann Hypothesis, and that the argument has been formalized in Lean.",
-      "visual": 1
-    },
-    {
-      "say": "Instead of a long unreadable paper he is releasing only the Lean development, split into 14 archive parts, and plans a proper human-readable write-up.",
+      "say": "Mathematician Levent Alpöge posted a short note claiming he found a proof of the Riemann Hypothesis, working with Anthropic's Claude.",
       "visual": 0
     },
     {
-      "say": "Scott Aaronson notes the formalization is about 17.4 million lines of Lean, and that verification by the community is still to come.",
-      "visual": 1,
-      "stat": "17.4 million",
-      "statLabel": "lines"
+      "say": "He says the method goes further, resolving the Generalized Riemann Hypothesis too, one of the most famous open problems in number theory.",
+      "visual": 1
+    },
+    {
+      "say": "And he says the whole argument has been formalized in the Lean proof assistant, so other mathematicians can now check it.",
+      "visual": 0
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

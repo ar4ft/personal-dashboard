@@ -1,0 +1,25 @@
+{
+  "hook": "The world's best Sokoban solver, with zero hand-written code.",
+  "hookText": "No hand-written code. Best solver.",
+  "beats": [
+    {
+      "say": "Soksolv solves more Sokoban levels than any published solver on both standard benchmarks, including twenty-four world-first automated solves.",
+      "visual": 0,
+      "stat": "24",
+      "statLabel": "world-first solves"
+    },
+    {
+      "say": "Andrew Healey didn't write a line himself: one fourteen-day Claude Code session ran about four hundred thirty subagents, for roughly three thousand five hundred dollars.",
+      "visual": 1,
+      "stat": "~430",
+      "statLabel": "subagents"
+    },
+    {
+      "say": "It's also about three point two times faster on the levels other solvers can handle, after fifteen thousand vCPU-hours of research runs.",
+      "visual": 0,
+      "stat": "3.2×",
+      "statLabel": "faster"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

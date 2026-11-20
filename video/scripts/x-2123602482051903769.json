@@ -1,20 +1,23 @@
 {
-  "hook": "Harbor 4.0: Swift 6 networking with REST, JSON-RPC 2.0",
-  "hookText": "Harbor 4.0: Swift 6 networking with REST, JSON-RPC 2.0",
+  "hook": "One Swift library for REST, JSON-RPC and WebSockets.",
+  "hookText": "Harbor 4.0 for Swift 6",
   "beats": [
     {
-      "say": "Javier Manzo released Harbor 4.0, a protocol-oriented Swift networking library built for Swift 6 strict concurrency, alongside LogBird 2.1, a simple Swift logging library.",
+      "say": "Harbor four point oh is an open-source networking library built for Swift six strict concurrency, using async and await with no callbacks.",
+      "visual": 0,
+      "stat": "4.0",
+      "statLabel": "major release"
+    },
+    {
+      "say": "You declare each request as a Sendable struct, and get typed results, an HTTP cache with ETags, and offline fallback.",
       "visual": 1
     },
     {
-      "say": "Both libraries are MIT-licensed; the announcement was posted in Spanish. Harbor declares each request as a Sendable struct and ships as three products: Harbor (REST with typed results that never throw, a multi-layer HTTP cache with ETags and offline fallback, multipart uploads, streaming and test mocks).",
-      "visual": 2
-    },
-    {
-      "say": "Other statuses such as 400, 404 or 422 return immediately.",
-      "visual": 3
+      "say": "It ships as three products: REST, JSON-RPC two point oh, and WebSocket, so you only link what you use.",
+      "visual": 3,
+      "stat": "3",
+      "statLabel": "products"
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

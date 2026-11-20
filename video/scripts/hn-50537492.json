@@ -1,0 +1,19 @@
+{
+  "hook": "Proving compilers correct, automatically, for languages never seen.",
+  "hookText": "Compilers proved correct, automatically",
+  "beats": [
+    {
+      "say": "MIT professor Adam Chlipala describes new research, to appear at POPL twenty twenty-seven, that uses e-graphs to verify compilers.",
+      "visual": 0
+    },
+    {
+      "say": "E-graphs efficiently explore many alternative ways to write algebraic expressions, which helps both program verification and optimization.",
+      "visual": 1
+    },
+    {
+      "say": "The tool takes a compiler definition for a new language, with no extra proof annotations, and proves it correct automatically.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

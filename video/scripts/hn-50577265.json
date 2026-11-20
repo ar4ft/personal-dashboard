@@ -1,20 +1,25 @@
 {
-  "hook": "Language models can rewrite their own weights, with no gradients",
-  "hookText": "Language models can rewrite their own weights, with no gradients",
+  "hook": "A language model just rewrote its own weights.",
+  "hookText": "An LLM edits its own weights",
   "beats": [
     {
-      "say": "An arXiv paper shows an open 27B model that, given its weights, graded answers and the ability to run itself, diagnoses its failures and edits its own weights, gaining 6.6 points of accuracy on unseen problems without any training step.",
-      "visual": 1
+      "say": "A new paper shows an open twenty-seven billion parameter model that is given its weights and graded answers, then diagnoses its own failures.",
+      "visual": 0,
+      "stat": "27B",
+      "statLabel": "model size"
     },
     {
-      "say": "The authors call it self-rewriting: the model acts as its own optimizer using only forward passes.",
-      "visual": 2
+      "say": "With no gradients and no training, it rewrites its weights and gets six point six points more accurate on problems it never saw.",
+      "visual": 1,
+      "stat": "+6.6",
+      "statLabel": "points of accuracy"
     },
     {
-      "say": "The ability appears with scale: smaller models in the same family make no edits or break themselves.",
-      "visual": 0
+      "say": "It can even repair a damaged copy of itself to over eighty percent of the original accuracy, and only the largest models manage it.",
+      "visual": 2,
+      "stat": "80%+",
+      "statLabel": "restored accuracy"
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }
