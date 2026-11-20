@@ -14,6 +14,7 @@
           "id": { "type": "string", "pattern": "^video:[a-z0-9-]{1,120}$" },
           "feedId": { "type": "string", "description": "ID of the feed.json item the video is about, e.g. hn:50572503" },
           "pinned": { "type": "boolean", "description": "Keep forever: never removed by the 60-day retention step" },
+          "ticks": { "type": "boolean", "description": "Legacy: rendered before 2026-11-20 with Stories-style progress ticks at the top; the video reader crops them" },
           "title": { "type": "string", "minLength": 1, "maxLength": 500 },
           "source": { "type": "string" },
           "topics": { "type": "array", "items": { "type": "string", "maxLength": 80 } },

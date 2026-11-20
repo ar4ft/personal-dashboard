@@ -29,6 +29,9 @@
 - `feedId` (required) is the `feed.json` item the video is about; `url` is the original article. The video page links to both
   ("Read the story" and "In dashboard" → `news/?item=<feedId>`), and News cards/details show "▶ Watch video" by matching
   `feedId` client-side, so `feed.json` stays v1 with no new fields.
+- `ticks: true` (optional, legacy) marks videos rendered before 2026-11-20, which still have Stories-style white progress
+  ticks painted at y≈22–28. The Video news reader crops the top 32 px only for those (`video.has-ticks` in
+  `src/styles/video-news.css`). New renders have no ticks and no flag; re-rendering a legacy video drops the flag.
 - `id` is `video:` plus a lowercase slug; `src` must be an `.mp4` dashboard path or an `https://` URL.
 - Keep each MP4 under 6 MB (H.264 + AAC, `+faststart`). `npm test` checks files exist and sizes.
 - Video media under `media/videos/` is not precached by the service worker; `videos.json` is network-first.
@@ -55,3 +58,20 @@ The Video news page lists poster cards with a **Full screen** button. Opening fu
 In the reader, the video fills the screen (contained on black) with no gray overlay, so burned-in captions stay readable. A compact title and source sit at the bottom-left; Story, Dashboard, and Keep forever stay on the right. The current video autoplays muted; tap the video or the sound control to unmute. Only the current video and the next one are preloaded. Swiping away pauses playback.
 
 News swipe reels also play the matching video inline when one exists, and still offer **Watch video** to open this reader at that story.
+
+## Recommended invocation (curation routine)
+
+```sh
+cd /workspace/dashboard/repo && PY=/workspace/video-venv/bin/python
+$PY -W ignore video/make.py --ids <feed ids…> --ingest-only --work /workspace/video-work
+# write video/scripts/<slug>.json for each fetched story, then:
+$PY -W ignore video/make.py --ids <feed ids…> --scripts video/scripts --work /workspace/video-work \
+    --social-dir /workspace/video-social/$(date +%F) --retain-days 60 --sync-pins < /dev/null
+```
+
+- Pass all IDs to one invocation. Each story is rendered in its own try/except with one retry, and `public/videos.json`
+  is saved after every successful video, so one failure never loses earlier renders. Failures are listed at the end
+  (`failed (n): …`) and leave no half-written media.
+- TTS (edge-tts) has a per-voice timeout (`VIDEO_TTS_TIMEOUT`, default 60 s) and one retry per segment.
+- `make.py` detaches its children from stdin (and `--sync-pins` calls `gh` with `stdin=DEVNULL`), so it is safe inside
+  `while read …` loops; `< /dev/null` is still recommended.

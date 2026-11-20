@@ -1,6 +1,6 @@
 export type Video = {
   id: string; feedId: string; title: string; source: string; topics: string[]; url: string;
-  src: string; poster: string; captions: string; duration: number; transcript: string; createdAt: string; pinned: boolean;
+  src: string; poster: string; captions: string; duration: number; transcript: string; createdAt: string; pinned: boolean; ticks: boolean;
 };
 export const VIDEO_MANIFEST_MAX_BYTES: number;
 export function parseVideoManifest(data: unknown, base?: string): Video[];

@@ -10,7 +10,7 @@ Retention (every run): videos are kept at least --retain-days (60) by createdAt;
 deleted unless "pinned": true.
 """
 from __future__ import annotations
-import argparse, json, re, shutil, subprocess, sys, time
+import argparse, json, os, re, shutil, subprocess, sys, time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -61,6 +61,9 @@ def main():
     ap.add_argument("--ingest-only", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="re-fetch stories even if cached in --work")
     a = ap.parse_args()
+    # Never let child processes (ffmpeg, gh, browsers) consume the caller's stdin: in a
+    # `while read id; do make.py ...; done < ids.txt` loop that silently skipped every other ID.
+    devnull = os.open(os.devnull, os.O_RDONLY); os.dup2(devnull, 0); os.close(devnull)
 
     items = json.loads(Path(a.feed).read_text())["items"]
     by_id = {i["id"]: i for i in items}
@@ -78,7 +81,10 @@ def main():
         chosen = news[: a.latest]
     out_dir = Path(a.out); out_dir.mkdir(parents=True, exist_ok=True)
 
-    for item in chosen:
+    def save_manifest():
+        Path(a.manifest).write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
+
+    def process(item):
         t0 = time.time()
         s = slug(item["id"])
         work = Path(a.work) / s
@@ -92,7 +98,7 @@ def main():
             story["credit"] = story["article"]["siteName"]
         (work / "story.json").write_text(json.dumps(story, indent=2, ensure_ascii=False))
         if a.ingest_only:
-            print(f"ingested {item['id']} -> {work}/story.json"); continue
+            print(f"ingested {item['id']} -> {work}/story.json"); return
         sp = Path(a.scripts) / f"{s}.json" if a.scripts else None
         script = json.loads(sp.read_text()) if sp and sp.exists() else auto_script(story)
         mp4, poster = out_dir / f"{s}.mp4", out_dir / f"{s}.jpg"
@@ -104,8 +110,8 @@ def main():
             info = render(story, script, big, sd / poster.name, size=1080, music=music)
             subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(big), "-vf", f"scale={a.size}:{a.size * 16 // 9}:flags=lanczos",
                             "-c:v", "libx264", "-preset", "medium", "-crf", "27", "-maxrate", "1600k", "-bufsize", "3200k",
-                            "-pix_fmt", "yuv420p", "-profile:v", "high", "-movflags", "+faststart", "-c:a", "copy", str(mp4)], check=True)
-            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(sd / poster.name), "-vf", f"scale={a.size}:-2", "-q:v", "4", str(poster)], check=True)
+                            "-pix_fmt", "yuv420p", "-profile:v", "high", "-movflags", "+faststart", "-c:a", "copy", str(mp4)], check=True, stdin=subprocess.DEVNULL)
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(sd / poster.name), "-vf", f"scale={a.size}:-2", "-q:v", "4", str(poster)], check=True, stdin=subprocess.DEVNULL)
             shutil.copyfile(big.with_suffix(".vtt"), mp4.with_suffix(".vtt"))
             info["bytes"] = mp4.stat().st_size
         else:
@@ -123,6 +129,27 @@ def main():
         manifest["videos"] = [v for v in manifest["videos"] if v["id"] != entry["id"]] + [entry]
         print(f"rendered {item['id']}: {info['duration']}s, {info['bytes']/1e6:.2f} MB, {time.time()-t0:.0f}s"
               f"{' (auto script)' if script.get('auto') else ''}")
+        if not a.ingest_only:
+            save_manifest()  # incremental: a later failure can't lose this render
+
+    failed = []
+    for item in chosen:
+        for attempt in (1, 2):
+            try:
+                process(item)
+                break
+            except Exception as e:  # keep going: one bad story must not stop the batch
+                print(f"error {item['id']} (attempt {attempt}): {type(e).__name__}: {str(e)[:200]}", flush=True)
+                if attempt == 2:
+                    failed.append(item["id"])
+                    s = slug(item["id"])
+                    if f"video:{s}" not in {v["id"] for v in manifest["videos"]}:
+                        for ext in (".mp4", ".jpg", ".vtt"):  # drop half-written outputs
+                            (out_dir / f"{s}{ext}").unlink(missing_ok=True)
+                else:
+                    time.sleep(5)
+    if failed:
+        print(f"failed ({len(failed)}): {' '.join(failed)}", flush=True)
 
     pins, unpins = set(a.pin), set(a.unpin)
     if a.sync_pins:
@@ -148,7 +175,7 @@ def main():
             print(f"retention: removed {old['id']} (created {old['createdAt']}, not pinned)")
         manifest["videos"] = keep
     if not a.ingest_only:
-        Path(a.manifest).write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
+        save_manifest()
 
 
 def issue_pins(owner: str) -> set[str]:
@@ -156,7 +183,7 @@ def issue_pins(owner: str) -> set[str]:
     Only issues opened by the owner count; anyone can open issues on a public repo."""
     try:
         r = subprocess.run(["gh", "issue", "list", "--state", "open", "--author", owner, "--search", "Keep video: in:title",
-                            "--json", "title,author", "--limit", "100"], capture_output=True, text=True, timeout=60, check=True)
+                            "--json", "title,author", "--limit", "100"], stdin=subprocess.DEVNULL, capture_output=True, text=True, timeout=60, check=True)
         out = set()
         for i in json.loads(r.stdout):
             m = re.fullmatch(r"Keep video:\s*(video:[a-z0-9-]{1,120})\s*", i["title"])

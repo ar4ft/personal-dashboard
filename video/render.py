@@ -4,7 +4,7 @@ Pillow draws every frame; frames are piped straight into ffmpeg (libx264 + AAC).
 Narration comes from edge-tts with word-level timings that drive kinetic captions.
 """
 from __future__ import annotations
-import asyncio, json, math, os, re, subprocess, tempfile
+import asyncio, json, math, os, re, subprocess, tempfile, time
 from functools import lru_cache
 from pathlib import Path
 from urllib.parse import urlparse
@@ -17,6 +17,7 @@ UI_FONT = os.environ.get("VIDEO_UI_FONT", str(FONT_DIR / "Inter/Inter-VariableFo
 VOICE = os.environ.get("VIDEO_VOICE", "en-US-AvaNeural")
 RATE = os.environ.get("VIDEO_RATE", "+6%")
 FPS = 30
+TTS_TIMEOUT = float(os.environ.get("VIDEO_TTS_TIMEOUT", "60"))  # seconds per voice attempt
 
 TEAL = (18, 103, 115)
 ACCENT = (255, 214, 92)
@@ -46,16 +47,19 @@ async def _tts(text: str, out: Path) -> list[tuple[float, float, str]]:
     import edge_tts
     words = []
     for voice in dict.fromkeys((VOICE, "en-US-AvaNeural", "en-US-AriaNeural")):
-        try:
+        async def one():
             comm = edge_tts.Communicate(text, voice, rate=RATE, boundary="WordBoundary")
-            words = []
+            ws = []
             with open(out, "wb") as fh:
                 async for ch in comm.stream():
                     if ch["type"] == "audio":
                         fh.write(ch["data"])
                     elif ch["type"] == "WordBoundary":
-                        words.append((ch["offset"] / 1e7, ch["duration"] / 1e7, ch["text"]))
-            return words
+                        ws.append((ch["offset"] / 1e7, ch["duration"] / 1e7, ch["text"]))
+            return ws
+        try:
+            # edge-tts can hang on a stalled websocket; give each voice a bounded time
+            return await asyncio.wait_for(one(), TTS_TIMEOUT)
         except Exception:
             continue
     raise RuntimeError("TTS failed for all voices")
@@ -72,7 +76,11 @@ def narrate(segments: list[str], tmp: Path, gap=0.28):
     parts, spans, words, t = [], [], [], 0.25
     for i, text in enumerate(segments):
         mp3 = tmp / f"seg{i}.mp3"
-        w = asyncio.run(_tts(text, mp3))
+        try:
+            w = asyncio.run(_tts(text, mp3))
+        except Exception:  # one retry after a short pause (network blips, rate limits)
+            time.sleep(3)
+            w = asyncio.run(_tts(text, mp3))
         d = duration(mp3)
         spans.append((t, t + d))
         words += [(t + o, t + o + du, s) for o, du, s in w]
@@ -303,16 +311,8 @@ def render(story: dict, script: dict, out_mp4: Path, poster: Path, size=720, mus
             frame.alpha_composite(scrim_rgba)
         d = ImageDraw.Draw(frame)
 
-        # progress bar, segmented like stories
-        gx, gy, gw, gh = int(24 * k), int(22 * k), W - int(48 * k), max(4, int(6 * k))
-        nseg, gap = len(seg_bounds), int(6 * k)
-        sw = (gw - gap * (nseg - 1)) / nseg
-        for i, (sa, sb) in enumerate(seg_bounds):
-            x0 = gx + i * (sw + gap)
-            d.rounded_rectangle((x0, gy, x0 + sw, gy + gh), gh // 2, fill=(255, 255, 255, 90))
-            fill = 1.0 if t >= sb else max(0.0, (t - sa) / (sb - sa)) if t >= sa else 0
-            if fill > 0:
-                d.rounded_rectangle((x0, gy, x0 + max(gh, sw * fill), gy + gh), gh // 2, fill=(255, 255, 255, 255))
+        # source/topic badges top-left (no Stories-style progress ticks since 2026-11-20)
+        gx, gy = int(24 * k), int(22 * k)
         bx = gx
         for bimg in badges:
             frame.alpha_composite(bimg, (bx, gy + int(22 * k)))

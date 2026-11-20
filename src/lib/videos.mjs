@@ -37,6 +37,7 @@ export function parseVideoManifest(data, base = "/") {
       captions: mediaUrl(v.captions, base, "vtt"),
       duration: Number.isFinite(v.duration) ? v.duration : 0,
       pinned: v.pinned === true,
+      ticks: v.ticks === true,
       transcript: typeof v.transcript === "string" ? v.transcript.slice(0, 2000) : "",
       createdAt: typeof v.createdAt === "string" && !Number.isNaN(Date.parse(v.createdAt)) ? v.createdAt : "1970-01-01T00:00:00Z",
     });

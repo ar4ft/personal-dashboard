@@ -106,8 +106,10 @@
   background: #000;
   object-fit: contain;
   object-position: center bottom;
-  /* Videos are 720×1280; the Stories-style ticks are painted at y=22–28.
-     Crop the top 32px here only. The text reader still shows the full frame. */
+}
+#video-news #news-swipe-dialog .reel-media video.has-ticks {
+  /* Legacy videos ("ticks": true in videos.json, rendered before 2026-11-20) are 720×1280 with
+     Stories-style ticks painted at y=22–28. Crop the top 32px here only. The text reader still shows the full frame. */
   transform-origin: center bottom;
   transform: scale(calc(1280 / 1248));
 }

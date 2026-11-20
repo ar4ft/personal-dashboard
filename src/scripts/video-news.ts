@@ -192,6 +192,7 @@ async function init(root: HTMLElement) {
       reel.setAttribute("aria-label", `Video ${i + 1}: ${v.title}`);
       const media = el("figure", "reel-media");
       const video = el("video", "reel-cover reel-inline-video");
+      if (v.ticks) video.classList.add("has-ticks"); // legacy render: crop the top ticks
       video.src = v.src;
       if (v.poster) video.poster = v.poster;
       video.muted = true;
