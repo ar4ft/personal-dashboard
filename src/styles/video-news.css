@@ -99,12 +99,17 @@
   width: auto;
   height: auto;
   z-index: 0;
+  overflow: hidden;
 }
 #video-news #news-swipe-dialog .reel-media video,
 #video-news #news-swipe-dialog .reel-inline-video {
   background: #000;
   object-fit: contain;
   object-position: center bottom;
+  /* Videos are 720×1280; the Stories-style ticks are painted at y=22–28.
+     Crop the top 32px here only. The text reader still shows the full frame. */
+  transform-origin: center bottom;
+  transform: scale(calc(1280 / 1248));
 }
 #video-news #news-swipe-dialog .reel-shade,
 #video-news #news-swipe-dialog .reel-backdrop,
