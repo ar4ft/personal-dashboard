@@ -12,7 +12,8 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: pages-${{ github.ref }}
+  # a skipped workflow_run (Video News failed) gets its own group so it never cancels a real deploy
+  group: pages-${{ github.ref }}${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion != 'success' && format('-skip-{0}', github.run_id) || '' }}
   cancel-in-progress: true
 jobs:
   build:

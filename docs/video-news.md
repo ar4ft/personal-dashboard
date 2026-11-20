@@ -90,13 +90,43 @@ In the reader, the video fills the screen (contained on black) with no gray over
 
 News swipe reels also play the matching video inline when one exists, and still offer **Watch video** to open this reader at that story.
 
-## Recommended invocation (curation routine)
+## Automatic pipeline (GitHub Actions)
+
+Since 2026-11-20 videos are made by `.github/workflows/video-news.yml` on `ar4ft/personal-dashboard`, with no agent
+involved. Agents only add news (and optionally `video/scripts/<slug>.json`); see [`docs/video-agents.md`](video-agents.md).
+
+- **Triggers:** a push to `main` touching `public/feed.json` or `video/scripts/**`; a schedule every 3 h (`:17`); manual
+  `workflow_dispatch` with optional `ids` (space separated) and `max`. `concurrency: video-news` runs one at a time
+  without cancelling (a newer queued run replaces an older queued one, which is fine: every run picks all missing).
+- **Stories:** `ids` input, else `video/pick_ids.py --days 3 --max 20` (news items created in the last 3 days with no
+  `feedId` in `videos.json`, newest first).
+- **Steps:** Python 3.13 + pinned `video/requirements.txt` (pip cache), ffmpeg (apt), Bricolage Grotesque + Inter from
+  `google/fonts` (cached), the runner's preinstalled Google Chrome for screenshots, `npm ci`; then
+  `make.py --ingest-only` → `autoscript.py` (writes scripts only where none exist) →
+  `make.py --host jsdelivr --retain-days 60 --sync-pins --story-timeout 300` (also runs with no stories, for retention,
+  pins and the media README) → `npm test` → commit `public/videos.json`, `public/media/videos`, `video/scripts` and push
+  with up to 5 `pull --rebase` retries. Timeout 45 min.
+- **Scripts:** a hand-written `video/scripts/<slug>.json` always wins. Otherwise `video/autoscript.py` builds a
+  deterministic, LLM-free extractive script: hook from the title (≤ 10 words) + 3 beats picked from the story text,
+  70–90 words, no URLs/emoji/code, `"auto": true`. Stories without enough clean text get no video.
+- **Media push:** `host_jsdelivr.py` clones/pushes `git@github.com:ar4ft/dashboard-videos.git` (env `VIDEOS_REMOTE`)
+  with an SSH deploy key (write access to that repo only) from the secret `VIDEOS_DEPLOY_KEY`; the github.com host key is
+  checked against GitHub's published fingerprint. On the box it still uses `https://github.com/…` + `gh`.
+- **Redeploy:** pushes made with `GITHUB_TOKEN` never trigger workflows, so `deploy.yml` also runs on
+  `workflow_run: ["Video News"] completed` (only when it succeeded) and deploys `main`.
+- **Loop protection:** the bot's commits cannot trigger `push` workflows, and the job also skips when the actor is
+  `github-actions[bot]`.
+- **Social 1080p copies are not made in CI** (720p is rendered directly). Make them locally with `--social-dir` if ever
+  needed; never post them.
+- **TTS:** edge-tts (Ava) works from GitHub-hosted runners (verified 2026-11-20).
+
+## Manual invocation (box, if Actions is unavailable)
 
 ```sh
 cd /workspace/dashboard/repo && PY=/workspace/video-venv/bin/python
-# one video per new news story: IDS = every news item added this run that has no video yet
+IDS=$($PY video/pick_ids.py --days 3 --max 20)
 $PY -W ignore video/make.py --ids $IDS --ingest-only --work /workspace/video-work < /dev/null
-# write video/scripts/<slug>.json for each fetched story (skip stories that could not be fetched), then:
+$PY video/autoscript.py --ids $IDS --work /workspace/video-work --scripts video/scripts   # or write scripts by hand
 $PY -W ignore video/make.py --ids $IDS --scripts video/scripts --work /workspace/video-work \
     --social-dir /workspace/video-social/$(date +%F) --host jsdelivr --retain-days 60 --sync-pins \
     --story-timeout 300 < /dev/null

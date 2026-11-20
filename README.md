@@ -97,6 +97,30 @@ Set `DASHBOARD_BROWSER_EXECUTABLE=/path/to/chromium` to use an installed Chromiu
 
 The published [llms.txt](https://ar4ft.github.io/personal-dashboard/llms.txt) (also available as `llm.txt`) explains the feed contract, stable IDs, images, validation, persistence, and authorized publishing. [AGENTS.md](AGENTS.md) covers repository work. [agent-policy.json](public/agent-policy.json) describes the authorization rules; it is documentation, not a write endpoint. Only owner-authorized agents/producers with GitHub write access can publish.
 
+## Video News handover
+
+Videos for every news story are rendered and hosted by GitHub Actions; nothing runs on a private machine.
+
+- **Flow:** push news to `public/feed.json` → workflow **Video News** (`.github/workflows/video-news.yml`, also every
+  3 h and on demand: Actions › Video News › Run workflow, optional `ids`) renders the videos, uploads MP4s to
+  [ar4ft/dashboard-videos](https://github.com/ar4ft/dashboard-videos) (served by jsDelivr), commits `public/videos.json`,
+  posters, captions and scripts to `main`, and **Deploy dashboard to GitHub Pages** redeploys after it. Details:
+  `docs/video-news.md`; agent prompt: `docs/video-agents.md`.
+- **Keep a video forever (pin):** tap **Keep forever** in the reader (opens a `Keep video: <id>` issue; only issues by
+  `ar4ft` count, synced on the next run), or locally `python video/make.py --pin <video-or-feed-id> --host jsdelivr`.
+  Unpin: close the issue and run `--unpin <id>`.
+- **Change retention:** edit `--retain-days 60` in `.github/workflows/video-news.yml` (expired unpinned day branches in
+  the media repo are deleted; pinned copies live on `pinned-*` branches forever).
+- **Secrets:** one Actions secret on this repo, `VIDEOS_DEPLOY_KEY` (Settings › Secrets and variables › Actions): the
+  private half of an SSH deploy key with write access to `ar4ft/dashboard-videos` only (that repo › Settings › Deploy
+  keys, "personal-dashboard Actions (Video News)"). Commits back to this repo use the built-in `GITHUB_TOKEN`.
+- **Rotate the deploy key:** `ssh-keygen -t ed25519 -N "" -C video-news -f /tmp/vk`;
+  `gh repo deploy-key add /tmp/vk.pub -R ar4ft/dashboard-videos -w -t "personal-dashboard Actions (Video News)"`;
+  `gh secret set VIDEOS_DEPLOY_KEY -R ar4ft/personal-dashboard < /tmp/vk`; delete the old key
+  (`gh repo deploy-key list/delete -R ar4ft/dashboard-videos`); `shred -u /tmp/vk /tmp/vk.pub`.
+- **Costs:** none. Both repos are public, so Actions minutes are free; jsDelivr, GitHub Pages, edge-tts and the
+  fonts are free. A run takes ~3 min plus ~1 min per story.
+
 ## Phone experience
 
 News and Ideas open directly in a vertical swipe reader. On phones and tablets, Home, News, Ideas and Plan stay available in the bottom navigation; larger screens use the left sidebar with a centered reader. Swipe up/down or use the arrows to browse. Save, Track, Read, Source and Share sit on the right, along with a board-column selector. The top-right + adds an item; the menu opens search, topics, favorites, subsections, Feed/Timeline/Kanban views, editing, backups and App settings. Closing details returns to the current story. Image-free and failed-image stories keep a plain green-to-dark gradient without repeated text. The reader loads cards in batches and supports landscape, safe-area insets, keyboard controls and reduced-motion preferences.

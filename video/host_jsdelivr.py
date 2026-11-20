@@ -13,7 +13,7 @@ Commits are built with git plumbing (no checkout), pushed with the gh-configured
 Retention deletes whole expired day branches (never rewrites history) after copying pinned videos out.
 """
 from __future__ import annotations
-import os, re, subprocess, urllib.request
+import os, re, subprocess, time, urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -98,10 +98,18 @@ class Host:
             if f and f[0] == blob:
                 sha = self.git("log", "-n1", "--format=%H", f"refs/remotes/origin/{b}", "--", mp4.name)
                 return self.url(sha, mp4.name)
-        branch, files, new = self._target(prefix, mp4.stat().st_size)
-        files[mp4.name] = blob
-        sha = self._commit(branch, files, new, f"video {mp4.stem}")
-        return self.url(sha, mp4.name)
+        # another writer (box run vs. Actions) may push the same branch meanwhile: refetch and rebuild on rejection
+        for attempt in range(4):
+            branch, files, new = self._target(prefix, mp4.stat().st_size)
+            files[mp4.name] = blob
+            try:
+                sha = self._commit(branch, files, new, f"video {mp4.stem}")
+                return self.url(sha, mp4.name)
+            except Exception:
+                if attempt == 3:
+                    raise
+                time.sleep(3 * (attempt + 1))
+                self.fetch()
 
     def copy_to_pinned(self, url: str) -> str:
         m = URL_RE.match(url)

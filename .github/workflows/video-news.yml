@@ -96,7 +96,7 @@ jobs:
       - name: Render, upload to jsDelivr, retention, pins, index
         run: |
           python -W ignore video/make.py --ids ${{ steps.pick.outputs.ids }} --scripts video/scripts --work "$WORK" \
-            --host jsdelivr --retain-days 60 --sync-pins --story-timeout 300 < /dev/null 2>&1 | tee "/tmp/render.log"
+            --host jsdelivr --media-clone /tmp/dashboard-videos --retain-days 60 --sync-pins --story-timeout 300 < /dev/null 2>&1 | tee "/tmp/render.log"
           exit ${PIPESTATUS[0]}
       - name: Test and commit
         if: success() || failure()

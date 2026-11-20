@@ -1,7 +1,8 @@
 # Video News pipeline
 
 Turns news items from `public/feed.json` into short vertical (9:16) narrated videos for the
-**Video news** page (`/videos/`). Everything is free and runs from code on the curation box.
+**Video news** page (`/videos/`). Everything is free. It runs automatically in GitHub Actions
+(`.github/workflows/video-news.yml`, see `docs/video-news.md` › Automatic pipeline); the commands below are for local runs.
 
 ```
 feed item ──► ingest.py ──► story.json ──► script (agent-written or auto) ──► render.py ──► MP4 + poster + VTT
@@ -29,7 +30,9 @@ PY=/workspace/video-venv/bin/python
 # 1. fetch the real stories (article text, facts, images, screenshots) into the work dir
 $PY video/make.py --ids hn:50572503 x:2123708574790553715 --ingest-only --work /tmp/video-work
 # 2. (recommended) the curation agent reads /tmp/video-work/<slug>/story.json and writes video/scripts/<slug>.json
-# 3. render; items without a script get an automatic extractive script
+#    or generate deterministic extractive scripts for the rest (never overwrites existing ones):
+$PY video/autoscript.py --ids hn:50572503 x:2123708574790553715 --work /tmp/video-work --scripts video/scripts
+# 3. render; items still without a script get an automatic extractive script (same autoscript.py)
 $PY video/make.py --ids hn:50572503 x:2123708574790553715 --scripts video/scripts --work /tmp/video-work \
     --social-dir /workspace/video-social/$(date +%F) --sync-pins
 ```

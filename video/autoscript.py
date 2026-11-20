@@ -183,7 +183,7 @@ def stat_of(s: str) -> tuple[str, str] | None:
         prev = s[:m.start()].rstrip().split()[-1:] or [""]
         if re.search(r"[A-Za-z]\d|^v$|version", prev[0]):
             continue  # model names / versions (LFM3 1.7B, v2 3.0)
-        tail = re.split(r"[,.;:()!?]", s[m.end():], 1)[0]
+        tail = re.split(r"[,.;:()!?]", s[m.end():], maxsplit=1)[0]
         lab = [w for w in tail.split()][:4]
         if lab and lab[0].lower() == "of":
             lab.pop(0)
