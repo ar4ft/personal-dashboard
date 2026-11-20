@@ -51159,6 +51159,238 @@
       ],
       "createdAt": "2026-11-20T14:20:00Z",
       "content": "## How it works\n\nThe app scans installed bundles and works out where each one came from: a Mac App Store receipt, a Homebrew cask, a Sparkle appcast URL in Info.plist, or a plain download with quarantine metadata naming the source site. It then checks for updates the right way for each: brew outdated for casks, the appcast for Sparkle apps, the App Store for store apps, and a release page or RSS feed for the rest. The menu bar shows what is outdated, apps installed twice through different channels, apps with no update in two years, and apps not native to Apple silicon.\n\n```mermaid\nflowchart LR\n  Scan[Scan /Applications] --> Origin[Detect origin]\n  Origin --> Store[App Store]\n  Origin --> Brew[Homebrew cask]\n  Origin --> Sparkle[Sparkle feed]\n  Origin --> Web[Direct download]\n  Store --> Check[Check for updates]\n  Brew --> Check\n  Sparkle --> Check\n  Web --> Check\n  Check --> Menu[Menu bar list and one-click update]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| UI | SwiftUI MenuBarExtra |\n| Origin detection | App Store receipts, brew list --cask, Info.plist, quarantine xattrs |\n| Update checks | brew outdated, Sparkle appcast XML, GitHub releases API |\n| Storage | SQLite cache of last checks |\n| Distribution | Notarized direct download, free |\n\n## Hard parts\n\n- Direct-download apps rarely expose a machine-readable update source.\n- App Store update checks without private APIs.\n- Running Homebrew from a sandboxed or notarized app.\n- Not breaking apps that update themselves.\n\n## Effort\n\nA weekend for the origin-detection script; two to three weeks for a menu bar app with update checks for the main channels.\n\n## Inspired by\n\n- [synchrium's Mimoto post on X](https://x.com/synchrium_dev/status/2123773113326555219)\n- [Mimoto on GitHub](https://github.com/synchrium/Mimoto)"
+    },
+    {
+      "id": "hn:50574968",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Levent Alpöge says he and Claude proved the Generalized Riemann Hypothesis, with a full Lean formalization",
+      "description": "Mathematician Levent Alpöge posted a short note claiming that, working with Anthropic's Claude, he found a proof of the Riemann Hypothesis that extends to the Generalized Riemann Hypothesis, and that the argument has been formalized in Lean.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "iamronaldo",
+      "url": "https://alpo.ge/remark.pdf",
+      "createdAt": "2026-11-20T14:16:21Z",
+      "updatedAt": "2026-11-20T14:16:21Z",
+      "content": "Alpöge writes that Claude \"far outpaced\" him near the finish line, suggesting an argument built on chaining theta lifts to mimic multiplicity in a descendant of Stepanov's function-field method. Instead of a long unreadable paper he is releasing only the Lean development, split into 14 archive parts, and plans a proper human-readable write-up. Scott Aaronson notes the formalization is about 17.4 million lines of Lean, and that verification by the community is still to come.\n\n[Scott Aaronson's reaction](https://scottaaronson.blog/?p=10344)\n\n[Terence Tao on the news](https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50574968)"
+    },
+    {
+      "id": "hn:50581260",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Thinking Machines releases Inkling 2 Mini, a looped open-weights MoE that runs on a laptop",
+      "description": "Inkling 2 Mini is a 26.4B-parameter Mixture-of-Experts model (3.4B active) that runs its middle layers three times per token; Thinking Machines says it leads open models under 100B parameters on DeepSWE v1.1 (48.2%) and fits in about 20 GB.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "jasondavies",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "createdAt": "2026-11-20T20:12:19Z",
+      "updatedAt": "2026-11-20T20:12:19Z",
+      "content": "Most weights are trained and deployed natively in NVFP4 (last four layers in MXFP8). Looping lets the model reason more without writing reasoning tokens, so the lab also released a variable-loop research variant to study chain-of-thought monitorability: its no-CoT time horizon grew from 16 to 37 seconds going from one to three loops, while its chain of thought stayed legible. The team ran it offline on an M5 Pro MacBook Pro on a flight and had it build a playable flight simulator. Hugging Face shipped day-one support in transformers, llama.cpp and MLX, and Unsloth published GGUFs.\n\n[Hugging Face blog](https://huggingface.co/blog/inkling2mini)\n\n[HN discussion](https://news.ycombinator.com/item?id=50581260)"
+    },
+    {
+      "id": "hn:50577265",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Language models can rewrite their own weights, with no gradients",
+      "description": "An arXiv paper shows an open 27B model that, given its weights, graded answers and the ability to run itself, diagnoses its failures and edits its own weights, gaining 6.6 points of accuracy on unseen problems without any training step.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "lwhsiao",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "createdAt": "2026-11-20T16:29:06Z",
+      "updatedAt": "2026-11-20T16:29:06Z",
+      "content": "The authors call it self-rewriting: the model acts as its own optimizer using only forward passes. It tests edits on practice problems and submits only those that help, improving across eight consecutive sessions, and it can repair a damaged copy of itself back to over 80% of the original accuracy on unseen image tasks without reading the original weights. The ability appears with scale: smaller models in the same family make no edits or break themselves.\n\n[Paper PDF](https://arxiv.org/pdf/2611.21885)\n\n[HN discussion](https://news.ycombinator.com/item?id=50577265)"
+    },
+    {
+      "id": "hn:50575644",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mozilla: why there are still no non-WebKit browsers on iOS",
+      "description": "Mozilla says that nearly three years after Apple allowed alternative browser engines in the EU, and almost a year after Japan, no developer has shipped a non-WebKit iOS browser because Apple's conditions remain unworkable.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "lapcat",
+      "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+      "createdAt": "2026-11-20T15:03:31Z",
+      "updatedAt": "2026-11-20T15:03:31Z",
+      "content": "As one example, Mozilla says it could not simply update the existing Firefox app to use Gecko: it would have to ship a separate second Firefox app and ask every user to migrate bookmarks, passwords and history by hand. Firefox daily use on iOS has doubled since the DMA browser choice screen, but Mozilla calls Apple's open door \"more like a trap door\" and says it will keep pushing for a level playing field.\n\n[HN discussion](https://news.ycombinator.com/item?id=50575644)"
+    },
+    {
+      "id": "hn:50523241",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Soksolv: the world's strongest Sokoban solver, built entirely by coding agents",
+      "description": "Andrew Healey's Soksolv solves more levels than any published Sokoban solver on both standard benchmark suites, including 24 world-first automated solves, and is about 3.2x faster in total time on levels others can solve.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ibobev",
+      "url": "https://healeycodes.com/introducing-the-worlds-strongest-sokoban-solver",
+      "createdAt": "2026-11-16T21:04:01Z",
+      "updatedAt": "2026-11-16T21:04:01Z",
+      "content": "Healey did not hand-write any code: one 14-day Opus 5.5 session in Claude Code orchestrated about 430 subagents for an API-equivalent cost of roughly $3,500, plus 15,000 vCPU-hours of research and benchmark runs. The post explains why Sokoban (PSPACE-complete, branching factor around 16 and up to 176) punishes naive heuristics like greedy box-on-goal search, and walks through the bag of strategies the solver uses.\n\n[HN discussion](https://news.ycombinator.com/item?id=50523241)"
+    },
+    {
+      "id": "hn:50579297",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vibecoding an inference chip: coding agents took an FPGA LLM from 6 to 213 tokens/s",
+      "description": "Ankit Gupta used coding agents to program an AWS F2 FPGA to run an LLM bit-exactly, then let an autoresearch loop push throughput from 6.43 to 213 tokens per second, 33x the baseline.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "ankitvgupta",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "createdAt": "2026-11-20T18:15:16Z",
+      "updatedAt": "2026-11-20T18:15:16Z",
+      "content": "Most of the C++ and Verilog was written by agents; the loop ran hundreds of experiments, wrote about 3M lines across its history and cost about $10,000 in Claude and OpenAI tokens. Gains came from many compounding ~1.5x steps: host overhead cuts, burst attention, a parallel router, exact speculative decoding with a draft model on the host CPU, doubled memory ports and 2-bit packed weights streamed from HBM. The final f2.6xlarge image beat an exact 32-core Zen 5 CPU twin by 1.65x at a similar hourly price.\n\n[HN discussion](https://news.ycombinator.com/item?id=50579297)"
+    },
+    {
+      "id": "hn:50537492",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Automatic checking of compiler correctness with e-graphs",
+      "description": "Adam Chlipala describes upcoming POPL 2027 work from MIT that uses e-graphs to automatically prove compilers correct, taking a compiler definition for a language the tool has never seen, with no proof-guiding annotations.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "g0xA52A2A",
+      "url": "https://stng.substack.com/p/automatic-checking-of-compiler-correctness",
+      "createdAt": "2026-11-17T20:12:34Z",
+      "updatedAt": "2026-11-17T20:12:34Z",
+      "content": "The post is part of Chlipala's series on building correct, efficient programs step by step from proven rewrite rules, which he presents as an alternative to how AI coding agents are mostly used today. Earlier tools like Cobalt and Rhodium only handled fixed languages; this one, from first author Dustin Jamner's PhD work with Tilek Askerbekov, is described as a general proof-automation tool, with the caveat that the compilers in scope look different from GCC or Clang.\n\n[HN discussion](https://news.ycombinator.com/item?id=50537492)"
+    },
+    {
+      "id": "hn:50496787",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Zigzag, a lightweight native Mac browser for people leaving Arc",
+      "description": "Zigzag is a free, open-source (Apache 2.0) macOS browser written in Swift on WebKit, with sidebar tabs grouped into spaces, about 35 MB installed, no account and no telemetry.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "ZigaoWang",
+      "url": "https://github.com/ZigaoWang/zigzag",
+      "createdAt": "2026-11-14T13:17:10Z",
+      "updatedAt": "2026-11-14T13:17:10Z",
+      "content": "Built by a high school student in Shanghai as an Arc alternative, it supports split view, an ad blocker and Chrome and Safari extensions, and needs macOS 15.4 or later. It can be installed with Homebrew via the zigaowang/tap cask.\n\n[Website](https://zigzagbrowser.com)\n\n[HN discussion](https://news.ycombinator.com/item?id=50496787)"
+    },
+    {
+      "id": "x:2123882069403283707",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Katamaran: an open-source Docker and Linux runtime for Apple silicon Macs",
+      "description": "Katamaran runs Docker containers and LXC Linux machines inside one lightweight VM on Apple silicon, pairing a patched libkrun/Hypervisor.framework monitor with a native Swift app; its author says it matches or beats OrbStack.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Nikola Milojević (@nklmilojevic)",
+      "url": "https://katamaran.rs",
+      "createdAt": "2026-11-20T20:51:59Z",
+      "updatedAt": "2026-11-20T20:51:59Z",
+      "content": "Bind mounts go through a macOS virtio-fs server with direct FUSE hypercalls and FSEvents cache invalidation, networking runs in-process with gvproxy, and unused guest memory is returned to macOS in 64 KiB blocks. It includes the kat CLI, automatic port forwarding and Rosetta support, needs an M1 or later Mac on macOS 15+, and is AGPL-3.0. It does not include Kubernetes.\n\n[Katamaran docs](https://katamaran.rs)\n\n[Post on X](https://x.com/nklmilojevic/status/2123882069403283707)"
+    },
+    {
+      "id": "x:2123816255027048541",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PocketDisplayJoe turns an iPhone into a second display for your Mac",
+      "description": "PocketDisplayJoe is an open-source Swift and SwiftUI app that creates a virtual monitor sized to the iPhone screen at 60 fps over USB or encrypted Wi-Fi, with touch working as a mouse.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "MisterJoeMock (@joedevmob1)",
+      "url": "https://github.com/joemockdao/PocketDisplayJoe",
+      "createdAt": "2026-11-20T16:30:28Z",
+      "updatedAt": "2026-11-20T16:30:28Z",
+      "content": "The pipeline is ScreenCaptureKit to VideoToolbox HEVC (with H.264 fallback) and hardware decoding on the phone. Wi-Fi uses TLS with a pre-shared key and only paired devices, with no accounts, cloud or analytics. It is about 2,500 lines with no third-party dependencies and an MIT license; the Mac side is a menu bar app.\n\n[Repo on GitHub](https://github.com/joemockdao/PocketDisplayJoe)\n\n[Post on X](https://x.com/joedevmob1/status/2123816255027048541)"
+    },
+    {
+      "id": "x:2123602482051903769",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Harbor 4.0: Swift 6 networking with REST, JSON-RPC 2.0 and WebSocket",
+      "description": "Javier Manzo released Harbor 4.0, a protocol-oriented Swift networking library built for Swift 6 strict concurrency, alongside LogBird 2.1, a simple Swift logging library.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "javi (@javitramp)",
+      "url": "https://github.com/javiermanzo/Harbor",
+      "createdAt": "2026-11-20T02:21:01Z",
+      "updatedAt": "2026-11-20T02:21:01Z",
+      "content": "Harbor declares each request as a Sendable struct and ships as three products: Harbor (REST with typed results that never throw, a multi-layer HTTP cache with ETags and offline fallback, multipart uploads, streaming and test mocks), HarborJRPC (JSON-RPC 2.0 calls and batches) and HarborWebSocket (an AsyncSequence of RFC 6455 messages). Both libraries are MIT-licensed; the announcement was posted in Spanish.\n\n[Harbor on GitHub](https://github.com/javiermanzo/Harbor)\n\n[LogBird on GitHub](https://github.com/javiermanzo/LogBird)\n\n[Post on X](https://x.com/javitramp/status/2123602482051903769)"
+    },
+    {
+      "id": "x:2123805319218204958",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mailpipe: let your local coding agent draft replies in Apple Mail",
+      "description": "Mailpipe is a now open-source Mac app that drafts Apple Mail replies with an agent CLI you already use, such as Codex CLI, Claude Code or OpenCode, leaving you to review, edit and send them yourself.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Cobb (@cobbbbbbbbb)",
+      "url": "https://github.com/cobbcheng/Mailpipe",
+      "createdAt": "2026-11-20T15:47:01Z",
+      "updatedAt": "2026-11-20T15:47:01Z",
+      "content": "Messages and drafts stay on your Mac, only incoming content you authorize is passed to the chosen agent, and nothing goes through a Mailpipe server. The code is MIT-licensed and the repo documents what gets sent to the agent.\n\n[Repo on GitHub](https://github.com/cobbcheng/Mailpipe)\n\n[Post on X](https://x.com/cobbbbbbbbb/status/2123805319218204958)"
+    },
+    {
+      "id": "x:2123822032122982822",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Dutch privacy watchdog tells people not to buy AI smart glasses",
+      "description": "The Dutch data protection authority (AP) tested six unnamed AI smart glasses and advised against buying them after they claimed to have called an ambulance when they had not, misread medicine instructions and gave dating advice about a minor.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Gunnar Michel (@bigmic2504)",
+      "url": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o",
+      "createdAt": "2026-11-20T16:53:25Z",
+      "updatedAt": "2026-11-20T16:53:25Z",
+      "content": "The glasses cost from under 100 euros to over 500 euros, but the AP did not name the brands or call for a sales ban. It acknowledged the devices can help people with visual impairments, but said that makes reliability even more important; the report also comes amid privacy worries about covert filming.\n\n[BBC News report](https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o)\n\n[Post on X](https://x.com/bigmic2504/status/2123822032122982822)"
     }
   ]
 }
