@@ -50986,6 +50986,179 @@
       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
       "createdAt": "2026-11-20T12:08:32Z",
       "updatedAt": "2026-11-20T12:08:32Z"
+    },
+    {
+      "id": "x:2123461832656781320",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Airbnb's fine-tuned 2B Gemma classifier matches frontier APIs at about 1% of the cost",
+      "description": "Airbnb Engineering benchmarked a fine-tuned Gemma 4 E2B policy classifier on one RTX Pro 6000: max F1 rose from 0.563 to 0.902, on par with the best frontier APIs, at 35 ms median latency versus about 900 ms.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Google Gemma (@googlegemma)",
+      "url": "https://x.com/googlegemma/status/2123461832656781320",
+      "createdAt": "2026-11-19T17:02:07Z",
+      "updatedAt": "2026-11-19T17:02:07Z",
+      "content": "The task screens listings for pricing and payment transparency violations, must answer within 200 ms and runs thousands of times per minute. Airbnb fine-tuned Gemma4-E2B on hundreds of thousands of de-identified in-domain examples through its internal GLOWC framework and served it with vLLM on a single GPU. Because the small model returns a score, the precision-recall threshold can be tuned freely, while frontier models only give a fixed yes or no. A detailed 2,700-word prompt helped big models a little but did not close the gap for models fast enough to deploy, and self-hosting only wins above roughly 15 to 30 requests per minute.\n\n[Airbnb Engineering write-up](https://airbnb.tech/ai-ml/frontier-quality-at-1-of-the-cost-a-production-benchmark-of-llm-classifiers/)\n\n[Post on X](https://x.com/googlegemma/status/2123461832656781320)"
+    },
+    {
+      "id": "x:2123722450940928092",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Asuka-FM trains a 206M text-to-image model from scratch on one RTX 4090 for under $55",
+      "description": "A new arXiv paper describes Asuka-FM, a 206M-parameter dual-stream diffusion transformer pretrained from scratch on a single RTX 4090 in about 160 hours at 512px, reaching 0.609 GenEval and 78.51 DPG.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "AI実践喫茶店 (@aipracticecafe)",
+      "url": "https://x.com/aipracticecafe/status/2123722450940928092",
+      "createdAt": "2026-11-20T10:17:43Z",
+      "updatedAt": "2026-11-20T10:17:43Z",
+      "content": "The authors pitch it as a micro-budget baseline for foundation-model research: system and architecture are co-designed for consumer hardware, and they claim Pareto-optimal DPG at only 0.066×10²¹ training FLOPs. It is a useful reference point for anyone wondering what image pretraining is possible on a single gaming GPU rather than a cluster.\n\n[Paper on arXiv](https://arxiv.org/abs/2611.26437)\n\n[Post on X](https://x.com/aipracticecafe/status/2123722450940928092)"
+    },
+    {
+      "id": "x:2123448675519320216",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "FreeVideo runs MiniMax H3 video generation locally in as little as 8 GB of VRAM",
+      "description": "FreeVideo is an Apache-2.0 desktop app for Windows, Mac and Linux that generates videos up to a minute long from text, image, video and audio inputs on your own GPU, with a built-in timeline editor and new H3 image support up to 16MP.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "DEATHLESS (@27_bishal)",
+      "url": "https://x.com/27_bishal/status/2123448675519320216",
+      "createdAt": "2026-11-19T16:09:50Z",
+      "updatedAt": "2026-11-19T16:09:50Z",
+      "content": "The project adapts its acceleration path to the hardware it finds, so it can run the open MiniMax H3 model with 8 GB of VRAM and 16 GB of RAM. Setup is download, install and prompt, with no cloud credits or subscription. The repo has about 3,600 stars; the post that surfaced it drew 200+ likes and 21k views.\n\n[Repo on GitHub](https://github.com/FlashML-org/FreeVideo)\n\n[Post on X](https://x.com/27_bishal/status/2123448675519320216)"
+    },
+    {
+      "id": "x:2123675279210242167",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ilias Ism open-sources 30 SEO skills and 4 MCP servers for Claude Code and Cursor",
+      "description": "Ilias Ism published his daily SEO and AI-search stack for coding agents: 30 SKILL.md skills for technical audits, programmatic SEO and Ahrefs or Search Console workflows, plus MCP servers for video transcripts, AI search visibility and tool benchmarks.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "ILIAS ISM (@illyism)",
+      "url": "https://x.com/illyism/status/2123675279210242167",
+      "createdAt": "2026-11-20T07:10:17Z",
+      "updatedAt": "2026-11-20T07:10:17Z",
+      "content": "All 30 skills install with one command, npx skills add Illyism/seo-skills, and work with Claude Code, Cursor and Codex. The pitch is that most agency retainers are a handful of checklists run once a month, so you hand them to your coding agent and review the PRs yourself. It is also a good real-world example of packaging a domain workflow as agent skills. The repo has about 1,400 stars and the post drew 370+ likes.\n\n[Repo on GitHub](https://github.com/Illyism/seo-skills)\n\n[Walkthrough of the workflows](https://il.ly/blog/seo-skills)\n\n[Post on X](https://x.com/illyism/status/2123675279210242167)"
+    },
+    {
+      "id": "x:2123663631136993554",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SkyRoads runs on the Analogue Pocket via a RISC-V computer inside the FPGA",
+      "description": "Bertrand Fan released an openFPGA core that plays the 1993 DOS game SkyRoads on the Analogue Pocket. It is not an emulator: the FPGA hosts a small RISC-V SoC running the game's decompiled C code.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Pixel Cherry Ninja (@PixelCNinja)",
+      "url": "https://x.com/PixelCNinja/status/2123663631136993554",
+      "createdAt": "2026-11-20T06:24:00Z",
+      "updatedAt": "2026-11-20T06:24:00Z",
+      "content": "The DOS hardware the game expects is either built as logic next to the CPU (VGA, AdLib, Sound Blaster samples, PC speaker) or written as C firmware (timer and keyboard interrupts, files). The same decompiled source also builds native and web ports. Versions 0.2.0 to 0.2.2 shipped on Nov 19, and the game itself is freeware.\n\n[Core on GitHub](https://github.com/bertrandom/skyroads-pocket)\n\n[Releases](https://github.com/bertrandom/skyroads-pocket/releases)\n\n[Post on X](https://x.com/PixelCNinja/status/2123663631136993554)"
+    },
+    {
+      "id": "x:2123685758058058190",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MOSS is an open-source, mostly 3D-printed tracked rover that picks up litter",
+      "description": "MOSS, built by @metrox_eth, is a tracked rover with a robotic arm and a rear bin for collecting trash. It went from concept to working prototype in two months with help from Codex, and the build is being shared openly.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "PCBWay (@PCBWayOfficial)",
+      "url": "https://x.com/PCBWayOfficial/status/2123685758058058190",
+      "createdAt": "2026-11-20T07:51:55Z",
+      "updatedAt": "2026-11-20T07:51:55Z",
+      "content": "The idea started while picking up trash in Thailand. In its first roadside test it handled tarmac, slopes and grass without jams for 8+ minutes and 70 m per track; a cheap $20 battery was the bottleneck, and better cells should give about 50 minutes per charge. Indoors, mapping and navigation are partly working; outdoors it is still teleoperated with a gamepad or VR controllers.\n\n[MOSS project page](https://www.showrobotics.ai/moss/)\n\n[Builder's demo video post](https://x.com/metrox_eth/status/2114238128903045532)\n\n[Post on X](https://x.com/PCBWayOfficial/status/2123685758058058190)"
+    },
+    {
+      "id": "x:2123773113326555219",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Mimoto shows where each Mac app came from and removes it the right way",
+      "description": "Mimoto is a free, MIT-licensed Mac app in beta that sorts installed apps by origin: App Store, Homebrew, website download or built by you. It shows who made each app and uninstalls it with its related files using the right method.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "synchrium (@synchrium_dev)",
+      "url": "https://x.com/synchrium_dev/status/2123773113326555219",
+      "createdAt": "2026-11-20T13:39:02Z",
+      "updatedAt": "2026-11-20T13:39:02Z",
+      "content": "Homebrew apps are removed through brew uninstall, so no stale cask records remain, while the others go with their support files. It solves the common problem of forgetting how you installed something and therefore how to update or remove it. The repo is brand new, created Nov 20.\n\n[Repo on GitHub](https://github.com/synchrium/Mimoto)\n\n[Post on X](https://x.com/synchrium_dev/status/2123773113326555219)"
+    },
+    {
+      "id": "x:2123420596209959064",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tabletist is a free, open-source TablePlus alternative for Postgres, MySQL and SQLite",
+      "description": "Tabletist is a fast database client written in Rust with egui for PostgreSQL, MySQL and SQLite, running on macOS, Linux and Windows. It was just listed on the MacPip free Mac app directory.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Igor Aleksandrov (@igor_alexandrov)",
+      "url": "https://x.com/igor_alexandrov/status/2123420596209959064",
+      "createdAt": "2026-11-19T14:18:16Z",
+      "updatedAt": "2026-11-19T14:18:16Z",
+      "content": "It targets developers who want a lightweight, free GUI for everyday queries and table browsing without a subscription. The repo has about 220 stars.\n\n[Repo on GitHub](https://github.com/igor-alexandrov/tabletist)\n\n[Tabletist on MacPip](https://macpip.com/apps/tabletist)\n\n[Post on X](https://x.com/igor_alexandrov/status/2123420596209959064)"
+    },
+    {
+      "id": "ideas:llm-classifier-crossover-cli",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "A CLI that tells you when to swap a frontier-API classifier for a fine-tuned small model",
+      "description": "A developer tool for backend and ML engineers who call a frontier LLM API for yes/no decisions like moderation, routing or tagging: it shadow-logs those calls, fine-tunes a small scoring model on the labels, sweeps thresholds, and reports F1, latency and cost side by side, including the requests-per-minute point where self-hosting wins.",
+      "nextStep": "Take one public labeled text classification dataset, run it through one frontier API with a short prompt, LoRA-tune Gemma 4 E2B with MLX on the same split, and write a script that prints max F1, p50/p99 latency and cost per 1,000 calls for both.",
+      "topics": [
+        "Programming",
+        "Machine Learning",
+        "AI"
+      ],
+      "createdAt": "2026-11-20T14:20:00Z",
+      "content": "## How it works\n\nYou point your app's LLM client at a tiny local proxy. It passes calls through unchanged but stores each prompt, verdict and latency. Once there are a few thousand examples, and ideally some human corrections, the CLI builds a held-out eval set, fine-tunes a small open model as a scoring classifier, and sweeps the decision threshold so you can pick precision over recall when false positives hurt. The report compares max F1, p50 and p99 latency and cost at your real traffic, and prints the break-even requests per minute, the same crossover Airbnb found at roughly 15 to 30 RPM.\n\n```mermaid\nflowchart LR\n  App[Your app] --> Proxy[Shadow proxy]\n  Proxy --> API[Frontier API]\n  Proxy --> Log[Prompts, verdicts, latency]\n  Log --> Eval[Held-out eval set]\n  Log --> Tune[Fine-tune small scorer]\n  Tune --> Sweep[Threshold sweep]\n  Eval --> Sweep\n  Sweep --> Report[F1, latency, cost, break-even RPM]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Proxy | Small Go or Python service speaking the OpenAI-compatible API |\n| Storage | SQLite or Parquet files |\n| Fine-tuning | MLX LoRA on a Mac, or a rented GPU hour with Unsloth |\n| Serving test | vLLM or llama.cpp server |\n| Report | Terminal table plus a static HTML or Markdown file |\n\n## Hard parts\n\n- API verdicts are noisy labels; you need a small human-reviewed slice to trust the eval.\n- Keeping logged prompts private and stripping personal data before training.\n- Honest cost math: GPU rental, idle time, cache discounts and peak traffic.\n- Label drift when the policy or prompt changes.\n\n## Effort\n\nA weekend for the offline benchmark script; two to three weeks for the proxy, training pipeline and report as a polished CLI.\n\n## Inspired by\n\n- [Google Gemma's post about Airbnb's benchmark on X](https://x.com/googlegemma/status/2123461832656781320)\n- [Airbnb Engineering: Frontier quality at 1% of the cost](https://airbnb.tech/ai-ml/frontier-quality-at-1-of-the-cost-a-production-benchmark-of-llm-classifiers/)"
+    },
+    {
+      "id": "ideas:mac-app-update-channels",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "A Mac menu bar app that updates every app through the channel it came from",
+      "description": "For Mac users with dozens of apps from the App Store, Homebrew, Sparkle feeds and direct downloads: detect each app's origin, check for updates through that channel, flag duplicates installed two ways and abandoned or Intel-only apps, and update in one place.",
+      "nextStep": "Write a Swift command-line script that walks /Applications, classifies each app by receipt, Homebrew cask list and Sparkle SUFeedURL in Info.plist, and prints origin, version and whether a newer version exists.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "createdAt": "2026-11-20T14:20:00Z",
+      "content": "## How it works\n\nThe app scans installed bundles and works out where each one came from: a Mac App Store receipt, a Homebrew cask, a Sparkle appcast URL in Info.plist, or a plain download with quarantine metadata naming the source site. It then checks for updates the right way for each: brew outdated for casks, the appcast for Sparkle apps, the App Store for store apps, and a release page or RSS feed for the rest. The menu bar shows what is outdated, apps installed twice through different channels, apps with no update in two years, and apps not native to Apple silicon.\n\n```mermaid\nflowchart LR\n  Scan[Scan /Applications] --> Origin[Detect origin]\n  Origin --> Store[App Store]\n  Origin --> Brew[Homebrew cask]\n  Origin --> Sparkle[Sparkle feed]\n  Origin --> Web[Direct download]\n  Store --> Check[Check for updates]\n  Brew --> Check\n  Sparkle --> Check\n  Web --> Check\n  Check --> Menu[Menu bar list and one-click update]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| UI | SwiftUI MenuBarExtra |\n| Origin detection | App Store receipts, brew list --cask, Info.plist, quarantine xattrs |\n| Update checks | brew outdated, Sparkle appcast XML, GitHub releases API |\n| Storage | SQLite cache of last checks |\n| Distribution | Notarized direct download, free |\n\n## Hard parts\n\n- Direct-download apps rarely expose a machine-readable update source.\n- App Store update checks without private APIs.\n- Running Homebrew from a sandboxed or notarized app.\n- Not breaking apps that update themselves.\n\n## Effort\n\nA weekend for the origin-detection script; two to three weeks for a menu bar app with update checks for the main channels.\n\n## Inspired by\n\n- [synchrium's Mimoto post on X](https://x.com/synchrium_dev/status/2123773113326555219)\n- [Mimoto on GitHub](https://github.com/synchrium/Mimoto)"
     }
   ]
 }
