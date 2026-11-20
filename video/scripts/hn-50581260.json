@@ -1,0 +1,20 @@
+{
+  "hook": "Thinking Machines releases Inkling 2 Mini, a looped open-weights MoE",
+  "hookText": "Thinking Machines releases Inkling 2 Mini, a looped open-weights MoE",
+  "beats": [
+    {
+      "say": "Inkling 2 Mini is a 26.4B-parameter Mixture-of-Experts model that runs its middle layers three times per token; Thinking Machines says it leads open models under 100B parameters on DeepSWE v1.1 and fits in about 20 GB.",
+      "visual": 1
+    },
+    {
+      "say": "Most weights are trained and deployed natively in NVFP4.",
+      "visual": 2
+    },
+    {
+      "say": "Inkling 2 Mini’s strengths mirror those of Inkling 2 Small: it does best on long-horizon agentic work and is the best among open-weights models of similar size on most tasks we measured.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

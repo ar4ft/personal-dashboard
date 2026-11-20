@@ -1,0 +1,22 @@
+{
+  "hook": "SSD prices may begin to decline in the latter half",
+  "hookText": "SSD prices may begin to decline in the latter half",
+  "beats": [
+    {
+      "say": "SSD prices may start to decline in the latter half of 2027, according to an analysis of storage pricing trends.",
+      "visual": 1
+    },
+    {
+      "say": "Hard drives will take longer, probably into 2028, because the factories that make them have already sold that output.",
+      "visual": 2
+    },
+    {
+      "say": "In its July NAND update, TrendForce said the market would run a 4 to 5% supply deficit through 2026, then move back into balance in the second half of 2027.",
+      "visual": 3,
+      "stat": "5%",
+      "statLabel": "supply deficit through"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

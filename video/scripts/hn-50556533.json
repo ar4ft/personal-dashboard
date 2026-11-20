@@ -1,0 +1,22 @@
+{
+  "hook": "15 million web servers on one VM with smoltcp, DPDK",
+  "hookText": "15 million web servers on one VM with smoltcp, DPDK",
+  "beats": [
+    {
+      "say": "A tongue-in-cheek but technical walkthrough of running over 15 million tiny web servers on one 1-core.",
+      "visual": 1
+    },
+    {
+      "say": "Starting from a 10-line C server, the author hits limits one by one: ephemeral port ranges, kernel socket memory and the cost of syscalls.",
+      "visual": 0
+    },
+    {
+      "say": "The kernel stack ran out of RAM at about 2.5 million servers; with smoltcp an idle server costs about 620 bytes and the run reached 16 million.",
+      "visual": 1,
+      "stat": "2.5 million",
+      "statLabel": "servers"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

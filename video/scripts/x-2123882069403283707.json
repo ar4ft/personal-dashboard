@@ -1,0 +1,20 @@
+{
+  "hook": "Katamaran: an open-source Docker and Linux runtime",
+  "hookText": "Katamaran: an open-source Docker and Linux runtime",
+  "beats": [
+    {
+      "say": "Katamaran runs Docker containers and LXC Linux machines inside one lightweight VM on Apple silicon, pairing a patched libkrun/Hypervisor.framework monitor with a native Swift app; its author says it matches or beats OrbStack.",
+      "visual": 1
+    },
+    {
+      "say": "It includes the kat CLI, automatic port forwarding and Rosetta support, needs an M1 or later Mac on macOS 15+, and is AGPL-3.0.",
+      "visual": 2
+    },
+    {
+      "say": "Networking runs in-process with gvproxy, and unused guest memory returns to macOS in 64 KiB blocks. katamaran requires an Apple silicon Mac running macOS 15 or later.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

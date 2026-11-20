@@ -1,0 +1,20 @@
+{
+  "hook": "Mailpipe: let your local coding agent draft replies",
+  "hookText": "Mailpipe: let your local coding agent draft replies",
+  "beats": [
+    {
+      "say": "Mailpipe is a now open-source Mac app that drafts Apple Mail replies with an agent CLI you already use, such as Codex CLI, Claude Code or OpenCode, leaving you to review, edit and send them yourself.",
+      "visual": 1
+    },
+    {
+      "say": "Messages and drafts stay on your Mac, only incoming content you authorize is passed to the chosen agent, and nothing goes through a Mailpipe server.",
+      "visual": 2
+    },
+    {
+      "say": "The code is MIT-licensed and the repo documents what gets sent to the agent.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

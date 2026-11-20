@@ -1,0 +1,20 @@
+{
+  "hook": "PocketDisplayJoe turns an iPhone into a second display",
+  "hookText": "PocketDisplayJoe turns an iPhone into a second display",
+  "beats": [
+    {
+      "say": "PocketDisplayJoe is an open-source Swift and SwiftUI app that creates a virtual monitor sized to the iPhone screen at 60 fps over USB or encrypted Wi-Fi, with touch working as a mouse.",
+      "visual": 1
+    },
+    {
+      "say": "The pipeline is ScreenCaptureKit to VideoToolbox HEVC and hardware decoding on the phone.",
+      "visual": 2
+    },
+    {
+      "say": "Wi-Fi uses TLS with a pre-shared key and only paired devices, with no accounts, cloud or analytics.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

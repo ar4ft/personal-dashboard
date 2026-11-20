@@ -1,0 +1,20 @@
+{
+  "hook": "Mozilla: why there are still no non-WebKit browsers on iOS",
+  "hookText": "Mozilla: why there are still no non-WebKit browsers on iOS",
+  "beats": [
+    {
+      "say": "Mozilla says that nearly three years after Apple allowed alternative browser engines in the EU, and almost a year after Japan.",
+      "visual": 1
+    },
+    {
+      "say": "As one example, Mozilla says it could not simply update the existing Firefox app to use Gecko.",
+      "visual": 2
+    },
+    {
+      "say": "Firefox daily use on iOS has doubled since the DMA browser choice screen, but Mozilla calls Apple's open door \"more like a trap door\" and says it will keep pushing.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

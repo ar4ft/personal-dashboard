@@ -1,0 +1,20 @@
+{
+  "hook": "Natalia Panferova compares SwiftUI's scroll-driven effect APIs",
+  "hookText": "Natalia Panferova compares SwiftUI's scroll-driven effect APIs",
+  "beats": [
+    {
+      "say": "A Nil Coalescing guide to when to use scrollTransition, visualEffect, onScrollGeometryChange and onScrollVisibilityChange for effects tied to scroll position in SwiftUI.",
+      "visual": 1
+    },
+    {
+      "say": "The post shows examples of each and how to choose between them. SwiftUI provides several ways to tie the appearance of content to its position as the user scrolls.",
+      "visual": 2
+    },
+    {
+      "say": "The scrollTransition modifier applies an effect to a view as it enters and leaves the visible region of a scroll view.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

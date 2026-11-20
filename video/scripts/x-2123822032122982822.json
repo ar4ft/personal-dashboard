@@ -1,0 +1,20 @@
+{
+  "hook": "Dutch privacy watchdog tells people not",
+  "hookText": "Dutch privacy watchdog tells people not",
+  "beats": [
+    {
+      "say": "The Dutch data protection authority tested six unnamed AI smart glasses and advised against buying them after they claimed to have called an ambulance when they had not.",
+      "visual": 1
+    },
+    {
+      "say": "The glasses cost from under 100 euros to over 500 euros, but the AP did not name the brands or call for a sales ban.",
+      "visual": 2
+    },
+    {
+      "say": "The Dutch privacy watchdog, the Autoriteit Persoonsgegevens, has told people not to buy smart glasses, saying they can get things dangerously wrong.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

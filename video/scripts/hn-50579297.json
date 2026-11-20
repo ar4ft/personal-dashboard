@@ -1,0 +1,24 @@
+{
+  "hook": "Vibecoding an inference chip",
+  "hookText": "Vibecoding an inference chip",
+  "beats": [
+    {
+      "say": "Ankit Gupta used coding agents to program an AWS F2 FPGA to run an LLM bit-exactly, then let an autoresearch loop push throughput from 6.43 to 213 tokens per second, 33x the baseline.",
+      "visual": 1
+    },
+    {
+      "say": "Most of the C++ and Verilog was written by agents; the loop ran hundreds of experiments, wrote about 3M lines across its history and cost about $10,000 in Claude and OpenAI tokens.",
+      "visual": 2,
+      "stat": "3M",
+      "statLabel": "lines across"
+    },
+    {
+      "say": "The final f2.6xlarge image beat an exact 32-core Zen 5 CPU twin by 1.65x at a similar hourly price.",
+      "visual": 3,
+      "stat": "1.65x",
+      "statLabel": "at"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

@@ -1,0 +1,20 @@
+{
+  "hook": "Do not buy RAM, compress",
+  "hookText": "Do not buy RAM, compress",
+  "beats": [
+    {
+      "say": "A post argues that compressing RAM is a better answer than buying more memory, explaining how compression can stretch available memory.",
+      "visual": 1
+    },
+    {
+      "say": "Recently I was running out of memory, I found my solution in zram, a solution to compress memory. Often the CPUs were under little stress, so we could have avoided upgrading if we had enabled RAM compression.",
+      "visual": 0
+    },
+    {
+      "say": "Unfortunately not all Linux environments have RAM compression enabled by default. Compressing memory does come with small, but not really noticeable.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

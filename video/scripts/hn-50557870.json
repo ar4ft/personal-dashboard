@@ -1,0 +1,20 @@
+{
+  "hook": "What's New in PHP 8.6",
+  "hookText": "What's New in PHP 8.6",
+  "beats": [
+    {
+      "say": "PHP 8.6 is out, with the release notes covering what's new in the release.",
+      "visual": 1
+    },
+    {
+      "say": "Its representation is independent of any time and timezone and can represent a range of more than 250 years with nanosecond precision.",
+      "visual": 2
+    },
+    {
+      "say": "PHP 8.6 is a major update of the PHP language, with new features including Partial Function Application, a new Duration class, a Polling API, and a new clamp function.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
