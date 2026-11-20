@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "videos": [
+    {
+      "id": "video:x-2123708574790553715",
+      "itemId": "x:2123708574790553715",
+      "title": "Smorza gives every Mac app its own volume slider and output device",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/rokoodev/status/2123708574790553715",
+      "src": "media/videos/x-2123708574790553715.mp4",
+      "poster": "media/videos/x-2123708574790553715.jpg",
+      "captions": "media/videos/x-2123708574790553715.vtt",
+      "duration": 25.96,
+      "transcript": "Your Mac finally gets a volume slider for every app. Smorza just launched. Turn a call down, keep the music up, and send each app to the speakers or headphones you choose. It lives in your menu bar, and it installs no audio driver. It uses the audio taps Apple added in macOS 14.4. It's free and open source, for Apple silicon and Intel Macs. Full story on the dashboard.",
+      "createdAt": "2026-11-20T18:24:49Z"
+    },
+    {
+      "id": "video:hn-50569783",
+      "itemId": "hn:50569783",
+      "title": "Mapping every neuron in Qwen3-8B: single-neuron switches for language, persona and tone",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://www.fermionresearch.com/research/mapping-every-neuron-in-qwen3-8b/",
+      "src": "media/videos/hn-50569783.mp4",
+      "poster": "media/videos/hn-50569783.jpg",
+      "captions": "media/videos/hn-50569783.vtt",
+      "duration": 33.91,
+      "transcript": "Change one neuron, and this AI becomes a pirate. Fermion Research mapped every neuron in Qwen3 8B. Nudge neuron 7,601 in layer 9, and the model starts talking like a pirate. No prompt, no fine-tuning. They estimate about 5,000 real switches like this, roughly one neuron in a hundred, for language, persona and tone. And whenever the model reasons, through maths, code or a plan, the same group of about 140 neurons lights up. Full story on the dashboard.",
+      "createdAt": "2026-11-20T18:24:31Z"
+    },
+    {
+      "id": "video:hn-50572503",
+      "itemId": "hn:50572503",
+      "title": "Frostbite: a CPU architecture discovered, designed and verified end-to-end by AI",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://architectlabs.com/blog/frostbite",
+      "src": "media/videos/hn-50572503.mp4",
+      "poster": "media/videos/hn-50572503.jpg",
+      "captions": "media/videos/hn-50572503.vtt",
+      "duration": 37.46,
+      "transcript": "AI just designed an entire CPU by itself. Architect Labs calls it Frostbite: a general-purpose processor with a brand-new instruction set, discovered, designed and verified end to end by their AI systems. Across 25 workloads, 15 of them held back until the final test, it delivered 4.59 times the performance per watt of a modern, silicon-proven CPU core. A swarm of agents tried 58 design ideas and kept 37, using a chip simulator that runs 660 times faster than the real hardware model. Full story on the dashboard.",
+      "createdAt": "2026-11-20T18:22:37Z"
+    }
+  ]
+}

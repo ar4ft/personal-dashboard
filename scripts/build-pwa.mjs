@@ -11,7 +11,7 @@ const manifest = {
   lang: 'en', prefer_related_applications: false,
   background_color: '#126773', theme_color: '#126773',
   icons: [192, 512].map(size => ({src: `${base}icons/app-${size}.png`, sizes: `${size}x${size}`, type: 'image/png', purpose: 'any maskable'})),
-  shortcuts: ['news', 'ideas', 'planning'].map((section, i) => ({name: ['News', 'Project ideas', 'Todos & calendar'][i], url: `${base}${section}/`}))
+  shortcuts: ['news', 'videos', 'ideas', 'planning'].map((section, i) => ({name: ['News', 'Video news', 'Project ideas', 'Todos & calendar'][i], url: `${base}${section}/`}))
 };
 await writeFile('dist/manifest.webmanifest', JSON.stringify(manifest, null, 2));
 async function files(dir, prefix = '') {
@@ -24,7 +24,8 @@ async function files(dir, prefix = '') {
   }
   return result.sort();
 }
-const paths = (await files('dist')).filter(path => path !== 'sw.js');
+// Video News media stays network-only: precaching every MP4 would bloat installs.
+const paths = (await files('dist')).filter(path => path !== 'sw.js' && !/^media\/videos\//.test(path));
 const hash = createHash('sha256');
 for (const path of paths) { hash.update(path); hash.update(await readFile(`dist/${path}`)); }
 const version = hash.digest('hex').slice(0, 16);
@@ -53,7 +54,7 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET' || url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
   if (url.pathname === BASE + 'sw.js') return;
   const key = url.origin + url.pathname;
-  if (url.pathname === BASE + 'feed.json') {
+  if (url.pathname === BASE + 'feed.json' || url.pathname === BASE + 'videos.json') {
     event.respondWith((async () => {
       const cache = await caches.open(FEED_CACHE);
       try {

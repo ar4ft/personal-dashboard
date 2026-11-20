@@ -1,0 +1,10 @@
+{
+  "hook": "Your Mac finally gets a volume slider for every app.",
+  "hookText": "Every Mac app gets its own volume",
+  "beats": [
+    {"say": "Smorza just launched. Turn a call down, keep the music up, and send each app to the speakers or headphones you choose.", "visual": 1},
+    {"say": "It lives in your menu bar, and it installs no audio driver. It uses the audio taps Apple added in macOS 14.4.", "visual": 2, "stat": "14.4+", "statLabel": "macOS, no driver"},
+    {"say": "It's free and open source, for Apple silicon and Intel Macs.", "visual": 0, "stat": "$0", "statLabel": "free and open source"}
+  ],
+  "outro": "Full story on the dashboard."
+}

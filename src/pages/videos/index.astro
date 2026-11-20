@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="Video news" active="videos">
+<section id="video-news" class="video-news" data-base={import.meta.env.BASE_URL} aria-labelledby="video-news-title">
+  <div class="video-news-top"><h1 id="video-news-title">Video news</h1><span id="video-news-position" aria-live="polite"></span><button type="button" id="video-news-sound" aria-pressed="false">🔇 Sound off</button></div>
+  <div id="video-news-scroller" class="video-news-scroller" tabindex="0" aria-label="Swipe up or down to browse videos"></div>
+  <p id="video-news-status" role="status" aria-live="polite">Loading videos…</p>
+</section>
+</Layout>
+<script>import '../../scripts/video-news';</script>
