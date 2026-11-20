@@ -47,3 +47,11 @@
   2. Ask the curation agent ("keep the Frostbite video"); it runs `make.py --pin video:hn-50572503`.
   3. Edit `public/videos.json` and set `"pinned": true`.
 - Unpin with `make.py --unpin <id>` or by setting `false`.
+
+## Full-screen reader
+
+The Video news page lists poster cards with a **Full screen** button. Opening full screen, tapping a card, or following a `videos/#<id>` link (including **▶ Watch video** on News) uses the same swipe reader as News and Ideas: one video per screen, swipe up or down, arrow keys, and Esc to close.
+
+In the reader, the current video autoplays muted; tap the video or the sound control to unmute. Only the current video and the next one are preloaded. Swiping away pauses playback. Each reel keeps **Read the story ↗**, **In dashboard**, and **📌 Keep forever**.
+
+News swipe reels also play the matching video inline when one exists, and still offer **Watch video** to open this reader at that story.

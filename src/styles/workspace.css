@@ -858,7 +858,7 @@ dialog::backdrop {
   align-items: stretch;
 }
 /* A full-height vertical news reader, with the browser handling touch scroll and snapping. */
-#interactive-workspace #news-swipe-dialog {
+#news-swipe-dialog {
   padding: 0;
   inset: 0;
   margin: auto;
@@ -978,7 +978,7 @@ dialog::backdrop {
   display: flex;
   gap: 5px;
 }
-#interactive-workspace #news-swipe-dialog button {
+#news-swipe-dialog button {
   background: #ffffff15;
   color: white;
   border: 1px solid #ffffff30;
@@ -989,10 +989,10 @@ dialog::backdrop {
   padding: 9px;
   border-radius: 50%;
 }
-#interactive-workspace #news-swipe-dialog button:hover {
+#news-swipe-dialog button:hover {
   background: #ffffff30;
 }
-#interactive-workspace #news-swipe-dialog button:disabled {
+#news-swipe-dialog button:disabled {
   opacity: 0.3;
 }
 .reel-body {
@@ -1057,7 +1057,7 @@ dialog::backdrop {
   max-height: 34px;
   overflow: hidden;
 }
-#interactive-workspace #news-swipe-dialog .reel-read {
+#news-swipe-dialog .reel-read {
   border-radius: 22px;
   border: 0;
   background: #f2f5e8;
@@ -1100,7 +1100,7 @@ dialog::backdrop {
   color: #eef3e9;
   text-shadow: 0 1px 6px #0009;
 }
-#interactive-workspace #news-swipe-dialog .reel-actions button {
+#news-swipe-dialog .reel-actions button {
   font-size: 1.5625rem;
   width: 48px;
   height: 48px;
@@ -1108,11 +1108,11 @@ dialog::backdrop {
   border: 1px solid #ffffff24;
   backdrop-filter: blur(14px);
 }
-#interactive-workspace #news-swipe-dialog .reel-favorite[aria-pressed="true"] {
+#news-swipe-dialog .reel-favorite[aria-pressed="true"] {
   color: #f9d479;
   background: #785f2433;
 }
-#interactive-workspace #news-swipe-dialog .reel-column {
+#news-swipe-dialog .reel-column {
   display: block;
   width: 170px;
   min-height: 40px;
@@ -1160,7 +1160,7 @@ dialog::backdrop {
   color: #bccdb1;
 }
 @media (max-width: 720px) {
-  #interactive-workspace #news-swipe-dialog {
+  #news-swipe-dialog {
     width: 100%;
     height: 100dvh;
     max-height: 100dvh;
@@ -1216,7 +1216,7 @@ dialog::backdrop {
 }
 
 @media (max-width: 900px) {
-  #interactive-workspace #news-swipe-dialog {
+  #news-swipe-dialog {
     width: 100%;
     height: 100dvh;
     max-height: 100dvh;
@@ -1266,7 +1266,7 @@ dialog::backdrop {
 }
 
 @media (max-width: 900px) {
-  #interactive-workspace #news-swipe-dialog .reel-column {
+  #news-swipe-dialog .reel-column {
     font-size: 1rem;
     min-height: 44px;
   }

@@ -1,5 +1,6 @@
 import { safeUrl } from "../lib/workspace.mjs";
 import type { Item, Column } from "../lib/workspace.mjs";
+import { installSwipeScroller } from "./swipe-scroller";
 type Options = {
   items: () => Item[];
   find: (id: string) => Item | undefined;
@@ -23,11 +24,8 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
   )!;
   const next = dialog.querySelector<HTMLButtonElement>("#news-swipe-next")!;
   let stories: Item[] = [],
-    index = 0,
     rendered = 0,
-    fingerprint = "",
-    interacted = false,
-    frame = 0;
+    fingerprint = "";
   const el = <K extends keyof HTMLElementTagNameMap>(
     tag: K,
     cls = "",
@@ -50,11 +48,8 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
     n.addEventListener("click", action);
     return n;
   };
-  const reducedMotion = () =>
-    matchMedia("(prefers-reduced-motion: reduce)").matches;
-  function sync() {
-    scroller.querySelectorAll<HTMLElement>(".news-reel").forEach((reel, i) => {
-      reel.inert = i !== index;
+  function paintControls() {
+    scroller.querySelectorAll<HTMLElement>(".news-reel").forEach((reel) => {
       const item = options.find(reel.dataset.id!);
       if (!item) return;
       const favorite = reel.querySelector<HTMLButtonElement>(".reel-favorite")!;
@@ -67,11 +62,6 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
       const select = reel.querySelector<HTMLSelectElement>(".reel-column")!;
       select.value = item.status;
     });
-    counter.textContent = stories.length
-      ? `${index + 1} / ${stories.length}`
-      : "No stories";
-    previous.disabled = index === 0 || !stories.length;
-    next.disabled = index >= stories.length - 1 || !stories.length;
   }
   function appendBatch(count = 20) {
     const end = Math.min(stories.length, rendered + count);
@@ -277,14 +267,25 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
         message.textContent = `Share this link: ${url}`;
     }
   }
-  function go(target: number) {
-    if (!stories.length) return;
-    target = Math.max(0, Math.min(stories.length - 1, target));
-    if (target >= rendered) appendBatch(target - rendered + 20);
-    scroller.scrollTo({
-      top: target * scroller.clientHeight,
-      behavior: reducedMotion() ? "instant" : "smooth",
-    });
+  const swipe = installSwipeScroller({
+    dialog,
+    scroller,
+    counter,
+    previous,
+    next,
+    count: () => stories.length,
+    emptyLabel: "No stories",
+    ensureVisible: (target) => {
+      if (target >= rendered) appendBatch(target - rendered + 20);
+    },
+    onNearEnd: (index) => {
+      message.textContent = "";
+      if (index >= rendered - 3 && rendered < stories.length) appendBatch();
+    },
+    onSync: paintControls,
+  });
+  function sync() {
+    swipe.sync();
   }
   function refresh(active: boolean) {
     if (!active) return;
@@ -298,17 +299,19 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
       sync();
       return;
     }
-    const currentId = interacted ? stories[index]?.id : undefined;
+    const currentId = swipe.getInteracted()
+      ? stories[swipe.getIndex()]?.id
+      : undefined;
     stories = nextStories;
     fingerprint = nextFingerprint;
-    index = Math.max(
+    const nextIndex = Math.max(
       0,
       stories.findIndex((item) => item.id === currentId),
     );
     rendered = 0;
     scroller.replaceChildren();
     message.textContent = "";
-    appendBatch(Math.max(20, index + 1));
+    appendBatch(Math.max(20, nextIndex + 1));
     if (!stories.length) {
       const empty = el("div", "reels-empty");
       empty.append(
@@ -321,111 +324,8 @@ export function installNewsSwipe(host: HTMLElement, options: Options) {
       );
       scroller.append(empty);
     }
-    scroller.scrollTo({
-      top: index * scroller.clientHeight,
-      behavior: "instant",
-    });
-    sync();
+    swipe.scrollToIndex(nextIndex, "instant");
   }
-  const resize = new ResizeObserver(() => {
-    if (!dialog.hidden)
-      scroller.scrollTo({
-        top: index * scroller.clientHeight,
-        behavior: "instant",
-      });
-  });
-  resize.observe(scroller);
-  scroller.addEventListener(
-    "scroll",
-    () => {
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        index = Math.max(
-          0,
-          Math.min(
-            stories.length - 1,
-            Math.round(scroller.scrollTop / scroller.clientHeight),
-          ),
-        );
-        if (index >= rendered - 3 && rendered < stories.length) appendBatch();
-        message.textContent = "";
-        sync();
-      });
-    },
-    { passive: true },
-  );
-  let touchStart: { y: number; index: number } | undefined;
-  scroller.addEventListener(
-    "touchstart",
-    (event) => {
-      touchStart =
-        event.touches.length === 1
-          ? { y: event.touches[0].clientY, index }
-          : undefined;
-    },
-    { passive: true },
-  );
-  scroller.addEventListener(
-    "touchend",
-    (event) => {
-      if (!touchStart || !event.changedTouches.length) return;
-      const gesture = touchStart;
-      touchStart = undefined;
-      const distance = gesture.y - event.changedTouches[0].clientY;
-      if (Math.abs(distance) >= 65)
-        requestAnimationFrame(() =>
-          go(gesture.index + (distance > 0 ? 1 : -1)),
-        );
-    },
-    { passive: true },
-  );
-  scroller.addEventListener(
-    "touchcancel",
-    () => {
-      touchStart = undefined;
-    },
-    { passive: true },
-  );
-  previous.addEventListener("click", () => {
-    interacted = true;
-    go(index - 1);
-  });
-  next.addEventListener("click", () => {
-    interacted = true;
-    go(index + 1);
-  });
-  scroller.addEventListener(
-    "wheel",
-    () => {
-      interacted = true;
-    },
-    { passive: true },
-  );
-  scroller.addEventListener(
-    "pointerdown",
-    () => {
-      interacted = true;
-    },
-    { passive: true },
-  );
-  dialog.addEventListener("keydown", (event) => {
-    if ((event.target as HTMLElement).closest("input,select,textarea")) return;
-    if (
-      ["ArrowDown", "PageDown", "ArrowUp", "PageUp", "Home", "End"].includes(
-        event.key,
-      )
-    ) {
-      event.preventDefault();
-      interacted = true;
-      go(
-        event.key === "Home"
-          ? 0
-          : event.key === "End"
-            ? stories.length - 1
-            : index + (["ArrowDown", "PageDown"].includes(event.key) ? 1 : -1),
-      );
-    }
-  });
   host.querySelector("#detail-dialog")?.addEventListener("close", sync);
   host.querySelector("#edit-dialog")?.addEventListener("close", sync);
   return { sync, refresh };

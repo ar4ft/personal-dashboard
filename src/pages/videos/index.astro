@@ -6,9 +6,34 @@ const repository = `${owner}/${repoName}`;
 ---
 <Layout title="Video news" active="videos">
 <section id="video-news" class="video-news" data-base={import.meta.env.BASE_URL} data-repo={repository} aria-labelledby="video-news-title">
-  <div class="video-news-top"><h1 id="video-news-title">Video news</h1><span id="video-news-position" aria-live="polite"></span><button type="button" id="video-news-sound" aria-pressed="false">🔇 Sound off</button></div>
-  <div id="video-news-scroller" class="video-news-scroller" tabindex="0" aria-label="Swipe up or down to browse videos"></div>
-  <p id="video-news-status" role="status" aria-live="polite">Loading videos…</p>
+  <div id="video-news-feed" class="video-news-feed">
+    <div class="video-news-top">
+      <h1 id="video-news-title">Video news</h1>
+      <span id="video-news-count" aria-live="polite"></span>
+      <button type="button" id="video-news-fullscreen" class="primary-button video-news-fullscreen">Full screen</button>
+    </div>
+    <p class="video-news-intro">Tap a video or Full screen to swipe through them in the same full-screen reader as News.</p>
+    <div id="video-news-cards" class="video-news-cards"></div>
+    <p id="video-news-status" role="status" aria-live="polite">Loading videos…</p>
+  </div>
+  <section id="news-swipe-dialog" class="swipe-reader" aria-labelledby="news-swipe-title" hidden>
+    <div class="reels-topbar">
+      <div>
+        <h2 id="news-swipe-title">Video news</h2>
+        <span id="news-swipe-position" aria-live="polite"></span>
+      </div>
+      <div class="reader-tools">
+        <button type="button" id="video-news-sound" aria-pressed="false" aria-label="Sound off">🔇</button>
+        <button type="button" id="video-news-close" aria-label="Close full screen">✕</button>
+      </div>
+    </div>
+    <div id="news-swipe-scroller" tabindex="0" aria-label="Swipe up or down to browse videos"></div>
+    <div class="reels-navigation">
+      <button type="button" id="news-swipe-previous" aria-label="Previous video">↑</button>
+      <button type="button" id="news-swipe-next" aria-label="Next video">↓</button>
+    </div>
+    <p id="news-swipe-status" role="status" aria-live="polite"></p>
+  </section>
 </section>
 </Layout>
 <script>import '../../scripts/video-news';</script>

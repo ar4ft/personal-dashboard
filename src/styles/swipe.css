@@ -16,7 +16,7 @@ body.news-swipe-open {
 .news-swipe-open main {
   padding: 0;
 }
-#interactive-workspace #news-swipe-dialog.swipe-reader {
+#news-swipe-dialog.swipe-reader {
   position: fixed;
   top: 20px;
   bottom: 20px;
@@ -124,8 +124,8 @@ body.news-swipe-open {
   gap: 15px;
   width: 60px;
 }
-#interactive-workspace #news-swipe-dialog .reel-actions button,
-#interactive-workspace #news-swipe-dialog .reel-actions a {
+#news-swipe-dialog .reel-actions button,
+#news-swipe-dialog .reel-actions a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,14 +144,11 @@ body.news-swipe-open {
   color: #fbfcf5;
   box-shadow: none;
 }
-#interactive-workspace
-  #news-swipe-dialog
-  .reel-actions
-  .reel-favorite[aria-pressed="true"] {
+#news-swipe-dialog .reel-actions .reel-favorite[aria-pressed="true"] {
   color: #c4f6d7;
   background: #126773ba;
 }
-#interactive-workspace #news-swipe-dialog .reel-column {
+#news-swipe-dialog .reel-column {
   width: 60px;
   min-height: 44px;
   font-size: 0.625rem;
@@ -207,7 +204,7 @@ body.news-swipe-open {
   max-width: min(430px, calc(100% - 130px));
 }
 @media (max-width: 900px) {
-  #interactive-workspace #news-swipe-dialog.swipe-reader {
+  #news-swipe-dialog.swipe-reader {
     top: 0;
     left: 0;
     right: 0;
@@ -250,8 +247,8 @@ body.news-swipe-open {
     gap: 5px;
     bottom: 74px;
   }
-  #interactive-workspace #news-swipe-dialog .reel-actions button,
-  #interactive-workspace #news-swipe-dialog .reel-actions a {
+  #news-swipe-dialog .reel-actions button,
+  #news-swipe-dialog .reel-actions a {
     width: 44px;
     height: 44px;
   }
@@ -297,7 +294,7 @@ body.news-swipe-open {
   #news-swipe-dialog .reel-action > span {
     display: none;
   }
-  #interactive-workspace #news-swipe-dialog .reel-column {
+  #news-swipe-dialog .reel-column {
     display: none;
   }
   #news-swipe-dialog .reel-title {
@@ -343,7 +340,7 @@ body.news-swipe-open {
   min-height: 44px;
 }
 @media (min-width: 901px) and (max-width: 1150px) {
-  #interactive-workspace #news-swipe-dialog.swipe-reader {
+  #news-swipe-dialog.swipe-reader {
     left: 220px;
     width: min(640px, calc(100% - 260px));
   }

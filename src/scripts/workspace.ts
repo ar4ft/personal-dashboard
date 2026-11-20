@@ -20,7 +20,8 @@ import {
   safeImageUrl,
 } from "../lib/workspace.mjs";
 import type { Item, State, Section } from "../lib/workspace.mjs";
-import { parseVideoManifest, videoLinksByFeedId, VIDEO_MANIFEST_MAX_BYTES } from "../lib/videos.mjs";
+import { parseVideoManifest, videoHref, VIDEO_MANIFEST_MAX_BYTES } from "../lib/videos.mjs";
+import type { Video } from "../lib/videos.mjs";
 const host = document.querySelector<HTMLElement>("#interactive-workspace");
 if (host) initialize(host);
 function initialize(host: HTMLElement) {
@@ -31,14 +32,15 @@ function initialize(host: HTMLElement) {
   const $ = <T extends HTMLElement = HTMLElement>(selector: string) =>
     host.querySelector<T>(selector)!;
   // "Watch video" links come from videos.json by feed ID; feed.json stays v1.
-  let videoLinks = new Map<string, string>();
+  let videosByFeedId = new Map<string, Video>();
+  let reelMuted = true;
   const watchLink = (item: Item, cls: string) => {
-    const href = videoLinks.get(item.id);
-    if (!href) return null;
+    const video = videosByFeedId.get(item.id);
+    if (!video) return null;
     const a = document.createElement("a");
     a.className = cls + " watch-video";
     a.textContent = "▶ Watch video";
-    a.href = href;
+    a.href = videoHref(video.id, base);
     a.setAttribute("aria-label", `Watch the video about ${item.title}`);
     return a;
   };
@@ -1393,32 +1395,105 @@ function initialize(host: HTMLElement) {
       .then((r) => (r.ok ? r.text() : ""))
       .then((text) => {
         if (!text || text.length > VIDEO_MANIFEST_MAX_BYTES) return;
-        videoLinks = videoLinksByFeedId(parseVideoManifest(JSON.parse(text), base), base);
-        if (videoLinks.size) {
+        const list = parseVideoManifest(JSON.parse(text), base);
+        videosByFeedId = new Map();
+        for (const video of list)
+          if (video.feedId && !videosByFeedId.has(video.feedId))
+            videosByFeedId.set(video.feedId, video);
+        if (videosByFeedId.size) {
           render();
           if (currentDetail) renderDetail();
           decorateReels();
           const scroller = host.querySelector("#news-swipe-scroller");
-          if (scroller) new MutationObserver(decorateReels).observe(scroller, { childList: true });
+          if (scroller) {
+            new MutationObserver(decorateReels).observe(scroller, { childList: true });
+            watchReelVideos(scroller);
+          }
         }
       })
       .catch(() => {});
-  // Swipe reels get a "Video" action next to Source when the story has a video.
+  // Swipe reels play the story's video inline and keep a "Watch video" action.
   function decorateReels() {
     host.querySelectorAll<HTMLElement>(".news-reel[data-id]").forEach((reel) => {
       const actions = reel.querySelector(".reel-actions");
       const item = find(reel.dataset.id!);
-      if (!actions || !item || actions.querySelector(".reel-video")) return;
-      const link = watchLink(item, "reel-source reel-video");
-      if (!link) return;
-      link.textContent = "▶";
-      const wrap = document.createElement("div");
-      wrap.className = "reel-action";
-      const label = document.createElement("span");
-      label.textContent = "Video";
-      wrap.append(link, label);
-      actions.prepend(wrap);
+      const video = item ? videosByFeedId.get(item.id) : undefined;
+      if (!item || !video) return;
+      if (actions && !actions.querySelector(".reel-video")) {
+        const link = watchLink(item, "reel-source reel-video");
+        if (link) {
+          link.textContent = "▶";
+          const wrap = document.createElement("div");
+          wrap.className = "reel-action";
+          const label = document.createElement("span");
+          label.textContent = "Video";
+          wrap.append(link, label);
+          actions.prepend(wrap);
+        }
+      }
+      if (reel.querySelector("video.reel-inline-video")) return;
+      const media = reel.querySelector(".reel-media");
+      if (!media) return;
+      const player = document.createElement("video");
+      player.className = "reel-cover reel-inline-video";
+      player.src = video.src;
+      if (video.poster) player.poster = video.poster;
+      player.muted = true;
+      player.loop = true;
+      player.playsInline = true;
+      player.preload = "none";
+      player.setAttribute("playsinline", "");
+      player.setAttribute("aria-label", `Video: ${item.title}`);
+      if (video.captions) {
+        const track = document.createElement("track");
+        track.kind = "captions";
+        track.srclang = "en";
+        track.label = "English";
+        track.src = video.captions;
+        player.append(track);
+      }
+      player.addEventListener("click", (event) => {
+        event.preventDefault();
+        reelMuted = !reelMuted;
+        host.querySelectorAll<HTMLVideoElement>("video.reel-inline-video").forEach((el) => {
+          el.muted = reelMuted;
+        });
+        if (!reelMuted) player.play().catch(() => {});
+      });
+      media.append(player);
     });
+  }
+  function watchReelVideos(scroller: Element) {
+    if (!(scroller instanceof HTMLElement) || scroller.dataset.videoIo) return;
+    scroller.dataset.videoIo = "1";
+    const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const sync = () => {
+      const reels = [...scroller.querySelectorAll<HTMLElement>(".news-reel")];
+      const active = reels.findIndex((reel) => !reel.inert);
+      reels.forEach((reel, i) => {
+        const player = reel.querySelector<HTMLVideoElement>("video.reel-inline-video");
+        if (!player) return;
+        if (i === active || i === active + 1) {
+          if (player.preload === "none") player.preload = "metadata";
+        }
+        if (i === active && !reduced) {
+          player.muted = reelMuted;
+          player.play().catch(() => {
+            player.muted = true;
+            reelMuted = true;
+            player.play().catch(() => {});
+          });
+        } else player.pause();
+      });
+    };
+    new MutationObserver(sync).observe(scroller, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ["inert"],
+    });
+    scroller.addEventListener("scroll", () => requestAnimationFrame(sync), { passive: true });
+    sync();
   }
   const deepLink = new URL(location.href).searchParams.get("item");
   const openedInitially = !!(deepLink && find(deepLink));

@@ -752,7 +752,7 @@ main {
     padding: 10px 8px;
   }
 }
-#interactive-workspace #news-swipe-dialog .reel-source {
+#news-swipe-dialog .reel-source {
   min-height: 44px;
   min-width: 44px;
   font-size: 0.75rem;
@@ -765,6 +765,6 @@ main {
 .brand {
   min-height: 44px;
 }
-#interactive-workspace #news-swipe-dialog .reel-column {
+#news-swipe-dialog .reel-column {
   min-height: 44px;
 }
