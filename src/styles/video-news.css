@@ -94,13 +94,17 @@
   background: #000;
 }
 #video-news #news-swipe-dialog .reel-media {
+  /* Leave a strip under the video for title/meta so they don't cover the credit. */
+  inset: 0 0 72px 0;
+  width: auto;
+  height: auto;
   z-index: 0;
 }
 #video-news #news-swipe-dialog .reel-media video,
 #video-news #news-swipe-dialog .reel-inline-video {
   background: #000;
   object-fit: contain;
-  object-position: center;
+  object-position: center bottom;
 }
 #video-news #news-swipe-dialog .reel-shade,
 #video-news #news-swipe-dialog .reel-backdrop,
@@ -116,24 +120,24 @@
 #video-news #news-swipe-dialog .reels-topbar span {
   text-shadow: 0 1px 4px #000c;
 }
-/* Thin fade only at the very bottom edge, below the caption block. */
+/* Fade only in the reserved bottom strip, not over captions. */
 #video-news #news-swipe-dialog .news-reel::after {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 56px;
-  background: linear-gradient(transparent, #0008);
+  height: 72px;
+  background: linear-gradient(transparent, #000a);
   pointer-events: none;
   z-index: 2;
 }
 #video-news #news-swipe-dialog .reel-body {
-  left: 16px;
-  right: 88px;
-  bottom: 10px;
+  left: 14px;
+  right: 58px;
+  bottom: 8px;
   top: auto;
-  max-height: none;
+  max-height: 62px;
   overflow: hidden;
   z-index: 3;
   text-shadow: none;
@@ -171,9 +175,50 @@
   width: 0;
   background: #ffd65c;
 }
+/* Compact rail in the lower-right, beside the title and below the caption band. */
 #video-news #news-swipe-dialog .reel-actions {
+  top: auto;
+  right: 8px;
+  bottom: 10px;
+  gap: 6px;
+  width: 40px;
   z-index: 3;
-  bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#video-news #news-swipe-dialog .reel-actions button,
+#video-news #news-swipe-dialog .reel-actions a {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  font-size: 1.05rem;
+}
+#video-news #news-swipe-dialog .reel-action > span {
+  font-size: 0.5rem;
+  line-height: 1;
+  margin-top: 0;
+}
+/* Swipe is enough on phones; keep ↑/↓ for pointer/desktop, under the top bar. */
+#video-news #news-swipe-dialog > .reels-navigation {
+  top: calc(12px + env(safe-area-inset-top, 0px) + 52px);
+  bottom: auto;
+  right: 12px;
+  flex-direction: column;
+  gap: 8px;
+}
+#video-news #news-swipe-dialog > .reels-navigation button {
+  width: 40px;
+  height: 40px;
+}
+@media (pointer: coarse), (max-width: 900px) {
+  #video-news #news-swipe-dialog > .reels-navigation {
+    display: none;
+  }
+  #video-news #news-swipe-dialog .reel-action > span {
+    display: none;
+  }
 }
 .visually-hidden {
   position: absolute !important;

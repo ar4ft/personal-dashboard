@@ -104,6 +104,10 @@ const fs = require("node:fs");
     "/personal-dashboard/news/?item=hn%3Areader-one",
   );
   assert.ok(await first.locator(".reel-keep").isVisible());
+  assert.equal(
+    await page.locator("#news-swipe-dialog > .reels-navigation").isVisible(),
+    true,
+  );
   const titleSize = await first.locator(".reel-title").evaluate((n) =>
     parseFloat(getComputedStyle(n).fontSize),
   );
@@ -181,6 +185,17 @@ const fs = require("node:fs");
   assert.ok(
     reader.y + reader.height <= nav.y + 1,
     "Reader leaves space for section navigation",
+  );
+  assert.equal(
+    await page.locator("#news-swipe-dialog > .reels-navigation").isVisible(),
+    false,
+    "Prev/next stay hidden on a phone; swipe is enough",
+  );
+  const action = page.locator(".news-reel:not([inert]) .reel-actions a, .news-reel:not([inert]) .reel-actions button").first();
+  const actionBox = await action.boundingBox();
+  assert.ok(
+    actionBox && actionBox.height <= 42 && actionBox.width <= 42,
+    `Action buttons should be ~40px, got ${actionBox && actionBox.width}x${actionBox && actionBox.height}`,
   );
   await page.screenshot({ path: "test-output/video-reader-mobile.png" });
 
