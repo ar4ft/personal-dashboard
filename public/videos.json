@@ -2,6 +2,374 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50560595",
+      "feedId": "hn:50560595",
+      "title": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://github.com/bigcrimping/floppy3.5",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4b2aaa98c65df3e8446d1d2c83fc3c3cbedd6e7c/hn-50560595.mp4",
+      "poster": "media/videos/hn-50560595.jpg",
+      "captions": "media/videos/hn-50560595.vtt",
+      "duration": 32.01,
+      "transcript": "A floppy drive becomes a Wi-Fi NAS Floppy3.5 is a 3.5-inch floppy disk portable Wi-Fi NAS, built to read old disks and share them over a network. Its screen maps the disk's 80 cylinders as four rows of 20 columns, so you can see the whole disk at a glance. Setup is a firmware flash: copy the file to the controller's USB drive, then build and flash the ESP32-S3 Wi-Fi firmware. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:48:58Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50561199",
+      "feedId": "hn:50561199",
+      "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9062fdb48e68826d30cad189da81e5044a36a635/hn-50561199.mp4",
+      "poster": "media/videos/hn-50561199.jpg",
+      "captions": "media/videos/hn-50561199.vtt",
+      "duration": 31.55,
+      "transcript": "Search maps in plain English A Show HN project offers fast, deterministic natural-language search over OpenStreetMap data, turning plain queries into map results. Type a plain query, like cafes by the Limmat 100 metres from the lake in Zurich, and it returns the matching places on the map. The search is deterministic, so the same query returns the same results every time, no ranking roulette, just the places that match. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:48:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50564366",
+      "feedId": "hn:50564366",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@dafa0045aeff1019855f58260009b3e3accc9c65/hn-50564366.mp4",
+      "poster": "media/videos/hn-50564366.jpg",
+      "captions": "media/videos/hn-50564366.vtt",
+      "duration": 28.07,
+      "transcript": "Should governments slow down frontier AI? In the inaugural YC debate, Jacob Coxon and Robin Hanson argue whether governments should intervene to substantially slow the progress of frontier AI. Coxon is an ex-Anthropic and OpenAI researcher, bringing an insider's view of frontier labs to the question. It is the first debate in the series, and the whole argument plays out on video. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:47:52Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123602482051903769",
+      "feedId": "x:2123602482051903769",
+      "title": "Harbor 4.0: Swift 6 networking with REST, JSON-RPC 2.0 and WebSocket",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://github.com/javiermanzo/Harbor",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@e85f66cb938981696aff07d56362e746aaa055e3/x-2123602482051903769.mp4",
+      "poster": "media/videos/x-2123602482051903769.jpg",
+      "captions": "media/videos/x-2123602482051903769.vtt",
+      "duration": 33.57,
+      "transcript": "One Swift library for REST, JSON-RPC and WebSockets. Harbor four point oh is an open-source networking library built for Swift six strict concurrency, using async and await with no callbacks. You declare each request as a Sendable struct, and get typed results, an HTTP cache with ETags, and offline fallback. It ships as three products: REST, JSON-RPC two point oh, and WebSocket, so you only link what you use. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:47:29Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50569998",
+      "feedId": "hn:50569998",
+      "title": "FFmpeg 9.1 'Gauss'",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://ffmpeg.org/download.html#release_9.1",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7f1d213cf2c8ad2d76d779f79b21dd5ad0a9a62e/hn-50569998.mp4",
+      "poster": "media/videos/hn-50569998.jpg",
+      "captions": "media/videos/hn-50569998.vtt",
+      "duration": 34.36,
+      "transcript": "FFmpeg's new release signs with post-quantum keys. FFmpeg 9.1, codenamed Gauss, is the latest release of the open-source multimedia framework, which ships a new major version about every six months. FFmpeg only provides source code, so ready-to-run builds come from other providers linked on the download page. Releases are cryptographically signed, and the newest also carry post-quantum signatures that GnuPG cannot verify yet you need sq 1.4 or later. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:46:59Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50572348",
+      "feedId": "hn:50572348",
+      "title": "Signal Is Serious About Protecting Your Privacy",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4fcfdbfdba467718ed4d0852c0ff3ead696ea5fe/hn-50572348.mp4",
+      "poster": "media/videos/hn-50572348.jpg",
+      "captions": "media/videos/hn-50572348.vtt",
+      "duration": 32.56,
+      "transcript": "Signal now blocks AI from reading chats Signal says privacy is its mission, and it is now restricting the latest AI agents built into mobile operating systems from capturing and storing your Signal data. It is blocking such capture by preventing screenshots in the app on iOS 27, and when AI assistants attempt to capture screen data on Android. It has done this before with Windows, and for macOS 27 it recommends adding Signal to the excluded apps in Siri settings. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:46:32Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50574968",
+      "feedId": "hn:50574968",
+      "title": "Levent Alpöge says he and Claude proved the Generalized Riemann Hypothesis, with a full Lean formalization",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://alpo.ge/remark.pdf",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@bf1d360acb81b27a1e2641fcac61700deca7e06d/hn-50574968.mp4",
+      "poster": "media/videos/hn-50574968.jpg",
+      "captions": "media/videos/hn-50574968.vtt",
+      "duration": 31.15,
+      "transcript": "A mathematician says Claude helped prove Riemann. Mathematician Levent Alpöge posted a short note claiming he found a proof of the Riemann Hypothesis, working with Anthropic's Claude. He says the method goes further, resolving the Generalized Riemann Hypothesis too, one of the most famous open problems in number theory. And he says the whole argument has been formalized in the Lean proof assistant, so other mathematicians can now check it. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:46:03Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50575644",
+      "feedId": "hn:50575644",
+      "title": "Mozilla: why there are still no non-WebKit browsers on iOS",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b656e4175092aea44eecde173c08364af0c72a6b/hn-50575644.mp4",
+      "poster": "media/videos/hn-50575644.jpg",
+      "captions": "media/videos/hn-50575644.vtt",
+      "duration": 30.31,
+      "transcript": "Three years on, still no non-WebKit iPhone browser. Mozilla says Firefox daily use on iOS has doubled since Europe's Digital Markets Act forced a browser choice screen. But nearly three years after Apple allowed other engines in the EU, and almost a year in Japan, nobody has shipped one. To use Gecko, Mozilla would have to ship a second Firefox app and ask users to move everything over by hand. It calls it a trap door. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:45:40Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123805319218204958",
+      "feedId": "x:2123805319218204958",
+      "title": "Mailpipe: let your local coding agent draft replies in Apple Mail",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://github.com/cobbcheng/Mailpipe",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8a5688baaa8a11f9b37f9c81c841827a847e98d9/x-2123805319218204958.mp4",
+      "poster": "media/videos/x-2123805319218204958.jpg",
+      "captions": "media/videos/x-2123805319218204958.vtt",
+      "duration": 27.98,
+      "transcript": "Your coding agent can now draft your Apple Mail replies. Mailpipe is a now open-source Mac app that lets an agent you already use draft replies in Apple Mail. Pick Codex CLI, Claude Code, OpenCode and others. You review, edit and send the reply yourself. Messages and drafts stay on your Mac, and only the content you authorize goes to your agent. Nothing passes through a Mailpipe server. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:45:11Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50577265",
+      "feedId": "hn:50577265",
+      "title": "Language models can rewrite their own weights, with no gradients",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://arxiv.org/abs/2611.21885",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@e9ae7e63858500e01a2cb3c14a759dacf0f67340/hn-50577265.mp4",
+      "poster": "media/videos/hn-50577265.jpg",
+      "captions": "media/videos/hn-50577265.vtt",
+      "duration": 30.86,
+      "transcript": "A language model just rewrote its own weights. A new paper shows an open twenty-seven billion parameter model that is given its weights and graded answers, then diagnoses its own failures. With no gradients and no training, it rewrites its weights and gets six point six points more accurate on problems it never saw. It can even repair a damaged copy of itself to over eighty percent of the original accuracy, and only the largest models manage it. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:44:45Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123816255027048541",
+      "feedId": "x:2123816255027048541",
+      "title": "PocketDisplayJoe turns an iPhone into a second display for your Mac",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://github.com/joemockdao/PocketDisplayJoe",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@722e9335e861e7ffa1712ccae76ee73ef1c04f6e/x-2123816255027048541.mp4",
+      "poster": "media/videos/x-2123816255027048541.jpg",
+      "captions": "media/videos/x-2123816255027048541.vtt",
+      "duration": 30.64,
+      "transcript": "Your iPhone, as a second Mac display. PocketDisplayJoe turns an iPhone into an extra monitor for a MacBook or Mac mini, over USB or Wi-Fi. It creates a virtual display sized to the phone at sixty frames per second, streamed with hardware HEVC. Touch works as a mouse. It's native Swift and SwiftUI, about two thousand five hundred lines, with no accounts, no cloud and no analytics. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:44:15Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123822032122982822",
+      "feedId": "x:2123822032122982822",
+      "title": "Dutch privacy watchdog tells people not to buy AI smart glasses",
+      "source": "Twitter / X",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@199b8c77d56f7bea06576c47fa66040737a0b4c2/x-2123822032122982822.mp4",
+      "poster": "media/videos/x-2123822032122982822.jpg",
+      "captions": "media/videos/x-2123822032122982822.vtt",
+      "duration": 31.17,
+      "transcript": "A privacy watchdog says: don't buy AI smart glasses. The Dutch data protection authority tested six AI smart glasses, priced from under one hundred to over five hundred euros. In a simulated emergency, one pair repeatedly claimed an ambulance was on its way, though no one had been called. Others misread medicine instructions and gave dating advice about a minor. The watchdog advises against buying them, but stopped short of a ban. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:43:45Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50578117",
+      "feedId": "hn:50578117",
+      "title": "PostgreSQL 19: A hands-on tour with runnable browser examples",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://certuvia.com/blog/postgres-19",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@5e358e00d305797f8dc8f9f23a9c43232611e215/hn-50578117.mp4",
+      "poster": "media/videos/hn-50578117.jpg",
+      "captions": "media/videos/hn-50578117.vtt",
+      "duration": 38.11,
+      "transcript": "PostgreSQL 19 is out, try it live PostgreSQL 19.0 was released on 19 November 2026, bringing useful new SQL alongside maintenance and replication improvements. Replication experiments spin up real servers on demand: a logical subscriber on port 5433 and a physical standby on 5434, fed by the primary on 5432. The tour runs everything in the browser, including a manual vacuum comparison between parallel zero and parallel two. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:43:14Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50578358",
+      "feedId": "hn:50578358",
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7c6b27df73dfa05e0e77eee59ab579b059bb49bb/hn-50578358.mp4",
+      "poster": "media/videos/hn-50578358.jpg",
+      "captions": "media/videos/hn-50578358.vtt",
+      "duration": 36.57,
+      "transcript": "Tao: AI also cracked Navier-Stokes blowup Terence Tao reports that Levent Alpöge and Tristan Buckmaster, again with heavy AI usage, have generated a proof of finite-time blowup for the unforced, incompressible Navier-Stokes equations in three dimensions, again with a Lean formalization. Alpöge, using an internal AI model, also generated an enormous Lean-only proof of the Generalized Riemann Hypothesis. Tao points readers to Buckmaster's Mastodon post for more on the first two results. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:42:39Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50579297",
+      "feedId": "hn:50579297",
+      "title": "Vibecoding an inference chip: coding agents took an FPGA LLM from 6 to 213 tokens/s",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Technology"
+      ],
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@49e9ceb505dbff7e35d0ef7371c95213359ee25f/hn-50579297.mp4",
+      "poster": "media/videos/hn-50579297.jpg",
+      "captions": "media/videos/hn-50579297.vtt",
+      "duration": 38.44,
+      "transcript": "Agents made an FPGA run an LLM thirty-three times faster. Ankit Gupta had never programmed an FPGA, so he let coding agents write the C++ and Verilog to run an LLM on an AWS F2 instance. An autoresearch loop then pushed it from about six tokens per second to two hundred thirteen, thirty-three times the baseline, for about ten thousand dollars in tokens. The final FPGA image beat a thirty-two core Zen 5 CPU running the same model exactly by one point six five times, at a similar hourly price. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:42:05Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50579331",
+      "feedId": "hn:50579331",
+      "title": "We promoted developers into architects without informing them",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@ecf36eb879d38dc8b05c4ce63bb60d4c1aa99699/hn-50579331.mp4",
+      "poster": "media/videos/hn-50579331.jpg",
+      "captions": "media/videos/hn-50579331.vtt",
+      "duration": 31.34,
+      "transcript": "Promoted to architect, never told The post argues developers are being promoted into architect roles without being informed, and without the expectations or support changing to match. It opens with a debugging story: a colleague vibe-coded the logging in a Google Forms add-on, and the welcome screen took 15 seconds to load. The logging ran first after every install, yet Google has severely restricted how much detail it can return since last December. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:41:30Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50579568",
+      "feedId": "hn:50579568",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c806843e0755a6a62d35113e3b053f142ffa01d3/hn-50579568.mp4",
+      "poster": "media/videos/hn-50579568.jpg",
+      "captions": "media/videos/hn-50579568.vtt",
+      "duration": 33.81,
+      "transcript": "A second Riemann proof claim lands Mathematician Alessandro Masullo has a proposed proof of the Generalized Riemann Hypothesis, and Brian Conrad has been looking closely at it for months, giving extensive feedback that is being incorporated. The hope was to bring Masullo to Stanford for a year to polish the writing, then announce it after running it by enough people. Instead the announcement came out hurried, with a call for people to quickly check it, formalize it, and fill any small gaps. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:41:00Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50581084",
+      "feedId": "hn:50581084",
+      "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://scottaaronson.blog/?p=10344",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c0245f91656e17c31f0e24d4550a1bdd4a445e2a/hn-50581084.mp4",
+      "poster": "media/videos/hn-50581084.jpg",
+      "captions": "media/videos/hn-50581084.vtt",
+      "duration": 35.44,
+      "transcript": "Stochastic parrots proved Riemann, apparently Scott Aaronson woke up to news that Levent Alpöge says Anthropic models proved the Generalized Riemann Hypothesis, producing 17.4 million lines of Lean code. Social media is now joking that the so-called stochastic parrots just proved the Riemann Hypothesis, a jab at Aaronson's own phrase from 2021. Aaronson notes Lean itself still has issues, from kernel bugs that once allowed proofs of zero equals one to uncertain soundness. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:40:31Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50581260",
+      "feedId": "hn:50581260",
+      "title": "Thinking Machines releases Inkling 2 Mini, a looped open-weights MoE that runs on a laptop",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7ab7e59f5f73fa0295cb86f341561d7928def476/hn-50581260.mp4",
+      "poster": "media/videos/hn-50581260.jpg",
+      "captions": "media/videos/hn-50581260.vtt",
+      "duration": 34.84,
+      "transcript": "This open model loops its own layers three times. Thinking Machines released Inkling 2 Mini, an open-weights mixture of experts with twenty-six point four billion parameters, three point four billion active. It runs its middle layers three times per token, and leads open models under one hundred billion parameters on DeepSWE, at forty-eight point two percent. Trained mostly in NVFP4, it needs about twenty gigabytes, and ran offline on a MacBook Pro mid-flight, building a flight simulator. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:39:59Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50581438",
+      "feedId": "hn:50581438",
+      "title": "Nvidia accounting under SEC investigation, sources say",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@648361d05dd3fa7a9eacb8658ab03cd2973d3b48/hn-50581438.mp4",
+      "poster": "media/videos/hn-50581438.jpg",
+      "captions": "media/videos/hn-50581438.vtt",
+      "duration": 42.02,
+      "transcript": "Nvidia accounting under SEC investigation, sources say Nvidia is reportedly under SEC investigation over its accounting, according to sources cited by Yahoo Finance, as the stock extends a sharp sell-off. Nvidia shed about $485 billion in market value Friday and nearly $900 billion this week, as its stock had its worst week since October 2008. 6 record, Nvidia has lost about $2.7 trillion in market value, more than the $2.5 trillion that The Kobeissi Letter called the biggest 45-day loss for any stock in history. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:39:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123882069403283707",
+      "feedId": "x:2123882069403283707",
+      "title": "Katamaran: an open-source Docker and Linux runtime for Apple silicon Macs",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://katamaran.rs",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@525f285418b8993f0f938e0c5a5a902fcf721ebb/x-2123882069403283707.mp4",
+      "poster": "media/videos/x-2123882069403283707.jpg",
+      "captions": "media/videos/x-2123882069403283707.vtt",
+      "duration": 29.61,
+      "transcript": "Docker on your Mac, with memory handed back. Katamaran is an open-source way to run Docker containers and Linux machines on Apple silicon Macs, all inside one virtual machine. It pairs a custom Hypervisor framework monitor based on libkrun with a native Swift app and the kat command-line tool. File sharing uses direct hypercalls, and unused guest memory goes back to macOS in sixty-four kilobyte blocks. Full story on the dashboard.",
+      "createdAt": "2026-11-20T23:38:52Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2123212999607611426",
       "feedId": "x:2123212999607611426",
       "title": "openRocode: an open harness that lets multimodal LLMs drive robots like computer use",

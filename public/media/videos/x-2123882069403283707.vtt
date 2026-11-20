@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.163
+Docker on your
+
+00:00:00.975 --> 00:00:02.307
+Mac with memory
+
+00:00:02.119 --> 00:00:02.991
+handed back
+
+00:00:03.510 --> 00:00:04.712
+Katamaran is an
+
+00:00:04.536 --> 00:00:05.644
+open-source way to
+
+00:00:05.456 --> 00:00:06.847
+run Docker containers
+
+00:00:06.659 --> 00:00:08.014
+and Linux machines
+
+00:00:07.826 --> 00:00:08.946
+on Apple silicon
+
+00:00:08.758 --> 00:00:09.300
+Macs
+
+00:00:09.442 --> 00:00:10.573
+all inside one
+
+00:00:10.385 --> 00:00:11.505
+virtual machine
+
+00:00:12.022 --> 00:00:12.729
+It pairs a
+
+00:00:12.541 --> 00:00:14.392
+custom Hypervisor framework
+
+00:00:14.204 --> 00:00:15.465
+monitor based on
+
+00:00:15.277 --> 00:00:16.161
+libkrun with a
+
+00:00:15.972 --> 00:00:17.234
+native Swift app
+
+00:00:17.211 --> 00:00:17.918
+and the kat
+
+00:00:17.730 --> 00:00:18.826
+command-line tool
+
+00:00:19.358 --> 00:00:20.631
+File sharing uses
+
+00:00:20.443 --> 00:00:21.940
+direct hypercalls and
+
+00:00:21.752 --> 00:00:23.096
+unused guest memory
+
+00:00:23.014 --> 00:00:23.791
+goes back to
+
+00:00:23.603 --> 00:00:25.360
+macOS in sixty-four
+
+00:00:25.172 --> 00:00:26.327
+kilobyte blocks
+
+00:00:26.862 --> 00:00:27.876
+Full story on
+
+00:00:27.687 --> 00:00:28.583
+the dashboard

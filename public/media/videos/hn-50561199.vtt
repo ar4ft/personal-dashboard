@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.423
+Search maps in
+
+00:00:01.234 --> 00:00:02.272
+plain English
+
+00:00:02.790 --> 00:00:03.851
+A Show HN
+
+00:00:03.663 --> 00:00:05.172
+project offers fast
+
+00:00:05.231 --> 00:00:07.082
+deterministic natural-language
+
+00:00:06.894 --> 00:00:08.591
+search over OpenStreetMap
+
+00:00:08.403 --> 00:00:08.933
+data
+
+00:00:09.181 --> 00:00:10.396
+turning plain queries
+
+00:00:10.207 --> 00:00:11.422
+into map results
+
+00:00:11.950 --> 00:00:12.810
+Type a plain
+
+00:00:12.622 --> 00:00:13.211
+query
+
+00:00:13.342 --> 00:00:14.450
+like cafes by
+
+00:00:14.261 --> 00:00:16.666
+the Limmat 100 metres from the lake
+
+00:00:16.478 --> 00:00:17.209
+in Zurich
+
+00:00:17.398 --> 00:00:18.388
+and it returns
+
+00:00:18.200 --> 00:00:19.402
+the matching places
+
+00:00:19.214 --> 00:00:20.016
+on the map
+
+00:00:20.534 --> 00:00:21.300
+The search is
+
+00:00:21.112 --> 00:00:22.409
+deterministic so the
+
+00:00:22.220 --> 00:00:23.600
+same query returns
+
+00:00:23.411 --> 00:00:24.472
+the same results
+
+00:00:24.390 --> 00:00:25.239
+every time
+
+00:00:25.345 --> 00:00:26.536
+no ranking roulette
+
+00:00:26.619 --> 00:00:27.644
+just the places
+
+00:00:27.456 --> 00:00:28.269
+that match
+
+00:00:28.806 --> 00:00:29.820
+Full story on
+
+00:00:29.631 --> 00:00:30.527
+the dashboard

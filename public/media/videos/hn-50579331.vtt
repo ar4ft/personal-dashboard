@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.741
+Promoted to architect
+
+00:00:01.647 --> 00:00:02.602
+never told
+
+00:00:03.126 --> 00:00:04.069
+The post argues
+
+00:00:03.881 --> 00:00:04.989
+developers are being
+
+00:00:04.801 --> 00:00:06.215
+promoted into architect
+
+00:00:06.027 --> 00:00:07.111
+roles without being
+
+00:00:06.923 --> 00:00:07.677
+informed
+
+00:00:07.819 --> 00:00:08.609
+and without the
+
+00:00:08.421 --> 00:00:10.225
+expectations or support
+
+00:00:10.036 --> 00:00:11.180
+changing to match
+
+00:00:11.710 --> 00:00:12.559
+It opens with
+
+00:00:12.370 --> 00:00:13.632
+a debugging story
+
+00:00:13.809 --> 00:00:15.070
+a colleague vibe-coded
+
+00:00:14.882 --> 00:00:15.707
+the logging in
+
+00:00:15.519 --> 00:00:16.485
+a Google Forms
+
+00:00:16.309 --> 00:00:17.004
+add-on
+
+00:00:17.194 --> 00:00:17.960
+and the welcome
+
+00:00:17.771 --> 00:00:19.528
+screen took 15 seconds
+
+00:00:19.340 --> 00:00:20.047
+to load
+
+00:00:20.582 --> 00:00:21.607
+The logging ran
+
+00:00:21.419 --> 00:00:22.539
+first after every
+
+00:00:22.351 --> 00:00:23.082
+install
+
+00:00:23.247 --> 00:00:24.190
+yet Google has
+
+00:00:24.002 --> 00:00:25.251
+severely restricted
+
+00:00:25.063 --> 00:00:26.148
+how much detail
+
+00:00:25.959 --> 00:00:26.879
+it can return
+
+00:00:26.691 --> 00:00:28.058
+since last December
+
+00:00:28.590 --> 00:00:29.604
+Full story on
+
+00:00:29.415 --> 00:00:30.311
+the dashboard

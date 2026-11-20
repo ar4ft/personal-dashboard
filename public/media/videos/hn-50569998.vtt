@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.953
+FFmpeg's new release
+
+00:00:01.765 --> 00:00:03.227
+signs with post-quantum
+
+00:00:03.039 --> 00:00:03.663
+keys
+
+00:00:04.182 --> 00:00:06.682
+FFmpeg 9.1 codenamed
+
+00:00:06.493 --> 00:00:07.071
+Gauss
+
+00:00:07.248 --> 00:00:08.097
+is the latest
+
+00:00:07.908 --> 00:00:08.733
+release of the
+
+00:00:08.604 --> 00:00:10.207
+open-source multimedia
+
+00:00:10.019 --> 00:00:10.762
+framework
+
+00:00:10.927 --> 00:00:11.717
+which ships a
+
+00:00:11.529 --> 00:00:12.755
+new major version
+
+00:00:12.566 --> 00:00:13.073
+about
+
+00:00:13.097 --> 00:00:14.347
+every six months
+
+00:00:14.878 --> 00:00:16.694
+FFmpeg only provides
+
+00:00:16.505 --> 00:00:17.295
+source code
+
+00:00:17.413 --> 00:00:18.734
+so ready-to-run builds
+
+00:00:18.545 --> 00:00:19.382
+come from other
+
+00:00:19.194 --> 00:00:20.420
+providers linked on
+
+00:00:20.232 --> 00:00:21.304
+the download page
+
+00:00:21.830 --> 00:00:23.575
+Releases are cryptographically
+
+00:00:23.387 --> 00:00:24.070
+signed
+
+00:00:24.141 --> 00:00:25.061
+and the newest
+
+00:00:24.896 --> 00:00:26.405
+also carry post-quantum
+
+00:00:26.217 --> 00:00:27.808
+signatures that GnuPG
+
+00:00:27.620 --> 00:00:28.846
+cannot verify yet
+
+00:00:28.658 --> 00:00:29.672
+you need sq
+
+00:00:29.483 --> 00:00:31.075
+1.4 or later
+
+00:00:31.614 --> 00:00:32.628
+Full story on
+
+00:00:32.439 --> 00:00:33.335
+the dashboard

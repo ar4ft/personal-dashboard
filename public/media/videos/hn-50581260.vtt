@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.387
+This open model
+
+00:00:01.199 --> 00:00:02.036
+loops its own
+
+00:00:01.848 --> 00:00:03.168
+layers three times
+
+00:00:03.702 --> 00:00:05.117
+Thinking Machines released
+
+00:00:04.917 --> 00:00:06.072
+Inkling 2 Mini
+
+00:00:06.249 --> 00:00:07.605
+an open-weights mixture
+
+00:00:07.417 --> 00:00:08.454
+of experts with
+
+00:00:08.266 --> 00:00:09.680
+twenty-six point four
+
+00:00:09.492 --> 00:00:10.671
+billion parameters
+
+00:00:10.801 --> 00:00:11.756
+three point four
+
+00:00:11.568 --> 00:00:12.581
+billion active
+
+00:00:13.102 --> 00:00:13.903
+It runs its
+
+00:00:13.715 --> 00:00:14.847
+middle layers three
+
+00:00:14.659 --> 00:00:15.849
+times per token
+
+00:00:16.003 --> 00:00:16.934
+and leads open
+
+00:00:16.746 --> 00:00:17.866
+models under one
+
+00:00:17.677 --> 00:00:19.328
+hundred billion parameters
+
+00:00:19.152 --> 00:00:20.495
+on DeepSWE
+
+00:00:20.661 --> 00:00:21.863
+at forty-eight point
+
+00:00:21.675 --> 00:00:22.571
+two percent
+
+00:00:23.102 --> 00:00:24.410
+Trained mostly in
+
+00:00:24.281 --> 00:00:25.413
+NVFP4
+
+00:00:25.567 --> 00:00:26.380
+it needs about
+
+00:00:26.192 --> 00:00:27.571
+twenty gigabytes and
+
+00:00:27.430 --> 00:00:28.514
+ran offline on
+
+00:00:28.326 --> 00:00:29.316
+a MacBook Pro
+
+00:00:29.128 --> 00:00:29.800
+mid-flight
+
+00:00:29.883 --> 00:00:30.873
+building a flight
+
+00:00:30.685 --> 00:00:31.557
+simulator
+
+00:00:32.094 --> 00:00:33.108
+Full story on
+
+00:00:32.919 --> 00:00:33.815
+the dashboard

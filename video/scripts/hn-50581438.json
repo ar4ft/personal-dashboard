@@ -1,0 +1,22 @@
+{
+  "hook": "Nvidia accounting under SEC investigation, sources say",
+  "hookText": "Nvidia accounting under SEC investigation, sources say",
+  "beats": [
+    {
+      "say": "Nvidia is reportedly under SEC investigation over its accounting, according to sources cited by Yahoo Finance, as the stock extends a sharp sell-off.",
+      "visual": 1
+    },
+    {
+      "say": "Nvidia shed about $485 billion in market value Friday and nearly $900 billion this week, as its stock had its worst week since October 2008.",
+      "visual": 2,
+      "stat": "$485 billion",
+      "statLabel": "in market value"
+    },
+    {
+      "say": "6 record, Nvidia has lost about $2.7 trillion in market value, more than the $2.5 trillion that The Kobeissi Letter called the biggest 45-day loss for any stock in history.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

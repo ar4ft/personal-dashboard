@@ -1,0 +1,76 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.166
+PostgreSQL 19 is
+
+00:00:01.977 --> 00:00:02.437
+out
+
+00:00:02.473 --> 00:00:03.463
+try it live
+
+00:00:03.990 --> 00:00:06.513
+PostgreSQL 19.0 was
+
+00:00:06.325 --> 00:00:09.355
+released on 19 November 2026
+
+00:00:09.450 --> 00:00:10.652
+bringing useful new
+
+00:00:10.464 --> 00:00:12.291
+SQL alongside maintenance
+
+00:00:12.103 --> 00:00:13.966
+and replication improvements
+
+00:00:14.494 --> 00:00:16.003
+Replication experiments
+
+00:00:15.838 --> 00:00:16.710
+spin up real
+
+00:00:16.522 --> 00:00:17.736
+servers on demand
+
+00:00:18.008 --> 00:00:19.482
+a logical subscriber
+
+00:00:19.294 --> 00:00:21.215
+on port 5433
+
+00:00:21.263 --> 00:00:22.100
+and a physical
+
+00:00:21.911 --> 00:00:24.187
+standby on 5434
+
+00:00:24.411 --> 00:00:25.107
+fed by the
+
+00:00:24.919 --> 00:00:27.394
+primary on 5432
+
+00:00:27.926 --> 00:00:28.869
+The tour runs
+
+00:00:28.704 --> 00:00:29.506
+everything in the
+
+00:00:29.317 --> 00:00:30.543
+browser including a
+
+00:00:30.355 --> 00:00:32.076
+manual vacuum comparison
+
+00:00:31.888 --> 00:00:33.527
+between parallel zero
+
+00:00:33.339 --> 00:00:34.836
+and parallel two
+
+00:00:35.358 --> 00:00:36.372
+Full story on
+
+00:00:36.183 --> 00:00:37.079
+the dashboard
