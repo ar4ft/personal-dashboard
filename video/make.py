@@ -123,7 +123,16 @@ def main():
         if a.ingest_only:
             print(f"ingested {item['id']} -> {work}/story.json"); return
         sp = Path(a.scripts) / f"{s}.json" if a.scripts else None
-        script = json.loads(sp.read_text()) if sp and sp.exists() else auto_script(story)
+        if sp and sp.exists():
+            script = json.loads(sp.read_text())
+        else:  # deterministic extractive fallback (no LLM); skip stories without enough real text
+            from autoscript import build as build_script
+            script = build_script(item, story)
+            if not script:
+                print(f"skipped {item['id']}: not enough usable story text for a script", flush=True)
+                return
+            if sp:
+                sp.write_text(json.dumps(script, indent=2, ensure_ascii=False) + "\n")
         mp4, poster = out_dir / f"{s}.mp4", out_dir / f"{s}.jpg"
         music = None if a.no_music or not a.music or not Path(a.music).exists() else a.music
         if a.social_dir:

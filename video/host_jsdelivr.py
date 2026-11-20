@@ -13,7 +13,7 @@ Commits are built with git plumbing (no checkout), pushed with the gh-configured
 Retention deletes whole expired day branches (never rewrites history) after copying pinned videos out.
 """
 from __future__ import annotations
-import re, subprocess, urllib.request
+import os, re, subprocess, urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -28,7 +28,10 @@ class Host:
         self.dir, self.repo = Path(clone), repo
         if not (self.dir / ".git").exists() and not (self.dir / "HEAD").exists():
             self.dir.parent.mkdir(parents=True, exist_ok=True)
-            subprocess.run(["git", "clone", "-q", "--no-checkout", remote_url or f"https://github.com/{repo}.git", str(self.dir)],
+            # CI sets VIDEOS_REMOTE=git@github.com:ar4ft/dashboard-videos.git (deploy key); the box uses https + gh.
+            # Partial clone: only trees/commits up front; blobs are fetched lazily when a branch's sizes are needed.
+            url = remote_url or os.environ.get("VIDEOS_REMOTE") or f"https://github.com/{repo}.git"
+            subprocess.run(["git", "clone", "-q", "--no-checkout", "--filter=blob:none", url, str(self.dir)],
                            check=True, stdin=subprocess.DEVNULL)
         for key, val in (("user.name", "ar4ft"), ("user.email", "70501707+ar4ft@users.noreply.github.com")):
             if subprocess.run(["git", "-C", str(self.dir), "config", key], capture_output=True, stdin=subprocess.DEVNULL).returncode:
