@@ -1,0 +1,20 @@
+{
+  "hook": "openRocode: an open harness",
+  "hookText": "openRocode: an open harness",
+  "beats": [
+    {
+      "say": "Works with Claude, GPT or any OpenAI-compatible model. I built openRocode, the open harness for LLM-driven robots, so LLM can drive robots.",
+      "visual": 1
+    },
+    {
+      "say": "A dashboard shows each step with the model's own words, code and pictures, so you can watch and steer a run.",
+      "visual": 2
+    },
+    {
+      "say": "One sentence in, the model writes code, the harness runs it as guarded motion and records every step. Watch it in full quality. openRocode is an open agent harness that turns robot control into 3D computer use.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

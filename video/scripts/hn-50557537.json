@@ -1,0 +1,24 @@
+{
+  "hook": "Zerodha's Blobasaur: distributed, high-performance blob storage on SQLite",
+  "hookText": "Zerodha's Blobasaur: distributed, high-performance blob storage on SQLite",
+  "beats": [
+    {
+      "say": "Zerodha built Blobasaur, an open-source sharded blob server in Rust that speaks the Redis protocol and stores data in SQLite, serving thousands of multi-KB-to-MB JSON blob reads and writes per second.",
+      "visual": 1
+    },
+    {
+      "say": "Kite, Zerodha's trading platform with about 20 million customers, stores chart layouts, indicator templates and workspace preferences as opaque blobs from a few KB to several MB.",
+      "visual": 2,
+      "stat": "20 million",
+      "statLabel": "customers"
+    },
+    {
+      "say": "At 25,324 HSET operations per second, each carrying a 64 KiB payload, Blobasaur processes roughly 1.66 GB/s of uncompressed JSON through zstd.",
+      "visual": 3,
+      "stat": "25,324",
+      "statLabel": "hset operations per"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
