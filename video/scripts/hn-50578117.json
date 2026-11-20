@@ -1,0 +1,21 @@
+{
+  "hook": "PostgreSQL 19 is out, try it live",
+  "hookText": "PostgreSQL 19 is out, try it live",
+  "beats": [
+    {
+      "say": "PostgreSQL 19.0 was released on 19 November 2026, bringing useful new SQL alongside maintenance and replication improvements.",
+      "visual": 0,
+      "stat": "19.0",
+      "statLabel": "released version"
+    },
+    {
+      "say": "Replication experiments spin up real servers on demand: a logical subscriber on port 5433 and a physical standby on 5434, fed by the primary on 5432.",
+      "visual": 0
+    },
+    {
+      "say": "The tour runs everything in the browser, including a manual vacuum comparison between parallel zero and parallel two.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

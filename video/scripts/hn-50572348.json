@@ -1,0 +1,19 @@
+{
+  "hook": "Signal now blocks AI from reading chats",
+  "hookText": "Signal now blocks AI from reading chats",
+  "beats": [
+    {
+      "say": "Signal says privacy is its mission, and it is now restricting the latest AI agents built into mobile operating systems from capturing and storing your Signal data.",
+      "visual": 0
+    },
+    {
+      "say": "It is blocking such capture by preventing screenshots in the app on iOS 27, and when AI assistants attempt to capture screen data on Android.",
+      "visual": 1
+    },
+    {
+      "say": "It has done this before with Windows, and for macOS 27 it recommends adding Signal to the excluded apps in Siri settings.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

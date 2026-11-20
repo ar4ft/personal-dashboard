@@ -1,0 +1,19 @@
+{
+  "hook": "Search maps in plain English",
+  "hookText": "Search maps in plain English",
+  "beats": [
+    {
+      "say": "A Show HN project offers fast, deterministic natural-language search over OpenStreetMap data, turning plain queries into map results.",
+      "visual": 0
+    },
+    {
+      "say": "Type a plain query, like cafes by the Limmat 100 metres from the lake in Zurich, and it returns the matching places on the map.",
+      "visual": 0
+    },
+    {
+      "say": "The search is deterministic, so the same query returns the same results every time, no ranking roulette, just the places that match.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

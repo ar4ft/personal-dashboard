@@ -1,0 +1,21 @@
+{
+  "hook": "Promoted to architect, never told",
+  "hookText": "Promoted to architect, never told",
+  "beats": [
+    {
+      "say": "The post argues developers are being promoted into architect roles without being informed, and without the expectations or support changing to match.",
+      "visual": 0
+    },
+    {
+      "say": "It opens with a debugging story: a colleague vibe-coded the logging in a Google Forms add-on, and the welcome screen took 15 seconds to load.",
+      "visual": 1,
+      "stat": "15 seconds",
+      "statLabel": "welcome screen load"
+    },
+    {
+      "say": "The logging ran first after every install, yet Google has severely restricted how much detail it can return since last December.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "A floppy drive becomes a Wi-Fi NAS",
+  "hookText": "A floppy drive becomes a Wi-Fi NAS",
+  "beats": [
+    {
+      "say": "Floppy3.5 is a 3.5-inch floppy disk portable Wi-Fi NAS, built to read old disks and share them over a network.",
+      "visual": 0
+    },
+    {
+      "say": "Its screen maps the disk's 80 cylinders as four rows of 20 columns, so you can see the whole disk at a glance.",
+      "visual": 1,
+      "stat": "80",
+      "statLabel": "cylinders"
+    },
+    {
+      "say": "Setup is a firmware flash: copy the file to the controller's USB drive, then build and flash the ESP32-S3 Wi-Fi firmware.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

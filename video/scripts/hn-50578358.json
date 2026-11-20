@@ -1,0 +1,19 @@
+{
+  "hook": "Tao: AI also cracked Navier-Stokes blowup",
+  "hookText": "Tao: AI also cracked Navier-Stokes blowup",
+  "beats": [
+    {
+      "say": "Terence Tao reports that Levent Alpöge and Tristan Buckmaster, again with heavy AI usage, have generated a proof of finite-time blowup for the unforced, incompressible Navier-Stokes equations in three dimensions, again with a Lean formalization.",
+      "visual": 0
+    },
+    {
+      "say": "Alpöge, using an internal AI model, also generated an enormous Lean-only proof of the Generalized Riemann Hypothesis.",
+      "visual": 0
+    },
+    {
+      "say": "Tao points readers to Buckmaster's Mastodon post for more on the first two results.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

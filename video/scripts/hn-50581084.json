@@ -1,0 +1,21 @@
+{
+  "hook": "Stochastic parrots proved Riemann, apparently",
+  "hookText": "Stochastic parrots proved Riemann, apparently",
+  "beats": [
+    {
+      "say": "Scott Aaronson woke up to news that Levent Alpöge says Anthropic models proved the Generalized Riemann Hypothesis, producing 17.4 million lines of Lean code.",
+      "visual": 0,
+      "stat": "17.4 million",
+      "statLabel": "lines of Lean"
+    },
+    {
+      "say": "Social media is now joking that the so-called stochastic parrots just proved the Riemann Hypothesis, a jab at Aaronson's own phrase from 2021.",
+      "visual": 0
+    },
+    {
+      "say": "Aaronson notes Lean itself still has issues, from kernel bugs that once allowed proofs of zero equals one to uncertain soundness.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

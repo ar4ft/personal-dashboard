@@ -1,0 +1,19 @@
+{
+  "hook": "A second Riemann proof claim lands",
+  "hookText": "A second Riemann proof claim lands",
+  "beats": [
+    {
+      "say": "Mathematician Alessandro Masullo has a proposed proof of the Generalized Riemann Hypothesis, and Brian Conrad has been looking closely at it for months, giving extensive feedback that is being incorporated.",
+      "visual": 0
+    },
+    {
+      "say": "The hope was to bring Masullo to Stanford for a year to polish the writing, then announce it after running it by enough people.",
+      "visual": 0
+    },
+    {
+      "say": "Instead the announcement came out hurried, with a call for people to quickly check it, formalize it, and fill any small gaps.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
