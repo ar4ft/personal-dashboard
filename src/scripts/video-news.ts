@@ -207,7 +207,14 @@ async function init(root: HTMLElement) {
         track.srclang = "en";
         track.label = "English";
         track.src = v.captions;
+        // The burned-in kinetic captions already show the narration; keep the
+        // plain subtitle track hidden until the viewer asks for it.
+        const hideCaptions = () => {
+          if (track.track) track.track.mode = "hidden";
+        };
+        track.addEventListener("load", hideCaptions);
         video.append(track);
+        hideCaptions();
       }
       video.addEventListener("click", (event) => {
         event.preventDefault();
@@ -262,6 +269,23 @@ async function init(root: HTMLElement) {
       });
       paintKeep(keep, v);
       actions.append(keepWrap);
+      if (v.captions) {
+        const ccWrap = el("div", "reel-action");
+        const cc = el("button", "reel-cc", "CC");
+        cc.type = "button";
+        cc.setAttribute("aria-pressed", "false");
+        cc.title = "Show subtitles";
+        cc.addEventListener("click", () => {
+          const t = video.textTracks[0];
+          if (!t) return;
+          const show = t.mode !== "showing";
+          t.mode = show ? "showing" : "hidden";
+          cc.setAttribute("aria-pressed", String(show));
+          cc.title = show ? "Hide subtitles" : "Show subtitles";
+        });
+        ccWrap.append(cc, el("span", "", "Subtitles"));
+        actions.append(ccWrap);
+      }
 
       reel.append(media, progress, body, actions);
       scroller.append(reel);

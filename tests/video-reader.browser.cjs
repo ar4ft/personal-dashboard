@@ -29,6 +29,7 @@ const fs = require("node:fs");
         url: "https://example.com/one",
         src: "media/markdown-demo.mp4",
         poster: "media/technology.svg",
+        captions: "media/test-captions.vtt",
         createdAt: "2026-11-20T18:00:00Z",
         pinned: false,
       },
@@ -124,6 +125,30 @@ const fs = require("node:fs");
   );
   assert.equal(preloads[0] === "metadata" || preloads[0] === "auto", true);
   if (preloads.length > 2) assert.equal(preloads[2], "none");
+
+  // The burned-in kinetic captions already show the narration, so the plain
+  // subtitle track stays hidden until the viewer asks for it with the CC
+  // button; the button toggles it on and back off.
+  await page.waitForFunction(() => {
+    const v = document.querySelector("#news-swipe-scroller video");
+    return v && v.textTracks[0] && v.textTracks[0].mode === "hidden";
+  });
+  const ccButton = first.locator("button.reel-cc");
+  assert.equal(await ccButton.count(), 1);
+  assert.equal(await ccButton.innerText(), "CC");
+  assert.equal(await ccButton.getAttribute("aria-pressed"), "false");
+  await ccButton.click();
+  await page.waitForFunction(() => {
+    const v = document.querySelector("#news-swipe-scroller video");
+    return v && v.textTracks[0] && v.textTracks[0].mode === "showing";
+  });
+  assert.equal(await ccButton.getAttribute("aria-pressed"), "true");
+  await ccButton.click();
+  await page.waitForFunction(() => {
+    const v = document.querySelector("#news-swipe-scroller video");
+    return v && v.textTracks[0] && v.textTracks[0].mode === "hidden";
+  });
+  assert.equal(await ccButton.getAttribute("aria-pressed"), "false");
 
   await page.locator("#news-swipe-scroller").focus();
   await page.keyboard.press("ArrowDown");
@@ -250,6 +275,22 @@ const fs = require("node:fs");
     await newsPage.locator(".news-reel .reel-video").getAttribute("href"),
     "/personal-dashboard/videos/#video%3Areader-one",
   );
+  await newsPage.waitForFunction(() => {
+    const v = document.querySelector(".news-reel video.reel-inline-video");
+    return v && v.textTracks[0] && v.textTracks[0].mode === "hidden";
+  });
+  const newsCc = newsPage.locator(".news-reel button.reel-cc");
+  assert.equal(await newsCc.count(), 1);
+  await newsCc.click();
+  await newsPage.waitForFunction(() => {
+    const v = document.querySelector(".news-reel video.reel-inline-video");
+    return v && v.textTracks[0] && v.textTracks[0].mode === "showing";
+  });
+  await newsCc.click();
+  await newsPage.waitForFunction(() => {
+    const v = document.querySelector(".news-reel video.reel-inline-video");
+    return v && v.textTracks[0] && v.textTracks[0].mode === "hidden";
+  });
   await news.close();
 
   assert.deepEqual(errors, []);

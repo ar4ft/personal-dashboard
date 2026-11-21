@@ -1431,6 +1431,29 @@ function initialize(host: HTMLElement) {
           actions.prepend(wrap);
         }
       }
+      if (actions && video.captions && !actions.querySelector(".reel-cc")) {
+        const wrap = document.createElement("div");
+        wrap.className = "reel-action";
+        const cc = document.createElement("button");
+        cc.type = "button";
+        cc.className = "reel-cc";
+        cc.textContent = "CC";
+        cc.setAttribute("aria-pressed", "false");
+        cc.title = "Show subtitles";
+        cc.addEventListener("click", () => {
+          const player = reel.querySelector<HTMLVideoElement>("video.reel-inline-video");
+          const t = player?.textTracks[0];
+          if (!t) return;
+          const show = t.mode !== "showing";
+          t.mode = show ? "showing" : "hidden";
+          cc.setAttribute("aria-pressed", String(show));
+          cc.title = show ? "Hide subtitles" : "Show subtitles";
+        });
+        const label = document.createElement("span");
+        label.textContent = "Subtitles";
+        wrap.append(cc, label);
+        actions.append(wrap);
+      }
       if (reel.querySelector("video.reel-inline-video")) return;
       const media = reel.querySelector(".reel-media");
       if (!media) return;
@@ -1450,7 +1473,14 @@ function initialize(host: HTMLElement) {
         track.srclang = "en";
         track.label = "English";
         track.src = video.captions;
+        // The burned-in kinetic captions already show the narration; keep the
+        // plain subtitle track hidden until the viewer asks for it.
+        const hideCaptions = () => {
+          if (track.track) track.track.mode = "hidden";
+        };
+        track.addEventListener("load", hideCaptions);
         player.append(track);
+        hideCaptions();
       }
       player.addEventListener("click", (event) => {
         event.preventDefault();

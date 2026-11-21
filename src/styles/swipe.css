@@ -148,6 +148,15 @@ body.news-swipe-open {
   color: #c4f6d7;
   background: #126773ba;
 }
+#news-swipe-dialog .reel-actions .reel-cc {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+#news-swipe-dialog .reel-actions .reel-cc[aria-pressed="true"] {
+  color: #c4f6d7;
+  background: #126773ba;
+}
 #news-swipe-dialog .reel-column {
   width: 60px;
   min-height: 44px;
