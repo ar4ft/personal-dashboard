@@ -1,0 +1,21 @@
+{
+  "hook": "KMeans on Apple silicon, twenty to thirty-one times faster.",
+  "hookText": "KMeans much faster on Apple silicon",
+  "beats": [
+    {
+      "say": "mlx-learn 0.1.6 is out, and its KMeans with the default k-means-plus-plus initialization now fits twenty to thirty-one times faster on Apple silicon.",
+      "visual": 0
+    },
+    {
+      "say": "On an M4 Max, fitting 8,192 centers on MNIST took 219 seconds in version 0.1.5, and just 7 seconds in 0.1.6.",
+      "visual": 0,
+      "stat": "219 to 7 s",
+      "statLabel": "fit time on M4 Max"
+    },
+    {
+      "say": "Nothing else changed: the same starting centers as scikit-learn, the same iterations, and the same inertia, and the release is out now.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
