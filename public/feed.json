@@ -51552,6 +51552,274 @@
       "url": "https://github.com/google-deepmind/math-horizon",
       "createdAt": "2026-11-20T21:42:21Z",
       "updatedAt": "2026-11-20T21:42:21Z"
+    },
+    {
+      "id": "hn:50587208",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GPGME 2.3.1 fixes a critical double free (CVE-2026-129975) reachable with a crafted OpenPGP key",
+      "description": "GnuPG released GPGME 2.3.1 after a crafted OpenPGP key with a very long user ID was found to trigger a double free that can leak data from applications, with remote code execution not ruled out.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gdgghhhhh",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "createdAt": "2026-11-21T08:32:58Z",
+      "updatedAt": "2026-11-21T08:32:58Z",
+      "content": "Werner Koch's advisory says the bug sits in two GPGME internal functions that read gpg status lines and key listings: a 1024-byte buffer gets reallocated, but the new pointer is only written back to the context at the end, so an early return leaves a stale pointer that is later freed a second time. GPGME is used by Gpg4win, GnuPG Desktop and VS-Desktop, most mail clients and many XMPP clients, so an immediate update is recommended. The flaw was found by Johan Carlsson and reported via GitLab on Nov 12; disclosure was moved up from Nov 25 because of the Ruby2Shell bug.\n\n[GnuPG task T8557](https://static.dev.gnupg.org/T8557)\n\n[HN discussion](https://news.ycombinator.com/item?id=50587208)"
+    },
+    {
+      "id": "hn:50573886",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "If you stop writing code, you also get worse at reviewing it",
+      "description": "An essay arguing that developers who hand all coding to AI agents and only review output will see their own skills, including their ability to review code well, steadily erode.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "theanonymousone",
+      "url": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+      "createdAt": "2026-11-20T12:41:38Z",
+      "updatedAt": "2026-11-20T12:41:38Z",
+      "content": "The author compares it to a guitarist who stops practicing and only directs others, or a writer who only reads and critiques (mostly AI-generated) prose: in every other field it is accepted that skills decay without practice. The point is not the short-term quality of agent output but the long-term craft of the engineer, which he argues depends on actually writing code.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50573886)"
+    },
+    {
+      "id": "hn:50581110",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DreamCoder: a browser-based AI coding harness with a tiling window manager, from the author of Mastering Emacs",
+      "description": "Mickey Petersen released DreamCoder after 15 months of work: a frontier coding-agent harness with a tiling window manager that runs in the browser on all three desktop platforms.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Mickey Petersen",
+      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "createdAt": "2026-11-20T20:03:59Z",
+      "updatedAt": "2026-11-20T20:03:59Z",
+      "content": "Petersen argues terminal-first agents like Claude Code are a poor fit for serious work (cramped windows, awkward multi-line copy and paste) and that most GUI harnesses look the same: a sidebar and a chat pane. The launch post also walks through a history of AI and Lisp, from McCarthy's Advice Taker to Emacs, before introducing the new tool.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50581110)"
+    },
+    {
+      "id": "hn:50580536",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Winedroid runs real Android APKs without Android, even in the browser via WASM",
+      "description": "Winedroid is a Rust reimplementation of the Android runtime that runs real APKs from F-Droid without Android; a browser demo loads a 12 MB WASM runtime.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sohzm",
+      "url": "https://winedroid.soham.sh/demo/",
+      "createdAt": "2026-11-20T19:30:16Z",
+      "updatedAt": "2026-11-20T19:30:16Z",
+      "content": "The demo runs a calculator, file explorer, meditation timer, weather and currency apps downloaded from F-Droid. The author notes it is early, not every app works yet, and the browser build is slower because the JIT does not work on the web, so native Winedroid runs smoother.\n\n[Repo on GitHub](https://github.com/sohzm/winedroid)\n\n[HN discussion](https://news.ycombinator.com/item?id=50580536)"
+    },
+    {
+      "id": "hn:50581403",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenComputer: an open-source, self-hostable alternative to Devin",
+      "description": "OpenComputer is an open-source cloud coding agent that teams task from Slack; it works on its own VM and delivers results as pull requests, and can run in your own AWS, GCP or Azure account.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "iacguy",
+      "url": "https://github.com/diggerhq/opencomputer",
+      "createdAt": "2026-11-20T20:19:56Z",
+      "updatedAt": "2026-11-20T20:19:56Z",
+      "content": "You mention @Computer in a Slack thread, watch and steer it while it works, and get a PR at the end. The whole stack runs on a single VM: a gateway called Calvin listens for Slack events and starts a Claude Code, Codex or OpenCode session, each isolated with rootless Podman, with state persisted to a git-backed store. The team claims it opens PRs 3.3x faster than Devin in its own benchmark.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50581403)"
+    },
+    {
+      "id": "hn:50587875",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Why a Studio Display XDR hub cut a 2.5 GbE adapter's download speed by 75%",
+      "description": "A developer traced 600 Mbps downloads on a 2.5 Gbps line to a USB Ethernet adapter plugged into his Studio Display, where the hub's added latency capped how fast the adapter could hand frames to the Mac.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Oscar Molnar",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "createdAt": "2026-11-21T10:36:32Z",
+      "updatedAt": "2026-11-21T10:36:32Z",
+      "content": "Plugged straight into the MacBook Pro, the Realtek RTL8156B adapter hit about 2.3 Gbps; behind the display it dropped frames above roughly 168,000 frames per second (about 2 Gbps). Realtek's own driver lifted speeds to 1.1 Gbps and router flow control to about 2 Gbps. The root cause he found: the adapter sends only 4 USB packets per burst (an SSD enclosure sends 16), and the roughly 7.6 microsecond go-ahead round trip through the monitor's hub makes the drain slower than the 2.5 Gbps input, so its buffer overflows.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50587875)"
+    },
+    {
+      "id": "hn:50582794",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "2 million canary prompts reveal a leaky AI inference supply chain",
+      "description": "Researcher HD Moore seeded nearly two million AI prompts with unique trackable secrets and found three compromised AI providers, resellers logging prompts and providers ignoring zero-data-retention flags.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "createdAt": "2026-11-20T21:53:39Z",
+      "updatedAt": "2026-11-20T21:53:39Z",
+      "content": "Each fake AWS key, password or private URL went into exactly one prompt sent through AI routers and resellers. Attackers inside three hosting providers stole every request in certain windows, including some marked ZDR, and the bait keys were used tens of thousands of times in AWS API calls, from probing S3 and secrets managers to adding IAM users. Some cheap resellers logged prompts themselves, and some providers scraped secret URLs from prompts.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50582794)"
+    },
+    {
+      "id": "hn:50585975",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Malicious npm package installed Hermes Agent as a root backdoor controlled over Telegram",
+      "description": "SafeDep found @leadstack/crm-connect, a fake CRM client that on install set up Nous Research's open-source Hermes Agent as a systemd service wired to an attacker's Telegram bot.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "SafeDep",
+      "url": "https://safedep.io/blog/malicious-npm-leadstack-crm-connect-hermes-agent-backdoor",
+      "createdAt": "2026-11-21T04:33:56Z",
+      "updatedAt": "2026-11-21T04:33:56Z",
+      "content": "When npm install ran as root, the agent ran as root, letting the attacker run shell commands, read and write files, browse and schedule jobs from a Telegram chat. The npm account published nine versions on Nov 16; SafeDep flagged it five minutes after the last release and npm removed it. Later versions dropped the agent for downloaded JavaScript or binaries, and the publisher is still active.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50585975)"
+    },
+    {
+      "id": "x:2123915799437963495",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iOS 27 lets two iPhones share one phone number with iPhone Handoff",
+      "description": "A new iOS 27 feature, iPhone Handoff, lets you keep the same phone number on two iPhones; unlocking either one makes the number active on it.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "9to5Mac (@9to5mac)",
+      "url": "https://x.com/9to5mac/status/2123915799437963495",
+      "createdAt": "2026-11-20T23:06:01Z",
+      "updatedAt": "2026-11-20T23:06:01Z",
+      "content": "One iPhone is the main device and the other a secondary that shares the number, which is active on only one at a time; a Switched to this iPhone banner confirms the change. Carrier services like call forwarding are managed on the main iPhone, and carrier support is limited for now.\n\n[Article on 9to5Mac](https://9to5mac.com/2026/11/20/ios-27-lets-you-use-two-iphones-with-the-same-phone-number/)\n\n[Post on X](https://x.com/9to5mac/status/2123915799437963495)"
+    },
+    {
+      "id": "x:2123895644914167950",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Siri Recap on Apple Watch hands-on: private, but not very useful",
+      "description": "MacRumors tested Siri Recap in the watchOS 27.3 beta, which lets Series 12 and Ultra 4 watches listen to conversations and summarize them, and found the summaries too brief and unreliable.",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "MacRumors.com (@MacRumors)",
+      "url": "https://x.com/MacRumors/status/2123895644914167950",
+      "createdAt": "2026-11-20T21:45:56Z",
+      "updatedAt": "2026-11-20T21:45:56Z",
+      "content": "Audio is walled off from apps and discarded after the summary, which Juli Clover says limits usefulness: no speaker labels, no original audio to check, and long conversations (like vet visits) got merged into confusing summaries. It also summarized YouTube videos and others' conversations. It ships with watchOS 27.3 in December.\n\n[Hands-on on MacRumors](https://www.macrumors.com/2026/11/20/siri-recap-hands-on/)\n\n[Post on X](https://x.com/MacRumors/status/2123895644914167950)"
+    },
+    {
+      "id": "x:2124109184975409576",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "KeyboardKit 11.3 adds experimental in-keyboard dictation for iOS keyboards",
+      "description": "KeyboardKit 11.3 adds an experimental dictation engine that runs inside the keyboard extension, using a workaround Raycast found, plus system Shortcuts actions, cached keyboard previews and simpler localization.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Daniel Saidi (@danielsaidi)",
+      "url": "https://x.com/danielsaidi/status/2124109184975409576",
+      "createdAt": "2026-11-21T11:54:28Z",
+      "updatedAt": "2026-11-21T11:54:28Z",
+      "content": "The new .inKeyboard engine records audio through an embedded web view and transcribes it with the same speech recognizer, avoiding the round trip to the main app. The main app still has to request microphone and speech permissions, and Saidi warns Apple could break the workaround in any iOS update. A new .systemShortcut action triggers Shortcuts from the keyboard.\n\n[Release notes](https://keyboardkit.com/blog/2026/11/21/keyboardkit-11-3-improved-dictation-system-shortcuts-and-more)\n\n[Post on X](https://x.com/danielsaidi/status/2124109184975409576)"
+    },
+    {
+      "id": "x:2124004921573781771",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "In iOS 27, Siri uses Transferable too",
+      "description": "Transferable, the protocol behind ShareLink and drag and drop, is also used by Siri in iOS 27: returning an IntentValueRepresentation lets one conformance cover both directions.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2124004921573781771",
+      "createdAt": "2026-11-21T05:00:10Z",
+      "updatedAt": "2026-11-21T05:00:10Z",
+      "content": "Sarun's tip: the IntentValueRepresentation takes a key path on the way out and a closure on the way in, so an app's existing Transferable types can expose data to Siri without separate plumbing.\n\n[Post on X](https://x.com/sarunw/status/2124004921573781771)"
+    },
+    {
+      "id": "x:2124095555475304900",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "App Store Connect renames iPhone screenshot slots; required size is now 6.3 inch",
+      "description": "App Store Connect dropped inch-based names for iPhone screenshot slots, and the required slot is now the 6.3-inch size (1206 x 2622) instead of 6.9-inch.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Sarun W. (@sarunw)",
+      "url": "https://x.com/sarunw/status/2124095555475304900",
+      "createdAt": "2026-11-21T11:00:18Z",
+      "updatedAt": "2026-11-21T11:00:18Z",
+      "content": "A small but practical change for iOS developers preparing App Store listings: check which screenshot sizes your submission pipeline generates.\n\n[Post on X](https://x.com/sarunw/status/2124095555475304900)"
+    },
+    {
+      "id": "reading:abakcus-magic-hexagon",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The magic hexagon: 19 numbers, 15 lines, every one summing to 38",
+      "description": "Abakcus explains the only magic hexagon: the numbers 1 to 19 arranged so all 15 straight lines add to 38, a puzzle a railway clerk worked on for 47 years and that has no larger version.",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Abakcus",
+      "url": "https://abakcus.com/articles/magic-hexagon",
+      "createdAt": "2026-11-21T00:00:00Z",
+      "updatedAt": "2026-11-21T00:00:00Z",
+      "content": "The target follows from 1+...+19 = 190 split across five columns. Up to rotation and reflection there is exactly one solution, with 5 at the centre. Found by Ernst von Haselberg in 1887 and William Radcliffe in 1895, it was rediscovered by Reading Railroad clerk Clifford W. Adams, who started in 1910 and found it in 1957. The article includes an interactive hexagon.\n\n[Article on Abakcus](https://abakcus.com/articles/magic-hexagon)"
+    },
+    {
+      "id": "reading:abakcus-hilberts-23-problems",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hilbert's 23 problems: the complete list and their status",
+      "description": "A long Abakcus essay on David Hilbert's 1900 Paris lecture that set out 23 problems for the new century, and where each stands today.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Abakcus",
+      "url": "https://abakcus.com/articles/hilberts-23-problems",
+      "createdAt": "2026-11-21T00:00:00Z",
+      "updatedAt": "2026-11-21T00:00:00Z",
+      "content": "It tells how Hermann Minkowski urged Hilbert to look ahead, how he read only ten problems aloud at the Sorbonne, and how the published list of 23, translated into English in 1902 by Mary Winston Newson, went on to shape whole fields of 20th-century mathematics.\n\n[Article on Abakcus](https://abakcus.com/articles/hilberts-23-problems)"
     }
   ]
 }
