@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.048
+Frontier models hand-edit
+
+00:00:01.918 --> 00:00:02.849
+a 0 .
+
+00:00:02.661 --> 00:00:04.276
+5B vision model's
+
+00:00:04.088 --> 00:00:04.748
+weights
+
+00:00:05.286 --> 00:00:06.594
+A zero-shot readout
+
+00:00:06.406 --> 00:00:07.880
+comparing SigLIP image
+
+00:00:07.692 --> 00:00:09.201
+features with animal-name
+
+00:00:09.012 --> 00:00:10.380
+text vectors already
+
+00:00:10.192 --> 00:00:11.948
+told Galápagos mockingbirds
+
+00:00:11.760 --> 00:00:12.868
+from other birds
+
+00:00:12.680 --> 00:00:13.953
+98% of the
+
+00:00:13.765 --> 00:00:15.026
+time and native
+
+00:00:14.838 --> 00:00:16.477
+iguanas from introduced
+
+00:00:16.288 --> 00:00:17.962
+green iguanas 80%
+
+00:00:17.774 --> 00:00:18.576
+of the time
+
+00:00:19.102 --> 00:00:20.800
+Claude Fable 5.2
+
+00:00:20.906 --> 00:00:22.663
+Claude Opus 5.5
+
+00:00:22.498 --> 00:00:24.396
+and GPT-6 Astra
+
+00:00:24.208 --> 00:00:25.186
+Pro took turns
+
+00:00:24.998 --> 00:00:25.894
+in a notebook
+
+00:00:26.001 --> 00:00:26.837
+reading weights
+
+00:00:26.991 --> 00:00:28.040
+testing on labelled
+
+00:00:27.852 --> 00:00:29.219
+photos and writing
+
+00:00:29.043 --> 00:00:30.139
+every change as
+
+00:00:29.951 --> 00:00:31.059
+a computed number
+
+00:00:31.598 --> 00:00:32.553
+The method was
+
+00:00:32.364 --> 00:00:33.472
+first built on
+
+00:00:33.284 --> 00:00:36.421
+1,611 camera-trap photos
+
+00:00:36.232 --> 00:00:37.824
+from 45 cameras
+
+00:00:38.358 --> 00:00:39.372
+Full story on
+
+00:00:39.183 --> 00:00:40.079
+the dashboard

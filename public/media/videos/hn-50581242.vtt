@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.824
+OpenAI explains how
+
+00:00:01.635 --> 00:00:02.602
+it detects and
+
+00:00:02.414 --> 00:00:03.958
+disrupts adversarial
+
+00:00:03.770 --> 00:00:04.724
+distillation
+
+00:00:05.262 --> 00:00:06.736
+OpenAI describes how
+
+00:00:06.547 --> 00:00:07.761
+bad actors use
+
+00:00:07.573 --> 00:00:09.094
+frontier model outputs
+
+00:00:08.906 --> 00:00:10.073
+to train copies
+
+00:00:09.885 --> 00:00:11.016
+without safeguards
+
+00:00:11.158 --> 00:00:11.783
+and how it
+
+00:00:11.595 --> 00:00:12.502
+fights this with
+
+00:00:12.314 --> 00:00:14.778
+testing training classifiers
+
+00:00:14.932 --> 00:00:16.441
+API protections and
+
+00:00:16.253 --> 00:00:17.408
+investigations
+
+00:00:17.926 --> 00:00:19.647
+The November 20 post
+
+00:00:19.754 --> 00:00:20.756
+gives the example
+
+00:00:20.567 --> 00:00:21.499
+of distilling a
+
+00:00:21.310 --> 00:00:23.102
+model's cyber capabilities
+
+00:00:22.914 --> 00:00:23.857
+into a copy
+
+00:00:23.917 --> 00:00:24.600
+that will help
+
+00:00:24.412 --> 00:00:25.284
+with attacks the
+
+00:00:25.096 --> 00:00:26.593
+original would refuse
+
+00:00:27.110 --> 00:00:28.112
+The average attack
+
+00:00:27.924 --> 00:00:29.055
+success rate fell
+
+00:00:28.867 --> 00:00:30.612
+from 54.0% against
+
+00:00:30.424 --> 00:00:31.862
+GPT6 Astra
+
+00:00:31.886 --> 00:00:32.817
+with its original
+
+00:00:32.629 --> 00:00:34.893
+safeguards to 0.2%
+
+00:00:34.728 --> 00:00:36.355
+against GPT6 .
+
+00:00:36.167 --> 00:00:37.428
+2 Astra with
+
+00:00:37.240 --> 00:00:38.713
+its updated safeguards
+
+00:00:39.246 --> 00:00:40.260
+Full story on
+
+00:00:40.071 --> 00:00:40.967
+the dashboard

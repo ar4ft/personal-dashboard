@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.918
+Deterministic Simulation
+
+00:00:01.730 --> 00:00:02.743
+Testing is for
+
+00:00:02.661 --> 00:00:03.333
+everyone
+
+00:00:03.510 --> 00:00:04.760
+not just distributed
+
+00:00:04.572 --> 00:00:05.361
+systems
+
+00:00:05.886 --> 00:00:07.112
+An essay arguing
+
+00:00:06.924 --> 00:00:07.949
+that deterministic
+
+00:00:07.761 --> 00:00:08.963
+simulation testing
+
+00:00:09.164 --> 00:00:10.367
+usually associated
+
+00:00:10.178 --> 00:00:11.805
+with distributed databases
+
+00:00:11.983 --> 00:00:12.902
+is a practical
+
+00:00:12.714 --> 00:00:13.952
+testing technique for
+
+00:00:13.905 --> 00:00:15.013
+any application
+
+00:00:15.550 --> 00:00:16.316
+If the bug
+
+00:00:16.128 --> 00:00:16.965
+can no longer
+
+00:00:16.776 --> 00:00:17.766
+be reproduced
+
+00:00:17.850 --> 00:00:18.698
+we have proven
+
+00:00:18.510 --> 00:00:19.559
+to ourselves that
+
+00:00:19.371 --> 00:00:20.597
+the test corresponds
+
+00:00:20.409 --> 00:00:21.127
+to the bug
+
+00:00:21.316 --> 00:00:22.094
+and we keep
+
+00:00:21.906 --> 00:00:22.625
+the test to
+
+00:00:22.437 --> 00:00:23.639
+guard against further
+
+00:00:23.451 --> 00:00:24.335
+regressions
+
+00:00:24.854 --> 00:00:26.339
+Doubting every development
+
+00:00:26.151 --> 00:00:27.177
+decision we make
+
+00:00:26.988 --> 00:00:27.990
+is exhausting
+
+00:00:28.129 --> 00:00:29.061
+I argue that
+
+00:00:28.872 --> 00:00:29.615
+it's a testing
+
+00:00:29.427 --> 00:00:30.782
+technique for everyone
+
+00:00:30.606 --> 00:00:32.103
+and all applications
+
+00:00:32.646 --> 00:00:33.660
+Full story on
+
+00:00:33.471 --> 00:00:34.367
+the dashboard

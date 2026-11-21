@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.883
+Merkle Tree Certificates
+
+00:00:02.048 --> 00:00:03.463
+IETF draft for
+
+00:00:03.333 --> 00:00:04.052
+X .
+
+00:00:03.864 --> 00:00:05.338
+509 certs
+
+00:00:05.862 --> 00:00:07.277
+An IETF PLANTS
+
+00:00:07.088 --> 00:00:08.255
+working group draft
+
+00:00:08.067 --> 00:00:08.880
+from Google
+
+00:00:09.034 --> 00:00:09.670
+Apple
+
+00:00:09.718 --> 00:00:11.321
+Cloudflare and Geomys
+
+00:00:11.180 --> 00:00:12.725
+authors defines Merkle
+
+00:00:12.537 --> 00:00:13.704
+Tree certificates
+
+00:00:13.834 --> 00:00:14.600
+built to cut
+
+00:00:14.412 --> 00:00:15.708
+logging overhead for
+
+00:00:15.520 --> 00:00:17.347
+short-lived and post-quantum
+
+00:00:17.159 --> 00:00:18.137
+certificates
+
+00:00:18.670 --> 00:00:20.002
+Draft 08 by
+
+00:00:19.814 --> 00:00:20.898
+David Benjamin
+
+00:00:20.981 --> 00:00:22.007
+Devon O'Brien
+
+00:00:22.090 --> 00:00:23.339
+Bas Westerbaan
+
+00:00:23.493 --> 00:00:24.589
+Luke Valenta and
+
+00:00:24.401 --> 00:00:26.287
+Filippo Valsorda describes
+
+00:00:26.099 --> 00:00:27.042
+a new form
+
+00:00:26.866 --> 00:00:27.820
+of X .
+
+00:00:27.632 --> 00:00:29.542
+509 certificate that
+
+00:00:29.484 --> 00:00:30.769
+integrates Certificate
+
+00:00:30.580 --> 00:00:31.948
+Transparency-style
+
+00:00:31.760 --> 00:00:32.785
+public logging
+
+00:00:33.302 --> 00:00:35.896
+Expires 6 May 2027
+
+00:00:35.708 --> 00:00:37.382
+Page 1 Internet-Draft
+
+00:00:37.194 --> 00:00:38.667
+Merkle Tree Certificates
+
+00:00:38.479 --> 00:00:40.519
+November 2026 Status
+
+00:00:40.366 --> 00:00:41.214
+of This Memo
+
+00:00:41.132 --> 00:00:42.346
+This Internet-Draft
+
+00:00:42.347 --> 00:00:43.301
+is submitted in
+
+00:00:43.113 --> 00:00:44.504
+full conformance with
+
+00:00:44.316 --> 00:00:45.283
+the provisions
+
+00:00:45.822 --> 00:00:46.836
+Full story on
+
+00:00:46.647 --> 00:00:47.543
+the dashboard
