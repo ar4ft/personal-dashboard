@@ -1,0 +1,20 @@
+{
+  "hook": "Inferact plans an autonomous inference system built around vLLM",
+  "hookText": "Inferact plans an autonomous inference system built around vLLM",
+  "beats": [
+    {
+      "say": "vLLM co-creator Simon Mo explains that Inferact is building a system that tunes vLLM for new models, chips and workloads on its own, while vLLM stays open and engine improvements go back upstream.",
+      "visual": 0
+    },
+    {
+      "say": "In an X article, \"Building an Autonomous Inference System\", Mo argues that the model × hardware × workload space can't be tuned by hand.",
+      "visual": 0
+    },
+    {
+      "say": "Many people have asked what inferact is building and what it means for vllmproject.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

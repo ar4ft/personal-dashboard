@@ -1,0 +1,22 @@
+{
+  "hook": "Seven new models at scalable price-performance",
+  "hookText": "Seven new models at scalable price-performance",
+  "beats": [
+    {
+      "say": "Microsoft announced seven new AI models at Ignite 2026, positioned around scalable price-performance. Used by 4,000 customers, it’s 50x faster and 79x cheaper than GPT-6.1 Sol.",
+      "visual": 1
+    },
+    {
+      "say": "In a blind, side-by-side evaluation of frontend work, developers preferred MAI Code 2 over GPT-6 Sol 64% of the time.",
+      "visual": 2,
+      "stat": "64%",
+      "statLabel": "the time"
+    },
+    {
+      "say": "MAI Image 2.7 is the best image editing model in the world, taking the 1 spot on Artificial Analysis, outperforming GPT Image 2.6 Sunburst at just one-fifth of the price.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

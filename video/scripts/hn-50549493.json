@@ -1,0 +1,22 @@
+{
+  "hook": "OpenAI: frontier models improved its Jalapeño chip",
+  "hookText": "OpenAI: frontier models improved its Jalapeño chip",
+  "beats": [
+    {
+      "say": "OpenAI says model-proposed RTL changes cut standard-cell area about 13% and 10% in its Jalapeño inference chip's vector and matrix units, and found up to 14% PPA gains on AMD's flagship GPU IP.",
+      "visual": 1
+    },
+    {
+      "say": "Examples include a multiplier redesign with about 15% less cell area and one fewer cycle of latency.",
+      "visual": 2,
+      "stat": "15%",
+      "statLabel": "less cell area"
+    },
+    {
+      "say": "OpenAI also benchmarked model generations on boosting throughput of the open PicoRV32 and Ibex RISC-V cores, where GPT-6.2 Astra scored highest, and notes the limits of designing from a spec.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

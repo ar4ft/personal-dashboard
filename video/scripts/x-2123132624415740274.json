@@ -1,0 +1,20 @@
+{
+  "hook": "Camper: an indie mobile Bandcamp client built",
+  "hookText": "Camper: an indie mobile Bandcamp client built",
+  "beats": [
+    {
+      "say": "Iheanyi Ekechukwu released Camper for iOS and Android, a Bandcamp app for streaming and offline listening to your collection, discovery via Bandcamp Radio and Daily, wishlists and purchases.",
+      "visual": 0
+    },
+    {
+      "say": "Frustrated with Bandcamp's official app after more than a decade of buying music there, he built Camper on top of Bandcamp's Subsonic API.",
+      "visual": 0
+    },
+    {
+      "say": "Besides online and offline playback of your collection, search and wishlisting, it adds Last.fm scrobbling and reminders for Bandcamp Fridays and Listening Parties.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

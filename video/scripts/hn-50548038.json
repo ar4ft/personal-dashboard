@@ -1,0 +1,22 @@
+{
+  "hook": "SuperEMeans: making e-means clustering 3x faster",
+  "hookText": "SuperEMeans: making e-means clustering 3x faster",
+  "beats": [
+    {
+      "say": "The SuperKMeans authors fused their dimension-pruning trick with the new 2-epoch e-means algorithm, clustering high-dimensional embeddings for IVF vector indexes much faster without losing quality.",
+      "visual": 1
+    },
+    {
+      "say": "On 5M 1536-d OpenAI embeddings, SuperEMeans took 128 s versus 203 s for e-means, 232 s for SuperKMeans and 985 s for 10-iteration Lloyd's, with the same recall100 as e-means.",
+      "visual": 2
+    },
+    {
+      "say": "The index: We will build an IVF index with a point-per-cluster ratio of 1:256, resulting in approximately 20,000 centroids for OpenAI and 40,000 centroids for the Cohere dataset.",
+      "visual": 0,
+      "stat": "20,000",
+      "statLabel": "centroids"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

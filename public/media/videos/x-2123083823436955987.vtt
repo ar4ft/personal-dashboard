@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.107
+Swift Evolution accepts
+
+00:00:01.977 --> 00:00:03.817
+SE-0564
+
+00:00:03.994 --> 00:00:05.467
+Split Continuations
+
+00:00:06.006 --> 00:00:08.364
+SE-0564 adds an
+
+00:00:08.247 --> 00:00:09.685
+async withContinuation
+
+00:00:09.497 --> 00:00:10.546
+form that hands
+
+00:00:10.357 --> 00:00:11.725
+out separate resume
+
+00:00:11.548 --> 00:00:12.598
+and wait halves
+
+00:00:12.739 --> 00:00:14.284
+so cancellation and
+
+00:00:14.096 --> 00:00:15.381
+priority-escalation
+
+00:00:15.192 --> 00:00:16.477
+handlers are active
+
+00:00:16.360 --> 00:00:17.031
+only while a
+
+00:00:16.843 --> 00:00:18.305
+task is suspended
+
+00:00:18.838 --> 00:00:20.017
+Proposed by Franz
+
+00:00:19.829 --> 00:00:20.382
+Busch
+
+00:00:20.430 --> 00:00:22.788
+SE-0564 builds on
+
+00:00:22.612 --> 00:00:25.241
+SE-0528's noncopyable
+
+00:00:25.513 --> 00:00:26.420
+the new body
+
+00:00:26.232 --> 00:00:27.328
+is and receives
+
+00:00:27.140 --> 00:00:28.106
+both a and
+
+00:00:27.989 --> 00:00:28.496
+a
+
+00:00:28.626 --> 00:00:29.970
+closing races where
+
+00:00:29.781 --> 00:00:31.856
+cancellation or escalation
+
+00:00:31.668 --> 00:00:33.118
+handlers fire before
+
+00:00:32.930 --> 00:00:34.616
+the continuation exists
+
+00:00:35.150 --> 00:00:36.742
+Continuations bridge
+
+00:00:36.553 --> 00:00:37.933
+structured concurrency
+
+00:00:37.850 --> 00:00:39.525
+with custom asynchronous
+
+00:00:39.336 --> 00:00:40.150
+systems
+
+00:00:40.686 --> 00:00:41.700
+Full story on
+
+00:00:41.511 --> 00:00:42.407
+the dashboard

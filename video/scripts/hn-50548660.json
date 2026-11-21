@@ -1,0 +1,22 @@
+{
+  "hook": "Mastra Factory, the open-source software factory we use",
+  "hookText": "Mastra Factory, the open-source software factory we use",
+  "beats": [
+    {
+      "say": "Mastra Factory is an open-source software factory the Mastra team uses to build Mastra, shared as a Show HN post.",
+      "visual": 1
+    },
+    {
+      "say": "At Mastra, we now average nearly 4M downloads per week, and with Factory our team now merges hundreds of PRs a week across the mastra-ai GitHub org.",
+      "visual": 0,
+      "stat": "4M",
+      "statLabel": "downloads per week"
+    },
+    {
+      "say": "Last week, Factory opened and merged 238 PRs, alongside 630 merged PRs from humans. For us Factory is a configurable agentic kanban board that's @-taggable in Slack.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

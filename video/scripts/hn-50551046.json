@@ -1,0 +1,22 @@
+{
+  "hook": "DaisyRose-27B: RL on 1,200 tasks doubles Qwen3.8-27B on Terminal-Bench 4.1",
+  "hookText": "DaisyRose-27B: RL on 1,200 tasks doubles Qwen3.8-27B on Terminal-Bench 4.1",
+  "beats": [
+    {
+      "say": "RadixArk's first model is Qwen3.8-27B post-trained with reinforcement learning on 1,200 curated long-horizon agent tasks, raising Terminal-Bench 4.1 pass1 from 5.6% to 12.0%.",
+      "visual": 1
+    },
+    {
+      "say": "Each task was designed to trigger a mistake the base model makes and tuned to a useful solve rate.",
+      "visual": 2
+    },
+    {
+      "say": "The gain is even larger on mixture-of-experts models: 6.2× on Qwen3.6-35B-A3B, and more than 10× on the roughly 300B-parameter GLM-5.3-Flash.",
+      "visual": 0,
+      "stat": "6.2×",
+      "statLabel": "on qwen3"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

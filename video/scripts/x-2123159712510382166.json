@@ -1,0 +1,22 @@
+{
+  "hook": "TraySense: a 100 KB open-source taskbar monitor",
+  "hookText": "TraySense: a 100 KB open-source taskbar monitor",
+  "beats": [
+    {
+      "say": "DM TWEAKS launched TraySense, a tiny Windows taskbar monitor that shows CPU, GPU, RAM and VRAM usage plus CPU, GPU and SSD temperatures while using 1-3 MB of RAM.",
+      "visual": 1
+    },
+    {
+      "say": "The launch post passed 2,000 likes. CPU temperature needs the PawnIO driver, which it installs on demand.",
+      "visual": 2,
+      "stat": "2,000",
+      "statLabel": "likes"
+    },
+    {
+      "say": "TraySense is a single C file using plain Win32, so the exe is around 100 KB. Inspired by the amazing invention by KrisGfx.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

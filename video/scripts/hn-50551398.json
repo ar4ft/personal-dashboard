@@ -1,0 +1,22 @@
+{
+  "hook": "Search: a tiny open-source WebKit browser for the Mac",
+  "hookText": "Search: a tiny open-source WebKit browser for the Mac",
+  "beats": [
+    {
+      "say": "Search is a free, open-source, about 7 MB macOS browser built on the system WebKit, with Chrome Web Store extensions, spaces, a reading mode and network-level ad blocking.",
+      "visual": 1
+    },
+    {
+      "say": "Made by the Paris design studio Office Commun, Search uses the WebKit engine that ships with macOS rather than bundling Chromium.",
+      "visual": 2
+    },
+    {
+      "say": "The site claims about 51 MB of memory before the first page versus far more for Safari and Chrome.",
+      "visual": 3,
+      "stat": "51 MB",
+      "statLabel": "memory"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

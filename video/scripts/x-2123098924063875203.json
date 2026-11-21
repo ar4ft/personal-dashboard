@@ -1,0 +1,20 @@
+{
+  "hook": "WHOOP becomes Formula 1's official wearable, with WHOOP Live coming",
+  "hookText": "WHOOP becomes Formula 1's official wearable, with WHOOP Live coming",
+  "beats": [
+    {
+      "say": "WHOOP announced a multi-year deal as Formula 1's Official Health & Fitness Wearable; selected driver data will appear in F1 broadcasts through WHOOP Live starting in 2027.",
+      "visual": 1
+    },
+    {
+      "say": "According to F1 coverage of the deal, selected physiological data on how racing affects drivers' bodies and minds will be integrated into broadcasts, alongside new storytelling with the sport.",
+      "visual": 2
+    },
+    {
+      "say": "In Formula 1, the car has thousands of sensors.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

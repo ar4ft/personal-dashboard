@@ -2,6 +2,255 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2123083823436955987",
+      "feedId": "x:2123083823436955987",
+      "title": "Swift Evolution accepts SE-0564: Split Continuations",
+      "source": "Twitter / X",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/ivatokar/status/2123083823436955987",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8643397e73586553e04c6dd7cb37d778091e6d78/x-2123083823436955987.mp4",
+      "poster": "media/videos/x-2123083823436955987.jpg",
+      "captions": "media/videos/x-2123083823436955987.vtt",
+      "duration": 43.43,
+      "transcript": "Swift Evolution accepts SE-0564: Split Continuations SE-0564 adds an async withContinuation form that hands out separate resume and wait halves, so cancellation and priority-escalation handlers are active only while a task is suspended. Proposed by Franz Busch, SE-0564 builds on SE-0528's noncopyable: the new body is and receives both a and a, closing races where cancellation or escalation handlers fire before the continuation exists. Continuations bridge structured concurrency with custom asynchronous systems. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:12:10Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50548021",
+      "feedId": "hn:50548021",
+      "title": "Seven new models at scalable price-performance",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@e2245849acdd46f038c7bc8c9c75e5b4c36c1ffe/hn-50548021.mp4",
+      "poster": "media/videos/hn-50548021.jpg",
+      "captions": "media/videos/hn-50548021.vtt",
+      "duration": 43.58,
+      "transcript": "Seven new models at scalable price-performance Microsoft announced seven new AI models at Ignite 2026, positioned around scalable price-performance. Used by 4,000 customers, it’s 50x faster and 79x cheaper than GPT-6.1 Sol. In a blind, side-by-side evaluation of frontend work, developers preferred MAI Code 2 over GPT-6 Sol 64% of the time. MAI Image 2.7 is the best image editing model in the world, taking the 1 spot on Artificial Analysis, outperforming GPT Image 2.6 Sunburst at just one-fifth of the price. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:11:26Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50548038",
+      "feedId": "hn:50548038",
+      "title": "SuperEMeans: making e-means clustering 3x faster",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "url": "https://www.lkuffo.com/superemeans/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@e1eb63ffbdf0e6a16abd01582d7f40412a5173cf/hn-50548038.mp4",
+      "poster": "media/videos/hn-50548038.jpg",
+      "captions": "media/videos/hn-50548038.vtt",
+      "duration": 50.66,
+      "transcript": "SuperEMeans: making e-means clustering 3x faster The SuperKMeans authors fused their dimension-pruning trick with the new 2-epoch e-means algorithm, clustering high-dimensional embeddings for IVF vector indexes much faster without losing quality. On 5M 1536-d OpenAI embeddings, SuperEMeans took 128 s versus 203 s for e-means, 232 s for SuperKMeans and 985 s for 10-iteration Lloyd's, with the same recall100 as e-means. The index: We will build an IVF index with a point-per-cluster ratio of 1:256, resulting in approximately 20,000 centroids for OpenAI and 40,000 centroids for the Cohere dataset. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:10:42Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50548660",
+      "feedId": "hn:50548660",
+      "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://news.ycombinator.com/item?id=50548660",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7b7a32504cae295bf37700dc499ad9445575fcc5/hn-50548660.mp4",
+      "poster": "media/videos/hn-50548660.jpg",
+      "captions": "media/videos/hn-50548660.vtt",
+      "duration": 38.63,
+      "transcript": "Mastra Factory, the open-source software factory we use Mastra Factory is an open-source software factory the Mastra team uses to build Mastra, shared as a Show HN post. At Mastra, we now average nearly 4M downloads per week, and with Factory our team now merges hundreds of PRs a week across the mastra-ai GitHub org. Last week, Factory opened and merged 238 PRs, alongside 630 merged PRs from humans. For us Factory is a configurable agentic kanban board that's @-taggable in Slack. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:09:52Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123098924063875203",
+      "feedId": "x:2123098924063875203",
+      "title": "WHOOP becomes Formula 1's official wearable, with WHOOP Live coming in 2027",
+      "source": "Twitter / X",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "url": "https://x.com/WHOOP/status/2123098924063875203",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8fb7131f8ca73d487eebbf6ec3a3e8fa3b33c13d/x-2123098924063875203.mp4",
+      "poster": "media/videos/x-2123098924063875203.jpg",
+      "captions": "media/videos/x-2123098924063875203.vtt",
+      "duration": 35.03,
+      "transcript": "WHOOP becomes Formula 1's official wearable, with WHOOP Live coming WHOOP announced a multi-year deal as Formula 1's Official Health & Fitness Wearable; selected driver data will appear in F1 broadcasts through WHOOP Live starting in 2027. According to F1 coverage of the deal, selected physiological data on how racing affects drivers' bodies and minds will be integrated into broadcasts, alongside new storytelling with the sport. In Formula 1, the car has thousands of sensors. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:09:13Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50549493",
+      "feedId": "hn:50549493",
+      "title": "OpenAI: frontier models improved its Jalapeño chip and AMD GPU designs",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@222aec6ab2e6c3587e7066c72f7a4210b3245f92/hn-50549493.mp4",
+      "poster": "media/videos/hn-50549493.jpg",
+      "captions": "media/videos/hn-50549493.vtt",
+      "duration": 45.16,
+      "transcript": "OpenAI: frontier models improved its Jalapeño chip OpenAI says model-proposed RTL changes cut standard-cell area about 13% and 10% in its Jalapeño inference chip's vector and matrix units, and found up to 14% PPA gains on AMD's flagship GPU IP. Examples include a multiplier redesign with about 15% less cell area and one fewer cycle of latency. OpenAI also benchmarked model generations on boosting throughput of the open PicoRV32 and Ibex RISC-V cores, where GPT-6.2 Astra scored highest, and notes the limits of designing from a spec. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:08:42Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50550096",
+      "feedId": "hn:50550096",
+      "title": "The magic of partial evaluation",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@6521fa2883e36cb964e90dd78a812f42c7a82728/hn-50550096.mp4",
+      "poster": "media/videos/hn-50550096.jpg",
+      "captions": "media/videos/hn-50550096.vtt",
+      "duration": 33.81,
+      "transcript": "The magic of partial evaluation One of these incredibly beautiful but tricky concepts goes by the name partial evaluation. If you are fascinated by interpreters and compilers, partial evaluation will teach you how they are related, and how you can get a compiler for free. Partial evaluation has been a fascination of mine for a while. The essay starts with simple examples and builds up to the three Futamura projections: partially evaluating an interpreter with a program gives a compiled program. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:07:58Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50550415",
+      "feedId": "hn:50550415",
+      "title": "Genie 4 is now available",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Deep Learning"
+      ],
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7a7f0df03c56abb8f144856a7f000c11e6731949/hn-50550415.mp4",
+      "poster": "media/videos/hn-50550415.jpg",
+      "captions": "media/videos/hn-50550415.vtt",
+      "duration": 33.23,
+      "transcript": "Genie 4 is now available While Genie 4 delivers our highest-fidelity visuals, physics, and native audio, Genie 3 remains available in Project Genie’s model picker when you want longer runs or panorama-seeded spaces. Genie 4 is now available Earlier this year we introduced Project Genie, an experimental research prototype that lets you generate and explore interactive worlds. Genie 3 and Genie 4 remain world models in the frontier research space. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:07:25Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123132624415740274",
+      "feedId": "x:2123132624415740274",
+      "title": "Camper: an indie mobile Bandcamp client built on Bandcamp's Subsonic API",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/kwuchu/status/2123132624415740274",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@34bf2b82c4a656a14e93d7439718ecf918b7cf1d/x-2123132624415740274.mp4",
+      "poster": "media/videos/x-2123132624415740274.jpg",
+      "captions": "media/videos/x-2123132624415740274.vtt",
+      "duration": 39.02,
+      "transcript": "Camper: an indie mobile Bandcamp client built Iheanyi Ekechukwu released Camper for iOS and Android, a Bandcamp app for streaming and offline listening to your collection, discovery via Bandcamp Radio and Daily, wishlists and purchases. Frustrated with Bandcamp's official app after more than a decade of buying music there, he built Camper on top of Bandcamp's Subsonic API. Besides online and offline playback of your collection, search and wishlisting, it adds Last.fm scrobbling and reminders for Bandcamp Fridays and Listening Parties. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:06:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123133742063706343",
+      "feedId": "x:2123133742063706343",
+      "title": "Inferact plans an autonomous inference system built around vLLM",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/simon_mo_/status/2123133742063706343",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@82ebc3889ed0c3de76946f88a451e5b2e90f548e/x-2123133742063706343.mp4",
+      "poster": "media/videos/x-2123133742063706343.jpg",
+      "captions": "media/videos/x-2123133742063706343.vtt",
+      "duration": 34.51,
+      "transcript": "Inferact plans an autonomous inference system built around vLLM vLLM co-creator Simon Mo explains that Inferact is building a system that tunes vLLM for new models, chips and workloads on its own, while vLLM stays open and engine improvements go back upstream. In an X article, \"Building an Autonomous Inference System\", Mo argues that the model × hardware × workload space can't be tuned by hand. Many people have asked what inferact is building and what it means for vllmproject. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:06:08Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50551046",
+      "feedId": "hn:50551046",
+      "title": "DaisyRose-27B: RL on 1,200 tasks doubles Qwen3.8-27B on Terminal-Bench 4.1",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://www.radixark.com/blog/daisyrose-27b",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@aa739611110d8d598addee5b5fb244df79fe64f4/hn-50551046.mp4",
+      "poster": "media/videos/hn-50551046.jpg",
+      "captions": "media/videos/hn-50551046.vtt",
+      "duration": 50.25,
+      "transcript": "DaisyRose-27B: RL on 1,200 tasks doubles Qwen3.8-27B on Terminal-Bench 4.1 RadixArk's first model is Qwen3.8-27B post-trained with reinforcement learning on 1,200 curated long-horizon agent tasks, raising Terminal-Bench 4.1 pass1 from 5.6% to 12.0%. Each task was designed to trigger a mistake the base model makes and tuned to a useful solve rate. The gain is even larger on mixture-of-experts models: 6.2× on Qwen3.6-35B-A3B, and more than 10× on the roughly 300B-parameter GLM-5.3-Flash. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:05:32Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50551398",
+      "feedId": "hn:50551398",
+      "title": "Search: a tiny open-source WebKit browser for the Mac with Chrome extension support",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://searchbrowser.app/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@152e09b759fe9f9e2956b8c64d3d8ef1f787b579/hn-50551398.mp4",
+      "poster": "media/videos/hn-50551398.jpg",
+      "captions": "media/videos/hn-50551398.vtt",
+      "duration": 34.51,
+      "transcript": "Search: a tiny open-source WebKit browser for the Mac Search is a free, open-source, about 7 MB macOS browser built on the system WebKit, with Chrome Web Store extensions, spaces, a reading mode and network-level ad blocking. Made by the Paris design studio Office Commun, Search uses the WebKit engine that ships with macOS rather than bundling Chromium. The site claims about 51 MB of memory before the first page versus far more for Safari and Chrome. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:04:39Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123150202932429079",
+      "feedId": "x:2123150202932429079",
+      "title": "Datadog fine-tuned Qwen 3.5 9B on its own traces: topic clustering 50x faster, and open-sourced the workflow",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/datadogdevs/status/2123150202932429079",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9c3d592a5d87edefb6341b5ae9a540196ed43263/x-2123150202932429079.mp4",
+      "poster": "media/videos/x-2123150202932429079.jpg",
+      "captions": "media/videos/x-2123150202932429079.vtt",
+      "duration": 43.53,
+      "transcript": "Datadog fine-tuned Qwen 3.5 9B on its own traces Datadog and Baseten fine-tuned a small open model on production LLM traces for the Patterns topic-clustering feature. Read a sample, write your labels file, then record it pup finetune dataset sample datasets/my-agent --count 20 pup finetune dataset label datasets/my-agent --file datasets/labels.jsonl # 3. The deployment scales between 0 and 1 replicas and bills per GPU-second while a replica runs, until you undeploy it. pup-finetune creates the directories 0700 and their files 0600. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:04:05Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123159712510382166",
+      "feedId": "x:2123159712510382166",
+      "title": "TraySense: a 100 KB open-source taskbar monitor for CPU, GPU, RAM, VRAM and temps",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://x.com/DMQ8_2/status/2123159712510382166",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b6d7e110a77b18349a409bfb92970ea3365858de/x-2123159712510382166.mp4",
+      "poster": "media/videos/x-2123159712510382166.jpg",
+      "captions": "media/videos/x-2123159712510382166.vtt",
+      "duration": 40.58,
+      "transcript": "TraySense: a 100 KB open-source taskbar monitor DM TWEAKS launched TraySense, a tiny Windows taskbar monitor that shows CPU, GPU, RAM and VRAM usage plus CPU, GPU and SSD temperatures while using 1-3 MB of RAM. The launch post passed 2,000 likes. CPU temperature needs the PawnIO driver, which it installs on demand. TraySense is a single C file using plain Win32, so the exe is around 100 KB. Inspired by the amazing invention by KrisGfx. Full story on the dashboard.",
+      "createdAt": "2026-11-21T07:03:22Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50552140",
       "feedId": "hn:50552140",
       "title": "Show HN: springrep, an exact B-rep CAD kernel in safe Rust, plus a 3,487-case conformance suite",

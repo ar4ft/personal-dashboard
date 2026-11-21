@@ -1,0 +1,20 @@
+{
+  "hook": "The magic of partial evaluation",
+  "hookText": "The magic of partial evaluation",
+  "beats": [
+    {
+      "say": "One of these incredibly beautiful but tricky concepts goes by the name partial evaluation.",
+      "visual": 1
+    },
+    {
+      "say": "If you are fascinated by interpreters and compilers, partial evaluation will teach you how they are related, and how you can get a compiler for free.",
+      "visual": 0
+    },
+    {
+      "say": "Partial evaluation has been a fascination of mine for a while. The essay starts with simple examples and builds up to the three Futamura projections: partially evaluating an interpreter with a program gives a compiled program.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

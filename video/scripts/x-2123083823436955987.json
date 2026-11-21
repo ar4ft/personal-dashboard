@@ -1,0 +1,20 @@
+{
+  "hook": "Swift Evolution accepts SE-0564: Split Continuations",
+  "hookText": "Swift Evolution accepts SE-0564: Split Continuations",
+  "beats": [
+    {
+      "say": "SE-0564 adds an async withContinuation form that hands out separate resume and wait halves, so cancellation and priority-escalation handlers are active only while a task is suspended.",
+      "visual": 0
+    },
+    {
+      "say": "Proposed by Franz Busch, SE-0564 builds on SE-0528's noncopyable: the new body is and receives both a and a, closing races where cancellation or escalation handlers fire before the continuation exists.",
+      "visual": 0
+    },
+    {
+      "say": "Continuations bridge structured concurrency with custom asynchronous systems.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

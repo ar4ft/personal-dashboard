@@ -1,0 +1,20 @@
+{
+  "hook": "Datadog fine-tuned Qwen 3.5 9B on its own traces",
+  "hookText": "Datadog fine-tuned Qwen 3.5 9B on its own traces",
+  "beats": [
+    {
+      "say": "Datadog and Baseten fine-tuned a small open model on production LLM traces for the Patterns topic-clustering feature.",
+      "visual": 1
+    },
+    {
+      "say": "Read a sample, write your labels file, then record it pup finetune dataset sample datasets/my-agent --count 20 pup finetune dataset label datasets/my-agent --file datasets/labels.jsonl # 3.",
+      "visual": 2
+    },
+    {
+      "say": "The deployment scales between 0 and 1 replicas and bills per GPU-second while a replica runs, until you undeploy it. pup-finetune creates the directories 0700 and their files 0600.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
