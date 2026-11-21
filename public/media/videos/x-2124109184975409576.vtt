@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.472
+KeyboardKit 11.3 adds
+
+00:00:02.284 --> 00:00:03.852
+experimental in-keyboard
+
+00:00:03.664 --> 00:00:05.078
+dictation for iOS
+
+00:00:04.890 --> 00:00:05.715
+keyboards
+
+00:00:06.246 --> 00:00:08.333
+KeyboardKit 11.3 adds
+
+00:00:08.145 --> 00:00:09.724
+an experimental dictation
+
+00:00:09.536 --> 00:00:10.656
+engine that runs
+
+00:00:10.468 --> 00:00:11.540
+inside the keyboard
+
+00:00:11.352 --> 00:00:12.154
+extension
+
+00:00:12.402 --> 00:00:13.486
+using a workaround
+
+00:00:13.298 --> 00:00:14.418
+Raycast found
+
+00:00:14.571 --> 00:00:15.939
+plus system Shortcuts
+
+00:00:15.751 --> 00:00:16.481
+actions
+
+00:00:16.541 --> 00:00:18.132
+cached keyboard previews
+
+00:00:17.944 --> 00:00:19.724
+and simpler localization
+
+00:00:20.254 --> 00:00:21.091
+The new .
+
+00:00:20.903 --> 00:00:22.471
+inKeyboard engine records
+
+00:00:22.294 --> 00:00:23.261
+audio through an
+
+00:00:23.084 --> 00:00:24.275
+embedded web view
+
+00:00:24.122 --> 00:00:25.442
+and transcribes it
+
+00:00:25.254 --> 00:00:26.055
+with the same
+
+00:00:25.867 --> 00:00:27.152
+speech recognizer
+
+00:00:27.377 --> 00:00:28.437
+avoiding the round
+
+00:00:28.249 --> 00:00:28.909
+trip to the
+
+00:00:28.721 --> 00:00:29.428
+main app.
+
+00:00:29.966 --> 00:00:30.791
+The main app
+
+00:00:30.697 --> 00:00:31.463
+still has to
+
+00:00:31.275 --> 00:00:32.524
+request microphone
+
+00:00:32.336 --> 00:00:33.680
+and speech permissions
+
+00:00:33.751 --> 00:00:34.907
+and Saidi warns
+
+00:00:34.718 --> 00:00:35.708
+Apple could break
+
+00:00:35.520 --> 00:00:36.569
+the workaround in
+
+00:00:36.499 --> 00:00:37.808
+any iOS update
+
+00:00:38.334 --> 00:00:39.348
+Full story on
+
+00:00:39.159 --> 00:00:40.055
+the dashboard
