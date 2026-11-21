@@ -2,6 +2,239 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50573886",
+      "feedId": "hn:50573886",
+      "title": "If you stop writing code, you also get worse at reviewing it",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@6c40e85554d573dc4aadcdd5c305d662b35aa948/hn-50573886.mp4",
+      "poster": "media/videos/hn-50573886.jpg",
+      "captions": "media/videos/hn-50573886.vtt",
+      "duration": 34.87,
+      "transcript": "Stop writing code, and your reviews get worse A new essay argues that developers who hand all their coding to AI agents and only review the output are slowly losing their craft. The author compares it to a guitarist who stops practicing and only directs other players, or a writer who only reads and critiques mostly AI-generated prose. His point isn't the short-term quality of agent output. It's that in every other field, skills decay without practice, and reviewing code well depends on actually writing it. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:25:23Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50580536",
+      "feedId": "hn:50580536",
+      "title": "Winedroid runs real Android APKs without Android, even in the browser via WASM",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://winedroid.soham.sh/demo/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a3e814242eb3edc0e9ddda9af3ee5ed115206697/hn-50580536.mp4",
+      "poster": "media/videos/hn-50580536.jpg",
+      "captions": "media/videos/hn-50580536.vtt",
+      "duration": 33.93,
+      "transcript": "Android apps running with no Android at all Winedroid is a reimplementation of Android written entirely in Rust. It runs real APK files downloaded from F-Droid without Android underneath. A browser demo loads a twelve megabyte WebAssembly runtime and runs apps like a calculator, a file explorer, a meditation timer and a weather app. It's early. Not every app works yet, and the web build is slower because the JIT doesn't run in the browser, so native Winedroid is smoother. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:24:51Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50581110",
+      "feedId": "hn:50581110",
+      "title": "DreamCoder: a browser-based AI coding harness with a tiling window manager, from the author of Mastering Emacs",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@31d024f2ce1fd6ddb86bea71d4734d0f737e4a09/hn-50581110.mp4",
+      "poster": "media/videos/hn-50581110.jpg",
+      "captions": "media/videos/hn-50581110.vtt",
+      "duration": 39.35,
+      "transcript": "Fifteen months building a better coding agent harness Mickey Petersen, author of Mastering Emacs, has released DreamCoder, a frontier coding harness with a tiling window manager that runs in the browser on all three desktop platforms. He started in May 2025, expecting two or three months of work. It took fifteen months of UI and backend iterations and a beta test. Petersen argues terminal coding agents are cramped and awkward for copying multi-line text, and that most GUI harnesses look the same: a sidebar and a chat pane. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:24:13Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50581403",
+      "feedId": "hn:50581403",
+      "title": "OpenComputer: an open-source, self-hostable alternative to Devin",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://github.com/diggerhq/opencomputer",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c276c77bd3b976d886674846e6740267c41411af/hn-50581403.mp4",
+      "poster": "media/videos/hn-50581403.jpg",
+      "captions": "media/videos/hn-50581403.vtt",
+      "duration": 37.53,
+      "transcript": "An open-source Devin you can run yourself OpenComputer is an open-source, self-hostable coding agent for teams. You mention it in a Slack thread, it works on its own computer, and the result lands as a pull request. The whole stack runs on one VM. A gateway starts a Claude Code, Codex or OpenCode session, each isolated with rootless Podman and saved to a git-backed store. It can run in your own AWS, Google Cloud or Azure account, and the team says it opens pull requests 3.3 times faster than Devin in its benchmark. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:23:30Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123895644914167950",
+      "feedId": "x:2123895644914167950",
+      "title": "Siri Recap on Apple Watch hands-on: private, but not very useful",
+      "source": "Twitter / X",
+      "topics": [
+        "Wearables",
+        "AI"
+      ],
+      "url": "https://x.com/MacRumors/status/2123895644914167950",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@85692277bdff483c4dccc9b0d295d518d3ab0a74/x-2123895644914167950.mp4",
+      "poster": "media/videos/x-2123895644914167950.jpg",
+      "captions": "media/videos/x-2123895644914167950.vtt",
+      "duration": 38.61,
+      "transcript": "Apple Watch can now summarize your conversations The watchOS 27.3 beta adds Siri Recap, which lets Series 12 and Ultra 4 Apple Watches listen to conversations and summarize them. Audio is discarded after each summary. After two weeks of testing, MacRumors found summaries too brief, with no speaker labels and no audio to check. Long talks, like vet visits, got merged into confusing recaps. It even summarized YouTube videos. Siri Recap is still in beta and is due with watchOS 27.3 in December. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:22:52Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50582794",
+      "feedId": "hn:50582794",
+      "title": "2 million canary prompts reveal a leaky AI inference supply chain",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@cc3944386b989a07161e1405d3108d838b7611e7/hn-50582794.mp4",
+      "poster": "media/videos/hn-50582794.jpg",
+      "captions": "media/videos/hn-50582794.vtt",
+      "duration": 36.09,
+      "transcript": "Two million booby-trapped prompts exposed AI's leaky pipes Researcher HD Moore sent nearly two million AI prompts, each seeded with a unique fake secret, through AI routers and resellers, then watched where the secrets surfaced. Attackers inside three AI providers stole requests, including some marked zero data retention. The bait AWS keys were used tens of thousands of times. Some cheap resellers logged prompts themselves, and some providers scraped secret links from prompts, despite privacy terms. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:22:05Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123915799437963495",
+      "feedId": "x:2123915799437963495",
+      "title": "iOS 27 lets two iPhones share one phone number with iPhone Handoff",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "url": "https://x.com/9to5mac/status/2123915799437963495",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@ae6028caacf8f3515356b66d9451e4abcebca2b7/x-2123915799437963495.mp4",
+      "poster": "media/videos/x-2123915799437963495.jpg",
+      "captions": "media/videos/x-2123915799437963495.vtt",
+      "duration": 30.86,
+      "transcript": "Two iPhones, one phone number, in iOS 27 iOS 27 adds iPhone Handoff, which lets you keep the same phone number on two iPhones. One phone is the main iPhone and the other is secondary. Unlock either one and the number becomes active on it, with a Switched to this iPhone banner. The number is only active on one phone at a time, some carrier services are managed only on the main iPhone, and carrier support is limited for now. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:21:23Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-hilberts-23-problems",
+      "feedId": "reading:abakcus-hilberts-23-problems",
+      "title": "Hilbert's 23 problems: the complete list and their status",
+      "source": "Reading",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "url": "https://abakcus.com/articles/hilberts-23-problems",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@767bbe9c948764b48df39d02972cb147e0ae8460/reading-abakcus-hilberts-23-problems.mp4",
+      "poster": "media/videos/reading-abakcus-hilberts-23-problems.jpg",
+      "captions": "media/videos/reading-abakcus-hilberts-23-problems.vtt",
+      "duration": 33.71,
+      "transcript": "One lecture set math's agenda for a century In August 1900, at a math congress in Paris, David Hilbert gave a talk on the problems of the coming century. His friend Hermann Minkowski had urged him to look ahead. He had time to read only ten aloud. The published version listed 23, from the nature of the infinite to the stacking of spheres. Solving one became the surest way to make a name in mathematics, and whole fields grew up around single entries on the list. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:20:52Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-magic-hexagon",
+      "feedId": "reading:abakcus-magic-hexagon",
+      "title": "The magic hexagon: 19 numbers, 15 lines, every one summing to 38",
+      "source": "Reading",
+      "topics": [
+        "Math"
+      ],
+      "url": "https://abakcus.com/articles/magic-hexagon",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@946b8bbfdb6730b76975a53df2b640700d6f9eed/reading-abakcus-magic-hexagon.mp4",
+      "poster": "media/videos/reading-abakcus-magic-hexagon.jpg",
+      "captions": "media/videos/reading-abakcus-magic-hexagon.vtt",
+      "duration": 33.64,
+      "transcript": "Nineteen numbers, fifteen lines, one impossible-seeming sum Arrange the numbers one to nineteen in a honeycomb so all fifteen straight lines add up to the same total. That total has to be 38. Up to rotation and reflection there is exactly one solution, with five in the center, and no larger magic hexagon exists. Railway clerk Clifford Adams started on it in 1910 and finally found it in 1957, decades after others had found and lost it. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:20:14Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50585975",
+      "feedId": "hn:50585975",
+      "title": "Malicious npm package installed Hermes Agent as a root backdoor controlled over Telegram",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://safedep.io/blog/malicious-npm-leadstack-crm-connect-hermes-agent-backdoor",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8ca2bae248e94f80fb0675387b1c71dc1d6b4114/hn-50585975.mp4",
+      "poster": "media/videos/hn-50585975.jpg",
+      "captions": "media/videos/hn-50585975.vtt",
+      "duration": 38.71,
+      "transcript": "This npm package installed an AI agent backdoor A fake CRM client on npm, called leadstack crm-connect, installed Hermes Agent, an open-source AI agent, and wired it to the attacker's Telegram bot. It ran as a system service, as root if npm install ran as root. From a chat, the attacker could run shell commands, edit files, browse and schedule jobs. Nine versions went up on November 16. SafeDep flagged it five minutes after the last release and npm removed it, but the publisher is still active. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:19:39Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50587208",
+      "feedId": "hn:50587208",
+      "title": "GPGME 2.3.1 fixes a critical double free (CVE-2026-129975) reachable with a crafted OpenPGP key",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@57afb223c69001aa707db12ff957ee7dd5385641/hn-50587208.mp4",
+      "poster": "media/videos/hn-50587208.jpg",
+      "captions": "media/videos/hn-50587208.vtt",
+      "duration": 46.31,
+      "transcript": "A crafted PGP key can crash most mail clients GnuPG has shipped GPGME 2.3.1 to fix a critical bug, tracked as CVE-2026-129975. An OpenPGP key with a very long user ID can trigger a double free. The bug can be used to leak data from apps, for example by sending signed data, and remote code execution can't be ruled out. GPGME sits inside Gpg4win, most mail clients and many chat clients. The root cause is a reallocated 1024-byte buffer whose new pointer is only saved at the end of a function. An early return leaves a stale pointer that gets freed twice. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:18:53Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50587875",
+      "feedId": "hn:50587875",
+      "title": "Why a Studio Display XDR hub cut a 2.5 GbE adapter's download speed by 75%",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@076d39d371f1fdf8fc107890a1053992e0d6ebc0/hn-50587875.mp4",
+      "poster": "media/videos/hn-50587875.jpg",
+      "captions": "media/videos/hn-50587875.vtt",
+      "duration": 39.47,
+      "transcript": "His monitor was eating 75% of his download speed Oscar Molnar pays for 2.5 gigabit internet but saw only 600 megabits down, after moving his USB Ethernet adapter onto his Studio Display XDR. Plugged straight into his Mac, the adapter hit 2.3 gigabits. Behind the display, it dropped frames above about 168 thousand per second. The cause: the adapter sends just four USB packets per burst, and the hub's go-ahead delay makes the drain slower than the input. Flow control on his router got him to about two gigabits. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:18:12Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124109184975409576",
+      "feedId": "x:2124109184975409576",
+      "title": "KeyboardKit 11.3 adds experimental in-keyboard dictation for iOS keyboards",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/danielsaidi/status/2124109184975409576",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a6f52f5fe6642dcb7ec09db83c0e1d298f1ff7fb/x-2124109184975409576.mp4",
+      "poster": "media/videos/x-2124109184975409576.jpg",
+      "captions": "media/videos/x-2124109184975409576.vtt",
+      "duration": 34.12,
+      "transcript": "iOS keyboards can now dictate without leaving KeyboardKit 11.3 adds an experimental dictation engine that runs right inside the keyboard extension, based on a workaround Raycast discovered. It records audio through an embedded web view and transcribes it with the same speech recognizer. The main app still has to ask for microphone permission once, and Apple could block the trick. The release also adds actions that trigger Shortcuts from the keyboard, cached keyboard previews and simpler localization. Full story on the dashboard.",
+      "createdAt": "2026-11-21T13:17:31Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2123083823436955987",
       "feedId": "x:2123083823436955987",
       "title": "Swift Evolution accepts SE-0564: Split Continuations",
