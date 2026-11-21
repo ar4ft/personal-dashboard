@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.812
+LLM-assisted reverse
+
+00:00:01.647 --> 00:00:02.401
+engineering
+
+00:00:02.555 --> 00:00:04.111
+a practitioner's workflow
+
+00:00:04.638 --> 00:00:05.711
+A hardware and
+
+00:00:05.522 --> 00:00:06.984
+software hacker describes
+
+00:00:06.796 --> 00:00:07.609
+how he now
+
+00:00:07.421 --> 00:00:09.072
+reverse engineers binaries
+
+00:00:08.883 --> 00:00:09.991
+and firmware by
+
+00:00:09.803 --> 00:00:10.888
+pointing a coding
+
+00:00:10.699 --> 00:00:11.760
+agent at Ghidra
+
+00:00:11.572 --> 00:00:12.928
+via an MCP
+
+00:00:12.739 --> 00:00:13.329
+bridge
+
+00:00:13.482 --> 00:00:14.814
+with agent skills
+
+00:00:14.626 --> 00:00:15.911
+and running Markdown
+
+00:00:15.723 --> 00:00:16.383
+notes
+
+00:00:16.918 --> 00:00:17.861
+The setup is
+
+00:00:17.673 --> 00:00:19.205
+a DeepSeek-based agent
+
+00:00:19.017 --> 00:00:19.759
+harness
+
+00:00:19.866 --> 00:00:20.715
+Ghidra with an
+
+00:00:20.633 --> 00:00:22.024
+MCP bridge and
+
+00:00:21.859 --> 00:00:23.557
+radare2 for fast
+
+00:00:23.368 --> 00:00:24.642
+CLI disassembly
+
+00:00:25.166 --> 00:00:26.498
+When static analysis
+
+00:00:26.369 --> 00:00:27.206
+isn't enough
+
+00:00:27.430 --> 00:00:28.007
+he has the
+
+00:00:27.855 --> 00:00:29.210
+agent set breakpoints
+
+00:00:29.246 --> 00:00:30.566
+enable or inject
+
+00:00:30.378 --> 00:00:31.404
+logging probes
+
+00:00:31.451 --> 00:00:32.359
+or drive the
+
+00:00:32.171 --> 00:00:33.550
+program through computer
+
+00:00:33.362 --> 00:00:34.210
+use or a
+
+00:00:34.022 --> 00:00:35.425
+scriptable emulator
+
+00:00:35.958 --> 00:00:36.972
+Full story on
+
+00:00:36.783 --> 00:00:37.679
+the dashboard

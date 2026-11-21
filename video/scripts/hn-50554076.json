@@ -1,0 +1,20 @@
+{
+  "hook": "Pushing WireGuard on macOS to 5 Gbit/s",
+  "hookText": "Pushing WireGuard on macOS to 5 Gbit/s",
+  "beats": [
+    {
+      "say": "Firezone explains how it took its macOS WireGuard client from about 1 Gbit/s to over 5 Gbit/s by digging through XNU's TUN and UDP code, including batched syscalls and handling backpressure.",
+      "visual": 1
+    },
+    {
+      "say": "Firezone's macOS and iOS clients topped out around 1 Gbit/s down, with uploads often a few hundred Mbit/s, and got worse with higher latency, a sign of lost packets.",
+      "visual": 2
+    },
+    {
+      "say": "On two M1 Macs linked by Thunderbolt the client now reaches 5.87 Gbit/s up and 5.76 Gbit/s down.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

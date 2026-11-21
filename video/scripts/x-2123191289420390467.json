@@ -1,0 +1,20 @@
+{
+  "hook": "Magic Trick beta adds a full-speed Atari Lynx FPGA core",
+  "hookText": "Magic Trick beta adds a full-speed Atari Lynx FPGA core",
+  "beats": [
+    {
+      "say": "Built on CursedToast's ChroMagic, Magic Trick swaps FPGA cores automatically depending on the game you pick from the SD card, and adds cover art, previews, Game Genie and save states.",
+      "visual": 1
+    },
+    {
+      "say": "Beta 10 added the Lynx as a third core; beta 11 followed hours later with fixes, including sideways Lynx games.",
+      "visual": 2
+    },
+    {
+      "say": "Magic Trick 1.0.0-beta.10 puts the Atari Lynx on the ModRetro Chromatic: a full-speed FPGA core with save states and box art, and no BIOS needed.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

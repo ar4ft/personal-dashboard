@@ -1,0 +1,22 @@
+{
+  "hook": "Clover-35B-A3B: DiffuSpace publishes the tech report and SFT code",
+  "hookText": "Clover-35B-A3B: DiffuSpace publishes the tech report and SFT code",
+  "beats": [
+    {
+      "say": "DiffuSpace released the technical report and supervised fine-tuning code for Clover-35B-A3B-Preview, a mixture-of-experts diffusion language model built on Qwen3.6-35B-A3B and aimed at agentic tasks.",
+      "visual": 1
+    },
+    {
+      "say": "Clover leads the seven evaluated agent metrics, including 73.6 on SWE-bench Verified and 51.7 on Terminal-Bench 2.1.",
+      "visual": 2
+    },
+    {
+      "say": "On an internal set of 500 groups, joint prediction raises question accuracy from 90.37% to 93.88% and all-correct group accuracy from 65.4% to 77.0%.",
+      "visual": 3,
+      "stat": "93.88%",
+      "statLabel": "and all-correct group"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

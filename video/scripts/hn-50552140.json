@@ -1,0 +1,20 @@
+{
+  "hook": "springrep, an exact B-rep CAD kernel in safe Rust, plus",
+  "hookText": "springrep, an exact B-rep CAD kernel in safe Rust, plus",
+  "beats": [
+    {
+      "say": "Springcraft open-sourced springrep, a dependency-free B-rep CAD kernel in safe Rust that compiles to WebAssembly, along with brep-conformance, a kernel-agnostic test suite for CAD modeling operations.",
+      "visual": 1
+    },
+    {
+      "say": "Built for robot-part CAD, springrep handles booleans, fillets, chamfers, sweeps, lofts, shells, offsets, STEP and exact measurements on analytic and NURBS surfaces, accurate to 1e-7 mm.",
+      "visual": 2
+    },
+    {
+      "say": "The MIT-licensed brep-conformance suite takes expected answers from closed forms and exact geometry; the author says it caught hundreds of bugs his own tests missed.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

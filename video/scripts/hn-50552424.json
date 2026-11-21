@@ -1,0 +1,22 @@
+{
+  "hook": "Google introduces Gemini 4 Neon",
+  "hookText": "Google introduces Gemini 4 Neon",
+  "beats": [
+    {
+      "say": "Google DeepMind's Gemini 4 Neon targets fast end-to-end task completion for software engineering, knowledge work and science, priced at $3/$15 per million input/output tokens with a 1M-token context.",
+      "visual": 1
+    },
+    {
+      "say": "Google says Neon scores 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, ranks 2 on the Vals Index and 2 on steerability in the new Agent Arena Index.",
+      "visual": 2
+    },
+    {
+      "say": "On our agentic behavior evaluation, Neon builds on Carbon’s strong baseline by further reducing under-service by 43%-56% and overreach by 15%-35% across different effort levels.",
+      "visual": 3,
+      "stat": "56%",
+      "statLabel": "and overreach"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

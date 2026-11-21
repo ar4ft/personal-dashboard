@@ -1,0 +1,22 @@
+{
+  "hook": "Anthropic prices initial public offering",
+  "hookText": "Anthropic prices initial public offering",
+  "beats": [
+    {
+      "say": "Anthropic has priced its initial public offering. The shares are expected to begin trading on the Nasdaq Global Select Market on November 19.",
+      "visual": 1
+    },
+    {
+      "say": "The offering consists of 980,000,000 shares of Class A common stock, 956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders.",
+      "visual": 2,
+      "stat": "980,000,000",
+      "statLabel": "shares"
+    },
+    {
+      "say": "LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at 471-2526, or by email at prospectus-nyny.email.gs.com; or Morgan Stanley & Co.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

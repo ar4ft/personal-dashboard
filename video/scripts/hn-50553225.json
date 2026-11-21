@@ -1,0 +1,20 @@
+{
+  "hook": "LLM-assisted reverse engineering: a practitioner's workflow",
+  "hookText": "LLM-assisted reverse engineering: a practitioner's workflow",
+  "beats": [
+    {
+      "say": "A hardware and software hacker describes how he now reverse engineers binaries and firmware by pointing a coding agent at Ghidra via an MCP bridge, with agent skills and running Markdown notes.",
+      "visual": 1
+    },
+    {
+      "say": "The setup is a DeepSeek-based agent harness, Ghidra with an MCP bridge, and radare2 for fast CLI disassembly.",
+      "visual": 2
+    },
+    {
+      "say": "When static analysis isn't enough, he has the agent set breakpoints, enable or inject logging probes, or drive the program through computer use or a scriptable emulator.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

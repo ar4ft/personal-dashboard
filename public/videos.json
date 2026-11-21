@@ -2,6 +2,306 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50552140",
+      "feedId": "hn:50552140",
+      "title": "Show HN: springrep, an exact B-rep CAD kernel in safe Rust, plus a 3,487-case conformance suite",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://springcraft-ai.github.io/springrep/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a085e6fa9cd00864214f6c0b6fee7a23e6beeaf2/hn-50552140.mp4",
+      "poster": "media/videos/hn-50552140.jpg",
+      "captions": "media/videos/hn-50552140.vtt",
+      "duration": 48.91,
+      "transcript": "springrep, an exact B-rep CAD kernel in safe Rust, plus Springcraft open-sourced springrep, a dependency-free B-rep CAD kernel in safe Rust that compiles to WebAssembly, along with brep-conformance, a kernel-agnostic test suite for CAD modeling operations. Built for robot-part CAD, springrep handles booleans, fillets, chamfers, sweeps, lofts, shells, offsets, STEP and exact measurements on analytic and NURBS surfaces, accurate to 1e-7 mm. The MIT-licensed brep-conformance suite takes expected answers from closed forms and exact geometry; the author says it caught hundreds of bugs his own tests missed. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:08:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50552424",
+      "feedId": "hn:50552424",
+      "title": "Google introduces Gemini 4 Neon",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f1a21c1f4528cb3ad88895db2c1677d8f988253f/hn-50552424.mp4",
+      "poster": "media/videos/hn-50552424.jpg",
+      "captions": "media/videos/hn-50552424.vtt",
+      "duration": 47.08,
+      "transcript": "Google introduces Gemini 4 Neon Google DeepMind's Gemini 4 Neon targets fast end-to-end task completion for software engineering, knowledge work and science, priced at $3/$15 per million input/output tokens with a 1M-token context. Google says Neon scores 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, ranks 2 on the Vals Index and 2 on steerability in the new Agent Arena Index. On our agentic behavior evaluation, Neon builds on Carbon’s strong baseline by further reducing under-service by 43%-56% and overreach by 15%-35% across different effort levels. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:08:06Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50553225",
+      "feedId": "hn:50553225",
+      "title": "LLM-assisted reverse engineering: a practitioner's workflow",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b63ff38c675c0b8c1a5f72b9c622d0493ae0186a/hn-50553225.mp4",
+      "poster": "media/videos/hn-50553225.jpg",
+      "captions": "media/videos/hn-50553225.vtt",
+      "duration": 38.71,
+      "transcript": "LLM-assisted reverse engineering: a practitioner's workflow A hardware and software hacker describes how he now reverse engineers binaries and firmware by pointing a coding agent at Ghidra via an MCP bridge, with agent skills and running Markdown notes. The setup is a DeepSeek-based agent harness, Ghidra with an MCP bridge, and radare2 for fast CLI disassembly. When static analysis isn't enough, he has the agent set breakpoints, enable or inject logging probes, or drive the program through computer use or a scriptable emulator. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:07:19Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123191289420390467",
+      "feedId": "x:2123191289420390467",
+      "title": "Magic Trick beta adds a full-speed Atari Lynx FPGA core to the ModRetro Chromatic",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://x.com/ryansagdotcom/status/2123191289420390467",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@296efcde3d2b6724db1cc4a1bb8d09674991f30b/x-2123191289420390467.mp4",
+      "poster": "media/videos/x-2123191289420390467.jpg",
+      "captions": "media/videos/x-2123191289420390467.vtt",
+      "duration": 39.57,
+      "transcript": "Magic Trick beta adds a full-speed Atari Lynx FPGA core Built on CursedToast's ChroMagic, Magic Trick swaps FPGA cores automatically depending on the game you pick from the SD card, and adds cover art, previews, Game Genie and save states. Beta 10 added the Lynx as a third core; beta 11 followed hours later with fixes, including sideways Lynx games. Magic Trick 1.0.0-beta.10 puts the Atari Lynx on the ModRetro Chromatic: a full-speed FPGA core with save states and box art, and no BIOS needed. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:06:42Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50553843",
+      "feedId": "hn:50553843",
+      "title": "Anthropic prices initial public offering",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@bbb7a80abb4f735ea933b691fc275d9293541698/hn-50553843.mp4",
+      "poster": "media/videos/hn-50553843.jpg",
+      "captions": "media/videos/hn-50553843.vtt",
+      "duration": 54.76,
+      "transcript": "Anthropic prices initial public offering Anthropic has priced its initial public offering. The shares are expected to begin trading on the Nasdaq Global Select Market on November 19. The offering consists of 980,000,000 shares of Class A common stock, 956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at 471-2526, or by email at prospectus-nyny.email.gs.com; or Morgan Stanley & Co. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:06:03Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50554076",
+      "feedId": "hn:50554076",
+      "title": "Pushing WireGuard on macOS to 5 Gbit/s",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://www.firezone.dev/blog/apple-client-performance",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f484864dae0a7b9cee73424045032ac9ddbbd74e/hn-50554076.mp4",
+      "poster": "media/videos/hn-50554076.jpg",
+      "captions": "media/videos/hn-50554076.vtt",
+      "duration": 43.12,
+      "transcript": "Pushing WireGuard on macOS to 5 Gbit/s Firezone explains how it took its macOS WireGuard client from about 1 Gbit/s to over 5 Gbit/s by digging through XNU's TUN and UDP code, including batched syscalls and handling backpressure. Firezone's macOS and iOS clients topped out around 1 Gbit/s down, with uploads often a few hundred Mbit/s, and got worse with higher latency, a sign of lost packets. On two M1 Macs linked by Thunderbolt the client now reaches 5.87 Gbit/s up and 5.76 Gbit/s down. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:05:15Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-albert-chamillard-geometric-drawings",
+      "feedId": "reading:abakcus-albert-chamillard-geometric-drawings",
+      "title": "Albert Chamillard: geometric pen drawings on old ledgers",
+      "source": "Reading",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "url": "https://abakcus.com/articles/albert-chamillard-geometric-drawings",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@d5cb3614edfcf549a2b7045f7a6dd80622f72b21/reading-abakcus-albert-chamillard-geometric-drawings.mp4",
+      "poster": "media/videos/reading-abakcus-albert-chamillard-geometric-drawings.jpg",
+      "captions": "media/videos/reading-abakcus-albert-chamillard-geometric-drawings.vtt",
+      "duration": 38.01,
+      "transcript": "Albert Chamillard: geometric pen drawings on old ledgers An Abakcus gallery of a Tucson artist's isometric cubes, cylinders and ribbons drawn on vintage ledger paper using only three hatching densities from one pen, with an interactive three-tone cube. Because an isometric cube shows exactly three face orientations, three tones are enough to make shapes read as solid with no outlines, and some cubes flip inside out like the Penrose triangle. 18 drawings in this gallery 30-50 hours for a full-size sheet 3 tones, all from one pen. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:04:36Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50554908",
+      "feedId": "hn:50554908",
+      "title": "PTP: previous-token prediction for black-box LLM prompt reconstruction",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.29378",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@621c6d8c3ed6fb37fb167061052a3399980faeb9/hn-50554908.mp4",
+      "poster": "media/videos/hn-50554908.jpg",
+      "captions": "media/videos/hn-50554908.vtt",
+      "duration": 44.27,
+      "transcript": "PTP: previous-token prediction for black-box LLM prompt reconstruction A paper trains an inverse language model from scratch, using previous-token prediction on data generated by the target LLM, to reconstruct prompts from responses without weights or logits. Prior LLM inversion work treats prompt recovery as semantic reconstruction, fine-tuning seq2seq models on large external datasets and often needing weights or logits. PTP instead mirrors next-token prediction: the inverse model learns to generate the prompt backwards from the response, trained only on synthetic prompt/response pairs from the target model. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:03:59Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50554941",
+      "feedId": "hn:50554941",
+      "title": "FailTrace: reproduce a failed GitHub Actions run locally from its URL",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://github.com/Ri4dH/failtrace",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@dcc05ca118727ca97b9593eb4989632bd26ecc46/hn-50554941.mp4",
+      "poster": "media/videos/hn-50554941.jpg",
+      "captions": "media/videos/hn-50554941.vtt",
+      "duration": 48.26,
+      "transcript": "FailTrace: reproduce a failed GitHub Actions run locally FailTrace is an open-source Go CLI: you paste a failed GitHub Actions run URL and it finds the failing job and step, matches them to the workflow at that commit, extracts the error from the logs, and can replay the step in Docker. Real output for a failed prometheus/prometheus run: CI prometheus/prometheus \"remote/otlp: remove delta-to-cumulative conversion\" pullrequest on codex/remove-otlp-deltatocumulative @ cf7d324 attempt 1 failure Job: Go tests. Runner ubuntu-latest, ubuntu-26.04 runner 2.338.2. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:03:13Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123270249344565377",
+      "feedId": "x:2123270249344565377",
+      "title": "Clover-35B-A3B: DiffuSpace publishes the tech report and SFT code for its agentic diffusion LLM",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/DiffuSpace_Labs/status/2123270249344565377",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b3b88dcf976ccea35a3e3e79bfbfa747a8f5e82d/x-2123270249344565377.mp4",
+      "poster": "media/videos/x-2123270249344565377.jpg",
+      "captions": "media/videos/x-2123270249344565377.vtt",
+      "duration": 52.94,
+      "transcript": "Clover-35B-A3B: DiffuSpace publishes the tech report and SFT code DiffuSpace released the technical report and supervised fine-tuning code for Clover-35B-A3B-Preview, a mixture-of-experts diffusion language model built on Qwen3.6-35B-A3B and aimed at agentic tasks. Clover leads the seven evaluated agent metrics, including 73.6 on SWE-bench Verified and 51.7 on Terminal-Bench 2.1. On an internal set of 500 groups, joint prediction raises question accuracy from 90.37% to 93.88% and all-correct group accuracy from 65.4% to 77.0%. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:02:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50556287",
+      "feedId": "hn:50556287",
+      "title": "Ruby2ßhell: pre-authentication RCE on stock Rails via a one-byte heap overflow",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://verialabs.com/ruby2shell/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@22176d2ec720557bbb1e59ab49c5ff14bbdaf778/hn-50556287.mp4",
+      "poster": "media/videos/hn-50556287.jpg",
+      "captions": "media/videos/hn-50556287.vtt",
+      "duration": 47.37,
+      "transcript": "Ruby2ßhell: pre-authentication RCE on stock Rails Veria Labs disclosed a heap overflow in Ruby's case conversion for single-byte encodings, reachable from default Rails and Sinatra apps; Ruby 3.3.14, 3.4.13 and 4.0.10 fix it. The output buffer is the input length plus 20 bytes, so 21 ß characters overflow it by one byte. The bug dates back to Ruby 2.4.0 and is reached by,, and; UTF-8 strings are not affected. The same loop is in several ISO-8859 and Windows-125x encodings and has been there since Ruby 2.4.0. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:01:37Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50556533",
+      "feedId": "hn:50556533",
+      "title": "15 million web servers on one VM with smoltcp, DPDK and AF_XDP",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://kapteko.com/15-million-webservers/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@986cc183addcf238d0be4c0f8e933d6422ae1f52/hn-50556533.mp4",
+      "poster": "media/videos/hn-50556533.jpg",
+      "captions": "media/videos/hn-50556533.vtt",
+      "duration": 33.69,
+      "transcript": "15 million web servers on one VM with smoltcp, DPDK A tongue-in-cheek but technical walkthrough of running over 15 million tiny web servers on one 1-core. Starting from a 10-line C server, the author hits limits one by one: ephemeral port ranges, kernel socket memory and the cost of syscalls. The kernel stack ran out of RAM at about 2.5 million servers; with smoltcp an idle server costs about 620 bytes and the run reached 16 million. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:00:53Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123330783465390270",
+      "feedId": "x:2123330783465390270",
+      "title": "Natalia Panferova compares SwiftUI's scroll-driven effect APIs",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/natpanferova/status/2123330783465390270",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7e252bda8ee80b7bc44ff5fcfaabc025cd08794e/x-2123330783465390270.mp4",
+      "poster": "media/videos/x-2123330783465390270.jpg",
+      "captions": "media/videos/x-2123330783465390270.vtt",
+      "duration": 35.78,
+      "transcript": "Natalia Panferova compares SwiftUI's scroll-driven effect APIs A Nil Coalescing guide to when to use scrollTransition, visualEffect, onScrollGeometryChange and onScrollVisibilityChange for effects tied to scroll position in SwiftUI. The post shows examples of each and how to choose between them. SwiftUI provides several ways to tie the appearance of content to its position as the user scrolls. The scrollTransition modifier applies an effect to a view as it enters and leaves the visible region of a scroll view. Full story on the dashboard.",
+      "createdAt": "2026-11-21T01:00:07Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50557661",
+      "feedId": "hn:50557661",
+      "title": "Do not buy RAM, compress",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://curiousbits.nl/blog/do-not-buy-ram-compress/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c7e5da5e5470af44433f31ebc72d124324b89c70/hn-50557661.mp4",
+      "poster": "media/videos/hn-50557661.jpg",
+      "captions": "media/videos/hn-50557661.vtt",
+      "duration": 35.87,
+      "transcript": "Do not buy RAM, compress A post argues that compressing RAM is a better answer than buying more memory, explaining how compression can stretch available memory. Recently I was running out of memory, I found my solution in zram, a solution to compress memory. Often the CPUs were under little stress, so we could have avoided upgrading if we had enabled RAM compression. Unfortunately not all Linux environments have RAM compression enabled by default. Compressing memory does come with small, but not really noticeable. Full story on the dashboard.",
+      "createdAt": "2026-11-21T00:59:33Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50557716",
+      "feedId": "hn:50557716",
+      "title": "SSD prices may begin to decline in the latter half of 2027",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@619c2a447cbd21a195448857aa3abd0f32c555ad/hn-50557716.mp4",
+      "poster": "media/videos/hn-50557716.jpg",
+      "captions": "media/videos/hn-50557716.vtt",
+      "duration": 33.07,
+      "transcript": "SSD prices may begin to decline in the latter half SSD prices may start to decline in the latter half of 2027, according to an analysis of storage pricing trends. Hard drives will take longer, probably into 2028, because the factories that make them have already sold that output. In its July NAND update, TrendForce said the market would run a 4 to 5% supply deficit through 2026, then move back into balance in the second half of 2027. Full story on the dashboard.",
+      "createdAt": "2026-11-21T00:59:01Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50557870",
+      "feedId": "hn:50557870",
+      "title": "What's New in PHP 8.6",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://www.php.net/releases/8.6/en.php",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@40bc0abfc8c52836ef59e3030a6341070890ee0f/hn-50557870.mp4",
+      "poster": "media/videos/hn-50557870.jpg",
+      "captions": "media/videos/hn-50557870.vtt",
+      "duration": 32.2,
+      "transcript": "What's New in PHP 8.6 PHP 8.6 is out, with the release notes covering what's new in the release. Its representation is independent of any time and timezone and can represent a range of more than 250 years with nanosecond precision. PHP 8.6 is a major update of the PHP language, with new features including Partial Function Application, a new Duration class, a Polling API, and a new clamp function. Full story on the dashboard.",
+      "createdAt": "2026-11-21T00:58:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50567138",
+      "feedId": "hn:50567138",
+      "title": "Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8259b14a22b22363c47fb2334d017b675ec3850a/hn-50567138.mp4",
+      "poster": "media/videos/hn-50567138.jpg",
+      "captions": "media/videos/hn-50567138.vtt",
+      "duration": 35.44,
+      "transcript": "Apple's AI agent news sank Meta and Anthropic Apple is building an autonomous AI agent that acts on your behalf. Job listings this week say it will write code, browse the web, control apps and navigate devices. The market noticed: Meta fell nearly 2% and Anthropic dropped more than 3% after Bloomberg reported Apple's plans. Apple is late to a crowded field Anthropic's Duet, OpenAI's Dots and Google's Tasks are already out. It has eyed a launch as soon as the end of next year. Full story on the dashboard.",
+      "createdAt": "2026-11-21T00:57:57Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50560595",
       "feedId": "hn:50560595",
       "title": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",

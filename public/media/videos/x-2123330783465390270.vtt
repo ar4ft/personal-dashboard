@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.283
+Natalia Panferova compares
+
+00:00:02.095 --> 00:00:03.640
+SwiftUI's scroll-driven
+
+00:00:03.451 --> 00:00:04.642
+effect APIs
+
+00:00:05.166 --> 00:00:06.309
+A Nil Coalescing
+
+00:00:06.121 --> 00:00:06.923
+guide to when
+
+00:00:06.734 --> 00:00:08.078
+to use scrollTransition
+
+00:00:08.185 --> 00:00:09.128
+visualEffect
+
+00:00:09.305 --> 00:00:10.885
+onScrollGeometryChange
+
+00:00:10.862 --> 00:00:12.772
+and onScrollVisibilityChange
+
+00:00:12.583 --> 00:00:13.703
+for effects tied
+
+00:00:13.562 --> 00:00:14.706
+to scroll position
+
+00:00:14.517 --> 00:00:15.661
+in SwiftUI
+
+00:00:16.198 --> 00:00:17.058
+The post shows
+
+00:00:16.870 --> 00:00:18.049
+examples of each
+
+00:00:17.979 --> 00:00:18.532
+and how to
+
+00:00:18.344 --> 00:00:19.429
+choose between them
+
+00:00:19.568 --> 00:00:21.383
+SwiftUI provides several
+
+00:00:21.195 --> 00:00:21.997
+ways to tie
+
+00:00:21.808 --> 00:00:22.598
+the appearance of
+
+00:00:22.410 --> 00:00:23.317
+content to its
+
+00:00:23.129 --> 00:00:24.166
+position as the
+
+00:00:23.978 --> 00:00:25.098
+user scrolls
+
+00:00:25.622 --> 00:00:26.801
+The scrollTransition
+
+00:00:26.613 --> 00:00:27.909
+modifier applies an
+
+00:00:27.721 --> 00:00:28.593
+effect to a
+
+00:00:28.405 --> 00:00:29.289
+view as it
+
+00:00:29.101 --> 00:00:29.761
+enters
+
+00:00:29.797 --> 00:00:30.598
+and leaves the
+
+00:00:30.410 --> 00:00:31.706
+visible region of
+
+00:00:31.518 --> 00:00:32.508
+a scroll view
+
+00:00:33.030 --> 00:00:34.044
+Full story on
+
+00:00:33.855 --> 00:00:34.751
+the dashboard

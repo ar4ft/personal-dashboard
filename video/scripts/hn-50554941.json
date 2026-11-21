@@ -1,0 +1,20 @@
+{
+  "hook": "FailTrace: reproduce a failed GitHub Actions run locally",
+  "hookText": "FailTrace: reproduce a failed GitHub Actions run locally",
+  "beats": [
+    {
+      "say": "FailTrace is an open-source Go CLI: you paste a failed GitHub Actions run URL and it finds the failing job and step, matches them to the workflow at that commit, extracts the error from the logs, and can replay the step in Docker.",
+      "visual": 1
+    },
+    {
+      "say": "Real output for a failed prometheus/prometheus run: CI · prometheus/prometheus \"remote/otlp: remove delta-to-cumulative conversion\" pullrequest · on codex/remove-otlp-deltatocumulative · @ cf7d324 · attempt 1 · failure ──────────────────────────────────────────────────────────── Job: Go tests.",
+      "visual": 2
+    },
+    {
+      "say": "Runner ubuntu-latest, ubuntu-26.04 · runner 2.338.2.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

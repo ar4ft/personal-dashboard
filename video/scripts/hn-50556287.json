@@ -1,0 +1,22 @@
+{
+  "hook": "Ruby2ßhell: pre-authentication RCE on stock Rails",
+  "hookText": "Ruby2ßhell: pre-authentication RCE on stock Rails",
+  "beats": [
+    {
+      "say": "Veria Labs disclosed a heap overflow in Ruby's case conversion for single-byte encodings, reachable from default Rails and Sinatra apps; Ruby 3.3.14, 3.4.13 and 4.0.10 fix it.",
+      "visual": 1
+    },
+    {
+      "say": "The output buffer is the input length plus 20 bytes, so 21 ß characters overflow it by one byte.",
+      "visual": 2
+    },
+    {
+      "say": "The bug dates back to Ruby 2.4.0 and is reached by,, and; UTF-8 strings are not affected. The same loop is in several ISO-8859 and Windows-125x encodings and has been there since Ruby 2.4.0.",
+      "visual": 0,
+      "stat": "125x",
+      "statLabel": "encodings"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

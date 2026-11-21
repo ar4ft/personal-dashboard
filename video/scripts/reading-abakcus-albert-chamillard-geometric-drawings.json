@@ -1,0 +1,20 @@
+{
+  "hook": "Albert Chamillard: geometric pen drawings on old ledgers",
+  "hookText": "Albert Chamillard: geometric pen drawings on old ledgers",
+  "beats": [
+    {
+      "say": "An Abakcus gallery of a Tucson artist's isometric cubes, cylinders and ribbons drawn on vintage ledger paper using only three hatching densities from one pen, with an interactive three-tone cube.",
+      "visual": 1
+    },
+    {
+      "say": "Because an isometric cube shows exactly three face orientations, three tones are enough to make shapes read as solid with no outlines, and some cubes flip inside out like the Penrose triangle.",
+      "visual": 2
+    },
+    {
+      "say": "18 drawings in this gallery 30-50 hours for a full-size sheet 3 tones, all from one pen.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
