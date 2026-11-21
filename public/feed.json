@@ -51820,6 +51820,251 @@
       "createdAt": "2026-11-21T00:00:00Z",
       "updatedAt": "2026-11-21T00:00:00Z",
       "content": "It tells how Hermann Minkowski urged Hilbert to look ahead, how he read only ten problems aloud at the Sorbonne, and how the published list of 23, translated into English in 1902 by Mary Winston Newson, went on to shape whole fields of 20th-century mathematics.\n\n[Article on Abakcus](https://abakcus.com/articles/hilberts-23-problems)"
+    },
+    {
+      "id": "hn:50590279",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Zero C#: a bflat fork that compiles C# to native code with no runtime or garbage collector",
+      "description": "Zero C# compiles C# straight to small native programs with no .NET runtime or GC, using arena memory, and runs the same source on Linux, macOS, Windows, WebAssembly and even DOS on a 386.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "reverseblade2",
+      "url": "https://onurgumus.github.io/zero-csharp/index.html",
+      "createdAt": "2026-11-21T15:39:09Z",
+      "updatedAt": "2026-11-21T15:39:09Z",
+      "content": "Zero C# is a fork of the bflat compiler. You keep C# syntax, type checking, real generics (a specialized copy per type), interfaces, records and C# 15 features such as unions, but anything a runtime would do while the program runs is gone. Memory comes from arenas that are freed all at once, and a small library supplies strings, collections and I/O on those terms. The site includes a step-by-step quiz tutorial and an in-browser demo.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50590279)"
+    },
+    {
+      "id": "hn:50591260",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "gopgext builds PostgreSQL extensions from plain Go code with TinyGo",
+      "description": "gopgext turns Go functions marked with a comment directive into PostgreSQL SQL functions, generating the C glue, install script and control file; it is explicitly experimental.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "valyala",
+      "url": "https://jespino.github.io/gopgext/",
+      "createdAt": "2026-11-21T17:08:04Z",
+      "updatedAt": "2026-11-21T17:08:04Z",
+      "content": "Mark a Go function with //gopgext:function and it becomes a SQL function. Much of the standard library works (fmt, regexp, encoding/json, crypto, generics, iterators, defer/recover), and strings, numbers, arrays, NULLs, rows, timestamps, UUIDs and JSON map to SQL types, with support for custom data types. Packages cover foreign data wrappers, index access methods (GiST, GIN, SP-GiST, BRIN), aggregates, hooks, triggers and more. The author warns not to use it in production: a bug in generated code or the Go runtime runs inside the database server and can crash it or corrupt data.\n\n[Documentation](https://jespino.github.io/gopgext/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50591260)"
+    },
+    {
+      "id": "hn:50574264",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Deterministic Simulation Testing is for everyone, not just distributed systems",
+      "description": "An essay arguing that deterministic simulation testing, usually associated with distributed databases, is a practical testing technique for any application.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "pgraug",
+      "url": "https://outdata.net/blog/261120",
+      "createdAt": "2026-11-20T13:19:48Z",
+      "updatedAt": "2026-11-20T13:19:48Z",
+      "content": "The post starts from why we test at all, reactively to pin down bugs and defensively to remove the doubt that slows every change, and argues that running an application under a deterministic, seedable simulation of its environment gives reproducible failures and much broader coverage than hand-written example tests, whatever kind of software you build.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50574264)"
+    },
+    {
+      "id": "hn:50583134",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Merkle Tree Certificates: IETF draft for X.509 certs with built-in transparency logging",
+      "description": "An IETF PLANTS working group draft from Google, Apple, Cloudflare and Geomys authors defines Merkle Tree certificates, built to cut logging overhead for short-lived and post-quantum certificates.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mooreds",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/",
+      "createdAt": "2026-11-20T22:19:23Z",
+      "updatedAt": "2026-11-20T22:19:23Z",
+      "content": "Draft 08 (November 2026) by David Benjamin, Devon O'Brien, Bas Westerbaan, Luke Valenta and Filippo Valsorda describes a new form of X.509 certificate that integrates Certificate Transparency-style public logging. The design reduces overhead as certificates get shorter-lived and post-quantum signatures get much larger, while keeping comparable security, and offers an optional mode that avoids signatures entirely for up-to-date relying parties.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50583134)"
+    },
+    {
+      "id": "hn:50592097",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Upload2Shell (CVE-2026-125396): Ghostscript font bug turns file uploads into remote code execution",
+      "description": "pwn.ai disclosed a use-after-free in Ghostscript's Type 1 font loader that escapes the -dSAFER sandbox, and traced it through upload, print, email and preview paths in many real applications.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "f311a",
+      "url": "https://pwn.ai/upload2shell",
+      "createdAt": "2026-11-21T18:29:29Z",
+      "updatedAt": "2026-11-21T18:29:29Z",
+      "content": "Because ImageMagick and other converters hand files to Ghostscript even when they are named .png or .jpg, a crafted document can run commands as the rendering process. The disclosure timeline runs from discovery on July 27, 2026 to the Ghostscript 10.08.0 fix on September 8, with confirmed routes including Google's document renderer, WordPress core (separately fixed as CVE-2026-65640), unauthenticated CUPS jobs on Debian 13, Roundcube attachment thumbnails, Plesk, several WordPress form plugins, Mayan EDMS, DokuWiki and MediaWiki's PdfHandler. Update Ghostscript wherever documents are rendered.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50592097)"
+    },
+    {
+      "id": "hn:50593737",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Raph Levien: Advice for the next 100 Rust GUIs",
+      "description": "Linebender's Raph Levien follows up his 2022 'next dozen Rust GUIs' post as AI fuels a rush of new Rust UI toolkits, with lessons on what still matters.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "raphlinus",
+      "url": "https://linebender.org/blog/next-100-guis/",
+      "createdAt": "2026-11-21T21:17:53Z",
+      "updatedAt": "2026-11-21T21:17:53Z",
+      "content": "Roughly 20 Rust GUI toolkits have been announced since the original post. Levien argues Rust UI is still compelling because cross-platform apps are often slow, platform toolkits have stagnated, Electron keeps spreading and RAM is expensive, yet few flagship apps use Rust for UI. He points to Zed's GPUI as proof it can ship, now emerging as a major choice for AI-driven rewrites, notably at Discord.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50593737)"
+    },
+    {
+      "id": "hn:50590838",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Frontier models hand-edit a 0.5B vision model's weights into a Galápagos wildlife classifier",
+      "description": "With gradient training switched off, Claude and GPT models edited LLaVA-OneVision's weights directly so its answers used knowledge already present in its SigLIP image features.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "andrewxhill",
+      "url": "https://andrewxhill.com/frontier-model-weight-edits/",
+      "createdAt": "2026-11-21T16:31:08Z",
+      "updatedAt": "2026-11-21T16:31:08Z",
+      "content": "A zero-shot readout comparing SigLIP image features with animal-name text vectors already told Galápagos mockingbirds from other birds 98% of the time and native iguanas from introduced green iguanas 80% of the time, while the model's own answers scored a coin-flip 50%. Claude Fable 5.2, Claude Opus 5.5 and GPT-6 Astra Pro took turns in a notebook, reading weights, testing on labelled photos and writing every change as a computed number. The method was first built on 1,611 camera-trap photos from 45 cameras.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50590838)"
+    },
+    {
+      "id": "hn:50581242",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI explains how it detects and disrupts adversarial distillation of its models",
+      "description": "OpenAI describes how bad actors use frontier model outputs to train copies without safeguards, and how it fights this with testing, training, classifiers, API protections and investigations.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "pretext",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "createdAt": "2026-11-20T20:11:14Z",
+      "updatedAt": "2026-11-20T20:11:14Z",
+      "content": "The November 20 post gives the example of distilling a model's cyber capabilities into a copy that will help with attacks the original would refuse. OpenAI says it combines adversarial testing, model training, classifiers and API-level protections with investigations into coordinated extraction attempts, has strengthened protections for its models' protected reasoning, and shares lessons for defenses across the industry.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50581242)"
+    },
+    {
+      "id": "hn:50588088",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ILoveNotch 2.0: a free, open-source SwiftUI notch app for MacBooks",
+      "description": "ILoveNotch turns the MacBook notch into a hub with now playing, file shelf, calendar, Reminders, notes, a teleprompter, timers, per-app volume and AI coding tool usage, in ten themes.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "niyamvora",
+      "url": "https://github.com/niyamvora/ILoveNotch",
+      "createdAt": "2026-11-21T11:18:57Z",
+      "updatedAt": "2026-11-21T11:18:57Z",
+      "content": "Version 2.0 is native SwiftUI with near-zero idle CPU and adds a teleprompter. It can also show your Claude, Codex, Cursor and Copilot usage from the notch.\n\n[Repo on GitHub](https://github.com/niyamvora/ILoveNotch)\n\n[HN discussion](https://news.ycombinator.com/item?id=50588088)"
+    },
+    {
+      "id": "x:2124259922007175453",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Exo: a fast, open-source native Gmail client for macOS written in Rust",
+      "description": "Miguel Piedrafita released Exo, a free, open-source Superhuman-inspired Gmail client for macOS built in Rust with no Electron or webviews and no third-party servers.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Miguel Piedrafita (@m1guelpf)",
+      "url": "https://x.com/m1guelpf/status/2124259922007175453",
+      "createdAt": "2026-11-21T21:53:26Z",
+      "updatedAt": "2026-11-21T21:53:26Z",
+      "content": "Exo talks to Gmail directly and uses native technologies for speed. It ships as a .dmg, but you set up your own Google Cloud OAuth client (Gmail, Calendar and People APIs) and drop its JSON file into Exo's Application Support folder before signing in.\n\n[Repo on GitHub](https://github.com/m1guelpf/Exo)\n\n[Post on X](https://x.com/m1guelpf/status/2124259922007175453)"
+    },
+    {
+      "id": "x:2124197912821526923",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Kavsoft: recreating the iOS 27 Health app onboarding animation in SwiftUI",
+      "description": "A Kavsoft tutorial rebuilds the new iOS 27 Health app onboarding animation in SwiftUI.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Kavsoft (@_Kavsoft)",
+      "url": "https://x.com/_Kavsoft/status/2124197912821526923",
+      "createdAt": "2026-11-21T17:47:02Z",
+      "updatedAt": "2026-11-21T17:47:02Z",
+      "content": "Kavsoft posted a short demo and a full YouTube walkthrough showing how to build the iOS 27 Health app's onboarding animation in SwiftUI.\n\nhttps://youtu.be/xZcrIdm5R54\n\n[Post on X](https://x.com/_Kavsoft/status/2124197912821526923)"
+    },
+    {
+      "id": "x:2124097770554577382",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Calibre 9.19 adds offline grammar checking and local neural sentence rewriting",
+      "description": "Calibre 9.19 brings grammar, style and typography checking to its e-book editor, on-device neural sentence rewriting for English, and much better PDF conversion.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Linuxiac (@linuxiac)",
+      "url": "https://x.com/linuxiac/status/2124097770554577382",
+      "createdAt": "2026-11-21T11:09:06Z",
+      "updatedAt": "2026-11-21T11:09:06Z",
+      "content": "Issues are underlined in the editor's code view with fixes in the right-click menu, and Tools > Check grammar scans a whole book. English sentence rewriting suggests improvements in grammar, fluency, clarity, simplicity or formality, all processed locally without AI services. The PDF input engine now better detects paragraphs, headings and multicolumn layouts, rejoins hyphenated words and removes repeating headers, and accessibility in the viewer and Content Server improves.\n\n[Article on Linuxiac](https://linuxiac.com/calibre-9-19-e-book-manager-adds-grammar-checking-sentence-rewriting/)\n\n[Post on X](https://x.com/linuxiac/status/2124097770554577382)"
+    },
+    {
+      "id": "x:2124123597434204194",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "mlx-learn 0.1.6 makes k-means++ KMeans 20-31x faster on Apple silicon",
+      "description": "The mlx-learn release speeds up KMeans with k-means++ initialization 20 to 31 times on Apple silicon while matching scikit-learn's starting centers, iterations and inertia.",
+      "topics": [
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Bojan Tunguz (@tabul_ai)",
+      "url": "https://x.com/tabul_ai/status/2124123597434204194",
+      "createdAt": "2026-11-21T12:51:44Z",
+      "updatedAt": "2026-11-21T12:51:44Z",
+      "content": "Fitting 8,192 centers on MNIST on an M4 Max dropped from 219 seconds in 0.1.5 to 7.0 seconds in 0.1.6, with the same starting centers, iterations and inertia as scikit-learn.\n\n[Post on X](https://x.com/tabul_ai/status/2124123597434204194)"
+    },
+    {
+      "id": "reading:abakcus-is-mathematics-invented-or-discovered",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Is mathematics invented or discovered?",
+      "description": "A long Abakcus essay that uses Euclid's proof that the primes never end to ask whether mathematical truths exist before anyone proves them.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Abakcus",
+      "url": "https://abakcus.com/articles/is-mathematics-invented-or-discovered",
+      "createdAt": "2026-11-21T22:00:00Z",
+      "updatedAt": "2026-11-21T22:00:00Z",
+      "content": "It opens with Euclid's four-line argument from around 300 BC: multiply any finite list of primes and add one, and a prime missing from the list must exist. The proof has never needed correction, which raises the puzzle: if mathematics is invented like chess, it should be ours to change, and if it is discovered like a continent, we owe an account of where it was before us.\n\n[Article on Abakcus](https://abakcus.com/articles/is-mathematics-invented-or-discovered)"
     }
   ]
 }
