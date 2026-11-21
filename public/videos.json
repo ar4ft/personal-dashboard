@@ -2,6 +2,233 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50574264",
+      "feedId": "hn:50574264",
+      "title": "Deterministic Simulation Testing is for everyone, not just distributed systems",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://outdata.net/blog/261120",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@cf6ae684a5edd3cf5f624a86399c1b154b590b8d/hn-50574264.mp4",
+      "poster": "media/videos/hn-50574264.jpg",
+      "captions": "media/videos/hn-50574264.vtt",
+      "duration": 39.52,
+      "transcript": "Simulation testing isn't just for distributed databases Deterministic simulation testing is usually seen as a tool for distributed systems. This essay argues every application can use it. It starts with why we test: reactively, to pin down bugs users find, and defensively, to remove the doubt that slows every change. Running your app inside a seedable, deterministic simulation of its environment makes failures reproducible and covers far more cases than hand-written tests. The author's point: this works for any kind of software, not just databases. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:16:20Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50581242",
+      "feedId": "hn:50581242",
+      "title": "OpenAI explains how it detects and disrupts adversarial distillation of its models",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@248124d130bde4912876ce7abb2ed9550ad2c635/hn-50581242.mp4",
+      "poster": "media/videos/hn-50581242.jpg",
+      "captions": "media/videos/hn-50581242.vtt",
+      "duration": 37.39,
+      "transcript": "OpenAI is fighting copycats that strip safeguards OpenAI says bad actors use frontier model outputs, without permission, to train copies that lack comparable safeguards. For example, someone could distill a model's cyber skills into a copy that helps with attacks the original would refuse. OpenAI combines adversarial testing, model training, classifiers and API protections with investigations, has hardened protections for its models' reasoning, and is sharing lessons with the industry. The post was published on November 20. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:15:51Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50583134",
+      "feedId": "hn:50583134",
+      "title": "Merkle Tree Certificates: IETF draft for X.509 certs with built-in transparency logging",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@bfb6110d62c3cb0b3016d87623de26c76c79599b/hn-50583134.mp4",
+      "poster": "media/videos/hn-50583134.jpg",
+      "captions": "media/videos/hn-50583134.vtt",
+      "duration": 40.03,
+      "transcript": "A new certificate format built for post-quantum web An IETF draft from authors at Google, Apple, Cloudflare and Geomys defines Merkle Tree certificates, a new kind of X.509 certificate. It comes from the IETF's PLANTS working group. They build Certificate Transparency style public logging into the certificate itself, cutting overhead as certificates get shorter lived and post-quantum signatures get much larger. An optional mode skips signatures entirely for relying parties that stay up to date. This is draft number 8, from November 2026. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:15:19Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124097770554577382",
+      "feedId": "x:2124097770554577382",
+      "title": "Calibre 9.19 adds offline grammar checking and local neural sentence rewriting",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/linuxiac/status/2124097770554577382",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4e4597ed401d6e127c607e768e004fcc00553e09/x-2124097770554577382.mp4",
+      "poster": "media/videos/x-2124097770554577382.jpg",
+      "captions": "media/videos/x-2124097770554577382.vtt",
+      "duration": 40.05,
+      "transcript": "Calibre now checks grammar, fully offline Calibre 9.19 adds grammar, style and typography checking to its e-book editor, with fixes in the right-click menu and a whole-book scan. For English, neural sentence rewriting suggests clearer, simpler or more formal phrasing, and everything runs locally without AI services. PDF conversion now better detects paragraphs, headings and columns, rejoins hyphenated words, and drops repeating page headers. Accessibility in the viewer and Content Server improves too, with better keyboard and screen-reader support. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:14:46Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50588088",
+      "feedId": "hn:50588088",
+      "title": "ILoveNotch 2.0: a free, open-source SwiftUI notch app for MacBooks",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://github.com/niyamvora/ILoveNotch",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c98e1dce731230f3b2b6c0c89981ae95e13f0660/hn-50588088.mp4",
+      "poster": "media/videos/hn-50588088.jpg",
+      "captions": "media/videos/hn-50588088.vtt",
+      "duration": 34.34,
+      "transcript": "Your MacBook notch, turned into a dashboard ILoveNotch is a free, open-source app that turns the MacBook notch into a hub, in ten themes. It shows now playing, a file shelf, calendar, Reminders, notes, timers and per-app volume, plus your Claude, Codex, Cursor and Copilot usage. You can keep an eye on your AI coding limits without leaving what you are doing. Version 2.0 adds a teleprompter. It is native SwiftUI with near-zero idle CPU. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:14:16Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124123597434204194",
+      "feedId": "x:2124123597434204194",
+      "title": "mlx-learn 0.1.6 makes k-means++ KMeans 20-31x faster on Apple silicon",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/tabul_ai/status/2124123597434204194",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4edf76732dddcf60661d995cf6c6e62011dd3605/x-2124123597434204194.mp4",
+      "poster": "media/videos/x-2124123597434204194.jpg",
+      "captions": "media/videos/x-2124123597434204194.vtt",
+      "duration": 39.38,
+      "transcript": "KMeans on Apple silicon, twenty to thirty-one times faster. mlx-learn 0.1.6 is out, and its KMeans with the default k-means-plus-plus initialization now fits twenty to thirty-one times faster on Apple silicon. On an M4 Max, fitting 8,192 centers on MNIST took 219 seconds in version 0.1.5, and just 7 seconds in 0.1.6. Nothing else changed: the same starting centers as scikit-learn, the same iterations, and the same inertia, and the release is out now. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:13:51Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50590279",
+      "feedId": "hn:50590279",
+      "title": "Zero C#: a bflat fork that compiles C# to native code with no runtime or garbage collector",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://onurgumus.github.io/zero-csharp/index.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@be1bf4b8b75b4647475d64807a9a0fbc10b2664e/hn-50590279.mp4",
+      "poster": "media/videos/hn-50590279.jpg",
+      "captions": "media/videos/hn-50590279.vtt",
+      "duration": 36.45,
+      "transcript": "C# with no runtime, running on a 386 Zero C# is a fork of the bflat compiler that turns C# straight into a small native program, with no dot NET runtime and no garbage collector. You keep the syntax, type checking, real generics, interfaces, records and C# 15 features like unions. Memory comes from arenas that are freed all at once. The same source runs on Linux, macOS, Windows and WebAssembly, and even on DOS on a 386. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:13:17Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50590838",
+      "feedId": "hn:50590838",
+      "title": "Frontier models hand-edit a 0.5B vision model's weights into a Galápagos wildlife classifier",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://andrewxhill.com/frontier-model-weight-edits/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c4067a873674e64d8d63ef4890a0f59fba9a92c5/hn-50590838.mp4",
+      "poster": "media/videos/hn-50590838.jpg",
+      "captions": "media/videos/hn-50590838.vtt",
+      "duration": 39.43,
+      "transcript": "AI rewrote a model's weights by hand A free vision model already knew Galápagos animals inside its image features. A simple readout told mockingbirds from other birds 98 percent of the time. But asked directly, the model called almost every iguana native, scoring a coin-flip 50 percent. With gradient training switched off, Claude and GPT models took turns reading weights and writing in computed changes. The method was first built on 1,611 camera-trap photos. Every change was a number a frontier model calculated and wrote in. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:12:47Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50591260",
+      "feedId": "hn:50591260",
+      "title": "gopgext builds PostgreSQL extensions from plain Go code with TinyGo",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://jespino.github.io/gopgext/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4ca06fdc30f6d510e4848a8c74518d55d1dc56a8/hn-50591260.mp4",
+      "poster": "media/videos/hn-50591260.jpg",
+      "captions": "media/videos/hn-50591260.vtt",
+      "duration": 35.35,
+      "transcript": "Write Postgres extensions in plain Go gopgext builds PostgreSQL extensions from ordinary Go code using TinyGo. Mark a function with a comment directive and it becomes a SQL function. It writes the C glue, the install script and the control file for you. Much of the standard library works, and strings, arrays, timestamps, UUIDs and JSON map to SQL types. The author warns it is experimental: a bug runs inside the database server, where it can crash it or corrupt data. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:12:16Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50592097",
+      "feedId": "hn:50592097",
+      "title": "Upload2Shell (CVE-2026-125396): Ghostscript font bug turns file uploads into remote code execution",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://pwn.ai/upload2shell",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@ecdc610245e0f61d5a91bbebe6934378d65787a7/hn-50592097.mp4",
+      "poster": "media/videos/hn-50592097.jpg",
+      "captions": "media/videos/hn-50592097.vtt",
+      "duration": 43.17,
+      "transcript": "An uploaded image can take over the server Upload2Shell is a use-after-free in Ghostscript's Type 1 font loader that escapes its safer sandbox and runs attacker commands. Ghostscript sits underneath print, email, upload and preview workflows. Files named png or jpg can still reach Ghostscript through image conversion. Researchers confirmed routes in Google's document renderer, WordPress, Debian CUPS, Roundcube, DokuWiki and MediaWiki. Found on July 27, it was fixed in Ghostscript 10.08.0 on September 8. Update Ghostscript wherever documents get rendered. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:11:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50593737",
+      "feedId": "hn:50593737",
+      "title": "Raph Levien: Advice for the next 100 Rust GUIs",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://linebender.org/blog/next-100-guis/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@83337a8779408b0663d570b189fb5914e404b981/hn-50593737.mp4",
+      "poster": "media/videos/hn-50593737.jpg",
+      "captions": "media/videos/hn-50593737.vtt",
+      "duration": 37.48,
+      "transcript": "About 20 new Rust GUI toolkits since 2022 Raph Levien has followed up his advice for the next dozen Rust GUIs, written four and a half years ago. Roughly 20 toolkits have been announced since. He argues Rust UI is still compelling: cross-platform apps are often slow, platform toolkits have stagnated, Electron keeps spreading, and RAM is expensive. Few flagship apps use Rust for UI yet, but Zed's GPUI proves it ships, and it is emerging as a top choice for AI-driven rewrites, notably at Discord. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:11:17Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124259922007175453",
+      "feedId": "x:2124259922007175453",
+      "title": "Exo: a fast, open-source native Gmail client for macOS written in Rust",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/m1guelpf/status/2124259922007175453",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7886a6303d6ccba6c2a5103625eedb64af72416f/x-2124259922007175453.mp4",
+      "poster": "media/videos/x-2124259922007175453.jpg",
+      "captions": "media/videos/x-2124259922007175453.vtt",
+      "duration": 37.67,
+      "transcript": "A Superhuman-style Gmail client, free and in Rust Miguel Piedrafita released Exo, a fast, local, native Gmail client for macOS inspired by Superhuman. It is written in Rust with no Electron or web views, and talks to Gmail directly, with no third-party servers. It is free and open source. To use it, you create your own free Google sign-in client, enabling the Gmail, Calendar and People APIs, then drop its file into Exo's folder. Exo ships as a disk image you drag into Applications. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:10:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-is-mathematics-invented-or-discovered",
+      "feedId": "reading:abakcus-is-mathematics-invented-or-discovered",
+      "title": "Is mathematics invented or discovered?",
+      "source": "Reading",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "url": "https://abakcus.com/articles/is-mathematics-invented-or-discovered",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@49812afc6810ebbc7bec1a7807aa048480c74d26/reading-abakcus-is-mathematics-invented-or-discovered.mp4",
+      "poster": "media/videos/reading-abakcus-is-mathematics-invented-or-discovered.jpg",
+      "captions": "media/videos/reading-abakcus-is-mathematics-invented-or-discovered.vtt",
+      "duration": 32.59,
+      "transcript": "Was it true before anyone proved it? Around 300 BC, Euclid proved the primes never end: multiply any list of primes, add one, and a missing prime must exist. Empires and physical theories have fallen since, but the proof has never needed a single correction. So was it true before Euclid? If math is invented like chess, it should be ours to change. If it is discovered like a continent, it existed before us, and we must explain where. Full story on the dashboard.",
+      "createdAt": "2026-11-21T23:10:21Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50573886",
       "feedId": "hn:50573886",
       "title": "If you stop writing code, you also get worse at reviewing it",
