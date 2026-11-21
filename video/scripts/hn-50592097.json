@@ -1,0 +1,21 @@
+{
+  "hook": "An uploaded image can take over the server",
+  "hookText": "Upload2Shell",
+  "beats": [
+    {
+      "say": "Upload2Shell is a use-after-free in Ghostscript's Type 1 font loader that escapes its safer sandbox and runs attacker commands. Ghostscript sits underneath print, email, upload and preview workflows.",
+      "visual": 0
+    },
+    {
+      "say": "Files named png or jpg can still reach Ghostscript through image conversion. Researchers confirmed routes in Google's document renderer, WordPress, Debian CUPS, Roundcube, DokuWiki and MediaWiki.",
+      "visual": 1
+    },
+    {
+      "say": "Found on July 27, it was fixed in Ghostscript 10.08.0 on September 8. Update Ghostscript wherever documents get rendered.",
+      "visual": 2,
+      "stat": "10.08.0",
+      "statLabel": "fixed Ghostscript"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

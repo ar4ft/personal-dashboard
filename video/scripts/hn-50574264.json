@@ -1,0 +1,19 @@
+{
+  "hook": "Simulation testing isn't just for distributed databases",
+  "hookText": "Deterministic Simulation Testing",
+  "beats": [
+    {
+      "say": "Deterministic simulation testing is usually seen as a tool for distributed systems. This essay argues every application can use it.",
+      "visual": 0
+    },
+    {
+      "say": "It starts with why we test: reactively, to pin down bugs users find, and defensively, to remove the doubt that slows every change.",
+      "visual": 1
+    },
+    {
+      "say": "Running your app inside a seedable, deterministic simulation of its environment makes failures reproducible and covers far more cases than hand-written tests. The author's point: this works for any kind of software, not just databases.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

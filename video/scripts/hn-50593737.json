@@ -1,0 +1,21 @@
+{
+  "hook": "About 20 new Rust GUI toolkits since 2022",
+  "hookText": "Next 100 Rust GUIs",
+  "beats": [
+    {
+      "say": "Raph Levien has followed up his advice for the next dozen Rust GUIs, written four and a half years ago. Roughly 20 toolkits have been announced since.",
+      "visual": 0,
+      "stat": "~20",
+      "statLabel": "new Rust GUI toolkits"
+    },
+    {
+      "say": "He argues Rust UI is still compelling: cross-platform apps are often slow, platform toolkits have stagnated, Electron keeps spreading, and RAM is expensive.",
+      "visual": 1
+    },
+    {
+      "say": "Few flagship apps use Rust for UI yet, but Zed's GPUI proves it ships, and it is emerging as a top choice for AI-driven rewrites, notably at Discord.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

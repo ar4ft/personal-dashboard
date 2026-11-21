@@ -1,0 +1,19 @@
+{
+  "hook": "Calibre now checks grammar, fully offline",
+  "hookText": "Calibre 9.19",
+  "beats": [
+    {
+      "say": "Calibre 9.19 adds grammar, style and typography checking to its e-book editor, with fixes in the right-click menu and a whole-book scan.",
+      "visual": 0
+    },
+    {
+      "say": "For English, neural sentence rewriting suggests clearer, simpler or more formal phrasing, and everything runs locally without AI services.",
+      "visual": 1
+    },
+    {
+      "say": "PDF conversion now better detects paragraphs, headings and columns, rejoins hyphenated words, and drops repeating page headers. Accessibility in the viewer and Content Server improves too, with better keyboard and screen-reader support.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

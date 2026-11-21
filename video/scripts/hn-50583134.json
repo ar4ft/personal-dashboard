@@ -1,0 +1,21 @@
+{
+  "hook": "A new certificate format built for post-quantum web",
+  "hookText": "Merkle Tree Certificates",
+  "beats": [
+    {
+      "say": "An IETF draft from authors at Google, Apple, Cloudflare and Geomys defines Merkle Tree certificates, a new kind of X.509 certificate. It comes from the IETF's PLANTS working group.",
+      "visual": 0
+    },
+    {
+      "say": "They build Certificate Transparency style public logging into the certificate itself, cutting overhead as certificates get shorter lived and post-quantum signatures get much larger.",
+      "visual": 1
+    },
+    {
+      "say": "An optional mode skips signatures entirely for relying parties that stay up to date. This is draft number 8, from November 2026.",
+      "visual": 2,
+      "stat": "08",
+      "statLabel": "draft revision"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

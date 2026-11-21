@@ -1,0 +1,19 @@
+{
+  "hook": "OpenAI is fighting copycats that strip safeguards",
+  "hookText": "Adversarial distillation",
+  "beats": [
+    {
+      "say": "OpenAI says bad actors use frontier model outputs, without permission, to train copies that lack comparable safeguards.",
+      "visual": 0
+    },
+    {
+      "say": "For example, someone could distill a model's cyber skills into a copy that helps with attacks the original would refuse.",
+      "visual": 1
+    },
+    {
+      "say": "OpenAI combines adversarial testing, model training, classifiers and API protections with investigations, has hardened protections for its models' reasoning, and is sharing lessons with the industry. The post was published on November 20.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

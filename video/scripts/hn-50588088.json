@@ -1,0 +1,21 @@
+{
+  "hook": "Your MacBook notch, turned into a dashboard",
+  "hookText": "ILoveNotch 2.0",
+  "beats": [
+    {
+      "say": "ILoveNotch is a free, open-source app that turns the MacBook notch into a hub, in ten themes.",
+      "visual": 0,
+      "stat": "10",
+      "statLabel": "themes"
+    },
+    {
+      "say": "It shows now playing, a file shelf, calendar, Reminders, notes, timers and per-app volume, plus your Claude, Codex, Cursor and Copilot usage. You can keep an eye on your AI coding limits without leaving what you are doing.",
+      "visual": 2
+    },
+    {
+      "say": "Version 2.0 adds a teleprompter. It is native SwiftUI with near-zero idle CPU.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

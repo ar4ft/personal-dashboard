@@ -1,0 +1,21 @@
+{
+  "hook": "C# with no runtime, running on a 386",
+  "hookText": "Zero C#",
+  "beats": [
+    {
+      "say": "Zero C# is a fork of the bflat compiler that turns C# straight into a small native program, with no dot NET runtime and no garbage collector.",
+      "visual": 0
+    },
+    {
+      "say": "You keep the syntax, type checking, real generics, interfaces, records and C# 15 features like unions. Memory comes from arenas that are freed all at once.",
+      "visual": 1,
+      "stat": "C# 15",
+      "statLabel": "language features kept"
+    },
+    {
+      "say": "The same source runs on Linux, macOS, Windows and WebAssembly, and even on DOS on a 386.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

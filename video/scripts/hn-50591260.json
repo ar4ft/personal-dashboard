@@ -1,0 +1,19 @@
+{
+  "hook": "Write Postgres extensions in plain Go",
+  "hookText": "gopgext",
+  "beats": [
+    {
+      "say": "gopgext builds PostgreSQL extensions from ordinary Go code using TinyGo. Mark a function with a comment directive and it becomes a SQL function.",
+      "visual": 0
+    },
+    {
+      "say": "It writes the C glue, the install script and the control file for you. Much of the standard library works, and strings, arrays, timestamps, UUIDs and JSON map to SQL types.",
+      "visual": 1
+    },
+    {
+      "say": "The author warns it is experimental: a bug runs inside the database server, where it can crash it or corrupt data.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,25 @@
+{
+  "hook": "AI rewrote a model's weights by hand",
+  "hookText": "Direct weight edits",
+  "beats": [
+    {
+      "say": "A free vision model already knew Galápagos animals inside its image features. A simple readout told mockingbirds from other birds 98 percent of the time.",
+      "visual": 0,
+      "stat": "98%",
+      "statLabel": "readout accuracy"
+    },
+    {
+      "say": "But asked directly, the model called almost every iguana native, scoring a coin-flip 50 percent.",
+      "visual": 1,
+      "stat": "50%",
+      "statLabel": "model's own answers"
+    },
+    {
+      "say": "With gradient training switched off, Claude and GPT models took turns reading weights and writing in computed changes. The method was first built on 1,611 camera-trap photos. Every change was a number a frontier model calculated and wrote in.",
+      "visual": 2,
+      "stat": "1,611",
+      "statLabel": "camera-trap photos"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

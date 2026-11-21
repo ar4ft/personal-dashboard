@@ -1,0 +1,19 @@
+{
+  "hook": "A Superhuman-style Gmail client, free and in Rust",
+  "hookText": "Exo for macOS",
+  "beats": [
+    {
+      "say": "Miguel Piedrafita released Exo, a fast, local, native Gmail client for macOS inspired by Superhuman.",
+      "visual": 0
+    },
+    {
+      "say": "It is written in Rust with no Electron or web views, and talks to Gmail directly, with no third-party servers. It is free and open source.",
+      "visual": 1
+    },
+    {
+      "say": "To use it, you create your own free Google sign-in client, enabling the Gmail, Calendar and People APIs, then drop its file into Exo's folder. Exo ships as a disk image you drag into Applications.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

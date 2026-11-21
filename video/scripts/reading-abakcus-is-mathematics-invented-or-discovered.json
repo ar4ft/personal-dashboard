@@ -1,0 +1,21 @@
+{
+  "hook": "Was it true before anyone proved it?",
+  "hookText": "Invented or discovered?",
+  "beats": [
+    {
+      "say": "Around 300 BC, Euclid proved the primes never end: multiply any list of primes, add one, and a missing prime must exist.",
+      "visual": 0,
+      "stat": "300 BC",
+      "statLabel": "Euclid's proof"
+    },
+    {
+      "say": "Empires and physical theories have fallen since, but the proof has never needed a single correction.",
+      "visual": 1
+    },
+    {
+      "say": "So was it true before Euclid? If math is invented like chess, it should be ours to change. If it is discovered like a continent, it existed before us, and we must explain where.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
