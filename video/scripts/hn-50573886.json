@@ -1,0 +1,19 @@
+{
+  "hook": "Stop writing code, and your reviews get worse",
+  "hookText": "Skills decay without practice",
+  "beats": [
+    {
+      "say": "A new essay argues that developers who hand all their coding to AI agents and only review the output are slowly losing their craft.",
+      "visual": 0
+    },
+    {
+      "say": "The author compares it to a guitarist who stops practicing and only directs other players, or a writer who only reads and critiques mostly AI-generated prose.",
+      "visual": 1
+    },
+    {
+      "say": "His point isn't the short-term quality of agent output. It's that in every other field, skills decay without practice, and reviewing code well depends on actually writing it.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

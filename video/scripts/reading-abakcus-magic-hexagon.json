@@ -1,0 +1,25 @@
+{
+  "hook": "Nineteen numbers, fifteen lines, one impossible-seeming sum",
+  "hookText": "The magic hexagon",
+  "beats": [
+    {
+      "say": "Arrange the numbers one to nineteen in a honeycomb so all fifteen straight lines add up to the same total. That total has to be 38.",
+      "visual": 0,
+      "stat": "38",
+      "statLabel": "every line's sum"
+    },
+    {
+      "say": "Up to rotation and reflection there is exactly one solution, with five in the center, and no larger magic hexagon exists.",
+      "visual": 1,
+      "stat": "1",
+      "statLabel": "solution"
+    },
+    {
+      "say": "Railway clerk Clifford Adams started on it in 1910 and finally found it in 1957, decades after others had found and lost it.",
+      "visual": 2,
+      "stat": "47",
+      "statLabel": "years of searching"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

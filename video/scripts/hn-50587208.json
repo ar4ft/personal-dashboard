@@ -1,0 +1,23 @@
+{
+  "hook": "A crafted PGP key can crash most mail clients",
+  "hookText": "GPGME double free",
+  "beats": [
+    {
+      "say": "GnuPG has shipped GPGME 2.3.1 to fix a critical bug, tracked as CVE-2026-129975. An OpenPGP key with a very long user ID can trigger a double free.",
+      "visual": 0,
+      "stat": "2.3.1",
+      "statLabel": "fixed GPGME version"
+    },
+    {
+      "say": "The bug can be used to leak data from apps, for example by sending signed data, and remote code execution can't be ruled out. GPGME sits inside Gpg4win, most mail clients and many chat clients.",
+      "visual": 1
+    },
+    {
+      "say": "The root cause is a reallocated 1024-byte buffer whose new pointer is only saved at the end of a function. An early return leaves a stale pointer that gets freed twice.",
+      "visual": 0,
+      "stat": "1024",
+      "statLabel": "byte starting buffer"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

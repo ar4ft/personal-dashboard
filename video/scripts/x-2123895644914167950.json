@@ -1,0 +1,21 @@
+{
+  "hook": "Apple Watch can now summarize your conversations",
+  "hookText": "Siri Recap tested",
+  "beats": [
+    {
+      "say": "The watchOS 27.3 beta adds Siri Recap, which lets Series 12 and Ultra 4 Apple Watches listen to conversations and summarize them. Audio is discarded after each summary.",
+      "visual": 0
+    },
+    {
+      "say": "After two weeks of testing, MacRumors found summaries too brief, with no speaker labels and no audio to check. Long talks, like vet visits, got merged into confusing recaps.",
+      "visual": 1,
+      "stat": "2 weeks",
+      "statLabel": "of testing"
+    },
+    {
+      "say": "It even summarized YouTube videos. Siri Recap is still in beta and is due with watchOS 27.3 in December.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

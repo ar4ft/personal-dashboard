@@ -1,0 +1,21 @@
+{
+  "hook": "An open-source Devin you can run yourself",
+  "hookText": "OpenComputer",
+  "beats": [
+    {
+      "say": "OpenComputer is an open-source, self-hostable coding agent for teams. You mention it in a Slack thread, it works on its own computer, and the result lands as a pull request.",
+      "visual": 0
+    },
+    {
+      "say": "The whole stack runs on one VM. A gateway starts a Claude Code, Codex or OpenCode session, each isolated with rootless Podman and saved to a git-backed store.",
+      "visual": 2
+    },
+    {
+      "say": "It can run in your own AWS, Google Cloud or Azure account, and the team says it opens pull requests 3.3 times faster than Devin in its benchmark.",
+      "visual": 4,
+      "stat": "3.3x",
+      "statLabel": "faster PRs, own benchmark"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "Fifteen months building a better coding agent harness",
+  "hookText": "DreamCoder launches",
+  "beats": [
+    {
+      "say": "Mickey Petersen, author of Mastering Emacs, has released DreamCoder, a frontier coding harness with a tiling window manager that runs in the browser on all three desktop platforms.",
+      "visual": 0
+    },
+    {
+      "say": "He started in May 2025, expecting two or three months of work. It took fifteen months of UI and backend iterations and a beta test.",
+      "visual": 2,
+      "stat": "15",
+      "statLabel": "months of work"
+    },
+    {
+      "say": "Petersen argues terminal coding agents are cramped and awkward for copying multi-line text, and that most GUI harnesses look the same: a sidebar and a chat pane.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

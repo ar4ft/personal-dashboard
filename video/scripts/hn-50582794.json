@@ -1,0 +1,23 @@
+{
+  "hook": "Two million booby-trapped prompts exposed AI's leaky pipes",
+  "hookText": "AI supply chain leaks",
+  "beats": [
+    {
+      "say": "Researcher HD Moore sent nearly two million AI prompts, each seeded with a unique fake secret, through AI routers and resellers, then watched where the secrets surfaced.",
+      "visual": 0,
+      "stat": "2M",
+      "statLabel": "canary prompts"
+    },
+    {
+      "say": "Attackers inside three AI providers stole requests, including some marked zero data retention. The bait AWS keys were used tens of thousands of times.",
+      "visual": 1,
+      "stat": "3",
+      "statLabel": "compromised providers"
+    },
+    {
+      "say": "Some cheap resellers logged prompts themselves, and some providers scraped secret links from prompts, despite privacy terms.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

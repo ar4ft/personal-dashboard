@@ -1,0 +1,23 @@
+{
+  "hook": "His monitor was eating 75% of his download speed",
+  "hookText": "The Studio Display bottleneck",
+  "beats": [
+    {
+      "say": "Oscar Molnar pays for 2.5 gigabit internet but saw only 600 megabits down, after moving his USB Ethernet adapter onto his Studio Display XDR.",
+      "visual": 0,
+      "stat": "600 Mbps",
+      "statLabel": "instead of 2.5 Gbps"
+    },
+    {
+      "say": "Plugged straight into his Mac, the adapter hit 2.3 gigabits. Behind the display, it dropped frames above about 168 thousand per second.",
+      "visual": 1,
+      "stat": "168k",
+      "statLabel": "frames per second cap"
+    },
+    {
+      "say": "The cause: the adapter sends just four USB packets per burst, and the hub's go-ahead delay makes the drain slower than the input. Flow control on his router got him to about two gigabits.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

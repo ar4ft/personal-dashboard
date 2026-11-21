@@ -1,0 +1,21 @@
+{
+  "hook": "Android apps running with no Android at all",
+  "hookText": "Winedroid in the browser",
+  "beats": [
+    {
+      "say": "Winedroid is a reimplementation of Android written entirely in Rust. It runs real APK files downloaded from F-Droid without Android underneath.",
+      "visual": 0
+    },
+    {
+      "say": "A browser demo loads a twelve megabyte WebAssembly runtime and runs apps like a calculator, a file explorer, a meditation timer and a weather app.",
+      "visual": 2,
+      "stat": "12 MB",
+      "statLabel": "browser runtime"
+    },
+    {
+      "say": "It's early. Not every app works yet, and the web build is slower because the JIT doesn't run in the browser, so native Winedroid is smoother.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

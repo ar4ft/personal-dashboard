@@ -1,0 +1,21 @@
+{
+  "hook": "One lecture set math's agenda for a century",
+  "hookText": "Hilbert's 23 problems",
+  "beats": [
+    {
+      "say": "In August 1900, at a math congress in Paris, David Hilbert gave a talk on the problems of the coming century. His friend Hermann Minkowski had urged him to look ahead.",
+      "visual": 0
+    },
+    {
+      "say": "He had time to read only ten aloud. The published version listed 23, from the nature of the infinite to the stacking of spheres.",
+      "visual": 1,
+      "stat": "23",
+      "statLabel": "problems"
+    },
+    {
+      "say": "Solving one became the surest way to make a name in mathematics, and whole fields grew up around single entries on the list.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

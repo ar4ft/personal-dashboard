@@ -1,0 +1,21 @@
+{
+  "hook": "This npm package installed an AI agent backdoor",
+  "hookText": "Malicious npm agent",
+  "beats": [
+    {
+      "say": "A fake CRM client on npm, called leadstack crm-connect, installed Hermes Agent, an open-source AI agent, and wired it to the attacker's Telegram bot.",
+      "visual": 0
+    },
+    {
+      "say": "It ran as a system service, as root if npm install ran as root. From a chat, the attacker could run shell commands, edit files, browse and schedule jobs.",
+      "visual": 1
+    },
+    {
+      "say": "Nine versions went up on November 16. SafeDep flagged it five minutes after the last release and npm removed it, but the publisher is still active.",
+      "visual": 2,
+      "stat": "9",
+      "statLabel": "malicious versions"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

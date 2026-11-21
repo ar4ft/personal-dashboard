@@ -1,0 +1,19 @@
+{
+  "hook": "Two iPhones, one phone number, in iOS 27",
+  "hookText": "iPhone Handoff",
+  "beats": [
+    {
+      "say": "iOS 27 adds iPhone Handoff, which lets you keep the same phone number on two iPhones.",
+      "visual": 0
+    },
+    {
+      "say": "One phone is the main iPhone and the other is secondary. Unlock either one and the number becomes active on it, with a Switched to this iPhone banner.",
+      "visual": 1
+    },
+    {
+      "say": "The number is only active on one phone at a time, some carrier services are managed only on the main iPhone, and carrier support is limited for now.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,19 @@
+{
+  "hook": "iOS keyboards can now dictate without leaving",
+  "hookText": "KeyboardKit 11.3",
+  "beats": [
+    {
+      "say": "KeyboardKit 11.3 adds an experimental dictation engine that runs right inside the keyboard extension, based on a workaround Raycast discovered.",
+      "visual": 0
+    },
+    {
+      "say": "It records audio through an embedded web view and transcribes it with the same speech recognizer. The main app still has to ask for microphone permission once, and Apple could block the trick.",
+      "visual": 1
+    },
+    {
+      "say": "The release also adds actions that trigger Shortcuts from the keyboard, cached keyboard previews and simpler localization.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
