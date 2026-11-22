@@ -1,0 +1,20 @@
+{
+  "hook": "ClawDOS: an AI coding agent",
+  "hookText": "ClawDOS: an AI coding agent",
+  "beats": [
+    {
+      "say": "ClawDOS is an AI chat and coding harness for DOS running on an IBM PC 5160 with an 8088 at 4.77 MHz, 640K of RAM and CGA, using a bridge PC to handle TLS.",
+      "visual": 1
+    },
+    {
+      "say": "The author built it for fun on the restored IBM PC from his childhood, which now boots from an SD card through a PicoMEM.",
+      "visual": 2
+    },
+    {
+      "say": "Apart from the author's note, the whole repository was written by Claude, as an experiment in how far a coding agent can go under unusual constraints.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

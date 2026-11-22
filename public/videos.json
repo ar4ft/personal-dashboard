@@ -2,6 +2,24 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50586292",
+      "feedId": "hn:50586292",
+      "title": "ClawDOS: an AI coding agent that runs on a real IBM PC XT",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "http://ricapar.net/ClawDOS/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c47c2d23a332230b4b20b68c8f58ffcdefd1a2c3/hn-50586292.mp4",
+      "poster": "media/videos/hn-50586292.jpg",
+      "captions": "media/videos/hn-50586292.vtt",
+      "duration": 38.9,
+      "transcript": "ClawDOS: an AI coding agent ClawDOS is an AI chat and coding harness for DOS running on an IBM PC 5160 with an 8088 at 4.77 MHz, 640K of RAM and CGA, using a bridge PC to handle TLS. The author built it for fun on the restored IBM PC from his childhood, which now boots from an SD card through a PicoMEM. Apart from the author's note, the whole repository was written by Claude, as an experiment in how far a coding agent can go under unusual constraints. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:06:36Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50574264",
       "feedId": "hn:50574264",
       "title": "Deterministic Simulation Testing is for everyone, not just distributed systems",

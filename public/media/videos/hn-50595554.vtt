@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.741
+OpenRouter off-boards
+
+00:00:01.553 --> 00:00:02.967
+three inference providers
+
+00:00:02.791 --> 00:00:04.182
+after the canary-prompt
+
+00:00:03.994 --> 00:00:05.019
+leak findings
+
+00:00:05.550 --> 00:00:06.764
+Following security
+
+00:00:06.576 --> 00:00:07.660
+research showing some
+
+00:00:07.472 --> 00:00:08.663
+inference providers
+
+00:00:08.475 --> 00:00:09.335
+did not honor
+
+00:00:09.147 --> 00:00:10.373
+their data policies
+
+00:00:10.574 --> 00:00:11.752
+OpenRouter removed
+
+00:00:11.564 --> 00:00:12.825
+three providers and
+
+00:00:12.637 --> 00:00:15.007
+pulled 125 endpoints
+
+00:00:14.866 --> 00:00:15.986
+from Zero Data
+
+00:00:15.951 --> 00:00:17.366
+Retention eligibility
+
+00:00:17.902 --> 00:00:19.104
+OpenRouter says the
+
+00:00:18.916 --> 00:00:20.201
+findings showed no
+
+00:00:20.013 --> 00:00:21.333
+breach of OpenRouter
+
+00:00:21.145 --> 00:00:21.911
+itself
+
+00:00:22.050 --> 00:00:22.804
+The results of
+
+00:00:22.616 --> 00:00:23.854
+this testing revealed
+
+00:00:23.666 --> 00:00:24.809
+new findings about
+
+00:00:24.621 --> 00:00:25.658
+specific inference
+
+00:00:25.470 --> 00:00:26.330
+providers
+
+00:00:26.870 --> 00:00:27.872
+Its post links
+
+00:00:27.684 --> 00:00:28.780
+provider statements
+
+00:00:28.592 --> 00:00:29.452
+from Novita
+
+00:00:29.582 --> 00:00:31.032
+Phala and Together
+
+00:00:31.171 --> 00:00:32.291
+Earlier this week
+
+00:00:32.197 --> 00:00:33.529
+security researchers
+
+00:00:33.341 --> 00:00:34.626
+reported that certain
+
+00:00:34.438 --> 00:00:35.581
+inference providers
+
+00:00:35.393 --> 00:00:36.855
+had data compromised
+
+00:00:36.678 --> 00:00:37.845
+or otherwise shown
+
+00:00:37.657 --> 00:00:38.376
+evidence
+
+00:00:38.910 --> 00:00:39.924
+Full story on
+
+00:00:39.735 --> 00:00:40.631
+the dashboard
