@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.741
+An open-weight medical
+
+00:00:01.553 --> 00:00:03.534
+model with 560
+
+00:00:03.345 --> 00:00:04.607
+billion parameters
+
+00:00:05.142 --> 00:00:06.179
+Ant Ling released
+
+00:00:05.991 --> 00:00:07.406
+LingSante-3 .
+
+00:00:07.217 --> 00:00:09.009
+1-flash an open-weight
+
+00:00:08.821 --> 00:00:09.929
+mixture of experts
+
+00:00:09.741 --> 00:00:11.651
+model with 560
+
+00:00:11.463 --> 00:00:13.054
+billion total parameters
+
+00:00:12.866 --> 00:00:14.340
+and 25 billion
+
+00:00:14.151 --> 00:00:15.295
+active per token
+
+00:00:15.814 --> 00:00:17.005
+It moves beyond
+
+00:00:16.816 --> 00:00:18.290
+medical question answering
+
+00:00:18.102 --> 00:00:19.387
+toward real healthcare
+
+00:00:19.198 --> 00:00:19.681
+work
+
+00:00:19.800 --> 00:00:21.238
+from complex medical
+
+00:00:21.050 --> 00:00:22.146
+reasoning to long
+
+00:00:21.958 --> 00:00:23.160
+clinical workflows
+
+00:00:23.279 --> 00:00:24.434
+while keeping general
+
+00:00:24.246 --> 00:00:24.964
+skills
+
+00:00:25.502 --> 00:00:26.622
+Ant Ling reports
+
+00:00:26.434 --> 00:00:28.803
+65.72 on HealthBench
+
+00:00:28.615 --> 00:00:31.185
+Professional and 94.10
+
+00:00:30.997 --> 00:00:31.940
+on BrowseComp
+
+00:00:32.082 --> 00:00:32.766
+and says it
+
+00:00:32.577 --> 00:00:34.511
+beats GPT-6 Astra
+
+00:00:34.547 --> 00:00:36.315
+Claude Opus 5.5
+
+00:00:36.139 --> 00:00:37.211
+and Gemini 4
+
+00:00:37.023 --> 00:00:37.895
+Argon on its
+
+00:00:37.707 --> 00:00:38.968
+headline benchmarks
+
+00:00:39.486 --> 00:00:40.500
+Full story on
+
+00:00:40.311 --> 00:00:41.207
+the dashboard

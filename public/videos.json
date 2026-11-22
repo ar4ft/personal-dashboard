@@ -2,6 +2,204 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50594132",
+      "feedId": "hn:50594132",
+      "title": "PcapAnalyzer: a self-hosted packet-capture analyzer with 27 problem detectors",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a634ba5dabd233093f73fe7f0a6af30e7813ee98/hn-50594132.mp4",
+      "poster": "media/videos/hn-50594132.jpg",
+      "captions": "media/videos/hn-50594132.vtt",
+      "duration": 38.18,
+      "transcript": "27 detectors to find network faults in seconds PcapAnalyzer is a free, open-source tool: upload a pcap capture and it tells you what is failing, why, and what to check next. It runs 27 detectors on every capture, covering TCP retransmissions and firewall resets, DNS and DHCP failures, path problems, TLS issues, broken VPN tunnels and port scans. It runs on your own machine, so captures never leave your network, and it is currently in beta under the Apache 2.0 license. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:08:54Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50595241",
+      "feedId": "hn:50595241",
+      "title": "iphone-linux mounts an iPhone as a read/write Linux filesystem over Wi-Fi",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://github.com/Amirjon06/iphone-linux",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b1ff38e5800944503b4dcab50b71cd90a9c7b492/hn-50595241.mp4",
+      "poster": "media/videos/hn-50595241.jpg",
+      "captions": "media/videos/hn-50595241.vtt",
+      "duration": 33.04,
+      "transcript": "Mount your iPhone on Linux, no cable needed iphone-linux makes an iPhone appear as a normal Linux folder over Wi-Fi, with full read and write access and no Apple account. It combines FUSE with the same wireless protocol Xcode uses for debugging, because the old USB route with ifuse is broken on iOS 17 and later. You can copy photos out of DCIM, write files, or mount a single app's Documents folder, as long as the phone has Developer Mode on. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:08:11Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124377137821925651",
+      "feedId": "x:2124377137821925651",
+      "title": "MLX-Serve adds Inkling 2 Mini support on Macs with about 24 custom kernels",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/ddalcu/status/2124377137821925651",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@045a8c496d94852fcb4565eb15c834d13f9b97cf/x-2124377137821925651.mp4",
+      "poster": "media/videos/x-2124377137821925651.jpg",
+      "captions": "media/videos/x-2124377137821925651.vtt",
+      "duration": 34.1,
+      "transcript": "About 24 custom kernels to run Inkling on a Mac Developer David Dalcu added support for Thinking Machines' Inkling 2 Mini to MLX-Serve, his server for running models locally on Apple Silicon Macs. After writing about 24 custom kernels, he says it might be the fastest way to run the model on a Mac today. The pre-release ships 8-bit, NVFP4 and MXFP8 versions, with an 8-bit build on Hugging Face. A 4-bit version did not pass his quality bar yet. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:07:31Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50599762",
+      "feedId": "hn:50599762",
+      "title": "Worker 755: a browser game where an AI orchestrator thinks you are its subagent",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://github.com/gulivan/worker755",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9878caaeba26e29faadaad97e1aeff173cd45237/hn-50599762.mp4",
+      "poster": "media/videos/hn-50599762.jpg",
+      "captions": "media/videos/hn-50599762.vtt",
+      "duration": 33.47,
+      "transcript": "In this game, you are the AI's subagent Worker 755 is a browser game where a real language model plays an orchestrator agent, and it believes you are the subagent it just spawned. Its instructions land in your terminal with a 90-second clock, and it gets back exactly what a subagent would return: your report and your command transcript. Then it checks your work, sends corrections, files incident reports and writes your performance review, while the user's files sit one rm away. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:06:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124523916819648945",
+      "feedId": "x:2124523916819648945",
+      "title": "Ant Ling releases LingSante-3.1-flash, an open-weight 560B medical MoE model",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/AntLingAGI/status/2124523916819648945",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9522ec3c59a0d2763cbd1b409aeedfee7c0242c8/x-2124523916819648945.mp4",
+      "poster": "media/videos/x-2124523916819648945.jpg",
+      "captions": "media/videos/x-2124523916819648945.vtt",
+      "duration": 42.23,
+      "transcript": "An open-weight medical model with 560 billion parameters Ant Ling released LingSante-3.1-flash, an open-weight mixture of experts model with 560 billion total parameters and 25 billion active per token. It moves beyond medical question answering toward real healthcare work, from complex medical reasoning to long clinical workflows, while keeping general skills. Ant Ling reports 65.72 on HealthBench Professional and 94.10 on BrowseComp, and says it beats GPT-6 Astra, Claude Opus 5.5 and Gemini 4 Argon on its headline benchmarks. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:06:08Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50600622",
+      "feedId": "hn:50600622",
+      "title": "Jeff Geerling joins the NTP Pool, and explains what running a public time server takes",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f6623e91761a88b026581daae91fc3d1d4ac5ea8/hn-50600622.mp4",
+      "poster": "media/videos/hn-50600622.jpg",
+      "captions": "media/videos/hn-50600622.vtt",
+      "duration": 33.88,
+      "transcript": "Jeff Geerling now serves time to the world Jeff Geerling has joined the global NTP Pool with a public Stratum 2 time server, fed by his own Stratum 1 Raspberry Pi in the studio. That Pi uses a TimeHAT and a timing-grade u-blox GNSS module with an outdoor antenna, while a separate public server keeps his home address private. His advice: you don't need GNSS to contribute, but you do need long-term uptime, good time and a stable IP, because traffic can linger for years. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:05:19Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50600838",
+      "feedId": "hn:50600838",
+      "title": "C++26 is done again: ISO committee recompletes the standard after the failed ballot",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9a3e6329aa7f511ebf72bee55c1c2b6878729c5e/hn-50600838.mp4",
+      "poster": "media/videos/hn-50600838.jpg",
+      "captions": "media/videos/hn-50600838.vtt",
+      "duration": 39.5,
+      "transcript": "C++26 is finished, for the second time C++26 was first completed in March, but its international approval ballot did not pass unanimously, mostly over concerns about contracts. At a six-day meeting in Búzios, Brazil, with about 220 attendees from 27 nations, the committee extended contracts, explained its decisions, and finished the technical work again. The updated standard now heads to a second ballot, and the committee also adopted labeled break and continue, and views slice, for C++29. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:04:42Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50601525",
+      "feedId": "hn:50601525",
+      "title": "OpenAI publishes its internal perplexity curve and proposes industry limits based on it",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@3ba096725a57d1eaa1902ffa372ec0238b330761/hn-50601525.mp4",
+      "poster": "media/videos/hn-50601525.jpg",
+      "captions": "media/videos/hn-50601525.vtt",
+      "duration": 46.24,
+      "transcript": "OpenAI reveals the perplexity numbers behind its models OpenAI chief scientist Jakub Pachocki says held-out perplexity has been the company's constant measure of pretraining progress, and he published its internal numbers. GPT-3.5 sat at a log-perplexity of about 0.99 and GPT-4 at about 0.91. Below 0.8, strong cybersecurity and math abilities appeared, and a model near 0.76 started producing breakthrough math results. He expects new capabilities around 0.68 to 0.7, and proposes shared, perplexity-based limits that labs agree not to cross until monitoring catches up. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:04:02Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50601696",
+      "feedId": "hn:50601696",
+      "title": "NO SPEAKER makes a MacBook trackpad talk using its haptic motor",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://github.com/os6/nospeaker",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2df1aac820c7e984dc13a2a23499758c8eb0c9e5/hn-50601696.mp4",
+      "poster": "media/videos/hn-50601696.jpg",
+      "captions": "media/videos/hn-50601696.vtt",
+      "duration": 32.27,
+      "transcript": "Your MacBook trackpad can talk, with no speaker A MacBook trackpad has no speaker, just a small haptic motor that taps the glass so you feel a click. The open-source tool NO SPEAKER drives that motor up to 4,000 times a second, fast enough to make audible sound, and turns it into a voice that talks, sings and raps. It is one Swift program for Apple Silicon and Intel Macs, signed and notarized, and it still talks with the Mac muted. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:03:10Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124590207718580446",
+      "feedId": "x:2124590207718580446",
+      "title": "RustGIS v0.8.0 keeps every layer in its native coordinate system and adds a map-seeing assistant",
+      "source": "Twitter / X",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://x.com/giswqs/status/2124590207718580446",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@aeff596bf06a59c23c68f65b1b26e40514148e72/x-2124590207718580446.mp4",
+      "poster": "media/videos/x-2124590207718580446.jpg",
+      "captions": "media/videos/x-2124590207718580446.vtt",
+      "duration": 36.79,
+      "transcript": "A pure Rust GIS ships 300 pull requests RustGIS is a free, open-source GIS written in pure Rust that runs on Windows, macOS, Linux and in the browser, with data staying on your machine. Version 0.8.0 brings together more than 300 pull requests from 20 contributors, and keeps every layer in its own coordinate system. It adds picture markers, charts and curved labels in layouts, new formats like GRIB and GeoPDF, and an AI assistant that can look at the map. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:02:33Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50604195",
+      "feedId": "hn:50604195",
+      "title": "Gall: a from-scratch Metal engine runs Inkling 2 Mini on a 24 GB M2 Mac",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://github.com/ltrgoddard/gall",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8b0d93aa4e27f94c87bd3edbba868ce2026262cf/hn-50604195.mp4",
+      "poster": "media/videos/hn-50604195.jpg",
+      "captions": "media/videos/hn-50604195.vtt",
+      "duration": 36.86,
+      "transcript": "A 26-billion-parameter model on a 24 gigabyte MacBook Air Gall is a menu bar app that runs Thinking Machines' Inkling 2 Mini on Apple silicon Macs with 24 gigabytes of memory. The mixture of experts model has 26 billion parameters with 3.4 billion active per token, and Gall's own Rust and Metal engine generates about 20 tokens per second on an M2 MacBook Air. It unloads the model one second after each answer and saves conversation state to disk, so your RAM is free between messages. Full story on the dashboard.",
+      "createdAt": "2026-11-22T23:01:50Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2123953913342935486",
       "feedId": "x:2123953913342935486",
       "title": "EXO Labs runs Inkling 2 Mini locally at 210 tokens/s on an M5 Ultra Mac Studio",
