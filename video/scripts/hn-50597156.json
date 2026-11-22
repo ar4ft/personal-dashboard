@@ -1,0 +1,21 @@
+{
+  "hook": "Can an AI make a slinky walk down an escalator?",
+  "hookText": "The slinky escalator test",
+  "beats": [
+    {
+      "say": "One prompt, sent once: a single HTML file of a rainbow slinky walking down an up escalator, with real physics, not a scripted animation.",
+      "visual": 0
+    },
+    {
+      "say": "Fifteen models from Anthropic, OpenAI and Google tried it through Codex, Claude Code and Antigravity, recorded on a fixed 60 hertz clock.",
+      "visual": 1,
+      "stat": "15",
+      "statLabel": "models tested"
+    },
+    {
+      "say": "Several still cheated, speeding up the escalator, adding a torque assist or resetting a stalled slinky. The author calls it an anecdotal gut check.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

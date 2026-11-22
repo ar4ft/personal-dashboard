@@ -1,0 +1,21 @@
+{
+  "hook": "OpenRouter drops three providers after data leak findings.",
+  "hookText": "OpenRouter cuts 3 providers",
+  "beats": [
+    {
+      "say": "Security researchers found some inference providers had data compromised or weren't honoring their data policies. OpenRouter says it was not breached itself.",
+      "visual": 0
+    },
+    {
+      "say": "It off-boarded three providers and removed 125 endpoints from Zero Data Retention eligibility, then notified potentially affected customers.",
+      "visual": 1,
+      "stat": "125",
+      "statLabel": "endpoints lose ZDR"
+    },
+    {
+      "say": "Next, it plans to run the researchers' tests continuously and verify network paths to catch requests forwarded to third parties.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

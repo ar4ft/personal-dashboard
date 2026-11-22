@@ -1,0 +1,19 @@
+{
+  "hook": "Free, fully offline dictation now lives in your iPhone keyboard.",
+  "hookText": "Hex dictation on iPhone",
+  "beats": [
+    {
+      "say": "Hex is now on the iOS App Store: a keyboard you can talk to. Tap the Hex key in any app and your words land where you're typing.",
+      "visual": 0
+    },
+    {
+      "say": "Speech is turned into text on the iPhone itself, with no account, no subscription and no cloud, and it works offline once a language model downloads.",
+      "visual": 1
+    },
+    {
+      "say": "It also cleans up ums and corrections, supports spoken punctuation, and offers styles like Polished, Casual, Notes and Verbatim.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

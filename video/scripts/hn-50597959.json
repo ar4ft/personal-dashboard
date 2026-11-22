@@ -1,0 +1,21 @@
+{
+  "hook": "mod_wsgi's creator is building its Rust successor.",
+  "hookText": "Muru: Rust server for Python",
+  "beats": [
+    {
+      "say": "Graham Dumpleton started mod_wsgi twenty years ago. His new project, Muru, is an AI-assisted Rust server for WSGI and ASGI Python apps.",
+      "visual": 0,
+      "stat": "20 yrs",
+      "statLabel": "since mod_wsgi"
+    },
+    {
+      "say": "He has published almost a post a day for three weeks, covering workers, HTTPS in development, Kubernetes, scaling to zero and in-page tracing.",
+      "visual": 1
+    },
+    {
+      "say": "His take: the AI does much of the surface work, but deciding what isn't good enough yet is still his job.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

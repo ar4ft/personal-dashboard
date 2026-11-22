@@ -1,0 +1,23 @@
+{
+  "hook": "A 27B model shrunk to 7.2 gigabytes, no math lost.",
+  "hookText": "27B model in 7.2 GB",
+  "beats": [
+    {
+      "say": "LookAtMyQuant is a quantization compiler that measures how much each part of a model hurts output when compressed, then spends bits where they matter.",
+      "visual": 0
+    },
+    {
+      "say": "It takes Qwen3.8-27B from 53.7 gigabytes to 7.2, and still solves 401 of 540 math problems, as many as the original.",
+      "visual": 1,
+      "stat": "53.7 → 7.2 GB",
+      "statLabel": "Qwen3.8-27B"
+    },
+    {
+      "say": "Inkling 2 Mini gets six Apple Silicon builds, from 3.85 to 12.76 gigabytes, reaching down to 8 gigabyte iPhones.",
+      "visual": 2,
+      "stat": "3.85 GB",
+      "statLabel": "smallest Inkling 2 Mini"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

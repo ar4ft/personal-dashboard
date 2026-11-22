@@ -1,0 +1,19 @@
+{
+  "hook": "prime-rl 0.11 can now pretrain, not just RL.",
+  "hookText": "prime-rl 0.11.0 is out",
+  "beats": [
+    {
+      "say": "The open-source reinforcement learning trainer prime-rl just shipped version 0.11.0, adding a new pretraining entrypoint.",
+      "visual": 0
+    },
+    {
+      "say": "It brings a major training performance boost, model-specific kernels, and bidirectional KV transfer for prefill and decode disaggregation.",
+      "visual": 1
+    },
+    {
+      "say": "There's also a pool of environment workers with far less CPU memory use, plus support for a batch of new models.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

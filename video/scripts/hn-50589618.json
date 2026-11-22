@@ -1,0 +1,21 @@
+{
+  "hook": "The Riemann Hypothesis proof checks out in Lean.",
+  "hookText": "Lean community certifies RH proof",
+  "beats": [
+    {
+      "say": "On November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library with 17 million lines of code, depending only on Mathlib.",
+      "visual": 0,
+      "stat": "17M",
+      "statLabel": "lines of Lean"
+    },
+    {
+      "say": "Within a day, dozens of people compiled it and reproduced the same raw proof export, and two independent tools confirmed it proves exactly Mathlib's statement.",
+      "visual": 1
+    },
+    {
+      "say": "Several proof checkers, including formally verified ones, accepted it, and the Lean and Mathlib communities now certify the proof as correct.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

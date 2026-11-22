@@ -1,0 +1,19 @@
+{
+  "hook": "Write a math proof using TypeScript's type checker.",
+  "hookText": "Lean explained with TypeScript",
+  "beats": [
+    {
+      "say": "Lean lets you prove mathematical propositions, and its verifier is really just a type checker: propositions are types and proofs are values.",
+      "visual": 0
+    },
+    {
+      "say": "Niklas Gruhn shows TypeScript's type system is similar enough that you can prove simple propositions right in it.",
+      "visual": 1
+    },
+    {
+      "say": "His pitch: LLMs write code fast, Lean automates verification, and that pairing could bring stronger guarantees to everyday software too.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

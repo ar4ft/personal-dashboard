@@ -1,0 +1,21 @@
+{
+  "hook": "Don't rewrite it in Rust. Rewrite the slow 5%.",
+  "hookText": "Port only the hot 5% to Rust",
+  "beats": [
+    {
+      "say": "fast-anything profiles a Python, Node or Ruby app and ranks its functions by time and how portable they are.",
+      "visual": 0
+    },
+    {
+      "say": "It records up to 500 real calls, has your coding agent port just that function to Rust, and replays every call to prove the results match.",
+      "visual": 1,
+      "stat": "500",
+      "statLabel": "recorded calls per port"
+    },
+    {
+      "say": "Then it swaps the Rust version in with one command, fully reversible, and benchmarks the whole app before and after.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

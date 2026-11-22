@@ -1,0 +1,23 @@
+{
+  "hook": "210 tokens per second, locally, on a Mac Studio.",
+  "hookText": "Inkling 2 Mini runs fast on Macs",
+  "beats": [
+    {
+      "say": "EXO Labs worked with Thinking Machines to make Inkling 2 Mini run fast on Apple Silicon.",
+      "visual": 0
+    },
+    {
+      "say": "On a 96 gigabyte M5 Ultra Mac Studio it decodes 210 tokens per second, and on a 48 gigabyte M5 Max MacBook Pro, 125.",
+      "visual": 1,
+      "stat": "210 tok/s",
+      "statLabel": "M5 Ultra decode"
+    },
+    {
+      "say": "Prefill hits 3,620 tokens per second on the Studio, and in their demo it built a native weather app 1.8 times faster than Claude Sonnet 5.5.",
+      "visual": 2,
+      "stat": "1.8x",
+      "statLabel": "faster weather app build"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

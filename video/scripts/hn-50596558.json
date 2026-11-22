@@ -1,0 +1,23 @@
+{
+  "hook": "Deleting hand-written GPU assembly made kernels better.",
+  "hookText": "PTX back to the compiler",
+  "beats": [
+    {
+      "say": "glm-vx runs GLM models with GPU kernels written in Vx, which held 99 pieces of hand-written PTX across 25 files.",
+      "visual": 0,
+      "stat": "99",
+      "statLabel": "inline PTX blocks"
+    },
+    {
+      "say": "They moved most to MLIR ops. Fourteen of 20 pinned kernels kept every instruction, and six got fewer because the compiler could finally see around the code.",
+      "visual": 1
+    },
+    {
+      "say": "No kernel needs more registers, one spill dropped from 40 bytes to 8, and all hardware tests passed on an H200.",
+      "visual": 0,
+      "stat": "40 → 8 B",
+      "statLabel": "register spill"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

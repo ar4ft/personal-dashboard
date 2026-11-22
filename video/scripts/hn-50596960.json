@@ -1,0 +1,19 @@
+{
+  "hook": "The DFT is just samples of the DTFT.",
+  "hookText": "How the DFT really works",
+  "beats": [
+    {
+      "say": "Eli Bendersky's new post tackles realistic signal processing, where signals are both discrete and finite.",
+      "visual": 0
+    },
+    {
+      "say": "The trick: treat your N samples as one period of a periodic signal, so the discrete-time Fourier series reconstructs them exactly.",
+      "visual": 3
+    },
+    {
+      "say": "Scale those coefficients and you get the DFT, which turns out to be equally spaced samples of the continuous DTFT, with Python code to compute it.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
