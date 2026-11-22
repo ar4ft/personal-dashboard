@@ -1,0 +1,21 @@
+{
+  "hook": "27 detectors to find network faults in seconds",
+  "hookText": "Find the network fault fast",
+  "beats": [
+    {
+      "say": "PcapAnalyzer is a free, open-source tool: upload a pcap capture and it tells you what is failing, why, and what to check next.",
+      "visual": 0
+    },
+    {
+      "say": "It runs 27 detectors on every capture, covering TCP retransmissions and firewall resets, DNS and DHCP failures, path problems, TLS issues, broken VPN tunnels and port scans.",
+      "visual": 1,
+      "stat": "27",
+      "statLabel": "problem detectors"
+    },
+    {
+      "say": "It runs on your own machine, so captures never leave your network, and it is currently in beta under the Apache 2.0 license.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

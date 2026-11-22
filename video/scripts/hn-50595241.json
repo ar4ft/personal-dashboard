@@ -1,0 +1,21 @@
+{
+  "hook": "Mount your iPhone on Linux, no cable needed",
+  "hookText": "iPhone as a Linux folder",
+  "beats": [
+    {
+      "say": "iphone-linux makes an iPhone appear as a normal Linux folder over Wi-Fi, with full read and write access and no Apple account.",
+      "visual": 0
+    },
+    {
+      "say": "It combines FUSE with the same wireless protocol Xcode uses for debugging, because the old USB route with ifuse is broken on iOS 17 and later.",
+      "visual": 1,
+      "stat": "iOS 17+",
+      "statLabel": "where ifuse breaks"
+    },
+    {
+      "say": "You can copy photos out of DCIM, write files, or mount a single app's Documents folder, as long as the phone has Developer Mode on.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

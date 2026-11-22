@@ -1,0 +1,21 @@
+{
+  "hook": "A pure Rust GIS ships 300 pull requests",
+  "hookText": "RustGIS v0.8.0",
+  "beats": [
+    {
+      "say": "RustGIS is a free, open-source GIS written in pure Rust that runs on Windows, macOS, Linux and in the browser, with data staying on your machine.",
+      "visual": 0
+    },
+    {
+      "say": "Version 0.8.0 brings together more than 300 pull requests from 20 contributors, and keeps every layer in its own coordinate system.",
+      "visual": 1,
+      "stat": "300+",
+      "statLabel": "pull requests"
+    },
+    {
+      "say": "It adds picture markers, charts and curved labels in layouts, new formats like GRIB and GeoPDF, and an AI assistant that can look at the map.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

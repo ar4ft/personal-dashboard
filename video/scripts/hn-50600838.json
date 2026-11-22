@@ -1,0 +1,21 @@
+{
+  "hook": "C++26 is finished, for the second time",
+  "hookText": "C++26 is done again",
+  "beats": [
+    {
+      "say": "C++26 was first completed in March, but its international approval ballot did not pass unanimously, mostly over concerns about contracts.",
+      "visual": 0
+    },
+    {
+      "say": "At a six-day meeting in Búzios, Brazil, with about 220 attendees from 27 nations, the committee extended contracts, explained its decisions, and finished the technical work again.",
+      "visual": 1,
+      "stat": "220",
+      "statLabel": "attendees, 27 nations"
+    },
+    {
+      "say": "The updated standard now heads to a second ballot, and the committee also adopted labeled break and continue, and views slice, for C++29.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "Your MacBook trackpad can talk, with no speaker",
+  "hookText": "A trackpad that talks",
+  "beats": [
+    {
+      "say": "A MacBook trackpad has no speaker, just a small haptic motor that taps the glass so you feel a click.",
+      "visual": 0
+    },
+    {
+      "say": "The open-source tool NO SPEAKER drives that motor up to 4,000 times a second, fast enough to make audible sound, and turns it into a voice that talks, sings and raps.",
+      "visual": 1,
+      "stat": "4,000",
+      "statLabel": "taps per second"
+    },
+    {
+      "say": "It is one Swift program for Apple Silicon and Intel Macs, signed and notarized, and it still talks with the Mac muted.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

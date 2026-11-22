@@ -1,0 +1,21 @@
+{
+  "hook": "OpenAI reveals the perplexity numbers behind its models",
+  "hookText": "OpenAI opens its perplexity curve",
+  "beats": [
+    {
+      "say": "OpenAI chief scientist Jakub Pachocki says held-out perplexity has been the company's constant measure of pretraining progress, and he published its internal numbers.",
+      "visual": 0
+    },
+    {
+      "say": "GPT-3.5 sat at a log-perplexity of about 0.99 and GPT-4 at about 0.91. Below 0.8, strong cybersecurity and math abilities appeared, and a model near 0.76 started producing breakthrough math results.",
+      "visual": 1,
+      "stat": "0.76",
+      "statLabel": "log-perplexity of the math model"
+    },
+    {
+      "say": "He expects new capabilities around 0.68 to 0.7, and proposes shared, perplexity-based limits that labs agree not to cross until monitoring catches up.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "About 24 custom kernels to run Inkling on a Mac",
+  "hookText": "MLX-Serve runs Inkling 2 Mini",
+  "beats": [
+    {
+      "say": "Developer David Dalcu added support for Thinking Machines' Inkling 2 Mini to MLX-Serve, his server for running models locally on Apple Silicon Macs.",
+      "visual": 0
+    },
+    {
+      "say": "After writing about 24 custom kernels, he says it might be the fastest way to run the model on a Mac today.",
+      "visual": 1,
+      "stat": "~24",
+      "statLabel": "custom kernels"
+    },
+    {
+      "say": "The pre-release ships 8-bit, NVFP4 and MXFP8 versions, with an 8-bit build on Hugging Face. A 4-bit version did not pass his quality bar yet.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

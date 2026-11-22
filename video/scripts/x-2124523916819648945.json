@@ -1,0 +1,23 @@
+{
+  "hook": "An open-weight medical model with 560 billion parameters",
+  "hookText": "LingSante-3.1-flash is open",
+  "beats": [
+    {
+      "say": "Ant Ling released LingSante-3.1-flash, an open-weight mixture of experts model with 560 billion total parameters and 25 billion active per token.",
+      "visual": 0,
+      "stat": "560B",
+      "statLabel": "total parameters"
+    },
+    {
+      "say": "It moves beyond medical question answering toward real healthcare work, from complex medical reasoning to long clinical workflows, while keeping general skills.",
+      "visual": 1
+    },
+    {
+      "say": "Ant Ling reports 65.72 on HealthBench Professional and 94.10 on BrowseComp, and says it beats GPT-6 Astra, Claude Opus 5.5 and Gemini 4 Argon on its headline benchmarks.",
+      "visual": 2,
+      "stat": "65.72",
+      "statLabel": "HealthBench Professional"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "In this game, you are the AI's subagent",
+  "hookText": "You are the subagent",
+  "beats": [
+    {
+      "say": "Worker 755 is a browser game where a real language model plays an orchestrator agent, and it believes you are the subagent it just spawned.",
+      "visual": 0
+    },
+    {
+      "say": "Its instructions land in your terminal with a 90-second clock, and it gets back exactly what a subagent would return: your report and your command transcript.",
+      "visual": 1,
+      "stat": "90 s",
+      "statLabel": "per instruction"
+    },
+    {
+      "say": "Then it checks your work, sends corrections, files incident reports and writes your performance review, while the user's files sit one rm away.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

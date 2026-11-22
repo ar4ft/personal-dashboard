@@ -1,0 +1,21 @@
+{
+  "hook": "A 26-billion-parameter model on a 24 gigabyte MacBook Air",
+  "hookText": "Inkling 2 Mini on an M2 Air",
+  "beats": [
+    {
+      "say": "Gall is a menu bar app that runs Thinking Machines' Inkling 2 Mini on Apple silicon Macs with 24 gigabytes of memory.",
+      "visual": 0
+    },
+    {
+      "say": "The mixture of experts model has 26 billion parameters with 3.4 billion active per token, and Gall's own Rust and Metal engine generates about 20 tokens per second on an M2 MacBook Air.",
+      "visual": 1,
+      "stat": "20 tok/s",
+      "statLabel": "on an M2 MacBook Air"
+    },
+    {
+      "say": "It unloads the model one second after each answer and saves conversation state to disk, so your RAM is free between messages.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,19 @@
+{
+  "hook": "Jeff Geerling now serves time to the world",
+  "hookText": "Jeff Geerling joins the NTP Pool",
+  "beats": [
+    {
+      "say": "Jeff Geerling has joined the global NTP Pool with a public Stratum 2 time server, fed by his own Stratum 1 Raspberry Pi in the studio.",
+      "visual": 0
+    },
+    {
+      "say": "That Pi uses a TimeHAT and a timing-grade u-blox GNSS module with an outdoor antenna, while a separate public server keeps his home address private.",
+      "visual": 1
+    },
+    {
+      "say": "His advice: you don't need GNSS to contribute, but you do need long-term uptime, good time and a stable IP, because traffic can linger for years.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
