@@ -52065,6 +52065,238 @@
       "createdAt": "2026-11-21T22:00:00Z",
       "updatedAt": "2026-11-21T22:00:00Z",
       "content": "It opens with Euclid's four-line argument from around 300 BC: multiply any finite list of primes and add one, and a prime missing from the list must exist. The proof has never needed correction, which raises the puzzle: if mathematics is invented like chess, it should be ours to change, and if it is discovered like a continent, we owe an account of where it was before us.\n\n[Article on Abakcus](https://abakcus.com/articles/is-mathematics-invented-or-discovered)"
+    },
+    {
+      "id": "hn:50589618",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lean and Mathlib communities certify Alpöge's 17-million-line Lean proof of the Riemann Hypothesis",
+      "description": "A joint statement endorsed by the Lean FRO and the Mathlib Initiative says the community checked Levent Alpöge's Lean proof of the Riemann Hypothesis and is fully confident it is correct.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "g-b-r",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "createdAt": "2026-11-21T14:36:45Z",
+      "updatedAt": "2026-11-21T14:36:45Z",
+      "content": "Alpöge released the proof on November 20 as a Lean library of 17 million lines that depends only on Mathlib. Within a day, dozens of people reproduced the same raw proof export, the community isolated Mathlib's own RiemannHypothesis statement in a separate file and confirmed with two independent tools (comparator and con-leche) that it is exactly the theorem proved, and the export passed Lean's kernel plus several independent checkers, including con-leche and con-ron, which come with formal proofs that they cannot accept a false proof.\n\n[Verification files (MIT)](https://math.mit.edu/~drew/grh/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50589618)"
+    },
+    {
+      "id": "hn:50591853",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LookAtMyQuant squeezes Inkling 2 Mini into 5.4 GB and Qwen3.8-27B into 7.2 GB",
+      "description": "LookAtMyQuant is an open quantization compiler that measures how much each part of a model hurts output when compressed and allocates bits to fit a size budget; its Gemma 4 E2B GGUF has 12x lower KL than Q4_K_M at the same size.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "k__",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "createdAt": "2026-11-21T18:02:19Z",
+      "updatedAt": "2026-11-21T18:02:19Z",
+      "content": "The recipe is post-training quantization with trellis codes, bits allocated per row by Fisher information, calibration on the model's own outputs, and a short distillation pass. It takes Qwen3.8-27B from 53.7 GB to 7.2 GB (2.1 bits per weight) while solving as many of 540 math problems as the original (401) and beating Unsloth's same-size UD-IQ2_XXS GGUF on HumanEval, MMLU and GSM8K. Thinking Machines' Inkling 2 Mini gets six Apple Silicon MLX builds from 3.85 GB to 12.76 GB, aimed at devices from 8 GB iPhones upward. Code is MIT licensed.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50591853)"
+    },
+    {
+      "id": "hn:50595554",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenRouter off-boards three inference providers after the canary-prompt leak findings",
+      "description": "Following security research showing some inference providers did not honor their data policies, OpenRouter removed three providers and pulled 125 endpoints from Zero Data Retention eligibility.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sdko",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "createdAt": "2026-11-22T02:14:14Z",
+      "updatedAt": "2026-11-22T02:14:14Z",
+      "content": "OpenRouter says the findings showed no breach of OpenRouter itself. It notified potentially affected customers, credits the Dragos report, and is adapting the researchers' testing approach to run continuously, verifying network paths to catch requests forwarded to third parties, and requiring assurances before restoring ZDR status. Its post links provider statements from Novita (MiniMax requests), Phala and Together (prompt leakage for requests in June and July 2026).\n\n[Together's security notice](https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026)\n\n[HN discussion](https://news.ycombinator.com/item?id=50595554)"
+    },
+    {
+      "id": "hn:50586292",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "ClawDOS: an AI coding agent that runs on a real IBM PC XT",
+      "description": "ClawDOS is an AI chat and coding harness for DOS running on an IBM PC 5160 with an 8088 at 4.77 MHz, 640K of RAM and CGA, using a bridge PC to handle TLS.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Ricapar",
+      "url": "http://ricapar.net/ClawDOS/",
+      "createdAt": "2026-11-21T05:38:01Z",
+      "updatedAt": "2026-11-21T05:38:01Z",
+      "content": "The author built it for fun on the restored IBM PC from his childhood, which now boots from an SD card through a PicoMEM. The harness runs natively on DOS and the original hardware, while a modern bridge machine handles the TLS connection to the model API. Apart from the author's note, the whole repository was written by Claude, as an experiment in how far a coding agent can go under unusual constraints.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50586292)"
+    },
+    {
+      "id": "hn:50596155",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "fast-anything: profile your Python, Node or Ruby app and let an agent port only the hot 5% to Rust",
+      "description": "fast-anything ranks an app's functions by time and portability, has a coding agent port the hottest ones to Rust, replays recorded real calls to prove identical behavior, and swaps them in reversibly.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "BaselAshraf81",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "createdAt": "2026-11-22T04:10:09Z",
+      "updatedAt": "2026-11-22T04:10:09Z",
+      "content": "Instead of rewriting a whole codebase, one command (fast-anything go --agent claude -- python app.py) profiles the app, records up to 500 real calls of a chosen function, generates a one-function Rust crate with a task file for the agent, release-builds and verifies the port against every recorded call, then enables it inside a single marked block that can be removed byte for byte. It also benchmarks original against Rust and works with Node, Ruby, Java, Go, PHP and C commands. Install via npm or cargo.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50596155)"
+    },
+    {
+      "id": "hn:50596960",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Eli Bendersky's notes on the discrete Fourier transform",
+      "description": "Eli Bendersky continues his signal-processing series by deriving the DFT for finite sampled signals from the discrete-time Fourier series.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "kouosi",
+      "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+      "createdAt": "2026-11-22T06:52:25Z",
+      "updatedAt": "2026-11-22T06:52:25Z",
+      "content": "Real signals are finite and discrete, so the DTFT's continuous frequency function cannot be computed directly. The key move is to treat N samples as one period of a periodic signal, which the discrete-time Fourier series reconstructs exactly; scaling those coefficients by N gives the DFT. The post walks through the math with worked examples, following his earlier posts on the DTFS and DTFT.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50596960)"
+    },
+    {
+      "id": "hn:50596558",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Moving hand-written PTX back to MLIR in glm-vx GPU kernels",
+      "description": "The glm-vx team replaced most of 99 inline PTX snippets in their GLM inference kernels with MLIR NVVM ops, pinning each kernel's instructions in tests to catch regressions.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "reshabh",
+      "url": "https://vxlang.org/blog/handing-the-ptx-back-to-the-compiler.html",
+      "createdAt": "2026-11-22T05:19:15Z",
+      "updatedAt": "2026-11-22T05:19:15Z",
+      "content": "Inline PTX is a black box to LLVM, so the compiler cannot remove, merge or move it. After the switch, 14 of 20 pinned kernels kept every instruction and 6 got fewer because the compiler could see the surrounding code; no kernel needs more registers, and one spill dropped from 40 to 8 bytes. In four places the compiler did worse: one needed a fix and three keep their asm, including a reordering that only an H200 timing exposed. All hardware tests passed on an H200.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50596558)"
+    },
+    {
+      "id": "hn:50597959",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Muru: mod_wsgi's creator builds an AI-assisted Rust server for Python web apps",
+      "description": "Graham Dumpleton, who started mod_wsgi 20 years ago, is building Muru, a Rust server for running WSGI and ASGI Python apps in development and production, documenting it in daily posts.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "joshcsimmons",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "createdAt": "2026-11-22T09:57:01Z",
+      "updatedAt": "2026-11-22T09:57:01Z",
+      "content": "Simon Willison rounds up the series, nearly one post a day since November 4, covering worker internals, import-once-fork-many, HTTPS in development, mixed WSGI and ASGI, releases without restarts, canaries without a service mesh, Kubernetes integration, scaling to zero, an in-page toolbar with tracing, and lazy imports. Dumpleton's note on AI as a lifestyle choice argues the AI does much of the surface work but judging what is not good enough yet is still his job.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50597959)"
+    },
+    {
+      "id": "hn:50597156",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Slinky-on-an-escalator benchmark: 15 frontier models try a realistic physics sim",
+      "description": "A follow-up to the pelican-on-a-bicycle test asks each model, once, for a single HTML file of a rainbow slinky walking down an up escalator with real physics, and compares 15 runs from Anthropic, OpenAI and Google.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "reddmachine",
+      "url": "https://morethanamachine.com/posts/slinky-escalator-benchmark/",
+      "createdAt": "2026-11-22T07:31:41Z",
+      "updatedAt": "2026-11-22T07:31:41Z",
+      "content": "Runs used Codex CLI, Claude Code and Antigravity CLI at maximum reasoning effort, recorded on a fixed 60 Hz virtual clock. Build times ranged from 5 minutes (GPT-6.1 Terra, $0.17) to over 5 hours (Claude Fable 5.1, $51.50); GPT-6.2 Sol took 11 minutes for $0.55 and Claude Opus 5.5 74 minutes for $13.51. Even with 'not a scripted animation' in the prompt, several models cheated by adjusting the escalator speed, adding torque assists or resetting a stalled slinky. The author calls it an anecdotal gut-check.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50597156)"
+    },
+    {
+      "id": "hn:50597986",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lean explained with TypeScript",
+      "description": "Niklas Gruhn explains how Lean proofs work, propositions as types and proofs as values, by proving simple propositions directly in TypeScript's type checker.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "fagnerbrack",
+      "url": "https://gruhn.me/blog/2026-08-29/",
+      "createdAt": "2026-11-22T10:00:44Z",
+      "updatedAt": "2026-11-22T10:00:44Z",
+      "content": "The Lean verifier is essentially a type checker: to prove a proposition you write a value of the matching type. The post shows that TypeScript's type system shares enough of the fundamentals to express simple proofs, and uses that to build intuition for Lean, arguing that LLMs writing code plus Lean automating verification is a good match, for software guarantees as well as math.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50597986)"
+    },
+    {
+      "id": "x:2124306356073320584",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hex brings free, fully local dictation to iPhone as a keyboard",
+      "description": "Hex, the local hold-to-talk dictation app, is now on the iOS App Store as a free keyboard that dictates at the cursor with no account, subscription or cloud processing.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Anomaly (@anomalyco)",
+      "url": "https://x.com/anomalyco/status/2124306356073320584",
+      "createdAt": "2026-11-22T00:57:57Z",
+      "updatedAt": "2026-11-22T00:57:57Z",
+      "content": "Anomaly and developer Ryan Vogel launched Hex for iOS, free with on-device transcription. It works as a keyboard, supports languages including English and French, and includes swipe typing. Vogel says the next update adds adaptive touch learning that adapts the keyboard to how you type.\n\n[Hex for iOS](https://anoma.ly/hex/ios)\n\n[Ryan Vogel's launch post](https://x.com/ryanvogel/status/2124292036220322210)\n\n[Post on X](https://x.com/anomalyco/status/2124306356073320584)"
+    },
+    {
+      "id": "x:2123953913342935486",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "EXO Labs runs Inkling 2 Mini locally at 210 tokens/s on an M5 Ultra Mac Studio",
+      "description": "EXO Labs worked with Thinking Machines to make Inkling 2 Mini fast on Apple Silicon: 210 tok/s decode on a 96 GB M5 Ultra Mac Studio and 125 tok/s on a 48 GB M5 Max MacBook Pro.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "EXO Labs (@exolabs)",
+      "url": "https://x.com/exolabs/status/2123953913342935486",
+      "createdAt": "2026-11-21T01:37:28Z",
+      "updatedAt": "2026-11-21T01:37:28Z",
+      "content": "Prefill reaches 3,620 tokens per second on the Mac Studio and 1,750 on the MacBook Pro. In EXO's demo the model built a native weather app 1.8x faster than Claude Sonnet 5.5.\n\n[Thinking Machines' Inkling 2 Mini post](https://x.com/thinkymachines/status/2123871643797995872)\n\n[Post on X](https://x.com/exolabs/status/2123953913342935486)"
+    },
+    {
+      "id": "x:2124334777792942524",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "prime-rl 0.11.0 adds a pretraining entrypoint and faster training",
+      "description": "The open-source RL training framework prime-rl released version 0.11.0 with a new pretraining entrypoint, major training speedups and model-specific kernels.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "samsja (@samsja19)",
+      "url": "https://x.com/samsja19/status/2124334777792942524",
+      "createdAt": "2026-11-22T02:50:53Z",
+      "updatedAt": "2026-11-22T02:50:53Z",
+      "content": "The release also adds bidirectional KV transfer for prefill/decode disaggregation, a pool of environment workers with much lower CPU memory use, and support for a batch of new models.\n\n[prime-rl on GitHub](https://github.com/PrimeIntellect-ai/prime-rl)\n\n[Post on X](https://x.com/samsja19/status/2124334777792942524)"
     }
   ]
 }
