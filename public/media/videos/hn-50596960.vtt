@@ -1,91 +1,85 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.847
-Eli Bendersky's notes
+00:00:00.350 --> 00:00:01.670
+The DFT is
 
-00:00:01.659 --> 00:00:02.460
-on the discrete
+00:00:01.482 --> 00:00:02.425
+just samples of
 
-00:00:02.272 --> 00:00:03.533
-Fourier transform
+00:00:02.237 --> 00:00:03.368
+the DTFT
 
-00:00:04.062 --> 00:00:05.889
-Eli Bendersky continues
+00:00:03.894 --> 00:00:05.344
+Eli Bendersky's new
 
-00:00:05.701 --> 00:00:06.927
-his signal-processing
+00:00:05.156 --> 00:00:06.712
+post tackles realistic
 
-00:00:06.739 --> 00:00:08.177
-series by deriving
+00:00:06.524 --> 00:00:07.632
+signal processing
 
-00:00:07.989 --> 00:00:09.109
-the DFT for
+00:00:07.738 --> 00:00:08.717
+where signals are
 
-00:00:08.921 --> 00:00:10.524
-finite sampled signals
+00:00:08.528 --> 00:00:09.872
+both discrete and
 
-00:00:10.336 --> 00:00:11.526
-from the discrete-time
+00:00:09.684 --> 00:00:10.403
+finite
 
-00:00:11.338 --> 00:00:12.517
-Fourier series
+00:00:10.942 --> 00:00:11.684
+The trick
 
-00:00:13.054 --> 00:00:14.103
-Real signals are
+00:00:11.744 --> 00:00:12.557
+treat your N
 
-00:00:13.915 --> 00:00:15.306
-finite and discrete
+00:00:12.369 --> 00:00:13.559
+samples as one
 
-00:00:15.389 --> 00:00:16.591
-so the DTFT's
+00:00:13.371 --> 00:00:14.220
+period of a
 
-00:00:16.403 --> 00:00:17.712
-continuous frequency
+00:00:14.032 --> 00:00:15.269
+periodic signal
 
-00:00:17.523 --> 00:00:18.796
-function cannot be
+00:00:15.364 --> 00:00:16.484
+so the discrete-time
 
-00:00:18.608 --> 00:00:19.822
-computed directly
+00:00:16.296 --> 00:00:18.088
+Fourier series reconstructs
 
-00:00:19.962 --> 00:00:20.928
-The post walks
+00:00:17.900 --> 00:00:18.866
+them exactly
 
-00:00:20.740 --> 00:00:21.494
-through the math
+00:00:19.406 --> 00:00:20.950
+Scale those coefficients
 
-00:00:21.306 --> 00:00:22.473
-with worked examples
+00:00:20.774 --> 00:00:21.434
+and you get
 
-00:00:22.603 --> 00:00:23.746
-following his earlier
+00:00:21.246 --> 00:00:22.165
+the DFT
 
-00:00:23.558 --> 00:00:24.395
-posts on the
+00:00:22.354 --> 00:00:23.273
+which turns out
 
-00:00:24.207 --> 00:00:26.412
-DTFS and DTFT
+00:00:23.085 --> 00:00:24.005
+to be equally
 
-00:00:26.942 --> 00:00:28.498
-First by convention
+00:00:23.816 --> 00:00:24.960
+spaced samples of
 
-00:00:28.310 --> 00:00:29.394
-1 we define
+00:00:24.772 --> 00:00:26.599
+the continuous DTFT
 
-00:00:29.513 --> 00:00:30.161
-And then
+00:00:26.812 --> 00:00:27.967
+with Python code
 
-00:00:30.444 --> 00:00:31.234
-This is called
+00:00:27.790 --> 00:00:28.698
+to compute it
 
-00:00:31.046 --> 00:00:32.142
-the Discrete Fourier
-
-00:00:31.954 --> 00:00:33.085
-Transform of
-
-00:00:33.606 --> 00:00:34.620
+00:00:29.238 --> 00:00:30.252
 Full story on
 
-00:00:34.431 --> 00:00:35.327
+00:00:30.063 --> 00:00:30.959
 the dashboard

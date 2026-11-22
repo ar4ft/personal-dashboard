@@ -1,109 +1,85 @@
 WEBVTT
 
 00:00:00.350 --> 00:00:01.741
-OpenRouter off-boards
+OpenRouter drops three
 
-00:00:01.553 --> 00:00:02.967
-three inference providers
+00:00:01.553 --> 00:00:02.944
+providers after data
 
-00:00:02.791 --> 00:00:04.182
-after the canary-prompt
-
-00:00:03.994 --> 00:00:05.019
+00:00:02.756 --> 00:00:03.746
 leak findings
 
-00:00:05.550 --> 00:00:06.764
-Following security
+00:00:04.278 --> 00:00:05.657
+Security researchers
 
-00:00:06.576 --> 00:00:07.660
-research showing some
+00:00:05.469 --> 00:00:06.459
+found some inference
 
-00:00:07.472 --> 00:00:08.663
-inference providers
+00:00:06.271 --> 00:00:07.485
+providers had data
 
-00:00:08.475 --> 00:00:09.335
-did not honor
+00:00:07.297 --> 00:00:08.759
+compromised or weren't
 
-00:00:09.147 --> 00:00:10.373
-their data policies
+00:00:08.582 --> 00:00:09.537
+honoring their data
 
-00:00:10.574 --> 00:00:11.752
-OpenRouter removed
+00:00:09.349 --> 00:00:10.186
+policies
 
-00:00:11.564 --> 00:00:12.825
-three providers and
+00:00:10.325 --> 00:00:11.468
+OpenRouter says it
 
-00:00:12.637 --> 00:00:15.007
-pulled 125 endpoints
+00:00:11.280 --> 00:00:12.176
+was not breached
 
-00:00:14.866 --> 00:00:15.986
-from Zero Data
-
-00:00:15.951 --> 00:00:17.366
-Retention eligibility
-
-00:00:17.902 --> 00:00:19.104
-OpenRouter says the
-
-00:00:18.916 --> 00:00:20.201
-findings showed no
-
-00:00:20.013 --> 00:00:21.333
-breach of OpenRouter
-
-00:00:21.145 --> 00:00:21.911
+00:00:11.987 --> 00:00:12.742
 itself
 
-00:00:22.050 --> 00:00:22.804
-The results of
+00:00:13.270 --> 00:00:14.390
+It off-boarded three
 
-00:00:22.616 --> 00:00:23.854
-this testing revealed
+00:00:14.202 --> 00:00:15.569
+providers and removed
 
-00:00:23.666 --> 00:00:24.809
-new findings about
+00:00:15.381 --> 00:00:17.715
+125 endpoints from
 
-00:00:24.621 --> 00:00:25.658
-specific inference
+00:00:17.527 --> 00:00:19.001
+Zero Data Retention
 
-00:00:25.470 --> 00:00:26.330
-providers
+00:00:18.824 --> 00:00:19.732
+eligibility
 
-00:00:26.870 --> 00:00:27.872
-Its post links
+00:00:19.992 --> 00:00:21.571
+then notified potentially
 
-00:00:27.684 --> 00:00:28.780
-provider statements
+00:00:21.383 --> 00:00:22.656
+affected customers
 
-00:00:28.592 --> 00:00:29.452
-from Novita
+00:00:23.174 --> 00:00:24.435
+Next it plans
 
-00:00:29.582 --> 00:00:31.032
-Phala and Together
+00:00:24.247 --> 00:00:24.848
+to run the
 
-00:00:31.171 --> 00:00:32.291
-Earlier this week
+00:00:24.660 --> 00:00:25.791
+researchers' tests
 
-00:00:32.197 --> 00:00:33.529
-security researchers
+00:00:25.603 --> 00:00:27.383
+continuously and verify
 
-00:00:33.341 --> 00:00:34.626
-reported that certain
+00:00:27.195 --> 00:00:28.398
+network paths to
 
-00:00:34.438 --> 00:00:35.581
-inference providers
+00:00:28.209 --> 00:00:29.789
+catch requests forwarded
 
-00:00:35.393 --> 00:00:36.855
-had data compromised
+00:00:29.601 --> 00:00:30.827
+to third parties
 
-00:00:36.678 --> 00:00:37.845
-or otherwise shown
-
-00:00:37.657 --> 00:00:38.376
-evidence
-
-00:00:38.910 --> 00:00:39.924
+00:00:31.350 --> 00:00:32.364
 Full story on
 
-00:00:39.735 --> 00:00:40.631
+00:00:32.175 --> 00:00:33.071
 the dashboard

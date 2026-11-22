@@ -2,6 +2,220 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2123953913342935486",
+      "feedId": "x:2123953913342935486",
+      "title": "EXO Labs runs Inkling 2 Mini locally at 210 tokens/s on an M5 Ultra Mac Studio",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/exolabs/status/2123953913342935486",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@abdfafede8e79d5b66d5af235a66fad5629af527/x-2123953913342935486.mp4",
+      "poster": "media/videos/x-2123953913342935486.jpg",
+      "captions": "media/videos/x-2123953913342935486.vtt",
+      "duration": 35.54,
+      "transcript": "210 tokens per second, locally, on a Mac Studio. EXO Labs worked with Thinking Machines to make Inkling 2 Mini run fast on Apple Silicon. On a 96 gigabyte M5 Ultra Mac Studio it decodes 210 tokens per second, and on a 48 gigabyte M5 Max MacBook Pro, 125. Prefill hits 3,620 tokens per second on the Studio, and in their demo it built a native weather app 1.8 times faster than Claude Sonnet 5.5. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:16:29Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50589618",
+      "feedId": "hn:50589618",
+      "title": "Lean and Mathlib communities certify Alpöge's 17-million-line Lean proof of the Riemann Hypothesis",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@31c4d29e30038833e5facdc3a07c78c88c267562/hn-50589618.mp4",
+      "poster": "media/videos/hn-50589618.jpg",
+      "captions": "media/videos/hn-50589618.vtt",
+      "duration": 36.04,
+      "transcript": "The Riemann Hypothesis proof checks out in Lean. On November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library with 17 million lines of code, depending only on Mathlib. Within a day, dozens of people compiled it and reproduced the same raw proof export, and two independent tools confirmed it proves exactly Mathlib's statement. Several proof checkers, including formally verified ones, accepted it, and the Lean and Mathlib communities now certify the proof as correct. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:16:02Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50591853",
+      "feedId": "hn:50591853",
+      "title": "LookAtMyQuant squeezes Inkling 2 Mini into 5.4 GB and Qwen3.8-27B into 7.2 GB",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c60cc489f74ff0f589feeff92c72c7e64b23bdef/hn-50591853.mp4",
+      "poster": "media/videos/hn-50591853.jpg",
+      "captions": "media/videos/hn-50591853.vtt",
+      "duration": 38.51,
+      "transcript": "A 27B model shrunk to 7.2 gigabytes, no math lost. LookAtMyQuant is a quantization compiler that measures how much each part of a model hurts output when compressed, then spends bits where they matter. It takes Qwen3.8-27B from 53.7 gigabytes to 7.2, and still solves 401 of 540 math problems, as many as the original. Inkling 2 Mini gets six Apple Silicon builds, from 3.85 to 12.76 gigabytes, reaching down to 8 gigabyte iPhones. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:15:35Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124306356073320584",
+      "feedId": "x:2124306356073320584",
+      "title": "Hex brings free, fully local dictation to iPhone as a keyboard",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://x.com/anomalyco/status/2124306356073320584",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c6cd06ddeaccaa13be7daae18321fabc46a5bfc9/x-2124306356073320584.mp4",
+      "poster": "media/videos/x-2124306356073320584.jpg",
+      "captions": "media/videos/x-2124306356073320584.vtt",
+      "duration": 33.55,
+      "transcript": "Free, fully offline dictation now lives in your iPhone keyboard. Hex is now on the iOS App Store: a keyboard you can talk to. Tap the Hex key in any app and your words land where you're typing. Speech is turned into text on the iPhone itself, with no account, no subscription and no cloud, and it works offline once a language model downloads. It also cleans up ums and corrections, supports spoken punctuation, and offers styles like Polished, Casual, Notes and Verbatim. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:15:07Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50595554",
+      "feedId": "hn:50595554",
+      "title": "OpenRouter off-boards three inference providers after the canary-prompt leak findings",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c0b58a23eb59364df1ab2fd820adf273ed518fc6/hn-50595554.mp4",
+      "poster": "media/videos/hn-50595554.jpg",
+      "captions": "media/videos/hn-50595554.vtt",
+      "duration": 34.1,
+      "transcript": "OpenRouter drops three providers after data leak findings. Security researchers found some inference providers had data compromised or weren't honoring their data policies. OpenRouter says it was not breached itself. It off-boarded three providers and removed 125 endpoints from Zero Data Retention eligibility, then notified potentially affected customers. Next, it plans to run the researchers' tests continuously and verify network paths to catch requests forwarded to third parties. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:14:42Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124334777792942524",
+      "feedId": "x:2124334777792942524",
+      "title": "prime-rl 0.11.0 adds a pretraining entrypoint and faster training",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/samsja19/status/2124334777792942524",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4654563e3cf4ec550e22f853940a777215b3aa3b/x-2124334777792942524.mp4",
+      "poster": "media/videos/x-2124334777792942524.jpg",
+      "captions": "media/videos/x-2124334777792942524.vtt",
+      "duration": 33.11,
+      "transcript": "prime-rl 0.11 can now pretrain, not just RL. The open-source reinforcement learning trainer prime-rl just shipped version 0.11.0, adding a new pretraining entrypoint. It brings a major training performance boost, model-specific kernels, and bidirectional KV transfer for prefill and decode disaggregation. There's also a pool of environment workers with far less CPU memory use, plus support for a batch of new models. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:14:14Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50596155",
+      "feedId": "hn:50596155",
+      "title": "fast-anything: profile your Python, Node or Ruby app and let an agent port only the hot 5% to Rust",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f395ceb08a7125fab061dbc36159419c8a5c3d07/hn-50596155.mp4",
+      "poster": "media/videos/hn-50596155.jpg",
+      "captions": "media/videos/hn-50596155.vtt",
+      "duration": 31.31,
+      "transcript": "Don't rewrite it in Rust. Rewrite the slow 5%. fast-anything profiles a Python, Node or Ruby app and ranks its functions by time and how portable they are. It records up to 500 real calls, has your coding agent port just that function to Rust, and replays every call to prove the results match. Then it swaps the Rust version in with one command, fully reversible, and benchmarks the whole app before and after. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:13:49Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50596558",
+      "feedId": "hn:50596558",
+      "title": "Moving hand-written PTX back to MLIR in glm-vx GPU kernels",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "url": "https://vxlang.org/blog/handing-the-ptx-back-to-the-compiler.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@69e180e02cf677bf3275257aa1bc809e1749df0e/hn-50596558.mp4",
+      "poster": "media/videos/hn-50596558.jpg",
+      "captions": "media/videos/hn-50596558.vtt",
+      "duration": 34.07,
+      "transcript": "Deleting hand-written GPU assembly made kernels better. glm-vx runs GLM models with GPU kernels written in Vx, which held 99 pieces of hand-written PTX across 25 files. They moved most to MLIR ops. Fourteen of 20 pinned kernels kept every instruction, and six got fewer because the compiler could finally see around the code. No kernel needs more registers, one spill dropped from 40 bytes to 8, and all hardware tests passed on an H200. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:13:24Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50596960",
+      "feedId": "hn:50596960",
+      "title": "Eli Bendersky's notes on the discrete Fourier transform",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@5e1c9ff0a423005ff6b2ff02163ec8dc68a26554/hn-50596960.mp4",
+      "poster": "media/videos/hn-50596960.jpg",
+      "captions": "media/videos/hn-50596960.vtt",
+      "duration": 31.99,
+      "transcript": "The DFT is just samples of the DTFT. Eli Bendersky's new post tackles realistic signal processing, where signals are both discrete and finite. The trick: treat your N samples as one period of a periodic signal, so the discrete-time Fourier series reconstructs them exactly. Scale those coefficients and you get the DFT, which turns out to be equally spaced samples of the continuous DTFT, with Python code to compute it. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:12:59Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50597156",
+      "feedId": "hn:50597156",
+      "title": "Slinky-on-an-escalator benchmark: 15 frontier models try a realistic physics sim",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://morethanamachine.com/posts/slinky-escalator-benchmark/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@19030b2344c098f81226e3238619325f01dbc294/hn-50597156.mp4",
+      "poster": "media/videos/hn-50597156.jpg",
+      "captions": "media/videos/hn-50597156.vtt",
+      "duration": 34.65,
+      "transcript": "Can an AI make a slinky walk down an escalator? One prompt, sent once: a single HTML file of a rainbow slinky walking down an up escalator, with real physics, not a scripted animation. Fifteen models from Anthropic, OpenAI and Google tried it through Codex, Claude Code and Antigravity, recorded on a fixed 60 hertz clock. Several still cheated, speeding up the escalator, adding a torque assist or resetting a stalled slinky. The author calls it an anecdotal gut check. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:12:35Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50597959",
+      "feedId": "hn:50597959",
+      "title": "Muru: mod_wsgi's creator builds an AI-assisted Rust server for Python web apps",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f42522b1e1be0a78709729149f7cbaf7a3cebf05/hn-50597959.mp4",
+      "poster": "media/videos/hn-50597959.jpg",
+      "captions": "media/videos/hn-50597959.vtt",
+      "duration": 34.39,
+      "transcript": "mod_wsgi's creator is building its Rust successor. Graham Dumpleton started mod_wsgi twenty years ago. His new project, Muru, is an AI-assisted Rust server for WSGI and ASGI Python apps. He has published almost a post a day for three weeks, covering workers, HTTPS in development, Kubernetes, scaling to zero and in-page tracing. His take: the AI does much of the surface work, but deciding what isn't good enough yet is still his job. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:12:08Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50597986",
+      "feedId": "hn:50597986",
+      "title": "Lean explained with TypeScript",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://gruhn.me/blog/2026-08-29/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@62fe14226264ea4e6b20db11469821f9c464c222/hn-50597986.mp4",
+      "poster": "media/videos/hn-50597986.jpg",
+      "captions": "media/videos/hn-50597986.vtt",
+      "duration": 30.74,
+      "transcript": "Write a math proof using TypeScript's type checker. Lean lets you prove mathematical propositions, and its verifier is really just a type checker: propositions are types and proofs are values. Niklas Gruhn shows TypeScript's type system is similar enough that you can prove simple propositions right in it. His pitch: LLMs write code fast, Lean automates verification, and that pairing could bring stronger guarantees to everyday software too. Full story on the dashboard.",
+      "createdAt": "2026-11-22T13:11:41Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50586292",
       "feedId": "hn:50586292",
       "title": "ClawDOS: an AI coding agent that runs on a real IBM PC XT",

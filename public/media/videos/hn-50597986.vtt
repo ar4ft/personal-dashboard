@@ -1,106 +1,85 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.623
-Lean explained with
+00:00:00.350 --> 00:00:01.199
+Write a math
 
-00:00:01.435 --> 00:00:02.319
-TypeScript
+00:00:01.010 --> 00:00:02.460
+proof using TypeScript's
 
-00:00:02.838 --> 00:00:04.312
-Niklas Gruhn explains
-
-00:00:04.123 --> 00:00:05.161
-how Lean proofs
-
-00:00:04.972 --> 00:00:05.514
-work
-
-00:00:05.609 --> 00:00:07.177
-propositions as types
-
-00:00:06.989 --> 00:00:07.920
-and proofs as
-
-00:00:07.732 --> 00:00:08.463
-values
-
-00:00:08.628 --> 00:00:09.795
-by proving simple
-
-00:00:09.607 --> 00:00:11.104
-propositions directly
-
-00:00:10.916 --> 00:00:12.177
-in TypeScript's type
-
-00:00:11.989 --> 00:00:12.625
-checker
-
-00:00:13.150 --> 00:00:14.423
-The Lean verifier
-
-00:00:14.235 --> 00:00:15.213
-is essentially a
-
-00:00:15.025 --> 00:00:15.826
+00:00:02.272 --> 00:00:03.144
 type checker
 
-00:00:15.957 --> 00:00:16.581
-to prove a
+00:00:03.678 --> 00:00:04.491
+Lean lets you
 
-00:00:16.393 --> 00:00:17.666
-proposition you write
+00:00:04.303 --> 00:00:05.564
+prove mathematical
 
-00:00:17.478 --> 00:00:18.279
-a value of
+00:00:05.376 --> 00:00:06.366
+propositions
 
-00:00:18.091 --> 00:00:19.164
-the matching type
+00:00:06.414 --> 00:00:07.593
+and its verifier
 
-00:00:19.694 --> 00:00:20.590
-The post shows
+00:00:07.404 --> 00:00:08.418
+is really just
 
-00:00:20.402 --> 00:00:21.545
-that TypeScript's type
+00:00:08.230 --> 00:00:09.090
+a type checker
 
-00:00:21.357 --> 00:00:22.488
-system shares enough
+00:00:09.209 --> 00:00:10.800
+propositions are types
 
-00:00:22.300 --> 00:00:23.373
-of the fundamentals
+00:00:10.612 --> 00:00:11.661
+and proofs are
 
-00:00:23.185 --> 00:00:24.328
-to express simple
+00:00:11.473 --> 00:00:12.274
+values
 
-00:00:24.140 --> 00:00:24.752
-proofs
+00:00:12.814 --> 00:00:14.099
+Niklas Gruhn shows
 
-00:00:24.847 --> 00:00:25.637
-and uses that
+00:00:13.911 --> 00:00:15.325
+TypeScript's type system
 
-00:00:25.449 --> 00:00:26.545
-to build intuition
+00:00:15.220 --> 00:00:16.245
+is similar enough
 
-00:00:26.357 --> 00:00:26.969
-for Lean
+00:00:16.092 --> 00:00:16.681
+that you can
 
-00:00:27.159 --> 00:00:28.750
-arguing that LLMs
+00:00:16.493 --> 00:00:18.085
+prove simple propositions
 
-00:00:28.562 --> 00:00:29.705
-writing code plus
+00:00:17.897 --> 00:00:18.674
+right in it
 
-00:00:29.529 --> 00:00:31.439
-Lean automating verification
+00:00:19.214 --> 00:00:20.039
+His pitch
 
-00:00:31.310 --> 00:00:31.852
-is a good
+00:00:20.193 --> 00:00:21.407
+LLMs write code
 
-00:00:31.663 --> 00:00:32.335
-match
+00:00:21.219 --> 00:00:21.820
+fast
 
-00:00:32.862 --> 00:00:33.876
+00:00:21.985 --> 00:00:23.789
+Lean automates verification
+
+00:00:23.636 --> 00:00:24.579
+and that pairing
+
+00:00:24.391 --> 00:00:25.475
+could bring stronger
+
+00:00:25.287 --> 00:00:26.631
+guarantees to everyday
+
+00:00:26.443 --> 00:00:27.456
+software too
+
+00:00:27.990 --> 00:00:29.004
 Full story on
 
-00:00:33.687 --> 00:00:34.583
+00:00:28.815 --> 00:00:29.711
 the dashboard

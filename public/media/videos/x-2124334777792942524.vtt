@@ -1,0 +1,76 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.449
+prime-rl 0.11 can
+
+00:00:02.260 --> 00:00:03.203
+now pretrain
+
+00:00:03.369 --> 00:00:04.477
+not just RL
+
+00:00:04.998 --> 00:00:06.802
+The open-source reinforcement
+
+00:00:06.614 --> 00:00:08.240
+learning trainer prime-rl
+
+00:00:08.099 --> 00:00:11.177
+just shipped version 0.11.0
+
+00:00:11.390 --> 00:00:12.226
+adding a new
+
+00:00:12.038 --> 00:00:13.665
+pretraining entrypoint
+
+00:00:14.182 --> 00:00:14.877
+It brings a
+
+00:00:14.689 --> 00:00:16.222
+major training performance
+
+00:00:16.033 --> 00:00:16.670
+boost
+
+00:00:16.717 --> 00:00:18.215
+model-specific kernels
+
+00:00:18.250 --> 00:00:19.795
+and bidirectional KV
+
+00:00:19.607 --> 00:00:21.127
+transfer for prefill
+
+00:00:20.986 --> 00:00:22.967
+and decode disaggregation
+
+00:00:23.486 --> 00:00:24.346
+There's also a
+
+00:00:24.158 --> 00:00:25.148
+pool of environment
+
+00:00:24.960 --> 00:00:26.139
+workers with far
+
+00:00:25.951 --> 00:00:27.188
+less CPU memory
+
+00:00:27.000 --> 00:00:27.519
+use
+
+00:00:27.708 --> 00:00:28.651
+plus support for
+
+00:00:28.462 --> 00:00:29.158
+a batch of
+
+00:00:28.970 --> 00:00:29.830
+new models
+
+00:00:30.366 --> 00:00:31.380
+Full story on
+
+00:00:31.191 --> 00:00:32.087
+the dashboard
