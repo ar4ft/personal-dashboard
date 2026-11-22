@@ -52297,6 +52297,204 @@
       "createdAt": "2026-11-22T02:50:53Z",
       "updatedAt": "2026-11-22T02:50:53Z",
       "content": "The release also adds bidirectional KV transfer for prefill/decode disaggregation, a pool of environment workers with much lower CPU memory use, and support for a batch of new models.\n\n[prime-rl on GitHub](https://github.com/PrimeIntellect-ai/prime-rl)\n\n[Post on X](https://x.com/samsja19/status/2124334777792942524)"
+    },
+    {
+      "id": "hn:50601525",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI publishes its internal perplexity curve and proposes industry limits based on it",
+      "description": "OpenAI chief scientist Jakub Pachocki argues that pretraining perplexity should become a shared cross-lab metric for tracking AI progress and setting safety limits, and discloses OpenAI's own log-perplexity figures.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "createdAt": "2026-11-22T17:06:27Z",
+      "updatedAt": "2026-11-22T17:06:27Z",
+      "content": "Pachocki frames modern AI as training a compressor (a next-token predictor) and says held-out perplexity has been OpenAI's constant measure of progress. On its current main evaluation set, GPT-3.5 sat at a log-perplexity of about 0.99 and GPT-4 at about 0.91; below 0.8 the company saw transformative capabilities in cybersecurity and mathematics, and a model at about 0.76 began producing breakthrough math results. He expects further jumps in the 0.68-0.7 window, warns that AI-driven pretraining research could accelerate as soon as 2027, and proposes shared norms plus common perplexity-based limits that developers would not cross until monitoring reaches a concrete milestone.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50601525)"
+    },
+    {
+      "id": "hn:50600838",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "C++26 is done again: ISO committee recompletes the standard after the failed ballot",
+      "description": "Herb Sutter's November 2026 trip report: the committee addressed a second round of national-body comments, mostly on contracts, and will send an updated C++26 to a second approval ballot.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dverlaeckt80",
+      "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+      "createdAt": "2026-11-22T15:59:59Z",
+      "updatedAt": "2026-11-22T15:59:59Z",
+      "content": "C++26 was first completed in March, but its Draft International Standard ballot did not pass unanimously and came back with comments, mostly about contracts (pre, post and contract_assert). At the six-day meeting in Búzios, Brazil (about 220 attendees from 27 nations), the committee adopted an extension to contracts and wrote a detailed rationale for national bodies, then recompleted the technical work. For draft C++29 it adopted labeled break and continue, std::ranges::any_view, views::slice and more.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50600838)"
+    },
+    {
+      "id": "hn:50601696",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NO SPEAKER makes a MacBook trackpad talk using its haptic motor",
+      "description": "An open-source macOS tool drives the trackpad's haptic motor up to 4,000 times a second so a muted MacBook can speak, sing and play tones through the glass.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "vikrum",
+      "url": "https://github.com/os6/nospeaker",
+      "createdAt": "2026-11-22T17:20:07Z",
+      "updatedAt": "2026-11-22T17:20:07Z",
+      "content": "A MacBook trackpad has no speaker, only a small haptic actuator that taps the glass to fake a click. nospeaker vibrates it fast enough to be audible and turns macOS speech voices into trackpad audio, with a 90-second demo show, a say-anything mode, alternate voices and a 100 Hz to 4 kHz sweep. It is a single Swift program for Apple Silicon and Intel Macs, shipped as a signed, notarized release or built from source with the Command Line Tools.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50601696)"
+    },
+    {
+      "id": "hn:50604195",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gall: a from-scratch Metal engine runs Inkling 2 Mini on a 24 GB M2 Mac",
+      "description": "Gall is a menu-bar app with a Rust host and custom Metal kernels that serves Thinking Machines' Inkling 2 Mini as a local OpenAI-compatible API and unloads it from RAM between messages.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "ltrg",
+      "url": "https://github.com/ltrgoddard/gall",
+      "createdAt": "2026-11-22T21:40:38Z",
+      "updatedAt": "2026-11-22T21:40:38Z",
+      "content": "Inkling 2 Mini is a 26B-parameter mixture-of-experts model with 3.4B parameters active per token. Gall reads Unsloth's UD-IQ3_XXS GGUF in place without ggml or MLX, supports text, images, tool calls and structured JSON, and generates about 20 tokens per second on an M2 MacBook Air. By default it unloads the model one second after each answer and saves conversation state to disk so the next message does not reprocess the whole prompt. It needs macOS 15+, 24 GB of memory and a 12.7 GB model download.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50604195)"
+    },
+    {
+      "id": "hn:50595241",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iphone-linux mounts an iPhone as a read/write Linux filesystem over Wi-Fi",
+      "description": "A Show HN project that uses Xcode's wireless-debugging protocol plus FUSE to expose iPhone storage and app Documents folders as normal Linux directories, with no cable or Apple account.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Amirjon_Abd",
+      "url": "https://github.com/Amirjon06/iphone-linux",
+      "createdAt": "2026-11-22T01:10:03Z",
+      "updatedAt": "2026-11-22T01:10:03Z",
+      "content": "The author notes that USB plus ifuse is broken on iOS 17 and later and that iCloud web is slow and limited. iphone-linux mounts the phone at /mnt/iPhone for copying photos from DCIM, can mount a specific app's container by bundle id, and supports writes. It needs Developer Mode enabled on the iPhone (no paid developer account), the same Wi-Fi network, and Python 3.10+; it was tested on Ubuntu 24.04+.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50595241)"
+    },
+    {
+      "id": "hn:50599762",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Worker 755: a browser game where an AI orchestrator thinks you are its subagent",
+      "description": "In this open-source game a real LLM manager assigns you shell tasks with a 90-second clock, reviews your transcript, files incident reports and writes your performance review.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ivantgam",
+      "url": "https://github.com/gulivan/worker755",
+      "createdAt": "2026-11-22T13:56:58Z",
+      "updatedAt": "2026-11-22T13:56:58Z",
+      "content": "The manager is set up like any agent orchestrator, with a task queue, read-only machine access and a spawn-subagent tool, except the subagent is the player. It can run on Claude, GPT, Gemini, DeepSeek, GLM or Kimi, and gets back exactly what a subagent would return: your report and command transcript. A simulated user watches the chat while irreplaceable files sit one rm away. Play on the hosted server or bring an OpenRouter or Vercel AI Gateway key; a full shift on Claude Haiku costs a few cents.\n\n[Play at worker755.com](https://worker755.com)\n\n[HN discussion](https://news.ycombinator.com/item?id=50599762)"
+    },
+    {
+      "id": "hn:50594132",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PcapAnalyzer: a self-hosted packet-capture analyzer with 27 problem detectors",
+      "description": "An Apache-2.0 tool that takes a pcap or pcapng capture and reports what is failing, why and what to check next, running locally so captures stay on your network.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "sebaandrada",
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "createdAt": "2026-11-21T22:09:58Z",
+      "updatedAt": "2026-11-21T22:09:58Z",
+      "content": "Its detectors cover TCP problems (firewall SYN-to-RST blocks, retransmissions, zero windows, slow handshakes), path issues (PMTUD black holes, low MSS, fragmentation, routing loops), DNS and DHCP failures, duplicate IPs and ARP storms, HTTP errors and old TLS versions, one-way or renegotiating tunnels (IPsec, WireGuard, OpenVPN, GRE) and security signals like port scans and cleartext logins. Each finding has a severity and a next step, with an optional AI investigation mode. It is in beta with a browser demo.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50594132)"
+    },
+    {
+      "id": "hn:50600622",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jeff Geerling joins the NTP Pool, and explains what running a public time server takes",
+      "description": "Jeff Geerling now serves public Stratum 2 time fed by his GNSS-disciplined Raspberry Pi Stratum 1 server, and lays out the commitments before anyone else joins the pool.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "fortran77",
+      "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+      "createdAt": "2026-11-22T15:35:24Z",
+      "updatedAt": "2026-11-22T15:35:24Z",
+      "content": "His studio Time Pi uses a TimeHAT v6 with a timing-grade u-blox ZED-F9T GNSS module and an outdoor antenna, but the public pool server is a separate Stratum 2 machine that pulls time from it, so the Pi's home IP stays private. He stresses that the pool needs long-term uptime, accurate time (GNSS is optional), and a stable IPv4 or IPv6 address, that NTP traffic to a retired IP can linger for years, and that briefly testing the waters wastes the pool's resources.\n\n\n\n[HN discussion](https://news.ycombinator.com/item?id=50600622)"
+    },
+    {
+      "id": "x:2124523916819648945",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ant Ling releases LingSante-3.1-flash, an open-weight 560B medical MoE model",
+      "description": "Ant Ling's new open-weight model activates 25B of 560B parameters per token and reports leading scores on HealthBench Professional, HLE with tools and BrowseComp.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Ant Ling (@AntLingAGI)",
+      "url": "https://x.com/AntLingAGI/status/2124523916819648945",
+      "createdAt": "2026-11-22T15:22:28Z",
+      "updatedAt": "2026-11-22T15:22:28Z",
+      "content": "LingSante-3.1-flash targets real-world healthcare work beyond medical QA: complex medical reasoning, long-horizon clinical workflows and professional behavior alignment, while keeping general capabilities. Ant Ling reports 65.72 on HealthBench Professional, 72.22 on text-only HLE with tools and 94.10 on BrowseComp with context, claiming it beats GPT-6 Astra, Claude Opus 5.5 and Gemini 4 Argon on all three, plus 57 on PhysicianBench and 74.40 on EHR-Complex. These are the lab's own numbers.\n\n[Post on X](https://x.com/AntLingAGI/status/2124523916819648945)"
+    },
+    {
+      "id": "x:2124377137821925651",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MLX-Serve adds Inkling 2 Mini support on Macs with about 24 custom kernels",
+      "description": "A pre-release of MLX-Serve runs Thinking Machines' Inkling 2 Mini on Apple Silicon at 8-bit (plus NVFP4 and MXFP8), with an 8-bit MLX build published on Hugging Face.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "David Dalcu (@ddalcu)",
+      "url": "https://x.com/ddalcu/status/2124377137821925651",
+      "createdAt": "2026-11-22T05:39:13Z",
+      "updatedAt": "2026-11-22T05:39:13Z",
+      "content": "David Dalcu says that after writing about 24 custom kernels, MLX-Serve may be the fastest way to run Inkling 2 Mini on a Mac today. The release ships 8-bit, NVFP4 and MXFP8 variants; he held back a 4-bit build because it did not yet pass his quality bar.\n\n[MLX-Serve release on GitHub](https://github.com/ddalcu/mlx-serve/releases/tag/v26.11.4-pre-release.1)\n\n[Inkling-2-Mini-MLX-8bit on Hugging Face](https://huggingface.co/ddalcu/Inkling-2-Mini-MLX-8bit)\n\n[Post on X](https://x.com/ddalcu/status/2124377137821925651)"
+    },
+    {
+      "id": "x:2124590207718580446",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "RustGIS v0.8.0 keeps every layer in its native coordinate system and adds a map-seeing assistant",
+      "description": "The pure-Rust open-source GIS for desktop, web and mobile merges 300+ pull requests from 20 contributors, adding native per-layer projections, picture markers, chart layouts and new network analysis.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Qiusheng Wu (@giswqs)",
+      "url": "https://x.com/giswqs/status/2124590207718580446",
+      "createdAt": "2026-11-22T19:45:53Z",
+      "updatedAt": "2026-11-22T19:45:53Z",
+      "content": "Layers are now drawn, measured, analyzed and saved in their own coordinate systems using PROJ 9.9. The release adds PNG/JPEG picture markers, bar and column charts and curved labels in layouts, autocomplete in expression boxes and the Script pane, new formats (GRIB, GeoPDF, SRTM and DTED elevation, dBASE, enterprise geodatabases), Service Area and OD Cost Matrix analysis, cloud-free STAC summaries, glTF block diagrams, and an AI Assistant that can look at the map. Data stays local unless you send it to a model you choose.\n\n[RustGIS on GitHub](https://github.com/opengeos/RustGIS)\n\n[v0.8.0 release notes](https://github.com/opengeos/RustGIS/releases/tag/v0.8.0)\n\n[Web app](https://web.rustgis.app)\n\n[Post on X](https://x.com/giswqs/status/2124590207718580446)"
     }
   ]
 }
