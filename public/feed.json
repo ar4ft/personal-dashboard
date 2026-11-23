@@ -53377,6 +53377,131 @@
       "createdAt": "2026-11-23T00:00:00Z",
       "updatedAt": "2026-11-23T00:00:00Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50619630",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI and Cisco open-source Shirudo to shield unpatched Linux systems",
+      "description": "Shirudo is an open-source runtime that lets operators protect running Linux services while patches roll out; in a controlled test a Codex-generated shield blocked a Java4Shell exploit against live Elasticsearch without a restart.",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "createdAt": "2026-11-23T21:30:41Z",
+      "updatedAt": "2026-11-23T21:30:41Z",
+      "content": "Testing and deploying a patch can take days or weeks, and blocking an exploit is hard when it relies on the same Linux operations as legitimate requests. Shirudo combines OpenAI's AI and security research with Cisco's infrastructure expertise, and the companies are inviting developers, security researchers and operators to help build it out.\n\n[Announcement from OpenAI](https://openai.com/index/introducing-shirudo/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50619630)"
+    },
+    {
+      "id": "hn:50615520",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How should an LLM see a computer? Greptile benchmarks screenshots vs accessibility trees",
+      "description": "Greptile tested screenshots, accessibility trees and click-by-ID on seven OpenAI models across 172 OSWorld tasks; the tree and ID clicks more than doubled weaker models' scores but barely moved the strongest.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "dakshgupta",
+      "url": "https://www.greptile.com/blog/trex-computer-use",
+      "createdAt": "2026-11-23T17:19:25Z",
+      "updatedAt": "2026-11-23T17:19:25Z",
+      "content": "Computer-use agents like Claude Code and Codex can get a screenshot, an accessibility tree (a text description of every on-screen element), or both, and click by position or by element name. The post traces that text layer back to 1980s screen readers and accessibility APIs from Microsoft (1997), Sun's AT-SPI (2001) and Apple (2002), then measures how much each view helps models of different strength.\n\n[Article on Greptile's blog](https://www.greptile.com/blog/trex-computer-use)\n\n[HN discussion](https://news.ycombinator.com/item?id=50615520)"
+    },
+    {
+      "id": "hn:50584526",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Elixir HLS compiles Elixir functions into FPGA circuits",
+      "description": "Elixir HLS is an open-source high-level synthesis tool that turns functions written in Elixir into FPGA circuits, instead of writing register-transfer-level Verilog or VHDL by hand.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "kristianpaul",
+      "url": "https://github.com/elixir-hls/elixir-hls",
+      "createdAt": "2026-11-21T00:47:57Z",
+      "updatedAt": "2026-11-21T00:47:57Z",
+      "content": "FPGA designs are usually written register by register in a hardware description language, deciding which value goes into which register on each clock. High-level synthesis lets developers describe the behavior as ordinary functions and has the tool generate the hardware; this project brings that approach to Elixir, with English and Japanese documentation.\n\n[Repo on GitHub](https://github.com/elixir-hls/elixir-hls)\n\n[HN discussion](https://news.ycombinator.com/item?id=50584526)"
+    },
+    {
+      "id": "x:2124915413058506758",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AgentSaver: a Mac screen saver that plays your coding agents like music",
+      "description": "AgentSaver is a $7.99 macOS screen saver that shows running Claude Code, Codex and OpenCode sessions on the lock screen, streaming replies like lyrics and queueing agents like a playlist.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "govi (@kirtandopamine)",
+      "url": "https://x.com/kirtandopamine/status/2124915413058506758",
+      "createdAt": "2026-11-23T17:18:08Z",
+      "updatedAt": "2026-11-23T17:18:08Z",
+      "content": "Replies scroll across the screen with the latest line bright and earlier ones fading, while the task, its progress and the current command stay pinned below, in frosted cards where Now Playing normally sits under the clock. It needs no setup: it reads the agent sessions already running on the Mac and lets you skip between agents like tracks.\n\n[AgentSaver website](https://agentsaver.govvi.fun)\n\n[Post on X](https://x.com/kirtandopamine/status/2124915413058506758)"
+    },
+    {
+      "id": "x:2124904471100809344",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Run History: an indie iPhone app that unifies years of Garmin, Coros and Apple Health runs",
+      "description": "Thomas Hanning shipped Run History, a SwiftUI iPhone app that turns a whole running career across watches into on-device statistics and fitness trends, built with his own FIT decoder and GRDB.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "source": "Twitter / X",
+      "author": "Thomas Hanning (@hanning_thomas)",
+      "url": "https://x.com/hanning_thomas/status/2124904471100809344",
+      "createdAt": "2026-11-23T16:34:39Z",
+      "updatedAt": "2026-11-23T16:34:39Z",
+      "content": "The app compares this week, month and year against the same period last year, tracks yearly goals and weekly streaks, and finds best efforts across every watch you've owned, keeping all data on the device. Hanning says its core package builds and tests on Linux and most of the code was written with Claude Code in the cloud; his write-up covers how he built it.\n\n[Run History write-up](https://www.thomashanning.com/run-history-2/)\n\n[Post on X](https://x.com/hanning_thomas/status/2124904471100809344)"
+    },
+    {
+      "id": "x:2124801882451513703",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Remark: a free open-source Mac app for screenshot-and-voice reviews of anything on screen",
+      "description": "Remark lets you drag over any part of the screen and type a note, or highlight text and talk, then collects every note into one report, so you can review someone's app or doc without edit access.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "@Thezinnekalu",
+      "url": "https://x.com/Thezinnekalu/status/2124801882451513703",
+      "createdAt": "2026-11-23T09:47:00Z",
+      "updatedAt": "2026-11-23T09:47:00Z",
+      "content": "Keyboard shortcuts drive it: Control-Option-R to capture a region and annotate it, Control-Option-T to highlight text and dictate. The author pitches it for reviewing app onboarding, design feedback, bug bounty evidence or other people's documents. It's a Swift package on GitHub.\n\n[Repo on GitHub](https://github.com/zikk090/remark)\n\n[Post on X](https://x.com/Thezinnekalu/status/2124801882451513703)"
+    },
+    {
+      "id": "x:2124892365039288477",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paper: discrete graph diffusion models are secretly memorizing",
+      "description": "Adarsh Jamadandi and Nicolas Keriven show for the first time that discrete graph diffusion models memorize training graphs, even though sample metrics like edge overlap and WL kernel similarity suggest they don't.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Nicolas Keriven (@n_keriven)",
+      "url": "https://x.com/n_keriven/status/2124892365039288477",
+      "createdAt": "2026-11-23T15:46:33Z",
+      "updatedAt": "2026-11-23T15:46:33Z",
+      "content": "Discrete graph diffusion models add noise independently to nodes and edges; an equivariant denoiser trained on a single graph appears to generate novel graphs. By analyzing reverse diffusion trajectories of models trained on two-block stochastic block model graphs, the authors find memorization hiding underneath. The paper will be presented at the NeurIPS Bento workshop in Sydney.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.13786)\n\n[Post on X](https://x.com/n_keriven/status/2124892365039288477)"
     }
   ]
 }
