@@ -51446,7 +51446,7 @@
       "type": "news",
       "status": "inbox",
       "title": "We promoted developers into architects without informing them",
-      "description": "A developer argues that promoting engineers into architect roles without telling them \u2014 or changing expectations and support \u2014 sets both the person and the team up to fail.",
+      "description": "A developer argues that promoting engineers into architect roles without telling them — or changing expectations and support — sets both the person and the team up to fail.",
       "topics": [
         "Programming"
       ],
@@ -52694,6 +52694,249 @@
       "createdAt": "2026-11-23T12:55:00Z",
       "updatedAt": "2026-11-23T12:55:00Z",
       "content": "Starting the curve y = 1/x at x = 1 and rotating it gives a horn you could fill with a finite tin of paint but never finish painting. The 24-minute read goes beyond the two calculus integrals to the history: Torricelli, newly moved into Galileo's house, and the philosophers who were unsettled that a finite body could have infinite extent. It includes interactive pieces to play with.\n\n[Article on Abakcus](https://abakcus.com/articles/gabriels-horn)"
+    },
+    {
+      "id": "hn:50597612",
+      "section": "news",
+      "type": "news",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "description": "A breakdown of how Anthropic's AI compute is powered finds that by 2028, 87% of its power would come from natural gas and 11% from coal.",
+      "content": "An analysis of Anthropic's power sourcing — its own build-outs plus grid power — estimates that by 2028, 87% of the power behind its AI compute will come from natural gas and 11% from coal, raising questions about the energy mix behind large-scale AI.\n\n[Read the article](https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50597612)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "happosai",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "createdAt": "2026-11-22T08:57:34Z",
+      "updatedAt": "2026-11-22T08:57:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50602947",
+      "section": "news",
+      "type": "news",
+      "title": "What Happened to Silicon Valley?",
+      "description": "An O'Reilly Radar essay asks what happened to Silicon Valley, tracing how the region's culture and ambitions have changed.",
+      "content": "O'Reilly Radar reflects on Silicon Valley's transformation — what the region used to stand for, what changed, and where its energy has gone.\n\n[Read the article](https://www.oreilly.com/radar/what-happened-to-silicon-valley/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50602947)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "greenyouse",
+      "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+      "createdAt": "2026-11-22T19:20:15Z",
+      "updatedAt": "2026-11-22T19:20:15Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50606192",
+      "section": "news",
+      "type": "news",
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "description": "Spelunkr.tv is a free TV network built from the Internet Archive's forgotten videos, streaming odd and overlooked footage around the clock.",
+      "content": "Spelunkr.tv turns the Internet Archive's forgotten videos into a free, always-on TV network — a stream of odd, overlooked footage rescued from the archive's depths.\n\n[Read the article](https://spelunkr.tv)\n\n[HN discussion](https://news.ycombinator.com/item?id=50606192)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "SockThief",
+      "url": "https://spelunkr.tv",
+      "createdAt": "2026-11-23T01:13:51Z",
+      "updatedAt": "2026-11-23T01:13:51Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50603589",
+      "section": "news",
+      "type": "news",
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "description": "A miniature San Francisco with live buses, planes and boats — a tiny, animated model city fed by real transit data.",
+      "content": "A miniature San Francisco comes alive with real-time data: live buses, planes and boats move through the tiny city as they do in the real one.\n\n[Read the article](https://smallsf.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50603589)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dutilh",
+      "url": "https://smallsf.com/",
+      "createdAt": "2026-11-22T20:33:23Z",
+      "updatedAt": "2026-11-22T20:33:23Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50605045",
+      "section": "news",
+      "type": "news",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "description": "A progress map tracks the Lean formalization of Alessandro Masullo's manuscript on the Riemann Hypothesis, showing which parts of the proof are done.",
+      "content": "A live progress map follows the effort to formalize Alessandro Masullo's Riemann Hypothesis manuscript in Lean, tracking which parts of the proof have been checked so far.\n\n[Read the article](https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3)\n\n[HN discussion](https://news.ycombinator.com/item?id=50605045)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Qision",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "createdAt": "2026-11-22T23:12:10Z",
+      "updatedAt": "2026-11-22T23:12:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50607668",
+      "section": "news",
+      "type": "news",
+      "title": "Yes, 17M lines of Lean is a lot",
+      "description": "The Lean formalization effort now spans 17 million lines — a look at what that scale actually means for a machine-checked proof.",
+      "content": "With the Lean formalization of the Riemann Hypothesis manuscript now running to 17 million lines, this post puts that scale in perspective and explains why the count is so large.\n\n[Read the article](https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50607668)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "seizethecheese",
+      "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+      "createdAt": "2026-11-23T05:00:49Z",
+      "updatedAt": "2026-11-23T05:00:49Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50604123",
+      "section": "news",
+      "type": "news",
+      "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+      "description": "A comic history of how BSD escaped AT&T's licensing grip — the legal struggle that freed a Unix lineage.",
+      "content": "Part six of a comic history of BSD Unix tells the story of the struggle for freedom: how BSD escaped AT&T licensing and the legal fight behind it.\n\n[Read the article](https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50604123)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "joonehur",
+      "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
+      "createdAt": "2026-11-22T21:33:12Z",
+      "updatedAt": "2026-11-22T21:33:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50594182",
+      "section": "news",
+      "type": "news",
+      "title": "A Better Vocabulary for Testing",
+      "description": "A better vocabulary for testing: clearer names for the different kinds of tests, so teams stop talking past each other.",
+      "content": "This post proposes a sharper vocabulary for testing — clearer terms for what each kind of test actually does, so discussions about testing stop going in circles.\n\n[Read the article](https://alperenkeles.com/posts/vocab-for-testing/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50594182)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "alpaylan",
+      "url": "https://alperenkeles.com/posts/vocab-for-testing/",
+      "createdAt": "2026-11-21T22:15:39Z",
+      "updatedAt": "2026-11-21T22:15:39Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50569505",
+      "section": "news",
+      "type": "news",
+      "title": "LittleBit: Ultra Low-Bit Quantization via Latent Factorization (2025)",
+      "description": "LittleBit is an ultra low-bit quantization method using latent factorization, shrinking large models to a fraction of their size.",
+      "content": "LittleBit (2025) proposes ultra low-bit quantization via latent factorization, a way to compress large models far below their usual precision while keeping them usable.\n\n[Read the article](https://arxiv.org/abs/2506.13771)\n\n[HN discussion](https://news.ycombinator.com/item?id=50569505)",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "kakadu",
+      "url": "https://arxiv.org/abs/2506.13771",
+      "createdAt": "2026-11-20T02:40:48Z",
+      "updatedAt": "2026-11-20T02:40:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50604540",
+      "section": "news",
+      "type": "news",
+      "title": "Localcode, open source agentic coding on your Mac with one command",
+      "description": "Localcode is an open source agentic coding tool for the Mac that runs with a single command.",
+      "content": "Localcode brings open source agentic coding to the Mac with one command — a local-first coding agent you can install and run yourself.\n\n[Read the article](https://github.com/mjwsolo/localcode)\n\n[HN discussion](https://news.ycombinator.com/item?id=50604540)",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "mjwsolo",
+      "url": "https://github.com/mjwsolo/localcode",
+      "createdAt": "2026-11-22T22:18:48Z",
+      "updatedAt": "2026-11-22T22:18:48Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-744-billion-parameters-on-a-laptop-without-a-gpu-testing-colibri-and-disk-streamed-glm-5-2-d748981c1748",
+      "section": "news",
+      "type": "news",
+      "title": "744 Billion Parameters on a Laptop Without a GPU: Testing Colibri and Disk-Streamed GLM-5.2",
+      "description": "A 744-billion-parameter model quantized to INT4 still weighs 429 GB on disk — this test runs it on a laptop with no GPU, using Colibri and disk-streamed GLM-5.2.",
+      "content": "Can a 744-billion-parameter model run on a laptop with no GPU? This test tries it with Colibri and disk-streamed GLM-5.2, where the INT4-quantized model still weighs 429 GB on disk.\n\n[Read the article](https://medium.com/@roanmonteiro/744-billion-parameters-on-a-laptop-without-a-gpu-testing-colibri-and-disk-streamed-glm-5-2-d748981c1748)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Roan Brasil Monteiro",
+      "url": "https://medium.com/@roanmonteiro/744-billion-parameters-on-a-laptop-without-a-gpu-testing-colibri-and-disk-streamed-glm-5-2-d748981c1748",
+      "createdAt": "2026-11-23T12:55:43Z",
+      "updatedAt": "2026-11-23T12:55:43Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-python-went-free-threaded-one-extension-stayed-behind-9eb432a5c58f",
+      "section": "news",
+      "type": "news",
+      "title": "Python Went Free-Threaded. One Extension Stayed Behind.",
+      "description": "Python went free-threaded, but one extension stayed behind — a look at what the GIL-free era means for a straggling extension.",
+      "content": "Python's free-threaded era has arrived, but one extension stayed behind. This post looks at what changed and what held that extension back.\n\n[Read the article](https://medium.com/@RaviMansuriya/python-went-free-threaded-one-extension-stayed-behind-9eb432a5c58f)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Ravi Mansuriya",
+      "url": "https://medium.com/@RaviMansuriya/python-went-free-threaded-one-extension-stayed-behind-9eb432a5c58f",
+      "createdAt": "2026-11-23T12:47:18Z",
+      "updatedAt": "2026-11-23T12:47:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:wired-states-sue-spacex-over-grok-deepfakes",
+      "section": "news",
+      "type": "news",
+      "title": "States Sue SpaceX Over Grok Deepfakes",
+      "description": "The attorneys general of Oregon and Virginia are suing several of Elon Musk's companies over weak safeguards against sexualized imagery of real people, including children, from Grok.",
+      "content": "Oregon and Virginia's attorneys general are suing several of Elon Musk's companies, alleging weak safeguards against sexualized imagery of real people — including children — generated by Grok.\n\n[Read the article](https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Maddy Varner",
+      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+      "createdAt": "2026-11-23T11:00:00Z",
+      "updatedAt": "2026-11-23T11:00:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:inc-91440361",
+      "section": "news",
+      "type": "news",
+      "title": "Microsoft Is Shutting Down Its Popular To-Do List App. Consider These 5 Replacements",
+      "description": "Microsoft is shutting down its popular To-Do list app — here are five replacements worth considering.",
+      "content": "Microsoft To Do is going away. This piece rounds up five replacement task apps for people who want a good daily planning tool.\n\n[Read the article](https://www.inc.com/chris-morris/microsoft-is-shutting-down-its-popular-to-do-list-app-consider-these-5-replacements/91440361)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Reading",
+      "author": "Chris Morris",
+      "url": "https://www.inc.com/chris-morris/microsoft-is-shutting-down-its-popular-to-do-list-app-consider-these-5-replacements/91440361",
+      "createdAt": "2026-11-23T06:00:00Z",
+      "updatedAt": "2026-11-23T06:00:00Z",
+      "status": "inbox"
     }
   ]
 }
