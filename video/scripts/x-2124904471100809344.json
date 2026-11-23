@@ -1,0 +1,19 @@
+{
+  "hook": "Every run from every watch, in one iPhone app",
+  "hookText": "Your whole running career",
+  "beats": [
+    {
+      "say": "Developer Thomas Hanning shipped Run History, an iPhone app that pulls years of runs from Garmin, Coros and Apple Health into one place, kept on your device.",
+      "visual": 0
+    },
+    {
+      "say": "It compares each week, month and year with last year, and estimates VO2max, fitness, fatigue and form, race predictions, and best efforts from 400 meters to the marathon.",
+      "visual": 1
+    },
+    {
+      "say": "It's built with SwiftUI and Swift 6, his own FIT decoder and GRDB. Most of the code was written with Claude Code in the cloud.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

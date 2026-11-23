@@ -1,0 +1,19 @@
+{
+  "hook": "Graph diffusion models do memorize, after all",
+  "hookText": "Secretly memorizing",
+  "beats": [
+    {
+      "say": "A new paper by Adarsh Jamadandi and Nicolas Keriven is titled Your Discrete Graph Diffusion Model is Secretly Memorizing.",
+      "visual": 0
+    },
+    {
+      "say": "These models add noise to nodes and edges. A denoiser trained on a single graph seems to generate novel graphs, and metrics like edge overlap find no sign of memorization.",
+      "visual": 1
+    },
+    {
+      "say": "By analyzing the reverse diffusion trajectories, the authors show for the first time that graph diffusion models do memorize. The work goes to the NeurIPS Bento workshop in Sydney.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

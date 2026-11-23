@@ -1,0 +1,21 @@
+{
+  "hook": "Write Elixir, get an FPGA circuit",
+  "hookText": "Elixir to hardware",
+  "beats": [
+    {
+      "say": "FPGA circuits are usually written register by register in Verilog or VHDL. Elixir HLS generates that hardware from ordinary Elixir functions instead.",
+      "visual": 0
+    },
+    {
+      "say": "A function defined with defhls still runs on the CPU, and also becomes a circuit. Each circuit is simulated against its Elixir function and used only if the results match.",
+      "visual": 1
+    },
+    {
+      "say": "Version 0.1.0 is an early first release that synthesizes integer functions, with types like u32 setting the bit width. It builds on CIRCT and Icarus Verilog.",
+      "visual": 2,
+      "stat": "0.1.0",
+      "statLabel": "first release"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

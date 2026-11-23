@@ -1,0 +1,19 @@
+{
+  "hook": "Review any app or doc without edit access",
+  "hookText": "Screenshot it. Say it.",
+  "beats": [
+    {
+      "say": "Remark is a free, open-source app for reviewing anything on your screen, from a friend's app onboarding to design feedback or bug bounty evidence.",
+      "visual": 0
+    },
+    {
+      "say": "Press a shortcut and drag over part of the screen, or highlight text, then type or speak a note and tag it as a bug, UX issue, question or idea.",
+      "visual": 2
+    },
+    {
+      "say": "Every note lands in a local session, and you export one report as PDF, HTML, Markdown, JSON or CSV. It runs on macOS 13 and later, and Windows.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,25 @@
+{
+  "hook": "Accessibility trees nearly quadrupled GPT-4.1's computer-use score",
+  "hookText": "How should AI see a screen?",
+  "beats": [
+    {
+      "say": "Greptile tested how computer-use agents should see the screen, across seven OpenAI models and 172 OSWorld tasks.",
+      "visual": 0,
+      "stat": "172",
+      "statLabel": "OSWorld tasks"
+    },
+    {
+      "say": "Weaker models gained a lot from the accessibility tree. GPT-4.1 rose from 5.4 percent to 20.6, and GPT-5.2 from 15.8 to 36.2. Clicking by element ID pushed GPT-5.2 to 52.8 percent.",
+      "visual": 1,
+      "stat": "52.8%",
+      "statLabel": "GPT-5.2 clicking by ID"
+    },
+    {
+      "say": "The strongest barely moved. GPT-6.1 Sol scored 83.8 percent with screenshots alone and 82.7 with the tree added, and none of the three strongest models changed significantly.",
+      "visual": 2,
+      "stat": "83.8%",
+      "statLabel": "GPT-6.1 Sol, screenshots only"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "A shield blocked Java4Shell without a restart",
+  "hookText": "Patch later, shield now",
+  "beats": [
+    {
+      "say": "OpenAI and Cisco are launching Shirudo, an open-source runtime that protects running Linux systems while teams roll out patches.",
+      "visual": 0
+    },
+    {
+      "say": "It uses eBPF to block vulnerable code paths live. In a controlled test, a Codex-generated shield stopped a Java4Shell exploit against a running Elasticsearch service, with no restart.",
+      "visual": 1
+    },
+    {
+      "say": "Shields are cryptographically signed, checked by the eBPF verifier, and logged with a TPM. It's BSD licensed, and a technical webinar follows on December 15.",
+      "visual": 2,
+      "stat": "Dec 15",
+      "statLabel": "technical webinar"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

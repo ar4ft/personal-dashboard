@@ -1,0 +1,21 @@
+{
+  "hook": "Your coding agents, playing like music on your Mac",
+  "hookText": "Agents as a playlist",
+  "beats": [
+    {
+      "say": "AgentSaver is a Mac screen saver for coding agents. Claude Code, Codex and OpenCode keep working while their replies stream across the lock screen like song lyrics.",
+      "visual": 0
+    },
+    {
+      "say": "Frosted cards sit under the clock where Now Playing would, showing the task, its progress and the command running right now. You skip between agents like tracks.",
+      "visual": 2
+    },
+    {
+      "say": "It reads sessions already running, with zero setup, and an optional Claude Code hook flags approval requests. It costs 7.99 dollars.",
+      "visual": 4,
+      "stat": "$7.99",
+      "statLabel": "price"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
