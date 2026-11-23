@@ -1,0 +1,20 @@
+{
+  "hook": "The Best Children's Math Books, from Toddlers to Teens",
+  "hookText": "The Best Children's Math Books, from Toddlers to Teens",
+  "beats": [
+    {
+      "say": "Eighty-five children's math books on six shelves by age, from counting books and picture books about infinity to the first book that asks for a proof.",
+      "visual": 1
+    },
+    {
+      "say": "Mitsumasa Anno · 1977 · Ages 2-6. Ellen Stoll Walsh · 1991 · Ages 2-5.",
+      "visual": 2
+    },
+    {
+      "say": "Donald Crews · 1968 · Ages 2-5. Pat Hutchins · 1986 · Ages 3-7. April Pulley Sayre and Jeff Sayre · 2003 · Ages 3-7.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

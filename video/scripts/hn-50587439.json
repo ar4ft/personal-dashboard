@@ -1,0 +1,24 @@
+{
+  "hook": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+  "hookText": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+  "beats": [
+    {
+      "say": "The BepiColombo spacecraft has arrived at Mercury, only the second mission ever to enter orbit around the innermost planet.",
+      "visual": 1
+    },
+    {
+      "say": "For researchers, the €1.6bn mission is the best hope yet of understanding how Mercury formed so close to the sun, why it has a magnetic field, and what makes up the frozen ice that lurks in the planet’s permanently shadowed craters.",
+      "visual": 2,
+      "stat": "€1.6bn",
+      "statLabel": "mission"
+    },
+    {
+      "say": "Mercury is only 50% larger than the moon but has four times its mass.",
+      "visual": 0,
+      "stat": "50%",
+      "statLabel": "larger"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.741
+Write Elixir get
+
+00:00:01.576 --> 00:00:03.180
+an FPGA circuit
+
+00:00:03.702 --> 00:00:05.294
+FPGA circuits are
+
+00:00:05.105 --> 00:00:06.437
+usually written register
+
+00:00:06.249 --> 00:00:07.204
+by register in
+
+00:00:07.016 --> 00:00:08.949
+Verilog or VHDL
+
+00:00:09.088 --> 00:00:10.986
+Elixir HLS generates
+
+00:00:10.798 --> 00:00:11.953
+that hardware from
+
+00:00:11.883 --> 00:00:13.475
+ordinary Elixir functions
+
+00:00:13.286 --> 00:00:13.993
+instead
+
+00:00:14.518 --> 00:00:15.779
+A function defined
+
+00:00:15.591 --> 00:00:16.841
+with defhls still
+
+00:00:16.652 --> 00:00:17.301
+runs on the
+
+00:00:17.112 --> 00:00:17.937
+CPU
+
+00:00:18.079 --> 00:00:19.128
+and also becomes
+
+00:00:18.940 --> 00:00:19.683
+a circuit
+
+00:00:19.822 --> 00:00:20.812
+Each circuit is
+
+00:00:20.624 --> 00:00:21.850
+simulated against its
+
+00:00:21.661 --> 00:00:22.958
+Elixir function and
+
+00:00:22.770 --> 00:00:23.795
+used only if
+
+00:00:23.607 --> 00:00:24.821
+the results match
+
+00:00:25.358 --> 00:00:27.763
+Version 0.1.0 is an
+
+00:00:27.646 --> 00:00:28.801
+early first release
+
+00:00:28.613 --> 00:00:30.110
+that synthesizes integer
+
+00:00:29.922 --> 00:00:30.652
+functions
+
+00:00:30.806 --> 00:00:31.773
+with types like
+
+00:00:31.584 --> 00:00:32.975
+u32 setting the
+
+00:00:32.787 --> 00:00:33.565
+bit width
+
+00:00:33.704 --> 00:00:34.624
+It builds on
+
+00:00:34.435 --> 00:00:36.216
+CIRCT and Icarus
+
+00:00:36.027 --> 00:00:36.852
+Verilog
+
+00:00:37.374 --> 00:00:38.388
+Full story on
+
+00:00:38.199 --> 00:00:39.095
+the dashboard

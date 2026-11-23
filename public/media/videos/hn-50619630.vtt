@@ -1,94 +1,100 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.859
+00:00:00.350 --> 00:00:01.458
+A shield blocked
+
+00:00:01.270 --> 00:00:02.720
+Java4Shell without
+
+00:00:02.532 --> 00:00:03.392
+a restart
+
+00:00:03.918 --> 00:00:05.462
 OpenAI and Cisco
 
-00:00:01.671 --> 00:00:02.885
-open-source Shirudo
+00:00:05.274 --> 00:00:06.677
+are launching Shirudo
 
-00:00:02.744 --> 00:00:04.111
-to shield unpatched
+00:00:06.878 --> 00:00:08.293
+an open-source runtime
 
-00:00:03.923 --> 00:00:04.996
-Linux systems
+00:00:08.104 --> 00:00:09.224
+that protects running
 
-00:00:05.526 --> 00:00:06.681
-Shirudo is an
+00:00:09.036 --> 00:00:10.274
+Linux systems while
 
-00:00:06.493 --> 00:00:07.766
-open-source runtime
+00:00:10.085 --> 00:00:11.087
+teams roll out
 
-00:00:07.578 --> 00:00:08.698
-that lets operators
+00:00:10.899 --> 00:00:11.712
+patches
 
-00:00:08.509 --> 00:00:09.759
-protect running Linux
+00:00:12.238 --> 00:00:13.558
+It uses eBPF
 
-00:00:09.571 --> 00:00:11.127
-services while patches
+00:00:13.370 --> 00:00:14.454
+to block vulnerable
 
-00:00:10.939 --> 00:00:11.681
-roll out
+00:00:14.266 --> 00:00:15.480
+code paths live
 
-00:00:12.214 --> 00:00:13.452
-Testing and deploying
+00:00:15.620 --> 00:00:16.598
+In a controlled
 
-00:00:13.264 --> 00:00:14.065
-a patch can
+00:00:16.410 --> 00:00:16.999
+test
 
-00:00:13.877 --> 00:00:14.985
-take days or
+00:00:17.223 --> 00:00:18.921
+a Codex-generated shield
 
-00:00:14.797 --> 00:00:16.034
-weeks and blocking
+00:00:18.733 --> 00:00:20.442
+stopped a Java4Shell
 
-00:00:15.846 --> 00:00:16.789
-an exploit is
+00:00:20.254 --> 00:00:21.409
+exploit against a
 
-00:00:16.601 --> 00:00:17.426
-hard when it
+00:00:21.233 --> 00:00:22.494
+running Elasticsearch
 
-00:00:17.238 --> 00:00:18.204
-relies on the
+00:00:22.306 --> 00:00:22.989
+service
 
-00:00:18.016 --> 00:00:19.619
-same Linux operations
+00:00:23.096 --> 00:00:24.416
+with no restart
 
-00:00:19.443 --> 00:00:20.952
-as legitimate requests
+00:00:24.950 --> 00:00:26.612
+Shields are cryptographically
 
-00:00:21.470 --> 00:00:23.286
-Shirudo combines OpenAI's
+00:00:26.424 --> 00:00:27.084
+signed
 
-00:00:23.097 --> 00:00:24.441
-AI and security
+00:00:27.273 --> 00:00:28.086
+checked by the
 
-00:00:24.253 --> 00:00:25.573
-research with Cisco's
+00:00:27.957 --> 00:00:29.572
+eBPF verifier
 
-00:00:25.385 --> 00:00:27.000
-infrastructure expertise
+00:00:29.643 --> 00:00:30.551
+and logged with
 
-00:00:27.095 --> 00:00:27.991
-and the companies
+00:00:30.363 --> 00:00:31.258
+a TPM
 
-00:00:27.803 --> 00:00:29.135
-are inviting developers
+00:00:31.398 --> 00:00:33.048
+It's BSD licensed
 
-00:00:29.229 --> 00:00:30.503
-security researchers
+00:00:33.025 --> 00:00:33.956
+and a technical
 
-00:00:30.314 --> 00:00:31.387
-and operators to
+00:00:33.768 --> 00:00:34.982
+webinar follows on
 
-00:00:31.199 --> 00:00:32.012
-help build it
+00:00:34.794 --> 00:00:36.102
+December 15
 
-00:00:31.824 --> 00:00:32.319
-out
-
-00:00:32.838 --> 00:00:33.852
+00:00:36.630 --> 00:00:37.644
 Full story on
 
-00:00:33.663 --> 00:00:34.559
+00:00:37.455 --> 00:00:38.351
 the dashboard

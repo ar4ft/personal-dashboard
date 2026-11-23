@@ -2,6 +2,165 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50584526",
+      "feedId": "hn:50584526",
+      "title": "Elixir HLS compiles Elixir functions into FPGA circuits",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://github.com/elixir-hls/elixir-hls",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@5e49ab9b877a85f8698a8d5769b21fc5a85843e5/hn-50584526.mp4",
+      "poster": "media/videos/hn-50584526.jpg",
+      "captions": "media/videos/hn-50584526.vtt",
+      "duration": 40.12,
+      "transcript": "Write Elixir, get an FPGA circuit FPGA circuits are usually written register by register in Verilog or VHDL. Elixir HLS generates that hardware from ordinary Elixir functions instead. A function defined with defhls still runs on the CPU, and also becomes a circuit. Each circuit is simulated against its Elixir function and used only if the results match. Version 0.1.0 is an early first release that synthesizes integer functions, with types like u32 setting the bit width. It builds on CIRCT and Icarus Verilog. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:22:51Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50587439",
+      "feedId": "hn:50587439",
+      "title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@3118dda88dc68112cdebd487e016fca8e15612a5/hn-50587439.mp4",
+      "poster": "media/videos/hn-50587439.jpg",
+      "captions": "media/videos/hn-50587439.vtt",
+      "duration": 35.92,
+      "transcript": "Spacecraft reaches Mercury on second-ever mission to enter its orbit The BepiColombo spacecraft has arrived at Mercury, only the second mission ever to enter orbit around the innermost planet. For researchers, the €1.6bn mission is the best hope yet of understanding how Mercury formed so close to the sun, why it has a magnetic field, and what makes up the frozen ice that lurks in the planet’s permanently shadowed craters. Mercury is only 50% larger than the moon but has four times its mass. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:22:09Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-best-children-math-books",
+      "feedId": "reading:abakcus-best-children-math-books",
+      "title": "The Best Children's Math Books, from Toddlers to Teens",
+      "source": "Reading",
+      "topics": [
+        "Math"
+      ],
+      "url": "https://abakcus.com/book-lists/best-children-math-books",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@5b9d1fb83ae09f7589f3f520cdd8e02e290f992a/reading-abakcus-best-children-math-books.mp4",
+      "poster": "media/videos/reading-abakcus-best-children-math-books.jpg",
+      "captions": "media/videos/reading-abakcus-best-children-math-books.vtt",
+      "duration": 35.73,
+      "transcript": "The Best Children's Math Books, from Toddlers to Teens Eighty-five children's math books on six shelves by age, from counting books and picture books about infinity to the first book that asks for a proof. Mitsumasa Anno 1977 Ages 2-6. Ellen Stoll Walsh 1991 Ages 2-5. Donald Crews 1968 Ages 2-5. Pat Hutchins 1986 Ages 3-7. April Pulley Sayre and Jeff Sayre 2003 Ages 3-7. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:21:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124801882451513703",
+      "feedId": "x:2124801882451513703",
+      "title": "Remark: a free open-source Mac app for screenshot-and-voice reviews of anything on screen",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/Thezinnekalu/status/2124801882451513703",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@69acd9f079e01d9454302ae0058853f0bd4b7276/x-2124801882451513703.mp4",
+      "poster": "media/videos/x-2124801882451513703.jpg",
+      "captions": "media/videos/x-2124801882451513703.vtt",
+      "duration": 37.1,
+      "transcript": "Review any app or doc without edit access Remark is a free, open-source app for reviewing anything on your screen, from a friend's app onboarding to design feedback or bug bounty evidence. Press a shortcut and drag over part of the screen, or highlight text, then type or speak a note and tag it as a bug, UX issue, question or idea. Every note lands in a local session, and you export one report as PDF, HTML, Markdown, JSON or CSV. It runs on macOS 13 and later, and Windows. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:20:48Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124892365039288477",
+      "feedId": "x:2124892365039288477",
+      "title": "Paper: discrete graph diffusion models are secretly memorizing",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/n_keriven/status/2124892365039288477",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a783fe9e54cd808c9d01fae671f334d63383f511/x-2124892365039288477.mp4",
+      "poster": "media/videos/x-2124892365039288477.jpg",
+      "captions": "media/videos/x-2124892365039288477.vtt",
+      "duration": 37.05,
+      "transcript": "Graph diffusion models do memorize, after all A new paper by Adarsh Jamadandi and Nicolas Keriven is titled Your Discrete Graph Diffusion Model is Secretly Memorizing. These models add noise to nodes and edges. A denoiser trained on a single graph seems to generate novel graphs, and metrics like edge overlap find no sign of memorization. By analyzing the reverse diffusion trajectories, the authors show for the first time that graph diffusion models do memorize. The work goes to the NeurIPS Bento workshop in Sydney. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:20:09Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124904471100809344",
+      "feedId": "x:2124904471100809344",
+      "title": "Run History: an indie iPhone app that unifies years of Garmin, Coros and Apple Health runs",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "url": "https://x.com/hanning_thomas/status/2124904471100809344",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8781623be891b3d8237e01f275aec8d3bb7b2508/x-2124904471100809344.mp4",
+      "poster": "media/videos/x-2124904471100809344.jpg",
+      "captions": "media/videos/x-2124904471100809344.vtt",
+      "duration": 37.65,
+      "transcript": "Every run from every watch, in one iPhone app Developer Thomas Hanning shipped Run History, an iPhone app that pulls years of runs from Garmin, Coros and Apple Health into one place, kept on your device. It compares each week, month and year with last year, and estimates VO2max, fitness, fatigue and form, race predictions, and best efforts from 400 meters to the marathon. It's built with SwiftUI and Swift 6, his own FIT decoder and GRDB. Most of the code was written with Claude Code in the cloud. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:19:32Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124915413058506758",
+      "feedId": "x:2124915413058506758",
+      "title": "AgentSaver: a Mac screen saver that plays your coding agents like music",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://x.com/kirtandopamine/status/2124915413058506758",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@65596bc4369830cef935d16da5849766c7013092/x-2124915413058506758.mp4",
+      "poster": "media/videos/x-2124915413058506758.jpg",
+      "captions": "media/videos/x-2124915413058506758.vtt",
+      "duration": 36.62,
+      "transcript": "Your coding agents, playing like music on your Mac AgentSaver is a Mac screen saver for coding agents. Claude Code, Codex and OpenCode keep working while their replies stream across the lock screen like song lyrics. Frosted cards sit under the clock where Now Playing would, showing the task, its progress and the command running right now. You skip between agents like tracks. It reads sessions already running, with zero setup, and an optional Claude Code hook flags approval requests. It costs 7.99 dollars. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:18:54Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50615520",
+      "feedId": "hn:50615520",
+      "title": "How should an LLM see a computer? Greptile benchmarks screenshots vs accessibility trees",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://www.greptile.com/blog/trex-computer-use",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@386752bb31ff015b93fbb9a9d434934e3d9c4825/hn-50615520.mp4",
+      "poster": "media/videos/hn-50615520.jpg",
+      "captions": "media/videos/hn-50615520.vtt",
+      "duration": 49.65,
+      "transcript": "Accessibility trees nearly quadrupled GPT-4.1's computer-use score Greptile tested how computer-use agents should see the screen, across seven OpenAI models and 172 OSWorld tasks. Weaker models gained a lot from the accessibility tree. GPT-4.1 rose from 5.4 percent to 20.6, and GPT-5.2 from 15.8 to 36.2. Clicking by element ID pushed GPT-5.2 to 52.8 percent. The strongest barely moved. GPT-6.1 Sol scored 83.8 percent with screenshots alone and 82.7 with the tree added, and none of the three strongest models changed significantly. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:18:15Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50619630",
+      "feedId": "hn:50619630",
+      "title": "OpenAI and Cisco open-source Shirudo to shield unpatched Linux systems",
+      "source": "Hacker News",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f07ae155bc759f0c73dc07ad27a7e03d664cc45d/hn-50619630.mp4",
+      "poster": "media/videos/hn-50619630.jpg",
+      "captions": "media/videos/hn-50619630.vtt",
+      "duration": 39.38,
+      "transcript": "A shield blocked Java4Shell without a restart OpenAI and Cisco are launching Shirudo, an open-source runtime that protects running Linux systems while teams roll out patches. It uses eBPF to block vulnerable code paths live. In a controlled test, a Codex-generated shield stopped a Java4Shell exploit against a running Elasticsearch service, with no restart. Shields are cryptographically signed, checked by the eBPF verifier, and logged with a TPM. It's BSD licensed, and a technical webinar follows on December 15. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:17:26Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50609579",
       "feedId": "hn:50609579",
       "title": "Don't keep your SSH keys on disk",
