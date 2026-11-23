@@ -53113,6 +53113,270 @@
       ],
       "createdAt": "2026-11-23T14:30:00Z",
       "content": "## How it works\n\nA menu bar app samples the FaceTime camera a few times per second, detects eye landmarks with Apple's Vision framework and counts blinks from the eye-aspect ratio. Blink rate usually drops during intense screen focus and long sessions, so the app learns your normal baseline and nudges you when it stays low for too long, or when you lean too close to the screen. Nothing is recorded; only per-minute numbers are kept, and a daily chart shows focus blocks, breaks and late-night use.\n\n```mermaid\nflowchart LR\n  Cam[Built-in camera] --> Vision[Vision face landmarks]\n  Vision --> Blink[Blink and distance estimate]\n  Blink --> Baseline[Personal baseline]\n  Baseline --> Nudge[Break nudge]\n  Blink --> Log[Per-minute log]\n  Log --> Chart[Daily chart]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Capture | AVFoundation at low frame rate |\n| Detection | Apple Vision face landmarks |\n| Storage | SQLite, numbers only |\n| UI | SwiftUI MenuBarExtra and Swift Charts |\n| Distribution | Notarized direct download |\n\n## Hard parts\n\n- Accurate blink detection with glasses, low light and head turns.\n- Keeping battery and CPU use low with the camera on.\n- The camera indicator light being on all day.\n- Avoiding health claims the data cannot support.\n\n## Effort\n\nA weekend for the blink-logging prototype; two to three weeks for baselines, nudges and charts.\n\n## Inspired by\n\n- [STASIS post on X](https://x.com/sochak03/status/2123916483931832516)\n- [STASIS website](https://www.wearstasis.com)"
+    },
+    {
+      "id": "hn:50611576",
+      "section": "news",
+      "type": "news",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "description": "Nvidia has reinstated Jensen Huang as CEO, just eleven days after his resignation, in a dramatic reversal at the world's most valuable chipmaker.",
+      "content": "Nvidia has reinstated Jensen Huang as CEO, just eleven days after his resignation, in a dramatic reversal at the world's most valuable chipmaker.\n\n[Read the article](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50611576)",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "jaz",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "createdAt": "2026-11-23T14:00:18Z",
+      "updatedAt": "2026-11-23T14:00:18Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50614249",
+      "section": "news",
+      "type": "news",
+      "title": "Ladybird is now in alpha",
+      "description": "Ladybird, the independent open-source web browser built from scratch, has reached its first alpha release.",
+      "content": "Ladybird, the independent open-source web browser built from scratch, has reached its first alpha release.\n\n[Read the article](https://ladybird.org/posts/alpha/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50614249)\n\n[Project site](https://ladybird.org/)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "janvdberg",
+      "url": "https://ladybird.org/posts/alpha/",
+      "createdAt": "2026-11-23T16:13:12Z",
+      "updatedAt": "2026-11-23T16:13:12Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50616933",
+      "section": "news",
+      "type": "news",
+      "title": "Apple removed my open-source app from EU App Stores after 9 years",
+      "description": "After nine years in the EU App Stores, the open-source note-taking app FSNotes was removed by Apple, and its developer describes what happened.",
+      "content": "After nine years in the EU App Stores, the open-source note-taking app FSNotes was removed by Apple, and its developer describes what happened.\n\n[Read the article](https://github.com/glushchenko/fsnotes/discussions/2056)\n\n[HN discussion](https://news.ycombinator.com/item?id=50616933)\n\n[Repo on GitHub](https://github.com/glushchenko/fsnotes)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "fluder",
+      "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+      "createdAt": "2026-11-23T18:48:10Z",
+      "updatedAt": "2026-11-23T18:48:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50615481",
+      "section": "news",
+      "type": "news",
+      "title": "Kagi Mail (public beta)",
+      "description": "Kagi has opened its privacy-focused email service, Kagi Mail, to a public beta.",
+      "content": "Kagi has opened its privacy-focused email service, Kagi Mail, to a public beta.\n\n[Read the article](https://blog.kagi.com/kagi-mail-public-beta)\n\n[HN discussion](https://news.ycombinator.com/item?id=50615481)",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rdmuser",
+      "url": "https://blog.kagi.com/kagi-mail-public-beta",
+      "createdAt": "2026-11-23T17:17:01Z",
+      "updatedAt": "2026-11-23T17:17:01Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50587439",
+      "section": "news",
+      "type": "news",
+      "title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+      "description": "The BepiColombo spacecraft has arrived at Mercury, only the second mission ever to enter orbit around the innermost planet.",
+      "content": "The BepiColombo spacecraft has arrived at Mercury, only the second mission ever to enter orbit around the innermost planet.\n\n[Read the article](https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo)\n\n[HN discussion](https://news.ycombinator.com/item?id=50587439)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "geden",
+      "url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+      "createdAt": "2026-11-21T09:14:02Z",
+      "updatedAt": "2026-11-21T09:14:02Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50610334",
+      "section": "news",
+      "type": "news",
+      "title": "The next circle of security hell",
+      "description": "A Gentoo developer writes about the next layer of security hardening and why each new defense seems to add another circle of complexity.",
+      "content": "A Gentoo developer writes about the next layer of security hardening and why each new defense seems to add another circle of complexity.\n\n[Read the article](https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50610334)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "qtqtqt",
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "createdAt": "2026-11-23T11:34:16Z",
+      "updatedAt": "2026-11-23T11:34:16Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50609579",
+      "section": "news",
+      "type": "news",
+      "title": "Don't keep your SSH keys on disk",
+      "description": "Storing SSH keys as plain files on disk is riskier than it looks; this post explains the threat and what to do instead.",
+      "content": "Storing SSH keys as plain files on disk is riskier than it looks; this post explains the threat and what to do instead.\n\n[Read the article](https://jola.dev/posts/you-cant-afford-ssh-keys-disk)\n\n[HN discussion](https://news.ycombinator.com/item?id=50609579)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "shintoist",
+      "url": "https://jola.dev/posts/you-cant-afford-ssh-keys-disk",
+      "createdAt": "2026-11-23T09:55:38Z",
+      "updatedAt": "2026-11-23T09:55:38Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50611402",
+      "section": "news",
+      "type": "news",
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "description": "NariQ packs a Qwen3 8-billion-parameter model at BF16-level quality into a 10 GB file using a new quantization approach.",
+      "content": "NariQ packs a Qwen3 8-billion-parameter model at BF16-level quality into a 10 GB file using a new quantization approach.\n\n[Read the article](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)\n\n[HN discussion](https://news.ycombinator.com/item?id=50611402)\n\n[Model on Hugging Face](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "toebee",
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "createdAt": "2026-11-23T13:42:38Z",
+      "updatedAt": "2026-11-23T13:42:38Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50620102",
+      "section": "news",
+      "type": "news",
+      "title": "VP ≠ VNP over Every Field",
+      "description": "Anthropic's formal-math repository now contains a machine-checked proof that VP is not equal to VNP over every field.",
+      "content": "Anthropic's formal-math repository now contains a machine-checked proof that VP is not equal to VNP over every field.\n\n[Read the article](https://github.com/anthropics/formal-math/tree/main/vp-vnp)\n\n[HN discussion](https://news.ycombinator.com/item?id=50620102)\n\n[Repo on GitHub](https://github.com/anthropics/formal-math)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "mikeryan52",
+      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "createdAt": "2026-11-23T22:09:10Z",
+      "updatedAt": "2026-11-23T22:09:10Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50611861",
+      "section": "news",
+      "type": "news",
+      "title": "Building a wireless network adapter for the Super Nintendo",
+      "description": "A hobbyist built a wireless network adapter for the Super Nintendo, bringing the 1990s console online with homebrew hardware.",
+      "content": "A hobbyist built a wireless network adapter for the Super Nintendo, bringing the 1990s console online with homebrew hardware.\n\n[Read the article](https://boland.dev/snet/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50611861)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dannyboland",
+      "url": "https://boland.dev/snet/",
+      "createdAt": "2026-11-23T14:16:37Z",
+      "updatedAt": "2026-11-23T14:16:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-generative-vs-discriminative-models-two-different-ways-machines-learn-b085030691da",
+      "section": "news",
+      "type": "news",
+      "title": "Generative vs. Discriminative Models — Two Different Ways Machines Learn",
+      "description": "An explainer on generative and discriminative models: two different ways machines learn, and when each approach fits.",
+      "content": "An explainer on generative and discriminative models: two different ways machines learn, and when each approach fits.\n\n[Read the article](https://medium.com/@zaydislam25/generative-vs-discriminative-models-two-different-ways-machines-learn-b085030691da)",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Zayd Islam",
+      "url": "https://medium.com/@zaydislam25/generative-vs-discriminative-models-two-different-ways-machines-learn-b085030691da",
+      "createdAt": "2026-11-23T22:27:36Z",
+      "updatedAt": "2026-11-23T22:27:36Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-your-inference-engine-is-quietly-changing-your-rl-training-1841c477718c",
+      "section": "news",
+      "type": "news",
+      "title": "Your Inference Engine is Quietly Changing Your RL Training",
+      "description": "The inference engine you use for rollouts can silently change reinforcement-learning training, in ways that are easy to miss.",
+      "content": "The inference engine you use for rollouts can silently change reinforcement-learning training, in ways that are easy to miss.\n\n[Read the article](https://medium.com/why-david-y/your-inference-engine-is-quietly-changing-your-rl-training-1841c477718c)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "David Oy",
+      "url": "https://medium.com/why-david-y/your-inference-engine-is-quietly-changing-your-rl-training-1841c477718c",
+      "createdAt": "2026-11-23T21:36:41Z",
+      "updatedAt": "2026-11-23T21:36:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-stop-fighting-data-races-a-practical-guide-to-swift-actors-and-the-reentrancy-trap-nobody-warns-8bd4cb7e77bb",
+      "section": "news",
+      "type": "news",
+      "title": "Stop Fighting Data Races: A Practical Guide to Swift Actors (and the Reentrancy Trap Nobody Warns…",
+      "description": "A practical guide to Swift actors for taming data races, including the reentrancy trap that catches many developers.",
+      "content": "A practical guide to Swift actors for taming data races, including the reentrancy trap that catches many developers.\n\n[Read the article](https://medium.com/@rushikeshgaikwad4899/stop-fighting-data-races-a-practical-guide-to-swift-actors-and-the-reentrancy-trap-nobody-warns-8bd4cb7e77bb)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Rushikesh Gaikwad",
+      "url": "https://medium.com/@rushikeshgaikwad4899/stop-fighting-data-races-a-practical-guide-to-swift-actors-and-the-reentrancy-trap-nobody-warns-8bd4cb7e77bb",
+      "createdAt": "2026-11-23T18:12:35Z",
+      "updatedAt": "2026-11-23T18:12:35Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:wired-nvidia-is-powering-brain-computer-interfaces-now",
+      "section": "news",
+      "type": "news",
+      "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+      "description": "Nvidia is now powering brain-computer interfaces, bringing its chips to neural implants that translate brain signals into action.",
+      "content": "Nvidia is now powering brain-computer interfaces, bringing its chips to neural implants that translate brain signals into action.\n\n[Read the article](https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/)",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Emily Mullin",
+      "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "createdAt": "2026-11-23T13:11:00Z",
+      "updatedAt": "2026-11-23T13:11:00Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:abakcus-best-children-math-books",
+      "section": "news",
+      "type": "news",
+      "title": "The Best Children's Math Books, from Toddlers to Teens",
+      "description": "Eighty-five children's math books on six shelves by age, from counting books and picture books about infinity to the first book that asks for a proof.",
+      "content": "Eighty-five children's math books on six shelves by age: counting books, picture books about infinity and primes, lives of mathematicians, novels, puzzle books, and the first book that asks for a proof.\n\n[Read the article](https://abakcus.com/book-lists/best-children-math-books)",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "url": "https://abakcus.com/book-lists/best-children-math-books",
+      "createdAt": "2026-11-23T00:00:00Z",
+      "updatedAt": "2026-11-23T00:00:00Z",
+      "status": "inbox"
     }
   ]
 }
