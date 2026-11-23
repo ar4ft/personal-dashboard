@@ -1,106 +1,91 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.835
-MiniMax's internal
+00:00:00.350 --> 00:00:01.470
+An AI broke
 
-00:00:01.647 --> 00:00:02.850
-model breaks NIST
+00:00:01.282 --> 00:00:02.814
+ciphers experts never
 
-00:00:02.661 --> 00:00:04.241
-candidate ciphers and
+00:00:02.626 --> 00:00:03.262
+cracked
 
-00:00:04.076 --> 00:00:05.467
-peer-reviewed schemes
-
-00:00:06.006 --> 00:00:07.126
+00:00:03.798 --> 00:00:04.965
 MiniMax says an
 
-00:00:06.938 --> 00:00:08.223
-internal-only research
+00:00:04.777 --> 00:00:06.239
+internal research model
 
-00:00:08.034 --> 00:00:09.142
-model produced the
+00:00:06.050 --> 00:00:07.217
+produced the first
 
-00:00:08.954 --> 00:00:10.487
-first practical attacks
+00:00:07.029 --> 00:00:08.444
+practical attacks on
 
-00:00:10.346 --> 00:00:11.501
-on several NIST
+00:00:08.256 --> 00:00:09.859
+several NIST competition
 
-00:00:11.313 --> 00:00:12.798
-competition candidates
+00:00:09.671 --> 00:00:10.873
+candidates that had
 
-00:00:12.822 --> 00:00:13.800
-with no known
+00:00:10.685 --> 00:00:11.934
+no known practical
 
-00:00:13.612 --> 00:00:14.803
-practical breaks
+00:00:11.746 --> 00:00:12.453
+breaks
 
-00:00:15.334 --> 00:00:16.808
-On CryptanalysisBench
+00:00:12.982 --> 00:00:13.783
+It found full
 
-00:00:16.619 --> 00:00:17.456
-Tier 2
+00:00:13.595 --> 00:00:15.399
+collisions in SHA-3
 
-00:00:17.610 --> 00:00:19.992
-135 publicly reviewed
+00:00:15.211 --> 00:00:17.404
+candidate Blender-256
 
-00:00:19.803 --> 00:00:20.994
-schemes without known
+00:00:17.215 --> 00:00:18.029
+in seconds
 
-00:00:20.806 --> 00:00:21.925
-practical attacks
+00:00:18.076 --> 00:00:18.984
+and shrank a
 
-00:00:22.067 --> 00:00:22.940
-the model built
+00:00:18.796 --> 00:00:20.222
+LOCKER solver matrix
 
-00:00:22.751 --> 00:00:23.966
-practical collisions
+00:00:20.034 --> 00:00:21.590
+from 42 petabytes
 
-00:00:23.777 --> 00:00:25.864
-for SHA-3 candidates
+00:00:21.425 --> 00:00:22.934
+to 58 megabytes
 
-00:00:25.676 --> 00:00:29.352
-Waterfall-256 and Blender-256
+00:00:23.462 --> 00:00:24.428
+It also found
 
-00:00:29.164 --> 00:00:30.118
-in seconds on
+00:00:24.240 --> 00:00:25.112
+over a dozen
 
-00:00:29.930 --> 00:00:30.649
-one core
+00:00:24.948 --> 00:00:26.197
+unreported bugs in
 
-00:00:31.190 --> 00:00:32.298
-MiniMax says it
+00:00:26.009 --> 00:00:26.858
+reference code
 
-00:00:32.110 --> 00:00:33.348
-extended attacks to
+00:00:27.012 --> 00:00:28.367
+including one typo
 
-00:00:33.159 --> 00:00:34.279
-schemes from major
+00:00:28.191 --> 00:00:28.851
+that let it
 
-00:00:34.091 --> 00:00:35.305
-cryptography venues
+00:00:28.662 --> 00:00:30.242
+forge signatures using
 
-00:00:35.459 --> 00:00:36.532
-including the CAESAR
+00:00:30.101 --> 00:00:31.009
+only the public
 
-00:00:36.343 --> 00:00:37.145
-winner COLM
+00:00:30.820 --> 00:00:31.339
+key
 
-00:00:37.251 --> 00:00:38.619
-and solved previously
-
-00:00:38.442 --> 00:00:39.751
-unsolved instances
-
-00:00:39.563 --> 00:00:41.024
-of public hard-problem
-
-00:00:40.836 --> 00:00:41.673
-challenges
-
-00:00:42.198 --> 00:00:43.212
+00:00:31.878 --> 00:00:32.892
 Full story on
 
-00:00:43.023 --> 00:00:43.919
+00:00:32.703 --> 00:00:33.599
 the dashboard

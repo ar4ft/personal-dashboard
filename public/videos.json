@@ -2,6 +2,233 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50594182",
+      "feedId": "hn:50594182",
+      "title": "A Better Vocabulary for Testing",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://alperenkeles.com/posts/vocab-for-testing/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@d17df2490c846e1d035dde0048018df3dcd2591c/hn-50594182.mp4",
+      "poster": "media/videos/hn-50594182.jpg",
+      "captions": "media/videos/hn-50594182.vtt",
+      "duration": 32.2,
+      "transcript": "Stop saying just testing Not all testing is the same: tinkering checks what a program does, and example tests pin down concrete cases like add three and five equals eight. Property-based testing goes further, throwing wild inputs at code and it has caught real bugs in browsers, GCC, SQLite and S3. The post argues that a clearer vocabulary for testing stops teams talking past each other about what their tests actually prove. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:30:23Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50597612",
+      "feedId": "hn:50597612",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@382c439ba3ea9bfaece3d045fb3d4a68b1f78761/hn-50597612.mp4",
+      "poster": "media/videos/hn-50597612.jpg",
+      "captions": "media/videos/hn-50597612.vtt",
+      "duration": 32.56,
+      "transcript": "Anthropic's AI runs on gas and coal According to a new breakdown, by 2028, 87 percent of the power behind Anthropic's AI will come from natural gas, and 11 percent from coal. Its power use could emit 17 to 38 million tons of CO2 a year more than all of California's power generation. Four in five on-site generators use inefficient simple-cycle turbines, and the AI boom keeps adding demand. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:29:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50601022",
+      "feedId": "hn:50601022",
+      "title": "MiniMax's internal model breaks NIST candidate ciphers and peer-reviewed schemes in automated cryptanalysis",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "url": "https://www.minimax.io/blog/practical-cryptanalysis-with-minimaxs-latest-internal-model",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f75539618d73f0bea6912728a1f6eb398bac2b2d/hn-50601022.mp4",
+      "poster": "media/videos/hn-50601022.jpg",
+      "captions": "media/videos/hn-50601022.vtt",
+      "duration": 34.63,
+      "transcript": "An AI broke ciphers experts never cracked MiniMax says an internal research model produced the first practical attacks on several NIST competition candidates that had no known practical breaks. It found full collisions in SHA-3 candidate Blender-256 in seconds, and shrank a LOCKER solver matrix from 42 petabytes to 58 megabytes. It also found over a dozen unreported bugs in reference code, including one typo that let it forge signatures using only the public key. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:29:20Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50602561",
+      "feedId": "hn:50602561",
+      "title": "Type-C adds variants, pattern matching, generics and errors-as-values to C11",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://github.com/stass/type-c",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c5d9837ca5cba3f86f8ad730948e351634274082/hn-50602561.mp4",
+      "poster": "media/videos/hn-50602561.jpg",
+      "captions": "media/videos/hn-50602561.vtt",
+      "duration": 33.35,
+      "transcript": "TypeScript-style upgrades, but for C Type-C is C11 with the types C is missing: variants checked by match, distinct types for ids and units, generics, and errors as values. Its compiler takes the same command line as cc, turns Type-C into readable C, and hands that to your normal C compiler. Every C11 file is already valid Type-C, so a project can adopt it one file at a time. It's early, with much of the language still unbuilt. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:28:49Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50602947",
+      "feedId": "hn:50602947",
+      "title": "What Happened to Silicon Valley?",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@cc8c729defe761e57abaf998cea65baa0acfbb75/hn-50602947.mp4",
+      "poster": "media/videos/hn-50602947.jpg",
+      "captions": "media/videos/hn-50602947.vtt",
+      "duration": 32.61,
+      "transcript": "Silicon Valley forgot its customers In a lecture at Johns Hopkins in October 2026, Tim O'Reilly traces Silicon Valley's move from customer-centered innovation to extraction driven by shareholder capitalism. He started his company more than 40 years ago with a 500-dollar investment, and launched the first web portal in 1993. Now, he argues, monopoly ambitions and hype shape the AI boom a far cry from the valley's early days. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:28:18Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50603589",
+      "feedId": "hn:50603589",
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://smallsf.com/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@22acca43c5173b14b9850e6aa0ee0a3e3231a524/hn-50603589.mp4",
+      "poster": "media/videos/hn-50603589.jpg",
+      "captions": "media/videos/hn-50603589.vtt",
+      "duration": 29.51,
+      "transcript": "A tiny San Francisco that moves in real time Small SF is an illustrated, isometric map of San Francisco you can drag and zoom through, drawn like a miniature model city. Live Muni and BART vehicles, ferries and planes move across it in real time, with simulated traffic and the real sky overhead. It turns live transit data into a tiny, living city you can explore right from your browser. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:27:41Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50604123",
+      "feedId": "hn:50604123",
+      "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@bb1e7723fe51590b5156990f9f96e3a65425734d/hn-50604123.mp4",
+      "poster": "media/videos/hn-50604123.jpg",
+      "captions": "media/videos/hn-50604123.vtt",
+      "duration": 37.03,
+      "transcript": "From 99 dollars to 250,000 Early Unix was available through inexpensive source-code licenses, because a 1956 antitrust settlement kept AT&T out of the commercial computer business. But AT&T's breakup in 1984 opened the way to sell Unix commercially, and it abruptly raised the price from 99 dollars to 250,000 dollars. Berkeley released its networking code as Net/1 in June 1989, and a completely free BSD Unix finally shipped in June 1991. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:27:16Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50604540",
+      "feedId": "hn:50604540",
+      "title": "Localcode, open source agentic coding on your Mac with one command",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://github.com/mjwsolo/localcode",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@394c8ebf169b7e21fedf1243247209af821d2299/hn-50604540.mp4",
+      "poster": "media/videos/hn-50604540.jpg",
+      "captions": "media/videos/hn-50604540.vtt",
+      "duration": 31.79,
+      "transcript": "Agentic coding, local models, your Mac Localcode is an open source agentic coding tool for the Mac, installed with one command, that runs local models on your own machine. It uses models like Gemma 4 and Qwen, with speculative drafting to keep coding fast, and its model server ships with precompiled GPU kernels. Only three features touch the network: model downloads, web search and fetch, and any MCP servers you add. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:26:41Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50605045",
+      "feedId": "hn:50605045",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@72c2fe3725261a27cbbf081cd8ba3cdf564d5b3c/hn-50605045.mp4",
+      "poster": "media/videos/hn-50605045.jpg",
+      "captions": "media/videos/hn-50605045.vtt",
+      "duration": 29.18,
+      "transcript": "A map of a giant proof A new progress map follows the ambitious effort to formalize Alessandro Masullo's manuscript on the Riemann Hypothesis in Lean, the proof-checking language. It shows, part by part, which sections of the proof have already been checked and which are still waiting. For a proof of this scale, the map turns an overwhelming formalization effort into something you can watch take shape, piece by piece. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:26:14Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50606192",
+      "feedId": "hn:50606192",
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://spelunkr.tv",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4d10efb0fcb6fe64e828749d4e44c01bfb230dd7/hn-50606192.mp4",
+      "poster": "media/videos/hn-50606192.jpg",
+      "captions": "media/videos/hn-50606192.vtt",
+      "duration": 29.56,
+      "transcript": "Cable TV, but weirder and completely free Spelunkr is a free TV network built from the Internet Archive's forgotten videos, streaming an endless supply of odd and overlooked footage around the clock. Its live channels run 24 hours a day, synchronized, so everyone watching sees the same thing at the same time. It is cable TV, but weirder a second life for footage that would otherwise sit unseen in the archive. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:25:47Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50607668",
+      "feedId": "hn:50607668",
+      "title": "Yes, 17M lines of Lean is a lot",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7274b2454baeef60b5f5f3e0da56306c61954a5d/hn-50607668.mp4",
+      "poster": "media/videos/hn-50607668.jpg",
+      "captions": "media/videos/hn-50607668.vtt",
+      "duration": 31.99,
+      "transcript": "Seventeen million lines of proof The recent proof of the Riemann Hypothesis came with a startling statistic attached: the proof is 17 million lines of Lean. Mathlib maintains a collection of over a thousand famous proofs, but only 259 have Lean versions charted and this one dwarfs them all. For scale, the human-led formalization of the famous Fermat's Last Theorem runs about 60,000 lines, and it is still in progress. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:25:16Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-inc-91440361",
+      "feedId": "reading:inc-91440361",
+      "title": "Microsoft Is Shutting Down Its Popular To-Do List App. Consider These 5 Replacements",
+      "source": "Reading",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.inc.com/chris-morris/microsoft-is-shutting-down-its-popular-to-do-list-app-consider-these-5-replacements/91440361",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@95313ee91b58a45afe0d59cf9e92d19d6332a313/reading-inc-91440361.mp4",
+      "poster": "media/videos/reading-inc-91440361.jpg",
+      "captions": "media/videos/reading-inc-91440361.vtt",
+      "duration": 31.84,
+      "transcript": "Microsoft To Do ends June 2027 Microsoft To Do, the free task and daily planning app used for the better part of nine years, will go away forever on June 30, 2027. Microsoft paid 100 to 200 million dollars in 2015 for Wunderlist, the app that became To Do's core, after shutting Wunderlist down in 2020. The piece rounds up five replacement task apps for anyone who needs a new daily planning tool. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:24:44Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-wired-states-sue-spacex-over-grok-deepfakes",
+      "feedId": "reading:wired-states-sue-spacex-over-grok-deepfakes",
+      "title": "States Sue SpaceX Over Grok Deepfakes",
+      "source": "Reading",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@5e64518197bfd9bcbf7885dce9402714bc9f06dc/reading-wired-states-sue-spacex-over-grok-deepfakes.mp4",
+      "poster": "media/videos/reading-wired-states-sue-spacex-over-grok-deepfakes.jpg",
+      "captions": "media/videos/reading-wired-states-sue-spacex-over-grok-deepfakes.vtt",
+      "duration": 31.65,
+      "transcript": "Two states sue over Grok deepfakes The attorneys general of Oregon and Virginia are suing several of Elon Musk's companies over Grok's weak safeguards against sexualized imagery of real people, including children. Both suits name SpaceX and X Corp, and they follow earlier lawsuits from the city of Baltimore and teens in Tennessee. Virginia filed in Richmond's circuit court, Oregon in Multnomah County, each hiring the same private firm to help litigate. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:24:17Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50603845",
       "feedId": "hn:50603845",
       "title": "A beginner's guide to running local AI at home with Unsloth Desktop, Inkling and Qwen",
