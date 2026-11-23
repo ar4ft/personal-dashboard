@@ -52495,6 +52495,205 @@
       "createdAt": "2026-11-22T19:45:53Z",
       "updatedAt": "2026-11-22T19:45:53Z",
       "content": "Layers are now drawn, measured, analyzed and saved in their own coordinate systems using PROJ 9.9. The release adds PNG/JPEG picture markers, bar and column charts and curved labels in layouts, autocomplete in expression boxes and the Script pane, new formats (GRIB, GeoPDF, SRTM and DTED elevation, dBASE, enterprise geodatabases), Service Area and OD Cost Matrix analysis, cloud-free STAC summaries, glTF block diagrams, and an AI Assistant that can look at the map. Data stays local unless you send it to a model you choose.\n\n[RustGIS on GitHub](https://github.com/opengeos/RustGIS)\n\n[v0.8.0 release notes](https://github.com/opengeos/RustGIS/releases/tag/v0.8.0)\n\n[Web app](https://web.rustgis.app)\n\n[Post on X](https://x.com/giswqs/status/2124590207718580446)"
+    },
+    {
+      "id": "hn:50609685",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GLM-5.4 is Z.ai's first flagship Loop Transformer, reusing shared layers for deeper reasoning",
+      "description": "Z.ai's GLM-5.4 runs a block of 28 weight-shared GLM-5 layers twice per forward pass and says the 750B-scale model reaches intelligence comparable to 2T-3T parameter models.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "foohis",
+      "url": "https://z.ai/blog/glm-5.4",
+      "createdAt": "2026-11-23T10:06:43Z",
+      "updatedAt": "2026-11-23T10:06:43Z",
+      "content": "Instead of pre-training a looped model from scratch, Z.ai adapted the pre-trained GLM-5 base through continued training so a group of 28 shared layers runs for two iterations. To make that work at 750B scale it added per-token gates that control how much each pass writes back to the residual stream, a hybrid KV cache where the second loop reuses the first pass's sparse KV plus its own sliding window (so an extra loop costs one window rather than a full context cache, even at 1M tokens), and reuse of the first loop's sparse-attention indices. Z.ai pitches it as the start of \"Generalized Coding\" and admits the model can get stuck in overly long \"marathon thinking\" loops.\n\n[HN discussion](https://news.ycombinator.com/item?id=50609685)"
+    },
+    {
+      "id": "hn:50607261",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "xnulinux runs the macOS kernel as a Linux module and boots the full macOS desktop",
+      "description": "xnulinux builds XNU from Apple's open sources and loads it as a kernel module inside an unmodified arm64 Linux, booting a macOS 27 system disk to loginwindow, Finder, Dock, Safari and Chrome.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "mmastrac",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "createdAt": "2026-11-23T03:49:24Z",
+      "updatedAt": "2026-11-23T03:49:24Z",
+      "content": "With a stock Ubuntu kernel, `insmod xnu.ko` starts the hosted XNU, which drives the CPU and MMU directly so macOS processes run natively next to Linux processes with no hypervisor in between. A small GPL interface module (`fki.ko`) lends XNU Linux's memory, timers, files, network and GPU; the README shows macOS 27.2.1 and Ubuntu userspaces side by side, Safari browsing over the Linux network link, and a 30-minute stress run rendered on the CPU.\n\n[HN discussion](https://news.ycombinator.com/item?id=50607261)"
+    },
+    {
+      "id": "hn:50606408",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Hammerspoon 2 beta: the macOS automation tool is rewritten to use JavaScript instead of Lua",
+      "description": "Hammerspoon 2 is a ground-up rewrite scripted in JavaScript on Safari's JavaScriptCore engine; the first beta needs macOS 27 and installs as a separate app alongside Hammerspoon 1.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "cmsj",
+      "url": "https://www.hammerspoon.org/",
+      "createdAt": "2026-11-23T01:40:22Z",
+      "updatedAt": "2026-11-23T01:40:22Z",
+      "content": "Hammerspoon bridges macOS APIs to a scripting engine: apps, windows, hotkeys, keyboard and mouse, screens and Spaces, files, audio devices, Bluetooth, Wi-Fi, notifications, AppleScript and Shortcuts, plus `hs.ui` for your own windows and menus and `hs.canvas` for drawing on screen. Version 2 is now the main version, keeps its own config so you can run it beside Hammerspoon 1, updates itself, and ships Getting Started, Migration and TypeScript guides.\n\n[HN discussion](https://news.ycombinator.com/item?id=50606408)"
+    },
+    {
+      "id": "hn:50603845",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A beginner's guide to running local AI at home with Unsloth Desktop, Inkling and Qwen",
+      "description": "GPU Partner walks through serving a quantized model with Unsloth Desktop on a Windows PC, choosing models and quantization by VRAM, and sharing it over the home network.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Retell15",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "createdAt": "2026-11-22T21:01:16Z",
+      "updatedAt": "2026-11-22T21:01:16Z",
+      "content": "The author runs Qwen3.8-27B at 4-bit on an RTX 5090 with 32 GB of VRAM, leaving room for a 128K context instead of the largest model that fits. The guide explains quantization tradeoffs and gives a VRAM table: 8-12 GB for 9B-12B models such as Qwen3.5-9B or Gemma 4 12B, 16 GB for MoE models such as gpt-oss-20b, Qwen3.6-35B or Inkling 2 Mini, 24 GB for Gemma 4 31B or Qwen3.8-27B, and 32 GB+ for longer 64K-128K contexts. Setup takes about 10-15 minutes plus downloads, with no terminal or Python needed.\n\n[HN discussion](https://news.ycombinator.com/item?id=50603845)"
+    },
+    {
+      "id": "hn:50601022",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "MiniMax's internal model breaks NIST candidate ciphers and peer-reviewed schemes in automated cryptanalysis",
+      "description": "MiniMax says an internal-only research model produced the first practical attacks on several NIST competition candidates with no known practical breaks, plus forgeries and key recovery on peer-reviewed constructions.",
+      "topics": [
+        "AI",
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "dnw",
+      "url": "https://www.minimax.io/blog/practical-cryptanalysis-with-minimaxs-latest-internal-model",
+      "createdAt": "2026-11-22T16:22:56Z",
+      "updatedAt": "2026-11-22T16:22:56Z",
+      "content": "On CryptanalysisBench Tier 2 (135 publicly reviewed schemes without known practical attacks), the model built practical collisions for SHA-3 candidates Waterfall-256 and Blender-256 in seconds on one core, and recovered secrets for post-quantum candidates LOCKER (shrinking a 42 PB solver matrix to 58 MB) and ROLLO-I-128. It also found more than a dozen unreported bugs in reference code, such as a `&&` typed as `&` in the DRS signature verifier that allowed forgeries with only the public key. MiniMax says it extended attacks to schemes from major cryptography venues, including the CAESAR winner COLM, and solved previously unsolved instances of public hard-problem challenges.\n\n[HN discussion](https://news.ycombinator.com/item?id=50601022)"
+    },
+    {
+      "id": "hn:50602561",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Type-C adds variants, pattern matching, generics and errors-as-values to C11",
+      "description": "Type-C is a C11 superset whose compiler, typec, translates it to readable C and hands it to your normal C compiler, so existing code can adopt it one file at a time.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "stass",
+      "url": "https://github.com/stass/type-c",
+      "createdAt": "2026-11-22T18:40:57Z",
+      "updatedAt": "2026-11-22T18:40:57Z",
+      "content": "It works like TypeScript for C: variants checked exhaustively by `match`, distinct types for ids and units, generic types, and `result` values with `try` and `defer`, while any C11 file is already valid Type-C. `typec` takes the same command line as `cc`, installs via Homebrew on macOS or Linux, and is early: the README's examples work and are tested on Clang and GCC, but much of the language is designed and not built yet. The author built it to tame parsing, tree walking and error handling in C without porting to Rust, Swift or OCaml.\n\n[HN discussion](https://news.ycombinator.com/item?id=50602561)"
+    },
+    {
+      "id": "x:2124612229253435558",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nestvane runs Android 17 inside an ordinary iPhone app with no JIT or jailbreak",
+      "description": "The open-source Nestvane rebuilds Android 17 from AOSP, translates it ahead of time and ships it signed inside an iOS app, booting to the real home screen in about 10 seconds on an iPhone 17 Pro.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Everett (@everettjf)",
+      "url": "https://x.com/everettjf/status/2124612229253435558",
+      "createdAt": "2026-11-22T21:13:23Z",
+      "updatedAt": "2026-11-22T21:13:23Z",
+      "content": "Because iOS apps cannot create executable memory, JIT and hypervisors are ruled out; Nestvane instead translates Android ahead of time and adds a Linux kernel layer written for the app. You can install APKs, use them with touch and keep their data between launches, with widgets and 720p video at 30 fps. It's an early, developer-only release under Apache-2.0 for iOS 17+, and the author says it was built in four days with AI coding agents.\n\n[Nestvane on GitHub](https://github.com/atomsprout/nestvane)\n\nhttps://www.youtube.com/shorts/wDVr3-UY1Ec"
+    },
+    {
+      "id": "x:2124610156285845962",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "App Store Connect CLI 7.2.0 adds China app compliance, APNs keys from the terminal and schema checks",
+      "description": "Rudrank Riyam's open-source asc CLI 7.2.0 adds App Compliance for China, APNs key management, schema checks in asc api and validation errors that name the fix.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Rudrank Riyam (@rudrank)",
+      "url": "https://x.com/rudrank/status/2124610156285845962",
+      "createdAt": "2026-11-22T21:05:09Z",
+      "updatedAt": "2026-11-22T21:05:09Z",
+      "content": "The release also makes the CLI forgiving of guessed commands and removed API paths, accepts `--json` for JSON output, lists subscription localizations, and fixes metadata pushes so only changed fields are patched, including when Apple refuses whatsNew on a first version. Other fixes skip non-image files in screenshot uploads and give clearer TestFlight and beta-group errors.\n\n[App Store Connect CLI on GitHub](https://github.com/rorkai/App-Store-Connect-CLI)\n\n[7.2.0 release notes](https://github.com/rorkai/App-Store-Connect-CLI/releases/tag/7.2.0)"
+    },
+    {
+      "id": "x:2124821529309667810",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Homelab build hangs four 32 GB V100s off a Lenovo mini PC for 128 GB of VRAM",
+      "description": "A homelabber connected four used Nvidia V100 32 GB cards to a Lenovo M720q Tiny over OCuLink, using coreboot and a solder bridge, reaching about 285 tokens per second total on Qwen3.8-27B.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Tom's Hardware (@tomshardware)",
+      "url": "https://x.com/tomshardware/status/2124821529309667810",
+      "createdAt": "2026-11-23T11:05:04Z",
+      "updatedAt": "2026-11-23T11:05:04Z",
+      "content": "The M720q (i5-9400T, 64 GB DDR4) feeds a PCIe switch card with a 24-lane PEX8724 chip that fans out to four OCuLink x4 ports, giving each GPU a PCIe Gen3 x4 link. The riser only powers its slot when a card pulls the presence pin, so it needed a solder bridge, and coreboot replaced a BIOS that would only boot two cards. Tom's Hardware puts the build at about $3,500; the builder lists roughly A$6.5k all-in and about 62 dB with custom fan ducts.\n\n[Article on Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabbers-usd3-500-build-straps-four-32gb-nvidia-v100s-to-a-lenovo-mini-pc-for-128gb-of-vram-coreboot-oculink-docks-and-a-solder-bridge-unlock-285-tokens-sec-in-qwen3-8-27b)"
+    },
+    {
+      "id": "x:2124624646452461957",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "iOS 27's Connectivity Assist uses cellular data when Wi-Fi is weak or unusable",
+      "description": "9to5Mac explains iOS 27's Connectivity Assist, which detects slow or unusable Wi-Fi and uses cellular data to keep the iPhone connected, with a per-network opt-out.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "9to5Mac (@9to5mac)",
+      "url": "https://x.com/9to5mac/status/2124624646452461957",
+      "createdAt": "2026-11-22T22:02:43Z",
+      "updatedAt": "2026-11-22T22:02:43Z",
+      "content": "Apple's support document cites places like backyards, driveways, coffee shops, airports and sports venues. The setting lives under Settings > Wi-Fi, can be turned off for specific networks, and isn't used while international roaming, in cellular Low Data Mode, or with some third-party apps that stream audio and video. It may use more cellular data.\n\n[Article on 9to5Mac](https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections/)"
+    },
+    {
+      "id": "reading:abakcus-gabriels-horn",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Gabriel's Horn: a solid with finite volume and infinite surface area",
+      "description": "A long Abakcus piece on Torricelli's trumpet, the horn made by spinning y = 1/x around the axis, which holds exactly pi cubic units yet has an infinite surface.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya (Abakcus)",
+      "url": "https://abakcus.com/articles/gabriels-horn",
+      "createdAt": "2026-11-23T12:55:00Z",
+      "updatedAt": "2026-11-23T12:55:00Z",
+      "content": "Starting the curve y = 1/x at x = 1 and rotating it gives a horn you could fill with a finite tin of paint but never finish painting. The 24-minute read goes beyond the two calculus integrals to the history: Torricelli, newly moved into Galileo's house, and the philosophers who were unsettled that a finite body could have infinite extent. It includes interactive pieces to play with.\n\n[Article on Abakcus](https://abakcus.com/articles/gabriels-horn)"
     }
   ]
 }
