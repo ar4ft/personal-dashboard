@@ -1,0 +1,20 @@
+{
+  "hook": "VP ≠ VNP over Every Field",
+  "hookText": "VP ≠ VNP over Every Field",
+  "beats": [
+    {
+      "say": "Anthropic's formal-math repository now contains a machine-checked proof that VP is not equal to VNP over every field.",
+      "visual": 1
+    },
+    {
+      "say": "For every field, circuits for the Hamiltonian cycle polynomial, and for the permanent outside characteristic 2, need more than m^(c^) gates for all large m.",
+      "visual": 2
+    },
+    {
+      "say": "The same holds for approximating circuits. The result was discovered by an internal research Claude model. Both were written by AI models, and no human mathematician has checked the proof.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

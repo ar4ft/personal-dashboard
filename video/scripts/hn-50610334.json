@@ -1,0 +1,20 @@
+{
+  "hook": "The next circle of security hell",
+  "hookText": "The next circle of security hell",
+  "beats": [
+    {
+      "say": "A Gentoo developer writes about the next layer of security hardening and why each new defense seems to add another circle of complexity.",
+      "visual": 1
+    },
+    {
+      "say": "A few years back I wrote “The modern packager’s security nightmare”. In the end, security is tricky.",
+      "visual": 2
+    },
+    {
+      "say": "The point is that nowadays everyone and their chatbot became security researchers. On the contrary, I feel like we’re slipping down a well-oiled slope with no end in sight.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

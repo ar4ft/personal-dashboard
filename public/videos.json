@@ -2,6 +2,166 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50609579",
+      "feedId": "hn:50609579",
+      "title": "Don't keep your SSH keys on disk",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://jola.dev/posts/you-cant-afford-ssh-keys-disk",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@1c5236df55372b9de21f43f6804330a72db2a812/hn-50609579.mp4",
+      "poster": "media/videos/hn-50609579.jpg",
+      "captions": "media/videos/hn-50609579.vtt",
+      "duration": 29.87,
+      "transcript": "Don't keep your SSH keys on disk Storing SSH keys as plain files on disk is riskier than it looks; this post explains the threat and what to do instead. To just make this absolutely clear, this means that the private keys are vulnerable to be exiltrated by malicious code scanning my disk. After reading articles like I deleted all my SSH keys, I finally decided to take the next step and get them off disk. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:12:32Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50610334",
+      "feedId": "hn:50610334",
+      "title": "The next circle of security hell",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@365518e24baee6e5c7c75e93c66a6ef44965a706/hn-50610334.mp4",
+      "poster": "media/videos/hn-50610334.jpg",
+      "captions": "media/videos/hn-50610334.vtt",
+      "duration": 31.6,
+      "transcript": "The next circle of security hell A Gentoo developer writes about the next layer of security hardening and why each new defense seems to add another circle of complexity. A few years back I wrote “The modern packager’s security nightmare”. In the end, security is tricky. The point is that nowadays everyone and their chatbot became security researchers. On the contrary, I feel like we’re slipping down a well-oiled slope with no end in sight. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:12:00Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-wired-nvidia-is-powering-brain-computer-interfaces-now",
+      "feedId": "reading:wired-nvidia-is-powering-brain-computer-interfaces-now",
+      "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+      "source": "Reading",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@53f6b42d30dd102461d33e42f976da0ec68aeb66/reading-wired-nvidia-is-powering-brain-computer-interfaces-now.mp4",
+      "poster": "media/videos/reading-wired-nvidia-is-powering-brain-computer-interfaces-now.jpg",
+      "captions": "media/videos/reading-wired-nvidia-is-powering-brain-computer-interfaces-now.vtt",
+      "duration": 42.23,
+      "transcript": "Nvidia Is Powering Brain-Computer Interfaces Now Nvidia is now powering brain-computer interfaces, bringing its chips to neural implants that translate brain signals into action. The Paradromics implant uses more than 400 embedded electrodes to capture those signals, and a computer uses artificial intelligence to make inferences about what she’s trying to say. Making brain-computer interfaces practical and portable for patients is a major challenge for the field. Made by brain-computer interface company Paradromics, the implant is outwardly invisible, but the speech decoding requires a cart full of electronics. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:11:24Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50611402",
+      "feedId": "hn:50611402",
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8bba82b129aef72ff73092f212c84c4f2751f60e/hn-50611402.mp4",
+      "poster": "media/videos/hn-50611402.jpg",
+      "captions": "media/videos/hn-50611402.vtt",
+      "duration": 59.75,
+      "transcript": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file NariQ packs a Qwen3 8-billion-parameter model at BF16-level quality into a 10 GB file using a new quantization approach. Terminal-Bench 2.1 score over 82 tasks × 3 attempts, against file size. One BF16 verifier timeout in round 3 counts as zero. Qwen3.8-27B-NariQ-3.0bpw.gguf Qwen3.8-27B-NariQ-mmproj-BF16.gguf --local-dir. llama-server -m Qwen3.8-27B-N. Across the same three rounds, the mean share of each task's new tests that passed was 83.1%, 82.9%, 83.2% and 77.2%. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:10:33Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50611576",
+      "feedId": "hn:50611576",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "source": "Hacker News",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b461d4a17735b41fd2f722cf33156aff82749178/hn-50611576.mp4",
+      "poster": "media/videos/hn-50611576.jpg",
+      "captions": "media/videos/hn-50611576.vtt",
+      "duration": 37.79,
+      "transcript": "Nvidia Reinstates Jensen Huang as CEO Nvidia has reinstated Jensen Huang as CEO, just eleven days after his resignation, in a dramatic reversal at the world's most valuable chipmaker. Shares of Nvidia closed up 31% following Huang's reinstatement. Huang and the board held their first conversations since his ouster on Saturday, and the group determined he would return as CEO during a second meeting on Sunday, the people said. The stock had shed nearly 33% from the time Huang admitted to an extramarital affair on Nov. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:09:23Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50611861",
+      "feedId": "hn:50611861",
+      "title": "Building a wireless network adapter for the Super Nintendo",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://boland.dev/snet/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b806c1b24e0b117453f8876d4c310bbc55068ebf/hn-50611861.mp4",
+      "poster": "media/videos/hn-50611861.jpg",
+      "captions": "media/videos/hn-50611861.vtt",
+      "duration": 34.65,
+      "transcript": "Building a wireless network adapter for the Super Nintendo A hobbyist built a wireless network adapter for the Super Nintendo, bringing the 1990s console online with homebrew hardware. In practice this makes the save sync delay imperceptible, and only when an existing save is pulled by the SNES for the first time is there a 1-2s load screen. The challenge was the time to first token of the LLM, for Haiku it was about 0.8 s but for Opus it averaged 2.2 s. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:08:41Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50614249",
+      "feedId": "hn:50614249",
+      "title": "Ladybird is now in alpha",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://ladybird.org/posts/alpha/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@77a0737e72f4c3a8dcbfb548624aa82bb7a1c695/hn-50614249.mp4",
+      "poster": "media/videos/hn-50614249.jpg",
+      "captions": "media/videos/hn-50614249.vtt",
+      "duration": 32.97,
+      "transcript": "Ladybird is now in alpha Ladybird, the independent open-source web browser built from scratch, has reached its first alpha release. When you pwn us, please tell us how so we can harden Ladybird! Ladybird improves quickly, and until now you had to build it from source to see that. The alpha is a rolling channel, and we’ll be pushing out automatic updates regularly. There’s still a mountain of work ahead of us, but I’m very happy that you can finally try Ladybird for yourself! Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:07:19Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50615481",
+      "feedId": "hn:50615481",
+      "title": "Kagi Mail (public beta)",
+      "source": "Hacker News",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "url": "https://blog.kagi.com/kagi-mail-public-beta",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4fca3d5243bfa462e4971f12683865af659f493d/hn-50615481.mp4",
+      "poster": "media/videos/hn-50615481.jpg",
+      "captions": "media/videos/hn-50615481.vtt",
+      "duration": 37.29,
+      "transcript": "Kagi Mail Kagi has opened its privacy-focused email service, Kagi Mail, to a public beta. To deliver the experience we believe in, we built the full stack: hosting for your addresses and domains, plus the mail and calendar apps. If you’ve already swapped Google Search for Kagi and Chrome for Orion, your inbox is probably the last big piece of your digital life still at Google. Kagi Mail also has to treat you the way Kagi Search and Orion do: no surveillance, no ads, open standards, and no lock-in. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:06:05Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50620102",
+      "feedId": "hn:50620102",
+      "title": "VP ≠ VNP over Every Field",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@d2886c4c0f5f35e6bb74541aa877948fa963fd3e/hn-50620102.mp4",
+      "poster": "media/videos/hn-50620102.jpg",
+      "captions": "media/videos/hn-50620102.vtt",
+      "duration": 36.31,
+      "transcript": "VP VNP over Every Field Anthropic's formal-math repository now contains a machine-checked proof that VP is not equal to VNP over every field. For every field, circuits for the Hamiltonian cycle polynomial, and for the permanent outside characteristic 2, need more than m(c) gates for all large m. The same holds for approximating circuits. The result was discovered by an internal research Claude model. Both were written by AI models, and no human mathematician has checked the proof. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:03:21Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2123791147843940501",
       "feedId": "x:2123791147843940501",
       "title": "NVIDIA releases Nemotron-Labs-Sigma, 14 open continuous-diffusion language model checkpoints",

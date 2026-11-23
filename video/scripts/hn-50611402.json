@@ -1,0 +1,20 @@
+{
+  "hook": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+  "hookText": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+  "beats": [
+    {
+      "say": "NariQ packs a Qwen3 8-billion-parameter model at BF16-level quality into a 10 GB file using a new quantization approach.",
+      "visual": 1
+    },
+    {
+      "say": "Terminal-Bench 2.1 score over 82 tasks × 3 attempts, against file size. One BF16 verifier timeout in round 3 counts as zero.",
+      "visual": 2
+    },
+    {
+      "say": "Qwen3.8-27B-NariQ-3.0bpw.gguf Qwen3.8-27B-NariQ-mmproj-BF16.gguf --local-dir. llama-server -m Qwen3.8-27B-N. Across the same three rounds, the mean share of each task's new tests that passed was 83.1%, 82.9%, 83.2% and 77.2%.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

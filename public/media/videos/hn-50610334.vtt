@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.364
+The next circle
+
+00:00:01.175 --> 00:00:02.283
+of security hell
+
+00:00:02.814 --> 00:00:04.052
+A Gentoo developer
+
+00:00:03.864 --> 00:00:04.689
+writes about the
+
+00:00:04.500 --> 00:00:05.384
+next layer of
+
+00:00:05.196 --> 00:00:06.469
+security hardening
+
+00:00:06.434 --> 00:00:07.472
+and why each
+
+00:00:07.283 --> 00:00:08.627
+new defense seems
+
+00:00:08.439 --> 00:00:09.264
+to add another
+
+00:00:09.076 --> 00:00:10.549
+circle of complexity
+
+00:00:11.086 --> 00:00:12.088
+A few years
+
+00:00:11.900 --> 00:00:12.795
+back I wrote
+
+00:00:12.690 --> 00:00:13.927
+The modern packager’s
+
+00:00:13.739 --> 00:00:14.953
+security nightmare
+
+00:00:15.093 --> 00:00:16.000
+In the end
+
+00:00:16.095 --> 00:00:17.627
+security is tricky
+
+00:00:18.158 --> 00:00:18.995
+The point is
+
+00:00:18.807 --> 00:00:20.374
+that nowadays everyone
+
+00:00:20.198 --> 00:00:21.283
+and their chatbot
+
+00:00:21.106 --> 00:00:22.945
+became security researchers
+
+00:00:23.084 --> 00:00:24.240
+On the contrary
+
+00:00:24.405 --> 00:00:25.183
+I feel like
+
+00:00:24.995 --> 00:00:26.032
+we’re slipping down
+
+00:00:25.844 --> 00:00:27.023
+a well-oiled slope
+
+00:00:26.834 --> 00:00:27.848
+with no end
+
+00:00:27.660 --> 00:00:28.332
+in sight
+
+00:00:28.854 --> 00:00:29.868
+Full story on
+
+00:00:29.679 --> 00:00:30.575
+the dashboard

@@ -1,0 +1,20 @@
+{
+  "hook": "Building a wireless network adapter for the Super Nintendo",
+  "hookText": "Building a wireless network adapter for the Super Nintendo",
+  "beats": [
+    {
+      "say": "A hobbyist built a wireless network adapter for the Super Nintendo, bringing the 1990s console online with homebrew hardware.",
+      "visual": 1
+    },
+    {
+      "say": "In practice this makes the save sync delay imperceptible, and only when an existing save is pulled by the SNES for the first time is there a 1-2s load screen.",
+      "visual": 2
+    },
+    {
+      "say": "The challenge was the time to first token of the LLM, for Haiku it was about 0.8 s but for Opus it averaged 2.2 s.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

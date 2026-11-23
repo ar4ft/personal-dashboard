@@ -1,0 +1,20 @@
+{
+  "hook": "Nvidia Is Powering Brain-Computer Interfaces Now",
+  "hookText": "Nvidia Is Powering Brain-Computer Interfaces Now",
+  "beats": [
+    {
+      "say": "Nvidia is now powering brain-computer interfaces, bringing its chips to neural implants that translate brain signals into action.",
+      "visual": 1
+    },
+    {
+      "say": "The Paradromics implant uses more than 400 embedded electrodes to capture those signals, and a computer uses artificial intelligence to make inferences about what she’s trying to say.",
+      "visual": 2
+    },
+    {
+      "say": "Making brain-computer interfaces practical and portable for patients is a major challenge for the field. Made by brain-computer interface company Paradromics, the implant is outwardly invisible, but the speech decoding requires a cart full of electronics.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

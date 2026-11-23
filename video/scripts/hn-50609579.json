@@ -1,0 +1,20 @@
+{
+  "hook": "Don't keep your SSH keys on disk",
+  "hookText": "Don't keep your SSH keys on disk",
+  "beats": [
+    {
+      "say": "Storing SSH keys as plain files on disk is riskier than it looks; this post explains the threat and what to do instead.",
+      "visual": 1
+    },
+    {
+      "say": "To just make this absolutely clear, this means that the private keys are vulnerable to be exiltrated by malicious code scanning my disk.",
+      "visual": 2
+    },
+    {
+      "say": "After reading articles like I deleted all my SSH keys, I finally decided to take the next step and get them off disk.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

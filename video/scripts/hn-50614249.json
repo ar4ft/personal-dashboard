@@ -1,0 +1,20 @@
+{
+  "hook": "Ladybird is now in alpha",
+  "hookText": "Ladybird is now in alpha",
+  "beats": [
+    {
+      "say": "Ladybird, the independent open-source web browser built from scratch, has reached its first alpha release.",
+      "visual": 1
+    },
+    {
+      "say": "When you pwn us, please tell us how so we can harden Ladybird! Ladybird improves quickly, and until now you had to build it from source to see that.",
+      "visual": 2
+    },
+    {
+      "say": "The alpha is a rolling channel, and we’ll be pushing out automatic updates regularly. There’s still a mountain of work ahead of us, but I’m very happy that you can finally try Ladybird for yourself!",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

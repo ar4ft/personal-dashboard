@@ -1,0 +1,22 @@
+{
+  "hook": "Nvidia Reinstates Jensen Huang as CEO",
+  "hookText": "Nvidia Reinstates Jensen Huang as CEO",
+  "beats": [
+    {
+      "say": "Nvidia has reinstated Jensen Huang as CEO, just eleven days after his resignation, in a dramatic reversal at the world's most valuable chipmaker.",
+      "visual": 1
+    },
+    {
+      "say": "Shares of Nvidia closed up 31% following Huang's reinstatement. Huang and the board held their first conversations since his ouster on Saturday, and the group determined he would return as CEO during a second meeting on Sunday, the people said.",
+      "visual": 2,
+      "stat": "31%",
+      "statLabel": "following huang's reinstatement"
+    },
+    {
+      "say": "The stock had shed nearly 33% from the time Huang admitted to an extramarital affair on Nov.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

@@ -1,0 +1,20 @@
+{
+  "hook": "Kagi Mail",
+  "hookText": "Kagi Mail",
+  "beats": [
+    {
+      "say": "Kagi has opened its privacy-focused email service, Kagi Mail, to a public beta. To deliver the experience we believe in, we built the full stack: hosting for your addresses and domains, plus the mail and calendar apps.",
+      "visual": 1
+    },
+    {
+      "say": "If you’ve already swapped Google Search for Kagi and Chrome for Orion, your inbox is probably the last big piece of your digital life still at Google.",
+      "visual": 2
+    },
+    {
+      "say": "Kagi Mail also has to treat you the way Kagi Search and Orion do: no surveillance, no ads, open standards, and no lock-in.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
