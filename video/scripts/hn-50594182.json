@@ -1,0 +1,19 @@
+{
+  "hook": "Stop saying just testing",
+  "hookText": "A sharper testing vocabulary",
+  "beats": [
+    {
+      "say": "Not all testing is the same: tinkering checks what a program does, and example tests pin down concrete cases like add three and five equals eight.",
+      "visual": 0
+    },
+    {
+      "say": "Property-based testing goes further, throwing wild inputs at code — and it has caught real bugs in browsers, GCC, SQLite and S3.",
+      "visual": 0
+    },
+    {
+      "say": "The post argues that a clearer vocabulary for testing stops teams talking past each other about what their tests actually prove.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

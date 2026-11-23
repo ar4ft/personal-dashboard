@@ -1,0 +1,21 @@
+{
+  "hook": "From 99 dollars to 250,000",
+  "hookText": "How BSD broke free",
+  "beats": [
+    {
+      "say": "Early Unix was available through inexpensive source-code licenses, because a 1956 antitrust settlement kept AT&T out of the commercial computer business.",
+      "visual": 1
+    },
+    {
+      "say": "But AT&T's breakup in 1984 opened the way to sell Unix commercially, and it abruptly raised the price from 99 dollars to 250,000 dollars.",
+      "visual": 2,
+      "stat": "250,000",
+      "statLabel": "dollars for a Unix license"
+    },
+    {
+      "say": "Berkeley released its networking code as Net/1 in June 1989, and a completely free BSD Unix finally shipped in June 1991.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

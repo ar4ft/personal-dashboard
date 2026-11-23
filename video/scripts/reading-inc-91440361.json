@@ -1,0 +1,21 @@
+{
+  "hook": "Microsoft To Do ends June 2027",
+  "hookText": "Five replacements to try",
+  "beats": [
+    {
+      "say": "Microsoft To Do, the free task and daily planning app used for the better part of nine years, will go away forever on June 30, 2027.",
+      "visual": 1
+    },
+    {
+      "say": "Microsoft paid 100 to 200 million dollars in 2015 for Wunderlist, the app that became To Do's core, after shutting Wunderlist down in 2020.",
+      "visual": 2
+    },
+    {
+      "say": "The piece rounds up five replacement task apps for anyone who needs a new daily planning tool.",
+      "visual": 0,
+      "stat": "5",
+      "statLabel": "replacement task apps"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

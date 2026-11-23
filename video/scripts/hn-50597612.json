@@ -1,0 +1,21 @@
+{
+  "hook": "Anthropic's AI runs on gas and coal",
+  "hookText": "87% gas, 11% coal",
+  "beats": [
+    {
+      "say": "According to a new breakdown, by 2028, 87 percent of the power behind Anthropic's AI will come from natural gas, and 11 percent from coal.",
+      "visual": 1
+    },
+    {
+      "say": "Its power use could emit 17 to 38 million tons of CO2 a year — more than all of California's power generation.",
+      "visual": 2,
+      "stat": "32M",
+      "statLabel": "tons of CO2 in 2028"
+    },
+    {
+      "say": "Four in five on-site generators use inefficient simple-cycle turbines, and the AI boom keeps adding demand.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

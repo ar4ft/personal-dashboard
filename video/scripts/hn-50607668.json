@@ -1,0 +1,21 @@
+{
+  "hook": "Seventeen million lines of proof",
+  "hookText": "Yes, that's a lot",
+  "beats": [
+    {
+      "say": "The recent proof of the Riemann Hypothesis came with a startling statistic attached: the proof is 17 million lines of Lean.",
+      "visual": 0
+    },
+    {
+      "say": "Mathlib maintains a collection of over a thousand famous proofs, but only 259 have Lean versions charted — and this one dwarfs them all.",
+      "visual": 0
+    },
+    {
+      "say": "For scale, the human-led formalization of the famous Fermat's Last Theorem runs about 60,000 lines, and it is still in progress.",
+      "visual": 0,
+      "stat": "17M",
+      "statLabel": "lines of Lean in the proof"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

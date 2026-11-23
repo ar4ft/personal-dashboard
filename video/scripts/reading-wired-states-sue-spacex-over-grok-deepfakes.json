@@ -1,0 +1,19 @@
+{
+  "hook": "Two states sue over Grok deepfakes",
+  "hookText": "Weak safeguards, real people",
+  "beats": [
+    {
+      "say": "The attorneys general of Oregon and Virginia are suing several of Elon Musk's companies over Grok's weak safeguards against sexualized imagery of real people, including children.",
+      "visual": 1
+    },
+    {
+      "say": "Both suits name SpaceX and X Corp, and they follow earlier lawsuits from the city of Baltimore and teens in Tennessee.",
+      "visual": 0
+    },
+    {
+      "say": "Virginia filed in Richmond's circuit court, Oregon in Multnomah County, each hiring the same private firm to help litigate.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

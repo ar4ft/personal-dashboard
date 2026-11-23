@@ -1,0 +1,19 @@
+{
+  "hook": "Silicon Valley forgot its customers",
+  "hookText": "From innovation to extraction",
+  "beats": [
+    {
+      "say": "In a lecture at Johns Hopkins in October 2026, Tim O'Reilly traces Silicon Valley's move from customer-centered innovation to extraction driven by shareholder capitalism.",
+      "visual": 0
+    },
+    {
+      "say": "He started his company more than 40 years ago with a 500-dollar investment, and launched the first web portal in 1993.",
+      "visual": 0
+    },
+    {
+      "say": "Now, he argues, monopoly ambitions and hype shape the AI boom — a far cry from the valley's early days.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "744 billion parameters, no GPU",
+  "hookText": "A laptop runs a giant",
+  "beats": [
+    {
+      "say": "A 744-billion-parameter model quantized to INT4 still weighs 429 gigabytes on disk — yet this test runs it on a laptop with no GPU.",
+      "visual": 0
+    },
+    {
+      "say": "Colibri streams the model from disk, and for smaller jobs a 30-billion-parameter coder runs entirely in RAM at about 10 tokens a second on CPU alone.",
+      "visual": 0
+    },
+    {
+      "say": "The giant earns its keep for air-gapped batch jobs and privacy-sensitive reviews, where waiting five minutes for an answer costs nothing.",
+      "visual": 0,
+      "stat": "429 GB",
+      "statLabel": "on disk, INT4 quantized"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

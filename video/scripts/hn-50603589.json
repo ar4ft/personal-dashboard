@@ -1,0 +1,19 @@
+{
+  "hook": "A tiny San Francisco that moves in real time",
+  "hookText": "Live buses, planes and boats",
+  "beats": [
+    {
+      "say": "Small SF is an illustrated, isometric map of San Francisco you can drag and zoom through, drawn like a miniature model city.",
+      "visual": 0
+    },
+    {
+      "say": "Live Muni and BART vehicles, ferries and planes move across it in real time, with simulated traffic and the real sky overhead.",
+      "visual": 0
+    },
+    {
+      "say": "It turns live transit data into a tiny, living city you can explore right from your browser.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

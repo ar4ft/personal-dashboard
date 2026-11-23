@@ -1,0 +1,19 @@
+{
+  "hook": "One import switched the GIL back on",
+  "hookText": "Free-threaded, until it wasn't",
+  "beats": [
+    {
+      "say": "A CPU-heavy Python service processing thousands of independent records looked ideal for free-threaded Python, and the first test spread work across every core.",
+      "visual": 0
+    },
+    {
+      "say": "Then production dependencies arrived, and the run fell back to one core — a single compiled extension had not declared free-threaded support.",
+      "visual": 0
+    },
+    {
+      "say": "Importing it silently re-enabled the GIL, a reminder that Python 3.15's free-threaded build is a separate runtime, not a switch.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

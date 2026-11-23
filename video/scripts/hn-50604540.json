@@ -1,0 +1,19 @@
+{
+  "hook": "Agentic coding, local models, your Mac",
+  "hookText": "One command to install",
+  "beats": [
+    {
+      "say": "Localcode is an open source agentic coding tool for the Mac, installed with one command, that runs local models on your own machine.",
+      "visual": 1
+    },
+    {
+      "say": "It uses models like Gemma 4 and Qwen, with speculative drafting to keep coding fast, and its model server ships with precompiled GPU kernels.",
+      "visual": 0
+    },
+    {
+      "say": "Only three features touch the network: model downloads, web search and fetch, and any MCP servers you add.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "A 13-billion-parameter model squeezed under one gigabyte",
+  "hookText": "0.1 bits per weight",
+  "beats": [
+    {
+      "say": "LittleBit is a new framework for extreme compression of large language models, using latent factorization to quantize weights down to just 0.1 bits each while keeping the model usable.",
+      "visual": 0
+    },
+    {
+      "say": "That is roughly a 31-times memory reduction, compressing the 13-billion-parameter Llama2 model to under 0.9 gigabytes.",
+      "visual": 0,
+      "stat": "31×",
+      "statLabel": "memory reduction"
+    },
+    {
+      "say": "It also unlocks a potential 11.6-times inference speedup over FP16, making powerful models practical even in resource-constrained settings.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,19 @@
+{
+  "hook": "A map of a giant proof",
+  "hookText": "Which parts are checked?",
+  "beats": [
+    {
+      "say": "A new progress map follows the ambitious effort to formalize Alessandro Masullo's manuscript on the Riemann Hypothesis in Lean, the proof-checking language.",
+      "visual": 0
+    },
+    {
+      "say": "It shows, part by part, which sections of the proof have already been checked and which are still waiting.",
+      "visual": 0
+    },
+    {
+      "say": "For a proof of this scale, the map turns an overwhelming formalization effort into something you can watch take shape, piece by piece.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

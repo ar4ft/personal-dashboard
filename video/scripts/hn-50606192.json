@@ -1,0 +1,19 @@
+{
+  "hook": "Cable TV, but weirder — and completely free",
+  "hookText": "Forgotten videos, streaming 24/7",
+  "beats": [
+    {
+      "say": "Spelunkr is a free TV network built from the Internet Archive's forgotten videos, streaming an endless supply of odd and overlooked footage around the clock.",
+      "visual": 0
+    },
+    {
+      "say": "Its live channels run 24 hours a day, synchronized, so everyone watching sees the same thing at the same time.",
+      "visual": 0
+    },
+    {
+      "say": "It is cable TV, but weirder — a second life for footage that would otherwise sit unseen in the archive.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
