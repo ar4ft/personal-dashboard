@@ -1,0 +1,21 @@
+{
+  "hook": "An AI broke ciphers experts never cracked",
+  "hookText": "AI cryptanalysis breaks",
+  "beats": [
+    {
+      "say": "MiniMax says an internal research model produced the first practical attacks on several NIST competition candidates that had no known practical breaks.",
+      "visual": 0
+    },
+    {
+      "say": "It found full collisions in SHA-3 candidate Blender-256 in seconds, and shrank a LOCKER solver matrix from 42 petabytes to 58 megabytes.",
+      "visual": 1,
+      "stat": "42 PB → 58 MB",
+      "statLabel": "LOCKER solver matrix"
+    },
+    {
+      "say": "It also found over a dozen unreported bugs in reference code, including one typo that let it forge signatures using only the public key.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

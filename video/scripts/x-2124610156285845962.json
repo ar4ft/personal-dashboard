@@ -1,0 +1,21 @@
+{
+  "hook": "App Store chores, now from your terminal",
+  "hookText": "ASC CLI 7.2.0",
+  "beats": [
+    {
+      "say": "Rudrank Riyam released version 7.2 of App Store Connect CLI, his open-source command-line tool for managing apps on Apple's store.",
+      "visual": 0,
+      "stat": "7.2.0",
+      "statLabel": "new release"
+    },
+    {
+      "say": "It adds App Compliance for China, APNs key management from the terminal, schema checks in its API command, and validation that names the fix.",
+      "visual": 1
+    },
+    {
+      "say": "It also forgives guessed commands, and metadata pushes now patch only the fields that actually changed.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,23 @@
+{
+  "hook": "128 GB of VRAM on a tiny PC",
+  "hookText": "Four V100s, one mini PC",
+  "beats": [
+    {
+      "say": "A homelabber hung four used 32 gigabyte Nvidia V100 cards off a tiny Lenovo M720q mini PC, for 128 gigabytes of video memory.",
+      "visual": 0,
+      "stat": "128 GB",
+      "statLabel": "total VRAM"
+    },
+    {
+      "say": "A PCIe switch card fans out to four OCuLink cables. A solder bridge on the riser and coreboot got past a BIOS that only booted two cards.",
+      "visual": 2
+    },
+    {
+      "say": "The build hits about 285 tokens per second in total on Qwen 3.8 27B, for roughly 3,500 dollars.",
+      "visual": 4,
+      "stat": "~285",
+      "statLabel": "tokens per second"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

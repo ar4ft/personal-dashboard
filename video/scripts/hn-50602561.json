@@ -1,0 +1,19 @@
+{
+  "hook": "TypeScript-style upgrades, but for C",
+  "hookText": "Type-C for C11",
+  "beats": [
+    {
+      "say": "Type-C is C11 with the types C is missing: variants checked by match, distinct types for ids and units, generics, and errors as values.",
+      "visual": 0
+    },
+    {
+      "say": "Its compiler takes the same command line as cc, turns Type-C into readable C, and hands that to your normal C compiler.",
+      "visual": 1
+    },
+    {
+      "say": "Every C11 file is already valid Type-C, so a project can adopt it one file at a time. It's early, with much of the language still unbuilt.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

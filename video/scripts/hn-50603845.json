@@ -1,0 +1,21 @@
+{
+  "hook": "Your own private ChatGPT in fifteen minutes",
+  "hookText": "Local AI at home",
+  "beats": [
+    {
+      "say": "A new beginner's guide shows how to run a private chatbot at home with Unsloth Desktop, no terminal or Python needed.",
+      "visual": 0
+    },
+    {
+      "say": "The author runs Qwen 3.8 27B at 4-bit on an RTX 5090 with 32 gigabytes of video memory, leaving room for a 128K context.",
+      "visual": 2,
+      "stat": "32 GB",
+      "statLabel": "VRAM used"
+    },
+    {
+      "say": "Smaller cards still work: eight to twelve gigabytes handles nine to twelve billion parameter models. Setup takes about ten to fifteen minutes, plus downloads.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

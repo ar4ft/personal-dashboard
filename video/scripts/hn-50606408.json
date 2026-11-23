@@ -1,0 +1,21 @@
+{
+  "hook": "Hammerspoon drops Lua for JavaScript",
+  "hookText": "Hammerspoon 2 beta",
+  "beats": [
+    {
+      "say": "Hammerspoon, the power-user automation tool for macOS, has released the first beta of version 2, a ground-up rewrite.",
+      "visual": 0
+    },
+    {
+      "say": "You now script it in JavaScript on JavaScriptCore, the same engine Safari uses, to control windows, hotkeys, screens, audio, Wi-Fi, Shortcuts and more.",
+      "visual": 1
+    },
+    {
+      "say": "It needs macOS 27, installs as a separate app with its own config so Hammerspoon 1 can stay, and ships getting-started and migration guides.",
+      "visual": 0,
+      "stat": "27",
+      "statLabel": "minimum macOS"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

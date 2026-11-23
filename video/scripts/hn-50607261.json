@@ -1,0 +1,21 @@
+{
+  "hook": "The macOS kernel, loaded as a Linux module",
+  "hookText": "macOS running inside Linux",
+  "beats": [
+    {
+      "say": "xnulinux builds XNU, the open-source macOS kernel, from Apple's sources and loads it as a kernel module inside an unmodified arm64 Linux.",
+      "visual": 0
+    },
+    {
+      "say": "On a stock Ubuntu kernel, one insmod boots a macOS 27 disk all the way to the desktop, with Finder, the Dock, Safari and Chrome.",
+      "visual": 2,
+      "stat": "27",
+      "statLabel": "macOS version booted"
+    },
+    {
+      "say": "There's no hypervisor. macOS processes run natively beside Linux ones, while a small module lends XNU Linux's memory, files, network and GPU.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

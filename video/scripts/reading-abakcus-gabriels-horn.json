@@ -1,0 +1,21 @@
+{
+  "hook": "Fill it with paint, never paint it",
+  "hookText": "Gabriel's Horn",
+  "beats": [
+    {
+      "say": "Take the curve y equals one over x, start at x equals one, and spin it around the axis. You get a horn that narrows forever.",
+      "visual": 0
+    },
+    {
+      "say": "Its volume is exactly pi, just over three cubic units, yet its surface area is infinite. A finite tin fills it, but no amount paints it.",
+      "visual": 2,
+      "stat": "π",
+      "statLabel": "cubic units of volume"
+    },
+    {
+      "say": "Known as Torricelli's trumpet, the paradox has unsettled people for nearly four centuries, and Abakcus tells its story.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

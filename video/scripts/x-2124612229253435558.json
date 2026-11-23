@@ -1,0 +1,21 @@
+{
+  "hook": "Android 17, running inside an iPhone app",
+  "hookText": "Nestvane: Android on iPhone",
+  "beats": [
+    {
+      "say": "Nestvane is a new open-source project that runs a full Android 17 system inside an ordinary iOS app, with no JIT and no jailbreak.",
+      "visual": 0
+    },
+    {
+      "say": "iOS bans executable memory, so Android is translated ahead of time and paired with a Linux kernel layer written for the app.",
+      "visual": 2
+    },
+    {
+      "say": "On an iPhone 17 Pro it reaches the home screen in about ten seconds and plays 720p video at 30 frames per second. It's developer-only for now.",
+      "visual": 4,
+      "stat": "~10 s",
+      "statLabel": "to Android home screen"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

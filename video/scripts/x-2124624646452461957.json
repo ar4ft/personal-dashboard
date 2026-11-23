@@ -1,0 +1,19 @@
+{
+  "hook": "iOS 27 fixes the weak Wi-Fi trap",
+  "hookText": "Connectivity Assist",
+  "beats": [
+    {
+      "say": "iOS 27 adds Connectivity Assist, which notices when Wi-Fi is slow or unusable and uses cellular data to keep your iPhone connected.",
+      "visual": 0
+    },
+    {
+      "say": "Think of leaving the house while your phone clings to weak home Wi-Fi. You'll find the toggle in Settings, under Wi-Fi.",
+      "visual": 2
+    },
+    {
+      "say": "You can turn it off for specific networks, it isn't used while roaming or in Low Data Mode, and it may use more cellular data.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
