@@ -1,0 +1,22 @@
+{
+  "hook": "Status Trio merges Wi-Fi, battery and volume",
+  "hookText": "Status Trio merges Wi-Fi, battery and volume",
+  "beats": [
+    {
+      "say": "Status Trio is a free, open-source macOS app inspired by the iPhone's combined status bar that folds Wi-Fi, battery and volume into one configurable icon for the menu bar or Dock; version 1.10.4 shipped Nov 22.",
+      "visual": 1
+    },
+    {
+      "say": "The status panel switches audio devices and shows top apps by CPU, GPU, memory and network use.",
+      "visual": 2
+    },
+    {
+      "say": "The repo has about 2,100 stars and is Apache-2.0 licensed; the post is in Chinese.",
+      "visual": 3,
+      "stat": "2,100",
+      "statLabel": "stars"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

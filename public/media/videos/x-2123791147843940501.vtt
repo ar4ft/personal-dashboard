@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.861
+NVIDIA releases Nemotron-Labs-Sigma
+
+00:00:02.991 --> 00:00:05.302
+14 open continuous-diffusion
+
+00:00:05.114 --> 00:00:06.706
+language model checkpoints
+
+00:00:07.230 --> 00:00:08.444
+Each token becomes
+
+00:00:08.256 --> 00:00:08.998
+a point in
+
+00:00:08.810 --> 00:00:10.496
+a 16-dimensional embedding
+
+00:00:10.308 --> 00:00:10.956
+space
+
+00:00:11.180 --> 00:00:12.123
+the model adds
+
+00:00:11.935 --> 00:00:13.208
+Gaussian noise and
+
+00:00:13.020 --> 00:00:14.093
+learns to remove
+
+00:00:13.905 --> 00:00:14.682
+it block by
+
+00:00:14.494 --> 00:00:15.107
+block
+
+00:00:15.225 --> 00:00:16.487
+which makes few-step
+
+00:00:16.298 --> 00:00:18.020
+distillation and steering
+
+00:00:17.831 --> 00:00:18.621
+practical
+
+00:00:19.150 --> 00:00:20.812
+On NVIDIA's six-task
+
+00:00:20.624 --> 00:00:22.640
+suite Sigma-8B base
+
+00:00:22.464 --> 00:00:25.105
+averages 71.16 versus
+
+00:00:24.916 --> 00:00:26.779
+70.22 for its
+
+00:00:26.591 --> 00:00:27.758
+discrete-diffusion
+
+00:00:27.629 --> 00:00:29.232
+NLD-8B
+
+00:00:29.409 --> 00:00:30.341
+but the instruct
+
+00:00:30.152 --> 00:00:31.614
+model trails slightly
+
+00:00:31.461 --> 00:00:33.218
+and AIME25 is
+
+00:00:33.041 --> 00:00:34.220
+only 17
+
+00:00:34.742 --> 00:00:36.157
+NVIDIA just released
+
+00:00:35.968 --> 00:00:37.430
+Nemotron-Labs-Sigma
+
+00:00:37.608 --> 00:00:39.447
+14 continuous diffusion
+
+00:00:39.258 --> 00:00:40.638
+language model checkpoints
+
+00:00:40.485 --> 00:00:41.829
+at 3B and
+
+00:00:41.735 --> 00:00:42.914
+8B that denoise
+
+00:00:42.725 --> 00:00:43.527
+text the way
+
+00:00:43.374 --> 00:00:44.730
+image models denoise
+
+00:00:44.542 --> 00:00:45.308
+pixels
+
+00:00:45.846 --> 00:00:46.860
+Full story on
+
+00:00:46.671 --> 00:00:47.567
+the dashboard

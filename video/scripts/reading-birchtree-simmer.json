@@ -1,0 +1,20 @@
+{
+  "hook": "Simmer is a tiny Mac menu bar app",
+  "hookText": "Simmer is a tiny Mac menu bar app",
+  "beats": [
+    {
+      "say": "Coding agents and automated UI tests now spin up their own simulators and often do not clean up after themselves.",
+      "visual": 1
+    },
+    {
+      "say": "Simmer's menu bar icon changes color by how long simulators have been open, on the theory that under an hour is normal and anything longer was probably forgotten.",
+      "visual": 2
+    },
+    {
+      "say": "Today I'm releasing Simmer, a menu bar app for the Mac that monitors the simulators running on your device.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

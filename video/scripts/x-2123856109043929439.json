@@ -1,0 +1,20 @@
+{
+  "hook": "Federico Viticci builds his first iOS app",
+  "hookText": "Federico Viticci builds his first iOS app",
+  "beats": [
+    {
+      "say": "After 45 days and 530 pull requests, Federico Viticci is nearing TestFlight on his first iOS app and has written up his agent setup: T3 Code driving several providers across a pool of Macs with 832 GB of RAM, simulators and a fork of pstack.",
+      "visual": 1
+    },
+    {
+      "say": "It is a concrete look at what a multi-machine, multi-agent iOS setup looks like in practice, including dogfooding and bug filing once the app works.",
+      "visual": 2
+    },
+    {
+      "say": "The post drew 400+ likes and 330k views.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

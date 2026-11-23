@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.717
+Tessera turns cheap
+
+00:00:01.553 --> 00:00:03.321
+ESP32 touchscreens
+
+00:00:03.133 --> 00:00:04.217
+into drag-and-drop
+
+00:00:04.029 --> 00:00:05.609
+Home Assistant dashboards
+
+00:00:06.126 --> 00:00:07.765
+Tessera is open-source
+
+00:00:07.576 --> 00:00:08.720
+firmware layered on
+
+00:00:08.650 --> 00:00:10.017
+ESPHome plus a
+
+00:00:09.829 --> 00:00:11.019
+Home Assistant screen
+
+00:00:10.831 --> 00:00:12.045
+manager that builds
+
+00:00:11.857 --> 00:00:13.331
+multi-page dashboards
+
+00:00:13.143 --> 00:00:14.769
+for 2.8-inch to
+
+00:00:14.593 --> 00:00:17.187
+10.1-inch ESP32 touch
+
+00:00:16.999 --> 00:00:18.484
+panels from CYD
+
+00:00:18.706 --> 00:00:20.238
+Guition and Waveshare
+
+00:00:20.050 --> 00:00:21.347
+without YAML or
+
+00:00:21.194 --> 00:00:22.196
+MQTT
+
+00:00:22.726 --> 00:00:24.082
+Dashboards are edited
+
+00:00:23.893 --> 00:00:24.919
+with drag and
+
+00:00:24.731 --> 00:00:25.862
+drop inside Home
+
+00:00:25.674 --> 00:00:26.417
+Assistant
+
+00:00:26.488 --> 00:00:27.183
+and pushed to
+
+00:00:26.995 --> 00:00:28.351
+screens over Wi-Fi
+
+00:00:28.162 --> 00:00:29.412
+without reflashing
+
+00:00:29.942 --> 00:00:31.215
+The Tessera firmware
+
+00:00:31.027 --> 00:00:31.781
+adds a layer
+
+00:00:31.593 --> 00:00:33.149
+to ESPHome firmware
+
+00:00:32.961 --> 00:00:34.222
+for display management
+
+00:00:34.352 --> 00:00:35.519
+touchscreen handling
+
+00:00:35.614 --> 00:00:36.887
+dashboard rendering
+
+00:00:36.947 --> 00:00:37.701
+tiles
+
+00:00:37.725 --> 00:00:39.222
+plugins and more
+
+00:00:39.750 --> 00:00:40.764
+Full story on
+
+00:00:40.575 --> 00:00:41.471
+the dashboard

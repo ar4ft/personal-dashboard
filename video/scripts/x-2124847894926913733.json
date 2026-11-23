@@ -1,0 +1,20 @@
+{
+  "hook": "Tessera turns cheap ESP32 touchscreens into drag-and-drop Home Assistant dashboards",
+  "hookText": "Tessera turns cheap ESP32 touchscreens into drag-and-drop Home Assistant dashboards",
+  "beats": [
+    {
+      "say": "Tessera is open-source firmware layered on ESPHome plus a Home Assistant screen manager that builds multi-page dashboards for 2.8-inch to 10.1-inch ESP32 touch panels from CYD, Guition and Waveshare without YAML or MQTT.",
+      "visual": 1
+    },
+    {
+      "say": "Dashboards are edited with drag and drop inside Home Assistant and pushed to screens over Wi-Fi without reflashing.",
+      "visual": 2
+    },
+    {
+      "say": "The Tessera firmware adds a layer to ESPHome firmware for display management, touchscreen handling, dashboard rendering, tiles, plugins, and more.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

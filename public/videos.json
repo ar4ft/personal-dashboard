@@ -2,6 +2,149 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2123791147843940501",
+      "feedId": "x:2123791147843940501",
+      "title": "NVIDIA releases Nemotron-Labs-Sigma, 14 open continuous-diffusion language model checkpoints",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/Marktechpost/status/2123791147843940501",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a6777e4001d601f857c0442278e34330e1a95cc9/x-2123791147843940501.mp4",
+      "poster": "media/videos/x-2123791147843940501.jpg",
+      "captions": "media/videos/x-2123791147843940501.vtt",
+      "duration": 48.59,
+      "transcript": "NVIDIA releases Nemotron-Labs-Sigma, 14 open continuous-diffusion language model checkpoints Each token becomes a point in a 16-dimensional embedding space; the model adds Gaussian noise and learns to remove it block by block, which makes few-step distillation and steering practical. On NVIDIA's six-task suite Sigma-8B base averages 71.16 versus 70.22 for its discrete-diffusion NLD-8B, but the instruct model trails slightly and AIME25 is only 17. NVIDIA just released Nemotron-Labs-Sigma, 14 continuous diffusion language model checkpoints at 3B and 8B that denoise text the way image models denoise pixels. Full story on the dashboard.",
+      "createdAt": "2026-11-23T14:25:53Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123856109043929439",
+      "feedId": "x:2123856109043929439",
+      "title": "Federico Viticci builds his first iOS app with T3 Code, agents and a fleet of Macs",
+      "source": "Twitter / X",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://x.com/viticci/status/2123856109043929439",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@20203c2ae7e9bb42931cec103147edb82a90ed6e/x-2123856109043929439.mp4",
+      "poster": "media/videos/x-2123856109043929439.jpg",
+      "captions": "media/videos/x-2123856109043929439.vtt",
+      "duration": 38.68,
+      "transcript": "Federico Viticci builds his first iOS app After 45 days and 530 pull requests, Federico Viticci is nearing TestFlight on his first iOS app and has written up his agent setup: T3 Code driving several providers across a pool of Macs with 832 GB of RAM, simulators and a fork of pstack. It is a concrete look at what a multi-machine, multi-agent iOS setup looks like in practice, including dogfooding and bug filing once the app works. The post drew 400+ likes and 330k views. Full story on the dashboard.",
+      "createdAt": "2026-11-23T14:25:01Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2123916483931832516",
+      "feedId": "x:2123916483931832516",
+      "title": "STASIS smart glasses read eye movements to tell you when your focus peaks",
+      "source": "Twitter / X",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "url": "https://x.com/sochak03/status/2123916483931832516",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a3a40ad2d69794fba5a9d6ccd35c132ad8848797/x-2123916483931832516.mp4",
+      "poster": "media/videos/x-2123916483931832516.jpg",
+      "captions": "media/videos/x-2123916483931832516.vtt",
+      "duration": 38.3,
+      "transcript": "STASIS smart glasses read eye movements YC-backed STASIS opened pre-orders for glasses that track 100,000+ daily eye movements with six sensors in an 11 mm frame and no outward cameras, to flag peak focus, eye fatigue and when late-night scrolling starts costing sleep. The company claims 92% accuracy and has NBA player Moses Moody as a tester. The launch post drew 1,800 likes and 3.1M views; this follow-up about the origin story drew 170+ likes. Full story on the dashboard.",
+      "createdAt": "2026-11-23T14:24:21Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124394433718399053",
+      "feedId": "x:2124394433718399053",
+      "title": "Status Trio merges Wi-Fi, battery and volume into one Mac menu bar icon",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/Javary324/status/2124394433718399053",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b9d1fe3823c15220b22c9ad72fb88f17650ac531/x-2124394433718399053.mp4",
+      "poster": "media/videos/x-2124394433718399053.jpg",
+      "captions": "media/videos/x-2124394433718399053.vtt",
+      "duration": 38.9,
+      "transcript": "Status Trio merges Wi-Fi, battery and volume Status Trio is a free, open-source macOS app inspired by the iPhone's combined status bar that folds Wi-Fi, battery and volume into one configurable icon for the menu bar or Dock; version 1.10.4 shipped Nov 22. The status panel switches audio devices and shows top apps by CPU, GPU, memory and network use. The repo has about 2,100 stars and is Apache-2.0 licensed; the post is in Chinese. Full story on the dashboard.",
+      "createdAt": "2026-11-23T14:23:40Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-birchtree-simmer",
+      "feedId": "reading:birchtree-simmer",
+      "title": "Simmer is a tiny Mac menu bar app that finds and quits forgotten iOS simulators",
+      "source": "Reading",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://birchtree.me/micro-app-23-simmer/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@65d006e6faeebe0f3020ff3a3624a067ab165c3b/reading-birchtree-simmer.mp4",
+      "poster": "media/videos/reading-birchtree-simmer.jpg",
+      "captions": "media/videos/reading-birchtree-simmer.vtt",
+      "duration": 29.97,
+      "transcript": "Simmer is a tiny Mac menu bar app Coding agents and automated UI tests now spin up their own simulators and often do not clean up after themselves. Simmer's menu bar icon changes color by how long simulators have been open, on the theory that under an hour is normal and anything longer was probably forgotten. Today I'm releasing Simmer, a menu bar app for the Mac that monitors the simulators running on your device. Full story on the dashboard.",
+      "createdAt": "2026-11-23T14:23:01Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124579465011638594",
+      "feedId": "x:2124579465011638594",
+      "title": "Tsinghua lab open-sources a roughly $21 wrist camera for xArm7 robot learning",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/xyz2maureen/status/2124579465011638594",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@be06dc57c694be0ed2105bedbccb7fe805a22de2/x-2124579465011638594.mp4",
+      "poster": "media/videos/x-2124579465011638594.jpg",
+      "captions": "media/videos/x-2124579465011638594.vtt",
+      "duration": 41.95,
+      "transcript": "Tsinghua lab open-sources a roughly $21 wrist camera A Tsinghua IEI Lab team built a wrist-mounted 1080p camera for the xArm7 from an SC3336 sensor, a Luckfox Pico Mini RV1103 board and a 3D-printed mount, and open-sourced the CAD. Close-up wrist views are a staple of manipulation datasets, so a sub-$25 build lowers the cost of data collection for robot-learning labs. 0.24 × $ANT stock price a wrist camera for your xArm, ready to explore agentic AI workflows with Codex / Claude Code! Full story on the dashboard.",
+      "createdAt": "2026-11-23T14:22:26Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124669766723920377",
+      "feedId": "x:2124669766723920377",
+      "title": "Tencent opens full Hy4 flagship weights and Ollama hosts it as hy4:cloud",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/ollama/status/2124669766723920377",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@cbe2d6cad489e00976e55bb3acfd220ad19a0d2c/x-2124669766723920377.mp4",
+      "poster": "media/videos/x-2124669766723920377.jpg",
+      "captions": "media/videos/x-2124669766723920377.vtt",
+      "duration": 44.61,
+      "transcript": "Tencent opens full Hy4 flagship weights and Ollama hosts Tencent published downloadable weights for its full Hy4 flagship, a 770B-parameter multimodal MoE with 49B active per token, as instruct, FP8 and base checkpoints. Hy4 has 78 layers with 256 routed experts per MoE layer, Gated DeepSeek Sparse Attention with cross-layer index reuse, a 1M-token context and a built-in 3.3B DFly2 drafter for speculative decoding. Self-hosting needs a multi-GPU vLLM or SGLang setup, and the weights use Tencent's own Hy license rather than Apache 2.0. Full story on the dashboard.",
+      "createdAt": "2026-11-23T14:21:41Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124847894926913733",
+      "feedId": "x:2124847894926913733",
+      "title": "Tessera turns cheap ESP32 touchscreens into drag-and-drop Home Assistant dashboards",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://x.com/cnxsoft/status/2124847894926913733",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f2775505d586f28949ab8541dd9906164d6745a4/x-2124847894926913733.mp4",
+      "poster": "media/videos/x-2124847894926913733.jpg",
+      "captions": "media/videos/x-2124847894926913733.vtt",
+      "duration": 42.5,
+      "transcript": "Tessera turns cheap ESP32 touchscreens into drag-and-drop Home Assistant dashboards Tessera is open-source firmware layered on ESPHome plus a Home Assistant screen manager that builds multi-page dashboards for 2.8-inch to 10.1-inch ESP32 touch panels from CYD, Guition and Waveshare without YAML or MQTT. Dashboards are edited with drag and drop inside Home Assistant and pushed to screens over Wi-Fi without reflashing. The Tessera firmware adds a layer to ESPHome firmware for display management, touchscreen handling, dashboard rendering, tiles, plugins, and more. Full story on the dashboard.",
+      "createdAt": "2026-11-23T14:20:55Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50594182",
       "feedId": "hn:50594182",
       "title": "A Better Vocabulary for Testing",

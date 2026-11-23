@@ -1,0 +1,22 @@
+{
+  "hook": "Tencent opens full Hy4 flagship weights and Ollama hosts",
+  "hookText": "Tencent opens full Hy4 flagship weights and Ollama hosts",
+  "beats": [
+    {
+      "say": "Tencent published downloadable weights for its full Hy4 flagship, a 770B-parameter multimodal MoE with 49B active per token, as instruct, FP8 and base checkpoints.",
+      "visual": 1
+    },
+    {
+      "say": "Hy4 has 78 layers with 256 routed experts per MoE layer, Gated DeepSeek Sparse Attention with cross-layer index reuse, a 1M-token context and a built-in 3.3B DFly2 drafter for speculative decoding.",
+      "visual": 2,
+      "stat": "3.3B",
+      "statLabel": "dfly2 drafter"
+    },
+    {
+      "say": "Self-hosting needs a multi-GPU vLLM or SGLang setup, and the weights use Tencent's own Hy license rather than Apache 2.0.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

@@ -1,0 +1,22 @@
+{
+  "hook": "Tsinghua lab open-sources a roughly $21 wrist camera",
+  "hookText": "Tsinghua lab open-sources a roughly $21 wrist camera",
+  "beats": [
+    {
+      "say": "A Tsinghua IEI Lab team built a wrist-mounted 1080p camera for the xArm7 from an SC3336 sensor, a Luckfox Pico Mini RV1103 board and a 3D-printed mount, and open-sourced the CAD.",
+      "visual": 1
+    },
+    {
+      "say": "Close-up wrist views are a staple of manipulation datasets, so a sub-$25 build lowers the cost of data collection for robot-learning labs.",
+      "visual": 2,
+      "stat": "$25",
+      "statLabel": "build lowers"
+    },
+    {
+      "say": "0.24 × $ANT stock price = a wrist camera for your xArm, ready to explore agentic AI workflows with Codex / Claude Code!",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

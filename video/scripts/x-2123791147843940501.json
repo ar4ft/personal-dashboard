@@ -1,0 +1,22 @@
+{
+  "hook": "NVIDIA releases Nemotron-Labs-Sigma, 14 open continuous-diffusion language model checkpoints",
+  "hookText": "NVIDIA releases Nemotron-Labs-Sigma, 14 open continuous-diffusion language model checkpoints",
+  "beats": [
+    {
+      "say": "Each token becomes a point in a 16-dimensional embedding space; the model adds Gaussian noise and learns to remove it block by block, which makes few-step distillation and steering practical.",
+      "visual": 1
+    },
+    {
+      "say": "On NVIDIA's six-task suite Sigma-8B base averages 71.16 versus 70.22 for its discrete-diffusion NLD-8B, but the instruct model trails slightly and AIME25 is only 17.",
+      "visual": 2
+    },
+    {
+      "say": "▲ NVIDIA just released Nemotron-Labs-Sigma, 14 continuous diffusion language model checkpoints at 3B and 8B that denoise text the way image models denoise pixels.",
+      "visual": 0,
+      "stat": "8B",
+      "statLabel": "that denoise text"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
