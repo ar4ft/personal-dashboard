@@ -52937,6 +52937,182 @@
       "createdAt": "2026-11-23T06:00:00Z",
       "updatedAt": "2026-11-23T06:00:00Z",
       "status": "inbox"
+    },
+    {
+      "id": "x:2123791147843940501",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NVIDIA releases Nemotron-Labs-Sigma, 14 open continuous-diffusion language model checkpoints",
+      "description": "Nemotron-Labs-Sigma is a family of 3B and 8B diffusion language models that denoise text in a learned 16-D embedding space instead of over discrete tokens; the self-speculative 8B decodes up to 4.2x faster than autoregressive decoding on one GB200.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Marktechpost AI (@Marktechpost)",
+      "url": "https://x.com/Marktechpost/status/2123791147843940501",
+      "createdAt": "2026-11-20T14:50:42Z",
+      "updatedAt": "2026-11-20T14:50:42Z",
+      "content": "Each token becomes a point in a 16-dimensional embedding space; the model adds Gaussian noise and learns to remove it block by block, which makes few-step distillation and steering practical. The 14 checkpoints cover base, instruct, distilled (2, 4, 8 and 16 steps) and self-speculative variants. On NVIDIA's six-task suite Sigma-8B base averages 71.16 versus 70.22 for its discrete-diffusion NLD-8B, but the instruct model trails slightly (59.14 vs 59.92) and AIME25 is only 17. It needs a CUDA GPU in bfloat16 and ships under the NVIDIA Nemotron Open Model License. The authors present the paper at the Discrete Diffusion Reading Group on Monday, Nov 23.\n\n[Models on Hugging Face](https://huggingface.co/collections/nvidia/nemotron-labs-sigma)\n\n[Paper on arXiv](https://arxiv.org/abs/2610.02665)\n\n[MarkTechPost analysis](https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/)\n\n[Post on X](https://x.com/Marktechpost/status/2123791147843940501)"
+    },
+    {
+      "id": "x:2124669766723920377",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent opens full Hy4 flagship weights and Ollama hosts it as hy4:cloud",
+      "description": "Tencent published downloadable weights for its full Hy4 flagship, a 770B-parameter multimodal MoE with 49B active per token, as instruct, FP8 and base checkpoints; Ollama added it to Ollama Cloud with US hosting and zero data retention.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "ollama (@ollama)",
+      "url": "https://x.com/ollama/status/2124669766723920377",
+      "createdAt": "2026-11-23T01:02:01Z",
+      "updatedAt": "2026-11-23T01:02:01Z",
+      "content": "This is the full flagship, not the smaller Hy4 flash released earlier. Hy4 has 78 layers with 256 routed experts per MoE layer, Gated DeepSeek Sparse Attention with cross-layer index reuse, a 1M-token context and a built-in 3.3B DFly2 drafter for speculative decoding. Ollama says it is the first Hy model with vision and computer use, and pitches it for frontend and game work, finance research and long multi-step tasks; try it with ollama run hy4:cloud. Self-hosting needs a multi-GPU vLLM or SGLang setup, and the weights use Tencent's own Hy license rather than Apache 2.0.\n\n[Hy4-FP8 on Hugging Face](https://huggingface.co/tencent/Hy4-FP8)\n\n[Hy4 repo on GitHub](https://github.com/Tencent-Hunyuan/Hy4)\n\n[Post on X](https://x.com/ollama/status/2124669766723920377)"
+    },
+    {
+      "id": "x:2123856109043929439",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Federico Viticci builds his first iOS app with T3 Code, agents and a fleet of Macs",
+      "description": "After 45 days and 530 pull requests, Federico Viticci is nearing TestFlight on his first iOS app and has written up his agent setup: T3 Code driving several providers across a pool of Macs with 832 GB of RAM, simulators and a fork of pstack.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Federico Viticci (@viticci)",
+      "url": "https://x.com/viticci/status/2123856109043929439",
+      "createdAt": "2026-11-20T19:08:50Z",
+      "updatedAt": "2026-11-20T19:08:50Z",
+      "content": "The write-up in MacStories Weekly 538 shows how a non-developer runs app development as a stream of agent pull requests: T3 Code as the control surface for different model providers, simulators spread across several Macs, and his fork of poteto's pstack workflow. It is a concrete look at what a multi-machine, multi-agent iOS setup looks like in practice, including dogfooding and bug filing once the app works. The post drew 400+ likes and 330k views.\n\n[Write-up on Club MacStories](https://www.macstories.net/club/macstories-weekly-issue-538/my-t3-code-setup-to-build-an-ios-app-with-a-fleet-of-macs-agents-and-different-providers/)\n\n[Post on X](https://x.com/viticci/status/2123856109043929439)"
+    },
+    {
+      "id": "x:2123916483931832516",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "STASIS smart glasses read eye movements to tell you when your focus peaks",
+      "description": "YC-backed STASIS opened pre-orders for glasses that track 100,000+ daily eye movements with six sensors in an 11 mm frame and no outward cameras, to flag peak focus, eye fatigue and when late-night scrolling starts costing sleep.",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Soham Chakraborty (@sochak03)",
+      "url": "https://x.com/sochak03/status/2123916483931832516",
+      "createdAt": "2026-11-20T23:08:44Z",
+      "updatedAt": "2026-11-20T23:08:44Z",
+      "content": "Co-founder Soham Chakraborty says the project began at Berkeley as ultrasound-integrated glasses for eye-pressure monitoring before turning into a WHOOP-style tracker for the eyes and brain; beta testers use it to time deep work and recovery. The company claims 92% accuracy and has NBA player Moses Moody as a tester. The launch post drew 1,800 likes and 3.1M views; this follow-up about the origin story drew 170+ likes.\n\n[STASIS website](https://www.wearstasis.com)\n\n[Launch post on X](https://x.com/sochak03/status/2123476426968216055)\n\n[Post on X](https://x.com/sochak03/status/2123916483931832516)"
+    },
+    {
+      "id": "x:2124579465011638594",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tsinghua lab open-sources a roughly $21 wrist camera for xArm7 robot learning",
+      "description": "A Tsinghua IEI Lab team built a wrist-mounted 1080p camera for the xArm7 from an SC3336 sensor, a Luckfox Pico Mini RV1103 board and a 3D-printed mount, and open-sourced the CAD, parts list and streaming code as a cheap alternative to a RealSense.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Xueyan Zou (@xyz2maureen)",
+      "url": "https://x.com/xyz2maureen/status/2124579465011638594",
+      "createdAt": "2026-11-22T19:03:11Z",
+      "updatedAt": "2026-11-22T19:03:11Z",
+      "content": "The camera streams 1920x1080 H.265 at about 30 fps to the host over RTSP through USB ADB forwarding, and the repo includes Python tools for live preview, a 1080p30 tuning guide and benchmark results. Close-up wrist views are a staple of manipulation datasets, so a sub-$25 build lowers the cost of data collection for robot-learning labs. The repo is MIT licensed; the assembly guide is in Chinese.\n\n[Repo on GitHub](https://github.com/wny24/Wrist-Camera)\n\n[Post on X](https://x.com/xyz2maureen/status/2124579465011638594)"
+    },
+    {
+      "id": "x:2124847894926913733",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tessera turns cheap ESP32 touchscreens into drag-and-drop Home Assistant dashboards",
+      "description": "Tessera is open-source firmware layered on ESPHome plus a Home Assistant screen manager that builds multi-page dashboards for 2.8-inch to 10.1-inch ESP32 touch panels from CYD, Guition and Waveshare without YAML or MQTT.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "CNX Software (@cnxsoft)",
+      "url": "https://x.com/cnxsoft/status/2124847894926913733",
+      "createdAt": "2026-11-23T12:49:50Z",
+      "updatedAt": "2026-11-23T12:49:50Z",
+      "content": "Dashboards are edited with drag and drop inside Home Assistant and pushed to screens over Wi-Fi without reflashing. It renders with LVGL, supports plugins for services such as air quality and public transport, camera and doorbell feeds, sensor graphs, and Home Assistant Voice on boards with a mic and speaker. The Guition 4-inch ESP32-S3 panel is the most tested, by over 3,000 users. Firmware and software are AGPL-3.0.\n\n[Repo on GitHub](https://github.com/MaxGramser/homeassistant_espscreen)\n\n[Tessera website](https://tessera-maxgramser.on-forge.com/)\n\n[CNX Software article](https://www.cnx-software.com/2026/11/23/tessera-open-source-dashboard-for-home-assistant-runs-on-esp32-touchscreen-devkits/)\n\n[Post on X](https://x.com/cnxsoft/status/2124847894926913733)"
+    },
+    {
+      "id": "x:2124394433718399053",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Status Trio merges Wi-Fi, battery and volume into one Mac menu bar icon",
+      "description": "Status Trio is a free, open-source macOS app inspired by the iPhone's combined status bar that folds Wi-Fi, battery and volume into one configurable icon for the menu bar or Dock; version 1.10.4 shipped Nov 22.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "小小年 (@Javary324)",
+      "url": "https://x.com/Javary324/status/2124394433718399053",
+      "createdAt": "2026-11-22T06:47:56Z",
+      "updatedAt": "2026-11-22T06:47:56Z",
+      "content": "The new release lets the bottom indicator show CPU, GPU, memory, temperatures, fan speed or network speed, adds custom colors for Bluetooth audio, and restores the battery ring on Macs without a battery such as the Mac Studio. The status panel switches audio devices and shows top apps by CPU, GPU, memory and network use. The repo has about 2,100 stars and is Apache-2.0 licensed; the post is in Chinese.\n\n[Repo on GitHub](https://github.com/lingyired/status-trio)\n\n[v1.10.4 release notes](https://github.com/lingyired/status-trio/releases/tag/v1.10.4)\n\n[Post on X](https://x.com/Javary324/status/2124394433718399053)"
+    },
+    {
+      "id": "reading:birchtree-simmer",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Simmer is a tiny Mac menu bar app that finds and quits forgotten iOS simulators",
+      "description": "Matt Birchler's Simmer watches for running launchd_sim processes, shows how long each Xcode simulator has been up and quits it in one click, aimed at agents and test runs that leave simulators draining the battery.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Matt Birchler",
+      "url": "https://birchtree.me/micro-app-23-simmer/",
+      "createdAt": "2026-11-22T17:00:00Z",
+      "updatedAt": "2026-11-22T17:00:00Z",
+      "content": "Coding agents and automated UI tests now spin up their own simulators and often do not clean up after themselves. Simmer's menu bar icon changes color by how long simulators have been open, on the theory that under an hour is normal and anything longer was probably forgotten. It is micro app 23 in Birchler's series: free, open source under MIT and wired for updates.\n\n[Repo on GitHub](https://github.com/mattbirchler/Simmer)\n\n[Announcement on Birchtree](https://birchtree.me/micro-app-23-simmer/)"
+    },
+    {
+      "id": "ideas:simulator-fleet-broker",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "A simulator broker that leases iOS simulators to coding agents across a pool of Macs",
+      "description": "For iOS developers who run several coding agents and UI test jobs at once: a small daemon on each Mac plus a CLI that agents call to check out a booted simulator with the right runtime, run builds or tests on whichever Mac has room, and automatically shut down simulators nobody has used for a while.",
+      "nextStep": "Write a Swift command-line tool that wraps xcrun simctl list and simctl boot/shutdown, tracks leases in a local SQLite file with an idle timeout, and exposes lease, release and reap subcommands on one Mac.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "createdAt": "2026-11-23T14:30:00Z",
+      "content": "## How it works\n\nEach Mac runs a small agent that knows its free memory, installed runtimes and booted simulators. A coding agent or CI job asks the broker for a simulator matching a device and iOS version; the broker picks the Mac with the most headroom, boots or reuses a clone, and returns a lease with the device UDID and host. Builds and tests run there over SSH, and when the lease expires or the job ends the simulator is shut down and erased. A menu bar view shows every lease, its owner and how long it has been idle, so forgotten simulators stop draining batteries and RAM.\n\n```mermaid\nflowchart LR\n  Agent[Coding agent or test job] --> CLI[sim lease CLI]\n  CLI --> Broker[Broker]\n  Broker --> MacA[Mac A daemon]\n  Broker --> MacB[Mac B daemon]\n  MacA --> Sim[Booted simulator]\n  MacB --> Sim\n  Sim --> Reaper[Idle reaper]\n  Reaper --> Broker\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Simulator control | xcrun simctl (boot, clone, erase, shutdown) |\n| Per-Mac daemon | Swift command-line tool under launchd |\n| Lease store | SQLite on the broker Mac |\n| Transport | SSH or Tailscale between Macs |\n| Agent interface | CLI plus an optional local MCP server |\n| Status UI | SwiftUI MenuBarExtra |\n\n## Hard parts\n\n- Keeping Xcode and runtime versions consistent across Macs.\n- Copying build products to the Mac that owns the simulator without slowing the loop.\n- Detecting when an agent has silently abandoned a lease.\n- Memory pressure when many simulators boot at once.\n\n## Effort\n\nA weekend for a single-Mac lease and reap CLI; two to three weeks for multi-Mac scheduling, SSH test runs and a menu bar view.\n\n## Inspired by\n\n- [Federico Viticci's T3 Code fleet post on X](https://x.com/viticci/status/2123856109043929439)\n- [His write-up on Club MacStories](https://www.macstories.net/club/macstories-weekly-issue-538/my-t3-code-setup-to-build-an-ios-app-with-a-fleet-of-macs-agents-and-different-providers/)\n- [Simmer on GitHub](https://github.com/mattbirchler/Simmer)"
+    },
+    {
+      "id": "ideas:mac-blink-break-coach",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "A Mac break coach that times rests from your blink rate, locally",
+      "description": "For people who stare at a Mac all day: use the built-in camera only on device to estimate blink rate and screen distance, spot when eye fatigue sets in, and suggest a break or a stop time for the evening, without buying smart glasses or sending video anywhere.",
+      "nextStep": "Build a SwiftUI prototype that runs Apple Vision face landmark detection on camera frames at 5 fps, computes an eye-aspect ratio per frame and logs blinks per minute to a CSV for a day of normal work.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Wearables"
+      ],
+      "createdAt": "2026-11-23T14:30:00Z",
+      "content": "## How it works\n\nA menu bar app samples the FaceTime camera a few times per second, detects eye landmarks with Apple's Vision framework and counts blinks from the eye-aspect ratio. Blink rate usually drops during intense screen focus and long sessions, so the app learns your normal baseline and nudges you when it stays low for too long, or when you lean too close to the screen. Nothing is recorded; only per-minute numbers are kept, and a daily chart shows focus blocks, breaks and late-night use.\n\n```mermaid\nflowchart LR\n  Cam[Built-in camera] --> Vision[Vision face landmarks]\n  Vision --> Blink[Blink and distance estimate]\n  Blink --> Baseline[Personal baseline]\n  Baseline --> Nudge[Break nudge]\n  Blink --> Log[Per-minute log]\n  Log --> Chart[Daily chart]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Capture | AVFoundation at low frame rate |\n| Detection | Apple Vision face landmarks |\n| Storage | SQLite, numbers only |\n| UI | SwiftUI MenuBarExtra and Swift Charts |\n| Distribution | Notarized direct download |\n\n## Hard parts\n\n- Accurate blink detection with glasses, low light and head turns.\n- Keeping battery and CPU use low with the camera on.\n- The camera indicator light being on all day.\n- Avoiding health claims the data cannot support.\n\n## Effort\n\nA weekend for the blink-logging prototype; two to three weeks for baselines, nudges and charts.\n\n## Inspired by\n\n- [STASIS post on X](https://x.com/sochak03/status/2123916483931832516)\n- [STASIS website](https://www.wearstasis.com)"
     }
   ]
 }
