@@ -1,0 +1,21 @@
+{
+  "hook": "Two kinds of AI: one recognizes, one creates.",
+  "hookText": "Generative vs discriminative models",
+  "beats": [
+    {
+      "say": "Show a computer ten thousand cat photos and ask two questions: is this a cat, or can you draw a new one?",
+      "visual": 0
+    },
+    {
+      "say": "A discriminative model answers what is this, learning the probability of a label given an input, like a ninety-four percent chance that a digit is a seven.",
+      "visual": 0
+    },
+    {
+      "say": "A generative model learns what a new example could look like, and a GAN pits a generator against a discriminator to learn it.",
+      "visual": 0,
+      "stat": "10,000",
+      "statLabel": "cat photos in the example"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

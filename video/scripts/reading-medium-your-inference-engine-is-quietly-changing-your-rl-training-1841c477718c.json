@@ -1,0 +1,21 @@
+{
+  "hook": "Your inference engine is quietly breaking RL training.",
+  "hookText": "Inference is changing RL training",
+  "beats": [
+    {
+      "say": "In reinforcement learning, the rollout engine and the trainer hold identical weights but produce different numbers.",
+      "visual": 0
+    },
+    {
+      "say": "In one vLLM experiment, the gap between them climbed from zero point zero zero two to twenty-nine point nine in a hundred steps while reward fell back.",
+      "visual": 0
+    },
+    {
+      "say": "The fix starts with measuring the gap at every step, which turns a silent failure into a visible one, then correcting for it, and finally making both sides bitwise identical.",
+      "visual": 0,
+      "stat": "29.9",
+      "statLabel": "KL divergence after 100 steps"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

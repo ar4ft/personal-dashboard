@@ -1,0 +1,21 @@
+{
+  "hook": "Apple removed a nine-year-old open-source app.",
+  "hookText": "FSNotes removed from EU App Stores",
+  "beats": [
+    {
+      "say": "FSNotes, an open-source note-taking app, was removed from Apple's EU App Stores after nine years on sale.",
+      "visual": 0
+    },
+    {
+      "say": "Its developer has written up what happened in a public discussion on GitHub, and how the removal unfolded after nearly a decade in the store.",
+      "visual": 0
+    },
+    {
+      "say": "For indie developers it is a sharp reminder that even a long-standing app can disappear from the store overnight, for anyone shipping software on someone else's platform.",
+      "visual": 0,
+      "stat": "9 years",
+      "statLabel": "in the EU App Stores"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

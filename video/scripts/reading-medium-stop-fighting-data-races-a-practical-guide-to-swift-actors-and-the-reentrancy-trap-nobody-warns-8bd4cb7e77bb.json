@@ -1,0 +1,21 @@
+{
+  "hook": "Swift actors are safe, until they are not.",
+  "hookText": "Swift actors and the reentrancy trap",
+  "beats": [
+    {
+      "say": "An actor lets only one task run at a time, so your state is safe, but it does not guarantee a function runs start to finish.",
+      "visual": 0
+    },
+    {
+      "say": "Every await is a pause where other work can run, so ten cells asking for the same avatar can trigger ten downloads.",
+      "visual": 0
+    },
+    {
+      "say": "The fix is to cache the in-flight task, not just the result, so later callers join the same download.",
+      "visual": 0,
+      "stat": "10",
+      "statLabel": "requests, one download"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
