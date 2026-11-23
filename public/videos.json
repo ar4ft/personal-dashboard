@@ -2,6 +2,169 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50603845",
+      "feedId": "hn:50603845",
+      "title": "A beginner's guide to running local AI at home with Unsloth Desktop, Inkling and Qwen",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@ce5ccf48e1a7eae90598931a31cdb24a10c560a1/hn-50603845.mp4",
+      "poster": "media/videos/hn-50603845.jpg",
+      "captions": "media/videos/hn-50603845.vtt",
+      "duration": 35.2,
+      "transcript": "Your own private ChatGPT in fifteen minutes A new beginner's guide shows how to run a private chatbot at home with Unsloth Desktop, no terminal or Python needed. The author runs Qwen 3.8 27B at 4-bit on an RTX 5090 with 32 gigabytes of video memory, leaving room for a 128K context. Smaller cards still work: eight to twelve gigabytes handles nine to twelve billion parameter models. Setup takes about ten to fifteen minutes, plus downloads. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:18:21Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124610156285845962",
+      "feedId": "x:2124610156285845962",
+      "title": "App Store Connect CLI 7.2.0 adds China app compliance, APNs keys from the terminal and schema checks",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/rudrank/status/2124610156285845962",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c71965bf791db18ef9e1a50ab4539e544f01b723/x-2124610156285845962.mp4",
+      "poster": "media/videos/x-2124610156285845962.jpg",
+      "captions": "media/videos/x-2124610156285845962.vtt",
+      "duration": 30.76,
+      "transcript": "App Store chores, now from your terminal Rudrank Riyam released version 7.2 of App Store Connect CLI, his open-source command-line tool for managing apps on Apple's store. It adds App Compliance for China, APNs key management from the terminal, schema checks in its API command, and validation that names the fix. It also forgives guessed commands, and metadata pushes now patch only the fields that actually changed. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:17:47Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124612229253435558",
+      "feedId": "x:2124612229253435558",
+      "title": "Nestvane runs Android 17 inside an ordinary iPhone app with no JIT or jailbreak",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/everettjf/status/2124612229253435558",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@882bd5d3fd1f2325f2d32983aa6af55700af652c/x-2124612229253435558.mp4",
+      "poster": "media/videos/x-2124612229253435558.jpg",
+      "captions": "media/videos/x-2124612229253435558.vtt",
+      "duration": 34.55,
+      "transcript": "Android 17, running inside an iPhone app Nestvane is a new open-source project that runs a full Android 17 system inside an ordinary iOS app, with no JIT and no jailbreak. iOS bans executable memory, so Android is translated ahead of time and paired with a Linux kernel layer written for the app. On an iPhone 17 Pro it reaches the home screen in about ten seconds and plays 720p video at 30 frames per second. It's developer-only for now. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:17:16Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124624646452461957",
+      "feedId": "x:2124624646452461957",
+      "title": "iOS 27's Connectivity Assist uses cellular data when Wi-Fi is weak or unusable",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "url": "https://x.com/9to5mac/status/2124624646452461957",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a0c50b101ed082429b7fce3c5aff5bfad38ebc3c/x-2124624646452461957.mp4",
+      "poster": "media/videos/x-2124624646452461957.jpg",
+      "captions": "media/videos/x-2124624646452461957.vtt",
+      "duration": 29.54,
+      "transcript": "iOS 27 fixes the weak Wi-Fi trap iOS 27 adds Connectivity Assist, which notices when Wi-Fi is slow or unusable and uses cellular data to keep your iPhone connected. Think of leaving the house while your phone clings to weak home Wi-Fi. You'll find the toggle in Settings, under Wi-Fi. You can turn it off for specific networks, it isn't used while roaming or in Low Data Mode, and it may use more cellular data. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:16:05Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50606408",
+      "feedId": "hn:50606408",
+      "title": "Hammerspoon 2 beta: the macOS automation tool is rewritten to use JavaScript instead of Lua",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://www.hammerspoon.org/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@03125e01799a158c5f32c71c24fec1a2dc3771b5/hn-50606408.mp4",
+      "poster": "media/videos/hn-50606408.jpg",
+      "captions": "media/videos/hn-50606408.vtt",
+      "duration": 35.03,
+      "transcript": "Hammerspoon drops Lua for JavaScript Hammerspoon, the power-user automation tool for macOS, has released the first beta of version 2, a ground-up rewrite. You now script it in JavaScript on JavaScriptCore, the same engine Safari uses, to control windows, hotkeys, screens, audio, Wi-Fi, Shortcuts and more. It needs macOS 27, installs as a separate app with its own config so Hammerspoon 1 can stay, and ships getting-started and migration guides. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:14:58Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50607261",
+      "feedId": "hn:50607261",
+      "title": "xnulinux runs the macOS kernel as a Linux module and boots the full macOS desktop",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@3d8cc0b015f576a1f90064c0edcc7c1b10c9d9be/hn-50607261.mp4",
+      "poster": "media/videos/hn-50607261.jpg",
+      "captions": "media/videos/hn-50607261.vtt",
+      "duration": 38.61,
+      "transcript": "The macOS kernel, loaded as a Linux module xnulinux builds XNU, the open-source macOS kernel, from Apple's sources and loads it as a kernel module inside an unmodified arm64 Linux. On a stock Ubuntu kernel, one insmod boots a macOS 27 disk all the way to the desktop, with Finder, the Dock, Safari and Chrome. There's no hypervisor. macOS processes run natively beside Linux ones, while a small module lends XNU Linux's memory, files, network and GPU. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:14:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50609685",
+      "feedId": "hn:50609685",
+      "title": "GLM-5.4 is Z.ai's first flagship Loop Transformer, reusing shared layers for deeper reasoning",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://z.ai/blog/glm-5.4",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@3c578403faac61acf9945fd9a9e8a7d24e0dc103/hn-50609685.mp4",
+      "poster": "media/videos/hn-50609685.jpg",
+      "captions": "media/videos/hn-50609685.vtt",
+      "duration": 36.83,
+      "transcript": "A 750B model that thinks like 3 trillion Z.ai's GLM-5.4 is its first flagship built on a Loop Transformer, where a shared block of layers runs more than once per forward pass. It loops 28 layers of the GLM-5 base model for two iterations, and Z.ai says the result performs like models with two to three trillion parameters. A hybrid KV cache means the extra loop costs only one sliding window of memory, even at a million tokens. Its weakness: overly long marathon thinking. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:13:16Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124821529309667810",
+      "feedId": "x:2124821529309667810",
+      "title": "Homelab build hangs four 32 GB V100s off a Lenovo mini PC for 128 GB of VRAM",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "url": "https://x.com/tomshardware/status/2124821529309667810",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7e6eea919a6b4da415aceb9f812bad22b73394cf/x-2124821529309667810.mp4",
+      "poster": "media/videos/x-2124821529309667810.jpg",
+      "captions": "media/videos/x-2124821529309667810.vtt",
+      "duration": 37.55,
+      "transcript": "128 GB of VRAM on a tiny PC A homelabber hung four used 32 gigabyte Nvidia V100 cards off a tiny Lenovo M720q mini PC, for 128 gigabytes of video memory. A PCIe switch card fans out to four OCuLink cables. A solder bridge on the riser and coreboot got past a BIOS that only booted two cards. The build hits about 285 tokens per second in total on Qwen 3.8 27B, for roughly 3,500 dollars. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:12:10Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-gabriels-horn",
+      "feedId": "reading:abakcus-gabriels-horn",
+      "title": "Gabriel's Horn: a solid with finite volume and infinite surface area",
+      "source": "Reading",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "url": "https://abakcus.com/articles/gabriels-horn",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2c4272e66169f1387dbe617f65d11f96107a8f26/reading-abakcus-gabriels-horn.mp4",
+      "poster": "media/videos/reading-abakcus-gabriels-horn.jpg",
+      "captions": "media/videos/reading-abakcus-gabriels-horn.vtt",
+      "duration": 32.11,
+      "transcript": "Fill it with paint, never paint it Take the curve y equals one over x, start at x equals one, and spin it around the axis. You get a horn that narrows forever. Its volume is exactly pi, just over three cubic units, yet its surface area is infinite. A finite tin fills it, but no amount paints it. Known as Torricelli's trumpet, the paradox has unsettled people for nearly four centuries, and Abakcus tells its story. Full story on the dashboard.",
+      "createdAt": "2026-11-23T13:11:30Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50594132",
       "feedId": "hn:50594132",
       "title": "PcapAnalyzer: a self-hosted packet-capture analyzer with 27 problem detectors",
