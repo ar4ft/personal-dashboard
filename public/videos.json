@@ -2,6 +2,24 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50616933",
+      "feedId": "hn:50616933",
+      "title": "Apple removed my open-source app from EU App Stores after 9 years",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@72c1975c8f4d533063493440c8d0a0e23b9557f5/hn-50616933.mp4",
+      "poster": "media/videos/hn-50616933.jpg",
+      "captions": "media/videos/hn-50616933.vtt",
+      "duration": 32.11,
+      "transcript": "Apple removed a nine-year-old open-source app. FSNotes, an open-source note-taking app, was removed from Apple's EU App Stores after nine years on sale. Its developer has written up what happened in a public discussion on GitHub, and how the removal unfolded after nearly a decade in the store. For indie developers it is a sharp reminder that even a long-standing app can disappear from the store overnight, for anyone shipping software on someone else's platform. Full story on the dashboard.",
+      "createdAt": "2026-11-23T23:37:44Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50584526",
       "feedId": "hn:50584526",
       "title": "Elixir HLS compiles Elixir functions into FPGA circuits",
