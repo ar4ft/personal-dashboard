@@ -53877,6 +53877,249 @@
       ],
       "createdAt": "2026-11-24T14:30:00Z",
       "content": "## How it works\n\nA small background agent watches the folders where documents land. Each new PDF or image is parsed on the CPU with LiteParse and OCRia-nano-1, which returns text, tables and layout in well under a second per page. A few simple rules plus a small local classifier label the document type and pull key fields, like the total and date on a receipt or the title and authors of a paper, and BasicClips-style typed cards show them in a menu bar window. Everything goes into a local SQLite full-text index that Spotlight and Shortcuts can query, and tables can be exported to CSV.\n\n```mermaid\nflowchart LR\n  Folders[Downloads and Screenshots] --> Watch[FSEvents watcher]\n  Watch --> Parse[LiteParse with OCRia-nano-1]\n  Parse --> Type[Type and key fields]\n  Type --> Index[SQLite full-text index]\n  Index --> UI[Menu bar cards]\n  Index --> Export[CSV and Shortcuts]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Watcher | FSEvents in Swift |\n| Parsing | LiteParse with OCRia-nano-1 on CPU, Apple Vision as fallback |\n| Classification | Rules plus a small local text classifier |\n| Storage | SQLite with FTS5 |\n| UI | SwiftUI MenuBarExtra, Core Spotlight, App Intents |\n\n## Hard parts\n\n- Bundling a Python parser inside a notarized Mac app, or porting the ONNX models to Swift.\n- Avoiding battery drain when hundreds of files land at once.\n- Reliable field extraction across very different receipt and invoice layouts.\n- Respecting the model's Open RAIL-M license terms if you ever sell the app.\n\n## Effort\n\nA weekend for the watcher and index prototype; three to four weeks for typed cards, Spotlight and a signed build.\n\n## Inspired by\n\n- [OCRia-nano-1 post on X](https://x.com/jerryjliu0/status/2124909031999553926)\n- [LiteParse on GitHub](https://github.com/run-llama/liteparse)\n- [BasicClips post on X](https://x.com/BasicAppleGuy/status/2124928191215419691)\n- [BasicClips on the App Store](https://apps.apple.com/app/basicclips/id6781124119)"
+    },
+    {
+      "id": "hn:50624497",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "2035 came early",
+      "description": "An essay arguing that developments once expected by 2035 have already arrived, years ahead of schedule.",
+      "content": "An essay arguing that developments once expected by 2035 have already arrived, years ahead of schedule.\n\n[Read the article](https://fzakaria.com/2026/11/23/2035-came-early)\n\n[HN discussion](https://news.ycombinator.com/item?id=50624497)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "setheron",
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "createdAt": "2026-11-24T06:30:33Z",
+      "updatedAt": "2026-11-24T06:30:33Z"
+    },
+    {
+      "id": "hn:50627340",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LLM agents work for their parent companies, not for you",
+      "description": "LLM agents are built to serve the interests of the companies that deploy them, not the users who talk to them.",
+      "content": "LLM agents are built to serve the interests of the companies that deploy them, not the users who talk to them.\n\n[Read the article](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50627340)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "surprisetalk",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "createdAt": "2026-11-24T12:40:15Z",
+      "updatedAt": "2026-11-24T12:40:15Z"
+    },
+    {
+      "id": "hn:50625384",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Quad9 pulled their DNS service from France",
+      "description": "Quad9 has withdrawn its DNS service from France.",
+      "content": "Quad9 has withdrawn its DNS service from France.\n\n[Read the article](https://quad9.net/news/blog/quad9-service-deactivation-in-france/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50625384)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "farrokhi",
+      "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
+      "createdAt": "2026-11-24T08:33:14Z",
+      "updatedAt": "2026-11-24T08:33:14Z"
+    },
+    {
+      "id": "hn:50633922",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ternary Bonsai 2.5 27B",
+      "description": "A new 27-billion-parameter ternary model, Bonsai 2.5, from Prism ML.",
+      "content": "A new 27-billion-parameter ternary model, Bonsai 2.5, from Prism ML.\n\n[Read the article](https://prismml.com/news/bonsai-2-5-27b)\n\n[HN discussion](https://news.ycombinator.com/item?id=50633922)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "b0m",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "createdAt": "2026-11-24T20:08:03Z",
+      "updatedAt": "2026-11-24T20:08:03Z"
+    },
+    {
+      "id": "hn:50629231",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A training engine for your local model, using your idle compute",
+      "description": "Songe is a training engine that lets you train local models using idle compute.",
+      "content": "Songe is a training engine that lets you train local models using idle compute.\n\n[Read the article](https://github.com/sous-labs/songe)\n\n[HN discussion](https://news.ycombinator.com/item?id=50629231)\n\n[Repo on GitHub](https://github.com/sous-labs/songe)",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "bluepeter",
+      "url": "https://github.com/sous-labs/songe",
+      "createdAt": "2026-11-24T15:03:40Z",
+      "updatedAt": "2026-11-24T15:03:40Z"
+    },
+    {
+      "id": "hn:50629962",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The KL Divergence Is Never Negative, Except in PyTorch",
+      "description": "An exploration of why KL divergence can come out negative in PyTorch, despite the mathematics saying it never should.",
+      "content": "An exploration of why KL divergence can come out negative in PyTorch, despite the mathematics saying it never should.\n\n[Read the article](https://arxiv.org/abs/2611.30835)\n\n[HN discussion](https://news.ycombinator.com/item?id=50629962)",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Anon84",
+      "url": "https://arxiv.org/abs/2611.30835",
+      "createdAt": "2026-11-24T15:50:22Z",
+      "updatedAt": "2026-11-24T15:50:22Z"
+    },
+    {
+      "id": "hn:50634658",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "description": "OpenAI reports that GPT-6 models show intrinsic capabilities in protein design.",
+      "content": "OpenAI reports that GPT-6 models show intrinsic capabilities in protein design.\n\n[Read the article](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50634658)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "createdAt": "2026-11-24T21:02:22Z",
+      "updatedAt": "2026-11-24T21:02:22Z"
+    },
+    {
+      "id": "hn:50630462",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Jetty Pro",
+      "description": "John Siracusa introduces Jetty Pro, a Mac app that creates customizable Dock-like floating palettes and can replace the Dock entirely, built over three and a half months with the help of AI coding agents.",
+      "content": "John Siracusa introduces Jetty Pro, a Mac app that creates customizable Dock-like floating palettes and can replace the Dock entirely, built over three and a half months with the help of AI coding agents.\n\n[Read the article](http://hypercritical.co/2026/11/23/jetty-pro)\n\n[HN discussion](https://news.ycombinator.com/item?id=50630462)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "zdw",
+      "url": "http://hypercritical.co/2026/11/23/jetty-pro",
+      "createdAt": "2026-11-24T16:23:02Z",
+      "updatedAt": "2026-11-24T16:23:02Z"
+    },
+    {
+      "id": "hn:50631157",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+      "description": "Microsoft declared a \"Code Red\" internally after a historic outage, according to internal memos.",
+      "content": "Microsoft declared a \"Code Red\" internally after a historic outage, according to internal memos.\n\n[Read the article](https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50631157)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "thm",
+      "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+      "createdAt": "2026-11-24T17:07:41Z",
+      "updatedAt": "2026-11-24T17:07:41Z"
+    },
+    {
+      "id": "hn:50599458",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How a Mechanical Watch Keeps Time (Interactive 3D)",
+      "description": "An interactive 3D explainer of how a mechanical watch keeps time.",
+      "content": "An interactive 3D explainer of how a mechanical watch keeps time.\n\n[Read the article](https://martincmartin.github.io/slidev-stem/watches/article/1/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50599458)",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "martincmartin",
+      "url": "https://martincmartin.github.io/slidev-stem/watches/article/1/",
+      "createdAt": "2026-11-22T13:21:25Z",
+      "updatedAt": "2026-11-22T13:21:25Z"
+    },
+    {
+      "id": "reading:abakcus-free-physics-textbooks",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Free Physics Textbooks from Universities and Physicists",
+      "description": "A list of 223 free physics textbooks and lecture notes from universities and physicists, from first-year physics to string theory, sorted by subject, level and kind.",
+      "content": "A list of 223 free physics textbooks and lecture notes from universities and physicists, from first-year physics to string theory, sorted by subject, level and kind.\n\n[Read the article](https://abakcus.com/book-lists/free-physics-textbooks)",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/book-lists/free-physics-textbooks",
+      "createdAt": "2026-10-01T00:00:00Z",
+      "updatedAt": "2026-10-01T00:00:00Z"
+    },
+    {
+      "id": "reading:medium-xcode-keyboard-shortcuts-11-practical-navigation-tips-5635d64fdf2e",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Xcode Keyboard Shortcuts: 11 Practical Navigation Tips",
+      "description": "Eleven practical Xcode keyboard shortcuts for faster navigation.",
+      "content": "Eleven practical Xcode keyboard shortcuts for faster navigation.\n\n[Read the article](https://halilozel1903.medium.com/xcode-keyboard-shortcuts-11-practical-navigation-tips-5635d64fdf2e?source=rss------ios-5)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://halilozel1903.medium.com/xcode-keyboard-shortcuts-11-practical-navigation-tips-5635d64fdf2e?source=rss------ios-5",
+      "createdAt": "2026-11-24T12:21:05Z",
+      "updatedAt": "2026-11-24T12:21:05Z",
+      "author": "Halil Özel"
+    },
+    {
+      "id": "reading:medium-the-string-concatenation-loop-that-destroys-performance-o-n-c2-b2-complexity-in-disguise-ecfe1532f5a8",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The String Concatenation Loop That Destroys Performance (O(N²) Complexity in Disguise)",
+      "description": "Why building strings in a loop can hide O(N²) complexity and quietly destroy performance.",
+      "content": "Why building strings in a loop can hide O(N²) complexity and quietly destroy performance.\n\n[Read the article](https://python.plainenglish.io/the-string-concatenation-loop-that-destroys-performance-o-n%C2%B2-complexity-in-disguise-ecfe1532f5a8?source=rss------programming-5)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://python.plainenglish.io/the-string-concatenation-loop-that-destroys-performance-o-n%C2%B2-complexity-in-disguise-ecfe1532f5a8?source=rss------programming-5",
+      "createdAt": "2026-11-24T22:40:15Z",
+      "updatedAt": "2026-11-24T22:40:15Z",
+      "author": "Zayd Islam"
+    },
+    {
+      "id": "reading:wired-ai-agents-can-get-honeypotted-too-aw",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+      "description": "Anthropic built a honeypot to lure AI agents into misbehaving, to study how they go wrong.",
+      "content": "Anthropic built a honeypot to lure AI agents into misbehaving, to study how they go wrong.\n\n[Read the article](https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Reading",
+      "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+      "createdAt": "2026-11-24T16:00:00Z",
+      "updatedAt": "2026-11-24T16:00:00Z",
+      "author": "Will Knight"
     }
   ]
 }
