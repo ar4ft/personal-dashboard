@@ -1,0 +1,23 @@
+{
+  "hook": "Is falling perplexity just more code in training?",
+  "hookText": "Perplexity against what?",
+  "beats": [
+    {
+      "say": "OpenAI published a chart of its models' perplexity dropping over time, pitching perplexity as a universal measure of intelligence. A footnote reveals it was measured on a fixed corpus of code.",
+      "visual": 0
+    },
+    {
+      "say": "Blogger micjm found a paper that trained the same 160 million parameter model on five data mixes, varying only how much was code.",
+      "visual": 1,
+      "stat": "160M",
+      "statLabel": "parameter model"
+    },
+    {
+      "say": "With 75 percent code, perplexity on code fell, but on non-code text it rose sharply. The point: the chart needs far more qualification.",
+      "visual": 0,
+      "stat": "75%",
+      "statLabel": "of training data was code"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

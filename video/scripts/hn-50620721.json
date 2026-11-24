@@ -1,0 +1,19 @@
+{
+  "hook": "The iPod nano 5G, freed to boot Rockbox",
+  "hookText": "iPod nano 5G freed",
+  "beats": [
+    {
+      "say": "Viktor Krapivin built a fully untethered boot chain for the iPod nano 5G. It loads Rockbox straight from the player's flash, with no computer or button sequence after installation.",
+      "visual": 0
+    },
+    {
+      "say": "Earlier tricks needed a computer every boot. He adapted ipod_sun, a font-based exploit that CUB3D first showed on the nano 6G and 7G, which pairs a resource-validation bypass with a font-parser bug.",
+      "visual": 1
+    },
+    {
+      "say": "The result is a cold, battery-powered boot into Rockbox. He also made the exploit untethered on the nano 7G, and likely the 6G too.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

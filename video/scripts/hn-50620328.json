@@ -1,0 +1,21 @@
+{
+  "hook": "This model knows when thoughts were planted",
+  "hookText": "Latent introspection",
+  "beats": [
+    {
+      "say": "A new paper shows a Qwen 32B model can detect when a concept was injected into its earlier context, and identify which one.",
+      "visual": 0
+    },
+    {
+      "say": "The model denies it in its answers, but logit lens analysis finds clear detection signals in the residual stream, fading in the final layers.",
+      "visual": 1
+    },
+    {
+      "say": "Telling the model accurately how AI introspection works boosts sensitivity from 0.3 to 39.9 percent, with only a 0.6 percent rise in false positives.",
+      "visual": 2,
+      "stat": "39.9%",
+      "statLabel": "injection sensitivity"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

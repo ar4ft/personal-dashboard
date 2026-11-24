@@ -1,0 +1,21 @@
+{
+  "hook": "A lock-free index that still does range scans",
+  "hookText": "Arctic: lock-free radix tree",
+  "beats": [
+    {
+      "say": "Researchers from UT Austin and ETH Zurich built Arctic, a lock-free adaptive radix tree. They say no index before offered high performance, lock freedom and range scans together.",
+      "visual": 0
+    },
+    {
+      "say": "A freezing-based coordination protocol keeps it non-blocking, and a new memory reclamation scheme uses operation keys to approximate reachable pointers.",
+      "visual": 1
+    },
+    {
+      "say": "Swapped in for the default skiplists, it raised write-heavy throughput by up to 40 percent in RocksDB and 12 percent in Turso.",
+      "visual": 0,
+      "stat": "40%",
+      "statLabel": "RocksDB throughput gain"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

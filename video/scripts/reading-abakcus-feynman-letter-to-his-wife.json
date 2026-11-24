@@ -1,0 +1,21 @@
+{
+  "hook": "The love letter Feynman wrote, and never sent",
+  "hookText": "Feynman's unsent letter",
+  "beats": [
+    {
+      "say": "Richard Feynman married Arline Greenbaum in 1942, though lymphatic tuberculosis was expected to kill her within two years.",
+      "visual": 3,
+      "stat": "1942",
+      "statLabel": "year they married"
+    },
+    {
+      "say": "He worked at Los Alamos while she lay in a sanatorium in Albuquerque. On June 16, 1945, she died at 9:21 in the evening.",
+      "visual": 4
+    },
+    {
+      "say": "A year and a half later he wrote her a love letter and never sent it because, as he put it, he did not know her new address.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

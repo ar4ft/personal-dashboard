@@ -1,0 +1,21 @@
+{
+  "hook": "Tuist 4.218 brings coverage to Rust crates",
+  "hookText": "Tuist 4.218",
+  "beats": [
+    {
+      "say": "Version 4.218 of Tuist is out today. The tuist cargo command now reports code coverage, scoped to your own crates rather than every dependency.",
+      "visual": 0,
+      "stat": "4.218",
+      "statLabel": "Tuist release"
+    },
+    {
+      "say": "Tuist share can now attach an icon to executable previews, a small but welcome touch for the previews it shares.",
+      "visual": 1
+    },
+    {
+      "say": "You can sign in with workload identities, so there is no token to manage, and shard downloads now resume after an interruption instead of starting over.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

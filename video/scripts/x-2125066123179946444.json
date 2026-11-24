@@ -1,0 +1,21 @@
+{
+  "hook": "Turn any SVG into a spinning gold coin",
+  "hookText": "Minted for SwiftUI",
+  "beats": [
+    {
+      "say": "Minted is a free, MIT-licensed SwiftUI component that turns SVG artwork into a three-dimensional gold medal, built for things like achievement badges and commemorative coins.",
+      "visual": 0
+    },
+    {
+      "say": "It offers four coin shapes, can engrave text, and can even make coins from images. You do not need to prepare any 3D model at all.",
+      "visual": 1,
+      "stat": "4",
+      "statLabel": "coin shapes"
+    },
+    {
+      "say": "Geometry is generated from your 2D paths, with enamel inlays, studio reflections and spins, so your app ships zero model files.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

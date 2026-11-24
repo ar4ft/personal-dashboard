@@ -1,0 +1,23 @@
+{
+  "hook": "An AI proved this speedrun can never be beaten",
+  "hookText": "A proven-optimal speedrun",
+  "beats": [
+    {
+      "say": "Speedrunners beat the PICO-8 platformer Celeste Classic in 2,843 frames. Harmonic's Aristotle proved no one will ever do better.",
+      "visual": 0,
+      "stat": "2,843",
+      "statLabel": "frames, proven optimal"
+    },
+    {
+      "say": "It translated the game into Lean, a formal verification language, then pruned the search. In the hardest room it checked about 224 million states, over 100 orders of magnitude fewer than brute force.",
+      "visual": 3
+    },
+    {
+      "say": "In a one-dash category, it beat the 2,941-frame record with a 2,937-frame run, and proved that optimal too.",
+      "visual": 4,
+      "stat": "2,937",
+      "statLabel": "frames, one-dash record"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

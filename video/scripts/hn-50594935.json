@@ -1,0 +1,21 @@
+{
+  "hook": "Flip the derivative, shrink the math",
+  "hookText": "Derivative flipping",
+  "beats": [
+    {
+      "say": "Dan Piponi, the blogger known as sigfpe, offers a new way to think about automatic differentiation, inspired by Brzozowski derivatives for regular expression matching.",
+      "visual": 0
+    },
+    {
+      "say": "He pairs two polynomials, using one as a differential operator on the other. The pairing is symmetric, so a complicated operator can act on a simple expression instead.",
+      "visual": 1
+    },
+    {
+      "say": "Intermediate results stay small: computing a 2D Laplacian needs only 4 tracked coefficients, not a full Hessian, and the idea extends to other constant differential operators.",
+      "visual": 0,
+      "stat": "4",
+      "statLabel": "coefficients for a 2D Laplacian"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

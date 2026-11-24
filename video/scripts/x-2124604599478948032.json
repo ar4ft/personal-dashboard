@@ -1,0 +1,21 @@
+{
+  "hook": "Give your Mac app a truly custom About window",
+  "hookText": "Custom About window",
+  "beats": [
+    {
+      "say": "Every macOS app gets a default About panel showing the icon, name, version and build number. Nil Coalescing shows how to replace it entirely.",
+      "visual": 0
+    },
+    {
+      "say": "Since macOS 13, the Window scene and the openWindow environment value let you build a fully custom About window with standard SwiftUI APIs.",
+      "visual": 1,
+      "stat": "13",
+      "statLabel": "macOS version required"
+    },
+    {
+      "say": "You override the app info command placement with a new command group, so the About item in the app menu opens your own window with the version, copyright and a developer website link.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

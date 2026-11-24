@@ -1,0 +1,21 @@
+{
+  "hook": "A sandboxed app with no network still got online",
+  "hookText": "Sandbox network detour",
+  "beats": [
+    {
+      "say": "Researcher Tony Gorez found a sandboxed iOS or macOS app without network access can ask Apple's nsattributedstringagent service to fetch web content for it.",
+      "visual": 0
+    },
+    {
+      "say": "The service accepts every caller and renders HTML with WebKit, downloading whatever the markup points to. A test pulled back 9,300 bytes of JPEG.",
+      "visual": 1,
+      "stat": "9,300",
+      "statLabel": "bytes fetched"
+    },
+    {
+      "say": "He filed two reports with Apple in March 2026. Apple classed it as hardening rather than a vulnerability, and credited him in its September 2026 Safari and WebKit update.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
