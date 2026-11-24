@@ -53717,6 +53717,166 @@
       "createdAt": "2026-11-24T00:00:00Z",
       "updatedAt": "2026-11-24T00:00:00Z",
       "status": "inbox"
+    },
+    {
+      "id": "x:2124909031999553926",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "LlamaIndex releases OCRia-nano-1, an 8.1M-parameter open-weight OCR model that runs on CPU",
+      "description": "OCRia-nano-1 bundles seven tiny document models (text recognition, table structure, layout) into LiteParse and parses a page in about 426 ms on one CPU core, with no GPU, and LlamaIndex says it beats Marker, PP-OCRv6 tiny and Tesseract on tables and layout.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Jerry Liu (@jerryjliu0)",
+      "url": "https://x.com/jerryjliu0/status/2124909031999553926",
+      "createdAt": "2026-11-23T16:52:46Z",
+      "updatedAt": "2026-11-23T16:52:46Z",
+      "content": "LiteParse reads the native text layer of digital PDFs first and only runs Nano's OCR where text is missing, then recovers tables and layout and outputs Markdown, JSON with bounding boxes, or plain text. LlamaIndex reports 59.2 overall on its ParseBench-2 benchmark and 27.8 pages per second with 16 single-core workers, about twice the throughput of LiteParse's default Tesseract setup. It covers Latin, CJK, right-to-left and other scripts but has no chart model, so charts stay as images. Install with `pip install liteparse`, `lit models pull ocria-nano`, then `lit parse doc.pdf --format markdown`. The weights use a modified Open RAIL-M license; LiteParse itself is Apache 2.0.\n\n[LiteParse on GitHub](https://github.com/run-llama/liteparse)\n\n[Weights on Hugging Face](https://huggingface.co/llamaindex/OCRia-nano-1)\n\n[LlamaIndex announcement](https://www.llamaindex.ai/blog/introducing-ocria-nano-1)\n\n[Post on X](https://x.com/jerryjliu0/status/2124909031999553926)"
+    },
+    {
+      "id": "x:2124953436055564594",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Atomic Engine runs Inkling 2 Mini about 3x faster than llama.cpp on Apple silicon",
+      "description": "Atomic Chat's open-source Atomic Engine, a llama.cpp fork, pairs Inkling 2 Mini with a small DSpark draft model and reports 122 tokens/s on an M5 Max versus about 40 with stock llama.cpp, and it can stream MoE expert weights from the SSD to roughly halve RAM use.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "atomic.chat (@atomic_chat_hq)",
+      "url": "https://x.com/atomic_chat_hq/status/2124953436055564594",
+      "createdAt": "2026-11-23T19:49:13Z",
+      "updatedAt": "2026-11-23T19:49:13Z",
+      "content": "You set a memory budget, and model weights, session state and compute buffers share it; expert weights are streamed from the original GGUF as needed, and the repeatedly used core layers are kept in memory. The README's documented Mac profile uses an IQ2_M quant (8.67 GB) plus a 504 MB Q8_0 drafter and measured 105.71 tokens/s on a 48 GB M4 Max with a 14 GiB budget; the 122 tokens/s M5 Max figure is from the announcement. It builds with CMake and Metal from the Xcode command line tools and exposes an OpenAI-compatible server. It is a developer preview under the MIT license.\n\n[Atomic Engine on GitHub](https://github.com/AtomicBot-ai/atomic-engine)\n\n[Inkling 2 Mini GGUF on Hugging Face](https://huggingface.co/AtomicChat/Inkling-2-Mini-GGUF)\n\n[Post on X](https://x.com/atomic_chat_hq/status/2124953436055564594)"
+    },
+    {
+      "id": "x:2124968547369763040",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "agent-sim runs Apple's iOS simulator on a Linux VM with no Mac and no GPU, for AI agents",
+      "description": "Armaan Jain open-sourced agent-sim, which boots Apple's iOS simulator runtime on an x86-64 Ubuntu VM via x86Sim and gives agents a CLI and MCP server to install an .ipa, read the screen as text, tap, type and scroll.",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Armaan Jain (@Armaan_Jain123)",
+      "url": "https://x.com/Armaan_Jain123/status/2124968547369763040",
+      "createdAt": "2026-11-23T20:49:16Z",
+      "updatedAt": "2026-11-23T20:49:16Z",
+      "content": "agent-sim builds on the GPL x86Sim project, which translates the arm64 simulator runtime to x86-64 and draws Metal with Vulkan or software rendering; agent-sim adds the agent side. `agent-sim snapshot` prints the accessibility tree (including SpringBoard and web content) as numbered elements, `agent-sim tap @e2` acts on one, and every MCP action returns the next screen. Setup takes about half an hour and needs 8+ CPUs, 16 GB RAM and 60 GB of disk, it downloads the 8 GB iOS runtime from Apple, and boots take 12 to 30 seconds; three phones fit on one VM. It is early, with no XCUITest support yet, and Apple's licensing for running its simulator off a Mac is an open question. Apache 2.0.\n\n[agent-sim on GitHub](https://github.com/Developing-Gamer/agent-sim)\n\n[x86Sim on GitHub](https://github.com/x86sim/x86sim)\n\n[Post on X](https://x.com/Armaan_Jain123/status/2124968547369763040)"
+    },
+    {
+      "id": "x:2125112745301582312",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "mobile-agent-testers: Claude Code agents beta-test your app on iOS Simulators and Android emulators in GitHub Actions",
+      "description": "pierridotite's open-source workflow gives each Claude Code agent its own simulator or emulator and a persona, such as an iPhone SE in Swedish at the largest text size, then files bug reports with numbered screenshots; four agents found 9 of 11 planted bugs for $0.87.",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Jurly (@jurlycat)",
+      "url": "https://x.com/jurlycat/status/2125112745301582312",
+      "createdAt": "2026-11-24T06:22:15Z",
+      "updatedAt": "2026-11-24T06:22:15Z",
+      "content": "It runs on GitHub's free runners for public repos, so you only pay for model usage, about $0.15 to $0.55 per phone in the published runs. Modes include exploring like a new user, driving one feature end to end, reproducing a bug report on every device, writing an improvement report and comparing two builds. On LocalSend, 20 agents on 10 Android and 10 iOS devices in 14 languages reported 46 distinct bugs in 69 minutes for $4.62. It supports Flutter, React Native, Expo, native Swift and Kotlin and more, can use cheaper Anthropic-compatible models, and is MIT licensed.\n\n[mobile-agent-testers on GitHub](https://github.com/pierridotite/mobile-agent-testers)\n\n[Post on X](https://x.com/jurlycat/status/2125112745301582312)"
+    },
+    {
+      "id": "x:2124928191215419691",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "BasicClips: a link library for iPhone, iPad and Mac that recognizes what you saved",
+      "description": "Basic Apple Guy's new app turns a pasted or shared link into a typed card (recipe, paper, repo, listing, post and more) using 31 source-specific readers, with no account, ads or tracking and sync through your own iCloud.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Basic Apple Guy (@BasicAppleGuy)",
+      "url": "https://x.com/BasicAppleGuy/status/2124928191215419691",
+      "createdAt": "2026-11-23T18:08:54Z",
+      "updatedAt": "2026-11-23T18:08:54Z",
+      "content": "Capture works from the share sheet, by pasting a URL, or by dragging in links, images, PDFs and files, and Shortcuts actions (Save Clip, Find Clips, Recent Clips) plus Spotlight indexing are built in. On supported devices it can make a short on-device Apple Intelligence summary of a saved article. It has folders, tags, pins, full-text search, a calendar of what you saved each day, themes, and JSON export of the whole library. It is free, requires iOS 26 or macOS 26, and the developer says the only network requests go to the saved page and public key-free services.\n\n[BasicClips on the App Store](https://apps.apple.com/app/basicclips/id6781124119)\n\n[Post on X](https://x.com/BasicAppleGuy/status/2124928191215419691)"
+    },
+    {
+      "id": "x:2125091798477664537",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SidePulse Dot: a tiny USB-C light that shows what your coding agents are doing",
+      "description": "Peter Kuhar's SidePulse Dot is a 3D-printed USB-C plug with two programmable RGB LEDs that shows whether Claude or Codex agents are working, need input or are done, on a Mac, a Linux or Windows PC, or a USB-C iPhone.",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "Peter Kuhar (@pkuhar)",
+      "url": "https://x.com/pkuhar/status/2125091798477664537",
+      "createdAt": "2026-11-24T04:59:01Z",
+      "updatedAt": "2026-11-24T04:59:01Z",
+      "content": "Dot mounts as a USB drive, so any script can drive it by writing a LEDS.LED file in a compact CSS-like animation language (for example a two-dot cyan ping-pong while an agent runs, solid green when done, red double blink when blocked). The Mac software adds automatic agent status, a MacBook battery display and lets the Mac sleep once agents finish. On an iPhone, the `sidepulse` CLI sends an animation as a push notification to the SidePulse app, which forwards it to the Dot over USB-C. It costs $29, discounted to $19.72 for Black Friday, and is a first batch for enthusiasts; a larger 8-LED SidePulse Pro fits the MacBook Pro SD slot.\n\n[SidePulse Dot website](https://sidepulse.io/dot)\n\n[Post on X](https://x.com/pkuhar/status/2125091798477664537)"
+    },
+    {
+      "id": "x:2125155322214158350",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TinyWifiDongle turns an ESP32-S3 or Raspberry Pi Pico W board into a driverless USB Wi-Fi adapter",
+      "description": "Phil Schatzmann's MIT-licensed Arduino library bridges a microcontroller's Wi-Fi to USB CDC-NCM, so Linux, macOS and Windows 11 see a network adapter without extra drivers; it reaches about 5 Mbps on an ESP32-S3 and 2 Mbps on a Pico 2 W.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "CNX Software (@cnxsoft)",
+      "url": "https://x.com/cnxsoft/status/2125155322214158350",
+      "createdAt": "2026-11-24T09:11:26Z",
+      "updatedAt": "2026-11-24T09:11:26Z",
+      "content": "The board forwards Ethernet frames at Layer 2 between USB and Wi-Fi, so the computer gets its own IP from the router via DHCP with no NAT. Credentials can be hard-coded with `dongle.begin(\"ssid\", \"password\")` or entered in a captive-portal setup page and stored in flash. It supports ESP32-S2/S3 with native USB-OTG and the Pico W and Pico 2 W; the original ESP32 and the C3/C6 lack USB device support, and ESP32-P4 support is experimental. The author notes occasional USB stalls on the ESP32-S3 after 100 to 200 MB and one unexplained Pico reboot, and Windows 10 needs an extra driver.\n\n[TinyWifiDongle on GitHub](https://github.com/pschatzmann/TinyWifiDongle)\n\n[CNX Software article](https://www.cnx-software.com/2026/11/24/tinywifidongle-arduino-library-turns-esp32-s3-and-raspberry-pi-pico-2-w-boards-into-usb-wifi-adapters/)\n\n[Post on X](https://x.com/cnxsoft/status/2125155322214158350)"
+    },
+    {
+      "id": "ideas:doc-parse-regression-cli",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "parsediff: a CLI that regression-tests document parsers on your own PDFs in CI",
+      "description": "A developer tool for backend and ML engineers who maintain RAG or document-ingestion pipelines: point it at a folder of your real PDFs and scans, run LiteParse with OCRia-nano-1, Tesseract or a VLM parser, and get a per-commit report of text, table and layout diffs, speed and cost, so a parser or model upgrade never silently breaks extraction.",
+      "nextStep": "Write a Python script that runs `lit parse --format json` with OCRia-nano-1 and with Tesseract on 20 of your own PDFs, then prints per-page text similarity, table cell counts and seconds per page side by side.",
+      "topics": [
+        "Programming",
+        "Machine Learning",
+        "AI"
+      ],
+      "createdAt": "2026-11-24T14:30:00Z",
+      "content": "## How it works\n\nYou keep a small golden set of documents that matter to you (invoices, contracts, scanned forms, papers) and, optionally, hand-checked expected output for a few pages. parsediff runs each configured parser over the set, normalizes the results to a common JSON shape (text blocks, tables as cell grids, bounding boxes), and compares them with the last accepted baseline: text edit distance, table structure changes, missing blocks, and pages per second. In CI it posts a short Markdown summary to the pull request and fails the job when accuracy drops past a threshold, so swapping Tesseract for OCRia-nano-1, or bumping a parser version, is a measured decision.\n\n```mermaid\nflowchart LR\n  Docs[Golden PDFs and scans] --> Run[Run parsers]\n  Run --> Norm[Normalize to JSON]\n  Norm --> Diff[Diff vs baseline]\n  Diff --> Report[PR summary]\n  Diff --> Gate[Pass or fail CI]\n  Report --> Accept[Accept new baseline]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| CLI | Python with Typer |\n| Parsers | LiteParse with OCRia-nano-1, Tesseract, optional local VLM |\n| Diffing | rapidfuzz for text, cell-grid compare for tables |\n| Storage | Baselines as JSON in the repo, Git LFS for large PDFs |\n| CI | GitHub Actions on a free CPU runner |\n\n## Hard parts\n\n- Aligning blocks and tables between parsers that segment pages differently.\n- Telling real regressions from harmless reordering or whitespace changes.\n- Keeping sensitive golden documents out of public CI logs.\n- Stable timing numbers on noisy shared runners.\n\n## Effort\n\nA weekend for a local two-parser comparison script; two to three weeks for baselines, thresholds and a GitHub Action.\n\n## Inspired by\n\n- [OCRia-nano-1 post on X](https://x.com/jerryjliu0/status/2124909031999553926)\n- [LiteParse on GitHub](https://github.com/run-llama/liteparse)\n- [OCRia-nano-1 weights on Hugging Face](https://huggingface.co/llamaindex/OCRia-nano-1)"
+    },
+    {
+      "id": "ideas:mac-local-ocr-inbox",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "A Mac inbox that reads every PDF and screenshot you save, fully offline",
+      "description": "For Mac users who save receipts, statements, papers and screenshots everywhere: a menu bar app watches Downloads, Desktop and Screenshots, parses each file locally with a tiny CPU OCR model, files it as a typed card (receipt, invoice, paper, ID) and makes tables and text searchable, without uploading anything.",
+      "nextStep": "Install LiteParse, pull OCRia-nano-1, and write a Swift script that uses FSEvents to watch ~/Downloads and shells out to `lit parse --format json` for each new PDF or PNG, saving the output to a SQLite file.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Machine Learning",
+        "AI"
+      ],
+      "createdAt": "2026-11-24T14:30:00Z",
+      "content": "## How it works\n\nA small background agent watches the folders where documents land. Each new PDF or image is parsed on the CPU with LiteParse and OCRia-nano-1, which returns text, tables and layout in well under a second per page. A few simple rules plus a small local classifier label the document type and pull key fields, like the total and date on a receipt or the title and authors of a paper, and BasicClips-style typed cards show them in a menu bar window. Everything goes into a local SQLite full-text index that Spotlight and Shortcuts can query, and tables can be exported to CSV.\n\n```mermaid\nflowchart LR\n  Folders[Downloads and Screenshots] --> Watch[FSEvents watcher]\n  Watch --> Parse[LiteParse with OCRia-nano-1]\n  Parse --> Type[Type and key fields]\n  Type --> Index[SQLite full-text index]\n  Index --> UI[Menu bar cards]\n  Index --> Export[CSV and Shortcuts]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Watcher | FSEvents in Swift |\n| Parsing | LiteParse with OCRia-nano-1 on CPU, Apple Vision as fallback |\n| Classification | Rules plus a small local text classifier |\n| Storage | SQLite with FTS5 |\n| UI | SwiftUI MenuBarExtra, Core Spotlight, App Intents |\n\n## Hard parts\n\n- Bundling a Python parser inside a notarized Mac app, or porting the ONNX models to Swift.\n- Avoiding battery drain when hundreds of files land at once.\n- Reliable field extraction across very different receipt and invoice layouts.\n- Respecting the model's Open RAIL-M license terms if you ever sell the app.\n\n## Effort\n\nA weekend for the watcher and index prototype; three to four weeks for typed cards, Spotlight and a signed build.\n\n## Inspired by\n\n- [OCRia-nano-1 post on X](https://x.com/jerryjliu0/status/2124909031999553926)\n- [LiteParse on GitHub](https://github.com/run-llama/liteparse)\n- [BasicClips post on X](https://x.com/BasicAppleGuy/status/2124928191215419691)\n- [BasicClips on the App Store](https://apps.apple.com/app/basicclips/id6781124119)"
     }
   ]
 }
