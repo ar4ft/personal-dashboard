@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.517
+Nil Coalescing
+
+00:00:01.624 --> 00:00:02.531
+build a fully
+
+00:00:02.343 --> 00:00:03.781
+custom About window
+
+00:00:04.302 --> 00:00:06.011
+Nil Coalescing reshared
+
+00:00:05.823 --> 00:00:07.238
+Natalia Panferova's
+
+00:00:07.050 --> 00:00:08.441
+guide to replacing
+
+00:00:08.264 --> 00:00:09.207
+a Mac app's
+
+00:00:09.019 --> 00:00:10.363
+default About panel
+
+00:00:10.186 --> 00:00:11.070
+with a custom
+
+00:00:10.882 --> 00:00:12.391
+SwiftUI Window scene
+
+00:00:12.616 --> 00:00:13.346
+opened from the
+
+00:00:13.158 --> 00:00:14.125
+app menu with
+
+00:00:13.960 --> 00:00:14.844
+openWindow
+
+00:00:15.382 --> 00:00:16.879
+Window and openWindow
+
+00:00:16.691 --> 00:00:18.318
+need macOS 13
+
+00:00:18.472 --> 00:00:19.202
+and some of
+
+00:00:19.014 --> 00:00:20.393
+the styling APIs
+
+00:00:20.205 --> 00:00:21.561
+need newer releases
+
+00:00:22.094 --> 00:00:23.143
+Design a custom
+
+00:00:22.955 --> 00:00:23.886
+About window for
+
+00:00:23.698 --> 00:00:25.443
+your SwiftUI macOS
+
+00:00:25.302 --> 00:00:25.773
+app
+
+00:00:25.797 --> 00:00:26.952
+with a personalized
+
+00:00:26.764 --> 00:00:27.341
+layout
+
+00:00:27.495 --> 00:00:29.086
+detailed app information
+
+00:00:29.111 --> 00:00:30.089
+and a styled
+
+00:00:29.901 --> 00:00:31.115
+background that fits
+
+00:00:30.927 --> 00:00:31.799
+your app’s look
+
+00:00:31.611 --> 00:00:32.388
+and feel
+
+00:00:32.910 --> 00:00:33.924
+Full story on
+
+00:00:33.735 --> 00:00:34.631
+the dashboard

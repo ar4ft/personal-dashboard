@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.092
+Arctic
+
+00:00:01.246 --> 00:00:02.567
+a practical lock-free
+
+00:00:02.378 --> 00:00:03.805
+adaptive radix tree
+
+00:00:04.326 --> 00:00:05.729
+UT Austin and
+
+00:00:05.623 --> 00:00:07.238
+ETH Zurich researchers
+
+00:00:07.050 --> 00:00:08.076
+present Arctic
+
+00:00:08.241 --> 00:00:09.467
+a lock-free adaptive
+
+00:00:09.279 --> 00:00:10.281
+radix tree that
+
+00:00:10.093 --> 00:00:11.425
+pairs high performance
+
+00:00:11.236 --> 00:00:12.392
+with range scans
+
+00:00:12.203 --> 00:00:13.500
+and beats lock-based
+
+00:00:13.312 --> 00:00:14.066
+indexes
+
+00:00:14.220 --> 00:00:15.375
+including a concurrent
+
+00:00:15.187 --> 00:00:16.024
+hash map
+
+00:00:16.154 --> 00:00:17.498
+on many YCSB
+
+00:00:17.309 --> 00:00:18.064
+setups
+
+00:00:18.598 --> 00:00:20.437
+Arctic guarantees non-blocking
+
+00:00:20.249 --> 00:00:21.876
+operation through careful
+
+00:00:21.688 --> 00:00:23.055
+metadata layout and
+
+00:00:22.879 --> 00:00:24.553
+a freezing-based coordination
+
+00:00:24.364 --> 00:00:25.154
+protocol
+
+00:00:25.343 --> 00:00:27.182
+and offers non-linearizable
+
+00:00:26.994 --> 00:00:28.385
+range and prefix
+
+00:00:28.197 --> 00:00:28.951
+scans
+
+00:00:29.486 --> 00:00:30.417
+Swapped in for
+
+00:00:30.229 --> 00:00:31.349
+the default skiplist
+
+00:00:31.161 --> 00:00:31.915
+indexes
+
+00:00:32.057 --> 00:00:33.059
+it raised throughput
+
+00:00:32.870 --> 00:00:34.356
+on write-heavy benchmarks
+
+00:00:34.179 --> 00:00:34.769
+by up to
+
+00:00:34.580 --> 00:00:36.537
+40% in RocksDB
+
+00:00:36.349 --> 00:00:37.693
+and 12% in
+
+00:00:37.505 --> 00:00:38.153
+Turso
+
+00:00:38.670 --> 00:00:39.684
+Full story on
+
+00:00:39.495 --> 00:00:40.391
+the dashboard

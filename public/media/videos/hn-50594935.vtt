@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.552
+sigfpe's Derivative
+
+00:00:01.364 --> 00:00:02.012
+flipping
+
+00:00:02.142 --> 00:00:03.569
+polynomial pairings
+
+00:00:03.381 --> 00:00:05.408
+for automatic differentiation
+
+00:00:05.934 --> 00:00:07.419
+Dan Piponi borrows
+
+00:00:07.231 --> 00:00:08.528
+the Brzozowski derivative
+
+00:00:08.340 --> 00:00:09.566
+idea from regex
+
+00:00:09.377 --> 00:00:10.462
+matching to define
+
+00:00:10.274 --> 00:00:11.594
+a polynomial pairing
+
+00:00:11.406 --> 00:00:12.231
+in Haskell
+
+00:00:12.766 --> 00:00:13.791
+It is symmetric
+
+00:00:13.686 --> 00:00:14.440
+so the roles
+
+00:00:14.252 --> 00:00:15.171
+can be swapped
+
+00:00:15.018 --> 00:00:16.398
+and intermediate results
+
+00:00:16.209 --> 00:00:17.105
+stay small
+
+00:00:17.330 --> 00:00:18.756
+a 2D Laplacian
+
+00:00:18.662 --> 00:00:19.853
+needs only 4
+
+00:00:19.665 --> 00:00:20.843
+tracked coefficients
+
+00:00:20.667 --> 00:00:21.457
+instead of the
+
+00:00:21.268 --> 00:00:22.141
+full Hessian
+
+00:00:22.670 --> 00:00:23.955
+The post generalizes
+
+00:00:23.767 --> 00:00:24.875
+the author's earlier
+
+00:00:24.686 --> 00:00:25.736
+Laplacian trick
+
+00:00:25.913 --> 00:00:27.068
+later optimized in
+
+00:00:26.880 --> 00:00:27.976
+folx and used
+
+00:00:27.788 --> 00:00:28.766
+for PINNs and
+
+00:00:28.578 --> 00:00:29.368
+VMC
+
+00:00:29.569 --> 00:00:31.219
+to any constant-coefficient
+
+00:00:31.031 --> 00:00:32.304
+differential operator
+
+00:00:32.293 --> 00:00:32.941
+such as the
+
+00:00:32.753 --> 00:00:33.837
+biharmonic
+
+00:00:34.350 --> 00:00:35.364
+Full story on
+
+00:00:35.175 --> 00:00:36.071
+the dashboard
