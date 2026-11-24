@@ -1,0 +1,20 @@
+{
+  "hook": "LlamaIndex releases OCRia-nano-1, an 8.1M-parameter open-weight OCR model",
+  "hookText": "LlamaIndex releases OCRia-nano-1, an 8.1M-parameter open-weight OCR model",
+  "beats": [
+    {
+      "say": "OCRia-nano-1 bundles seven tiny document models into LiteParse and parses a page in about 426 ms on one CPU core, with no GPU, and LlamaIndex says it beats Marker, PP-OCRv6 tiny and Tesseract on tables and layout.",
+      "visual": 1
+    },
+    {
+      "say": "LlamaIndex reports 59.2 overall on its ParseBench-2 benchmark and 27.8 pages per second with 16 single-core workers, about twice the throughput of LiteParse's default Tesseract setup.",
+      "visual": 2
+    },
+    {
+      "say": "The weights use a modified Open RAIL-M license; LiteParse itself is Apache 2.0.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

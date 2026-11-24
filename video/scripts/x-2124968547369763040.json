@@ -1,0 +1,22 @@
+{
+  "hook": "agent-sim runs Apple's iOS simulator on a Linux VM",
+  "hookText": "agent-sim runs Apple's iOS simulator on a Linux VM",
+  "beats": [
+    {
+      "say": "Armaan Jain open-sourced agent-sim, which boots Apple's iOS simulator runtime on an x86-64 Ubuntu VM via x86Sim and gives agents a CLI and MCP server to install an.ipa.",
+      "visual": 1
+    },
+    {
+      "say": "Setup takes about half an hour and needs 8+ CPUs, 16 GB RAM and 60 GB of disk, it downloads the 8 GB iOS runtime from Apple.",
+      "visual": 2,
+      "stat": "16 GB",
+      "statLabel": "ram"
+    },
+    {
+      "say": "It is early, with no XCUITest support yet, and Apple's licensing for running its simulator off a Mac is an open question.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

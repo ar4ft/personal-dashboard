@@ -1,0 +1,22 @@
+{
+  "hook": "SidePulse Dot: a tiny USB-C light",
+  "hookText": "SidePulse Dot: a tiny USB-C light",
+  "beats": [
+    {
+      "say": "Peter Kuhar's SidePulse Dot is a 3D-printed USB-C plug with two programmable RGB LEDs that shows whether Claude or Codex agents are working, need input or are done, on a Mac.",
+      "visual": 1
+    },
+    {
+      "say": "On an iPhone, the CLI sends an animation as a push notification to the SidePulse app, which forwards it to the Dot over USB-C.",
+      "visual": 2
+    },
+    {
+      "say": "It costs $29, discounted to $19.72 for Black Friday, and is a first batch for enthusiasts; a larger 8-LED SidePulse Pro fits the MacBook Pro SD slot.",
+      "visual": 0,
+      "stat": "$29,",
+      "statLabel": "discounted"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

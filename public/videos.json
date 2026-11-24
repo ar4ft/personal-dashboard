@@ -2,6 +2,132 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2124909031999553926",
+      "feedId": "x:2124909031999553926",
+      "title": "LlamaIndex releases OCRia-nano-1, an 8.1M-parameter open-weight OCR model that runs on CPU",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/jerryjliu0/status/2124909031999553926",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@0921991cc22343cb40973dc0a9a71e43f17dd199/x-2124909031999553926.mp4",
+      "poster": "media/videos/x-2124909031999553926.jpg",
+      "captions": "media/videos/x-2124909031999553926.vtt",
+      "duration": 48.11,
+      "transcript": "LlamaIndex releases OCRia-nano-1, an 8.1M-parameter open-weight OCR model OCRia-nano-1 bundles seven tiny document models into LiteParse and parses a page in about 426 ms on one CPU core, with no GPU, and LlamaIndex says it beats Marker, PP-OCRv6 tiny and Tesseract on tables and layout. LlamaIndex reports 59.2 overall on its ParseBench-2 benchmark and 27.8 pages per second with 16 single-core workers, about twice the throughput of LiteParse's default Tesseract setup. The weights use a modified Open RAIL-M license; LiteParse itself is Apache 2.0. Full story on the dashboard.",
+      "createdAt": "2026-11-24T14:25:33Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124928191215419691",
+      "feedId": "x:2124928191215419691",
+      "title": "BasicClips: a link library for iPhone, iPad and Mac that recognizes what you saved",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/BasicAppleGuy/status/2124928191215419691",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a9693e057e05486a1c990c35fc5afe55e5ed4924/x-2124928191215419691.mp4",
+      "poster": "media/videos/x-2124928191215419691.jpg",
+      "captions": "media/videos/x-2124928191215419691.vtt",
+      "duration": 35.15,
+      "transcript": "BasicClips: a link library for iPhone, iPad and Mac Capture works from the share sheet, by pasting a URL, or by dragging in links, images, PDFs and files, and Shortcuts actions plus Spotlight indexing are built in. On supported devices it can make a short on-device Apple Intelligence summary of a saved article. A whimsical new app for iPhone, iPad, and Mac to save, collect, and organize all the interesting things you come across online, all in one place! Full story on the dashboard.",
+      "createdAt": "2026-11-24T14:24:46Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124953436055564594",
+      "feedId": "x:2124953436055564594",
+      "title": "Atomic Engine runs Inkling 2 Mini about 3x faster than llama.cpp on Apple silicon",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/atomic_chat_hq/status/2124953436055564594",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2259b138a8e90b9743e8ed250866fc6182445eeb/x-2124953436055564594.mp4",
+      "poster": "media/videos/x-2124953436055564594.jpg",
+      "captions": "media/videos/x-2124953436055564594.vtt",
+      "duration": 43.43,
+      "transcript": "Atomic Engine runs Inkling 2 Mini about 3x faster The README's documented Mac profile uses an IQ2M quant plus a 504 MB Q80 drafter and measured 105.71 tokens/s on a 48 GB M4 Max with a 14 GiB budget; the 122 tokens/s M5 Max figure is from the announcement. We made Inkling 2 Mini 3x faster with 50% less RAM. Our engine with a drafter reaches 122 tok/s on M5 Max vs 40 tok/s on llama.cpp with no accuracy loss. Full story on the dashboard.",
+      "createdAt": "2026-11-24T14:24:11Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124968547369763040",
+      "feedId": "x:2124968547369763040",
+      "title": "agent-sim runs Apple's iOS simulator on a Linux VM with no Mac and no GPU, for AI agents",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/Armaan_Jain123/status/2124968547369763040",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@57973f91cc2caa1f6d9b5e0166987924d26cf77d/x-2124968547369763040.mp4",
+      "poster": "media/videos/x-2124968547369763040.jpg",
+      "captions": "media/videos/x-2124968547369763040.vtt",
+      "duration": 40.1,
+      "transcript": "agent-sim runs Apple's iOS simulator on a Linux VM Armaan Jain open-sourced agent-sim, which boots Apple's iOS simulator runtime on an x86-64 Ubuntu VM via x86Sim and gives agents a CLI and MCP server to install an.ipa. Setup takes about half an hour and needs 8+ CPUs, 16 GB RAM and 60 GB of disk, it downloads the 8 GB iOS runtime from Apple. It is early, with no XCUITest support yet, and Apple's licensing for running its simulator off a Mac is an open question. Full story on the dashboard.",
+      "createdAt": "2026-11-24T14:23:28Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125091798477664537",
+      "feedId": "x:2125091798477664537",
+      "title": "SidePulse Dot: a tiny USB-C light that shows what your coding agents are doing",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/pkuhar/status/2125091798477664537",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@5c73e63a6b162d6016468e65f76ac546190edf24/x-2125091798477664537.mp4",
+      "poster": "media/videos/x-2125091798477664537.jpg",
+      "captions": "media/videos/x-2125091798477664537.vtt",
+      "duration": 41.01,
+      "transcript": "SidePulse Dot: a tiny USB-C light Peter Kuhar's SidePulse Dot is a 3D-printed USB-C plug with two programmable RGB LEDs that shows whether Claude or Codex agents are working, need input or are done, on a Mac. On an iPhone, the CLI sends an animation as a push notification to the SidePulse app, which forwards it to the Dot over USB-C. It costs $29, discounted to $19.72 for Black Friday, and is a first batch for enthusiasts; a larger 8-LED SidePulse Pro fits the MacBook Pro SD slot. Full story on the dashboard.",
+      "createdAt": "2026-11-24T14:22:38Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125112745301582312",
+      "feedId": "x:2125112745301582312",
+      "title": "mobile-agent-testers: Claude Code agents beta-test your app on iOS Simulators and Android emulators in GitHub Actions",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/jurlycat/status/2125112745301582312",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@06ef22608d435db973ab9d07498869590082f377/x-2125112745301582312.mp4",
+      "poster": "media/videos/x-2125112745301582312.jpg",
+      "captions": "media/videos/x-2125112745301582312.vtt",
+      "duration": 42.91,
+      "transcript": "mobile-agent-testers: Claude Code agents beta-test your app on iOS Simulators pierridotite's open-source workflow gives each Claude Code agent its own simulator or emulator and a persona, such as an iPhone SE in Swedish at the largest text size. Modes include exploring like a new user, driving one feature end to end, reproducing a bug report on every device, writing an improvement report and comparing two builds. On LocalSend, 20 agents on 10 Android and 10 iOS devices in 14 languages reported 46 distinct bugs in 69 minutes for $4.62. Full story on the dashboard.",
+      "createdAt": "2026-11-24T14:21:59Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125155322214158350",
+      "feedId": "x:2125155322214158350",
+      "title": "TinyWifiDongle turns an ESP32-S3 or Raspberry Pi Pico W board into a driverless USB Wi-Fi adapter",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://x.com/cnxsoft/status/2125155322214158350",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@491e822aa79dae891c816c875d294a0b59c18df4/x-2125155322214158350.mp4",
+      "poster": "media/videos/x-2125155322214158350.jpg",
+      "captions": "media/videos/x-2125155322214158350.vtt",
+      "duration": 43.96,
+      "transcript": "TinyWifiDongle turns an ESP32-S3 or Raspberry Pi Pico W board Phil Schatzmann's MIT-licensed Arduino library bridges a microcontroller's Wi-Fi to USB CDC-NCM, so Linux, macOS and Windows 11 see a network adapter without extra drivers. The board forwards Ethernet frames at Layer 2 between USB and Wi-Fi, so the computer gets its own IP from the router via DHCP with no NAT. The author notes occasional USB stalls on the ESP32-S3 after 100 to 200 MB and one unexplained Pico reboot, and Windows 10 needs an extra driver. Full story on the dashboard.",
+      "createdAt": "2026-11-24T14:21:16Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50592307",
       "feedId": "hn:50592307",
       "title": "Arctic: a practical lock-free adaptive radix tree (OSDI '26)",

@@ -1,0 +1,22 @@
+{
+  "hook": "TinyWifiDongle turns an ESP32-S3 or Raspberry Pi Pico W board",
+  "hookText": "TinyWifiDongle turns an ESP32-S3 or Raspberry Pi Pico W board",
+  "beats": [
+    {
+      "say": "Phil Schatzmann's MIT-licensed Arduino library bridges a microcontroller's Wi-Fi to USB CDC-NCM, so Linux, macOS and Windows 11 see a network adapter without extra drivers.",
+      "visual": 1
+    },
+    {
+      "say": "The board forwards Ethernet frames at Layer 2 between USB and Wi-Fi, so the computer gets its own IP from the router via DHCP with no NAT.",
+      "visual": 2
+    },
+    {
+      "say": "The author notes occasional USB stalls on the ESP32-S3 after 100 to 200 MB and one unexplained Pico reboot, and Windows 10 needs an extra driver.",
+      "visual": 3,
+      "stat": "200 MB",
+      "statLabel": "and one unexplained"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

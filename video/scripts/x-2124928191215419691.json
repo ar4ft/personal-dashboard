@@ -1,0 +1,20 @@
+{
+  "hook": "BasicClips: a link library for iPhone, iPad and Mac",
+  "hookText": "BasicClips: a link library for iPhone, iPad and Mac",
+  "beats": [
+    {
+      "say": "Capture works from the share sheet, by pasting a URL, or by dragging in links, images, PDFs and files, and Shortcuts actions plus Spotlight indexing are built in.",
+      "visual": 1
+    },
+    {
+      "say": "On supported devices it can make a short on-device Apple Intelligence summary of a saved article.",
+      "visual": 2
+    },
+    {
+      "say": "A whimsical new app for iPhone, iPad, and Mac to save, collect, and organize all the interesting things you come across online, all in one place!",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

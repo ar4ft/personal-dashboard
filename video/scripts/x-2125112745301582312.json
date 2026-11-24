@@ -1,0 +1,20 @@
+{
+  "hook": "mobile-agent-testers: Claude Code agents beta-test your app on iOS Simulators",
+  "hookText": "mobile-agent-testers: Claude Code agents beta-test your app on iOS Simulators",
+  "beats": [
+    {
+      "say": "pierridotite's open-source workflow gives each Claude Code agent its own simulator or emulator and a persona, such as an iPhone SE in Swedish at the largest text size.",
+      "visual": 1
+    },
+    {
+      "say": "Modes include exploring like a new user, driving one feature end to end, reproducing a bug report on every device, writing an improvement report and comparing two builds.",
+      "visual": 2
+    },
+    {
+      "say": "On LocalSend, 20 agents on 10 Android and 10 iOS devices in 14 languages reported 46 distinct bugs in 69 minutes for $4.62.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

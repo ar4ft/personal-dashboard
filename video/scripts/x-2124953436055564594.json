@@ -1,0 +1,24 @@
+{
+  "hook": "Atomic Engine runs Inkling 2 Mini about 3x faster",
+  "hookText": "Atomic Engine runs Inkling 2 Mini about 3x faster",
+  "beats": [
+    {
+      "say": "The README's documented Mac profile uses an IQ2M quant plus a 504 MB Q80 drafter and measured 105.71 tokens/s on a 48 GB M4 Max with a 14 GiB budget; the 122 tokens/s M5 Max figure is from the announcement.",
+      "visual": 1
+    },
+    {
+      "say": "We made Inkling 2 Mini 3x faster with 50% less RAM.",
+      "visual": 2,
+      "stat": "3x",
+      "statLabel": "faster"
+    },
+    {
+      "say": "Our engine with a drafter reaches 122 tok/s on M5 Max vs 40 tok/s on llama.cpp with no accuracy loss.",
+      "visual": 3,
+      "stat": "122 tok/s",
+      "statLabel": "on m5 max"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
