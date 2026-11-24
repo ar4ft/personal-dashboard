@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.741
+Anthropic Created a
+
+00:00:01.553 --> 00:00:02.814
+Honeypot to Lure
+
+00:00:02.685 --> 00:00:03.934
+AI Agents Into
+
+00:00:03.746 --> 00:00:04.748
+Misbehaving
+
+00:00:05.286 --> 00:00:06.429
+Anthropic built a
+
+00:00:06.241 --> 00:00:07.491
+honeypot to lure
+
+00:00:07.350 --> 00:00:08.552
+AI agents into
+
+00:00:08.364 --> 00:00:09.295
+misbehaving
+
+00:00:09.425 --> 00:00:10.262
+to study how
+
+00:00:10.074 --> 00:00:11.017
+they go wrong
+
+00:00:11.542 --> 00:00:12.414
+The test lets
+
+00:00:12.285 --> 00:00:13.688
+agents loose inside
+
+00:00:13.500 --> 00:00:14.678
+one of 26
+
+00:00:14.514 --> 00:00:15.669
+different simulated
+
+00:00:15.481 --> 00:00:16.883
+sandbox environments
+
+00:00:17.023 --> 00:00:18.732
+Researchers at Anthropic
+
+00:00:18.615 --> 00:00:19.841
+have developed Siren
+
+00:00:20.018 --> 00:00:21.267
+a new honeypot
+
+00:00:21.079 --> 00:00:22.529
+test for artificial
+
+00:00:22.341 --> 00:00:23.650
+intelligence agents
+
+00:00:24.182 --> 00:00:25.597
+In Anthropic’s tests
+
+00:00:25.750 --> 00:00:27.436
+Claude 5.5 and
+
+00:00:27.248 --> 00:00:28.946
+Claude Mythos 5.2
+
+00:00:28.757 --> 00:00:29.382
+fell for the
+
+00:00:29.194 --> 00:00:31.493
+honeypot between 0.6
+
+00:00:31.328 --> 00:00:33.167
+and 1.6 percent of
+
+00:00:32.979 --> 00:00:33.663
+the time
+
+00:00:34.182 --> 00:00:35.196
+Full story on
+
+00:00:35.007 --> 00:00:35.903
+the dashboard
