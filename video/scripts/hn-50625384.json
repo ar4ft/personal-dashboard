@@ -1,0 +1,21 @@
+{
+  "hook": "Quad9 is switching off in France today.",
+  "hookText": "Quad9 is switching off in France today.",
+  "beats": [
+    {
+      "say": "Today, November 24, 2026, Quad9 will disable its services for French users, starting at 9 in the morning, Paris time.",
+      "visual": 0
+    },
+    {
+      "say": "The morning timing is deliberate, to give unaware users a chance to react during business hours.",
+      "visual": 1
+    },
+    {
+      "say": "From then on, any query reaching a Quad9 address will be refused, and no DNS resolution will succeed, while Quad9 points users to 9.9.9.10, its address with no blocking at all.",
+      "visual": 0,
+      "stat": "9.9.9.9",
+      "statLabel": "Quad9's threat-blocking DNS address"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

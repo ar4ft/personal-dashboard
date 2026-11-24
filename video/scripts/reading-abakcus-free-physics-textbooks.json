@@ -1,0 +1,21 @@
+{
+  "hook": "223 free physics textbooks, from first-year physics to string theory.",
+  "hookText": "223 free physics textbooks, from first-year physics to string theory.",
+  "beats": [
+    {
+      "say": "Abakcus lists 223 free physics textbooks and lecture notes from universities and physicists, sorted by subject, level, and kind.",
+      "visual": 0,
+      "stat": "223",
+      "statLabel": "free physics textbooks and lecture notes"
+    },
+    {
+      "say": "The list runs from first-year introductions like OpenStax University Physics to the Feynman Lectures, free to read on Caltech's site.",
+      "visual": 1
+    },
+    {
+      "say": "It also reaches the classics, like an 1890s university physics volume on heat, electricity, and magnetism, and a high-school book from the nonprofit CK-12.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

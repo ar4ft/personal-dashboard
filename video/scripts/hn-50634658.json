@@ -1,0 +1,21 @@
+{
+  "hook": "GPT-6 can design proteins that actually bind.",
+  "hookText": "GPT-6 can design proteins that actually bind.",
+  "beats": [
+    {
+      "say": "OpenAI reports GPT-6 models show intrinsic protein-design capabilities, with lab screens finding binding in 75 of 88 designs for MDM2, 85 percent.",
+      "visual": 0,
+      "stat": "85%",
+      "statLabel": "of MDM2 designs bound in lab screens"
+    },
+    {
+      "say": "It also found 26 of 42 designs binding for VEGF-A, 62 percent, and 8 of 59 for PD-1, 14 percent.",
+      "visual": 1
+    },
+    {
+      "say": "Of 272 fragments based on five therapeutic antibodies, 179 showed binding to their original target, PD-1 or PD-L1, 66 percent.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

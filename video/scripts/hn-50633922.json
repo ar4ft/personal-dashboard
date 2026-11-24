@@ -1,0 +1,21 @@
+{
+  "hook": "A 27-billion-parameter model that fits in 5.9 gigabytes.",
+  "hookText": "A 27-billion-parameter model that fits in 5.9 gigabytes.",
+  "beats": [
+    {
+      "say": "Ternary Bonsai 2.5 keeps the previous release's 5.9 gigabyte footprint while improving the capabilities developers need to build agents that work on-device.",
+      "visual": 0
+    },
+    {
+      "say": "Compared with Bonsai 2, it completes tasks in fewer turns, uses fewer tokens, and delivers results faster and more accurately.",
+      "visual": 0
+    },
+    {
+      "say": "On a single NVIDIA H100, it generates 291 tokens per second, and processes a 2,000-token prompt at 3,200 tokens per second.",
+      "visual": 0,
+      "stat": "291 tokens/s",
+      "statLabel": "generation speed on a single H100"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

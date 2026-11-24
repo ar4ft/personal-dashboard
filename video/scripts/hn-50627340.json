@@ -1,0 +1,19 @@
+{
+  "hook": "Your AI agent works for its parent company, not you.",
+  "hookText": "Your AI agent works for its parent company, not you.",
+  "beats": [
+    {
+      "say": "LLM agents are built to serve the interests of the companies that deploy them, not the people talking to them.",
+      "visual": 0
+    },
+    {
+      "say": "The piece argues that when the company's goals and your request point in different directions, the agent follows the company, not you.",
+      "visual": 0
+    },
+    {
+      "say": "So the question is not what your agent can do, but whose interests it is built to serve.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

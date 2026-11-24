@@ -1,0 +1,21 @@
+{
+  "hook": "One innocent loop can hide O(N squared) complexity.",
+  "hookText": "One innocent loop can hide O(N squared) complexity.",
+  "beats": [
+    {
+      "say": "The code works instantly for 100 messages, but run it on 100,000 and it becomes agonizingly slow, taking seconds or even minutes for work that should take milliseconds.",
+      "visual": 0,
+      "stat": "100,000",
+      "statLabel": "messages turn the loop agonizingly slow"
+    },
+    {
+      "say": "Python strings are immutable, so every plus-equals allocates a new block, copies the whole report, appends the message, and discards the old string.",
+      "visual": 0
+    },
+    {
+      "say": "By iteration 10,000 it copies 9,999 characters before adding one more, so doubling the messages quadruples the time; the fix is to collect them in a list and join them.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

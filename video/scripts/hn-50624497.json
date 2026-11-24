@@ -1,0 +1,19 @@
+{
+  "hook": "2035 came early.",
+  "hookText": "2035 came early.",
+  "beats": [
+    {
+      "say": "A new essay argues the future once expected by 2035 has already arrived, years ahead of schedule.",
+      "visual": 0
+    },
+    {
+      "say": "It looks back from 2035 at how JavaScript became the default language for all software, a story told in a 2009 talk by Jeff Atwood.",
+      "visual": 1
+    },
+    {
+      "say": "And the proof is in the pudding: a new engine called unkernel runs two times to thirty-two times faster than qemu-wasm, depending on the workload, with benchmarks tracked over time.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

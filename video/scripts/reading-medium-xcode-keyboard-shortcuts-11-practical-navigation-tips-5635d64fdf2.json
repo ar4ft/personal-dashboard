@@ -1,0 +1,21 @@
+{
+  "hook": "Eleven shortcuts to fly around Xcode.",
+  "hookText": "Eleven shortcuts to fly around Xcode.",
+  "beats": [
+    {
+      "say": "The guide opens with Shift, Command, O: Open Quickly, which finds a file by name and even takes a line number when a bug report points to one.",
+      "visual": 0,
+      "stat": "11",
+      "statLabel": "practical navigation shortcuts in the guide"
+    },
+    {
+      "say": "Control, Command, Left and Right arrows move back and forward through your navigation history, so you can follow a chain of definitions and return.",
+      "visual": 0
+    },
+    {
+      "say": "Other picks include Control 6 for the document-items menu, Shift Command J to reveal a file in the navigator, and Option-click for Quick Help.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

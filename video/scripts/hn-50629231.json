@@ -1,0 +1,19 @@
+{
+  "hook": "Your coding agent can train itself while you sleep.",
+  "hookText": "Your coding agent can train itself while you sleep.",
+  "beats": [
+    {
+      "say": "Songe is a training engine for your local model. While you work, it watches what happens after each of the model's actions: the tool result, the error, your next message.",
+      "visual": 0
+    },
+    {
+      "say": "When your agent is quiet, it teaches the model to see those outcomes coming, and a new version is used only if it passes its checks.",
+      "visual": 1
+    },
+    {
+      "say": "Nothing ever leaves your machine, and you install it with one command: uv tool install songe.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

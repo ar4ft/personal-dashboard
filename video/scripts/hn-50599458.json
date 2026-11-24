@@ -1,0 +1,21 @@
+{
+  "hook": "A 100-dollar watch can be 99.99 percent accurate.",
+  "hookText": "A 100-dollar watch can be 99.99 percent accurate.",
+  "beats": [
+    {
+      "say": "Mechanical watches have kept time for 500 years, and this interactive 3D page explains how a modern one works.",
+      "visual": 0
+    },
+    {
+      "say": "The author calls it fascinating that a well-calibrated, purely mechanical device can keep time with 99.99 percent accuracy for 100 dollars.",
+      "visual": 1,
+      "stat": "99.99%",
+      "statLabel": "accuracy for a 100-dollar mechanical watch"
+    },
+    {
+      "say": "The gear math checks out: the third wheel runs 7 and a half times slower, and the center wheel 8 times slower than that, so 7 and a half times 8 is 60, and the center wheel turns once an hour.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

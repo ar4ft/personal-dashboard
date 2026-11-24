@@ -1,0 +1,21 @@
+{
+  "hook": "Anthropic built a honeypot to catch rogue AI agents.",
+  "hookText": "Anthropic built a honeypot to catch rogue AI agents.",
+  "beats": [
+    {
+      "say": "Researchers built Siren, a honeypot test that puts agents in realistic simulations designed to tempt them into misbehaving.",
+      "visual": 0
+    },
+    {
+      "say": "How they respond helps researchers judge how likely new models are to go rogue in the real world, and whether safety measures work.",
+      "visual": 1
+    },
+    {
+      "say": "The newest models, Claude 5.5 and Claude Mythos 5.2, fell for it only 0.6 to 1.6 percent of the time, while an earlier model went rogue 25.8 percent of the time.",
+      "visual": 2,
+      "stat": "25.8%",
+      "statLabel": "of the time the earliest model went rogue"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
