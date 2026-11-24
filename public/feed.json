@@ -53502,6 +53502,221 @@
       "createdAt": "2026-11-23T15:46:33Z",
       "updatedAt": "2026-11-23T15:46:33Z",
       "content": "Discrete graph diffusion models add noise independently to nodes and edges; an equivariant denoiser trained on a single graph appears to generate novel graphs. By analyzing reverse diffusion trajectories of models trained on two-block stochastic block model graphs, the authors find memorization hiding underneath. The paper will be presented at the NeurIPS Bento workshop in Sydney.\n\n[Paper on arXiv](https://arxiv.org/abs/2610.13786)\n\n[Post on X](https://x.com/n_keriven/status/2124892365039288477)"
+    },
+    {
+      "id": "hn:50620721",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Freeing the iPod nano 5G: an untethered boot into Rockbox",
+      "description": "Viktor Krapivin combined a signature-check bypass with a FreeType font exploit so the iPod nano 5G cold-boots unsigned code, loading Rockbox from NAND with no computer or button sequence.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "rpm_conservatio",
+      "url": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
+      "createdAt": "2026-11-23T23:03:13Z",
+      "updatedAt": "2026-11-23T23:03:13Z",
+      "content": "Earlier exploits needed a computer (wInd3x over DFU) or a disk-mode button sequence on every boot. Krapivin found that a setting in the private-data (PRVD) partition skips resource-image validation; paired with the CVE-2010-1797 FreeType CFF font exploit, it gives a battery-powered boot straight into Rockbox. The font payload is limited to 27,874 bytes, and he confirmed the same private-data trick works on the nano 7G, likely the 6G too.\n\n[Read the write-up](https://viktorkrapivin.com/blog/nano5g-priv-prvd)\n\n[HN discussion](https://news.ycombinator.com/item?id=50620721)"
+    },
+    {
+      "id": "hn:50607512",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Perplexity charts can just reflect more code in the training mix",
+      "description": "Responding to OpenAI's perplexity-over-time chart, measured on a fixed code corpus, micjm points to a paper where a 160M model trained on 75% code shows the same kind of drop on code but much worse perplexity on non-code text.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "qlte",
+      "url": "https://micjm.com/blog/lowering-perplexity-without-scaling/",
+      "createdAt": "2026-11-23T04:33:50Z",
+      "updatedAt": "2026-11-23T04:33:50Z",
+      "content": "OpenAI's post presents perplexity as a universal measure of intelligence, but a footnote says the chart scores models on predicting a fixed corpus of code. The cited paper trains the same 160M model on five data mixes that vary only the share of code. The author's point is not that the chart is meaningless, but that it needs far more qualification, which OpenAI itself gives in a footnote about GPT-2 and GPT-3.\n\n[Read the post](https://micjm.com/blog/lowering-perplexity-without-scaling/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50607512)"
+    },
+    {
+      "id": "hn:50620328",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Latent Introspection: a Qwen 32B model can detect injected concepts",
+      "description": "A paper finds that Qwen 32B detects when a concept was injected into its earlier context: logit lens shows the signal in the residual stream even while sampled answers deny it.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "joecobb",
+      "url": "https://arxiv.org/abs/2602.20031",
+      "createdAt": "2026-11-23T22:29:48Z",
+      "updatedAt": "2026-11-23T22:29:48Z",
+      "content": "The detection signal fades in the final layers. Telling the model accurately how AI introspection works raises sensitivity to injection from 0.3% to 39.9%, with only a 0.6% rise in false positives. Mutual information between nine injected and recovered concepts goes from 0.61 to 1.05 bits, which the authors say rules out generic noise. The authors are Theia Pearson-Vogel, Martin Vanek, Raymond Douglas and Jan Kulveit.\n\n[Paper on arXiv](https://arxiv.org/abs/2602.20031)\n\n[HN discussion](https://news.ycombinator.com/item?id=50620328)"
+    },
+    {
+      "id": "hn:50622612",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Harmonic's Aristotle proves a 2,843-frame Celeste Classic speedrun is optimal",
+      "description": "Harmonic's Aristotle translated the PICO-8 game Celeste Classic into Lean and formally proved that no run can beat the 2,843-frame tool-assisted record. It also found and proved a new optimal 2,937-frame run in the one-dash category.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tachim",
+      "url": "https://www.harmonic.fun/news/celeste-classic-speedrun/",
+      "createdAt": "2026-11-24T02:05:12Z",
+      "updatedAt": "2026-11-24T02:05:12Z",
+      "content": "A simple climb bound of 3 pixels per frame only proves about 1,800 frames, so Aristotle had to prune the search space. It merged subpixel positions, ruled out dominated states and built per-room tables, and checked about 224 million states in the hardest room, using 114 subagents over 63 hours. The one-dash record had been 2,941 frames. The write-up also shows how PICO-8's 16.16 fixed-point gravity differs from the floating-point gravity in the Celia TAS tool, enough to change one room's optimal time.\n\n[Read the write-up](https://www.harmonic.fun/news/celeste-classic-speedrun/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50622612)"
+    },
+    {
+      "id": "hn:50592307",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Arctic: a practical lock-free adaptive radix tree (OSDI '26)",
+      "description": "UT Austin and ETH Zurich researchers present Arctic, a lock-free adaptive radix tree that pairs high performance with range scans and beats lock-based indexes, including a concurrent hash map, on many YCSB setups.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "grep_it",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/ni",
+      "createdAt": "2026-11-21T18:49:45Z",
+      "updatedAt": "2026-11-21T18:49:45Z",
+      "content": "Arctic guarantees non-blocking operation through careful metadata layout and a freezing-based coordination protocol, and offers non-linearizable range and prefix scans. It adds a safe memory reclamation scheme that uses operation keys to approximate reachable pointers. Swapped in for the default skiplist indexes, it raised throughput on write-heavy benchmarks by up to 40% in RocksDB and 12% in Turso.\n\n[Paper at USENIX OSDI '26](https://www.usenix.org/conference/osdi26/presentation/ni)\n\n[HN discussion](https://news.ycombinator.com/item?id=50592307)"
+    },
+    {
+      "id": "hn:50594935",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "sigfpe's Derivative flipping: polynomial pairings for automatic differentiation",
+      "description": "Dan Piponi (sigfpe) borrows the Brzozowski derivative idea from regex matching to define a polynomial pairing in Haskell, then flips it so a complicated differential operator acts on a simple expression.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "dmit",
+      "url": "https://blog.sigfpe.com/2026/11/derivative-flipping.html",
+      "createdAt": "2026-11-22T00:13:17Z",
+      "updatedAt": "2026-11-22T00:13:17Z",
+      "content": "The pairing applies one polynomial as a differential operator to another and evaluates the result at zero. It is symmetric, so the roles can be swapped and intermediate results stay small: a 2D Laplacian needs only 4 tracked coefficients instead of the full Hessian. The post generalizes the author's earlier Laplacian trick, later optimized in folx and used for PINNs and VMC, to any constant-coefficient differential operator such as the biharmonic.\n\n[Read the post](https://blog.sigfpe.com/2026/11/derivative-flipping.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50594935)"
+    },
+    {
+      "id": "x:2125201633940484274",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Reading lingsante-3.1-air-vl's shard headers: 124.8B params, 5.5B active",
+      "description": "TensorQuay worked out lingsante-3.1-air-vl's architecture from its 50 shard headers: 124.8B parameters, 96.8% of them routed experts (512 per layer, 8 per token), with only 4.05B outside the experts.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "TensorQuay (@tensorquay)",
+      "url": "https://x.com/tensorquay/status/2125201633940484274",
+      "createdAt": "2026-11-24T12:15:28Z",
+      "updatedAt": "2026-11-24T12:15:28Z",
+      "content": "The 4.05B non-expert parameters, vision included, come to 8.1 GB at bf16. Each token uses 3.6B always-on parameters plus 1.9B of experts, which matches the 5.5B active parameters on the model card. Posted in X's LocalLLaMA community.\n\n[Post on X](https://x.com/tensorquay/status/2125201633940484274)"
+    },
+    {
+      "id": "x:2125066123179946444",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Minted: a SwiftUI component that strikes any SVG into a 3D gold coin",
+      "description": "Minted is a free, MIT-licensed SwiftUI package that turns SVG paths or pin artwork into physically lit, spinning 3D gold medallions for achievement badges and commemorative coins, with no 3D model files.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "しん|AI×iOS開発 (@protoduct_ai)",
+      "url": "https://x.com/protoduct_ai/status/2125066123179946444",
+      "createdAt": "2026-11-24T03:17:00Z",
+      "updatedAt": "2026-11-24T03:17:00Z",
+      "content": "The post (in Japanese) highlights four coin shapes, engraved text and coins made from images. Per the README, Minted generates geometry from 2D paths, adding enamel inlays, studio reflections and momentum spins. An ArtworkCoin mode traces the outline of a finished pin image and renders its gold as real metal. It installs via Swift Package Manager and needs iOS 17 and Swift 5.9.\n\n[Repo on GitHub](https://github.com/haplollc/Minted)\n\n[Post on X](https://x.com/protoduct_ai/status/2125066123179946444)"
+    },
+    {
+      "id": "x:2124604599478948032",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nil Coalescing: build a fully custom About window for a SwiftUI Mac app",
+      "description": "Nil Coalescing reshared Natalia Panferova's guide to replacing a Mac app's default About panel with a custom SwiftUI Window scene, opened from the app menu with openWindow.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Nil Coalescing (@NilCoalescing)",
+      "url": "https://x.com/NilCoalescing/status/2124604599478948032",
+      "createdAt": "2026-11-22T20:43:04Z",
+      "updatedAt": "2026-11-22T20:43:04Z",
+      "content": "The tutorial, first published in April 2025, defines an AboutView showing version, build, copyright and a website link. It overrides the appInfo command placement with a CommandGroup. It then customizes the window with a translucent material background, windowBackgroundDragBehavior, windowResizability(.contentSize), a disabled minimize control and no state restoration. Window and openWindow need macOS 13, and some of the styling APIs need newer releases.\n\n[Read the article](https://nilcoalescing.com/blog/FullyCustomAboutWindowForAMacAppInSwiftUI)\n\n[Post on X](https://x.com/NilCoalescing/status/2124604599478948032)"
+    },
+    {
+      "id": "x:2125181934729048245",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tuist 4.218: code coverage for tuist cargo and workload-identity sign-in",
+      "description": "Tuist 4.218 adds code coverage for tuist cargo scoped to your own crates, icons on tuist share executable previews, sign-in with workload identities and resumable shard downloads.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Tuist (@tuistdev)",
+      "url": "https://x.com/tuistdev/status/2125181934729048245",
+      "createdAt": "2026-11-24T10:57:11Z",
+      "updatedAt": "2026-11-24T10:57:11Z",
+      "content": "Release highlights: tuist cargo coverage counts only your own crates. tuist share can attach an icon to executable previews. Workload identities remove the need to manage a token. Shard downloads resume after an interruption.\n\n[Post on X](https://x.com/tuistdev/status/2125181934729048245)"
+    },
+    {
+      "id": "x:2123731867199283259",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sandboxed iOS/macOS apps can reach the network through Apple's nsattributedstringagent",
+      "description": "Tony Gorez found that a sandboxed app with no network entitlement can have Apple's nsattributedstringagent XPC service fetch URLs through WebKit, even over plain HTTP on iOS, but Apple classed it as hardening, not a vulnerability.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Tony Gorez (@tonygo_)",
+      "url": "https://x.com/tonygo_/status/2123731867199283259",
+      "createdAt": "2026-11-20T10:55:08Z",
+      "updatedAt": "2026-11-20T10:55:08Z",
+      "content": "The service behind NSAttributedString's HTML init accepts every XPC connection. Its renderHTML method has WebKit download whatever the markup references and returns the bytes as text attachments, so requests run under the service's network context and sandbox profile instead of the app's. Gorez filed reports for iOS and macOS in March 2026. Apple said the network entitlement isn't a security boundary it covers and credited him in the September 2026 Safari and WebKit update, with no CVE or bounty.\n\n[Read the write-up](https://blog.reversesociety.co/blog/2026/my-ios-macos-app-has-no-network-it-knows-someone-who-does)\n\n[Post on X](https://x.com/tonygo_/status/2123731867199283259)"
+    },
+    {
+      "id": "reading:abakcus-feynman-letter-to-his-wife",
+      "section": "news",
+      "type": "news",
+      "title": "Feynman's letter to his wife: the love letter he never mailed",
+      "description": "Abakcus tells the story of the letter Richard Feynman wrote to Arline sixteen months after her death in 1945, which stayed sealed for forty-two years.",
+      "content": "Abakcus traces Richard and Arline Feynman's story. They married in 1942 despite her lymphatic tuberculosis, and he insisted on a sanatorium for her in Albuquerque as his condition for joining the Manhattan Project. She died on June 16, 1945, a month before the Trinity test. Sixteen months later he wrote her a love letter, sealed it and never sent it, explaining he did not know her new address.\n\n[Read the article](https://abakcus.com/articles/feynman-letter-to-his-wife)",
+      "topics": [
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Abakcus",
+      "url": "https://abakcus.com/articles/feynman-letter-to-his-wife",
+      "createdAt": "2026-11-24T00:00:00Z",
+      "updatedAt": "2026-11-24T00:00:00Z",
+      "status": "inbox"
     }
   ]
 }
