@@ -2,6 +2,185 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50592307",
+      "feedId": "hn:50592307",
+      "title": "Arctic: a practical lock-free adaptive radix tree (OSDI '26)",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://www.usenix.org/conference/osdi26/presentation/ni",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@af7c0ab8ed79a18eaa3608fe55504158bdd8a652/hn-50592307.mp4",
+      "poster": "media/videos/hn-50592307.jpg",
+      "captions": "media/videos/hn-50592307.vtt",
+      "duration": 35.92,
+      "transcript": "A lock-free index that still does range scans Researchers from UT Austin and ETH Zurich built Arctic, a lock-free adaptive radix tree. They say no index before offered high performance, lock freedom and range scans together. A freezing-based coordination protocol keeps it non-blocking, and a new memory reclamation scheme uses operation keys to approximate reachable pointers. Swapped in for the default skiplists, it raised write-heavy throughput by up to 40 percent in RocksDB and 12 percent in Turso. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:15:56Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50594935",
+      "feedId": "hn:50594935",
+      "title": "sigfpe's Derivative flipping: polynomial pairings for automatic differentiation",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "url": "https://blog.sigfpe.com/2026/11/derivative-flipping.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4e1e4f48acc931f1ece5729206e363d5320051b9/hn-50594935.mp4",
+      "poster": "media/videos/hn-50594935.jpg",
+      "captions": "media/videos/hn-50594935.vtt",
+      "duration": 37.6,
+      "transcript": "Flip the derivative, shrink the math Dan Piponi, the blogger known as sigfpe, offers a new way to think about automatic differentiation, inspired by Brzozowski derivatives for regular expression matching. He pairs two polynomials, using one as a differential operator on the other. The pairing is symmetric, so a complicated operator can act on a simple expression instead. Intermediate results stay small: computing a 2D Laplacian needs only 4 tracked coefficients, not a full Hessian, and the idea extends to other constant differential operators. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:15:22Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2124604599478948032",
+      "feedId": "x:2124604599478948032",
+      "title": "Nil Coalescing: build a fully custom About window for a SwiftUI Mac app",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/NilCoalescing/status/2124604599478948032",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@16ea67c380de53ce090c1c02b58dbe7cb08a4cb2/x-2124604599478948032.mp4",
+      "poster": "media/videos/x-2124604599478948032.jpg",
+      "captions": "media/videos/x-2124604599478948032.vtt",
+      "duration": 34.89,
+      "transcript": "Give your Mac app a truly custom About window Every macOS app gets a default About panel showing the icon, name, version and build number. Nil Coalescing shows how to replace it entirely. Since macOS 13, the Window scene and the openWindow environment value let you build a fully custom About window with standard SwiftUI APIs. You override the app info command placement with a new command group, so the About item in the app menu opens your own window with the version, copyright and a developer website link. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:14:49Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50607512",
+      "feedId": "hn:50607512",
+      "title": "Perplexity charts can just reflect more code in the training mix",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://micjm.com/blog/lowering-perplexity-without-scaling/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9a43700365a2a3a2dbc676855a308cb5fe917353/hn-50607512.mp4",
+      "poster": "media/videos/hn-50607512.jpg",
+      "captions": "media/videos/hn-50607512.vtt",
+      "duration": 36.98,
+      "transcript": "Is falling perplexity just more code in training? OpenAI published a chart of its models' perplexity dropping over time, pitching perplexity as a universal measure of intelligence. A footnote reveals it was measured on a fixed corpus of code. Blogger micjm found a paper that trained the same 160 million parameter model on five data mixes, varying only how much was code. With 75 percent code, perplexity on code fell, but on non-code text it rose sharply. The point: the chart needs far more qualification. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:14:13Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50620328",
+      "feedId": "hn:50620328",
+      "title": "Latent Introspection: a Qwen 32B model can detect injected concepts",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://arxiv.org/abs/2602.20031",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@078bec56aca98ac9895a97824c26a754b85655f5/hn-50620328.mp4",
+      "poster": "media/videos/hn-50620328.jpg",
+      "captions": "media/videos/hn-50620328.vtt",
+      "duration": 34.29,
+      "transcript": "This model knows when thoughts were planted A new paper shows a Qwen 32B model can detect when a concept was injected into its earlier context, and identify which one. The model denies it in its answers, but logit lens analysis finds clear detection signals in the residual stream, fading in the final layers. Telling the model accurately how AI introspection works boosts sensitivity from 0.3 to 39.9 percent, with only a 0.6 percent rise in false positives. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:13:37Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50620721",
+      "feedId": "hn:50620721",
+      "title": "Freeing the iPod nano 5G: an untethered boot into Rockbox",
+      "source": "Hacker News",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "url": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f0d851879bc6429a26ad8b368f6cfda3938fff16/hn-50620721.mp4",
+      "poster": "media/videos/hn-50620721.jpg",
+      "captions": "media/videos/hn-50620721.vtt",
+      "duration": 43.31,
+      "transcript": "The iPod nano 5G, freed to boot Rockbox Viktor Krapivin built a fully untethered boot chain for the iPod nano 5G. It loads Rockbox straight from the player's flash, with no computer or button sequence after installation. Earlier tricks needed a computer every boot. He adapted ipod_sun, a font-based exploit that CUB3D first showed on the nano 6G and 7G, which pairs a resource-validation bypass with a font-parser bug. The result is a cold, battery-powered boot into Rockbox. He also made the exploit untethered on the nano 7G, and likely the 6G too. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:13:03Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-feynman-letter-to-his-wife",
+      "feedId": "reading:abakcus-feynman-letter-to-his-wife",
+      "title": "Feynman's letter to his wife: the love letter he never mailed",
+      "source": "Reading",
+      "topics": [
+        "Science"
+      ],
+      "url": "https://abakcus.com/articles/feynman-letter-to-his-wife",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4c9c009c076734c71457c51203f304500540edd5/reading-abakcus-feynman-letter-to-his-wife.mp4",
+      "poster": "media/videos/reading-abakcus-feynman-letter-to-his-wife.jpg",
+      "captions": "media/videos/reading-abakcus-feynman-letter-to-his-wife.vtt",
+      "duration": 33.62,
+      "transcript": "The love letter Feynman wrote, and never sent Richard Feynman married Arline Greenbaum in 1942, though lymphatic tuberculosis was expected to kill her within two years. He worked at Los Alamos while she lay in a sanatorium in Albuquerque. On June 16, 1945, she died at 9:21 in the evening. A year and a half later he wrote her a love letter and never sent it because, as he put it, he did not know her new address. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:12:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50622612",
+      "feedId": "hn:50622612",
+      "title": "Harmonic's Aristotle proves a 2,843-frame Celeste Classic speedrun is optimal",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://www.harmonic.fun/news/celeste-classic-speedrun/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b9b44b187a128359b0f8ec1bd1b41e35a02021fb/hn-50622612.mp4",
+      "poster": "media/videos/hn-50622612.jpg",
+      "captions": "media/videos/hn-50622612.vtt",
+      "duration": 40.96,
+      "transcript": "An AI proved this speedrun can never be beaten Speedrunners beat the PICO-8 platformer Celeste Classic in 2,843 frames. Harmonic's Aristotle proved no one will ever do better. It translated the game into Lean, a formal verification language, then pruned the search. In the hardest room it checked about 224 million states, over 100 orders of magnitude fewer than brute force. In a one-dash category, it beat the 2,941-frame record with a 2,937-frame run, and proved that optimal too. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:11:53Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125066123179946444",
+      "feedId": "x:2125066123179946444",
+      "title": "Minted: a SwiftUI component that strikes any SVG into a 3D gold coin",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/protoduct_ai/status/2125066123179946444",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a42ad2d4c2ff30a9d86b060fcc0b15832c94d273/x-2125066123179946444.mp4",
+      "poster": "media/videos/x-2125066123179946444.jpg",
+      "captions": "media/videos/x-2125066123179946444.vtt",
+      "duration": 34.99,
+      "transcript": "Turn any SVG into a spinning gold coin Minted is a free, MIT-licensed SwiftUI component that turns SVG artwork into a three-dimensional gold medal, built for things like achievement badges and commemorative coins. It offers four coin shapes, can engrave text, and can even make coins from images. You do not need to prepare any 3D model at all. Geometry is generated from your 2D paths, with enamel inlays, studio reflections and spins, so your app ships zero model files. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:11:11Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125181934729048245",
+      "feedId": "x:2125181934729048245",
+      "title": "Tuist 4.218: code coverage for tuist cargo and workload-identity sign-in",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/tuistdev/status/2125181934729048245",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@d0cc8c5a7aef33c76c68d3473f7772998b48ccfa/x-2125181934729048245.mp4",
+      "poster": "media/videos/x-2125181934729048245.jpg",
+      "captions": "media/videos/x-2125181934729048245.vtt",
+      "duration": 33.28,
+      "transcript": "Tuist 4.218 brings coverage to Rust crates Version 4.218 of Tuist is out today. The tuist cargo command now reports code coverage, scoped to your own crates rather than every dependency. Tuist share can now attach an icon to executable previews, one of four changes listed in the Tuist release announcement. You can sign in with workload identities, so there is no token to manage, and shard downloads now resume after an interruption instead of starting over. Full story on the dashboard.",
+      "createdAt": "2026-11-24T13:10:42Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50616933",
       "feedId": "hn:50616933",
       "title": "Apple removed my open-source app from EU App Stores after 9 years",
