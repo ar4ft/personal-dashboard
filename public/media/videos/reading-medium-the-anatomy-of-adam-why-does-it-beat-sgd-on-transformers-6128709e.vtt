@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.482
+Why Adam beats
+
+00:00:01.376 --> 00:00:03.015
+SGD on transformers
+
+00:00:03.039 --> 00:00:04.359
+still unexplained
+
+00:00:04.878 --> 00:00:06.175
+Nearly every large
+
+00:00:05.987 --> 00:00:07.224
+language model trains
+
+00:00:07.036 --> 00:00:08.156
+with Adam or
+
+00:00:07.968 --> 00:00:08.852
+AdamW
+
+00:00:09.064 --> 00:00:09.878
+yet the reason
+
+00:00:09.689 --> 00:00:11.128
+Adam beats SGD
+
+00:00:10.986 --> 00:00:12.366
+so decisively is
+
+00:00:12.178 --> 00:00:13.120
+still not fully
+
+00:00:12.932 --> 00:00:13.781
+explained
+
+00:00:14.302 --> 00:00:16.047
+Adam tracks bias-corrected
+
+00:00:15.859 --> 00:00:16.967
+moving averages of
+
+00:00:16.778 --> 00:00:17.827
+the gradient and
+
+00:00:17.639 --> 00:00:18.452
+its square
+
+00:00:18.583 --> 00:00:20.198
+and AdamW separates
+
+00:00:20.010 --> 00:00:21.082
+weight decay from
+
+00:00:20.894 --> 00:00:22.132
+the adaptive update
+
+00:00:22.670 --> 00:00:23.471
+A study of
+
+00:00:23.283 --> 00:00:24.120
+more than one
+
+00:00:23.932 --> 00:00:25.111
+thousand three hundred
+
+00:00:24.922 --> 00:00:26.254
+language models found
+
+00:00:26.066 --> 00:00:27.611
+signed momentum closes
+
+00:00:27.434 --> 00:00:28.778
+ninety-six percent
+
+00:00:28.590 --> 00:00:29.497
+of the perplexity
+
+00:00:29.309 --> 00:00:29.828
+gap
+
+00:00:30.017 --> 00:00:30.971
+at a twenty-five
+
+00:00:30.783 --> 00:00:31.986
+percent slowdown
+
+00:00:32.526 --> 00:00:33.540
+Full story on
+
+00:00:33.351 --> 00:00:34.247
+the dashboard

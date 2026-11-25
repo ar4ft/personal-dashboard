@@ -2,6 +2,211 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50635783",
+      "feedId": "hn:50635783",
+      "title": "Predicting LoRA size for any dataset",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning"
+      ],
+      "url": "https://engram.com/blog/lora-size",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f0903672c6bc03bf54f85cc20e63a52b2e16c797/hn-50635783.mp4",
+      "poster": "media/videos/hn-50635783.jpg",
+      "captions": "media/videos/hn-50635783.vtt",
+      "duration": 32.37,
+      "transcript": "You can predict the LoRA size a dataset needs. The authors built a predictive theory of how much a LoRA adapter can hold as a function of its rank. Given a fine-tuning dataset, the theory predicts the size required to fit it, landing within zero point four percent of the exact capacity at five hundred twelve by one thousand twenty-four. Smaller adapters are lighter to load, faster to generate text from, and easier to store, and rank one can already hold a lot. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:18:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50641171",
+      "feedId": "hn:50641171",
+      "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://github.com/xoxorwr/pw-loudness-eq",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@931f3d4b13e4532ae94a5724cb9f84d8d6ad6274/hn-50641171.mp4",
+      "poster": "media/videos/hn-50641171.jpg",
+      "captions": "media/videos/hn-50641171.vtt",
+      "duration": 34.17,
+      "transcript": "Windows volume leveling, rebuilt for Linux audio. Windows Loudness Equalization, the feature that evens out playback volume, has been reverse-engineered from the Windows audio driver and ported to PipeWire on Linux. It evens out the volume of each application's playback stream, so quiet and loud parts play at a similar level. Under the hood it sums power into twenty-five frequency bands with edges from one hundred hertz to twenty-four thousand hertz, and the gain it applies is capped at twenty decibels. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:18:16Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-an",
+      "feedId": "reading:medium-i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-and-what-broke-59aa6fe051aa",
+      "title": "I Replaced SKIE With Kotlin 2.5’s Swift Export Beta: What Worked and What Broke",
+      "source": "Reading",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://medium.com/@aslam.iit.ju41/i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-and-what-broke-59aa6fe051aa",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@3e5c839740cf11606a205e5a9cd1bac185561ebf/reading-medium-i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-an.mp4",
+      "poster": "media/videos/reading-medium-i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-an.jpg",
+      "captions": "media/videos/reading-medium-i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-an.vtt",
+      "duration": 39.76,
+      "transcript": "Kotlin 2.5 can export Swift directly, no SKIE needed. Kotlin 2.5's Swift Export beta, tested here in the 2.5.0-RC release, compiles shared modules straight into native Swift interfaces, instead of going through Objective-C headers. Flow becomes a native AsyncSequence, so SwiftUI code can await updates and task cancellation propagates cleanly into Kotlin teardown. The author tested the new export swift DSL, Dispatchers Default traps, and SwiftPM versus dynamic-framework collisions in Xcode builds. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:17:40Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50642086",
+      "feedId": "hn:50642086",
+      "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@78b4fbe6332d3c8bf39184c27a34bbcc5f10c487/hn-50642086.mp4",
+      "poster": "media/videos/hn-50642086.jpg",
+      "captions": "media/videos/hn-50642086.vtt",
+      "duration": 34.27,
+      "transcript": "Google just published its Cogentic research papers. Google Research has just published the new Cogentic papers in a public repository, covering integer factorization, discrete logarithms, and more besides. Among them are papers on nearly tight prophet inequalities for subadditive combinatorial auctions, on fictitious play convergence, and more. The papers live in individual subdirectories of the open Google Research repository, which notes plainly that this is not an official Google product. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:17:04Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50642939",
+      "feedId": "hn:50642939",
+      "title": "I checked Clojure's core with Lean and found unreported bugs",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://s.conao3.com/blog/2026/e4f733",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2fd412d83b91379ef92bd8121b87089860dc8bf0/hn-50642939.mp4",
+      "poster": "media/videos/hn-50642939.jpg",
+      "captions": "media/videos/hn-50642939.vtt",
+      "duration": 32.25,
+      "transcript": "Lean found unreported bugs in Clojure's core. The author checked Clojure version 1.12.7, released on November 18, 2026, using JDK 21 and the Lean theorem prover. One bug hid in a bit mask meant to clear the low five bits and round down to a multiple of thirty-two: it also cleared bit sixteen and everything above it. With the fix in place, Lean proved the check matches the naive specification for every thirty-two-bit input. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:16:29Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-inc-91443060",
+      "feedId": "reading:inc-91443060",
+      "title": "Amazon and Meta May Agree Over Allowing AI Agents. The Future of Shopping Just Changed",
+      "source": "Reading",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://www.inc.com/kit-eaton/amazon-meta-ai-agents-future-shopping-technology/91443060",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8b1ad944b4f3728fad21f3e25325c99efb0a4106/reading-inc-91443060.mp4",
+      "poster": "media/videos/reading-inc-91443060.jpg",
+      "captions": "media/videos/reading-inc-91443060.vtt",
+      "duration": 29.78,
+      "transcript": "AI agents may soon shop for you on Amazon. Amazon and Meta are reportedly in talks about how third-party AI systems can connect to Amazon's store and shop on users' behalf. Amazon's CEO said in October that AI agents are not yet having a meaningful impact on its ads business. Many shoppers stay wary of trusting AI shopping agents completely, but experts say this may be the first Black Friday where agents matter. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:15:48Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50644817",
+      "feedId": "hn:50644817",
+      "title": "1Password Security Incident",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@247a0f3ab7fda0a1ddb618253e36714c44e36ebe/hn-50644817.mp4",
+      "poster": "media/videos/hn-50644817.jpg",
+      "captions": "media/videos/hn-50644817.vtt",
+      "duration": 32.32,
+      "transcript": "1Password was breached through an employee's GitHub account. On November 19, 1Password found signs that an attacker had entered an employee's corporate GitHub account. The attacker used it to reach source code and push malicious code to backend services, which downloaded customer names, email addresses, and internal account metadata. Customer vault contents were never accessed, and 1Password says its design means a breach of its systems cannot expose vault contents. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:15:20Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-claude-code-hooks-step-by-step-guide-c4b371e93e6d",
+      "feedId": "reading:medium-claude-code-hooks-step-by-step-guide-c4b371e93e6d",
+      "title": "Claude Code hooks: a step-by-step guide with 4 guardrails you can copy",
+      "source": "Reading",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://medium.com/@gk0415439/claude-code-hooks-step-by-step-guide-c4b371e93e6d",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@1782dbc6685d9e8ca87d0b5e2e4908aa0e322484/reading-medium-claude-code-hooks-step-by-step-guide-c4b371e93e6d.mp4",
+      "poster": "media/videos/reading-medium-claude-code-hooks-step-by-step-guide-c4b371e93e6d.jpg",
+      "captions": "media/videos/reading-medium-claude-code-hooks-step-by-step-guide-c4b371e93e6d.vtt",
+      "duration": 29.27,
+      "transcript": "Four Claude Code hooks that fail closed. The author writes four hooks for every Android app: they block risky edits, wipe commands, and finishing while TypeScript still fails. A hook is code that runs every time and the agent cannot argue with it, unlike a rule in a markdown file it can forget. Hooks answer with an exit code: exit code two blocks the call, and anything else lets it go ahead by default. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:14:45Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50648050",
+      "feedId": "hn:50648050",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://github.com/lsernau/grh-lean",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c02b20153e64aecf488e4c20f279bdb4e1d30ca2/hn-50648050.mp4",
+      "poster": "media/videos/hn-50648050.jpg",
+      "captions": "media/videos/hn-50648050.vtt",
+      "duration": 31.79,
+      "transcript": "A much shorter Lean proof of the Riemann Hypothesis. This is a Lean 4 proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions. It is built on Mathlib and uses only three axioms, and it follows Levent Alpoge's approach in a shorter version made with Anthropic colleagues and Claude. A build takes one to two hours on twelve cores with twenty-four gigabytes of memory, or about eighty-five minutes more without the Mathlib cache. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:14:17Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-pa",
+      "feedId": "reading:medium-timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-paper-070dc6421345",
+      "title": "TimesFM 3 on new data: how far does zero-shot forecasting go? My paper",
+      "source": "Reading",
+      "topics": [
+        "Machine Learning"
+      ],
+      "url": "https://alepom.medium.com/timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-paper-070dc6421345",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@08c8dfd963a9db8e660949dd22eb8f34fc64b7f7/reading-medium-timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-pa.mp4",
+      "poster": "media/videos/reading-medium-timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-pa.jpg",
+      "captions": "media/videos/reading-medium-timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-pa.vtt",
+      "duration": 31.34,
+      "transcript": "Zero-shot forecasting wins, but not everywhere. Google's TimesFM 3 leads the public benchmarks, but those benchmarks use old public data the model may already have seen during training. The author tested it on data published after its release, sealed forecasts, and seven thousand six hundred synthetic series, with the protocol frozen first. The model wins, but not everywhere, and its prediction intervals come out narrower than they claim to be. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:13:43Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e",
+      "feedId": "reading:medium-the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e653e",
+      "title": "The Anatomy of Adam: Why Does It Beat SGD on Transformers?",
+      "source": "Reading",
+      "topics": [
+        "Machine Learning"
+      ],
+      "url": "https://medium.com/@izzetcansorna/the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e653e",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@06923e6f33bb58883b941f497cf737696544b9d2/reading-medium-the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e.mp4",
+      "poster": "media/videos/reading-medium-the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e.jpg",
+      "captions": "media/videos/reading-medium-the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e.vtt",
+      "duration": 35.27,
+      "transcript": "Why Adam beats SGD on transformers, still unexplained. Nearly every large language model trains with Adam or AdamW, yet the reason Adam beats SGD so decisively is still not fully explained. Adam tracks bias-corrected moving averages of the gradient and its square, and AdamW separates weight decay from the adaptive update. A study of more than one thousand three hundred language models found signed momentum closes ninety-six percent of the perplexity gap, at a twenty-five percent slowdown. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:13:15Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-consistent-hashing-how-to-add-a-server-without-moving-everything-",
+      "feedId": "reading:medium-consistent-hashing-how-to-add-a-server-without-moving-everything-1e8aff70a0e0",
+      "title": "Consistent Hashing: How to Add a Server Without Moving Everything",
+      "source": "Reading",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://sahilkhaire.medium.com/consistent-hashing-how-to-add-a-server-without-moving-everything-1e8aff70a0e0",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2957abcf30d2182db2c92190bd8ec5b225dc1feb/reading-medium-consistent-hashing-how-to-add-a-server-without-moving-everything-.mp4",
+      "poster": "media/videos/reading-medium-consistent-hashing-how-to-add-a-server-without-moving-everything-.jpg",
+      "captions": "media/videos/reading-medium-consistent-hashing-how-to-add-a-server-without-moving-everything-.vtt",
+      "duration": 31.51,
+      "transcript": "Adding one server should not break every cache lookup. With four servers, hash key modulo N spreads keys evenly, but adding a fifth server changes the remainder for most keys. In a test with one hundred thousand fake keys, the author found that adding a fifth server makes roughly four out of five lookups miss. Consistent hashing fixes it with a ring: each server and key gets a spot on a clock face, and a new server only takes the keys next to it. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:12:45Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50647161",
       "feedId": "hn:50647161",
       "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",

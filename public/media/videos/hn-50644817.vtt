@@ -1,97 +1,82 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.812
-1Password Security
+00:00:00.350 --> 00:00:01.894
+1Password was breached
 
-00:00:01.624 --> 00:00:02.378
-Incident
+00:00:01.706 --> 00:00:02.708
+through an employee's
 
-00:00:02.910 --> 00:00:04.608
-1Password has disclosed
+00:00:02.520 --> 00:00:03.522
+GitHub account
 
-00:00:04.419 --> 00:00:05.763
-a security incident
+00:00:04.062 --> 00:00:05.595
+On November 19
 
-00:00:05.705 --> 00:00:06.754
-and published an
+00:00:05.831 --> 00:00:07.505
+1Password found signs
 
-00:00:06.566 --> 00:00:07.355
-update on its
+00:00:07.317 --> 00:00:08.295
+that an attacker
 
-00:00:07.167 --> 00:00:07.851
-blog
+00:00:08.119 --> 00:00:09.038
+had entered an
 
-00:00:07.990 --> 00:00:08.838
-We have triggered
+00:00:08.850 --> 00:00:10.099
+employee's corporate
 
-00:00:08.650 --> 00:00:09.522
-a rotation of
+00:00:09.911 --> 00:00:10.925
+GitHub account
 
-00:00:09.393 --> 00:00:10.654
-all credentials which
+00:00:11.446 --> 00:00:12.471
+The attacker used
 
-00:00:10.466 --> 00:00:11.067
-may have been
+00:00:12.283 --> 00:00:12.979
+it to reach
 
-00:00:10.879 --> 00:00:11.668
-exposed
+00:00:12.790 --> 00:00:13.780
+source code and
 
-00:00:11.799 --> 00:00:12.482
-and there is
+00:00:13.592 --> 00:00:14.806
+push malicious code
 
-00:00:12.294 --> 00:00:13.426
-no impact to
+00:00:14.654 --> 00:00:15.915
+to backend services
 
-00:00:13.237 --> 00:00:14.852
-1Password’s services
+00:00:16.033 --> 00:00:17.436
+which downloaded customer
 
-00:00:14.888 --> 00:00:16.645
-availability or product
+00:00:17.248 --> 00:00:17.849
+names
 
-00:00:16.457 --> 00:00:17.211
-security
+00:00:18.085 --> 00:00:19.570
+email addresses and
 
-00:00:17.734 --> 00:00:20.351
-On November 19, 2026
+00:00:19.382 --> 00:00:20.986
+internal account metadata
 
-00:00:20.529 --> 00:00:22.592
-1Password began investigating
+00:00:21.518 --> 00:00:22.838
+Customer vault contents
 
-00:00:22.404 --> 00:00:23.594
-indications that an
+00:00:22.650 --> 00:00:23.864
+were never accessed
 
-00:00:23.406 --> 00:00:24.939
-attacker gained access
+00:00:23.959 --> 00:00:25.244
+and 1Password says
 
-00:00:24.751 --> 00:00:25.788
-to an employee’s
+00:00:25.056 --> 00:00:26.046
+its design means
 
-00:00:25.600 --> 00:00:27.073
-corporate GitHub account
+00:00:25.858 --> 00:00:26.588
+a breach of
 
-00:00:27.590 --> 00:00:28.733
-During this incident
+00:00:26.400 --> 00:00:27.602
+its systems cannot
 
-00:00:28.545 --> 00:00:29.099
-there were a
+00:00:27.414 --> 00:00:29.053
+expose vault contents
 
-00:00:28.911 --> 00:00:29.913
-small number of
-
-00:00:29.724 --> 00:00:30.573
-users in this
-
-00:00:30.385 --> 00:00:30.915
-state
-
-00:00:31.116 --> 00:00:31.717
-who have been
-
-00:00:31.529 --> 00:00:33.049
-specifically notified
-
-00:00:33.582 --> 00:00:34.596
+00:00:29.574 --> 00:00:30.588
 Full story on
 
-00:00:34.407 --> 00:00:35.303
+00:00:30.399 --> 00:00:31.295
 the dashboard
