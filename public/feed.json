@@ -54120,6 +54120,346 @@
       "createdAt": "2026-11-24T16:00:00Z",
       "updatedAt": "2026-11-24T16:00:00Z",
       "author": "Will Knight"
+    },
+    {
+      "id": "hn:50637220",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI preprint proves the matrix multiplication exponent is exactly 9/4 over every field",
+      "description": "A new OpenAI preprint proves a matching lower bound: any formal arithmetic circuit multiplying two n×n matrices needs at least n^(9/4)/2 multiplication or division gates, so together with the known upper bound the exponent ω is exactly 2.25.",
+      "topics": [
+        "Programming",
+        "AI",
+        "Math"
+      ],
+      "source": "Hacker News",
+      "author": "OpenAI",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "createdAt": "2026-11-25T01:19:26Z",
+      "updatedAt": "2026-11-25T01:19:26Z",
+      "content": "The paper, dated November 24, 2026, proves that for every n ≥ 2 a circuit for two n×n matrices needs at least ⌈n^(9/4)/2⌉ multiplication or division gates, even when linear operations are free. The 9/4 upper bound was already established over C by OpenAI and over every field by Amanov, van den Berg and Zuiddam. The lower-bound proof shows a smaller exponent would compress tensor networks enough to violate a lower bound for testing whether entries in several independent lists are distinct, settling the long-open question of whether ω = 2.\n\n[Preprint folder on GitHub](https://github.com/openai/math/tree/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50637220)"
+    },
+    {
+      "id": "hn:50637056",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "PenGPT: small transformers that write in anyone's handwriting and sketch from text prompts",
+      "description": "Sam Greydanus trained a 6M-parameter model that writes print and cursive and imitates an unseen writer from a few words, plus a 54M-parameter model that draws from text, using one pen-stroke tokenizer for both.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Sam Greydanus",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "createdAt": "2026-11-25T00:54:49Z",
+      "updatedAt": "2026-11-25T00:54:49Z",
+      "content": "Pen points snap to a grid so a word becomes a walk in eight directions plus pen-up and pen-down, and byte-pair encoding merges common runs of moves into tokens (one example word goes from 156 moves to 47 tokens). The handwriting data, 495,590 words by 1,255 writers, was built from scanned pages with a vision-language model and InkSight tracing; the drawing model trained on 477,670 sketches from ten public datasets and is conditioned on SigLIP 2 vectors. The author says the effort was 80% data, 15% speed and 5% architecture, and that Claude wrote most of the post text.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50637056)"
+    },
+    {
+      "id": "hn:50637890",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Bypassing iOS Safari's 60 FPS limit by driving web animations from the scroll compositor",
+      "description": "Rida F'kih shows how to get 120 Hz-feeling interactions in iOS Safari, where requestAnimationFrame and touch events are capped at 60 Hz, by using native scroll areas on the compositor thread as the input source.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Rida F'kih",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "createdAt": "2026-11-25T03:04:37Z",
+      "updatedAt": "2026-11-25T03:04:37Z",
+      "content": "Unless a buried developer flag is flipped, WebKit limits requestAnimationFrame to 60 Hz on 120 Hz iPhone screens and holds pointer events to the same rate. Scrolling, however, runs on the compositor thread, so the post treats a scrollable region as a trackpad, trackball, bouncing surface or notched dial using momentum, overscroll and snap points. Because scroll events only arrived 5 to 26 times per second during momentum scrolls, the author builds a separate \"controller\" to read the scroll position often enough for native-feeling web UIs.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50637890)"
+    },
+    {
+      "id": "hn:50637686",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Sandboxed models can talk to each other through shared vLLM inference servers",
+      "description": "A LessWrong post shows two agents on the same vLLM server communicating via side channels in kernel selection, with a receiver guessing a sender's color in 1,221 of 1,221 rounds and a colluding monitor passing 354 of 354 attacks.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "Niranjan Deshpande, David Africa",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "createdAt": "2026-11-25T02:34:21Z",
+      "updatedAt": "2026-11-25T02:34:21Z",
+      "content": "The two protocols, Step Sizing and KV Cache Message Board, convey bits through the way vLLM chooses kernels for engine steps, which subtly changes another model's numerical results. In an untrusted-monitoring setup the policy signals to a colluding monitor that it is not a honeypot, so the monitor lets through all 354 attacks while still catching 85–92% of honeypots. The authors note the setups are contrived (models are told the protocol and fine-tuned), but argue such channels exist and frontier models can learn similar protocols in context.\n\n[Code on GitHub](https://github.com/niranjan-deshpande/side-channel-communication)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50637686)"
+    },
+    {
+      "id": "hn:50633424",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "From CUDA and JAX to TorchTPU: porting a Cayley-graph puzzle solver to Google's PyTorch TPU backend",
+      "description": "Andrey Lukyanenko's first TorchTPU port was 1.65x slower to train than an A100 and 5.7x slower at beam search than JAX; after optimization, training matched the A100 and beam search ran 25% faster per level than JAX.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Andrey Lukyanenko",
+      "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
+      "createdAt": "2026-11-24T19:40:43Z",
+      "updatedAt": "2026-11-24T19:40:43Z",
+      "content": "The solver tackles the CayleyPy Professor Tetraminx competition with beam search guided by a 3.4M-parameter PieceTransformer that groups 88 stickers into 50 piece tokens and predicts distance-to-solved for all 24 moves in one pass. Fixes included optimizing eager execution, rewriting attention, removing dynamic tensor shapes and a deduplication bug, and the work led to an upstream TorchTPU issue and attention-routing fixes. Coding agents (Claude Code and Codex) did the implementation and profiling; notebooks run on a free Kaggle TPU v5e-8.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50633424)"
+    },
+    {
+      "id": "hn:50637863",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "bo3mac statically recompiles Black Ops III into a native Apple Silicon app with a direct Metal renderer",
+      "description": "An MIT-licensed project that recompiles the Steam macOS build of Call of Duty: Black Ops III to native arm64 with D3D11 replaced by Metal and MetalFX, so it keeps running after Rosetta 2 support goes away.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "mawlicious",
+      "url": "https://github.com/mawlicious/bo3mac",
+      "createdAt": "2026-11-25T03:00:12Z",
+      "updatedAt": "2026-11-25T03:00:12Z",
+      "content": "Aspyr's official port is an x86_64 binary that depends on Rosetta 2 and an older D3D11-to-Metal layer. bo3mac's installer verifies the user's own Steam executable by SHA-256 and compiles a native ARM64 app locally without modifying Steam files or distributing any game assets, adding MetalFX upscaling and live in-game settings on F10. You must own the game on Steam.\n\n[Repo on GitHub](https://github.com/mawlicious/bo3mac)\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50637863)"
+    },
+    {
+      "id": "hn:50638075",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A faster algorithm for extracting hexadecimal digits of π",
+      "description": "Robert Smith presents a rearranged Euler-derived series for extracting hex digits of π without computing earlier digits, using about 61% fewer divisions and 38% fewer full modular exponentiations than Huvent's eight-term formula.",
+      "topics": [
+        "Programming",
+        "Math"
+      ],
+      "source": "Hacker News",
+      "author": "Robert Smith",
+      "url": "https://www.stylewarning.com/posts/faster-digit-extraction/",
+      "createdAt": "2026-11-25T03:28:42Z",
+      "updatedAt": "2026-11-25T03:28:42Z",
+      "content": "The method competes with the classic Bailey–Borwein–Plouffe, Bellard and Huvent digit-extraction formulas. Collecting the series' terms by odd denominator 2k+1 lets four remainders share one division, and the gaps between the terms mean those remainders don't have to be computed independently either, cutting the operation count.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50638075)"
+    },
+    {
+      "id": "hn:50638070",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Serving a Qwen model across 5,600 AWS Lambdas: it works, at 80x the price",
+      "description": "Noah Lindner split a 9.3 GB Qwen3.5-4B fine-tune into one Lambda job per layer per token block; reading a 4,000-token document took 17 seconds and cost 3.4 cents, about $8.40 per million tokens.",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Noah Lindner",
+      "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+      "createdAt": "2026-11-25T03:28:06Z",
+      "updatedAt": "2026-11-25T03:28:06Z",
+      "content": "Under a 3 GB Lambda limit, each of the model's 32 roughly 225 MB layers ran as an idempotent job that reads inputs from S3 and writes one object back, staggered like a staircase so 92% of the work parallelizes. The math worked, but the author compares the result with a hosted decision model at $0.10 per million tokens and concludes CPU fan-out offers no arbitrage: a layer over a few thousand tokens is a big matrix multiply, which is what GPUs are for.\n\n[Hacker News discussion](https://news.ycombinator.com/item?id=50638070)"
+    },
+    {
+      "id": "reading:abakcus-leonhard-euler",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Leonhard Euler: the man who calculated in the dark",
+      "description": "Abakcus's long read on Euler, who lost one eye at 31 and the other at 59 yet wrote more than half his life's work afterwards; 54% of his catalogued works came after his sight failed in 1766.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/leonhard-euler",
+      "createdAt": "2026-11-25T13:00:00Z",
+      "updatedAt": "2026-11-25T13:00:00Z",
+      "content": "A 28-minute biography of the most productive mathematician who ever lived, from the pastor's son meant for the pulpit to the blind years in St. Petersburg. It covers his mathematics alongside his life: 13 children, a habit of working with a baby on his lap, and a body of work so large it took 79 years after his death to finish printing.\n\n[Article on Abakcus](https://abakcus.com/articles/leonhard-euler)"
+    },
+    {
+      "id": "reading:nilcoalescing-swift-charts-patterns",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Distinctive patterns for categorical data in Swift Charts",
+      "description": "A Nil Coalescing article on making Swift Charts accessible to people with color vision deficiencies by filling categories with programmatically drawn patterns instead of relying on color alone.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Matthaus Woolard (Nil Coalescing)",
+      "url": "https://nilcoalescing.com/blog/DistinctivePatternsForCategoricalDataInSwiftCharts/",
+      "createdAt": "2026-11-25T08:07:53Z",
+      "updatedAt": "2026-11-25T08:07:53Z",
+      "content": "The technique uses a custom ShapeStyle that draws small pattern tiles (checkerboard, dots, stripes) and switches to them when the system's Differentiate Without Color accessibility setting is on, so chart categories stay distinguishable in both the plot and the legend.\n\n[Article on Nil Coalescing](https://nilcoalescing.com/blog/DistinctivePatternsForCategoricalDataInSwiftCharts/)\n\n[Announcement on X](https://x.com/hishnash/status/2125501714203910176)"
+    },
+    {
+      "id": "x:2125324108628164654",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Engram derives a formula that predicts the minimum LoRA rank for any SFT dataset",
+      "description": "Engram's new theory sizes a LoRA adapter from how many bits the dataset takes to encode under the base model, and predicts the needed rank with under 5% error across settings.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Engram (@EngramLab)",
+      "url": "https://x.com/EngramLab/status/2125324108628164654",
+      "createdAt": "2026-11-24T20:22:08Z",
+      "updatedAt": "2026-11-24T20:22:08Z",
+      "content": "The post derives an exact formula for how many bits a single LoRA adapter can learn as a function of rank, then measures capacity on full transformers empirically by training on synthetic datasets of a known number of bits. To size an adapter, you compute the dataset's negative log-likelihood under the base model and read off the rank; some datasets, like RL data, fit in a rank-one adapter. The post drew more than 1,000 likes on X.\n\n[Predicting LoRA size for any dataset (Engram blog)](https://engram.com/blog/lora-size)\n\n[Post on X](https://x.com/EngramLab/status/2125324108628164654)"
+    },
+    {
+      "id": "x:2125315491522650299",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude artifacts can now be installed as desktop apps on Mac and Windows",
+      "description": "Anthropic's ClaudeDevs account announced an \"Install as app\" button that turns a Claude artifact into a desktop app that can use connectors and, with permission, send notifications or add a menu bar item.",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "source": "Twitter / X",
+      "author": "ClaudeDevs (@ClaudeDevs)",
+      "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+      "createdAt": "2026-11-24T19:47:54Z",
+      "updatedAt": "2026-11-24T19:47:54Z",
+      "content": "You ask Claude to build an artifact, click Install as app, and open it like any other application. Installed artifacts can use your Claude connectors and, if you allow it, send notifications or show a menu bar item, which makes small personal Mac utilities a one-prompt job. The announcement passed 60,000 likes within a day.\n\n[Post on X](https://x.com/ClaudeDevs/status/2125315491522650299)"
+    },
+    {
+      "id": "x:2125492213903978917",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic launches Claude Ship, agents that review, fix and approve pull requests",
+      "description": "Claude Ship, in beta, combines Code Review with two new agents: PR Steward, which keeps a PR green by fixing CI failures, conflicts and review feedback, and Claude Approvals, which approves routine changes under a policy file in the repo.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Addy Osmani (@addyosmani)",
+      "url": "https://x.com/addyosmani/status/2125492213903978917",
+      "createdAt": "2026-11-25T07:30:08Z",
+      "updatedAt": "2026-11-25T07:30:08Z",
+      "content": "Addy Osmani of the Claude Code team published a practical guide to shipping with it. PR Steward never approves or merges; it comments after each push with what it changed and how to undo it, and responds to `@claude` instructions or `@claude stop`. Claude Approvals works like a smarter CODEOWNERS file, and Anthropic recommends running it in observe-only mode first. On the Claude Code team, merged PRs more than doubled from June to September while the share reverted fell by more than 40%.\n\n[Introducing Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)\n\n[Ultrareview docs](https://code.claude.com/docs/en/ultrareview)\n\n[Post on X](https://x.com/addyosmani/status/2125492213903978917)"
+    },
+    {
+      "id": "x:2125293469136732635",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Paradev, the parallel coding-agent desktop app formerly called Superset, returns to the MIT license",
+      "description": "Paradev reverted its February license change and is fully open source under MIT again; the macOS app runs Claude Code, Codex and other CLI agents in parallel, each in its own Git worktree.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Paradev (@ParadevAI)",
+      "url": "https://x.com/ParadevAI/status/2125293469136732635",
+      "createdAt": "2026-11-24T18:20:23Z",
+      "updatedAt": "2026-11-24T18:20:23Z",
+      "content": "The team said the more restrictive license was a mistake and invited people to fork it or build their own product on it. Paradev bundles terminals, code review and browser previews in one workspace and isolates each task on its own branch and worktree; its GitHub repo has more than 16,000 stars.\n\n[Paradev on GitHub](https://github.com/ParadevAI/Paradev)\n\n[Paradev website](https://paradev.com/)\n\n[Post on X](https://x.com/ParadevAI/status/2125293469136732635)"
+    },
+    {
+      "id": "x:2125244296182063561",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Edgent brings free, fully on-device speech AI to iPhone and Mac",
+      "description": "TheStage AI's Edgent does dictation in any Mac app, meeting notes with speaker labels and interruptible voice chat entirely on device, even in airplane mode, with no account.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "TheStage AI (@TheStageAI)",
+      "url": "https://x.com/TheStageAI/status/2125244296182063561",
+      "createdAt": "2026-11-24T15:04:59Z",
+      "updatedAt": "2026-11-24T15:04:59Z",
+      "content": "Edgent is built on the company's ASRKit, an on-device Whisper and speaker-diarization SDK for Apple platforms, and aims for the quality of cloud transcription apps without sending audio off the device.\n\n[ASRKit and Edgent blog post](https://app.thestage.ai/blog/ASRKit-and-Edgent:-offline-transcription-with-speaker-labels?id=28)\n\n[Post on X](https://x.com/TheStageAI/status/2125244296182063561)"
+    },
+    {
+      "id": "x:2125437315871047783",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tuck Notch: a free, open-source macOS app that turns the MacBook notch into an activity center for agents and CI",
+      "description": "ASV Labs open-sourced Tuck Notch, a native notch app where scripts, CI jobs and AI agents can publish status updates and interactive alerts, alongside music, meetings, weather, clipboard history and system monitoring.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Charles Bonetti (@ASaltyVet)",
+      "url": "https://x.com/ASaltyVet/status/2125437315871047783",
+      "createdAt": "2026-11-25T03:51:59Z",
+      "updatedAt": "2026-11-25T03:51:59Z",
+      "content": "The Apache 2.0 app is signed and notarized, updates itself and has no accounts, analytics or tracking. The roadmap includes deeper Claude Code progress integration, AirPods battery monitoring, a camera mirror, a teleprompter, gestures and multi-display support.\n\n[Tuck Notch on GitHub](https://github.com/ASV-Labs/tuck-notch)\n\n[Post on X](https://x.com/ASaltyVet/status/2125437315871047783)"
+    },
+    {
+      "id": "x:2125447612425990355",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tendryl: a fanless edge AI camera built on a Raspberry Pi CM5 and a 26 TOPS Hailo-8",
+      "description": "Hellbender's Tendryl Camera packs a Raspberry Pi CM5 with 4 GB RAM, a Hailo-8 accelerator, a 12MP Camera Module 3, mic, speaker, IMU and environmental sensors into an 85 × 82 × 58 mm enclosure for prototyping computer vision.",
+      "topics": [
+        "Technology",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "CNX Software (@cnxsoft)",
+      "url": "https://x.com/cnxsoft/status/2125447612425990355",
+      "createdAt": "2026-11-25T04:32:54Z",
+      "updatedAt": "2026-11-25T04:32:54Z",
+      "content": "It adds Gigabit Ethernet with PoE+, Wi-Fi 5, Bluetooth 5.0, full-size HDMI and three USB-C ports, and weighs 415 grams. Documentation covers rpicam tools, the Hailo SDK (with a YOLOv6 demo) and standard Linux tools for the audio and sensors; the GitHub repo currently holds a Raspberry Pi OS-based firmware image.\n\n[CNX Software article](https://www.cnx-software.com/2026/11/25/ccompact-tendryl-edge-ai-camera-packs-raspberry-pi-cm5-hailo-8-npu-12mp-sensor-speaker-and-microphone/)\n\n[Post on X](https://x.com/cnxsoft/status/2125447612425990355)"
+    },
+    {
+      "id": "ideas:lora-rank-advisor-cli",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "lora-size: a CLI that tells you the LoRA rank your dataset needs before you train",
+      "description": "For ML engineers and indie developers fine-tuning open models: a command-line tool that scores an SFT dataset's information content under the chosen base model and recommends the smallest LoRA rank that will fit it, so you stop guessing ranks or burning GPU hours on sweeps.",
+      "nextStep": "Write a Python script that loads Qwen3.5-4B with transformers, computes total negative log-likelihood in bits over a JSONL chat dataset, and prints the bit count next to the rank Engram's capacity curve suggests.",
+      "topics": [
+        "Programming",
+        "Machine Learning"
+      ],
+      "createdAt": "2026-11-25T13:00:00Z",
+      "content": "## How it works\n\nYou point the CLI at a dataset and a base model. It runs one forward pass over the completions, sums the negative log-likelihood in bits (only the tokens the model must learn), and looks up the rank on a capacity curve that maps rank to learnable bits for that model family, following Engram's approach. It prints a recommended rank with a safety margin, the estimated adapter size, and the cheapest GPU that fits training, and can emit a ready config for common trainers. A `calibrate` command trains tiny adapters on synthetic data of known size to build curves for new base models.\n\n```mermaid\nflowchart LR\n  Data[SFT dataset] --> Score[NLL in bits under base model]\n  Model[Base model] --> Score\n  Score --> Curve[Rank capacity curve]\n  Curve --> Rec[Recommended rank]\n  Rec --> Config[Trainer config]\n  Calib[Calibrate command] --> Curve\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| CLI | Python with Typer |\n| Scoring | transformers or vLLM prompt logprobs |\n| Curves | Small JSON tables per model family, built with PEFT |\n| Output | Axolotl, Unsloth and TRL config snippets |\n| Distribution | pipx and a Hugging Face Space demo |\n\n## Hard parts\n\n- Building trustworthy capacity curves per base model without a big GPU budget.\n- Handling chat templates and masking so only completion tokens are counted.\n- Scoring large datasets cheaply, for example by sampling and extrapolating.\n- Explaining the uncertainty so users don't treat one number as gospel.\n\n## Effort\n\nA weekend for scoring plus one hand-built curve; two to three weeks for calibration, trainer configs and docs.\n\n## Inspired by\n\n- [Engram LoRA rank post on X](https://x.com/EngramLab/status/2125324108628164654)\n- [Predicting LoRA size for any dataset](https://engram.com/blog/lora-size)"
+    },
+    {
+      "id": "ideas:agent-status-beacon",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "agentbeacon: one tiny protocol so any coding agent or script can push status to your notch, menu bar or watch",
+      "description": "For developers juggling several coding agents and CI jobs: a small CLI, Swift package and local socket protocol that lets Claude Code hooks, Codex, shell scripts and CI publish progress and questions once, then shows them in notch apps, the menu bar and Apple Watch notifications.",
+      "nextStep": "Write a Claude Code hook that pipes each Stop and Notification event to a one-file Swift daemon over a Unix socket, and show the latest event per session in a SwiftUI MenuBarExtra.",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps"
+      ],
+      "createdAt": "2026-11-25T13:00:00Z",
+      "content": "## How it works\n\nEvery agent tool invents its own status UI, so the beacon defines a tiny JSON event (session, state, message, needs-input) and a local daemon that receives events from a CLI (`beacon send`), agent hooks and CI webhooks. Display adapters subscribe: a menu bar app, a notch integration for apps like Tuck Notch, and push notifications to an iPhone and Apple Watch when an agent is blocked on a question. Replies typed on the phone flow back to the agent's terminal.\n\n```mermaid\nflowchart LR\n  Agents[Agent hooks and scripts] --> CLI[beacon CLI]\n  CI[CI webhooks] --> Daemon[Local beacon daemon]\n  CLI --> Daemon\n  Daemon --> Menu[Menu bar app]\n  Daemon --> Notch[Notch adapter]\n  Daemon --> Watch[iPhone and Watch alerts]\n  Watch --> Daemon\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Protocol | JSON over a Unix socket, documented spec |\n| CLI | Swift ArgumentParser binary via Homebrew |\n| Daemon | Swift launch agent with SQLite history |\n| UI | SwiftUI MenuBarExtra, Live Activities, watchOS app |\n| Integrations | Claude Code hooks, Codex notify, GitHub Actions step |\n\n## Hard parts\n\n- Getting agent tools and notch apps to adopt one schema.\n- Routing phone replies back to the right terminal session safely.\n- Avoiding notification spam from chatty agents.\n- Relaying to the phone without a server, or with an end-to-end encrypted one.\n\n## Effort\n\nA weekend for the CLI, daemon and menu bar view; three to four weeks for Watch alerts, replies and a CI action.\n\n## Inspired by\n\n- [Tuck Notch post on X](https://x.com/ASaltyVet/status/2125437315871047783)\n- [Tuck Notch on GitHub](https://github.com/ASV-Labs/tuck-notch)\n- [Paradev post on X](https://x.com/ParadevAI/status/2125293469136732635)\n- [Paradev on GitHub](https://github.com/ParadevAI/Paradev)"
     }
   ]
 }
