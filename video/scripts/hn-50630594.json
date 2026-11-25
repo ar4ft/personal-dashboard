@@ -1,0 +1,21 @@
+{
+  "hook": "Twenty-two organizations hit in a single intrusion campaign",
+  "hookText": "22 organizations hit",
+  "beats": [
+    {
+      "say": "GreyNoise tracked an intrusion campaign against Check Point security management servers, with confirmed attacks between October 17th and November 2nd hitting at least 22 organizations.",
+      "visual": 0,
+      "stat": "22",
+      "statLabel": "organizations hit"
+    },
+    {
+      "say": "The actor used 99 IP addresses, mostly disposable infrastructure, for scanning, exploitation and post-exploitation inside the victims' networks.",
+      "visual": 2
+    },
+    {
+      "say": "Victims span finance, energy, government and manufacturing, and GreyNoise has not attributed the activity to any known threat group.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,19 @@
+{
+  "hook": "CocoaPods goes read-only on December 2",
+  "hookText": "CocoaPods ends December 2",
+  "beats": [
+    {
+      "say": "The CocoaPods registry becomes permanently read-only from December 2, 2026, so Flutter apps still using it need to move to Swift Package Manager.",
+      "visual": 0
+    },
+    {
+      "say": "Swift Package Manager has been enabled by default since Flutter 3.44, and version 3.50 now alerts when SwiftPM has been disabled.",
+      "visual": 0
+    },
+    {
+      "say": "The fix is to check your Flutter version, re-enable SwiftPM, and do a clean iOS build to find plugins still using CocoaPods.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

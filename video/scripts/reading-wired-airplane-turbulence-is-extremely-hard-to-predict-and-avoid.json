@@ -1,0 +1,21 @@
+{
+  "hook": "Turbulence is physics' hardest unsolved problem",
+  "hookText": "Physics' hardest problem",
+  "beats": [
+    {
+      "say": "Turbulence is called the hardest remaining problem in classical physics, and we still do not exactly know how it works.",
+      "visual": 0
+    },
+    {
+      "say": "More than 200 people were seriously injured in turbulence on US airplanes between 2009 and 2023, according to FAA data.",
+      "visual": 3,
+      "stat": "200",
+      "statLabel": "seriously injured, 2009-2023"
+    },
+    {
+      "say": "Now terabytes of crowdsourced flight data and new machine learning may help pilots get ten to fifteen minutes of warning before the choppiness hits.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

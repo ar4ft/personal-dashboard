@@ -1,0 +1,21 @@
+{
+  "hook": "124 free math textbooks, written by university mathematicians",
+  "hookText": "124 free math textbooks",
+  "beats": [
+    {
+      "say": "Many university mathematicians turn years of lecture notes into a book and put it on their own page for free, and this list collects them.",
+      "visual": 1
+    },
+    {
+      "say": "The list holds 124 books across thirteen subjects, from high school algebra to graduate analysis, sorted by subject, level and format.",
+      "visual": 0,
+      "stat": "124",
+      "statLabel": "free math textbooks"
+    },
+    {
+      "say": "26 of the books also have a print edition, and the author notes each book's level, format and a short comment.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

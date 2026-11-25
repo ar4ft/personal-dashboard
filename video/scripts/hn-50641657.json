@@ -1,0 +1,21 @@
+{
+  "hook": "Type errors barely slow coding agents down",
+  "hookText": "Under 1% on type errors",
+  "beats": [
+    {
+      "say": "Evil Martians tested the claim that static types make coding agents better, across ten languages and hundreds of agent runs.",
+      "visual": 1
+    },
+    {
+      "say": "Typed and dynamic languages tied at about 65 percent solved, and TypeScript never beat plain JavaScript in three public benchmarks.",
+      "visual": 0,
+      "stat": "65",
+      "statLabel": "percent solved, typed or dynamic"
+    },
+    {
+      "say": "Fixing type errors took under one percent of agent time, while reading code was the biggest cost, up to 41 minutes per run.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

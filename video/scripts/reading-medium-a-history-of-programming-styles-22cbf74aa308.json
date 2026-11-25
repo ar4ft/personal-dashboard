@@ -1,0 +1,19 @@
+{
+  "hook": "One problem, solved in many programming styles",
+  "hookText": "Many styles, one problem",
+  "beats": [
+    {
+      "say": "Cristina Videira Lopes wrote Exercises in Programming Style, solving one problem, finding word frequencies in a text, in many different styles.",
+      "visual": 0
+    },
+    {
+      "say": "This article starts with the monolithic style: one long continuous block of code, with no division into functions or procedures.",
+      "visual": 0
+    },
+    {
+      "say": "The author teaches new computer science majors in C++, and uses these styles to show why functions make programs easier to read and debug.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

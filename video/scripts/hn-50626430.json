@@ -1,0 +1,21 @@
+{
+  "hook": "A display that holds its image for months, unplugged",
+  "hookText": "Months without power",
+  "beats": [
+    {
+      "say": "Researchers in Australia built a reflective display from antimony selenide that keeps its image for months without any power.",
+      "visual": 0
+    },
+    {
+      "say": "Ordinary screens need constant power to hold a picture, but this phase-change material is rearranged at the atomic level and stays put.",
+      "visual": 0
+    },
+    {
+      "say": "Erasing it means heating the film to around 200 degrees Celsius uniformly, letting the atoms move and find new positions.",
+      "visual": 0,
+      "stat": "200",
+      "statLabel": "degrees Celsius to erase"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

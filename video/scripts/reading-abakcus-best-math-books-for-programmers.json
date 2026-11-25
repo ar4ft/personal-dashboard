@@ -1,0 +1,21 @@
+{
+  "hook": "23 math books every programmer should read",
+  "hookText": "23 books for programmers",
+  "beats": [
+    {
+      "say": "You can write software for years without proving a theorem, until a loop that was fast on a thousand records takes all night on a million.",
+      "visual": 0
+    },
+    {
+      "say": "The list gives 23 books in five steps, from counting and logic to algorithms, cryptography and the bits inside the machine.",
+      "visual": 2,
+      "stat": "23",
+      "statLabel": "math books in five steps"
+    },
+    {
+      "say": "Four of the books are free, and the first step is for readers who have the code but not the mathematics.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "This feature looks useless, until it costs you",
+  "hookText": "The invisible feature",
+  "beats": [
+    {
+      "say": "In a simulated table of 40,000 ride requests, removing the city column drops the model's AUC by 0.169, yet alone it scores like noise.",
+      "visual": 0,
+      "stat": "0.169",
+      "statLabel": "AUC lost without city"
+    },
+    {
+      "say": "Price alone scores 0.693, but price plus city reaches 0.860, within a whisker of the best possible 0.861.",
+      "visual": 0
+    },
+    {
+      "say": "In a pool of 196 columns, four useful features were invisible to univariate tests, so use a boosted model's loss-based importance instead.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

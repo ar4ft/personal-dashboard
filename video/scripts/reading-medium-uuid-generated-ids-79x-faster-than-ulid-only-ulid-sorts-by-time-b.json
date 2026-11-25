@@ -1,0 +1,21 @@
+{
+  "hook": "UUIDs generate 79 times faster than ULIDs",
+  "hookText": "79x faster IDs",
+  "beats": [
+    {
+      "say": "The author generated a million of each ID on Node.js: UUID version 4 hit about seven million a second, ULID about 89 thousand.",
+      "visual": 0,
+      "stat": "79",
+      "statLabel": "times faster than ULID"
+    },
+    {
+      "say": "UUID version 4 is sixteen random bytes with dashes, while ULID packs a 48-bit timestamp first, so only ULID sorts by creation time.",
+      "visual": 0
+    },
+    {
+      "say": "CUID2 runs a hash to resist guessing, and the lesson is to pick for your database index, not by habit.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

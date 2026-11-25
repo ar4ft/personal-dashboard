@@ -1,0 +1,21 @@
+{
+  "hook": "Five Treasury subdomains taken over for three dollars each",
+  "hookText": "$3 per subdomain",
+  "beats": [
+    {
+      "say": "Researchers cycled through AWS Elastic IPs and took over five US Treasury subdomains, then reported and fixed them through a bug bounty.",
+      "visual": 1
+    },
+    {
+      "say": "A dangling DNS record pointing at a released Elastic IP lets anyone claim that address, and with it the subdomain.",
+      "visual": 0
+    },
+    {
+      "say": "They covered under one percent of the address space and still found 28 high-impact takeovers, so check your DNS records now.",
+      "visual": 3,
+      "stat": "28",
+      "statLabel": "high-impact takeovers found"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

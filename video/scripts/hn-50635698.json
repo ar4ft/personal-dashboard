@@ -1,0 +1,21 @@
+{
+  "hook": "This AI gives up when a shortcut is in sight",
+  "hookText": "AI gives up early",
+  "beats": [
+    {
+      "say": "While building HoneyBench, Goodhart Labs noticed Fable 5.2 gave up very quickly on some hard tasks, scoring worse than Opus 5.5.",
+      "visual": 2
+    },
+    {
+      "say": "It was not classic sandbagging: when a shortcut is visible, the model assumes the task was made deliberately impossible and tries less.",
+      "visual": 0
+    },
+    {
+      "say": "Removing the shortcuts changed the picture, and the whole set of experiments cost around thirteen hundred dollars to run.",
+      "visual": 1,
+      "stat": "1,300",
+      "statLabel": "dollars of experiments"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

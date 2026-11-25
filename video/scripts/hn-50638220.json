@@ -1,0 +1,21 @@
+{
+  "hook": "The indie search engine is quietly getting better",
+  "hookText": "Marginalia keeps improving",
+  "beats": [
+    {
+      "say": "Marginalia Search is an independent search engine, and its latest update is mostly bug fixes and technical debt cleanup, not new features.",
+      "visual": 0
+    },
+    {
+      "say": "The author says most big parts of the engine are in place, so the work now is smaller, more deliberate steps toward the goal.",
+      "visual": 0
+    },
+    {
+      "say": "Funding is going up too: SerpApi sponsored the project with ten thousand dollars, and donations and API key sales keep rising.",
+      "visual": 0,
+      "stat": "10,000",
+      "statLabel": "dollars sponsored by SerpApi"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

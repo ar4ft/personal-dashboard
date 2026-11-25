@@ -1,0 +1,19 @@
+{
+  "hook": "Google built a fake internet to train its AI agents",
+  "hookText": "A fake internet for AI",
+  "beats": [
+    {
+      "say": "Chrome's team is building AI browsing features with Gemini, and needed a safe place to train agents that browse the real web.",
+      "visual": 0
+    },
+    {
+      "say": "So they built the Mirror Dimension: an isolated alternate internet with social media, shopping and bank dashboards they fully control.",
+      "visual": 2
+    },
+    {
+      "say": "Agents complete tasks there and face resilience tests like hidden prompt injections, without ever touching the open internet.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

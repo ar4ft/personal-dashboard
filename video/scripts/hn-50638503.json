@@ -1,0 +1,21 @@
+{
+  "hook": "Twenty-three classic graphics demos, back in your browser",
+  "hookText": "23 retro GPU demos",
+  "beats": [
+    {
+      "say": "The gallery revives 23 graphics card demos by 3dfx, Nvidia and ATI from 1998 to 2006, all running in the browser.",
+      "visual": 0,
+      "stat": "23",
+      "statLabel": "classic demos revived"
+    },
+    {
+      "say": "There is a sea monster with 500 fish that avoid it, a werewolf with eight layers of fur, and a meadow of ten thousand grass blades.",
+      "visual": 1
+    },
+    {
+      "say": "Smoke and water are simulated on the card itself, and you can poke a bubble of springs or pilot a mechanical squid.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
