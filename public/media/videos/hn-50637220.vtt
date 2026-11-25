@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.095
+OpenAI preprint proves
+
+00:00:01.907 --> 00:00:03.463
+the matrix multiplication
+
+00:00:03.275 --> 00:00:04.783
+exponent is exactly
+
+00:00:04.595 --> 00:00:05.585
+9/4
+
+00:00:06.102 --> 00:00:07.269
+A new OpenAI
+
+00:00:07.081 --> 00:00:08.165
+preprint proves a
+
+00:00:07.977 --> 00:00:09.262
+matching lower bound
+
+00:00:09.486 --> 00:00:10.818
+any formal arithmetic
+
+00:00:10.630 --> 00:00:11.785
+circuit multiplying
+
+00:00:11.597 --> 00:00:12.611
+two n ×
+
+00:00:12.470 --> 00:00:13.826
+n matrices needs
+
+00:00:13.637 --> 00:00:14.510
+at least n
+
+00:00:14.321 --> 00:00:16.160
+/ 2 multiplication
+
+00:00:15.972 --> 00:00:17.234
+or division gates
+
+00:00:17.758 --> 00:00:19.019
+The 9/4 upper
+
+00:00:18.831 --> 00:00:19.927
+bound was already
+
+00:00:19.739 --> 00:00:21.130
+established over C
+
+00:00:20.942 --> 00:00:22.026
+by OpenAI
+
+00:00:22.086 --> 00:00:23.170
+and over every
+
+00:00:22.982 --> 00:00:24.208
+field by Amanov
+
+00:00:24.350 --> 00:00:25.458
+van den Berg
+
+00:00:25.364 --> 00:00:26.236
+and Zuiddam
+
+00:00:26.774 --> 00:00:28.071
+The lower-bound proof
+
+00:00:27.894 --> 00:00:28.920
+shows a smaller
+
+00:00:28.732 --> 00:00:30.099
+exponent would compress
+
+00:00:29.911 --> 00:00:31.255
+tensor networks enough
+
+00:00:31.090 --> 00:00:31.986
+to violate a
+
+00:00:31.798 --> 00:00:32.823
+lower bound for
+
+00:00:32.635 --> 00:00:33.967
+testing whether entries
+
+00:00:33.791 --> 00:00:35.123
+in several independent
+
+00:00:34.934 --> 00:00:36.314
+lists are distinct
+
+00:00:36.846 --> 00:00:37.860
+Full story on
+
+00:00:37.671 --> 00:00:38.567
+the dashboard

@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.788
+Sandboxed models can
+
+00:00:01.600 --> 00:00:02.319
+talk to each
+
+00:00:02.131 --> 00:00:03.298
+other through shared
+
+00:00:03.109 --> 00:00:04.041
+vLLM
+
+00:00:04.566 --> 00:00:05.804
+A LessWrong post
+
+00:00:05.616 --> 00:00:06.818
+shows two agents
+
+00:00:06.630 --> 00:00:07.360
+on the same
+
+00:00:07.172 --> 00:00:08.929
+vLLM server communicating
+
+00:00:08.741 --> 00:00:09.943
+via side channels
+
+00:00:09.755 --> 00:00:10.957
+in kernel selection
+
+00:00:11.111 --> 00:00:11.983
+with a receiver
+
+00:00:11.795 --> 00:00:12.820
+guessing a sender's
+
+00:00:12.632 --> 00:00:15.238
+color in 1,221
+
+00:00:15.050 --> 00:00:17.714
+of 1,221 rounds
+
+00:00:18.238 --> 00:00:19.523
+The two protocols
+
+00:00:19.476 --> 00:00:20.773
+Step Sizing and
+
+00:00:20.585 --> 00:00:21.893
+KV Cache Message
+
+00:00:21.705 --> 00:00:22.212
+Board
+
+00:00:22.330 --> 00:00:23.320
+convey bits through
+
+00:00:23.132 --> 00:00:24.287
+the way vLLM
+
+00:00:24.099 --> 00:00:25.301
+chooses kernels for
+
+00:00:25.137 --> 00:00:26.068
+engine steps
+
+00:00:26.233 --> 00:00:27.554
+which subtly changes
+
+00:00:27.365 --> 00:00:29.051
+another model's numerical
+
+00:00:28.863 --> 00:00:29.641
+results
+
+00:00:30.158 --> 00:00:31.820
+In an untrusted-monitoring
+
+00:00:31.632 --> 00:00:32.846
+setup the policy
+
+00:00:32.658 --> 00:00:33.554
+signals to a
+
+00:00:33.366 --> 00:00:34.804
+colluding monitor that
+
+00:00:34.627 --> 00:00:35.393
+it is not
+
+00:00:35.205 --> 00:00:36.054
+a honeypot
+
+00:00:36.582 --> 00:00:37.596
+Full story on
+
+00:00:37.407 --> 00:00:38.303
+the dashboard

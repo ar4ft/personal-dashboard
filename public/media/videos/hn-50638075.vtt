@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.788
+A faster algorithm
+
+00:00:01.600 --> 00:00:03.298
+for extracting hexadecimal
+
+00:00:03.109 --> 00:00:04.194
+digits of π
+
+00:00:04.734 --> 00:00:06.160
+Robert Smith presents
+
+00:00:06.043 --> 00:00:07.587
+a rearranged Euler-derived
+
+00:00:07.399 --> 00:00:08.802
+series for extracting
+
+00:00:08.614 --> 00:00:09.509
+hex digits of
+
+00:00:09.321 --> 00:00:10.877
+π without computing
+
+00:00:10.689 --> 00:00:11.703
+earlier digits
+
+00:00:11.995 --> 00:00:13.705
+using about 61%
+
+00:00:13.517 --> 00:00:14.695
+fewer divisions and
+
+00:00:14.519 --> 00:00:16.158
+38% fewer full
+
+00:00:15.969 --> 00:00:17.608
+modular exponentiations
+
+00:00:17.432 --> 00:00:18.717
+than Huvent's eight-term
+
+00:00:18.528 --> 00:00:19.294
+formula
+
+00:00:19.822 --> 00:00:21.001
+The method competes
+
+00:00:20.813 --> 00:00:21.732
+with the classic
+
+00:00:21.544 --> 00:00:22.840
+Bailey-Borwein-Plouffe
+
+00:00:22.900 --> 00:00:24.149
+Bellard and Huvent
+
+00:00:23.961 --> 00:00:25.694
+digit-extraction formulas
+
+00:00:26.222 --> 00:00:27.436
+Collecting the series'
+
+00:00:27.248 --> 00:00:28.155
+terms by odd
+
+00:00:27.967 --> 00:00:29.700
+denominator 2k +
+
+00:00:29.536 --> 00:00:30.620
+1 lets four
+
+00:00:30.432 --> 00:00:31.611
+remainders share one
+
+00:00:31.422 --> 00:00:32.130
+division
+
+00:00:32.319 --> 00:00:33.038
+and the gaps
+
+00:00:32.849 --> 00:00:33.781
+between the terms
+
+00:00:33.592 --> 00:00:34.889
+mean those remainders
+
+00:00:34.701 --> 00:00:35.337
+don't have to
+
+00:00:35.149 --> 00:00:36.658
+be computed independently
+
+00:00:36.470 --> 00:00:37.047
+either
+
+00:00:37.236 --> 00:00:38.344
+cutting the operation
+
+00:00:38.156 --> 00:00:38.757
+count
+
+00:00:39.294 --> 00:00:40.308
+Full story on
+
+00:00:40.119 --> 00:00:41.015
+the dashboard
