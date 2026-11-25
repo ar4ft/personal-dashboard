@@ -54460,6 +54460,262 @@
       ],
       "createdAt": "2026-11-25T13:00:00Z",
       "content": "## How it works\n\nEvery agent tool invents its own status UI, so the beacon defines a tiny JSON event (session, state, message, needs-input) and a local daemon that receives events from a CLI (`beacon send`), agent hooks and CI webhooks. Display adapters subscribe: a menu bar app, a notch integration for apps like Tuck Notch, and push notifications to an iPhone and Apple Watch when an agent is blocked on a question. Replies typed on the phone flow back to the agent's terminal.\n\n```mermaid\nflowchart LR\n  Agents[Agent hooks and scripts] --> CLI[beacon CLI]\n  CI[CI webhooks] --> Daemon[Local beacon daemon]\n  CLI --> Daemon\n  Daemon --> Menu[Menu bar app]\n  Daemon --> Notch[Notch adapter]\n  Daemon --> Watch[iPhone and Watch alerts]\n  Watch --> Daemon\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Protocol | JSON over a Unix socket, documented spec |\n| CLI | Swift ArgumentParser binary via Homebrew |\n| Daemon | Swift launch agent with SQLite history |\n| UI | SwiftUI MenuBarExtra, Live Activities, watchOS app |\n| Integrations | Claude Code hooks, Codex notify, GitHub Actions step |\n\n## Hard parts\n\n- Getting agent tools and notch apps to adopt one schema.\n- Routing phone replies back to the right terminal session safely.\n- Avoiding notification spam from chatty agents.\n- Relaying to the phone without a server, or with an end-to-end encrypted one.\n\n## Effort\n\nA weekend for the CLI, daemon and menu bar view; three to four weeks for Watch alerts, replies and a CI action.\n\n## Inspired by\n\n- [Tuck Notch post on X](https://x.com/ASaltyVet/status/2125437315871047783)\n- [Tuck Notch on GitHub](https://github.com/ASV-Labs/tuck-notch)\n- [Paradev post on X](https://x.com/ParadevAI/status/2125293469136732635)\n- [Paradev on GitHub](https://github.com/ParadevAI/Paradev)"
+    },
+    {
+      "id": "hn:50630594",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "description": "GreyNoise reports an active intrusion campaign targeting Check Point security management servers.",
+      "content": "GreyNoise reports an active intrusion campaign targeting Check Point security management servers.\n\n[Read the article](https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign)\n\n[HN discussion](https://news.ycombinator.com/item?id=50630594)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "louiereederson",
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "createdAt": "2026-11-24T16:32:17Z",
+      "updatedAt": "2026-11-24T16:32:17Z"
+    },
+    {
+      "id": "hn:50638478",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "description": "Intruder Research shows how US Treasury subdomains could be taken over for $3 each.",
+      "content": "Intruder Research shows how US Treasury subdomains could be taken over for $3 each.\n\n[Read the article](https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each)\n\n[HN discussion](https://news.ycombinator.com/item?id=50638478)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "negura",
+      "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "createdAt": "2026-11-25T04:27:55Z",
+      "updatedAt": "2026-11-25T04:27:55Z"
+    },
+    {
+      "id": "hn:50638220",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "description": "An update from the independent search engine Marginalia, covering money, C++, Rust, AI and more.",
+      "content": "An update from the independent search engine Marginalia, covering money, C++, Rust, AI and more.\n\n[Read the article](https://www.marginalia.nu/log/a_141_marginalia_update/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50638220)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Curiositry",
+      "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+      "createdAt": "2026-11-25T03:47:42Z",
+      "updatedAt": "2026-11-25T03:47:42Z"
+    },
+    {
+      "id": "hn:50638503",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "description": "Classic Nvidia and ATI tech demos brought back to life and running in the browser.",
+      "content": "Classic Nvidia and ATI tech demos brought back to life and running in the browser.\n\n[Read the article](https://gpu-demo-gallery.pages.dev/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50638503)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "arkits",
+      "url": "https://gpu-demo-gallery.pages.dev/",
+      "createdAt": "2026-11-25T04:31:48Z",
+      "updatedAt": "2026-11-25T04:31:48Z"
+    },
+    {
+      "id": "hn:50635698",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Fable 5.2 tries less on some hard tasks when a shortcut is available",
+      "description": "Goodhart Labs finds that the Fable 5.2 model puts in less effort on some hard tasks when a shortcut is available.",
+      "content": "Goodhart Labs finds that the Fable 5.2 model puts in less effort on some hard tasks when a shortcut is available.\n\n[Read the article](https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available)\n\n[HN discussion](https://news.ycombinator.com/item?id=50635698)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "atlun",
+      "url": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available",
+      "createdAt": "2026-11-24T22:26:41Z",
+      "updatedAt": "2026-11-24T22:26:41Z"
+    },
+    {
+      "id": "hn:50626430",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "New rewritable antimony selenide display shows an image for months without power",
+      "description": "Researchers built a rewritable antimony selenide display that holds an image for months without power.",
+      "content": "Researchers built a rewritable antimony selenide display that holds an image for months without power.\n\n[Read the article](https://tmos.org.au/news/new-rewritable-displays-can-show-an-image-for-months-without-power/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50626430)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "giuliomagnifico",
+      "url": "https://tmos.org.au/news/new-rewritable-displays-can-show-an-image-for-months-without-power/",
+      "createdAt": "2026-11-24T10:52:12Z",
+      "updatedAt": "2026-11-24T10:52:12Z"
+    },
+    {
+      "id": "hn:50641522",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google Built a Giant 'Mirror Dimension' Internet to Test Its Chrome AI Agents",
+      "description": "Google built a giant simulated “mirror dimension” internet to test its Chrome AI agents.",
+      "content": "Google built a giant simulated “mirror dimension” internet to test its Chrome AI agents.\n\n[Read the article](https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50641522)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "noorsimar",
+      "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+      "createdAt": "2026-11-25T12:28:44Z",
+      "updatedAt": "2026-11-25T12:28:44Z"
+    },
+    {
+      "id": "hn:50641657",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Type errors cost our coding agents under 1% of their time",
+      "description": "Evil Martians measured how much time coding agents lose to type errors: under 1% of their time.",
+      "content": "Evil Martians measured how much time coding agents lose to type errors: under 1% of their time.\n\n[Read the article](https://evilmartians.com/chronicles/type-errors-cost-our-coding-agents-under-one-percent-of-their-time)\n\n[HN discussion](https://news.ycombinator.com/item?id=50641657)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "tilt",
+      "url": "https://evilmartians.com/chronicles/type-errors-cost-our-coding-agents-under-one-percent-of-their-time",
+      "createdAt": "2026-11-25T12:47:17Z",
+      "updatedAt": "2026-11-25T12:47:17Z"
+    },
+    {
+      "id": "reading:medium-a-history-of-programming-styles-22cbf74aa308",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A History of Programming Styles",
+      "description": "A tour through the history of programming styles, starting with the monolithic style.",
+      "content": "A tour through the history of programming styles, starting with the monolithic style.\n\n[Read the article](https://medium.com/codex/a-history-of-programming-styles-22cbf74aa308)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://medium.com/codex/a-history-of-programming-styles-22cbf74aa308",
+      "createdAt": "2026-11-25T12:11:01Z",
+      "updatedAt": "2026-11-25T12:11:01Z",
+      "author": "Mike McMillan"
+    },
+    {
+      "id": "reading:medium-uuid-generated-ids-79x-faster-than-ulid-only-ulid-sorts-by-time-b387bbc21a0c",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "UUID Generated IDs 79x Faster Than ULID. Only ULID Sorts by Time",
+      "description": "Generating a million of each, the author compares UUID v4, ULID and CUID2 on speed, length and whether they sort by creation time: UUIDs came out 79x faster to generate, but only ULID sorts by time.",
+      "content": "Generating a million of each, the author compares UUID v4, ULID and CUID2 on speed, length and whether they sort by creation time: UUIDs came out 79x faster to generate, but only ULID sorts by time.\n\n[Read the article](https://martin128.medium.com/uuid-generated-ids-79x-faster-than-ulid-only-ulid-sorts-by-time-b387bbc21a0c)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://martin128.medium.com/uuid-generated-ids-79x-faster-than-ulid-only-ulid-sorts-by-time-b387bbc21a0c",
+      "createdAt": "2026-11-25T12:11:01Z",
+      "updatedAt": "2026-11-25T12:11:01Z",
+      "author": "Martin"
+    },
+    {
+      "id": "reading:medium-your-univariate-test-just-dropped-the-feature-your-ml-model-needs-what-to-use-instead-c8efb13ea66a",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Your univariate test just dropped the feature your ML model needs: what to use instead",
+      "description": "From a 196-column pool with 14 useful features, four are missed by univariate tests: a look at which feature selectors keep them.",
+      "content": "From a 196-column pool with 14 useful features, four are missed by univariate tests: a look at which feature selectors keep them.\n\n[Read the article](https://pub.towardsai.net/your-univariate-test-just-dropped-the-feature-your-ml-model-needs-what-to-use-instead-c8efb13ea66a)",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "url": "https://pub.towardsai.net/your-univariate-test-just-dropped-the-feature-your-ml-model-needs-what-to-use-instead-c8efb13ea66a",
+      "createdAt": "2026-11-25T12:01:47Z",
+      "updatedAt": "2026-11-25T12:01:47Z",
+      "author": "Ilia Ekhlakov"
+    },
+    {
+      "id": "reading:medium-moving-on-from-cocoapods-06ae578bca0f",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Moving on from CocoaPods",
+      "description": "CocoaPods is set to become read-only from December 2; the author walks through investigating and updating a project for the move.",
+      "content": "CocoaPods is set to become read-only from December 2; the author walks through investigating and updating a project for the move.\n\n[Read the article](https://medium.com/@flutter-app/moving-on-from-cocoapods-06ae578bca0f)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "url": "https://medium.com/@flutter-app/moving-on-from-cocoapods-06ae578bca0f",
+      "createdAt": "2026-11-25T11:44:36Z",
+      "updatedAt": "2026-11-25T11:44:36Z",
+      "author": "Nicolas"
+    },
+    {
+      "id": "reading:wired-airplane-turbulence-is-extremely-hard-to-predict-and-avoid",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
+      "description": "Turbulence is called the hardest remaining problem in classical physics; terabytes of crowdsourced data and new machine learning approaches may finally help predict it.",
+      "content": "Turbulence is called the hardest remaining problem in classical physics; terabytes of crowdsourced data and new machine learning approaches may finally help predict it.\n\n[Read the article](https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Reading",
+      "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
+      "createdAt": "2026-11-25T11:30:00Z",
+      "updatedAt": "2026-11-25T11:30:00Z",
+      "author": "Aarian Marshall"
+    },
+    {
+      "id": "reading:abakcus-free-math-textbooks",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Free Math Textbooks from University Mathematicians",
+      "description": "125 math textbooks that university mathematicians give away on their own pages, from high school algebra to graduate analysis, sorted by subject, level and format.",
+      "content": "125 math textbooks that university mathematicians give away on their own pages, from high school algebra to graduate analysis, sorted by subject, level and format.\n\n[Read the article](https://abakcus.com/book-lists/free-math-textbooks)",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "url": "https://abakcus.com/book-lists/free-math-textbooks",
+      "createdAt": "2026-09-29T00:00:00Z",
+      "updatedAt": "2026-09-29T00:00:00Z"
+    },
+    {
+      "id": "reading:abakcus-best-math-books-for-programmers",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The 23 Best Math Books for Programmers, in Reading Order",
+      "description": "23 math books in reading order covering the mathematics a working programmer actually uses, from counting and logic to algorithms, cryptography and the bits inside the machine; four of them free.",
+      "content": "23 math books in reading order covering the mathematics a working programmer actually uses, from counting and logic to algorithms, cryptography and the bits inside the machine; four of them free.\n\n[Read the article](https://abakcus.com/book-lists/best-math-books-for-programmers)",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "url": "https://abakcus.com/book-lists/best-math-books-for-programmers",
+      "createdAt": "2026-11-22T00:00:00Z",
+      "updatedAt": "2026-11-22T00:00:00Z"
     }
   ]
 }
