@@ -2,6 +2,23 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50647161",
+      "feedId": "hn:50647161",
+      "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c261414a344ed6c474473c2805c908cde17ea8c0/hn-50647161.mp4",
+      "poster": "media/videos/hn-50647161.jpg",
+      "captions": "media/videos/hn-50647161.vtt",
+      "duration": 41.11,
+      "transcript": "Nfs2root: A 12-year-old pre-auth remote root A 12-year-old pre-authentication remote root vulnerability in the Linux kernel's NFS server, tracked as CVE-2026-99362. The NFS server runs inside the kernel and parses network input before it knows who you are. Since 2014, the Linux kernel listening on it has let anyone who can reach it write into kernel memory before logging in. A 12-year-old heap overflow in Linux's NFSv4.1 server lets an unauthenticated client on tcp/2049 corrupt kernel memory. Full story on the dashboard.",
+      "createdAt": "2026-11-25T23:04:45Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50626430",
       "feedId": "hn:50626430",
       "title": "New rewritable antimony selenide display shows an image for months without power",

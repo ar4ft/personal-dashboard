@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.517
+Much shorter version
+
+00:00:01.329 --> 00:00:02.566
+of GRH Lean
+
+00:00:02.378 --> 00:00:04.288
+verification from Anthropic
+
+00:00:04.806 --> 00:00:05.796
+A much shorter
+
+00:00:05.608 --> 00:00:06.975
+version of Anthropic's
+
+00:00:06.787 --> 00:00:08.261
+Lean formalization
+
+00:00:08.332 --> 00:00:09.923
+verifying the Generalized
+
+00:00:09.735 --> 00:00:11.150
+Riemann Hypothesis
+
+00:00:11.289 --> 00:00:14.201
+Needs Lean v4.35.0
+
+00:00:14.025 --> 00:00:15.251
+and Mathlib at
+
+00:00:15.063 --> 00:00:18.388
+commit 56a00585
+
+00:00:18.910 --> 00:00:19.829
+A build takes
+
+00:00:19.641 --> 00:00:20.372
+one to two
+
+00:00:20.184 --> 00:00:21.280
+hours on 12
+
+00:00:21.092 --> 00:00:23.096
+cores with 24 GB
+
+00:00:22.908 --> 00:00:23.721
+of memory
+
+00:00:24.254 --> 00:00:25.103
+The proof is
+
+00:00:24.914 --> 00:00:25.987
+based on Levent
+
+00:00:25.822 --> 00:00:27.237
+Alpöge's with Claude
+
+00:00:27.308 --> 00:00:28.664
+This repository is
+
+00:00:28.476 --> 00:00:29.525
+a shorter version
+
+00:00:29.690 --> 00:00:31.187
+produced in collaboration
+
+00:00:30.999 --> 00:00:31.978
+with my colleagues
+
+00:00:31.789 --> 00:00:32.815
+at Anthropic
+
+00:00:32.839 --> 00:00:33.629
+and Claude
+
+00:00:34.158 --> 00:00:35.172
+Full story on
+
+00:00:34.983 --> 00:00:35.879
+the dashboard

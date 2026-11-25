@@ -1,0 +1,20 @@
+{
+  "hook": "Nfs2root: A 12-year-old pre-auth remote root",
+  "hookText": "Nfs2root: A 12-year-old pre-auth remote root",
+  "beats": [
+    {
+      "say": "A 12-year-old pre-authentication remote root vulnerability in the Linux kernel's NFS server, tracked as CVE-2026-99362. The NFS server runs inside the kernel and parses network input before it knows who you are.",
+      "visual": 1
+    },
+    {
+      "say": "Since 2014, the Linux kernel listening on it has let anyone who can reach it write into kernel memory before logging in.",
+      "visual": 2
+    },
+    {
+      "say": "A 12-year-old heap overflow in Linux's NFSv4.1 server lets an unauthenticated client on tcp/2049 corrupt kernel memory.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
