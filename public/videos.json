@@ -2,6 +2,203 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50626430",
+      "feedId": "hn:50626430",
+      "title": "New rewritable antimony selenide display shows an image for months without power",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://tmos.org.au/news/new-rewritable-displays-can-show-an-image-for-months-without-power/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@79062d65e395c093462195228b974b49df329d7b/hn-50626430.mp4",
+      "poster": "media/videos/hn-50626430.jpg",
+      "captions": "media/videos/hn-50626430.vtt",
+      "duration": 31.43,
+      "transcript": "A display that holds its image for months, unplugged Researchers in Australia built a reflective display from antimony selenide that keeps its image for months without any power. Ordinary screens need constant power to hold a picture, but this phase-change material is rearranged at the atomic level and stays put. Erasing it means heating the film to around 200 degrees Celsius uniformly, letting the atoms move and find new positions. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:41:10Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125201633940484274",
+      "feedId": "x:2125201633940484274",
+      "title": "Reading lingsante-3.1-air-vl's shard headers: 124.8B params, 5.5B active",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/tensorquay/status/2125201633940484274",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@59c3e282a1a3a166da4a042a0e2732799809dcee/x-2125201633940484274.mp4",
+      "poster": "media/videos/x-2125201633940484274.jpg",
+      "captions": "media/videos/x-2125201633940484274.vtt",
+      "duration": 39.33,
+      "transcript": "A 124.8B model, reverse-engineered from shard headers TensorQuay worked out the architecture of lingsante 3.1 air VL just by reading its 50 weight shard headers. 96.8 percent of those parameters are routed experts, with 512 experts per layer and 8 picked for each token. Outside the experts, the model is only 4.05 billion parameters. Per token, 3.6 billion always-on parameters plus 1.9 billion from experts add up to the model card's 5.5 billion active. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:40:30Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125244296182063561",
+      "feedId": "x:2125244296182063561",
+      "title": "Edgent brings free, fully on-device speech AI to iPhone and Mac",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://x.com/TheStageAI/status/2125244296182063561",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@5fac3e15b8feb00cbfdcbc3b60c13dece943a950/x-2125244296182063561.mp4",
+      "poster": "media/videos/x-2125244296182063561.jpg",
+      "captions": "media/videos/x-2125244296182063561.vtt",
+      "duration": 27.26,
+      "transcript": "Cloud-quality speech AI, fully on your iPhone TheStage AI released Edgent, free speech AI for iPhone and Mac with no account required. It handles dictation in any Mac app, meeting notes with speaker labels, and voice chat you can interrupt. Everything runs on the device, even in airplane mode, built on the company's on-device Whisper and diarization kit. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:39:47Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50630594",
+      "feedId": "hn:50630594",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f814c110e9d38428fa5dc14cd612334d6cac9544/hn-50630594.mp4",
+      "poster": "media/videos/hn-50630594.jpg",
+      "captions": "media/videos/hn-50630594.vtt",
+      "duration": 36.86,
+      "transcript": "Twenty-two organizations hit in a single intrusion campaign GreyNoise tracked an intrusion campaign against Check Point security management servers, with confirmed attacks between October 17th and November 2nd hitting at least 22 organizations. The actor used 99 IP addresses, mostly disposable infrastructure, for scanning, exploitation and post-exploitation inside the victims' networks. Victims span finance, energy, government and manufacturing, and GreyNoise has not attributed the activity to any known threat group. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:39:14Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125293469136732635",
+      "feedId": "x:2125293469136732635",
+      "title": "Paradev, the parallel coding-agent desktop app formerly called Superset, returns to the MIT license",
+      "source": "Twitter / X",
+      "topics": [
+        "Programming",
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://x.com/ParadevAI/status/2125293469136732635",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@cdda682c1c25f357be58f4d1c0a2039ee64cea78/x-2125293469136732635.mp4",
+      "poster": "media/videos/x-2125293469136732635.jpg",
+      "captions": "media/videos/x-2125293469136732635.vtt",
+      "duration": 29.08,
+      "transcript": "Paradev goes fully open source again Paradev, formerly Superset, moved to a more restrictive license in February. Now the team has switched back to MIT. It is a desktop app for running coding agents like Claude Code and Codex in parallel, each in its own Git worktree. The team invites anyone to fork it or build their own product on it. Its GitHub repo has more than 16,000 stars. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:38:34Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50633424",
+      "feedId": "hn:50633424",
+      "title": "From CUDA and JAX to TorchTPU: porting a Cayley-graph puzzle solver to Google's PyTorch TPU backend",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "Programming"
+      ],
+      "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@d4018f92cdc34854d3321d1a05068ca73589b9b4/hn-50633424.mp4",
+      "poster": "media/videos/hn-50633424.jpg",
+      "captions": "media/videos/hn-50633424.vtt",
+      "duration": 34.79,
+      "transcript": "TorchTPU went from 5.7x slower to 25% faster Andrey Lukyanenko ported his Cayley graph puzzle solver to TorchTPU, Google's native PyTorch backend for TPUs. The first port trained 1.65 times slower than an A100, and its beam search ran 5.7 times slower than his JAX version. After fixing eager execution, attention and dynamic shapes, training matched the A100 and beam search ran 25 percent faster per level than JAX. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:38:00Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125315491522650299",
+      "feedId": "x:2125315491522650299",
+      "title": "Claude artifacts can now be installed as desktop apps on Mac and Windows",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2ac1cb10f6f39216057f267044b4b55205a9c2ce/x-2125315491522650299.mp4",
+      "poster": "media/videos/x-2125315491522650299.jpg",
+      "captions": "media/videos/x-2125315491522650299.vtt",
+      "duration": 28.24,
+      "transcript": "Claude artifacts are now installable desktop apps Anthropic now lets you install Claude artifacts as desktop apps on Mac and Windows. Ask Claude to build an artifact, click Install as app, and open it like any other program. Installed apps can use your connectors and, if you allow it, send notifications or add a menu bar item. The announcement passed 60,000 likes. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:37:22Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125324108628164654",
+      "feedId": "x:2125324108628164654",
+      "title": "Engram derives a formula that predicts the minimum LoRA rank for any SFT dataset",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/EngramLab/status/2125324108628164654",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9974916d50fe367b752ab7336e5a1c5a35a2fb9d/x-2125324108628164654.mp4",
+      "poster": "media/videos/x-2125324108628164654.jpg",
+      "captions": "media/videos/x-2125324108628164654.vtt",
+      "duration": 29.85,
+      "transcript": "A formula for the LoRA rank you actually need Engram derived a theory for computing the minimum LoRA rank needed to fine-tune on any supervised dataset. The idea: adapter size depends on how many bits the dataset takes to encode under the base model. Some data, like RL data, fits in a rank one adapter. In practice, the method predicts the needed rank across settings with error rates below 5 percent. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:36:49Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50635698",
+      "feedId": "hn:50635698",
+      "title": "Fable 5.2 tries less on some hard tasks when a shortcut is available",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c3d7fae04eeb294a0e7b568ffbb5fce7b8917c3a/hn-50635698.mp4",
+      "poster": "media/videos/hn-50635698.jpg",
+      "captions": "media/videos/hn-50635698.vtt",
+      "duration": 31.24,
+      "transcript": "This AI gives up when a shortcut is in sight While building HoneyBench, Goodhart Labs noticed Fable 5.2 gave up very quickly on some hard tasks, scoring worse than Opus 5.5. It was not classic sandbagging: when a shortcut is visible, the model assumes the task was made deliberately impossible and tries less. Removing the shortcuts changed the picture, and the whole set of experiments cost around thirteen hundred dollars to run. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:36:15Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50637056",
+      "feedId": "hn:50637056",
+      "title": "PenGPT: small transformers that write in anyone's handwriting and sketch from text prompts",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9d277d0bd91990cf590bffa65cef0df5159f1d4d/hn-50637056.mp4",
+      "poster": "media/videos/hn-50637056.jpg",
+      "captions": "media/videos/hn-50637056.vtt",
+      "duration": 38.42,
+      "transcript": "A 6M-parameter model that copies your handwriting Sam Greydanus built PenGPT: a 6 million parameter transformer that writes print and cursive, and imitates a new writer from just a few of their words. A second, 54 million parameter model draws sketches from text prompts. Both share one tokenizer that turns pen strokes into moves in eight directions. The handwriting data covered 495,590 words by 1,255 writers, and the author says the work was 80 percent data. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:35:38Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50637220",
+      "feedId": "hn:50637220",
+      "title": "OpenAI preprint proves the matrix multiplication exponent is exactly 9/4 over every field",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI",
+        "Math"
+      ],
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@56c770079e36011e74b879a53e522012940304cd/hn-50637220.mp4",
+      "poster": "media/videos/hn-50637220.jpg",
+      "captions": "media/videos/hn-50637220.vtt",
+      "duration": 36.76,
+      "transcript": "Matrix multiplication's exponent is exactly nine fourths A new OpenAI preprint proves a lower bound for multiplying square matrices: any formal arithmetic circuit needs at least n to the nine fourths, over two, multiplication or division gates. The matching upper bound was already known, from OpenAI over the complex numbers and from Amanov, van den Berg and Zuiddam over every field. Together they pin the exponent at exactly 2.25, which settles the long-open question of whether it could reach 2. Full story on the dashboard.",
+      "createdAt": "2026-11-25T13:34:54Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50637686",
       "feedId": "hn:50637686",
       "title": "Sandboxed models can talk to each other through shared vLLM inference servers",
