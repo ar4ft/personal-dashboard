@@ -1,0 +1,23 @@
+{
+  "hook": "Euler wrote most of his work after going blind",
+  "hookText": "54% written blind",
+  "beats": [
+    {
+      "say": "Leonhard Euler lost one eye at thirty-one and the other at fifty-nine, then kept working.",
+      "visual": 1
+    },
+    {
+      "say": "54 percent of the works in the standard catalogue of his writings came after his second eye failed in 1766.",
+      "visual": 2,
+      "stat": "54%",
+      "statLabel": "written after going blind"
+    },
+    {
+      "say": "He raised 13 children, often working with a baby on his lap, and it took 79 years after his death to finish printing what he left.",
+      "visual": 3,
+      "stat": "79 years",
+      "statLabel": "to print it all"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

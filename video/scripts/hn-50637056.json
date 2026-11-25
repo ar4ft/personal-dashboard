@@ -1,0 +1,25 @@
+{
+  "hook": "A 6M-parameter model that copies your handwriting",
+  "hookText": "Handwriting from a few words",
+  "beats": [
+    {
+      "say": "Sam Greydanus built PenGPT: a 6 million parameter transformer that writes print and cursive, and imitates a new writer from just a few of their words.",
+      "visual": 1,
+      "stat": "6M",
+      "statLabel": "parameters"
+    },
+    {
+      "say": "A second, 54 million parameter model draws sketches from text prompts. Both share one tokenizer that turns pen strokes into moves in eight directions.",
+      "visual": 2,
+      "stat": "54M",
+      "statLabel": "drawing model"
+    },
+    {
+      "say": "The handwriting data covered 495,590 words by 1,255 writers, and the author says the work was 80 percent data.",
+      "visual": 3,
+      "stat": "495,590",
+      "statLabel": "handwritten words"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

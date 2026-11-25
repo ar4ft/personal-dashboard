@@ -1,0 +1,21 @@
+{
+  "hook": "Paradev goes fully open source again",
+  "hookText": "Back to MIT",
+  "beats": [
+    {
+      "say": "Paradev, formerly Superset, moved to a more restrictive license in February. Now the team has switched back to MIT.",
+      "visual": 0
+    },
+    {
+      "say": "It is a desktop app for running coding agents like Claude Code and Codex in parallel, each in its own Git worktree.",
+      "visual": 0
+    },
+    {
+      "say": "The team invites anyone to fork it or build their own product on it. Its GitHub repo has more than 16,000 stars.",
+      "visual": 0,
+      "stat": "16,000+",
+      "statLabel": "GitHub stars"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

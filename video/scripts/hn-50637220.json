@@ -1,0 +1,21 @@
+{
+  "hook": "Matrix multiplication's exponent is exactly nine fourths",
+  "hookText": "ω = 9/4, proven",
+  "beats": [
+    {
+      "say": "A new OpenAI preprint proves a lower bound for multiplying square matrices: any formal arithmetic circuit needs at least n to the nine fourths, over two, multiplication or division gates.",
+      "visual": 1
+    },
+    {
+      "say": "The matching upper bound was already known, from OpenAI over the complex numbers and from Amanov, van den Berg and Zuiddam over every field.",
+      "visual": 2
+    },
+    {
+      "say": "Together they pin the exponent at exactly 2.25, which settles the long-open question of whether it could reach 2.",
+      "visual": 0,
+      "stat": "2.25",
+      "statLabel": "matrix multiplication exponent"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,25 @@
+{
+  "hook": "A 124.8B model, reverse-engineered from shard headers",
+  "hookText": "124.8B params, 5.5B active",
+  "beats": [
+    {
+      "say": "TensorQuay worked out the architecture of lingsante 3.1 air VL just by reading its 50 weight shard headers.",
+      "visual": 0,
+      "stat": "124.8B",
+      "statLabel": "total parameters"
+    },
+    {
+      "say": "96.8 percent of those parameters are routed experts, with 512 experts per layer and 8 picked for each token. Outside the experts, the model is only 4.05 billion parameters.",
+      "visual": 0,
+      "stat": "96.8%",
+      "statLabel": "routed experts"
+    },
+    {
+      "say": "Per token, 3.6 billion always-on parameters plus 1.9 billion from experts add up to the model card's 5.5 billion active.",
+      "visual": 0,
+      "stat": "5.5B",
+      "statLabel": "active per token"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,23 @@
+{
+  "hook": "iOS Safari caps your web app at 60 FPS",
+  "hookText": "Beating Safari's 60 FPS cap",
+  "beats": [
+    {
+      "say": "On 120 hertz iPhones, WebKit limits requestAnimationFrame and touch events to 60 hertz, which makes even great mobile websites feel sluggish.",
+      "visual": 1,
+      "stat": "60 Hz",
+      "statLabel": "Safari animation cap"
+    },
+    {
+      "say": "Rida F'kih's trick is to use native scroll areas, which run on the compositor thread, as the input source for animations.",
+      "visual": 2
+    },
+    {
+      "say": "Scroll events only arrived 5 to 26 times a second during momentum, so he built a separate controller to read scroll position fast enough to feel native.",
+      "visual": 0,
+      "stat": "5–26",
+      "statLabel": "scroll events per second"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,25 @@
+{
+  "hook": "A Raspberry Pi camera with 26 TOPS of AI",
+  "hookText": "26 TOPS, fanless",
+  "beats": [
+    {
+      "say": "Hellbender's Tendryl Camera packs a Raspberry Pi CM5 and a Hailo-8 AI accelerator into a compact fanless box.",
+      "visual": 1,
+      "stat": "26 TOPS",
+      "statLabel": "Hailo-8 accelerator"
+    },
+    {
+      "say": "It adds a 12 megapixel camera module, a speaker and microphone, an IMU, and temperature, humidity and pressure sensors.",
+      "visual": 2,
+      "stat": "12MP",
+      "statLabel": "camera"
+    },
+    {
+      "say": "With Gigabit Ethernet and PoE plus, it measures 85 by 82 by 58 millimeters, weighs 415 grams, and targets computer vision prototyping.",
+      "visual": 3,
+      "stat": "415 g",
+      "statLabel": "weight"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

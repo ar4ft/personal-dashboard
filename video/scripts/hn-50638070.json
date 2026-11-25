@@ -1,0 +1,25 @@
+{
+  "hook": "Running an LLM on 5,600 Lambdas costs 80x more",
+  "hookText": "80x the price",
+  "beats": [
+    {
+      "say": "Noah Lindner split a 9.3 gigabyte Qwen fine-tune across AWS Lambdas, one job per layer per block of tokens.",
+      "visual": 1,
+      "stat": "5,600",
+      "statLabel": "Lambda invocations"
+    },
+    {
+      "say": "It worked, but reading a 4,000 token document took 17 seconds and cost 3.4 cents, about 8 dollars 40 per million tokens.",
+      "visual": 2,
+      "stat": "17 s",
+      "statLabel": "to read 4k tokens"
+    },
+    {
+      "say": "A hosted decision model charges 10 cents per million tokens, making his version more than 80 times pricier. His lesson: use a GPU.",
+      "visual": 0,
+      "stat": "80x",
+      "statLabel": "more expensive"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

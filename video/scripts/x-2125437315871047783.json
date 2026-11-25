@@ -1,0 +1,19 @@
+{
+  "hook": "Your MacBook notch, now an agent dashboard",
+  "hookText": "Tuck Notch",
+  "beats": [
+    {
+      "say": "ASV Labs open-sourced Tuck Notch, a free native Mac app that grows out of the MacBook notch.",
+      "visual": 1
+    },
+    {
+      "say": "Scripts, CI jobs and AI agents can post status updates and interactive alerts to it, next to music, meetings, weather and clipboard history.",
+      "visual": 2
+    },
+    {
+      "say": "It is signed and notarized, with no accounts or tracking. Deeper Claude Code progress and AirPods battery monitoring are next.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

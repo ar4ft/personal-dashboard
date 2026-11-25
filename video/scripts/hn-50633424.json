@@ -1,0 +1,23 @@
+{
+  "hook": "TorchTPU went from 5.7x slower to 25% faster",
+  "hookText": "TorchTPU beats JAX by 25%",
+  "beats": [
+    {
+      "say": "Andrey Lukyanenko ported his Cayley graph puzzle solver to TorchTPU, Google's native PyTorch backend for TPUs.",
+      "visual": 1
+    },
+    {
+      "say": "The first port trained 1.65 times slower than an A100, and its beam search ran 5.7 times slower than his JAX version.",
+      "visual": 2,
+      "stat": "5.7x",
+      "statLabel": "slower at first"
+    },
+    {
+      "say": "After fixing eager execution, attention and dynamic shapes, training matched the A100 and beam search ran 25 percent faster per level than JAX.",
+      "visual": 3,
+      "stat": "25%",
+      "statLabel": "faster than JAX"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

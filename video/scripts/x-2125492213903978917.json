@@ -1,0 +1,21 @@
+{
+  "hook": "Claude can now review, fix and approve PRs",
+  "hookText": "Meet Claude Ship",
+  "beats": [
+    {
+      "say": "Anthropic launched Claude Ship in beta. It combines Code Review with two new agents, PR Steward and Claude Approvals.",
+      "visual": 0
+    },
+    {
+      "say": "PR Steward fixes failing checks, merge conflicts and review feedback but never merges. Claude Approvals approves routine changes based on a policy file in the repo.",
+      "visual": 0
+    },
+    {
+      "say": "On the Claude Code team, merged pull requests more than doubled from June to September while the share reverted fell by over 40 percent.",
+      "visual": 0,
+      "stat": "2x",
+      "statLabel": "merged PRs"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

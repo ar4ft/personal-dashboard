@@ -1,0 +1,19 @@
+{
+  "hook": "Black Ops III, recompiled natively for Apple Silicon",
+  "hookText": "Zero Rosetta, native Metal",
+  "beats": [
+    {
+      "say": "bo3mac statically recompiles the Steam Mac build of Call of Duty Black Ops III into a native arm64 app.",
+      "visual": 1
+    },
+    {
+      "say": "It swaps the old Direct3D 11 translation layer for Metal and MetalFX, so the game keeps running after Rosetta 2 goes away.",
+      "visual": 2
+    },
+    {
+      "say": "The installer checks your own Steam copy and compiles locally. The MIT licensed repo ships no game files, so you must own the game.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

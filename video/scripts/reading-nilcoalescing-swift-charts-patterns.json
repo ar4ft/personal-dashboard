@@ -1,0 +1,19 @@
+{
+  "hook": "Swift Charts that work without relying on color",
+  "hookText": "Patterns, not just colors",
+  "beats": [
+    {
+      "say": "A new Nil Coalescing article shows how to make Swift Charts readable for people with color vision deficiencies.",
+      "visual": 1
+    },
+    {
+      "say": "Instead of colors alone, each category gets a programmatically drawn pattern, like a checkerboard, dots or stripes.",
+      "visual": 2
+    },
+    {
+      "say": "A custom shape style switches to the patterns when the Differentiate Without Color accessibility setting is on, in both the plot and the legend.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

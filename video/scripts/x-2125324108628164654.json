@@ -1,0 +1,21 @@
+{
+  "hook": "A formula for the LoRA rank you actually need",
+  "hookText": "Under 5% error",
+  "beats": [
+    {
+      "say": "Engram derived a theory for computing the minimum LoRA rank needed to fine-tune on any supervised dataset.",
+      "visual": 1
+    },
+    {
+      "say": "The idea: adapter size depends on how many bits the dataset takes to encode under the base model. Some data, like RL data, fits in a rank one adapter.",
+      "visual": 2
+    },
+    {
+      "say": "In practice, the method predicts the needed rank across settings with error rates below 5 percent.",
+      "visual": 0,
+      "stat": "<5%",
+      "statLabel": "prediction error"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

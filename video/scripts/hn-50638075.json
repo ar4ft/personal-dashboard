@@ -1,0 +1,21 @@
+{
+  "hook": "A faster way to pull digits out of pi",
+  "hookText": "61% fewer divisions",
+  "beats": [
+    {
+      "say": "Robert Smith found a new algorithm to extract hexadecimal digits of pi without computing the digits before them.",
+      "visual": 1
+    },
+    {
+      "say": "It rearranges a series going back to Euler, so terms share one denominator and four remainders can be added and divided once.",
+      "visual": 0
+    },
+    {
+      "say": "Against Huvent's eight-term formula it needs about 61 percent fewer divisions and 38 percent fewer full modular exponentiations.",
+      "visual": 1,
+      "stat": "61%",
+      "statLabel": "fewer divisions"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

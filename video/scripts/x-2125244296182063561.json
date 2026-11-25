@@ -1,0 +1,19 @@
+{
+  "hook": "Cloud-quality speech AI, fully on your iPhone",
+  "hookText": "Works in airplane mode",
+  "beats": [
+    {
+      "say": "TheStage AI released Edgent, free speech AI for iPhone and Mac with no account required.",
+      "visual": 1
+    },
+    {
+      "say": "It handles dictation in any Mac app, meeting notes with speaker labels, and voice chat you can interrupt.",
+      "visual": 2
+    },
+    {
+      "say": "Everything runs on the device, even in airplane mode, built on the company's on-device Whisper and diarization kit.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
