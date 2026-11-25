@@ -54716,6 +54716,245 @@
       "url": "https://abakcus.com/book-lists/best-math-books-for-programmers",
       "createdAt": "2026-11-22T00:00:00Z",
       "updatedAt": "2026-11-22T00:00:00Z"
+    },
+    {
+      "id": "hn:50644817",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "1Password Security Incident",
+      "description": "1Password has disclosed a security incident and published an update on its blog.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "lxhrstn",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "createdAt": "2026-11-25T17:18:26Z",
+      "updatedAt": "2026-11-25T17:18:26Z",
+      "content": "1Password has disclosed a security incident and posted an update explaining what happened.\n\n[Read the article](https://1password.com/blog/update-on-nov-2026-security-incident)\n\n[HN discussion](https://news.ycombinator.com/item?id=50644817)"
+    },
+    {
+      "id": "hn:50642086",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+      "description": "Google has released its Cogentic research papers covering integer factorization, discrete logarithms, and more.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "rgwohlbold",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "createdAt": "2026-11-25T13:33:07Z",
+      "updatedAt": "2026-11-25T13:33:07Z",
+      "content": "Google has published the Cogentic research papers, covering integer factorization, discrete logarithms, and more.\n\n[Repo on GitHub](https://github.com/google-research/google-research/tree/master/cogentic_research_papers)\n\n[HN discussion](https://news.ycombinator.com/item?id=50642086)"
+    },
+    {
+      "id": "hn:50638032",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "description": "A collection of professionally recorded button clicks and presses, free to browse and use in interfaces.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "gaurang_tandon",
+      "url": "https://buttons.joshwcomeau.com/",
+      "createdAt": "2026-11-25T03:23:07Z",
+      "updatedAt": "2026-11-25T03:23:07Z",
+      "content": "A collection of professionally recorded button clicks and presses for use in interfaces and prototypes.\n\n[Read the article](https://buttons.joshwcomeau.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50638032)"
+    },
+    {
+      "id": "hn:50641171",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "description": "Windows' Loudness Equalization feature, reverse-engineered and ported to PipeWire on Linux.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ThrowNotAway",
+      "url": "https://github.com/xoxorwr/pw-loudness-eq",
+      "createdAt": "2026-11-25T11:34:25Z",
+      "updatedAt": "2026-11-25T11:34:25Z",
+      "content": "Windows' Loudness Equalization feature, reverse-engineered and ported to PipeWire.\n\n[Repo on GitHub](https://github.com/xoxorwr/pw-loudness-eq)\n\n[HN discussion](https://news.ycombinator.com/item?id=50641171)"
+    },
+    {
+      "id": "hn:50642939",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I checked Clojure's core with Lean and found unreported bugs",
+      "description": "Checking Clojure's core library with the Lean theorem prover turned up previously unreported bugs.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "encyclopedism",
+      "url": "https://s.conao3.com/blog/2026/e4f733",
+      "createdAt": "2026-11-25T14:56:52Z",
+      "updatedAt": "2026-11-25T14:56:52Z",
+      "content": "Running the Lean theorem prover over Clojure's core library surfaced bugs that had not been reported before.\n\n[Read the article](https://s.conao3.com/blog/2026/e4f733)\n\n[HN discussion](https://news.ycombinator.com/item?id=50642939)"
+    },
+    {
+      "id": "hn:50647161",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+      "description": "A 12-year-old pre-authentication remote root vulnerability in the Linux kernel's NFS server, tracked as CVE-2026-99362.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "dm",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+      "createdAt": "2026-11-25T20:35:50Z",
+      "updatedAt": "2026-11-25T20:35:50Z",
+      "content": "A pre-authentication remote root vulnerability in the Linux kernel's NFS server, present for 12 years and tracked as CVE-2026-99362.\n\n[Read the article](https://opensec.in/blog/nfs2root-cve-2026-99362)\n\n[HN discussion](https://news.ycombinator.com/item?id=50647161)"
+    },
+    {
+      "id": "hn:50635783",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Predicting LoRA size for any dataset",
+      "description": "A method for predicting the right LoRA size for any dataset before training.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "jxmorris12",
+      "url": "https://engram.com/blog/lora-size",
+      "createdAt": "2026-11-24T22:34:29Z",
+      "updatedAt": "2026-11-24T22:34:29Z",
+      "content": "A method for predicting the LoRA rank a dataset needs before training begins.\n\n[Read the article](https://engram.com/blog/lora-size)\n\n[HN discussion](https://news.ycombinator.com/item?id=50635783)"
+    },
+    {
+      "id": "hn:50648050",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "description": "A much shorter version of Anthropic's Lean verification of the Generalized Riemann Hypothesis.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "nb-t",
+      "url": "https://github.com/lsernau/grh-lean",
+      "createdAt": "2026-11-25T21:48:10Z",
+      "updatedAt": "2026-11-25T21:48:10Z",
+      "content": "A much shorter version of Anthropic's Lean formalization verifying the Generalized Riemann Hypothesis.\n\n[Repo on GitHub](https://github.com/lsernau/grh-lean)\n\n[HN discussion](https://news.ycombinator.com/item?id=50648050)"
+    },
+    {
+      "id": "reading:medium-consistent-hashing-how-to-add-a-server-without-moving-everything-1e8aff70a0e0",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Consistent Hashing: How to Add a Server Without Moving Everything",
+      "description": "Why plain hash(key) % N breaks when you scale, and how the consistent-hashing ring fixes it, with a small Python test.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Sahil Khaire",
+      "url": "https://sahilkhaire.medium.com/consistent-hashing-how-to-add-a-server-without-moving-everything-1e8aff70a0e0",
+      "createdAt": "2026-11-25T22:32:43Z",
+      "updatedAt": "2026-11-25T22:32:43Z",
+      "content": "Why hash(key) % N quietly breaks the day you scale, and the ring trick that fixes it, with a small Python test.\n\n[Read the article](https://sahilkhaire.medium.com/consistent-hashing-how-to-add-a-server-without-moving-everything-1e8aff70a0e0)"
+    },
+    {
+      "id": "reading:medium-the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e653e",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The Anatomy of Adam: Why Does It Beat SGD on Transformers?",
+      "description": "A look inside the Adam optimizer and why it outperforms SGD when training transformers.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Izzet Can Sorna",
+      "url": "https://medium.com/@izzetcansorna/the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e653e",
+      "createdAt": "2026-11-25T22:12:32Z",
+      "updatedAt": "2026-11-25T22:12:32Z",
+      "content": "A look inside the Adam optimizer and why it beats SGD on transformers.\n\n[Read the article](https://medium.com/@izzetcansorna/the-anatomy-of-adam-why-does-it-beat-sgd-on-transformers-6128709e653e)"
+    },
+    {
+      "id": "reading:medium-claude-code-hooks-step-by-step-guide-c4b371e93e6d",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Claude Code hooks: a step-by-step guide with 4 guardrails you can copy",
+      "description": "A step-by-step guide to Claude Code hooks, with four copyable guardrails that fail closed.",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Gaurav Kumar",
+      "url": "https://medium.com/@gk0415439/claude-code-hooks-step-by-step-guide-c4b371e93e6d",
+      "createdAt": "2026-11-25T21:41:39Z",
+      "updatedAt": "2026-11-25T21:41:39Z",
+      "content": "A step-by-step guide to Claude Code hooks, with four guardrails you can copy and a version that fails closed.\n\n[Read the article](https://medium.com/@gk0415439/claude-code-hooks-step-by-step-guide-c4b371e93e6d)"
+    },
+    {
+      "id": "reading:medium-i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-and-what-broke-59aa6fe051aa",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I Replaced SKIE With Kotlin 2.5’s Swift Export Beta: What Worked and What Broke",
+      "description": "Replacing SKIE with Kotlin 2.5's Swift Export beta: what worked and what broke, including Flow as AsyncSequence.",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "author": "Aslam Hossin",
+      "url": "https://medium.com/@aslam.iit.ju41/i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-and-what-broke-59aa6fe051aa",
+      "createdAt": "2026-11-25T13:01:04Z",
+      "updatedAt": "2026-11-25T13:01:04Z",
+      "content": "Testing Kotlin 2.5's Swift Export beta as a replacement for SKIE: Flow as AsyncSequence, the new export swift DSL, and what broke along the way.\n\n[Read the article](https://medium.com/@aslam.iit.ju41/i-replaced-skie-with-kotlin-2-5s-swift-export-beta-what-worked-and-what-broke-59aa6fe051aa)"
+    },
+    {
+      "id": "reading:medium-timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-paper-070dc6421345",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "TimesFM 3 on new data: how far does zero-shot forecasting go? My paper",
+      "description": "Testing TimesFM 3, a time-series foundation model, on new data to see how far zero-shot forecasting goes.",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Alessio Pomaro",
+      "url": "https://alepom.medium.com/timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-paper-070dc6421345",
+      "createdAt": "2026-11-25T22:11:53Z",
+      "updatedAt": "2026-11-25T22:11:53Z",
+      "content": "Time-series foundation models promise to forecast sales, demand, prices or traffic without being trained on your data. This paper tests TimesFM 3 on new data to see how far zero-shot forecasting goes.\n\n[Read the article](https://alepom.medium.com/timesfm-3-on-new-data-how-far-does-zero-shot-forecasting-go-my-paper-070dc6421345)"
+    },
+    {
+      "id": "reading:inc-91443060",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Amazon and Meta May Agree Over Allowing AI Agents. The Future of Shopping Just Changed",
+      "description": "Amazon and Meta may agree on allowing AI agents to shop on their platforms, which could change how holiday shopping works.",
+      "topics": [
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Kit Eaton",
+      "url": "https://www.inc.com/kit-eaton/amazon-meta-ai-agents-future-shopping-technology/91443060",
+      "createdAt": "2026-11-25T16:00:00Z",
+      "updatedAt": "2026-11-25T16:00:00Z",
+      "content": "Amazon and Meta may agree on allowing AI agents to shop on their platforms, which could change how holiday shopping works.\n\n[Read the article](https://www.inc.com/kit-eaton/amazon-meta-ai-agents-future-shopping-technology/91443060)"
     }
   ]
 }
