@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.118
+Five Treasury subdomains
+
+00:00:01.930 --> 00:00:02.849
+taken over for
+
+00:00:02.661 --> 00:00:04.005
+three dollars each
+
+00:00:04.542 --> 00:00:05.862
+Researchers cycled
+
+00:00:05.674 --> 00:00:07.419
+through AWS Elastic
+
+00:00:07.231 --> 00:00:08.008
+IPs
+
+00:00:08.056 --> 00:00:08.987
+and took over
+
+00:00:08.799 --> 00:00:10.131
+five US Treasury
+
+00:00:09.943 --> 00:00:10.850
+subdomains
+
+00:00:11.051 --> 00:00:12.171
+then reported and
+
+00:00:11.983 --> 00:00:12.914
+fixed them through
+
+00:00:12.726 --> 00:00:13.716
+a bug bounty
+
+00:00:14.254 --> 00:00:15.621
+A dangling DNS
+
+00:00:15.433 --> 00:00:16.730
+record pointing at
+
+00:00:16.542 --> 00:00:17.673
+a released Elastic
+
+00:00:17.485 --> 00:00:18.098
+IP
+
+00:00:18.204 --> 00:00:19.383
+lets anyone claim
+
+00:00:19.195 --> 00:00:19.926
+that address
+
+00:00:19.985 --> 00:00:20.645
+and with it
+
+00:00:20.457 --> 00:00:21.494
+the subdomain
+
+00:00:22.022 --> 00:00:22.977
+They covered under
+
+00:00:22.788 --> 00:00:23.684
+one percent of
+
+00:00:23.496 --> 00:00:24.522
+the address space
+
+00:00:24.451 --> 00:00:25.477
+and still found
+
+00:00:25.288 --> 00:00:27.175
+28 high-impact takeovers
+
+00:00:27.293 --> 00:00:28.000
+so check your
+
+00:00:27.812 --> 00:00:29.168
+DNS records now
+
+00:00:29.694 --> 00:00:30.708
+Full story on
+
+00:00:30.519 --> 00:00:31.415
+the dashboard

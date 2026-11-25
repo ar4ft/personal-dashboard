@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.741
+Type errors barely
+
+00:00:01.553 --> 00:00:02.802
+slow coding agents
+
+00:00:02.614 --> 00:00:03.239
+down
+
+00:00:03.774 --> 00:00:05.141
+Evil Martians tested
+
+00:00:04.953 --> 00:00:05.755
+the claim that
+
+00:00:05.566 --> 00:00:06.828
+static types make
+
+00:00:06.640 --> 00:00:07.889
+coding agents better
+
+00:00:08.055 --> 00:00:09.457
+across ten languages
+
+00:00:09.269 --> 00:00:10.248
+and hundreds of
+
+00:00:10.095 --> 00:00:11.073
+agent runs
+
+00:00:11.590 --> 00:00:12.710
+Typed and dynamic
+
+00:00:12.522 --> 00:00:13.783
+languages tied at
+
+00:00:13.595 --> 00:00:15.540
+about 65 percent solved
+
+00:00:15.623 --> 00:00:17.108
+and TypeScript never
+
+00:00:16.920 --> 00:00:18.181
+beat plain JavaScript
+
+00:00:17.993 --> 00:00:19.066
+in three public
+
+00:00:18.878 --> 00:00:19.762
+benchmarks
+
+00:00:20.294 --> 00:00:21.614
+Fixing type errors
+
+00:00:21.426 --> 00:00:22.334
+took under one
+
+00:00:22.145 --> 00:00:23.230
+percent of agent
+
+00:00:23.042 --> 00:00:23.560
+time
+
+00:00:23.773 --> 00:00:24.834
+while reading code
+
+00:00:24.645 --> 00:00:25.553
+was the biggest
+
+00:00:25.365 --> 00:00:26.013
+cost
+
+00:00:26.190 --> 00:00:28.088
+up to 41 minutes per run
+
+00:00:28.614 --> 00:00:29.628
+Full story on
+
+00:00:29.439 --> 00:00:30.335
+the dashboard

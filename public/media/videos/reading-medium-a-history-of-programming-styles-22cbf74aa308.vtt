@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.246
+One problem
+
+00:00:01.352 --> 00:00:02.319
+solved in many
+
+00:00:02.131 --> 00:00:03.392
+programming styles
+
+00:00:03.918 --> 00:00:05.698
+Cristina Videira Lopes
+
+00:00:05.510 --> 00:00:06.783
+wrote Exercises in
+
+00:00:06.595 --> 00:00:07.750
+Programming Style
+
+00:00:07.868 --> 00:00:09.189
+solving one problem
+
+00:00:09.307 --> 00:00:10.781
+finding word frequencies
+
+00:00:10.593 --> 00:00:11.347
+in a text
+
+00:00:11.241 --> 00:00:12.219
+in many different
+
+00:00:12.031 --> 00:00:12.821
+styles
+
+00:00:13.342 --> 00:00:14.615
+This article starts
+
+00:00:14.427 --> 00:00:15.417
+with the monolithic
+
+00:00:15.229 --> 00:00:15.865
+style
+
+00:00:16.090 --> 00:00:17.528
+one long continuous
+
+00:00:17.340 --> 00:00:18.330
+block of code
+
+00:00:18.483 --> 00:00:19.698
+with no division
+
+00:00:19.509 --> 00:00:20.818
+into functions or
+
+00:00:20.630 --> 00:00:21.537
+procedures
+
+00:00:22.070 --> 00:00:23.154
+The author teaches
+
+00:00:22.966 --> 00:00:24.228
+new computer science
+
+00:00:24.039 --> 00:00:25.560
+majors in C++
+
+00:00:25.655 --> 00:00:26.492
+and uses these
+
+00:00:26.303 --> 00:00:27.317
+styles to show
+
+00:00:27.129 --> 00:00:28.225
+why functions make
+
+00:00:28.037 --> 00:00:29.228
+programs easier to
+
+00:00:29.051 --> 00:00:30.301
+read and debug
+
+00:00:30.822 --> 00:00:31.836
+Full story on
+
+00:00:31.647 --> 00:00:32.543
+the dashboard

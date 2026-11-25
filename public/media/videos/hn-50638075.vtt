@@ -1,109 +1,76 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.788
-A faster algorithm
+00:00:00.350 --> 00:00:01.305
+A faster way
 
-00:00:01.600 --> 00:00:03.298
-for extracting hexadecimal
+00:00:01.117 --> 00:00:02.048
+to pull digits
 
-00:00:03.109 --> 00:00:04.194
-digits of π
+00:00:01.859 --> 00:00:02.649
+out of pi
 
-00:00:04.734 --> 00:00:06.160
-Robert Smith presents
+00:00:03.174 --> 00:00:04.447
+Robert Smith found
 
-00:00:06.043 --> 00:00:07.587
-a rearranged Euler-derived
+00:00:04.259 --> 00:00:05.367
+a new algorithm
 
-00:00:07.399 --> 00:00:08.802
-series for extracting
+00:00:05.179 --> 00:00:06.735
+to extract hexadecimal
 
-00:00:08.614 --> 00:00:09.509
-hex digits of
+00:00:06.547 --> 00:00:07.537
+digits of pi
 
-00:00:09.321 --> 00:00:10.877
-π without computing
+00:00:07.525 --> 00:00:08.610
+without computing the
 
-00:00:10.689 --> 00:00:11.703
-earlier digits
+00:00:08.422 --> 00:00:09.636
+digits before them
 
-00:00:11.995 --> 00:00:13.705
-using about 61%
+00:00:10.174 --> 00:00:11.247
+It rearranges a
 
-00:00:13.517 --> 00:00:14.695
-fewer divisions and
+00:00:11.058 --> 00:00:12.190
+series going back
 
-00:00:14.519 --> 00:00:16.158
-38% fewer full
+00:00:12.002 --> 00:00:13.004
+to Euler so
 
-00:00:15.969 --> 00:00:17.608
-modular exponentiations
+00:00:12.816 --> 00:00:13.817
+terms share one
 
-00:00:17.432 --> 00:00:18.717
-than Huvent's eight-term
+00:00:13.629 --> 00:00:15.126
+denominator and four
 
-00:00:18.528 --> 00:00:19.294
-formula
+00:00:14.938 --> 00:00:16.034
+remainders can be
 
-00:00:19.822 --> 00:00:21.001
-The method competes
+00:00:15.846 --> 00:00:16.966
+added and divided
 
-00:00:20.813 --> 00:00:21.732
-with the classic
+00:00:16.778 --> 00:00:17.414
+once
 
-00:00:21.544 --> 00:00:22.840
-Bailey-Borwein-Plouffe
+00:00:17.942 --> 00:00:19.486
+Against Huvent's eight-term
 
-00:00:22.900 --> 00:00:24.149
-Bellard and Huvent
+00:00:19.298 --> 00:00:20.477
+formula it needs
 
-00:00:23.961 --> 00:00:25.694
-digit-extraction formulas
+00:00:20.289 --> 00:00:22.022
+about 61 percent fewer
 
-00:00:26.222 --> 00:00:27.436
-Collecting the series'
+00:00:21.833 --> 00:00:23.696
+divisions and 38 percent
 
-00:00:27.248 --> 00:00:28.155
-terms by odd
+00:00:23.508 --> 00:00:24.769
+fewer full modular
 
-00:00:27.967 --> 00:00:29.700
-denominator 2k +
+00:00:24.581 --> 00:00:25.854
+exponentiations
 
-00:00:29.536 --> 00:00:30.620
-1 lets four
-
-00:00:30.432 --> 00:00:31.611
-remainders share one
-
-00:00:31.422 --> 00:00:32.130
-division
-
-00:00:32.319 --> 00:00:33.038
-and the gaps
-
-00:00:32.849 --> 00:00:33.781
-between the terms
-
-00:00:33.592 --> 00:00:34.889
-mean those remainders
-
-00:00:34.701 --> 00:00:35.337
-don't have to
-
-00:00:35.149 --> 00:00:36.658
-be computed independently
-
-00:00:36.470 --> 00:00:37.047
-either
-
-00:00:37.236 --> 00:00:38.344
-cutting the operation
-
-00:00:38.156 --> 00:00:38.757
-count
-
-00:00:39.294 --> 00:00:40.308
+00:00:26.382 --> 00:00:27.396
 Full story on
 
-00:00:40.119 --> 00:00:41.015
+00:00:27.207 --> 00:00:28.103
 the dashboard
