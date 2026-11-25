@@ -1,0 +1,19 @@
+{
+  "hook": "Lean found unreported bugs in Clojure's core.",
+  "hookText": "Lean found unreported bugs in Clojure's core",
+  "beats": [
+    {
+      "say": "The author checked Clojure version 1.12.7, released on November 18, 2026, using JDK 21 and the Lean theorem prover.",
+      "visual": 0
+    },
+    {
+      "say": "One bug hid in a bit mask meant to clear the low five bits and round down to a multiple of thirty-two: it also cleared bit sixteen and everything above it.",
+      "visual": 0
+    },
+    {
+      "say": "With the fix in place, Lean proved the check matches the naive specification for every thirty-two-bit input.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

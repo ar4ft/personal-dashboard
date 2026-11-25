@@ -1,0 +1,19 @@
+{
+  "hook": "AI agents may soon shop for you on Amazon.",
+  "hookText": "AI agents may soon shop for you on Amazon",
+  "beats": [
+    {
+      "say": "Amazon and Meta are reportedly in talks about how third-party AI systems can connect to Amazon's store and shop on users' behalf.",
+      "visual": 0
+    },
+    {
+      "say": "Amazon's CEO said in October that AI agents are not yet having a meaningful impact on its ads business.",
+      "visual": 1
+    },
+    {
+      "say": "Many shoppers stay wary of trusting AI shopping agents completely, but experts say this may be the first Black Friday where agents matter.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,19 @@
+{
+  "hook": "Google just published its Cogentic research papers.",
+  "hookText": "Google just published its Cogentic research papers",
+  "beats": [
+    {
+      "say": "Google Research has just published the new Cogentic papers in a public repository, covering integer factorization, discrete logarithms, and more besides.",
+      "visual": 0
+    },
+    {
+      "say": "Among them are papers on nearly tight prophet inequalities for subadditive combinatorial auctions, on fictitious play convergence, and more.",
+      "visual": 0
+    },
+    {
+      "say": "The papers live in individual subdirectories of the open Google Research repository, which notes plainly that this is not an official Google product.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

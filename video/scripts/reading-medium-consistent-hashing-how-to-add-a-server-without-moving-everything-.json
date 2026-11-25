@@ -1,0 +1,21 @@
+{
+  "hook": "Adding one server should not break every cache lookup.",
+  "hookText": "Adding one server should not break every cache lookup",
+  "beats": [
+    {
+      "say": "With four servers, hash key modulo N spreads keys evenly, but adding a fifth server changes the remainder for most keys.",
+      "visual": 0
+    },
+    {
+      "say": "In a test with one hundred thousand fake keys, the author found that adding a fifth server makes roughly four out of five lookups miss.",
+      "visual": 0,
+      "stat": "4 in 5",
+      "statLabel": "lookups that miss after scaling"
+    },
+    {
+      "say": "Consistent hashing fixes it with a ring: each server and key gets a spot on a clock face, and a new server only takes the keys next to it.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

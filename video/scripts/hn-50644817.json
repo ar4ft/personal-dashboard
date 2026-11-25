@@ -1,0 +1,19 @@
+{
+  "hook": "1Password was breached through an employee's GitHub account.",
+  "hookText": "1Password was breached through an employee's GitHub account",
+  "beats": [
+    {
+      "say": "On November 19, 1Password found signs that an attacker had entered an employee's corporate GitHub account.",
+      "visual": 0
+    },
+    {
+      "say": "The attacker used it to reach source code and push malicious code to backend services, which downloaded customer names, email addresses, and internal account metadata.",
+      "visual": 0
+    },
+    {
+      "say": "Customer vault contents were never accessed, and 1Password says its design means a breach of its systems cannot expose vault contents.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

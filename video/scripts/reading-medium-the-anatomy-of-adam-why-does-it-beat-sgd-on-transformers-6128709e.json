@@ -1,0 +1,21 @@
+{
+  "hook": "Why Adam beats SGD on transformers, still unexplained.",
+  "hookText": "Why Adam beats SGD on transformers, still unexplained",
+  "beats": [
+    {
+      "say": "Nearly every large language model trains with Adam or AdamW, yet the reason Adam beats SGD so decisively is still not fully explained.",
+      "visual": 0
+    },
+    {
+      "say": "Adam tracks bias-corrected moving averages of the gradient and its square, and AdamW separates weight decay from the adaptive update.",
+      "visual": 0
+    },
+    {
+      "say": "A study of more than one thousand three hundred language models found signed momentum closes ninety-six percent of the perplexity gap, at a twenty-five percent slowdown.",
+      "visual": 0,
+      "stat": "96%",
+      "statLabel": "of the perplexity gap closed"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

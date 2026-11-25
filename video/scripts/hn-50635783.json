@@ -1,0 +1,21 @@
+{
+  "hook": "You can predict the LoRA size a dataset needs.",
+  "hookText": "You can predict the LoRA size a dataset needs",
+  "beats": [
+    {
+      "say": "The authors built a predictive theory of how much a LoRA adapter can hold as a function of its rank.",
+      "visual": 0
+    },
+    {
+      "say": "Given a fine-tuning dataset, the theory predicts the size required to fit it, landing within zero point four percent of the exact capacity at five hundred twelve by one thousand twenty-four.",
+      "visual": 0,
+      "stat": "0.4%",
+      "statLabel": "prediction error"
+    },
+    {
+      "say": "Smaller adapters are lighter to load, faster to generate text from, and easier to store, and rank one can already hold a lot.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

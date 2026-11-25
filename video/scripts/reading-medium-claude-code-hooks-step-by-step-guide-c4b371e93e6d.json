@@ -1,0 +1,21 @@
+{
+  "hook": "Four Claude Code hooks that fail closed.",
+  "hookText": "Four Claude Code hooks that fail closed",
+  "beats": [
+    {
+      "say": "The author writes four hooks for every Android app: they block risky edits, wipe commands, and finishing while TypeScript still fails.",
+      "visual": 0,
+      "stat": "4",
+      "statLabel": "guardrail hooks"
+    },
+    {
+      "say": "A hook is code that runs every time and the agent cannot argue with it, unlike a rule in a markdown file it can forget.",
+      "visual": 0
+    },
+    {
+      "say": "Hooks answer with an exit code: exit code two blocks the call, and anything else lets it go ahead by default.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

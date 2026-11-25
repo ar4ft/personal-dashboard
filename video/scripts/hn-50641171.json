@@ -1,0 +1,21 @@
+{
+  "hook": "Windows volume leveling, rebuilt for Linux audio.",
+  "hookText": "Windows volume leveling, rebuilt for Linux audio",
+  "beats": [
+    {
+      "say": "Windows Loudness Equalization, the feature that evens out playback volume, has been reverse-engineered from the Windows audio driver and ported to PipeWire on Linux.",
+      "visual": 0
+    },
+    {
+      "say": "It evens out the volume of each application's playback stream, so quiet and loud parts play at a similar level.",
+      "visual": 1
+    },
+    {
+      "say": "Under the hood it sums power into twenty-five frequency bands with edges from one hundred hertz to twenty-four thousand hertz, and the gain it applies is capped at twenty decibels.",
+      "visual": 0,
+      "stat": "20 dB",
+      "statLabel": "maximum gain boost"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

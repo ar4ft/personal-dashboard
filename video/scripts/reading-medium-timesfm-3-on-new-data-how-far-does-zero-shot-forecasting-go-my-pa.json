@@ -1,0 +1,21 @@
+{
+  "hook": "Zero-shot forecasting wins, but not everywhere.",
+  "hookText": "Zero-shot forecasting wins, but not everywhere",
+  "beats": [
+    {
+      "say": "Google's TimesFM 3 leads the public benchmarks, but those benchmarks use old public data the model may already have seen during training.",
+      "visual": 0
+    },
+    {
+      "say": "The author tested it on data published after its release, sealed forecasts, and seven thousand six hundred synthetic series, with the protocol frozen first.",
+      "visual": 0,
+      "stat": "7,600",
+      "statLabel": "synthetic series tested"
+    },
+    {
+      "say": "The model wins, but not everywhere, and its prediction intervals come out narrower than they claim to be.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

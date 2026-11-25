@@ -1,0 +1,19 @@
+{
+  "hook": "Kotlin 2.5 can export Swift directly, no SKIE needed.",
+  "hookText": "Kotlin 2.5 can export Swift directly, no SKIE needed",
+  "beats": [
+    {
+      "say": "Kotlin 2.5's Swift Export beta, tested here in the 2.5.0-RC release, compiles shared modules straight into native Swift interfaces, instead of going through Objective-C headers.",
+      "visual": 0
+    },
+    {
+      "say": "Flow becomes a native AsyncSequence, so SwiftUI code can await updates and task cancellation propagates cleanly into Kotlin teardown.",
+      "visual": 0
+    },
+    {
+      "say": "The author tested the new export swift DSL, Dispatchers Default traps, and SwiftPM versus dynamic-framework collisions in Xcode builds.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

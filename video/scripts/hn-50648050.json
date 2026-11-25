@@ -1,0 +1,21 @@
+{
+  "hook": "A much shorter Lean proof of the Riemann Hypothesis.",
+  "hookText": "A much shorter Lean proof of the Riemann Hypothesis",
+  "beats": [
+    {
+      "say": "This is a Lean 4 proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions.",
+      "visual": 0
+    },
+    {
+      "say": "It is built on Mathlib and uses only three axioms, and it follows Levent Alpoge's approach in a shorter version made with Anthropic colleagues and Claude.",
+      "visual": 0,
+      "stat": "3",
+      "statLabel": "axioms used"
+    },
+    {
+      "say": "A build takes one to two hours on twelve cores with twenty-four gigabytes of memory, or about eighty-five minutes more without the Mathlib cache.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
