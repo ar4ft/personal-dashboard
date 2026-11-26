@@ -2,6 +2,164 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50624446",
+      "feedId": "hn:50624446",
+      "title": "Porting Rockbox to an undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c470e0e1406c8f62e8730759bf55fa28f4ff893d/hn-50624446.mp4",
+      "poster": "media/videos/hn-50624446.jpg",
+      "captions": "media/videos/hn-50624446.vtt",
+      "duration": 38.11,
+      "transcript": "Claude ported Rockbox to a nine-dollar MP3 player. The player is an unbranded nine-dollar MP3 player from AliExpress, with just 512 kilobytes of memory and no documentation. The author paid nine dollars and seventy-one cents, shipped. With the help of large language models, Rockbox now runs on it, and the author says he was barely involved. The port produced a reusable toolkit for future ports. To prove the toolkit works, Claude ported Rockbox to a second player, the TS47, in four hours. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:34:02Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50626466",
+      "feedId": "hn:50626466",
+      "title": "What VP ≠ VNP Means (In 3 Minutes)",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.friedgil.com/vpvnp",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a6af9f8e6897f60d91dc0ba894af7c55b5b784e5/hn-50626466.mp4",
+      "poster": "media/videos/hn-50626466.jpg",
+      "captions": "media/videos/hn-50626466.vtt",
+      "duration": 39.47,
+      "transcript": "Anthropic proved VP is not VNP. You know the determinant from linear algebra class. Using only addition and multiplication, it can still be computed in polynomial time, for example with Gaussian elimination. The permanent is like a determinant without any subtraction, and no known method computes it in polynomial time. For a matrix of zeros and ones, it is NP-hard. Anthropic's proof says no polynomial-size arithmetic circuit can compute it. So for P to equal NP, some trick with AND, OR and NOT would have to beat addition and multiplication. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:33:28Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50647181",
+      "feedId": "hn:50647181",
+      "title": "Slow Ubuntu security response times",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f8ae4816441b9fd8872b41c9478b8fbad46f7948/hn-50647181.mp4",
+      "poster": "media/videos/hn-50647181.jpg",
+      "captions": "media/videos/hn-50647181.vtt",
+      "duration": 41.71,
+      "transcript": "Nine days on, Ubuntu still had no fix. On November 16th, details of NoisyTCP, a remote memory corruption flaw in the Linux kernel's TCP stack, were published. Nine days later, Ubuntu had not published a fix. Other distributions had a fix ready when the details were published, and a KVM host escape affecting AMD virtualization, disclosed November 18th, had no Ubuntu fix. The author argues remote kernel flaws need updates within hours, not days or weeks, and notes Ubuntu backports patches to an older kernel instead of tracking long-term releases. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:32:55Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50647673",
+      "feedId": "hn:50647673",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b80312c44041644a53505c3f55f6e8f4ba52030e/hn-50647673.mp4",
+      "poster": "media/videos/hn-50647673.jpg",
+      "captions": "media/videos/hn-50647673.vtt",
+      "duration": 39.76,
+      "transcript": "The Times told photographers: skip the Photoshop update. The New York Times is asking freelance photographers not to install Photoshop 2027, because its new AI features work in ways that may not be apparent to users. The worry is metadata. The update can tag photos as AI-generated, even after routine edits, and for a newsroom that keeps editing minimal, that risks readers' trust. Adobe's November update adds an AI Assisted Editor view, an editing assistant, prompt-based transforms, new upscaling, and a tool that recomposes images for different canvas sizes. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:32:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-ft-7838a715-07d4-4605-aa60-21f5af2b2370",
+      "feedId": "reading:ft-7838a715-07d4-4605-aa60-21f5af2b2370",
+      "title": "Nvidia halts chip shipments to south-east Asia",
+      "source": "Reading",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@dfda7384e41a082a85755fd1424262e64e9dfdf4/reading-ft-7838a715-07d4-4605-aa60-21f5af2b2370.mp4",
+      "poster": "media/videos/reading-ft-7838a715-07d4-4605-aa60-21f5af2b2370.jpg",
+      "captions": "media/videos/reading-ft-7838a715-07d4-4605-aa60-21f5af2b2370.vtt",
+      "duration": 39.76,
+      "transcript": "Nvidia halted chip shipments to Southeast Asia. Nvidia has told its manufacturing partners to stop shipping servers to four south-east Asian countries, as the US steps up export controls on AI computing power. Partners such as Dell and Supermicro, which package Nvidia's chips into servers, told buyers in Malaysia, Singapore, Thailand and Indonesia that their orders will not ship. It is unclear whether the halt is temporary. The move comes as the US tries to prevent Chinese access to AI computing power, three people with knowledge of the matter say. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:31:56Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50651719",
+      "feedId": "hn:50651719",
+      "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@22d8bbdb5bf8f2c246a612f9130c80551ae4e7f5/hn-50651719.mp4",
+      "poster": "media/videos/hn-50651719.jpg",
+      "captions": "media/videos/hn-50651719.vtt",
+      "duration": 37.7,
+      "transcript": "Students photocopied this Unix book for twenty years. John Lions wrote a commentary on the Unix Version 6 source code, and by 1977 his notes were circulating among schools and research institutions with Unix licenses. Even Bell Labs wanted copies, and eventually took over distribution. But for roughly twenty years before the official edition appeared, students studied from unauthorized photocopies. The book helped a generation of students learn to build operating systems of their own, and the official edition finally appeared in 1996. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:31:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50653667",
+      "feedId": "hn:50653667",
+      "title": "Intel One Mono font",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://github.com/intel/intel-one-mono",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@45f4c272ab4bc58ef46bea1f04db55e90271d880/hn-50653667.mp4",
+      "poster": "media/videos/hn-50653667.jpg",
+      "captions": "media/videos/hn-50653667.vtt",
+      "duration": 40.34,
+      "transcript": "Intel built a monospace font with low-vision developers. Intel One Mono is an expressive monospaced font built for clarity and legibility, and it is free with an open-source license. Frere-Jones Type designed it with Intel's brand team. It was designed for developers with low vision, and a panel of low-vision and legally blind developers gave feedback at every stage, to cut fatigue, eyestrain and coding errors. It covers over 200 languages using the Latin script, and comes in four weights, Light, Regular, Medium and Bold, each with matching italics. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:30:54Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-continuations-in-practice-what-se-0564-split-continuations-change",
+      "feedId": "reading:medium-continuations-in-practice-what-se-0564-split-continuations-changes-b573c83f459f",
+      "title": "Continuations in Practice: What SE-0564 Split Continuations Changes",
+      "source": "Reading",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://medium.com/@dheerendra-ios/continuations-in-practice-what-se-0564-split-continuations-changes-b573c83f459f",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@d9db3b3b6d13ffcdf80d80fde9b0a2f91912ab36/reading-medium-continuations-in-practice-what-se-0564-split-continuations-change.mp4",
+      "poster": "media/videos/reading-medium-continuations-in-practice-what-se-0564-split-continuations-change.jpg",
+      "captions": "media/videos/reading-medium-continuations-in-practice-what-se-0564-split-continuations-change.vtt",
+      "duration": 38.54,
+      "transcript": "Swift continuations hide the nastiest concurrency bugs. Most iOS codebases still have callback APIs at their edges: an analytics SDK, a Bluetooth stack, a payment library, or an old networking layer nobody wants to rewrite. Continuations are how those APIs become async functions. The conversion looks trivial, but it is where the author has seen the most subtle concurrency bugs. The bugs are tasks that hang forever and sudden crashes, including the double resume problem, which the article fixes by taking the continuation under a lock. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:30:23Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-hea",
+      "feedId": "reading:medium-a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-headset-actually-read-3e8a498f6220",
+      "title": "A Streamer Stole a Jet in GTA 6 With Her Brain. Here’s What the Headset Actually Read",
+      "source": "Reading",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "url": "https://medium.com/illumination/a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-headset-actually-read-3e8a498f6220",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@566e0445c2ec1aa15db96fd2d722002f65fce9d0/reading-medium-a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-hea.mp4",
+      "poster": "media/videos/reading-medium-a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-hea.jpg",
+      "captions": "media/videos/reading-medium-a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-hea.vtt",
+      "duration": 32.44,
+      "transcript": "She stole a jet in GTA 6 with her brain. Streamer Perrikaryal flew off with a jet in GTA 6 using EEG commands and eye tracking, after ages of practice. The clip looks like mind reading. The real story is quieter. The headset does not read thoughts; it reads brain signals and eye movements, and the clip does not show the practice behind it. The article asks why this matters beyond one streamer, and what the clip leaves out about how the headset really works. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:29:53Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2125586674830959069",
       "feedId": "x:2125586674830959069",
       "title": "SenseTime open-sources SenseNova-RoboRSI-27B, a robot agent that ran on real arms without real-robot training data",

@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.095
+Anthropic proved VP
+
+00:00:01.907 --> 00:00:03.144
+is not VNP
+
+00:00:03.678 --> 00:00:04.326
+You know the
+
+00:00:04.138 --> 00:00:05.600
+determinant from linear
+
+00:00:05.423 --> 00:00:06.484
+algebra class
+
+00:00:06.623 --> 00:00:08.061
+Using only addition
+
+00:00:07.873 --> 00:00:09.135
+and multiplication
+
+00:00:09.383 --> 00:00:10.066
+it can still
+
+00:00:09.878 --> 00:00:10.903
+be computed in
+
+00:00:10.715 --> 00:00:11.906
+polynomial time
+
+00:00:12.060 --> 00:00:13.085
+for example with
+
+00:00:12.897 --> 00:00:14.335
+Gaussian elimination
+
+00:00:14.878 --> 00:00:15.868
+The permanent is
+
+00:00:15.680 --> 00:00:16.741
+like a determinant
+
+00:00:16.553 --> 00:00:18.144
+without any subtraction
+
+00:00:18.215 --> 00:00:19.135
+and no known
+
+00:00:18.946 --> 00:00:19.995
+method computes it
+
+00:00:19.807 --> 00:00:21.175
+in polynomial time
+
+00:00:21.314 --> 00:00:22.210
+For a matrix
+
+00:00:22.021 --> 00:00:22.905
+of zeros and
+
+00:00:22.717 --> 00:00:23.353
+ones
+
+00:00:23.413 --> 00:00:24.568
+it is NP-hard
+
+00:00:25.094 --> 00:00:26.662
+Anthropic's proof says
+
+00:00:26.474 --> 00:00:27.900
+no polynomial-size
+
+00:00:27.712 --> 00:00:28.879
+arithmetic circuit
+
+00:00:28.703 --> 00:00:29.669
+can compute it
+
+00:00:29.808 --> 00:00:30.704
+So for P
+
+00:00:30.516 --> 00:00:31.470
+to equal NP
+
+00:00:31.518 --> 00:00:32.319
+some trick with
+
+00:00:32.131 --> 00:00:33.404
+AND OR and
+
+00:00:33.452 --> 00:00:34.077
+NOT would have
+
+00:00:33.888 --> 00:00:34.973
+to beat addition
+
+00:00:34.785 --> 00:00:36.199
+and multiplication
+
+00:00:36.726 --> 00:00:37.740
+Full story on
+
+00:00:37.551 --> 00:00:38.447
+the dashboard

@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.894
+Swift continuations
+
+00:00:01.706 --> 00:00:02.826
+hide the nastiest
+
+00:00:02.638 --> 00:00:03.887
+concurrency bugs
+
+00:00:04.422 --> 00:00:06.120
+Most iOS codebases
+
+00:00:06.155 --> 00:00:07.228
+still have callback
+
+00:00:07.111 --> 00:00:08.101
+APIs at their
+
+00:00:07.913 --> 00:00:08.478
+edges
+
+00:00:08.691 --> 00:00:10.247
+an analytics SDK
+
+00:00:10.413 --> 00:00:11.497
+a Bluetooth stack
+
+00:00:11.568 --> 00:00:12.818
+a payment library
+
+00:00:12.677 --> 00:00:13.572
+or an old
+
+00:00:13.384 --> 00:00:14.929
+networking layer nobody
+
+00:00:14.740 --> 00:00:15.719
+wants to rewrite
+
+00:00:16.246 --> 00:00:17.684
+Continuations are how
+
+00:00:17.496 --> 00:00:18.769
+those APIs become
+
+00:00:18.793 --> 00:00:19.972
+async functions
+
+00:00:20.111 --> 00:00:21.254
+The conversion looks
+
+00:00:21.066 --> 00:00:21.762
+trivial
+
+00:00:21.868 --> 00:00:22.552
+but it is
+
+00:00:22.363 --> 00:00:23.200
+where the author
+
+00:00:23.012 --> 00:00:23.743
+has seen the
+
+00:00:23.555 --> 00:00:24.957
+most subtle concurrency
+
+00:00:24.769 --> 00:00:25.464
+bugs
+
+00:00:26.006 --> 00:00:26.807
+The bugs are
+
+00:00:26.619 --> 00:00:27.727
+tasks that hang
+
+00:00:27.539 --> 00:00:28.883
+forever and sudden
+
+00:00:28.695 --> 00:00:29.472
+crashes
+
+00:00:29.614 --> 00:00:30.687
+including the double
+
+00:00:30.499 --> 00:00:31.572
+resume problem
+
+00:00:31.666 --> 00:00:32.586
+which the article
+
+00:00:32.398 --> 00:00:33.612
+fixes by taking
+
+00:00:33.423 --> 00:00:34.744
+the continuation under
+
+00:00:34.556 --> 00:00:35.251
+a lock
+
+00:00:35.790 --> 00:00:36.804
+Full story on
+
+00:00:36.615 --> 00:00:37.511
+the dashboard
