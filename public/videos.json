@@ -2,6 +2,162 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50652184",
+      "feedId": "hn:50652184",
+      "title": "Moat: OpenRouter replacement",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://commandcode.ai/moat",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@1327cf4f018e08fdc18c0d26f1625f54f3639026/hn-50652184.mp4",
+      "poster": "media/videos/hn-50652184.jpg",
+      "captions": "media/videos/hn-50652184.vtt",
+      "duration": 32.35,
+      "transcript": "Five dollars a month for wholesale AI models. Moat is a membership that calls itself the Costco of AI: five dollars a month for access to top models at wholesale prices, with no limits. Members pool their usage into hundreds of trillions of tokens, and every model runs at full weights, benchmarked by Moat, at one price per model. On a two-hundred-dollar monthly mix, the example member keeps one thousand four hundred twenty-eight dollars a year. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:47:58Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50655278",
+      "feedId": "hn:50655278",
+      "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@fdc965638900846cf6be83112f5a9804921ebdf6/hn-50655278.mp4",
+      "poster": "media/videos/hn-50655278.jpg",
+      "captions": "media/videos/hn-50655278.vtt",
+      "duration": 35.32,
+      "transcript": "The chiller is dead. Nobody noticed. Nvidia now rates its parts for forty-five degree liquid inlets, up from the thirty to thirty-five degrees liquid cooling has lived with for years. At forty-five degrees, rooftop dry coolers can reject the heat on their own, so new data centers no longer need chillers, those huge rooftop refrigerators. Cooling energy falls by fifty to seventy percent, total data center power by ten to twenty percent, and water use by eighty to ninety-five percent. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:47:20Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-modern-swift-part-1-approachable-concurrency-d82e671bf578",
+      "feedId": "reading:medium-modern-swift-part-1-approachable-concurrency-d82e671bf578",
+      "title": "Modern Swift Part 1: Approachable Concurrency",
+      "source": "Reading",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://medium.com/@ramadan123sayed/modern-swift-part-1-approachable-concurrency-d82e671bf578",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@10706a62d63ab06bf3f3ca84bd9f34bcf38a97cf/reading-medium-modern-swift-part-1-approachable-concurrency-d82e671bf578.mp4",
+      "poster": "media/videos/reading-medium-modern-swift-part-1-approachable-concurrency-d82e671bf578.jpg",
+      "captions": "media/videos/reading-medium-modern-swift-part-1-approachable-concurrency-d82e671bf578.vtt",
+      "duration": 32.73,
+      "transcript": "Swift 6.2 makes safe the default. Swift 6 shipped complete data-race safety, but the first experience was a wall of errors in code that never meant to be concurrent. Version six point two changes the defaults: app code starts on the main actor, async stays with its caller, and background work needs an explicit concurrent mark. New app projects in Xcode twenty-six enable main-actor-by-default already, and the article is part one of eight on modern Swift. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:46:38Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50656036",
+      "feedId": "hn:50656036",
+      "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://michidk.github.io/sidebyside/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@830fc5d3380d9557555e1c3c8b5915ed0273426c/hn-50656036.mp4",
+      "poster": "media/videos/hn-50656036.jpg",
+      "captions": "media/videos/hn-50656036.vtt",
+      "duration": 33.38,
+      "transcript": "Three real browsers, one tab, zero installs. Side by Side opens one web address in Firefox, Chromium and Epiphany at once, each a real browser running in its own Linux virtual machine inside your tab. Each virtual machine runs on a Linux kernel compiled to WebAssembly, with nothing to install and no server behind the page. You need a desktop with eight gigabytes of memory or more, and the first visit downloads about eight hundred megabytes for the three browsers. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:46:09Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50657265",
+      "feedId": "hn:50657265",
+      "title": "AMD-specific fork of llama.cpp",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@6c3402ba2ac5065b9fb53a6c3f56ed53b1a91b77/hn-50657265.mp4",
+      "poster": "media/videos/hn-50657265.jpg",
+      "captions": "media/videos/hn-50657265.vtt",
+      "duration": 29.59,
+      "transcript": "An AMD graphics card just got much faster at AI. A lean, small patch set applies AMD-specific improvements on top of llama cpp, and it is re-applied to every new version. On the author's own setup, prefill jumped from about seven hundred to thirteen hundred tokens a second. Token generation rose too, from thirty-five to fifty-five tokens a second, with a ready-made container image to run it yourself. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:45:37Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3",
+      "feedId": "reading:medium-ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3",
+      "title": "AI Didn’t Start in 2022: The Real 180-Year Story",
+      "source": "Reading",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://mtrdecoded.medium.com/ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7ac766fcac9a336f10c10e07cee43b6fb75e6bef/reading-medium-ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3.mp4",
+      "poster": "media/videos/reading-medium-ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3.jpg",
+      "captions": "media/videos/reading-medium-ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3.vtt",
+      "duration": 32.78,
+      "transcript": "AI did not start in 2022. The story starts in eighteen forty-three, when Ada Lovelace saw that Babbage's Analytical Engine could work on symbols, not just on numbers. The phrase artificial intelligence was named in nineteen fifty-five, and the Dartmouth workshop followed in the summer of nineteen fifty-six. Deep Blue beat Kasparov in nineteen ninety-seven, AlexNet took off in twenty twelve, and ChatGPT arrived on the thirtieth of November, twenty twenty-two. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:45:07Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-",
+      "feedId": "reading:medium-how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-has-a-financial-cost-c9bc9404cd16",
+      "title": "How Airbnb Built a Dynamic Pricing Engine Where Every Prediction Has a Financial Cost",
+      "source": "Reading",
+      "topics": [
+        "Machine Learning"
+      ],
+      "url": "https://medium.com/engineering-playbook/how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-has-a-financial-cost-c9bc9404cd16",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@5c43b60649404990024a346a106902a1d12d3f9b/reading-medium-how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-.mp4",
+      "poster": "media/videos/reading-medium-how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-.jpg",
+      "captions": "media/videos/reading-medium-how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-.vtt",
+      "duration": 34.0,
+      "transcript": "The best-converting price can lose money. In October twenty twenty-six, Airbnb began rolling out a dynamic pricing tool that previews recommended prices and responds to local demand. At a hundred dollars, a Barcelona apartment books eighty-five percent of the time. At a hundred ninety, only forty-two percent, yet the middle price earns most. A team rewarded only for conversion could optimize toward a worse outcome, because every prediction carries a financial cost. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:44:37Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-a-1985-essay-on-programming-explains-what-agents-leave-behind-a8c",
+      "feedId": "reading:medium-a-1985-essay-on-programming-explains-what-agents-leave-behind-a8cf4ddbd2ca",
+      "title": "A 1985 Essay on Programming Explains What Agents Leave Behind",
+      "source": "Reading",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://abduljaleelkavungal.medium.com/a-1985-essay-on-programming-explains-what-agents-leave-behind-a8cf4ddbd2ca",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@bab327cc17fe29d7ff918d182191477e25e1b6d8/reading-medium-a-1985-essay-on-programming-explains-what-agents-leave-behind-a8c.mp4",
+      "poster": "media/videos/reading-medium-a-1985-essay-on-programming-explains-what-agents-leave-behind-a8c.jpg",
+      "captions": "media/videos/reading-medium-a-1985-essay-on-programming-explains-what-agents-leave-behind-a8c.vtt",
+      "duration": 30.62,
+      "transcript": "A program lives in people's heads. In nineteen eighty-five, Peter Naur argued that a program is mostly a theory held by the people who build it, not the code or the docs. A program dies, he wrote, when the team holding its theory dissolves. It may keep running, but nobody can change it safely. Coding agents fit the pattern: they can read every file, yet the understanding they build lasts only as long as the session. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:44:03Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-fo",
+      "feedId": "reading:medium-node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-for-you-3db88d323865",
+      "title": "Node.js Now Has a Stable, Built-In SQLite. Here’s What That Means for You",
+      "source": "Reading",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://sahilkhaire.medium.com/node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-for-you-3db88d323865",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9cca2eddf810cb54fd107b402fa0863f0747e8d2/reading-medium-node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-fo.mp4",
+      "poster": "media/videos/reading-medium-node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-fo.jpg",
+      "captions": "media/videos/reading-medium-node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-fo.vtt",
+      "duration": 28.94,
+      "transcript": "Node finally ships SQLite built in. On the twenty-sixth of November, Node twenty-seven alpha shipped with a one-line change: node sqlite, mark as stable. The module arrived in version twenty-two point five, and was a release candidate since twenty-five point seven and twenty-four point fifteen. Watch the number trap: plain numbers go in as floats, so store text IDs as strings, and use a big integer when you need one. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:43:32Z",
+      "pinned": false
+    },
+    {
       "id": "video:reading-abakcus-best-calculus-books",
       "feedId": "reading:abakcus-best-calculus-books",
       "title": "The 25 Best Calculus Books to Learn Calculus, in Reading Order",
