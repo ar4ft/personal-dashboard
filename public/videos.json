@@ -2,6 +2,79 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2125590327189021093",
+      "feedId": "x:2125590327189021093",
+      "title": "Nothing announces Ear (note), earbuds with a built-in AI notetaker, launching December 8",
+      "source": "Twitter / X",
+      "topics": [
+        "Wearables",
+        "Technology",
+        "AI"
+      ],
+      "url": "https://x.com/nothing/status/2125590327189021093",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@434cc6936a235ddf6787e81405a0fe3e33fcab3f/x-2125590327189021093.mp4",
+      "poster": "media/videos/x-2125590327189021093.jpg",
+      "captions": "media/videos/x-2125590327189021093.vtt",
+      "duration": 31.43,
+      "transcript": "Nothing announces Ear, earbuds with a built-in AI notetaker, launching Nothing's first step in its AI hardware plans is Ear, in-ear headphones that record meetings and calls and produce transcripts, summaries, pre-meeting briefs and next steps. Nothing calls it its best in-ear audio to date and says the earbuds will brief you on important items before the next morning's meetings. The teaser drew about 900K views ahead of the December 8 launch. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:08:40Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125617058331160951",
+      "feedId": "x:2125617058331160951",
+      "title": "Weight-space micromachines: Claude writes dormant 'implants' into a frozen LLM's weights",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/DimitrisPapail/status/2125617058331160951",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@77ba69495d4a6283ee068aef13638c107b32e1c6/x-2125617058331160951.mp4",
+      "poster": "media/videos/x-2125617058331160951.jpg",
+      "captions": "media/videos/x-2125617058331160951.vtt",
+      "duration": 39.16,
+      "transcript": "Weight-space micromachines: Claude writes dormant 'implants' Dimitris Papailiopoulos had coding agents write small modules such as a calculator, rule checkers, a mistake detector and image 'eyes' directly into Qwen3-0.6B's weights; switched on, they lift BIG-Bench Hard from 41% to 55% without RL. Implants stay off until needed, so the base model is bit-for-bit unchanged until one fires. The work builds on the 2023 Looped Transformers as Programmable Computers paper, and code is open source. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:08:07Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50644980",
+      "feedId": "hn:50644980",
+      "title": "OpenAI preprint disproves the polynomial Hirsch conjecture, with a Lean formalization",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Math"
+      ],
+      "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@b54649666a155ec8b19acbca148f45a4b3f2f745/hn-50644980.mp4",
+      "poster": "media/videos/hn-50644980.jpg",
+      "captions": "media/videos/hn-50644980.vtt",
+      "duration": 37.34,
+      "transcript": "OpenAI preprint disproves the polynomial Hirsch conjecture An OpenAI preprint constructs simple polytopes with n facets whose graph diameter grows faster than any fixed power of n, refuting the polynomial Hirsch conjecture. The paper, dated November 24, shows that for every sufficiently large facet count there is a bounded simple rational polytope of subpolynomial dimension whose vertex graph has superpolynomial diameter. The repository includes the Lean statements for the refutation and the paper's two main theorems. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:06:42Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50648823",
+      "feedId": "hn:50648823",
+      "title": "Latency doesn't lie: Modaic fingerprints the Jev decision model as probably Qwen3.5-35B-A3B",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@735b9fd0b6a0bca48bf5b4a8a39e44e31d64c85c/hn-50648823.mp4",
+      "poster": "media/videos/hn-50648823.jpg",
+      "captions": "media/videos/hn-50648823.vtt",
+      "duration": 47.68,
+      "transcript": "Latency doesn't lie: Modaic fingerprints the Jev decision model Modaic used self-identification probes, tokenizer-versus-latency fits over 9,984 prompts and prefill throughput comparisons to argue that TypeSafe's Jev is most likely a fine-tune of the Qwen3.5-35B-A3B mixture-of-experts model. Qwen's tokenizer predicted Jev's latency better than Jev's own reported input-token counts, and controls with known backbones (Baseten's Gemma-based groundhog-1 and Modaic's Qwen-based Mo Lite) validated the method. The authors note Qwen3.6-35B-A3B shares the architecture and cannot be ruled out by throughput alone. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:03:24Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50635783",
       "feedId": "hn:50635783",
       "title": "Predicting LoRA size for any dataset",

@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.906
+Vitalik Buterin's shallow
+
+00:00:01.718 --> 00:00:03.250
+dive into open-source
+
+00:00:03.062 --> 00:00:03.993
+chip design
+
+00:00:04.518 --> 00:00:05.579
+A long primer
+
+00:00:05.391 --> 00:00:06.510
+for software people
+
+00:00:06.322 --> 00:00:06.994
+on the chip
+
+00:00:06.806 --> 00:00:07.808
+design stack
+
+00:00:07.914 --> 00:00:09.270
+from hardware description
+
+00:00:09.082 --> 00:00:10.720
+languages through transistor
+
+00:00:10.532 --> 00:00:11.888
+chemistry to physical
+
+00:00:11.700 --> 00:00:12.760
+layout with open
+
+00:00:12.572 --> 00:00:13.220
+tools
+
+00:00:13.315 --> 00:00:14.647
+and what open-source
+
+00:00:14.459 --> 00:00:15.449
+really means for
+
+00:00:15.261 --> 00:00:15.992
+silicon
+
+00:00:16.510 --> 00:00:17.736
+The post reviewed
+
+00:00:17.548 --> 00:00:18.479
+by Matt Venn
+
+00:00:18.574 --> 00:00:20.012
+explains the languages
+
+00:00:19.824 --> 00:00:21.002
+and toolchain used
+
+00:00:20.814 --> 00:00:21.816
+to design chips
+
+00:00:21.970 --> 00:00:23.172
+how transistors and
+
+00:00:22.984 --> 00:00:24.281
+gates work physically
+
+00:00:24.806 --> 00:00:26.515
+The numbers 180
+
+00:00:26.775 --> 00:00:28.921
+130 and 55
+
+00:00:28.733 --> 00:00:29.770
+here theoretically
+
+00:00:29.582 --> 00:00:30.855
+refer to nanometers
+
+00:00:31.091 --> 00:00:32.471
+specifically the minimum
+
+00:00:32.282 --> 00:00:33.037
+gate length of
+
+00:00:32.848 --> 00:00:33.968
+a transistor that
+
+00:00:33.780 --> 00:00:34.829
+the process can
+
+00:00:34.641 --> 00:00:35.419
+produce
+
+00:00:35.958 --> 00:00:36.972
+Full story on
+
+00:00:36.783 --> 00:00:37.679
+the dashboard

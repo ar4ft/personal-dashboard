@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:02.272
+OpenAI preprint disproves
+
+00:00:02.083 --> 00:00:03.380
+the polynomial Hirsch
+
+00:00:03.192 --> 00:00:04.005
+conjecture
+
+00:00:04.518 --> 00:00:06.133
+An OpenAI preprint
+
+00:00:05.945 --> 00:00:07.725
+constructs simple polytopes
+
+00:00:07.572 --> 00:00:08.810
+with n facets
+
+00:00:08.657 --> 00:00:10.001
+whose graph diameter
+
+00:00:09.813 --> 00:00:11.027
+grows faster than
+
+00:00:10.980 --> 00:00:12.076
+any fixed power
+
+00:00:11.888 --> 00:00:12.501
+of n
+
+00:00:12.737 --> 00:00:14.246
+refuting the polynomial
+
+00:00:14.058 --> 00:00:15.201
+Hirsch conjecture
+
+00:00:15.718 --> 00:00:16.932
+The paper dated
+
+00:00:16.744 --> 00:00:18.135
+November 24
+
+00:00:18.206 --> 00:00:19.043
+shows that for
+
+00:00:18.890 --> 00:00:19.939
+every sufficiently
+
+00:00:19.751 --> 00:00:21.024
+large facet count
+
+00:00:20.836 --> 00:00:21.413
+there is a
+
+00:00:21.225 --> 00:00:22.734
+bounded simple rational
+
+00:00:22.546 --> 00:00:24.444
+polytope of subpolynomial
+
+00:00:24.256 --> 00:00:24.963
+dimension
+
+00:00:25.093 --> 00:00:26.343
+whose vertex graph
+
+00:00:26.225 --> 00:00:27.557
+has superpolynomial
+
+00:00:27.369 --> 00:00:28.182
+diameter
+
+00:00:28.718 --> 00:00:30.251
+The repository includes
+
+00:00:30.062 --> 00:00:31.111
+the Lean statements
+
+00:00:30.923 --> 00:00:32.208
+for the refutation
+
+00:00:32.043 --> 00:00:33.010
+and the paper's
+
+00:00:32.822 --> 00:00:34.059
+two main theorems
+
+00:00:34.590 --> 00:00:35.604
+Full story on
+
+00:00:35.415 --> 00:00:36.311
+the dashboard

@@ -1,0 +1,20 @@
+{
+  "hook": "Latency doesn't lie: Modaic fingerprints the Jev decision model",
+  "hookText": "Latency doesn't lie: Modaic fingerprints the Jev decision model",
+  "beats": [
+    {
+      "say": "Modaic used self-identification probes, tokenizer-versus-latency fits over 9,984 prompts and prefill throughput comparisons to argue that TypeSafe's Jev is most likely a fine-tune of the Qwen3.5-35B-A3B mixture-of-experts model.",
+      "visual": 1
+    },
+    {
+      "say": "Qwen's tokenizer predicted Jev's latency better than Jev's own reported input-token counts, and controls with known backbones (Baseten's Gemma-based groundhog-1 and Modaic's Qwen-based Mo Lite) validated the method.",
+      "visual": 2
+    },
+    {
+      "say": "The authors note Qwen3.6-35B-A3B shares the architecture and cannot be ruled out by throughput alone.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

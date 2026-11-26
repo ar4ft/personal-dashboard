@@ -1,0 +1,22 @@
+{
+  "hook": "Nothing announces Ear, earbuds with a built-in AI notetaker, launching",
+  "hookText": "Nothing announces Ear, earbuds with a built-in AI notetaker, launching",
+  "beats": [
+    {
+      "say": "Nothing's first step in its AI hardware plans is Ear, in-ear headphones that record meetings and calls and produce transcripts, summaries, pre-meeting briefs and next steps.",
+      "visual": 1
+    },
+    {
+      "say": "Nothing calls it its best in-ear audio to date and says the earbuds will brief you on important items before the next morning's meetings.",
+      "visual": 2
+    },
+    {
+      "say": "The teaser drew about 900K views ahead of the December 8 launch.",
+      "visual": 0,
+      "stat": "900K",
+      "statLabel": "views ahead"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

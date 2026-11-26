@@ -1,0 +1,20 @@
+{
+  "hook": "Weight-space micromachines: Claude writes dormant 'implants'",
+  "hookText": "Weight-space micromachines: Claude writes dormant 'implants'",
+  "beats": [
+    {
+      "say": "Dimitris Papailiopoulos had coding agents write small modules such as a calculator, rule checkers, a mistake detector and image 'eyes' directly into Qwen3-0.6B's weights; switched on, they lift BIG-Bench Hard from 41% to 55% without RL.",
+      "visual": 1
+    },
+    {
+      "say": "Implants stay off until needed, so the base model is bit-for-bit unchanged until one fires.",
+      "visual": 2
+    },
+    {
+      "say": "The work builds on the 2023 Looped Transformers as Programmable Computers paper, and code is open source.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

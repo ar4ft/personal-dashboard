@@ -1,0 +1,20 @@
+{
+  "hook": "OpenAI preprint disproves the polynomial Hirsch conjecture",
+  "hookText": "OpenAI preprint disproves the polynomial Hirsch conjecture",
+  "beats": [
+    {
+      "say": "An OpenAI preprint constructs simple polytopes with n facets whose graph diameter grows faster than any fixed power of n, refuting the polynomial Hirsch conjecture.",
+      "visual": 1
+    },
+    {
+      "say": "The paper, dated November 24, shows that for every sufficiently large facet count there is a bounded simple rational polytope of subpolynomial dimension whose vertex graph has superpolynomial diameter.",
+      "visual": 0
+    },
+    {
+      "say": "The repository includes the Lean statements for the refutation and the paper's two main theorems.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
