@@ -1,20 +1,19 @@
 {
-  "hook": "SimDrop - Running iOS simulators in the macOS Finder sidebar",
-  "hookText": "SimDrop - Running iOS simulators in the macOS Finder sidebar",
+  "hook": "Your iPhone simulator now lives in Finder.",
+  "hookText": "Simulators in the Finder sidebar",
   "beats": [
     {
-      "say": "Shows running iOS simulators in the Finder sidebar so you can drag files in and out of them.",
-      "visual": 1
+      "say": "SimDrop puts running iOS simulators in the macOS Finder sidebar, so you can drag files in and out of them like any folder.",
+      "visual": 0
     },
     {
-      "say": "SimDrop isn't on the Mac App Store and can't be: the app and its helper must run unsandboxed to drive simctl and the simulators' folders.",
-      "visual": 2
+      "say": "Each booted simulator gets its own folder, with Photos and Videos for its photo library, and Downloads for the Files app on the phone.",
+      "visual": 0
     },
     {
-      "say": "Replacing the app makes macOS drop its Finder extension and stop the background helper. launchd refuses to start a helper whose recorded launch constraint came from the old copy.",
+      "say": "Simulators appear when they boot and disappear when they shut down, and everything is also reachable from the terminal.",
       "visual": 0
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

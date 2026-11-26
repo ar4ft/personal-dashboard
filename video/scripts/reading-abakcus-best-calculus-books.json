@@ -1,20 +1,21 @@
 {
-  "hook": "The 25 Best Calculus Books to Learn Calculus",
-  "hookText": "The 25 Best Calculus Books to Learn Calculus",
+  "hook": "Twenty-five calculus books, in reading order.",
+  "hookText": "Twenty-five calculus books in order",
   "beats": [
     {
-      "say": "From the 1910 classic that promises any fool can do it to the textbook that makes you prove every line: 25 calculus books sorted by what you need from them.",
+      "say": "From the nineteen-ten classic that promises any fool can do it, to the textbook that makes you prove every single line.",
+      "visual": 0,
+      "stat": "25",
+      "statLabel": "calculus books"
+    },
+    {
+      "say": "The list runs in steps, starting with five books with almost no prerequisites, then ten more where the real work begins.",
       "visual": 1
     },
     {
-      "say": "In a hurry Before the books Step I · Books 01-05 Five books with almost no prerequisites.",
+      "say": "Richard Feynman learned calculus at thirteen from a library book, Calculus for the Practical Man, before his school ever reached the subject.",
       "visual": 2
-    },
-    {
-      "say": "Step III · Books 11-14 Nobody learns calculus by reading. There are hundreds of calculus textbooks in print, most of them weigh as much as a brick.",
-      "visual": 3
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

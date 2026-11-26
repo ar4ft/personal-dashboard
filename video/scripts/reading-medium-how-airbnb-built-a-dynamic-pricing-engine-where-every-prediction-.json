@@ -1,0 +1,21 @@
+{
+  "hook": "The best-converting price can lose money.",
+  "hookText": "Better conversion, less money",
+  "beats": [
+    {
+      "say": "In October twenty twenty-six, Airbnb began rolling out a dynamic pricing tool that previews recommended prices and responds to local demand.",
+      "visual": 0
+    },
+    {
+      "say": "At a hundred dollars, a Barcelona apartment books eighty-five percent of the time. At a hundred ninety, only forty-two percent, yet the middle price earns most.",
+      "visual": 0,
+      "stat": "85%",
+      "statLabel": "booking chance at $100"
+    },
+    {
+      "say": "A team rewarded only for conversion could optimize toward a worse outcome, because every prediction carries a financial cost.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,20 +1,19 @@
 {
-  "hook": "Nextcloud Office Desktop app",
-  "hookText": "Nextcloud Office Desktop app",
+  "hook": "Your office suite just left the browser.",
+  "hookText": "The office suite leaves the browser",
   "beats": [
     {
-      "say": "Nextcloud has shipped a desktop app for Nextcloud Office, bringing its collaborative document editing suite to the desktop.",
+      "say": "Nextcloud has shipped a desktop app for Nextcloud Office, powered by Euro-Office, a sovereign office suite developed and governed in Europe.",
+      "visual": 0
+    },
+    {
+      "say": "It is free and open source for Windows, Mac and Linux, with editors for documents, spreadsheets, presentations and PDFs, and it works offline.",
       "visual": 1
     },
     {
-      "say": "On June 9, 2026, we released the first production-ready version of Euro-Office, a sovereign collaborative office suite developed and governed in Europe.",
-      "visual": 2
-    },
-    {
-      "say": "With the Nextcloud Office Desktop app, you can edit files locally without an internet connection. In this article, you’ll learn about the app’s features, how to install it on Windows, macOS and Linux, and how to co-edit files with your team through Nextcloud Hub.",
-      "visual": 3
+      "say": "It stays compatible with Microsoft Office formats, and connects to Nextcloud Hub so teams can co-edit files in real time.",
+      "visual": 0
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

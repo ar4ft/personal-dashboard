@@ -1,0 +1,21 @@
+{
+  "hook": "The chiller is dead. Nobody noticed.",
+  "hookText": "Data centers ditch the chiller",
+  "beats": [
+    {
+      "say": "Nvidia now rates its parts for forty-five degree liquid inlets, up from the thirty to thirty-five degrees liquid cooling has lived with for years.",
+      "visual": 0,
+      "stat": "45°C",
+      "statLabel": "liquid inlet temperature"
+    },
+    {
+      "say": "At forty-five degrees, rooftop dry coolers can reject the heat on their own, so new data centers no longer need chillers, those huge rooftop refrigerators.",
+      "visual": 0
+    },
+    {
+      "say": "Cooling energy falls by fifty to seventy percent, total data center power by ten to twenty percent, and water use by eighty to ninety-five percent.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

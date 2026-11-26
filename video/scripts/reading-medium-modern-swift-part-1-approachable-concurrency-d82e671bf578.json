@@ -1,0 +1,21 @@
+{
+  "hook": "Swift 6.2 makes safe the default.",
+  "hookText": "Swift 6.2 makes safety the default",
+  "beats": [
+    {
+      "say": "Swift 6 shipped complete data-race safety, but the first experience was a wall of errors in code that never meant to be concurrent.",
+      "visual": 0
+    },
+    {
+      "say": "Version six point two changes the defaults: app code starts on the main actor, async stays with its caller, and background work needs an explicit concurrent mark.",
+      "visual": 0,
+      "stat": "6.2",
+      "statLabel": "Swift version"
+    },
+    {
+      "say": "New app projects in Xcode twenty-six enable main-actor-by-default already, and the article is part one of eight on modern Swift.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

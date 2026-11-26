@@ -1,0 +1,21 @@
+{
+  "hook": "AI did not start in 2022.",
+  "hookText": "AI is 180 years old",
+  "beats": [
+    {
+      "say": "The story starts in eighteen forty-three, when Ada Lovelace saw that Babbage's Analytical Engine could work on symbols, not just on numbers.",
+      "visual": 0,
+      "stat": "1843",
+      "statLabel": "Lovelace's notes"
+    },
+    {
+      "say": "The phrase artificial intelligence was named in nineteen fifty-five, and the Dartmouth workshop followed in the summer of nineteen fifty-six.",
+      "visual": 0
+    },
+    {
+      "say": "Deep Blue beat Kasparov in nineteen ninety-seven, AlexNet took off in twenty twelve, and ChatGPT arrived on the thirtieth of November, twenty twenty-two.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

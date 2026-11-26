@@ -1,0 +1,21 @@
+{
+  "hook": "Five dollars a month for wholesale AI models.",
+  "hookText": "Wholesale AI for five dollars a month",
+  "beats": [
+    {
+      "say": "Moat is a membership that calls itself the Costco of AI: five dollars a month for access to top models at wholesale prices, with no limits.",
+      "visual": 0,
+      "stat": "$5",
+      "statLabel": "per month"
+    },
+    {
+      "say": "Members pool their usage into hundreds of trillions of tokens, and every model runs at full weights, benchmarked by Moat, at one price per model.",
+      "visual": 0
+    },
+    {
+      "say": "On a two-hundred-dollar monthly mix, the example member keeps one thousand four hundred twenty-eight dollars a year.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

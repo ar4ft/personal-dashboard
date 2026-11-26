@@ -1,0 +1,21 @@
+{
+  "hook": "A program lives in people's heads.",
+  "hookText": "Programs live in people's heads",
+  "beats": [
+    {
+      "say": "In nineteen eighty-five, Peter Naur argued that a program is mostly a theory held by the people who build it, not the code or the docs.",
+      "visual": 0,
+      "stat": "1985",
+      "statLabel": "year of Naur's essay"
+    },
+    {
+      "say": "A program dies, he wrote, when the team holding its theory dissolves. It may keep running, but nobody can change it safely.",
+      "visual": 0
+    },
+    {
+      "say": "Coding agents fit the pattern: they can read every file, yet the understanding they build lasts only as long as the session.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

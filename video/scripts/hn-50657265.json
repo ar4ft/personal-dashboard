@@ -1,0 +1,21 @@
+{
+  "hook": "An AMD graphics card just got much faster at AI.",
+  "hookText": "AMD cards run AI much faster",
+  "beats": [
+    {
+      "say": "A lean, small patch set applies AMD-specific improvements on top of llama cpp, and it is re-applied to every new version.",
+      "visual": 0
+    },
+    {
+      "say": "On the author's own setup, prefill jumped from about seven hundred to thirteen hundred tokens a second.",
+      "visual": 0
+    },
+    {
+      "say": "Token generation rose too, from thirty-five to fifty-five tokens a second, with a ready-made container image to run it yourself.",
+      "visual": 0,
+      "stat": "55",
+      "statLabel": "tokens per second"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

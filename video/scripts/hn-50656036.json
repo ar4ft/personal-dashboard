@@ -1,0 +1,21 @@
+{
+  "hook": "Three real browsers, one tab, zero installs.",
+  "hookText": "Three browsers in one tab",
+  "beats": [
+    {
+      "say": "Side by Side opens one web address in Firefox, Chromium and Epiphany at once, each a real browser running in its own Linux virtual machine inside your tab.",
+      "visual": 0,
+      "stat": "3",
+      "statLabel": "browsers side by side"
+    },
+    {
+      "say": "Each virtual machine runs on a Linux kernel compiled to WebAssembly, with nothing to install and no server behind the page.",
+      "visual": 0
+    },
+    {
+      "say": "You need a desktop with eight gigabytes of memory or more, and the first visit downloads about eight hundred megabytes for the three browsers.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

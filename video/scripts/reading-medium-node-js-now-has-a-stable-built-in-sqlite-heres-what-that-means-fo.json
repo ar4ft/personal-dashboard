@@ -1,0 +1,21 @@
+{
+  "hook": "Node finally ships SQLite built in.",
+  "hookText": "SQLite built into Node",
+  "beats": [
+    {
+      "say": "On the twenty-sixth of November, Node twenty-seven alpha shipped with a one-line change: node sqlite, mark as stable.",
+      "visual": 0,
+      "stat": "27",
+      "statLabel": "Node alpha"
+    },
+    {
+      "say": "The module arrived in version twenty-two point five, and was a release candidate since twenty-five point seven and twenty-four point fifteen.",
+      "visual": 0
+    },
+    {
+      "say": "Watch the number trap: plain numbers go in as floats, so store text IDs as strings, and use a big integer when you need one.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
