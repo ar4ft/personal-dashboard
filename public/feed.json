@@ -55500,6 +55500,265 @@
       "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
       "createdAt": "2026-11-26T05:00:19Z",
       "updatedAt": "2026-11-26T05:00:19Z"
+    },
+    {
+      "id": "hn:50654289",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nextcloud Office Desktop app",
+      "description": "Nextcloud has shipped a desktop app for Nextcloud Office, bringing its collaborative document editing suite to the desktop.",
+      "content": "Nextcloud has shipped a desktop app for Nextcloud Office, bringing its collaborative document editing suite to the desktop.\n\n[Read the article](https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50654289)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "e12e",
+      "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+      "createdAt": "2026-11-26T11:50:49Z",
+      "updatedAt": "2026-11-26T11:50:49Z"
+    },
+    {
+      "id": "hn:50657265",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AMD-specific fork of llama.cpp",
+      "description": "An AMD-specific fork of llama.cpp, tuned for running large language models on AMD hardware.",
+      "content": "An AMD-specific fork of llama.cpp, tuned for running large language models on AMD hardware.\n\n[Read the article](https://devnull.land/amd-specific-llama-cpp)\n\n[HN discussion](https://news.ycombinator.com/item?id=50657265)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "julianlam",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "createdAt": "2026-11-26T17:11:29Z",
+      "updatedAt": "2026-11-26T17:11:29Z"
+    },
+    {
+      "id": "hn:50655278",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
+      "description": "Data centers are moving to 45°C water inlets, a shift that is quietly making the chiller obsolete — and most people haven't noticed yet.",
+      "content": "Data centers are moving to 45°C water inlets, a shift that is quietly making the chiller obsolete — and most people haven't noticed yet.\n\n[Read the article](https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831)\n\n[HN discussion](https://news.ycombinator.com/item?id=50655278)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "magoghm",
+      "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "createdAt": "2026-11-26T13:48:11Z",
+      "updatedAt": "2026-11-26T13:48:11Z"
+    },
+    {
+      "id": "hn:50652184",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Moat: OpenRouter replacement",
+      "description": "Moat is a new alternative to OpenRouter for routing requests across AI models.",
+      "content": "Moat is a new alternative to OpenRouter for routing requests across AI models.\n\n[Read the article](https://commandcode.ai/moat)\n\n[HN discussion](https://news.ycombinator.com/item?id=50652184)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "amanverasia",
+      "url": "https://commandcode.ai/moat",
+      "createdAt": "2026-11-26T06:32:48Z",
+      "updatedAt": "2026-11-26T06:32:48Z"
+    },
+    {
+      "id": "hn:50653477",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "description": "Google is moving its Workspace AI agents onto its own MCP servers — with one catch: the Gmail agent can't send email.",
+      "content": "Google is moving its Workspace AI agents onto its own MCP servers — with one catch: the Gmail agent can't send email.\n\n[Read the article](https://techstackups.com/articles/google-workspace-ai-agents-mcp/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50653477)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ritzaco",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "createdAt": "2026-11-26T09:44:23Z",
+      "updatedAt": "2026-11-26T09:44:23Z"
+    },
+    {
+      "id": "hn:50656036",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "description": "Three Linux virtual machines running side by side in a single browser tab, each running a different browser.",
+      "content": "Three Linux virtual machines running side by side in a single browser tab, each running a different browser.\n\n[Read the article](https://michidk.github.io/sidebyside/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50656036)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "michidk",
+      "url": "https://michidk.github.io/sidebyside/",
+      "createdAt": "2026-11-26T15:00:06Z",
+      "updatedAt": "2026-11-26T15:00:06Z"
+    },
+    {
+      "id": "hn:50660180",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI made self-hosting fun again",
+      "description": "A look at how AI assistance has made self-hosting fun again.",
+      "content": "A look at how AI assistance has made self-hosting fun again.\n\n[Read the article](https://janlukas.blog/posts/ai-self-hosting)\n\n[HN discussion](https://news.ycombinator.com/item?id=50660180)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "jlelse",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "createdAt": "2026-11-26T21:47:45Z",
+      "updatedAt": "2026-11-26T21:47:45Z"
+    },
+    {
+      "id": "hn:50657070",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "description": "SimDrop runs iOS simulators in the macOS Finder sidebar.",
+      "content": "SimDrop runs iOS simulators in the macOS Finder sidebar.\n\n[Read the article](https://github.com/rxliuli/sim-drop)\n\n[HN discussion](https://news.ycombinator.com/item?id=50657070)\n\n[Repo on GitHub](https://github.com/rxliuli/sim-drop)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "rxliuli",
+      "url": "https://github.com/rxliuli/sim-drop",
+      "createdAt": "2026-11-26T16:51:38Z",
+      "updatedAt": "2026-11-26T16:51:38Z"
+    },
+    {
+      "id": "hn:50651430",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "NormalScript: A perfectly normal scripting language",
+      "description": "NormalScript is a perfectly normal scripting language — a playful new language project.",
+      "content": "NormalScript is a perfectly normal scripting language — a playful new language project.\n\n[Read the article](https://psychoscript.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50651430)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "hn-aarvin",
+      "url": "https://psychoscript.com/",
+      "createdAt": "2026-11-26T04:32:26Z",
+      "updatedAt": "2026-11-26T04:32:26Z"
+    },
+    {
+      "id": "reading:medium-node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-for-you-3db88d323865",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Node.js Now Has a Stable, Built-In SQLite. Here’s What That Means for You",
+      "description": "Node's built-in SQLite module, node:sqlite, has shed its experimental label in the Node 27 alpha. The author tried it on three Node versions and found one number-handling trap worth knowing about.",
+      "content": "Node's built-in SQLite module, node:sqlite, has shed its experimental label in the Node 27 alpha. The author tried it on three Node versions and found one number-handling trap worth knowing about.\n\n[Read the article](https://sahilkhaire.medium.com/node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-for-you-3db88d323865)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Sahil Khaire",
+      "url": "https://sahilkhaire.medium.com/node-js-now-has-a-stable-built-in-sqlite-heres-what-that-means-for-you-3db88d323865",
+      "createdAt": "2026-11-26T22:51:54Z",
+      "updatedAt": "2026-11-26T22:51:54Z"
+    },
+    {
+      "id": "reading:medium-a-1985-essay-on-programming-explains-what-agents-leave-behind-a8cf4ddbd2ca",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A 1985 Essay on Programming Explains What Agents Leave Behind",
+      "description": "Peter Naur argued that a program lives in the heads of the people who build it. That idea is worth revisiting as agents write more and more code.",
+      "content": "Peter Naur argued that a program lives in the heads of the people who build it. That idea is worth revisiting as agents write more and more code.\n\n[Read the article](https://abduljaleelkavungal.medium.com/a-1985-essay-on-programming-explains-what-agents-leave-behind-a8cf4ddbd2ca)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Abdul Jaleel Kavungal",
+      "url": "https://abduljaleelkavungal.medium.com/a-1985-essay-on-programming-explains-what-agents-leave-behind-a8cf4ddbd2ca",
+      "createdAt": "2026-11-26T22:16:14Z",
+      "updatedAt": "2026-11-26T22:16:14Z"
+    },
+    {
+      "id": "reading:medium-how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-has-a-financial-cost-c9bc9404cd16",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "How Airbnb Built a Dynamic Pricing Engine Where Every Prediction Has a Financial Cost",
+      "description": "Inside Airbnb's machine learning architecture, demand forecasting, marketplace economics, and the production risks of automated pricing.",
+      "content": "Inside Airbnb's machine learning architecture, demand forecasting, marketplace economics, and the production risks of automated pricing.\n\n[Read the article](https://medium.com/engineering-playbook/how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-has-a-financial-cost-c9bc9404cd16)",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Architecture Unfiltered | By Devrim",
+      "url": "https://medium.com/engineering-playbook/how-airbnb-built-a-dynamic-pricing-engine-where-every-prediction-has-a-financial-cost-c9bc9404cd16",
+      "createdAt": "2026-11-26T22:00:21Z",
+      "updatedAt": "2026-11-26T22:00:21Z"
+    },
+    {
+      "id": "reading:medium-modern-swift-part-1-approachable-concurrency-d82e671bf578",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Modern Swift Part 1: Approachable Concurrency",
+      "description": "Swift 6.2 made the safe thing the default — MainActor by default, nonisolated(nonsending), and @concurrent.",
+      "content": "Swift 6.2 made the safe thing the default — MainActor by default, nonisolated(nonsending), and @concurrent.\n\n[Read the article](https://medium.com/@ramadan123sayed/modern-swift-part-1-approachable-concurrency-d82e671bf578)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "author": "Ramadan Sayed",
+      "url": "https://medium.com/@ramadan123sayed/modern-swift-part-1-approachable-concurrency-d82e671bf578",
+      "createdAt": "2026-11-26T14:01:03Z",
+      "updatedAt": "2026-11-26T14:01:03Z"
+    },
+    {
+      "id": "reading:medium-ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI Didn’t Start in 2022: The Real 180-Year Story",
+      "description": "A 180-year history of AI, from long before ChatGPT to the present day.",
+      "content": "A 180-year history of AI, from long before ChatGPT to the present day.\n\n[Read the article](https://mtrdecoded.medium.com/ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "MTR DECODED",
+      "url": "https://mtrdecoded.medium.com/ai-didnt-start-in-2022-the-real-180-year-story-42b498ef57c3",
+      "createdAt": "2026-11-26T21:55:48Z",
+      "updatedAt": "2026-11-26T21:55:48Z"
+    },
+    {
+      "id": "reading:abakcus-best-calculus-books",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The 25 Best Calculus Books to Learn Calculus, in Reading Order",
+      "description": "From the 1910 classic that promises any fool can do it to the textbook that makes you prove every line: 25 calculus books sorted by what you need from them.",
+      "content": "From the 1910 classic that promises any fool can do it to the textbook that makes you prove every line: 25 calculus books sorted by what you need from them.\n\n[Read the article](https://abakcus.com/book-lists/best-calculus-books)",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/book-lists/best-calculus-books",
+      "createdAt": "2026-11-26T00:00:00Z",
+      "updatedAt": "2026-11-26T00:00:00Z"
     }
   ]
 }
