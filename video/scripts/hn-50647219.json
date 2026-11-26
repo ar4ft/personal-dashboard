@@ -1,0 +1,21 @@
+{
+  "hook": "Local image and video generation, one CLI",
+  "hookText": "openfal goes local",
+  "beats": [
+    {
+      "say": "openfal is an open source server that runs Qwen Image 2.1, Wan 2.2 and MiniMax H3 on your own Windows, Linux or Mac machine.",
+      "visual": 0
+    },
+    {
+      "say": "Three commands detect your GPU, install the smallest image setup at about 16 gigabytes, and serve an API with a Studio interface.",
+      "visual": 1,
+      "stat": "16 GB",
+      "statLabel": "minimal setup"
+    },
+    {
+      "say": "It mimics fal's routes, queues and Python SDK, so apps built for the hosted service can point at your own box instead, no ComfyUI graphs needed.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

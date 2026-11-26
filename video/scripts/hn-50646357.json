@@ -1,0 +1,25 @@
+{
+  "hook": "Claude moved Anthropic's API from Python to Rust",
+  "hookText": "Python to Rust, live",
+  "beats": [
+    {
+      "say": "Anthropic migrated its Messages API from Python to Rust after traffic grew roughly 1,800 times from early 2024 to fall 2026.",
+      "visual": 0,
+      "stat": "1,800x",
+      "statLabel": "traffic growth"
+    },
+    {
+      "say": "The Rust version passed about 98 percent of tests in April, yet only a quarter of inputs matched on production traffic, so agents chased down the differences.",
+      "visual": 3,
+      "stat": "98%",
+      "statLabel": "tests passed"
+    },
+    {
+      "say": "The result uses about 70 percent less CPU per request and cuts median time to first token by about 20 percent, with no downtime.",
+      "visual": 4,
+      "stat": "70%",
+      "statLabel": "less CPU"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,23 @@
+{
+  "hook": "Label, train and auto-label on your Mac",
+  "hookText": "Meet labelkit",
+  "beats": [
+    {
+      "say": "A developer needed an on-device model to detect playing cards on iPhone, so he built labelkit, a free native Mac app.",
+      "visual": 0
+    },
+    {
+      "say": "You draw boxes fast, train with Create ML, then let the model label the rest. The demo goes from labels to auto labeling in 38 seconds.",
+      "visual": 1,
+      "stat": "38 sec",
+      "statLabel": "label to auto-label"
+    },
+    {
+      "say": "Saves are byte stable for clean git diffs, tens of thousands of images open instantly, and a ten thousand image dataset idles at around 20 megabytes of memory.",
+      "visual": 3,
+      "stat": "20 MB",
+      "statLabel": "for 10k images"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

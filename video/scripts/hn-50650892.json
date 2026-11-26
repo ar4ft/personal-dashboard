@@ -1,0 +1,23 @@
+{
+  "hook": "Postgres in one file, no Docker needed",
+  "hookText": "Postgres as one binary",
+  "beats": [
+    {
+      "say": "minipg packages PostgreSQL as a single executable. A dot pgdb folder holds the data, config, credentials and Postgres version.",
+      "visual": 0
+    },
+    {
+      "say": "It embeds the official Postgres eighteen Alpine image and runs it through h9, a Zig library whose Plan 9 kernel answers the system calls, so no Linux kernel boots.",
+      "visual": 1,
+      "stat": "18",
+      "statLabel": "Postgres version"
+    },
+    {
+      "say": "Tools like psql start in their own tiny machine in about 90 milliseconds, though Postgres runs about two times slower than native for one client.",
+      "visual": 0,
+      "stat": "90 ms",
+      "statLabel": "tool start"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

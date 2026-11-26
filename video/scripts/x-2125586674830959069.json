@@ -1,0 +1,25 @@
+{
+  "hook": "A robot brain trained only in simulation",
+  "hookText": "Sim to real arms",
+  "beats": [
+    {
+      "say": "SenseTime released SenseNova RoboRSI 27B, a robot agent model, with open weights under Apache 2.0.",
+      "visual": 0,
+      "stat": "27B",
+      "statLabel": "parameters"
+    },
+    {
+      "say": "With no real robot data in embodied post training, the same weights ran on two physical arms, and stacked blocks on a Piper X in nine of ten trials.",
+      "visual": 1,
+      "stat": "9/10",
+      "statLabel": "block stacks"
+    },
+    {
+      "say": "It chooses between a vision language action policy and writing code, rejects bad trajectories and replans. SenseTime reports a RoboDojo score of 34.7 against 27.6 for GPT-6 Astra.",
+      "visual": 2,
+      "stat": "34.7",
+      "statLabel": "RoboDojo score"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

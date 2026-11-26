@@ -1,0 +1,23 @@
+{
+  "hook": "What if AI agents never re-read context?",
+  "hookText": "Speculative encoding",
+  "beats": [
+    {
+      "say": "Ramp Labs introduced speculative encoding, a single 2.35 billion parameter mixture of experts model that translates between different models' hidden states.",
+      "visual": 0,
+      "stat": "2.35B",
+      "statLabel": "parameters"
+    },
+    {
+      "say": "One model reads a long document once, and the translator hands its understanding to other models, so multi-agent swarms skip reading the same context again.",
+      "visual": 1
+    },
+    {
+      "say": "Across seven models it keeps 96.9 percent of base accuracy and cuts prefill latency by up to seven and a half times on long documents.",
+      "visual": 2,
+      "stat": "7.5x",
+      "statLabel": "faster prefill"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

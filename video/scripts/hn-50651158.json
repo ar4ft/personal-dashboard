@@ -1,0 +1,23 @@
+{
+  "hook": "Qualcomm's laptop CPU now rivals x86",
+  "hookText": "Oryon 3 reaches the top",
+  "beats": [
+    {
+      "say": "Chips and Cheese dug into Oryon 3, the core behind the Snapdragon X2 Elite, which can challenge the best x86 chips on CPU performance.",
+      "visual": 0
+    },
+    {
+      "say": "Qualcomm uses twice as many performance cores as efficiency cores, the inverse of Intel's hybrid approach.",
+      "visual": 3,
+      "stat": "2x",
+      "statLabel": "P-cores vs E-cores"
+    },
+    {
+      "say": "The core sustains about four NOPs per cycle from L2, double Oryon 1, and its L1 data TLB grew from 224 to 256 entries, covering a full megabyte with 4 KB pages.",
+      "visual": 4,
+      "stat": "256",
+      "statLabel": "DTLB entries"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

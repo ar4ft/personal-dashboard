@@ -1,0 +1,21 @@
+{
+  "hook": "Your terminal programs can survive a restart",
+  "hookText": "Rex resumes programs",
+  "beats": [
+    {
+      "say": "Mitchell Hashimoto's Rex terminal can now resume your programs after a server restart, and his company Superlogical published the protocol behind it today.",
+      "visual": 0
+    },
+    {
+      "say": "It's built on a brand new open terminal protocol, OSC 7577, made with herdr and reviewed by several terminal emulator and program authors.",
+      "visual": 1,
+      "stat": "7577",
+      "statLabel": "OSC protocol"
+    },
+    {
+      "say": "Any program can report how to resume using plain escape sequences, Rex ships with Claude Code support, and herdr plans to add it next.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

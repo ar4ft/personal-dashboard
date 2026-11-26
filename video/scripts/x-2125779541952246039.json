@@ -1,0 +1,23 @@
+{
+  "hook": "Karpathy turned US data into a Civ map",
+  "hookText": "USA as a strategy game",
+  "beats": [
+    {
+      "say": "Andrej Karpathy asked Claude to fill a Civilization style game map with real United States data, and let Opus 5.5 download and parse it.",
+      "visual": 0
+    },
+    {
+      "say": "Seven hours and 45 thousand lines of code later it worked, pulling 31 data sources including the Census, NOAA and USGS onto a 25 kilometer hex grid.",
+      "visual": 1,
+      "stat": "31",
+      "statLabel": "data sources"
+    },
+    {
+      "say": "Built with Claude Code, the result has 19 interactive lenses, city views for 524 metros, and an explorer for county level data.",
+      "visual": 2,
+      "stat": "524",
+      "statLabel": "metro city views"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

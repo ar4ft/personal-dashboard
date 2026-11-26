@@ -1,0 +1,25 @@
+{
+  "hook": "A whole AI chat OS in 24 kilobytes",
+  "hookText": "24 KB OS runs Qwen",
+  "beats": [
+    {
+      "say": "A developer wrote a bootable x86 operating system in pure assembly that runs the Qwen3 0.6B model, with no Linux, no C and no libc.",
+      "visual": 0,
+      "stat": "24 KB",
+      "statLabel": "kernel size"
+    },
+    {
+      "say": "It cold boots to an interactive multi-turn chat in 74 to 94 milliseconds, with the model mapped straight from RAM on huge pages.",
+      "visual": 1,
+      "stat": "74 ms",
+      "statLabel": "cold boot"
+    },
+    {
+      "say": "Under KVM on a sixteen core EPYC it decodes about 135 tokens per second, and it even runs live on a diskless Proxmox virtual machine.",
+      "visual": 3,
+      "stat": "135",
+      "statLabel": "tokens per second"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

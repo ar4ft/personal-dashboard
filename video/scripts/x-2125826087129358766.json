@@ -1,0 +1,21 @@
+{
+  "hook": "How chips are really designed, in the open",
+  "hookText": "Open-source chip design",
+  "beats": [
+    {
+      "say": "Vitalik Buterin wrote a primer on open source chip design for people used to a pure software view of computing, with review from Matt Venn.",
+      "visual": 0
+    },
+    {
+      "say": "Like software, hardware is written in high level languages, then compiled into progressively lower levels. His example circuit simply multiplies a state by three on every clock tick.",
+      "visual": 1
+    },
+    {
+      "say": "At the bottom, layouts say exactly which layer gets which rectangle, and process names like 180 or 130 refer to nanometers of transistor gate length.",
+      "visual": 0,
+      "stat": "180 nm",
+      "statLabel": "process node"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

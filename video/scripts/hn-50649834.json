@@ -1,0 +1,21 @@
+{
+  "hook": "Forty years of UI rulebooks in one place",
+  "hookText": "69 UI style guides",
+  "beats": [
+    {
+      "say": "Marcin Wichary has collected preserved UI style guides from companies starting in the early 1980s and continuing to today, with PDFs, mirrors and Wayback Machine links for each one.",
+      "visual": 0,
+      "stat": "69",
+      "statLabel": "style guides"
+    },
+    {
+      "say": "It spans the Amiga Workbench, BlackBerry handhelds, Motif and CDE on Unix, and IBM's Common User Access, which influenced Windows and OS/2. The first Android guide he could locate dates from 2012.",
+      "visual": 1
+    },
+    {
+      "say": "You'll also find NeXTSTEP and OpenStep guidelines, Apple's Newton, and every edition of Material Design for Android.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
