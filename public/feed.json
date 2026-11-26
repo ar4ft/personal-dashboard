@@ -2,6 +2,325 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50648365",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Bare Metal Qwen: a 24 KB assembly OS that boots straight into a Qwen3-0.6B chat",
+      "description": "Part of the llm.asm trilogy, this bootable x86-64 kernel written in pure NASM runs Qwen3-0.6B with no Linux, C or libc, boots to an interactive chat in 74 to 94 ms and decodes about 135 tokens per second on a 16-vCPU EPYC under KVM.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "miohtama",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "createdAt": "2026-11-25T22:15:34Z",
+      "updatedAt": "2026-11-25T22:15:34Z",
+      "content": "The 24,252-byte Multiboot kernel brings up long mode, AVX2/FMA/F16C and all SMP cores, then binds a 614 MiB Q8 model zero-copy from RAM on 2 MiB huge pages and offers multi-turn chat with a persistent KV cache over VGA, PS/2 and serial. The author reports token-exact parity with the project's Linux version across 1 to 32 vCPUs and 55 tokens per second on a diskless Proxmox VM. The sibling Linux binary is 14.7 KB and claims to beat llama.cpp's CPU Q8_0 path by 18 to 36 percent.\n\n[Bare-metal OS on GitHub](https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os)\n\n[llm.asm repo](https://github.com/alesha-pro/llm.asm)\n\n[HN discussion](https://news.ycombinator.com/item?id=50648365)"
+    },
+    {
+      "id": "hn:50650892",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "minipg: PostgreSQL as a single executable, with a .pgdb directory as the database",
+      "description": "Jeff Lindsay's minipg packages PostgreSQL as one binary: a .pgdb folder holds the data, config, credentials and Postgres version, a server starts on demand and stops when idle, and no Docker or VM is needed.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rguiscard",
+      "url": "https://progrium.github.io/minipg/",
+      "createdAt": "2026-11-26T03:00:48Z",
+      "updatedAt": "2026-11-26T03:00:48Z",
+      "content": "minipg embeds Docker Hub's postgres:18-alpine image and runs Alpine's own Postgres binaries through h9, a Zig library whose Plan 9 kernel answers their system calls on the host hypervisor, so there is no Linux kernel to boot. Commands cover a psql shell, one-off statements, connection URLs, a foreground server, running your app with DATABASE_URL set, and dump/restore. A browser demo runs the Linux build on v86.\n\n[minipg site and demo](https://progrium.github.io/minipg/)\n\n[Repo on GitHub](https://github.com/progrium/minipg)\n\n[HN discussion](https://news.ycombinator.com/item?id=50650892)"
+    },
+    {
+      "id": "hn:50644980",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "OpenAI preprint disproves the polynomial Hirsch conjecture, with a Lean formalization",
+      "description": "An OpenAI preprint constructs simple polytopes with n facets whose graph diameter grows faster than any fixed power of n, refuting the polynomial Hirsch conjecture; Lean proofs of the main results are published alongside a companion paper on strongly polynomial linear programming.",
+      "topics": [
+        "AI",
+        "Math"
+      ],
+      "source": "Hacker News",
+      "author": "acossta",
+      "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "createdAt": "2026-11-25T17:34:34Z",
+      "updatedAt": "2026-11-25T17:34:34Z",
+      "content": "The paper, dated November 24, shows that for every sufficiently large facet count there is a bounded simple rational polytope of subpolynomial dimension whose vertex graph has superpolynomial diameter. The bound on polytope diameter matters for the simplex method, since it limits how few pivots any pivot rule could need. The repository includes the Lean statements for the refutation and the paper's two main theorems.\n\n[Preprint PDF on GitHub](https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf)\n\n[Preprint README with Lean links](https://github.com/openai/math/tree/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026)\n\n[HN discussion](https://news.ycombinator.com/item?id=50644980)"
+    },
+    {
+      "id": "hn:50646357",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Anthropic migrated its Messages API from Python to Rust by turning production into the verifier",
+      "description": "Anthropic describes how Claude wrote the first Rust version of the API's core request path in about a week, and how shadow-testing on production traffic plus agent fix loops reached parity, cutting CPU per request by about 70% and median time to first token by about 20%.",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "WalterSobchak",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "createdAt": "2026-11-25T19:33:10Z",
+      "updatedAt": "2026-11-25T19:33:10Z",
+      "content": "API traffic grew roughly 1,800 times from early 2024 to fall 2026, and Python overhead in validation, tokenization, safety screening and stream parsing became a bottleneck. Because the Python service kept changing, model replies are nondeterministic and engineers could not read customer requests, the team built verifiers that compared the two implementations on live traffic and dispatched agents to fix each divergence. Public traffic moved to Rust in September 2026 without downtime or a feature freeze.\n\n[Article on Anthropic](https://www.anthropic.com/research/migrating-api-to-rust)\n\n[HN discussion](https://news.ycombinator.com/item?id=50646357)"
+    },
+    {
+      "id": "hn:50648823",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Latency doesn't lie: Modaic fingerprints the Jev decision model as probably Qwen3.5-35B-A3B",
+      "description": "Modaic used self-identification probes, tokenizer-versus-latency fits over 9,984 prompts and prefill throughput comparisons to argue that TypeSafe's Jev is most likely a fine-tune of the Qwen3.5-35B-A3B mixture-of-experts model.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "csoham",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "createdAt": "2026-11-25T22:57:04Z",
+      "updatedAt": "2026-11-25T22:57:04Z",
+      "content": "Jev's p99 latency tracks its median closely, pointing to a sparse MoE. Qwen's tokenizer predicted Jev's latency better than Jev's own reported input-token counts, and controls with known backbones (Baseten's Gemma-based groundhog-1 and Modaic's Qwen-based Mo Lite) validated the method. On 250 prompts, Jev's throughput kept climbing past 90K tokens per second and tracked a Qwen3.5-35B-A3B model most closely, while a dense 27B plateaued near 35K. The authors note Qwen3.6-35B-A3B shares the architecture and cannot be ruled out by throughput alone.\n\n[Article on Modaic](https://modaic.dev/blog/latency-doesnt-lie)\n\n[HN discussion](https://news.ycombinator.com/item?id=50648823)"
+    },
+    {
+      "id": "hn:50651158",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Chips and Cheese: Qualcomm's Oryon 3 reaches the top",
+      "description": "Chester Lam's deep dive into the third-generation Oryon cores in the Snapdragon X2 Elite, whose P-cores deliver CPU performance that challenges the best x86-64 chips and outnumber the E-cores two to one.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "wmf",
+      "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+      "createdAt": "2026-11-26T03:43:24Z",
+      "updatedAt": "2026-11-26T03:43:24Z",
+      "content": "The article traces Qualcomm's path from phone SoCs in early Arm laptops to the Snapdragon X2 Elite Extreme, and examines the Oryon 3 microarchitecture that carries most of its single- and multithreaded load. Qualcomm's inverted hybrid layout, with more prime cores than efficiency cores, is the opposite of Intel's approach.\n\n[Article on Chips and Cheese](https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top)\n\n[HN discussion](https://news.ycombinator.com/item?id=50651158)"
+    },
+    {
+      "id": "hn:50649834",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Marcin Wichary's collection of 69 preserved UI style guides, from the 1980s to today",
+      "description": "Aresluna gathers interface guidelines from Amiga, Android, BlackBerry, CDE/Motif and many other platforms, with PDFs, mirrors and Wayback Machine links for each edition.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "sohkamyung",
+      "url": "https://aresluna.org/ui-style-guides/",
+      "createdAt": "2026-11-26T00:40:00Z",
+      "updatedAt": "2026-11-26T00:40:00Z",
+      "content": "The archive runs from early-1980s desktop guidelines through Material Design and current platform docs, giving designers and app developers a single place to compare how GUI conventions evolved across companies.\n\n[UI style guides on Aresluna](https://aresluna.org/ui-style-guides/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50649834)"
+    },
+    {
+      "id": "hn:50647219",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: openfal, local image and video generation behind a fal-compatible API",
+      "description": "openfal is an MIT-licensed local inference server that installs and serves Qwen-Image-2.1, Wan 2.2 and MiniMax H3 behind fal-style routes, queues and a Python SDK, without ComfyUI node graphs.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "webbrain",
+      "url": "https://openfal.org",
+      "createdAt": "2026-11-25T20:40:52Z",
+      "updatedAt": "2026-11-25T20:40:52Z",
+      "content": "Three CLI commands detect GPUs and RAM, download a verified model tier (the smallest image setup is about 16 GB) and start a server with a Studio UI and OpenAPI docs on localhost. It exposes fal-compatible route names, queue submission, SSE status streaming and fal_client-style subscribe, run, submit and upload calls on Windows, Linux and macOS hosts.\n\n[openfal site](https://openfal.org)\n\n[Repo on GitHub](https://github.com/esokullu/openfal)\n\n[HN discussion](https://news.ycombinator.com/item?id=50647219)"
+    },
+    {
+      "id": "x:2125779541952246039",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Karpathy had Claude turn 31 US public datasets into a Civilization-style strategy map in 7 hours",
+      "description": "Using Claude Code with Opus 5.5, Andrej Karpathy built usaciv, which reconciles Census, BEA, BLS, NOAA, USGS and other data onto a 25 km hex grid with 19 lenses, city views for 524 metros and a county explorer, in about 45K lines of code.",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Andrej Karpathy (@karpathy)",
+      "url": "https://x.com/karpathy/status/2125779541952246039",
+      "createdAt": "2026-11-26T02:31:52Z",
+      "updatedAt": "2026-11-26T02:31:52Z",
+      "content": "Real data maps onto game concepts: GDP becomes gold yield, a city's districts are its industry specializations, and wonders are chosen by published rules such as park visitors and university R&D spending. The Explorer turns any column for 3,100+ counties into a table and scatter plot linked to the map. The post drew more than a million views.\n\n[usaciv live demo](https://karpathy.ai/usaciv/)\n\n[Post on X](https://x.com/karpathy/status/2125779541952246039)"
+    },
+    {
+      "id": "x:2125627502802653330",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ramp Labs open-sources speculative encoding: one 2.35B MoE translates hidden states between LLMs",
+      "description": "Ramp Labs and Baseten released a translator that turns one model's per-layer hidden states into another model's KV cache, so multi-agent setups skip re-prefilling long documents; across 7 models it keeps 96.9% of base accuracy and cuts time to first token up to 7.5x at 128k tokens.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Ramp Labs (@RampLabs)",
+      "url": "https://x.com/RampLabs/status/2125627502802653330",
+      "createdAt": "2026-11-25T16:27:43Z",
+      "updatedAt": "2026-11-25T16:27:43Z",
+      "content": "One shared translator covers Qwen3 14B, Qwen3.5 9B, Llama 3.1 8B, Gemma 3 12B, Gemma 4 12B and Ministral 3 8B and 14B in all 42 directions, with an optional query-aware compressor that shrinks the cache 16x to 128x and serving through vLLM. Ramp notes a translated cache only carries what the source model understood, and readers pointed out the 96.9% figure is at the 8k training length while the 7.5x speedup uses a reduced-depth variant.\n\n[Inference code on GitHub](https://github.com/b10-tv/speculative-encoding)\n\n[Checkpoints on Hugging Face](https://huggingface.co/RampPublic/speculative-encoding)\n\n[Post on X](https://x.com/RampLabs/status/2125627502802653330)"
+    },
+    {
+      "id": "x:2125586674830959069",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SenseTime open-sources SenseNova-RoboRSI-27B, a robot agent that ran on real arms without real-robot training data",
+      "description": "The Apache 2.0 model chooses between a vision-language-action policy and writing code as policy, rejects bad trajectories and replans; SenseTime reports 34.7 on RoboDojo versus 27.6 for GPT-6 Astra, and 9/10 block stacks on a Piper X arm.",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "SenseTime (@SenseTime_AI)",
+      "url": "https://x.com/SenseTime_AI/status/2125586674830959069",
+      "createdAt": "2026-11-25T13:45:29Z",
+      "updatedAt": "2026-11-25T13:45:29Z",
+      "content": "Embodied post-training used no real-robot data, yet the same weights ran on Piper and Piper X arms after adapting camera, state and control interfaces, with 6/10 pick-and-place successes on Piper. The release follows a preview that scored 10.0 on the same benchmark, after rounds of model and harness co-evolution.\n\n[Repo on GitHub](https://github.com/OpenSenseNova/SenseNova-RoboRSI)\n\n[Model on Hugging Face](https://huggingface.co/sensenova/SenseNova-RoboRSI-27B)\n\n[Hugging Face blog post](https://huggingface.co/blog/sensenova/roborsi)\n\n[Post on X](https://x.com/SenseTime_AI/status/2125586674830959069)"
+    },
+    {
+      "id": "x:2125617058331160951",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Weight-space micromachines: Claude writes dormant 'implants' into a frozen LLM's weights",
+      "description": "Dimitris Papailiopoulos had coding agents write small modules such as a calculator, rule checkers, a mistake detector and image 'eyes' directly into Qwen3-0.6B's weights; switched on, they lift BIG-Bench Hard from 41% to 55% without RL.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Dimitris Papailiopoulos (@DimitrisPapail)",
+      "url": "https://x.com/DimitrisPapail/status/2125617058331160951",
+      "createdAt": "2026-11-25T15:46:13Z",
+      "updatedAt": "2026-11-25T15:46:13Z",
+      "content": "Implants stay off until needed, so the base model is bit-for-bit unchanged until one fires. They can also be trained along with the model: on GSM8K, RL with implants attached reached 80% versus 68% for plain RL. The work builds on the 2023 Looped Transformers as Programmable Computers paper, and code is open source.\n\n[Blog post](https://papail.io/papers/wsm/)\n\n[Code on GitHub](https://github.com/anadim/weight-space-micromachines)\n\n[Post on X](https://x.com/DimitrisPapail/status/2125617058331160951)"
+    },
+    {
+      "id": "x:2125713695233970521",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rex terminal can resume programs after a restart via a new open protocol, OSC 7577",
+      "description": "Mitchell Hashimoto's Superlogical published OSC 7577, plain terminal escape sequences that let any program tell the terminal how to resume it; Rex ships it with Claude Code support and herdr will add it next.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "Mitchell Hashimoto (@mitchellh)",
+      "url": "https://x.com/mitchellh/status/2125713695233970521",
+      "createdAt": "2026-11-25T22:10:13Z",
+      "updatedAt": "2026-11-25T22:10:13Z",
+      "content": "A program reports its argument list, owning pid, time and a hash proving it knows a terminal-supplied token; the terminal decides whether to trust and run it. Rex adds Lua-based opt-in rules by program name, path, working directory and flags, and the protocol was reviewed by several terminal and TUI authors, following the earlier OSC 7501 status protocol.\n\n[OSC 7577 specification](https://www.superlogical.com/rex/docs/build/program-resume)\n\n[Post on X](https://x.com/mitchellh/status/2125713695233970521)"
+    },
+    {
+      "id": "x:2125590327189021093",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nothing announces Ear (note), earbuds with a built-in AI notetaker, launching December 8",
+      "description": "Nothing's first step in its AI hardware plans is Ear (note), in-ear headphones that record meetings and calls and produce transcripts, summaries, pre-meeting briefs and next steps.",
+      "topics": [
+        "Wearables",
+        "Technology",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Nothing (@nothing)",
+      "url": "https://x.com/nothing/status/2125590327189021093",
+      "createdAt": "2026-11-25T14:00:00Z",
+      "updatedAt": "2026-11-25T14:00:00Z",
+      "content": "Nothing calls it its best in-ear audio to date and says the earbuds will brief you on important items before the next morning's meetings. The teaser drew about 900K views ahead of the December 8 launch.\n\n[Follow-up post with feature images](https://x.com/nothing/status/2125597879561515109)\n\n[Post on X](https://x.com/nothing/status/2125590327189021093)"
+    },
+    {
+      "id": "x:2125881234853134721",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "labelkit: a native Mac app to label, train and auto-label Create ML object detection datasets",
+      "description": "labelkit is a free, MIT-licensed macOS bounding-box annotator launched from the terminal that edits Create ML's annotations.json in place, trains a detector with Create ML and lets the model pre-label the remaining photos.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "shellbear (@_shellbear)",
+      "url": "https://x.com/_shellbear/status/2125881234853134721",
+      "createdAt": "2026-11-26T09:15:58Z",
+      "updatedAt": "2026-11-26T09:15:58Z",
+      "content": "The author built it to train an on-device playing card detector for iPhone. There are no project files, accounts or format conversion, saves are byte-stable and git-diff friendly, and filenames are never touched. The demo labels 19 photos, trains a model and auto-labels new images in 38 seconds. Requires macOS 14 or later.\n\n[labelkit on GitHub](https://github.com/shellbear/labelkit)\n\n[Post on X](https://x.com/_shellbear/status/2125881234853134721)"
+    },
+    {
+      "id": "x:2125826087129358766",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Vitalik Buterin's shallow dive into open-source chip design",
+      "description": "A long primer for software people on the chip design stack, from hardware description languages through transistor chemistry to physical layout with open tools, and what open-source really means for silicon.",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "vitalik.eth (@VitalikButerin)",
+      "url": "https://x.com/VitalikButerin/status/2125826087129358766",
+      "createdAt": "2026-11-26T05:36:49Z",
+      "updatedAt": "2026-11-26T05:36:49Z",
+      "content": "The post, reviewed by Matt Venn, explains the languages and toolchain used to design chips, how transistors and gates work physically, how silicon circuits differ from mathematical models of arithmetic and boolean circuits, and why verifiable hardware requires publishing the physical design files.\n\n[Article on vitalik.eth.limo](https://vitalik.eth.limo/general/2026/11/26/a_shallow_dive_into_open-source_chip_design.html)\n\n[Post on X](https://x.com/VitalikButerin/status/2125826087129358766)"
+    },
+    {
+      "id": "ideas:osc7577-resume-kit",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "resumekit: drop-in OSC 7577 restart support for CLI tools and coding agents",
+      "description": "For CLI and TUI authors and coding-agent harness developers: a small library plus a test harness that makes any command-line program emit valid OSC 7577 resume reports and verifies that terminals like Rex resume it correctly, so tools come back after a terminal restart without per-terminal integrations.",
+      "nextStep": "Write a 100-line Rust crate that reads the terminal's resume token from the environment, builds the OSC 7577 sequence with argv, pid, timestamp and hash per the Superlogical spec, and call it from a toy REPL to test resume in Rex.",
+      "topics": [
+        "Programming"
+      ],
+      "createdAt": "2026-11-26T13:00:00Z",
+      "content": "## How it works\n\nThe library exposes one call, report_resume(argv), that a program invokes after it saves state, for example after an editor writes a session file or an agent writes its conversation id. It reads the token the terminal supplied, hashes it as the OSC 7577 spec requires, and writes the escape sequence with the argument list, owning pid and time. Thin wrappers cover Rust, Go, Python and Node, plus a shell shim for scripts. A companion `resumekit check` command runs a program inside a pseudo-terminal, captures the reports, validates them against the spec and simulates a restart so authors can see exactly what a terminal would run.\n\n```mermaid\nflowchart LR\n  App[CLI or agent] --> Lib[report_resume call]\n  Lib --> Seq[OSC 7577 sequence]\n  Seq --> Term[Terminal such as Rex]\n  Term --> Restart[Restart and resume]\n  Check[resumekit check] --> Seq\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Core | Rust crate with a C ABI |\n| Bindings | Go module, Python package, npm package |\n| Test harness | portable-pty plus a spec validator |\n| Agent hooks | Session-start hooks for Claude Code and Codex |\n| Distribution | crates.io, PyPI, npm, Homebrew |\n\n## Hard parts\n\n- Getting the token and hashing rules exactly right as the spec evolves.\n- Deciding what state is safe to resume and never leaking secrets in argv.\n- Testing across terminals that adopt the protocol at different times.\n- Handling nested sessions inside tmux, ssh and multiplexers like herdr.\n\n## Effort\n\nA weekend for the Rust core and validator; two weeks for bindings, agent hooks and docs.\n\n## Inspired by\n\n- [Mitchell Hashimoto's OSC 7577 post on X](https://x.com/mitchellh/status/2125713695233970521)\n- [OSC 7577 specification](https://www.superlogical.com/rex/docs/build/program-resume)\n- [herdr's announcement on X](https://x.com/herdrdev/status/2125720826984935731)"
+    },
+    {
+      "id": "ideas:read-once-agent-swarm",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Read-once swarm: let one local model read the repo and hand its KV cache to agents of other model families",
+      "description": "A local relay for multi-agent setups that has one model read a long document or codebase once, then uses speculative encoding to give every other agent, even from a different model family, a ready KV cache instead of re-prefilling the same context.",
+      "nextStep": "Run the b10-tv/speculative-encoding quick start with Qwen3 14B as source and Llama 3.1 8B as target on one long design doc, and compare time to first token and answer quality against plain prefill.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "createdAt": "2026-11-26T13:00:00Z",
+      "content": "## How it works\n\nA reader model ingests the shared context once and stores its per-layer hidden states. When a worker agent starts a task, the relay translates those states into the worker model's KV cache, optionally compressed for the worker's question, and injects it into vLLM so the worker begins already primed. A small benchmark mode measures accuracy retention and latency per model pair so you only use translation where it holds up.\n\n```mermaid\nflowchart LR\n  Docs[Repo or long doc] --> Reader[Reader model]\n  Reader --> States[Hidden states store]\n  States --> Trans[Speculative encoding translator]\n  Trans --> CacheA[Worker A KV cache]\n  Trans --> CacheB[Worker B KV cache]\n  CacheA --> vLLM[vLLM workers]\n  CacheB --> vLLM\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Translator | RampPublic/speculative-encoding checkpoints |\n| Serving | vLLM with cache injection |\n| Relay | Python FastAPI service |\n| Storage | Local safetensors cache keyed by content hash |\n| Eval | Small QA set built from the target repo |\n\n## Hard parts\n\n- Only seven supported models today, so worker choice is limited.\n- Accuracy drops on very long contexts and reduced-depth settings.\n- Invalidating cached states when files change.\n- GPU memory for holding several models and the translator at once.\n\n## Effort\n\nA few days for a single-pair prototype; two to three weeks for a multi-worker relay with evals.\n\n## Inspired by\n\n- [Ramp Labs speculative encoding post on X](https://x.com/RampLabs/status/2125627502802653330)\n- [Inference code on GitHub](https://github.com/b10-tv/speculative-encoding)"
+    },
+    {
       "id": "hn:50501594",
       "section": "news",
       "type": "news",
