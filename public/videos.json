@@ -2,6 +2,109 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:reading-abakcus-best-calculus-books",
+      "feedId": "reading:abakcus-best-calculus-books",
+      "title": "The 25 Best Calculus Books to Learn Calculus, in Reading Order",
+      "source": "Reading",
+      "topics": [
+        "Math"
+      ],
+      "url": "https://abakcus.com/book-lists/best-calculus-books",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9ca77d3ac7fbc631ceb87e2a25554af50440fdcb/reading-abakcus-best-calculus-books.mp4",
+      "poster": "media/videos/reading-abakcus-best-calculus-books.jpg",
+      "captions": "media/videos/reading-abakcus-best-calculus-books.vtt",
+      "duration": 33.31,
+      "transcript": "The 25 Best Calculus Books to Learn Calculus From the 1910 classic that promises any fool can do it to the textbook that makes you prove every line: 25 calculus books sorted by what you need from them. In a hurry Before the books Step I Books 01-05 Five books with almost no prerequisites. Step III Books 11-14 Nobody learns calculus by reading. There are hundreds of calculus textbooks in print, most of them weigh as much as a brick. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:10:25Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50651430",
+      "feedId": "hn:50651430",
+      "title": "NormalScript: A perfectly normal scripting language",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://psychoscript.com/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@ea58b4c6a9dad63ed1014006fd0e0eb24bdfdcaa/hn-50651430.mp4",
+      "poster": "media/videos/hn-50651430.jpg",
+      "captions": "media/videos/hn-50651430.vtt",
+      "duration": 50.85,
+      "transcript": "NormalScript: A perfectly normal scripting language NormalScript is a perfectly normal scripting language, a playful new language project. WASM modules, native addons, or workers to wire up 1. Trusted by more than 400 normal organizations Node 24 or Bun 1.4 MIT licensed 0. Call to run a script: runtime.execute 19,408 test262 files passing; 2,845 skipped as known gaps, 0 failing. Pass external capabilities in as host functionsexport: import and require only bind host globalseval, Proxy, Reflect, private members, ArrayBuffer or TypeScript syntax Enterprise scripting solutions. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:09:52Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50653477",
+      "feedId": "hn:50653477",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@28ca2a67a0b6cd9d7c89ece9036666bbeba3d552/hn-50653477.mp4",
+      "poster": "media/videos/hn-50653477.jpg",
+      "captions": "media/videos/hn-50653477.vtt",
+      "duration": 36.26,
+      "transcript": "Google Will Make AI Agents Use Its MCP Servers. Google is moving its Workspace AI agents onto its own MCP servers, with one catch: the Gmail agent can't send email. On 24 November, Google made its eight Workspace MCP servers generally available and published a new clause in its API terms. From 1 February 2027, any tool that \"is or is driven by an AI Agent\" must reach Gmail, Drive, Calendar and the rest of Workspace through those servers. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:09:02Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50654289",
+      "feedId": "hn:50654289",
+      "title": "Nextcloud Office Desktop app",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@ba16e017bf8205ee48980759cc12dc2de0de65da/hn-50654289.mp4",
+      "poster": "media/videos/hn-50654289.jpg",
+      "captions": "media/videos/hn-50654289.vtt",
+      "duration": 37.77,
+      "transcript": "Nextcloud Office Desktop app Nextcloud has shipped a desktop app for Nextcloud Office, bringing its collaborative document editing suite to the desktop. On June 9, 2026, we released the first production-ready version of Euro-Office, a sovereign collaborative office suite developed and governed in Europe. With the Nextcloud Office Desktop app, you can edit files locally without an internet connection. In this article, you’ll learn about the app’s features, how to install it on Windows, macOS and Linux, and how to co-edit files with your team through Nextcloud Hub. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:08:29Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50657070",
+      "feedId": "hn:50657070",
+      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://github.com/rxliuli/sim-drop",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@06662df13cf670a5701746dec58c9058795840ac/hn-50657070.mp4",
+      "poster": "media/videos/hn-50657070.jpg",
+      "captions": "media/videos/hn-50657070.vtt",
+      "duration": 33.14,
+      "transcript": "SimDrop - Running iOS simulators in the macOS Finder sidebar Shows running iOS simulators in the Finder sidebar so you can drag files in and out of them. SimDrop isn't on the Mac App Store and can't be: the app and its helper must run unsandboxed to drive simctl and the simulators' folders. Replacing the app makes macOS drop its Finder extension and stop the background helper. launchd refuses to start a helper whose recorded launch constraint came from the old copy. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:07:49Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50660180",
+      "feedId": "hn:50660180",
+      "title": "AI made self-hosting fun again",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@6eea9caa4d3bf6e115b3467b4e7eaaa080c558e3/hn-50660180.mp4",
+      "poster": "media/videos/hn-50660180.jpg",
+      "captions": "media/videos/hn-50660180.vtt",
+      "duration": 31.67,
+      "transcript": "AI made self-hosting fun again A look at how AI assistance has made self-hosting fun again. I never really stopped self-hosting, but I became less inclined to experiment with new things. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. Over the last few months, however, I’ve found myself getting increasingly excited about self-hosting again. Maintaining what I already had running was enough for me. Full story on the dashboard.",
+      "createdAt": "2026-11-26T23:07:16Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50624446",
       "feedId": "hn:50624446",
       "title": "Porting Rockbox to an undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",

@@ -1,0 +1,20 @@
+{
+  "hook": "SimDrop - Running iOS simulators in the macOS Finder sidebar",
+  "hookText": "SimDrop - Running iOS simulators in the macOS Finder sidebar",
+  "beats": [
+    {
+      "say": "Shows running iOS simulators in the Finder sidebar so you can drag files in and out of them.",
+      "visual": 1
+    },
+    {
+      "say": "SimDrop isn't on the Mac App Store and can't be: the app and its helper must run unsandboxed to drive simctl and the simulators' folders.",
+      "visual": 2
+    },
+    {
+      "say": "Replacing the app makes macOS drop its Finder extension and stop the background helper. launchd refuses to start a helper whose recorded launch constraint came from the old copy.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

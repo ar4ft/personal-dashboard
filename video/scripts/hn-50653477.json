@@ -1,0 +1,20 @@
+{
+  "hook": "Google Will Make AI Agents Use Its MCP Servers.",
+  "hookText": "Google Will Make AI Agents Use Its MCP Servers.",
+  "beats": [
+    {
+      "say": "Google is moving its Workspace AI agents onto its own MCP servers, with one catch: the Gmail agent can't send email.",
+      "visual": 1
+    },
+    {
+      "say": "On 24 November, Google made its eight Workspace MCP servers generally available and published a new clause in its API terms.",
+      "visual": 2
+    },
+    {
+      "say": "From 1 February 2027, any tool that \"is or is driven by an AI Agent\" must reach Gmail, Drive, Calendar and the rest of Workspace through those servers.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

@@ -1,0 +1,22 @@
+{
+  "hook": "NormalScript: A perfectly normal scripting language",
+  "hookText": "NormalScript: A perfectly normal scripting language",
+  "beats": [
+    {
+      "say": "NormalScript is a perfectly normal scripting language, a playful new language project. WASM modules, native addons, or workers to wire up 1.",
+      "visual": 1
+    },
+    {
+      "say": "Trusted by more than 400 normal organizations · Node ≥ 24 or Bun ≥ 1.4 · MIT licensed 0.",
+      "visual": 2
+    },
+    {
+      "say": "Call to run a script: runtime.execute 19,408 test262 files passing; 2,845 skipped as known gaps, 0 failing. Pass external capabilities in as host functionsexport: import and require only bind host globalseval, Proxy, Reflect, private members, ArrayBuffer or TypeScript syntax Enterprise scripting solutions.",
+      "visual": 3,
+      "stat": "19,408",
+      "statLabel": "test262 files passing"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

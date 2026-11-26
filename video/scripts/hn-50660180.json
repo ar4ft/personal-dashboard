@@ -1,0 +1,20 @@
+{
+  "hook": "AI made self-hosting fun again",
+  "hookText": "AI made self-hosting fun again",
+  "beats": [
+    {
+      "say": "A look at how AI assistance has made self-hosting fun again. I never really stopped self-hosting, but I became less inclined to experiment with new things.",
+      "visual": 1
+    },
+    {
+      "say": "There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure.",
+      "visual": 0
+    },
+    {
+      "say": "Over the last few months, however, I’ve found myself getting increasingly excited about self-hosting again. Maintaining what I already had running was enough for me.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
