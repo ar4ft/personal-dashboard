@@ -1,0 +1,21 @@
+{
+  "hook": "Nvidia halted chip shipments to Southeast Asia.",
+  "hookText": "Nvidia halts shipments to Southeast Asia",
+  "beats": [
+    {
+      "say": "Nvidia has told its manufacturing partners to stop shipping servers to four south-east Asian countries, as the US steps up export controls on AI computing power.",
+      "visual": 0,
+      "stat": "4",
+      "statLabel": "countries halted"
+    },
+    {
+      "say": "Partners such as Dell and Supermicro, which package Nvidia's chips into servers, told buyers in Malaysia, Singapore, Thailand and Indonesia that their orders will not ship.",
+      "visual": 0
+    },
+    {
+      "say": "It is unclear whether the halt is temporary. The move comes as the US tries to prevent Chinese access to AI computing power, three people with knowledge of the matter say.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

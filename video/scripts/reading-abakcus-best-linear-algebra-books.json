@@ -1,0 +1,21 @@
+{
+  "hook": "Twenty-three linear algebra books, in reading order.",
+  "hookText": "23 linear algebra books in order",
+  "beats": [
+    {
+      "say": "Linear algebra is the mathematics of arrows and grids of numbers, of vectors and matrices, and the list calls it the most widely used mathematics there is.",
+      "visual": 0
+    },
+    {
+      "say": "A search engine ranks pages by finding one special vector of an enormous matrix, and every layer of a neural network is linear algebra too.",
+      "visual": 1
+    },
+    {
+      "say": "The twenty-three books come in five steps, from a first course to the books behind machine learning and scientific computing, and four of them are free.",
+      "visual": 2,
+      "stat": "23",
+      "statLabel": "books in five steps"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

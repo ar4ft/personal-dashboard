@@ -1,0 +1,21 @@
+{
+  "hook": "The Times told photographers: skip the Photoshop update.",
+  "hookText": "NYT bans new Photoshop for photographers",
+  "beats": [
+    {
+      "say": "The New York Times is asking freelance photographers not to install Photoshop 2027, because its new AI features work in ways that may not be apparent to users.",
+      "visual": 0,
+      "stat": "28.0",
+      "statLabel": "Photoshop release to avoid"
+    },
+    {
+      "say": "The worry is metadata. The update can tag photos as AI-generated, even after routine edits, and for a newsroom that keeps editing minimal, that risks readers' trust.",
+      "visual": 1
+    },
+    {
+      "say": "Adobe's November update adds an AI Assisted Editor view, an editing assistant, prompt-based transforms, new upscaling, and a tool that recomposes images for different canvas sizes.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,19 @@
+{
+  "hook": "She stole a jet in GTA 6 with her brain.",
+  "hookText": "Stealing a jet with her brain",
+  "beats": [
+    {
+      "say": "Streamer Perrikaryal flew off with a jet in GTA 6 using EEG commands and eye tracking, after ages of practice. The clip looks like mind reading.",
+      "visual": 0
+    },
+    {
+      "say": "The real story is quieter. The headset does not read thoughts; it reads brain signals and eye movements, and the clip does not show the practice behind it.",
+      "visual": 0
+    },
+    {
+      "say": "The article asks why this matters beyond one streamer, and what the clip leaves out about how the headset really works.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

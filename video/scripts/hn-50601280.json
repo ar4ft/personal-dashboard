@@ -1,0 +1,21 @@
+{
+  "hook": "GPT-6.2 Astra beat Google's code golf records.",
+  "hookText": "Astra tops Google's code golf records",
+  "beats": [
+    {
+      "say": "The benchmark revives 32 problems from a code golf contest played at Google in 2015, across eight languages, with each model given 30 minutes per problem.",
+      "visual": 0,
+      "stat": "32",
+      "statLabel": "problems from 2015"
+    },
+    {
+      "say": "Models are scored on byte counts, not just whether the code works. A solution ten percent longer scores 82.6 percent, and one twice as long scores 25 percent.",
+      "visual": 0
+    },
+    {
+      "say": "GPT-6.2 Astra is the first model to beat the records set by Google's own code golfers, more than a decade after the contest.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

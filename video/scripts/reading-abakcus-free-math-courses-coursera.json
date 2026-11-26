@@ -1,0 +1,21 @@
+{
+  "hook": "Twenty-six free math courses on Coursera worth taking.",
+  "hookText": "26 free Coursera math courses",
+  "beats": [
+    {
+      "say": "The list gathers twenty-six free math courses on Coursera, starting with Stanford's Introduction to Mathematical Thinking, taught by Keith Devlin.",
+      "visual": 0,
+      "stat": "26",
+      "statLabel": "free math courses"
+    },
+    {
+      "say": "School mathematics asks you to follow procedures, Devlin says. University mathematics asks you to understand why they work, and to say so precisely.",
+      "visual": 1
+    },
+    {
+      "say": "The course covers the logic hidden in ordinary sentences, the meaning of for all and there exists, and the first real proofs, which you write yourself and grade against other learners.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

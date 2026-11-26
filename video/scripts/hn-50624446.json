@@ -1,0 +1,23 @@
+{
+  "hook": "Claude ported Rockbox to a nine-dollar MP3 player.",
+  "hookText": "Rockbox on a nine-dollar player",
+  "beats": [
+    {
+      "say": "The player is an unbranded nine-dollar MP3 player from AliExpress, with just 512 kilobytes of memory and no documentation. The author paid nine dollars and seventy-one cents, shipped.",
+      "visual": 0,
+      "stat": "512 KiB",
+      "statLabel": "of memory"
+    },
+    {
+      "say": "With the help of large language models, Rockbox now runs on it, and the author says he was barely involved. The port produced a reusable toolkit for future ports.",
+      "visual": 1
+    },
+    {
+      "say": "To prove the toolkit works, Claude ported Rockbox to a second player, the TS47, in four hours.",
+      "visual": 2,
+      "stat": "4 hours",
+      "statLabel": "to port a second player"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

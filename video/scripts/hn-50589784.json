@@ -1,0 +1,19 @@
+{
+  "hook": "SSH is a GUI framework, not just a shell.",
+  "hookText": "SSH as a GUI framework",
+  "beats": [
+    {
+      "say": "SSH is a multiplexed, encrypted byte stream, and modern terminal protocols have added graphics, clipboard sharing, notifications, and mouse support on top of it.",
+      "visual": 0
+    },
+    {
+      "say": "The Kitty Graphics Protocol, which superseded Sixel and the iTerm2 protocol, adds compression, client-side graphics state, and even animations, entirely in the terminal.",
+      "visual": 1
+    },
+    {
+      "say": "To show how far it goes, the author built a microVM with a desktop environment designed to render natively over SSH, and you can try it with no sign-up.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

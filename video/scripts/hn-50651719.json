@@ -1,0 +1,21 @@
+{
+  "hook": "Students photocopied this Unix book for twenty years.",
+  "hookText": "The Unix book students photocopied",
+  "beats": [
+    {
+      "say": "John Lions wrote a commentary on the Unix Version 6 source code, and by 1977 his notes were circulating among schools and research institutions with Unix licenses.",
+      "visual": 0
+    },
+    {
+      "say": "Even Bell Labs wanted copies, and eventually took over distribution. But for roughly twenty years before the official edition appeared, students studied from unauthorized photocopies.",
+      "visual": 1,
+      "stat": "20 years",
+      "statLabel": "of photocopied copies"
+    },
+    {
+      "say": "The book helped a generation of students learn to build operating systems of their own, and the official edition finally appeared in 1996.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

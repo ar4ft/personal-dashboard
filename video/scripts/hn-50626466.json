@@ -1,0 +1,19 @@
+{
+  "hook": "Anthropic proved VP is not VNP.",
+  "hookText": "What VP is not VNP means",
+  "beats": [
+    {
+      "say": "You know the determinant from linear algebra class. Using only addition and multiplication, it can still be computed in polynomial time, for example with Gaussian elimination.",
+      "visual": 0
+    },
+    {
+      "say": "The permanent is like a determinant without any subtraction, and no known method computes it in polynomial time. For a matrix of zeros and ones, it is NP-hard.",
+      "visual": 0
+    },
+    {
+      "say": "Anthropic's proof says no polynomial-size arithmetic circuit can compute it. So for P to equal NP, some trick with AND, OR and NOT would have to beat addition and multiplication.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

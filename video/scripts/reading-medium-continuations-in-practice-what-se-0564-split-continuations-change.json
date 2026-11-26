@@ -1,0 +1,19 @@
+{
+  "hook": "Swift continuations hide the nastiest concurrency bugs.",
+  "hookText": "The concurrency bugs in continuations",
+  "beats": [
+    {
+      "say": "Most iOS codebases still have callback APIs at their edges: an analytics SDK, a Bluetooth stack, a payment library, or an old networking layer nobody wants to rewrite.",
+      "visual": 0
+    },
+    {
+      "say": "Continuations are how those APIs become async functions. The conversion looks trivial, but it is where the author has seen the most subtle concurrency bugs.",
+      "visual": 0
+    },
+    {
+      "say": "The bugs are tasks that hang forever and sudden crashes, including the double resume problem, which the article fixes by taking the continuation under a lock.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

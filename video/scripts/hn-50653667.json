@@ -1,0 +1,21 @@
+{
+  "hook": "Intel built a monospace font with low-vision developers.",
+  "hookText": "Intel One Mono, built for legibility",
+  "beats": [
+    {
+      "say": "Intel One Mono is an expressive monospaced font built for clarity and legibility, and it is free with an open-source license. Frere-Jones Type designed it with Intel's brand team.",
+      "visual": 0
+    },
+    {
+      "say": "It was designed for developers with low vision, and a panel of low-vision and legally blind developers gave feedback at every stage, to cut fatigue, eyestrain and coding errors.",
+      "visual": 1
+    },
+    {
+      "say": "It covers over 200 languages using the Latin script, and comes in four weights, Light, Regular, Medium and Bold, each with matching italics.",
+      "visual": 0,
+      "stat": "200+",
+      "statLabel": "Latin-script languages"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

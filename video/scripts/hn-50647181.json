@@ -1,0 +1,21 @@
+{
+  "hook": "Nine days on, Ubuntu still had no fix.",
+  "hookText": "Ubuntu's slow security response",
+  "beats": [
+    {
+      "say": "On November 16th, details of NoisyTCP, a remote memory corruption flaw in the Linux kernel's TCP stack, were published. Nine days later, Ubuntu had not published a fix.",
+      "visual": 0,
+      "stat": "9 days",
+      "statLabel": "without an Ubuntu fix"
+    },
+    {
+      "say": "Other distributions had a fix ready when the details were published, and a KVM host escape affecting AMD virtualization, disclosed November 18th, had no Ubuntu fix.",
+      "visual": 0
+    },
+    {
+      "say": "The author argues remote kernel flaws need updates within hours, not days or weeks, and notes Ubuntu backports patches to an older kernel instead of tracking long-term releases.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
