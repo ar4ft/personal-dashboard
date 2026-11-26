@@ -2,6 +2,221 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2125586674830959069",
+      "feedId": "x:2125586674830959069",
+      "title": "SenseTime open-sources SenseNova-RoboRSI-27B, a robot agent that ran on real arms without real-robot training data",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI",
+        "Technology"
+      ],
+      "url": "https://x.com/SenseTime_AI/status/2125586674830959069",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@cdd772e1eb20196e5274663065d831494d491889/x-2125586674830959069.mp4",
+      "poster": "media/videos/x-2125586674830959069.jpg",
+      "captions": "media/videos/x-2125586674830959069.vtt",
+      "duration": 39.21,
+      "transcript": "A robot brain trained only in simulation SenseTime released SenseNova RoboRSI 27B, a robot agent model, with open weights under Apache 2.0. With no real robot data in embodied post training, the same weights ran on two physical arms, and stacked blocks on a Piper X in nine of ten trials. It chooses between a vision language action policy and writing code, rejects bad trajectories and replans. SenseTime reports a RoboDojo score of 34.7 against 27.6 for GPT-6 Astra. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:25:12Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125627502802653330",
+      "feedId": "x:2125627502802653330",
+      "title": "Ramp Labs open-sources speculative encoding: one 2.35B MoE translates hidden states between LLMs",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/RampLabs/status/2125627502802653330",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7f6694d54e5fb9e1efae80e56ae09dcb7d1d7083/x-2125627502802653330.mp4",
+      "poster": "media/videos/x-2125627502802653330.jpg",
+      "captions": "media/videos/x-2125627502802653330.vtt",
+      "duration": 36.14,
+      "transcript": "What if AI agents never re-read context? Ramp Labs introduced speculative encoding, a single 2.35 billion parameter mixture of experts model that translates between different models' hidden states. One model reads a long document once, and the translator hands its understanding to other models, so multi-agent swarms skip reading the same context again. Across seven models it keeps 96.9 percent of base accuracy and cuts prefill latency by up to seven and a half times on long documents. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:24:30Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50646357",
+      "feedId": "hn:50646357",
+      "title": "Anthropic migrated its Messages API from Python to Rust by turning production into the verifier",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c8df53ebc2c3ae707d9ee236cc232bff150798d9/hn-50646357.mp4",
+      "poster": "media/videos/hn-50646357.jpg",
+      "captions": "media/videos/hn-50646357.vtt",
+      "duration": 36.02,
+      "transcript": "Claude moved Anthropic's API from Python to Rust Anthropic migrated its Messages API from Python to Rust after traffic grew roughly 1,800 times from early 2024 to fall 2026. The Rust version passed about 98 percent of tests in April, yet only a quarter of inputs matched on production traffic, so agents chased down the differences. The result uses about 70 percent less CPU per request and cuts median time to first token by about 20 percent, with no downtime. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:23:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50647219",
+      "feedId": "hn:50647219",
+      "title": "Show HN: openfal, local image and video generation behind a fal-compatible API",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://openfal.org",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@642103b45dd9b473a0a3a0014d9ebaa3cfa25d69/hn-50647219.mp4",
+      "poster": "media/videos/hn-50647219.jpg",
+      "captions": "media/videos/hn-50647219.vtt",
+      "duration": 35.95,
+      "transcript": "Local image and video generation, one CLI openfal is an open source server that runs Qwen Image 2.1, Wan 2.2 and MiniMax H3 on your own Windows, Linux or Mac machine. Three commands detect your GPU, install the smallest image setup at about 16 gigabytes, and serve an API with a Studio interface. It mimics fal's routes, queues and Python SDK, so apps built for the hosted service can point at your own box instead, no ComfyUI graphs needed. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:22:29Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125713695233970521",
+      "feedId": "x:2125713695233970521",
+      "title": "Rex terminal can resume programs after a restart via a new open protocol, OSC 7577",
+      "source": "Twitter / X",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://x.com/mitchellh/status/2125713695233970521",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@7578246755d772278f1c3f110c930dfcdca102a8/x-2125713695233970521.mp4",
+      "poster": "media/videos/x-2125713695233970521.jpg",
+      "captions": "media/videos/x-2125713695233970521.vtt",
+      "duration": 33.83,
+      "transcript": "Your terminal programs can survive a restart Mitchell Hashimoto's Rex terminal can now resume your programs after a server restart, and his company Superlogical published the protocol behind it today. It's built on a brand new open terminal protocol, OSC 7577, made with herdr and reviewed by several terminal emulator and program authors. Any program can report how to resume using plain escape sequences, Rex ships with Claude Code support, and herdr plans to add it next. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:21:21Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50648365",
+      "feedId": "hn:50648365",
+      "title": "Bare Metal Qwen: a 24 KB assembly OS that boots straight into a Qwen3-0.6B chat",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f129cc01fb2cf885a5c799de3c87c3e2393da64a/hn-50648365.mp4",
+      "poster": "media/videos/hn-50648365.jpg",
+      "captions": "media/videos/hn-50648365.vtt",
+      "duration": 36.81,
+      "transcript": "A whole AI chat OS in 24 kilobytes A developer wrote a bootable x86 operating system in pure assembly that runs the Qwen3 0.6B model, with no Linux, no C and no libc. It cold boots to an interactive multi-turn chat in 74 to 94 milliseconds, with the model mapped straight from RAM on huge pages. Under KVM on a sixteen core EPYC it decodes about 135 tokens per second, and it even runs live on a diskless Proxmox virtual machine. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:20:41Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50649834",
+      "feedId": "hn:50649834",
+      "title": "Marcin Wichary's collection of 69 preserved UI style guides, from the 1980s to today",
+      "source": "Hacker News",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "url": "https://aresluna.org/ui-style-guides/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@af0530da1cddeb7d23f5c6646be5ff36ef56f4a1/hn-50649834.mp4",
+      "poster": "media/videos/hn-50649834.jpg",
+      "captions": "media/videos/hn-50649834.vtt",
+      "duration": 40.63,
+      "transcript": "Forty years of UI rulebooks in one place Marcin Wichary has collected preserved UI style guides from companies starting in the early 1980s and continuing to today, with PDFs, mirrors and Wayback Machine links for each one. It spans the Amiga Workbench, BlackBerry handhelds, Motif and CDE on Unix, and IBM's Common User Access, which influenced Windows and OS/2. The first Android guide he could locate dates from 2012. You'll also find NeXTSTEP and OpenStep guidelines, Apple's Newton, and every edition of Material Design for Android. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:20:01Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125779541952246039",
+      "feedId": "x:2125779541952246039",
+      "title": "Karpathy had Claude turn 31 US public datasets into a Civilization-style strategy map in 7 hours",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/karpathy/status/2125779541952246039",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@44cdb2833e60b4c398bcda988c441b410e2c6346/x-2125779541952246039.mp4",
+      "poster": "media/videos/x-2125779541952246039.jpg",
+      "captions": "media/videos/x-2125779541952246039.vtt",
+      "duration": 36.74,
+      "transcript": "Karpathy turned US data into a Civ map Andrej Karpathy asked Claude to fill a Civilization style game map with real United States data, and let Opus 5.5 download and parse it. Seven hours and 45 thousand lines of code later it worked, pulling 31 data sources including the Census, NOAA and USGS onto a 25 kilometer hex grid. Built with Claude Code, the result has 19 interactive lenses, city views for 524 metros, and an explorer for county level data. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:19:21Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50650892",
+      "feedId": "hn:50650892",
+      "title": "minipg: PostgreSQL as a single executable, with a .pgdb directory as the database",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://progrium.github.io/minipg/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@d4a048962a22762087b0c83fca1647722cba7752/hn-50650892.mp4",
+      "poster": "media/videos/hn-50650892.jpg",
+      "captions": "media/videos/hn-50650892.vtt",
+      "duration": 36.33,
+      "transcript": "Postgres in one file, no Docker needed minipg packages PostgreSQL as a single executable. A dot pgdb folder holds the data, config, credentials and Postgres version. It embeds the official Postgres eighteen Alpine image and runs it through h9, a Zig library whose Plan 9 kernel answers the system calls, so no Linux kernel boots. Tools like psql start in their own tiny machine in about 90 milliseconds, though Postgres runs about two times slower than native for one client. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:18:29Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50651158",
+      "feedId": "hn:50651158",
+      "title": "Chips and Cheese: Qualcomm's Oryon 3 reaches the top",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2e7f5baff6b175e4c9b36c4479b32ea0487fb094/hn-50651158.mp4",
+      "poster": "media/videos/hn-50651158.jpg",
+      "captions": "media/videos/hn-50651158.vtt",
+      "duration": 39.07,
+      "transcript": "Qualcomm's laptop CPU now rivals x86 Chips and Cheese dug into Oryon 3, the core behind the Snapdragon X2 Elite, which can challenge the best x86 chips on CPU performance. Qualcomm uses twice as many performance cores as efficiency cores, the inverse of Intel's hybrid approach. The core sustains about four NOPs per cycle from L2, double Oryon 1, and its L1 data TLB grew from 224 to 256 entries, covering a full megabyte with 4 KB pages. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:17:52Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125826087129358766",
+      "feedId": "x:2125826087129358766",
+      "title": "Vitalik Buterin's shallow dive into open-source chip design",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://x.com/VitalikButerin/status/2125826087129358766",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@183a1a548a988464eea9aed9aa2c89986f47298c/x-2125826087129358766.mp4",
+      "poster": "media/videos/x-2125826087129358766.jpg",
+      "captions": "media/videos/x-2125826087129358766.vtt",
+      "duration": 37.99,
+      "transcript": "How chips are really designed, in the open Vitalik Buterin wrote a primer on open source chip design for people used to a pure software view of computing, with review from Matt Venn. Like software, hardware is written in high level languages, then compiled into progressively lower levels. His example circuit simply multiplies a state by three on every clock tick. At the bottom, layouts say exactly which layer gets which rectangle, and process names like 180 or 130 refer to nanometers of transistor gate length. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:16:30Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125881234853134721",
+      "feedId": "x:2125881234853134721",
+      "title": "labelkit: a native Mac app to label, train and auto-label Create ML object detection datasets",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/_shellbear/status/2125881234853134721",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@ebd661653e89f1a2c04215202d981fd74685f249/x-2125881234853134721.mp4",
+      "poster": "media/videos/x-2125881234853134721.jpg",
+      "captions": "media/videos/x-2125881234853134721.vtt",
+      "duration": 33.95,
+      "transcript": "Label, train and auto-label on your Mac A developer needed an on-device model to detect playing cards on iPhone, so he built labelkit, a free native Mac app. You draw boxes fast, train with Create ML, then let the model label the rest. The demo goes from labels to auto labeling in 38 seconds. Saves are byte stable for clean git diffs, tens of thousands of images open instantly, and a ten thousand image dataset idles at around 20 megabytes of memory. Full story on the dashboard.",
+      "createdAt": "2026-11-26T13:15:51Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2125590327189021093",
       "feedId": "x:2125590327189021093",
       "title": "Nothing announces Ear (note), earbuds with a built-in AI notetaker, launching December 8",

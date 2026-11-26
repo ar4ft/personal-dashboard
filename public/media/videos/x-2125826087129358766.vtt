@@ -1,100 +1,106 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.906
-Vitalik Buterin's shallow
+00:00:00.350 --> 00:00:01.269
+How chips are
 
-00:00:01.718 --> 00:00:03.250
-dive into open-source
+00:00:01.081 --> 00:00:02.331
+really designed in
 
-00:00:03.062 --> 00:00:03.993
-chip design
+00:00:02.142 --> 00:00:02.838
+the open
 
-00:00:04.518 --> 00:00:05.579
-A long primer
+00:00:03.366 --> 00:00:04.910
+Vitalik Buterin wrote
 
-00:00:05.391 --> 00:00:06.510
-for software people
+00:00:04.722 --> 00:00:05.653
+a primer on
 
-00:00:06.322 --> 00:00:06.994
-on the chip
+00:00:05.465 --> 00:00:06.467
+open source chip
 
-00:00:06.806 --> 00:00:07.808
-design stack
+00:00:06.279 --> 00:00:07.410
+design for people
 
-00:00:07.914 --> 00:00:09.270
-from hardware description
+00:00:07.222 --> 00:00:07.929
+used to a
 
-00:00:09.082 --> 00:00:10.720
-languages through transistor
+00:00:07.741 --> 00:00:08.990
+pure software view
 
-00:00:10.532 --> 00:00:11.888
-chemistry to physical
+00:00:08.802 --> 00:00:09.675
+of computing
 
-00:00:11.700 --> 00:00:12.760
-layout with open
+00:00:09.816 --> 00:00:10.877
+with review from
 
-00:00:12.572 --> 00:00:13.220
-tools
+00:00:10.689 --> 00:00:11.538
+Matt Venn
 
-00:00:13.315 --> 00:00:14.647
-and what open-source
+00:00:12.070 --> 00:00:13.154
+Like software
 
-00:00:14.459 --> 00:00:15.449
-really means for
+00:00:13.308 --> 00:00:14.475
+hardware is written
 
-00:00:15.261 --> 00:00:15.992
-silicon
+00:00:14.287 --> 00:00:15.112
+in high level
 
-00:00:16.510 --> 00:00:17.736
-The post reviewed
+00:00:14.924 --> 00:00:15.666
+languages
 
-00:00:17.548 --> 00:00:18.479
-by Matt Venn
+00:00:15.785 --> 00:00:16.928
+then compiled into
 
-00:00:18.574 --> 00:00:20.012
-explains the languages
+00:00:16.740 --> 00:00:17.907
+progressively lower
 
-00:00:19.824 --> 00:00:21.002
-and toolchain used
+00:00:17.719 --> 00:00:18.426
+levels
 
-00:00:20.814 --> 00:00:21.816
-to design chips
+00:00:18.565 --> 00:00:19.803
+His example circuit
 
-00:00:21.970 --> 00:00:23.172
-how transistors and
+00:00:19.614 --> 00:00:20.805
+simply multiplies a
 
-00:00:22.984 --> 00:00:24.281
-gates work physically
+00:00:20.617 --> 00:00:21.795
+state by three
 
-00:00:24.806 --> 00:00:26.515
-The numbers 180
+00:00:21.607 --> 00:00:22.786
+on every clock
 
-00:00:26.775 --> 00:00:28.921
-130 and 55
+00:00:22.598 --> 00:00:23.140
+tick
 
-00:00:28.733 --> 00:00:29.770
-here theoretically
+00:00:23.678 --> 00:00:24.562
+At the bottom
 
-00:00:29.582 --> 00:00:30.855
-refer to nanometers
+00:00:24.798 --> 00:00:26.119
+layouts say exactly
 
-00:00:31.091 --> 00:00:32.471
-specifically the minimum
+00:00:25.930 --> 00:00:26.932
+which layer gets
 
-00:00:32.282 --> 00:00:33.037
-gate length of
+00:00:26.744 --> 00:00:27.852
+which rectangle
 
-00:00:32.848 --> 00:00:33.968
-a transistor that
+00:00:28.018 --> 00:00:29.314
+and process names
 
-00:00:33.780 --> 00:00:34.829
-the process can
+00:00:29.126 --> 00:00:30.942
+like 180 or
 
-00:00:34.641 --> 00:00:35.419
-produce
+00:00:30.753 --> 00:00:32.498
+130 refer to
 
-00:00:35.958 --> 00:00:36.972
+00:00:32.310 --> 00:00:33.961
+nanometers of transistor
+
+00:00:33.772 --> 00:00:34.703
+gate length
+
+00:00:35.238 --> 00:00:36.252
 Full story on
 
-00:00:36.783 --> 00:00:37.679
+00:00:36.063 --> 00:00:36.959
 the dashboard
