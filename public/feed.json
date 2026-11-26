@@ -55274,6 +55274,232 @@
       "createdAt": "2026-11-25T16:00:00Z",
       "updatedAt": "2026-11-25T16:00:00Z",
       "content": "Amazon and Meta may agree on allowing AI agents to shop on their platforms, which could change how holiday shopping works.\n\n[Read the article](https://www.inc.com/kit-eaton/amazon-meta-ai-agents-future-shopping-technology/91443060)"
+    },
+    {
+      "id": "hn:50647673",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "description": "The New York Times has warned its photographers not to update Photoshop, citing concerns over its AI features.",
+      "content": "The New York Times has warned its photographers not to update Photoshop, citing concerns over its AI features.\n\n[Read the article](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features)\n\n[HN discussion](https://news.ycombinator.com/item?id=50647673)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "rmason",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "createdAt": "2026-11-25T21:18:02Z",
+      "updatedAt": "2026-11-25T21:18:02Z"
+    },
+    {
+      "id": "hn:50601280",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "description": "GPT-6.2 Astra is the first model to beat the code golf records set by Google engineers, according to a benchmark leaderboard.",
+      "content": "GPT-6.2 Astra is the first model to beat the code golf records set by Google engineers, according to a benchmark leaderboard.\n\n[Read the article](https://bjin.github.io/go-codegolf-benchmark/#leaderboard)\n\n[HN discussion](https://news.ycombinator.com/item?id=50601280)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "bjin",
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "createdAt": "2026-11-22T16:44:48Z",
+      "updatedAt": "2026-11-22T16:44:48Z"
+    },
+    {
+      "id": "hn:50647181",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Slow Ubuntu security response times",
+      "description": "A report on slow security response times from Ubuntu, posted to the oss-security mailing list.",
+      "content": "A report on slow security response times from Ubuntu, posted to the oss-security mailing list.\n\n[Read the article](https://www.openwall.com/lists/oss-security/2026/11/25/9)\n\n[HN discussion](https://news.ycombinator.com/item?id=50647181)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "gslin",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "createdAt": "2026-11-25T20:38:00Z",
+      "updatedAt": "2026-11-25T20:38:00Z"
+    },
+    {
+      "id": "hn:50624446",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Porting Rockbox to an undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
+      "description": "Rockbox, the open-source MP3 player firmware, ported to an undocumented $9 MP3 player from AliExpress with the help of large language models.",
+      "content": "Rockbox, the open-source MP3 player firmware, ported to an undocumented $9 MP3 player from AliExpress with the help of large language models.\n\n[Read the article](https://jayd.ml/2026/11/14/rockbox-on-yp3.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50624446)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "jaydenmilne",
+      "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+      "createdAt": "2026-11-24T06:22:36Z",
+      "updatedAt": "2026-11-24T06:22:36Z"
+    },
+    {
+      "id": "hn:50589784",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "SSH is a GUI framework",
+      "description": "An article making the case that SSH can serve as a GUI framework.",
+      "content": "An article making the case that SSH can serve as a GUI framework.\n\n[Read the article](https://zydra.sh/articles/ssh-is-a-gui-framework/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50589784)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "teledream",
+      "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
+      "createdAt": "2026-11-21T14:52:41Z",
+      "updatedAt": "2026-11-21T14:52:41Z"
+    },
+    {
+      "id": "hn:50626466",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "What VP ≠ VNP Means (In 3 Minutes)",
+      "description": "A three-minute explanation of what VP ≠ VNP means in complexity theory.",
+      "content": "A three-minute explanation of what VP ≠ VNP means in complexity theory.\n\n[Read the article](https://www.friedgil.com/vpvnp)\n\n[HN discussion](https://news.ycombinator.com/item?id=50626466)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "vinhnx",
+      "url": "https://www.friedgil.com/vpvnp",
+      "createdAt": "2026-11-24T10:56:56Z",
+      "updatedAt": "2026-11-24T10:56:56Z"
+    },
+    {
+      "id": "hn:50653667",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Intel One Mono font",
+      "description": "Intel has released Intel One Mono, a new monospace font.",
+      "content": "Intel has released Intel One Mono, a new monospace font.\n\n[Read the article](https://github.com/intel/intel-one-mono)\n\n[HN discussion](https://news.ycombinator.com/item?id=50653667)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "saikatsg",
+      "url": "https://github.com/intel/intel-one-mono",
+      "createdAt": "2026-11-26T10:11:01Z",
+      "updatedAt": "2026-11-26T10:11:01Z"
+    },
+    {
+      "id": "hn:50651719",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "description": "The story of Lions' Commentary on Unix, and why it was secretly copied for twenty years.",
+      "content": "The story of Lions' Commentary on Unix, and why it was secretly copied for twenty years.\n\n[Read the article](https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50651719)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "joonehur",
+      "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+      "createdAt": "2026-11-26T05:12:59Z",
+      "updatedAt": "2026-11-26T05:12:59Z"
+    },
+    {
+      "id": "reading:abakcus-free-math-courses-coursera",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Free Math Courses on Coursera: The 26 Worth Taking",
+      "description": "A roundup of the 26 free math courses on Coursera worth taking.",
+      "content": "A roundup of the 26 free math courses on Coursera worth taking.\n\n[Read the article](https://abakcus.com/articles/free-math-courses-coursera)",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "url": "https://abakcus.com/articles/free-math-courses-coursera",
+      "createdAt": "2026-11-09T00:00:00Z",
+      "updatedAt": "2026-11-09T00:00:00Z",
+      "author": "Ali Kaya"
+    },
+    {
+      "id": "reading:abakcus-best-linear-algebra-books",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The 23 Best Linear Algebra Books, in Reading Order",
+      "description": "From a first course with pictures to the books behind machine learning and scientific computing: 23 linear algebra books in reading order, four of them free.",
+      "content": "From a first course with pictures to the books behind machine learning and scientific computing: 23 linear algebra books in reading order, four of them free.\n\n[Read the article](https://abakcus.com/book-lists/best-linear-algebra-books)",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "url": "https://abakcus.com/book-lists/best-linear-algebra-books",
+      "createdAt": "2026-11-22T00:00:00Z",
+      "updatedAt": "2026-11-22T00:00:00Z",
+      "author": "Ali Kaya"
+    },
+    {
+      "id": "reading:medium-continuations-in-practice-what-se-0564-split-continuations-changes-b573c83f459f",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Continuations in Practice: What SE-0564 Split Continuations Changes",
+      "description": "What Swift's SE-0564 split continuations change for bridging the callback-based APIs at the edges of iOS codebases — analytics SDKs, Bluetooth stacks, payment libraries and old networking code — into async Swift.",
+      "content": "What Swift's SE-0564 split continuations change for bridging the callback-based APIs at the edges of iOS codebases — analytics SDKs, Bluetooth stacks, payment libraries and old networking code — into async Swift.\n\n[Read the article](https://medium.com/@dheerendra-ios/continuations-in-practice-what-se-0564-split-continuations-changes-b573c83f459f)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "url": "https://medium.com/@dheerendra-ios/continuations-in-practice-what-se-0564-split-continuations-changes-b573c83f459f",
+      "createdAt": "2026-11-26T10:30:19Z",
+      "updatedAt": "2026-11-26T10:30:19Z",
+      "author": "Dheerendra Chaturvedi"
+    },
+    {
+      "id": "reading:medium-a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-headset-actually-read-3e8a498f6220",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Streamer Stole a Jet in GTA 6 With Her Brain. Here’s What the Headset Actually Read",
+      "description": "Streamer Perrikaryal stole a jet in GTA 6 using EEG commands and eye tracking after ages of practice. The clip looks like mind reading — this piece looks at what the headset actually read.",
+      "content": "Streamer Perrikaryal stole a jet in GTA 6 using EEG commands and eye tracking after ages of practice. The clip looks like mind reading — this piece looks at what the headset actually read.\n\n[Read the article](https://medium.com/illumination/a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-headset-actually-read-3e8a498f6220)",
+      "topics": [
+        "Wearables",
+        "Technology"
+      ],
+      "source": "Reading",
+      "url": "https://medium.com/illumination/a-streamer-stole-a-jet-in-gta-6-with-her-brain-heres-what-the-headset-actually-read-3e8a498f6220",
+      "createdAt": "2026-11-26T12:38:12Z",
+      "updatedAt": "2026-11-26T12:38:12Z",
+      "author": "Aya Mahmoud"
+    },
+    {
+      "id": "reading:ft-7838a715-07d4-4605-aa60-21f5af2b2370",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nvidia halts chip shipments to south-east Asia",
+      "description": "Nvidia has halted chip shipments to south-east Asia as the US steps up export controls to prevent Chinese access to AI computing power.",
+      "content": "Nvidia has halted chip shipments to south-east Asia as the US steps up export controls to prevent Chinese access to AI computing power.\n\n[Read the article](https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370)",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "source": "Reading",
+      "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+      "createdAt": "2026-11-26T05:00:19Z",
+      "updatedAt": "2026-11-26T05:00:19Z"
     }
   ]
 }
