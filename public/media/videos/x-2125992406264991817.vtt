@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.930
+DeepSeek pushes Ascend
+
+00:00:01.742 --> 00:00:03.805
+950 kernel updates
+
+00:00:03.982 --> 00:00:06.623
+reaching 425 TFLOPS
+
+00:00:07.158 --> 00:00:09.257
+DeepSeek updated FlashMLA
+
+00:00:09.340 --> 00:00:10.235
+DeepSelect
+
+00:00:10.330 --> 00:00:12.665
+DeepGEMM and DeepGEMM-Ascend
+
+00:00:12.476 --> 00:00:13.985
+on November 26
+
+00:00:14.163 --> 00:00:15.035
+with a fused
+
+00:00:14.847 --> 00:00:16.014
+attention kernel for
+
+00:00:15.825 --> 00:00:17.558
+Huawei's Ascend 950
+
+00:00:17.370 --> 00:00:19.209
+NPU and optimized
+
+00:00:19.021 --> 00:00:20.483
+sparse prefill and
+
+00:00:20.472 --> 00:00:21.615
+decoding kernels
+
+00:00:22.150 --> 00:00:23.458
+DeepSelect gained an
+
+00:00:23.306 --> 00:00:25.322
+FP32 TopK kernel
+
+00:00:25.133 --> 00:00:25.923
+for Ascend
+
+00:00:26.065 --> 00:00:27.574
+and DeepGEMM-Ascend
+
+00:00:27.539 --> 00:00:28.376
+shipped a new
+
+00:00:28.188 --> 00:00:29.626
+public release whose
+
+00:00:29.485 --> 00:00:31.642
+FP4 GEMM benchmark
+
+00:00:31.466 --> 00:00:33.859
+reaches 1,701 of
+
+00:00:33.671 --> 00:00:36.466
+1,730 TFLOPS
+
+00:00:36.998 --> 00:00:38.236
+DeepSeek has pushed
+
+00:00:38.048 --> 00:00:39.297
+updates across all
+
+00:00:39.109 --> 00:00:39.851
+four of its
+
+00:00:39.663 --> 00:00:40.854
+core infrastructure
+
+00:00:40.665 --> 00:00:41.573
+repos today
+
+00:00:41.762 --> 00:00:42.599
+and most of
+
+00:00:42.411 --> 00:00:43.153
+the work is
+
+00:00:42.965 --> 00:00:44.144
+focused on making
+
+00:00:43.956 --> 00:00:45.311
+its models faster
+
+00:00:45.123 --> 00:00:46.420
+and more efficient
+
+00:00:46.950 --> 00:00:47.964
+Full story on
+
+00:00:47.775 --> 00:00:48.671
+the dashboard

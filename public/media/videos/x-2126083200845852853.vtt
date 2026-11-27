@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.824
+Nabız a free
+
+00:00:01.635 --> 00:00:02.649
+menu bar app
+
+00:00:03.174 --> 00:00:04.258
+Nabız is an
+
+00:00:04.070 --> 00:00:05.166
+open-source native
+
+00:00:04.978 --> 00:00:06.334
+macOS menu bar
+
+00:00:06.146 --> 00:00:07.242
+app that lists
+
+00:00:07.054 --> 00:00:08.209
+running dev servers
+
+00:00:08.021 --> 00:00:08.787
+and ports
+
+00:00:08.834 --> 00:00:09.801
+tracks Claude
+
+00:00:09.860 --> 00:00:11.004
+Codex and Grok
+
+00:00:10.816 --> 00:00:12.065
+limits and cleans
+
+00:00:11.877 --> 00:00:13.044
+build and agent
+
+00:00:12.856 --> 00:00:14.565
+leftovers like DerivedData
+
+00:00:15.094 --> 00:00:16.025
+The author built
+
+00:00:15.837 --> 00:00:16.874
+it after finding
+
+00:00:16.686 --> 00:00:18.537
+62 GB of agent
+
+00:00:18.349 --> 00:00:19.716
+leftovers and three
+
+00:00:19.528 --> 00:00:20.742
+forgotten dev servers
+
+00:00:20.554 --> 00:00:21.402
+on his Mac
+
+00:00:21.926 --> 00:00:23.105
+Nabız includes a
+
+00:00:22.917 --> 00:00:24.390
+built-in MCP server
+
+00:00:24.202 --> 00:00:25.204
+so Claude Code
+
+00:00:25.016 --> 00:00:25.970
+can reuse what
+
+00:00:25.782 --> 00:00:26.843
+is already running
+
+00:00:27.020 --> 00:00:28.152
+shows projects with
+
+00:00:28.023 --> 00:00:29.402
+unpushed commits plus
+
+00:00:29.214 --> 00:00:30.758
+Docker and simulators
+
+00:00:30.806 --> 00:00:32.150
+and skips caches
+
+00:00:32.044 --> 00:00:32.845
+still in use
+
+00:00:32.657 --> 00:00:33.317
+and .
+
+00:00:33.152 --> 00:00:34.119
+env files
+
+00:00:34.638 --> 00:00:35.652
+Full story on
+
+00:00:35.463 --> 00:00:36.359
+the dashboard

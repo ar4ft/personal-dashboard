@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.564
+An introduction to
+
+00:00:01.376 --> 00:00:02.814
+uncertainty in machine
+
+00:00:02.626 --> 00:00:03.227
+learning
+
+00:00:03.750 --> 00:00:04.799
+Christian Henning's
+
+00:00:04.611 --> 00:00:05.778
+intuitive guide to
+
+00:00:05.590 --> 00:00:06.933
+where uncertainty in
+
+00:00:06.792 --> 00:00:08.089
+ML models comes
+
+00:00:07.901 --> 00:00:08.372
+from
+
+00:00:08.608 --> 00:00:10.389
+aleatoric versus epistemic
+
+00:00:10.507 --> 00:00:11.851
+and when calibration
+
+00:00:12.005 --> 00:00:13.101
+Bayesian inference
+
+00:00:12.925 --> 00:00:14.634
+or conformal guarantees
+
+00:00:14.517 --> 00:00:15.731
+actually matter for
+
+00:00:15.542 --> 00:00:16.356
+a decision
+
+00:00:16.894 --> 00:00:18.179
+In my experience
+
+00:00:18.061 --> 00:00:19.476
+uncertainty in machine
+
+00:00:19.288 --> 00:00:20.113
+learning is a
+
+00:00:19.925 --> 00:00:21.151
+confusing topic to
+
+00:00:20.962 --> 00:00:21.693
+get into
+
+00:00:21.906 --> 00:00:22.719
+so I wrote
+
+00:00:22.531 --> 00:00:23.639
+this introduction to
+
+00:00:23.451 --> 00:00:24.405
+give an intuitive
+
+00:00:24.217 --> 00:00:24.983
+overview
+
+00:00:25.502 --> 00:00:26.174
+For a more
+
+00:00:25.986 --> 00:00:27.152
+thorough introduction
+
+00:00:27.271 --> 00:00:28.756
+see Chapters 2 and
+
+00:00:28.568 --> 00:00:29.487
+3 of my
+
+00:00:29.299 --> 00:00:30.619
+PhD thesis
+
+00:00:31.158 --> 00:00:32.172
+Full story on
+
+00:00:31.983 --> 00:00:32.879
+the dashboard

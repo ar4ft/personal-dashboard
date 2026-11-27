@@ -2,6 +2,43 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:x-2125973765104566675",
+      "feedId": "x:2125973765104566675",
+      "title": "Matt Van Horn benchmarks 16 agent browser and computer-use tools on a Mac",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "url": "https://x.com/mvanhorn/status/2125973765104566675",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@3c4cd47ff601e6d3755fcf4241094258a5715efa/x-2125973765104566675.mp4",
+      "poster": "media/videos/x-2125973765104566675.jpg",
+      "captions": "media/videos/x-2125973765104566675.vtt",
+      "duration": 43.29,
+      "transcript": "Matt Van Horn benchmarks 16 agent browser and computer-use tools Testing 16 tools on one Apple Silicon Mac, Matt Van Horn picks cua-driver for native Mac apps and Ardia Browser or OpenCode browse for web automation. Every tool ran the same five targets: example.com, Hacker News, a private GitHub repo, Apple Messages and an Electron app. Ardia had the fastest warm page open and avoids Chrome's remote-debugging prompts; OpenCode browse kept Hacker News snapshots to 3,671 characters in 85 ms, about 53 times smaller than Stagehand. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:11:39Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2126083200845852853",
+      "feedId": "x:2126083200845852853",
+      "title": "Nabız: a free menu bar app that cleans up after coding agents on your Mac",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/mehmetatakartal/status/2126083200845852853",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@888a712b42f036f07a61c1ae58449dfe4b7ff207/x-2126083200845852853.mp4",
+      "poster": "media/videos/x-2126083200845852853.jpg",
+      "captions": "media/videos/x-2126083200845852853.vtt",
+      "duration": 37.39,
+      "transcript": "Nabız: a free menu bar app Nabız is an open-source native macOS menu bar app that lists running dev servers and ports, tracks Claude, Codex and Grok limits, and cleans build and agent leftovers like DerivedData. The author built it after finding 62 GB of agent leftovers and three forgotten dev servers on his Mac. Nabız includes a built-in MCP server so Claude Code can reuse what is already running, shows projects with unpushed commits plus Docker and simulators, and skips caches still in use and.env files. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:05:36Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50652184",
       "feedId": "hn:50652184",
       "title": "Moat: OpenRouter replacement",

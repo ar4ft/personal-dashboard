@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.635
+lip-dictation lets
+
+00:00:01.447 --> 00:00:02.413
+you mouth prompts
+
+00:00:02.225 --> 00:00:03.144
+to Claude Code
+
+00:00:03.678 --> 00:00:04.656
+A Claude Code
+
+00:00:04.468 --> 00:00:05.517
+plugin that reads
+
+00:00:05.329 --> 00:00:06.095
+your lips through
+
+00:00:05.907 --> 00:00:06.755
+the webcam with
+
+00:00:06.567 --> 00:00:08.336
+the Auto-AVSR model
+
+00:00:08.159 --> 00:00:09.361
+running locally on
+
+00:00:09.173 --> 00:00:10.128
+Apple Silicon
+
+00:00:10.341 --> 00:00:10.942
+so you can
+
+00:00:10.753 --> 00:00:12.192
+send prompts silently
+
+00:00:12.718 --> 00:00:13.519
+Press a button
+
+00:00:13.331 --> 00:00:14.215
+above the Claude
+
+00:00:14.027 --> 00:00:14.864
+Code prompt
+
+00:00:14.947 --> 00:00:15.960
+mouth a phrase
+
+00:00:16.043 --> 00:00:17.128
+press stop and
+
+00:00:16.940 --> 00:00:18.012
+the text appears
+
+00:00:17.824 --> 00:00:18.567
+in the prompt
+
+00:00:18.378 --> 00:00:19.545
+box about half
+
+00:00:19.404 --> 00:00:20.394
+a second later
+
+00:00:20.918 --> 00:00:23.276
+Recognition uses Auto-AVSR's
+
+00:00:23.100 --> 00:00:28.005
+visual-only model vsrtrlrs2lrs3vox2avspbase
+
+00:00:28.229 --> 00:00:29.703
+250M parameters
+
+00:00:29.798 --> 00:00:32.958
+trained on 3,291 hours
+
+00:00:32.769 --> 00:00:33.500
+of video
+
+00:00:33.639 --> 00:00:35.950
+¹ Auto-AVSR model
+
+00:00:35.762 --> 00:00:36.221
+zoo
+
+00:00:36.410 --> 00:00:38.415
+20.3% word error
+
+00:00:38.227 --> 00:00:39.912
+rate on LRS3
+
+00:00:40.446 --> 00:00:41.460
+Full story on
+
+00:00:41.271 --> 00:00:42.167
+the dashboard

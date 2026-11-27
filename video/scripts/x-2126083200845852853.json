@@ -1,0 +1,22 @@
+{
+  "hook": "Nabız: a free menu bar app",
+  "hookText": "Nabız: a free menu bar app",
+  "beats": [
+    {
+      "say": "Nabız is an open-source native macOS menu bar app that lists running dev servers and ports, tracks Claude, Codex and Grok limits, and cleans build and agent leftovers like DerivedData.",
+      "visual": 0
+    },
+    {
+      "say": "The author built it after finding 62 GB of agent leftovers and three forgotten dev servers on his Mac.",
+      "visual": 0,
+      "stat": "62 GB",
+      "statLabel": "agent leftovers"
+    },
+    {
+      "say": "Nabız includes a built-in MCP server so Claude Code can reuse what is already running, shows projects with unpushed commits plus Docker and simulators, and skips caches still in use and.env files.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

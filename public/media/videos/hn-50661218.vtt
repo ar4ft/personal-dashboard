@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.717
+DeepMind lets AI
+
+00:00:01.529 --> 00:00:02.873
+agents control part
+
+00:00:02.685 --> 00:00:03.604
+of its compute
+
+00:00:04.134 --> 00:00:05.454
+On Google DeepMind's
+
+00:00:05.266 --> 00:00:06.091
+podcast
+
+00:00:06.221 --> 00:00:07.530
+Gemini lead Koray
+
+00:00:07.342 --> 00:00:09.181
+Kavukcuoglu said agents
+
+00:00:08.992 --> 00:00:10.254
+now run experiments
+
+00:00:10.066 --> 00:00:10.855
+on their own
+
+00:00:10.667 --> 00:00:11.457
+with part of
+
+00:00:11.268 --> 00:00:12.353
+the lab's compute
+
+00:00:12.886 --> 00:00:14.395
+Kavukcuoglu describes
+
+00:00:14.207 --> 00:00:15.114
+a shift from
+
+00:00:14.926 --> 00:00:16.176
+separate specialist
+
+00:00:15.987 --> 00:00:16.954
+teams to one
+
+00:00:16.766 --> 00:00:18.015
+general-purpose model
+
+00:00:17.827 --> 00:00:18.982
+line for science
+
+00:00:18.794 --> 00:00:19.737
+and products
+
+00:00:19.950 --> 00:00:21.117
+with each Gemini
+
+00:00:20.928 --> 00:00:22.343
+generation a hand-built
+
+00:00:22.155 --> 00:00:22.838
+one-off
+
+00:00:22.969 --> 00:00:24.336
+while parallel teams
+
+00:00:24.148 --> 00:00:25.480
+work on successors
+
+00:00:26.006 --> 00:00:26.890
+As a safety
+
+00:00:26.702 --> 00:00:27.338
+measure
+
+00:00:27.492 --> 00:00:28.588
+DeepMind does not
+
+00:00:28.400 --> 00:00:29.461
+reward the agents'
+
+00:00:29.272 --> 00:00:30.097
+chain of thought
+
+00:00:29.909 --> 00:00:30.782
+during training
+
+00:00:30.947 --> 00:00:31.878
+so their reasoning
+
+00:00:31.690 --> 00:00:33.175
+stays unfiltered and
+
+00:00:32.987 --> 00:00:34.178
+reviewable before they
+
+00:00:33.989 --> 00:00:34.567
+act
+
+00:00:35.094 --> 00:00:36.108
+Full story on
+
+00:00:35.919 --> 00:00:36.815
+the dashboard

@@ -1,0 +1,22 @@
+{
+  "hook": "Matt Van Horn benchmarks 16 agent browser and computer-use tools",
+  "hookText": "Matt Van Horn benchmarks 16 agent browser and computer-use tools",
+  "beats": [
+    {
+      "say": "Testing 16 tools on one Apple Silicon Mac, Matt Van Horn picks cua-driver for native Mac apps and Ardia Browser or OpenCode browse for web automation.",
+      "visual": 0
+    },
+    {
+      "say": "Every tool ran the same five targets: example.com, Hacker News, a private GitHub repo, Apple Messages and an Electron app.",
+      "visual": 0
+    },
+    {
+      "say": "Ardia had the fastest warm page open and avoids Chrome's remote-debugging prompts; OpenCode browse kept Hacker News snapshots to 3,671 characters in 85 ms, about 53 times smaller than Stagehand.",
+      "visual": 0,
+      "stat": "3,671",
+      "statLabel": "characters"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
