@@ -1,0 +1,23 @@
+{
+  "hook": "Five words got John Nash into Princeton.",
+  "hookText": "John Nash's recommendation letter",
+  "beats": [
+    {
+      "say": "In February nineteen forty eight, a Carnegie Tech professor recommended a nineteen year old to Princeton. After two sentences of paperwork came five words: he is a mathematical genius.",
+      "visual": 0,
+      "stat": "1948",
+      "statLabel": "Duffin writes the letter"
+    },
+    {
+      "say": "The student was John Nash. At Princeton, he went on to write a twenty eight page thesis that defined the Nash equilibrium.",
+      "visual": 3,
+      "stat": "28",
+      "statLabel": "pages in Nash's thesis"
+    },
+    {
+      "say": "On November sixteenth, nineteen forty nine, Solomon Lefschetz, who had received the letter, communicated Nash's note to the Proceedings of the National Academy of Sciences.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

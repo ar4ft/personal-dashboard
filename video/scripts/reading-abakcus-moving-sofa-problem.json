@@ -1,0 +1,25 @@
+{
+  "hook": "A child's question took fifty-eight years to answer.",
+  "hookText": "The moving sofa problem",
+  "beats": [
+    {
+      "say": "In nineteen sixty six, Leo Moser asked for the largest sofa that can be carried around a corner in a hallway one unit wide.",
+      "visual": 0,
+      "stat": "1966",
+      "statLabel": "Moser asks the question"
+    },
+    {
+      "say": "Hammersley's sofa reached about two point two zero seven four, and by nineteen sixty eight the answer was trapped between that and about two point eight two eight four.",
+      "visual": 3,
+      "stat": "2.2074",
+      "statLabel": "Hammersley's sofa area"
+    },
+    {
+      "say": "Gerver's eighteen piece shape, with area about two point two one nine five, was finally proved optimal in Jineon Baek's one hundred nineteen page proof in twenty twenty four.",
+      "visual": 4,
+      "stat": "2.2195",
+      "statLabel": "the largest sofa"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

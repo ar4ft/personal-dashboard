@@ -1,0 +1,21 @@
+{
+  "hook": "DeepSeek's kernels now hit 98.5% of chip peak.",
+  "hookText": "DeepSeek tunes Huawei Ascend kernels",
+  "beats": [
+    {
+      "say": "DeepSeek pushed updates across all four of its core infrastructure repos, and most of the work targets Huawei's Ascend nine fifty chips.",
+      "visual": 0
+    },
+    {
+      "say": "FlashMLA gained a fused attention kernel for Ascend, while DeepSelect added a faster top K operation and DeepGEMM Ascend got a new release.",
+      "visual": 1
+    },
+    {
+      "say": "The optimized sparse prefill kernels now reach up to four hundred twenty five teraflops on Ascend, about ninety eight point five percent of the hardware peak.",
+      "visual": 2,
+      "stat": "425",
+      "statLabel": "TFLOPS sparse prefill"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,21 @@
+{
+  "hook": "Your private AI requests may be routed to ByteDance.",
+  "hookText": "Inference providers wrapping ByteDance Ark",
+  "beats": [
+    {
+      "say": "A new investigation finds fingerprints showing several OpenRouter providers, including ones marketed as zero data retention, forward DeepSeek and GLM requests to ByteDance's Ark.",
+      "visual": 0
+    },
+    {
+      "say": "The clues include ByteDance style request IDs passed through from other providers, and ByteDance's canned refusal when you ask about censored topics like Tank Man.",
+      "visual": 1
+    },
+    {
+      "say": "Novita alone sent one hundred twenty to one hundred sixty billion tokens a day on these models, until it lost its zero retention label on November twentieth.",
+      "visual": 0,
+      "stat": "120-160B",
+      "statLabel": "tokens a day"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

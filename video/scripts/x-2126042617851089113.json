@@ -1,0 +1,23 @@
+{
+  "hook": "A new speculative decoder, tested on two tiny supercomputers.",
+  "hookText": "DFly2 on two GB10 Sparks",
+  "beats": [
+    {
+      "say": "Tencent open sourced DFly2, its speculative decoding drafter, with weights, training code and a report. A developer quickly ported it to DeepSeek on two NVIDIA GB10 Sparks.",
+      "visual": 0
+    },
+    {
+      "say": "In the test, every output matched the no draft reference, all nine hundred fifty nine tokens.",
+      "visual": 1,
+      "stat": "959",
+      "statLabel": "tokens matched"
+    },
+    {
+      "say": "Estimated decode speed was forty five tokens per second for DFly2, against seventy five for DSpark and thirty eight with no drafting, so DSpark still wins here.",
+      "visual": 2,
+      "stat": "45 tok/s",
+      "statLabel": "DFly2 decode speed"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

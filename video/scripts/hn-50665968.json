@@ -1,0 +1,19 @@
+{
+  "hook": "A claimed shortcut for one of cryptography's hardest problems.",
+  "hookText": "Faster discrete logarithms, claimed",
+  "beats": [
+    {
+      "say": "In a new preprint, researchers from Zhejiang University claim a deterministic algorithm for the discrete logarithm problem that runs in subexponential time.",
+      "visual": 0
+    },
+    {
+      "say": "The claim covers discrete logarithms in prime fields and on prime order elliptic curves, with a running time of p to the power of little o of one.",
+      "visual": 1
+    },
+    {
+      "say": "There is a catch. The result only holds if OpenAI's October twenty twenty six Cauchy Hermite Boolean tensor contraction construction holds, so for now it is a conditional claim.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

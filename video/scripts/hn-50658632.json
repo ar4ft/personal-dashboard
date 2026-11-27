@@ -1,0 +1,23 @@
+{
+  "hook": "One Rust library replaces your whole VoIP stack.",
+  "hookText": "A VoIP stack written in Rust",
+  "beats": [
+    {
+      "say": "rvoip is a Rust library that bundles SIP, RTP, WebRTC and voice AI agents behind one call model. There is no separate SIP proxy, media server or RTP engine to install.",
+      "visual": 0
+    },
+    {
+      "say": "On a single cloud server, it sustained eight thousand three hundred forty eight sessions per second of SIP signalling over TLS.",
+      "visual": 1,
+      "stat": "8,348",
+      "statLabel": "sessions per second"
+    },
+    {
+      "say": "With encrypted media flowing, it still set up eleven hundred twenty four calls per second, using the standard RFC benchmark with zero failed calls.",
+      "visual": 2,
+      "stat": "1,124",
+      "statLabel": "calls per second with media"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

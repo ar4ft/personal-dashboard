@@ -1,0 +1,19 @@
+{
+  "hook": "AI agents now run some of DeepMind's experiments.",
+  "hookText": "Agents with DeepMind compute",
+  "beats": [
+    {
+      "say": "Google DeepMind lets AI agents run experiments on their own for the next Gemini model, using part of the lab's compute, though recursive self improvement remains distant.",
+      "visual": 0
+    },
+    {
+      "say": "Gemini lead Koray Kavukcuoglu says DeepMind now relies on one general purpose model for science and products, instead of separate teams for projects like AlphaFold.",
+      "visual": 1
+    },
+    {
+      "say": "Each Gemini generation is a hand built one off, he says, and AGI won't begin until everyday products earn enough trust for people to hand decisions over.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

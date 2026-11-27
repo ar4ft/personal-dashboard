@@ -1,0 +1,21 @@
+{
+  "hook": "Every model makes a hidden bet about uncertainty.",
+  "hookText": "Uncertainty in machine learning",
+  "beats": [
+    {
+      "say": "Christian Henning's guide argues that every model makes an assumption about uncertainty, often without saying so, and where data is rare, that assumption decides the answer.",
+      "visual": 0
+    },
+    {
+      "say": "Take a coin flip. If we do not measure how the coin is thrown, the best we can say is fifty fifty, and that uncertainty is aleatoric.",
+      "visual": 3,
+      "stat": "50/50",
+      "statLabel": "the honest coin answer"
+    },
+    {
+      "say": "The post then covers epistemic uncertainty, calibration, Bayesian inference and conformal guarantees, and how to judge when uncertainty must be faithful to be useful.",
+      "visual": 4
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

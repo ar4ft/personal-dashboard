@@ -1,0 +1,21 @@
+{
+  "hook": "A $30 board that boots straight into one game.",
+  "hookText": "A Witness puzzle on an ESP32",
+  "beats": [
+    {
+      "say": "Steren built Circle with a Line, a standalone puzzle game inspired by The Witness, for Waveshare's one point eight inch ESP32 AMOLED touch board.",
+      "visual": 0
+    },
+    {
+      "say": "It is written in plain C on the ESP I D F framework, generates its puzzles procedurally, and synthesizes its own audio.",
+      "visual": 1
+    },
+    {
+      "say": "He says there is something genuinely incredible about holding a dedicated piece of hardware that boots straight into your personal app, all for about thirty dollars.",
+      "visual": 2,
+      "stat": "$30",
+      "statLabel": "for the hardware"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

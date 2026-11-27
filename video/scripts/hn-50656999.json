@@ -1,0 +1,21 @@
+{
+  "hook": "Install Nix packages without ever running Nix.",
+  "hookText": "nami skips the Nix evaluator",
+  "beats": [
+    {
+      "say": "nixpkgs holds over one hundred forty thousand packages, most already built and signed on cache dot nixos dot org. Installing one normally means running Nix's evaluator.",
+      "visual": 0,
+      "stat": "140,000+",
+      "statLabel": "packages in nixpkgs"
+    },
+    {
+      "say": "The nami package manager evaluates each nixpkgs release once, ahead of time, into one signed catalog of store paths, versions and build definitions.",
+      "visual": 1
+    },
+    {
+      "say": "On your machine, an install becomes a quick lookup plus a verified download, and the catalog carries a hash of every build definition, so one signature vouches for them all.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

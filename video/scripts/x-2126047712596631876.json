@@ -1,0 +1,21 @@
+{
+  "hook": "Your terminal sessions now fit in your pocket.",
+  "hookText": "Rex lands in the App Store",
+  "beats": [
+    {
+      "say": "Mitchell Hashimoto's new app Rex is live in the App Store. It puts terminal sessions from your Mac, Linux and Windows machines on your iPhone and iPad.",
+      "visual": 0
+    },
+    {
+      "say": "Sessions keep running on your computers, so you can check on coding agents, answer a prompt or approve a command from anywhere, then hand the pane back to your Mac.",
+      "visual": 1
+    },
+    {
+      "say": "It is free and needs a Rex Server running on another device, which Hashimoto hints is close to a full public release.",
+      "visual": 2,
+      "stat": "Free",
+      "statLabel": "in the App Store"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

@@ -1,0 +1,23 @@
+{
+  "hook": "Prompt your coding agent without making a sound.",
+  "hookText": "Silent lip dictation on a Mac",
+  "beats": [
+    {
+      "say": "A new Claude Code plugin reads your lips through the webcam. The lip reading model runs locally on Apple Silicon, so no audio is recorded and no video leaves the Mac.",
+      "visual": 0
+    },
+    {
+      "say": "It uses Auto AVSR's visual model, with two hundred fifty million parameters trained on three thousand two hundred ninety one hours of video.",
+      "visual": 3,
+      "stat": "250M",
+      "statLabel": "model parameters"
+    },
+    {
+      "say": "Accuracy is modest, with a twenty point three percent word error rate on its benchmark, so you can train it on your own lips with about one hundred phrases.",
+      "visual": 4,
+      "stat": "20.3%",
+      "statLabel": "word error rate"
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

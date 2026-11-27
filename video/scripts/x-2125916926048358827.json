@@ -1,0 +1,21 @@
+{
+  "hook": "The best open image model now comes from Ant Group.",
+  "hookText": "Ming-Image 0.2 Design goes open",
+  "beats": [
+    {
+      "say": "Ant Group's Ant Ling team introduced Ming Image zero point two Design, a model for UI drafts, posters and text heavy designs.",
+      "visual": 0
+    },
+    {
+      "say": "It ranks number one among open weight models on Artificial Analysis's text to image leaderboard, with an Elo score of one thousand ninety five.",
+      "visual": 1,
+      "stat": "1,095",
+      "statLabel": "Elo, top open model"
+    },
+    {
+      "say": "The team open sourced the Design model now, and plans to open source the Layer model next week, which splits flat images into editable layers.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
