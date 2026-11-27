@@ -224,7 +224,7 @@
       "type": "news",
       "status": "inbox",
       "title": "Tencent open-sources DFly2 speculative decoding, and a developer ports it to two NVIDIA GB10 Sparks",
-      "description": "Tencent released DFly2's weights, training code and report on November 26; a day later an independent port ran it for DeepSeek-V4.1-Flash on two GB10 boxes with token-exact output, but slower than DSpark.",
+      "description": "Tencent released DFly2's weights, training code and report on November 26; the same day an independent port ran it for DeepSeek-V4.1-Flash on two GB10 boxes with token-exact output, but slower than DSpark.",
       "topics": [
         "Machine Learning",
         "AI"
