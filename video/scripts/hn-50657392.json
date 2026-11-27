@@ -1,0 +1,22 @@
+{
+  "hook": "First images of the impact of DART asteroid deflection experiment",
+  "hookText": "First images of the impact of DART asteroid deflection experiment",
+  "beats": [
+    {
+      "say": "ESA's Hera mission has returned the first close-up images of the crater left by NASA's DART asteroid-deflection test, showing the chaotic aftermath of the cosmic smashup.",
+      "visual": 1
+    },
+    {
+      "say": "The first-of-its-kind experiment worked beautifully as the solar-powered space probe slammed into asteroid Dimorphos, permanently altering its trajectory.",
+      "visual": 2
+    },
+    {
+      "say": "The spacecraft released some 10 billion joules of energy as it impacted Dimorphos in September 2022 at more than 13,700 mph, shortening the asteroid’s 12-hour orbit around Didymos by about 33 minutes.",
+      "visual": 3,
+      "stat": "10 billion",
+      "statLabel": "joules"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

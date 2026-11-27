@@ -1,0 +1,22 @@
+{
+  "hook": "Michael Nielsen took down his book on neural nets",
+  "hookText": "Michael Nielsen took down his book on neural nets",
+  "beats": [
+    {
+      "say": "At the time, I expected AGI systems based on neural networks to be many decades away, but to bring remarkable benefits for humanity.",
+      "visual": 1
+    },
+    {
+      "say": "With the extraordinarily reckless behaviour of the frontier labs, the systems have raced ahead much faster than I expected1, giving humanity far too little time to meet the challenges.",
+      "visual": 0
+    },
+    {
+      "say": "Even if you can get a reduction from 10% down to 9%, you would, on net, be saving 80 million lives in expectation.",
+      "visual": 1,
+      "stat": "10%",
+      "statLabel": "down"
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

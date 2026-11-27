@@ -1,0 +1,20 @@
+{
+  "hook": "False computer-checked proofs",
+  "hookText": "False computer-checked proofs",
+  "beats": [
+    {
+      "say": "A collection of cases in which computer-checked proofs turned out to be false, and the lessons they hold for trusting machine-verified mathematics.",
+      "visual": 1
+    },
+    {
+      "say": "There are some computer programs that claim to check every step in a proof. In many cases, these bugs have been demonstrated to be exploitable.",
+      "visual": 0
+    },
+    {
+      "say": "From this perspective, HOL Light's proof-checking kernel is attractive because of its stability and simplicity, only 400 lines of code.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

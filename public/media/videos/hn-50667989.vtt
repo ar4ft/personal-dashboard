@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.753
+False computer-checked
+
+00:00:01.565 --> 00:00:02.295
+proofs
+
+00:00:02.814 --> 00:00:03.722
+A collection of
+
+00:00:03.533 --> 00:00:04.747
+cases in which
+
+00:00:04.559 --> 00:00:05.986
+computer-checked proofs
+
+00:00:05.798 --> 00:00:06.516
+turned out to
+
+00:00:06.328 --> 00:00:07.141
+be false
+
+00:00:07.283 --> 00:00:08.238
+and the lessons
+
+00:00:08.050 --> 00:00:08.875
+they hold for
+
+00:00:08.687 --> 00:00:10.349
+trusting machine-verified
+
+00:00:10.161 --> 00:00:11.127
+mathematics
+
+00:00:11.662 --> 00:00:12.334
+There are some
+
+00:00:12.146 --> 00:00:13.442
+computer programs that
+
+00:00:13.254 --> 00:00:14.114
+claim to check
+
+00:00:14.079 --> 00:00:14.999
+every step in
+
+00:00:14.811 --> 00:00:15.553
+a proof
+
+00:00:15.692 --> 00:00:16.942
+In many cases
+
+00:00:17.154 --> 00:00:18.145
+these bugs have
+
+00:00:17.956 --> 00:00:19.017
+been demonstrated to
+
+00:00:18.829 --> 00:00:19.902
+be exploitable
+
+00:00:20.438 --> 00:00:21.770
+From this perspective
+
+00:00:21.971 --> 00:00:23.527
+HOL Light's proof-checking
+
+00:00:23.339 --> 00:00:24.671
+kernel is attractive
+
+00:00:24.577 --> 00:00:25.284
+because of its
+
+00:00:25.096 --> 00:00:26.676
+stability and simplicity
+
+00:00:26.853 --> 00:00:28.456
+only 400 lines
+
+00:00:28.268 --> 00:00:28.952
+of code
+
+00:00:29.478 --> 00:00:30.492
+Full story on
+
+00:00:30.303 --> 00:00:31.199
+the dashboard

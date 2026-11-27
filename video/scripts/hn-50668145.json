@@ -1,0 +1,20 @@
+{
+  "hook": "Credit card skimming scripts using WebRTC found",
+  "hookText": "Credit card skimming scripts using WebRTC found",
+  "beats": [
+    {
+      "say": "Researchers found credit-card skimming scripts on popular shopping sites that steal payment data and send it out over WebRTC, a channel that slips past many blocklists.",
+      "visual": 1
+    },
+    {
+      "say": "Lascana replied to us and removed the Quorum pixel from their site by November 24th at 15:48 UTC.",
+      "visual": 2
+    },
+    {
+      "say": "Only step 4 is an ordinary web request, which a connect-src rule can block; steps 5 to 7 run over the WebRTC data channel, outside connect-src.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

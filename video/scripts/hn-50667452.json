@@ -1,0 +1,20 @@
+{
+  "hook": "I restored Palm's last device, and brought its OS",
+  "hookText": "I restored Palm's last device, and brought its OS",
+  "beats": [
+    {
+      "say": "A hobbyist restored Palm's last device and ported its webOS to other platforms, keeping a piece of mobile history alive.",
+      "visual": 1
+    },
+    {
+      "say": "Palm’s own OS made these devices useful and responsive, but by 2004, both the company and its platform were in a tough place.",
+      "visual": 0
+    },
+    {
+      "say": "The Palm brand moved to TCL, and HP moved on to selling crappy Android and Windows 8 tablets.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

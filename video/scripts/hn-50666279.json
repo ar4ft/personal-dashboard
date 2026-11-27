@@ -1,0 +1,20 @@
+{
+  "hook": "New York and California age gating rules go into effect",
+  "hookText": "New York and California age gating rules go into effect",
+  "beats": [
+    {
+      "say": "The EFF explains the age-verification rules New York and California are putting into effect in the new year, and what they mean for online services and their users.",
+      "visual": 1
+    },
+    {
+      "say": "In California, AB 1709, AB 1043, and SB 976 are slated to take effect on January 1.",
+      "visual": 2
+    },
+    {
+      "say": "First, SB 976 requires verifiable parental consent before platforms can offer algorithmic feeds or nighttime notifications to anyone under 18.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

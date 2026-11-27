@@ -2,6 +2,161 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50657392",
+      "feedId": "hn:50657392",
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@6280d5b5eadd1505a57eb39d1368c14557039961/hn-50657392.mp4",
+      "poster": "media/videos/hn-50657392.jpg",
+      "captions": "media/videos/hn-50657392.vtt",
+      "duration": 43.1,
+      "transcript": "First images of the impact of DART asteroid deflection experiment ESA's Hera mission has returned the first close-up images of the crater left by NASA's DART asteroid-deflection test, showing the chaotic aftermath of the cosmic smashup. The first-of-its-kind experiment worked beautifully as the solar-powered space probe slammed into asteroid Dimorphos, permanently altering its trajectory. The spacecraft released some 10 billion joules of energy as it impacted Dimorphos in September 2022 at more than 13,700 mph, shortening the asteroid’s 12-hour orbit around Didymos by about 33 minutes. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:11:01Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50657530",
+      "feedId": "hn:50657530",
+      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://github.com/antonpictures/youtube-punisher",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2839a14420aa63de09d1416001506ba13c6287b0/hn-50657530.mp4",
+      "poster": "media/videos/hn-50657530.jpg",
+      "captions": "media/videos/hn-50657530.vtt",
+      "duration": 32.66,
+      "transcript": "YouTube Ad Punisher: Auto-reloads YouTube pages when an ad plays A small tool that automatically reloads a YouTube page whenever an ad starts playing, so playback resumes without sitting through the ad. YouTube re-evaluates ad serving on each reload; after 1-2 cycles the ad slot is empty and the video plays clean. Auto escape: after 3 reloads, the extension automatically switches to a helper tab for 4 seconds, then switches back. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:10:18Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50657645",
+      "feedId": "hn:50657645",
+      "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4d70e5ccd51488e88d69b93c303b52acecaaa060/hn-50657645.mp4",
+      "poster": "media/videos/hn-50657645.jpg",
+      "captions": "media/videos/hn-50657645.vtt",
+      "duration": 40.91,
+      "transcript": "CTO of 'RansomwareHelp' indicted for wire fraud The chief technology officer of a data-recovery firm marketed as RansomwareHelp has been indicted for wire fraud, KrebsOnSecurity reports. Less than 48 hours later, Palacio allegedly told agents acting as the victim company that the diagnostic assessment was successful and that the cost of decrypting the files would be $13. According to charging documents, Pinhasi secretly went behind his customers’ backs and paid hackers anyway, paying ransomware groups $8 million while charging customers $19 million. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:09:45Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50666279",
+      "feedId": "hn:50666279",
+      "title": "New York and California age gating rules go into effect in the new year",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@dceb6a1873fc36fef2c579e824ae260711a30f10/hn-50666279.mp4",
+      "poster": "media/videos/hn-50666279.jpg",
+      "captions": "media/videos/hn-50666279.vtt",
+      "duration": 37.0,
+      "transcript": "New York and California age gating rules go into effect The EFF explains the age-verification rules New York and California are putting into effect in the new year, and what they mean for online services and their users. In California, AB 1709, AB 1043, and SB 976 are slated to take effect on January 1. First, SB 976 requires verifiable parental consent before platforms can offer algorithmic feeds or nighttime notifications to anyone under 18. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:09:06Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-oliver-byrne-colored-euclid",
+      "feedId": "reading:abakcus-oliver-byrne-colored-euclid",
+      "title": "Oliver Byrne's Euclid: The 1847 Geometry Book Printed in Color",
+      "source": "Reading",
+      "topics": [
+        "Math"
+      ],
+      "url": "https://abakcus.com/articles/oliver-byrne-colored-euclid",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@12614472092f89be4994c07cd2581b9137a25b1f/reading-abakcus-oliver-byrne-colored-euclid.mp4",
+      "poster": "media/videos/reading-abakcus-oliver-byrne-colored-euclid.jpg",
+      "captions": "media/videos/reading-abakcus-oliver-byrne-colored-euclid.vtt",
+      "duration": 40.0,
+      "transcript": "Oliver Byrne's Euclid: The 1847 Geometry Book Printed in Color Oliver Byrne's 1847 edition of Euclid's Elements printed its geometric proofs as bold diagrams in red, yellow and blue instead of dense text, one of the most striking mathematics books ever published. Open any edition of Euclid printed between 1482 and 1846 and you meet the same sentence, thousands of times over. Around 1873 the couple settled in her home town of Maidstone in Kent, and there Byrne died of pneumonia on 9 December 1880, aged seventy. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:08:28Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50667452",
+      "feedId": "hn:50667452",
+      "title": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@03c1b19eb9f7360e3cf855fcbbbe1a6fb4285626/hn-50667452.mp4",
+      "poster": "media/videos/hn-50667452.jpg",
+      "captions": "media/videos/hn-50667452.vtt",
+      "duration": 30.5,
+      "transcript": "I restored Palm's last device, and brought its OS A hobbyist restored Palm's last device and ported its webOS to other platforms, keeping a piece of mobile history alive. Palm’s own OS made these devices useful and responsive, but by 2004, both the company and its platform were in a tough place. The Palm brand moved to TCL, and HP moved on to selling crappy Android and Windows 8 tablets. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:07:53Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50667989",
+      "feedId": "hn:50667989",
+      "title": "False computer-checked proofs",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://cr.yp.to/proofs/falseccp.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@1df0efc17149109c788371fbdeacf2504a2aeeab/hn-50667989.mp4",
+      "poster": "media/videos/hn-50667989.jpg",
+      "captions": "media/videos/hn-50667989.vtt",
+      "duration": 32.23,
+      "transcript": "False computer-checked proofs A collection of cases in which computer-checked proofs turned out to be false, and the lessons they hold for trusting machine-verified mathematics. There are some computer programs that claim to check every step in a proof. In many cases, these bugs have been demonstrated to be exploitable. From this perspective, HOL Light's proof-checking kernel is attractive because of its stability and simplicity, only 400 lines of code. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:07:26Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50668145",
+      "feedId": "hn:50668145",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@12f90266b154700c725888f3a76c2ac0641babc2/hn-50668145.mp4",
+      "poster": "media/videos/hn-50668145.jpg",
+      "captions": "media/videos/hn-50668145.vtt",
+      "duration": 37.1,
+      "transcript": "Credit card skimming scripts using WebRTC found Researchers found credit-card skimming scripts on popular shopping sites that steal payment data and send it out over WebRTC, a channel that slips past many blocklists. Lascana replied to us and removed the Quorum pixel from their site by November 24th at 15:48 UTC. Only step 4 is an ordinary web request, which a connect-src rule can block; steps 5 to 7 run over the WebRTC data channel, outside connect-src. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:06:55Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50670757",
+      "feedId": "hn:50670757",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@53393ebf50f6398d0a272513a54e2e2b1f41027c/hn-50670757.mp4",
+      "poster": "media/videos/hn-50670757.jpg",
+      "captions": "media/videos/hn-50670757.vtt",
+      "duration": 34.82,
+      "transcript": "Michael Nielsen took down his book on neural nets At the time, I expected AGI systems based on neural networks to be many decades away, but to bring remarkable benefits for humanity. With the extraordinarily reckless behaviour of the frontier labs, the systems have raced ahead much faster than I expected1, giving humanity far too little time to meet the challenges. Even if you can get a reduction from 10% down to 9%, you would, on net, be saving 80 million lives in expectation. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:06:18Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50651627",
       "feedId": "hn:50651627",
       "title": "Unconditional Integer Factorization in Subexponential Time",
