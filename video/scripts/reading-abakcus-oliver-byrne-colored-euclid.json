@@ -1,20 +1,21 @@
 {
-  "hook": "Oliver Byrne's Euclid: The 1847 Geometry Book Printed in Color",
-  "hookText": "Oliver Byrne's Euclid: The 1847 Geometry Book Printed in Color",
+  "hook": "Euclid, printed in red, yellow and blue.",
+  "hookText": "Euclid in colour",
   "beats": [
     {
-      "say": "Oliver Byrne's 1847 edition of Euclid's Elements printed its geometric proofs as bold diagrams in red, yellow and blue instead of dense text, one of the most striking mathematics books ever published.",
-      "visual": 1
+      "say": "Open any edition of Euclid printed between fourteen eighty-two and eighteen forty-six, and you meet the same sentence thousands of times over.",
+      "visual": 0
     },
     {
-      "say": "Open any edition of Euclid printed between 1482 and 1846 and you meet the same sentence, thousands of times over.",
+      "say": "Oliver Byrne's eighteen forty-seven edition changed that: the triangle has no letters on it, one side red, one yellow, one blue.",
+      "visual": 1,
+      "stat": "1847",
+      "statLabel": "year Byrne's Euclid appeared"
+    },
+    {
+      "say": "Byrne was born in eighteen ten in County Wicklow, and his book taught geometry as pictures, not as a spelling exercise.",
       "visual": 2
-    },
-    {
-      "say": "Around 1873 the couple settled in her home town of Maidstone in Kent, and there Byrne died of pneumonia on 9 December 1880, aged seventy.",
-      "visual": 3
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

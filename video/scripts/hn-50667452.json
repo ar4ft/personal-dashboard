@@ -1,20 +1,21 @@
 {
-  "hook": "I restored Palm's last device, and brought its OS",
-  "hookText": "I restored Palm's last device, and brought its OS",
+  "hook": "Palm's last tablet lives again.",
+  "hookText": "Palm lives again",
   "beats": [
     {
-      "say": "A hobbyist restored Palm's last device and ported its webOS to other platforms, keeping a piece of mobile history alive.",
-      "visual": 1
-    },
-    {
-      "say": "Palm’s own OS made these devices useful and responsive, but by 2004, both the company and its platform were in a tough place.",
+      "say": "Long before the iPhone, the Palm Pilot was the gadget everyone wanted, and its webOS made the devices useful and responsive.",
       "visual": 0
     },
     {
-      "say": "The Palm brand moved to TCL, and HP moved on to selling crappy Android and Windows 8 tablets.",
+      "say": "A community effort has now restored Palm's last device and brought its operating system to other platforms, keeping the old platform alive.",
       "visual": 1
+    },
+    {
+      "say": "This past summer brought webOS Community Edition three point one, replacing HP's final system image with a bundle of community additions and fixes.",
+      "visual": 2,
+      "stat": "3.1.0",
+      "statLabel": "Community Edition"
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

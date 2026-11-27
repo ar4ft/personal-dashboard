@@ -1,20 +1,21 @@
 {
-  "hook": "YouTube Ad Punisher: Auto-reloads YouTube pages when an ad plays",
-  "hookText": "YouTube Ad Punisher: Auto-reloads YouTube pages when an ad plays",
+  "hook": "YouTube ads, punished by the reload button.",
+  "hookText": "Ads, punished by reload",
   "beats": [
     {
-      "say": "A small tool that automatically reloads a YouTube page whenever an ad starts playing, so playback resumes without sitting through the ad.",
-      "visual": 1
+      "say": "YouTube Ad Punisher is a browser extension that reloads the page the moment an ad appears, capturing your exact playback timestamp first.",
+      "visual": 0
     },
     {
-      "say": "YouTube re-evaluates ad serving on each reload; after 1-2 cycles the ad slot is empty and the video plays clean.",
-      "visual": 2
+      "say": "After one or two reloads the ad slot is usually empty, so the video plays clean, with no waiting and no skip button hunting.",
+      "visual": 0,
+      "stat": "1–2",
+      "statLabel": "reloads to clear an ad"
     },
     {
-      "say": "Auto escape: after 3 reloads, the extension automatically switches to a helper tab for 4 seconds, then switches back.",
+      "say": "If three reloads fail, it switches to a helper tab for four seconds, then switches back, and the ad is gone.",
       "visual": 0
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

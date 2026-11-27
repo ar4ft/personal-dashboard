@@ -1,0 +1,21 @@
+{
+  "hook": "Forty-seven gigabytes of mystery System Data.",
+  "hookText": "47 GB of mystery data",
+  "beats": [
+    {
+      "say": "One developer's Mac reported forty-seven gigabytes of System Data, and none of it was photos or downloads.",
+      "visual": 0,
+      "stat": "47 GB",
+      "statLabel": "of System Data"
+    },
+    {
+      "say": "It was developer leftovers: Xcode build data, Docker images, old node modules and package caches, most of it rebuildable again with a single command.",
+      "visual": 1
+    },
+    {
+      "say": "The piece maps the folders behind the bloat and the commands to clear them safely, starting with measuring first what is actually there.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

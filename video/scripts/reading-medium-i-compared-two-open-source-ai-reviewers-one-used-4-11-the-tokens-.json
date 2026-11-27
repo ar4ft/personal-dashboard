@@ -1,0 +1,21 @@
+{
+  "hook": "Same model, eleven times the tokens.",
+  "hookText": "Same model, 11x the tokens",
+  "beats": [
+    {
+      "say": "Two open-source AI code reviewers ran on the same model and the same merge requests, but one used four to eleven times the tokens.",
+      "visual": 0,
+      "stat": "4–11×",
+      "statLabel": "token gap"
+    },
+    {
+      "say": "The difference was the harness: one reviewer reads the diff once and answers, while the other explores the repo turn by turn.",
+      "visual": 1
+    },
+    {
+      "say": "Every turn re-sends the growing conversation, and that is where the tokens go, not in the model itself.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

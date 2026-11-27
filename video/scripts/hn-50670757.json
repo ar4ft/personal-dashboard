@@ -1,22 +1,21 @@
 {
-  "hook": "Michael Nielsen took down his book on neural nets",
-  "hookText": "Michael Nielsen took down his book on neural nets",
+  "hook": "The free neural nets book is gone.",
+  "hookText": "Nielsen's book, taken down",
   "beats": [
     {
-      "say": "At the time, I expected AGI systems based on neural networks to be many decades away, but to bring remarkable benefits for humanity.",
+      "say": "Michael Nielsen wrote Neural Networks and Deep Learning between twenty eleven and twenty fifteen, when he expected neural-net AGI to be many decades away.",
+      "visual": 0,
+      "stat": "2011–2015",
+      "statLabel": "years the book was written"
+    },
+    {
+      "say": "His views have changed: the systems raced ahead far faster than he expected, giving humanity too little time to meet the challenges.",
       "visual": 1
     },
     {
-      "say": "With the extraordinarily reckless behaviour of the frontier labs, the systems have raced ahead much faster than I expected1, giving humanity far too little time to meet the challenges.",
-      "visual": 0
-    },
-    {
-      "say": "Even if you can get a reduction from 10% down to 9%, you would, on net, be saving 80 million lives in expectation.",
-      "visual": 1,
-      "stat": "10%",
-      "statLabel": "down"
+      "say": "He still sees genuine wonders coming, but also a significant risk of catastrophe if the challenges are not met.",
+      "visual": 2
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

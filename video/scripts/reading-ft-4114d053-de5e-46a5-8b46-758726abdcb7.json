@@ -1,0 +1,21 @@
+{
+  "hook": "AI could break encryption before quantum does.",
+  "hookText": "AI vs encryption",
+  "beats": [
+    {
+      "say": "A new danger captured attention this week: AI labs might unleash an ultimate decryption event, factoring the huge numbers that guard our data.",
+      "visual": 0
+    },
+    {
+      "say": "Classic RSA security rests on multiplying two big primes into a figure of two thousand forty-eight bits, about six hundred seventeen decimal digits.",
+      "visual": 1,
+      "stat": "2,048",
+      "statLabel": "bits in RSA keys"
+    },
+    {
+      "say": "The FT argues for faster upgrades to security, not panic, and for disclosing, verifying and discussing any breakthrough openly.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

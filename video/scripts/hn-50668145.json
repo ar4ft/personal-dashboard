@@ -1,20 +1,21 @@
 {
-  "hook": "Credit card skimming scripts using WebRTC found",
-  "hookText": "Credit card skimming scripts using WebRTC found",
+  "hook": "Card skimmers hid inside Black Friday shopping.",
+  "hookText": "Skimmers in Black Friday stores",
   "beats": [
     {
-      "say": "Researchers found credit-card skimming scripts on popular shopping sites that steal payment data and send it out over WebRTC, a channel that slips past many blocklists.",
+      "say": "A skimming script was planted on the stores of Lascana, Samsonite, American Tourister, Revolve and FWRD in the week before Black Friday.",
+      "visual": 0,
+      "stat": "5",
+      "statLabel": "stores hit"
+    },
+    {
+      "say": "It stole card numbers, expiry dates and security codes, then sent them out over a WebRTC data channel, outside the browser's usual request controls.",
       "visual": 1
     },
     {
-      "say": "Lascana replied to us and removed the Quorum pixel from their site by November 24th at 15:48 UTC.",
+      "say": "All five sites removed the script by November twenty-fourth or twenty-fifth, after researchers reported it to them.",
       "visual": 2
-    },
-    {
-      "say": "Only step 4 is an ordinary web request, which a connect-src rule can block; steps 5 to 7 run over the WebRTC data channel, outside connect-src.",
-      "visual": 3
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

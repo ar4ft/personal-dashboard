@@ -1,20 +1,21 @@
 {
-  "hook": "False computer-checked proofs",
-  "hookText": "False computer-checked proofs",
+  "hook": "Even proof checkers can be wrong too.",
+  "hookText": "Proof checkers can be wrong",
   "beats": [
     {
-      "say": "A collection of cases in which computer-checked proofs turned out to be false, and the lessons they hold for trusting machine-verified mathematics.",
-      "visual": 1
-    },
-    {
-      "say": "There are some computer programs that claim to check every step in a proof. In many cases, these bugs have been demonstrated to be exploitable.",
+      "say": "Some computer programs claim to check every step of a proof, yet reported soundness bugs have let false statements slip past them.",
       "visual": 0
     },
     {
-      "say": "From this perspective, HOL Light's proof-checking kernel is attractive because of its stability and simplicity, only 400 lines of code.",
-      "visual": 1
+      "say": "Reports span the major checkers: three bugs listed for Mizar, seven for Metamath, and nine for Isabelle, the most in the list.",
+      "visual": 1,
+      "stat": "9",
+      "statLabel": "Isabelle soundness bugs"
+    },
+    {
+      "say": "In many cases the bugs were demonstrated to be exploitable, a warning against trusting any machine verification completely blindly.",
+      "visual": 2
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

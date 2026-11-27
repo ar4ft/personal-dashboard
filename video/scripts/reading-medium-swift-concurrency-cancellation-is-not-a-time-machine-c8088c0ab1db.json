@@ -1,0 +1,19 @@
+{
+  "hook": "Cancelling a task does not rewind it.",
+  "hookText": "Cancel does not rewind",
+  "beats": [
+    {
+      "say": "In Swift, cancellation is cooperative: calling cancel only signals that the work is no longer wanted, and the running code must respond.",
+      "visual": 0
+    },
+    {
+      "say": "A cancelled request can still finish and update the view, so the last response wins even when it belongs to an older search.",
+      "visual": 1
+    },
+    {
+      "say": "The fix is to separate resource management from result ownership, and to check what changed while you waited.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

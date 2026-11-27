@@ -1,0 +1,19 @@
+{
+  "hook": "Learn math by dragging it around.",
+  "hookText": "Math you can drag",
+  "beats": [
+    {
+      "say": "DragDropMath is a hands-on web app that teaches math by feel, letting you drag and drop expressions instead of typing out formulas.",
+      "visual": 0
+    },
+    {
+      "say": "The idea is to make algebra feel tangible, so you learn by moving the pieces around and seeing exactly what changes.",
+      "visual": 1
+    },
+    {
+      "say": "It is a Show HN project, built for learners who understand more by feel than by symbols on a printed page.",
+      "visual": 2
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}

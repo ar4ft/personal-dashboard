@@ -1,22 +1,21 @@
 {
-  "hook": "CTO of 'RansomwareHelp' indicted for wire fraud",
-  "hookText": "CTO of 'RansomwareHelp' indicted for wire fraud",
+  "hook": "The ransomware rescuers were paying the ransom.",
+  "hookText": "Rescuers who paid the ransom",
   "beats": [
     {
-      "say": "The chief technology officer of a data-recovery firm marketed as RansomwareHelp has been indicted for wire fraud, KrebsOnSecurity reports.",
+      "say": "RansomwareHelp promised victims it could restore one hundred percent of their data with advanced cryptographic tools, and told them never to pay.",
+      "visual": 0,
+      "stat": "100%",
+      "statLabel": "data recovery promised"
+    },
+    {
+      "say": "An FBI sting found the company simply paid the attackers for a decryption key, then charged victims a markup for work it never performed.",
       "visual": 1
     },
     {
-      "say": "Less than 48 hours later, Palacio allegedly told agents acting as the victim company that the diagnostic assessment was successful and that the cost of decrypting the files would be $13.",
+      "say": "Its chief technology officer and co-founder, of a six-year-old Florida business, has now been charged with wire fraud.",
       "visual": 2
-    },
-    {
-      "say": "According to charging documents, Pinhasi secretly went behind his customers’ backs and paid hackers anyway, paying ransomware groups $8 million while charging customers $19 million.",
-      "visual": 3,
-      "stat": "$8 million",
-      "statLabel": "while charging customers"
     }
   ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+  "outro": "Full story on the dashboard."
 }

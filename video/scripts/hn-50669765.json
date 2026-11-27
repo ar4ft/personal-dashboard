@@ -1,0 +1,19 @@
+{
+  "hook": "Your app idea, sent to a server silently.",
+  "hookText": "Your idea, sent silently",
+  "beats": [
+    {
+      "say": "A GitHub issue reports that Convex's quickstart skills quietly send a user's app idea to a remote host, then run remote scripts there.",
+      "visual": 0
+    },
+    {
+      "say": "The scripts run without telling the user, and the issue says they are written to avoid safety checks, so the user never sees what leaves their machine.",
+      "visual": 0
+    },
+    {
+      "say": "The report is now filed as issue sixty-four against the Convex backend skills repository.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard."
+}
