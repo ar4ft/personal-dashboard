@@ -56082,6 +56082,264 @@
       "url": "https://abakcus.com/book-lists/best-calculus-books",
       "createdAt": "2026-11-26T00:00:00Z",
       "updatedAt": "2026-11-26T00:00:00Z"
+    },
+    {
+      "id": "hn:50663595",
+      "section": "news",
+      "type": "news",
+      "title": "The group chat where your AI talks behind your back",
+      "description": "A look at what happens when the AI assistants in a group chat start talking to each other behind the users' backs.",
+      "content": "A look at what happens when the AI assistants in a group chat start talking to each other behind the users' backs.\n\n[Read the article](https://construct22.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50663595)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "utiiiD",
+      "url": "https://construct22.com/",
+      "createdAt": "2026-11-27T06:44:34Z",
+      "updatedAt": "2026-11-27T06:44:34Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50655868",
+      "section": "news",
+      "type": "news",
+      "title": "Show HN: I wrote an entire Vim manual over 4 years",
+      "description": "A complete Vim manual written over four years, now shared with the community.",
+      "content": "A complete Vim manual written over four years, now shared with the community.\n\n[Read the article](http://themouseless.dev/vim/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50655868)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "thanato0s",
+      "url": "http://themouseless.dev/vim/",
+      "createdAt": "2026-11-26T14:44:22Z",
+      "updatedAt": "2026-11-26T14:44:22Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50663089",
+      "section": "news",
+      "type": "news",
+      "title": "The need for a formally verifiable mainstream programming language",
+      "description": "An argument that mainstream programming needs a language designed for formal verification from the start.",
+      "content": "An argument that mainstream programming needs a language designed for formal verification from the start.\n\n[Read the article](https://blainehansen.me/post/mainstream-verifiable-language/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50663089)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "todsacerdoti",
+      "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "createdAt": "2026-11-27T05:22:06Z",
+      "updatedAt": "2026-11-27T05:22:06Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50651627",
+      "section": "news",
+      "type": "news",
+      "title": "Unconditional Integer Factorization in Subexponential Time",
+      "description": "A result on factoring integers in subexponential time without unproven assumptions, with the paper and code in Google Research's repository.",
+      "content": "A result on factoring integers in subexponential time without unproven assumptions, with the paper and code in Google Research's repository.\n\n[Read the article](https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization)\n\n[HN discussion](https://news.ycombinator.com/item?id=50651627)\n\n[Repo on GitHub](https://github.com/google-research/google-research)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "_alternator_",
+      "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+      "createdAt": "2026-11-26T04:59:56Z",
+      "updatedAt": "2026-11-26T04:59:56Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50664191",
+      "section": "news",
+      "type": "news",
+      "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+      "description": "The European Commission has made browser competition a priority under the Digital Markets Act, a win for the open-web advocates who campaigned for it.",
+      "content": "The European Commission has made browser competition a priority under the Digital Markets Act, a win for the open-web advocates who campaigned for it.\n\n[Read the article](https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50664191)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "anilgulecha",
+      "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+      "createdAt": "2026-11-27T08:11:46Z",
+      "updatedAt": "2026-11-27T08:11:46Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50664104",
+      "section": "news",
+      "type": "news",
+      "title": "Indie web browser Ladybird enters alpha testing",
+      "description": "Ladybird, the independent web browser built from scratch, has entered alpha testing.",
+      "content": "Ladybird, the independent web browser built from scratch, has entered alpha testing.\n\n[Read the article](https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914)\n\n[HN discussion](https://news.ycombinator.com/item?id=50664104)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "01-_-",
+      "url": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+      "createdAt": "2026-11-27T07:58:37Z",
+      "updatedAt": "2026-11-27T07:58:37Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50666356",
+      "section": "news",
+      "type": "news",
+      "title": "AWS adds virtual iPhones to its cloud",
+      "description": "Amazon Web Services now offers virtual iPhones in its cloud, bringing iOS devices to its device farm.",
+      "content": "Amazon Web Services now offers virtual iPhones in its cloud, bringing iOS devices to its device farm.\n\n[Read the article](https://www.theregister.com/off-prem/2026/11/27/aws-adds-virtual-iphones-to-its-cloud/5312457)\n\n[HN discussion](https://news.ycombinator.com/item?id=50666356)",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "source": "Hacker News",
+      "author": "Diraan",
+      "url": "https://www.theregister.com/off-prem/2026/11/27/aws-adds-virtual-iphones-to-its-cloud/5312457",
+      "createdAt": "2026-11-27T12:52:17Z",
+      "updatedAt": "2026-11-27T12:52:17Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50666149",
+      "section": "news",
+      "type": "news",
+      "title": "A new breed of chip runs AI models using waves of light",
+      "description": "A new kind of chip runs AI models with light waves instead of electricity, promising faster and more efficient inference.",
+      "content": "A new kind of chip runs AI models with light waves instead of electricity, promising faster and more efficient inference.\n\n[Read the article](https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50666149)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "thamiltonsmith",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "createdAt": "2026-11-27T12:29:33Z",
+      "updatedAt": "2026-11-27T12:29:33Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50666169",
+      "section": "news",
+      "type": "news",
+      "title": "Why Does Voice AI Still Struggle with Kenyans' Speech?",
+      "description": "Voice AI still struggles with Kenyan speech, and the piece looks at why Swahili and local accents trip up today's systems.",
+      "content": "Voice AI still struggles with Kenyan speech, and the piece looks at why Swahili and local accents trip up today's systems.\n\n[Read the article](https://spectrum.ieee.org/swahili-speech-recognition)\n\n[HN discussion](https://news.ycombinator.com/item?id=50666169)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "ersinesen",
+      "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+      "createdAt": "2026-11-27T12:32:41Z",
+      "updatedAt": "2026-11-27T12:32:41Z",
+      "status": "inbox"
+    },
+    {
+      "id": "hn:50665732",
+      "section": "news",
+      "type": "news",
+      "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+      "description": "An AI agent has made a cardless purchase in the UK for the first time, ordering a pizza without a human entering any payment details.",
+      "content": "An AI agent has made a cardless purchase in the UK for the first time, ordering a pizza without a human entering any payment details.\n\n[Read the article](https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer)\n\n[HN discussion](https://news.ycombinator.com/item?id=50665732)",
+      "topics": [
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "6LLvveMx2koXfwn",
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "createdAt": "2026-11-27T11:41:11Z",
+      "updatedAt": "2026-11-27T11:41:11Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-how-linkedin-built-venice-to-serve-machine-learning-data-at-massive-scale-f4436f20ff57",
+      "section": "news",
+      "type": "news",
+      "title": "How LinkedIn Built Venice to Serve Machine Learning Data at Massive Scale",
+      "description": "LinkedIn's Venice is the system that serves machine learning data at massive scale; the piece explains how it was built.",
+      "content": "LinkedIn's Venice is the system that serves machine learning data at massive scale; the piece explains how it was built.\n\n[Read the article](https://medium.com/engineering-playbook/how-linkedin-built-venice-to-serve-machine-learning-data-at-massive-scale-f4436f20ff57)",
+      "topics": [
+        "Machine Learning"
+      ],
+      "source": "Reading",
+      "author": "Inside Backend Engineering",
+      "url": "https://medium.com/engineering-playbook/how-linkedin-built-venice-to-serve-machine-learning-data-at-massive-scale-f4436f20ff57",
+      "createdAt": "2026-11-27T12:36:54Z",
+      "updatedAt": "2026-11-27T12:36:54Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe281db2f29",
+      "section": "news",
+      "type": "news",
+      "title": "Rules First, Model Second: Adding On-Device AI to a SwiftUI App",
+      "description": "A practical approach to adding on-device AI to a SwiftUI app: start with rules, then layer the model on top.",
+      "content": "A practical approach to adding on-device AI to a SwiftUI app: start with rules, then layer the model on top.\n\n[Read the article](https://pars-tuncel.medium.com/rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe281db2f29)",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Pars Tuncel",
+      "url": "https://pars-tuncel.medium.com/rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe281db2f29",
+      "createdAt": "2026-11-27T10:13:14Z",
+      "updatedAt": "2026-11-27T10:13:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-wrapping-corebluetooth-in-swift-concurrency-236d3d71382f",
+      "section": "news",
+      "type": "news",
+      "title": "Wrapping CoreBluetooth in Swift Concurrency",
+      "description": "How to wrap CoreBluetooth in Swift concurrency for cleaner Bluetooth code in Swift apps.",
+      "content": "How to wrap CoreBluetooth in Swift concurrency for cleaner Bluetooth code in Swift apps.\n\n[Read the article](https://pars-tuncel.medium.com/wrapping-corebluetooth-in-swift-concurrency-236d3d71382f)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "author": "Pars Tuncel",
+      "url": "https://pars-tuncel.medium.com/wrapping-corebluetooth-in-swift-concurrency-236d3d71382f",
+      "createdAt": "2026-11-27T09:47:25Z",
+      "updatedAt": "2026-11-27T09:47:25Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:medium-claude-code-2-0-best-practices-1029353b3c9a",
+      "section": "news",
+      "type": "news",
+      "title": "Claude Code 2.0 Best Practices",
+      "description": "Best practices for getting the most out of Claude Code 2.0, Anthropic's agentic coding tool.",
+      "content": "Best practices for getting the most out of Claude Code 2.0, Anthropic's agentic coding tool.\n\n[Read the article](https://uxplanet.org/claude-code-2-0-best-practices-1029353b3c9a)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Reading",
+      "author": "Nick Babich",
+      "url": "https://uxplanet.org/claude-code-2-0-best-practices-1029353b3c9a",
+      "createdAt": "2026-11-27T12:59:14Z",
+      "updatedAt": "2026-11-27T12:59:14Z",
+      "status": "inbox"
+    },
+    {
+      "id": "reading:abakcus-best-books-for-math-teachers",
+      "section": "news",
+      "type": "news",
+      "title": "The 24 Best Books for Math Teachers, in Reading Order",
+      "description": "What to read if you teach mathematics, from why the subject is worth teaching to how children learn it and what to do on Monday morning. 24 books in five steps, three of them free.",
+      "content": "What to read if you teach mathematics, from why the subject is worth teaching to how children learn it and what to do on Monday morning. 24 books in five steps, three of them free.\n\n[Read the article](https://abakcus.com/book-lists/best-books-for-math-teachers)",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "url": "https://abakcus.com/book-lists/best-books-for-math-teachers",
+      "createdAt": "2026-11-27T00:00:00Z",
+      "updatedAt": "2026-11-27T00:00:00Z",
+      "status": "inbox"
     }
   ]
 }
