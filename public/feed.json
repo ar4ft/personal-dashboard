@@ -56340,6 +56340,266 @@
       "createdAt": "2026-11-27T00:00:00Z",
       "updatedAt": "2026-11-27T00:00:00Z",
       "status": "inbox"
+    },
+    {
+      "id": "hn:50657530",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+      "description": "A small tool that automatically reloads a YouTube page whenever an ad starts playing, so playback resumes without sitting through the ad.",
+      "content": "A small tool that automatically reloads a YouTube page whenever an ad starts playing, so playback resumes without sitting through the ad.\n\n[Repo on GitHub](https://github.com/antonpictures/youtube-punisher)\n\n[HN discussion](https://news.ycombinator.com/item?id=50657530)",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "iantongeorge",
+      "url": "https://github.com/antonpictures/youtube-punisher",
+      "createdAt": "2026-11-26T17:36:47Z",
+      "updatedAt": "2026-11-26T17:36:47Z"
+    },
+    {
+      "id": "hn:50668145",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "description": "Researchers found credit-card skimming scripts on popular shopping sites that steal payment data and send it out over WebRTC, a channel that slips past many blocklists.",
+      "content": "Researchers found credit-card skimming scripts on popular shopping sites that steal payment data and send it out over WebRTC, a channel that slips past many blocklists.\n\n[Read the article](https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer)\n\n[HN discussion](https://news.ycombinator.com/item?id=50668145)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "scanr",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "createdAt": "2026-11-27T15:40:31Z",
+      "updatedAt": "2026-11-27T15:40:31Z"
+    },
+    {
+      "id": "hn:50657645",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+      "description": "The chief technology officer of a data-recovery firm marketed as RansomwareHelp has been indicted for wire fraud, KrebsOnSecurity reports.",
+      "content": "The chief technology officer of a data-recovery firm marketed as RansomwareHelp has been indicted for wire fraud, KrebsOnSecurity reports.\n\n[Read the article](https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50657645)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Bender",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "createdAt": "2026-11-26T17:47:45Z",
+      "updatedAt": "2026-11-26T17:47:45Z"
+    },
+    {
+      "id": "hn:50670757",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "description": "Michael Nielsen's widely read free book “Neural Networks and Deep Learning” has been taken down, prompting discussion of its legacy and of where learners should turn next.",
+      "content": "Michael Nielsen's widely read free book “Neural Networks and Deep Learning” has been taken down, prompting discussion of its legacy and of where learners should turn next.\n\n[Read the article](https://neuralnetworksanddeeplearning.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50670757)",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "brandonb",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "createdAt": "2026-11-27T19:31:01Z",
+      "updatedAt": "2026-11-27T19:31:01Z"
+    },
+    {
+      "id": "hn:50669765",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "description": "A GitHub issue reports that Convex's agent skills transmit a user's app idea to a remote server without saying so, raising questions about what coding assistants disclose before they phone home.",
+      "content": "A GitHub issue reports that Convex's agent skills transmit a user's app idea to a remote server without saying so, raising questions about what coding assistants disclose before they phone home.\n\n[Issue on GitHub](https://github.com/convex/convex-backend-skill/issues/64)\n\n[HN discussion](https://news.ycombinator.com/item?id=50669765)",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "MickyTheMouse",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "createdAt": "2026-11-27T18:02:45Z",
+      "updatedAt": "2026-11-27T18:02:45Z"
+    },
+    {
+      "id": "hn:50666279",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "New York and California age gating rules go into effect in the new year",
+      "description": "The EFF explains the age-verification rules New York and California are putting into effect in the new year, and what they mean for online services and their users.",
+      "content": "The EFF explains the age-verification rules New York and California are putting into effect in the new year, and what they mean for online services and their users.\n\n[Read the article](https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year)\n\n[HN discussion](https://news.ycombinator.com/item?id=50666279)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "frutiger",
+      "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+      "createdAt": "2026-11-27T12:43:40Z",
+      "updatedAt": "2026-11-27T12:43:40Z"
+    },
+    {
+      "id": "hn:50657392",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "description": "ESA's Hera mission has returned the first close-up images of the crater left by NASA's DART asteroid-deflection test, showing the chaotic aftermath of the cosmic smashup.",
+      "content": "ESA's Hera mission has returned the first close-up images of the crater left by NASA's DART asteroid-deflection test, showing the chaotic aftermath of the cosmic smashup.\n\n[Read the article](https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50657392)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Bender",
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+      "createdAt": "2026-11-26T17:24:37Z",
+      "updatedAt": "2026-11-26T17:24:37Z"
+    },
+    {
+      "id": "hn:50667989",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "False computer-checked proofs",
+      "description": "A collection of cases in which computer-checked proofs turned out to be false, and the lessons they hold for trusting machine-verified mathematics.",
+      "content": "A collection of cases in which computer-checked proofs turned out to be false, and the lessons they hold for trusting machine-verified mathematics.\n\n[Read the article](https://cr.yp.to/proofs/falseccp.html)\n\n[HN discussion](https://news.ycombinator.com/item?id=50667989)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "_tk_",
+      "url": "https://cr.yp.to/proofs/falseccp.html",
+      "createdAt": "2026-11-27T15:26:09Z",
+      "updatedAt": "2026-11-27T15:26:09Z"
+    },
+    {
+      "id": "hn:50669673",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "description": "DragDropMath is a hands-on web app for learning math by dragging and dropping expressions, aiming to make algebra feel tangible rather than abstract.",
+      "content": "DragDropMath is a hands-on web app for learning math by dragging and dropping expressions, aiming to make algebra feel tangible rather than abstract.\n\n[Read the article](https://dragdropmath.com/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50669673)",
+      "topics": [
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "ziofill",
+      "url": "https://dragdropmath.com/",
+      "createdAt": "2026-11-27T17:56:28Z",
+      "updatedAt": "2026-11-27T17:56:28Z"
+    },
+    {
+      "id": "hn:50667452",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
+      "description": "A hobbyist restored Palm's last device and ported its webOS to other platforms, keeping a piece of mobile history alive.",
+      "content": "A hobbyist restored Palm's last device and ported its webOS to other platforms, keeping a piece of mobile history alive.\n\n[Read the article](https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50667452)",
+      "topics": [
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "codepoet80",
+      "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
+      "createdAt": "2026-11-27T14:37:02Z",
+      "updatedAt": "2026-11-27T14:37:02Z"
+    },
+    {
+      "id": "reading:medium-i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-983c20629c41",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "I Compared Two Open-Source AI Reviewers. One Used 4–11× the Tokens.",
+      "description": "Two open-source AI code reviewers were run on the same merge requests: one reads only the diff, the other explores the whole repo, and the exploring one used 4 to 11 times the tokens.",
+      "content": "Two open-source AI code reviewers were run on the same merge requests: one reads only the diff, the other explores the whole repo, and the exploring one used 4 to 11 times the tokens.\n\n[Read the article](https://medium.com/@s.mabdullahahsan/i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-983c20629c41)",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://medium.com/@s.mabdullahahsan/i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-983c20629c41",
+      "createdAt": "2026-11-27T22:31:41Z",
+      "updatedAt": "2026-11-27T22:31:41Z",
+      "author": "Abdullah Ahsan"
+    },
+    {
+      "id": "reading:medium-swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Swift Concurrency: Cancellation Is Not a Time Machine",
+      "description": "Cancelling a Swift Concurrency task does not rewind work already done, so a cancelled request can still leave the interface in a wrong state; the piece separates resource management from result ownership.",
+      "content": "Cancelling a Swift Concurrency task does not rewind work already done, so a cancelled request can still leave the interface in a wrong state; the piece separates resource management from result ownership.\n\n[Read the article](https://michaelabadi.medium.com/swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db)",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Reading",
+      "url": "https://michaelabadi.medium.com/swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db",
+      "createdAt": "2026-11-27T14:53:43Z",
+      "updatedAt": "2026-11-27T14:53:43Z",
+      "author": "Michael Abadi S."
+    },
+    {
+      "id": "reading:medium-where-your-macs-storage-actually-goes-when-you-re-a-developer-c52a18723497",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Where your Mac’s storage actually goes when you’re a developer",
+      "description": "A tour of the folders behind macOS “System Data” that eat a developer's disk, with the commands to clear them safely.",
+      "content": "A tour of the folders behind macOS “System Data” that eat a developer's disk, with the commands to clear them safely.\n\n[Read the article](https://medium.com/@ojas.13/where-your-macs-storage-actually-goes-when-you-re-a-developer-c52a18723497)",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "source": "Reading",
+      "url": "https://medium.com/@ojas.13/where-your-macs-storage-actually-goes-when-you-re-a-developer-c52a18723497",
+      "createdAt": "2026-11-27T19:16:10Z",
+      "updatedAt": "2026-11-27T19:16:10Z",
+      "author": "Ojas Palorkar"
+    },
+    {
+      "id": "reading:ft-4114d053-de5e-46a5-8b46-758726abdcb7",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "AI and the decryption nightmare",
+      "description": "New breakthroughs call for faster upgrades to security, not panic — the FT on how AI advances are pressuring encryption and what should change.",
+      "content": "New breakthroughs call for faster upgrades to security, not panic — the FT on how AI advances are pressuring encryption and what should change.\n\n[Read the article](https://www.ft.com/content/4114d053-de5e-46a5-8b46-758726abdcb7)",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Reading",
+      "url": "https://www.ft.com/content/4114d053-de5e-46a5-8b46-758726abdcb7",
+      "createdAt": "2026-11-27T18:18:27Z",
+      "updatedAt": "2026-11-27T18:18:27Z"
+    },
+    {
+      "id": "reading:abakcus-oliver-byrne-colored-euclid",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Oliver Byrne's Euclid: The 1847 Geometry Book Printed in Color",
+      "description": "Oliver Byrne's 1847 edition of Euclid's Elements printed its geometric proofs as bold diagrams in red, yellow and blue instead of dense text — one of the most striking mathematics books ever published.",
+      "content": "Oliver Byrne's 1847 edition of Euclid's Elements printed its geometric proofs as bold diagrams in red, yellow and blue instead of dense text — one of the most striking mathematics books ever published.\n\n[Article on Abakcus](https://abakcus.com/articles/oliver-byrne-colored-euclid)",
+      "topics": [
+        "Math"
+      ],
+      "source": "Reading",
+      "url": "https://abakcus.com/articles/oliver-byrne-colored-euclid",
+      "createdAt": "2026-11-27T13:00:00Z",
+      "updatedAt": "2026-11-27T13:00:00Z",
+      "author": "Ali Kaya"
     }
   ]
 }
