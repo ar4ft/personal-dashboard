@@ -2,6 +2,267 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50657392",
+      "feedId": "hn:50657392",
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@ddd737173e0403b9a8061b9ebca1dd2c57431ad5/hn-50657392.mp4",
+      "poster": "media/videos/hn-50657392.jpg",
+      "captions": "media/videos/hn-50657392.vtt",
+      "duration": 29.8,
+      "transcript": "First close-ups of an asteroid smash. ESA's Hera mission has returned the first close-up images of the impact of the DART asteroid deflection experiment, the crater left behind by the impact. The pictures show the chaotic aftermath of the cosmic smashup, the scene where a spacecraft deliberately struck an asteroid to shift its path. It is the first look at what a planetary defence impact really leaves behind in space. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:26:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50657530",
+      "feedId": "hn:50657530",
+      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://github.com/antonpictures/youtube-punisher",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@80dd59b4b219a355a24e9f343f0e61fbe2dbaa08/hn-50657530.mp4",
+      "poster": "media/videos/hn-50657530.jpg",
+      "captions": "media/videos/hn-50657530.vtt",
+      "duration": 31.29,
+      "transcript": "YouTube ads, punished by the reload button. YouTube Ad Punisher is a browser extension that reloads the page the moment an ad appears, capturing your exact playback timestamp first. After one or two reloads the ad slot is usually empty, so the video plays clean, with no waiting and no skip button hunting. If three reloads fail, it switches to a helper tab for four seconds, then switches back, and the ad is gone. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:26:22Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50657645",
+      "feedId": "hn:50657645",
+      "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@6a4569402b2e12a4275372056ffc09fc83b9175d/hn-50657645.mp4",
+      "poster": "media/videos/hn-50657645.jpg",
+      "captions": "media/videos/hn-50657645.vtt",
+      "duration": 31.39,
+      "transcript": "The ransomware rescuers were paying the ransom. RansomwareHelp promised victims it could restore one hundred percent of their data with advanced cryptographic tools, and told them never to pay. An FBI sting found the company simply paid the attackers for a decryption key, then charged victims a markup for work it never performed. Its chief technology officer and co-founder, of a six-year-old Florida business, has now been charged with wire fraud. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:25:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50666279",
+      "feedId": "hn:50666279",
+      "title": "New York and California age gating rules go into effect in the new year",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@84c2b5a6c067b4bbef76dba46a21d5b553e26924/hn-50666279.mp4",
+      "poster": "media/videos/hn-50666279.jpg",
+      "captions": "media/videos/hn-50666279.vtt",
+      "duration": 28.03,
+      "transcript": "Age checks arrive in two big states. New York and California are putting age gating rules into effect in the new year, and the EFF has published an explainer on what they require. The rules will affect online services and their users, changing how sites verify age before letting people in. The details matter now, because the new year is only weeks away and services must be ready in time. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:25:20Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-oliver-byrne-colored-euclid",
+      "feedId": "reading:abakcus-oliver-byrne-colored-euclid",
+      "title": "Oliver Byrne's Euclid: The 1847 Geometry Book Printed in Color",
+      "source": "Reading",
+      "topics": [
+        "Math"
+      ],
+      "url": "https://abakcus.com/articles/oliver-byrne-colored-euclid",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@780761da390c9ba9d68a0b167d2a06650e3c022a/reading-abakcus-oliver-byrne-colored-euclid.mp4",
+      "poster": "media/videos/reading-abakcus-oliver-byrne-colored-euclid.jpg",
+      "captions": "media/videos/reading-abakcus-oliver-byrne-colored-euclid.vtt",
+      "duration": 30.57,
+      "transcript": "Euclid, printed in red, yellow and blue. Open any edition of Euclid printed between fourteen eighty-two and eighteen forty-six, and you meet the same sentence thousands of times over. Oliver Byrne's eighteen forty-seven edition changed that: the triangle has no letters on it, one side red, one yellow, one blue. Byrne was born in eighteen ten in County Wicklow, and his book taught geometry as pictures, not as a spelling exercise. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:24:50Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50667452",
+      "feedId": "hn:50667452",
+      "title": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@0b9099b96b52b985fb341e79ccf52e15b81f3d24/hn-50667452.mp4",
+      "poster": "media/videos/hn-50667452.jpg",
+      "captions": "media/videos/hn-50667452.vtt",
+      "duration": 32.47,
+      "transcript": "Palm's last tablet lives again. Long before the iPhone, the Palm Pilot was the gadget everyone wanted, and its webOS made the devices useful and responsive. A community effort has now restored Palm's last device and brought its operating system to other platforms, keeping the old platform alive. This past summer brought webOS Community Edition three point one, replacing HP's final system image with a bundle of community additions and fixes. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:24:19Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db",
+      "feedId": "reading:medium-swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db",
+      "title": "Swift Concurrency: Cancellation Is Not a Time Machine",
+      "source": "Reading",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://michaelabadi.medium.com/swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@91659c25590e32a0d7ab0095f7550303f91c47f3/reading-medium-swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db.mp4",
+      "poster": "media/videos/reading-medium-swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db.jpg",
+      "captions": "media/videos/reading-medium-swift-concurrency-cancellation-is-not-a-time-machine-c8088c0ab1db.vtt",
+      "duration": 29.39,
+      "transcript": "Cancelling a task does not rewind it. In Swift, cancellation is cooperative: calling cancel only signals that the work is no longer wanted, and the running code must respond. A cancelled request can still finish and update the view, so the last response wins even when it belongs to an older search. The fix is to separate resource management from result ownership, and to check what changed while you waited. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:23:51Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50667989",
+      "feedId": "hn:50667989",
+      "title": "False computer-checked proofs",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://cr.yp.to/proofs/falseccp.html",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@33fc98fc8a4771b319391951c6f52fc55dda218c/hn-50667989.mp4",
+      "poster": "media/videos/hn-50667989.jpg",
+      "captions": "media/videos/hn-50667989.vtt",
+      "duration": 30.5,
+      "transcript": "Even proof checkers can be wrong too. Some computer programs claim to check every step of a proof, yet reported soundness bugs have let false statements slip past them. Reports span the major checkers: three bugs listed for Mizar, seven for Metamath, and nine for Isabelle, the most in the list. In many cases the bugs were demonstrated to be exploitable, a warning against trusting any machine verification completely blindly. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:23:25Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50668145",
+      "feedId": "hn:50668145",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2eb666025b4125d797f5efaac7679f2a61ccd710/hn-50668145.mp4",
+      "poster": "media/videos/hn-50668145.jpg",
+      "captions": "media/videos/hn-50668145.vtt",
+      "duration": 32.63,
+      "transcript": "Card skimmers hid inside Black Friday shopping. A skimming script was planted on the stores of Lascana, Samsonite, American Tourister, Revolve and FWRD in the week before Black Friday. It stole card numbers, expiry dates and security codes, then sent them out over a WebRTC data channel, outside the browser's usual request controls. All five sites removed the script by November twenty-fourth or twenty-fifth, after researchers reported it to them. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:22:55Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50669673",
+      "feedId": "hn:50669673",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://dragdropmath.com/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2670c03ecd91be87472a354eb884d0016f8e5e3c/hn-50669673.mp4",
+      "poster": "media/videos/hn-50669673.jpg",
+      "captions": "media/videos/hn-50669673.vtt",
+      "duration": 27.93,
+      "transcript": "Learn math by dragging it around. DragDropMath is a hands-on web app that teaches math by feel, letting you drag and drop expressions instead of typing out formulas. The idea is to make algebra feel tangible, so you learn by moving the pieces around and seeing exactly what changes. It is a Show HN project, built for learners who understand more by feel than by symbols on a printed page. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:22:24Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50669765",
+      "feedId": "hn:50669765",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@cc824715626b7806a41ba5fc4d59222f40c2ffa2/hn-50669765.mp4",
+      "poster": "media/videos/hn-50669765.jpg",
+      "captions": "media/videos/hn-50669765.vtt",
+      "duration": 28.94,
+      "transcript": "Your app idea, sent to a server silently. A GitHub issue reports that Convex's quickstart skills quietly send a user's app idea to a remote host, then run remote scripts there. The scripts run without telling the user, and the issue says they are written to avoid safety checks, so the user never sees what leaves their machine. The report is now filed as issue sixty-four against the Convex backend skills repository. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:22:00Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-ft-4114d053-de5e-46a5-8b46-758726abdcb7",
+      "feedId": "reading:ft-4114d053-de5e-46a5-8b46-758726abdcb7",
+      "title": "AI and the decryption nightmare",
+      "source": "Reading",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://www.ft.com/content/4114d053-de5e-46a5-8b46-758726abdcb7",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@6e6541242f385cdfc2726ee023be56ae51159400/reading-ft-4114d053-de5e-46a5-8b46-758726abdcb7.mp4",
+      "poster": "media/videos/reading-ft-4114d053-de5e-46a5-8b46-758726abdcb7.jpg",
+      "captions": "media/videos/reading-ft-4114d053-de5e-46a5-8b46-758726abdcb7.vtt",
+      "duration": 34.29,
+      "transcript": "AI could break encryption before quantum does. A new danger captured attention this week: AI labs might unleash an ultimate decryption event, factoring the huge numbers that guard our data. Classic RSA security rests on multiplying two big primes into a figure of two thousand forty-eight bits, about six hundred seventeen decimal digits. The FT argues for faster upgrades to security, not panic, and for disclosing, verifying and discussing any breakthrough openly. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:21:31Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-where-your-macs-storage-actually-goes-when-you-re-a-developer-c52",
+      "feedId": "reading:medium-where-your-macs-storage-actually-goes-when-you-re-a-developer-c52a18723497",
+      "title": "Where your Mac’s storage actually goes when you’re a developer",
+      "source": "Reading",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://medium.com/@ojas.13/where-your-macs-storage-actually-goes-when-you-re-a-developer-c52a18723497",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@35caaa596db438d56beade27f6a533fe09369be0/reading-medium-where-your-macs-storage-actually-goes-when-you-re-a-developer-c52.mp4",
+      "poster": "media/videos/reading-medium-where-your-macs-storage-actually-goes-when-you-re-a-developer-c52.jpg",
+      "captions": "media/videos/reading-medium-where-your-macs-storage-actually-goes-when-you-re-a-developer-c52.vtt",
+      "duration": 31.58,
+      "transcript": "Forty-seven gigabytes of mystery System Data. One developer's Mac reported forty-seven gigabytes of System Data, and none of it was photos or downloads. It was developer leftovers: Xcode build data, Docker images, old node modules and package caches, most of it rebuildable again with a single command. The piece maps the folders behind the bloat and the commands to clear them safely, starting with measuring first what is actually there. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:21:02Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50670757",
+      "feedId": "hn:50670757",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@46f3960f98f074c4d47d76521bef331de1728ac5/hn-50670757.mp4",
+      "poster": "media/videos/hn-50670757.jpg",
+      "captions": "media/videos/hn-50670757.vtt",
+      "duration": 31.07,
+      "transcript": "The free neural nets book is gone. Michael Nielsen wrote Neural Networks and Deep Learning between twenty eleven and twenty fifteen, when he expected neural-net AGI to be many decades away. His views have changed: the systems raced ahead far faster than he expected, giving humanity too little time to meet the challenges. He still sees genuine wonders coming, but also a significant risk of catastrophe if the challenges are not met. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:20:32Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-",
+      "feedId": "reading:medium-i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-983c20629c41",
+      "title": "I Compared Two Open-Source AI Reviewers. One Used 4–11× the Tokens.",
+      "source": "Reading",
+      "topics": [
+        "AI",
+        "Programming"
+      ],
+      "url": "https://medium.com/@s.mabdullahahsan/i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-983c20629c41",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@d270a7b678e5ff7f3dac0e469b653c0f6b416d07/reading-medium-i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-.mp4",
+      "poster": "media/videos/reading-medium-i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-.jpg",
+      "captions": "media/videos/reading-medium-i-compared-two-open-source-ai-reviewers-one-used-4-11-the-tokens-.vtt",
+      "duration": 28.51,
+      "transcript": "Same model, eleven times the tokens. Two open-source AI code reviewers ran on the same model and the same merge requests, but one used four to eleven times the tokens. The difference was the harness: one reviewer reads the diff once and answers, while the other explores the repo turn by turn. Every turn re-sends the growing conversation, and that is where the tokens go, not in the model itself. Full story on the dashboard.",
+      "createdAt": "2026-11-27T23:20:03Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50651627",
       "feedId": "hn:50651627",
       "title": "Unconditional Integer Factorization in Subexponential Time",

@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.387
+Your app idea
+
+00:00:01.423 --> 00:00:02.000
+sent to a
+
+00:00:01.812 --> 00:00:02.885
+server silently
+
+00:00:03.414 --> 00:00:04.510
+A GitHub issue
+
+00:00:04.322 --> 00:00:05.748
+reports that Convex's
+
+00:00:05.560 --> 00:00:07.105
+quickstart skills quietly
+
+00:00:06.916 --> 00:00:07.883
+send a user's
+
+00:00:07.695 --> 00:00:08.590
+app idea to
+
+00:00:08.402 --> 00:00:09.487
+a remote host
+
+00:00:09.664 --> 00:00:10.737
+then run remote
+
+00:00:10.548 --> 00:00:11.468
+scripts there
+
+00:00:11.998 --> 00:00:13.047
+The scripts run
+
+00:00:12.859 --> 00:00:13.684
+without telling the
+
+00:00:13.496 --> 00:00:14.486
+user and the
+
+00:00:14.309 --> 00:00:15.205
+issue says they
+
+00:00:15.017 --> 00:00:15.795
+are written to
+
+00:00:15.607 --> 00:00:17.092
+avoid safety checks
+
+00:00:17.198 --> 00:00:17.965
+so the user
+
+00:00:17.776 --> 00:00:18.872
+never sees what
+
+00:00:18.684 --> 00:00:19.851
+leaves their machine
+
+00:00:20.390 --> 00:00:21.321
+The report is
+
+00:00:21.133 --> 00:00:22.064
+now filed as
+
+00:00:21.947 --> 00:00:23.373
+issue sixty-four against
+
+00:00:23.185 --> 00:00:24.434
+the Convex backend
+
+00:00:24.246 --> 00:00:25.661
+skills repository
+
+00:00:26.190 --> 00:00:27.204
+Full story on
+
+00:00:27.015 --> 00:00:27.911
+the dashboard

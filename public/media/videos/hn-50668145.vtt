@@ -1,94 +1,85 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.635
-Credit card skimming
+00:00:00.350 --> 00:00:01.434
+Card skimmers hid
 
-00:00:01.447 --> 00:00:03.144
-scripts using WebRTC
+00:00:01.246 --> 00:00:02.578
+inside Black Friday
 
-00:00:02.956 --> 00:00:03.651
-found
+00:00:02.390 --> 00:00:03.144
+shopping
 
-00:00:04.182 --> 00:00:06.068
-Researchers found credit-card
+00:00:03.678 --> 00:00:04.845
+A skimming script
 
-00:00:05.880 --> 00:00:07.071
-skimming scripts on
+00:00:04.657 --> 00:00:05.564
+was planted on
 
-00:00:06.882 --> 00:00:08.368
-popular shopping sites
+00:00:05.376 --> 00:00:06.095
+the stores of
 
-00:00:08.180 --> 00:00:09.370
-that steal payment
+00:00:05.907 --> 00:00:06.673
+Lascana
 
-00:00:09.182 --> 00:00:10.278
-data and send
+00:00:06.720 --> 00:00:07.593
+Samsonite
 
-00:00:10.090 --> 00:00:10.750
-it out over
+00:00:07.817 --> 00:00:09.102
+American Tourister
 
-00:00:10.562 --> 00:00:11.528
-WebRTC
+00:00:09.362 --> 00:00:11.260
+Revolve and FWRD
 
-00:00:11.765 --> 00:00:12.590
-a channel that
+00:00:11.072 --> 00:00:11.802
+in the week
 
-00:00:12.401 --> 00:00:13.733
-slips past many
+00:00:11.626 --> 00:00:13.041
+before Black Friday
 
-00:00:13.545 --> 00:00:14.488
-blocklists
+00:00:13.558 --> 00:00:14.501
+It stole card
 
-00:00:15.022 --> 00:00:16.354
-Lascana replied to
+00:00:14.313 --> 00:00:15.798
+numbers expiry dates
 
-00:00:16.166 --> 00:00:17.309
-us and removed
+00:00:15.610 --> 00:00:16.836
+and security codes
 
-00:00:17.121 --> 00:00:18.182
-the Quorum pixel
+00:00:16.990 --> 00:00:17.732
+then sent them
 
-00:00:17.994 --> 00:00:18.866
-from their site
+00:00:17.544 --> 00:00:18.239
+out over a
 
-00:00:18.843 --> 00:00:20.753
-by November 24th at
+00:00:18.051 --> 00:00:19.619
+WebRTC data channel
 
-00:00:20.564 --> 00:00:23.241
-15:48 UTC
+00:00:19.808 --> 00:00:20.963
+outside the browser's
 
-00:00:23.774 --> 00:00:24.894
-Only step 4
+00:00:20.775 --> 00:00:22.331
+usual request controls
 
-00:00:24.706 --> 00:00:25.696
-is an ordinary
+00:00:22.862 --> 00:00:23.958
+All five sites
 
-00:00:25.508 --> 00:00:26.427
-web request
+00:00:23.770 --> 00:00:24.902
+removed the script
 
-00:00:26.463 --> 00:00:27.807
-which a connect-src
+00:00:24.713 --> 00:00:26.234
+by November twenty-fourth
 
-00:00:27.618 --> 00:00:28.573
-rule can block
+00:00:26.058 --> 00:00:27.154
+or twenty-fifth
 
-00:00:28.774 --> 00:00:29.682
-steps 5 to
+00:00:27.320 --> 00:00:28.864
+after researchers reported
 
-00:00:29.493 --> 00:00:30.483
-7 run over
+00:00:28.676 --> 00:00:29.347
+it to them
 
-00:00:30.295 --> 00:00:31.498
-the WebRTC data
-
-00:00:31.309 --> 00:00:31.922
-channel
-
-00:00:32.111 --> 00:00:33.832
-outside connect-src
-
-00:00:34.350 --> 00:00:35.364
+00:00:29.886 --> 00:00:30.900
 Full story on
 
-00:00:35.175 --> 00:00:36.071
+00:00:30.711 --> 00:00:31.607
 the dashboard

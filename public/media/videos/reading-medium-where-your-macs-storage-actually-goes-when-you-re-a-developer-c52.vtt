@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.776
+Forty-seven gigabytes
+
+00:00:01.624 --> 00:00:02.885
+of mystery System
+
+00:00:02.697 --> 00:00:03.298
+Data
+
+00:00:03.822 --> 00:00:05.154
+One developer's Mac
+
+00:00:04.966 --> 00:00:06.227
+reported forty-seven
+
+00:00:06.039 --> 00:00:07.265
+gigabytes of System
+
+00:00:07.077 --> 00:00:07.642
+Data
+
+00:00:07.737 --> 00:00:08.397
+and none of
+
+00:00:08.209 --> 00:00:09.234
+it was photos
+
+00:00:09.046 --> 00:00:10.036
+or downloads
+
+00:00:10.558 --> 00:00:11.560
+It was developer
+
+00:00:11.372 --> 00:00:12.208
+leftovers
+
+00:00:12.421 --> 00:00:13.659
+Xcode build data
+
+00:00:13.754 --> 00:00:14.862
+Docker images
+
+00:00:15.004 --> 00:00:16.289
+old node modules
+
+00:00:16.100 --> 00:00:17.480
+and package caches
+
+00:00:17.645 --> 00:00:18.352
+most of it
+
+00:00:18.164 --> 00:00:19.473
+rebuildable again with
+
+00:00:19.284 --> 00:00:20.581
+a single command
+
+00:00:21.110 --> 00:00:22.018
+The piece maps
+
+00:00:21.829 --> 00:00:22.937
+the folders behind
+
+00:00:22.749 --> 00:00:23.610
+the bloat and
+
+00:00:23.421 --> 00:00:24.329
+the commands to
+
+00:00:24.141 --> 00:00:25.390
+clear them safely
+
+00:00:25.591 --> 00:00:26.829
+starting with measuring
+
+00:00:26.641 --> 00:00:27.525
+first what is
+
+00:00:27.336 --> 00:00:28.291
+actually there
+
+00:00:28.830 --> 00:00:29.844
+Full story on
+
+00:00:29.655 --> 00:00:30.551
+the dashboard
