@@ -1,103 +1,94 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.930
-DeepSeek pushes Ascend
+00:00:00.350 --> 00:00:01.552
+DeepSeek's kernels
 
-00:00:01.742 --> 00:00:03.805
-950 kernel updates
+00:00:01.364 --> 00:00:03.451
+now hit 98.5%
 
-00:00:03.982 --> 00:00:06.623
-reaching 425 TFLOPS
+00:00:03.263 --> 00:00:04.229
+of chip peak
 
-00:00:07.158 --> 00:00:09.257
-DeepSeek updated FlashMLA
+00:00:04.758 --> 00:00:06.184
+DeepSeek pushed updates
 
-00:00:09.340 --> 00:00:10.235
-DeepSelect
+00:00:05.996 --> 00:00:07.163
+across all four
 
-00:00:10.330 --> 00:00:12.665
-DeepGEMM and DeepGEMM-Ascend
+00:00:06.975 --> 00:00:07.706
+of its core
 
-00:00:12.476 --> 00:00:13.985
-on November 26
+00:00:07.517 --> 00:00:08.885
+infrastructure repos
 
-00:00:14.163 --> 00:00:15.035
-with a fused
-
-00:00:14.847 --> 00:00:16.014
-attention kernel for
-
-00:00:15.825 --> 00:00:17.558
-Huawei's Ascend 950
-
-00:00:17.370 --> 00:00:19.209
-NPU and optimized
-
-00:00:19.021 --> 00:00:20.483
-sparse prefill and
-
-00:00:20.472 --> 00:00:21.615
-decoding kernels
-
-00:00:22.150 --> 00:00:23.458
-DeepSelect gained an
-
-00:00:23.306 --> 00:00:25.322
-FP32 TopK kernel
-
-00:00:25.133 --> 00:00:25.923
-for Ascend
-
-00:00:26.065 --> 00:00:27.574
-and DeepGEMM-Ascend
-
-00:00:27.539 --> 00:00:28.376
-shipped a new
-
-00:00:28.188 --> 00:00:29.626
-public release whose
-
-00:00:29.485 --> 00:00:31.642
-FP4 GEMM benchmark
-
-00:00:31.466 --> 00:00:33.859
-reaches 1,701 of
-
-00:00:33.671 --> 00:00:36.466
-1,730 TFLOPS
-
-00:00:36.998 --> 00:00:38.236
-DeepSeek has pushed
-
-00:00:38.048 --> 00:00:39.297
-updates across all
-
-00:00:39.109 --> 00:00:39.851
-four of its
-
-00:00:39.663 --> 00:00:40.854
-core infrastructure
-
-00:00:40.665 --> 00:00:41.573
-repos today
-
-00:00:41.762 --> 00:00:42.599
+00:00:08.968 --> 00:00:09.699
 and most of
 
-00:00:42.411 --> 00:00:43.153
-the work is
+00:00:09.510 --> 00:00:10.489
+the work targets
 
-00:00:42.965 --> 00:00:44.144
-focused on making
+00:00:10.324 --> 00:00:11.715
+Huawei's Ascend nine
 
-00:00:43.956 --> 00:00:45.311
-its models faster
+00:00:11.527 --> 00:00:12.470
+fifty chips
 
-00:00:45.123 --> 00:00:46.420
-and more efficient
+00:00:13.006 --> 00:00:14.421
+FlashMLA gained a
 
-00:00:46.950 --> 00:00:47.964
+00:00:14.232 --> 00:00:15.682
+fused attention kernel
+
+00:00:15.494 --> 00:00:16.296
+for Ascend
+
+00:00:16.485 --> 00:00:17.722
+while DeepSelect added
+
+00:00:17.534 --> 00:00:18.631
+a faster top
+
+00:00:18.442 --> 00:00:19.845
+K operation and
+
+00:00:19.728 --> 00:00:21.531
+DeepGEMM Ascend got
+
+00:00:21.343 --> 00:00:22.357
+a new release
+
+00:00:22.886 --> 00:00:24.206
+The optimized sparse
+
+00:00:24.018 --> 00:00:25.421
+prefill kernels now
+
+00:00:25.233 --> 00:00:25.928
+reach up to
+
+00:00:25.740 --> 00:00:26.977
+four hundred twenty
+
+00:00:26.789 --> 00:00:28.027
+five teraflops on
+
+00:00:27.839 --> 00:00:28.487
+Ascend
+
+00:00:28.723 --> 00:00:29.749
+about ninety eight
+
+00:00:29.561 --> 00:00:30.786
+point five percent
+
+00:00:30.598 --> 00:00:31.364
+of the hardware
+
+00:00:31.176 --> 00:00:31.765
+peak
+
+00:00:32.286 --> 00:00:33.300
 Full story on
 
-00:00:47.775 --> 00:00:48.671
+00:00:33.111 --> 00:00:34.007
 the dashboard

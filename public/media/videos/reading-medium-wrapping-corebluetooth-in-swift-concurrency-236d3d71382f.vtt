@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.741
+Three async streams
+
+00:00:01.553 --> 00:00:03.333
+tame Apple's oldest-feeling
+
+00:00:03.145 --> 00:00:04.371
+Bluetooth API
+
+00:00:04.902 --> 00:00:06.246
+CoreBluetooth is one
+
+00:00:06.058 --> 00:00:07.295
+of the oldest-feeling
+
+00:00:07.131 --> 00:00:08.404
+APIs an iOS
+
+00:00:08.216 --> 00:00:09.678
+developer still uses
+
+00:00:09.761 --> 00:00:11.199
+with everything arriving
+
+00:00:11.011 --> 00:00:12.555
+through delegate callbacks
+
+00:00:13.078 --> 00:00:13.986
+The author built
+
+00:00:13.797 --> 00:00:14.905
+Pulse a small
+
+00:00:14.717 --> 00:00:16.427
+SwiftUI app that
+
+00:00:16.238 --> 00:00:17.205
+reads live heart
+
+00:00:17.017 --> 00:00:17.983
+rate from any
+
+00:00:17.795 --> 00:00:19.021
+chest strap or
+
+00:00:18.833 --> 00:00:19.646
+watch using the
+
+00:00:19.458 --> 00:00:20.625
+standard Bluetooth
+
+00:00:20.437 --> 00:00:21.651
+Heart Rate service
+
+00:00:22.190 --> 00:00:22.838
+He put a
+
+00:00:22.650 --> 00:00:24.406
+Swift Concurrency API
+
+00:00:24.218 --> 00:00:24.937
+in front of
+
+00:00:24.749 --> 00:00:25.102
+it
+
+00:00:25.244 --> 00:00:26.399
+with three async
+
+00:00:26.211 --> 00:00:27.779
+streams for availability
+
+00:00:28.015 --> 00:00:29.796
+scanning and connecting
+
+00:00:29.973 --> 00:00:30.715
+so the rest
+
+00:00:30.527 --> 00:00:31.116
+of the app
+
+00:00:30.940 --> 00:00:31.859
+never sees a
+
+00:00:31.671 --> 00:00:32.414
+delegate
+
+00:00:32.934 --> 00:00:33.948
+Full story on
+
+00:00:33.759 --> 00:00:34.655
+the dashboard

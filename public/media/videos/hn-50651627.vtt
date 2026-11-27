@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.659
+Unconditional integer
+
+00:00:01.470 --> 00:00:03.569
+factorization in subexponential
+
+00:00:03.381 --> 00:00:03.993
+time
+
+00:00:04.518 --> 00:00:05.496
+The paper gives
+
+00:00:05.308 --> 00:00:06.051
+a complete
+
+00:00:06.216 --> 00:00:07.831
+unconditional factorization
+
+00:00:07.643 --> 00:00:08.963
+method with effectively
+
+00:00:08.775 --> 00:00:10.060
+computable constants
+
+00:00:10.131 --> 00:00:11.192
+and no unproven
+
+00:00:11.004 --> 00:00:11.841
+assumptions
+
+00:00:11.888 --> 00:00:12.926
+and every prime
+
+00:00:12.737 --> 00:00:14.093
+factor is certified
+
+00:00:13.905 --> 00:00:15.025
+deterministically
+
+00:00:15.550 --> 00:00:16.634
+It also includes
+
+00:00:16.446 --> 00:00:17.955
+a complete formalization
+
+00:00:17.767 --> 00:00:18.663
+in Lean four
+
+00:00:18.934 --> 00:00:20.255
+using only Mathlib
+
+00:00:20.385 --> 00:00:21.269
+to be released
+
+00:00:21.081 --> 00:00:22.059
+in a companion
+
+00:00:21.871 --> 00:00:22.696
+submission
+
+00:00:23.222 --> 00:00:24.224
+The paper and
+
+00:00:24.036 --> 00:00:25.474
+its formalization were
+
+00:00:25.286 --> 00:00:26.712
+obtained by Cogentic
+
+00:00:26.854 --> 00:00:28.304
+an agentic framework
+
+00:00:28.116 --> 00:00:29.719
+for mathematical discovery
+
+00:00:29.932 --> 00:00:31.323
+using Gemini four
+
+00:00:31.135 --> 00:00:31.901
+as the base
+
+00:00:31.713 --> 00:00:32.372
+model
+
+00:00:32.910 --> 00:00:33.924
+Full story on
+
+00:00:33.735 --> 00:00:34.631
+the dashboard

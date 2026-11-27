@@ -2,6 +2,272 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50651627",
+      "feedId": "hn:50651627",
+      "title": "Unconditional Integer Factorization in Subexponential Time",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9e1288a4d88b1292ecc382518e7ed18f1c1f87c0/hn-50651627.mp4",
+      "poster": "media/videos/hn-50651627.jpg",
+      "captions": "media/videos/hn-50651627.vtt",
+      "duration": 35.66,
+      "transcript": "Unconditional integer factorization in subexponential time. The paper gives a complete, unconditional factorization method with effectively computable constants and no unproven assumptions, and every prime factor is certified deterministically. It also includes a complete formalization in Lean four, using only Mathlib, to be released in a companion submission. The paper and its formalization were obtained by Cogentic, an agentic framework for mathematical discovery, using Gemini four as the base model. Full story on the dashboard.",
+      "createdAt": "2026-11-27T14:01:26Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125916926048358827",
+      "feedId": "x:2125916926048358827",
+      "title": "Ant Group open-sources Ming-Image-0.2-Design, the top open-weight text-to-image model on Artificial Analysis",
+      "source": "Twitter / X",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://x.com/AntLingAGI/status/2125916926048358827",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@91f32b896297669a2993fb2b89dfc304f720e93e/x-2125916926048358827.mp4",
+      "poster": "media/videos/x-2125916926048358827.jpg",
+      "captions": "media/videos/x-2125916926048358827.vtt",
+      "duration": 32.51,
+      "transcript": "The best open image model now comes from Ant Group. Ant Group's Ant Ling team introduced Ming Image zero point two Design, a model for UI drafts, posters and text heavy designs. It ranks number one among open weight models on Artificial Analysis's text to image leaderboard, with an Elo score of one thousand ninety five. The team open sourced the Design model now, and plans to open source the Layer model next week, which splits flat images into editable layers. Full story on the dashboard.",
+      "createdAt": "2026-11-27T14:00:52Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-john-nash-recommendation-letter",
+      "feedId": "reading:abakcus-john-nash-recommendation-letter",
+      "title": "\"He is a mathematical genius\": John Nash's recommendation letter and the 28 pages that proved it",
+      "source": "Reading",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "url": "https://abakcus.com/articles/john-nash-recommendation-letter",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@9fb66c710aaee55b31b906d2e279ed756a0e31c4/reading-abakcus-john-nash-recommendation-letter.mp4",
+      "poster": "media/videos/reading-abakcus-john-nash-recommendation-letter.jpg",
+      "captions": "media/videos/reading-abakcus-john-nash-recommendation-letter.vtt",
+      "duration": 37.6,
+      "transcript": "Five words got John Nash into Princeton. In February nineteen forty eight, a Carnegie Tech professor recommended a nineteen year old to Princeton. After two sentences of paperwork came five words: he is a mathematical genius. The student was John Nash. At Princeton, he went on to write a twenty eight page thesis that defined the Nash equilibrium. On November sixteenth, nineteen forty nine, Solomon Lefschetz, who had received the letter, communicated Nash's note to the Proceedings of the National Academy of Sciences. Full story on the dashboard.",
+      "createdAt": "2026-11-27T14:00:21Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-moving-sofa-problem",
+      "feedId": "reading:abakcus-moving-sofa-problem",
+      "title": "The moving sofa problem: the largest sofa that fits around a corner",
+      "source": "Reading",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "url": "https://abakcus.com/articles/moving-sofa-problem",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@4f444cc16bac55e56d3c282c6a5653950b5775b5/reading-abakcus-moving-sofa-problem.mp4",
+      "poster": "media/videos/reading-abakcus-moving-sofa-problem.jpg",
+      "captions": "media/videos/reading-abakcus-moving-sofa-problem.vtt",
+      "duration": 34.99,
+      "transcript": "A child's question took fifty-eight years to answer. In nineteen sixty six, Leo Moser asked for the largest sofa that can be carried around a corner in a hallway one unit wide. Hammersley's sofa reached about two point two zero seven four, and by nineteen sixty eight the answer was trapped between that and about two point eight two eight four. Gerver's eighteen piece shape, with area about two point two one nine five, was finally proved optimal in Jineon Baek's one hundred nineteen page proof in twenty twenty four. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:59:40Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50655639",
+      "feedId": "hn:50655639",
+      "title": "Show HN: lip-dictation lets you mouth prompts to Claude Code using on-device lip reading on a Mac",
+      "source": "Hacker News",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "url": "https://github.com/batanus/lip-dictation",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@59225696a6dc5a65d2136e1426459d15917ec323/hn-50655639.mp4",
+      "poster": "media/videos/hn-50655639.jpg",
+      "captions": "media/videos/hn-50655639.vtt",
+      "duration": 33.69,
+      "transcript": "Prompt your coding agent without making a sound. A new Claude Code plugin reads your lips through the webcam. The lip reading model runs locally on Apple Silicon, so no audio is recorded and no video leaves the Mac. It uses Auto AVSR's visual model, with two hundred fifty million parameters trained on three thousand two hundred ninety one hours of video. Accuracy is modest, with a twenty point three percent word error rate on its benchmark, so you can train it on your own lips with about one hundred phrases. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:59:04Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50655868",
+      "feedId": "hn:50655868",
+      "title": "Show HN: I wrote an entire Vim manual over 4 years",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "http://themouseless.dev/vim/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@df06e6bdd6b81f0856519abde365f5f7db9d5210/hn-50655868.mp4",
+      "poster": "media/videos/hn-50655868.jpg",
+      "captions": "media/videos/hn-50655868.vtt",
+      "duration": 31.96,
+      "transcript": "A complete Vim manual, written over four years. The author spent almost a decade playing with Vim, and after a couple of hours he could write and edit content, more productively and with more fun. The book is a step-by-step approach with no less than one hundred seventy fun exercises to build muscle memory, chapter by chapter. It is aimed at real-life examples, with a rich annexe as a reference, and the author says even long-time Vim users will learn something. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:58:30Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2125992406264991817",
+      "feedId": "x:2125992406264991817",
+      "title": "DeepSeek pushes Ascend 950 kernel updates, reaching 425 TFLOPS (98.5% of peak) on sparse prefill",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "url": "https://x.com/bebuu_ai/status/2125992406264991817",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@fc0b05cb7871465d979cfea9440091fee9c8b19b/x-2125992406264991817.mp4",
+      "poster": "media/videos/x-2125992406264991817.jpg",
+      "captions": "media/videos/x-2125992406264991817.vtt",
+      "duration": 35.03,
+      "transcript": "DeepSeek's kernels now hit 98.5% of chip peak. DeepSeek pushed updates across all four of its core infrastructure repos, and most of the work targets Huawei's Ascend nine fifty chips. FlashMLA gained a fused attention kernel for Ascend, while DeepSelect added a faster top K operation and DeepGEMM Ascend got a new release. The optimized sparse prefill kernels now reach up to four hundred twenty five teraflops on Ascend, about ninety eight point five percent of the hardware peak. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:58:02Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50656999",
+      "feedId": "hn:50656999",
+      "title": "nami installs packages from nixpkgs without running the Nix evaluator",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://namios.dev/blog/nixpkgs-without-evaluating",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@82667eaa5420f7fa911050b7150dedeef6e72e67/hn-50656999.mp4",
+      "poster": "media/videos/hn-50656999.jpg",
+      "captions": "media/videos/hn-50656999.vtt",
+      "duration": 38.85,
+      "transcript": "Install Nix packages without ever running Nix. nixpkgs holds over one hundred forty thousand packages, most already built and signed on cache dot nixos dot org. Installing one normally means running Nix's evaluator. The nami package manager evaluates each nixpkgs release once, ahead of time, into one signed catalog of store paths, versions and build definitions. On your machine, an install becomes a quick lookup plus a verified download, and the catalog carries a hash of every build definition, so one signature vouches for them all. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:57:27Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50658498",
+      "feedId": "hn:50658498",
+      "title": "An introduction to uncertainty in machine learning",
+      "source": "Hacker News",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@62541ff68de8b84d74ae243ed8bf2ad52e44a856/hn-50658498.mp4",
+      "poster": "media/videos/hn-50658498.jpg",
+      "captions": "media/videos/hn-50658498.vtt",
+      "duration": 35.99,
+      "transcript": "Every model makes a hidden bet about uncertainty. Christian Henning's guide argues that every model makes an assumption about uncertainty, often without saying so, and where data is rare, that assumption decides the answer. Take a coin flip. If we do not measure how the coin is thrown, the best we can say is fifty fifty, and that uncertainty is aleatoric. The post then covers epistemic uncertainty, calibration, Bayesian inference and conformal guarantees, and how to judge when uncertainty must be faithful to be useful. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:56:52Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50664104",
+      "feedId": "hn:50664104",
+      "title": "Indie web browser Ladybird enters alpha testing",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@bbe619d30af81678a87b146b492161ba5c7f0303/hn-50664104.mp4",
+      "poster": "media/videos/hn-50664104.jpg",
+      "captions": "media/videos/hn-50664104.vtt",
+      "duration": 31.05,
+      "transcript": "A brand-new browser, built from scratch, enters alpha. Ladybird is an independent web browser built from scratch, and it has now entered alpha testing, the stage where a browser is complete enough for early users to try. Built from scratch means the team wrote the browser themselves, rather than building on top of another browser's code. Alpha testing is the moment a project like this stops being a demo and starts being something people can actually use every day. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:56:17Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-wrapping-corebluetooth-in-swift-concurrency-236d3d71382f",
+      "feedId": "reading:medium-wrapping-corebluetooth-in-swift-concurrency-236d3d71382f",
+      "title": "Wrapping CoreBluetooth in Swift Concurrency",
+      "source": "Reading",
+      "topics": [
+        "iOS / Mac Apps"
+      ],
+      "url": "https://pars-tuncel.medium.com/wrapping-corebluetooth-in-swift-concurrency-236d3d71382f",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@0fa89e6bd41ef40ba10256ce8d9a99f8cad5ec0c/reading-medium-wrapping-corebluetooth-in-swift-concurrency-236d3d71382f.mp4",
+      "poster": "media/videos/reading-medium-wrapping-corebluetooth-in-swift-concurrency-236d3d71382f.jpg",
+      "captions": "media/videos/reading-medium-wrapping-corebluetooth-in-swift-concurrency-236d3d71382f.vtt",
+      "duration": 35.68,
+      "transcript": "Three async streams tame Apple's oldest-feeling Bluetooth API. CoreBluetooth is one of the oldest-feeling APIs an iOS developer still uses, with everything arriving through delegate callbacks. The author built Pulse, a small SwiftUI app that reads live heart rate from any chest strap or watch using the standard Bluetooth Heart Rate service. He put a Swift Concurrency API in front of it, with three async streams for availability, scanning, and connecting, so the rest of the app never sees a delegate. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:55:42Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe",
+      "feedId": "reading:medium-rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe281db2f29",
+      "title": "Rules First, Model Second: Adding On-Device AI to a SwiftUI App",
+      "source": "Reading",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI"
+      ],
+      "url": "https://pars-tuncel.medium.com/rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe281db2f29",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c6c9325c5a3f22a343ae50c393390be704e2e73d/reading-medium-rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe.mp4",
+      "poster": "media/videos/reading-medium-rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe.jpg",
+      "captions": "media/videos/reading-medium-rules-first-model-second-adding-on-device-ai-to-a-swiftui-app-cfe.vtt",
+      "duration": 35.63,
+      "transcript": "Rules first, model second, in this SwiftUI app. The author built Rates, an open-source currency converter, and put Apple's Foundation Models framework into it, but the model is the fallback, not the first choice. You type a sentence like being off to Istanbul with a hundred quid, and the app fills in one hundred pounds to Turkish lira, with live European Central Bank rates. Turning a sentence into a conversion means extracting three things: an amount, a source currency, and a target currency. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:55:13Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-how-linkedin-built-venice-to-serve-machine-learning-data-at-massi",
+      "feedId": "reading:medium-how-linkedin-built-venice-to-serve-machine-learning-data-at-massive-scale-f4436f20ff57",
+      "title": "How LinkedIn Built Venice to Serve Machine Learning Data at Massive Scale",
+      "source": "Reading",
+      "topics": [
+        "Machine Learning"
+      ],
+      "url": "https://medium.com/engineering-playbook/how-linkedin-built-venice-to-serve-machine-learning-data-at-massive-scale-f4436f20ff57",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@25c8bbe0953f129dbc703ce97893cc78462c8071/reading-medium-how-linkedin-built-venice-to-serve-machine-learning-data-at-massi.mp4",
+      "poster": "media/videos/reading-medium-how-linkedin-built-venice-to-serve-machine-learning-data-at-massi.jpg",
+      "captions": "media/videos/reading-medium-how-linkedin-built-venice-to-serve-machine-learning-data-at-massi.vtt",
+      "duration": 36.14,
+      "transcript": "LinkedIn serves thirty million ML features a second. LinkedIn built Venice, an open-source distributed platform, to separate data production from online consumption, with batch and streaming ingestion. Imagine a recommendation platform making one hundred thousand predictions a second, each needing three hundred feature values, which adds up to thirty million values a second. Venice gives low-latency access to materialized information, so serving machine learning data becomes an infrastructure problem as big as training. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:54:42Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50666356",
+      "feedId": "hn:50666356",
+      "title": "AWS adds virtual iPhones to its cloud",
+      "source": "Hacker News",
+      "topics": [
+        "Technology",
+        "iOS / Mac Apps"
+      ],
+      "url": "https://www.theregister.com/off-prem/2026/11/27/aws-adds-virtual-iphones-to-its-cloud/5312457",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@30f7dd130cdf76eacdd9bbe31113ea133ca6ecfd/hn-50666356.mp4",
+      "poster": "media/videos/hn-50666356.jpg",
+      "captions": "media/videos/hn-50666356.vtt",
+      "duration": 29.11,
+      "transcript": "AWS now rents you a virtual iPhone. Amazon Web Services now offers virtual iPhones in its cloud today, bringing iOS devices to its device farm. A virtual iPhone runs in the cloud instead of on a desk, so developers can test their apps without keeping a shelf full of phones. It puts iOS testing alongside the rest of Amazon's cloud, where developers already run their builds and their back-end services. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:54:05Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-medium-claude-code-2-0-best-practices-1029353b3c9a",
+      "feedId": "reading:medium-claude-code-2-0-best-practices-1029353b3c9a",
+      "title": "Claude Code 2.0 Best Practices",
+      "source": "Reading",
+      "topics": [
+        "Programming",
+        "AI"
+      ],
+      "url": "https://uxplanet.org/claude-code-2-0-best-practices-1029353b3c9a",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@96d9ca4c43b43cfb53d3cdf14337bb499ef3a783/reading-medium-claude-code-2-0-best-practices-1029353b3c9a.mp4",
+      "poster": "media/videos/reading-medium-claude-code-2-0-best-practices-1029353b3c9a.jpg",
+      "captions": "media/videos/reading-medium-claude-code-2-0-best-practices-1029353b3c9a.vtt",
+      "duration": 34.48,
+      "transcript": "Stop steering Claude Code so much. The latest models, like Opus five point five and Fable five point two, are much more autonomous, so too much steering can do more harm than good. Use auto approval by default, clearly specify the deny rules, and give Claude a clear definition of done for the task. Add a separate reviewer agent to verify the results, and use Advisor to optimise model usage, since Medium effort gives the best Opus five point five performance without draining the token limit. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:53:34Z",
+      "pinned": false
+    },
+    {
       "id": "video:hn-50658632",
       "feedId": "hn:50658632",
       "title": "rvoip: a complete VoIP stack in Rust, from SIP and RTP to WebRTC and voice-AI agents",

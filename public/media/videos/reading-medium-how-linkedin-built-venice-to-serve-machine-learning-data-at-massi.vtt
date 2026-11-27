@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:01.694
+LinkedIn serves thirty
+
+00:00:01.506 --> 00:00:02.991
+million ML features
+
+00:00:02.803 --> 00:00:03.569
+a second
+
+00:00:04.086 --> 00:00:05.442
+LinkedIn built Venice
+
+00:00:05.336 --> 00:00:06.927
+an open-source distributed
+
+00:00:06.739 --> 00:00:07.541
+platform
+
+00:00:07.659 --> 00:00:08.685
+to separate data
+
+00:00:08.496 --> 00:00:09.970
+production from online
+
+00:00:09.782 --> 00:00:10.583
+consumption
+
+00:00:10.702 --> 00:00:11.986
+with batch and
+
+00:00:11.798 --> 00:00:13.119
+streaming ingestion
+
+00:00:13.654 --> 00:00:15.245
+Imagine a recommendation
+
+00:00:15.057 --> 00:00:16.543
+platform making one
+
+00:00:16.354 --> 00:00:17.958
+hundred thousand predictions
+
+00:00:17.770 --> 00:00:18.477
+a second
+
+00:00:18.784 --> 00:00:19.833
+each needing three
+
+00:00:19.645 --> 00:00:21.106
+hundred feature values
+
+00:00:21.201 --> 00:00:22.026
+which adds up
+
+00:00:21.838 --> 00:00:22.958
+to thirty million
+
+00:00:22.770 --> 00:00:23.960
+values a second
+
+00:00:24.494 --> 00:00:26.156
+Venice gives low-latency
+
+00:00:25.968 --> 00:00:27.524
+access to materialized
+
+00:00:27.336 --> 00:00:28.161
+information
+
+00:00:28.268 --> 00:00:29.423
+so serving machine
+
+00:00:29.235 --> 00:00:30.425
+learning data becomes
+
+00:00:30.237 --> 00:00:31.675
+an infrastructure problem
+
+00:00:31.522 --> 00:00:32.335
+as big as
+
+00:00:32.147 --> 00:00:32.866
+training
+
+00:00:33.390 --> 00:00:34.404
+Full story on
+
+00:00:34.215 --> 00:00:35.111
+the dashboard
