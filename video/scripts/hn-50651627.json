@@ -1,0 +1,19 @@
+{
+ "hook": "Unconditional integer factorization in subexponential time.",
+ "hookText": "Factoring integers, no assumptions needed",
+ "beats": [
+  {
+   "say": "The paper gives a complete, unconditional factorization method with effectively computable constants and no unproven assumptions, and every prime factor is certified deterministically.",
+   "visual": 0
+  },
+  {
+   "say": "It also includes a complete formalization in Lean four, using only Mathlib, to be released in a companion submission.",
+   "visual": 0
+  },
+  {
+   "say": "The paper and its formalization were obtained by Cogentic, an agentic framework for mathematical discovery, using Gemini four as the base model.",
+   "visual": 0
+  }
+ ],
+ "outro": "Full story on the dashboard."
+}

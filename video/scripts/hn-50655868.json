@@ -1,0 +1,21 @@
+{
+ "hook": "A complete Vim manual, written over four years.",
+ "hookText": "A Vim manual, four years in the making",
+ "beats": [
+  {
+   "say": "The author spent almost a decade playing with Vim, and after a couple of hours he could write and edit content, more productively and with more fun.",
+   "visual": 0
+  },
+  {
+   "say": "The book is a step-by-step approach with no less than one hundred seventy fun exercises to build muscle memory, chapter by chapter.",
+   "visual": 0,
+   "stat": "170",
+   "statLabel": "fun exercises in the book"
+  },
+  {
+   "say": "It is aimed at real-life examples, with a rich annexe as a reference, and the author says even long-time Vim users will learn something.",
+   "visual": 0
+  }
+ ],
+ "outro": "Full story on the dashboard."
+}

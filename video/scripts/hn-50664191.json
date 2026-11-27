@@ -1,22 +1,21 @@
 {
-  "hook": "European Commission Declares Browser Competition a Digital Markets Act Priority",
-  "hookText": "European Commission Declares Browser Competition a Digital Markets Act Priority",
-  "beats": [
-    {
-      "say": "The European Commission has made browser competition a priority under the Digital Markets Act, a win for the open-web advocates who campaigned for it.",
-      "visual": 1
-    },
-    {
-      "say": "European Federation of Journalists Europe's largest organisation representing journalists, defending the professional rights and editorial independence of over 296,000 journalists through 76 associations and unions across 44 countries.",
-      "visual": 2
-    },
-    {
-      "say": "European Magazine Media Association The representative voice of more than 15,000 publishing houses producing over 50,000 magazine titles across Europe, advocating for a free.",
-      "visual": 0,
-      "stat": "15,000",
-      "statLabel": "publishing houses producing"
-    }
-  ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+ "hook": "Europe just made browser competition a top priority.",
+ "hookText": "Browser competition is now a DMA priority",
+ "beats": [
+  {
+   "say": "The European Commission has declared browser competition a Digital Markets Act priority, acknowledging an open letter from digital rights groups.",
+   "visual": 0
+  },
+  {
+   "say": "Browsers are effectively the entry point to the internet, which is why the campaign argues fair competition there matters so much.",
+   "visual": 0
+  },
+  {
+   "say": "The letter brought together a broad coalition, from Europe's largest digital rights network of over fifty organisations to groups representing two hundred ninety-six thousand journalists.",
+   "visual": 0,
+   "stat": "296,000",
+   "statLabel": "journalists represented by one signatory"
+  }
+ ],
+ "outro": "Full story on the dashboard."
 }

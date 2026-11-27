@@ -1,24 +1,19 @@
 {
-  "hook": "Why Does Voice AI Still Struggle with Kenyans' Speech?",
-  "hookText": "Why Does Voice AI Still Struggle with Kenyans' Speech?",
-  "beats": [
-    {
-      "say": "Voice AI still struggles with Kenyan speech, and the piece looks at why Swahili and local accents trip up today's systems.",
-      "visual": 1
-    },
-    {
-      "say": "The African Next Voices project, supported by a US $2.2 million Gates Foundation grant, has recorded 9,000 hours across 18 languages.",
-      "visual": 2,
-      "stat": "$2.2 million",
-      "statLabel": "gates foundation grant"
-    },
-    {
-      "say": "Google’s Waxal corpus, launched in February 2026, adds more than 11,000 hours across 21 African languages, Swahili included. A March 2026 preprint by a team including a Harvard University researcher reports a 3.24 percent word-error rate on recordings.",
-      "visual": 3,
-      "stat": "3.24 percent",
-      "statLabel": "word-error rate"
-    }
-  ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+ "hook": "Voice AI still cannot understand Kenyan speech.",
+ "hookText": "Voice AI struggles with Kenyan speech",
+ "beats": [
+  {
+   "say": "Voice AI still struggles with Kenyan speech, and the piece looks at why Swahili and local accents trip up today's systems.",
+   "visual": 0
+  },
+  {
+   "say": "Speech systems learn from the voices they are trained on, so accents and languages with less training data get understood worse.",
+   "visual": 0
+  },
+  {
+   "say": "For millions of speakers, that gap means everyday tools misunderstand them, and closing it starts with better data for their voices.",
+   "visual": 0
+  }
+ ],
+ "outro": "Full story on the dashboard."
 }

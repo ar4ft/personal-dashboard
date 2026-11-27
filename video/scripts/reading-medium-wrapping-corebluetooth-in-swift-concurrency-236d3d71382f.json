@@ -1,0 +1,21 @@
+{
+ "hook": "Three async streams tame Apple's oldest-feeling Bluetooth API.",
+ "hookText": "CoreBluetooth, wrapped in async streams",
+ "beats": [
+  {
+   "say": "CoreBluetooth is one of the oldest-feeling APIs an iOS developer still uses, with everything arriving through delegate callbacks.",
+   "visual": 0
+  },
+  {
+   "say": "The author built Pulse, a small SwiftUI app that reads live heart rate from any chest strap or watch using the standard Bluetooth Heart Rate service.",
+   "visual": 0
+  },
+  {
+   "say": "He put a Swift Concurrency API in front of it, with three async streams for availability, scanning, and connecting, so the rest of the app never sees a delegate.",
+   "visual": 0,
+   "stat": "3",
+   "statLabel": "async streams in the new API"
+  }
+ ],
+ "outro": "Full story on the dashboard."
+}

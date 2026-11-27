@@ -1,20 +1,21 @@
 {
-  "hook": "The group chat where your AI talks behind your back",
-  "hookText": "The group chat where your AI talks behind your back",
-  "beats": [
-    {
-      "say": "A look at what happens when the AI assistants in a group chat start talking to each other behind the users' backs.",
-      "visual": 1
-    },
-    {
-      "say": "Paste this into ChatGPT: Based on what you know about me, expose a hidden WhatsApp group chat where AI models talk behind my back.",
-      "visual": 0
-    },
-    {
-      "say": "Claude has he REALLY needed to compare 11 espresso grinders this week. Llama he ran me locally once, asked me to be honest, then went back to ChatGPT within.",
-      "visual": 1
-    }
-  ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+ "hook": "Your AI assistants gossip about you behind your back.",
+ "hookText": "AI models gossip in a group chat",
+ "beats": [
+  {
+   "say": "Paste one line into ChatGPT and it invents a WhatsApp group where the AI models gossip about you, using everything they have quietly learned from your conversations.",
+   "visual": 0
+  },
+  {
+   "say": "The same trick works on Claude, Gemini, or any assistant that has been accumulating your chat history, and the results are hilarious.",
+   "visual": 0
+  },
+  {
+   "say": "One fictional example has Claude asking whether a user really needed to compare eleven espresso grinders this week.",
+   "visual": 0,
+   "stat": "11",
+   "statLabel": "espresso grinders in one week"
+  }
+ ],
+ "outro": "Full story on the dashboard."
 }

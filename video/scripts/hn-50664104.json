@@ -1,0 +1,19 @@
+{
+ "hook": "A brand-new browser, built from scratch, enters alpha.",
+ "hookText": "Ladybird enters alpha testing",
+ "beats": [
+  {
+   "say": "Ladybird is an independent web browser built from scratch, and it has now entered alpha testing, the stage where a browser is complete enough for early users to try.",
+   "visual": 0
+  },
+  {
+   "say": "Built from scratch means the team wrote the browser themselves, rather than building on top of another browser's code.",
+   "visual": 0
+  },
+  {
+   "say": "Alpha testing is the moment a project like this stops being a demo and starts being something people can actually use every day.",
+   "visual": 0
+  }
+ ],
+ "outro": "Full story on the dashboard."
+}

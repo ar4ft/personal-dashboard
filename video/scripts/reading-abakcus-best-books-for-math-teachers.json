@@ -1,20 +1,21 @@
 {
-  "hook": "The 24 Best Books for Math Teachers, in Reading Order",
-  "hookText": "The 24 Best Books for Math Teachers, in Reading Order",
-  "beats": [
-    {
-      "say": "What to read if you teach mathematics, from why the subject is worth teaching to how children learn it and what to do on Monday morning.",
-      "visual": 1
-    },
-    {
-      "say": "24 books in five steps, three of them free. In a hurry Before the books Step I · Books 01-04 Four short books about what mathematics is for.",
-      "visual": 2
-    },
-    {
-      "say": "Step II · Books 05-09 Five books of research, written to be read by teachers.",
-      "visual": 3
-    }
-  ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+ "hook": "Twenty-four books that make better math teachers.",
+ "hookText": "Twenty-four books for math teachers",
+ "beats": [
+  {
+   "say": "Abakcus lists twenty-four books for math teachers in five steps, from why the subject is worth teaching to how children learn it and what to do in class.",
+   "visual": 0,
+   "stat": "24",
+   "statLabel": "books in five steps"
+  },
+  {
+   "say": "Three of them are free to read online, and the first step opens with Paul Lockhart's A Mathematician's Lament, a twenty-five page essay from two thousand two.",
+   "visual": 1
+  },
+  {
+   "say": "Later steps cover the research on how children learn, with one study filming more than two hundred eighth-grade lessons in Germany, Japan, and the United States.",
+   "visual": 2
+  }
+ ],
+ "outro": "Full story on the dashboard."
 }

@@ -1,0 +1,19 @@
+{
+ "hook": "Stop steering Claude Code so much.",
+ "hookText": "Less steering, better Claude Code",
+ "beats": [
+  {
+   "say": "The latest models, like Opus five point five and Fable five point two, are much more autonomous, so too much steering can do more harm than good.",
+   "visual": 0
+  },
+  {
+   "say": "Use auto approval by default, clearly specify the deny rules, and give Claude a clear definition of done for the task.",
+   "visual": 0
+  },
+  {
+   "say": "Add a separate reviewer agent to verify the results, and use Advisor to optimise model usage, since Medium effort gives the best Opus five point five performance without draining the token limit.",
+   "visual": 0
+  }
+ ],
+ "outro": "Full story on the dashboard."
+}

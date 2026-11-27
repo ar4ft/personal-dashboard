@@ -1,0 +1,21 @@
+{
+ "hook": "Rules first, model second, in this SwiftUI app.",
+ "hookText": "On-device AI, rules before models",
+ "beats": [
+  {
+   "say": "The author built Rates, an open-source currency converter, and put Apple's Foundation Models framework into it, but the model is the fallback, not the first choice.",
+   "visual": 0
+  },
+  {
+   "say": "You type a sentence like being off to Istanbul with a hundred quid, and the app fills in one hundred pounds to Turkish lira, with live European Central Bank rates.",
+   "visual": 0
+  },
+  {
+   "say": "Turning a sentence into a conversion means extracting three things: an amount, a source currency, and a target currency.",
+   "visual": 0,
+   "stat": "3",
+   "statLabel": "things to extract from a sentence"
+  }
+ ],
+ "outro": "Full story on the dashboard."
+}

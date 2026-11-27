@@ -1,0 +1,19 @@
+{
+ "hook": "AWS now rents you a virtual iPhone.",
+ "hookText": "Virtual iPhones arrive on AWS",
+ "beats": [
+  {
+   "say": "Amazon Web Services now offers virtual iPhones in its cloud today, bringing iOS devices to its device farm.",
+   "visual": 0
+  },
+  {
+   "say": "A virtual iPhone runs in the cloud instead of on a desk, so developers can test their apps without keeping a shelf full of phones.",
+   "visual": 0
+  },
+  {
+   "say": "It puts iOS testing alongside the rest of Amazon's cloud, where developers already run their builds and their back-end services.",
+   "visual": 0
+  }
+ ],
+ "outro": "Full story on the dashboard."
+}

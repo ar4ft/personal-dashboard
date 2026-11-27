@@ -1,20 +1,21 @@
 {
-  "hook": "A new breed of chip runs AI models using waves",
-  "hookText": "A new breed of chip runs AI models using waves",
-  "beats": [
-    {
-      "say": "A new kind of chip runs AI models with light waves instead of electricity, promising faster and more efficient inference.",
-      "visual": 1
-    },
-    {
-      "say": "Whereas regular GPUs transmit and process data by shuffling electrons around, photonic processors use waves of light.",
-      "visual": 2
-    },
-    {
-      "say": "If hypothetically we received an order of 100,000 [photonic processors], we at Q.ANT are ready, but I’m not sure about the suppliers. [To produce Q.ANT chips] you only need 90 nanometer node technology, from the 2000s.",
-      "visual": 3
-    }
-  ],
-  "outro": "Full story on the dashboard.",
-  "auto": true
+ "hook": "This AI chip runs on light, not electricity.",
+ "hookText": "Photonic chips run AI on light",
+ "beats": [
+  {
+   "say": "As AI becomes part of everyday life, the energy required to run the models is ballooning, and labs are hunting for cheaper ways to compute.",
+   "visual": 0
+  },
+  {
+   "say": "German company Q.ANT is building photonic processors, chips that use light to perform the toughest calculations, and the goal is to cut the energy AI models need.",
+   "visual": 1
+  },
+  {
+   "say": "The chips need only ninety nanometer technology from the two thousands, and Q.ANT says it is ready if an order for one hundred thousand processors arrived.",
+   "visual": 0,
+   "stat": "100,000",
+   "statLabel": "processors in a hypothetical order"
+  }
+ ],
+ "outro": "Full story on the dashboard."
 }

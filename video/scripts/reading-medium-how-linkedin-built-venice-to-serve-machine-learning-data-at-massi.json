@@ -1,0 +1,21 @@
+{
+ "hook": "LinkedIn serves thirty million ML features a second.",
+ "hookText": "Thirty million features a second",
+ "beats": [
+  {
+   "say": "LinkedIn built Venice, an open-source distributed platform, to separate data production from online consumption, with batch and streaming ingestion.",
+   "visual": 0
+  },
+  {
+   "say": "Imagine a recommendation platform making one hundred thousand predictions a second, each needing three hundred feature values, which adds up to thirty million values a second.",
+   "visual": 0,
+   "stat": "30M",
+   "statLabel": "feature values served per second"
+  },
+  {
+   "say": "Venice gives low-latency access to materialized information, so serving machine learning data becomes an infrastructure problem as big as training.",
+   "visual": 0
+  }
+ ],
+ "outro": "Full story on the dashboard."
+}
