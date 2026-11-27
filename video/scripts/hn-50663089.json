@@ -1,0 +1,20 @@
+{
+  "hook": "The need for a formally verifiable mainstream programming language",
+  "hookText": "The need for a formally verifiable mainstream programming language",
+  "beats": [
+    {
+      "say": "An argument that mainstream programming needs a language designed for formal verification from the start.",
+      "visual": 1
+    },
+    {
+      "say": "Because of LLMs, the discipline of software engineering is in crisis. Quality is nose-diving, and I see no reason why it won't keep getting worse.",
+      "visual": 0
+    },
+    {
+      "say": "My chosen angle is Magmide, a project whose goal is to create a new formally verifiable programming language intended for immediate adoption by practitioners.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

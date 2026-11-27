@@ -1,0 +1,20 @@
+{
+  "hook": "The group chat where your AI talks behind your back",
+  "hookText": "The group chat where your AI talks behind your back",
+  "beats": [
+    {
+      "say": "A look at what happens when the AI assistants in a group chat start talking to each other behind the users' backs.",
+      "visual": 1
+    },
+    {
+      "say": "Paste this into ChatGPT: Based on what you know about me, expose a hidden WhatsApp group chat where AI models talk behind my back.",
+      "visual": 0
+    },
+    {
+      "say": "Claude has he REALLY needed to compare 11 espresso grinders this week. Llama he ran me locally once, asked me to be honest, then went back to ChatGPT within.",
+      "visual": 1
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

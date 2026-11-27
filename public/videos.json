@@ -2,6 +2,252 @@
   "version": 1,
   "videos": [
     {
+      "id": "video:hn-50658632",
+      "feedId": "hn:50658632",
+      "title": "rvoip: a complete VoIP stack in Rust, from SIP and RTP to WebRTC and voice-AI agents",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://github.com/eisenzopf/rvoip",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a15c7ebcd98aca92555dba39382a13a789c935a3/hn-50658632.mp4",
+      "poster": "media/videos/hn-50658632.jpg",
+      "captions": "media/videos/hn-50658632.vtt",
+      "duration": 36.33,
+      "transcript": "One Rust library replaces your whole VoIP stack. rvoip is a Rust library that bundles SIP, RTP, WebRTC and voice AI agents behind one call model. There is no separate SIP proxy, media server or RTP engine to install. On a single cloud server, it sustained eight thousand three hundred forty eight sessions per second of SIP signalling over TLS. With encrypted media flowing, it still set up eleven hundred twenty four calls per second, using the standard RFC benchmark with zero failed calls. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:28:35Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2126042617851089113",
+      "feedId": "x:2126042617851089113",
+      "title": "Tencent open-sources DFly2 speculative decoding, and a developer ports it to two NVIDIA GB10 Sparks",
+      "source": "Twitter / X",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "url": "https://x.com/mannyv_sol/status/2126042617851089113",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@2a54adfa67cb5de7e3a7f2ab26ea2eb6683bdd79/x-2126042617851089113.mp4",
+      "poster": "media/videos/x-2126042617851089113.jpg",
+      "captions": "media/videos/x-2126042617851089113.vtt",
+      "duration": 37.17,
+      "transcript": "A new speculative decoder, tested on two tiny supercomputers. Tencent open sourced DFly2, its speculative decoding drafter, with weights, training code and a report. A developer quickly ported it to DeepSeek on two NVIDIA GB10 Sparks. In the test, every output matched the no draft reference, all nine hundred fifty nine tokens. Estimated decode speed was forty five tokens per second for DFly2, against seventy five for DSpark and thirty eight with no drafting, so DSpark still wins here. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:27:56Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2126047712596631876",
+      "feedId": "x:2126047712596631876",
+      "title": "Rex by Superlogical lands in the App Store: your Mac, Linux and Windows terminal sessions on iPhone and iPad",
+      "source": "Twitter / X",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "url": "https://x.com/mitchellh/status/2126047712596631876",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@e0869f9a0d8511f9b6842028d537d8a763fe4626/x-2126047712596631876.mp4",
+      "poster": "media/videos/x-2126047712596631876.jpg",
+      "captions": "media/videos/x-2126047712596631876.vtt",
+      "duration": 31.53,
+      "transcript": "Your terminal sessions now fit in your pocket. Mitchell Hashimoto's new app Rex is live in the App Store. It puts terminal sessions from your Mac, Linux and Windows machines on your iPhone and iPad. Sessions keep running on your computers, so you can check on coding agents, answer a prompt or approve a command from anywhere, then hand the pane back to your Mac. It is free and needs a Rex Server running on another device, which Hashimoto hints is close to a full public release. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:27:18Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50660273",
+      "feedId": "hn:50660273",
+      "title": "Investigation: Novita, StreamLake and Ant Digital route OpenRouter model requests through ByteDance's Ark",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://kendell.dev/blog/arkwrapper/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8d49fd4ae5f0cc7757c2306a1a1cd3bb02b67542/hn-50660273.mp4",
+      "poster": "media/videos/hn-50660273.jpg",
+      "captions": "media/videos/hn-50660273.vtt",
+      "duration": 37.46,
+      "transcript": "Your private AI requests may be routed to ByteDance. A new investigation finds fingerprints showing several OpenRouter providers, including ones marketed as zero data retention, forward DeepSeek and GLM requests to ByteDance's Ark. The clues include ByteDance style request IDs passed through from other providers, and ByteDance's canned refusal when you ask about censored topics like Tank Man. Novita alone sent one hundred twenty to one hundred sixty billion tokens a day on these models, until it lost its zero retention label on November twentieth. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:26:46Z",
+      "pinned": false
+    },
+    {
+      "id": "video:reading-abakcus-best-books-for-math-teachers",
+      "feedId": "reading:abakcus-best-books-for-math-teachers",
+      "title": "The 24 Best Books for Math Teachers, in Reading Order",
+      "source": "Reading",
+      "topics": [
+        "Math"
+      ],
+      "url": "https://abakcus.com/book-lists/best-books-for-math-teachers",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@383bffd54714bd2a39e23bad819e547883e303c7/reading-abakcus-best-books-for-math-teachers.mp4",
+      "poster": "media/videos/reading-abakcus-best-books-for-math-teachers.jpg",
+      "captions": "media/videos/reading-abakcus-best-books-for-math-teachers.vtt",
+      "duration": 31.31,
+      "transcript": "The 24 Best Books for Math Teachers, in Reading Order What to read if you teach mathematics, from why the subject is worth teaching to how children learn it and what to do on Monday morning. 24 books in five steps, three of them free. In a hurry Before the books Step I Books 01-04 Four short books about what mathematics is for. Step II Books 05-09 Five books of research, written to be read by teachers. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:26:12Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50661218",
+      "feedId": "hn:50661218",
+      "title": "DeepMind lets AI agents control part of its compute to run experiments for the next Gemini",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@59fe8865be00130e198eda7ddd954d524a1d2c49/hn-50661218.mp4",
+      "poster": "media/videos/hn-50661218.jpg",
+      "captions": "media/videos/hn-50661218.vtt",
+      "duration": 36.71,
+      "transcript": "AI agents now run some of DeepMind's experiments. Google DeepMind lets AI agents run experiments on their own for the next Gemini model, using part of the lab's compute, though recursive self improvement remains distant. Gemini lead Koray Kavukcuoglu says DeepMind now relies on one general purpose model for science and products, instead of separate teams for projects like AlphaFold. Each Gemini generation is a hand built one off, he says, and AGI won't begin until everyday products earn enough trust for people to hand decisions over. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:25:41Z",
+      "pinned": false
+    },
+    {
+      "id": "video:x-2126130025678406100",
+      "feedId": "x:2126130025678406100",
+      "title": "A Witness-style line puzzle game running on a $30 ESP32-S3 AMOLED touch board",
+      "source": "Twitter / X",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "url": "https://x.com/steren/status/2126130025678406100",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@f0d0d724abaea194cb38d7eea19a197cb3e470cf/x-2126130025678406100.mp4",
+      "poster": "media/videos/x-2126130025678406100.jpg",
+      "captions": "media/videos/x-2126130025678406100.vtt",
+      "duration": 33.4,
+      "transcript": "A $30 board that boots straight into one game. Steren built Circle with a Line, a standalone puzzle game inspired by The Witness, for Waveshare's one point eight inch ESP32 AMOLED touch board. It is written in plain C on the ESP I D F framework, generates its puzzles procedurally, and synthesizes its own audio. He says there is something genuinely incredible about holding a dedicated piece of hardware that boots straight into your personal app, all for about thirty dollars. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:25:05Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50663089",
+      "feedId": "hn:50663089",
+      "title": "The need for a formally verifiable mainstream programming language",
+      "source": "Hacker News",
+      "topics": [
+        "Programming"
+      ],
+      "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@6c65e9442f33c998292abf490fb80bd213a81722/hn-50663089.mp4",
+      "poster": "media/videos/hn-50663089.jpg",
+      "captions": "media/videos/hn-50663089.vtt",
+      "duration": 33.4,
+      "transcript": "The need for a formally verifiable mainstream programming language An argument that mainstream programming needs a language designed for formal verification from the start. Because of LLMs, the discipline of software engineering is in crisis. Quality is nose-diving, and I see no reason why it won't keep getting worse. My chosen angle is Magmide, a project whose goal is to create a new formally verifiable programming language intended for immediate adoption by practitioners. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:24:31Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50663595",
+      "feedId": "hn:50663595",
+      "title": "The group chat where your AI talks behind your back",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://construct22.com/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@403b12abaeb64ca9af588915454e0ea696c51386/hn-50663595.mp4",
+      "poster": "media/videos/hn-50663595.jpg",
+      "captions": "media/videos/hn-50663595.vtt",
+      "duration": 31.1,
+      "transcript": "The group chat where your AI talks behind your back A look at what happens when the AI assistants in a group chat start talking to each other behind the users' backs. Paste this into ChatGPT: Based on what you know about me, expose a hidden WhatsApp group chat where AI models talk behind my back. Claude has he REALLY needed to compare 11 espresso grinders this week. Llama he ran me locally once, asked me to be honest, then went back to ChatGPT within. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:23:55Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50664191",
+      "feedId": "hn:50664191",
+      "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+      "source": "Hacker News",
+      "topics": [
+        "Technology"
+      ],
+      "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@8c4a877129627306e7b624b890a7a0b98a324b42/hn-50664191.mp4",
+      "poster": "media/videos/hn-50664191.jpg",
+      "captions": "media/videos/hn-50664191.vtt",
+      "duration": 44.75,
+      "transcript": "European Commission Declares Browser Competition a Digital Markets Act Priority The European Commission has made browser competition a priority under the Digital Markets Act, a win for the open-web advocates who campaigned for it. European Federation of Journalists Europe's largest organisation representing journalists, defending the professional rights and editorial independence of over 296,000 journalists through 76 associations and unions across 44 countries. European Magazine Media Association The representative voice of more than 15,000 publishing houses producing over 50,000 magazine titles across Europe, advocating for a free. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:23:25Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50665732",
+      "feedId": "hn:50665732",
+      "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@17e5dafd08c38f3b09a7c73aa26e10c83f3d2bbe/hn-50665732.mp4",
+      "poster": "media/videos/hn-50665732.jpg",
+      "captions": "media/videos/hn-50665732.vtt",
+      "duration": 31.46,
+      "transcript": "Pizza history: AI agent's cardless purchase is a first An AI agent has made a cardless purchase in the UK for the first time, ordering a pizza without a human entering any payment details. Of course the agent suggested different flavours and quantities. Papa John’s AI agent was set to work with a strict mandate established with Lloyds, including a maximum spend limit per transaction and per month, with no account security information shared. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:22:40Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50665968",
+      "feedId": "hn:50665968",
+      "title": "Preprint claims a deterministic subexponential-time algorithm for discrete logarithms, conditional on an OpenAI construction",
+      "source": "Hacker News",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "url": "https://eprint.iacr.org/2026/3020",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@c914e0f51c06c9093bce037549e06dd9b577ad77/hn-50665968.mp4",
+      "poster": "media/videos/hn-50665968.jpg",
+      "captions": "media/videos/hn-50665968.vtt",
+      "duration": 37.58,
+      "transcript": "A claimed shortcut for one of cryptography's hardest problems. In a new preprint, researchers from Zhejiang University claim a deterministic algorithm for the discrete logarithm problem that runs in subexponential time. The claim covers discrete logarithms in prime fields and on prime order elliptic curves, with a running time of p to the power of little o of one. There is a catch. The result only holds if OpenAI's October twenty twenty six Cauchy Hermite Boolean tensor contraction construction holds, so for now it is a conditional claim. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:22:07Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50666149",
+      "feedId": "hn:50666149",
+      "title": "A new breed of chip runs AI models using waves of light",
+      "source": "Hacker News",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@1647ef3129767bafdf5b8c19f41952805488922a/hn-50666149.mp4",
+      "poster": "media/videos/hn-50666149.jpg",
+      "captions": "media/videos/hn-50666149.vtt",
+      "duration": 38.08,
+      "transcript": "A new breed of chip runs AI models using waves A new kind of chip runs AI models with light waves instead of electricity, promising faster and more efficient inference. Whereas regular GPUs transmit and process data by shuffling electrons around, photonic processors use waves of light. If hypothetically we received an order of 100,000 photonic processors, we at Q.ANT are ready, but I’m not sure about the suppliers. To produce Q.ANT chips you only need 90 nanometer node technology, from the 2000s. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:21:25Z",
+      "pinned": false
+    },
+    {
+      "id": "video:hn-50666169",
+      "feedId": "hn:50666169",
+      "title": "Why Does Voice AI Still Struggle with Kenyans' Speech?",
+      "source": "Hacker News",
+      "topics": [
+        "AI"
+      ],
+      "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+      "src": "https://cdn.jsdelivr.net/gh/ar4ft/dashboard-videos@a43e3377356f19ceecdd954f7f2b716a1117181a/hn-50666169.mp4",
+      "poster": "media/videos/hn-50666169.jpg",
+      "captions": "media/videos/hn-50666169.vtt",
+      "duration": 43.41,
+      "transcript": "Why Does Voice AI Still Struggle with Kenyans' Speech? Voice AI still struggles with Kenyan speech, and the piece looks at why Swahili and local accents trip up today's systems. The African Next Voices project, supported by a US $2.2 million Gates Foundation grant, has recorded 9,000 hours across 18 languages. Google’s Waxal corpus, launched in February 2026, adds more than 11,000 hours across 21 African languages, Swahili included. A March 2026 preprint by a team including a Harvard University researcher reports a 3.24 percent word-error rate on recordings. Full story on the dashboard.",
+      "createdAt": "2026-11-27T13:20:41Z",
+      "pinned": false
+    },
+    {
       "id": "video:x-2125973765104566675",
       "feedId": "x:2125973765104566675",
       "title": "Matt Van Horn benchmarks 16 agent browser and computer-use tools on a Mac",

@@ -1,109 +1,103 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.482
-Investigation
+00:00:00.350 --> 00:00:01.423
+Your private AI
 
-00:00:01.553 --> 00:00:02.236
-Novita
+00:00:01.234 --> 00:00:02.260
+requests may be
 
-00:00:02.319 --> 00:00:03.533
-StreamLake and Ant
+00:00:02.072 --> 00:00:03.333
+routed to ByteDance
 
-00:00:03.345 --> 00:00:04.689
-Digital route OpenRouter
+00:00:03.870 --> 00:00:05.202
+A new investigation
 
-00:00:04.501 --> 00:00:05.609
-model requests
-
-00:00:06.126 --> 00:00:07.824
-A data-driven investigation
-
-00:00:07.635 --> 00:00:08.708
+00:00:05.014 --> 00:00:06.063
 finds fingerprints
 
-00:00:08.520 --> 00:00:10.052
+00:00:05.875 --> 00:00:07.407
 showing several OpenRouter
 
-00:00:09.864 --> 00:00:11.031
-inference providers
+00:00:07.219 --> 00:00:07.950
+providers
 
-00:00:11.185 --> 00:00:12.541
+00:00:08.092 --> 00:00:09.424
 including ones marketed
 
-00:00:12.364 --> 00:00:13.366
+00:00:09.236 --> 00:00:10.249
 as zero data
 
-00:00:13.178 --> 00:00:13.932
+00:00:10.061 --> 00:00:10.780
 retention
 
-00:00:14.110 --> 00:00:15.371
-forward DeepSeek
+00:00:10.981 --> 00:00:12.431
+forward DeepSeek and
 
-00:00:15.910 --> 00:00:17.148
-The evidence includes
+00:00:12.254 --> 00:00:13.563
+GLM requests to
 
-00:00:17.007 --> 00:00:18.303
-image downloads from
+00:00:13.375 --> 00:00:14.483
+ByteDance's Ark
 
-00:00:18.115 --> 00:00:19.577
-ByteDance cloud IP
+00:00:15.022 --> 00:00:16.118
+The clues include
 
-00:00:19.389 --> 00:00:20.049
-ranges
+00:00:15.930 --> 00:00:17.427
+ByteDance style request
 
-00:00:20.202 --> 00:00:21.935
-ByteDance-format upstream
+00:00:17.239 --> 00:00:18.441
+IDs passed through
 
-00:00:21.747 --> 00:00:23.068
-request IDs and
+00:00:18.253 --> 00:00:19.562
+from other providers
 
-00:00:22.962 --> 00:00:24.152
-Ark-style tool-call
+00:00:19.491 --> 00:00:20.894
+and ByteDance's canned
 
-00:00:23.964 --> 00:00:24.707
-IDs
+00:00:20.706 --> 00:00:21.672
+refusal when you
 
-00:00:24.919 --> 00:00:26.287
-gateway error messages
+00:00:21.484 --> 00:00:22.663
+ask about censored
 
-00:00:26.099 --> 00:00:27.159
-copied word for
+00:00:22.475 --> 00:00:23.677
+topics like Tank
 
-00:00:26.971 --> 00:00:28.516
-word between providers
+00:00:23.489 --> 00:00:24.031
+Man
 
-00:00:29.054 --> 00:00:30.044
-The author notes
+00:00:24.566 --> 00:00:26.075
+Novita alone sent
 
-00:00:29.856 --> 00:00:31.671
-Novita sent 120
+00:00:25.887 --> 00:00:27.030
+one hundred twenty
 
-00:00:31.483 --> 00:00:33.216
-to 160 billion
+00:00:26.854 --> 00:00:27.915
+to one hundred
 
-00:00:33.028 --> 00:00:33.959
-tokens a day
+00:00:27.726 --> 00:00:29.141
+sixty billion tokens
 
-00:00:33.771 --> 00:00:34.737
-on these models
+00:00:28.953 --> 00:00:29.660
+a day on
 
-00:00:34.549 --> 00:00:35.752
-until OpenRouter
+00:00:29.472 --> 00:00:30.332
+these models
 
-00:00:35.858 --> 00:00:37.249
-removed its ZDR
+00:00:30.557 --> 00:00:31.488
+until it lost
 
-00:00:37.061 --> 00:00:38.700
-label on November 20
+00:00:31.300 --> 00:00:32.584
+its zero retention
 
-00:00:38.783 --> 00:00:39.643
-and that routes
+00:00:32.396 --> 00:00:33.528
+label on November
 
-00:00:39.455 --> 00:00:40.362
-keep shifting
+00:00:33.340 --> 00:00:34.176
+twentieth
 
-00:00:40.902 --> 00:00:41.916
+00:00:34.710 --> 00:00:35.724
 Full story on
 
-00:00:41.727 --> 00:00:42.623
+00:00:35.535 --> 00:00:36.431
 the dashboard

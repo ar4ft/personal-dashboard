@@ -1,112 +1,109 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.493
-Preprint claims a
+00:00:00.350 --> 00:00:01.647
+A claimed shortcut
 
-00:00:01.305 --> 00:00:03.392
-deterministic subexponential-time
+00:00:01.458 --> 00:00:02.095
+for one of
 
-00:00:03.239 --> 00:00:04.607
-algorithm for discrete
+00:00:01.907 --> 00:00:03.392
+cryptography's hardest
 
-00:00:04.418 --> 00:00:05.927
-logarithms conditional
+00:00:03.204 --> 00:00:04.017
+problems
 
-00:00:06.462 --> 00:00:07.723
-Zhejiang University
+00:00:04.542 --> 00:00:05.190
+In a new
 
-00:00:07.535 --> 00:00:08.749
-researchers claim a
+00:00:05.002 --> 00:00:05.768
+preprint
 
-00:00:08.561 --> 00:00:09.999
+00:00:06.051 --> 00:00:07.631
+researchers from Zhejiang
+
+00:00:07.443 --> 00:00:08.775
+University claim a
+
+00:00:08.587 --> 00:00:10.131
 deterministic algorithm
 
-00:00:09.811 --> 00:00:11.202
-solving discrete logs
+00:00:09.955 --> 00:00:10.874
+for the discrete
 
-00:00:11.014 --> 00:00:12.110
+00:00:10.686 --> 00:00:12.183
+logarithm problem that
+
+00:00:11.995 --> 00:00:13.669
+runs in subexponential
+
+00:00:13.481 --> 00:00:14.105
+time
+
+00:00:14.638 --> 00:00:15.699
+The claim covers
+
+00:00:15.511 --> 00:00:16.784
+discrete logarithms
+
+00:00:16.596 --> 00:00:17.727
 in prime fields
 
-00:00:12.016 --> 00:00:13.242
-and on prime-order
+00:00:17.551 --> 00:00:18.635
+and on prime
 
-00:00:13.066 --> 00:00:14.138
-elliptic curves in
+00:00:18.529 --> 00:00:19.873
+order elliptic curves
 
-00:00:13.950 --> 00:00:14.622
-po time
+00:00:20.027 --> 00:00:20.770
+with a running
 
-00:00:14.879 --> 00:00:17.544
-assuming OpenAI's October 2026
+00:00:20.581 --> 00:00:21.418
+time of p
 
-00:00:17.355 --> 00:00:18.699
-Cauchy-Hermite Boolean
+00:00:21.230 --> 00:00:22.314
+to the power
 
-00:00:18.511 --> 00:00:19.702
-tensor contraction
+00:00:22.126 --> 00:00:22.904
+of little o
 
-00:00:19.513 --> 00:00:20.763
+00:00:22.716 --> 00:00:23.388
+of one
+
+00:00:23.918 --> 00:00:24.531
+There is a
+
+00:00:24.343 --> 00:00:25.038
+catch
+
+00:00:25.177 --> 00:00:26.250
+The result only
+
+00:00:26.061 --> 00:00:27.500
+holds if OpenAI's
+
+00:00:27.311 --> 00:00:28.608
+October twenty twenty
+
+00:00:28.420 --> 00:00:29.752
+six Cauchy Hermite
+
+00:00:29.564 --> 00:00:31.061
+Boolean tensor contraction
+
+00:00:30.873 --> 00:00:32.016
 construction holds
 
-00:00:21.286 --> 00:00:22.241
-The result is
+00:00:32.146 --> 00:00:33.054
+so for now
 
-00:00:22.052 --> 00:00:23.326
-conditional and not
+00:00:32.866 --> 00:00:33.301
+it is a
 
-00:00:23.137 --> 00:00:24.234
-yet peer reviewed
+00:00:33.113 --> 00:00:34.304
+conditional claim
 
-00:00:24.758 --> 00:00:26.444
-BibTeX misccryptoeprint
-
-00:00:26.609 --> 00:00:29.015
-2026 / 3020
-
-00:00:29.145 --> 00:00:30.536
-author Shuchang Liu
-
-00:00:30.348 --> 00:00:31.750
-and Bingsheng Zhang
-
-00:00:31.562 --> 00:00:32.564
-and Kui Ren
-
-00:00:32.730 --> 00:00:34.203
-title A Deterministic
-
-00:00:34.015 --> 00:00:35.300
-Subexponential-time
-
-00:00:35.159 --> 00:00:36.161
-Algorithm for the
-
-00:00:35.973 --> 00:00:37.246
-Discrete Logarithm
-
-00:00:37.058 --> 00:00:37.717
-Problem
-
-00:00:37.927 --> 00:00:39.495
-howpublished Cryptology
-
-00:00:39.319 --> 00:00:40.427
-ePrint Archive
-
-00:00:40.498 --> 00:00:42.479
-Paper 2026 /
-
-00:00:42.291 --> 00:00:43.198
-3020
-
-00:00:43.399 --> 00:00:44.837
-year 2026
-
-00:00:44.920 --> 00:00:45.675
-url
-
-00:00:46.206 --> 00:00:47.220
+00:00:34.830 --> 00:00:35.844
 Full story on
 
-00:00:47.031 --> 00:00:47.927
+00:00:35.655 --> 00:00:36.551
 the dashboard

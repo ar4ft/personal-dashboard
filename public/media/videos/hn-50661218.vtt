@@ -1,106 +1,100 @@
 WEBVTT
 
-00:00:00.350 --> 00:00:01.717
-DeepMind lets AI
+00:00:00.350 --> 00:00:01.647
+AI agents now
 
-00:00:01.529 --> 00:00:02.873
-agents control part
+00:00:01.458 --> 00:00:02.154
+run some of
 
-00:00:02.685 --> 00:00:03.604
-of its compute
+00:00:01.966 --> 00:00:03.427
+DeepMind's experiments
 
-00:00:04.134 --> 00:00:05.454
-On Google DeepMind's
+00:00:03.966 --> 00:00:05.286
+Google DeepMind lets
 
-00:00:05.266 --> 00:00:06.091
-podcast
+00:00:05.169 --> 00:00:06.359
+AI agents run
 
-00:00:06.221 --> 00:00:07.530
-Gemini lead Koray
+00:00:06.171 --> 00:00:07.279
+experiments on their
 
-00:00:07.342 --> 00:00:09.181
-Kavukcuoglu said agents
+00:00:07.091 --> 00:00:07.727
+own for the
 
-00:00:08.992 --> 00:00:10.254
-now run experiments
+00:00:07.539 --> 00:00:08.848
+next Gemini model
 
-00:00:10.066 --> 00:00:10.855
-on their own
+00:00:09.084 --> 00:00:09.838
+using part of
 
-00:00:10.667 --> 00:00:11.457
-with part of
-
-00:00:11.268 --> 00:00:12.353
+00:00:09.650 --> 00:00:10.711
 the lab's compute
 
-00:00:12.886 --> 00:00:14.395
-Kavukcuoglu describes
+00:00:10.924 --> 00:00:12.067
+though recursive self
 
-00:00:14.207 --> 00:00:15.114
-a shift from
+00:00:11.879 --> 00:00:13.116
+improvement remains
 
-00:00:14.926 --> 00:00:16.176
-separate specialist
+00:00:12.928 --> 00:00:13.671
+distant
 
-00:00:15.987 --> 00:00:16.954
-teams to one
+00:00:14.206 --> 00:00:15.538
+Gemini lead Koray
 
-00:00:16.766 --> 00:00:18.015
-general-purpose model
+00:00:15.350 --> 00:00:17.154
+Kavukcuoglu says DeepMind
 
-00:00:17.827 --> 00:00:18.982
-line for science
+00:00:16.965 --> 00:00:18.132
+now relies on
 
-00:00:18.794 --> 00:00:19.737
+00:00:17.944 --> 00:00:19.088
+one general purpose
+
+00:00:18.899 --> 00:00:20.102
+model for science
+
+00:00:19.914 --> 00:00:20.809
 and products
 
-00:00:19.950 --> 00:00:21.117
-with each Gemini
+00:00:20.963 --> 00:00:22.024
+instead of separate
 
-00:00:20.928 --> 00:00:22.343
-generation a hand-built
+00:00:21.836 --> 00:00:23.003
+teams for projects
 
-00:00:22.155 --> 00:00:22.838
-one-off
+00:00:22.815 --> 00:00:23.946
+like AlphaFold
 
-00:00:22.969 --> 00:00:24.336
-while parallel teams
+00:00:24.470 --> 00:00:26.003
+Each Gemini generation
 
-00:00:24.148 --> 00:00:25.480
-work on successors
+00:00:25.850 --> 00:00:26.628
+is a hand
 
-00:00:26.006 --> 00:00:26.890
-As a safety
+00:00:26.439 --> 00:00:27.300
+built one off
 
-00:00:26.702 --> 00:00:27.338
-measure
+00:00:27.430 --> 00:00:28.585
+he says and
 
-00:00:27.492 --> 00:00:28.588
-DeepMind does not
+00:00:28.420 --> 00:00:29.646
+AGI won't begin
 
-00:00:28.400 --> 00:00:29.461
-reward the agents'
+00:00:29.458 --> 00:00:31.003
+until everyday products
 
-00:00:29.272 --> 00:00:30.097
-chain of thought
+00:00:30.850 --> 00:00:31.816
+earn enough trust
 
-00:00:29.909 --> 00:00:30.782
-during training
+00:00:31.628 --> 00:00:32.347
+for people to
 
-00:00:30.947 --> 00:00:31.878
-so their reasoning
+00:00:32.159 --> 00:00:33.432
+hand decisions over
 
-00:00:31.690 --> 00:00:33.175
-stays unfiltered and
-
-00:00:32.987 --> 00:00:34.178
-reviewable before they
-
-00:00:33.989 --> 00:00:34.567
-act
-
-00:00:35.094 --> 00:00:36.108
+00:00:33.966 --> 00:00:34.980
 Full story on
 
-00:00:35.919 --> 00:00:36.815
+00:00:34.791 --> 00:00:35.687
 the dashboard

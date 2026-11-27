@@ -1,0 +1,20 @@
+{
+  "hook": "The 24 Best Books for Math Teachers, in Reading Order",
+  "hookText": "The 24 Best Books for Math Teachers, in Reading Order",
+  "beats": [
+    {
+      "say": "What to read if you teach mathematics, from why the subject is worth teaching to how children learn it and what to do on Monday morning.",
+      "visual": 1
+    },
+    {
+      "say": "24 books in five steps, three of them free. In a hurry Before the books Step I · Books 01-04 Four short books about what mathematics is for.",
+      "visual": 2
+    },
+    {
+      "say": "Step II · Books 05-09 Five books of research, written to be read by teachers.",
+      "visual": 3
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}

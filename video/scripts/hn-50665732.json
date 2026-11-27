@@ -1,0 +1,20 @@
+{
+  "hook": "Pizza history: AI agent's cardless purchase is a first",
+  "hookText": "Pizza history: AI agent's cardless purchase is a first",
+  "beats": [
+    {
+      "say": "An AI agent has made a cardless purchase in the UK for the first time, ordering a pizza without a human entering any payment details.",
+      "visual": 1
+    },
+    {
+      "say": "Of course the agent suggested different flavours and quantities.",
+      "visual": 2
+    },
+    {
+      "say": "Papa John’s AI agent was set to work with a strict mandate established with Lloyds, including a maximum spend limit per transaction and per month, with no account security information shared.",
+      "visual": 0
+    }
+  ],
+  "outro": "Full story on the dashboard.",
+  "auto": true
+}
