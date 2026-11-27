@@ -2,6 +2,329 @@
   "version": 1,
   "items": [
     {
+      "id": "hn:50658632",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "rvoip: a complete VoIP stack in Rust, from SIP and RTP to WebRTC and voice-AI agents",
+      "description": "rvoip is a Rust library that bundles SIP, RTP, WebRTC, QUIC/WebTransport, Media over QUIC and voice-AI agents behind one call model, so a call goes from your code to the wire without a separate SIP proxy, media server or RTP engine.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Eisenzopf",
+      "url": "https://github.com/eisenzopf/rvoip",
+      "createdAt": "2026-11-26T19:18:09Z",
+      "updatedAt": "2026-11-26T19:18:09Z",
+      "content": "Signalling, media, codecs, NAT traversal and security are all crates in one workspace, with release-gated interoperability tests against Asterisk, FreeSWITCH, Jambonz, Kamailio and OpenSIPS. On a single 16-vCPU AWS c8i.4xlarge, one rvoip process handled about 8,300 calls per second of SIP signalling over TLS or UDP and about 1,100 to 1,200 calls per second with G.711 media, at 1 ms median setup under 90% load. The README notes the caveats: it was measured as a terminating endpoint, media was passed through, and long-call concurrency has not been measured yet.\n\n[Repo on GitHub](https://github.com/eisenzopf/rvoip)\n\n[HN discussion](https://news.ycombinator.com/item?id=50658632)"
+    },
+    {
+      "id": "hn:50658498",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "An introduction to uncertainty in machine learning",
+      "description": "Christian Henning's intuitive guide to where uncertainty in ML models comes from, aleatoric versus epistemic, and when calibration, Bayesian inference or conformal guarantees actually matter for a decision.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Hacker News",
+      "author": "Christian Henning",
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "createdAt": "2026-11-26T19:04:50Z",
+      "updatedAt": "2026-11-26T19:04:50Z",
+      "content": "Starting from the point that every probabilistic model makes an uncertainty assumption whether or not it says so, the post uses a coin flip to show how the line between aleatoric and epistemic uncertainty depends on what the input contains. It then works through Bayesian inference and conformal prediction, and two worked cases: a defect-inspection model where only the ranking of scores matters, and wind-power forecasting for grid reserves where a faithful uncertainty estimate does. Based on a talk at the University of Alicante, with slides and the author's PhD thesis linked for depth.\n\n[Article](https://chrhenning.com/blog/2026/introduction-to-uncertainty/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50658498)"
+    },
+    {
+      "id": "hn:50656999",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "nami installs packages from nixpkgs without running the Nix evaluator",
+      "description": "The nami package manager evaluates each nixpkgs release once into a signed catalog, so installing or searching 140,000+ prebuilt packages becomes an offline lookup followed by a verified download from cache.nixos.org.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "nami",
+      "url": "https://namios.dev/blog/nixpkgs-without-evaluating",
+      "createdAt": "2026-11-26T16:44:43Z",
+      "updatedAt": "2026-11-26T16:44:43Z",
+      "content": "Turning a package name into a store path normally requires evaluating nixpkgs on every machine, even though everyone gets the same answer. nami moves that step to a catalog signed with an ed25519 key that also carries hashes of every build definition, while the bytes themselves stay vouched for by cache.nixos.org's key. It speaks the binary cache protocol directly, installs into /nix/store so the same packages run on Ubuntu, Fedora, Arch or openSUSE, adds a mesa runtime for GPU apps on non-NixOS systems, and can still build uncached packages from the stored build definitions.\n\n[Blog post](https://namios.dev/blog/nixpkgs-without-evaluating)\n\n[HN discussion](https://news.ycombinator.com/item?id=50656999)"
+    },
+    {
+      "id": "hn:50655639",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Show HN: lip-dictation lets you mouth prompts to Claude Code using on-device lip reading on a Mac",
+      "description": "A Claude Code plugin that reads your lips through the webcam with the Auto-AVSR model running locally on Apple Silicon, so you can send prompts silently; no audio is recorded and no video leaves the Mac.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Hacker News",
+      "author": "Dmitrii Batanov",
+      "url": "https://github.com/batanus/lip-dictation",
+      "createdAt": "2026-11-26T14:25:08Z",
+      "updatedAt": "2026-11-26T14:25:08Z",
+      "content": "Press a button above the Claude Code prompt, mouth a phrase, press stop, and the text appears in the prompt box about half a second later. The author is upfront that accuracy is modest: the model's published benchmark is about 80% word accuracy (20.3% WER on LRS3) for people speaking aloud, silent mouthing at a laptop webcam does worse, and Claude is told which words were lip-read so it can interpret them in context. You can record a few dozen phrases to fine-tune a personal model, which is kept only if it lowers the error rate. It needs Apple Silicon, a webcam and about 2.5 GB of disk.\n\n[Repo on GitHub](https://github.com/batanus/lip-dictation)\n\n[HN discussion](https://news.ycombinator.com/item?id=50655639)"
+    },
+    {
+      "id": "hn:50660273",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Investigation: Novita, StreamLake and Ant Digital route OpenRouter model requests through ByteDance's Ark",
+      "description": "A data-driven investigation finds fingerprints showing several OpenRouter inference providers, including ones marketed as zero data retention, forward DeepSeek, GLM and other requests to ByteDance's Volcano Engine Ark or BytePlus ModelArk.",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Kendell (kendell.dev)",
+      "url": "https://kendell.dev/blog/arkwrapper/",
+      "createdAt": "2026-11-26T21:59:19Z",
+      "updatedAt": "2026-11-26T21:59:19Z",
+      "content": "The evidence includes image downloads from ByteDance cloud IP ranges, ByteDance-format upstream request IDs and Ark-style tool-call IDs, gateway error messages copied word for word between providers, and ByteDance's canned refusals on censored questions. It builds on the earlier finding that AtlasCloud, Novita and StreamLake forwarded MiniMax requests, which MiniMax's security system then opened. The author notes Novita sent 120 to 160 billion tokens a day on these models until OpenRouter removed its ZDR label on November 20, and that routes keep shifting.\n\n[Article](https://kendell.dev/blog/arkwrapper/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50660273)"
+    },
+    {
+      "id": "hn:50665968",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Preprint claims a deterministic subexponential-time algorithm for discrete logarithms, conditional on an OpenAI construction",
+      "description": "Zhejiang University researchers claim a deterministic algorithm solving discrete logs in prime fields and on prime-order elliptic curves in p^o(1) time, assuming OpenAI's October 2026 Cauchy-Hermite Boolean tensor contraction construction holds.",
+      "topics": [
+        "Programming",
+        "Technology"
+      ],
+      "source": "Hacker News",
+      "author": "Shuchang Liu, Bingsheng Zhang, Kui Ren",
+      "url": "https://eprint.iacr.org/2026/3020",
+      "createdAt": "2026-11-27T12:08:51Z",
+      "updatedAt": "2026-11-27T12:08:51Z",
+      "content": "Deterministic DLP algorithms that rely on no unproven number-theoretic hypotheses have needed about p^(1/2) operations in the worst case; after the October 2026 refutations of the Exponential Time Hypothesis, Las Vegas subexponential algorithms appeared for elliptic curves but deterministic ones stayed open. This paper's Turing machine runs in 2^O(b/sqrt(log log b)) time for b-bit p, uses zero random bits and avoids the Generalized Riemann Hypothesis and smoothness heuristics, combining small affine-interval factor bases whose sumsets cover the group with a partial contraction procedure. The result is conditional and not yet peer reviewed.\n\n[Paper on IACR ePrint](https://eprint.iacr.org/2026/3020)\n\n[HN discussion](https://news.ycombinator.com/item?id=50665968)"
+    },
+    {
+      "id": "hn:50661218",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepMind lets AI agents control part of its compute to run experiments for the next Gemini",
+      "description": "On Google DeepMind's podcast, Gemini lead Koray Kavukcuoglu said agents now run experiments on their own with part of the lab's compute, though full recursive self-improvement is still far off.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Hacker News",
+      "author": "The Decoder",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "createdAt": "2026-11-27T00:03:18Z",
+      "updatedAt": "2026-11-27T00:03:18Z",
+      "content": "Kavukcuoglu describes a shift from separate specialist teams (AlphaFold, fusion) to one general-purpose model line for science and products, with each Gemini generation a hand-built one-off while parallel teams work on successors. As a safety measure, DeepMind does not reward the agents' chain of thought during training, so their reasoning stays unfiltered and reviewable before they act. He also argues no benchmark captures the core of intelligence, so none can show when AGI arrives.\n\n[Article on The Decoder](https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/)\n\n[HN discussion](https://news.ycombinator.com/item?id=50661218)"
+    },
+    {
+      "id": "reading:abakcus-moving-sofa-problem",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "The moving sofa problem: the largest sofa that fits around a corner",
+      "description": "Abakcus's animated explainer of Leo Moser's 1966 question, from Hammersley's sofa to Gerver's 18-piece shape of area 2.2195 and Jineon Baek's 119-page 2024 proof that it is optimal.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/moving-sofa-problem",
+      "createdAt": "2026-11-26T13:00:00Z",
+      "updatedAt": "2026-11-26T13:00:00Z",
+      "content": "In a hallway one unit wide with a single right-angled turn, what rigid flat shape of largest area can slide and rotate around the corner? Both the shape and its motion are unknown, which is why a napkin-sized puzzle took fifty-eight years to settle. The article walks through the rules, Hammersley's sofa, Gerver's 18-piece outline, Romik's ambidextrous sofa for a two-turn hallway, and Baek's proof, with animations along the way.\n\n[Article on Abakcus](https://abakcus.com/articles/moving-sofa-problem)"
+    },
+    {
+      "id": "reading:abakcus-john-nash-recommendation-letter",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "\"He is a mathematical genius\": John Nash's recommendation letter and the 28 pages that proved it",
+      "description": "Abakcus on Richard Duffin's three-sentence 1948 letter that got 19-year-old John Nash into Princeton, the 28-page thesis that defined the Nash equilibrium, and what makes a strong recommendation letter.",
+      "topics": [
+        "Math",
+        "Science"
+      ],
+      "source": "Reading",
+      "author": "Ali Kaya",
+      "url": "https://abakcus.com/articles/john-nash-recommendation-letter",
+      "createdAt": "2026-11-26T13:00:00Z",
+      "updatedAt": "2026-11-26T13:00:00Z",
+      "content": "Duffin's letter to Solomon Lefschetz gave Nash's name, age and graduation date, then ended with five words of judgement; Princeton admitted him with a fellowship. The 30-minute read follows Nash from Carnegie Tech to the thesis that won him the 1994 Nobel Memorial Prize in Economic Sciences, explains the equilibrium with two interactive labs, and closes with lessons for writing or requesting recommendations.\n\n[Article on Abakcus](https://abakcus.com/articles/john-nash-recommendation-letter)"
+    },
+    {
+      "id": "x:2125992406264991817",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "DeepSeek pushes Ascend 950 kernel updates, reaching 425 TFLOPS (98.5% of peak) on sparse prefill",
+      "description": "DeepSeek updated FlashMLA, DeepSelect, DeepGEMM and DeepGEMM-Ascend on November 26, with a fused attention kernel for Huawei's Ascend 950 NPU and optimized sparse prefill and decoding kernels.",
+      "topics": [
+        "Machine Learning",
+        "Technology"
+      ],
+      "source": "Twitter / X",
+      "author": "bebu (@bebuu_ai)",
+      "url": "https://x.com/bebuu_ai/status/2125992406264991817",
+      "createdAt": "2026-11-26T16:37:43Z",
+      "updatedAt": "2026-11-26T16:37:43Z",
+      "content": "FlashMLA's Ascend release adds a fused norm+RoPE+attention+RoPE+cast kernel and head128 support, and its sparse kernels now hit up to 425 TFLOPS in prefill (98.5% of hardware peak) and 372 TFLOPS in decoding (86.1%), up from 410 and 360 at the September release. DeepSelect gained an FP32 TopK kernel for Ascend, and DeepGEMM-Ascend shipped a new public release whose FP4 GEMM benchmark reaches 1,701 of 1,730 TFLOPS on an Ascend 950DT.\n\n[FlashMLA on GitHub](https://github.com/deepseek-ai/FlashMLA)\n\n[DeepGEMM-Ascend on GitHub](https://github.com/deepseek-ai/DeepGEMM-Ascend)\n\n[Post on X](https://x.com/bebuu_ai/status/2125992406264991817)"
+    },
+    {
+      "id": "x:2126047712596631876",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Rex by Superlogical lands in the App Store: your Mac, Linux and Windows terminal sessions on iPhone and iPad",
+      "description": "Mitchell Hashimoto's Rex iOS app is live: it pairs with a Rex Server by QR code to show, type into and hand off persistent terminal sessions, aimed at checking on coding agents from your phone.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Mitchell Hashimoto (@mitchellh)",
+      "url": "https://x.com/mitchellh/status/2126047712596631876",
+      "createdAt": "2026-11-26T20:17:29Z",
+      "updatedAt": "2026-11-26T20:17:29Z",
+      "content": "Sessions keep running on your computers while Rex lists every live session across machines, lets you swipe between panes, answer agent prompts or approve commands, and hand a pane off to Rex on the Mac. Version 0.1.1 adds a tab overview, file download from paths in the terminal, a theme editor that imports Ghostty themes, and a built-in Tailscale connection. It is free, reached #6 in Developer Tools, and still needs a Rex Server, whose full public release Hashimoto calls imminent. The launch post drew about 3,000 likes.\n\n[Rex on the App Store](https://apps.apple.com/us/app/rex-by-superlogical/id6813649254)\n\n[Post on X](https://x.com/mitchellh/status/2126047712596631876)"
+    },
+    {
+      "id": "x:2125916926048358827",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Ant Group open-sources Ming-Image-0.2-Design, the top open-weight text-to-image model on Artificial Analysis",
+      "description": "Ant Group's Ming-Image-0.2-Design, a 6B-parameter DiT for UI drafts, posters and text-heavy designs, is released under MIT and ranks first among open-weight models on AA-Image-T2I v2.1 with 1,095 Elo.",
+      "topics": [
+        "AI",
+        "Machine Learning"
+      ],
+      "source": "Twitter / X",
+      "author": "Ant Ling (@AntLingAGI)",
+      "url": "https://x.com/AntLingAGI/status/2125916926048358827",
+      "createdAt": "2026-11-26T11:37:47Z",
+      "updatedAt": "2026-11-26T11:37:47Z",
+      "content": "The update improves complex composition, lighting and text rendering, and shares inference code with 0.1 Design: 2048×2048 by default in 12 steps at CFG 1.0, validated on a single 80 GB GPU and servable with vLLM-Omni. Ant plans to open-source Ming-Image-0.2-Design-Layer next week, which splits a flat design into separate editable transparent layers down to character parts.\n\n[Model on Hugging Face](https://huggingface.co/inclusionAI/Ming-Image-0.2-Design)\n\n[Inference code on GitHub](https://github.com/inclusionAI/Ming-Image)\n\n[Post on X](https://x.com/AntLingAGI/status/2125916926048358827)"
+    },
+    {
+      "id": "x:2126042617851089113",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Tencent open-sources DFly2 speculative decoding, and a developer ports it to two NVIDIA GB10 Sparks",
+      "description": "Tencent released DFly2's weights, training code and report on November 26; a day later an independent port ran it for DeepSeek-V4.1-Flash on two GB10 boxes with token-exact output, but slower than DSpark.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "source": "Twitter / X",
+      "author": "Manny (@mannyv_sol)",
+      "url": "https://x.com/mannyv_sol/status/2126042617851089113",
+      "createdAt": "2026-11-26T19:57:14Z",
+      "updatedAt": "2026-11-26T19:57:14Z",
+      "content": "DFly2 is a block-parallel drafter that reuses the target model's own sparse KV cache and top-k attention picks, so drafting cost stays constant at any context length and needs no extra KV memory. Tencent reports its acceptance lead over DFlash and DSpark grows from 3.9 to 10.5% on general tasks to 10.0 to 31.5% on long-context and agentic workloads, with drafters for Hy4 flash, DeepSeek-V4.1-Flash and GLM-5.3-Flash. Manny's experimental port matched all 959 reference tokens across 24 GPU runs, at a median 45 tok/s on chat versus 75 for DSpark and 38 with no draft.\n\n[AngelSpec and DFly2 on GitHub](https://github.com/Tencent/AngelSpec)\n\n[DFly2 paper on arXiv](https://arxiv.org/abs/2611.34776)\n\n[Two-Spark port on GitHub](https://github.com/Droptops/dfly2-two-sparks)\n\n[Post on X](https://x.com/mannyv_sol/status/2126042617851089113)"
+    },
+    {
+      "id": "x:2126130025678406100",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "A Witness-style line puzzle game running on a $30 ESP32-S3 AMOLED touch board",
+      "description": "Steren built Circle with a Line, a standalone puzzle game for Waveshare's 1.8-inch ESP32-S3 AMOLED touch board, in plain C on ESP-IDF with procedural puzzles and synthesized audio.",
+      "topics": [
+        "Technology",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Steren (@steren)",
+      "url": "https://x.com/steren/status/2126130025678406100",
+      "createdAt": "2026-11-27T01:44:34Z",
+      "updatedAt": "2026-11-27T01:44:34Z",
+      "content": "The homage to The Witness boots straight into the game and generates its panel puzzles procedurally, with vector graphics and audio created from scratch. The board-support layer handles display, touch, buttons and audio, and detects the newer V2 hardware revision at boot by probing the touch controller's I2C address. A PC tool covers tests, a puzzle generator and bank, screenshots and sound rendering.\n\n[Blog post](https://labs.steren.fr/2026/circle-with-a-line-esp32/)\n\n[Repo on GitHub](https://github.com/steren/circle-with-a-line-esp32)\n\n[Post on X](https://x.com/steren/status/2126130025678406100)"
+    },
+    {
+      "id": "x:2126083200845852853",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Nabız: a free menu bar app that cleans up after coding agents on your Mac",
+      "description": "Nabız is an open-source native macOS menu bar app that lists running dev servers and ports, tracks Claude, Codex and Grok limits, and cleans build and agent leftovers like DerivedData, target folders and stale worktrees.",
+      "topics": [
+        "iOS / Mac Apps",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Mehmet Ata Kartal (@mehmetatakartal)",
+      "url": "https://x.com/mehmetatakartal/status/2126083200845852853",
+      "createdAt": "2026-11-26T22:38:30Z",
+      "updatedAt": "2026-11-26T22:38:30Z",
+      "content": "The author built it after finding 62 GB of agent leftovers and three forgotten dev servers on his Mac. Nabız includes a built-in MCP server so Claude Code can reuse what is already running, shows projects with unpushed commits plus Docker and simulators, and skips caches still in use and .env files. It also bundles an AI chat on Apple's on-device model, a launcher with clipboard history, dictation, screenshot markup and screen recordings. Written in Swift, GPLv3, installable via Homebrew.\n\n[Repo on GitHub](https://github.com/matakartal/nabiz)\n\n[Post on X](https://x.com/mehmetatakartal/status/2126083200845852853)"
+    },
+    {
+      "id": "x:2125973765104566675",
+      "section": "news",
+      "type": "news",
+      "status": "inbox",
+      "title": "Matt Van Horn benchmarks 16 agent browser and computer-use tools on a Mac",
+      "description": "Testing 16 tools on one Apple Silicon Mac, Matt Van Horn picks cua-driver for native Mac apps (27 MB RAM, no focus stealing) and Ardia Browser or OpenCode browse for web automation.",
+      "topics": [
+        "iOS / Mac Apps",
+        "AI",
+        "Programming"
+      ],
+      "source": "Twitter / X",
+      "author": "Matt Van Horn (@mvanhorn)",
+      "url": "https://x.com/mvanhorn/status/2125973765104566675",
+      "createdAt": "2026-11-26T15:23:38Z",
+      "updatedAt": "2026-11-26T15:23:38Z",
+      "content": "Every tool ran the same five targets: example.com, Hacker News, a private GitHub repo, Apple Messages and an Electron app. Ardia had the fastest warm page open (396 ms) and avoids Chrome's remote-debugging prompts; OpenCode browse kept Hacker News snapshots to 3,671 characters in 85 ms, about 53 times smaller than Stagehand, using 18 MB of RAM, while heavier tools dumped up to 193,000 characters per page. Five of the tools tested use cua-driver underneath. The article includes copy-paste setup prompts for Claude Code, Codex and similar agents.\n\n[Post on X](https://x.com/mvanhorn/status/2125973765104566675)"
+    },
+    {
+      "id": "ideas:agent-tool-bench-mac",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "toolbench: a CLI that benchmarks browser and computer-use tools for your coding agents on your own Mac",
+      "description": "For developers wiring Claude Code, Codex or OpenCode to browsers and Mac apps: a CLI that runs every installed browser-use and computer-use tool against the same tasks and reports latency, RAM, snapshot tokens and whether it stole window focus, then writes the routing rule into your agent config.",
+      "nextStep": "Write a Python script that runs cua-driver, agent-browser and OpenCode browse against example.com and Hacker News, records wall time, RSS memory and snapshot character count, and prints one comparison table.",
+      "topics": [
+        "Programming",
+        "AI",
+        "iOS / Mac Apps"
+      ],
+      "createdAt": "2026-11-27T13:00:00Z",
+      "content": "## How it works\n\nEach tool gets a small adapter that knows how to open a page, take a snapshot, screenshot and read a native window. The runner executes the same task suite against every adapter, samples process memory, counts snapshot tokens with a tokenizer, and records the frontmost app before and after each step to catch focus stealing. Results land in a local SQLite file and a Markdown report, and the winning tools are written as a short routing rule into CLAUDE.md or an Agent Skill.\n\n```mermaid\nflowchart LR\n  Suite[Task suite] --> Runner[Bench runner]\n  Adapters[Tool adapters] --> Runner\n  Runner --> Metrics[Latency RAM tokens focus]\n  Metrics --> DB[(SQLite results)]\n  DB --> Report[Markdown report]\n  Report --> Rule[Agent routing rule]\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Runner | Python CLI with Typer |\n| Focus check | AppleScript via System Events |\n| Memory | psutil sampling per process tree |\n| Token count | tiktoken or the model's tokenizer |\n| Output | SQLite plus a Markdown table |\n\n## Hard parts\n\n- Each tool has its own CLI or protocol, so adapters break as tools update.\n- Fair warm versus cold measurements, and tools that share a browser.\n- Authenticated tasks without storing real credentials in the suite.\n- Detecting focus steals that happen between sampling points.\n\n## Effort\n\nA weekend for three adapters and the report; one to two weeks for a dozen tools and config writing.\n\n## Inspired by\n\n- [Matt Van Horn's 16-tool test on X](https://x.com/mvanhorn/status/2125973765104566675)\n- [cua-driver](https://cua.ai)"
+    },
+    {
+      "id": "ideas:spec-decode-fit-check",
+      "section": "ideas",
+      "type": "idea",
+      "status": "explore",
+      "source": "X digest",
+      "title": "Drafter fit check: test whether a speculative-decoding drafter actually speeds up your prompts on your hardware",
+      "description": "A small harness for people self-hosting open models that replays a sample of real prompts through vLLM with no draft, MTP, DSpark-style and DFly2-style drafters, then reports acceptance length, tokens per second and output parity so you only enable the drafter that wins.",
+      "nextStep": "Export 50 representative prompts from your own logs, serve one target model in vLLM with and without its MTP drafter, and log acceptance length and decode tokens per second for each prompt.",
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "createdAt": "2026-11-27T13:00:00Z",
+      "content": "## How it works\n\nThe harness samples prompts from your own traffic, buckets them by context length and task type, and replays each through the same target model with different drafters. It checks that greedy outputs match the no-draft reference token for token, measures acceptance length and decode speed per bucket, and recommends a drafter per workload, since a drafter that wins on long agentic contexts can lose on short chat.\n\n```mermaid\nflowchart LR\n  Logs[Your prompt logs] --> Sample[Bucketed sample]\n  Sample --> NoDraft[No draft run]\n  Sample --> Drafters[Drafter runs]\n  NoDraft --> Parity[Token parity check]\n  Drafters --> Parity\n  Drafters --> Speed[Acceptance and tok per s]\n  Parity --> Verdict[Per bucket verdict]\n  Speed --> Verdict\n```\n\n## Stack\n\n| Part | Option |\n| --- | --- |\n| Serving | vLLM with speculative decoding configs |\n| Drafters | MTP, DSpark, DFly2 via AngelSpec |\n| Harness | Python with the OpenAI-compatible client |\n| Storage | Parquet per run |\n| Report | Notebook or static HTML chart |\n\n## Hard parts\n\n- Drafters are tied to specific target models and serving support.\n- Concurrency changes the winner, so tests need several load levels.\n- Non-greedy sampling makes parity checks statistical rather than exact.\n- GPU memory for keeping several drafter configs warm.\n\n## Effort\n\nTwo to three days for one model and two drafters; a couple of weeks for a reusable tool across models.\n\n## Inspired by\n\n- [DFly2 port on two GB10 Sparks, post on X](https://x.com/mannyv_sol/status/2126042617851089113)\n- [Tencent AngelSpec and DFly2 on GitHub](https://github.com/Tencent/AngelSpec)"
+    },
+    {
       "id": "hn:50648365",
       "section": "news",
       "type": "news",
